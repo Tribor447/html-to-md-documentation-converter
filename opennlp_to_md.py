@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 from __future__ import annotations
 
 import argparse
@@ -9,11 +8,12 @@ import sys
 import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Iterable
 from urllib.parse import unquote, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
-from markdownify import markdownify as md
+from markdownify import MarkdownConverter
 
 DEFAULT_URL = "https://opennlp.apache.org/docs/2.5.7/manual/opennlp.html"
 FENCE_RE = re.compile(r"^(```+|~~~+)")
@@ -34,11 +34,107 @@ class MarkdownHeading:
     level: int
     text: str
     line_index: int
+    path: tuple[str, ...]
     anchor_ids: list[str] = field(default_factory=list)
 
     @property
     def primary_id(self) -> str:
         return self.anchor_ids[0]
+
+
+class OpenNlpMarkdownConverter(MarkdownConverter):
+    def convert_pre(self, el: Tag, text: str, parent_tags: Iterable[str]) -> str:  
+        code = el.get_text("", strip=False).strip("\n")
+        if not code:
+            return "\n"
+        return f"\n```\n{code}\n```\n\n"
+
+    def convert_img(self, el: Tag, text: str, parent_tags: Iterable[str]) -> str:  
+        src = (el.get("src") or "").strip()
+        alt = normalize_space(el.get("alt") or "")
+        if not src:
+            return ""
+        return f"![{alt}]({src})"
+
+    def _cell_to_markdown(self, cell: Tag) -> str:
+        inner_html = cell.decode_contents()
+        markdown = self.convert(inner_html).strip()
+        markdown = markdown.replace("\r\n", "\n").replace("\r", "\n")
+        markdown = re.sub(r"\n{3,}", "\n\n", markdown)
+        markdown = re.sub(r"\n\s*\n", "<br><br>", markdown)
+        markdown = re.sub(r"\s*\n\s*", "<br>", markdown)
+        markdown = re.sub(r"\s+", " ", markdown).strip()
+        markdown = markdown.replace("|", r"\|")
+        return markdown
+
+    def _expand_table(self, table: Tag) -> list[list[tuple[str, bool]]]:
+        rows: list[list[tuple[str, bool]]] = []
+        spans: dict[int, list[object]] = {}
+        max_cols = 0
+
+        def fill_pending(row: list[tuple[str, bool]], col: int) -> int:
+            while col in spans:
+                rows_left, value, is_header = spans[col]
+                row.append((str(value), bool(is_header)))
+                rows_left = int(rows_left) - 1
+                if rows_left <= 0:
+                    del spans[col]
+                else:
+                    spans[col] = [rows_left, value, is_header]
+                col += 1
+            return col
+
+        for tr in table.find_all("tr"):
+            row: list[tuple[str, bool]] = []
+            col = fill_pending(row, 0)
+            cells = tr.find_all(["th", "td"], recursive=False)
+
+            for cell in cells:
+                col = fill_pending(row, col)
+                colspan = max(1, int(cell.get("colspan", 1) or 1))
+                rowspan = max(1, int(cell.get("rowspan", 1) or 1))
+                value = self._cell_to_markdown(cell)
+                is_header = cell.name == "th"
+
+                for offset in range(colspan):
+                    row.append((value, is_header))
+                    if rowspan > 1:
+                        spans[col + offset] = [rowspan - 1, value, is_header]
+                col += colspan
+
+            fill_pending(row, col)
+            rows.append(row)
+            max_cols = max(max_cols, len(row))
+
+        normalized: list[list[tuple[str, bool]]] = []
+        for row in rows:
+            if len(row) < max_cols:
+                row = row + [("", False)] * (max_cols - len(row))
+            normalized.append(row)
+
+        return normalized
+
+    def convert_table(self, el: Tag, text: str, parent_tags: Iterable[str]) -> str: 
+        grid = self._expand_table(el)
+        if not grid:
+            return "\n"
+
+        has_header = bool(el.find("thead")) or any(is_header for _, is_header in grid[0])
+        if has_header:
+            header_row = [value for value, _ in grid[0]]
+            data_rows = grid[1:]
+        else:
+            header_row = [f"Column {i + 1}" for i in range(len(grid[0]))]
+            data_rows = grid
+
+        lines = [
+            "| " + " | ".join(header_row) + " |",
+            "| " + " | ".join(["---"] * len(header_row)) + " |",
+        ]
+        for row in data_rows:
+            lines.append("| " + " | ".join(value for value, _ in row) + " |")
+
+        return "\n\n" + "\n".join(lines) + "\n\n"
 
 
 def parse_args() -> argparse.Namespace:
@@ -138,7 +234,7 @@ def pick_root(soup: BeautifulSoup) -> Tag:
         node = soup.select_one(selector)
         if node is not None:
             return node
-    return soup.body if soup.body is not None else soup  # type: ignore[return-value]
+    return soup.body if soup.body is not None else soup  
 
 
 def html_to_markdown(html_text: str, base_url: str) -> str:
@@ -147,12 +243,14 @@ def html_to_markdown(html_text: str, base_url: str) -> str:
     absolutize_links(soup, base_url)
     root = pick_root(soup)
 
-    markdown = md(
-        str(root),
+    converter = OpenNlpMarkdownConverter(
         heading_style="ATX",
         bullets="-",
         strip=["span"],
+        escape_asterisks=False,
+        escape_underscores=False,
     )
+    markdown = converter.convert(str(root))
 
     markdown = markdown.replace("\r\n", "\n").replace("\r", "\n")
     markdown = re.sub(r"[ \t]+\n", "\n", markdown)
@@ -205,6 +303,7 @@ def extract_html_headings(html_text: str, base_url: str) -> list[HtmlHeading]:
 def parse_markdown_headings(markdown: str) -> list[MarkdownHeading]:
     lines = markdown.splitlines()
     headings: list[MarkdownHeading] = []
+    path_stack: list[str] = []
     in_fence = False
     fence_token = ""
 
@@ -231,7 +330,12 @@ def parse_markdown_headings(markdown: str) -> list[MarkdownHeading]:
 
         level = len(match.group(1))
         text = match.group(2).strip()
-        headings.append(MarkdownHeading(level=level, text=text, line_index=index))
+
+        while len(path_stack) >= level:
+            path_stack.pop()
+        path_stack.append(text)
+
+        headings.append(MarkdownHeading(level=level, text=text, line_index=index, path=tuple(path_stack)))
 
     return headings
 
@@ -290,8 +394,39 @@ def render_global_toc(headings: list[MarkdownHeading]) -> list[str]:
     ]
 
     for heading in headings:
+        if heading.level > 4:
+            continue
         indent = "  " * (heading.level - 1)
-        lines.append(f"{indent}- [{heading.text}](#{heading.primary_id})")
+        bullet = "1." if heading.level == 1 else "-"
+        lines.append(f"{indent}{bullet} [{heading.text}](#{heading.primary_id})")
+
+    lines.append("")
+    return lines
+
+
+def chapter_children(headings: list[MarkdownHeading], chapter_index: int) -> list[MarkdownHeading]:
+    chapter = headings[chapter_index]
+    children: list[MarkdownHeading] = []
+
+    for next_index in range(chapter_index + 1, len(headings)):
+        candidate = headings[next_index]
+        if candidate.level <= chapter.level:
+            break
+        children.append(candidate)
+
+    return children
+
+
+def render_local_toc(children: list[MarkdownHeading]) -> list[str]:
+    if not children:
+        return []
+
+    base_level = min(child.level for child in children)
+    lines = ["**Contents**", ""]
+
+    for child in children:
+        indent = "  " * (child.level - base_level)
+        lines.append(f"{indent}- [{child.text}](#{child.primary_id})")
 
     lines.append("")
     return lines
@@ -317,6 +452,13 @@ def add_navigation_to_markdown(markdown: str, html_headings: list[HtmlHeading]) 
     headings = assign_anchor_ids(headings, html_ids_map)
 
     heading_by_line = {heading.line_index: heading for heading in headings}
+    local_toc_by_line: dict[int, list[str]] = {}
+
+    for i, heading in enumerate(headings):
+        if heading.level == 1 and i > 0:
+            children = chapter_children(headings, i)
+            if children:
+                local_toc_by_line[heading.line_index] = render_local_toc(children)
 
     output: list[str] = ['<a id="top"></a>', ""]
     output.extend(render_global_toc(headings))
@@ -327,6 +469,10 @@ def add_navigation_to_markdown(markdown: str, html_headings: list[HtmlHeading]) 
             for anchor_id in heading.anchor_ids:
                 output.append(f'<a id="{anchor_id}"></a>')
         output.append(line)
+
+        if index in local_toc_by_line:
+            output.append("")
+            output.extend(local_toc_by_line[index])
 
     text = "\n".join(output)
     text = re.sub(r"\n{3,}", "\n\n", text)
