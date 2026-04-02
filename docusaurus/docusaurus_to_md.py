@@ -1,47 +1,37 @@
 #!/usr/bin/env python3
-    if not resp.encoding:
-        resp.encoding = resp.apparent_encoding or "utf-8"
-    return resp.text
+            if title or children:
+                nodes.append(NavNode(title=title or "Section", href=href, children=children, kind="category"))
+        elif title:
+            nodes.append(NavNode(title=title, href=href, kind="link"))
+    return nodes
 
 
-def select_article(soup: BeautifulSoup) -> Optional[Tag]:
-    for selector in ARTICLE_SELECTORS:
-        node = soup.select_one(selector)
-        if node is not None:
-            return node
-    return soup.body or soup
+def extract_sidebar_tree(soup: BeautifulSoup, base_url: str, domain: str) -> List[NavNode]:
+    sidebar = select_sidebar(soup)
+    if sidebar is None:
+        return []
+    ul = sidebar.find("ul")
+    if ul is None:
+        return []
+    return parse_nav_list(ul, base_url, domain)
 
 
-def extract_title(soup: BeautifulSoup) -> str:
-    h1 = soup.find("h1")
-    if h1 is not None:
-        text = h1.get_text(" ", strip=True)
-        if text:
-            return text
-    if soup.title and soup.title.string:
-        return soup.title.string.strip()
-    return "Untitled"
+def flatten_nav_urls(nodes: List[NavNode]) -> List[str]:
+    urls: List[str] = []
+    for node in nodes:
+        if node.href:
+            urls.append(node.href)
+        urls.extend(flatten_nav_urls(node.children))
+    return urls
 
 
-def extract_candidate_links(soup: BeautifulSoup, base_url: str, domain: str) -> Set[str]:
-    links: Set[str] = set()
-    for a in soup.select("a[href]"):
-        href = (a.get("href") or "").strip()
-        if not href or href.startswith("#") or href.startswith("javascript:"):
-            continue
-        abs_url = normalize_url(urljoin(base_url, href))
-        if urlsplit(abs_url).netloc != domain:
-            continue
-        links.add(abs_url)
-    return links
-
-
-def crawl(entry_url: str, max_pages: int = 20) -> Dict[str, str]:
+def crawl(entry_url: str, max_pages: int = 20) -> Tuple[Dict[str, PageRecord], List[NavNode]]:
     entry_url = normalize_url(entry_url)
     domain = urlsplit(entry_url).netloc
     queue: deque[str] = deque([entry_url])
     seen: Set[str] = set()
-    pages: Dict[str, str] = {}
+    pages: Dict[str, PageRecord] = {}
+    sidebar_tree: List[NavNode] = []
 
     while queue and len(pages) < max_pages:
         url = queue.popleft()
@@ -50,25 +40,48 @@ def crawl(entry_url: str, max_pages: int = 20) -> Dict[str, str]:
         seen.add(url)
 
         html = fetch_text(url)
-        pages[url] = html
         soup = BeautifulSoup(html, "html.parser")
+        title = extract_title(soup)
+        pages[url] = PageRecord(url=url, title=title, html_text=html)
 
-        for link in extract_candidate_links(soup, url, domain):
+        nav = extract_sidebar_tree(soup, url, domain)
+        if nav and not sidebar_tree:
+            sidebar_tree = nav
+
+        for link in flatten_nav_urls(nav):
             if link not in seen:
                 queue.append(link)
 
-    return pages
+    return pages, sidebar_tree
 
 
-def build_combined_markdown(pages: Dict[str, str]) -> str:
-    parts: List[str] = []
-    for url, html in pages.items():
-        soup = BeautifulSoup(html, "html.parser")
-        title = extract_title(soup)
+def render_navigation(nodes: List[NavNode], indent: int = 0) -> List[str]:
+    lines: List[str] = []
+    for node in nodes:
+        prefix = "  " * indent + "- "
+        if node.href:
+            lines.append(f"{prefix}{node.title} ({node.href})")
+        else:
+            lines.append(f"{prefix}{node.title}")
+        lines.extend(render_navigation(node.children, indent + 1))
+    return lines
+
+
+def build_combined_markdown(pages: Dict[str, PageRecord], nav: List[NavNode]) -> str:
+    parts = ["# Documentation\n", "## Navigation\n"]
+    parts.append("\n".join(render_navigation(nav)) + "\n")
+    parts.append("\n## Content\n")
+
+    ordered = flatten_nav_urls(nav)
+    for url in ordered:
+        if url not in pages:
+            continue
+        record = pages[url]
+        soup = BeautifulSoup(record.html_text, "html.parser")
         article = select_article(soup)
-        markdown = md(str(article), heading_style="ATX").strip()
-        parts.append(f"# {title}\n\n<!-- source_url: {url} -->\n\n{markdown}\n")
-    return "\n---\n\n".join(parts) + "\n"
+        body = md(str(article), heading_style="ATX").strip()
+        parts.append(f"\n# {record.title}\n\n<!-- source_url: {url} -->\n\n{body}\n")
+    return "".join(parts)
 
 
 def build_arg_parser() -> argparse.ArgumentParser:
@@ -82,10 +95,9 @@ def build_arg_parser() -> argparse.ArgumentParser:
 def main(argv: Optional[List[str]] = None) -> int:
     parser = build_arg_parser()
     args = parser.parse_args(argv)
-
-    pages = crawl(args.url, max_pages=args.max_pages)
-    text = build_combined_markdown(pages)
-    args.out.write_text(text, encoding="utf-8")
+    pages, nav = crawl(args.url, args.max_pages)
+    result = build_combined_markdown(pages, nav)
+    args.out.write_text(result, encoding="utf-8")
     return 0
 
 
