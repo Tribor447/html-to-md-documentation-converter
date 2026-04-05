@@ -4,6 +4,8 @@ from __future__ import annotations
 import argparse
 import copy
 import hashlib
+import html
+import json
 import mimetypes
 import os
 import posixpath
@@ -17,11 +19,16 @@ from typing import Dict, Iterable, List, Optional, Set, Tuple
 from urllib.parse import SplitResult, urljoin, urlsplit, urlunsplit, urldefrag, unquote
 
 import requests
+import yaml
 from bs4 import BeautifulSoup, NavigableString, Tag
 from markdownify import markdownify as md
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 
-USER_AGENT = "Mozilla/5.0 (compatible; DocusaurusToMarkdown/2.0)"
+USER_AGENT = (
+    "Mozilla/5.0 (compatible; DocusaurusToMarkdown/2.0; +https://example.invalid/bot)"
+)
 TIMEOUT = 30
 
 ARTICLE_SELECTORS = [
@@ -59,6 +66,7 @@ NOISE_SELECTORS = [
     "[class*='theme-edit-this-page']",
     "[class*='editThisPage']",
     "[class*='lastUpdated']",
+    "[data-theme='announcementBar']",
 ]
 
 RAW_HTML_BLOCK_TAGS = {"table", "iframe", "video", "audio", "svg", "details"}
@@ -102,7 +110,25 @@ class NavNode:
     title: str
     href: Optional[str] = None
     children: List["NavNode"] = field(default_factory=list)
-    kind: str = "link"
+    kind: str = "link"  
+
+    def to_dict(
+        self,
+        url_to_anchor: Dict[str, str],
+        url_to_virtual_path: Dict[str, Path],
+    ) -> Dict[str, object]:
+        payload: Dict[str, object] = {"title": self.title, "kind": self.kind}
+        if self.href:
+            payload["source_url"] = self.href
+            if self.href in url_to_anchor:
+                payload["anchor"] = url_to_anchor[self.href]
+            if self.href in url_to_virtual_path:
+                payload["virtual_path"] = url_to_virtual_path[self.href].as_posix()
+        if self.children:
+            payload["children"] = [
+                child.to_dict(url_to_anchor, url_to_virtual_path) for child in self.children
+            ]
+        return payload
 
 
 @dataclass
@@ -124,6 +150,9 @@ class DocusaurusConverter:
         out_dir: Path,
         delay: float = 0.15,
         max_pages: Optional[int] = None,
+        save_html: bool = False,
+        use_sitemap: bool = False,
+        docs_prefix_override: Optional[str] = None,
         combined_filename: str = "combined.md",
     ) -> None:
         self.entry_url = normalize_url(entry_url)
@@ -132,6 +161,9 @@ class DocusaurusConverter:
         self.out_root = out_dir
         self.delay = delay
         self.max_pages = max_pages
+        self.save_html = save_html
+        self.use_sitemap = use_sitemap
+        self.docs_prefix_override = docs_prefix_override
         self.combined_filename = combined_filename
 
         self.session = build_session()
@@ -147,20 +179,24 @@ class DocusaurusConverter:
         self.combined_output_path: Optional[Path] = None
         self.entry_final_url: Optional[str] = None
 
+    # -------------------------- Public API --------------------------
     def run(self) -> None:
         print(f"\n=== {self.entry_url} ===")
         entry_html, entry_final_url = self.fetch_text(self.entry_url)
         self.entry_final_url = entry_final_url
         entry_soup = BeautifulSoup(entry_html, "html.parser")
 
-        self.docs_prefix = guess_docs_prefix(entry_final_url, entry_soup)
+        self.docs_prefix = self.docs_prefix_override or guess_docs_prefix(
+            entry_final_url, entry_soup
+        )
         self.site_slug = build_site_slug(entry_final_url, self.docs_prefix)
         self.site_dir = self.out_root / self.site_slug
         self.combined_output_path = self.site_dir / self.combined_filename
-
         assets_dir = self.site_dir / "assets"
         self.site_dir.mkdir(parents=True, exist_ok=True)
         assets_dir.mkdir(parents=True, exist_ok=True)
+        if self.save_html:
+            (self.site_dir / "html_cache").mkdir(parents=True, exist_ok=True)
 
         print(f"docs prefix : {self.docs_prefix}")
         print(f"output dir  : {self.site_dir}")
@@ -170,9 +206,12 @@ class DocusaurusConverter:
         self.assign_virtual_paths()
         self.assign_page_anchors()
         self.convert_pages_to_fragments()
+        self.write_navigation_sidecars()
         self.write_combined_markdown()
+        self.write_manifests()
         print(f"done: {len(self.pages)} pages, {len(self.asset_cache)} assets")
 
+    # -------------------------- Fetching ---------------------------
     def fetch_text(self, url: str) -> Tuple[str, str]:
         resp = self.session.get(url, timeout=TIMEOUT)
         resp.raise_for_status()
@@ -190,10 +229,17 @@ class DocusaurusConverter:
         content_type = resp.headers.get("content-type", "").split(";", 1)[0].strip()
         return resp.content, normalize_url(resp.url), content_type or None
 
+    # --------------------------- Crawl -----------------------------
     def crawl(self, entry_html: str, entry_final_url: str) -> None:
         assert self.docs_prefix is not None
+        start_urls: List[str] = [entry_final_url]
+        if self.use_sitemap:
+            sitemap_urls = self.discover_from_sitemap()
+            if sitemap_urls:
+                print(f"sitemap seeds: {len(sitemap_urls)}")
+                start_urls = sorted(set(start_urls) | sitemap_urls)
 
-        queue: deque[str] = deque([entry_final_url])
+        queue: deque[str] = deque(start_urls)
         seen: Set[str] = set()
 
         while queue:
@@ -221,9 +267,7 @@ class DocusaurusConverter:
             sidebar = select_sidebar(soup, self.domain, base_url=final_url)
             title = extract_title(soup, article)
             sidebar_tree = extract_sidebar_tree(
-                sidebar,
-                current_domain=self.domain,
-                base_url=final_url,
+                sidebar, current_domain=self.domain, base_url=final_url
             )
             if sidebar_tree:
                 merge_nav_lists(self.sidebar_tree, sidebar_tree)
@@ -234,7 +278,8 @@ class DocusaurusConverter:
                     print(f"[skip] no article/main/sidebar in {final_url}")
                     continue
 
-            if final_url not in self.pages:
+            existing = self.pages.get(final_url)
+            if existing is None:
                 self.pages[final_url] = PageRecord(
                     url=url,
                     final_url=final_url,
@@ -242,7 +287,6 @@ class DocusaurusConverter:
                     html_text=html_text,
                     sidebar_tree=sidebar_tree,
                 )
-
             self.url_alias_to_canonical[url] = final_url
             self.url_alias_to_canonical[final_url] = final_url
             print(f"[page] {final_url}")
@@ -257,6 +301,28 @@ class DocusaurusConverter:
                 if link not in seen:
                     queue.append(link)
 
+    def discover_from_sitemap(self) -> Set[str]:
+        assert self.docs_prefix is not None
+        site_root = f"{self.entry_parts.scheme}://{self.entry_parts.netloc}"
+        sitemap_urls = [f"{site_root}/sitemap.xml"]
+        prefix_sitemap = urljoin(site_root, self.docs_prefix.lstrip("/") + "/sitemap.xml")
+        if prefix_sitemap not in sitemap_urls:
+            sitemap_urls.append(prefix_sitemap)
+
+        discovered: Set[str] = set()
+        for sitemap_url in sitemap_urls:
+            try:
+                xml_text, _ = self.fetch_text(sitemap_url)
+            except Exception:
+                continue
+            locs = re.findall(r"<loc>(.*?)</loc>", xml_text, flags=re.IGNORECASE | re.DOTALL)
+            for loc in locs:
+                norm = normalize_url(html.unescape(loc.strip()))
+                if self.is_allowed_page(norm):
+                    discovered.add(norm)
+        return discovered
+
+    # ------------------------- Output maps -------------------------
     def assign_virtual_paths(self) -> None:
         assert self.docs_prefix is not None
         taken: Set[Path] = set()
@@ -273,7 +339,6 @@ class DocusaurusConverter:
 
     def assign_page_anchors(self) -> None:
         taken: Set[str] = set()
-
         for url, record in sorted(self.pages.items()):
             assert record.virtual_path is not None
             anchor = virtual_path_to_page_anchor(record.virtual_path)
@@ -288,6 +353,7 @@ class DocusaurusConverter:
             if record.url:
                 self.url_to_anchor[record.url] = anchor
 
+    # ------------------------ Conversion ---------------------------
     def convert_pages_to_fragments(self) -> None:
         assert self.site_dir is not None
         assert self.combined_output_path is not None
@@ -310,12 +376,18 @@ class DocusaurusConverter:
                 page_anchor=record.page_anchor,
                 current_output=self.combined_output_path,
             )
-
             markdown_body = html_fragment_to_markdown(root)
             markdown_body = postprocess_markdown(markdown_body)
             if not starts_with_markdown_heading(markdown_body):
                 markdown_body = f"# {record.title}\n\n" + markdown_body.lstrip()
             record.markdown_body = markdown_body.strip() + "\n"
+
+            if self.save_html:
+                assert record.virtual_path is not None
+                cache_path = self.site_dir / "html_cache" / record.virtual_path.relative_to("docs")
+                cache_path = cache_path.with_suffix(".html")
+                cache_path.parent.mkdir(parents=True, exist_ok=True)
+                cache_path.write_text(record.html_text, encoding="utf-8")
 
     def prepare_content(
         self,
@@ -325,7 +397,6 @@ class DocusaurusConverter:
         current_output: Optional[Path],
     ) -> None:
         assert self.site_dir is not None
-
         placeholders: Dict[str, str] = {}
         idx = 0
 
@@ -341,7 +412,7 @@ class DocusaurusConverter:
                 unique_id = compose_heading_anchor(page_anchor, heading_id)
                 token = f"DOC2MDPLACEHOLDERTOKEN{idx}END"
                 idx += 1
-                placeholders[token] = f'<a id="{unique_id}"></a>\n\n'
+                placeholders[token] = f'<a id="{html.escape(unique_id, quote=True)}"></a>\n\n'
                 heading.insert_before(NavigableString(token))
 
         for img in list(root.find_all("img")):
@@ -358,6 +429,7 @@ class DocusaurusConverter:
             except Exception as exc:
                 print(f"[warn] asset fetch failed {abs_url}: {exc}")
 
+        # Rewrite links to anchors/assets.
         for a in list(root.find_all("a", href=True)):
             href = a.get("href", "").strip()
             if not href or href.startswith("javascript:"):
@@ -433,13 +505,12 @@ class DocusaurusConverter:
         )
         for token, replacement in placeholders.items():
             markdown = markdown.replace(token, replacement)
-
         root.clear()
         root.append(NavigableString(markdown))
 
+    # ------------------------ Assets -------------------------------
     def download_asset(self, asset_url: str) -> Path:
         assert self.site_dir is not None
-
         asset_url = normalize_url(asset_url)
         if asset_url in self.asset_cache:
             return self.asset_cache[asset_url]
@@ -453,12 +524,12 @@ class DocusaurusConverter:
         abs_path = self.site_dir / rel_path
         abs_path.parent.mkdir(parents=True, exist_ok=True)
         abs_path.write_bytes(payload)
-
         self.asset_cache[asset_url] = rel_path
         if final_url != asset_url:
             self.asset_cache[final_url] = rel_path
         return rel_path
 
+    # ------------------------ Navigation --------------------------
     def canonicalize_page_url(self, url: str) -> str:
         return self.url_alias_to_canonical.get(url, url)
 
@@ -466,10 +537,25 @@ class DocusaurusConverter:
         nav = copy.deepcopy(self.sidebar_tree)
         if not nav:
             nav = build_url_tree(self.pages, self.url_to_virtual_path)
+
+        nav_urls = {self.canonicalize_page_url(url) for url in flatten_nav_urls(nav)}
+        missing_urls = [
+            url
+            for url in self.ordered_page_urls_from_nav(nav)
+            if url not in nav_urls
+        ]
+        if missing_urls:
+            other_children = [
+                NavNode(title=self.pages[url].title, href=url, kind="link") for url in missing_urls
+            ]
+            nav.append(NavNode(title="Other pages", children=other_children, kind="category"))
         return nav
 
     def ordered_page_urls(self) -> List[str]:
         nav = self.effective_nav_tree()
+        return self.ordered_page_urls_from_nav(nav)
+
+    def ordered_page_urls_from_nav(self, nav: List[NavNode]) -> List[str]:
         ordered = []
         seen = set()
         for url in flatten_nav_urls(nav):
@@ -486,25 +572,51 @@ class DocusaurusConverter:
                 seen.add(url)
         return ordered
 
+    def write_navigation_sidecars(self) -> None:
+        assert self.site_dir is not None
+        nav = self.effective_nav_tree()
+        nav_payload = [
+            node.to_dict(self.url_to_anchor, self.url_to_virtual_path) for node in nav
+        ]
+        (self.site_dir / "navigation.yml").write_text(
+            yaml.safe_dump(nav_payload, sort_keys=False, allow_unicode=True),
+            encoding="utf-8",
+        )
+        (self.site_dir / "navigation.json").write_text(
+            json.dumps(nav_payload, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+
     def write_combined_markdown(self) -> None:
         assert self.site_dir is not None
         assert self.combined_output_path is not None
 
         nav = self.effective_nav_tree()
-        ordered_urls = self.ordered_page_urls()
+        ordered_urls = self.ordered_page_urls_from_nav(nav)
         site_title = derive_bundle_title(
             entry_url=self.entry_final_url or self.entry_url,
-            entry_title=self.pages.get(
-                self.entry_final_url or self.entry_url,
-                PageRecord("", "", "", "")
-            ).title,
+            entry_title=self.pages.get(self.entry_final_url or self.entry_url, PageRecord("", "", "", "")).title,
             site_slug=self.site_slug or "site",
         )
 
-        parts: List[str] = []
-        parts.append(f"# {site_title}\n\n")
-        parts.append("## Navigation\n\n")
+        front_matter = {
+            "title": site_title,
+            "entry_url": self.entry_url,
+            "docs_prefix": self.docs_prefix,
+            "page_count": len(self.pages),
+            "asset_count": len(self.asset_cache),
+            "generated_by": "docusaurus_to_md.py",
+            "format": "single_markdown_bundle",
+        }
 
+        parts: List[str] = []
+        parts.append(
+            "---\n"
+            + yaml.safe_dump(front_matter, sort_keys=False, allow_unicode=True).strip()
+            + "\n---\n"
+        )
+        parts.append(f"# {site_title}\n")
+        parts.append("## Navigation\n")
         nav_lines = render_singlefile_navigation(nav, self.url_to_anchor)
         if nav_lines:
             parts.append("\n".join(nav_lines) + "\n")
@@ -529,9 +641,38 @@ class DocusaurusConverter:
         combined_text = "".join(parts).rstrip() + "\n"
         self.combined_output_path.write_text(combined_text, encoding="utf-8")
 
+    def write_manifests(self) -> None:
+        assert self.site_dir is not None
+        assert self.docs_prefix is not None
+        assert self.combined_output_path is not None
+
+        manifest = {
+            "entry_url": self.entry_url,
+            "docs_prefix": self.docs_prefix,
+            "site_slug": self.site_slug,
+            "combined_markdown": self.combined_output_path.name,
+            "page_count": len(self.pages),
+            "asset_count": len(self.asset_cache),
+            "pages": [
+                {
+                    "source_url": url,
+                    "title": record.title,
+                    "anchor": record.page_anchor,
+                    "virtual_path": self.url_to_virtual_path[url].as_posix(),
+                }
+                for url, record in sorted(
+                    self.pages.items(),
+                    key=lambda item: self.url_to_virtual_path[item[0]].as_posix(),
+                )
+            ],
+        }
+        (self.site_dir / "site_manifest.json").write_text(
+            json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+
+    # ------------------------ Filters -----------------------------
     def is_allowed_page(self, url: str) -> bool:
         assert self.docs_prefix is not None
-
         parts = urlsplit(url)
         if parts.netloc != self.domain:
             return False
@@ -539,12 +680,28 @@ class DocusaurusConverter:
             return False
         if parts.path.endswith("/search") or parts.path.endswith("/search/"):
             return False
+        if "#" in url:
+            return False
         ext = Path(parts.path).suffix.lower()
         return ext in DOC_PAGE_EXTENSIONS
 
 
+# -------------------------- Helpers -------------------------------
+
 def build_session() -> requests.Session:
     session = requests.Session()
+    retries = Retry(
+        total=5,
+        connect=5,
+        read=5,
+        backoff_factor=1.0,
+        allowed_methods=frozenset(["GET", "HEAD"]),
+        status_forcelist=[429, 500, 502, 503, 504],
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retries, pool_connections=20, pool_maxsize=20)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
     session.headers.update({"User-Agent": USER_AGENT})
     return session
 
@@ -699,9 +856,7 @@ def select_article(soup: BeautifulSoup) -> Optional[Tag]:
 
 
 def select_sidebar(
-    soup: BeautifulSoup,
-    current_domain: str,
-    base_url: Optional[str] = None,
+    soup: BeautifulSoup, current_domain: str, base_url: Optional[str] = None
 ) -> Optional[Tag]:
     candidates: List[Tuple[int, Tag]] = []
     seen: Set[int] = set()
@@ -753,9 +908,7 @@ def clean_text(text: str) -> str:
 
 
 def extract_sidebar_tree(
-    sidebar: Optional[Tag],
-    current_domain: str,
-    base_url: Optional[str] = None,
+    sidebar: Optional[Tag], current_domain: str, base_url: Optional[str] = None
 ) -> List[NavNode]:
     if sidebar is None:
         return []
@@ -781,23 +934,17 @@ def extract_sidebar_tree(
 
 
 def parse_nav_list(
-    ul: Tag,
-    current_domain: str,
-    base_url: Optional[str] = None,
+    ul: Tag, current_domain: str, base_url: Optional[str] = None
 ) -> List[NavNode]:
     nodes: List[NavNode] = []
     for li in ul.find_all("li", recursive=False):
         child_ul = li.find("ul", recursive=False)
         title, href = extract_nav_label(
-            li,
-            current_domain=current_domain,
-            base_url=base_url,
+            li, current_domain=current_domain, base_url=base_url
         )
         if child_ul is not None:
             children = parse_nav_list(
-                child_ul,
-                current_domain=current_domain,
-                base_url=base_url,
+                child_ul, current_domain=current_domain, base_url=base_url
             )
             if title or children:
                 nodes.append(
@@ -816,9 +963,7 @@ def parse_nav_list(
 
 
 def extract_nav_label(
-    li: Tag,
-    current_domain: str,
-    base_url: Optional[str] = None,
+    li: Tag, current_domain: str, base_url: Optional[str] = None
 ) -> Tuple[Optional[str], Optional[str]]:
     title: Optional[str] = None
     href: Optional[str] = None
@@ -904,13 +1049,10 @@ def flatten_nav_urls(nodes: List[NavNode]) -> List[str]:
 
 
 def extract_candidate_links(
-    soup: BeautifulSoup,
-    domain: str,
-    docs_prefix: str,
-    base_url: Optional[str] = None,
+    soup: BeautifulSoup, domain: str, docs_prefix: str, base_url: Optional[str] = None
 ) -> Set[str]:
     containers: List[Tag] = []
-    sidebar = select_sidebar(soup, domain, base_url=base_url)
+    sidebar = select_sidebar(soup, domain)
     article = select_article(soup)
     if sidebar is not None:
         containers.append(sidebar)
@@ -944,7 +1086,7 @@ def extract_candidate_links(
 
 def url_to_rel_output(url: str, docs_prefix: str) -> Path:
     path = urlsplit(url).path
-    rel = path[len(docs_prefix):] if path.startswith(docs_prefix) else path.lstrip("/")
+    rel = path[len(docs_prefix) :] if path.startswith(docs_prefix) else path.lstrip("/")
     rel = rel.lstrip("/")
     if not rel or rel.endswith("/"):
         rel = rel.rstrip("/")
@@ -1044,11 +1186,13 @@ def postprocess_markdown(text: str) -> str:
     return text.strip() + "\n"
 
 
+
+
 def starts_with_markdown_heading(text: str) -> bool:
     probe = text.lstrip()
-    probe = re.sub(r'^(?:<a\s+id="[^"]+"></a>\s*)+', "", probe)
+    probe = re.sub(r'^(?:<a\s+id="[^"]+"></a>\s*)+', '', probe)
     probe = probe.lstrip()
-    return bool(re.match(r"^#{1,6}\s+", probe))
+    return bool(re.match(r'^#{1,6}\s+', probe))
 
 
 def render_singlefile_navigation(
@@ -1088,7 +1232,8 @@ def build_url_tree(pages: Dict[str, PageRecord], url_to_virtual_path: Dict[str, 
                 folder_nodes[key] = node
             parent_key = key
 
-        folder_nodes[parent_key].children.append(NavNode(title=record.title, href=url, kind="link"))
+        title = record.title
+        folder_nodes[parent_key].children.append(NavNode(title=title, href=url, kind="link"))
 
     return root.children
 
@@ -1139,6 +1284,16 @@ def build_arg_parser() -> argparse.ArgumentParser:
         help="Maximum number of pages per site.",
     )
     parser.add_argument(
+        "--save-html",
+        action="store_true",
+        help="Save original HTML files next to the output for debugging.",
+    )
+    parser.add_argument(
+        "--use-sitemap",
+        action="store_true",
+        help="Use sitemap.xml as extra crawl seeds. Disable if it pulls unwanted versions.",
+    )
+    parser.add_argument(
         "--combined-filename",
         default="combined.md",
         help="Name of the single combined Markdown file (default: combined.md).",
@@ -1163,6 +1318,8 @@ def main(argv: Optional[List[str]] = None) -> int:
             out_dir=out_dir,
             delay=args.delay,
             max_pages=args.max_pages,
+            save_html=args.save_html,
+            use_sitemap=args.use_sitemap,
             combined_filename=args.combined_filename,
         )
         try:
@@ -1176,3 +1333,4 @@ def main(argv: Optional[List[str]] = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
