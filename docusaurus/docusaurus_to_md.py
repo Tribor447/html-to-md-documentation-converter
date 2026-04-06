@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 from __future__ import annotations
 
 import argparse
@@ -634,13 +635,9 @@ class DocusaurusConverter:
         )
 
         front_matter = {
-            "title": site_title,
             "entry_url": self.entry_url,
-            "docs_prefix": self.docs_prefix,
             "page_count": len(self.pages),
             "asset_count": len(self.asset_cache),
-            "generated_by": "docusaurus_to_md.py",
-            "format": "single_markdown_bundle",
         }
 
         parts: List[str] = []
