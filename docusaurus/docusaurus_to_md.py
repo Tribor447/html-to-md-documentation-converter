@@ -125,11 +125,11 @@ ADMONITION_KIND_MAP = {
 }
 
 ADMONITION_STYLE_MAP = {
-    "note": {"border": "#2563eb", "bg": "rgba(37, 99, 235, 0.10)", "icon": "📝", "title": "NOTE"},
-    "info": {"border": "#0891b2", "bg": "rgba(8, 145, 178, 0.10)", "icon": "ℹ️", "title": "INFO"},
-    "tip": {"border": "#16a34a", "bg": "rgba(22, 163, 74, 0.10)", "icon": "💡", "title": "TIP"},
-    "warning": {"border": "#d97706", "bg": "rgba(217, 119, 6, 0.12)", "icon": "⚠️", "title": "WARNING"},
-    "danger": {"border": "#dc2626", "bg": "rgba(220, 38, 38, 0.10)", "icon": "⛔", "title": "DANGER"},
+    "note": {"border": "#2563eb", "bg": "#eaf3ff", "fg": "#1e3a8a", "icon": "📝", "title": "NOTE"},
+    "info": {"border": "#0891b2", "bg": "#e6f7ff", "fg": "#0c4a6e", "icon": "ℹ️", "title": "INFO"},
+    "tip": {"border": "#16a34a", "bg": "#edf7ed", "fg": "#14532d", "icon": "💡", "title": "TIP"},
+    "warning": {"border": "#d97706", "bg": "#fff4e5", "fg": "#7c2d12", "icon": "⚠️", "title": "WARNING"},
+    "danger": {"border": "#dc2626", "bg": "#fdecec", "fg": "#7f1d1d", "icon": "⛔", "title": "DANGER"},
 }
 
 SANITIZED_HTML_ATTRS = {
@@ -1342,6 +1342,21 @@ def clone_tag(node: Tag) -> Tag:
     return cloned
 
 
+def merge_inline_style(existing: Optional[object], addition: str) -> str:
+    base = ""
+    if isinstance(existing, list):
+        base = " ".join(str(x) for x in existing if x)
+    elif existing:
+        base = str(existing)
+    base = base.strip()
+    addition = addition.strip()
+    if not base:
+        return addition
+    if not base.endswith(";"):
+        base += ";"
+    return f"{base} {addition}".strip()
+
+
 def render_admonition_block(node: Tag) -> str:
     clone = clone_tag(node)
     for icon in list(clone.select("[class*=admonitionIcon], [class*=alertIcon]")):
@@ -1360,21 +1375,85 @@ def render_admonition_block(node: Tag) -> str:
         content = clone
 
     content = clone_tag(content)
-    convert_nested_pre_to_clean_html(content)
-    sanitize_raw_html_tree(content)
+    admon_md = markdownify_fragment(content)
 
-    inner_html = "".join(str(child) for child in content.contents).strip()
-    if not inner_html:
-        inner_html = f"<p>{html.escape(title)}</p>"
+    label = theme["title"].upper()
+    lines: List[str] = [f"> [!{label}]"]
+    normalized_title = clean_text(title).upper()
+    if normalized_title and normalized_title != label:
+        lines.append(f"> **{escape_markdown_text(title)}**")
 
-    return (
-        "\n"
-        f'<div style="margin: 1rem 0; padding: 1rem 1.2rem; border-left: 5px solid {theme["border"]}; background: {theme["bg"]}; border-radius: 0.75rem;">'
-        f'<div style="margin: 0 0 0.85rem 0; font-weight: 700; text-transform: uppercase; letter-spacing: 0.02em; color: {theme["border"]};">{theme["icon"]} {html.escape(title)}</div>'
-        f'{inner_html}'
-        f'</div>'
-        "\n"
+    body_lines = admon_md.splitlines()
+    if not body_lines:
+        body_lines = [title]
+
+    prev_blank = False
+    for line in body_lines:
+        stripped = line.rstrip()
+        if not stripped:
+            if not prev_blank:
+                lines.append(">")
+            prev_blank = True
+            continue
+        lines.append(f"> {stripped}")
+        prev_blank = False
+
+    return "\n" + "\n".join(lines).rstrip() + "\n"
+
+
+def markdownify_fragment(root: Tag) -> str:
+    fragment = clone_tag(root)
+    placeholders: Dict[str, str] = {}
+    idx = 0
+
+    complex_nodes: List[Tag] = []
+    for tag in list(fragment.find_all(True)):
+        if tag.name in RAW_HTML_BLOCK_TAGS:
+            complex_nodes.append(tag)
+            continue
+        classes = " ".join(tag.get("class", []))
+        if "tabs-container" in classes or tag.get("role") == "tablist":
+            complex_nodes.append(tag)
+            continue
+        if tag.name == "pre":
+            complex_nodes.append(tag)
+            continue
+        if tag.name == "code" and tag.parent and tag.parent.name == "pre":
+            continue
+
+    processed: Set[int] = set()
+    for node in complex_nodes:
+        if id(node) in processed:
+            continue
+        if any(id(parent) in processed for parent in node.parents if isinstance(parent, Tag)):
+            continue
+        token = f"DOC2MDFRAGMENTTOKEN{idx}END"
+        idx += 1
+        placeholders[token] = render_complex_block(node)
+        processed.add(id(node))
+        node.replace_with(NavigableString(f"\n\n{token}\n\n"))
+
+    html_text = str(fragment)
+    markdown = md(
+        html_text,
+        heading_style="ATX",
+        bullets="-",
+        strong_em_symbol="*",
     )
+    for token, replacement in placeholders.items():
+        markdown = markdown.replace(token, replacement)
+    markdown = cleanup_markdown_fragment(markdown)
+    return markdown.strip()
+
+
+def cleanup_markdown_fragment(text: str) -> str:
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
+def escape_markdown_text(text: str) -> str:
+    return re.sub(r"([\\`*_{}\[\]()#+.!|-])", r"\\\1", text)
 
 
 def convert_nested_pre_to_clean_html(root: Tag) -> None:
@@ -1399,8 +1478,8 @@ def render_pre_html(pre: Tag) -> str:
     escaped = html.escape(text.replace("\r\n", "\n").rstrip("\n"))
     class_attr = f' class="language-{html.escape(language, quote=True)}"' if language else ""
     return (
-        '<pre style="margin: 1rem 0; padding: 0.9rem 1rem; background: #0b1220; color: #f8fafc; border-radius: 0.75rem; overflow: auto;"><code'
-        f'{class_attr}>{escaped}</code></pre>'
+        '<pre style="margin: 1rem 0; padding: 0.9rem 1rem; background: #0b1220; color: #f8fafc; border-radius: 0.75rem; overflow-x: auto; white-space: pre; word-break: normal; overflow-wrap: normal; tab-size: 4;"><code'
+        f'{class_attr} style="white-space: pre; word-break: normal; overflow-wrap: normal; display: block; line-height: 1.5;">{escaped}</code></pre>'
     )
 
 
@@ -1434,17 +1513,93 @@ def extract_preformatted_text(pre: Tag) -> Tuple[str, str]:
     text = normalize_unicode_text(text)
     text = text.replace("\r\n", "\n").replace("\r", "\n")
     text = "\n".join(line.rstrip() for line in text.split("\n"))
+    text = repair_shell_command_wrapping(text, language)
     return text.strip("\n"), language
+
+
+def repair_shell_command_wrapping(text: str, language: str) -> str:
+    shell_like = {"", "bash", "shell", "sh", "console", "terminal", "shell-session"}
+    if language.lower() not in shell_like:
+        return text
+
+    blocks = text.split("\n\n")
+    repaired_blocks: List[str] = []
+    for block in blocks:
+        lines = [line.rstrip() for line in block.split("\n")]
+        if not lines:
+            repaired_blocks.append(block)
+            continue
+
+        merged: List[str] = []
+        i = 0
+        while i < len(lines):
+            line = lines[i]
+            if re.match(r"^\s*[$#>]\s", line):
+                parts = [line]
+                j = i + 1
+                while j < len(lines):
+                    nxt = lines[j]
+                    if not nxt.strip():
+                        break
+                    if re.match(r"^\s*[$#>]\s", nxt):
+                        break
+                    if looks_like_command_output(nxt) and len(parts) == 1:
+                        break
+                    parts.append(nxt)
+                    j += 1
+                merged.append(normalize_shell_fragments(parts))
+                i = j
+            else:
+                merged.append(line)
+                i += 1
+        repaired_blocks.append("\n".join(merged))
+    return "\n\n".join(repaired_blocks)
+
+
+def looks_like_command_output(line: str) -> bool:
+    stripped = line.strip()
+    if not stripped:
+        return False
+    if stripped.startswith(("error", "warning", "info", "[INFO]", "[ERROR]", "[WARN]")):
+        return True
+    if stripped.endswith(("%", ":")):
+        return True
+    if re.match(r"^[A-Za-z]:\\", stripped):
+        return True
+    if re.match(r"^/[^\s]+", stripped):
+        return True
+    return False
+
+
+def normalize_shell_fragments(parts: List[str]) -> str:
+    prompt = parts[0]
+    rest = [frag.strip() for frag in parts[1:] if frag.strip()]
+    if not rest:
+        return prompt
+    merged = prompt.rstrip()
+    for frag in rest:
+        if merged.endswith(("=", ":", ",", "(", "[", "{", "/")):
+            merged += frag
+        elif frag.startswith(("=", ":", ",", ".", ")", "]", "}", "/", ";")):
+            merged += frag
+        else:
+            merged += " " + frag
+    return re.sub(r"\s+", " ", merged).strip()
 
 
 def find_code_line_nodes(root: Tag) -> List[Tag]:
     selectors = [
         ".token-line",
+        ".line",
+        ".cl",
         "[class*=tokenLine]",
         "[class*=codeLine]",
         ".code-line",
         "[class*=lineContent]",
+        "[class~=line]",
+        "[class~=cl]",
         "[data-code-line]",
+        'span[style*="display:block"]',
     ]
     for selector in selectors:
         matches = list(root.select(selector))
