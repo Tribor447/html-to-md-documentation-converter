@@ -20,14 +20,14 @@ from urllib.parse import SplitResult, urljoin, urlsplit, urlunsplit, urldefrag, 
 
 import requests
 import yaml
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, NavigableString, Tag, UnicodeDammit
 from markdownify import markdownify as md
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; DocusaurusToMarkdown/2.0; +https://example.invalid/bot)"
+    "Mozilla/5.0 (compatible; DocusaurusToMarkdown/2.4; +https://example.invalid/bot)"
 )
 TIMEOUT = 30
 
@@ -53,6 +53,7 @@ NOISE_SELECTORS = [
     "script",
     "style",
     "noscript",
+    "wbr",
     "a.hash-link",
     "button[aria-label*='Copy']",
     "button[title*='Copy']",
@@ -103,6 +104,38 @@ VERSION_LIKE_RE = re.compile(
     r"^(?:latest|next|stable|main|master|current|v?\d+(?:\.\d+){0,3}(?:[-._][A-Za-z0-9]+)*)$",
     re.IGNORECASE,
 )
+
+ZERO_WIDTH_RE = re.compile(r"[\u200b\u200c\u200d\u2060\ufeff]")
+SOFT_SPACE_RE = re.compile(r"[\u00a0\u202f\u2007\u2009\u200a]")
+MOJIBAKE_HINT_RE = re.compile(
+    r"(?:Ã.|Â.|â.|ï¼|ï½|ï»¿|ðŸ|â€|â€™|â€œ|â€“|â€”|�)"
+)
+SKIP_TEXT_NORMALIZATION_TAGS = {"pre", "code", "script", "style"}
+INLINE_BREAK_PARENT_TAGS = {"p", "td", "th", "li", "dd", "dt", "span", "div"}
+
+ADMONITION_KIND_MAP = {
+    "note": "note",
+    "info": "info",
+    "tip": "tip",
+    "success": "tip",
+    "warning": "warning",
+    "caution": "warning",
+    "danger": "danger",
+    "error": "danger",
+}
+
+ADMONITION_STYLE_MAP = {
+    "note": {"border": "#2563eb", "bg": "rgba(37, 99, 235, 0.10)", "icon": "📝", "title": "NOTE"},
+    "info": {"border": "#0891b2", "bg": "rgba(8, 145, 178, 0.10)", "icon": "ℹ️", "title": "INFO"},
+    "tip": {"border": "#16a34a", "bg": "rgba(22, 163, 74, 0.10)", "icon": "💡", "title": "TIP"},
+    "warning": {"border": "#d97706", "bg": "rgba(217, 119, 6, 0.12)", "icon": "⚠️", "title": "WARNING"},
+    "danger": {"border": "#dc2626", "bg": "rgba(220, 38, 38, 0.10)", "icon": "⛔", "title": "DANGER"},
+}
+
+SANITIZED_HTML_ATTRS = {
+    "href", "src", "alt", "title", "rowspan", "colspan", "width", "height",
+    "target", "rel", "id", "name", "open", "start", "type"
+}
 
 
 @dataclass
@@ -217,9 +250,8 @@ class DocusaurusConverter:
         resp.raise_for_status()
         if self.delay:
             time.sleep(self.delay)
-        if not resp.encoding:
-            resp.encoding = resp.apparent_encoding or "utf-8"
-        return resp.text, normalize_url(resp.url)
+        text = decode_response_text(resp)
+        return text, normalize_url(resp.url)
 
     def fetch_binary(self, url: str) -> Tuple[bytes, str, Optional[str]]:
         resp = self.session.get(url, timeout=TIMEOUT)
@@ -404,6 +436,9 @@ class DocusaurusConverter:
             for tag in list(root.select(selector)):
                 tag.decompose()
 
+        replace_inline_breaks(root)
+        normalize_dom_text_nodes(root)
+
         for heading in list(root.find_all(re.compile(r"^h[1-6]$"))):
             heading_id = heading.get("id")
             for a in list(heading.select("a.hash-link")):
@@ -429,7 +464,6 @@ class DocusaurusConverter:
             except Exception as exc:
                 print(f"[warn] asset fetch failed {abs_url}: {exc}")
 
-        # Rewrite links to anchors/assets.
         for a in list(root.find_all("a", href=True)):
             href = a.get("href", "").strip()
             if not href or href.startswith("javascript:"):
@@ -687,6 +721,144 @@ class DocusaurusConverter:
 
 
 # -------------------------- Helpers -------------------------------
+
+def dedupe_preserve_order(items: Iterable[str]) -> List[str]:
+    out: List[str] = []
+    seen: Set[str] = set()
+    for item in items:
+        if not item or item in seen:
+            continue
+        out.append(item)
+        seen.add(item)
+    return out
+
+
+def normalize_unicode_text(text: str) -> str:
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = ZERO_WIDTH_RE.sub("", text)
+    text = text.replace("\u00ad", "")
+    text = SOFT_SPACE_RE.sub(" ", text)
+    text = text.replace("\u2028", "\n").replace("\u2029", "\n")
+    return text
+
+
+def mojibake_badness(text: str) -> int:
+    score = 0
+    score += len(MOJIBAKE_HINT_RE.findall(text)) * 10
+    score += text.count("�") * 20
+    score += text.count("\x00") * 50
+    return score
+
+
+def maybe_fix_mojibake(text: str) -> str:
+    text = normalize_unicode_text(text)
+    best = text
+    best_score = mojibake_badness(text)
+    for enc in ("latin-1", "cp1252"):
+        try:
+            repaired = text.encode(enc).decode("utf-8")
+        except Exception:
+            continue
+        repaired = normalize_unicode_text(repaired)
+        score = mojibake_badness(repaired)
+        if score < best_score:
+            best = repaired
+            best_score = score
+    return best
+
+
+def decode_response_text(resp: requests.Response) -> str:
+    payload = resp.content
+    text: Optional[str] = None
+
+    dammit = UnicodeDammit(payload, is_html=True, smart_quotes_to=None)
+    if dammit.unicode_markup:
+        text = dammit.unicode_markup
+
+    if text is None:
+        candidates = dedupe_preserve_order([
+            getattr(resp, "apparent_encoding", None) or "",
+            getattr(resp, "encoding", None) or "",
+            "utf-8",
+            "utf-8-sig",
+            "cp1252",
+            "latin-1",
+        ])
+        for enc in candidates:
+            try:
+                text = payload.decode(enc)
+                break
+            except Exception:
+                continue
+
+    if text is None:
+        text = payload.decode("utf-8", errors="replace")
+
+    text = maybe_fix_mojibake(text)
+    text = normalize_unicode_text(text)
+    return text
+
+
+def is_inside_tags(node: NavigableString, tag_names: Set[str]) -> bool:
+    parent = node.parent
+    while isinstance(parent, Tag):
+        if parent.name in tag_names:
+            return True
+        parent = parent.parent
+    return False
+
+
+def normalize_dom_text_nodes(root: Tag) -> None:
+    for node in list(root.find_all(string=True)):
+        if not isinstance(node, NavigableString):
+            continue
+        if is_inside_tags(node, SKIP_TEXT_NORMALIZATION_TAGS):
+            continue
+        original = str(node)
+        cleaned = maybe_fix_mojibake(original)
+        cleaned = normalize_unicode_text(cleaned)
+        if cleaned != original:
+            node.replace_with(NavigableString(cleaned))
+
+
+def has_block_descendants(parent: Tag) -> bool:
+    for child in parent.find_all(True, recursive=False):
+        if child.name in {
+            "table", "ul", "ol", "dl", "pre", "code", "blockquote", "section",
+            "article", "aside", "nav", "header", "footer", "div", "p"
+        } and child.name != "br":
+            return True
+    return False
+
+
+def replace_inline_breaks(root: Tag) -> None:
+    for br in list(root.find_all("br")):
+        parent = br.parent
+        if not isinstance(parent, Tag):
+            br.replace_with(NavigableString(" "))
+            continue
+        if parent.name in SKIP_TEXT_NORMALIZATION_TAGS:
+            br.replace_with(NavigableString("\n"))
+            continue
+        if parent.name in INLINE_BREAK_PARENT_TAGS and not has_block_descendants(parent):
+            br.replace_with(NavigableString(" "))
+        else:
+            br.replace_with(NavigableString("\n"))
+
+
+def collapse_accidental_hardbreaks(text: str) -> str:
+    text = re.sub(
+        r"(?<=\S) {2,}\n(?=(?:\[[^\]]+\]\([^)]+\)|<a\b|[A-Za-z0-9_(@`]))",
+        " ",
+        text,
+    )
+    text = re.sub(
+        r"(?<=,)\n(?=(?:\[[^\]]+\]\([^)]+\)|<a\b|[A-Za-z0-9_(@`]))",
+        " ",
+        text,
+    )
+    return text
+
 
 def build_session() -> requests.Session:
     session = requests.Session()
@@ -1143,20 +1315,19 @@ def is_probably_asset(url: str) -> bool:
 
 
 def render_complex_block(node: Tag) -> str:
+    classes = {cls.lower() for cls in node.get("class", [])}
     if node.name == "pre":
         return render_code_block(node)
+    if any(
+        "admonition" in cls or cls.startswith("alert--") or cls.startswith("markdown-alert")
+        for cls in classes
+    ):
+        return render_admonition_block(node)
     return str(node)
 
 
 def render_code_block(pre: Tag) -> str:
-    code = pre.find("code")
-    if code is not None:
-        text = code.get_text("\n", strip=False)
-        language = detect_code_language(code) or detect_code_language(pre)
-    else:
-        text = pre.get_text("\n", strip=False)
-        language = detect_code_language(pre)
-
+    text, language = extract_preformatted_text(pre)
     text = text.replace("\r\n", "\n").rstrip("\n")
     fence = "```"
     while fence in text:
@@ -1164,7 +1335,223 @@ def render_code_block(pre: Tag) -> str:
     return f"\n{fence}{language}\n{text}\n{fence}\n"
 
 
-def detect_code_language(node: Tag) -> str:
+def clone_tag(node: Tag) -> Tag:
+    soup = BeautifulSoup(str(node), "html.parser")
+    cloned = soup.find()
+    assert cloned is not None
+    return cloned
+
+
+def render_admonition_block(node: Tag) -> str:
+    clone = clone_tag(node)
+    for icon in list(clone.select("[class*=admonitionIcon], [class*=alertIcon]")):
+        icon.decompose()
+    kind = detect_admonition_kind(clone)
+    theme = ADMONITION_STYLE_MAP.get(kind, ADMONITION_STYLE_MAP["note"])
+    heading = find_admonition_heading(clone)
+    title = clean_text(heading.get_text(" ", strip=True)) if heading is not None else theme["title"]
+
+    content = find_admonition_content(clone)
+    if heading is not None:
+        heading.decompose()
+        if content is None:
+            content = clone
+    if content is None:
+        content = clone
+
+    content = clone_tag(content)
+    convert_nested_pre_to_clean_html(content)
+    sanitize_raw_html_tree(content)
+
+    inner_html = "".join(str(child) for child in content.contents).strip()
+    if not inner_html:
+        inner_html = f"<p>{html.escape(title)}</p>"
+
+    return (
+        "\n"
+        f'<div style="margin: 1rem 0; padding: 1rem 1.2rem; border-left: 5px solid {theme["border"]}; background: {theme["bg"]}; border-radius: 0.75rem;">'
+        f'<div style="margin: 0 0 0.85rem 0; font-weight: 700; text-transform: uppercase; letter-spacing: 0.02em; color: {theme["border"]};">{theme["icon"]} {html.escape(title)}</div>'
+        f'{inner_html}'
+        f'</div>'
+        "\n"
+    )
+
+
+def convert_nested_pre_to_clean_html(root: Tag) -> None:
+    for pre in list(root.find_all("pre")):
+        replacement = BeautifulSoup(render_pre_html(pre), "html.parser")
+        new_node = replacement.find()
+        if new_node is not None:
+            pre.replace_with(new_node)
+
+
+def sanitize_raw_html_tree(root: Tag) -> None:
+    for tag in root.find_all(True):
+        attrs: Dict[str, object] = {}
+        for key, value in list(tag.attrs.items()):
+            if key in SANITIZED_HTML_ATTRS:
+                attrs[key] = value
+        tag.attrs = attrs
+
+
+def render_pre_html(pre: Tag) -> str:
+    text, language = extract_preformatted_text(pre)
+    escaped = html.escape(text.replace("\r\n", "\n").rstrip("\n"))
+    class_attr = f' class="language-{html.escape(language, quote=True)}"' if language else ""
+    return (
+        '<pre style="margin: 1rem 0; padding: 0.9rem 1rem; background: #0b1220; color: #f8fafc; border-radius: 0.75rem; overflow: auto;"><code'
+        f'{class_attr}>{escaped}</code></pre>'
+    )
+
+
+def extract_preformatted_text(pre: Tag) -> Tuple[str, str]:
+    working = clone_tag(pre)
+    for selector in [
+        ".line-number",
+        ".line-numbers-rows",
+        "[class*=lineNumber]",
+        "[class*=line-number]",
+        "[class*=linenumber]",
+        "[class*=codeLineNumber]",
+        "[class*=gutter]",
+    ]:
+        for tag in list(working.select(selector)):
+            tag.decompose()
+
+    code = working.find("code")
+    root = code or working
+    language = detect_code_language(code) if code is not None else ""
+    language = language or detect_code_language(working)
+
+    line_nodes = find_code_line_nodes(root)
+    if line_nodes:
+        lines = [extract_inline_text(line).rstrip("\n") for line in line_nodes]
+        text = "\n".join(lines)
+    else:
+        text = extract_inline_text(root)
+
+    text = maybe_fix_mojibake(text)
+    text = normalize_unicode_text(text)
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = "\n".join(line.rstrip() for line in text.split("\n"))
+    return text.strip("\n"), language
+
+
+def find_code_line_nodes(root: Tag) -> List[Tag]:
+    selectors = [
+        ".token-line",
+        "[class*=tokenLine]",
+        "[class*=codeLine]",
+        ".code-line",
+        "[class*=lineContent]",
+        "[data-code-line]",
+    ]
+    for selector in selectors:
+        matches = list(root.select(selector))
+        if not matches:
+            continue
+        filtered = [
+            node
+            for node in matches
+            if not any(
+                isinstance(parent, Tag) and parent is not root and parent in matches
+                for parent in node.parents
+            )
+        ]
+        if filtered:
+            return filtered
+
+    direct_tag_children = [child for child in root.children if isinstance(child, Tag)]
+    if direct_tag_children and not any(
+        isinstance(child, NavigableString) and clean_text(str(child))
+        for child in root.children
+    ):
+        if all(child.name in {"div", "p", "span"} for child in direct_tag_children):
+            return direct_tag_children
+    return []
+
+
+def extract_inline_text(node) -> str:
+    if isinstance(node, NavigableString):
+        return str(node)
+    if not isinstance(node, Tag):
+        return ""
+    pieces: List[str] = []
+    for child in node.children:
+        if isinstance(child, NavigableString):
+            pieces.append(str(child))
+        elif isinstance(child, Tag):
+            if child.name == "br":
+                pieces.append("\n")
+            else:
+                pieces.append(extract_inline_text(child))
+    return "".join(pieces)
+
+
+def detect_admonition_kind(node: Tag) -> str:
+    classes = [cls.lower() for cls in node.get("class", [])]
+    for cls in classes:
+        if cls.startswith("theme-admonition-"):
+            key = cls.split("theme-admonition-", 1)[1]
+            if key in ADMONITION_KIND_MAP:
+                return ADMONITION_KIND_MAP[key]
+        if cls.startswith("admonition-"):
+            key = cls.split("admonition-", 1)[1]
+            if key in ADMONITION_KIND_MAP:
+                return ADMONITION_KIND_MAP[key]
+        if cls.startswith("alert--"):
+            key = cls.split("alert--", 1)[1]
+            if key in ADMONITION_KIND_MAP:
+                return ADMONITION_KIND_MAP[key]
+        if cls in ADMONITION_KIND_MAP:
+            return ADMONITION_KIND_MAP[cls]
+
+    heading = find_admonition_heading(node)
+    heading_text = clean_text(heading.get_text(" ", strip=True)).lower() if heading else ""
+    for key, mapped in ADMONITION_KIND_MAP.items():
+        if heading_text == key or heading_text.startswith(key + " "):
+            return mapped
+    return "note"
+
+
+def find_admonition_heading(node: Tag) -> Optional[Tag]:
+    selectors = [
+        "[class*=admonitionHeading]",
+        "[class*=admonitionTitle]",
+        "[class*=alertHeading]",
+        "[class*=alertTitle]",
+        ".admonition-title",
+        ".markdown-alert-title",
+        "summary",
+    ]
+    for selector in selectors:
+        match = node.select_one(selector)
+        if match is not None:
+            return match
+    for child in node.find_all(["p", "div", "strong"], recursive=False):
+        text = clean_text(child.get_text(" ", strip=True))
+        if text and len(text) <= 120:
+            return child
+    return None
+
+
+def find_admonition_content(node: Tag) -> Optional[Tag]:
+    selectors = [
+        "[class*=admonitionContent]",
+        "[class*=alertContent]",
+        ".admonition-content",
+        ".markdown-alert-content",
+    ]
+    for selector in selectors:
+        match = node.select_one(selector)
+        if match is not None:
+            return match
+    return None
+
+
+def detect_code_language(node: Optional[Tag]) -> str:
+    if node is None:
+        return ""
     classes = node.get("class", [])
     for cls in classes:
         if cls.startswith("language-"):
@@ -1178,14 +1565,35 @@ def html_fragment_to_markdown(root: Tag) -> str:
     return root.get_text("", strip=False)
 
 
+def protect_fenced_code_blocks(text: str) -> Tuple[str, Dict[str, str]]:
+    placeholders: Dict[str, str] = {}
+    pattern = re.compile(r"(?ms)^(?P<fence>`{3,})(?P<info>[^\n]*)\n.*?^\1[ \t]*$")
+
+    def repl(match: re.Match[str]) -> str:
+        token = f"DOC2MDCODEBLOCKTOKEN{len(placeholders)}END"
+        placeholders[token] = match.group(0)
+        return token
+
+    return pattern.sub(repl, text), placeholders
+
+
+def restore_placeholders(text: str, placeholders: Dict[str, str]) -> str:
+    for token, block in placeholders.items():
+        text = text.replace(token, block)
+    return text
+
+
 def postprocess_markdown(text: str) -> str:
+    text = maybe_fix_mojibake(text)
+    text = normalize_unicode_text(text)
     text = text.replace("\r\n", "\n")
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    text = re.sub(r"[ \t]+\n", "\n", text)
-    text = re.sub(r"\n([*-] )\n", r"\n\1", text)
+    protected, placeholders = protect_fenced_code_blocks(text)
+    protected = collapse_accidental_hardbreaks(protected)
+    protected = re.sub(r"\n{3,}", "\n\n", protected)
+    protected = re.sub(r"[ \t]+\n", "\n", protected)
+    protected = re.sub(r"\n([*-] )\n", r"\n\1", protected)
+    text = restore_placeholders(protected, placeholders)
     return text.strip() + "\n"
-
-
 
 
 def starts_with_markdown_heading(text: str) -> bool:
