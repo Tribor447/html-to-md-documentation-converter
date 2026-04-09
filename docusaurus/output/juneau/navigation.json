@@ -1,0 +1,2716 @@
+[
+  {
+    "title": "Documentation",
+    "kind": "category",
+    "source_url": "https://juneau.apache.org/docs/topics/JuneauEcosystemOverview",
+    "children": [
+      {
+        "title": "1. Juneau Ecosystem",
+        "kind": "category",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauEcosystemOverview",
+        "children": [
+          {
+            "title": "1.1. Juneau Ecosystem Overview",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauEcosystemOverview"
+          },
+          {
+            "title": "1.2. Marshalling",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MarshallingOverview",
+            "anchor": "topics-marshallingoverview",
+            "virtual_path": "docs/topics/MarshallingOverview/index.md"
+          },
+          {
+            "title": "1.3. End-to-End REST",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/EndToEndRest",
+            "anchor": "topics-endtoendrest",
+            "virtual_path": "docs/topics/EndToEndRest/index.md"
+          },
+          {
+            "title": "1.4. REST Server",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestServer",
+            "anchor": "topics-restserver",
+            "virtual_path": "docs/topics/RestServer/index.md"
+          },
+          {
+            "title": "1.5. REST Client",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestClient",
+            "anchor": "topics-restclient",
+            "virtual_path": "docs/topics/RestClient/index.md"
+          },
+          {
+            "title": "1.6. DTO Beans",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/DtoBeans",
+            "anchor": "topics-dtobeans",
+            "virtual_path": "docs/topics/DtoBeans/index.md"
+          },
+          {
+            "title": "1.7. Config Files",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ConfigFiles",
+            "anchor": "topics-configfiles",
+            "virtual_path": "docs/topics/ConfigFiles/index.md"
+          },
+          {
+            "title": "1.8. Fluent Assertions",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/FluentAssertions",
+            "anchor": "topics-fluentassertions",
+            "virtual_path": "docs/topics/FluentAssertions/index.md"
+          },
+          {
+            "title": "1.9. General Design",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/GeneralDesign",
+            "anchor": "topics-generaldesign",
+            "virtual_path": "docs/topics/GeneralDesign/index.md"
+          },
+          {
+            "title": "1.10. Framework Comparisons",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/FrameworkComparisons",
+            "anchor": "topics-frameworkcomparisons",
+            "virtual_path": "docs/topics/FrameworkComparisons/index.md"
+          },
+          {
+            "title": "1.11. Why Choose Juneau?",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/WhyJuneau",
+            "anchor": "topics-whyjuneau",
+            "virtual_path": "docs/topics/WhyJuneau/index.md"
+          }
+        ]
+      },
+      {
+        "title": "2. juneau-marshall",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauMarshallBasics",
+        "anchor": "topics-juneaumarshallbasics",
+        "virtual_path": "docs/topics/JuneauMarshallBasics/index.md",
+        "children": [
+          {
+            "title": "2.1. juneau-marshall Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauMarshallBasics",
+            "anchor": "topics-juneaumarshallbasics",
+            "virtual_path": "docs/topics/JuneauMarshallBasics/index.md"
+          },
+          {
+            "title": "2.2. Marshallers",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Marshallers",
+            "anchor": "topics-marshallers",
+            "virtual_path": "docs/topics/Marshallers/index.md"
+          },
+          {
+            "title": "2.3. Serializers and Parsers",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SerializersAndParsers",
+            "anchor": "topics-serializersandparsers",
+            "virtual_path": "docs/topics/SerializersAndParsers/index.md"
+          },
+          {
+            "title": "2.4. Bean Contexts",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/BeanContextBasics",
+            "anchor": "topics-beancontextbasics",
+            "virtual_path": "docs/topics/BeanContextBasics/index.md",
+            "children": [
+              {
+                "title": "2.4.1. Bean Context Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BeanContextBasics",
+                "anchor": "topics-beancontextbasics",
+                "virtual_path": "docs/topics/BeanContextBasics/index.md"
+              },
+              {
+                "title": "2.4.2. Java Beans Support",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JavaBeansSupport",
+                "anchor": "topics-javabeanssupport",
+                "virtual_path": "docs/topics/JavaBeansSupport/index.md"
+              },
+              {
+                "title": "2.4.3. @Bean Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BeanAnnotation",
+                "anchor": "topics-beanannotation",
+                "virtual_path": "docs/topics/BeanAnnotation/index.md"
+              },
+              {
+                "title": "2.4.4. @Beanp Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BeanpAnnotation",
+                "anchor": "topics-beanpannotation",
+                "virtual_path": "docs/topics/BeanpAnnotation/index.md"
+              },
+              {
+                "title": "2.4.5. @Beanc Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BeancAnnotation",
+                "anchor": "topics-beancannotation",
+                "virtual_path": "docs/topics/BeancAnnotation/index.md"
+              },
+              {
+                "title": "2.4.6. @BeanIgnore Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BeanIgnoreAnnotation",
+                "anchor": "topics-beanignoreannotation",
+                "virtual_path": "docs/topics/BeanIgnoreAnnotation/index.md"
+              },
+              {
+                "title": "2.4.7. @NameProperty Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/NamePropertyAnnotation",
+                "anchor": "topics-namepropertyannotation",
+                "virtual_path": "docs/topics/NamePropertyAnnotation/index.md"
+              },
+              {
+                "title": "2.4.8. @ParentProperty Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/ParentPropertyAnnotation",
+                "anchor": "topics-parentpropertyannotation",
+                "virtual_path": "docs/topics/ParentPropertyAnnotation/index.md"
+              },
+              {
+                "title": "2.4.9. POJO Builders",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/PojoBuilders",
+                "anchor": "topics-pojobuilders",
+                "virtual_path": "docs/topics/PojoBuilders/index.md"
+              },
+              {
+                "title": "2.4.10. Bypass Serialization",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BypassSerialization",
+                "anchor": "topics-bypassserialization",
+                "virtual_path": "docs/topics/BypassSerialization/index.md"
+              }
+            ]
+          },
+          {
+            "title": "2.5. HTTP Part Serializers/Parsers",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HttpPartSerializersParsers",
+            "anchor": "topics-httppartserializersparsers",
+            "virtual_path": "docs/topics/HttpPartSerializersParsers/index.md"
+          },
+          {
+            "title": "2.6. Context Settings",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ContextSettings",
+            "anchor": "topics-contextsettings",
+            "virtual_path": "docs/topics/ContextSettings/index.md"
+          },
+          {
+            "title": "2.7. Context Annotations",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ContextAnnotations",
+            "anchor": "topics-contextannotations",
+            "virtual_path": "docs/topics/ContextAnnotations/index.md"
+          },
+          {
+            "title": "2.8. JsonMap",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JsonMap",
+            "anchor": "topics-jsonmap",
+            "virtual_path": "docs/topics/JsonMap/index.md"
+          },
+          {
+            "title": "2.9. Complex Data Types",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ComplexDataTypes",
+            "anchor": "topics-complexdatatypes",
+            "virtual_path": "docs/topics/ComplexDataTypes/index.md"
+          },
+          {
+            "title": "2.10. Serializer/Parser Sets",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SerializerSetsParserSets",
+            "anchor": "topics-serializersetsparsersets",
+            "virtual_path": "docs/topics/SerializerSetsParserSets/index.md"
+          },
+          {
+            "title": "2.11. Swaps",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SwapBasics",
+            "anchor": "topics-swapbasics",
+            "virtual_path": "docs/topics/SwapBasics/index.md",
+            "children": [
+              {
+                "title": "2.11.1. Swap Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SwapBasics",
+                "anchor": "topics-swapbasics",
+                "virtual_path": "docs/topics/SwapBasics/index.md"
+              },
+              {
+                "title": "2.11.2. Default Swaps",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/DefaultSwaps",
+                "anchor": "topics-defaultswaps",
+                "virtual_path": "docs/topics/DefaultSwaps/index.md"
+              },
+              {
+                "title": "2.11.3. Auto-detected swaps",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/AutoSwaps",
+                "anchor": "topics-autoswaps",
+                "virtual_path": "docs/topics/AutoSwaps/index.md"
+              },
+              {
+                "title": "2.11.4. Per-media-type Swaps",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/PerMediaTypeSwaps",
+                "anchor": "topics-permediatypeswaps",
+                "virtual_path": "docs/topics/PerMediaTypeSwaps/index.md"
+              },
+              {
+                "title": "2.11.5. One-way Swaps",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/OneWaySwaps",
+                "anchor": "topics-onewayswaps",
+                "virtual_path": "docs/topics/OneWaySwaps/index.md"
+              },
+              {
+                "title": "2.11.6. @Swap Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SwapAnnotation",
+                "anchor": "topics-swapannotation",
+                "virtual_path": "docs/topics/SwapAnnotation/index.md"
+              },
+              {
+                "title": "2.11.7. Templated Swaps",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/TemplatedSwaps",
+                "anchor": "topics-templatedswaps",
+                "virtual_path": "docs/topics/TemplatedSwaps/index.md"
+              },
+              {
+                "title": "2.11.8. Surrogate Classes",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SurrogateClasses",
+                "anchor": "topics-surrogateclasses",
+                "virtual_path": "docs/topics/SurrogateClasses/index.md"
+              }
+            ]
+          },
+          {
+            "title": "2.12. Dynamically Applied Annotations",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/DynamicallyAppliedAnnotations",
+            "anchor": "topics-dynamicallyappliedannotations",
+            "virtual_path": "docs/topics/DynamicallyAppliedAnnotations/index.md"
+          },
+          {
+            "title": "2.13. Bean Dictionaries",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/BeanDictionaryBasics",
+            "anchor": "topics-beandictionarybasics",
+            "virtual_path": "docs/topics/BeanDictionaryBasics/index.md",
+            "children": [
+              {
+                "title": "2.13.1. Bean Dictionary Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BeanDictionaryBasics",
+                "anchor": "topics-beandictionarybasics",
+                "virtual_path": "docs/topics/BeanDictionaryBasics/index.md"
+              },
+              {
+                "title": "2.13.2. Bean Sub Types",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BeanSubTypes",
+                "anchor": "topics-beansubtypes",
+                "virtual_path": "docs/topics/BeanSubTypes/index.md"
+              }
+            ]
+          },
+          {
+            "title": "2.14. Virtual Beans",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/VirtualBeans",
+            "anchor": "topics-virtualbeans",
+            "virtual_path": "docs/topics/VirtualBeans/index.md"
+          },
+          {
+            "title": "2.15. Recursion",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Recursion",
+            "anchor": "topics-recursion",
+            "virtual_path": "docs/topics/Recursion/index.md"
+          },
+          {
+            "title": "2.16. Parsing into Generic Models",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ParsingIntoGenericModels",
+            "anchor": "topics-parsingintogenericmodels",
+            "virtual_path": "docs/topics/ParsingIntoGenericModels/index.md"
+          },
+          {
+            "title": "2.17. Reading Continuous Streams",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ReadingContinuousStreams",
+            "anchor": "topics-readingcontinuousstreams",
+            "virtual_path": "docs/topics/ReadingContinuousStreams/index.md"
+          },
+          {
+            "title": "2.18. Marshalling URIs",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MarshallingUris",
+            "anchor": "topics-marshallinguris",
+            "virtual_path": "docs/topics/MarshallingUris/index.md"
+          },
+          {
+            "title": "2.19. Jackson Comparison",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JacksonComparison",
+            "anchor": "topics-jacksoncomparison",
+            "virtual_path": "docs/topics/JacksonComparison/index.md"
+          },
+          {
+            "title": "2.20. POJO Categories",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/PojoCategories",
+            "anchor": "topics-pojocategories",
+            "virtual_path": "docs/topics/PojoCategories/index.md"
+          },
+          {
+            "title": "2.21. Simple Variable Language",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SimpleVariableLanguageBasics",
+            "anchor": "topics-simplevariablelanguagebasics",
+            "virtual_path": "docs/topics/SimpleVariableLanguageBasics/index.md",
+            "children": [
+              {
+                "title": "2.21.1. Simple Variable Language Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SimpleVariableLanguageBasics",
+                "anchor": "topics-simplevariablelanguagebasics",
+                "virtual_path": "docs/topics/SimpleVariableLanguageBasics/index.md"
+              },
+              {
+                "title": "2.21.2. SVL Variables",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/MarshallSvlVariables",
+                "anchor": "topics-marshallsvlvariables",
+                "virtual_path": "docs/topics/MarshallSvlVariables/index.md"
+              },
+              {
+                "title": "2.21.3. Var Resolvers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/VarResolvers",
+                "anchor": "topics-varresolvers",
+                "virtual_path": "docs/topics/VarResolvers/index.md"
+              },
+              {
+                "title": "2.21.4. Default Var Resolver",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/DefaultVarResolver",
+                "anchor": "topics-defaultvarresolver",
+                "virtual_path": "docs/topics/DefaultVarResolver/index.md"
+              },
+              {
+                "title": "2.21.5. SVL Other Notes",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SvlOtherNotes",
+                "anchor": "topics-svlothernotes",
+                "virtual_path": "docs/topics/SvlOtherNotes/index.md"
+              }
+            ]
+          },
+          {
+            "title": "2.22. Encoders",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MarshallEncoders",
+            "anchor": "topics-marshallencoders",
+            "virtual_path": "docs/topics/MarshallEncoders/index.md"
+          },
+          {
+            "title": "2.23. Object Tools",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ObjectTools",
+            "anchor": "topics-objecttools",
+            "virtual_path": "docs/topics/ObjectTools/index.md"
+          },
+          {
+            "title": "2.24. JSON Support",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JsonBasics",
+            "anchor": "topics-jsonbasics",
+            "virtual_path": "docs/topics/JsonBasics/index.md",
+            "children": [
+              {
+                "title": "2.24.1. JSON Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JsonBasics",
+                "anchor": "topics-jsonbasics",
+                "virtual_path": "docs/topics/JsonBasics/index.md"
+              },
+              {
+                "title": "2.24.2. JSON Methodology",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JsonMethodology",
+                "anchor": "topics-jsonmethodology",
+                "virtual_path": "docs/topics/JsonMethodology/index.md"
+              },
+              {
+                "title": "2.24.3. JSON Serializers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JsonSerializers",
+                "anchor": "topics-jsonserializers",
+                "virtual_path": "docs/topics/JsonSerializers/index.md"
+              },
+              {
+                "title": "2.24.4. JSON5",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Json5",
+                "anchor": "topics-json5",
+                "virtual_path": "docs/topics/Json5/index.md"
+              },
+              {
+                "title": "2.24.5. JSON Parsers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JsonParsers",
+                "anchor": "topics-jsonparsers",
+                "virtual_path": "docs/topics/JsonParsers/index.md"
+              },
+              {
+                "title": "2.24.6. @Json Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JsonAnnotation",
+                "anchor": "topics-jsonannotation",
+                "virtual_path": "docs/topics/JsonAnnotation/index.md"
+              }
+            ]
+          },
+          {
+            "title": "2.25. JSON Schema Support",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JsonSchemaDetails",
+            "anchor": "topics-jsonschemadetails",
+            "virtual_path": "docs/topics/JsonSchemaDetails/index.md"
+          },
+          {
+            "title": "2.26. XML Support",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/XmlBasics",
+            "anchor": "topics-xmlbasics",
+            "virtual_path": "docs/topics/XmlBasics/index.md",
+            "children": [
+              {
+                "title": "2.26.1. XML Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/XmlBasics",
+                "anchor": "topics-xmlbasics",
+                "virtual_path": "docs/topics/XmlBasics/index.md"
+              },
+              {
+                "title": "2.26.2. XML Methodology",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/XmlMethodology",
+                "anchor": "topics-xmlmethodology",
+                "virtual_path": "docs/topics/XmlMethodology/index.md"
+              },
+              {
+                "title": "2.26.3. XML Serializers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/XmlSerializers",
+                "anchor": "topics-xmlserializers",
+                "virtual_path": "docs/topics/XmlSerializers/index.md"
+              },
+              {
+                "title": "2.26.4. XML Parsers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/XmlParsers",
+                "anchor": "topics-xmlparsers",
+                "virtual_path": "docs/topics/XmlParsers/index.md"
+              },
+              {
+                "title": "2.26.5. @XmlBeanTypeName Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/XmlBeanTypeNameAnnotation",
+                "anchor": "topics-xmlbeantypenameannotation",
+                "virtual_path": "docs/topics/XmlBeanTypeNameAnnotation/index.md"
+              },
+              {
+                "title": "2.26.6. @XmlChildName Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/XmlChildNameAnnotation",
+                "anchor": "topics-xmlchildnameannotation",
+                "virtual_path": "docs/topics/XmlChildNameAnnotation/index.md"
+              },
+              {
+                "title": "2.26.7. @XmlFormat Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/XmlFormatAnnotation",
+                "anchor": "topics-xmlformatannotation",
+                "virtual_path": "docs/topics/XmlFormatAnnotation/index.md"
+              },
+              {
+                "title": "2.26.8. XML Namespaces",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/XmlNamespaces",
+                "anchor": "topics-xmlnamespaces",
+                "virtual_path": "docs/topics/XmlNamespaces/index.md"
+              }
+            ]
+          },
+          {
+            "title": "2.27. HTML Support",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HtmlBasics",
+            "anchor": "topics-htmlbasics",
+            "virtual_path": "docs/topics/HtmlBasics/index.md",
+            "children": [
+              {
+                "title": "2.27.1. HTML Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlBasics",
+                "anchor": "topics-htmlbasics",
+                "virtual_path": "docs/topics/HtmlBasics/index.md"
+              },
+              {
+                "title": "2.27.2. HTML Methodology",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlMethodology",
+                "anchor": "topics-htmlmethodology",
+                "virtual_path": "docs/topics/HtmlMethodology/index.md"
+              },
+              {
+                "title": "2.27.3. HTML Serializers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlSerializers",
+                "anchor": "topics-htmlserializers",
+                "virtual_path": "docs/topics/HtmlSerializers/index.md"
+              },
+              {
+                "title": "2.27.4. HTML Parsers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlParsers",
+                "anchor": "topics-htmlparsers",
+                "virtual_path": "docs/topics/HtmlParsers/index.md"
+              },
+              {
+                "title": "2.27.5. @Html Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlAnnotation",
+                "anchor": "topics-htmlannotation",
+                "virtual_path": "docs/topics/HtmlAnnotation/index.md"
+              },
+              {
+                "title": "2.27.6. @HtmlRender Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlRenderAnnotation",
+                "anchor": "topics-htmlrenderannotation",
+                "virtual_path": "docs/topics/HtmlRenderAnnotation/index.md"
+              },
+              {
+                "title": "2.27.7. HtmlDocSerializer",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlDocSerializer",
+                "anchor": "topics-htmldocserializer",
+                "virtual_path": "docs/topics/HtmlDocSerializer/index.md"
+              },
+              {
+                "title": "2.27.8. BasicHtmlDocTemplate",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BasicHtmlDocTemplate",
+                "anchor": "topics-basichtmldoctemplate",
+                "virtual_path": "docs/topics/BasicHtmlDocTemplate/index.md"
+              },
+              {
+                "title": "2.27.9. HTML Custom Templates",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlCustomTemplates",
+                "anchor": "topics-htmlcustomtemplates",
+                "virtual_path": "docs/topics/HtmlCustomTemplates/index.md"
+              }
+            ]
+          },
+          {
+            "title": "2.28. HTML-Schema Support",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HtmlSchemaSupport",
+            "anchor": "topics-htmlschemasupport",
+            "virtual_path": "docs/topics/HtmlSchemaSupport/index.md"
+          },
+          {
+            "title": "2.29. UON Support",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/UonBasics",
+            "anchor": "topics-uonbasics",
+            "virtual_path": "docs/topics/UonBasics/index.md",
+            "children": [
+              {
+                "title": "2.29.1. UON Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/UonBasics",
+                "anchor": "topics-uonbasics",
+                "virtual_path": "docs/topics/UonBasics/index.md"
+              },
+              {
+                "title": "2.29.2. UON Methodology",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/UonMethodology",
+                "anchor": "topics-uonmethodology",
+                "virtual_path": "docs/topics/UonMethodology/index.md"
+              },
+              {
+                "title": "2.29.3. UON Serializers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/UonSerializers",
+                "anchor": "topics-uonserializers",
+                "virtual_path": "docs/topics/UonSerializers/index.md"
+              },
+              {
+                "title": "2.29.4. UON Parsers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/UonParsers",
+                "anchor": "topics-uonparsers",
+                "virtual_path": "docs/topics/UonParsers/index.md"
+              }
+            ]
+          },
+          {
+            "title": "2.30. URL-Encoding Support",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/UrlEncodingBasics",
+            "anchor": "topics-urlencodingbasics",
+            "virtual_path": "docs/topics/UrlEncodingBasics/index.md",
+            "children": [
+              {
+                "title": "2.30.1. URL-Encoding Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/UrlEncodingBasics",
+                "anchor": "topics-urlencodingbasics",
+                "virtual_path": "docs/topics/UrlEncodingBasics/index.md"
+              },
+              {
+                "title": "2.30.2. URL-Encoding Methodology",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/UrlEncMethodology",
+                "anchor": "topics-urlencmethodology",
+                "virtual_path": "docs/topics/UrlEncMethodology/index.md"
+              },
+              {
+                "title": "2.30.3. URL-Encoding Serializers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/UrlEncSerializers",
+                "anchor": "topics-urlencserializers",
+                "virtual_path": "docs/topics/UrlEncSerializers/index.md"
+              },
+              {
+                "title": "2.30.4. URL-Encoding Parsers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/UrlEncParsers",
+                "anchor": "topics-urlencparsers",
+                "virtual_path": "docs/topics/UrlEncParsers/index.md"
+              },
+              {
+                "title": "2.30.5. @UrlEncoding Annotation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/UrlEncodingAnnotation",
+                "anchor": "topics-urlencodingannotation",
+                "virtual_path": "docs/topics/UrlEncodingAnnotation/index.md"
+              }
+            ]
+          },
+          {
+            "title": "2.31. MessagePack Support",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MessagePackBasics",
+            "anchor": "topics-messagepackbasics",
+            "virtual_path": "docs/topics/MessagePackBasics/index.md",
+            "children": [
+              {
+                "title": "2.31.1. MessagePack Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/MessagePackBasics",
+                "anchor": "topics-messagepackbasics",
+                "virtual_path": "docs/topics/MessagePackBasics/index.md"
+              },
+              {
+                "title": "2.31.2. MessagePack Serializers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/MsgPackSerializers",
+                "anchor": "topics-msgpackserializers",
+                "virtual_path": "docs/topics/MsgPackSerializers/index.md"
+              },
+              {
+                "title": "2.31.3. MessagePack Parsers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/MsgPackParsers",
+                "anchor": "topics-msgpackparsers",
+                "virtual_path": "docs/topics/MsgPackParsers/index.md"
+              }
+            ]
+          },
+          {
+            "title": "2.32. OpenApi Support",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/OpenApiBasics",
+            "anchor": "topics-openapibasics",
+            "virtual_path": "docs/topics/OpenApiBasics/index.md",
+            "children": [
+              {
+                "title": "2.32.1. OpenApi Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/OpenApiBasics",
+                "anchor": "topics-openapibasics",
+                "virtual_path": "docs/topics/OpenApiBasics/index.md"
+              },
+              {
+                "title": "2.32.2. OpenAPI Methodology",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/OpenApiMethodology",
+                "anchor": "topics-openapimethodology",
+                "virtual_path": "docs/topics/OpenApiMethodology/index.md"
+              },
+              {
+                "title": "2.32.3. OpenAPI Serializers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/OpenApiSerializers",
+                "anchor": "topics-openapiserializers",
+                "virtual_path": "docs/topics/OpenApiSerializers/index.md"
+              },
+              {
+                "title": "2.32.4. OpenAPI Parsers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/OpenApiParsers",
+                "anchor": "topics-openapiparsers",
+                "virtual_path": "docs/topics/OpenApiParsers/index.md"
+              }
+            ]
+          },
+          {
+            "title": "2.33. Best Practices",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/BestPractices",
+            "anchor": "topics-bestpractices",
+            "virtual_path": "docs/topics/BestPractices/index.md"
+          }
+        ]
+      },
+      {
+        "title": "3. juneau-marshall-rdf",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/Module-juneau-marshall-rdf",
+        "anchor": "topics-module-juneau-marshall-rdf",
+        "virtual_path": "docs/topics/Module-juneau-marshall-rdf/index.md"
+      },
+      {
+        "title": "4. juneau-bean",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauBeanBasics",
+        "anchor": "topics-juneaubeanbasics",
+        "virtual_path": "docs/topics/JuneauBeanBasics/index.md",
+        "children": [
+          {
+            "title": "4.1. juneau-bean Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauBeanBasics",
+            "anchor": "topics-juneaubeanbasics",
+            "virtual_path": "docs/topics/JuneauBeanBasics/index.md"
+          },
+          {
+            "title": "4.2. juneau-bean-html5",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauBeanHtml5",
+            "anchor": "topics-juneaubeanhtml5",
+            "virtual_path": "docs/topics/JuneauBeanHtml5/index.md"
+          },
+          {
+            "title": "4.3. juneau-bean-atom",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauBeanAtom",
+            "anchor": "topics-juneaubeanatom",
+            "virtual_path": "docs/topics/JuneauBeanAtom/index.md"
+          },
+          {
+            "title": "4.4. juneau-bean-jsonschema",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauBeanJsonSchema",
+            "anchor": "topics-juneaubeanjsonschema",
+            "virtual_path": "docs/topics/JuneauBeanJsonSchema/index.md"
+          },
+          {
+            "title": "4.5. juneau-bean-openapi-v3",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauBeanOpenApi3",
+            "anchor": "topics-juneaubeanopenapi3",
+            "virtual_path": "docs/topics/JuneauBeanOpenApi3/index.md"
+          },
+          {
+            "title": "4.6. juneau-bean-common",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauBeanCommon",
+            "anchor": "topics-juneaubeancommon",
+            "virtual_path": "docs/topics/JuneauBeanCommon/index.md"
+          },
+          {
+            "title": "4.7. juneau-bean-swagger-v2",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauBeanSwagger2",
+            "anchor": "topics-juneaubeanswagger2",
+            "virtual_path": "docs/topics/JuneauBeanSwagger2/index.md"
+          }
+        ]
+      },
+      {
+        "title": "5. juneau-config",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauConfigBasics",
+        "anchor": "topics-juneauconfigbasics",
+        "virtual_path": "docs/topics/JuneauConfigBasics/index.md",
+        "children": [
+          {
+            "title": "5.1. juneau-config Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauConfigBasics",
+            "anchor": "topics-juneauconfigbasics",
+            "virtual_path": "docs/topics/JuneauConfigBasics/index.md"
+          },
+          {
+            "title": "5.2. Overview",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ConfigOverviewBasics",
+            "anchor": "topics-configoverviewbasics",
+            "virtual_path": "docs/topics/ConfigOverviewBasics/index.md",
+            "children": [
+              {
+                "title": "5.2.1. Config Overview Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/ConfigOverviewBasics",
+                "anchor": "topics-configoverviewbasics",
+                "virtual_path": "docs/topics/ConfigOverviewBasics/index.md"
+              },
+              {
+                "title": "5.2.2. Syntax Rules",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SyntaxRules",
+                "anchor": "topics-syntaxrules",
+                "virtual_path": "docs/topics/SyntaxRules/index.md"
+              }
+            ]
+          },
+          {
+            "title": "5.3. Reading Entries",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ReadingEntriesBasics",
+            "anchor": "topics-readingentriesbasics",
+            "virtual_path": "docs/topics/ReadingEntriesBasics/index.md",
+            "children": [
+              {
+                "title": "5.3.1. Reading Entries Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/ReadingEntriesBasics",
+                "anchor": "topics-readingentriesbasics",
+                "virtual_path": "docs/topics/ReadingEntriesBasics/index.md"
+              },
+              {
+                "title": "5.3.2. POJOs",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Pojos",
+                "anchor": "topics-pojos",
+                "virtual_path": "docs/topics/Pojos/index.md"
+              },
+              {
+                "title": "5.3.3. Arrays",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Arrays",
+                "anchor": "topics-arrays",
+                "virtual_path": "docs/topics/Arrays/index.md"
+              },
+              {
+                "title": "5.3.4. Java Collection Framework Objects",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JCFObjects",
+                "anchor": "topics-jcfobjects",
+                "virtual_path": "docs/topics/JCFObjects/index.md"
+              },
+              {
+                "title": "5.3.5. Binary Data",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BinaryData",
+                "anchor": "topics-binarydata",
+                "virtual_path": "docs/topics/BinaryData/index.md"
+              }
+            ]
+          },
+          {
+            "title": "5.4. Variables",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/VariableBasics",
+            "anchor": "topics-variablebasics",
+            "virtual_path": "docs/topics/VariableBasics/index.md",
+            "children": [
+              {
+                "title": "5.4.1. Variable Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/VariableBasics",
+                "anchor": "topics-variablebasics",
+                "virtual_path": "docs/topics/VariableBasics/index.md"
+              },
+              {
+                "title": "5.4.2. Logic Variables",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/LogicVariables",
+                "anchor": "topics-logicvariables",
+                "virtual_path": "docs/topics/LogicVariables/index.md"
+              }
+            ]
+          },
+          {
+            "title": "5.5. Modded/Encoded Entries",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ModdedEntries",
+            "anchor": "topics-moddedentries",
+            "virtual_path": "docs/topics/ModdedEntries/index.md"
+          },
+          {
+            "title": "5.6. Sections",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Sections",
+            "anchor": "topics-sections",
+            "virtual_path": "docs/topics/Sections/index.md"
+          },
+          {
+            "title": "5.7. Setting Values",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SettingValuesBasics",
+            "anchor": "topics-settingvaluesbasics",
+            "virtual_path": "docs/topics/SettingValuesBasics/index.md",
+            "children": [
+              {
+                "title": "5.7.1. Setting Values Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SettingValuesBasics",
+                "anchor": "topics-settingvaluesbasics",
+                "virtual_path": "docs/topics/SettingValuesBasics/index.md"
+              },
+              {
+                "title": "5.7.2. File System Changes",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/FileSystemChanges",
+                "anchor": "topics-filesystemchanges",
+                "virtual_path": "docs/topics/FileSystemChanges/index.md"
+              },
+              {
+                "title": "5.7.3. Custom Entry Serialization",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/CustomEntrySerialization",
+                "anchor": "topics-customentryserialization",
+                "virtual_path": "docs/topics/CustomEntrySerialization/index.md"
+              },
+              {
+                "title": "5.7.4. Bulk Setting Values",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BulkSettingValues",
+                "anchor": "topics-bulksettingvalues",
+                "virtual_path": "docs/topics/BulkSettingValues/index.md"
+              }
+            ]
+          },
+          {
+            "title": "5.8. Listeners",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ConfigListeners",
+            "anchor": "topics-configlisteners",
+            "virtual_path": "docs/topics/ConfigListeners/index.md"
+          },
+          {
+            "title": "5.9. Serializing Configs",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SerializingConfigs",
+            "anchor": "topics-serializingconfigs",
+            "virtual_path": "docs/topics/SerializingConfigs/index.md"
+          },
+          {
+            "title": "5.10. Imports",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Imports",
+            "anchor": "topics-imports",
+            "virtual_path": "docs/topics/Imports/index.md"
+          },
+          {
+            "title": "5.11. Config Stores",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ConfigStoresBasics",
+            "anchor": "topics-configstoresbasics",
+            "virtual_path": "docs/topics/ConfigStoresBasics/index.md",
+            "children": [
+              {
+                "title": "5.11.1. Config Stores Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/ConfigStoresBasics",
+                "anchor": "topics-configstoresbasics",
+                "virtual_path": "docs/topics/ConfigStoresBasics/index.md"
+              },
+              {
+                "title": "5.11.2. Memory Store",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/MemoryStore",
+                "anchor": "topics-memorystore",
+                "virtual_path": "docs/topics/MemoryStore/index.md"
+              },
+              {
+                "title": "5.11.3. File Store",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/FileStore",
+                "anchor": "topics-filestore",
+                "virtual_path": "docs/topics/FileStore/index.md"
+              },
+              {
+                "title": "5.11.4. Custom Stores",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/CustomStores",
+                "anchor": "topics-customstores",
+                "virtual_path": "docs/topics/CustomStores/index.md"
+              },
+              {
+                "title": "5.11.5. Store Listeners",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/StoreListeners",
+                "anchor": "topics-storelisteners",
+                "virtual_path": "docs/topics/StoreListeners/index.md"
+              }
+            ]
+          },
+          {
+            "title": "5.12. Read-only Configs",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ReadOnlyConfigs",
+            "anchor": "topics-readonlyconfigs",
+            "virtual_path": "docs/topics/ReadOnlyConfigs/index.md"
+          },
+          {
+            "title": "5.13. Closing Configs",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ClosingConfigs",
+            "anchor": "topics-closingconfigs",
+            "virtual_path": "docs/topics/ClosingConfigs/index.md"
+          },
+          {
+            "title": "5.14. System Default Config",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SystemDefaultConfig",
+            "anchor": "topics-systemdefaultconfig",
+            "virtual_path": "docs/topics/SystemDefaultConfig/index.md"
+          }
+        ]
+      },
+      {
+        "title": "6. juneau-commons",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauCommonsBasics",
+        "anchor": "topics-juneaucommonsbasics",
+        "virtual_path": "docs/topics/JuneauCommonsBasics/index.md",
+        "children": [
+          {
+            "title": "6.1. juneau-commons Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauCommonsBasics",
+            "anchor": "topics-juneaucommonsbasics",
+            "virtual_path": "docs/topics/JuneauCommonsBasics/index.md"
+          },
+          {
+            "title": "6.2. Packages",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauCommonsCollections",
+            "anchor": "topics-juneaucommonscollections",
+            "virtual_path": "docs/topics/JuneauCommonsCollections/index.md",
+            "children": [
+              {
+                "title": "6.2.1. Collections Package",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JuneauCommonsCollections",
+                "anchor": "topics-juneaucommonscollections",
+                "virtual_path": "docs/topics/JuneauCommonsCollections/index.md"
+              },
+              {
+                "title": "6.2.2. Utils Package",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JuneauCommonsUtils",
+                "anchor": "topics-juneaucommonsutils",
+                "virtual_path": "docs/topics/JuneauCommonsUtils/index.md"
+              },
+              {
+                "title": "6.2.3. Reflection Package",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JuneauCommonsReflection",
+                "anchor": "topics-juneaucommonsreflection",
+                "virtual_path": "docs/topics/JuneauCommonsReflection/index.md"
+              },
+              {
+                "title": "6.2.4. Settings Package",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JuneauCommonsSettings",
+                "anchor": "topics-juneaucommonssettings",
+                "virtual_path": "docs/topics/JuneauCommonsSettings/index.md"
+              },
+              {
+                "title": "6.2.5. Lang Package",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JuneauCommonsLang",
+                "anchor": "topics-juneaucommonslang",
+                "virtual_path": "docs/topics/JuneauCommonsLang/index.md"
+              },
+              {
+                "title": "6.2.6. I/O Package",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JuneauCommonsIO",
+                "anchor": "topics-juneaucommonsio",
+                "virtual_path": "docs/topics/JuneauCommonsIO/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. juneau-assertions",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauAssertionBasics",
+        "anchor": "topics-juneauassertionbasics",
+        "virtual_path": "docs/topics/JuneauAssertionBasics/index.md",
+        "children": [
+          {
+            "title": "7.1. juneau-assertions Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauAssertionBasics",
+            "anchor": "topics-juneauassertionbasics",
+            "virtual_path": "docs/topics/JuneauAssertionBasics/index.md"
+          },
+          {
+            "title": "7.2. Assertions Overview",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/AssertionsOverview",
+            "anchor": "topics-assertionsoverview",
+            "virtual_path": "docs/topics/AssertionsOverview/index.md"
+          }
+        ]
+      },
+      {
+        "title": "8. juneau-bct",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauBctBasics",
+        "anchor": "topics-juneaubctbasics",
+        "virtual_path": "docs/topics/JuneauBctBasics/index.md",
+        "children": [
+          {
+            "title": "8.1. juneau-bct Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauBctBasics",
+            "anchor": "topics-juneaubctbasics",
+            "virtual_path": "docs/topics/JuneauBctBasics/index.md"
+          },
+          {
+            "title": "8.2. Custom Error Messages",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/CustomErrorMessages",
+            "anchor": "topics-customerrormessages",
+            "virtual_path": "docs/topics/CustomErrorMessages/index.md"
+          },
+          {
+            "title": "8.3. Customization",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Customization",
+            "anchor": "topics-customization",
+            "virtual_path": "docs/topics/Customization/index.md",
+            "children": [
+              {
+                "title": "8.3.1. Customization",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Customization",
+                "anchor": "topics-customization",
+                "virtual_path": "docs/topics/Customization/index.md"
+              },
+              {
+                "title": "8.3.2. Stringifiers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Stringifiers",
+                "anchor": "topics-stringifiers",
+                "virtual_path": "docs/topics/Stringifiers/index.md"
+              },
+              {
+                "title": "8.3.3. Listifiers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Listifiers",
+                "anchor": "topics-listifiers",
+                "virtual_path": "docs/topics/Listifiers/index.md"
+              },
+              {
+                "title": "8.3.4. Swappers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Swappers",
+                "anchor": "topics-swappers",
+                "virtual_path": "docs/topics/Swappers/index.md"
+              },
+              {
+                "title": "8.3.5. Property Extractors",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/PropertyExtractors",
+                "anchor": "topics-propertyextractors",
+                "virtual_path": "docs/topics/PropertyExtractors/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "9. juneau-rest-common",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauRestCommonBasics",
+        "anchor": "topics-juneaurestcommonbasics",
+        "virtual_path": "docs/topics/JuneauRestCommonBasics/index.md",
+        "children": [
+          {
+            "title": "9.1. juneau-rest-common Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauRestCommonBasics",
+            "anchor": "topics-juneaurestcommonbasics",
+            "virtual_path": "docs/topics/JuneauRestCommonBasics/index.md"
+          },
+          {
+            "title": "9.2. Helper Classes",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HelperClasses",
+            "anchor": "topics-helperclasses",
+            "virtual_path": "docs/topics/HelperClasses/index.md"
+          },
+          {
+            "title": "9.3. Annotations",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Annotations",
+            "anchor": "topics-annotations",
+            "virtual_path": "docs/topics/Annotations/index.md"
+          },
+          {
+            "title": "9.4. HTTP Headers",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HttpHeaders",
+            "anchor": "topics-httpheaders",
+            "virtual_path": "docs/topics/HttpHeaders/index.md"
+          },
+          {
+            "title": "9.5. HTTP Parts",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HttpParts",
+            "anchor": "topics-httpparts",
+            "virtual_path": "docs/topics/HttpParts/index.md"
+          },
+          {
+            "title": "9.6. HTTP Entities and Resources",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HttpEntitiesAndResources",
+            "anchor": "topics-httpentitiesandresources",
+            "virtual_path": "docs/topics/HttpEntitiesAndResources/index.md"
+          },
+          {
+            "title": "9.7. HTTP Responses",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HttpResponses",
+            "anchor": "topics-httpresponses",
+            "virtual_path": "docs/topics/HttpResponses/index.md"
+          },
+          {
+            "title": "9.8. Remote Proxy Interfaces",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RemoteProxyInterfaces",
+            "anchor": "topics-remoteproxyinterfaces",
+            "virtual_path": "docs/topics/RemoteProxyInterfaces/index.md"
+          }
+        ]
+      },
+      {
+        "title": "10. juneau-rest-server",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauRestServerBasics",
+        "anchor": "topics-juneaurestserverbasics",
+        "virtual_path": "docs/topics/JuneauRestServerBasics/index.md",
+        "children": [
+          {
+            "title": "10.1. juneau-rest-server Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauRestServerBasics",
+            "anchor": "topics-juneaurestserverbasics",
+            "virtual_path": "docs/topics/JuneauRestServerBasics/index.md"
+          },
+          {
+            "title": "10.2. REST Server Overview",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestServerOverview",
+            "anchor": "topics-restserveroverview",
+            "virtual_path": "docs/topics/RestServerOverview/index.md"
+          },
+          {
+            "title": "10.3. @Rest-Annotated Classes",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestAnnotatedClassBasics",
+            "anchor": "topics-restannotatedclassbasics",
+            "virtual_path": "docs/topics/RestAnnotatedClassBasics/index.md",
+            "children": [
+              {
+                "title": "10.3.1. @Rest-Annotated Class Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/RestAnnotatedClassBasics",
+                "anchor": "topics-restannotatedclassbasics",
+                "virtual_path": "docs/topics/RestAnnotatedClassBasics/index.md"
+              },
+              {
+                "title": "10.3.2. Predefined Classes",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/PredefinedClasses",
+                "anchor": "topics-predefinedclasses",
+                "virtual_path": "docs/topics/PredefinedClasses/index.md"
+              },
+              {
+                "title": "10.3.3. Child Resources",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/ChildResources",
+                "anchor": "topics-childresources",
+                "virtual_path": "docs/topics/ChildResources/index.md"
+              },
+              {
+                "title": "10.3.4. Path Variables",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/PathVariables",
+                "anchor": "topics-pathvariables",
+                "virtual_path": "docs/topics/PathVariables/index.md"
+              },
+              {
+                "title": "10.3.5. Deployment",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Deployment",
+                "anchor": "topics-deployment",
+                "virtual_path": "docs/topics/Deployment/index.md"
+              },
+              {
+                "title": "10.3.6. Lifecycle Hooks",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/LifecycleHooks",
+                "anchor": "topics-lifecyclehooks",
+                "virtual_path": "docs/topics/LifecycleHooks/index.md"
+              }
+            ]
+          },
+          {
+            "title": "10.4. @RestOp-Annotated Methods",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestOpAnnotatedMethodBasics",
+            "anchor": "topics-restopannotatedmethodbasics",
+            "virtual_path": "docs/topics/RestOpAnnotatedMethodBasics/index.md",
+            "children": [
+              {
+                "title": "10.4.1. @RestOp-Annotated Method Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/RestOpAnnotatedMethodBasics",
+                "anchor": "topics-restopannotatedmethodbasics",
+                "virtual_path": "docs/topics/RestOpAnnotatedMethodBasics/index.md"
+              },
+              {
+                "title": "10.4.2. Inferred HTTP Methods and Paths",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/InferredHttpMethodsAndPaths",
+                "anchor": "topics-inferredhttpmethodsandpaths",
+                "virtual_path": "docs/topics/InferredHttpMethodsAndPaths/index.md"
+              },
+              {
+                "title": "10.4.3. Java Method Parameters",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JavaMethodParameters",
+                "anchor": "topics-javamethodparameters",
+                "virtual_path": "docs/topics/JavaMethodParameters/index.md"
+              },
+              {
+                "title": "10.4.4. Java Method Return Types",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JavaMethodReturnTypes",
+                "anchor": "topics-javamethodreturntypes",
+                "virtual_path": "docs/topics/JavaMethodReturnTypes/index.md"
+              },
+              {
+                "title": "10.4.5. Java Method Throwable Types",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/JavaMethodThrowableTypes",
+                "anchor": "topics-javamethodthrowabletypes",
+                "virtual_path": "docs/topics/JavaMethodThrowableTypes/index.md"
+              },
+              {
+                "title": "10.4.6. Path Patterns",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/PathPatterns",
+                "anchor": "topics-pathpatterns",
+                "virtual_path": "docs/topics/PathPatterns/index.md"
+              },
+              {
+                "title": "10.4.7. Matchers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Matchers",
+                "anchor": "topics-matchers",
+                "virtual_path": "docs/topics/Matchers/index.md"
+              },
+              {
+                "title": "10.4.8. Overloading HTTP Methods",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/OverloadingHttpMethods",
+                "anchor": "topics-overloadinghttpmethods",
+                "virtual_path": "docs/topics/OverloadingHttpMethods/index.md"
+              },
+              {
+                "title": "10.4.9. Additional Information",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/AdditionalInformation",
+                "anchor": "topics-additionalinformation",
+                "virtual_path": "docs/topics/AdditionalInformation/index.md"
+              }
+            ]
+          },
+          {
+            "title": "10.5. HTTP Parts",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HttpPartBasics",
+            "anchor": "topics-httppartbasics",
+            "virtual_path": "docs/topics/HttpPartBasics/index.md",
+            "children": [
+              {
+                "title": "10.5.1. HTTP Part Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HttpPartBasics",
+                "anchor": "topics-httppartbasics",
+                "virtual_path": "docs/topics/HttpPartBasics/index.md"
+              },
+              {
+                "title": "10.5.2. Part Marshallers",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/PartMarshallers",
+                "anchor": "topics-partmarshallers",
+                "virtual_path": "docs/topics/PartMarshallers/index.md"
+              },
+              {
+                "title": "10.5.3. HTTP Part Annotations",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HttpPartAnnotations",
+                "anchor": "topics-httppartannotations",
+                "virtual_path": "docs/topics/HttpPartAnnotations/index.md"
+              },
+              {
+                "title": "10.5.4. Default Parts",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/DefaultParts",
+                "anchor": "topics-defaultparts",
+                "virtual_path": "docs/topics/DefaultParts/index.md"
+              },
+              {
+                "title": "10.5.5. Request Beans",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/RequestBeans",
+                "anchor": "topics-requestbeans",
+                "virtual_path": "docs/topics/RequestBeans/index.md"
+              },
+              {
+                "title": "10.5.6. Response Beans",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/ResponseBeans",
+                "anchor": "topics-responsebeans",
+                "virtual_path": "docs/topics/ResponseBeans/index.md"
+              },
+              {
+                "title": "10.5.7. HTTP Part APIs",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HttpPartApis",
+                "anchor": "topics-httppartapis",
+                "virtual_path": "docs/topics/HttpPartApis/index.md"
+              },
+              {
+                "title": "10.5.8. HTTP Part Validation",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HttpPartValidation",
+                "anchor": "topics-httppartvalidation",
+                "virtual_path": "docs/topics/HttpPartValidation/index.md"
+              }
+            ]
+          },
+          {
+            "title": "10.6. Marshalling",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Marshalling",
+            "anchor": "topics-marshalling",
+            "virtual_path": "docs/topics/Marshalling/index.md"
+          },
+          {
+            "title": "10.7. Handling Form Posts",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HandlingFormPosts",
+            "anchor": "topics-handlingformposts",
+            "virtual_path": "docs/topics/HandlingFormPosts/index.md"
+          },
+          {
+            "title": "10.8. Guards",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Guards",
+            "anchor": "topics-guards",
+            "virtual_path": "docs/topics/Guards/index.md"
+          },
+          {
+            "title": "10.9. Converters",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Converters",
+            "anchor": "topics-converters",
+            "virtual_path": "docs/topics/Converters/index.md"
+          },
+          {
+            "title": "10.10. Localized Messages",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/LocalizedMessages",
+            "anchor": "topics-localizedmessages",
+            "virtual_path": "docs/topics/LocalizedMessages/index.md"
+          },
+          {
+            "title": "10.11. Encoders",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestServerEncoders",
+            "anchor": "topics-restserverencoders",
+            "virtual_path": "docs/topics/RestServerEncoders/index.md"
+          },
+          {
+            "title": "10.12. Configuration Files",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ConfigurationFiles",
+            "anchor": "topics-configurationfiles",
+            "virtual_path": "docs/topics/ConfigurationFiles/index.md"
+          },
+          {
+            "title": "10.13. SVL Variables",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestServerSvlVariables",
+            "anchor": "topics-restserversvlvariables",
+            "virtual_path": "docs/topics/RestServerSvlVariables/index.md"
+          },
+          {
+            "title": "10.14. Static Files",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/StaticFiles",
+            "anchor": "topics-staticfiles",
+            "virtual_path": "docs/topics/StaticFiles/index.md"
+          },
+          {
+            "title": "10.15. Client Versioning",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ClientVersioning",
+            "anchor": "topics-clientversioning",
+            "virtual_path": "docs/topics/ClientVersioning/index.md"
+          },
+          {
+            "title": "10.16. Swagger",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SwaggerBasics",
+            "anchor": "topics-swaggerbasics",
+            "virtual_path": "docs/topics/SwaggerBasics/index.md",
+            "children": [
+              {
+                "title": "10.16.1. Swagger Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SwaggerBasics",
+                "anchor": "topics-swaggerbasics",
+                "virtual_path": "docs/topics/SwaggerBasics/index.md"
+              },
+              {
+                "title": "10.16.2. Basic REST Servlet Swagger",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BasicRestServletSwagger",
+                "anchor": "topics-basicrestservletswagger",
+                "virtual_path": "docs/topics/BasicRestServletSwagger/index.md"
+              },
+              {
+                "title": "10.16.3. Basic Swagger Info",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/BasicSwaggerInfo",
+                "anchor": "topics-basicswaggerinfo",
+                "virtual_path": "docs/topics/BasicSwaggerInfo/index.md"
+              },
+              {
+                "title": "10.16.4. Swagger Tags",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SwaggerTags",
+                "anchor": "topics-swaggertags",
+                "virtual_path": "docs/topics/SwaggerTags/index.md"
+              },
+              {
+                "title": "10.16.5. Swagger Operations",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SwaggerOperations",
+                "anchor": "topics-swaggeroperations",
+                "virtual_path": "docs/topics/SwaggerOperations/index.md"
+              },
+              {
+                "title": "10.16.6. Swagger Parameters",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SwaggerParameters",
+                "anchor": "topics-swaggerparameters",
+                "virtual_path": "docs/topics/SwaggerParameters/index.md"
+              },
+              {
+                "title": "10.16.7. Swagger Responses",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SwaggerResponses",
+                "anchor": "topics-swaggerresponses",
+                "virtual_path": "docs/topics/SwaggerResponses/index.md"
+              },
+              {
+                "title": "10.16.8. Swagger Models",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SwaggerModels",
+                "anchor": "topics-swaggermodels",
+                "virtual_path": "docs/topics/SwaggerModels/index.md"
+              },
+              {
+                "title": "10.16.9. Swagger Stylesheet",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/SwaggerStylesheet",
+                "anchor": "topics-swaggerstylesheet",
+                "virtual_path": "docs/topics/SwaggerStylesheet/index.md"
+              }
+            ]
+          },
+          {
+            "title": "10.17. REST method execution statistics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ExecutionStatistics",
+            "anchor": "topics-executionstatistics",
+            "virtual_path": "docs/topics/ExecutionStatistics/index.md"
+          },
+          {
+            "title": "10.18. @HtmlDocConfig Annotation",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HtmlDocConfigAnnotationBasics",
+            "anchor": "topics-htmldocconfigannotationbasics",
+            "virtual_path": "docs/topics/HtmlDocConfigAnnotationBasics/index.md",
+            "children": [
+              {
+                "title": "10.18.1. @HtmlDocConfig Annotation Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlDocConfigAnnotationBasics",
+                "anchor": "topics-htmldocconfigannotationbasics",
+                "virtual_path": "docs/topics/HtmlDocConfigAnnotationBasics/index.md"
+              },
+              {
+                "title": "10.18.2. HTML UI vs DI",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlUIvsDI",
+                "anchor": "topics-htmluivsdi",
+                "virtual_path": "docs/topics/HtmlUIvsDI/index.md"
+              },
+              {
+                "title": "10.18.3. HTML Widgets",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlWidgets",
+                "anchor": "topics-htmlwidgets",
+                "virtual_path": "docs/topics/HtmlWidgets/index.md"
+              },
+              {
+                "title": "10.18.4. HTML Predefined Widgets",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlPredefinedWidgets",
+                "anchor": "topics-htmlpredefinedwidgets",
+                "virtual_path": "docs/topics/HtmlPredefinedWidgets/index.md"
+              },
+              {
+                "title": "10.18.5. HTML UI Customization",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlUiCustomization",
+                "anchor": "topics-htmluicustomization",
+                "virtual_path": "docs/topics/HtmlUiCustomization/index.md"
+              },
+              {
+                "title": "10.18.6. HTML Stylesheets",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/HtmlStylesheets",
+                "anchor": "topics-htmlstylesheets",
+                "virtual_path": "docs/topics/HtmlStylesheets/index.md"
+              }
+            ]
+          },
+          {
+            "title": "10.19. Logging and Debugging",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestServerLoggingAndDebugging",
+            "anchor": "topics-restserverlogginganddebugging",
+            "virtual_path": "docs/topics/RestServerLoggingAndDebugging/index.md"
+          },
+          {
+            "title": "10.20. HTTP Status Codes",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HttpStatusCodes",
+            "anchor": "topics-httpstatuscodes",
+            "virtual_path": "docs/topics/HttpStatusCodes/index.md"
+          },
+          {
+            "title": "10.21. Built-In Parameters",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/BuiltInParameters",
+            "anchor": "topics-builtinparameters",
+            "virtual_path": "docs/topics/BuiltInParameters/index.md"
+          },
+          {
+            "title": "10.22. Using with OSGi",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/UsingWithOsgi",
+            "anchor": "topics-usingwithosgi",
+            "virtual_path": "docs/topics/UsingWithOsgi/index.md"
+          },
+          {
+            "title": "10.23. REST Context",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestContext",
+            "anchor": "topics-restcontext",
+            "virtual_path": "docs/topics/RestContext/index.md"
+          },
+          {
+            "title": "10.24. RestOp Context",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestOpContext",
+            "anchor": "topics-restopcontext",
+            "virtual_path": "docs/topics/RestOpContext/index.md"
+          },
+          {
+            "title": "10.25. Response Processors",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ResponseProcessors",
+            "anchor": "topics-responseprocessors",
+            "virtual_path": "docs/topics/ResponseProcessors/index.md"
+          },
+          {
+            "title": "10.26. REST RPC",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestRpc",
+            "anchor": "topics-restrpc",
+            "virtual_path": "docs/topics/RestRpc/index.md"
+          },
+          {
+            "title": "10.27. Serializing URIs",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SerializingUris",
+            "anchor": "topics-serializinguris",
+            "virtual_path": "docs/topics/SerializingUris/index.md"
+          },
+          {
+            "title": "10.28. Utility Beans",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/UtilityBeans",
+            "anchor": "topics-utilitybeans",
+            "virtual_path": "docs/topics/UtilityBeans/index.md"
+          },
+          {
+            "title": "10.29. HTML Beans",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/HtmlBeans",
+            "anchor": "topics-htmlbeans",
+            "virtual_path": "docs/topics/HtmlBeans/index.md"
+          },
+          {
+            "title": "10.30. Other Notes",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/OtherNotes",
+            "anchor": "topics-othernotes",
+            "virtual_path": "docs/topics/OtherNotes/index.md"
+          },
+          {
+            "title": "10.31. Log4J",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Log4j",
+            "anchor": "topics-log4j",
+            "virtual_path": "docs/topics/Log4j/index.md"
+          }
+        ]
+      },
+      {
+        "title": "11. juneau-rest-server-springboot",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauRestServerSpringbootBasics",
+        "anchor": "topics-juneaurestserverspringbootbasics",
+        "virtual_path": "docs/topics/JuneauRestServerSpringbootBasics/index.md",
+        "children": [
+          {
+            "title": "11.1. juneau-rest-server-springboot Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauRestServerSpringbootBasics",
+            "anchor": "topics-juneaurestserverspringbootbasics",
+            "virtual_path": "docs/topics/JuneauRestServerSpringbootBasics/index.md"
+          },
+          {
+            "title": "11.2. Spring Boot Overview",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SpringBootOverview",
+            "anchor": "topics-springbootoverview",
+            "virtual_path": "docs/topics/SpringBootOverview/index.md"
+          }
+        ]
+      },
+      {
+        "title": "12. juneau-rest-client",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauRestClientBasics",
+        "anchor": "topics-juneaurestclientbasics",
+        "virtual_path": "docs/topics/JuneauRestClientBasics/index.md",
+        "children": [
+          {
+            "title": "12.1. juneau-rest-client Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauRestClientBasics",
+            "anchor": "topics-juneaurestclientbasics",
+            "virtual_path": "docs/topics/JuneauRestClientBasics/index.md"
+          },
+          {
+            "title": "12.2. POJO Marshalling",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/PojoMarshalling",
+            "anchor": "topics-pojomarshalling",
+            "virtual_path": "docs/topics/PojoMarshalling/index.md"
+          },
+          {
+            "title": "12.3. Request Parts",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RequestParts",
+            "anchor": "topics-requestparts",
+            "virtual_path": "docs/topics/RequestParts/index.md"
+          },
+          {
+            "title": "12.4. Request Content",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RequestContent",
+            "anchor": "topics-requestcontent",
+            "virtual_path": "docs/topics/RequestContent/index.md"
+          },
+          {
+            "title": "12.5. Response Status",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ResponseStatus",
+            "anchor": "topics-responsestatus",
+            "virtual_path": "docs/topics/ResponseStatus/index.md"
+          },
+          {
+            "title": "12.6. Response Headers",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ResponseHeaders",
+            "anchor": "topics-responseheaders",
+            "virtual_path": "docs/topics/ResponseHeaders/index.md"
+          },
+          {
+            "title": "12.7. Response Content",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ResponseContent",
+            "anchor": "topics-responsecontent",
+            "virtual_path": "docs/topics/ResponseContent/index.md"
+          },
+          {
+            "title": "12.8. Custom Call Handlers",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/CustomCallHandlers",
+            "anchor": "topics-customcallhandlers",
+            "virtual_path": "docs/topics/CustomCallHandlers/index.md"
+          },
+          {
+            "title": "12.9. Interceptors",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Interceptors",
+            "anchor": "topics-interceptors",
+            "virtual_path": "docs/topics/Interceptors/index.md"
+          },
+          {
+            "title": "12.10. REST Proxies",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestProxyBasics",
+            "anchor": "topics-restproxybasics",
+            "virtual_path": "docs/topics/RestProxyBasics/index.md",
+            "children": [
+              {
+                "title": "12.10.1. REST Proxy Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/RestProxyBasics",
+                "anchor": "topics-restproxybasics",
+                "virtual_path": "docs/topics/RestProxyBasics/index.md"
+              },
+              {
+                "title": "12.10.2. @Remote",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Remote",
+                "anchor": "topics-remote",
+                "virtual_path": "docs/topics/Remote/index.md"
+              },
+              {
+                "title": "12.10.3. @RemoteMethod",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/RemoteMethod",
+                "anchor": "topics-remotemethod",
+                "virtual_path": "docs/topics/RemoteMethod/index.md"
+              },
+              {
+                "title": "12.10.4. @Content",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Content",
+                "anchor": "topics-content",
+                "virtual_path": "docs/topics/Content/index.md"
+              },
+              {
+                "title": "12.10.5. @FormData",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/FormData",
+                "anchor": "topics-formdata",
+                "virtual_path": "docs/topics/FormData/index.md"
+              },
+              {
+                "title": "12.10.6. @Query",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Query",
+                "anchor": "topics-query",
+                "virtual_path": "docs/topics/Query/index.md"
+              },
+              {
+                "title": "12.10.7. @Header",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Header",
+                "anchor": "topics-header",
+                "virtual_path": "docs/topics/Header/index.md"
+              },
+              {
+                "title": "12.10.8. @Path",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Path",
+                "anchor": "topics-path",
+                "virtual_path": "docs/topics/Path/index.md"
+              },
+              {
+                "title": "12.10.9. @Request",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Request",
+                "anchor": "topics-request",
+                "virtual_path": "docs/topics/Request/index.md"
+              },
+              {
+                "title": "12.10.10. @Response",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/Response",
+                "anchor": "topics-response",
+                "virtual_path": "docs/topics/Response/index.md"
+              },
+              {
+                "title": "12.10.11. Dual-Purpose Interfaces",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/DualPurposeInterfaces",
+                "anchor": "topics-dualpurposeinterfaces",
+                "virtual_path": "docs/topics/DualPurposeInterfaces/index.md"
+              }
+            ]
+          },
+          {
+            "title": "12.11. Logging and Debugging",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestClientLoggingAndDebugging",
+            "anchor": "topics-restclientlogginganddebugging",
+            "virtual_path": "docs/topics/RestClientLoggingAndDebugging/index.md"
+          },
+          {
+            "title": "12.12. Customizing HTTP Client",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/CustomizingHttpClient",
+            "anchor": "topics-customizinghttpclient",
+            "virtual_path": "docs/topics/CustomizingHttpClient/index.md"
+          },
+          {
+            "title": "12.13. Extending REST Client",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ExtendingRestClient",
+            "anchor": "topics-extendingrestclient",
+            "virtual_path": "docs/topics/ExtendingRestClient/index.md"
+          },
+          {
+            "title": "12.14. Authentication",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/AuthenticationBasics",
+            "anchor": "topics-authenticationbasics",
+            "virtual_path": "docs/topics/AuthenticationBasics/index.md",
+            "children": [
+              {
+                "title": "12.14.1. Authentication Basics",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/AuthenticationBasics",
+                "anchor": "topics-authenticationbasics",
+                "virtual_path": "docs/topics/AuthenticationBasics/index.md"
+              },
+              {
+                "title": "12.14.2. BASIC Authentication",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/AuthenticationBASIC",
+                "anchor": "topics-authenticationbasic",
+                "virtual_path": "docs/topics/AuthenticationBASIC/index.md"
+              },
+              {
+                "title": "12.14.3. Form-Based Authentication",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/AuthenticationForm",
+                "anchor": "topics-authenticationform",
+                "virtual_path": "docs/topics/AuthenticationForm/index.md"
+              },
+              {
+                "title": "12.14.4. OIDC Authentication",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/topics/AuthenticationOIDC",
+                "anchor": "topics-authenticationoidc",
+                "virtual_path": "docs/topics/AuthenticationOIDC/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "13. juneau-rest-mock",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauRestMockBasics",
+        "anchor": "topics-juneaurestmockbasics",
+        "virtual_path": "docs/topics/JuneauRestMockBasics/index.md",
+        "children": [
+          {
+            "title": "13.1. juneau-rest-mock Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauRestMockBasics",
+            "anchor": "topics-juneaurestmockbasics",
+            "virtual_path": "docs/topics/JuneauRestMockBasics/index.md"
+          },
+          {
+            "title": "13.2. Mock REST Client Overview",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MockRestClientOverview",
+            "anchor": "topics-mockrestclientoverview",
+            "virtual_path": "docs/topics/MockRestClientOverview/index.md"
+          }
+        ]
+      },
+      {
+        "title": "14. juneau-microservice-core",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauMicroserviceCoreBasics",
+        "anchor": "topics-juneaumicroservicecorebasics",
+        "virtual_path": "docs/topics/JuneauMicroserviceCoreBasics/index.md",
+        "children": [
+          {
+            "title": "14.1. juneau-microservice-core Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauMicroserviceCoreBasics",
+            "anchor": "topics-juneaumicroservicecorebasics",
+            "virtual_path": "docs/topics/JuneauMicroserviceCoreBasics/index.md"
+          },
+          {
+            "title": "14.2. Microservice Core Overview",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MicroserviceCoreOverview",
+            "anchor": "topics-microservicecoreoverview",
+            "virtual_path": "docs/topics/MicroserviceCoreOverview/index.md"
+          },
+          {
+            "title": "14.3. Args",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Args",
+            "anchor": "topics-args",
+            "virtual_path": "docs/topics/Args/index.md"
+          },
+          {
+            "title": "14.4. Manifest",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Manifest",
+            "anchor": "topics-manifest",
+            "virtual_path": "docs/topics/Manifest/index.md"
+          },
+          {
+            "title": "14.5. System Properties",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SystemProperties",
+            "anchor": "topics-systemproperties",
+            "virtual_path": "docs/topics/SystemProperties/index.md"
+          },
+          {
+            "title": "14.6. Var Resolver",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/VarResolver",
+            "anchor": "topics-varresolver",
+            "virtual_path": "docs/topics/VarResolver/index.md"
+          },
+          {
+            "title": "14.7. Console Commands",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ConsoleCommands",
+            "anchor": "topics-consolecommands",
+            "virtual_path": "docs/topics/ConsoleCommands/index.md"
+          },
+          {
+            "title": "14.8. Listeners",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MicroserviceCoreListeners",
+            "anchor": "topics-microservicecorelisteners",
+            "virtual_path": "docs/topics/MicroserviceCoreListeners/index.md"
+          }
+        ]
+      },
+      {
+        "title": "15. juneau-microservice-jetty",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauMicroserviceJettyBasics",
+        "anchor": "topics-juneaumicroservicejettybasics",
+        "virtual_path": "docs/topics/JuneauMicroserviceJettyBasics/index.md",
+        "children": [
+          {
+            "title": "15.1. juneau-microservice-jetty Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauMicroserviceJettyBasics",
+            "anchor": "topics-juneaumicroservicejettybasics",
+            "virtual_path": "docs/topics/JuneauMicroserviceJettyBasics/index.md"
+          },
+          {
+            "title": "15.2. Microservice Jetty Overview",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MicroserviceJettyOverview",
+            "anchor": "topics-microservicejettyoverview",
+            "virtual_path": "docs/topics/MicroserviceJettyOverview/index.md"
+          },
+          {
+            "title": "15.3. Lifecycle Methods",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MicroserviceCoreLifecycleMethods",
+            "anchor": "topics-microservicecorelifecyclemethods",
+            "virtual_path": "docs/topics/MicroserviceCoreLifecycleMethods/index.md"
+          },
+          {
+            "title": "15.4. Resource Classes",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/ResourceClasses",
+            "anchor": "topics-resourceclasses",
+            "virtual_path": "docs/topics/ResourceClasses/index.md"
+          },
+          {
+            "title": "15.5. Predefined Resource Classes",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/PredefinedResourceClasses",
+            "anchor": "topics-predefinedresourceclasses",
+            "virtual_path": "docs/topics/PredefinedResourceClasses/index.md"
+          },
+          {
+            "title": "15.6. Config",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MicroserviceCoreConfig",
+            "anchor": "topics-microservicecoreconfig",
+            "virtual_path": "docs/topics/MicroserviceCoreConfig/index.md"
+          },
+          {
+            "title": "15.7. Jetty XML",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JettyXml",
+            "anchor": "topics-jettyxml",
+            "virtual_path": "docs/topics/JettyXml/index.md"
+          },
+          {
+            "title": "15.8. UI Customization",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/UiCustomization",
+            "anchor": "topics-uicustomization",
+            "virtual_path": "docs/topics/UiCustomization/index.md"
+          },
+          {
+            "title": "15.9. Extending",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/Extending",
+            "anchor": "topics-extending",
+            "virtual_path": "docs/topics/Extending/index.md"
+          }
+        ]
+      },
+      {
+        "title": "16. My Jetty Microservice",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/MyJettyMicroserviceBasics",
+        "anchor": "topics-myjettymicroservicebasics",
+        "virtual_path": "docs/topics/MyJettyMicroserviceBasics/index.md",
+        "children": [
+          {
+            "title": "16.1. My Jetty Microservice Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MyJettyMicroserviceBasics",
+            "anchor": "topics-myjettymicroservicebasics",
+            "virtual_path": "docs/topics/MyJettyMicroserviceBasics/index.md"
+          },
+          {
+            "title": "16.2. Installing",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MyJettyMicroserviceInstalling",
+            "anchor": "topics-myjettymicroserviceinstalling",
+            "virtual_path": "docs/topics/MyJettyMicroserviceInstalling/index.md"
+          },
+          {
+            "title": "16.3. Running",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MyJettyMicroserviceRunning",
+            "anchor": "topics-myjettymicroservicerunning",
+            "virtual_path": "docs/topics/MyJettyMicroserviceRunning/index.md"
+          },
+          {
+            "title": "16.4. Building",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MyJettyMicroserviceBuilding",
+            "anchor": "topics-myjettymicroservicebuilding",
+            "virtual_path": "docs/topics/MyJettyMicroserviceBuilding/index.md"
+          }
+        ]
+      },
+      {
+        "title": "17. My SpringBoot Microservice",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/MySpringBootMicroserviceBasics",
+        "anchor": "topics-myspringbootmicroservicebasics",
+        "virtual_path": "docs/topics/MySpringBootMicroserviceBasics/index.md",
+        "children": [
+          {
+            "title": "17.1. My SpringBoot Microservice Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MySpringBootMicroserviceBasics",
+            "anchor": "topics-myspringbootmicroservicebasics",
+            "virtual_path": "docs/topics/MySpringBootMicroserviceBasics/index.md"
+          },
+          {
+            "title": "17.2. Installing",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MySpringBootMicroserviceInstalling",
+            "anchor": "topics-myspringbootmicroserviceinstalling",
+            "virtual_path": "docs/topics/MySpringBootMicroserviceInstalling/index.md"
+          },
+          {
+            "title": "17.3. Running",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MySpringBootMicroserviceRunning",
+            "anchor": "topics-myspringbootmicroservicerunning",
+            "virtual_path": "docs/topics/MySpringBootMicroserviceRunning/index.md"
+          },
+          {
+            "title": "17.4. Building",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MySpringBootMicroserviceBuilding",
+            "anchor": "topics-myspringbootmicroservicebuilding",
+            "virtual_path": "docs/topics/MySpringBootMicroserviceBuilding/index.md"
+          }
+        ]
+      },
+      {
+        "title": "18. juneau-petstore",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauPetstoreBasics",
+        "anchor": "topics-juneaupetstorebasics",
+        "virtual_path": "docs/topics/JuneauPetstoreBasics/index.md",
+        "children": [
+          {
+            "title": "18.1. juneau-petstore Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauPetstoreBasics",
+            "anchor": "topics-juneaupetstorebasics",
+            "virtual_path": "docs/topics/JuneauPetstoreBasics/index.md"
+          },
+          {
+            "title": "18.2. Running the App",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauPetstoreRunning",
+            "anchor": "topics-juneaupetstorerunning",
+            "virtual_path": "docs/topics/JuneauPetstoreRunning/index.md"
+          },
+          {
+            "title": "18.3. juneau-petstore-api",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauPetstoreApi",
+            "anchor": "topics-juneaupetstoreapi",
+            "virtual_path": "docs/topics/JuneauPetstoreApi/index.md"
+          },
+          {
+            "title": "18.4. juneau-petstore-client",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauPetstoreClient",
+            "anchor": "topics-juneaupetstoreclient",
+            "virtual_path": "docs/topics/JuneauPetstoreClient/index.md"
+          },
+          {
+            "title": "18.5. juneau-petstore-server",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauPetstoreServer",
+            "anchor": "topics-juneaupetstoreserver",
+            "virtual_path": "docs/topics/JuneauPetstoreServer/index.md"
+          }
+        ]
+      },
+      {
+        "title": "19. juneau-examples",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauExamplesCore",
+        "anchor": "topics-juneauexamplescore",
+        "virtual_path": "docs/topics/JuneauExamplesCore/index.md",
+        "children": [
+          {
+            "title": "19.1. juneau-examples-core",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauExamplesCore",
+            "anchor": "topics-juneauexamplescore",
+            "virtual_path": "docs/topics/JuneauExamplesCore/index.md"
+          },
+          {
+            "title": "19.2. juneau-examples-rest",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauExamplesRest",
+            "anchor": "topics-juneauexamplesrest",
+            "virtual_path": "docs/topics/JuneauExamplesRest/index.md"
+          },
+          {
+            "title": "19.3. juneau-examples-rest-jetty",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauExamplesRestJetty",
+            "anchor": "topics-juneauexamplesrestjetty",
+            "virtual_path": "docs/topics/JuneauExamplesRestJetty/index.md"
+          },
+          {
+            "title": "19.4. juneau-examples-rest-springboot",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauExamplesRestSpringboot",
+            "anchor": "topics-juneauexamplesrestspringboot",
+            "virtual_path": "docs/topics/JuneauExamplesRestSpringboot/index.md"
+          }
+        ]
+      },
+      {
+        "title": "20. juneau-shaded",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/JuneauShadedOverview",
+        "anchor": "topics-juneaushadedoverview",
+        "virtual_path": "docs/topics/JuneauShadedOverview/index.md",
+        "children": [
+          {
+            "title": "20.1. Juneau Shaded Overview",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauShadedOverview",
+            "anchor": "topics-juneaushadedoverview",
+            "virtual_path": "docs/topics/JuneauShadedOverview/index.md"
+          },
+          {
+            "title": "20.2. juneau-shaded-core",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauShadedCore",
+            "anchor": "topics-juneaushadedcore",
+            "virtual_path": "docs/topics/JuneauShadedCore/index.md"
+          },
+          {
+            "title": "20.3. juneau-shaded-rest-client",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauShadedRestClient",
+            "anchor": "topics-juneaushadedrestclient",
+            "virtual_path": "docs/topics/JuneauShadedRestClient/index.md"
+          },
+          {
+            "title": "20.4. juneau-shaded-rest-server",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauShadedRestServer",
+            "anchor": "topics-juneaushadedrestserver",
+            "virtual_path": "docs/topics/JuneauShadedRestServer/index.md"
+          },
+          {
+            "title": "20.5. juneau-shaded-rest-server-springboot",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauShadedRestServerSpringboot",
+            "anchor": "topics-juneaushadedrestserverspringboot",
+            "virtual_path": "docs/topics/JuneauShadedRestServerSpringboot/index.md"
+          },
+          {
+            "title": "20.6. juneau-shaded-all",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/JuneauShadedAll",
+            "anchor": "topics-juneaushadedall",
+            "virtual_path": "docs/topics/JuneauShadedAll/index.md"
+          }
+        ]
+      },
+      {
+        "title": "21. Security",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/SecurityBasics",
+        "anchor": "topics-securitybasics",
+        "virtual_path": "docs/topics/SecurityBasics/index.md",
+        "children": [
+          {
+            "title": "21.1. Security Basics",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SecurityBasics",
+            "anchor": "topics-securitybasics",
+            "virtual_path": "docs/topics/SecurityBasics/index.md"
+          },
+          {
+            "title": "21.2. Marshalling Security",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/MarshallingSecurity",
+            "anchor": "topics-marshallingsecurity",
+            "virtual_path": "docs/topics/MarshallingSecurity/index.md"
+          },
+          {
+            "title": "21.3. SVL Security",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/SvlSecurity",
+            "anchor": "topics-svlsecurity",
+            "virtual_path": "docs/topics/SvlSecurity/index.md"
+          },
+          {
+            "title": "21.4. REST Security",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/topics/RestSecurity",
+            "anchor": "topics-restsecurity",
+            "virtual_path": "docs/topics/RestSecurity/index.md"
+          }
+        ]
+      },
+      {
+        "title": "22. V9.0 Migration Guide",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/topics/V9.0-migration-guide"
+      }
+    ]
+  },
+  {
+    "title": "Developer Info",
+    "kind": "category",
+    "source_url": "https://juneau.apache.org/docs/developer-info/01.DeveloperLinks",
+    "children": [
+      {
+        "title": "1. Developer Links",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/developer-info/01.DeveloperLinks"
+      },
+      {
+        "title": "2. How-to Articles",
+        "kind": "category",
+        "source_url": "https://juneau.apache.org/docs/developer-info/02.01.BecomingAContributor",
+        "children": [
+          {
+            "title": "2.1. Becoming a contributor",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/developer-info/02.01.BecomingAContributor"
+          },
+          {
+            "title": "2.2. How non-committers can contribute code",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/developer-info/02.02.NonCommittersContribute"
+          },
+          {
+            "title": "2.3. New member guidelines",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/developer-info/02.03.NewMemberGuidelines"
+          },
+          {
+            "title": "2.4. New release guidelines",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/developer-info/02.04.NewReleaseGuidelines"
+          },
+          {
+            "title": "2.5. Versioning guidelines",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/developer-info/02.05.VersioningGuidelines"
+          },
+          {
+            "title": "2.6. Using the code formatting stylesheet",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/developer-info/02.06.CodeFormattingStylesheet"
+          },
+          {
+            "title": "2.7. Development wish list",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/developer-info/02.08.DevelopmentWishList"
+          }
+        ]
+      },
+      {
+        "title": "3. Current Members",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/developer-info/03.CurrentMembers"
+      },
+      {
+        "title": "4. Scripts",
+        "kind": "category",
+        "source_url": "https://juneau.apache.org/docs/developer-info/Scripts",
+        "anchor": "developer-info-scripts",
+        "virtual_path": "docs/developer-info/Scripts/index.md",
+        "children": [
+          {
+            "title": "4.1. Scripts Overview",
+            "kind": "link",
+            "source_url": "https://juneau.apache.org/docs/developer-info/Scripts",
+            "anchor": "developer-info-scripts",
+            "virtual_path": "docs/developer-info/Scripts/index.md"
+          },
+          {
+            "title": "4.2. Code Scripts",
+            "kind": "category",
+            "source_url": "https://juneau.apache.org/docs/developer-info/ScriptTest",
+            "anchor": "developer-info-scripttest",
+            "virtual_path": "docs/developer-info/ScriptTest/index.md",
+            "children": [
+              {
+                "title": "4.2.1. test.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptTest",
+                "anchor": "developer-info-scripttest",
+                "virtual_path": "docs/developer-info/ScriptTest/index.md"
+              },
+              {
+                "title": "4.2.2. push.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptPush",
+                "anchor": "developer-info-scriptpush",
+                "virtual_path": "docs/developer-info/ScriptPush/index.md"
+              },
+              {
+                "title": "4.2.3. release.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptRelease",
+                "anchor": "developer-info-scriptrelease",
+                "virtual_path": "docs/developer-info/ScriptRelease/index.md"
+              },
+              {
+                "title": "4.2.4. prompt-pgp-passphrase.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptPromptPgpPassphrase",
+                "anchor": "developer-info-scriptpromptpgppassphrase",
+                "virtual_path": "docs/developer-info/ScriptPromptPgpPassphrase/index.md"
+              },
+              {
+                "title": "4.2.5. current-release.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptCurrentRelease",
+                "anchor": "developer-info-scriptcurrentrelease",
+                "virtual_path": "docs/developer-info/ScriptCurrentRelease/index.md"
+              },
+              {
+                "title": "4.2.6. maven-version.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptMavenVersion",
+                "anchor": "developer-info-scriptmavenversion",
+                "virtual_path": "docs/developer-info/ScriptMavenVersion/index.md"
+              },
+              {
+                "title": "4.2.7. apply-eclipse-prefs.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptApplyEclipsePrefs",
+                "anchor": "developer-info-scriptapplyeclipseprefs",
+                "virtual_path": "docs/developer-info/ScriptApplyEclipsePrefs/index.md"
+              },
+              {
+                "title": "4.2.8. cleanup-whitespace.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptCleanupWhitespace",
+                "anchor": "developer-info-scriptcleanupwhitespace",
+                "virtual_path": "docs/developer-info/ScriptCleanupWhitespace/index.md"
+              },
+              {
+                "title": "4.2.9. check-fluent-setter-overrides.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptCheckFluentSetterOverrides",
+                "anchor": "developer-info-scriptcheckfluentsetteroverrides",
+                "virtual_path": "docs/developer-info/ScriptCheckFluentSetterOverrides/index.md"
+              },
+              {
+                "title": "4.2.10. revert-staged.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptRevertStaged",
+                "anchor": "developer-info-scriptrevertstaged",
+                "virtual_path": "docs/developer-info/ScriptRevertStaged/index.md"
+              },
+              {
+                "title": "4.2.11. revert-unstaged.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptRevertUnstaged",
+                "anchor": "developer-info-scriptrevertunstaged",
+                "virtual_path": "docs/developer-info/ScriptRevertUnstaged/index.md"
+              },
+              {
+                "title": "4.2.12. start-examples-rest-jetty.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptStartExamplesRestJetty",
+                "anchor": "developer-info-scriptstartexamplesrestjetty",
+                "virtual_path": "docs/developer-info/ScriptStartExamplesRestJetty/index.md"
+              },
+              {
+                "title": "4.2.13. start-examples-rest-springboot.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptStartExamplesRestSpringboot",
+                "anchor": "developer-info-scriptstartexamplesrestspringboot",
+                "virtual_path": "docs/developer-info/ScriptStartExamplesRestSpringboot/index.md"
+              }
+            ]
+          },
+          {
+            "title": "4.3. Doc Scripts",
+            "kind": "category",
+            "source_url": "https://juneau.apache.org/docs/developer-info/ScriptReleaseDocsStage",
+            "anchor": "developer-info-scriptreleasedocsstage",
+            "virtual_path": "docs/developer-info/ScriptReleaseDocsStage/index.md",
+            "children": [
+              {
+                "title": "4.3.1. release-docs-stage.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptReleaseDocsStage",
+                "anchor": "developer-info-scriptreleasedocsstage",
+                "virtual_path": "docs/developer-info/ScriptReleaseDocsStage/index.md"
+              },
+              {
+                "title": "4.3.2. release-docs.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptReleaseDocs",
+                "anchor": "developer-info-scriptreleasedocs",
+                "virtual_path": "docs/developer-info/ScriptReleaseDocs/index.md"
+              },
+              {
+                "title": "4.3.3. build-docs.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptBuildDocs",
+                "anchor": "developer-info-scriptbuilddocs",
+                "virtual_path": "docs/developer-info/ScriptBuildDocs/index.md"
+              },
+              {
+                "title": "4.3.4. create-mvn-site.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptCreateMvnSite",
+                "anchor": "developer-info-scriptcreatemvnsite",
+                "virtual_path": "docs/developer-info/ScriptCreateMvnSite/index.md"
+              },
+              {
+                "title": "4.3.5. start-docusaurus.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptStartDocusaurus",
+                "anchor": "developer-info-scriptstartdocusaurus",
+                "virtual_path": "docs/developer-info/ScriptStartDocusaurus/index.md"
+              },
+              {
+                "title": "4.3.6. check-topic-links.py",
+                "kind": "link",
+                "source_url": "https://juneau.apache.org/docs/developer-info/ScriptCheckTopicLinks",
+                "anchor": "developer-info-scriptchecktopiclinks",
+                "virtual_path": "docs/developer-info/ScriptCheckTopicLinks/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "5. Articles",
+        "kind": "link",
+        "source_url": "https://juneau.apache.org/docs/developer-info/05.ArticlesIndex"
+      }
+    ]
+  },
+  {
+    "title": "Release Notes",
+    "kind": "link",
+    "source_url": "https://juneau.apache.org/docs/release-notes/9.2.0"
+  }
+]
