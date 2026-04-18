@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import posixpath
+from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import SplitResult, urljoin, urlsplit, urlunsplit, urldefrag
 
@@ -13,6 +14,14 @@ from markdownify import markdownify
 
 USER_AGENT = "Mozilla/5.0 (compatible; docs2md/0.2)"
 DOC_EXTENSIONS = {"", ".html", ".htm", ".xhtml"}
+
+
+@dataclass
+class NavNode:
+    title: str
+    href: str | None = None
+    children: list["NavNode"] = field(default_factory=list)
+
 
 
 def normalize_url(url: str) -> str:
@@ -57,13 +66,34 @@ def extract_links(soup: BeautifulSoup, base_url: str) -> list[str]:
     return links
 
 
+def extract_navigation(soup: BeautifulSoup, base_url: str) -> list[NavNode]:
+    sidebar = soup.select_one("aside nav, nav[aria-label*=sidebar i], .sidebar, #navcolumn, #leftColumn")
+    if sidebar is None:
+        return []
+    nodes: list[NavNode] = []
+    seen: set[str] = set()
+    for anchor in sidebar.select("a[href]"):
+        title = anchor.get_text(" ", strip=True)
+        href = anchor.get("href", "").strip()
+        if not title or not href.startswith(("/", ".", "http")):
+            continue
+        target = normalize_url(urljoin(base_url, href))
+        if target in seen:
+            continue
+        seen.add(target)
+        nodes.append(NavNode(title=title, href=target))
+    return nodes
+
+
 def convert_page(url: str, out_dir: Path) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
     soup = BeautifulSoup(fetch_html(url), "html.parser")
     root = soup.find("main") or soup.find("article") or soup.body or soup
+    nav = extract_navigation(soup, url)
+    nav_md = "\n".join(f"- [{n.title}]({n.href})" for n in nav)
     markdown = markdownify(str(root), heading_style="ATX")
     output = out_dir / "combined.md"
-    output.write_text(markdown.strip() + "\n", encoding="utf-8")
+    output.write_text(f"# Navigation\n\n{nav_md}\n\n# Content\n\n{markdown.strip()}\n", encoding="utf-8")
     return output
 
 
