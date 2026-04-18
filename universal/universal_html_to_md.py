@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import posixpath
+from collections import deque
 from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import SplitResult, urljoin, urlsplit, urlunsplit, urldefrag
@@ -85,15 +86,35 @@ def extract_navigation(soup: BeautifulSoup, base_url: str) -> list[NavNode]:
     return nodes
 
 
-def convert_page(url: str, out_dir: Path) -> Path:
+def crawl(entry_url: str, max_pages: int = 50) -> list[tuple[str, BeautifulSoup]]:
+    queue = deque([normalize_url(entry_url)])
+    seen: set[str] = set()
+    pages: list[tuple[str, BeautifulSoup]] = []
+    while queue and len(pages) < max_pages:
+        url = queue.popleft()
+        if url in seen:
+            continue
+        seen.add(url)
+        soup = BeautifulSoup(fetch_html(url), "html.parser")
+        pages.append((url, soup))
+        for link in extract_links(soup, url):
+            if link not in seen:
+                queue.append(link)
+    return pages
+
+
+def convert_page(url: str, out_dir: Path, max_pages: int = 50) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
-    soup = BeautifulSoup(fetch_html(url), "html.parser")
-    root = soup.find("main") or soup.find("article") or soup.body or soup
-    nav = extract_navigation(soup, url)
-    nav_md = "\n".join(f"- [{n.title}]({n.href})" for n in nav)
-    markdown = markdownify(str(root), heading_style="ATX")
+    pages = crawl(url, max_pages=max_pages)
+    nav = extract_navigation(pages[0][1], pages[0][0]) if pages else []
+    nav_md = "\n".join(f"- [{n.title}](#{i + 1})" for i, n in enumerate(nav))
+    chunks = ["# Navigation", "", nav_md, "", "# Content"]
+    for index, (page_url, soup) in enumerate(pages, start=1):
+        root = soup.find("main") or soup.find("article") or soup.body or soup
+        chunks.append(f"\n<a id=\"{index}\"></a>\n")
+        chunks.append(markdownify(str(root), heading_style="ATX").strip())
     output = out_dir / "combined.md"
-    output.write_text(f"# Navigation\n\n{nav_md}\n\n# Content\n\n{markdown.strip()}\n", encoding="utf-8")
+    output.write_text("\n".join(chunks).strip() + "\n", encoding="utf-8")
     return output
 
 
@@ -101,12 +122,13 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser()
     parser.add_argument("url")
     parser.add_argument("--out-dir", type=Path, default=Path("converted_docs"))
+    parser.add_argument("--max-pages", type=int, default=50)
     return parser
 
 
 def main(argv: list[str] | None = None) -> int:
     args = build_arg_parser().parse_args(argv)
-    print(convert_page(args.url, args.out_dir))
+    print(convert_page(args.url, args.out_dir, max_pages=args.max_pages))
     return 0
 
 
