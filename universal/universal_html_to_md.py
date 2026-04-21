@@ -20,7 +20,7 @@ from concurrent.futures import Future, ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Callable, Dict, Iterable, List, Optional, Sequence, Set, Tuple
-from urllib.parse import SplitResult, urljoin, urlsplit, urlunsplit, urldefrag, unquote
+from urllib.parse import SplitResult, parse_qsl, urlencode, urljoin, urlsplit, urlunsplit, urldefrag, unquote
 
 import requests
 import yaml
@@ -50,7 +50,7 @@ BROWSER_TIMEOUT_MS = 45000
 DEFAULT_MAX_ASSET_BYTES = 25 * 1024 * 1024         
 DEFAULT_CONCURRENCY = 6
 DEFAULT_MAX_DEPTH = 20
-CACHE_SCHEMA_VERSION = 2
+CACHE_SCHEMA_VERSION = 3
 
                                                
 ADMONITION_STYLE = "callout"
@@ -280,6 +280,26 @@ DOC_LIKE_KEYWORDS = {
     "handbook", "cookbook",
 }
 
+                                                                             
+                                                                           
+                                            
+TRACKING_QUERY_PARAMS = {
+    "fbclid", "gclid", "dclid", "msclkid", "yclid", "mc_cid", "mc_eid",
+    "igshid", "spm", "ref_src", "ref_url", "source", "from", "campaign",
+}
+TRACKING_QUERY_PREFIXES = ("utm_",)
+
+                                                                              
+                                                                             
+                                                
+VERSION_QUERY_PARAMS = {
+    "version", "ver", "v", "docs_version", "doc_version", "release",
+    "branch", "tag", "rev", "revision", "ref", "lang", "language",
+    "locale", "hl",
+}
+
+SEARCH_QUERY_PARAMS = {"q", "query", "search", "keyword", "keywords", "term", "terms"}
+
 
                                                                          
                                                                          
@@ -413,7 +433,24 @@ def clean_text(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
 
-def normalize_url(url: str) -> str:
+def normalize_query_string(query: str) -> str:
+    if not query:
+        return ""
+    normalized: List[Tuple[str, str]] = []
+    for key, value in parse_qsl(query, keep_blank_values=True):
+        if not key:
+            continue
+        low = key.lower()
+        if low in TRACKING_QUERY_PARAMS or any(low.startswith(prefix) for prefix in TRACKING_QUERY_PREFIXES):
+            continue
+        normalized.append((key, value))
+    if not normalized:
+        return ""
+    normalized.sort(key=lambda item: (item[0].lower(), item[1]))
+    return urlencode(normalized, doseq=True)
+
+
+def normalize_url(url: str, *, keep_query: bool = True) -> str:
     url, _frag = urldefrag(url)
     parts = urlsplit(url)
     path = parts.path or "/"
@@ -429,15 +466,43 @@ def normalize_url(url: str) -> str:
         scheme=(parts.scheme or "https").lower(),
         netloc=parts.netloc.lower(),
         path=norm,
-        query="",
+        query=normalize_query_string(parts.query) if keep_query else "",
         fragment="",
     )
     return urlunsplit(clean)
 
 
+def scoped_query_params_from_url(url: str) -> List[Tuple[str, str]]:
+    parts = urlsplit(url)
+    scoped: List[Tuple[str, str]] = []
+    for key, value in parse_qsl(parts.query, keep_blank_values=True):
+        low = key.lower()
+        if low in VERSION_QUERY_PARAMS or looks_versionish(value):
+            scoped.append((key, value))
+    return scoped
+
+
+def inherit_scoped_query(base_url: str, candidate_url: str) -> str:
+    base = urlsplit(base_url)
+    candidate = urlsplit(candidate_url)
+    if candidate.query or base.netloc.lower() != candidate.netloc.lower():
+        return candidate_url
+    scoped = scoped_query_params_from_url(base_url)
+    if not scoped:
+        return candidate_url
+    return urlunsplit(SplitResult(
+        scheme=candidate.scheme,
+        netloc=candidate.netloc,
+        path=candidate.path,
+        query=urlencode(scoped, doseq=True),
+        fragment=candidate.fragment,
+    ))
+
+
 def split_and_normalize(base_url: str, href: str) -> Tuple[str, str]:
     abs_url = urljoin(base_url, href)
     abs_url, frag = urldefrag(abs_url)
+    abs_url = inherit_scoped_query(base_url, abs_url)
     return normalize_url(abs_url), unquote(frag or "")
 
 
@@ -468,9 +533,17 @@ def safe_stem(text: str) -> str:
 def looks_versionish(segment: str) -> bool:
     if not segment:
         return False
+    segment = unquote(str(segment)).strip().strip("/")
+    if not segment:
+        return False
+                                                                  
+    if Path(segment).suffix.lower() in DOC_PAGE_EXTENSIONS:
+        segment = Path(segment).stem
     return bool(re.match(
-        r"^(?:latest|next|stable|main|master|current|"
-        r"v?\d+(?:\.\d+){0,3}(?:[-._][A-Za-z0-9]+)*)$",
+        r"^(?:latest|next|stable|main|master|current|snapshot|"
+        r"v?(?:\d+|x)(?:(?:\.|-)(?:\d+|x)){0,5}"
+        r"(?:[-._]?(?:alpha|beta|rc|m|milestone|final|snapshot|ga)\d*)?"
+        r"(?:[-._][A-Za-z0-9]+)*)$",
         segment, re.I,
     ))
 
@@ -513,6 +586,77 @@ def path_similarity(path_a: str, path_b: str) -> float:
         else:
             break
     return common / max(len(segs_a), len(segs_b), 1)
+
+
+def path_segments_for_scope(path: str) -> List[str]:
+    segs = [unquote(seg) for seg in path.strip("/").split("/") if seg]
+    if segs and Path(segs[-1]).suffix.lower() in DOC_PAGE_EXTENSIONS:
+        segs = segs[:-1]
+    return segs
+
+
+def infer_version_scope_prefix(path: str, base_prefix: Optional[str] = None) -> Optional[str]:
+    segs = path_segments_for_scope(path)
+    if not segs:
+        return None
+
+    version_indices = [i for i, seg in enumerate(segs) if looks_versionish(seg)]
+    if not version_indices:
+        return None
+
+                                                                    
+                                                                       
+    strong_markers = DOC_LIKE_KEYWORDS | {"version", "versions", "release", "releases"}
+    for i in version_indices:
+        prev = segs[i - 1].lower() if i > 0 else ""
+        if prev in strong_markers:
+            return "/" + "/".join(segs[: i + 1]) + "/"
+
+                                                                               
+                                        
+    base_parts = [p for p in (base_prefix or "").strip("/").split("/") if p]
+    for i in reversed(version_indices):
+        if base_parts and i < len(base_parts):
+            return "/" + "/".join(segs[: i + 1]) + "/"
+
+                                                                              
+    i = version_indices[-1]
+    return "/" + "/".join(segs[: i + 1]) + "/"
+
+
+def clamp_prefix_to_version_scope(path: str, prefix: str) -> str:
+    version_prefix = infer_version_scope_prefix(path, prefix)
+    if not version_prefix:
+        return ensure_trailing_slash(prefix)
+    prefix = ensure_trailing_slash(prefix)
+                                                                              
+                                                                         
+    if prefix == "/" or version_prefix.startswith(prefix):
+        return version_prefix
+    if prefix.startswith(version_prefix):
+        return prefix
+    return version_prefix
+
+
+def query_scope_from_url(url: str) -> Tuple[Tuple[str, str], ...]:
+    return tuple(scoped_query_params_from_url(url))
+
+
+def url_matches_query_scope(url: str, scope: Tuple[Tuple[str, str], ...]) -> bool:
+    if not scope:
+        return True
+    params = parse_qsl(urlsplit(url).query, keep_blank_values=True)
+    for wanted_key, wanted_value in scope:
+        if (wanted_key, wanted_value) not in params:
+            return False
+    return True
+
+
+def query_looks_search_like(url: str) -> bool:
+    for key, _value in parse_qsl(urlsplit(url).query, keep_blank_values=True):
+        if key.lower() in SEARCH_QUERY_PARAMS:
+            return True
+    return False
 
 
                                                                          
@@ -974,7 +1118,7 @@ def compute_nav_score(
         if href.startswith("#"):
             fragment_links += 1
             continue
-        abs_url = normalize_url(absolutize(base_url or ("https://" + current_domain), href))
+        abs_url = split_and_normalize(base_url or ("https://" + current_domain), href)[0]
         if urlsplit(abs_url).netloc != current_domain:
             continue
         ext = Path(urlsplit(abs_url).path).suffix.lower()
@@ -1056,6 +1200,140 @@ def first_nonempty_attr(tag: Tag, names: Sequence[str]) -> str:
 
                                                                          
 
+def nav_link_count(nodes: List[NavNode]) -> int:
+    total = 0
+    for node in nodes:
+        if node.href:
+            total += 1
+        total += nav_link_count(node.children)
+    return total
+
+
+def nav_has_categories(nodes: List[NavNode]) -> bool:
+    return any((not node.href) or node.children or nav_has_categories(node.children) for node in nodes)
+
+
+def is_nav_heading_tag(tag: Tag) -> bool:
+    classes = " ".join(tag.get("class", [])).lower()
+    role = str(tag.get("role", "")).lower()
+    if tag.name in {"h1", "h2", "h3", "h4", "h5", "h6"}:
+        return True
+    if "nav-header" in classes or "nav_header" in classes:
+        return True
+    if "sidebar-heading" in classes or "sidebar-title" in classes or "menu-heading" in classes:
+        return True
+    if role in {"heading", "separator"} and clean_text(tag.get_text(" ", strip=True)):
+        return True
+                                                                           
+    if tag.name in {"strong", "b"} and not tag.find("a", href=True):
+        text = clean_text(tag.get_text(" ", strip=True))
+        return bool(text and len(text) <= 140)
+    return False
+
+
+def is_nav_header_item(item: Tag) -> bool:
+    classes = " ".join(item.get("class", [])).lower()
+    if "nav-header" in classes or "nav_header" in classes or "sidebar-heading" in classes:
+        return True
+    if item.find(["ul", "ol"], recursive=False) is not None:
+        return False
+    if item.find("a", href=True) is not None:
+        return False
+    text = clean_text(item.get_text(" ", strip=True))
+    if not text or len(text) > 140:
+        return False
+                                                                              
+    return item.name in {"li", "dt", "dd"}
+
+
+def extract_heading_title(tag: Tag) -> str:
+                                                                          
+    pieces: List[str] = []
+    for child in tag.children:
+        if isinstance(child, NavigableString):
+            pieces.append(str(child))
+        elif isinstance(child, Tag) and child.name not in {"ul", "ol"}:
+            if child.find(["ul", "ol"]):
+                                                       
+                subpieces = [str(grand) for grand in child.children if isinstance(grand, NavigableString)]
+                pieces.extend(subpieces)
+            else:
+                pieces.append(child.get_text(" ", strip=True))
+    title = clean_text(" ".join(pieces)) or clean_text(tag.get_text(" ", strip=True))
+    return title[:140].strip()
+
+
+def parse_nav_container_sequence(
+    container: Tag,
+    current_domain: str,
+    base_url: Optional[str] = None,
+    depth: int = 0,
+) -> List[NavNode]:
+    nodes: List[NavNode] = []
+    current_heading: Optional[NavNode] = None
+
+    def append_parsed(parsed: List[NavNode]) -> None:
+        nonlocal current_heading
+        if not parsed:
+            return
+        if current_heading is not None:
+            current_heading.children.extend(parsed)
+            current_heading = None
+        else:
+            nodes.extend(parsed)
+
+    for child in container.children:
+        if isinstance(child, NavigableString):
+            if clean_text(str(child)):
+                                                                              
+                                                      
+                continue
+            continue
+        if not isinstance(child, Tag):
+            continue
+
+        if child.name in {"script", "style", "noscript", "template"}:
+            continue
+
+        if is_nav_heading_tag(child):
+            title = extract_heading_title(child)
+            if title:
+                current_heading = NavNode(title=title, kind="category")
+                nodes.append(current_heading)
+            continue
+
+        if child.name in {"ul", "ol"}:
+            parsed = parse_nav_list(child, current_domain=current_domain, base_url=base_url)
+            append_parsed(parsed)
+            continue
+
+        if child.name == "a" and child.get("href"):
+            title = clean_text(child.get_text(" ", strip=True))
+            href = str(child.get("href") or "").strip()
+            if title and href and not href.startswith("#"):
+                abs_url = split_and_normalize(base_url or ("https://" + current_domain), href)[0]
+                if urlsplit(abs_url).netloc == current_domain:
+                    append_parsed([NavNode(title=title, href=abs_url, kind="link")])
+            continue
+
+                                                                            
+                                                                        
+                     
+        if depth < 4 and child.name in {"div", "section", "nav", "aside", "td", "li"}:
+            parsed = parse_nav_container_sequence(
+                child,
+                current_domain=current_domain,
+                base_url=base_url,
+                depth=depth + 1,
+            )
+            if nav_link_count(parsed) or nav_has_categories(parsed):
+                append_parsed(parsed)
+
+                                                                     
+    nodes = [node for node in nodes if node.href or node.children or node.kind == "category"]
+    return dedupe_nav(nodes)
+
+
 def extract_nav_tree(
     sidebar: Optional[Tag],
     current_domain: str,
@@ -1063,6 +1341,14 @@ def extract_nav_tree(
 ) -> List[NavNode]:
     if sidebar is None:
         return []
+
+    structured = parse_nav_container_sequence(
+        sidebar,
+        current_domain=current_domain,
+        base_url=base_url,
+    )
+    if nav_link_count(structured) >= 2 or nav_has_categories(structured):
+        return structured
 
     list_candidates = list(sidebar.find_all(["ul", "ol"]))
     if list_candidates:
@@ -1080,7 +1366,7 @@ def extract_nav_tree(
         scored: List[Tuple[int, Tag]] = []
         for lst in pool:
             links = [
-                normalize_url(absolutize(base_url or ("https://" + current_domain), a.get("href", "")))
+                split_and_normalize(base_url or ("https://" + current_domain), a.get("href", ""))[0]
                 for a in lst.select("a[href]")
                 if a.get("href") and not a.get("href", "").startswith("#")
             ]
@@ -1098,12 +1384,46 @@ def extract_nav_tree(
         title = clean_text(a.get_text(" ", strip=True))
         if not href or not title or href.startswith("#"):
             continue
-        abs_url = normalize_url(absolutize(base_url or ("https://" + current_domain), href))
+        abs_url = split_and_normalize(base_url or ("https://" + current_domain), href)[0]
         if urlsplit(abs_url).netloc != current_domain or abs_url in seen:
             continue
         seen.add(abs_url)
         nodes.append(NavNode(title=title, href=abs_url, kind="link"))
     return dedupe_nav(nodes)
+
+
+def first_direct_child_list(item: Tag) -> Optional[Tag]:
+    for child in item.children:
+        if isinstance(child, Tag) and child.name in {"ul", "ol"}:
+            return child
+    for child in item.find_all(True, recursive=False):
+        found = child.find(["ul", "ol"], recursive=False)
+        if found is not None:
+            return found
+    return None
+
+
+def parse_single_nav_item(
+    item: Tag,
+    current_domain: str,
+    base_url: Optional[str] = None,
+) -> Optional[NavNode]:
+    child_list = first_direct_child_list(item)
+    title, href = extract_nav_label(item, current_domain=current_domain, base_url=base_url)
+    if child_list is not None:
+        children = parse_nav_list(child_list, current_domain=current_domain, base_url=base_url)
+        if title or children:
+            return NavNode(
+                title=title or (children[0].title if children else "Section"),
+                href=href,
+                children=children,
+                kind="category",
+            )
+    elif href and title:
+        return NavNode(title=title, href=href, kind="link")
+    elif title:
+        return NavNode(title=title, kind="category")
+    return None
 
 
 def parse_nav_list(
@@ -1116,23 +1436,47 @@ def parse_nav_list(
     if not item_tags and ul.name in {"li", "dt", "dd"}:
         item_tags = [ul]
 
+                                                                          
+                                                                            
+    has_inline_headers = any(is_nav_header_item(item) for item in item_tags)
+    current_group: Optional[NavNode] = None
+
     for item in item_tags:
-        child_list = item.find(["ul", "ol"], recursive=False)
-        title, href = extract_nav_label(item, current_domain=current_domain, base_url=base_url)
-        if child_list is not None:
-            children = parse_nav_list(child_list, current_domain=current_domain, base_url=base_url)
-            if title or children:
-                nodes.append(NavNode(
-                    title=title or (children[0].title if children else "Section"),
-                    href=href,
-                    children=children,
-                    kind="category",
-                ))
-        elif href and title:
-            nodes.append(NavNode(title=title, href=href, kind="link"))
-        elif title:
-            nodes.append(NavNode(title=title, kind="category"))
+        if has_inline_headers and is_nav_header_item(item):
+            title = extract_heading_title(item)
+            if title:
+                current_group = NavNode(title=title, kind="category")
+                nodes.append(current_group)
+            continue
+
+        parsed = parse_single_nav_item(item, current_domain=current_domain, base_url=base_url)
+        if parsed is None:
+            continue
+        if current_group is not None:
+            current_group.children.append(parsed)
+        else:
+            nodes.append(parsed)
+
     return dedupe_nav(nodes)
+
+
+def first_direct_nav_link(tag: Tag) -> Optional[Tag]:
+    if tag.name == "a" and tag.get("href"):
+        return tag
+    for child in tag.children:
+        if isinstance(child, Tag):
+            if child.name in {"ul", "ol"}:
+                continue
+            if child.name == "a" and child.get("href"):
+                return child
+                                                                                         
+            for grand in child.children:
+                if isinstance(grand, Tag):
+                    if grand.name in {"ul", "ol"}:
+                        continue
+                    if grand.name == "a" and grand.get("href"):
+                        return grand
+    return None
 
 
 def extract_nav_label(
@@ -1154,7 +1498,7 @@ def extract_nav_label(
         if child.name in {"ul", "ol"}:
             continue
 
-        link = child if child.name == "a" else child.find("a", href=True)
+        link = first_direct_nav_link(child)
         if link is not None:
             label = clean_text(link.get_text(" ", strip=True))
             if label and not title:
@@ -1162,10 +1506,10 @@ def extract_nav_label(
             if link.get("href"):
                 raw_href = link["href"]
                 if not raw_href.startswith("#"):
-                    abs_url = normalize_url(absolutize(
+                    abs_url = split_and_normalize(
                         base_url or ("https://" + current_domain),
                         raw_href,
-                    ))
+                    )[0]
                     if urlsplit(abs_url).netloc == current_domain:
                         href = abs_url
             if title and href:
@@ -1299,7 +1643,7 @@ def extract_crawl_links(
                 continue
             if href.startswith(("#", "javascript:", "mailto:", "tel:")):
                 continue
-            abs_url = normalize_url(absolutize(base_url, href))
+            abs_url, _frag = split_and_normalize(base_url, href)
             parts = urlsplit(abs_url)
             if parts.netloc != domain:
                 continue
@@ -1307,6 +1651,8 @@ def extract_crawl_links(
                 continue
             ext = Path(parts.path).suffix.lower()
             if ext not in DOC_PAGE_EXTENSIONS:
+                continue
+            if query_looks_search_like(abs_url):
                 continue
             if any(pattern.search(parts.path) for pattern in SKIP_URL_PATTERNS):
                 continue
@@ -1840,20 +2186,24 @@ def guess_site_prefix(entry_url: str, soup: BeautifulSoup, profile: str = "gener
             href = (a.get("href") or "").strip()
             if not href or href.startswith(("#", "javascript:")):
                 continue
-            abs_url = normalize_url(absolutize(entry_url, href))
+            abs_url, _frag = split_and_normalize(entry_url, href)
             if urlsplit(abs_url).netloc != parts.netloc:
                 continue
             ext = Path(urlsplit(abs_url).path).suffix.lower()
             if ext not in DOC_PAGE_EXTENSIONS:
                 continue
+            if query_looks_search_like(abs_url):
+                continue
             candidate_links.append(abs_url)
 
-                                                                          
+                                                                               
+                                                                                
+                                                           
     docish = [u for u in candidate_links if path_similarity(urlsplit(u).path, path) >= 0.2]
     if len(docish) >= 3:
         common = common_path_prefix([urlsplit(u).path for u in docish] + [path])
         if common and common != "/":
-            return ensure_trailing_slash(common)
+            return clamp_prefix_to_version_scope(path, common)
 
     segs = [seg for seg in path.strip("/").split("/") if seg]
     if not segs:
@@ -1863,13 +2213,13 @@ def guess_site_prefix(entry_url: str, soup: BeautifulSoup, profile: str = "gener
             prefix_parts = segs[: i + 1]
             if i + 1 < len(segs) and looks_versionish(segs[i + 1]):
                 prefix_parts.append(segs[i + 1])
-            return "/" + "/".join(prefix_parts) + "/"
+            return clamp_prefix_to_version_scope(path, "/" + "/".join(prefix_parts) + "/")
 
     suffix = Path(path).suffix.lower()
     if suffix:
         parent = posixpath.dirname(path) or "/"
-        return ensure_trailing_slash(parent)
-    return "/" + segs[0] + "/"
+        return clamp_prefix_to_version_scope(path, ensure_trailing_slash(parent))
+    return clamp_prefix_to_version_scope(path, "/" + segs[0] + "/")
 
 
 def build_site_slug(entry_url: str, site_prefix: str) -> str:
@@ -2034,6 +2384,8 @@ class UniversalDocsConverter:
         max_asset_bytes: int = DEFAULT_MAX_ASSET_BYTES,
         cache_dir: Optional[Path] = None,
         use_cache: bool = True,
+        download_external_assets: bool = False,
+        strict_version_scope: bool = True,
     ) -> None:
         self.entry_url = normalize_url(entry_url)
         self.entry_parts = urlsplit(self.entry_url)
@@ -2053,6 +2405,8 @@ class UniversalDocsConverter:
         self.concurrency = max(1, concurrency)
         self.follow_content_links = follow_content_links
         self.respect_robots = respect_robots
+        self.download_external_assets = download_external_assets
+        self.strict_version_scope = strict_version_scope
 
         self.session = build_session()
         self.rate_limiter = RateLimiter(delay)
@@ -2087,6 +2441,8 @@ class UniversalDocsConverter:
         self.combined_output_path: Optional[Path] = None
         self.entry_final_url: Optional[str] = None
         self.profile: str = "generic"
+        self.version_scope_prefix: Optional[str] = None
+        self.version_query_scope: Tuple[Tuple[str, str], ...] = ()
         self._pages_lock = threading.Lock()
         self._nav_lock = threading.Lock()
 
@@ -2107,6 +2463,17 @@ class UniversalDocsConverter:
         self.site_prefix = self.site_prefix_override or guess_site_prefix(
             entry_final_url, entry_soup, self.profile,
         )
+        if self.strict_version_scope:
+            self.version_scope_prefix = infer_version_scope_prefix(
+                urlsplit(entry_final_url).path,
+                self.site_prefix,
+            )
+            self.version_query_scope = query_scope_from_url(entry_final_url)
+            if self.version_scope_prefix and not self.site_prefix_override:
+                self.site_prefix = clamp_prefix_to_version_scope(
+                    urlsplit(entry_final_url).path,
+                    self.site_prefix,
+                )
         self.site_slug = build_site_slug(entry_final_url, self.site_prefix)
         self.site_dir = self.out_root / self.site_slug
         self.combined_output_path = self.site_dir / self.combined_filename
@@ -2118,6 +2485,8 @@ class UniversalDocsConverter:
 
         print(f"profile    : {self.profile}")
         print(f"site prefix: {self.site_prefix}")
+        if self.version_scope_prefix or self.version_query_scope:
+            print(f"version pin: {self.version_scope_prefix or '-'} {dict(self.version_query_scope) if self.version_query_scope else ''}")
         print(f"output dir : {self.site_dir}")
         print(f"concurrency: {self.concurrency}")
         if self.browser_mode != "never":
@@ -2441,6 +2810,15 @@ class UniversalDocsConverter:
             if not src or src.startswith("data:"):
                 continue
             abs_url = absolutize(current_url, src)
+            if not self.should_download_asset(abs_url):
+                                                                    
+                                                                             
+                                                                             
+                img["src"] = abs_url
+                for attr in ["srcset", "data-src", "data-original", "data-lazy-src", "data-src-retina"]:
+                    if img.has_attr(attr) and attr != "src":
+                        del img[attr]
+                continue
             try:
                 local_path = self.download_asset(abs_url)
                 rel = path_relative_to(current_output, self.site_dir / local_path)
@@ -2474,6 +2852,9 @@ class UniversalDocsConverter:
                 continue
 
             if is_probably_asset(abs_url):
+                if not self.should_download_asset(abs_url):
+                    a["href"] = abs_url + (f"#{frag}" if frag else "")
+                    continue
                 try:
                     local_path = self.download_asset(abs_url)
                     target = self.site_dir / local_path
@@ -2534,14 +2915,27 @@ class UniversalDocsConverter:
         root.append(NavigableString(markdown))
 
                                                                      
+    def should_download_asset(self, asset_url: str) -> bool:
+        if self.download_external_assets:
+            return True
+        try:
+            parts = urlsplit(normalize_url(asset_url))
+        except Exception:
+            return False
+        return parts.netloc == self.domain
+
     def download_asset(self, asset_url: str) -> Path:
         assert self.site_dir is not None
         asset_url = normalize_url(asset_url)
+        if not self.should_download_asset(asset_url):
+            raise ValueError(f"external asset download disabled: {asset_url}")
         with self.asset_cache_lock:
             if asset_url in self.asset_cache:
                 return self.asset_cache[asset_url]
 
         payload, final_url, content_type = self.fetcher.fetch_binary(asset_url)
+        if not self.download_external_assets and urlsplit(final_url).netloc != self.domain:
+            raise ValueError(f"asset redirected to external host: {final_url}")
         ext = extension_for_asset(final_url, content_type)
         stem = safe_stem(Path(urlsplit(final_url).path).stem or "asset")
         digest = hashlib.sha1(final_url.encode("utf-8")).hexdigest()[:16]
@@ -2705,6 +3099,8 @@ class UniversalDocsConverter:
         parts = urlsplit(url)
         if parts.netloc != self.domain:
             return False
+        if query_looks_search_like(url):
+            return False
         if any(pattern.search(parts.path) for pattern in SKIP_URL_PATTERNS):
             return False
         ext = Path(parts.path).suffix.lower()
@@ -2712,6 +3108,24 @@ class UniversalDocsConverter:
             return False
         if not parts.path.startswith(self.site_prefix):
             return False
+
+                                                                             
+                                                                                
+                                                 
+        if self.strict_version_scope:
+            if self.version_scope_prefix and not parts.path.startswith(self.version_scope_prefix):
+                return False
+            if self.version_query_scope and not url_matches_query_scope(url, self.version_query_scope):
+                return False
+
+                                                                               
+                                                                               
+                                                        
+            if not self.version_scope_prefix:
+                rel = parts.path[len(self.site_prefix):].lstrip("/") if parts.path.startswith(self.site_prefix) else ""
+                first = rel.split("/", 1)[0] if rel else ""
+                if first and "/" in rel and looks_versionish(first):
+                    return False
         return True
 
 
@@ -2783,6 +3197,10 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--max-asset-mb", type=float,
                         default=DEFAULT_MAX_ASSET_BYTES / (1024 * 1024),
                         help="Maximum size of any single downloaded asset (default: 25 MB).")
+    parser.add_argument("--download-external-assets", action="store_true",
+                        help="Download images/files from external hosts. Default: keep external URLs unchanged.")
+    parser.add_argument("--loose-version-scope", action="store_true",
+                        help="Allow crawling sibling documentation versions. Default: stay pinned to the entry URL's version.")
     parser.add_argument("--cache-dir", type=Path, default=None,
                         help="HTTP cache directory (default: <out-dir>/.cache).")
     parser.add_argument("--no-cache", action="store_true", help="Disable the HTTP cache.")
@@ -2822,6 +3240,8 @@ def main(argv: Optional[List[str]] = None) -> int:
             max_asset_bytes=max_asset_bytes,
             cache_dir=args.cache_dir,
             use_cache=not args.no_cache,
+            download_external_assets=args.download_external_assets,
+            strict_version_scope=not args.loose_version_scope,
         )
         try:
             converter.run()
