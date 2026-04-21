@@ -50,7 +50,7 @@ BROWSER_TIMEOUT_MS = 45000
 DEFAULT_MAX_ASSET_BYTES = 25 * 1024 * 1024         
 DEFAULT_CONCURRENCY = 6
 DEFAULT_MAX_DEPTH = 20
-CACHE_SCHEMA_VERSION = 3
+CACHE_SCHEMA_VERSION = 4
 
                                                
 ADMONITION_STYLE = "callout"
@@ -299,6 +299,46 @@ VERSION_QUERY_PARAMS = {
 }
 
 SEARCH_QUERY_PARAMS = {"q", "query", "search", "keyword", "keywords", "term", "terms"}
+
+                                                                             
+                                                                          
+                                                                
+SIDEBAR_CONTEXT_RE = re.compile(
+    r"(?:^|[-_\s])(?:sidebar|side-nav|sidenav|docs-sidebar|doc-sidebar|"
+    r"docsidebar|toc-tree|toctree|navcolumn|leftcolumn|book-menu|wy-menu|"
+    r"md-sidebar|vpsidebar|theme-doc-sidebar|menu)(?:$|[-_\s])",
+    re.I,
+)
+GLOBAL_CHROME_RE = re.compile(
+    r"(?:^|[-_\s])(?:navbar|nav-bar|topbar|top-bar|masthead|header|"
+    r"site-header|global-nav|main-nav|footer|site-footer|dropdown|"
+    r"version|versions|language|locale|social|foundation)(?:$|[-_\s])",
+    re.I,
+)
+TOC_CONTEXT_RE = re.compile(
+    r"(?:on-this-page|table-of-contents|toccollapsible|toc-collapsible|"
+    r"page-toc|toc-list|right-sidebar|contents)",
+    re.I,
+)
+
+CONTENT_CHROME_SELECTORS = [
+    "header", "footer", "[role='banner']", "[role='contentinfo']",
+    "#leftColumn", "#navcolumn", "#sidebar", "#sideNav", "#sidenav",
+    ".theme-doc-sidebar-container", ".docSidebar", "[class*='docSidebar']",
+    ".VPSidebar", ".vp-sidebar", ".md-sidebar", ".wy-nav-side",
+    ".sphinxsidebar", ".book-menu", ".book-menu-content",
+    "aside[class*='sidebar' i]", "div[class*='sidebar' i]",
+    "nav[class*='sidebar' i]", "nav[aria-label*='sidebar' i]",
+    "nav[aria-label*='navigation' i]", ".navbar", "[class*='navbar' i]",
+    "[class*='topbar' i]", "[class*='site-header' i]", "[class*='site-footer' i]",
+]
+
+GLOBAL_NAV_TITLE_HINTS = {
+    "blog", "blogs", "community", "communities", "download", "downloads",
+    "foundation", "apache", "asf", "github", "license", "events",
+    "security", "sponsorship", "thanks", "privacy", "code of conduct",
+    "resources", "others", "benchmark",
+}
 
 
                                                                          
@@ -892,7 +932,7 @@ class Fetcher:
         if (
             self.browser_mode == "auto"
             and self.browser_pool is not None
-            and should_try_browser_render(text)
+            and should_try_browser_render(text, url)
         ):
             try:
                 b_text, b_final = self.browser_pool.render(url)
@@ -934,25 +974,58 @@ class Fetcher:
         return payload, final_url, content_type or None
 
 
-def should_try_browser_render(text: str) -> bool:
+def should_try_browser_render(text: str, url: Optional[str] = None) -> bool:
     if not PLAYWRIGHT_AVAILABLE:
         return False
     soup = BeautifulSoup(text, "html.parser")
+    script_count = len(soup.find_all("script"))
     body_text = clean_text(soup.get_text(" ", strip=True))
+
     if len(body_text) < 250:
         shell_ids = {"app", "root", "__docusaurus", "__next", "vitepress", "content"}
         for node in soup.select("[id]"):
             if node.get("id", "") in shell_ids:
                 return True
-        if len(soup.find_all("script")) >= 5:
+        if script_count >= 5:
             return True
+
     if soup.find(string=re.compile(r"enable javascript|requires javascript", re.I)):
         return True
+
     root = select_content_root(soup)
     if root is None or len(clean_text(root.get_text(" ", strip=True))) < 180:
-        if len(soup.find_all("script")) >= 6:
+        if script_count >= 6:
             return True
+
+                                                                           
+                                                                         
+                                                                             
+                         
+    if url and script_count >= 5:
+        parts = urlsplit(url)
+        if parts.netloc:
+            profile = detect_profile(soup, url)
+            nav_root = select_nav_root(
+                soup,
+                current_domain=parts.netloc.lower(),
+                base_url=url,
+                content_root=root,
+                profile=profile,
+                current_url=url,
+                site_prefix=None,
+            )
+            nav_links = 0
+            if nav_root is not None:
+                for a in nav_root.select("a[href]"):
+                    href = (a.get("href") or "").strip()
+                    if href and not href.startswith(("#", "javascript:", "mailto:", "tel:")):
+                        nav_links += 1
+            if nav_root is None or nav_links < 3:
+                if soup.select_one("#__docusaurus, #app, #root, [data-vitepress], [data-reactroot]"):
+                    return True
+
     return False
+
 
 
 def browser_quality_score(text: str) -> int:
@@ -1008,6 +1081,24 @@ def profile_selectors(profile: str, kind: str) -> List[str]:
 def select_content_root(soup: BeautifulSoup, profile: str = "generic") -> Optional[Tag]:
     best: Tuple[int, int, Optional[Tag]] = (-10**9, -10**9, None)
     seen: Set[int] = set()
+
+                                                                          
+                                                                           
+                                                                
+    preferred_selectors = PROFILE_HINTS.get(profile, {}).get("content", [])
+    preferred: List[Tuple[int, int, Tag]] = []
+    for rank, selector in enumerate(preferred_selectors):
+        for node in soup.select(selector):
+            if id(node) in seen:
+                continue
+            seen.add(id(node))
+            score = compute_content_score(node)
+            if score > -1500:
+                preferred.append((score, -rank, node))
+    if preferred:
+        preferred.sort(key=lambda item: (item[0], item[1]), reverse=True)
+        return preferred[0][2]
+
     selectors = profile_selectors(profile, "content")
     for rank, selector in enumerate(selectors):
         for node in soup.select(selector):
@@ -1019,6 +1110,7 @@ def select_content_root(soup: BeautifulSoup, profile: str = "generic") -> Option
             if score > best[0] or (score == best[0] and tie > best[1]):
                 best = (score, tie, node)
     return best[2]
+
 
 
 def compute_content_score(node: Tag) -> int:
@@ -1066,6 +1158,106 @@ def compute_content_score(node: Tag) -> int:
     return score
 
 
+def tag_attr_signature(tag: Tag) -> str:
+    attrs: List[str] = [tag.name or ""]
+    for attr in ("id", "class", "role", "aria-label", "data-testid", "data-md-component"):
+        value = tag.get(attr)
+        if isinstance(value, list):
+            attrs.extend(str(v) for v in value)
+        elif value:
+            attrs.append(str(value))
+    return " ".join(attrs).lower()
+
+
+def tag_context_signature(tag: Tag, max_ancestors: int = 5) -> str:
+    pieces: List[str] = []
+    current = tag
+    steps = 0
+    while isinstance(current, Tag) and steps <= max_ancestors:
+        pieces.append(tag_attr_signature(current))
+        parent = current.parent
+        if not isinstance(parent, Tag):
+            break
+        current = parent
+        steps += 1
+    return " ".join(pieces).lower()
+
+
+def is_inside_global_chrome(tag: Tag) -> bool:
+    current = tag
+    while isinstance(current, Tag):
+        if current.name in {"header", "footer"}:
+            return True
+        role = str(current.get("role", "")).lower()
+        if role in {"banner", "contentinfo"}:
+            return True
+        sig = tag_attr_signature(current)
+        if GLOBAL_CHROME_RE.search(sig) and not SIDEBAR_CONTEXT_RE.search(sig):
+            return True
+        parent = current.parent
+        if not isinstance(parent, Tag):
+            break
+        current = parent
+    return False
+
+
+def is_sidebarish_tag(tag: Tag) -> bool:
+    if tag.name == "aside" and not is_inside_global_chrome(tag):
+        return True
+    sig = tag_context_signature(tag)
+    return bool(SIDEBAR_CONTEXT_RE.search(sig)) and not is_inside_global_chrome(tag)
+
+
+def is_toc_like_tag(tag: Tag) -> bool:
+    sig = tag_context_signature(tag, max_ancestors=2)
+    text = clean_text(tag.get_text(" ", strip=True)).lower()
+    if TOC_CONTEXT_RE.search(sig):
+        return True
+    if "on this page" in text or "table of contents" in text or "page contents" in text:
+        normal_links = 0
+        fragment_links = 0
+        for a in tag.select("a[href]"):
+            href = (a.get("href") or "").strip()
+            if href.startswith("#"):
+                fragment_links += 1
+            elif href:
+                normal_links += 1
+        return fragment_links >= max(3, normal_links * 2)
+    return False
+
+
+def has_structured_nav_headings(tag: Tag) -> bool:
+    direct_lists = [child for child in tag.children if isinstance(child, Tag) and child.name in {"ul", "ol"}]
+    direct_headings = [
+        child for child in tag.children
+        if isinstance(child, Tag) and (
+            child.name in {"h1", "h2", "h3", "h4", "h5", "h6"}
+            or is_nav_heading_tag(child)
+        )
+    ]
+    if direct_headings:
+        return True
+    if len(direct_lists) >= 2:
+        return True
+                                                          
+    shallow_headings = 0
+    for child in tag.find_all(True, recursive=False):
+        if child.name in {"ul", "ol"}:
+            continue
+        if child.find(["h1", "h2", "h3", "h4", "h5", "h6"], recursive=False):
+            shallow_headings += 1
+    return shallow_headings > 0
+
+
+def url_path_in_prefix(url: str, site_prefix: Optional[str]) -> bool:
+    if not site_prefix:
+        return True
+    prefix = ensure_trailing_slash(site_prefix)
+    if prefix == "/":
+        return True
+    return urlsplit(url).path.startswith(prefix)
+
+
 def select_nav_root(
     soup: BeautifulSoup,
     current_domain: str,
@@ -1073,32 +1265,106 @@ def select_nav_root(
     content_root: Optional[Tag] = None,
     profile: str = "generic",
     current_url: Optional[str] = None,
+    site_prefix: Optional[str] = None,
 ) -> Optional[Tag]:
-    candidates: List[Tuple[int, Tag]] = []
+    candidates: List[Tuple[int, int, int, int, Tag]] = []
     seen: Set[int] = set()
     selectors = profile_selectors(profile, "nav")
 
-    normalized_current = normalize_url(current_url) if current_url else None
+                                                                             
+                                                                            
+                                                                        
+    broad_selectors = [
+        "aside", "nav", "ul", "ol",
+        "[id*='sidebar' i]", "[class*='sidebar' i]",
+        "[id*='sidenav' i]", "[class*='sidenav' i]",
+        "[id*='side-nav' i]", "[class*='side-nav' i]",
+        "[id*='navcolumn' i]", "[id*='leftColumn' i]",
+        "[class*='toc-tree' i]", "[class*='toctree' i]",
+        "[class*='book-menu' i]", "[class*='wy-menu' i]",
+        "[class*='md-sidebar' i]", "[class*='VPSidebar' i]",
+        "[class*='menu__list' i]", "[class*='menu-list' i]",
+    ]
+
+    def consider(node: Tag) -> None:
+        if id(node) in seen:
+            return
+        seen.add(id(node))
+        score = compute_nav_score(
+            node,
+            current_domain=current_domain,
+            base_url=base_url,
+            content_root=content_root,
+            current_url=normalize_url(current_url) if current_url else None,
+            site_prefix=site_prefix,
+        )
+        if score <= 0:
+            return
+        sidebar_bonus = 1 if is_sidebarish_tag(node) else 0
+        global_penalty = 1 if is_inside_global_chrome(node) else 0
+        text_len = len(clean_text(node.get_text(" ", strip=True)))
+        candidates.append((score, sidebar_bonus, -global_penalty, -text_len, node))
 
     for selector in selectors:
         for node in soup.select(selector):
-            if id(node) in seen:
-                continue
-            seen.add(id(node))
-            score = compute_nav_score(
-                node,
-                current_domain=current_domain,
-                base_url=base_url,
-                content_root=content_root,
-                current_url=normalized_current,
-            )
-            if score > 0:
-                candidates.append((score, node))
+            consider(node)
+
+                                                                           
+                                                                            
+                                             
+    for selector in broad_selectors:
+        for node in soup.select(selector):
+            consider(node)
 
     if not candidates:
         return None
-    candidates.sort(key=lambda item: item[0], reverse=True)
-    return candidates[0][1]
+
+    candidates.sort(key=lambda item: (item[0], item[1], item[2], item[3]), reverse=True)
+
+    best = candidates[0]
+    best_node = best[4]
+    best_score = best[0]
+
+                                                                              
+                                                                              
+                                                                        
+                                                                            
+    if best_node.name in {"ul", "ol"}:
+        for parent in best_node.parents:
+            if not isinstance(parent, Tag) or parent.name in {"body", "html"}:
+                break
+            if not is_sidebarish_tag(parent):
+                continue
+            if not has_structured_nav_headings(parent):
+                continue
+            parent_score = compute_nav_score(
+                parent,
+                current_domain=current_domain,
+                base_url=base_url,
+                content_root=content_root,
+                current_url=normalize_url(current_url) if current_url else None,
+                site_prefix=site_prefix,
+            )
+            if parent_score > 0 and parent_score >= int(best_score * 0.35):
+                return parent
+
+    if is_sidebarish_tag(best_node) and has_structured_nav_headings(best_node):
+        return best_node
+
+                                                                             
+                                                                             
+                                                              
+    for score, sidebar_bonus, global_penalty, _neg_text_len, node in candidates[1:]:
+        try:
+            is_descendant = node in best_node.descendants
+        except Exception:
+            is_descendant = False
+        if not is_descendant:
+            continue
+        if score >= int(best_score * 0.72) and (sidebar_bonus or not global_penalty):
+            return node
+
+    return best_node
 
 
 def compute_nav_score(
@@ -1107,57 +1373,119 @@ def compute_nav_score(
     base_url: Optional[str] = None,
     content_root: Optional[Tag] = None,
     current_url: Optional[str] = None,
+    site_prefix: Optional[str] = None,
 ) -> int:
     internal_links: List[str] = []
+    scoped_links: List[str] = []
     fragment_links = 0
     contains_current = False
+    base = base_url or ("https://" + current_domain)
+
     for a in node.select("a[href]"):
         href = (a.get("href") or "").strip()
-        if not href:
+        if not href or href.startswith(("javascript:", "mailto:", "tel:")):
             continue
         if href.startswith("#"):
             fragment_links += 1
             continue
-        abs_url = split_and_normalize(base_url or ("https://" + current_domain), href)[0]
-        if urlsplit(abs_url).netloc != current_domain:
+        abs_url = split_and_normalize(base, href)[0]
+        parts = urlsplit(abs_url)
+        if parts.netloc != current_domain:
             continue
-        ext = Path(urlsplit(abs_url).path).suffix.lower()
+        ext = Path(parts.path).suffix.lower()
         if ext and ext not in DOC_PAGE_EXTENSIONS:
             continue
+        if query_looks_search_like(abs_url):
+            continue
         internal_links.append(abs_url)
+        if url_path_in_prefix(abs_url, site_prefix):
+            scoped_links.append(abs_url)
         if current_url is not None and abs_url == current_url:
             contains_current = True
 
-    unique_links = len(set(internal_links))
+    unique_internal = set(internal_links)
+    unique_scoped = set(scoped_links)
+    unique_links = len(unique_internal)
+    scoped_count = len(unique_scoped)
+    offscope_count = max(0, unique_links - scoped_count)
+
     if unique_links == 0 and fragment_links == 0:
         return -1
 
-    text = node.get_text(" ", strip=True).lower()
-    attrs = " ".join([node.get("id", ""), *node.get("class", []), node.name]).lower()
+    text = clean_text(node.get_text(" ", strip=True)).lower()
+    attrs = tag_attr_signature(node)
+    context = tag_context_signature(node)
     nested_lists = len(node.find_all(["ul", "ol"]))
+    global_chrome = is_inside_global_chrome(node)
+    sidebarish = is_sidebarish_tag(node)
+    toc_like = is_toc_like_tag(node)
 
-    score = unique_links * 120 + nested_lists * 25 + fragment_links * 2
+                                                   
+    if unique_links < 2 and fragment_links >= 3:
+        return -1
+
+    score = scoped_count * 230
+    score += offscope_count * 25
+    score += nested_lists * 45
+    score += min(fragment_links, 12) * 3
+
+    if sidebarish:
+        score += 1800
+    elif SIDEBAR_CONTEXT_RE.search(attrs):
+        score += 1000
+
+    if contains_current:
+        score += 3200
+
+    if site_prefix and site_prefix != "/":
+        if scoped_count:
+            score += int(1000 * (scoped_count / max(unique_links, 1)))
+        if offscope_count > scoped_count:
+            score -= (offscope_count - scoped_count) * 140
+        if scoped_count < 2 and offscope_count >= 3:
+            score -= 1200
+
     if re.search(r"sidebar|nav|menu|toctree|book-menu|wy-menu|leftcolumn|navcolumn|toc-tree", attrs):
-        score += 800
+        score += 450
+
+    if toc_like:
+        score -= 2500
+
     if "on this page" in text or "table of contents" in text or "page contents" in text:
-        score -= 1500
-    if re.search(r"footer|mega-?menu|site-?map|global-?nav", attrs):
-        score -= 1500
+        score -= 1200
+
+    if GLOBAL_CHROME_RE.search(attrs) or global_chrome:
+        score -= 3200
+
+                                                                            
+                                                                                
+    if re.search(r"footer|mega-?menu|site-?map|global-?nav|navbar|topbar", context):
+        score -= 1600
+
     if content_root is not None:
         try:
-            if node is content_root or node in content_root.descendants:
-                score -= 1500
+                                                                                
+                                                                               
+                                                    
+            if getattr(content_root, "name", None) != "body":
+                if node is content_root or node in content_root.descendants:
+                    score -= 1500
         except Exception:
             pass
-    if unique_links < 2 and fragment_links > 5:
-        score -= 1000
 
                                                                          
-                                                                  
-    if contains_current:
-        score += 2500
+    text_len = len(text)
+    if text_len > 6000 and site_prefix and site_prefix != "/" and scoped_count < max(3, unique_links // 2):
+        score -= 1000
+
+                                                                                
+                          
+    title_words = {clean_text(child.get_text(" ", strip=True)).lower() for child in node.find_all(["h1", "h2", "h3", "h4", "h5", "strong"], recursive=False)}
+    if title_words & GLOBAL_NAV_TITLE_HINTS and not sidebarish:
+        score -= 700
 
     return score
+
 
 
 def extract_title(soup: BeautifulSoup, root: Optional[Tag]) -> str:
@@ -1246,20 +1574,58 @@ def is_nav_header_item(item: Tag) -> bool:
     return item.name in {"li", "dt", "dd"}
 
 
-def extract_heading_title(tag: Tag) -> str:
-                                                                          
+def clean_nav_title_value(title: str) -> str:
+    title = clean_text(title)
+    title = re.sub(r"^(?:expand|collapse)\s+sidebar\s+category\s+", "", title, flags=re.I)
+    title = re.sub(r"^(?:open|close)\s+", "", title, flags=re.I)
+    title = re.sub(r"^[•›»·\-\s]+", "", title)
+    title = re.sub(r"\s+", " ", title).strip()
+    return title[:180].strip()
+
+
+def direct_label_text(tag: Tag) -> str:
     pieces: List[str] = []
     for child in tag.children:
         if isinstance(child, NavigableString):
             pieces.append(str(child))
-        elif isinstance(child, Tag) and child.name not in {"ul", "ol"}:
+        elif isinstance(child, Tag):
+            if child.name in {"ul", "ol", "script", "style", "svg", "button"}:
+                continue
             if child.find(["ul", "ol"]):
-                                                       
-                subpieces = [str(grand) for grand in child.children if isinstance(grand, NavigableString)]
-                pieces.extend(subpieces)
+                pieces.append(direct_label_text(child))
             else:
                 pieces.append(child.get_text(" ", strip=True))
-    title = clean_text(" ".join(pieces)) or clean_text(tag.get_text(" ", strip=True))
+    return clean_nav_title_value(" ".join(pieces))
+
+
+def best_anchor_text(link: Tag) -> str:
+    text = clean_nav_title_value(link.get_text(" ", strip=True))
+    if text:
+        return text
+    for attr in ("aria-label", "title"):
+        value = link.get(attr)
+        if value:
+            text = clean_nav_title_value(str(value))
+            if text:
+                return text
+    return ""
+
+
+def is_explicit_nav_header_item(item: Tag) -> bool:
+    classes = " ".join(item.get("class", [])).lower()
+    role = str(item.get("role", "")).lower()
+    return (
+        "nav-header" in classes
+        or "nav_header" in classes
+        or "sidebar-heading" in classes
+        or "menu-heading" in classes
+        or (role in {"heading", "separator"} and item.find("a", href=True) is None)
+    )
+
+
+def extract_heading_title(tag: Tag) -> str:
+                                                                          
+    title = direct_label_text(tag) or clean_nav_title_value(tag.get_text(" ", strip=True))
     return title[:140].strip()
 
 
@@ -1308,7 +1674,7 @@ def parse_nav_container_sequence(
             continue
 
         if child.name == "a" and child.get("href"):
-            title = clean_text(child.get_text(" ", strip=True))
+            title = best_anchor_text(child)
             href = str(child.get("href") or "").strip()
             if title and href and not href.startswith("#"):
                 abs_url = split_and_normalize(base_url or ("https://" + current_domain), href)[0]
@@ -1341,6 +1707,14 @@ def extract_nav_tree(
 ) -> List[NavNode]:
     if sidebar is None:
         return []
+
+                                                                           
+                                                                            
+                                                                
+    if sidebar.name in {"ul", "ol"}:
+        listed = parse_nav_list(sidebar, current_domain=current_domain, base_url=base_url)
+        if listed:
+            return listed
 
     structured = parse_nav_container_sequence(
         sidebar,
@@ -1381,7 +1755,7 @@ def extract_nav_tree(
     seen: Set[str] = set()
     for a in sidebar.select("a[href]"):
         href = (a.get("href") or "").strip()
-        title = clean_text(a.get_text(" ", strip=True))
+        title = best_anchor_text(a)
         if not href or not title or href.startswith("#"):
             continue
         abs_url = split_and_normalize(base_url or ("https://" + current_domain), href)[0]
@@ -1438,11 +1812,11 @@ def parse_nav_list(
 
                                                                           
                                                                             
-    has_inline_headers = any(is_nav_header_item(item) for item in item_tags)
+    has_inline_headers = any(is_explicit_nav_header_item(item) for item in item_tags)
     current_group: Optional[NavNode] = None
 
     for item in item_tags:
-        if has_inline_headers and is_nav_header_item(item):
+        if has_inline_headers and is_explicit_nav_header_item(item):
             title = extract_heading_title(item)
             if title:
                 current_group = NavNode(title=title, kind="category")
@@ -1489,7 +1863,7 @@ def extract_nav_label(
 
     for child in li.children:
         if isinstance(child, NavigableString):
-            raw = clean_text(str(child))
+            raw = clean_nav_title_value(str(child))
             if raw and not title:
                 title = raw
             continue
@@ -1500,7 +1874,7 @@ def extract_nav_label(
 
         link = first_direct_nav_link(child)
         if link is not None:
-            label = clean_text(link.get_text(" ", strip=True))
+            label = best_anchor_text(link)
             if label and not title:
                 title = label
             if link.get("href"):
@@ -1519,7 +1893,7 @@ def extract_nav_label(
             for tag_name in ["button", "span", "div", "strong", "p"]:
                 label_tag = child if child.name == tag_name else child.find(tag_name)
                 if label_tag is not None:
-                    label = clean_text(label_tag.get_text(" ", strip=True))
+                    label = direct_label_text(label_tag) or clean_nav_title_value(label_tag.get_text(" ", strip=True))
                     if label:
                         title = label
                         break
@@ -1584,6 +1958,100 @@ def flatten_nav_urls(nodes: List[NavNode]) -> List[str]:
     return urls
 
 
+def mark_active_nav_item(
+    nodes: List[NavNode],
+    current_url: str,
+    current_title: str,
+) -> None:
+    page_slug = slugify_anchor(current_title)
+    for node in nodes:
+        if not node.href:
+            node_slug = slugify_anchor(node.title)
+            exact = node_slug == page_slug
+            leaf_suffix = (not node.children) and page_slug.endswith("-" + node_slug)
+            if exact or leaf_suffix:
+                node.href = current_url
+        if node.children:
+            mark_active_nav_item(node.children, current_url, current_title)
+
+
+def nav_category_count(nodes: List[NavNode]) -> int:
+    total = 0
+    for node in nodes:
+        if node.children or not node.href:
+            total += 1
+        total += nav_category_count(node.children)
+    return total
+
+
+def nav_max_depth(nodes: List[NavNode], depth: int = 0) -> int:
+    if not nodes:
+        return depth
+    return max(nav_max_depth(node.children, depth + 1) for node in nodes)
+
+
+def nav_tree_quality(
+    nodes: List[NavNode],
+    site_prefix: Optional[str] = None,
+    domain: Optional[str] = None,
+) -> int:
+    links = flatten_nav_urls(nodes)
+    unique_links = set(links)
+    scoped = 0
+    offscope = 0
+    for url in unique_links:
+        parts = urlsplit(url)
+        if domain and parts.netloc and parts.netloc != domain:
+            offscope += 1
+            continue
+        if url_path_in_prefix(url, site_prefix):
+            scoped += 1
+        else:
+            offscope += 1
+
+    categories = nav_category_count(nodes)
+    depth = nav_max_depth(nodes)
+    top_titles = {clean_text(node.title).lower() for node in nodes[:8]}
+
+    score = scoped * 140
+    score += categories * 90
+    score += depth * 220
+    score -= offscope * 80
+
+                                                                            
+                                                                            
+    noisy = len(top_titles & GLOBAL_NAV_TITLE_HINTS)
+    score -= noisy * 260
+
+                                                                          
+    if depth < 2 and scoped < 4:
+        score -= 400
+
+    return score
+
+
+def merged_nav_from_snapshots(
+    snapshots: List[List[NavNode]],
+    site_prefix: Optional[str] = None,
+    domain: Optional[str] = None,
+) -> List[NavNode]:
+    if not snapshots:
+        return []
+    ranked = [
+        (nav_tree_quality(snapshot, site_prefix=site_prefix, domain=domain), idx, snapshot)
+        for idx, snapshot in enumerate(snapshots)
+        if snapshot
+    ]
+    if not ranked:
+        return []
+    ranked.sort(key=lambda item: (item[0], -item[1]), reverse=True)
+
+    merged = copy.deepcopy(ranked[0][2])
+    for _quality, _idx, snapshot in ranked[1:]:
+        merge_nav_lists(merged, copy.deepcopy(snapshot))
+    return merged
+
+
                                                                          
 
 def extract_crawl_links(
@@ -1603,6 +2071,7 @@ def extract_crawl_links(
         content_root=content_root,
         profile=profile,
         current_url=current_url,
+        site_prefix=site_prefix,
     )
 
     containers: List[Tag] = []
@@ -2202,6 +2671,14 @@ def guess_site_prefix(entry_url: str, soup: BeautifulSoup, profile: str = "gener
     docish = [u for u in candidate_links if path_similarity(urlsplit(u).path, path) >= 0.2]
     if len(docish) >= 3:
         common = common_path_prefix([urlsplit(u).path for u in docish] + [path])
+        common_parts = [p for p in common.strip("/").split("/") if p]
+        entry_parts = [p for p in path.strip("/").split("/") if p]
+        if (
+            len(entry_parts) >= 2
+            and entry_parts[0].lower() in {"proper", "dormant", "sandbox"}
+            and (not common_parts or common_parts == [entry_parts[0]])
+        ):
+            return clamp_prefix_to_version_scope(path, "/" + "/".join(entry_parts[:2]) + "/")
         if common and common != "/":
             return clamp_prefix_to_version_scope(path, common)
 
@@ -2214,6 +2691,13 @@ def guess_site_prefix(entry_url: str, soup: BeautifulSoup, profile: str = "gener
             if i + 1 < len(segs) and looks_versionish(segs[i + 1]):
                 prefix_parts.append(segs[i + 1])
             return clamp_prefix_to_version_scope(path, "/" + "/".join(prefix_parts) + "/")
+
+                                                          
+                                                                            
+                                                                         
+                       
+    if len(segs) >= 2 and segs[0].lower() in {"proper", "dormant", "sandbox"}:
+        return clamp_prefix_to_version_scope(path, "/" + "/".join(segs[:2]) + "/")
 
     suffix = Path(path).suffix.lower()
     if suffix:
@@ -2435,6 +2919,7 @@ class UniversalDocsConverter:
         self.url_alias_to_canonical: Dict[str, str] = {}
         self.pages: Dict[str, PageRecord] = {}
         self.nav_tree: List[NavNode] = []
+        self.nav_snapshots: List[List[NavNode]] = []
         self.site_prefix: Optional[str] = None
         self.site_slug: Optional[str] = None
         self.site_dir: Optional[Path] = None
@@ -2621,6 +3106,7 @@ class UniversalDocsConverter:
             content_root=content_root,
             profile=profile,
             current_url=final_url,
+            site_prefix=self.site_prefix,
         )
 
         score = compute_content_score(content_root) if content_root is not None else 0
@@ -2641,8 +3127,12 @@ class UniversalDocsConverter:
             base_url=final_url,
         )
         if nav_tree:
+            mark_active_nav_item(nav_tree, final_url, title)
             with self._nav_lock:
-                merge_nav_lists(self.nav_tree, nav_tree)
+                                                                                
+                                                                              
+                                                                                 
+                self.nav_snapshots.append(copy.deepcopy(nav_tree))
 
         print(f"[page] {final_url}")
         record = PageRecord(
@@ -2782,6 +3272,31 @@ class UniversalDocsConverter:
         for selector in NOISE_SELECTORS:
             for tag in list(root.select(selector)):
                 tag.decompose()
+
+                                                                           
+                                                                             
+                                                                             
+                                                               
+        for selector in CONTENT_CHROME_SELECTORS:
+            for tag in list(root.select(selector)):
+                if tag is not root:
+                    tag.decompose()
+
+        if getattr(root, "name", None) == "body" or root.select_one("#navcolumn, #leftColumn, .theme-doc-sidebar-container, .VPSidebar, .md-sidebar, .sphinxsidebar"):
+            nav_in_content = select_nav_root(
+                root,
+                current_domain=self.domain,
+                base_url=current_url,
+                content_root=None,
+                profile=self.profile,
+                current_url=current_url,
+                site_prefix=self.site_prefix,
+            )
+            if nav_in_content is not None and nav_in_content is not root:
+                try:
+                    nav_in_content.decompose()
+                except Exception:
+                    pass
 
         for comment in list(root.find_all(string=lambda x: isinstance(x, Comment))):
             comment.extract()
@@ -2955,7 +3470,17 @@ class UniversalDocsConverter:
         return self.url_alias_to_canonical.get(url, url)
 
     def effective_nav_tree(self) -> List[NavNode]:
-        nav = copy.deepcopy(self.nav_tree)
+                                                                                
+                                                                              
+                                                              
+        nav = merged_nav_from_snapshots(
+            self.nav_snapshots,
+            site_prefix=self.site_prefix,
+            domain=self.domain,
+        )
+        if not nav:
+            nav = copy.deepcopy(self.nav_tree)
+
                                                                        
         nav = filter_nav_to_known_urls(nav, set(self.pages.keys()), self.url_alias_to_canonical)
         if not nav:
