@@ -50,7 +50,7 @@ BROWSER_TIMEOUT_MS = 45000
 DEFAULT_MAX_ASSET_BYTES = 25 * 1024 * 1024         
 DEFAULT_CONCURRENCY = 6
 DEFAULT_MAX_DEPTH = 20
-CACHE_SCHEMA_VERSION = 4
+CACHE_SCHEMA_VERSION = 5
 
                                                
 ADMONITION_STYLE = "callout"
@@ -216,7 +216,6 @@ SKIP_URL_PATTERNS = [
         r"/changelog(?:/|\.html?|$)",
         r"/release(?:s|_notes|-notes)?(?:/|\.html?|$)",
         r"/apidocs(?:/|\.html?|$)",
-        r"/api(?:/|\.html?|$)",
         r"/api-release(?:/|\.html?|$)",
         r"/testapidocs(?:/|\.html?|$)",
         r"/xref(?:/|\.html?|$)",
@@ -329,7 +328,11 @@ CONTENT_CHROME_SELECTORS = [
     ".sphinxsidebar", ".book-menu", ".book-menu-content",
     "aside[class*='sidebar' i]", "div[class*='sidebar' i]",
     "nav[class*='sidebar' i]", "nav[aria-label*='sidebar' i]",
-    "nav[aria-label*='navigation' i]", ".navbar", "[class*='navbar' i]",
+    "nav[aria-label*='navigation' i]",
+    "aside[class*='side-nav' i]", "nav[class*='side-nav' i]",
+    "div[class*='side-nav' i]", "aside[class*='sidenav' i]",
+    "nav[class*='sidenav' i]", "div[class*='sidenav' i]",
+    ".navbar", "[class*='navbar' i]",
     "[class*='topbar' i]", "[class*='site-header' i]", "[class*='site-footer' i]",
 ]
 
@@ -1351,6 +1354,34 @@ def select_nav_root(
     if is_sidebarish_tag(best_node) and has_structured_nav_headings(best_node):
         return best_node
 
+                                                                              
+                                                                               
+                                                                                 
+                                 
+    if site_prefix and site_prefix != "/":
+        best_scoped = 0
+        best_depth = 0
+        for a in best_node.select("a[href]"):
+            href = (a.get("href") or "").strip()
+            if not href or href.startswith(("#", "javascript:", "mailto:", "tel:")):
+                continue
+            abs_url = split_and_normalize(base_url or ("https://" + current_domain), href)[0]
+            if url_path_in_prefix(abs_url, site_prefix):
+                best_scoped += 1
+        best_depth = len(best_node.find_all(["ul", "ol"]))
+        for score, sidebar_bonus, global_penalty, _neg_text_len, node in candidates[1:]:
+            scoped = 0
+            for a in node.select("a[href]"):
+                href = (a.get("href") or "").strip()
+                if not href or href.startswith(("#", "javascript:", "mailto:", "tel:")):
+                    continue
+                abs_url = split_and_normalize(base_url or ("https://" + current_domain), href)[0]
+                if url_path_in_prefix(abs_url, site_prefix):
+                    scoped += 1
+            depth = len(node.find_all(["ul", "ol"]))
+            if scoped >= max(6, best_scoped + 4) and depth >= best_depth and not is_inside_global_chrome(node):
+                return node
+
                                                                              
                                                                              
                                                               
@@ -1541,6 +1572,21 @@ def nav_has_categories(nodes: List[NavNode]) -> bool:
     return any((not node.href) or node.children or nav_has_categories(node.children) for node in nodes)
 
 
+def nav_tree_depth_basic(nodes: List[NavNode]) -> int:
+    if not nodes:
+        return 0
+    return 1 + max((nav_tree_depth_basic(node.children) for node in nodes), default=0)
+
+
+def nav_tree_basic_score(nodes: List[NavNode]) -> int:
+    if not nodes:
+        return 0
+    links = nav_link_count(nodes)
+    cats = sum(1 for node in nodes if node.children or not node.href)
+    depth = nav_tree_depth_basic(nodes)
+    return links * 100 + cats * 55 + depth * 180 + len(nodes) * 8
+
+
 def is_nav_heading_tag(tag: Tag) -> bool:
     classes = " ".join(tag.get("class", [])).lower()
     role = str(tag.get("role", "")).lower()
@@ -1580,6 +1626,10 @@ def clean_nav_title_value(title: str) -> str:
     title = re.sub(r"^(?:open|close)\s+", "", title, flags=re.I)
     title = re.sub(r"^[•›»·\-\s]+", "", title)
     title = re.sub(r"\s+", " ", title).strip()
+                                                                           
+                                                                             
+    if "_" in title and " " not in title:
+        title = title.replace("_", " ")
     return title[:180].strip()
 
 
@@ -1708,9 +1758,8 @@ def extract_nav_tree(
     if sidebar is None:
         return []
 
-                                                                           
                                                                             
-                                                                
+                                                                   
     if sidebar.name in {"ul", "ol"}:
         listed = parse_nav_list(sidebar, current_domain=current_domain, base_url=base_url)
         if listed:
@@ -1721,13 +1770,16 @@ def extract_nav_tree(
         current_domain=current_domain,
         base_url=base_url,
     )
-    if nav_link_count(structured) >= 2 or nav_has_categories(structured):
-        return structured
 
+                                                                               
+                                                                                
+                                                                               
+                                                                         
+                                                                              
+    best_list_nodes: List[NavNode] = []
+    best_list_score = 0
     list_candidates = list(sidebar.find_all(["ul", "ol"]))
     if list_candidates:
-                                                                            
-                                                                         
         top_level = [
             lst for lst in list_candidates
             if not any(
@@ -1736,19 +1788,43 @@ def extract_nav_tree(
                 for parent in lst.parents
             )
         ]
-        pool = top_level or list_candidates
-        scored: List[Tuple[int, Tag]] = []
-        for lst in pool:
-            links = [
-                split_and_normalize(base_url or ("https://" + current_domain), a.get("href", ""))[0]
-                for a in lst.select("a[href]")
-                if a.get("href") and not a.get("href", "").startswith("#")
-            ]
-            links = [u for u in links if urlsplit(u).netloc == current_domain]
-            scored.append((len(set(links)) * 100 + len(lst.find_all(["ul", "ol"])), lst))
-        scored.sort(key=lambda item: item[0], reverse=True)
-        root_list = scored[0][1]
-        return parse_nav_list(root_list, current_domain=current_domain, base_url=base_url)
+                                                                            
+                                                               
+        ordered_lists: List[Tag] = []
+        seen_list_ids: Set[int] = set()
+        for lst in [*top_level, *list_candidates]:
+            if id(lst) in seen_list_ids:
+                continue
+            seen_list_ids.add(id(lst))
+            ordered_lists.append(lst)
+        for lst in ordered_lists:
+            parsed = parse_nav_list(lst, current_domain=current_domain, base_url=base_url)
+            if not parsed:
+                continue
+            links = [u for u in flatten_nav_urls(parsed) if urlsplit(u).netloc == current_domain]
+            scoped_bonus = len(set(links)) * 20
+            score = nav_tree_basic_score(parsed) + scoped_bonus
+            if score > best_list_score:
+                best_list_score = score
+                best_list_nodes = parsed
+
+    structured_score = nav_tree_basic_score(structured)
+    if best_list_nodes:
+                                                                            
+                                                                              
+                                                                          
+        if (
+            not structured
+            or best_list_score >= int(structured_score * 1.25)
+            or (
+                nav_link_count(best_list_nodes) >= nav_link_count(structured) + 4
+                and nav_tree_depth_basic(best_list_nodes) >= nav_tree_depth_basic(structured)
+            )
+        ):
+            return dedupe_nav(best_list_nodes)
+
+    if nav_link_count(structured) >= 2 or nav_has_categories(structured):
+        return structured
 
                                                                    
     nodes: List[NavNode] = []
@@ -1756,15 +1832,14 @@ def extract_nav_tree(
     for a in sidebar.select("a[href]"):
         href = (a.get("href") or "").strip()
         title = best_anchor_text(a)
-        if not href or not title or href.startswith("#"):
+        if not href or not title or href.startswith(("#", "javascript:", "mailto:", "tel:")):
             continue
         abs_url = split_and_normalize(base_url or ("https://" + current_domain), href)[0]
-        if urlsplit(abs_url).netloc != current_domain or abs_url in seen:
+        if abs_url in seen:
             continue
         seen.add(abs_url)
         nodes.append(NavNode(title=title, href=abs_url, kind="link"))
     return dedupe_nav(nodes)
-
 
 def first_direct_child_list(item: Tag) -> Optional[Tag]:
     for child in item.children:
@@ -1835,20 +1910,24 @@ def parse_nav_list(
 
 
 def first_direct_nav_link(tag: Tag) -> Optional[Tag]:
-    if tag.name == "a" and tag.get("href"):
+                                                                               
+                                                                              
+                                                                              
+                       
+    if tag.name == "a":
         return tag
     for child in tag.children:
         if isinstance(child, Tag):
             if child.name in {"ul", "ol"}:
                 continue
-            if child.name == "a" and child.get("href"):
+            if child.name == "a":
                 return child
                                                                                          
             for grand in child.children:
                 if isinstance(grand, Tag):
                     if grand.name in {"ul", "ol"}:
                         continue
-                    if grand.name == "a" and grand.get("href"):
+                    if grand.name == "a":
                         return grand
     return None
 
@@ -1878,19 +1957,20 @@ def extract_nav_label(
             if label and not title:
                 title = label
             if link.get("href"):
-                raw_href = link["href"]
-                if not raw_href.startswith("#"):
-                    abs_url = split_and_normalize(
+                raw_href = str(link.get("href") or "").strip()
+                if raw_href and not raw_href.startswith(("#", "javascript:", "mailto:", "tel:")):
+                                                                             
+                                                                                 
+                                                                                  
+                    href = split_and_normalize(
                         base_url or ("https://" + current_domain),
                         raw_href,
                     )[0]
-                    if urlsplit(abs_url).netloc == current_domain:
-                        href = abs_url
             if title and href:
                 break
 
         if not title:
-            for tag_name in ["button", "span", "div", "strong", "p"]:
+            for tag_name in ["a", "button", "span", "div", "strong", "p"]:
                 label_tag = child if child.name == tag_name else child.find(tag_name)
                 if label_tag is not None:
                     label = direct_label_text(label_tag) or clean_nav_title_value(label_tag.get_text(" ", strip=True))
@@ -1900,53 +1980,137 @@ def extract_nav_label(
     return title, href
 
 
-def nav_key(node: NavNode) -> Tuple[str, str]:
-    if node.href:
-        return ("href", node.href.rstrip("/"))
-    return ("title", node.title.lower())
+def normalize_nav_title_key(title: str) -> str:
+    title = clean_nav_title_value(title).casefold()
+    title = re.sub(r"\s+", " ", title)
+    return title.strip()
 
+
+def normalize_nav_href_key(href: Optional[str]) -> Optional[str]:
+    if not href:
+        return None
+    return normalize_url(href).rstrip("/") or None
+
+
+def nav_key(node: NavNode) -> Tuple[str, str]:
+    href_key = normalize_nav_href_key(node.href)
+    if href_key:
+        return ("href", href_key)
+    return ("title", normalize_nav_title_key(node.title))
+
+
+def nav_identity_keys(node: NavNode) -> Set[Tuple[str, str]]:
+    keys: Set[Tuple[str, str]] = set()
+    href_key = normalize_nav_href_key(node.href)
+    if href_key:
+        keys.add(("href", href_key))
+    title_key = normalize_nav_title_key(node.title)
+    if title_key:
+        keys.add(("title", title_key))
+    return keys
+
+
+def _collect_nav_href_keys(nodes: List[NavNode], out: Set[str]) -> None:
+    for node in nodes:
+        href_key = normalize_nav_href_key(node.href)
+        if href_key:
+            out.add(href_key)
+        if node.children:
+            _collect_nav_href_keys(node.children, out)
+
+
+
+def _collect_nav_href_title_keys(nodes: List[NavNode], out: Set[Tuple[str, str]]) -> None:
+    for node in nodes:
+        href_key = normalize_nav_href_key(node.href)
+        title_key = normalize_nav_title_key(node.title)
+        if href_key:
+            out.add((href_key, title_key))
+        if node.children:
+            _collect_nav_href_title_keys(node.children, out)
 
 def _collect_nav_keys(nodes: List[NavNode], out: Set[Tuple[str, str]]) -> None:
     for node in nodes:
-        out.add(nav_key(node))
+        out.update(nav_identity_keys(node))
         if node.children:
             _collect_nav_keys(node.children, out)
 
 
+def find_matching_sibling(index: Dict[Tuple[str, str], NavNode], node: NavNode) -> Optional[NavNode]:
+    href_key = normalize_nav_href_key(node.href)
+    title_key = normalize_nav_title_key(node.title)
+    if href_key:
+        match = index.get(("href", href_key))
+        if match is not None:
+            match_title_key = normalize_nav_title_key(match.title)
+                                                                              
+                                                                              
+                                                                          
+            if not title_key or not match_title_key or title_key == match_title_key:
+                return match
+    if title_key:
+        return index.get(("title", title_key))
+    return None
+
+
+def index_sibling(node: NavNode, index: Dict[Tuple[str, str], NavNode]) -> None:
+    for key in nav_identity_keys(node):
+        index.setdefault(key, node)
+
+
 def merge_nav_lists(dst: List[NavNode], src: List[NavNode]) -> None:
-    sibling_index = {nav_key(node): node for node in dst}
-    existing_keys: Set[Tuple[str, str]] = set()
-    _collect_nav_keys(dst, existing_keys)
+    sibling_index: Dict[Tuple[str, str], NavNode] = {}
+    for node in dst:
+        index_sibling(node, sibling_index)
+
+    existing_href_titles: Set[Tuple[str, str]] = set()
+    _collect_nav_href_title_keys(dst, existing_href_titles)
 
     for src_node in src:
-        key = nav_key(src_node)
-        if key in sibling_index:
-            dst_node = sibling_index[key]
+        dst_node = find_matching_sibling(sibling_index, src_node)
+        if dst_node is not None:
             if not dst_node.href and src_node.href:
                 dst_node.href = src_node.href
+                index_sibling(dst_node, sibling_index)
+                href_key = normalize_nav_href_key(src_node.href)
+                title_key = normalize_nav_title_key(src_node.title)
+                if href_key:
+                    existing_href_titles.add((href_key, title_key))
+            if dst_node.title and src_node.title:
+                dst_sluggy = "_" in dst_node.title or "-" in dst_node.title
+                src_cleaner = "_" not in src_node.title and len(src_node.title) >= len(dst_node.title.replace("_", " "))
+                if dst_sluggy and src_cleaner:
+                    dst_node.title = src_node.title
             if src_node.children:
                 merge_nav_lists(dst_node.children, src_node.children)
             continue
-        if key in existing_keys:
-                                                                                 
+
+        href_key = normalize_nav_href_key(src_node.href)
+        title_key = normalize_nav_title_key(src_node.title)
+        if href_key and (href_key, title_key) in existing_href_titles:
             continue
+
         cloned = copy.deepcopy(src_node)
         dst.append(cloned)
-        sibling_index[key] = cloned
-        _collect_nav_keys([cloned], existing_keys)
+        index_sibling(cloned, sibling_index)
+        _collect_nav_href_title_keys([cloned], existing_href_titles)
 
 
 def dedupe_nav(nodes: List[NavNode]) -> List[NavNode]:
     out: List[NavNode] = []
-    seen: Set[Tuple[str, str]] = set()
+    sibling_index: Dict[Tuple[str, str], NavNode] = {}
     for node in nodes:
-        key = nav_key(node)
-        if key in seen:
+        match = find_matching_sibling(sibling_index, node)
+        if match is not None:
+            if not match.href and node.href:
+                match.href = node.href
+                index_sibling(match, sibling_index)
+            if node.children:
+                merge_nav_lists(match.children, node.children)
             continue
-        seen.add(key)
         out.append(node)
+        index_sibling(node, sibling_index)
     return out
-
 
 def flatten_nav_urls(nodes: List[NavNode]) -> List[str]:
     urls: List[str] = []
@@ -2808,7 +2972,7 @@ def render_singlefile_navigation(
         if node.href and node.href in url_to_anchor:
             lines.append(f"{prefix}[{node.title}](#{url_to_anchor[node.href]})")
         elif node.href:
-            lines.append(f"{prefix}{node.title} ({node.href})")
+            lines.append(f"{prefix}[{node.title}]({node.href})")
         else:
             lines.append(f"{prefix}{node.title}")
         if node.children:
@@ -3662,18 +3826,14 @@ def filter_nav_to_known_urls(
     out: List[NavNode] = []
     for node in nodes:
         children = filter_nav_to_known_urls(node.children, known_urls, alias) if node.children else []
-        has_known_href = False
         if node.href:
             canon = alias.get(node.href, node.href)
             if canon in known_urls:
-                has_known_href = True
                 node.href = canon
-            else:
-                node.href = None
-        if has_known_href or children:
-            node.children = children
+        node.children = children
+        if node.href or node.children:
             out.append(node)
-    return out
+    return dedupe_nav(out)
 
 
                                                                          
