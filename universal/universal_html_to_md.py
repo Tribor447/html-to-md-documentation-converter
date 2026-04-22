@@ -50,7 +50,7 @@ BROWSER_TIMEOUT_MS = 45000
 DEFAULT_MAX_ASSET_BYTES = 25 * 1024 * 1024         
 DEFAULT_CONCURRENCY = 6
 DEFAULT_MAX_DEPTH = 20
-CACHE_SCHEMA_VERSION = 5
+CACHE_SCHEMA_VERSION = 6
 
                                                
 ADMONITION_STYLE = "callout"
@@ -551,6 +551,26 @@ def split_and_normalize(base_url: str, href: str) -> Tuple[str, str]:
 
 def absolutize(base_url: str, href: str) -> str:
     return urljoin(base_url, href)
+
+
+def repair_legacy_maven_javadoc_url(url: str, title: str = "") -> str:
+    if not url:
+        return url
+    title_l = (title or "").casefold()
+    if "javadoc" not in title_l and "javadocs" not in title_l:
+        return url
+    parts = urlsplit(url)
+    path = parts.path
+    if "/api-release/" not in path:
+        return url
+    fixed_path = path.replace("/api-release/", "/apidocs/")
+    return urlunsplit(SplitResult(
+        scheme=parts.scheme,
+        netloc=parts.netloc,
+        path=fixed_path,
+        query=parts.query,
+        fragment=parts.fragment,
+    ))
 
 
 def slugify(text: str) -> str:
@@ -1875,13 +1895,60 @@ def parse_single_nav_item(
     return None
 
 
+def collapse_target_ids_from_nav_item(item: Tag) -> List[str]:
+    ids: List[str] = []
+    for el in item.find_all(["a", "button", "span", "div"], recursive=True):
+                                                                               
+                                                    
+        if any(isinstance(parent, Tag) and parent.name in {"ul", "ol"} and parent is not item for parent in el.parents):
+            continue
+        for attr in ("href", "data-target", "data-bs-target"):
+            value = str(el.get(attr) or "").strip()
+            if value.startswith("#") and len(value) > 1:
+                ids.append(value[1:])
+        aria_controls = str(el.get("aria-controls") or "").strip()
+        if aria_controls:
+            ids.extend([part for part in re.split(r"\s+", aria_controls) if part])
+    return dedupe_preserve_order(ids)
+
+
+def first_list_in_nav_container(container: Tag) -> Optional[Tag]:
+    for child in container.children:
+        if isinstance(child, Tag) and child.name in {"ul", "ol"}:
+            return child
+    return container.find(["ul", "ol"])
+
+
+def sibling_collapse_lists_for_nav_list(ul: Tag) -> Dict[str, Tag]:
+    out: Dict[str, Tag] = {}
+    for child in ul.children:
+        if not isinstance(child, Tag):
+            continue
+        if child.name in {"li", "dt", "dd"}:
+            continue
+        child_id = str(child.get("id") or "").strip()
+        if not child_id:
+            continue
+        lst = first_list_in_nav_container(child)
+        if lst is not None:
+            out[child_id] = lst
+    return out
+
+
 def parse_nav_list(
     ul: Tag,
     current_domain: str,
     base_url: Optional[str] = None,
 ) -> List[NavNode]:
     nodes: List[NavNode] = []
-    item_tags = [child for child in ul.find_all(["li", "dt", "dd"], recursive=False)]
+
+                                                                              
+                                                                                    
+    collapse_lists = sibling_collapse_lists_for_nav_list(ul)
+    used_collapse_ids: Set[str] = set()
+
+    direct_children = [child for child in ul.children if isinstance(child, Tag)]
+    item_tags = [child for child in direct_children if child.name in {"li", "dt", "dd"}]
     if not item_tags and ul.name in {"li", "dt", "dd"}:
         item_tags = [ul]
 
@@ -1901,10 +1968,38 @@ def parse_nav_list(
         parsed = parse_single_nav_item(item, current_domain=current_domain, base_url=base_url)
         if parsed is None:
             continue
+
+                                                                              
+                                                                            
+                                                                         
+        for target_id in collapse_target_ids_from_nav_item(item):
+            collapse_list = collapse_lists.get(target_id)
+            if collapse_list is None:
+                continue
+            child_nodes = parse_nav_list(collapse_list, current_domain=current_domain, base_url=base_url)
+            if child_nodes:
+                parsed.kind = "category"
+                merge_nav_lists(parsed.children, child_nodes)
+                used_collapse_ids.add(target_id)
+
         if current_group is not None:
             current_group.children.append(parsed)
         else:
             nodes.append(parsed)
+
+                                                                               
+                                                                                
+                                         
+    for collapse_id, collapse_list in collapse_lists.items():
+        if collapse_id in used_collapse_ids:
+            continue
+        child_nodes = parse_nav_list(collapse_list, current_domain=current_domain, base_url=base_url)
+        if child_nodes:
+            nodes.append(NavNode(
+                title=clean_nav_title_value(collapse_id.replace("_", " ").replace("-", " ")) or "Section",
+                children=child_nodes,
+                kind="category",
+            ))
 
     return dedupe_nav(nodes)
 
@@ -1966,6 +2061,7 @@ def extract_nav_label(
                         base_url or ("https://" + current_domain),
                         raw_href,
                     )[0]
+                    href = repair_legacy_maven_javadoc_url(href, title or label)
             if title and href:
                 break
 
@@ -3522,6 +3618,7 @@ class UniversalDocsConverter:
                 continue
 
             abs_url, frag = split_and_normalize(current_url, href)
+            abs_url = repair_legacy_maven_javadoc_url(abs_url, clean_text(a.get_text(" ", strip=True)))
             canon = self.url_alias_to_canonical.get(abs_url, abs_url)
             if canon in self.url_to_anchor:
                 target_anchor = self.url_to_anchor[canon]
@@ -3647,6 +3744,7 @@ class UniversalDocsConverter:
 
                                                                        
         nav = filter_nav_to_known_urls(nav, set(self.pages.keys()), self.url_alias_to_canonical)
+        nav = cleanup_nav_tree(nav)
         if not nav:
             nav = build_url_tree(self.pages, self.url_to_virtual_path)
 
@@ -3818,6 +3916,18 @@ class UniversalDocsConverter:
         return True
 
 
+def cleanup_nav_tree(nodes: List[NavNode]) -> List[NavNode]:
+    cleaned: List[NavNode] = []
+    for node in nodes:
+        node = copy.deepcopy(node)
+        if node.href:
+            node.href = repair_legacy_maven_javadoc_url(node.href, node.title)
+        if node.children:
+            node.children = cleanup_nav_tree(node.children)
+        merge_nav_lists(cleaned, [node])
+    return dedupe_nav(cleaned)
+
+
 def filter_nav_to_known_urls(
     nodes: List[NavNode],
     known_urls: Set[str],
@@ -3827,11 +3937,16 @@ def filter_nav_to_known_urls(
     for node in nodes:
         children = filter_nav_to_known_urls(node.children, known_urls, alias) if node.children else []
         if node.href:
+            node.href = repair_legacy_maven_javadoc_url(node.href, node.title)
             canon = alias.get(node.href, node.href)
             if canon in known_urls:
                 node.href = canon
         node.children = children
-        if node.href or node.children:
+                                                                              
+                                                                            
+                                                                       
+                                                 
+        if node.href or node.children or node.kind == "category":
             out.append(node)
     return dedupe_nav(out)
 
