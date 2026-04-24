@@ -1,0 +1,1391 @@
+# Summary
+
+- Contents:
+  - [CloudStack Concepts and Terminology](#conceptsandterminology)
+    - [Concepts and Terminology](#conceptsandterminology)
+      - [What is Apache CloudStack?](#conceptsandterminology-concepts)
+      - [What can Apache CloudStack do?](#conceptsandterminology-concepts)
+        - Multiple Hypervisor Support
+        - Massively Scalable Infrastructure Management
+        - Automatic Cloud Configuration Management
+        - Graphical User Interface
+        - API
+        - AWS EC2 API Support
+        - High Availability
+      - [Deployment Architecture Overview](#conceptsandterminology-concepts)
+        - Management Server Overview
+        - Cloud Infrastructure Overview
+        - Networking Overview
+      - [CloudStack Terminology](#conceptsandterminology-concepts)
+        - About Regions
+        - About Zones
+        - About Pods
+        - About Clusters
+        - About Hosts
+        - About Primary Storage
+        - About Secondary Storage
+        - About Object Storage
+        - About Shared FileSystems
+        - About Physical Networks
+    - [Object Types in CloudStack](#conceptsandterminology)
+      - [All Object Types in Apache CloudStack](#conceptsandterminology-object_types)
+    - [Choosing a Deployment Architecture](#conceptsandterminology)
+      - [Small-Scale Deployment](#conceptsandterminology-choosing_deployment_architecture)
+      - [Large-Scale Redundant Setup](#conceptsandterminology-choosing_deployment_architecture)
+      - [Separate Storage Network](#conceptsandterminology-choosing_deployment_architecture)
+      - [Multi-Node Management Server](#conceptsandterminology-choosing_deployment_architecture)
+      - [Multi-Site Deployment](#conceptsandterminology-choosing_deployment_architecture)
+      - [Choosing a Hypervisor](#conceptsandterminology-choosing_deployment_architecture)
+        - Hypervisor Support for Primary Storage
+      - [Best Practices](#conceptsandterminology-choosing_deployment_architecture)
+        - Process Best Practices
+        - Setup Best Practices
+        - Maintenance Best Practices
+    - [Network Setup](#conceptsandterminology)
+      - [Basic and Advanced Networking](#conceptsandterminology-network_setup)
+      - [VLAN Allocation Example](#conceptsandterminology-network_setup)
+      - [Example Hardware Configuration](#conceptsandterminology-network_setup)
+        - Dell 62xx
+        - Cisco 3750
+      - [Layer-2 Switch](#conceptsandterminology-network_setup)
+        - Dell 62xx
+        - Cisco 3750
+      - [Hardware Firewall](#conceptsandterminology-network_setup)
+        - Generic Firewall Provisions
+        - External Guest Firewall Integration for Juniper SRX (Optional)
+        - External Guest Firewall Integration for Cisco VNMC (Optional)
+        - External Guest Load Balancer Integration (Optional)
+      - [Management Server Load Balancing](#conceptsandterminology-network_setup)
+      - [Topology Requirements](#conceptsandterminology-network_setup)
+        - Security Requirements
+        - Runtime Internal Communications Requirements
+        - Storage Network Topology Requirements
+        - External Firewall Topology Requirements
+        - Advanced Zone Topology Requirements
+        - XenServer Topology Requirements
+        - VMware Topology Requirements
+        - Hyper-V Topology Requirements
+        - KVM Topology Requirements
+        - LXC Topology Requirements
+      - [Guest Network Usage Integration for Traffic Sentinel](#conceptsandterminology-network_setup)
+      - [Setting Zone VLAN and Running VM Maximums](#conceptsandterminology-network_setup)
+    - [Storage Setup](#conceptsandterminology)
+      - [Introduction](#conceptsandterminology-storage_setup)
+        - Primary Storage
+        - Secondary Storage
+      - [Configurations](#conceptsandterminology-storage_setup)
+        - Small-Scale Setup
+        - Large-Scale Setup
+      - [Storage Architecture](#conceptsandterminology-storage_setup)
+        - Local Storage
+        - ‘Traditional’ node-based Shared Storage
+        - Clustered Shared Storage
+        - Network Configuration For Storage
+      - [CloudStack Networking For Storage](#conceptsandterminology-storage_setup)
+        - Small-Scale Example Configurations
+  - [Quick Installation Guide](#quickinstallationguide-qig)
+    - [Overview](#quickinstallationguide-qig)
+      - [What exactly are we building?](#quickinstallationguide-qig)
+      - [High-level overview of the process](#quickinstallationguide-qig)
+      - [Prerequisites](#quickinstallationguide-qig)
+    - [Environment](#quickinstallationguide-qig)
+      - [Operating System](#quickinstallationguide-qig)
+        - Configuring the Network
+        - Hostname
+        - SELinux
+        - NTP (Chrony)
+        - Configuring the CloudStack Package Repository
+      - [NFS](#quickinstallationguide-qig)
+    - [Management Server Installation](#quickinstallationguide-qig)
+      - [Database Installation and Configuration](#quickinstallationguide-qig)
+      - [Installation](#quickinstallationguide-qig)
+      - [System Template Setup](#quickinstallationguide-qig)
+    - [KVM Setup and Installation](#quickinstallationguide-qig)
+      - [Prerequisites](#quickinstallationguide-qig)
+      - [Installation](#quickinstallationguide-qig)
+      - [KVM Configuration](#quickinstallationguide-qig)
+        - QEMU Configuration
+        - Libvirt Configuration
+        - KVM configuration complete
+    - [Configuration](#quickinstallationguide-qig)
+      - [UI Access](#quickinstallationguide-qig)
+    - [Setting up a Zone](#quickinstallationguide-qig)
+      - [Zone Type](#quickinstallationguide-qig)
+      - [Zone Details](#quickinstallationguide-qig)
+      - [Physical Network](#quickinstallationguide-qig)
+      - [Public Traffic](#quickinstallationguide-qig)
+      - [Pod Configuration](#quickinstallationguide-qig)
+      - [Guest Traffic](#quickinstallationguide-qig)
+      - [Cluster](#quickinstallationguide-qig)
+      - [Host](#quickinstallationguide-qig)
+        - Primary Storage
+        - Secondary Storage
+  - [Installation Guide](#installguide)
+    - [Building from Source](#installguide)
+      - [Introduction](#installguide-building_from_source)
+      - [Downloading the Release](#installguide-building_from_source)
+      - [Verifying the Downloaded Release](#installguide-building_from_source)
+        - Getting the KEYS
+        - GPG
+        - MD5
+        - SHA512
+      - [Prerequisites for building Apache CloudStack](#installguide-building_from_source)
+      - [Extracting source](#installguide-building_from_source)
+      - [Install new MySQL connector](#installguide-building_from_source)
+        - MySQL connector APT repository
+        - MySQL connector RPM repository
+      - [Building DEB packages](#installguide-building_from_source)
+        - Setting up an APT repo
+        - Repository signing
+        - Configuring your machines to use the APT repository
+      - [Building RPMs from Source](#installguide-building_from_source)
+        - Generating RPMS
+      - [Building Non-OSS](#installguide-building_from_source)
+    - [General Installation](#installguide)
+      - [Installation overview](#installguide-overview)
+        - Introduction
+        - Minimum System Requirements
+        - Package Repository
+      - [Management Server Installation](#installguide-management-server)
+        - Overview
+        - Prepare the Operating System
+        - Install the Management Server on the First Host
+        - Downloading vhd-util
+        - Install the database server
+        - Prepare NFS Shares
+        - Additional Management Servers
+        - Prepare the System VM Template
+        - Installation Complete! Next Steps
+    - [Configuration](#installguide)
+      - [Configuring your CloudStack Installation](#installguide-configuration)
+        - Overview of Provisioning Steps
+        - Adding Regions (optional)
+        - Adding a Zone
+        - Adding a Pod
+        - Adding a Cluster
+        - Adding a Host
+        - Add Primary Storage
+        - Add Secondary Storage
+        - Register Cloud Templates
+        - Initialize and Test
+        - Configuration Parameters
+        - Granular Global Configuration Parameters
+    - [Hypervisor Setup](#installguide)
+      - [Custom Hypervisor Installation](#installguide-hypervisor-custom)
+      - [Host Hyper-V Installation](#installguide-hypervisor-hyperv)
+        - System Requirements for Hyper-V Hypervisor Hosts
+        - Preparation Checklist for Hyper-V
+        - Hyper-V Installation Steps
+        - Installing the CloudStack Agent on a Hyper-V Host
+        - Physical Network Configuration for Hyper-V
+        - Storage Preparation for Hyper-V (Optional)
+      - [Host KVM Installation](#installguide-hypervisor-kvm)
+        - System Requirements for KVM Hypervisor Hosts
+        - KVM Installation Overview
+        - Prepare the Operating System
+        - RPM package repository
+        - DEB package repository
+        - Install and configure the Agent
+        - Install and Configure libvirt
+        - Configure the Security Policies
+        - Configuring the Networking
+        - Configure the network using OpenVswitch
+        - Configuring the firewall
+        - Additional Packages Required for Features
+        - Add the host to CloudStack
+      - [Host LXC Installation](#installguide-hypervisor-lxc)
+        - System Requirements for LXC Hosts
+        - LXC Installation Overview
+        - Prepare the Operating System
+        - RPM package repository
+        - DEB package repository
+        - Install and configure the Agent
+        - Install and Configure libvirt
+        - Configure the Security Policies
+        - Configure the network bridges
+        - Configuring the firewall
+        - Add the host to CloudStack
+      - [Host VMware vSphere Installation](#installguide-hypervisor-vsphere)
+        - System Requirements for vSphere Hosts
+        - Preparation Checklist for VMware
+        - vSphere Installation Steps
+        - ESXi Host setup
+        - Physical Host Networking
+        - Configuring a vSphere Cluster with Nexus 1000v Virtual Switch
+        - Configuring a VMware Datacenter with VMware Distributed Virtual Switch
+        - Storage Preparation for vSphere (iSCSI only)
+        - Add Hosts or Configure Clusters (vSphere)
+        - Applying Hotfixes to a VMware vSphere Host
+      - [Host Citrix XenServer Installation](#installguide-hypervisor-xenserver)
+        - System Requirements for XenServer Hosts
+        - XenServer Installation Steps
+        - Configure XenServer dom0 Memory
+        - Username and Password
+        - Time Synchronization
+        - Install CloudStack XenServer Support Package (CSP)
+        - Primary Storage Setup for XenServer
+        - iSCSI Multipath Setup for XenServer (Optional)
+        - Physical Networking Setup for XenServer
+        - Upgrading XenServer Versions
+    - [Optional Installation](#installguide)
+      - [Additional Installation Options](#installguide-optional_installation)
+        - Installing the Usage Server (Optional)
+        - SSL (Optional)
+        - Health Checks and Monitoring (Optional)
+        - Database Replication (Optional)
+        - Amazon Web Services Interface
+      - [About Password and Key Encryption](#installguide-encryption)
+        - Changing the Default Password Encryption
+  - [Upgrading CloudStack](#upgrading)
+    - [Upgrading CloudStack](#upgrading-upgrade-upgrade_java_17_notes)
+      - [Java version upgraded to Java 17](#upgrading-upgrade-upgrade_java_17_notes)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade_java_17_notes)
+    - [MySQL upgrade problems](#upgrading-upgrade-mysql)
+    - [Validate 4.22.0.0 source code tarball](#upgrading-upgrade-valid_source)
+    - [Upgrade Instruction from 4.22.x](#upgrading-upgrade-upgrade-4.22)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.22)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.22)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.22)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.22)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.22)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.22)
+      - [Management Server](#upgrading-upgrade-upgrade-4.22)
+        - Ubuntu/Debian
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.22)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.22)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.22)
+    - [Upgrade Instruction from 4.21.x](#upgrading-upgrade-upgrade-4.21)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.21)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.21)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.21)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.21)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.21)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.21)
+      - [Management Server](#upgrading-upgrade-upgrade-4.21)
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.21)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.21)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.21)
+    - [Upgrade Instruction from 4.20.x](#upgrading-upgrade-upgrade-4.20)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.20)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.20)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.20)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.20)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.20)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.20)
+      - [Management Server](#upgrading-upgrade-upgrade-4.20)
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.20)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.20)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.20)
+    - [Upgrade Instruction from 4.19.x](#upgrading-upgrade-upgrade-4.19)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.19)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.19)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.19)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.19)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.19)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.19)
+      - [Management Server](#upgrading-upgrade-upgrade-4.19)
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.19)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.19)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.19)
+    - [Upgrade Instruction from 4.18.x](#upgrading-upgrade-upgrade-4.18)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.18)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.18)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.18)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.18)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.18)
+      - [Management Server](#upgrading-upgrade-upgrade-4.18)
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.18)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.18)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.18)
+    - [Upgrade Instruction from 4.17.x](#upgrading-upgrade-upgrade-4.17)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.17)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.17)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.17)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.17)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.17)
+      - [Management Server](#upgrading-upgrade-upgrade-4.17)
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.17)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.17)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.17)
+    - [Upgrade Instruction from 4.16.x](#upgrading-upgrade-upgrade-4.16)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.16)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.16)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.16)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.16)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.16)
+      - [Management Server](#upgrading-upgrade-upgrade-4.16)
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.16)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.16)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.16)
+    - [Upgrade Instruction from 4.15.x](#upgrading-upgrade-upgrade-4.15)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.15)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.15)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.15)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.15)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.15)
+      - [Management Server](#upgrading-upgrade-upgrade-4.15)
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.15)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.15)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.15)
+    - [Upgrade Instruction from 4.14.x](#upgrading-upgrade-upgrade-4.14)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.14)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.14)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.14)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.14)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.14)
+      - [Management Server](#upgrading-upgrade-upgrade-4.14)
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.14)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.14)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.14)
+    - [Upgrade Instruction from 4.13.x](#upgrading-upgrade-upgrade-4.13)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.13)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.13)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.13)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.13)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.13)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.13)
+      - [Management Server](#upgrading-upgrade-upgrade-4.13)
+        - Time zone requirements
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.13)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.13)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.13)
+    - [Upgrade Instruction from 4.12.x](#upgrading-upgrade-upgrade-4.12)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.12)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.12)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.12)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.12)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.12)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.12)
+      - [Management Server](#upgrading-upgrade-upgrade-4.12)
+        - Time zone requirements
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.12)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.12)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.12)
+    - [Upgrade Instruction from 4.11.x](#upgrading-upgrade-upgrade-4.11)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.11)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.11)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.11)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.11)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.11)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.11)
+      - [Management Server](#upgrading-upgrade-upgrade-4.11)
+        - Time zone requirements
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.11)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.11)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.11)
+    - [Upgrade Instruction from 4.10.x](#upgrading-upgrade-upgrade-4.10)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.10)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.10)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.10)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.10)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.10)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.10)
+      - [Management Server](#upgrading-upgrade-upgrade-4.10)
+        - Time zone requirements
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.10)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.10)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.10)
+    - [Upgrade Instruction from 4.9.x](#upgrading-upgrade-upgrade-4.9)
+      - [Overview of Upgrade Steps:](#upgrading-upgrade-upgrade-4.9)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.9)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.9)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.9)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.9)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.9)
+      - [Management Server](#upgrading-upgrade-upgrade-4.9)
+        - Time zone requirements
+        - Ubuntu
+        - CentOS/RHEL
+      - [Upgrade Hypervisors](#upgrading-upgrade-upgrade-4.9)
+        - Hypervisor: XenServer
+        - Hypervisor: VMware
+        - Hypervisor: KVM
+      - [Restart management services](#upgrading-upgrade-upgrade-4.9)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.9)
+    - [Upgrade Instruction from 4.8.x](#upgrading-upgrade-upgrade-4.8)
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.8)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.8)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.8)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.8)
+      - [Management Server on Ubuntu](#upgrading-upgrade-upgrade-4.8)
+        - Time zone requirements
+      - [Management Server on CentOS/RHEL](#upgrading-upgrade-upgrade-4.8)
+        - Time zone requirements
+      - [Hypervisor: XenServer](#upgrading-upgrade-upgrade-4.8)
+      - [Hypervisor: VMware](#upgrading-upgrade-upgrade-4.8)
+      - [Hypervisor: KVM](#upgrading-upgrade-upgrade-4.8)
+      - [Restart management services](#upgrading-upgrade-upgrade-4.8)
+    - [Upgrade Instruction from 4.7.x](#upgrading-upgrade-upgrade-4.7)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.7)
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.7)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.7)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.7)
+      - [Management Server on Ubuntu](#upgrading-upgrade-upgrade-4.7)
+        - Time zone requirements
+      - [Management Server on CentOS/RHEL](#upgrading-upgrade-upgrade-4.7)
+        - Time zone requirements
+      - [Hypervisor: XenServer](#upgrading-upgrade-upgrade-4.7)
+      - [Hypervisor: VMware](#upgrading-upgrade-upgrade-4.7)
+      - [Hypervisor: KVM](#upgrading-upgrade-upgrade-4.7)
+      - [Restart management services](#upgrading-upgrade-upgrade-4.7)
+    - [Upgrade Instruction from 4.6.x](#upgrading-upgrade-upgrade-4.6)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.6)
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.6)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.6)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.6)
+      - [Management Server on Ubuntu](#upgrading-upgrade-upgrade-4.6)
+        - Time zone requirements
+      - [Management Server on CentOS/RHEL](#upgrading-upgrade-upgrade-4.6)
+        - Time zone requirements
+      - [Hypervisor: XenServer](#upgrading-upgrade-upgrade-4.6)
+      - [Hypervisor: VMware](#upgrading-upgrade-upgrade-4.6)
+      - [Hypervisor: KVM](#upgrading-upgrade-upgrade-4.6)
+      - [Restart management services](#upgrading-upgrade-upgrade-4.6)
+    - [Upgrade Instruction from 4.5.x](#upgrading-upgrade-upgrade-4.5)
+      - [CloudStack Customisations](#upgrading-upgrade-upgrade-4.5)
+        - Guest OS mappings
+        - Customised CSS
+        - Plugins
+        - 3rd Party Integrations
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.5)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.5)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.5)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.5)
+      - [Management Server on Ubuntu](#upgrading-upgrade-upgrade-4.5)
+        - Time zone requirements
+      - [Management Server on CentOS/RHEL](#upgrading-upgrade-upgrade-4.5)
+        - Time zone requirements
+      - [Hypervisor: XenServer](#upgrading-upgrade-upgrade-4.5)
+      - [Hypervisor: VMware](#upgrading-upgrade-upgrade-4.5)
+      - [Hypervisor: KVM](#upgrading-upgrade-upgrade-4.5)
+      - [Restart management services](#upgrading-upgrade-upgrade-4.5)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.5)
+    - [Upgrade Instruction from 4.4.x](#upgrading-upgrade-upgrade-4.4)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.4)
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.4)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.4)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.4)
+      - [Management Server on Ubuntu](#upgrading-upgrade-upgrade-4.4)
+        - Time zone requirements
+      - [Management Server on CentOS/RHEL](#upgrading-upgrade-upgrade-4.4)
+        - Time zone requirements
+      - [Hypervisor: XenServer](#upgrading-upgrade-upgrade-4.4)
+      - [Hypervisor: VMware](#upgrading-upgrade-upgrade-4.4)
+      - [Hypervisor: KVM](#upgrading-upgrade-upgrade-4.4)
+      - [Restart management services](#upgrading-upgrade-upgrade-4.4)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.4)
+    - [Upgrade Instruction from 4.3.x](#upgrading-upgrade-upgrade-4.3)
+      - [Packages repository](#upgrading-upgrade-upgrade-4.3)
+      - [Update System VM Templates](#upgrading-upgrade-upgrade-4.3)
+      - [Java Version Requirement](#upgrading-upgrade-upgrade-4.3)
+      - [Database Preparation](#upgrading-upgrade-upgrade-4.3)
+      - [Management Server on Ubuntu](#upgrading-upgrade-upgrade-4.3)
+        - Time zone requirements
+      - [Management Server on CentOS/RHEL](#upgrading-upgrade-upgrade-4.3)
+        - Time zone requirements
+      - [Hypervisor: XenServer](#upgrading-upgrade-upgrade-4.3)
+      - [Hypervisor: VMware](#upgrading-upgrade-upgrade-4.3)
+      - [Hypervisor: KVM](#upgrading-upgrade-upgrade-4.3)
+      - [Restart management services](#upgrading-upgrade-upgrade-4.3)
+      - [System VMs and Virtual Routers](#upgrading-upgrade-upgrade-4.3)
+  - [Usage Guide](#adminguide)
+    - [User Interface](#adminguide)
+      - [Log In to the UI](#adminguide-ui)
+        - End User’s UI Overview
+        - Root Administrator’s UI Overview
+        - Logging In as the Root Administrator
+        - Changing the Root Password
+        - Basic UI Customisation
+      - [Instance Image Selection Customisation](#adminguide-ui)
+        - Advanced UI Customisation
+        - Multiple Management Support
+        - Enable Login to Project View
+        - Known Limitations
+    - [Managing Accounts, Users and Domains](#adminguide)
+      - [Roles, Accounts, Users, and Domains](#adminguide-accounts)
+        - Roles
+        - Accounts
+        - [Domains](#adminguide-accounts)
+        - Users
+        - Domain Administrators
+        - Root Administrator
+        - Read Only Administrator
+        - Read Only User
+        - Support Admin
+        - Support User
+        - Resource Ownership
+      - [Using Dynamic Roles](#adminguide-accounts)
+      - [Dedicating Resources to Accounts and Domains](#adminguide-accounts)
+      - [How to Dedicate a Zone, Cluster, Pod, or Host to an Account or Domain](#adminguide-accounts)
+        - How to Use Dedicated Hosts
+        - Behavior of Dedicated Hosts, Clusters, Pods, and Zones
+      - [Using an LDAP Server for User Authentication](#adminguide-accounts)
+        - LDAP SSL:
+      - [Using a SAML 2.0 Identity Provider for User Authentication](#adminguide-accounts)
+      - [Using OAuth2 Authentication For Users](#adminguide-accounts)
+      - [Using Two Factor Authentication For Users](#adminguide-accounts)
+      - [Password Recovery for Users (Forgot Password)](#adminguide-accounts)
+      - [Using API Key and Secret Key based Authentication](#adminguide-accounts)
+        - Disabling Api Key and Secret Key based Access
+    - [Using Projects to Organize User Resources](#adminguide)
+      - [Overview of Projects](#adminguide-projects)
+      - [Configuring Projects](#adminguide-projects)
+        - Setting Up Invitations
+        - Setting Resource Limits for Projects
+        - Setting Project Creator Permissions
+      - [Creating a New Project](#adminguide-projects)
+      - [Adding Members to a Project](#adminguide-projects)
+      - [Working with Project Roles](#adminguide-projects)
+        - Sending Project Membership Invitations
+        - Adding Project Members From the UI
+      - [Accepting a Membership Invitation](#adminguide-projects)
+      - [Suspending or Deleting a Project](#adminguide-projects)
+      - [Using the Project View](#adminguide-projects)
+    - [Service Offerings](#adminguide)
+      - [Service Offerings, Disk Offerings, Network Offerings, and Templates](#adminguide-service_offerings)
+        - Scope
+      - [Compute and Disk Service Offerings](#adminguide-service_offerings)
+        - Creating a New Compute Offering
+        - Creating a New Disk Offering
+        - Modifying or Deleting a Service Offering
+      - [System Service Offerings](#adminguide-service_offerings)
+        - Creating a New System Service Offering
+      - [Network Throttling](#adminguide-service_offerings)
+      - [Changing the Default System Offering for System VMs](#adminguide-service_offerings)
+      - [Changing the Default System Offering for Virtual Routers](#adminguide-service_offerings)
+    - [Setting up Networking for Users](#adminguide)
+      - [Overview of Setting Up Networking for Users](#adminguide-networking)
+      - [About Virtual Networks](#adminguide-networking)
+        - Isolated Networks
+        - Shared Networks
+        - L2 (Layer 2) Networks
+        - Runtime Allocation of Virtual Network Resources
+      - [Network Service Providers](#adminguide-networking)
+      - [Network Offerings](#adminguide-networking)
+        - Creating a New Network Offering
+      - [Configuring AutoScale with the CloudStack Virtual Router](#adminguide-autoscale_with_virtual_router)
+        - What is AutoScaling?
+        - Hypervisor support
+        - Prerequisites
+        - Adding an AutoScale Instance Group
+        - AutoScale Policies
+        - Disabling and Enabling an AutoScale Instance Group
+        - Updating an AutoScale Instance Group
+        - Deleting an AutoScale Instance Group
+        - Runtime Considerations
+    - [Working with Instances](#adminguide)
+      - [About Working with Instances](#adminguide-virtual_machines)
+      - [Instance Lifecycle](#adminguide-virtual_machines)
+        - Creating Instances
+        - Accessing Instances
+        - Securing Instance Console Access (KVM only)
+        - Stopping and Starting Instance
+        - Deleting Instance
+      - [Managing Instances](#adminguide-virtual_machines)
+        - Scheduling operations on an Instance
+        - Changing the Instance Name, OS, or Group
+        - Appending a Name to the Guest Instance’s Internal Name
+        - Instance delete protection
+        - Changing the Service Offering for an Instance
+        - Resetting the Instance Root Volume on Reboot
+        - Moving Instances Between Hosts (Manual Live Migration)
+        - Moving Instance’s Volumes Between Storage Pools (offline volume Migration)
+        - Assigning Instances to Hosts
+        - Changing an Instance’s Base Image
+        - Instance Lease
+        - Advanced Instance Settings
+        - Instance Settings for Virtual Trusted Platform Module (vTPM)
+      - [Instance Snapshots](#adminguide-virtual_machines)
+        - Storage-based Instance Snapshots on KVM
+        - Disk-only File-based Storage Instance Snapshot on KVM
+        - Limitations on Instance Snapshots
+        - Pause During Live Instance Snapshots on KVM
+        - Configuring Instance Snapshots
+        - Using Instance Snapshots
+      - [Support for Virtual Appliances](#adminguide-virtual_machines)
+        - About Virtual Appliances
+        - Deployment options (configurations)
+        - Network interfaces
+        - Properties
+        - End-user license agreements
+        - Advanced deployment settings
+      - [Importing and Unmanaging Instances](#adminguide-virtual_machines)
+        - About Import Export Instances
+        - Manage or Unmanage Instances on Managed Hosts
+        - Importing Unmanaged Instances
+        - Listing unmanaged Instances
+        - Discovery of Existing Networks (for vSphere)
+        - Unmanaging Instances
+        - Import Instances from External Hosts
+        - Import Instances from Local/Shared Storage
+      - [Importing Virtual Machines From VMware into KVM](#adminguide-virtual_machines)
+        - Requirements on the KVM hosts
+        - Usage
+        - Selecting the Destination cluster
+        - Selecting the VM from a VMware Datacenter
+        - Converting and importing a VMware VM
+      - [Instance Backups (Backup and Recovery Feature)](#adminguide-virtual_machines)
+        - About Backup And Recovery
+        - Configuring Backup and Recovery
+        - Backup Offerings
+        - Importing Backup Offerings
+        - Creating Instance Backups
+        - Restoring Instance Backups
+        - Creating a new Instance from Backup
+        - Creating a New Instance from Backup in Another Zone
+        - Supported APIs:
+        - Configuring resource limits on Backups
+      - [Using SSH Keys for Authentication](#adminguide-virtual_machines)
+        - Creating an Instance Template that Supports SSH Keys
+        - Creating the SSH Keypair
+        - Creating an Instance
+        - Logging In Using the SSH Keypair
+        - Resetting SSH Keys
+        - User Data and Metadata
+        - Resetting UserData
+      - [Assigning GPU/vGPU to Guest Instances](#adminguide-virtual_machines)
+        - Prerequisites and System Requirements
+        - Supported GPU Devices for XenServer
+        - GPU/vGPU Assignment Workflow
+      - [Instance Metrics](#adminguide-virtual_machines)
+        - Instance Disk Metrics
+    - [Working with Templates & ISOs](#adminguide)
+      - [Working With Templates](#adminguide-templates)
+        - Creating Templates: Overview
+        - Requirements for Templates
+        - Best Practices for Templates
+        - The Default Template
+        - Private and Public Templates
+        - Creating a Template from an Existing Instance
+        - Creating a Template from a Snapshot
+        - Uploading Templates from a remote HTTP server
+        - Bypassing Secondary Storage For KVM Templates
+        - Uploading Templates and ISOs from a local computer
+        - Sharing Templates and ISOs with other Accounts/projects
+        - Exporting Templates
+        - Creating a Linux Template
+        - System preparation for Linux
+        - Creating a Windows Template
+        - Importing Amazon Machine Images
+        - Converting a Hyper-V Instance to a Template
+        - Adding Password Management to Your Templates
+        - Deleting Templates
+      - [Working with ISOs](#adminguide-templates)
+        - Adding an ISO
+        - Attaching an ISO to a Instance
+    - [Working with Clusters](#adminguide)
+      - [Adding Clusters](#adminguide-clusters)
+      - [CloudStack DRS](#adminguide-clusters)
+        - Configuring DRS
+        - Executing manual DRS on a cluster
+    - [Working with Hosts](#adminguide)
+      - [Adding Hosts](#adminguide-hosts)
+      - [Scheduled Maintenance and Maintenance Mode for Hosts](#adminguide-hosts)
+        - vCenter and Maintenance Mode
+        - XenServer and Maintenance Mode
+      - [Disabling and Enabling Zones, Pods, and Clusters](#adminguide-hosts)
+      - [Removing Hosts](#adminguide-hosts)
+        - Removing XenServer and KVM Hosts
+        - Removing vSphere Hosts
+      - [Re-Installing Hosts](#adminguide-hosts)
+      - [Maintaining Hypervisors on Hosts](#adminguide-hosts)
+      - [Hypervisor Capabilities](#adminguide-hosts)
+      - [Discovering GPU Devices on KVM Hosts](#adminguide-hosts)
+      - [Changing Host Password](#adminguide-hosts)
+      - [Over-Provisioning and Service Offering Limits](#adminguide-hosts)
+        - Limitations on Over-Provisioning in XenServer and KVM
+        - Requirements for Over-Provisioning
+        - Setting Over-Provisioning Factors
+        - Service Offering Limits and Over-Provisioning
+      - [VLAN Provisioning](#adminguide-hosts)
+        - VLAN Allocation Example
+        - Adding Non Contiguous VLAN Ranges
+        - Assigning VLANs to Isolated Networks
+      - [Out-of-band Management](#adminguide-hosts)
+      - [Security](#adminguide-hosts)
+      - [Server Address Usage](#adminguide-hosts)
+      - [Securing Process](#adminguide-hosts)
+      - [KVM Libvirt Hook Script Include](#adminguide-hosts)
+        - Feature Overview
+        - The KVM Libvirt Hook script allows for
+        - Usage
+        - Timeout Configuration
+        - Custom Script Naming for a Specific Instance Action
+        - Custom Script Naming for All Instance Actions
+        - Custom Script Execution Configuration
+      - [KVM Rolling Maintenance](#adminguide-hosts)
+        - Overview
+        - Configuration
+        - Usage
+        - Process
+      - [KVM Auto Enable/Disable Hosts](#adminguide-hosts)
+        - KVM hosts health checks
+        - Management Server actions based on health checks
+    - [Working with Storage](#adminguide)
+      - [Storage Overview](#adminguide-storage)
+      - [Primary Storage](#adminguide-storage)
+        - Best Practices for Primary Storage
+        - Runtime Behavior of Primary Storage
+        - Hypervisor Support for Primary Storage
+        - Using Multiple Local Storages (KVM only)
+        - Changing the Scope of the Primary Storage
+        - Storage Tags
+        - Storage Access Groups
+        - Maintenance Mode for Primary Storage
+        - Browsing files on a primary storage
+        - Setting NFS Mount Options on the Storage Pool
+      - [Secondary Storage](#adminguide-storage)
+        - Browsing files on a secondary storage
+        - Migration of data between secondary storages
+        - Read only
+        - Direct resources to a specific secondary storage
+      - [Working With Volumes](#adminguide-storage)
+        - Creating a New Volume
+        - Uploading an Existing Volume to an Instance
+        - Attaching a Volume
+        - Detaching and Moving Volumes
+        - Instance Storage Migration
+        - Finding Primary Storage for Migration
+        - Resizing Volumes
+        - Root Volume size defined via Service Offering
+        - Change disk offering for volume
+        - Reset Instance to New Root Disk on Reboot
+        - Volume delete protection
+        - Volume Deletion and Garbage Collection
+        - Volume Metrics
+        - Check and repair Volume
+        - Importing and Unmanaging Volumes from Storage Pools
+      - [Working with Volume Snapshots](#adminguide-storage)
+        - How to Snapshot a Volume
+        - KVM volume Snapshot specifics
+        - Automatic Snapshot Creation and Retention
+        - Incremental Snapshots and Backup
+        - Volume Status
+        - Snapshot Restore
+        - Snapshot Job Throttling
+        - Snapshot Copy
+        - VMware Volume Snapshot Performance
+        - Linstor Primary Storage
+      - [Object Storage](#adminguide-storage)
+        - Creating a New Bucket
+        - Browsing objects in a bucket
+        - Uploading an object to a bucket
+        - Deleting objects from a bucket
+        - Configuring resource limits on buckets and object storage usage
+      - [Shared FileSystems](#adminguide-storage)
+        - Creating a New Shared FileSystem
+        - Access
+        - Lifecycle Operations
+        - Shared FileSystem Instance
+        - Service Offering
+        - Shared FileSystem Data Volume
+    - [Working with System VMs](#adminguide)
+      - [The System VM Template](#adminguide-systemvm)
+      - [System VM Template bundled with packages](#adminguide-systemvm)
+      - [Changing the Default System VM Template](#adminguide-systemvm)
+      - [Accessing System VMs](#adminguide-systemvm)
+      - [Multiple System VM Support for VMware](#adminguide-systemvm)
+      - [Console Proxy](#adminguide-systemvm)
+        - Creating an Instance Console Endpoint
+        - Using a SSL Certificate for the Console Proxy
+        - Changing the Console Proxy SSL Certificate and Domains
+        - Uploading ROOT CA and Intermediate CA
+        - Load-balancing Console Proxies / Secondary Storage VMs
+        - SSL-Offloading with Load-balancing for Console Proxies / Secondary Storage VMs
+      - [Virtual Router](#adminguide-systemvm)
+        - Configuring the Virtual Router
+        - Upgrading a Virtual Router with System Service Offerings
+        - Best Practices for Virtual Routers
+        - Service Monitoring Tool for Virtual Router
+        - Health checks for Virtual Router
+        - Enhanced Upgrade for Virtual Routers
+      - [Secondary Storage VM](#adminguide-systemvm)
+      - [Migrating System VMs](#adminguide-systemvm)
+      - [Customizing System VMs](#adminguide-systemvm)
+      - [Troubleshoot networks from System VMs](#adminguide-systemvm)
+        - Get Diagnostics Data
+    - [Working with Usage](#adminguide)
+      - [Working with Usage](#adminguide-usage)
+        - Configuring the Usage Server
+        - Setting Usage Limits
+        - Usage Record Format
+        - Usage Types
+        - Example response from listUsageRecords
+        - Dates in the Usage Record
+    - [Managing VM and Volume Allocation](#adminguide)
+      - [Host and Storage Tags](#adminguide-host_and_storage_tags)
+        - Host tags
+        - Strict Host Tags
+        - [Storage tags](#adminguide-host_and_storage_tags)
+        - Flexible Tags
+        - Implicit Host Tags
+      - [Hosts/Cluster Arch Types Allocation](#adminguide-arch_types)
+      - [VM and Volume Allocators](#adminguide-vm_volume_allocators)
+        - VM Allocator
+        - Volume Allocator
+      - [Cluster, Pod and Host Ordering](#adminguide-vm_volume_allocators)
+        - Overview
+        - Configuration
+        - Example Configuration
+    - [Managing Networks and Traffic](#adminguide)
+      - [Guest Traffic](#adminguide-networking_and_traffic)
+      - [Networking in a Pod](#adminguide-networking_and_traffic)
+      - [Networking in a Zone](#adminguide-networking_and_traffic)
+      - [Basic Zone Physical Network Configuration](#adminguide-networking_and_traffic)
+      - [Advanced Zone Physical Network Configuration](#adminguide-networking_and_traffic)
+        - Configure Guest Traffic in an Advanced Zone
+        - Configure Public Traffic in an Advanced Zone
+        - Configuring a Shared Guest Network
+      - [Editing, Restarting, and Removing a Guest Network](#adminguide-networking_and_traffic)
+      - [Using Multiple Guest Networks](#adminguide-networking_and_traffic)
+        - Adding an Additional Guest Network
+        - Reconfiguring Networks in instances
+        - Changing the Network Offering on a Guest Network
+      - [Dynamic and Static Routing](#adminguide-networking_and_traffic)
+        - About Network Mode
+        - About Routing mode
+        - Manage IPv4 Subnets for Zone
+        - Manage IPv4 Subnets for Guest Networks
+        - Create Network and VPC Offering with ROUTED mode
+        - Create Network with Static Routing for IPv4
+        - Create Network with Static Routing for IPv6
+        - Manage IPv4 Routing Firewall
+        - Manage AS number for Dynamic Routing
+        - Manage BPG peers for Dynamic Routing
+        - Create Network with Dynamic Routing
+        - Create VPC with Dynamic Routing
+        - CloudStack Kubernetes Service support on ROUTED networks and VPCs
+      - [Guest Network Permissions](#adminguide-networking_and_traffic)
+        - Adding a Network permission
+        - Removing a Network permission
+        - Resetting Network permissions
+      - [IP Reservation in Isolated Guest Networks](#adminguide-networking_and_traffic)
+        - IP Reservation Considerations
+        - Limitations
+        - Best Practices
+        - Reserving an IP Range
+      - [Reserving Public IP Addresses and VLANs for Accounts](#adminguide-networking_and_traffic)
+        - Dedicating IP Address Ranges to an Account
+        - Dedicating VLAN Ranges to an Account
+      - [Configuring Multiple IP Addresses on a Single NIC](#adminguide-networking_and_traffic)
+        - Use Cases
+        - Guidelines
+        - Assigning Additional IPs to an instance
+        - Port Forwarding and StaticNAT Services Changes
+      - [About Multiple IP Ranges](#adminguide-networking_and_traffic)
+      - [About Elastic IPs](#adminguide-networking_and_traffic)
+      - [Portable IPs](#adminguide-networking_and_traffic)
+        - About Portable IP
+        - Configuring Portable IPs
+        - Acquiring a Portable IP
+        - Transferring Portable IP
+      - [Multiple Subnets in Shared Network](#adminguide-networking_and_traffic)
+        - Prerequisites and Guidelines
+        - Adding Multiple Subnets to a Shared Network
+      - [Isolation in Advanced Zone Using Private VLANs](#adminguide-networking_and_traffic)
+        - About PVLANs (Secondary VLANs)
+        - Supported Secondary VLAN types
+        - Prerequisites
+        - Creating a PVLAN-Enabled Network
+      - [Security Groups](#adminguide-networking_and_traffic)
+        - About Security Groups
+        - Adding a Security Group
+        - Security Groups in Advanced Zones (KVM Only)
+        - Enabling Security Groups
+        - Adding Ingress and Egress Rules to a Security Group
+      - [External Firewalls and Load Balancers](#adminguide-networking_and_traffic)
+        - About Using a NetScaler Load Balancer
+        - Configuring SNMP Community String on a RHEL Server
+        - Initial Setup of External Firewalls and Load Balancers
+        - Ongoing Configuration of External Firewalls and Load Balancers
+        - Load Balancer Rules
+        - Configuring SSL Certificate for Load Balancer Rules
+        - Configuring AutoScale
+      - [Global Server Load Balancing Support](#adminguide-networking_and_traffic)
+        - About Global Server Load Balancing
+        - Configuring GSLB
+        - Known Limitation
+      - [Guest IP Ranges](#adminguide-networking_and_traffic)
+      - [Acquiring a New IP Address](#adminguide-networking_and_traffic)
+      - [Releasing an IP Address](#adminguide-networking_and_traffic)
+      - [Reserving a Public IP Address](#adminguide-networking_and_traffic)
+      - [Releasing a Reserved Public IP Address](#adminguide-networking_and_traffic)
+      - [Static NAT](#adminguide-networking_and_traffic)
+        - Enabling or Disabling Static NAT
+      - [IP Forwarding and Firewalling](#adminguide-networking_and_traffic)
+        - Firewall Rules
+        - Egress Firewall Rules in an Advanced Zone
+        - Port Forwarding
+      - [IP Load Balancing](#adminguide-networking_and_traffic)
+      - [DNS and DHCP](#adminguide-networking_and_traffic)
+      - [Remote Access VPN](#adminguide-networking_and_traffic)
+        - Configuring Remote Access VPN
+        - Configuring Remote Access VPN in VPC
+      - [Limitations of Remote Access VPN](#adminguide-networking_and_traffic)
+        - Setting Up a Site-to-Site VPN Connection
+      - [About Inter-VLAN Routing (nTier Apps)](#adminguide-networking_and_traffic)
+      - [Configuring a Virtual Private Cloud](#adminguide-networking_and_traffic)
+        - About Virtual Private Clouds
+        - Adding a Virtual Private Cloud
+        - Adding Network Tiers
+        - Configuring Network Access Control List
+        - Adding a Private Gateway to a VPC
+        - Deploying Instances to the Tier
+        - Deploying Instances to VPC Tier and Shared Networks
+        - Acquiring a New IP Address for a VPC
+        - Releasing an IP Address Allotted to a VPC
+        - Enabling or Disabling Static NAT on a VPC
+        - Adding Load Balancing Rules on a VPC
+        - Adding a Port Forwarding Rule on a VPC
+        - Removing Tiers
+        - Editing, Restarting, and Removing a Virtual Private Cloud
+        - Working with Domain VPCs
+      - [Persistent Networks](#adminguide-networking_and_traffic)
+        - Persistent Network Considerations
+        - Creating a Persistent Guest Network
+      - [Setup a Palo Alto Networks Firewall](#adminguide-networking_and_traffic)
+        - Functionality Provided
+        - Initial Palo Alto Networks Firewall Configuration
+        - Setup the Palo Alto Networks Firewall in CloudStack
+        - Additional Features
+        - Limitations
+      - [Using Remote Access VPN](#adminguide-networking-using_remote_access)
+        - Mac OSX
+        - Microsoft Windows 8
+      - [VNF Templates and Appliances](#adminguide-networking-vnf_templates_appliances)
+        - Adding a VNF template from an URL
+        - Updating a VM template to VNF template
+        - Updating the VNF settings of a VNF template
+        - Deploying VNF appliances
+    - [Managing the Cloud](#adminguide)
+      - [Using Tags to Organize Resources in the Cloud](#adminguide-management)
+      - [Using Comments on the Resources in the Cloud](#adminguide-management)
+      - [Reporting CPU Sockets](#adminguide-management)
+      - [Changing the Database Configuration](#adminguide-management)
+      - [Changing the Database Password](#adminguide-management)
+      - [File encryption type](#adminguide-management)
+      - [Administrator Alerts](#adminguide-management)
+        - Sending Alerts to External SNMP and Syslog Managers
+      - [Customizing the Network Domain Name](#adminguide-management)
+      - [Managing log files](#adminguide-management)
+      - [Stopping and Restarting the Management Server](#adminguide-management)
+      - [Management Server Statistics and Peers](#adminguide-management)
+        - Global settings for management servers
+    - [System Reliability and Availability](#adminguide)
+      - [HA for Management Server](#adminguide-reliability)
+      - [Management Server Load Balancing](#adminguide-reliability)
+      - [Multiple Management Servers Support on agents](#adminguide-reliability)
+      - [HA-Enabled Instances](#adminguide-reliability)
+      - [Dedicated HA Hosts](#adminguide-reliability)
+      - [HA-Enabled Hosts](#adminguide-reliability)
+      - [Primary Storage Outage and Data Loss](#adminguide-reliability)
+      - [Secondary Storage Outage and Data Loss](#adminguide-reliability)
+      - [Database High Availability](#adminguide-reliability)
+        - How to Set Up Database Replication
+        - Configuring Database High Availability
+        - Limitations on Database High Availability
+    - [Tuning](#adminguide)
+      - [Tuning](#adminguide-tuning)
+        - Performance Monitoring
+        - Increase Management Server Maximum Memory
+        - Set Database Buffer Pool Size
+        - Selecting Database Connection Pool Library
+        - Monitor the Database Load
+        - Set and Monitor Total Instance Limits per Host
+        - Configure XenServer dom0 Memory
+        - Purging Expunged Resources
+    - [Events and Troubleshooting](#adminguide)
+      - [Event Notification](#adminguide-events)
+        - Event Logs
+        - [Notification](#adminguide-events)
+        - Standard Events
+        - Long Running Job Events
+        - Event Log Queries
+        - Deleting and Archiving Events and Alerts
+        - Webhooks
+      - [TroubleShooting](#adminguide-troubleshooting)
+        - Working with Server Logs
+        - Data Loss on Exported Primary Storage
+        - Recovering a Lost Virtual Router
+        - Maintenance mode not working on vCenter
+        - Unable to deploy Instances from uploaded vSphere Template
+        - Unable to power on Instance on VMware
+        - Load balancer rules fail after changing network offering
+        - Troubleshooting Internet Traffic
+    - [Extensions](#adminguide)
+      - [Extensions](#adminguide-extensions)
+        - Overview
+        - Configuration
+        - Path and Availabilty
+        - Payload
+        - Orchestrator Extension
+        - Custom Actions
+      - [In-built Orchestrator Extensions](#adminguide-extensions)
+        - Proxmox
+        - Hyper-V
+        - MaaS
+        - Configuring Networking and additional details
+      - [Limitations](#adminguide-extensions)
+      - [Troubleshooting Extensions](#adminguide-extensions)
+        - Validate the Extension Path
+        - Verify Payload Handling
+        - Refer to Base Extension Scripts
+        - Check Logs for Errors
+      - [Writing Extensions for CloudStack](#adminguide-extensions)
+        - Create a New Extension
+        - Extension Structure
+        - Input Format (Payload)
+        - Output Format
+        - Action Lifecycle
+        - Console Access for Instances with Orchestrator Extensions
+        - Custom Actions
+        - Best Practices
+        - Extension Examples
+    - [Best Practices](#adminguide)
+      - [Best Practices](#adminguide-best_practices)
+  - [Developers Guide](#developersguide)
+    - [CloudStack Installation from GIT repo for Developers](#developersguide-developer_guide)
+      - [Prerequisites](#developersguide-developer_guide)
+        - Example Ubuntu
+      - [Installing CloudStack from Source](#developersguide-developer_guide)
+      - [Using the Simulator](#developersguide-developer_guide)
+      - [Using Appliance for development](#developersguide-developer_guide)
+      - [Building Packages](#developersguide-developer_guide)
+      - [The CloudStack API](#developersguide-developer_guide)
+      - [Conclusions](#developersguide-developer_guide)
+    - [Programmer Guide](#developersguide-dev)
+      - [The CloudStack API](#developersguide-dev)
+        - Getting Started
+        - Roles
+        - API Reference Documentation
+        - Making API Requests
+        - Signing API Requests
+        - How to sign an API call with Python
+        - Enabling API Call Expiration
+        - Limiting the Rate of API Requests
+        - Configuring the API Request Rate
+        - Limitations on API Throttling
+        - API Responses
+        - Maximum Result Pages Returned
+        - Error Handling
+        - Asynchronous Commands
+        - Job Status
+        - Example
+      - [Event Types](#developersguide-dev)
+      - [Time Zones](#developersguide-dev)
+    - [Plugins](#developersguide-plugins)
+      - [Storage Plugins](#developersguide-plugins)
+        - Overview of How to Write a Storage Plugin
+        - Implementing DataStoreDriver
+        - Implementing DataStoreLifecycle
+        - Implementing DataStoreProvider
+        - Implementing VMSnapshotStrategy
+        - Place the .jar File in the Right Directory
+        - Edit Configuration Files
+        - Minimum Required Interfaces
+    - [Allocators](#developersguide-alloc)
+      - [Implementing a custom HostAllocator](#developersguide-alloc)
+        - HostAllocator Interface
+      - [Implementing a custom StoragePoolAllocator](#developersguide-alloc)
+        - StoragePoolAllocator Interface
+    - [Deploying CloudStack with Ansible](#developersguide-ansible)
+      - [What is Ansible](#developersguide-ansible)
+      - [There’s already Chef and Puppet, so what’s the fuss about Ansible?](#developersguide-ansible)
+      - [So let’s see something](#developersguide-ansible)
+      - [Installing Ansible](#developersguide-ansible)
+      - [Playbooks](#developersguide-ansible)
+      - [Modules](#developersguide-ansible)
+      - [Planning](#developersguide-ansible)
+      - [MySQL](#developersguide-ansible)
+      - [CloudStack Management server service](#developersguide-ansible)
+      - [System VM Templates:](#developersguide-ansible)
+      - [Bringing it all together](#developersguide-ansible)
+      - [How is this example different from a production deployment?](#developersguide-ansible)
+      - [Acknowledgements](#developersguide-ansible)
+    - [Getting Help](#developersguide-get_help)
+      - [Documentation Available](#developersguide-get_help)
+      - [Books](#developersguide-get_help)
+      - [Support](#developersguide-get_help)
+  - [Plugins Guide](#plugins)
+    - [The Cloudian Connector Plugin](#plugins-cloudian-connector)
+      - [Introduction to the Cloudian Connector Plugin](#plugins-cloudian-connector)
+        - Compatibility
+      - [Connector Overview](#plugins-cloudian-connector)
+        - Single-Sign-On Integration
+        - User Mapping and Provisioning/De-provisioning
+        - Special Admin User Mapping
+        - DNS Resolution Requirements
+      - [Configuring the Cloudian Connector](#plugins-cloudian-connector)
+        - Prerequisites
+        - Connector Configuration
+        - Enabling the Cloudian Connector
+        - Troubleshooting
+      - [Cloudian as CloudStack Secondary Storage](#plugins-cloudian-connector)
+        - NFS Secondary Storage Staging Server Requirement
+        - DNS Name Resolution Requirement
+      - [Adding Cloudian as CloudStack Secondary Storage](#plugins-cloudian-connector)
+        - Setup a Cloudian User and Bucket for Secondary Storage
+        - Up Access to your S3 Network from Secondary Storage
+        - Add an NFS Secondary Storage Staging Server
+        - Attach Cloudian as Secondary Storage
+      - [Revision History](#plugins-cloudian-connector)
+    - [The Nicira NVP Plugin](#plugins-nicira-plugin)
+      - [Introduction to the Nicira NVP Plugin](#plugins-nicira-plugin)
+        - Features of the Nicira NVP Plugin
+      - [Configuring the Nicira NVP Plugin](#plugins-nicira-plugin)
+        - Prerequisites
+        - Zone Configuration
+        - Enabling the service provider
+        - Device Management
+        - Network Offerings
+      - [Using the Nicira NVP plugin with VPC](#plugins-nicira-plugin)
+        - Supported VPC features
+        - VPC Offering with Nicira NVP
+        - VPC Network Offerings
+      - [Troubleshooting the Nicira NVP Plugin](#plugins-nicira-plugin)
+        - UUID References
+        - Database tables
+      - [Revision History](#plugins-nicira-plugin)
+    - [The VMware NSX Plugin](#plugins-nsx-plugin)
+      - [Introduction](#plugins-nsx-plugin)
+      - [Supported Versions](#plugins-nsx-plugin)
+      - [Configuration](#plugins-nsx-plugin)
+        - Prerequisites
+        - Zone creation
+        - VPC creation on NSX
+        - VPC Tier creation on NSX
+        - VPC network ACL creation
+        - VPC tier Implementation
+        - CKS on NSX
+        - Additional Notes
+    - [The Netris Plugin](#plugins-netris-plugin)
+      - [Introduction](#plugins-netris-plugin)
+      - [Supported Versions](#plugins-netris-plugin)
+      - [Configuration](#plugins-netris-plugin)
+        - Prerequisites
+        - Zone creation
+        - VPC creation on Netris
+        - VPC Tier creation on Netris
+        - Supported VPC Services
+    - [The VXLAN Plugin](#plugins-vxlan)
+      - [General](#plugins-vxlan)
+      - [System Requirements / Networking for VXLAN](#plugins-vxlan)
+        - MTU size
+      - [VXLAN using Multicast](#plugins-vxlan)
+        - Important note on max number of multicast groups
+      - [VXLAN using EVPN](#plugins-vxlan)
+        - EVPN Bash script
+        - BGP routing daemon
+        - BGP and EVPN in the upstream network
+      - [Setup zone using VXLAN](#plugins-vxlan)
+        - Configure the physical Network
+        - Configure the guest traffic
+    - [The OVS Plugin](#plugins-ovs-plugin)
+      - [Introduction to the OVS Plugin](#plugins-ovs-plugin)
+        - Features of the OVS Plugin
+      - [Configuring the OVS Plugin](#plugins-ovs-plugin)
+        - Prerequisites
+        - Zone Configuration
+        - Agent Configuration
+        - Enabling the service provider
+        - Network Offerings
+      - [Using the OVS plugin with VPC](#plugins-ovs-plugin)
+      - [DPDK Support](#plugins-ovs-plugin)
+        - Agent configuration
+        - Additional Instance configurations
+        - Additional configurations to enable DPDK on Instances
+        - DPDK vHost User mode selection
+        - Applying additional configurations via service offerings
+        - DPDK Instances live migrations
+        - DPDK ports
+      - [Revision History](#plugins-ovs-plugin)
+    - [IPv6 Support in CloudStack](#plugins-ipv6)
+      - [Shared network](#plugins-ipv6)
+        - Prerequisites and Guidelines
+        - Limitations
+        - Guest Instance Configuration for DHCPv6
+      - [Isolated network and VPC Network Tier](#plugins-ipv6)
+        - Prerequisites and Guidelines
+        - Adding a Public IPv6 Range
+        - Adding Guest IPv6 Prefix
+        - Adding Network or VPC Offering with IPv6 Support
+        - Adding Upstream Route
+        - IPv6 Firewall
+        - IPv6 ACL
+    - [Quota Plugin](#plugins-quota)
+      - [Enabling the Quota Service](#plugins-quota)
+      - [Quota Tariff](#plugins-quota)
+      - [Quota Credits](#plugins-quota)
+      - [Quota Balance](#plugins-quota)
+      - [Quota Statement](#plugins-quota)
+      - [Quota Monthly Statement](#plugins-quota)
+      - [Quota Alert Management](#plugins-quota)
+    - [CloudStack Kubernetes Service](#plugins-cloudstack-kubernetes-service)
+      - [Enabling the Kubernetes Service](#plugins-cloudstack-kubernetes-service)
+      - [Kubernetes Supported Versions](#plugins-cloudstack-kubernetes-service)
+        - Working with Kubernetes supported version
+      - [Kubernetes clusters](#plugins-cloudstack-kubernetes-service)
+        - Managing Kubernetes clusters
+        - Working with Kubernetes cluster
+      - [Flexible Kubernetes Clusters](#plugins-cloudstack-kubernetes-service)
+        - Build a custom template to use for Kubernetes clusters nodes
+        - Registering a custom template for Kubernetes cluster nodes
+        - Separate etcd nodes from control nodes
+        - Add an external VM Instance as a worker node to a Kubernetes cluster
+        - Removing an external worker node from a Kubernetes cluster
+        - Dedicate specific hosts/clusters to a specific domain for CKS cluster deployment
+        - Use diverse CNI plugins (Calico, Cilium, etc)
+    - [The CloudStack Kubernetes Provider](#plugins-cloudstack-kubernetes-provider)
+      - [Introduction](#plugins-cloudstack-kubernetes-provider)
+      - [Deployment](#plugins-cloudstack-kubernetes-provider)
+      - [Usage](#plugins-cloudstack-kubernetes-provider)
+    - [CloudStack CSI Driver](#plugins-cloudstack-csi-driver)
+      - [Features](#plugins-cloudstack-csi-driver)
+      - [Advanced Storage Features](#plugins-cloudstack-csi-driver)
+      - [Core Components](#plugins-cloudstack-csi-driver)
+        - CSI integration with CKS
+  - [Release Notes](#releasenotes)
+    - [What’s New in 4.22.0.0](#releasenotes-about)
+      - [Known Issues](#releasenotes-about)
+    - [Changes in 4.22.0.0 since 4.21.0.0](#releasenotes-changes)
+    - [Changes in 4.22.0.0 since 4.20.1.0](#releasenotes-changes)
+    - [Changes in 4.22.0.0 since 4.20.0.0](#releasenotes-changes)
+    - [Changes in 4.22.0.0 since 4.19.1.0](#releasenotes-changes)
+    - [Compatibility Matrix](#releasenotes-compat)
+      - [Supported OS Versions for Management Server](#releasenotes-compat)
+        - Software Requirements
+      - [Supported Hypervisor Versions](#releasenotes-compat)
+      - [Supported External Devices](#releasenotes-compat)
+      - [Supported Browsers](#releasenotes-compat)
+      - [Notice Of Management OSes and Hypervisors to be Deprecated](#releasenotes-compat)
+    - [API Changes Introduced in 4.22.0.0](#releasenotes-api-changes)
+      - [Parameters Changed API Commands](#releasenotes-api-changes)
+- Other Documentation:
+  - [API Documentation](http://cloudstack.apache.org/api.html)
+  - [Apache CloudStack Wiki](https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home)
+  - [Apache CloudStack web site](http://cloudstack.apache.org/)
+  - [Apache CloudStack Source Code](http://cloudstack.apache.org/downloads.html)
+  - [Apache CloudStack on GitHub](https://github.com/apache/cloudstack)
+  - [Apache CloudStack Documentation on GitHub](https://github.com/apache/cloudstack-documentation)
+- Other pages
+  - [Welcome to Apache CloudStack’s Documentation ](#index)

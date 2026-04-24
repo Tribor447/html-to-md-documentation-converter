@@ -1,0 +1,604 @@
+- title: Content
+  kind: category
+  children:
+  - title: Installation of airflowctl
+    kind: link
+    source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/index.html
+    anchor: installation
+    virtual_path: docs/installation/index.md
+    children:
+    - title: Prerequisites
+      kind: category
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/prerequisites.html
+      anchor: installation-prerequisites
+      virtual_path: docs/installation/prerequisites.md
+      children:
+      - title: Keyring Backend [Recommended]
+        kind: category
+        children:
+        - title: Third-Party Backends
+          kind: category
+    - title: Python Version Compatibility
+      kind: category
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/prerequisites.html
+      anchor: installation-prerequisites
+      virtual_path: docs/installation/prerequisites.md
+    - title: Installing from sources
+      kind: link
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/installing-from-sources.html
+      anchor: installation-installing-from-sources
+      virtual_path: docs/installation/installing-from-sources.md
+      children:
+      - title: Released packages
+        kind: category
+      - title: Release integrity
+        kind: category
+      - title: Verifying PyPI releases
+        kind: category
+    - title: Installing from PyPI
+      kind: link
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/installing-from-pypi.html
+      anchor: installation-installing-from-pypi
+      virtual_path: docs/installation/installing-from-pypi.md
+      children:
+      - title: Installation tools
+        kind: category
+    - title: Using released sources
+      kind: link
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/index.html
+      anchor: installation
+      virtual_path: docs/installation/index.md
+    - title: Using PyPI
+      kind: link
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/index.html
+      anchor: installation
+      virtual_path: docs/installation/index.md
+  - title: How-to Guides
+    kind: link
+    source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/howto/index.html
+    anchor: howto
+    virtual_path: docs/howto/index.md
+    children:
+    - title: How to use airflowctl
+      kind: category
+      children:
+      - title: Important Note
+        kind: category
+      - title: Datetime Usage
+        kind: category
+      - title: Login
+        kind: category
+        children:
+        - title: What is authentication for airflowctl ?
+          kind: category
+        - title: Parameter Details for airflowctl auth login
+          kind: category
+      - title: More Usage and Help Pictures
+        kind: category
+    - title: All Available Group Command References
+      kind: category
+      children:
+      - title: Assets
+        kind: category
+      - title: Auth
+        kind: category
+      - title: Backfill
+        kind: category
+      - title: Config
+        kind: category
+      - title: Connections
+        kind: category
+      - title: Dags
+        kind: category
+      - title: Dag Runs
+        kind: category
+      - title: Jobs
+        kind: category
+      - title: Pools
+        kind: category
+      - title: Providers
+        kind: category
+      - title: Variables
+        kind: category
+      - title: Version
+        kind: category
+  - title: Security
+    kind: link
+    source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/security.html
+    anchor: security
+    virtual_path: docs/security.md
+  - title: Release Notes
+    kind: link
+    source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/release_notes.html
+- title: Usage
+  kind: category
+  children:
+  - title: Quick Start
+    kind: link
+    source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/start.html
+    anchor: start
+    virtual_path: docs/start.md
+  - title: References
+    kind: category
+    source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/cli-and-env-variables-ref.html
+    anchor: cli-and-env-variables-ref
+    virtual_path: docs/cli-and-env-variables-ref.md
+    children:
+    - title: CLI
+      kind: category
+      children:
+      - title: Positional Arguments
+        kind: category
+      - title: Sub-commands
+        kind: category
+        children:
+        - title: assets
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: create-event
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: delete-dag-queued-events
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: delete-queued-event
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: delete-queued-events
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get-by-alias
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get-dag-queued-event
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get-dag-queued-events
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get-queued-events
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: list
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: list-by-alias
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: materialize
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+        - title: auth
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: list-envs
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: login
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: token
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+        - title: backfill
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: cancel
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: create
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: create-dry-run
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: list
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: pause
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: unpause
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+        - title: config
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: get
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: lint
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: list
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+        - title: connections
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: create
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: create-defaults
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: delete
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: import
+              kind: category
+              children:
+              - title: Positional Arguments
+                kind: category
+              - title: Named Arguments
+                kind: category
+            - title: list
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: test
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: update
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+        - title: dagrun
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: get
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: list
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+        - title: dags
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: delete
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get-details
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get-import-error
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get-stats
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get-tags
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get-version
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: list
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: list-import-errors
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: list-version
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: list-warning
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: pause
+              kind: category
+              children:
+              - title: Positional Arguments
+                kind: category
+              - title: Named Arguments
+                kind: category
+            - title: trigger
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: unpause
+              kind: category
+              children:
+              - title: Positional Arguments
+                kind: category
+              - title: Named Arguments
+                kind: category
+            - title: update
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+        - title: jobs
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: list
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+        - title: pools
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: create
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: delete
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: export
+              kind: category
+              children:
+              - title: Positional Arguments
+                kind: category
+              - title: Named Arguments
+                kind: category
+            - title: get
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: import
+              kind: category
+              children:
+              - title: Positional Arguments
+                kind: category
+              - title: Named Arguments
+                kind: category
+            - title: list
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: update
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+        - title: providers
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: list
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+        - title: variables
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: create
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: delete
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: import
+              kind: category
+              children:
+              - title: Positional Arguments
+                kind: category
+              - title: Named Arguments
+                kind: category
+            - title: list
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: update
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+        - title: version
+          kind: category
+          children:
+          - title: Named Arguments
+            kind: category
+        - title: xcom
+          kind: category
+          children:
+          - title: Positional Arguments
+            kind: category
+          - title: Sub-commands
+            kind: category
+            children:
+            - title: add
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: delete
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: edit
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: get
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+            - title: list
+              kind: category
+              children:
+              - title: Named Arguments
+                kind: category
+    - title: Environment Variables
+      kind: category
+- title: Home
+  kind: link
+  source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/index.html
+  anchor: index
+  virtual_path: docs/index.md

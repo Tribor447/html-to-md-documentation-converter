@@ -1,0 +1,40 @@
+# Summary
+
+- About
+  - [Introduction](#index)
+  - [Mailing Lists](#mail-lists)
+  - [Project Team](#team)
+  - [Issue Tracking](#issue-management)
+- Downloads
+  - [Releases](#download)
+  - [Source Code](#scm)
+- Documentation
+  - [Overview](#documentation)
+  - [Release notes](https://ws.apache.org/axiom/release-notes/index.html)
+  - [Quick start samples](#quickstart-samples)
+  - [User guide](#userguide-userguide)
+  - [Developer guide](#devguide-devguide)
+  - [Design documents](#design)
+    - [OSGi integration](#design-osgi-integration)
+    - [Fluent builders](#design-fluent-builder)
+  - [Articles](#articles)
+  - [Javadocs](https://ws.apache.org/axiom/apidocs/index.html)
+  - [FAQ](#faq)
+  - [View Source](https://github.com/apache/ws-axiom)
+  - [Code Coverage](https://codecov.io/gh/apache/ws-axiom)
+- Modules
+  - [Implementations](#implementations)
+  - [Compatibility classes](#axiom-compat)
+  - [Google Truth extension for XML](#testing-xml-truth)
+- [Apache](http://www.apache.org/)
+  - [License](http://www.apache.org/licenses/LICENSE-2.0.html)
+  - [Sponsorship](http://www.apache.org/foundation/sponsorship.html)
+  - [Thanks](http://www.apache.org/foundation/thanks.html)
+  - [Security](http://www.apache.org/security/)
+  - [Privacy Policy](https://privacy.apache.org/policies/privacy-policy-public.html)
+- [Web Services](https://ws.apache.org/)
+- [Axiom](#index)
+- [Testing](#testing)
+- [Introduction](#testing-xml-truth)
+- |
+- Version: 2.0.0
