@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """Convert HTML documentation sites into a Markdown bundle."""
+
+
+
 from __future__ import annotations
 
 import argparse
@@ -30,32 +33,30 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 try:
-    from playwright.sync_api import Browser, sync_playwright                
+    from playwright.sync_api import Browser, sync_playwright 
     PLAYWRIGHT_AVAILABLE = True
 except Exception:
-    Browser = None                
-    sync_playwright = None                
+    Browser = None 
+    sync_playwright = None 
     PLAYWRIGHT_AVAILABLE = False
 
 
-                                                                         
-                                                                         
-                                                                         
 
 USER_AGENT = (
     "Mozilla/5.0 (compatible; docs2md/2.0; +https://example.invalid/bot)"
 )
-HTTP_TIMEOUT = 30
+HTTP_TIMEOUT = 20
 BROWSER_TIMEOUT_MS = 45000
-DEFAULT_MAX_ASSET_BYTES = 25 * 1024 * 1024         
-DEFAULT_CONCURRENCY = 6
+DEFAULT_MAX_ASSET_BYTES = 25 * 1024 * 1024 
+DEFAULT_CONCURRENCY = 12
+DEFAULT_ASSET_CONCURRENCY = 8
 DEFAULT_MAX_DEPTH = 20
 CACHE_SCHEMA_VERSION = 6
 
-                                               
+
 ADMONITION_STYLE = "callout"
 
-                                                                          
+
 
 GENERIC_CONTENT_SELECTORS = [
     "main article",
@@ -64,12 +65,23 @@ GENERIC_CONTENT_SELECTORS = [
     "article.theme-doc-markdown",
     ".theme-doc-markdown",
     ".vp-doc",
+    ".VPDoc .vp-doc",
     ".VPDoc .content",
+    ".VPDoc .content-container",
     ".VPDoc",
     ".md-content__inner",
+    "article.bd-article",
+    ".bd-article",
+    ".bd-content",
+    "main#main-content",
+    "div.body",
     ".rst-content",
     ".documentwrapper .body",
     ".document",
+    "[data-testid='page.content']",
+    "[data-testid*='page-content' i]",
+    ".markdown-section",
+    ".gitbook-page",
     ".content",
     ".page-inner",
     ".page-content",
@@ -101,11 +113,20 @@ GENERIC_NAV_SELECTORS = [
     ".theme-doc-sidebar-container",
     ".menu.menu__list",
     ".VPSidebar",
+    ".VPSidebarNav",
+    ".VPNavScreenMenu",
     ".md-sidebar",
     "nav[data-md-level]",
     ".wy-menu.wy-menu-vertical",
     ".sphinxsidebar",
+    ".bd-sidebar-primary",
+    ".bd-sidebar",
+    "nav.bd-links",
+    ".globaltoc",
     ".toctree-wrapper",
+    "[data-testid*='sidebar' i]",
+    "[data-testid*='navigation' i]",
+    ".gitbook-navigation",
     "#leftColumn",
     "#navcolumn",
     ".book-menu",
@@ -114,19 +135,19 @@ GENERIC_NAV_SELECTORS = [
     "nav",
 ]
 
-                                                               
+
 PROFILE_HINTS = {
     "docusaurus": {
         "content": ["article.theme-doc-markdown", ".theme-doc-markdown", "main article"],
         "nav": [".theme-doc-sidebar-container", "aside[class*='docSidebar']", "nav.menu"],
     },
     "vitepress": {
-        "content": [".vp-doc", ".VPDoc", "main article"],
-        "nav": [".VPSidebar", "aside nav"],
+        "content": [".vp-doc", ".VPDoc .vp-doc", ".VPDoc .content-container", ".VPDoc", "main article"],
+        "nav": [".VPSidebar", ".VPSidebarNav", ".VPNavScreenMenu", "aside nav"],
     },
     "sphinx": {
-        "content": ["div[role='main']", ".rst-content", ".documentwrapper .body", ".document"],
-        "nav": [".wy-menu.wy-menu-vertical", ".sphinxsidebar", "nav[aria-label*='Navigation' i]"],
+        "content": ["article.bd-article", ".bd-article", "div[role='main']", ".rst-content", ".documentwrapper .body", "div.body", "main#main-content", ".document"],
+        "nav": [".wy-menu.wy-menu-vertical", ".sphinxsidebar", ".bd-sidebar-primary", ".bd-sidebar", "nav.bd-links", "nav[aria-label*='Navigation' i]", "nav[aria-label*='Section Navigation' i]"],
     },
     "mkdocs": {
         "content": [".md-content__inner", "main article"],
@@ -137,12 +158,12 @@ PROFILE_HINTS = {
         "nav": ["#navcolumn", "#leftColumn"],
     },
     "book": {
-        "content": [".book-page", ".book-post", "main article"],
-        "nav": [".book-menu", ".book-menu-content", "aside nav"],
+        "content": ["[data-testid='page.content']", "[data-testid*='page-content' i]", ".markdown-section", ".gitbook-page", ".book-page", ".book-post", ".page-inner", "main article"],
+        "nav": ["[data-testid*='sidebar' i]", "[data-testid*='navigation' i]", ".gitbook-navigation", ".book-menu", ".book-menu-content", "aside nav", "nav[role='navigation']"],
     },
 }
 
-                                                                          
+
 
 NOISE_SELECTORS = [
     "script", "style", "noscript", "wbr", "template",
@@ -178,7 +199,7 @@ NOISE_SELECTORS = [
     ".clear",
 ]
 
-                                                            
+
 RAW_HTML_BLOCK_TAGS = {"iframe", "video", "audio", "svg", "details", "math"}
 
 DOC_PAGE_EXTENSIONS = {
@@ -194,9 +215,8 @@ ASSET_EXTENSIONS = {
     ".mp3", ".ogg", ".wav", ".woff", ".woff2", ".ttf", ".eot", ".otf",
 }
 
-                                                                      
-                                                                                
-                           
+
+
 SKIP_URL_PATTERNS = [
     re.compile(p, re.IGNORECASE) for p in [
         r"/search(?:/|\.html)?$",
@@ -234,18 +254,23 @@ SKIP_URL_PATTERNS = [
         r"/package-use\.html$",
         r"/help-doc\.html$",
         r"/constant-values\.html$",
+       
+       
+        r"/(?:dependencies|dependency-convergence|dependency-info|dependency-management)\.html$",
+        r"/(?:distribution-management|issue-management|license|licenses|mail-lists)\.html$",
+        r"/(?:plugin-management|plugins|project-info|project-modules|scm-usage|source-repository)\.html$",
+        r"/(?:team-list|summary|about)\.html$",
     ]
 ]
 
-                                                                        
-                                                                          
-                                                        
+
+
 SOFT_NOISE_PATH_TOKENS = {
     "javadoc", "apidocs", "api-docs", "reference-api", "api-reference",
     "coverage", "reports", "report",
 }
 
-                                                                          
+
 
 ZERO_WIDTH_RE = re.compile(r"[\u200b\u200c\u200d\u2060\ufeff]")
 SOFT_SPACE_RE = re.compile(r"[\u00a0\u202f\u2007\u2009\u200a]")
@@ -253,7 +278,7 @@ MOJIBAKE_HINT_RE = re.compile(r"(?:Ã.|Â.|â.|ï¼|ï½|ï»¿|ðŸ|â€|â€
 SKIP_TEXT_NORMALIZATION_TAGS = {"pre", "code", "script", "style", "textarea"}
 INLINE_BREAK_PARENT_TAGS = {"p", "td", "th", "li", "dd", "dt", "span", "div", "a", "strong", "em"}
 
-                                                                          
+
 
 ADMONITION_KIND_MAP = {
     "note": "note", "info": "info", "tip": "tip", "success": "tip",
@@ -279,18 +304,16 @@ DOC_LIKE_KEYWORDS = {
     "handbook", "cookbook",
 }
 
-                                                                             
-                                                                           
-                                            
+
+
 TRACKING_QUERY_PARAMS = {
     "fbclid", "gclid", "dclid", "msclkid", "yclid", "mc_cid", "mc_eid",
     "igshid", "spm", "ref_src", "ref_url", "source", "from", "campaign",
 }
 TRACKING_QUERY_PREFIXES = ("utm_",)
 
-                                                                              
-                                                                             
-                                                
+
+
 VERSION_QUERY_PARAMS = {
     "version", "ver", "v", "docs_version", "doc_version", "release",
     "branch", "tag", "rev", "revision", "ref", "lang", "language",
@@ -299,13 +322,13 @@ VERSION_QUERY_PARAMS = {
 
 SEARCH_QUERY_PARAMS = {"q", "query", "search", "keyword", "keywords", "term", "terms"}
 
-                                                                             
-                                                                          
-                                                                
+
+
 SIDEBAR_CONTEXT_RE = re.compile(
     r"(?:^|[-_\s])(?:sidebar|side-nav|sidenav|docs-sidebar|doc-sidebar|"
     r"docsidebar|toc-tree|toctree|navcolumn|leftcolumn|book-menu|wy-menu|"
-    r"md-sidebar|vpsidebar|theme-doc-sidebar|menu)(?:$|[-_\s])",
+    r"bd-sidebar|bd-links|md-sidebar|vpsidebar|vpsidebarnav|theme-doc-sidebar|"
+    r"gitbook-navigation|menu)(?:$|[-_\s])",
     re.I,
 )
 GLOBAL_CHROME_RE = re.compile(
@@ -324,8 +347,10 @@ CONTENT_CHROME_SELECTORS = [
     "header", "footer", "[role='banner']", "[role='contentinfo']",
     "#leftColumn", "#navcolumn", "#sidebar", "#sideNav", "#sidenav",
     ".theme-doc-sidebar-container", ".docSidebar", "[class*='docSidebar']",
-    ".VPSidebar", ".vp-sidebar", ".md-sidebar", ".wy-nav-side",
-    ".sphinxsidebar", ".book-menu", ".book-menu-content",
+    ".VPSidebar", ".VPSidebarNav", ".vp-sidebar", ".md-sidebar", ".wy-nav-side",
+    ".sphinxsidebar", ".bd-sidebar", ".bd-sidebar-primary", "nav.bd-links",
+    ".book-menu", ".book-menu-content", ".gitbook-navigation",
+    "[data-testid*='sidebar' i]", "[data-testid*='navigation' i]",
     "aside[class*='sidebar' i]", "div[class*='sidebar' i]",
     "nav[class*='sidebar' i]", "nav[aria-label*='sidebar' i]",
     "nav[aria-label*='navigation' i]",
@@ -344,16 +369,63 @@ GLOBAL_NAV_TITLE_HINTS = {
 }
 
 
-                                                                         
-                                                                         
-                                                                         
+
+GENERIC_DOC_LINK_TEXT_RE = re.compile(
+    r"\b(?:"
+    r"docs?|documentation|manual|guide|guides|tutorial|tutorials|reference|"
+    r"getting\s+started|quick\s+start|overview|introduction|install(?:ation)?|"
+    r"setup|configure|configuration|usage|examples?|concepts?|how\s*to|faq|"
+    r"api|cli|sdk|developer|developers?|user\s+guide|admin\s+guide|"
+    r"next|previous|prev|continue|read\s+more"
+    r")\b",
+    re.I,
+)
+
+GENERIC_BAD_LINK_TEXT_RE = re.compile(
+    r"\b(?:"
+    r"blog|news|press|release\s+notes?|changelog|download|downloads|pricing|"
+    r"login|log\s*in|sign\s*in|signup|sign\s*up|contact|careers?|jobs?|"
+    r"privacy|terms|license|licenses|github|gitlab|twitter|x\.com|facebook|"
+    r"linkedin|youtube|discord|slack|rss|atom|feed|subscribe"
+    r")\b",
+    re.I,
+)
+
+GENERIC_SKIP_PATH_TOKENS = {
+    "blog", "blogs", "news", "press", "releases", "release-notes",
+    "changelog", "changes", "download", "downloads", "pricing", "plans",
+    "login", "signin", "sign-in", "signup", "sign-up", "account",
+    "contact", "contacts", "about", "company", "careers", "jobs",
+    "privacy", "terms", "legal", "license", "licenses", "security",
+    "events", "community", "communities", "forum", "forums",
+    "search", "tags", "tag", "category", "categories", "author", "authors",
+}
+
+GENERIC_CONTENT_CLASS_RE = re.compile(
+    r"(?:^|[-_\s])(?:"
+    r"content|main|article|post|page|body|entry|markdown|md|prose|docs?|"
+    r"documentation|manual|guide|chapter|section|container|wrapper"
+    r")(?:$|[-_\s])",
+    re.I,
+)
+
+GENERIC_CHROME_CLASS_RE = re.compile(
+    r"(?:^|[-_\s])(?:"
+    r"nav|navbar|menu|sidebar|aside|toc|breadcrumb|header|footer|"
+    r"masthead|hero|banner|search|toolbar|cookie|modal|popup|drawer|"
+    r"social|share|pagination|pager|comments?"
+    r")(?:$|[-_\s])",
+    re.I,
+)
+
+
 
 @dataclass
 class NavNode:
     title: str
     href: Optional[str] = None
     children: List["NavNode"] = field(default_factory=list)
-    kind: str = "link"                   
+    kind: str = "link" 
 
     def to_dict(
         self,
@@ -363,10 +435,13 @@ class NavNode:
         payload: Dict[str, object] = {"title": self.title, "kind": self.kind}
         if self.href:
             payload["source_url"] = self.href
-            if self.href in url_to_anchor:
-                payload["anchor"] = url_to_anchor[self.href]
-            if self.href in url_to_virtual_path:
-                payload["virtual_path"] = url_to_virtual_path[self.href].as_posix()
+            base_url, fragment = split_stored_href(self.href)
+            if base_url:
+                anchor = url_to_anchor.get(base_url)
+                if anchor:
+                    payload["anchor"] = compose_heading_anchor(anchor, fragment) if fragment else anchor
+                if base_url in url_to_virtual_path:
+                    payload["virtual_path"] = url_to_virtual_path[base_url].as_posix()
         if self.children:
             payload["children"] = [
                 child.to_dict(url_to_anchor, url_to_virtual_path)
@@ -397,9 +472,6 @@ class FetchResult:
     from_cache: bool = False
 
 
-                                                                         
-                                                                         
-                                                                         
 
 def dedupe_preserve_order(items: Iterable[str]) -> List[str]:
     out: List[str] = []
@@ -477,6 +549,9 @@ def clean_text(text: str) -> str:
 
 
 def normalize_query_string(query: str) -> str:
+
+
+
     if not query:
         return ""
     normalized: List[Tuple[str, str]] = []
@@ -516,6 +591,7 @@ def normalize_url(url: str, *, keep_query: bool = True) -> str:
 
 
 def scoped_query_params_from_url(url: str) -> List[Tuple[str, str]]:
+
     parts = urlsplit(url)
     scoped: List[Tuple[str, str]] = []
     for key, value in parse_qsl(parts.query, keep_blank_values=True):
@@ -526,6 +602,9 @@ def scoped_query_params_from_url(url: str) -> List[Tuple[str, str]]:
 
 
 def inherit_scoped_query(base_url: str, candidate_url: str) -> str:
+
+
+
     base = urlsplit(base_url)
     candidate = urlsplit(candidate_url)
     if candidate.query or base.netloc.lower() != candidate.netloc.lower():
@@ -549,11 +628,98 @@ def split_and_normalize(base_url: str, href: str) -> Tuple[str, str]:
     return normalize_url(abs_url), unquote(frag or "")
 
 
+def url_with_fragment(url: str, fragment: str = "") -> str:
+
+    url = normalize_url(url)
+    fragment = unquote(fragment or "").strip()
+    if not fragment:
+        return url
+    return f"{url}#{fragment}"
+
+
+def split_stored_href(href: Optional[str]) -> Tuple[Optional[str], str]:
+
+
+
+    if not href:
+        return None, ""
+    base, frag = urldefrag(str(href))
+    if not base:
+        return None, unquote(frag or "")
+    return normalize_url(base), unquote(frag or "")
+
+
+def nav_href_base(href: Optional[str]) -> Optional[str]:
+    return split_stored_href(href)[0]
+
+
+def url_equivalence_variants(url: str) -> Set[str]:
+
+
+
+    base, _frag = urldefrag(url)
+    try:
+        normalized = normalize_url(base)
+    except Exception:
+        return {base} if base else set()
+
+    parts = urlsplit(normalized)
+    scheme, netloc, query = parts.scheme, parts.netloc, parts.query
+    path = parts.path or "/"
+    variants: Set[str] = set()
+
+    def add(path_value: str) -> None:
+        if not path_value.startswith("/"):
+            path_value = "/" + path_value
+        variants.add(urlunsplit(SplitResult(
+            scheme=scheme, netloc=netloc, path=path_value or "/",
+            query=query, fragment="",
+        )))
+
+    add(path)
+
+    if path.endswith("/"):
+        stripped = path.rstrip("/") or "/"
+        add(stripped)
+        if path != "/":
+            add(path + "index.html")
+            add(path + "index.htm")
+    else:
+        suffix = Path(path).suffix.lower()
+        if path.endswith("/index.html") or path.endswith("/index.htm"):
+            parent = path.rsplit("/", 1)[0] + "/"
+            add(parent)
+            add(parent.rstrip("/") or "/")
+        elif suffix in {".html", ".htm"}:
+            stem = path[: -len(suffix)]
+            add(stem)
+            add(stem + "/")
+        elif suffix == "":
+            add(path + "/")
+            add(path + ".html")
+            add(path + ".htm")
+
+    return variants
+
+
+def urls_equivalent(url_a: str, url_b: str) -> bool:
+    if not url_a or not url_b:
+        return False
+    a_base, _ = split_stored_href(url_a)
+    b_base, _ = split_stored_href(url_b)
+    if not a_base or not b_base:
+        return False
+    return bool(url_equivalence_variants(a_base) & url_equivalence_variants(b_base))
+
+
 def absolutize(base_url: str, href: str) -> str:
     return urljoin(base_url, href)
 
 
 def repair_legacy_maven_javadoc_url(url: str, title: str = "") -> str:
+
+
+
     if not url:
         return url
     title_l = (title or "").casefold()
@@ -599,7 +765,7 @@ def looks_versionish(segment: str) -> bool:
     segment = unquote(str(segment)).strip().strip("/")
     if not segment:
         return False
-                                                                  
+   
     if Path(segment).suffix.lower() in DOC_PAGE_EXTENSIONS:
         segment = Path(segment).stem
     return bool(re.match(
@@ -652,6 +818,7 @@ def path_similarity(path_a: str, path_b: str) -> float:
 
 
 def path_segments_for_scope(path: str) -> List[str]:
+
     segs = [unquote(seg) for seg in path.strip("/").split("/") if seg]
     if segs and Path(segs[-1]).suffix.lower() in DOC_PAGE_EXTENSIONS:
         segs = segs[:-1]
@@ -659,6 +826,9 @@ def path_segments_for_scope(path: str) -> List[str]:
 
 
 def infer_version_scope_prefix(path: str, base_prefix: Optional[str] = None) -> Optional[str]:
+
+
+
     segs = path_segments_for_scope(path)
     if not segs:
         return None
@@ -667,22 +837,22 @@ def infer_version_scope_prefix(path: str, base_prefix: Optional[str] = None) -> 
     if not version_indices:
         return None
 
-                                                                    
-                                                                       
+   
+   
     strong_markers = DOC_LIKE_KEYWORDS | {"version", "versions", "release", "releases"}
     for i in version_indices:
         prev = segs[i - 1].lower() if i > 0 else ""
         if prev in strong_markers:
             return "/" + "/".join(segs[: i + 1]) + "/"
 
-                                                                               
-                                        
+   
+   
     base_parts = [p for p in (base_prefix or "").strip("/").split("/") if p]
     for i in reversed(version_indices):
         if base_parts and i < len(base_parts):
             return "/" + "/".join(segs[: i + 1]) + "/"
 
-                                                                              
+   
     i = version_indices[-1]
     return "/" + "/".join(segs[: i + 1]) + "/"
 
@@ -692,8 +862,8 @@ def clamp_prefix_to_version_scope(path: str, prefix: str) -> str:
     if not version_prefix:
         return ensure_trailing_slash(prefix)
     prefix = ensure_trailing_slash(prefix)
-                                                                              
-                                                                         
+   
+   
     if prefix == "/" or version_prefix.startswith(prefix):
         return version_prefix
     if prefix.startswith(version_prefix):
@@ -722,11 +892,9 @@ def query_looks_search_like(url: str) -> bool:
     return False
 
 
-                                                                         
-                                                                         
-                                                                         
 
 class RateLimiter:
+
 
     def __init__(self, min_interval: float) -> None:
         self.min_interval = max(0.0, min_interval)
@@ -749,6 +917,7 @@ class RateLimiter:
 
 class HttpCache:
 
+
     def __init__(self, root: Path, enabled: bool = True) -> None:
         self.root = root
         self.enabled = enabled
@@ -756,6 +925,7 @@ class HttpCache:
         self._index_path = root / "index.json"
         self._index: Dict[str, Dict[str, str]] = {}
         self._lock = threading.Lock()
+        self._dirty_writes = 0
         if enabled and self._index_path.exists():
             try:
                 self._index = json.loads(self._index_path.read_text(encoding="utf-8"))
@@ -799,6 +969,17 @@ class HttpCache:
             return
         with self._lock:
             self._index[key] = {"url": url, "final_url": final_url}
+            self._dirty_writes += 1
+           
+           
+           
+            if self._dirty_writes >= 25:
+                self._flush_locked()
+
+    def flush(self) -> None:
+        if not self.enabled:
+            return
+        with self._lock:
             self._flush_locked()
 
     def _flush_locked(self) -> None:
@@ -807,11 +988,13 @@ class HttpCache:
                 json.dumps(self._index, ensure_ascii=False, indent=2),
                 encoding="utf-8",
             )
+            self._dirty_writes = 0
         except Exception:
             pass
 
 
 class BrowserPool:
+
 
     def __init__(self, timeout_ms: int) -> None:
         self.timeout_ms = timeout_ms
@@ -865,12 +1048,12 @@ class BrowserPool:
 def build_session() -> requests.Session:
     session = requests.Session()
     retries = Retry(
-        total=5, connect=5, read=5, backoff_factor=1.0,
+        total=3, connect=3, read=3, backoff_factor=0.4,
         allowed_methods=frozenset(["GET", "HEAD"]),
         status_forcelist=[429, 500, 502, 503, 504],
         raise_on_status=False,
     )
-    adapter = HTTPAdapter(max_retries=retries, pool_connections=32, pool_maxsize=32)
+    adapter = HTTPAdapter(max_retries=retries, pool_connections=96, pool_maxsize=96)
     session.mount("http://", adapter)
     session.mount("https://", adapter)
     session.headers.update({"User-Agent": USER_AGENT})
@@ -878,6 +1061,7 @@ def build_session() -> requests.Session:
 
 
 class Fetcher:
+
 
     def __init__(
         self,
@@ -899,7 +1083,7 @@ class Fetcher:
         self._robots: Dict[str, urllib.robotparser.RobotFileParser] = {}
         self._robots_lock = threading.Lock()
 
-                                                                          
+   
 
     def _robots_for(self, url: str) -> Optional[urllib.robotparser.RobotFileParser]:
         if not self.respect_robots:
@@ -931,7 +1115,7 @@ class Fetcher:
         except Exception:
             return True
 
-                                                                         
+   
 
     def fetch_text(self, url: str) -> FetchResult:
         url = normalize_url(url)
@@ -967,7 +1151,7 @@ class Fetcher:
         self.cache.put(url, text, final_url)
         return FetchResult(text=text, final_url=final_url)
 
-                                                                         
+   
 
     def fetch_binary(self, url: str) -> Tuple[bytes, str, Optional[str]]:
         self.rate_limiter.wait(urlsplit(url).netloc)
@@ -1020,10 +1204,10 @@ def should_try_browser_render(text: str, url: Optional[str] = None) -> bool:
         if script_count >= 6:
             return True
 
-                                                                           
-                                                                         
-                                                                             
-                         
+   
+   
+   
+   
     if url and script_count >= 5:
         parts = urlsplit(url)
         if parts.netloc:
@@ -1059,11 +1243,9 @@ def browser_quality_score(text: str) -> int:
     return compute_content_score(root)
 
 
-                                                                         
-                                                                         
-                                                                         
 
 def detect_profile(soup: BeautifulSoup, url: str, hint: Optional[str] = None) -> str:
+
     if hint and hint != "generic":
         hard = detect_profile(soup, url, hint=None)
         if hard != "generic":
@@ -1080,16 +1262,26 @@ def detect_profile(soup: BeautifulSoup, url: str, hint: Optional[str] = None) ->
     if (
         html_attrs.get("data-readthedocs-tool") == "sphinx"
         or "writer-html5" in html_classes
-        or soup.select_one(".wy-menu.wy-menu-vertical, .rst-content")
+        or soup.select_one(".wy-menu.wy-menu-vertical, .rst-content, .bd-article, .bd-sidebar, nav.bd-links")
+        or any(
+            (meta.get("content") or "").lower().find("sphinx") >= 0
+            for meta in soup.find_all("meta")
+        )
     ):
         return "sphinx"
     if soup.select_one(".md-content__inner, nav[data-md-level], [data-md-component]"):
         return "mkdocs"
-    if soup.select_one(".vp-doc, .VPSidebar, .VPDoc"):
+    if soup.select_one(".vp-doc, .VPSidebar, .VPSidebarNav, .VPDoc") or soup.select_one("script[src*='/assets/'][type='module']") and "vitepress" in body_text:
         return "vitepress"
     if soup.select_one("#bodyColumn, #navcolumn, #leftColumn") or "built by maven" in body_text:
         return "maven"
-    if soup.select_one(".book-menu, .book-page, .gitbook-navigation, .gitbook-page"):
+    if (
+        soup.select_one(".book-menu, .book-page, .gitbook-navigation, .gitbook-page, .markdown-section, [data-testid='page.content'], [data-testid*='sidebar' i]")
+        or any(
+            "gitbook" in (meta.get("content") or "").lower()
+            for meta in soup.find_all("meta")
+        )
+    ):
         return "book"
     return "generic"
 
@@ -1102,12 +1294,17 @@ def profile_selectors(profile: str, kind: str) -> List[str]:
 
 
 def select_content_root(soup: BeautifulSoup, profile: str = "generic") -> Optional[Tag]:
+    if profile == "generic":
+        generic_root = select_generic_content_root(soup)
+        if generic_root is not None:
+            return generic_root
+
     best: Tuple[int, int, Optional[Tag]] = (-10**9, -10**9, None)
     seen: Set[int] = set()
 
-                                                                          
-                                                                           
-                                                                
+   
+   
+   
     preferred_selectors = PROFILE_HINTS.get(profile, {}).get("content", [])
     preferred: List[Tuple[int, int, Tag]] = []
     for rank, selector in enumerate(preferred_selectors):
@@ -1172,13 +1369,233 @@ def compute_content_score(node: Tag) -> int:
         score -= 1600
     score -= int(link_density * 900)
 
-                                                                          
-                      
+   
+   
     if link_count > 40 and paragraphs < 3 and code_blocks == 0 and tables < 2:
         score -= 3000
     if text_len < 120:
         score -= 1200
     return score
+
+
+def tag_depth(tag: Tag) -> int:
+    depth = 0
+    current = tag.parent
+    while isinstance(current, Tag):
+        depth += 1
+        current = current.parent
+    return depth
+
+
+def direct_text_len(tag: Tag) -> int:
+    pieces: List[str] = []
+    for child in tag.children:
+        if isinstance(child, NavigableString):
+            pieces.append(str(child))
+    return len(clean_text(" ".join(pieces)))
+
+
+def is_generic_chrome_candidate(tag: Tag) -> bool:
+    if tag.name in {"nav", "aside", "header", "footer", "form"}:
+        return True
+    role = str(tag.get("role", "")).lower()
+    if role in {"navigation", "banner", "contentinfo", "search", "complementary"}:
+        return True
+    attrs = " ".join([
+        tag.get("id", ""),
+        *tag.get("class", []),
+        tag.get("aria-label", ""),
+        tag.name or "",
+    ])
+    return bool(GENERIC_CHROME_CLASS_RE.search(attrs))
+
+
+def generic_content_candidate_score(node: Tag) -> int:
+    text = clean_text(node.get_text(" ", strip=True))
+    text_len = len(text)
+    if text_len < 10:
+        return -10**8
+
+    links = node.find_all("a", href=True)
+    link_text_len = sum(len(clean_text(a.get_text(" ", strip=True))) for a in links)
+    link_density = link_text_len / max(text_len, 1)
+    headings = len(node.find_all(re.compile(r"^h[1-6]$")))
+    paragraphs = len(node.find_all("p"))
+    code_blocks = len(node.find_all("pre"))
+    tables = len(node.find_all("table"))
+    list_count = len(node.find_all(["ul", "ol", "dl"]))
+
+    attrs = " ".join([node.get("id", ""), *node.get("class", []), node.name or ""])
+    score = compute_content_score(node)
+
+   
+    score += min(text_len, 12000)
+    score += paragraphs * 160
+    score += headings * 220
+    score += code_blocks * 260
+    score += tables * 120
+    score += min(list_count, 20) * 35
+
+    if node.name == "article":
+        score += 2200
+    elif node.name == "main":
+        score += 1800
+    elif str(node.get("role", "")).lower() == "main":
+        score += 1600
+
+    if GENERIC_CONTENT_CLASS_RE.search(attrs):
+        if re.search(r"(?:^|[-_\s])(?:container|wrapper)(?:$|[-_\s])", attrs, re.I):
+            score += 150
+        else:
+            score += 1000
+
+    direct_chrome_children = 0
+    for child in node.find_all(True, recursive=False):
+        if isinstance(child, Tag) and is_generic_chrome_candidate(child):
+            direct_chrome_children += 1
+    score -= direct_chrome_children * 900
+
+    if is_generic_chrome_candidate(node):
+        score -= 3200
+    try:
+        if is_inside_global_chrome(node):
+            score -= 2600
+        if is_sidebarish_tag(node):
+            score -= 2600
+        if is_toc_like_tag(node):
+            score -= 2200
+    except Exception:
+        pass
+
+   
+   
+   
+    score -= int(link_density * 2200)
+    if len(links) > 35 and paragraphs < 4 and code_blocks == 0:
+        score -= 4200
+    if link_density > 0.55 and paragraphs < 5:
+        score -= 3500
+
+   
+    score -= max(0, tag_depth(node) - 8) * 40
+    return score
+
+
+def iter_generic_content_candidates(soup: BeautifulSoup) -> List[Tag]:
+    candidates: List[Tag] = []
+    seen: Set[int] = set()
+
+    selectors = [
+        "main article", "article", "main", "[role='main']",
+        "[itemprop='articleBody']", "[itemprop='text']",
+        ".markdown-body", ".prose", ".post-content", ".entry-content",
+        ".article-content", ".page-content", ".content-body", ".docs-content",
+        ".documentation", ".manual", ".guide", ".chapter",
+        "[class*='content' i]", "[id*='content' i]",
+        "[class*='article' i]", "[id*='article' i]",
+        "[class*='docs' i]", "[id*='docs' i]",
+        "#main", "#content", "#contents", "#main-content", "#documentation",
+    ]
+    for selector in selectors:
+        for node in soup.select(selector):
+            if isinstance(node, Tag) and id(node) not in seen:
+                seen.add(id(node))
+                candidates.append(node)
+
+   
+   
+    for node in soup.find_all(["main", "article", "section", "div", "td"], limit=2500):
+        if not isinstance(node, Tag) or id(node) in seen:
+            continue
+        if node.name == "td" and str(node.get("id", "")).lower() not in {"bodycolumn", "content", "contentbox"}:
+            continue
+        text_len = len(clean_text(node.get_text(" ", strip=True)))
+        attrs = " ".join([node.get("id", ""), *node.get("class", []), node.name or ""])
+        min_text = 10 if GENERIC_CONTENT_CLASS_RE.search(attrs) or node.name in {"main", "article"} else 160
+        if text_len < min_text:
+            continue
+        if node.name not in {"main", "article"} and not GENERIC_CONTENT_CLASS_RE.search(attrs):
+           
+            if len(node.find_all("p")) < 2 and len(node.find_all(re.compile(r"^h[1-6]$"))) < 1 and len(node.find_all("pre")) < 1:
+                continue
+        if is_generic_chrome_candidate(node):
+            continue
+        seen.add(id(node))
+        candidates.append(node)
+
+    body = soup.body
+    if body is not None and id(body) not in seen:
+        candidates.append(body)
+
+    return candidates
+
+
+def tighten_generic_content_root(node: Tag, score: int) -> Tag:
+
+
+
+    current = node
+    current_score = score
+
+    while True:
+        best_child: Optional[Tag] = None
+        best_score = -10**9
+        for child in current.find_all(["main", "article", "section", "div", "td"], recursive=False):
+            if not isinstance(child, Tag):
+                continue
+            child_score = generic_content_candidate_score(child)
+            if child_score > best_score:
+                best_score = child_score
+                best_child = child
+
+        if best_child is None:
+            break
+
+        current_text = len(clean_text(current.get_text(" ", strip=True)))
+        child_text = len(clean_text(best_child.get_text(" ", strip=True)))
+        if child_text <= 0:
+            break
+
+       
+       
+        if best_score >= current_score + 350 or (
+            best_score >= int(current_score * 0.78)
+            and child_text >= int(current_text * 0.45)
+            and child_text < int(current_text * 0.92)
+        ):
+            current = best_child
+            current_score = best_score
+            continue
+        break
+
+    return current
+
+
+def select_generic_content_root(soup: BeautifulSoup) -> Optional[Tag]:
+    candidates = iter_generic_content_candidates(soup)
+    if not candidates:
+        return soup.find("main") or soup.find("article") or soup.body
+
+    best_node: Optional[Tag] = None
+    best_score = -10**9
+    best_tie = -10**9
+
+    for node in candidates:
+        score = generic_content_candidate_score(node)
+        text_len = len(clean_text(node.get_text(" ", strip=True)))
+       
+        tie = tag_depth(node) * 25 - text_len // 250
+        if node.name in {"article", "main"}:
+            tie += 500
+        if score > best_score or (score == best_score and tie > best_tie):
+            best_node = node
+            best_score = score
+            best_tie = tie
+
+    if best_node is None or best_score < -2000:
+        return soup.find("main") or soup.find("article") or soup.body
+
+    return tighten_generic_content_root(best_node, best_score)
 
 
 def tag_attr_signature(tag: Tag) -> str:
@@ -1250,6 +1667,7 @@ def is_toc_like_tag(tag: Tag) -> bool:
 
 
 def has_structured_nav_headings(tag: Tag) -> bool:
+
     direct_lists = [child for child in tag.children if isinstance(child, Tag) and child.name in {"ul", "ol"}]
     direct_headings = [
         child for child in tag.children
@@ -1262,7 +1680,7 @@ def has_structured_nav_headings(tag: Tag) -> bool:
         return True
     if len(direct_lists) >= 2:
         return True
-                                                          
+   
     shallow_headings = 0
     for child in tag.find_all(True, recursive=False):
         if child.name in {"ul", "ol"}:
@@ -1290,13 +1708,16 @@ def select_nav_root(
     current_url: Optional[str] = None,
     site_prefix: Optional[str] = None,
 ) -> Optional[Tag]:
+
+
+
     candidates: List[Tuple[int, int, int, int, Tag]] = []
     seen: Set[int] = set()
     selectors = profile_selectors(profile, "nav")
 
-                                                                             
-                                                                            
-                                                                        
+   
+   
+   
     broad_selectors = [
         "aside", "nav", "ul", "ol",
         "[id*='sidebar' i]", "[class*='sidebar' i]",
@@ -1304,8 +1725,10 @@ def select_nav_root(
         "[id*='side-nav' i]", "[class*='side-nav' i]",
         "[id*='navcolumn' i]", "[id*='leftColumn' i]",
         "[class*='toc-tree' i]", "[class*='toctree' i]",
-        "[class*='book-menu' i]", "[class*='wy-menu' i]",
-        "[class*='md-sidebar' i]", "[class*='VPSidebar' i]",
+        "[class*='book-menu' i]", "[class*='gitbook' i]", "[class*='wy-menu' i]",
+        "[class*='bd-sidebar' i]", "[class*='bd-links' i]",
+        "[class*='md-sidebar' i]", "[class*='VPSidebar' i]", "[class*='VPSidebarNav' i]",
+        "[data-testid*='sidebar' i]", "[data-testid*='navigation' i]",
         "[class*='menu__list' i]", "[class*='menu-list' i]",
     ]
 
@@ -1332,9 +1755,9 @@ def select_nav_root(
         for node in soup.select(selector):
             consider(node)
 
-                                                                           
-                                                                            
-                                             
+   
+   
+   
     for selector in broad_selectors:
         for node in soup.select(selector):
             consider(node)
@@ -1348,10 +1771,10 @@ def select_nav_root(
     best_node = best[4]
     best_score = best[0]
 
-                                                                              
-                                                                              
-                                                                        
-                                                                            
+   
+   
+   
+   
     if best_node.name in {"ul", "ol"}:
         for parent in best_node.parents:
             if not isinstance(parent, Tag) or parent.name in {"body", "html"}:
@@ -1374,10 +1797,10 @@ def select_nav_root(
     if is_sidebarish_tag(best_node) and has_structured_nav_headings(best_node):
         return best_node
 
-                                                                              
-                                                                               
-                                                                                 
-                                 
+   
+   
+   
+   
     if site_prefix and site_prefix != "/":
         best_scoped = 0
         best_depth = 0
@@ -1402,9 +1825,9 @@ def select_nav_root(
             if scoped >= max(6, best_scoped + 4) and depth >= best_depth and not is_inside_global_chrome(node):
                 return node
 
-                                                                             
-                                                                             
-                                                              
+   
+   
+   
     for score, sidebar_bonus, global_penalty, _neg_text_len, node in candidates[1:]:
         try:
             is_descendant = node in best_node.descendants
@@ -1451,7 +1874,7 @@ def compute_nav_score(
         internal_links.append(abs_url)
         if url_path_in_prefix(abs_url, site_prefix):
             scoped_links.append(abs_url)
-        if current_url is not None and abs_url == current_url:
+        if current_url is not None and urls_equivalent(abs_url, current_url):
             contains_current = True
 
     unique_internal = set(internal_links)
@@ -1471,7 +1894,7 @@ def compute_nav_score(
     sidebarish = is_sidebarish_tag(node)
     toc_like = is_toc_like_tag(node)
 
-                                                   
+   
     if unique_links < 2 and fragment_links >= 3:
         return -1
 
@@ -1508,35 +1931,218 @@ def compute_nav_score(
     if GLOBAL_CHROME_RE.search(attrs) or global_chrome:
         score -= 3200
 
-                                                                            
-                                                                                
+   
+   
     if re.search(r"footer|mega-?menu|site-?map|global-?nav|navbar|topbar", context):
         score -= 1600
 
     if content_root is not None:
         try:
-                                                                                
-                                                                               
-                                                    
+           
+           
+           
             if getattr(content_root, "name", None) != "body":
                 if node is content_root or node in content_root.descendants:
                     score -= 1500
         except Exception:
             pass
 
-                                                                         
+   
     text_len = len(text)
     if text_len > 6000 and site_prefix and site_prefix != "/" and scoped_count < max(3, unique_links // 2):
         score -= 1000
 
-                                                                                
-                          
+   
+   
     title_words = {clean_text(child.get_text(" ", strip=True)).lower() for child in node.find_all(["h1", "h2", "h3", "h4", "h5", "strong"], recursive=False)}
     if title_words & GLOBAL_NAV_TITLE_HINTS and not sidebarish:
         score -= 700
 
     return score
 
+
+
+def nav_internal_doc_link_count(
+    node: Optional[Tag],
+    domain: str,
+    base_url: str,
+    site_prefix: Optional[str],
+) -> int:
+    if node is None:
+        return 0
+    urls: Set[str] = set()
+    for a in node.select("a[href]"):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith(("#", "javascript:", "mailto:", "tel:")):
+            continue
+        abs_url = split_and_normalize(base_url, href)[0]
+        parts = urlsplit(abs_url)
+        if parts.netloc != domain:
+            continue
+        if not url_path_in_prefix(abs_url, site_prefix):
+            continue
+        if Path(parts.path).suffix.lower() not in DOC_PAGE_EXTENSIONS:
+            continue
+        if query_looks_search_like(abs_url):
+            continue
+        urls.add(abs_url)
+    return len(urls)
+
+
+def generic_nav_is_weak(
+    nav_root: Optional[Tag],
+    domain: str,
+    base_url: str,
+    current_url: Optional[str],
+    site_prefix: Optional[str],
+) -> bool:
+    if nav_root is None:
+        return True
+
+    link_count = nav_internal_doc_link_count(nav_root, domain, base_url, site_prefix)
+    nested_lists = len(nav_root.find_all(["ul", "ol"]))
+    sidebarish = is_sidebarish_tag(nav_root)
+    globalish = is_inside_global_chrome(nav_root)
+    attrs = tag_context_signature(nav_root)
+
+    if sidebarish and link_count >= 3:
+        return False
+    if current_url and any(
+        urls_equivalent(split_and_normalize(base_url, a.get("href", ""))[0], current_url)
+        for a in nav_root.select("a[href]")
+        if (a.get("href") or "").strip() and not (a.get("href") or "").strip().startswith("#")
+    ):
+        return link_count < 3
+
+   
+   
+   
+    if globalish and not sidebarish:
+        return True
+    if GLOBAL_CHROME_RE.search(attrs) and not sidebarish:
+        return True
+    if link_count < 3:
+        return True
+    if nested_lists == 0 and not sidebarish and link_count < 8:
+        return True
+    return False
+
+
+def link_visible_text(a: Tag) -> str:
+    pieces = [a.get_text(" ", strip=True)]
+    for attr in ("aria-label", "title"):
+        value = a.get(attr)
+        if value:
+            pieces.append(str(value))
+    return clean_text(" ".join(pieces))
+
+
+def path_token_set(path: str) -> Set[str]:
+    tokens: Set[str] = set()
+    for seg in path.strip("/").split("/"):
+        seg = unquote(seg).lower()
+        if not seg:
+            continue
+        stem = Path(seg).stem if Path(seg).suffix else seg
+        for part in re.split(r"[-_ .]+", stem):
+            if part:
+                tokens.add(part)
+        tokens.add(stem)
+    return tokens
+
+
+def is_same_or_child_section(candidate_path: str, current_path: str, site_prefix: str) -> bool:
+    if candidate_path == current_path:
+        return False
+    if site_prefix and site_prefix != "/" and candidate_path.startswith(site_prefix):
+        return True
+
+    current_dir = ensure_trailing_slash(posixpath.dirname(current_path) or "/")
+    if candidate_path.startswith(current_dir):
+        return True
+
+    current_parts = [p for p in current_path.strip("/").split("/") if p]
+    candidate_parts = [p for p in candidate_path.strip("/").split("/") if p]
+    if not current_parts or not candidate_parts:
+        return False
+   
+    if current_parts[0] == candidate_parts[0]:
+        return True
+    if len(current_parts) > 1 and len(candidate_parts) > 1 and current_parts[:-1] == candidate_parts[:-1]:
+        return True
+    return False
+
+
+def generic_content_link_score(
+    abs_url: str,
+    link_text: str,
+    current_url: str,
+    site_prefix: str,
+) -> int:
+    parts = urlsplit(abs_url)
+    current_parts = urlsplit(current_url)
+    path = parts.path or "/"
+    current_path = current_parts.path or "/"
+    tokens = path_token_set(path)
+    rel = path[len(site_prefix):].lstrip("/") if path.startswith(site_prefix) else path.lstrip("/")
+
+    if any(pattern.search(path) for pattern in SKIP_URL_PATTERNS):
+        return -9999
+    if tokens & GENERIC_SKIP_PATH_TOKENS:
+        return -9999
+    if GENERIC_BAD_LINK_TEXT_RE.search(link_text):
+        return -400
+
+    score = 0
+    if site_prefix and site_prefix != "/" and path.startswith(site_prefix):
+        score += 4
+    if is_same_or_child_section(path, current_path, site_prefix):
+        score += 3
+    if path_similarity(path, current_path) >= 0.2:
+        score += 2
+
+    lowered_text = link_text.casefold()
+    if GENERIC_DOC_LINK_TEXT_RE.search(link_text):
+        score += 3
+    if any(token in DOC_LIKE_KEYWORDS for token in tokens):
+        score += 3
+
+    docish_extra = {
+        "intro", "introduction", "overview", "install", "installation", "setup",
+        "quickstart", "quick-start", "start", "usage", "use", "config",
+        "configuration", "configure", "api", "cli", "sdk", "examples", "example",
+        "tutorial", "tutorials", "reference", "guide", "guides", "manual",
+        "faq", "howto", "how-to", "concept", "concepts",
+    }
+    if tokens & docish_extra:
+        score += 3
+
+    if re.search(r"\b(?:next|previous|prev|continue|learn\s+more|read\s+more)\b", lowered_text):
+        score += 2
+
+   
+   
+    if site_prefix == "/":
+        if not (GENERIC_DOC_LINK_TEXT_RE.search(link_text) or tokens & docish_extra or tokens & DOC_LIKE_KEYWORDS):
+            score -= 3
+        if path.count("/") > 4 and path_similarity(path, current_path) < 0.2:
+            score -= 2
+
+    if len(rel) > 180:
+        score -= 2
+    return score
+
+
+def should_follow_generic_content_link(
+    abs_url: str,
+    link_text: str,
+    current_url: str,
+    site_prefix: str,
+) -> bool:
+    if is_probably_asset(abs_url):
+        return False
+    score = generic_content_link_score(abs_url, link_text, current_url, site_prefix)
+    return score >= 3
 
 
 def extract_title(soup: BeautifulSoup, root: Optional[Tag]) -> str:
@@ -1555,14 +2161,28 @@ def extract_title(soup: BeautifulSoup, root: Optional[Tag]) -> str:
 
 
 def is_doc_like_page(content_root: Optional[Tag], nav_root: Optional[Tag], score: int) -> bool:
+
+
+
     if content_root is None:
         return False
     if score >= 400:
         return True
+
+    text_len = len(clean_text(content_root.get_text(" ", strip=True)))
+    headings = len(content_root.find_all(re.compile(r"^h[1-6]$")))
+    paragraphs = len(content_root.find_all("p"))
+    code_blocks = len(content_root.find_all("pre"))
+    tables = len(content_root.find_all("table"))
+
+   
+   
+    if text_len >= 10 and headings >= 1 and (paragraphs >= 1 or code_blocks >= 1 or tables >= 1):
+        return True
+
     if nav_root is None:
         return False
-    text_len = len(clean_text(content_root.get_text(" ", strip=True)))
-    return text_len >= 200
+    return text_len >= 180
 
 
 def first_nonempty_attr(tag: Tag, names: Sequence[str]) -> str:
@@ -1577,7 +2197,6 @@ def first_nonempty_attr(tag: Tag, names: Sequence[str]) -> str:
     return ""
 
 
-                                                                         
 
 def nav_link_count(nodes: List[NavNode]) -> int:
     total = 0
@@ -1599,6 +2218,9 @@ def nav_tree_depth_basic(nodes: List[NavNode]) -> int:
 
 
 def nav_tree_basic_score(nodes: List[NavNode]) -> int:
+
+
+
     if not nodes:
         return 0
     links = nav_link_count(nodes)
@@ -1618,7 +2240,7 @@ def is_nav_heading_tag(tag: Tag) -> bool:
         return True
     if role in {"heading", "separator"} and clean_text(tag.get_text(" ", strip=True)):
         return True
-                                                                           
+   
     if tag.name in {"strong", "b"} and not tag.find("a", href=True):
         text = clean_text(tag.get_text(" ", strip=True))
         return bool(text and len(text) <= 140)
@@ -1626,6 +2248,7 @@ def is_nav_heading_tag(tag: Tag) -> bool:
 
 
 def is_nav_header_item(item: Tag) -> bool:
+
     classes = " ".join(item.get("class", [])).lower()
     if "nav-header" in classes or "nav_header" in classes or "sidebar-heading" in classes:
         return True
@@ -1636,7 +2259,7 @@ def is_nav_header_item(item: Tag) -> bool:
     text = clean_text(item.get_text(" ", strip=True))
     if not text or len(text) > 140:
         return False
-                                                                              
+   
     return item.name in {"li", "dt", "dd"}
 
 
@@ -1646,14 +2269,15 @@ def clean_nav_title_value(title: str) -> str:
     title = re.sub(r"^(?:open|close)\s+", "", title, flags=re.I)
     title = re.sub(r"^[•›»·\-\s]+", "", title)
     title = re.sub(r"\s+", " ", title).strip()
-                                                                           
-                                                                             
+   
+   
     if "_" in title and " " not in title:
         title = title.replace("_", " ")
     return title[:180].strip()
 
 
 def direct_label_text(tag: Tag) -> str:
+
     pieces: List[str] = []
     for child in tag.children:
         if isinstance(child, NavigableString):
@@ -1694,7 +2318,7 @@ def is_explicit_nav_header_item(item: Tag) -> bool:
 
 
 def extract_heading_title(tag: Tag) -> str:
-                                                                          
+   
     title = direct_label_text(tag) or clean_nav_title_value(tag.get_text(" ", strip=True))
     return title[:140].strip()
 
@@ -1705,6 +2329,9 @@ def parse_nav_container_sequence(
     base_url: Optional[str] = None,
     depth: int = 0,
 ) -> List[NavNode]:
+
+
+
     nodes: List[NavNode] = []
     current_heading: Optional[NavNode] = None
 
@@ -1721,8 +2348,8 @@ def parse_nav_container_sequence(
     for child in container.children:
         if isinstance(child, NavigableString):
             if clean_text(str(child)):
-                                                                              
-                                                      
+               
+               
                 continue
             continue
         if not isinstance(child, Tag):
@@ -1747,14 +2374,14 @@ def parse_nav_container_sequence(
             title = best_anchor_text(child)
             href = str(child.get("href") or "").strip()
             if title and href and not href.startswith("#"):
-                abs_url = split_and_normalize(base_url or ("https://" + current_domain), href)[0]
+                abs_url, frag = split_and_normalize(base_url or ("https://" + current_domain), href)
                 if urlsplit(abs_url).netloc == current_domain:
-                    append_parsed([NavNode(title=title, href=abs_url, kind="link")])
+                    append_parsed([NavNode(title=title, href=url_with_fragment(abs_url, frag), kind="link")])
             continue
 
-                                                                            
-                                                                        
-                     
+       
+       
+       
         if depth < 4 and child.name in {"div", "section", "nav", "aside", "td", "li"}:
             parsed = parse_nav_container_sequence(
                 child,
@@ -1765,7 +2392,7 @@ def parse_nav_container_sequence(
             if nav_link_count(parsed) or nav_has_categories(parsed):
                 append_parsed(parsed)
 
-                                                                     
+   
     nodes = [node for node in nodes if node.href or node.children or node.kind == "category"]
     return dedupe_nav(nodes)
 
@@ -1778,8 +2405,8 @@ def extract_nav_tree(
     if sidebar is None:
         return []
 
-                                                                            
-                                                                   
+   
+   
     if sidebar.name in {"ul", "ol"}:
         listed = parse_nav_list(sidebar, current_domain=current_domain, base_url=base_url)
         if listed:
@@ -1791,11 +2418,11 @@ def extract_nav_tree(
         base_url=base_url,
     )
 
-                                                                               
-                                                                                
-                                                                               
-                                                                         
-                                                                              
+   
+   
+   
+   
+   
     best_list_nodes: List[NavNode] = []
     best_list_score = 0
     list_candidates = list(sidebar.find_all(["ul", "ol"]))
@@ -1808,8 +2435,8 @@ def extract_nav_tree(
                 for parent in lst.parents
             )
         ]
-                                                                            
-                                                               
+       
+       
         ordered_lists: List[Tag] = []
         seen_list_ids: Set[int] = set()
         for lst in [*top_level, *list_candidates]:
@@ -1830,9 +2457,9 @@ def extract_nav_tree(
 
     structured_score = nav_tree_basic_score(structured)
     if best_list_nodes:
-                                                                            
-                                                                              
-                                                                          
+       
+       
+       
         if (
             not structured
             or best_list_score >= int(structured_score * 1.25)
@@ -1846,7 +2473,7 @@ def extract_nav_tree(
     if nav_link_count(structured) >= 2 or nav_has_categories(structured):
         return structured
 
-                                                                   
+   
     nodes: List[NavNode] = []
     seen: Set[str] = set()
     for a in sidebar.select("a[href]"):
@@ -1854,11 +2481,12 @@ def extract_nav_tree(
         title = best_anchor_text(a)
         if not href or not title or href.startswith(("#", "javascript:", "mailto:", "tel:")):
             continue
-        abs_url = split_and_normalize(base_url or ("https://" + current_domain), href)[0]
-        if abs_url in seen:
+        abs_url, frag = split_and_normalize(base_url or ("https://" + current_domain), href)
+        stored_href = url_with_fragment(abs_url, frag)
+        if stored_href in seen:
             continue
-        seen.add(abs_url)
-        nodes.append(NavNode(title=title, href=abs_url, kind="link"))
+        seen.add(stored_href)
+        nodes.append(NavNode(title=title, href=stored_href, kind="link"))
     return dedupe_nav(nodes)
 
 def first_direct_child_list(item: Tag) -> Optional[Tag]:
@@ -1896,10 +2524,13 @@ def parse_single_nav_item(
 
 
 def collapse_target_ids_from_nav_item(item: Tag) -> List[str]:
+
+
+
     ids: List[str] = []
     for el in item.find_all(["a", "button", "span", "div"], recursive=True):
-                                                                               
-                                                    
+       
+       
         if any(isinstance(parent, Tag) and parent.name in {"ul", "ol"} and parent is not item for parent in el.parents):
             continue
         for attr in ("href", "data-target", "data-bs-target"):
@@ -1920,6 +2551,7 @@ def first_list_in_nav_container(container: Tag) -> Optional[Tag]:
 
 
 def sibling_collapse_lists_for_nav_list(ul: Tag) -> Dict[str, Tag]:
+
     out: Dict[str, Tag] = {}
     for child in ul.children:
         if not isinstance(child, Tag):
@@ -1942,8 +2574,8 @@ def parse_nav_list(
 ) -> List[NavNode]:
     nodes: List[NavNode] = []
 
-                                                                              
-                                                                                    
+   
+   
     collapse_lists = sibling_collapse_lists_for_nav_list(ul)
     used_collapse_ids: Set[str] = set()
 
@@ -1952,8 +2584,8 @@ def parse_nav_list(
     if not item_tags and ul.name in {"li", "dt", "dd"}:
         item_tags = [ul]
 
-                                                                          
-                                                                            
+   
+   
     has_inline_headers = any(is_explicit_nav_header_item(item) for item in item_tags)
     current_group: Optional[NavNode] = None
 
@@ -1969,9 +2601,9 @@ def parse_nav_list(
         if parsed is None:
             continue
 
-                                                                              
-                                                                            
-                                                                         
+       
+       
+       
         for target_id in collapse_target_ids_from_nav_item(item):
             collapse_list = collapse_lists.get(target_id)
             if collapse_list is None:
@@ -1987,9 +2619,9 @@ def parse_nav_list(
         else:
             nodes.append(parsed)
 
-                                                                               
-                                                                                
-                                         
+   
+   
+   
     for collapse_id, collapse_list in collapse_lists.items():
         if collapse_id in used_collapse_ids:
             continue
@@ -2005,10 +2637,10 @@ def parse_nav_list(
 
 
 def first_direct_nav_link(tag: Tag) -> Optional[Tag]:
-                                                                               
-                                                                              
-                                                                              
-                       
+   
+   
+   
+   
     if tag.name == "a":
         return tag
     for child in tag.children:
@@ -2017,7 +2649,7 @@ def first_direct_nav_link(tag: Tag) -> Optional[Tag]:
                 continue
             if child.name == "a":
                 return child
-                                                                                         
+           
             for grand in child.children:
                 if isinstance(grand, Tag):
                     if grand.name in {"ul", "ol"}:
@@ -2054,13 +2686,11 @@ def extract_nav_label(
             if link.get("href"):
                 raw_href = str(link.get("href") or "").strip()
                 if raw_href and not raw_href.startswith(("#", "javascript:", "mailto:", "tel:")):
-                                                                             
-                                                                                 
-                                                                                  
-                    href = split_and_normalize(
+                    abs_url, frag = split_and_normalize(
                         base_url or ("https://" + current_domain),
                         raw_href,
-                    )[0]
+                    )
+                    href = url_with_fragment(abs_url, frag)
                     href = repair_legacy_maven_javadoc_url(href, title or label)
             if title and href:
                 break
@@ -2085,7 +2715,13 @@ def normalize_nav_title_key(title: str) -> str:
 def normalize_nav_href_key(href: Optional[str]) -> Optional[str]:
     if not href:
         return None
-    return normalize_url(href).rstrip("/") or None
+    base_url, fragment = split_stored_href(href)
+    if not base_url:
+        return None
+    key = base_url.rstrip("/") or base_url
+    if fragment:
+        key += "#" + slugify_anchor(fragment)
+    return key
 
 
 def nav_key(node: NavNode) -> Tuple[str, str]:
@@ -2139,9 +2775,9 @@ def find_matching_sibling(index: Dict[Tuple[str, str], NavNode], node: NavNode) 
         match = index.get(("href", href_key))
         if match is not None:
             match_title_key = normalize_nav_title_key(match.title)
-                                                                              
-                                                                              
-                                                                          
+           
+           
+           
             if not title_key or not match_title_key or title_key == match_title_key:
                 return match
     if title_key:
@@ -2155,6 +2791,9 @@ def index_sibling(node: NavNode, index: Dict[Tuple[str, str], NavNode]) -> None:
 
 
 def merge_nav_lists(dst: List[NavNode], src: List[NavNode]) -> None:
+
+
+
     sibling_index: Dict[Tuple[str, str], NavNode] = {}
     for node in dst:
         index_sibling(node, sibling_index)
@@ -2211,8 +2850,9 @@ def dedupe_nav(nodes: List[NavNode]) -> List[NavNode]:
 def flatten_nav_urls(nodes: List[NavNode]) -> List[str]:
     urls: List[str] = []
     for node in nodes:
-        if node.href:
-            urls.append(node.href)
+        base_url = nav_href_base(node.href)
+        if base_url:
+            urls.append(base_url)
         if node.children:
             urls.extend(flatten_nav_urls(node.children))
     return urls
@@ -2223,6 +2863,7 @@ def mark_active_nav_item(
     current_url: str,
     current_title: str,
 ) -> None:
+
     page_slug = slugify_anchor(current_title)
     for node in nodes:
         if not node.href:
@@ -2255,6 +2896,7 @@ def nav_tree_quality(
     site_prefix: Optional[str] = None,
     domain: Optional[str] = None,
 ) -> int:
+
     links = flatten_nav_urls(nodes)
     unique_links = set(links)
     scoped = 0
@@ -2278,12 +2920,12 @@ def nav_tree_quality(
     score += depth * 220
     score -= offscope * 80
 
-                                                                            
-                                                                            
+   
+   
     noisy = len(top_titles & GLOBAL_NAV_TITLE_HINTS)
     score -= noisy * 260
 
-                                                                          
+   
     if depth < 2 and scoped < 4:
         score -= 400
 
@@ -2312,7 +2954,6 @@ def merged_nav_from_snapshots(
     return merged
 
 
-                                                                         
 
 def extract_crawl_links(
     soup: BeautifulSoup,
@@ -2323,6 +2964,9 @@ def extract_crawl_links(
     follow_content_links: bool = False,
     current_url: Optional[str] = None,
 ) -> List[str]:
+
+
+
     content_root = select_content_root(soup, profile=profile)
     nav_root = select_nav_root(
         soup,
@@ -2334,11 +2978,24 @@ def extract_crawl_links(
         site_prefix=site_prefix,
     )
 
-    containers: List[Tag] = []
-    if nav_root is not None:
-        containers.append(nav_root)
+    nav_link_count = nav_internal_doc_link_count(nav_root, domain, base_url, site_prefix)
+    nav_is_weak = (
+        profile == "generic"
+        and generic_nav_is_weak(
+            nav_root,
+            domain=domain,
+            base_url=base_url,
+            current_url=current_url,
+            site_prefix=site_prefix,
+        )
+    )
+    generator_content_fallback = profile in {"book", "sphinx", "vitepress"} and nav_link_count < 3
 
-                                                               
+    containers: List[Tuple[Tag, str]] = []
+    if nav_root is not None and not nav_is_weak:
+        containers.append((nav_root, "nav"))
+
+   
     for selector in [
         "nav.pagination-nav",
         "[rel='next']",
@@ -2348,30 +3005,36 @@ def extract_crawl_links(
         ".prev-next", ".pagination", ".pager",
     ]:
         for node in soup.select(selector):
-            containers.append(node)
+            if isinstance(node, Tag):
+                containers.append((node, "pagination"))
 
-    if follow_content_links and content_root is not None:
-        containers.append(content_root)
+    auto_content_fallback = nav_is_weak or generator_content_fallback
 
-                                                                            
-                                            
+    if (follow_content_links or auto_content_fallback) and content_root is not None:
+        containers.append((content_root, "content"))
+
+   
+   
+   
     if not containers:
         if content_root is not None:
-            containers.append(content_root)
+            containers.append((content_root, "content"))
         elif soup.body is not None:
-            containers.append(soup.body)
+            containers.append((soup.body, "content"))
         else:
-            containers.append(soup)
+            containers.append((soup, "content")) 
 
     out: List[str] = []
     seen: Set[str] = set()
-    for container in containers:
+
+    for container, source in containers:
         for a in container.select("a[href]"):
             href = (a.get("href") or "").strip()
             if not href:
                 continue
             if href.startswith(("#", "javascript:", "mailto:", "tel:")):
                 continue
+
             abs_url, _frag = split_and_normalize(base_url, href)
             parts = urlsplit(abs_url)
             if parts.netloc != domain:
@@ -2385,16 +3048,25 @@ def extract_crawl_links(
                 continue
             if any(pattern.search(parts.path) for pattern in SKIP_URL_PATTERNS):
                 continue
+
+            if source == "content" and profile == "generic":
+                text = link_visible_text(a)
+                if not should_follow_generic_content_link(
+                    abs_url,
+                    link_text=text,
+                    current_url=current_url or base_url,
+                    site_prefix=site_prefix,
+                ):
+                    continue
+
             if abs_url in seen:
                 continue
             seen.add(abs_url)
             out.append(abs_url)
+
     return out
 
 
-                                                                         
-                                                                         
-                                                                         
 
 def is_inside_tags(node: NavigableString, tag_names: Set[str]) -> bool:
     parent = node.parent
@@ -2626,7 +3298,6 @@ def normalize_shell_fragments(parts: List[str]) -> str:
     return re.sub(r"\s+", " ", merged).strip()
 
 
-                                                                         
 
 def looks_like_admonition(node: Tag) -> bool:
     attrs = " ".join([node.get("id", ""), *node.get("class", []), node.name]).lower()
@@ -2649,8 +3320,10 @@ def looks_like_tab_container(node: Tag) -> bool:
 
 
 def table_is_simple(node: Tag) -> bool:
+
+
     if node.find("table") is not node:
-                                       
+       
         pass
     for nested in node.find_all("table"):
         if nested is not node:
@@ -2672,7 +3345,7 @@ def render_complex_block(node: Tag) -> str:
         return render_admonition_block(node)
     if node.name == "table":
         if table_is_simple(node):
-                                                   
+           
             return "\n" + md(str(clone_tag(node)), heading_style="ATX") + "\n"
         clone = clone_tag(node)
         sanitize_raw_html_tree(clone)
@@ -2883,6 +3556,7 @@ def postprocess_markdown(text: str) -> str:
     text = text.replace("\r\n", "\n")
     protected, placeholders = protect_fenced_code_blocks(text)
     protected = collapse_accidental_hardbreaks(protected)
+    protected = re.sub(r"(\]\([^\)]+\))(?=\[)", r"\1\n", protected)
     protected = re.sub(r"\n{3,}", "\n\n", protected)
     protected = re.sub(r"[ \t]+\n", "\n", protected)
     protected = re.sub(r"\n([*-] )\n", r"\n\1", protected)
@@ -2897,9 +3571,58 @@ def starts_with_markdown_heading(text: str) -> bool:
     return bool(re.match(r"^#{1,6}\s+", probe))
 
 
-                                                                         
-                                                                         
-                                                                         
+
+def prefix_from_doc_link_clusters(entry_path: str, candidate_links: List[str]) -> Optional[str]:
+
+
+
+    if not candidate_links:
+        return None
+
+    counts: Dict[str, int] = {}
+    path_samples: Dict[str, List[str]] = {}
+
+    for url in candidate_links:
+        path = urlsplit(url).path or "/"
+        segs = [unquote(seg).lower() for seg in path.strip("/").split("/") if seg]
+        if not segs:
+            continue
+
+        prefixes: List[str] = []
+        first = segs[0]
+        if first in DOC_LIKE_KEYWORDS or first in {"documentation", "manuals", "learn", "help"}:
+            prefixes.append("/" + first + "/")
+            if len(segs) > 1 and looks_versionish(segs[1]):
+                prefixes.append("/" + first + "/" + segs[1] + "/")
+
+       
+        for i, seg in enumerate(segs[:3]):
+            if seg in DOC_LIKE_KEYWORDS or seg in {"documentation", "manuals", "learn", "help"}:
+                prefixes.append("/" + "/".join(segs[: i + 1]) + "/")
+                if i + 1 < len(segs) and looks_versionish(segs[i + 1]):
+                    prefixes.append("/" + "/".join(segs[: i + 2]) + "/")
+                break
+
+        for prefix in prefixes:
+            counts[prefix] = counts.get(prefix, 0) + 1
+            path_samples.setdefault(prefix, []).append(path)
+
+    if not counts:
+        return None
+
+    best_prefix, best_count = max(counts.items(), key=lambda item: (item[1], len(item[0])))
+    if best_count < 3:
+        return None
+
+   
+   
+    samples = path_samples.get(best_prefix, [])
+    if len(samples) >= 3:
+        common = common_path_prefix(samples)
+        if common and common != "/" and common.startswith(best_prefix):
+            return clamp_prefix_to_version_scope(entry_path, common)
+    return clamp_prefix_to_version_scope(entry_path, best_prefix)
+
 
 def guess_site_prefix(entry_url: str, soup: BeautifulSoup, profile: str = "generic") -> str:
     parts = urlsplit(entry_url)
@@ -2925,9 +3648,15 @@ def guess_site_prefix(entry_url: str, soup: BeautifulSoup, profile: str = "gener
                 continue
             candidate_links.append(abs_url)
 
-                                                                               
-                                                                                
-                                                           
+   
+   
+    cluster_prefix = prefix_from_doc_link_clusters(path, candidate_links)
+    if cluster_prefix and (profile == "generic" or path == "/" or path.endswith("/index.html")):
+        return cluster_prefix
+
+   
+   
+   
     docish = [u for u in candidate_links if path_similarity(urlsplit(u).path, path) >= 0.2]
     if len(docish) >= 3:
         common = common_path_prefix([urlsplit(u).path for u in docish] + [path])
@@ -2952,10 +3681,10 @@ def guess_site_prefix(entry_url: str, soup: BeautifulSoup, profile: str = "gener
                 prefix_parts.append(segs[i + 1])
             return clamp_prefix_to_version_scope(path, "/" + "/".join(prefix_parts) + "/")
 
-                                                          
-                                                                            
-                                                                         
-                       
+   
+   
+   
+   
     if len(segs) >= 2 and segs[0].lower() in {"proper", "dormant", "sandbox"}:
         return clamp_prefix_to_version_scope(path, "/" + "/".join(segs[:2]) + "/")
 
@@ -3057,6 +3786,18 @@ def load_targets(targets_file: Optional[Path], urls: List[str]) -> List[str]:
     return dedupe_preserve_order(out)
 
 
+def resolve_nav_href_anchor(href: Optional[str], url_to_anchor: Dict[str, str]) -> Optional[str]:
+    if not href:
+        return None
+    base_url, fragment = split_stored_href(href)
+    if not base_url:
+        return None
+    page_anchor = url_to_anchor.get(base_url)
+    if not page_anchor:
+        return None
+    return compose_heading_anchor(page_anchor, fragment) if fragment else page_anchor
+
+
 def render_singlefile_navigation(
     nodes: List[NavNode],
     url_to_anchor: Dict[str, str],
@@ -3065,11 +3806,12 @@ def render_singlefile_navigation(
     lines: List[str] = []
     for node in nodes:
         prefix = "  " * indent + "- "
-        if node.href and node.href in url_to_anchor:
-            lines.append(f"{prefix}[{node.title}](#{url_to_anchor[node.href]})")
-        elif node.href:
-            lines.append(f"{prefix}[{node.title}]({node.href})")
+        target_anchor = resolve_nav_href_anchor(node.href, url_to_anchor)
+        if target_anchor:
+            lines.append(f"{prefix}[{node.title}](#{target_anchor})")
         else:
+           
+           
             lines.append(f"{prefix}{node.title}")
         if node.children:
             lines.extend(render_singlefile_navigation(node.children, url_to_anchor, indent + 1))
@@ -3102,9 +3844,6 @@ def build_url_tree(
     return root.children
 
 
-                                                                         
-                                                                         
-                                                                         
 
 class UniversalDocsConverter:
     def __init__(
@@ -3191,7 +3930,7 @@ class UniversalDocsConverter:
         self._pages_lock = threading.Lock()
         self._nav_lock = threading.Lock()
 
-                                                                      
+                                                                     
     def run(self) -> None:
         print(f"\n=== {self.entry_url} ===")
         try:
@@ -3247,11 +3986,12 @@ class UniversalDocsConverter:
             self.write_combined_markdown()
             self.write_manifests()
         finally:
+            self.cache.flush()
             if self.browser_pool is not None:
                 self.browser_pool.close()
         print(f"done: {len(self.pages)} pages, {len(self.asset_cache)} assets")
 
-                                                                     
+                                                                    
     def crawl(self, entry_html: str, entry_final_url: str) -> None:
         assert self.site_prefix is not None
         start_urls: List[Tuple[str, int]] = [(entry_final_url, 0)]
@@ -3266,7 +4006,7 @@ class UniversalDocsConverter:
         queued: Set[str] = set(url for url, _ in start_urls)
         seen_done: Set[str] = set()
 
-                                                                             
+                                                                            
         self._preloaded_entry = (entry_final_url, entry_html)
 
         executor = ThreadPoolExecutor(max_workers=self.concurrency)
@@ -3276,7 +4016,7 @@ class UniversalDocsConverter:
 
         try:
             while pending or in_flight:
-                                
+                               
                 while pending and len(in_flight) < self.concurrency:
                     if self.max_pages is not None and len(self.pages) + len(in_flight) >= self.max_pages:
                         break
@@ -3289,7 +4029,7 @@ class UniversalDocsConverter:
                 if not in_flight:
                     break
 
-                                               
+                                              
                 done = next(as_completed(in_flight))
                 url, depth = in_flight.pop(done)
                 seen_done.add(url)
@@ -3316,7 +4056,7 @@ class UniversalDocsConverter:
                 if reached_max:
                     continue
 
-                                   
+                                  
                 next_depth = depth + 1
                 if next_depth > self.max_depth:
                     continue
@@ -3339,7 +4079,7 @@ class UniversalDocsConverter:
             print(f"[skip] blocked by robots.txt: {url}")
             return None
 
-                                                                
+                                                               
         if (
             getattr(self, "_preloaded_entry", None) is not None
             and self._preloaded_entry[0] == url
@@ -3374,7 +4114,7 @@ class UniversalDocsConverter:
             print(f"[skip] weak/non-doc page {final_url}")
             return None
 
-                                                           
+                                                          
         path_parts = [seg.lower() for seg in urlsplit(final_url).path.strip("/").split("/")]
         if any(p in SOFT_NOISE_PATH_TOKENS for p in path_parts) and score < 1200:
             print(f"[skip] soft-noise path {final_url}")
@@ -3389,9 +4129,9 @@ class UniversalDocsConverter:
         if nav_tree:
             mark_active_nav_item(nav_tree, final_url, title)
             with self._nav_lock:
+                                                                               
+                                                                             
                                                                                 
-                                                                              
-                                                                                 
                 self.nav_snapshots.append(copy.deepcopy(nav_tree))
 
         print(f"[page] {final_url}")
@@ -3441,7 +4181,7 @@ class UniversalDocsConverter:
                 print(f"[warn] sitemap fetch failed {sitemap_url}: {exc}")
         return discovered
 
-                                                                     
+                                                                    
     def assign_virtual_paths(self) -> None:
         assert self.site_prefix is not None
         taken: Set[Path] = set()
@@ -3476,7 +4216,7 @@ class UniversalDocsConverter:
             if record.final_url != url:
                 self.url_to_anchor[record.final_url] = anchor
 
-                                                                     
+                                                                    
     def convert_pages_to_fragments(self) -> None:
         assert self.site_dir is not None
         assert self.combined_output_path is not None
@@ -3533,10 +4273,10 @@ class UniversalDocsConverter:
             for tag in list(root.select(selector)):
                 tag.decompose()
 
-                                                                           
-                                                                             
-                                                                             
-                                                               
+                                                                          
+                                                                            
+                                                                            
+                                                              
         for selector in CONTENT_CHROME_SELECTORS:
             for tag in list(root.select(selector)):
                 if tag is not root:
@@ -3564,7 +4304,7 @@ class UniversalDocsConverter:
         replace_inline_breaks(root)
         normalize_dom_text_nodes(root)
 
-                                                     
+                                                    
         for heading in list(root.find_all(re.compile(r"^h[1-6]$"))):
             heading_id = heading.get("id") or heading.get("name")
             for a in list(heading.select("a.hash-link, a.headerlink")):
@@ -3576,7 +4316,7 @@ class UniversalDocsConverter:
                 placeholders[token] = f'<a id="{html.escape(unique_id, quote=True)}"></a>\n\n'
                 heading.insert_before(NavigableString(token))
 
-                         
+                        
         for img in list(root.find_all("img")):
             src = first_nonempty_attr(img, [
                 "src", "data-src", "data-original",
@@ -3586,9 +4326,9 @@ class UniversalDocsConverter:
                 continue
             abs_url = absolutize(current_url, src)
             if not self.should_download_asset(abs_url):
-                                                                    
-                                                                             
-                                                                             
+                                                                   
+                                                                            
+                                                                            
                 img["src"] = abs_url
                 for attr in ["srcset", "data-src", "data-original", "data-lazy-src", "data-src-retina"]:
                     if img.has_attr(attr) and attr != "src":
@@ -3604,7 +4344,7 @@ class UniversalDocsConverter:
             except Exception as exc:
                 print(f"[warn] asset fetch failed {abs_url}: {exc}")
 
-                        
+                       
         for a in list(root.find_all("a", href=True)):
             href = (a.get("href") or "").strip()
             if not href or href.startswith(("javascript:", "mailto:", "tel:")):
@@ -3642,7 +4382,7 @@ class UniversalDocsConverter:
             if urlsplit(abs_url).netloc == self.domain:
                 a["href"] = abs_url + (f"#{frag}" if frag else "")
 
-                                                               
+                                                              
         complex_nodes: List[Tag] = []
         for tag in list(root.find_all(True)):
             if tag.name in RAW_HTML_BLOCK_TAGS:
@@ -3690,7 +4430,7 @@ class UniversalDocsConverter:
         root.clear()
         root.append(NavigableString(markdown))
 
-                                                                     
+                                                                    
     def should_download_asset(self, asset_url: str) -> bool:
         if self.download_external_assets:
             return True
@@ -3726,14 +4466,14 @@ class UniversalDocsConverter:
                 self.asset_cache[final_url] = rel_path
         return rel_path
 
-                                                                    
+                                                                   
     def canonicalize_page_url(self, url: str) -> str:
         return self.url_alias_to_canonical.get(url, url)
 
     def effective_nav_tree(self) -> List[NavNode]:
-                                                                                
-                                                                              
-                                                              
+                                                                               
+                                                                             
+                                                             
         nav = merged_nav_from_snapshots(
             self.nav_snapshots,
             site_prefix=self.site_prefix,
@@ -3742,7 +4482,7 @@ class UniversalDocsConverter:
         if not nav:
             nav = copy.deepcopy(self.nav_tree)
 
-                                                                       
+                                                                      
         nav = filter_nav_to_known_urls(nav, set(self.pages.keys()), self.url_alias_to_canonical)
         nav = cleanup_nav_tree(nav)
         if not nav:
@@ -3754,7 +4494,7 @@ class UniversalDocsConverter:
             if self.canonicalize_page_url(url) not in nav_urls
         ]
         if missing_urls:
-                                                            
+                                                           
             missing_urls.sort(key=lambda u: self.url_to_virtual_path[u].as_posix())
             other_children = [
                 NavNode(title=self.pages[url].title, href=url, kind="link")
@@ -3879,7 +4619,7 @@ class UniversalDocsConverter:
             json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8",
         )
 
-                                                                    
+                                                                   
     def is_allowed_page(self, url: str) -> bool:
         assert self.site_prefix is not None
         url = normalize_url(url)
@@ -3896,27 +4636,26 @@ class UniversalDocsConverter:
         if not parts.path.startswith(self.site_prefix):
             return False
 
-                                                                             
-                                                                                
-                                                 
+                                                                            
+                                                                               
+                                                
         if self.strict_version_scope:
             if self.version_scope_prefix and not parts.path.startswith(self.version_scope_prefix):
                 return False
             if self.version_query_scope and not url_matches_query_scope(url, self.version_query_scope):
                 return False
 
-                                                                               
-                                                                               
-                                                        
+                                                                              
+                                                                              
+                                                       
             if not self.version_scope_prefix:
                 rel = parts.path[len(self.site_prefix):].lstrip("/") if parts.path.startswith(self.site_prefix) else ""
                 first = rel.split("/", 1)[0] if rel else ""
                 if first and "/" in rel and looks_versionish(first):
                     return False
         return True
-
-
 def cleanup_nav_tree(nodes: List[NavNode]) -> List[NavNode]:
+
     cleaned: List[NavNode] = []
     for node in nodes:
         node = copy.deepcopy(node)
@@ -3928,32 +4667,49 @@ def cleanup_nav_tree(nodes: List[NavNode]) -> List[NavNode]:
     return dedupe_nav(cleaned)
 
 
+def resolve_known_href(
+    href: Optional[str],
+    known_urls: Set[str],
+    alias: Dict[str, str],
+) -> Optional[str]:
+    if not href:
+        return None
+    href = repair_legacy_maven_javadoc_url(href)
+    base_url, fragment = split_stored_href(href)
+    if not base_url:
+        return None
+
+    candidates = [base_url, *sorted(url_equivalence_variants(base_url))]
+    for candidate in candidates:
+        canon = alias.get(candidate, candidate)
+        if canon in known_urls:
+            return url_with_fragment(canon, fragment)
+    return None
+
+
 def filter_nav_to_known_urls(
     nodes: List[NavNode],
     known_urls: Set[str],
     alias: Dict[str, str],
 ) -> List[NavNode]:
+
+
+
     out: List[NavNode] = []
     for node in nodes:
+        node = copy.deepcopy(node)
         children = filter_nav_to_known_urls(node.children, known_urls, alias) if node.children else []
-        if node.href:
-            node.href = repair_legacy_maven_javadoc_url(node.href, node.title)
-            canon = alias.get(node.href, node.href)
-            if canon in known_urls:
-                node.href = canon
+
+        resolved_href = resolve_known_href(node.href, known_urls, alias)
+        node.href = resolved_href
         node.children = children
-                                                                              
-                                                                            
-                                                                       
-                                                 
-        if node.href or node.children or node.kind == "category":
+
+        if node.href or node.children:
             out.append(node)
+
     return dedupe_nav(out)
 
 
-                                                                         
-                                                                         
-                                                                         
 
 def build_arg_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
@@ -4054,3 +4810,4 @@ def main(argv: Optional[List[str]] = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
