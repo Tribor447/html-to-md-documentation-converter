@@ -3868,6 +3868,8 @@ class UniversalDocsConverter:
         cache_dir: Optional[Path] = None,
         use_cache: bool = True,
         download_external_assets: bool = False,
+        asset_concurrency: int = DEFAULT_ASSET_CONCURRENCY,
+        skip_assets: bool = False,
         strict_version_scope: bool = True,
     ) -> None:
         self.entry_url = normalize_url(entry_url)
@@ -3889,6 +3891,8 @@ class UniversalDocsConverter:
         self.follow_content_links = follow_content_links
         self.respect_robots = respect_robots
         self.download_external_assets = download_external_assets
+        self.asset_concurrency = max(1, asset_concurrency)
+        self.skip_assets = skip_assets
         self.strict_version_scope = strict_version_scope
 
         self.session = build_session()
@@ -3930,7 +3934,7 @@ class UniversalDocsConverter:
         self._pages_lock = threading.Lock()
         self._nav_lock = threading.Lock()
 
-                                                                     
+   
     def run(self) -> None:
         print(f"\n=== {self.entry_url} ===")
         try:
@@ -3972,15 +3976,19 @@ class UniversalDocsConverter:
         if self.version_scope_prefix or self.version_query_scope:
             print(f"version pin: {self.version_scope_prefix or '-'} {dict(self.version_query_scope) if self.version_query_scope else ''}")
         print(f"output dir : {self.site_dir}")
-        print(f"concurrency: {self.concurrency}")
+        print(f"concurrency: pages={self.concurrency}, assets={self.asset_concurrency}")
+        if self.skip_assets:
+            print("assets     : skipped (--no-assets)")
         if self.browser_mode != "never":
             browser_note = "available" if PLAYWRIGHT_AVAILABLE else "not installed"
             print(f"browser    : {self.browser_mode} ({browser_note})")
 
         try:
             self.crawl(entry_html=entry_html, entry_final_url=entry_final_url)
+            self.dedupe_equivalent_pages()
             self.assign_virtual_paths()
             self.assign_page_anchors()
+            self.prefetch_assets()
             self.convert_pages_to_fragments()
             self.write_navigation_sidecars()
             self.write_combined_markdown()
@@ -3991,14 +3999,19 @@ class UniversalDocsConverter:
                 self.browser_pool.close()
         print(f"done: {len(self.pages)} pages, {len(self.asset_cache)} assets")
 
-                                                                    
+   
     def crawl(self, entry_html: str, entry_final_url: str) -> None:
+
+
+
         assert self.site_prefix is not None
         start_urls: List[Tuple[str, int]] = [(entry_final_url, 0)]
-        if self.use_sitemap:
+        use_sitemap_seed = self.use_sitemap or self.profile in {"sphinx", "vitepress", "book"}
+        if use_sitemap_seed:
             sitemap_urls = self.discover_from_sitemap()
             if sitemap_urls:
-                print(f"sitemap seeds: {len(sitemap_urls)}")
+                mode = "manual" if self.use_sitemap else "auto"
+                print(f"sitemap seeds ({mode}): {len(sitemap_urls)}")
                 for url in sorted(sitemap_urls):
                     if url != entry_final_url:
                         start_urls.append((url, 0))
@@ -4006,7 +4019,7 @@ class UniversalDocsConverter:
         queued: Set[str] = set(url for url, _ in start_urls)
         seen_done: Set[str] = set()
 
-                                                                            
+       
         self._preloaded_entry = (entry_final_url, entry_html)
 
         executor = ThreadPoolExecutor(max_workers=self.concurrency)
@@ -4016,7 +4029,7 @@ class UniversalDocsConverter:
 
         try:
             while pending or in_flight:
-                               
+               
                 while pending and len(in_flight) < self.concurrency:
                     if self.max_pages is not None and len(self.pages) + len(in_flight) >= self.max_pages:
                         break
@@ -4029,7 +4042,7 @@ class UniversalDocsConverter:
                 if not in_flight:
                     break
 
-                                              
+               
                 done = next(as_completed(in_flight))
                 url, depth = in_flight.pop(done)
                 seen_done.add(url)
@@ -4056,7 +4069,7 @@ class UniversalDocsConverter:
                 if reached_max:
                     continue
 
-                                  
+               
                 next_depth = depth + 1
                 if next_depth > self.max_depth:
                     continue
@@ -4070,6 +4083,56 @@ class UniversalDocsConverter:
         finally:
             executor.shutdown(wait=True)
 
+    def dedupe_equivalent_pages(self) -> None:
+
+
+
+        if not self.pages:
+            return
+
+        canonical_by_variant: Dict[str, str] = {}
+        deduped: Dict[str, PageRecord] = {}
+        duplicates = 0
+
+        ordered_items = sorted(
+            self.pages.items(),
+            key=lambda item: (
+                0 if item[0] == self.entry_final_url or item[1].url == self.entry_url else 1,
+                item[1].depth,
+                item[0],
+            ),
+        )
+
+        for url, record in ordered_items:
+            variants: Set[str] = set()
+            for candidate in dedupe_preserve_order([url, record.url, record.final_url]):
+                variants.update(url_equivalence_variants(candidate))
+            variants.add(url)
+
+            existing = next((canonical_by_variant[v] for v in variants if v in canonical_by_variant), None)
+            if existing is not None:
+                duplicates += 1
+                for variant in variants:
+                    self.url_alias_to_canonical[variant] = existing
+                self.url_alias_to_canonical[url] = existing
+                self.url_alias_to_canonical[record.url] = existing
+                self.url_alias_to_canonical[record.final_url] = existing
+                if self.entry_final_url == url:
+                    self.entry_final_url = existing
+                continue
+
+            deduped[url] = record
+            for variant in variants:
+                canonical_by_variant[variant] = url
+                self.url_alias_to_canonical[variant] = url
+            self.url_alias_to_canonical[url] = url
+            self.url_alias_to_canonical[record.url] = url
+            self.url_alias_to_canonical[record.final_url] = url
+
+        if duplicates:
+            print(f"deduped equivalent pages: {duplicates}")
+        self.pages = deduped
+
     def _fetch_and_parse(
         self,
         url: str,
@@ -4079,7 +4142,7 @@ class UniversalDocsConverter:
             print(f"[skip] blocked by robots.txt: {url}")
             return None
 
-                                                               
+       
         if (
             getattr(self, "_preloaded_entry", None) is not None
             and self._preloaded_entry[0] == url
@@ -4114,24 +4177,33 @@ class UniversalDocsConverter:
             print(f"[skip] weak/non-doc page {final_url}")
             return None
 
-                                                          
+       
         path_parts = [seg.lower() for seg in urlsplit(final_url).path.strip("/").split("/")]
         if any(p in SOFT_NOISE_PATH_TOKENS for p in path_parts) and score < 1200:
             print(f"[skip] soft-noise path {final_url}")
             return None
 
         title = extract_title(soup, content_root)
-        nav_tree = extract_nav_tree(
+        if profile == "generic" and generic_nav_is_weak(
             nav_root,
-            current_domain=self.domain,
+            domain=self.domain,
             base_url=final_url,
-        )
+            current_url=final_url,
+            site_prefix=self.site_prefix or "/",
+        ):
+            nav_tree = []
+        else:
+            nav_tree = extract_nav_tree(
+                nav_root,
+                current_domain=self.domain,
+                base_url=final_url,
+            )
         if nav_tree:
             mark_active_nav_item(nav_tree, final_url, title)
             with self._nav_lock:
-                                                                               
-                                                                             
-                                                                                
+               
+               
+               
                 self.nav_snapshots.append(copy.deepcopy(nav_tree))
 
         print(f"[page] {final_url}")
@@ -4163,25 +4235,39 @@ class UniversalDocsConverter:
 
     def discover_from_sitemap(self) -> Set[str]:
         assert self.site_prefix is not None
-        site_root = f"{self.entry_parts.scheme}://{self.entry_parts.netloc}"
-        sitemap_urls = [f"{site_root}/sitemap.xml"]
+        scheme = urlsplit(self.entry_final_url or self.entry_url).scheme or self.entry_parts.scheme
+        site_root = f"{scheme}://{self.domain}"
+        queue: deque[str] = deque([f"{site_root}/sitemap.xml", f"{site_root}/sitemap_index.xml"])
+        visited: Set[str] = set()
         discovered: Set[str] = set()
-        for sitemap_url in sitemap_urls:
+
+        while queue and len(visited) < 25:
+            sitemap_url = normalize_url(queue.popleft())
+            if sitemap_url in visited:
+                continue
+            visited.add(sitemap_url)
             try:
                 resp = self.session.get(sitemap_url, timeout=HTTP_TIMEOUT)
                 if resp.status_code >= 400:
                     continue
                 xml = decode_response_text(resp)
-                for loc in re.findall(r"<loc>(.*?)</loc>", xml):
-                    loc = html.unescape(loc.strip())
+                for loc in re.findall(r"<loc[^>]*>(.*?)</loc>", xml, flags=re.I | re.S):
+                    loc = html.unescape(re.sub(r"\s+", "", loc.strip()))
+                    if not loc:
+                        continue
                     url = normalize_url(loc)
+                    path = urlsplit(url).path.lower()
+                    if path.endswith(".xml") and urlsplit(url).netloc == self.domain:
+                        queue.append(url)
+                        continue
                     if self.is_allowed_page(url):
                         discovered.add(url)
             except Exception as exc:
                 print(f"[warn] sitemap fetch failed {sitemap_url}: {exc}")
         return discovered
 
-                                                                    
+
+   
     def assign_virtual_paths(self) -> None:
         assert self.site_prefix is not None
         taken: Set[Path] = set()
@@ -4210,13 +4296,75 @@ class UniversalDocsConverter:
                 anchor = f"{base}-{idx}"
             seen.add(anchor)
             record.page_anchor = anchor
-            self.url_to_anchor[url] = anchor
-            alias_url = normalize_url(record.url)
-            self.url_to_anchor[alias_url] = anchor
-            if record.final_url != url:
-                self.url_to_anchor[record.final_url] = anchor
 
-                                                                    
+           
+           
+           
+            for candidate in dedupe_preserve_order([url, record.url, record.final_url]):
+                for variant in url_equivalence_variants(candidate):
+                    self.url_to_anchor[variant] = anchor
+                    self.url_alias_to_canonical.setdefault(variant, url)
+                    self.url_to_virtual_path.setdefault(variant, record.virtual_path)
+
+   
+    def collect_asset_urls_for_record(self, record: PageRecord) -> Set[str]:
+        if self.skip_assets:
+            return set()
+
+        soup = BeautifulSoup(record.html_text, "html.parser")
+        root = select_content_root(soup, profile=record.profile)
+        if root is None:
+            root = soup.find("main") or soup.body or soup
+
+        urls: Set[str] = set()
+
+        for img in root.find_all("img"):
+            src = first_nonempty_attr(img, [
+                "src", "data-src", "data-original",
+                "data-lazy-src", "data-src-retina",
+            ])
+            if not src or src.startswith("data:"):
+                continue
+            abs_url = normalize_url(absolutize(record.final_url, src))
+            if self.should_download_asset(abs_url):
+                urls.add(abs_url)
+
+        for a in root.find_all("a", href=True):
+            href = (a.get("href") or "").strip()
+            if not href or href.startswith(("#", "javascript:", "mailto:", "tel:")):
+                continue
+            abs_url, _frag = split_and_normalize(record.final_url, href)
+            if is_probably_asset(abs_url) and self.should_download_asset(abs_url):
+                urls.add(abs_url)
+
+        return urls
+
+    def prefetch_assets(self) -> None:
+        if self.skip_assets or self.asset_concurrency <= 1:
+            return
+
+        asset_urls: Set[str] = set()
+        for record in self.pages.values():
+            asset_urls.update(self.collect_asset_urls_for_record(record))
+
+       
+        with self.asset_cache_lock:
+            asset_urls = {url for url in asset_urls if normalize_url(url) not in self.asset_cache}
+
+        if not asset_urls:
+            return
+
+        print(f"assets prefetch: {len(asset_urls)} urls, concurrency={self.asset_concurrency}")
+        with ThreadPoolExecutor(max_workers=self.asset_concurrency) as executor:
+            futures = {executor.submit(self.download_asset, url): url for url in sorted(asset_urls)}
+            for future in as_completed(futures):
+                url = futures[future]
+                try:
+                    future.result()
+                except Exception as exc:
+                    print(f"[warn] asset prefetch failed {url}: {exc}")
+
+   
     def convert_pages_to_fragments(self) -> None:
         assert self.site_dir is not None
         assert self.combined_output_path is not None
@@ -4273,10 +4421,10 @@ class UniversalDocsConverter:
             for tag in list(root.select(selector)):
                 tag.decompose()
 
-                                                                          
-                                                                            
-                                                                            
-                                                              
+       
+       
+       
+       
         for selector in CONTENT_CHROME_SELECTORS:
             for tag in list(root.select(selector)):
                 if tag is not root:
@@ -4304,19 +4452,48 @@ class UniversalDocsConverter:
         replace_inline_breaks(root)
         normalize_dom_text_nodes(root)
 
-                                                    
+       
+       
+       
+       
+        used_heading_anchor_ids: Set[str] = set()
         for heading in list(root.find_all(re.compile(r"^h[1-6]$"))):
-            heading_id = heading.get("id") or heading.get("name")
+            raw_ids: List[str] = []
+            for attr in ("id", "name"):
+                value = heading.get(attr)
+                if value:
+                    raw_ids.append(str(value))
             for a in list(heading.select("a.hash-link, a.headerlink")):
                 a.decompose()
-            if heading_id:
-                unique_id = compose_heading_anchor(page_anchor, heading_id)
+            heading_text = clean_text(heading.get_text(" ", strip=True))
+            if heading_text:
+                raw_ids.append(heading_text)
+
+            anchor_ids: List[str] = []
+            heading_base_seen: Set[str] = set()
+            for raw_id in dedupe_preserve_order(raw_ids):
+                base_anchor = compose_heading_anchor(page_anchor, raw_id)
+                if base_anchor in heading_base_seen:
+                    continue
+                heading_base_seen.add(base_anchor)
+                anchor_id = base_anchor
+                suffix = 2
+                while anchor_id in used_heading_anchor_ids:
+                    anchor_id = f"{base_anchor}-{suffix}"
+                    suffix += 1
+                used_heading_anchor_ids.add(anchor_id)
+                anchor_ids.append(anchor_id)
+
+            if anchor_ids:
                 token = f"DOC2MDPLACEHOLDERTOKEN{idx}END"
                 idx += 1
-                placeholders[token] = f'<a id="{html.escape(unique_id, quote=True)}"></a>\n\n'
+                placeholders[token] = "".join(
+                    f'<a id="{html.escape(anchor_id, quote=True)}"></a>\n'
+                    for anchor_id in anchor_ids
+                ) + "\n"
                 heading.insert_before(NavigableString(token))
 
-                        
+       
         for img in list(root.find_all("img")):
             src = first_nonempty_attr(img, [
                 "src", "data-src", "data-original",
@@ -4326,9 +4503,9 @@ class UniversalDocsConverter:
                 continue
             abs_url = absolutize(current_url, src)
             if not self.should_download_asset(abs_url):
-                                                                   
-                                                                            
-                                                                            
+               
+               
+               
                 img["src"] = abs_url
                 for attr in ["srcset", "data-src", "data-original", "data-lazy-src", "data-src-retina"]:
                     if img.has_attr(attr) and attr != "src":
@@ -4344,7 +4521,7 @@ class UniversalDocsConverter:
             except Exception as exc:
                 print(f"[warn] asset fetch failed {abs_url}: {exc}")
 
-                       
+       
         for a in list(root.find_all("a", href=True)):
             href = (a.get("href") or "").strip()
             if not href or href.startswith(("javascript:", "mailto:", "tel:")):
@@ -4359,8 +4536,8 @@ class UniversalDocsConverter:
 
             abs_url, frag = split_and_normalize(current_url, href)
             abs_url = repair_legacy_maven_javadoc_url(abs_url, clean_text(a.get_text(" ", strip=True)))
-            canon = self.url_alias_to_canonical.get(abs_url, abs_url)
-            if canon in self.url_to_anchor:
+            canon = self.canonicalize_page_url(abs_url)
+            if canon in self.pages and canon in self.url_to_anchor:
                 target_anchor = self.url_to_anchor[canon]
                 if frag:
                     target_anchor = compose_heading_anchor(target_anchor, frag)
@@ -4382,7 +4559,7 @@ class UniversalDocsConverter:
             if urlsplit(abs_url).netloc == self.domain:
                 a["href"] = abs_url + (f"#{frag}" if frag else "")
 
-                                                              
+       
         complex_nodes: List[Tag] = []
         for tag in list(root.find_all(True)):
             if tag.name in RAW_HTML_BLOCK_TAGS:
@@ -4430,8 +4607,10 @@ class UniversalDocsConverter:
         root.clear()
         root.append(NavigableString(markdown))
 
-                                                                    
+   
     def should_download_asset(self, asset_url: str) -> bool:
+        if self.skip_assets:
+            return False
         if self.download_external_assets:
             return True
         try:
@@ -4466,14 +4645,23 @@ class UniversalDocsConverter:
                 self.asset_cache[final_url] = rel_path
         return rel_path
 
-                                                                   
+   
     def canonicalize_page_url(self, url: str) -> str:
-        return self.url_alias_to_canonical.get(url, url)
+        base_url, _fragment = split_stored_href(url)
+        probe = base_url or url
+        direct = self.url_alias_to_canonical.get(probe)
+        if direct:
+            return direct
+        for variant in url_equivalence_variants(probe):
+            direct = self.url_alias_to_canonical.get(variant)
+            if direct:
+                return direct
+        return probe
 
     def effective_nav_tree(self) -> List[NavNode]:
-                                                                               
-                                                                             
-                                                             
+       
+       
+       
         nav = merged_nav_from_snapshots(
             self.nav_snapshots,
             site_prefix=self.site_prefix,
@@ -4482,7 +4670,7 @@ class UniversalDocsConverter:
         if not nav:
             nav = copy.deepcopy(self.nav_tree)
 
-                                                                      
+       
         nav = filter_nav_to_known_urls(nav, set(self.pages.keys()), self.url_alias_to_canonical)
         nav = cleanup_nav_tree(nav)
         if not nav:
@@ -4494,7 +4682,7 @@ class UniversalDocsConverter:
             if self.canonicalize_page_url(url) not in nav_urls
         ]
         if missing_urls:
-                                                           
+           
             missing_urls.sort(key=lambda u: self.url_to_virtual_path[u].as_posix())
             other_children = [
                 NavNode(title=self.pages[url].title, href=url, kind="link")
@@ -4619,7 +4807,7 @@ class UniversalDocsConverter:
             json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8",
         )
 
-                                                                   
+   
     def is_allowed_page(self, url: str) -> bool:
         assert self.site_prefix is not None
         url = normalize_url(url)
@@ -4636,24 +4824,26 @@ class UniversalDocsConverter:
         if not parts.path.startswith(self.site_prefix):
             return False
 
-                                                                            
-                                                                               
-                                                
+       
+       
+       
         if self.strict_version_scope:
             if self.version_scope_prefix and not parts.path.startswith(self.version_scope_prefix):
                 return False
             if self.version_query_scope and not url_matches_query_scope(url, self.version_query_scope):
                 return False
 
-                                                                              
-                                                                              
-                                                       
+           
+           
+           
             if not self.version_scope_prefix:
                 rel = parts.path[len(self.site_prefix):].lstrip("/") if parts.path.startswith(self.site_prefix) else ""
                 first = rel.split("/", 1)[0] if rel else ""
                 if first and "/" in rel and looks_versionish(first):
                     return False
         return True
+
+
 def cleanup_nav_tree(nodes: List[NavNode]) -> List[NavNode]:
 
     cleaned: List[NavNode] = []
@@ -4719,8 +4909,8 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--targets-file", type=Path, help="Text file with one URL per line.")
     parser.add_argument("--out-dir", type=Path, default=Path("./converted_docs"),
                         help="Output directory (default: ./converted_docs).")
-    parser.add_argument("--delay", type=float, default=0.15,
-                        help="Minimum interval between requests to the same host (default: 0.15s).")
+    parser.add_argument("--delay", type=float, default=0.05,
+                        help="Minimum interval between requests to the same host (default: 0.05s).")
     parser.add_argument("--concurrency", type=int, default=DEFAULT_CONCURRENCY,
                         help=f"Number of concurrent fetches (default: {DEFAULT_CONCURRENCY}).")
     parser.add_argument("--max-pages", type=int, default=None,
@@ -4744,7 +4934,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--front-matter", action="store_true",
                         help="Include a YAML front matter block at the top of combined.md.")
     parser.add_argument("--profile",
-                        choices=["generic", "docusaurus", "sphinx", "mkdocs", "vitepress", "maven", "book"],
+                        choices=["generic", "docusaurus", "sphinx", "mkdocs", "vitepress", "maven", "book", "gitbook"],
                         default=None,
                         help="Force a site profile if auto-detection gets it wrong.")
     parser.add_argument("--follow-content-links", action="store_true",
@@ -4753,6 +4943,10 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--max-asset-mb", type=float,
                         default=DEFAULT_MAX_ASSET_BYTES / (1024 * 1024),
                         help="Maximum size of any single downloaded asset (default: 25 MB).")
+    parser.add_argument("--asset-concurrency", type=int, default=DEFAULT_ASSET_CONCURRENCY,
+                        help=f"Concurrent asset downloads during prefetch (default: {DEFAULT_ASSET_CONCURRENCY}).")
+    parser.add_argument("--no-assets", action="store_true",
+                        help="Do not download images/files; keep their absolute URLs in Markdown. Fastest mode.")
     parser.add_argument("--download-external-assets", action="store_true",
                         help="Download images/files from external hosts. Default: keep external URLs unchanged.")
     parser.add_argument("--loose-version-scope", action="store_true",
@@ -4789,7 +4983,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             browser_mode=args.browser,
             browser_timeout_ms=args.browser_timeout_ms,
             front_matter=args.front_matter,
-            profile_override=args.profile,
+            profile_override=("book" if args.profile == "gitbook" else args.profile),
             concurrency=args.concurrency,
             follow_content_links=args.follow_content_links,
             respect_robots=not args.no_robots,
@@ -4797,6 +4991,8 @@ def main(argv: Optional[List[str]] = None) -> int:
             cache_dir=args.cache_dir,
             use_cache=not args.no_cache,
             download_external_assets=args.download_external_assets,
+            asset_concurrency=args.asset_concurrency,
+            skip_assets=args.no_assets,
             strict_version_scope=not args.loose_version_scope,
         )
         try:
