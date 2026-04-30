@@ -1,0 +1,55 @@
+- title: Anakia
+  kind: category
+  children:
+  - title: General
+    kind: link
+    source_url: https://velocity.apache.org/anakia/1.0/
+    anchor: index
+    virtual_path: docs/index.md
+- title: Developers
+  kind: category
+  children:
+  - title: Changes
+    kind: category
+    source_url: https://velocity.apache.org/anakia/1.0/changes-report.html
+    anchor: changes-report
+    virtual_path: docs/changes-report.md
+  - title: Resolved Issues
+    kind: link
+    source_url: https://velocity.apache.org/anakia/1.0/jira-report.html
+    anchor: jira-report
+    virtual_path: docs/jira-report.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Reports
+    kind: category
+    source_url: https://velocity.apache.org/anakia/1.0/project-reports.html
+    anchor: project-reports
+    virtual_path: docs/project-reports.md
+    children:
+    - title: Changes Report
+      kind: category
+      source_url: https://velocity.apache.org/anakia/1.0/changes-report.html
+      anchor: changes-report
+      virtual_path: docs/changes-report.md
+    - title: Developer Activity
+      kind: link
+      source_url: https://velocity.apache.org/anakia/1.0/dev-activity.html
+      anchor: dev-activity
+      virtual_path: docs/dev-activity.md
+    - title: File Activity
+      kind: link
+      source_url: https://velocity.apache.org/anakia/1.0/file-activity.html
+      anchor: file-activity
+      virtual_path: docs/file-activity.md
+    - title: Jira Report
+      kind: link
+      source_url: https://velocity.apache.org/anakia/1.0/jira-report.html
+      anchor: jira-report
+      virtual_path: docs/jira-report.md
+    - title: Tag List
+      kind: link
+      source_url: https://velocity.apache.org/anakia/1.0/taglist.html
+      anchor: taglist
+      virtual_path: docs/taglist.md

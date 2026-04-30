@@ -1,0 +1,291 @@
+[
+  {
+    "title": "Documentation",
+    "kind": "category",
+    "source_url": "https://parquet.apache.org/docs/",
+    "anchor": "index",
+    "virtual_path": "docs/index.md",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "category",
+        "source_url": "https://parquet.apache.org/docs/overview/",
+        "anchor": "overview",
+        "virtual_path": "docs/overview/index.md",
+        "children": [
+          {
+            "title": "Motivation",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/overview/motivation/",
+            "anchor": "overview-motivation",
+            "virtual_path": "docs/overview/motivation/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Concepts",
+        "kind": "link",
+        "source_url": "https://parquet.apache.org/docs/concepts/",
+        "anchor": "concepts",
+        "virtual_path": "docs/concepts/index.md"
+      },
+      {
+        "title": "File Format",
+        "kind": "category",
+        "source_url": "https://parquet.apache.org/docs/file-format/",
+        "anchor": "file-format",
+        "virtual_path": "docs/file-format/index.md",
+        "children": [
+          {
+            "title": "Binary Protocol Extensions",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/file-format/binaryprotocolextensions/",
+            "anchor": "file-format-binaryprotocolextensions",
+            "virtual_path": "docs/file-format/binaryprotocolextensions/index.md"
+          },
+          {
+            "title": "Configurations",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/file-format/configurations/",
+            "anchor": "file-format-configurations",
+            "virtual_path": "docs/file-format/configurations/index.md"
+          },
+          {
+            "title": "Extensibility",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/file-format/extensibility/",
+            "anchor": "file-format-extensibility",
+            "virtual_path": "docs/file-format/extensibility/index.md"
+          },
+          {
+            "title": "Metadata",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/file-format/metadata/",
+            "anchor": "file-format-metadata",
+            "virtual_path": "docs/file-format/metadata/index.md"
+          },
+          {
+            "title": "Types",
+            "kind": "category",
+            "source_url": "https://parquet.apache.org/docs/file-format/types/",
+            "anchor": "file-format-types",
+            "virtual_path": "docs/file-format/types/index.md",
+            "children": [
+              {
+                "title": "Geospatial Type",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/file-format/types/geospatial/",
+                "anchor": "file-format-types-geospatial",
+                "virtual_path": "docs/file-format/types/geospatial/index.md"
+              },
+              {
+                "title": "Logical Types",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/file-format/types/logicaltypes/",
+                "anchor": "file-format-types-logicaltypes",
+                "virtual_path": "docs/file-format/types/logicaltypes/index.md"
+              },
+              {
+                "title": "Variant Shredding",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/file-format/types/variantshredding/",
+                "anchor": "file-format-types-variantshredding",
+                "virtual_path": "docs/file-format/types/variantshredding/index.md"
+              },
+              {
+                "title": "Variant Type",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/file-format/types/variantencoding/",
+                "anchor": "file-format-types-variantencoding",
+                "virtual_path": "docs/file-format/types/variantencoding/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Nested Encoding",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/file-format/nestedencoding/",
+            "anchor": "file-format-nestedencoding",
+            "virtual_path": "docs/file-format/nestedencoding/index.md"
+          },
+          {
+            "title": "Bloom Filter",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/file-format/bloomfilter/",
+            "anchor": "file-format-bloomfilter",
+            "virtual_path": "docs/file-format/bloomfilter/index.md"
+          },
+          {
+            "title": "Data Pages",
+            "kind": "category",
+            "source_url": "https://parquet.apache.org/docs/file-format/data-pages/",
+            "anchor": "file-format-data-pages",
+            "virtual_path": "docs/file-format/data-pages/index.md",
+            "children": [
+              {
+                "title": "Compression",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/file-format/data-pages/compression/",
+                "anchor": "file-format-data-pages-compression",
+                "virtual_path": "docs/file-format/data-pages/compression/index.md"
+              },
+              {
+                "title": "Encodings",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/file-format/data-pages/encodings/",
+                "anchor": "file-format-data-pages-encodings",
+                "virtual_path": "docs/file-format/data-pages/encodings/index.md"
+              },
+              {
+                "title": "Encryption",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/file-format/data-pages/encryption/",
+                "anchor": "file-format-data-pages-encryption",
+                "virtual_path": "docs/file-format/data-pages/encryption/index.md"
+              },
+              {
+                "title": "Checksumming",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/file-format/data-pages/checksumming/",
+                "anchor": "file-format-data-pages-checksumming",
+                "virtual_path": "docs/file-format/data-pages/checksumming/index.md"
+              },
+              {
+                "title": "Column Chunks",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/file-format/data-pages/columnchunks/",
+                "anchor": "file-format-data-pages-columnchunks",
+                "virtual_path": "docs/file-format/data-pages/columnchunks/index.md"
+              },
+              {
+                "title": "Error Recovery",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/file-format/data-pages/errorrecovery/",
+                "anchor": "file-format-data-pages-errorrecovery",
+                "virtual_path": "docs/file-format/data-pages/errorrecovery/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Nulls",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/file-format/nulls/",
+            "anchor": "file-format-nulls",
+            "virtual_path": "docs/file-format/nulls/index.md"
+          },
+          {
+            "title": "Page Index",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/file-format/pageindex/",
+            "anchor": "file-format-pageindex",
+            "virtual_path": "docs/file-format/pageindex/index.md"
+          },
+          {
+            "title": "Implementation status",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/file-format/implementationstatus/",
+            "anchor": "file-format-implementationstatus",
+            "virtual_path": "docs/file-format/implementationstatus/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Developer Guide",
+        "kind": "category",
+        "source_url": "https://parquet.apache.org/docs/contribution-guidelines/",
+        "anchor": "contribution-guidelines",
+        "virtual_path": "docs/contribution-guidelines/index.md",
+        "children": [
+          {
+            "title": "Sub-Projects",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/contribution-guidelines/sub-projects/",
+            "anchor": "contribution-guidelines-sub-projects",
+            "virtual_path": "docs/contribution-guidelines/sub-projects/index.md"
+          },
+          {
+            "title": "Building Parquet",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/contribution-guidelines/building/",
+            "anchor": "contribution-guidelines-building",
+            "virtual_path": "docs/contribution-guidelines/building/index.md"
+          },
+          {
+            "title": "Contributing to Parquet-Java",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/contribution-guidelines/contributing/",
+            "anchor": "contribution-guidelines-contributing",
+            "virtual_path": "docs/contribution-guidelines/contributing/index.md"
+          },
+          {
+            "title": "Releasing Parquet-Java",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/contribution-guidelines/releasing/",
+            "anchor": "contribution-guidelines-releasing",
+            "virtual_path": "docs/contribution-guidelines/releasing/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "kind": "category",
+        "source_url": "https://parquet.apache.org/docs/learning-resources/",
+        "anchor": "learning-resources",
+        "virtual_path": "docs/learning-resources/index.md",
+        "children": [
+          {
+            "title": "Blog Posts",
+            "kind": "link",
+            "source_url": "https://parquet.apache.org/docs/learning-resources/blog-posts/",
+            "anchor": "learning-resources-blog-posts",
+            "virtual_path": "docs/learning-resources/blog-posts/index.md"
+          },
+          {
+            "title": "Presentations",
+            "kind": "category",
+            "source_url": "https://parquet.apache.org/docs/learning-resources/presentations/",
+            "anchor": "learning-resources-presentations",
+            "virtual_path": "docs/learning-resources/presentations/index.md",
+            "children": [
+              {
+                "title": "Spark Summit 2020",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/learning-resources/presentations/spark-summit-2020/",
+                "anchor": "learning-resources-presentations-spark-summit-2020",
+                "virtual_path": "docs/learning-resources/presentations/spark-summit-2020/index.md"
+              },
+              {
+                "title": "Hadoop Summit 2014",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/learning-resources/presentations/hadoop-summit-2014/",
+                "anchor": "learning-resources-presentations-hadoop-summit-2014",
+                "virtual_path": "docs/learning-resources/presentations/hadoop-summit-2014/index.md"
+              },
+              {
+                "title": "#CONF 2014",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/learning-resources/presentations/conf-2014-parquet-summit-twitter/",
+                "anchor": "learning-resources-presentations-conf-2014-parquet-summit-twitter",
+                "virtual_path": "docs/learning-resources/presentations/conf-2014-parquet-summit-twitter/index.md"
+              },
+              {
+                "title": "Strata 2013",
+                "kind": "link",
+                "source_url": "https://parquet.apache.org/docs/learning-resources/presentations/strata-2013/",
+                "anchor": "learning-resources-presentations-strata-2013",
+                "virtual_path": "docs/learning-resources/presentations/strata-2013/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Apache Software Foundation (ASF)",
+        "kind": "category",
+        "source_url": "https://parquet.apache.org/docs/asf/",
+        "anchor": "asf",
+        "virtual_path": "docs/asf/index.md"
+      }
+    ]
+  }
+]

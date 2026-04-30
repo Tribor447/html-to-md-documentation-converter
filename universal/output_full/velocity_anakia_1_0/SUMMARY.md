@@ -1,0 +1,41 @@
+# Summary
+
+- Anakia
+  - [General](#index_2)
+  - [Download](https://velocity.apache.org/download.cgi)
+- Developers
+  - [License](#license)
+  - [Javadoc](https://velocity.apache.org/anakia/1.0/apidocs/index.html)
+  - [Changes](#changes-report)
+  - [Resolved Issues](#jira-report)
+  - [Source Code Repository](http://svn.apache.org/viewvc/velocity/anakia/trunk/)
+- Community
+  - [Wiki](http://wiki.apache.org/velocity/)
+  - [Get Involved](http://wiki.apache.org/velocity/GetInvolved)
+  - [Mailing Lists](https://velocity.apache.org/contact.html)
+- Velocity Development
+  - [Coding Standards](http://wiki.apache.org/velocity/CodeStandards)
+  - [Documentation Guidelines](http://wiki.apache.org/velocity/DocumentationGuidelines)
+  - [Issues](https://issues.apache.org/jira/browse/ANAKIA)
+  - [Who we are](https://velocity.apache.org/who-we-are.html)
+- Project Documentation
+  - [Project Information](#project-info)
+    - [Dependencies](#dependencies)
+    - [Issue Tracking](#issue-tracking)
+    - [Project License](#license)
+    - [Project Summary](#project-summary)
+    - [Source Repository](#source-repository)
+  - [Project Reports](#project-reports)
+    - [Change Log](https://velocity.apache.org/anakia/1.0/changelog.html)
+    - [Changes Report](#changes-report)
+    - [Developer Activity](#dev-activity)
+    - [File Activity](#file-activity)
+    - [JavaDocs](https://velocity.apache.org/anakia/1.0/apidocs/index.html)
+    - [Jira Report](#jira-report)
+    - [Source Xref](https://velocity.apache.org/anakia/1.0/xref/index.html)
+    - [Tag List](#taglist)
+    - [Test Source Xref](https://velocity.apache.org/anakia/1.0/xref-test/index.html)
+- [Apache Velocity](https://velocity.apache.org/)
+- [Velocity News Feed](https://velocity.apache.org/rss/news.rss)
+- Other pages
+  - [Apache Anakia - Anakia](#index)

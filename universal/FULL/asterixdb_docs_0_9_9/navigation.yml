@@ -1,0 +1,141 @@
+- title: Get Started - Installation
+  kind: category
+  children:
+  - title: 'Option 1: using NCService'
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/ncservice.html
+    anchor: ncservice
+    virtual_path: docs/ncservice.md
+  - title: 'Option 2: using Ansible'
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/ansible.html
+    anchor: ansible
+    virtual_path: docs/ansible.md
+  - title: 'Option 3: using Amazon Web Services'
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/aws.html
+    anchor: aws
+    virtual_path: docs/aws.md
+- title: AsterixDB Primer
+  kind: category
+  children:
+  - title: Using SQL++
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/sqlpp/primer-sqlpp.html
+    anchor: sqlpp-primer-sqlpp
+    virtual_path: docs/sqlpp/primer-sqlpp.md
+- title: Data Model
+  kind: category
+  children:
+  - title: The Asterix Data Model
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/datamodel.html
+    anchor: datamodel
+    virtual_path: docs/datamodel.md
+- title: Queries
+  kind: category
+  children:
+  - title: The SQL++ Query Language
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/sqlpp/manual.html
+    anchor: sqlpp-manual
+    virtual_path: docs/sqlpp/manual.md
+  - title: Raw SQL++ Grammar
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/SQLPP.html
+    anchor: sqlpp
+    virtual_path: docs/SQLPP.md
+  - title: Builtin Functions
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/sqlpp/builtins.html
+    anchor: sqlpp-builtins
+    virtual_path: docs/sqlpp/builtins.md
+- title: API/SDK
+  kind: category
+  children:
+  - title: HTTP API
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/api.html
+    anchor: api
+    virtual_path: docs/api.md
+  - title: CSV Output
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/csv.html
+    anchor: csv
+    virtual_path: docs/csv.md
+- title: Advanced Features
+  kind: category
+  children:
+  - title: Accessing External Data
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/aql/externaldata.html
+    anchor: aql-externaldata
+    virtual_path: docs/aql/externaldata.md
+  - title: Data Ingestion with Feeds
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/feeds.html
+    anchor: feeds
+    virtual_path: docs/feeds.md
+  - title: User Defined Functions
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/udf.html
+    anchor: udf
+    virtual_path: docs/udf.md
+  - title: Filter-Based LSM Index Acceleration
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/sqlpp/filters.html
+    anchor: sqlpp-filters
+    virtual_path: docs/sqlpp/filters.md
+  - title: Support of Full-text Queries
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/sqlpp/fulltext.html
+    anchor: sqlpp-fulltext
+    virtual_path: docs/sqlpp/fulltext.md
+  - title: Support of Similarity Queries
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/sqlpp/similarity.html
+    anchor: sqlpp-similarity
+    virtual_path: docs/sqlpp/similarity.md
+  - title: GIS Support Overview
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/geo/quickstart.html
+    anchor: geo-quickstart
+    virtual_path: docs/geo/quickstart.md
+  - title: GIS Functions
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/geo/functions.html
+    anchor: geo-functions
+    virtual_path: docs/geo/functions.md
+  - title: Support of Interval Joins
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/interval_join.html
+    anchor: interval_join
+    virtual_path: docs/interval_join.md
+  - title: Support of Array Indexes
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/sqlpp/arrayindex.html
+    anchor: sqlpp-arrayindex
+    virtual_path: docs/sqlpp/arrayindex.md
+- title: Deprecated
+  kind: category
+  children:
+  - title: 'AsterixDB Primer: Using AQL'
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/aql/primer.html
+    anchor: aql-primer
+    virtual_path: docs/aql/primer.md
+  - title: 'Queries: The Asterix Query Language (AQL)'
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/aql/manual.html
+    anchor: aql-manual
+    virtual_path: docs/aql/manual.md
+  - title: 'Queries: Builtin Functions (AQL)'
+    kind: link
+    source_url: https://asterixdb.apache.org/docs/0.9.9/aql/builtins.html
+    anchor: aql-builtins
+    virtual_path: docs/aql/builtins.md
+- title: AsterixDB
+  kind: link
+  source_url: https://asterixdb.apache.org/docs/0.9.9/index.html
+  anchor: index
+  virtual_path: docs/index.md

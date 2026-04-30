@@ -1,0 +1,130 @@
+[
+  {
+    "title": "BSF",
+    "kind": "category",
+    "children": [
+      {
+        "title": "About",
+        "kind": "category",
+        "source_url": "https://commons.apache.org/proper/commons-bsf/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "News",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-bsf/bsfnews.html",
+        "anchor": "bsfnews",
+        "virtual_path": "docs/bsfnews.md"
+      },
+      {
+        "title": "Documentation",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-bsf/manual.html",
+        "anchor": "manual",
+        "virtual_path": "docs/manual.md"
+      },
+      {
+        "title": "FAQ",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-bsf/faq.html",
+        "anchor": "faq",
+        "virtual_path": "docs/faq.md"
+      },
+      {
+        "title": "Related projects",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-bsf/projects.html",
+        "anchor": "projects",
+        "virtual_path": "docs/projects.md"
+      },
+      {
+        "title": "Resources",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-bsf/resources.html",
+        "anchor": "resources",
+        "virtual_path": "docs/resources.md"
+      },
+      {
+        "title": "Having a problem?",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-bsf/problems.html",
+        "anchor": "problems",
+        "virtual_path": "docs/problems.md"
+      }
+    ]
+  },
+  {
+    "title": "Project Documentation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Project Information",
+        "kind": "category",
+        "source_url": "https://commons.apache.org/proper/commons-bsf/project-info.html",
+        "anchor": "project-info",
+        "virtual_path": "docs/project-info.md",
+        "children": [
+          {
+            "title": "About",
+            "kind": "category",
+            "source_url": "https://commons.apache.org/proper/commons-bsf/index.html",
+            "anchor": "index",
+            "virtual_path": "docs/index.md"
+          },
+          {
+            "title": "Continuous Integration",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-bsf/integration.html",
+            "anchor": "integration",
+            "virtual_path": "docs/integration.md"
+          },
+          {
+            "title": "Issue Tracking",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-bsf/issue-tracking.html",
+            "anchor": "issue-tracking",
+            "virtual_path": "docs/issue-tracking.md"
+          },
+          {
+            "title": "Project Summary",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-bsf/project-summary.html",
+            "anchor": "project-summary",
+            "virtual_path": "docs/project-summary.md"
+          }
+        ]
+      },
+      {
+        "title": "Project Reports",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-bsf/project-reports.html",
+        "anchor": "project-reports",
+        "virtual_path": "docs/project-reports.md",
+        "children": [
+          {
+            "title": "JDepend",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-bsf/jdepend-report.html",
+            "anchor": "jdepend-report",
+            "virtual_path": "docs/jdepend-report.md"
+          },
+          {
+            "title": "RAT Report",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-bsf/rat-report.html",
+            "anchor": "rat-report",
+            "virtual_path": "docs/rat-report.md"
+          },
+          {
+            "title": "Surefire Report",
+            "kind": "category",
+            "source_url": "https://commons.apache.org/proper/commons-bsf/surefire-report.html",
+            "anchor": "surefire-report",
+            "virtual_path": "docs/surefire-report.md"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,540 @@
+- title: Introduction
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/contents.html
+  anchor: docs-contents
+  virtual_path: docs/docs/contents.md
+- title: Installation Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/installationguide.html
+  anchor: docs-installationguide
+  virtual_path: docs/docs/installationguide.md
+- title: Add-on Modules
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/modules/index.html
+  anchor: modules
+  virtual_path: docs/modules/index.md
+- title: Application Server Specific Configuration Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/app_server.html
+  anchor: docs-app_server
+  virtual_path: docs/docs/app_server.md
+- title: Quick Start Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/quickstartguide.html
+  anchor: docs-quickstartguide
+  virtual_path: docs/docs/quickstartguide.md
+- title: User's Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/userguide.html
+  anchor: docs-userguide
+  virtual_path: docs/docs/userguide.md
+- title: Advanced User's Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/adv-userguide.html
+  anchor: docs-adv-userguide
+  virtual_path: docs/docs/adv-userguide.md
+- title: Configuration Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/axis2config.html
+  anchor: docs-axis2config
+  virtual_path: docs/docs/axis2config.md
+- title: Web Administrator's Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/webadminguide.html
+  anchor: docs-webadminguide
+  virtual_path: docs/docs/webadminguide.md
+- title: Architecture Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/Axis2ArchitectureGuide.html
+  anchor: docs-axis2architectureguide
+  virtual_path: docs/docs/Axis2ArchitectureGuide.md
+- title: JAXWS Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/jaxws-guide.html
+  anchor: docs-jaxws-guide
+  virtual_path: docs/docs/jaxws-guide.md
+- title: POJO Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/pojoguide.html
+  anchor: docs-pojoguide
+  virtual_path: docs/docs/pojoguide.md
+- title: Spring Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/spring.html
+  anchor: docs-spring
+  virtual_path: docs/docs/spring.md
+- title: ModulesGuide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/modules.html
+  anchor: docs-modules
+  virtual_path: docs/docs/modules.md
+- title: Clustering Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/clustering-guide.html
+  anchor: docs-clustering-guide
+  virtual_path: docs/docs/clustering-guide.md
+- title: ADB Data Binding
+  kind: category
+  children:
+  - title: '14.1'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/adb/adb-howto.html
+    anchor: docs-adb-adb-howto
+    virtual_path: docs/docs/adb/adb-howto.md
+  - title: '14.2'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/adb/adb-advanced.html
+    anchor: docs-adb-adb-advanced
+    virtual_path: docs/docs/adb/adb-advanced.md
+  - title: '14.3'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/adb/adb-codegen-integration.html
+    anchor: docs-adb-adb-codegen-integration
+    virtual_path: docs/docs/adb/adb-codegen-integration.md
+  - title: '14.4'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/adb/adb-tweaking.html
+    anchor: docs-adb-adb-tweaking
+    virtual_path: docs/docs/adb/adb-tweaking.md
+- title: JiBX Data Binding
+  kind: category
+  children:
+  - title: '15.1'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/jibx/jibx-codegen-integration.html
+    anchor: docs-jibx-jibx-codegen-integration
+    virtual_path: docs/docs/jibx/jibx-codegen-integration.md
+  - title: '15.2'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/jibx/jibx-doclit-example.html
+    anchor: docs-jibx-jibx-doclit-example
+    virtual_path: docs/docs/jibx/jibx-doclit-example.md
+  - title: '15.3'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/jibx/jibx-unwrapped-example.html
+    anchor: docs-jibx-jibx-unwrapped-example
+    virtual_path: docs/docs/jibx/jibx-unwrapped-example.md
+- title: Advanced
+  kind: category
+  children:
+  - title: '16.1'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/xmlbased-server.html
+    anchor: docs-xmlbased-server
+    virtual_path: docs/docs/xmlbased-server.md
+  - title: '16.2'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/dii.html
+    anchor: docs-dii
+    virtual_path: docs/docs/dii.md
+- title: Attachments/MTOM Guide
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/mtom-guide.html
+  anchor: docs-mtom-guide
+  virtual_path: docs/docs/mtom-guide.md
+- title: Transports
+  kind: category
+  children:
+  - title: '18.1'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/http-transport.html
+    anchor: docs-http-transport
+    virtual_path: docs/docs/http-transport.md
+  - title: '18.2'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/servlet-transport.html
+    anchor: docs-servlet-transport
+    virtual_path: docs/docs/servlet-transport.md
+  - title: '18.3'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/jms-transport.html
+    anchor: docs-jms-transport
+    virtual_path: docs/docs/jms-transport.md
+  - title: '18.4'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/tcp-transport.html
+    anchor: docs-tcp-transport
+    virtual_path: docs/docs/tcp-transport.md
+  - title: '18.5'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/mail-transport.html
+    anchor: docs-mail-transport
+    virtual_path: docs/docs/mail-transport.md
+  - title: '18.6'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/udp-transport.html
+    anchor: docs-udp-transport
+    virtual_path: docs/docs/udp-transport.md
+  - title: '18.7'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/xmpp-transport.html
+    anchor: docs-xmpp-transport
+    virtual_path: docs/docs/xmpp-transport.md
+  - title: '18.8'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/transport_howto.html
+    anchor: docs-transport_howto
+    virtual_path: docs/docs/transport_howto.md
+- title: WS-Policy Support
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/WS_policy.html
+  anchor: docs-ws_policy
+  virtual_path: docs/docs/WS_policy.md
+- title: REST Support
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/rest-ws.html
+  anchor: docs-rest-ws
+  virtual_path: docs/docs/rest-ws.md
+- title: JSON support
+  kind: category
+  children:
+  - title: '23.1'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/json_support.html
+    anchor: docs-json_support
+    virtual_path: docs/docs/json_support.md
+  - title: '23.2'
+    kind: category
+    source_url: https://axis.apache.org/axis2/java/core/docs/json_support_gson.html
+    anchor: docs-json_support_gson
+    virtual_path: docs/docs/json_support_gson.md
+    children:
+    - title: Native Approach
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/docs/json_support_gson.html
+      anchor: docs-json_support_gson
+      virtual_path: docs/docs/json_support_gson.md
+    - title: XML Stream API Base Approach
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/docs/json_support_gson.html
+      anchor: docs-json_support_gson
+      virtual_path: docs/docs/json_support_gson.md
+    - title: User Guide
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/docs/json_gson_user_guide.html
+      anchor: docs-json_gson_user_guide
+      virtual_path: docs/docs/json_gson_user_guide.md
+    - title: JSON and REST with Spring Boot User's Guide
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/docs/json-springboot-userguide.html
+      anchor: docs-json-springboot-userguide
+      virtual_path: docs/docs/json-springboot-userguide.md
+- title: Exposing CORBA Services as Web Services
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/corba-deployer.html
+  anchor: docs-corba-deployer
+  virtual_path: docs/docs/corba-deployer.md
+- title: Guide to using EJB Provider in Axis2
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/ejb-provider.html
+  anchor: docs-ejb-provider
+  virtual_path: docs/docs/ejb-provider.md
+- title: SOAP Monitor
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/soapmonitor-module.html
+  anchor: docs-soapmonitor-module
+  virtual_path: docs/docs/soapmonitor-module.md
+- title: Command Line Tools
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/reference.html
+  anchor: docs-reference
+  virtual_path: docs/docs/reference.md
+- title: Tools/Plug-ins
+  kind: category
+  source_url: https://axis.apache.org/axis2/java/core/tools/index.html
+  anchor: tools
+  virtual_path: docs/tools/index.md
+  children:
+  - title: '25.1'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/tools/CodegenToolReference.html
+    anchor: tools-codegentoolreference
+    virtual_path: docs/tools/CodegenToolReference.md
+  - title: '25.2'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/tools/idea/Idea_plug-in_userguide.html
+    anchor: tools-idea-idea_plug-in_userguide
+    virtual_path: docs/tools/idea/Idea_plug-in_userguide.md
+  - title: '25.3'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/tools/eclipse/servicearchiver-plugin.html
+    anchor: tools-eclipse-servicearchiver-plugin
+    virtual_path: docs/tools/eclipse/servicearchiver-plugin.md
+  - title: '25.4'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/tools/eclipse/wsdl2java-plugin.html
+    anchor: tools-eclipse-wsdl2java-plugin
+    virtual_path: docs/tools/eclipse/wsdl2java-plugin.md
+  - title: '25.5'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/tools/maven-plugins/maven-aar-plugin.html
+    anchor: tools-maven-plugins-maven-aar-plugin
+    virtual_path: docs/tools/maven-plugins/maven-aar-plugin.md
+  - title: '25.6'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/tools/maven-plugins/maven-java2wsdl-plugin.html
+    anchor: tools-maven-plugins-maven-java2wsdl-plugin
+    virtual_path: docs/tools/maven-plugins/maven-java2wsdl-plugin.md
+  - title: '25.7'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/tools/maven-plugins/axis2-wsdl2code-maven-plugin/index.html
+    anchor: tools-maven-plugins-axis2-wsdl2code-maven-plugin
+    virtual_path: docs/tools/maven-plugins/axis2-wsdl2code-maven-plugin/index.md
+- title: Migration Guide (from Axis1)
+  kind: link
+  source_url: https://axis.apache.org/axis2/java/core/docs/migration.html
+  anchor: docs-migration
+  virtual_path: docs/docs/migration.md
+- title: Design Notes
+  kind: category
+  children:
+  - title: '27.1'
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/Axis2-rpc-support.html
+    anchor: docs-axis2-rpc-support
+    virtual_path: docs/docs/Axis2-rpc-support.md
+- title: Axis2/Java
+  kind: category
+  children:
+  - title: Home
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Downloads
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/download.html
+    anchor: download
+    virtual_path: docs/download.md
+  - title: Release Notes
+    kind: category
+    children:
+    - title: 1.6.1
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.6.1.html
+    - title: 1.6.2
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.6.2.html
+    - title: 1.6.3
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.6.3.html
+    - title: 1.6.4
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.6.4.html
+    - title: 1.7.0
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.7.0.html
+    - title: 1.7.1
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.7.1.html
+    - title: 1.7.2
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.7.2.html
+    - title: 1.7.3
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.7.3.html
+    - title: 1.7.4
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.7.4.html
+    - title: 1.7.5
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.7.5.html
+    - title: 1.7.6
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.7.6.html
+    - title: 1.7.7
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.7.7.html
+    - title: 1.7.8
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.7.8.html
+    - title: 1.7.9
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.7.9.html
+    - title: 1.8.0
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.8.0.html
+    - title: 1.8.1
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.8.1.html
+    - title: 1.8.2
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/1.8.2.html
+    - title: 2.0.0
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/release-notes/2.0.0.html
+  - title: Modules
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/modules/index.html
+    anchor: modules
+    virtual_path: docs/modules/index.md
+  - title: Tools
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/tools/index.html
+    anchor: tools
+    virtual_path: docs/tools/index.md
+- title: Documentation
+  kind: category
+  children:
+  - title: Table of Contents
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/toc.html
+    anchor: docs-toc
+    virtual_path: docs/docs/toc.md
+  - title: Installation Guide
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/installationguide.html
+    anchor: docs-installationguide
+    virtual_path: docs/docs/installationguide.md
+  - title: QuickStart Guide
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/quickstartguide.html
+    anchor: docs-quickstartguide
+    virtual_path: docs/docs/quickstartguide.md
+  - title: User Guide
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/userguide.html
+    anchor: docs-userguide
+    virtual_path: docs/docs/userguide.md
+  - title: JAXWS Guide
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/jaxws-guide.html
+    anchor: docs-jaxws-guide
+    virtual_path: docs/docs/jaxws-guide.md
+  - title: POJO Guide
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/pojoguide.html
+    anchor: docs-pojoguide
+    virtual_path: docs/docs/pojoguide.md
+  - title: Spring Guide
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/spring.html
+    anchor: docs-spring
+    virtual_path: docs/docs/spring.md
+  - title: Web Administrator's Guide
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/webadminguide.html
+    anchor: docs-webadminguide
+    virtual_path: docs/docs/webadminguide.md
+  - title: Migration Guide (from Axis1)
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/docs/migration.html
+    anchor: docs-migration
+    virtual_path: docs/docs/migration.md
+- title: Resources
+  kind: category
+  children:
+  - title: FAQ
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/faq.html
+    anchor: faq
+    virtual_path: docs/faq.md
+  - title: Articles
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/articles.html
+    anchor: articles
+    virtual_path: docs/articles.md
+  - title: Wiki
+    kind: link
+    source_url: http://wiki.apache.org/ws/FrontPage/Axis2/
+  - title: Reference Library
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/refLib.html
+    anchor: reflib
+    virtual_path: docs/refLib.md
+  - title: Online Java Docs
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/apidocs/index.html
+- title: Get Involved
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/overview.html
+    anchor: overview
+    virtual_path: docs/overview.md
+  - title: Checkout the Source
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/git.html
+    anchor: git
+    virtual_path: docs/git.md
+  - title: Mailing Lists
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/mail-lists.html
+    anchor: mail-lists
+    virtual_path: docs/mail-lists.md
+  - title: Release Process
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/release-process.html
+    anchor: release-process
+    virtual_path: docs/release-process.md
+  - title: Developer Guidelines
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/guidelines.html
+    anchor: guidelines
+    virtual_path: docs/guidelines.md
+  - title: Build the Site
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/siteHowTo.html
+    anchor: sitehowto
+    virtual_path: docs/siteHowTo.md
+- title: Project Information
+  kind: category
+  children:
+  - title: Project Team
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/team-list.html
+    anchor: team-list
+    virtual_path: docs/team-list.md
+  - title: Issue Tracking
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/issue-tracking.html
+    anchor: issue-tracking
+    virtual_path: docs/issue-tracking.md
+  - title: Source Code
+    kind: link
+    source_url: https://github.com/apache/axis-axis2-java-core
+  - title: Acknowledgements
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/thanks.html
+    anchor: thanks
+    virtual_path: docs/thanks.md
+- title: Apache
+  kind: category
+  children:
+  - title: License
+    kind: link
+    source_url: http://www.apache.org/licenses/LICENSE-2.0.html
+  - title: Sponsorship
+    kind: link
+    source_url: http://www.apache.org/foundation/sponsorship.html
+  - title: Thanks
+    kind: link
+    source_url: http://www.apache.org/foundation/thanks.html
+  - title: Security
+    kind: link
+    source_url: http://www.apache.org/security/
+- title: Overview
+  kind: category
+  children:
+  - title: About
+    kind: category
+    source_url: https://axis.apache.org/axis2/java/core/tools/maven-plugins/axis2-wsdl2code-maven-plugin/index.html
+    anchor: tools-maven-plugins-axis2-wsdl2code-maven-plugin
+    virtual_path: docs/tools/maven-plugins/axis2-wsdl2code-maven-plugin/index.md
+  - title: Usage
+    kind: link
+    source_url: https://axis.apache.org/axis2/java/core/tools/maven-plugins/axis2-wsdl2code-maven-plugin/usage.html
+    anchor: tools-maven-plugins-axis2-wsdl2code-maven-plugin-usage
+    virtual_path: docs/tools/maven-plugins/axis2-wsdl2code-maven-plugin/usage.md
+  - title: Plugin Documentation
+    kind: category
+    source_url: https://axis.apache.org/axis2/java/core/tools/maven-plugins/axis2-wsdl2code-maven-plugin/plugin-info.html
+    anchor: tools-maven-plugins-axis2-wsdl2code-maven-plugin-plugin-info
+    virtual_path: docs/tools/maven-plugins/axis2-wsdl2code-maven-plugin/plugin-info.md
+    children:
+    - title: wsdl2code
+      kind: link
+      source_url: https://axis.apache.org/axis2/java/core/tools/maven-plugins/axis2-wsdl2code-maven-plugin/wsdl2code-mojo.html
+      anchor: tools-maven-plugins-axis2-wsdl2code-maven-plugin-wsdl2code-mojo
+      virtual_path: docs/tools/maven-plugins/axis2-wsdl2code-maven-plugin/wsdl2code-mojo.md

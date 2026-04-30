@@ -1,0 +1,631 @@
+[
+  {
+    "title": "Docs",
+    "kind": "link",
+    "source_url": "https://brpc.apache.org/docs/",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "ASF",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/asf/",
+        "anchor": "asf",
+        "virtual_path": "docs/asf/index.md"
+      },
+      {
+        "title": "Performance benchmark",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/benchmark/",
+        "anchor": "benchmark",
+        "virtual_path": "docs/benchmark/index.md"
+      },
+      {
+        "title": "Blog",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/blogs/",
+        "anchor": "blogs",
+        "virtual_path": "docs/blogs/index.md"
+      },
+      {
+        "title": "bthread or not",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/bthread/bthread-or-not/",
+        "anchor": "bthread-bthread-or-not",
+        "virtual_path": "docs/bthread/bthread-or-not/index.md"
+      },
+      {
+        "title": "bthread",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/bthread/bthread/",
+        "anchor": "bthread-bthread",
+        "virtual_path": "docs/bthread/bthread/index.md"
+      },
+      {
+        "title": "Execution Queue",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/bthread/execution-queue/",
+        "anchor": "bthread-execution-queue",
+        "virtual_path": "docs/bthread/execution-queue/index.md"
+      },
+      {
+        "title": "bthread",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/bthread/",
+        "anchor": "bthread",
+        "virtual_path": "docs/bthread/index.md"
+      },
+      {
+        "title": "thread-local",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/bthread/thread-local/",
+        "anchor": "bthread-thread-local",
+        "virtual_path": "docs/bthread/thread-local/index.md"
+      },
+      {
+        "title": "builtin services",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/builtin-services/buildin_services/",
+        "anchor": "builtin-services-buildin_services",
+        "virtual_path": "docs/builtin-services/buildin_services/index.md"
+      },
+      {
+        "title": "connections",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/builtin-services/connections/",
+        "anchor": "builtin-services-connections",
+        "virtual_path": "docs/builtin-services/connections/index.md"
+      },
+      {
+        "title": "contention profiler",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/builtin-services/contention_profiler/",
+        "anchor": "builtin-services-contention_profiler",
+        "virtual_path": "docs/builtin-services/contention_profiler/index.md"
+      },
+      {
+        "title": "cpu profiler",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/builtin-services/cpu_profiler/",
+        "anchor": "builtin-services-cpu_profiler",
+        "virtual_path": "docs/builtin-services/cpu_profiler/index.md"
+      },
+      {
+        "title": "flags",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/builtin-services/flags/",
+        "anchor": "builtin-services-flags",
+        "virtual_path": "docs/builtin-services/flags/index.md"
+      },
+      {
+        "title": "heap profiler",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/builtin-services/heap_profiler/",
+        "anchor": "builtin-services-heap_profiler",
+        "virtual_path": "docs/builtin-services/heap_profiler/index.md"
+      },
+      {
+        "title": "Builtin Services",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/builtin-services/",
+        "anchor": "builtin-services",
+        "virtual_path": "docs/builtin-services/index.md"
+      },
+      {
+        "title": "rpcz",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/builtin-services/rpcz/",
+        "anchor": "builtin-services-rpcz",
+        "virtual_path": "docs/builtin-services/rpcz/index.md"
+      },
+      {
+        "title": "status",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/builtin-services/status/",
+        "anchor": "builtin-services-status",
+        "virtual_path": "docs/builtin-services/status/index.md"
+      },
+      {
+        "title": "vars",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/builtin-services/vars/",
+        "anchor": "builtin-services-vars",
+        "virtual_path": "docs/builtin-services/vars/index.md"
+      },
+      {
+        "title": "bvar c++",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/bvar/bvar-c++/",
+        "anchor": "bvar-bvar-c",
+        "virtual_path": "docs/bvar/bvar-c++/index.md"
+      },
+      {
+        "title": "bvar",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/bvar/bvar/",
+        "anchor": "bvar-bvar",
+        "virtual_path": "docs/bvar/bvar/index.md"
+      },
+      {
+        "title": "bvar",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/bvar/",
+        "anchor": "bvar",
+        "virtual_path": "docs/bvar/index.md"
+      },
+      {
+        "title": "bRPC Training Materials",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/c++-base/brpc-training-materials/",
+        "anchor": "c-base-brpc-training-materials",
+        "virtual_path": "docs/c++-base/brpc-training-materials/index.md"
+      },
+      {
+        "title": "FlatMap",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/c++-base/flatmap/",
+        "anchor": "c-base-flatmap",
+        "virtual_path": "docs/c++-base/flatmap/index.md"
+      },
+      {
+        "title": "C++ Base",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/c++-base/",
+        "anchor": "c-base",
+        "virtual_path": "docs/c++-base/index.md"
+      },
+      {
+        "title": "IOBuf",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/c++-base/iobuf/",
+        "anchor": "c-base-iobuf",
+        "virtual_path": "docs/c++-base/iobuf/index.md"
+      },
+      {
+        "title": "Streaming Log",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/c++-base/streaming-log/",
+        "anchor": "c-base-streaming-log",
+        "virtual_path": "docs/c++-base/streaming-log/index.md"
+      },
+      {
+        "title": "Access gRPC",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/access-grpc/",
+        "anchor": "client-access-grpc",
+        "virtual_path": "docs/client/access-grpc/index.md"
+      },
+      {
+        "title": "Access http:h2",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/access-httph2/",
+        "anchor": "client-access-httph2",
+        "virtual_path": "docs/client/access-httph2/index.md"
+      },
+      {
+        "title": "Access memcached",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/access-memcached/",
+        "anchor": "client-access-memcached",
+        "virtual_path": "docs/client/access-memcached/index.md"
+      },
+      {
+        "title": "Access redis",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/access-redis/",
+        "anchor": "client-access-redis",
+        "virtual_path": "docs/client/access-redis/index.md"
+      },
+      {
+        "title": "Access thrift",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/access-thrift/",
+        "anchor": "client-access-thrift",
+        "virtual_path": "docs/client/access-thrift/index.md"
+      },
+      {
+        "title": "Access UB",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/access-ub/",
+        "anchor": "client-access-ub",
+        "virtual_path": "docs/client/access-ub/index.md"
+      },
+      {
+        "title": "Backup request",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/backup-request/",
+        "anchor": "client-backup-request",
+        "virtual_path": "docs/client/backup-request/index.md"
+      },
+      {
+        "title": "Basics",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/basics/",
+        "anchor": "client-basics",
+        "virtual_path": "docs/client/basics/index.md"
+      },
+      {
+        "title": "Combo channels",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/combo-channels/",
+        "anchor": "client-combo-channels",
+        "virtual_path": "docs/client/combo-channels/index.md"
+      },
+      {
+        "title": "Dummy server",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/dummy-server/",
+        "anchor": "client-dummy-server",
+        "virtual_path": "docs/client/dummy-server/index.md"
+      },
+      {
+        "title": "Error code",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/error-code/",
+        "anchor": "client-error-code",
+        "virtual_path": "docs/client/error-code/index.md"
+      },
+      {
+        "title": "Client",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/",
+        "anchor": "client",
+        "virtual_path": "docs/client/index.md"
+      },
+      {
+        "title": "Streaming RPC",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/client/streaming-rpc/",
+        "anchor": "client-streaming-rpc",
+        "virtual_path": "docs/client/streaming-rpc/index.md"
+      },
+      {
+        "title": "Committer Guide",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/community/committer/",
+        "anchor": "community-committer",
+        "virtual_path": "docs/community/committer/index.md"
+      },
+      {
+        "title": "Committers",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/community/committers/",
+        "anchor": "community-committers",
+        "virtual_path": "docs/community/committers/index.md"
+      },
+      {
+        "title": "Community",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/community/community/",
+        "anchor": "community-community",
+        "virtual_path": "docs/community/community/index.md"
+      },
+      {
+        "title": "Contribute Guide",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/community/contributing/",
+        "anchor": "community-contributing",
+        "virtual_path": "docs/community/contributing/index.md"
+      },
+      {
+        "title": "Community",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/community/",
+        "anchor": "community",
+        "virtual_path": "docs/community/index.md"
+      },
+      {
+        "title": "Mailing List",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/community/mailing_list/",
+        "anchor": "community-mailing_list",
+        "virtual_path": "docs/community/mailing_list/index.md"
+      },
+      {
+        "title": "Monthly Meeting",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/community/monthly-meeting/",
+        "anchor": "community-monthly-meeting",
+        "virtual_path": "docs/community/monthly-meeting/index.md"
+      },
+      {
+        "title": "On Call",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/community/on-call/",
+        "anchor": "community-on-call",
+        "virtual_path": "docs/community/on-call/index.md"
+      },
+      {
+        "title": "CVE-2023-31039",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/community/security/cve-2023-31039-bugfix/",
+        "anchor": "community-security-cve-2023-31039-bugfix",
+        "virtual_path": "docs/community/security/cve-2023-31039-bugfix/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/community/security/",
+        "anchor": "community-security",
+        "virtual_path": "docs/community/security/index.md"
+      },
+      {
+        "title": "Download",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/downloadbrpc/",
+        "anchor": "downloadbrpc",
+        "virtual_path": "docs/downloadbrpc/index.md"
+      },
+      {
+        "title": "FAQ",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/faq/",
+        "anchor": "faq",
+        "virtual_path": "docs/faq/index.md"
+      },
+      {
+        "title": "Getting started",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/getting_started/",
+        "anchor": "getting_started",
+        "virtual_path": "docs/getting_started/index.md"
+      },
+      {
+        "title": "bRPC overview",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/overview/",
+        "anchor": "overview",
+        "virtual_path": "docs/overview/index.md"
+      },
+      {
+        "title": "Atomic instructions",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/rpc-in-depth/atomic-instructions/",
+        "anchor": "rpc-in-depth-atomic-instructions",
+        "virtual_path": "docs/rpc-in-depth/atomic-instructions/index.md"
+      },
+      {
+        "title": "bthread_id",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/rpc-in-depth/bthread_id/",
+        "anchor": "rpc-in-depth-bthread_id",
+        "virtual_path": "docs/rpc-in-depth/bthread_id/index.md"
+      },
+      {
+        "title": "Consistent Hashing",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/rpc-in-depth/consistent-hashing/",
+        "anchor": "rpc-in-depth-consistent-hashing",
+        "virtual_path": "docs/rpc-in-depth/consistent-hashing/index.md"
+      },
+      {
+        "title": "RPC in depth",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/rpc-in-depth/",
+        "anchor": "rpc-in-depth",
+        "virtual_path": "docs/rpc-in-depth/index.md"
+      },
+      {
+        "title": "IO",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/rpc-in-depth/io/",
+        "anchor": "rpc-in-depth-io",
+        "virtual_path": "docs/rpc-in-depth/io/index.md"
+      },
+      {
+        "title": "Load Balancing",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/rpc-in-depth/load-balancing/",
+        "anchor": "rpc-in-depth-load-balancing",
+        "virtual_path": "docs/rpc-in-depth/load-balancing/index.md"
+      },
+      {
+        "title": "Locality-aware",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/rpc-in-depth/locality-aware/",
+        "anchor": "rpc-in-depth-locality-aware",
+        "virtual_path": "docs/rpc-in-depth/locality-aware/index.md"
+      },
+      {
+        "title": "Memory Management",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/rpc-in-depth/memory-management/",
+        "anchor": "rpc-in-depth-memory-management",
+        "virtual_path": "docs/rpc-in-depth/memory-management/index.md"
+      },
+      {
+        "title": "New Protocol",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/rpc-in-depth/new-protocol/",
+        "anchor": "rpc-in-depth-new-protocol",
+        "virtual_path": "docs/rpc-in-depth/new-protocol/index.md"
+      },
+      {
+        "title": "Threading Overview",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/rpc-in-depth/threading-overview/",
+        "anchor": "rpc-in-depth-threading-overview",
+        "virtual_path": "docs/rpc-in-depth/threading-overview/index.md"
+      },
+      {
+        "title": "Timer keeping",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/rpc-in-depth/timer-keeping/",
+        "anchor": "rpc-in-depth-timer-keeping",
+        "virtual_path": "docs/rpc-in-depth/timer-keeping/index.md"
+      },
+      {
+        "title": "Auto ConcurrencyLimiter",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/auto-concurrencylimiter/",
+        "anchor": "server-auto-concurrencylimiter",
+        "virtual_path": "docs/server/auto-concurrencylimiter/index.md"
+      },
+      {
+        "title": "Avalanche",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/avalanche/",
+        "anchor": "server-avalanche",
+        "virtual_path": "docs/server/avalanche/index.md"
+      },
+      {
+        "title": "Basics",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/basics/",
+        "anchor": "server-basics",
+        "virtual_path": "docs/server/basics/index.md"
+      },
+      {
+        "title": "Debug server issues",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/debug-server-issues/",
+        "anchor": "server-debug-server-issues",
+        "virtual_path": "docs/server/debug-server-issues/index.md"
+      },
+      {
+        "title": "Server",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/",
+        "anchor": "server",
+        "virtual_path": "docs/server/index.md"
+      },
+      {
+        "title": "json2pb",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/json2pb/",
+        "anchor": "server-json2pb",
+        "virtual_path": "docs/server/json2pb/index.md"
+      },
+      {
+        "title": "Media Server",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/media-server/",
+        "anchor": "server-media-server",
+        "virtual_path": "docs/server/media-server/index.md"
+      },
+      {
+        "title": "Serve gRPC",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/serve-grpc/",
+        "anchor": "server-serve-grpc",
+        "virtual_path": "docs/server/serve-grpc/index.md"
+      },
+      {
+        "title": "Serve http:h2",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/serve-httph2/",
+        "anchor": "server-serve-httph2",
+        "virtual_path": "docs/server/serve-httph2/index.md"
+      },
+      {
+        "title": "Serve Nshead",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/serve-nshead/",
+        "anchor": "server-serve-nshead",
+        "virtual_path": "docs/server/serve-nshead/index.md"
+      },
+      {
+        "title": "Serve thrift",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/serve-thrift/",
+        "anchor": "server-serve-thrift",
+        "virtual_path": "docs/server/serve-thrift/index.md"
+      },
+      {
+        "title": "Server push",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/server/server-push/",
+        "anchor": "server-server-push",
+        "virtual_path": "docs/server/server-push/index.md"
+      },
+      {
+        "title": "benchmark_http",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/tools/benchmark_http/",
+        "anchor": "tools-benchmark_http",
+        "virtual_path": "docs/tools/benchmark_http/index.md"
+      },
+      {
+        "title": "Tools",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/tools/",
+        "anchor": "tools",
+        "virtual_path": "docs/tools/index.md"
+      },
+      {
+        "title": "parallel_http",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/tools/parallel_http/",
+        "anchor": "tools-parallel_http",
+        "virtual_path": "docs/tools/parallel_http/index.md"
+      },
+      {
+        "title": "rpc_press",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/tools/rpc_press/",
+        "anchor": "tools-rpc_press",
+        "virtual_path": "docs/tools/rpc_press/index.md"
+      },
+      {
+        "title": "rpc_replay",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/tools/rpc_replay/",
+        "anchor": "tools-rpc_replay",
+        "virtual_path": "docs/tools/rpc_replay/index.md"
+      },
+      {
+        "title": "rpc_view",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/tools/rpc_view/",
+        "anchor": "tools-rpc_view",
+        "virtual_path": "docs/tools/rpc_view/index.md"
+      },
+      {
+        "title": "Use cases inside Baidu",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/use-cases-inside-baidu/",
+        "anchor": "use-cases-inside-baidu",
+        "virtual_path": "docs/use-cases-inside-baidu/index.md"
+      },
+      {
+        "title": "百度地图api入口",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/use-cases-inside-baidu/use-case1/",
+        "anchor": "use-cases-inside-baidu-use-case1",
+        "virtual_path": "docs/use-cases-inside-baidu/use-case1/index.md"
+      },
+      {
+        "title": "联盟DSP",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/use-cases-inside-baidu/use-case2/",
+        "anchor": "use-cases-inside-baidu-use-case2",
+        "virtual_path": "docs/use-cases-inside-baidu/use-case2/index.md"
+      },
+      {
+        "title": "ELF学习框架",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/use-cases-inside-baidu/use-case3/",
+        "anchor": "use-cases-inside-baidu-use-case3",
+        "virtual_path": "docs/use-cases-inside-baidu/use-case3/index.md"
+      },
+      {
+        "title": "云平台代理服务",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/use-cases-inside-baidu/use-case4/",
+        "anchor": "use-cases-inside-baidu-use-case4",
+        "virtual_path": "docs/use-cases-inside-baidu/use-case4/index.md"
+      },
+      {
+        "title": "Users",
+        "kind": "link",
+        "source_url": "https://brpc.apache.org/docs/users/",
+        "anchor": "users",
+        "virtual_path": "docs/users/index.md"
+      }
+    ]
+  }
+]

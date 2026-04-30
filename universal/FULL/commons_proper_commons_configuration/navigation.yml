@@ -1,0 +1,118 @@
+- title: Commons Configuration
+  kind: category
+  children:
+  - title: About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-configuration/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Release History
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-configuration/changes.html
+    anchor: changes
+    virtual_path: docs/changes.md
+  - title: Sources
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-configuration/scm.html
+    anchor: scm
+    virtual_path: docs/scm.md
+  - title: Security
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-configuration/security.html
+    anchor: security
+    virtual_path: docs/security.md
+  - title: Javadoc
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-configuration/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Building
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-configuration/building.html
+    anchor: building
+    virtual_path: docs/building.md
+  - title: User's Guide
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-configuration/userguide/user_guide.html
+    anchor: userguide-user_guide
+    virtual_path: docs/userguide/user_guide.md
+  - title: 'Upgrade Guide: 1.x to 2.0'
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-configuration/userguide/upgradeto2_0.html
+    anchor: userguide-upgradeto2_0
+    virtual_path: docs/userguide/upgradeto2_0.md
+  - title: 'Upgrade Guide: 2.x'
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-configuration/userguide/upgradeto2_x.html
+    anchor: userguide-upgradeto2_x
+    virtual_path: docs/userguide/upgradeto2_x.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-configuration/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-configuration/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-configuration/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-configuration/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: CI Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-configuration/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+  - title: Project Reports
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-configuration/project-reports.html
+    anchor: project-reports
+    virtual_path: docs/project-reports.md
+    children:
+    - title: Changes
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-configuration/changes.html
+      anchor: changes
+      virtual_path: docs/changes.md
+    - title: JIRA Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-configuration/jira-changes.html
+      anchor: jira-changes
+      virtual_path: docs/jira-changes.md
+    - title: Surefire
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-configuration/surefire.html
+      anchor: surefire
+      virtual_path: docs/surefire.md
+    - title: RAT Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-configuration/rat-report.html
+      anchor: rat-report
+      virtual_path: docs/rat-report.md
+    - title: japicmp
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-configuration/japicmp.html
+      anchor: japicmp
+      virtual_path: docs/japicmp.md
+    - title: Checkstyle
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-configuration/checkstyle.html
+      anchor: checkstyle
+      virtual_path: docs/checkstyle.md
+    - title: SpotBugs
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-configuration/spotbugs.html
+      anchor: spotbugs
+      virtual_path: docs/spotbugs.md

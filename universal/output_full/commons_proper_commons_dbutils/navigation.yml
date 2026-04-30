@@ -1,0 +1,264 @@
+- title: DbUtils
+  kind: category
+  source_url: https://commons.apache.org/proper/commons-dbutils/japicmp.html
+  anchor: japicmp
+  virtual_path: docs/japicmp.md
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbutils/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Download
+    kind: link
+    source_url: https://commons.apache.org/dbutils/download_dbutils.cgi
+  - title: Examples
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbutils/examples.html
+    anchor: examples
+    virtual_path: docs/examples.md
+  - title: Release Notes
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbutils/changes-report.html
+    anchor: changes-report
+    virtual_path: docs/changes-report.md
+  - title: Dependencies
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbutils/dependencies.html
+    anchor: dependencies
+    virtual_path: docs/dependencies.md
+  - title: Wiki
+    kind: link
+    source_url: http://wiki.apache.org/commons/DbUtils
+- title: Development
+  kind: category
+  children:
+  - title: Mailing Lists
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbutils/mail-lists.html
+  - title: Issue Tracking
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbutils/issue-tracking.html
+    anchor: issue-tracking
+    virtual_path: docs/issue-tracking.md
+  - title: Source Repository
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbutils/scm.html
+    anchor: scm
+    virtual_path: docs/scm.md
+  - title: Building
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbutils/building.html
+    anchor: building
+    virtual_path: docs/building.md
+  - title: Javadoc
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbutils/apidocs/index.html
+  - title: Javadoc Archive
+    kind: link
+    source_url: https://javadoc.io/doc/commons-dbutils/commons-dbutils/latest/index.html
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbutils/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/summary.html
+      anchor: summary
+      virtual_path: docs/summary.md
+    - title: Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: Issue Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/issue-management.html
+      anchor: issue-management
+      virtual_path: docs/issue-management.md
+    - title: Mailing Lists
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/mailing-lists.html
+    - title: Dependency Information
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/dependency-info.html
+      anchor: dependency-info
+      virtual_path: docs/dependency-info.md
+    - title: Dependency Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/dependency-management.html
+      anchor: dependency-management
+      virtual_path: docs/dependency-management.md
+    - title: Dependencies
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/dependencies.html
+      anchor: dependencies
+      virtual_path: docs/dependencies.md
+    - title: Dependency Convergence
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/dependency-convergence.html
+      anchor: dependency-convergence
+      virtual_path: docs/dependency-convergence.md
+    - title: CI Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+    - title: Distribution Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/distribution-management.html
+      anchor: distribution-management
+      virtual_path: docs/distribution-management.md
+  - title: Project Reports
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-dbutils/project-reports.html
+    anchor: project-reports
+    virtual_path: docs/project-reports.md
+    children:
+    - title: Changes
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/changes-report.html
+      anchor: changes-report
+      virtual_path: docs/changes-report.md
+    - title: JIRA Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/jira-report.html
+      anchor: jira-report
+      virtual_path: docs/jira-report.md
+    - title: Javadoc
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/apidocs/index.html
+    - title: Source Xref
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/xref/index.html
+    - title: Test Source Xref
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/xref-test/index.html
+    - title: Surefire
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/surefire-report.html
+      anchor: surefire-report
+      virtual_path: docs/surefire-report.md
+    - title: Rat Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/rat-report.html
+      anchor: rat-report
+      virtual_path: docs/rat-report.md
+    - title: JaCoCo
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/jacoco/index.html
+    - title: japicmp
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/japicmp.html
+      anchor: japicmp
+      virtual_path: docs/japicmp.md
+    - title: Checkstyle
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/checkstyle.html
+      anchor: checkstyle
+      virtual_path: docs/checkstyle.md
+    - title: SpotBugs
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/spotbugs.html
+      anchor: spotbugs
+      virtual_path: docs/spotbugs.md
+    - title: CPD
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/cpd.html
+      anchor: cpd
+      virtual_path: docs/cpd.md
+    - title: PMD
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbutils/pmd.html
+      anchor: pmd
+      virtual_path: docs/pmd.md
+- title: Commons
+  kind: category
+  children:
+  - title: Home
+    kind: link
+    source_url: https://commons.apache.org/
+  - title: License
+    kind: link
+    source_url: https://www.apache.org/licenses/
+  - title: Components
+    kind: link
+    source_url: https://commons.apache.org/components.html
+  - title: Sandbox
+    kind: link
+    source_url: https://commons.apache.org/sandbox/index.html
+  - title: Dormant
+    kind: link
+    source_url: https://commons.apache.org/dormant/index.html
+- title: General Information
+  kind: category
+  children:
+  - title: Security
+    kind: link
+    source_url: https://commons.apache.org/security.html
+  - title: Volunteering
+    kind: link
+    source_url: https://commons.apache.org/volunteering.html
+  - title: Contributing Patches
+    kind: link
+    source_url: https://commons.apache.org/patches.html
+  - title: Building Components
+    kind: link
+    source_url: https://commons.apache.org/building.html
+  - title: Commons Parent POM
+    kind: link
+    source_url: https://commons.apache.org/commons-parent-pom.html
+  - title: Commons Build Plugin
+    kind: link
+    source_url: https://commons.apache.org/build-plugin/index.html
+  - title: Commons Release Plugin
+    kind: link
+    source_url: https://commons.apache.org/release-plugin/index.html
+  - title: Site Publication
+    kind: link
+    source_url: https://commons.apache.org/site-publish.html
+  - title: Releasing Components
+    kind: link
+    source_url: https://commons.apache.org/releases/index.html
+  - title: Wiki
+    kind: link
+    source_url: https://cwiki.apache.org/confluence/display/commons/FrontPage
+- title: ASF
+  kind: category
+  children:
+  - title: How the ASF works
+    kind: link
+    source_url: https://www.apache.org/foundation/how-it-works.html
+  - title: Get Involved
+    kind: link
+    source_url: https://www.apache.org/foundation/getinvolved.html
+  - title: Developer Resources
+    kind: link
+    source_url: https://www.apache.org/dev/
+  - title: Code of Conduct
+    kind: link
+    source_url: https://www.apache.org/foundation/policies/conduct.html
+  - title: Privacy
+    kind: link
+    source_url: https://privacy.apache.org/policies/privacy-policy-public.html
+  - title: Sponsorship
+    kind: link
+    source_url: https://www.apache.org/foundation/sponsorship.html
+  - title: Thanks
+    kind: link
+    source_url: https://www.apache.org/foundation/thanks.html

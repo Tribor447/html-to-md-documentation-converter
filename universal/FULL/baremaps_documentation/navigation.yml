@@ -1,0 +1,152 @@
+- title: Docs
+  kind: category
+  children:
+  - title: Additional Examples
+    kind: category
+    children:
+    - title: Contour Lines In Vector Tiles
+      kind: category
+      children:
+      - title: Contour Lines in Vector Tiles
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/additional-examples/contour-lines-in-vector-tiles/
+        anchor: additional-examples-contour-lines-in-vector-tiles
+        virtual_path: docs/additional-examples/contour-lines-in-vector-tiles/index.md
+    - title: Extrusion
+      kind: category
+      children:
+      - title: Extrusion of vector tiles from OSM data
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/additional-examples/extrusion/
+        anchor: additional-examples-extrusion
+        virtual_path: docs/additional-examples/extrusion/index.md
+    - title: Gdal Macos
+      kind: category
+      children:
+      - title: Building gdal on Mac OS X
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/additional-examples/gdal-macos/
+        anchor: additional-examples-gdal-macos
+        virtual_path: docs/additional-examples/gdal-macos/index.md
+    - title: Geoadmin
+      kind: category
+      children:
+      - title: Geoadmin noise exposure in vector tiles
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/additional-examples/geoadmin/
+        anchor: additional-examples-geoadmin
+        virtual_path: docs/additional-examples/geoadmin/index.md
+    - title: Geocoding
+      kind: category
+      children:
+      - title: Create a geocoding web service
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/additional-examples/geocoding/
+        anchor: additional-examples-geocoding
+        virtual_path: docs/additional-examples/geocoding/index.md
+    - title: Import Naturalearth Into Postgis
+      kind: category
+      children:
+      - title: Import Natural Earth data into PostGIS
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/additional-examples/import-naturalearth-into-postgis/
+        anchor: additional-examples-import-naturalearth-into-postgis
+        virtual_path: docs/additional-examples/import-naturalearth-into-postgis/index.md
+    - title: Import Osm Into Postgis
+      kind: category
+      children:
+      - title: Import OpenStreetMap data into PostGIS
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/additional-examples/import-osm-into-postgis/
+        anchor: additional-examples-import-osm-into-postgis
+        virtual_path: docs/additional-examples/import-osm-into-postgis/index.md
+    - title: Examples
+      kind: link
+      source_url: https://baremaps.incubator.apache.org/documentation/additional-examples/
+      anchor: additional-examples
+      virtual_path: docs/additional-examples/index.md
+    - title: Ip To Location
+      kind: category
+      children:
+      - title: Create an IP to location web service
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/additional-examples/ip-to-location/
+        anchor: additional-examples-ip-to-location
+        virtual_path: docs/additional-examples/ip-to-location/index.md
+    - title: Serve And Export Vector Tiles
+      kind: category
+      children:
+      - title: Serve and Export Vector Tiles from PostGIS
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/additional-examples/serve-and-export-vector-tiles/
+        anchor: additional-examples-serve-and-export-vector-tiles
+        virtual_path: docs/additional-examples/serve-and-export-vector-tiles/index.md
+  - title: Developer Manual
+    kind: category
+    children:
+    - title: Geocoder
+      kind: category
+      children:
+      - title: Geocoder
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/developer-manual/geocoder/
+        anchor: developer-manual-geocoder
+        virtual_path: docs/developer-manual/geocoder/index.md
+    - title: How To Build With Maven
+      kind: category
+      children:
+      - title: How to Build with Maven
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/developer-manual/how-to-build-with-maven/
+        anchor: developer-manual-how-to-build-with-maven
+        virtual_path: docs/developer-manual/how-to-build-with-maven/index.md
+    - title: Developer Manual
+      kind: link
+      source_url: https://baremaps.incubator.apache.org/documentation/developer-manual/
+      anchor: developer-manual
+      virtual_path: docs/developer-manual/index.md
+    - title: Ip To Location
+      kind: category
+      children:
+      - title: IP to location
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/developer-manual/ip-to-location/
+        anchor: developer-manual-ip-to-location
+        virtual_path: docs/developer-manual/ip-to-location/index.md
+    - title: Layer Simplification
+      kind: category
+      children:
+      - title: Layer Simplification
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/developer-manual/layer-simplification/
+        anchor: developer-manual-layer-simplification
+        virtual_path: docs/developer-manual/layer-simplification/index.md
+    - title: Project Structure
+      kind: category
+      children:
+      - title: Project structure
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/developer-manual/project-structure/
+        anchor: developer-manual-project-structure
+        virtual_path: docs/developer-manual/project-structure/index.md
+    - title: Setup In Intellij
+      kind: category
+      children:
+      - title: Set up in IntelliJ IDEA
+        kind: link
+        source_url: https://baremaps.incubator.apache.org/documentation/developer-manual/setup-in-intellij/
+        anchor: developer-manual-setup-in-intellij
+        virtual_path: docs/developer-manual/setup-in-intellij/index.md
+  - title: Getting Started
+    kind: category
+    children:
+    - title: Getting Started
+      kind: link
+      source_url: https://baremaps.incubator.apache.org/documentation/getting-started/
+      anchor: getting-started
+      virtual_path: docs/getting-started/index.md
+  - title: Introduction
+    kind: link
+    source_url: https://baremaps.incubator.apache.org/documentation/
+    anchor: index
+    virtual_path: docs/index.md

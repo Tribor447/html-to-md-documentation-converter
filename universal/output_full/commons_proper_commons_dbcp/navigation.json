@@ -1,0 +1,465 @@
+[
+  {
+    "title": "Commons DBCP",
+    "kind": "category",
+    "children": [
+      {
+        "title": "About",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/index.html",
+        "anchor": "index_2",
+        "virtual_path": "docs/index_2.md"
+      },
+      {
+        "title": "Asking Questions",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/mail-lists.html"
+      },
+      {
+        "title": "Release History",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/changes.html",
+        "anchor": "changes",
+        "virtual_path": "docs/changes.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/issue-management.html",
+        "anchor": "issue-management",
+        "virtual_path": "docs/issue-management.md"
+      },
+      {
+        "title": "Dependency Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/dependency-info.html",
+        "anchor": "dependency-info",
+        "virtual_path": "docs/dependency-info.md"
+      },
+      {
+        "title": "Sources",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/scm.html",
+        "anchor": "scm",
+        "virtual_path": "docs/scm.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/security.html",
+        "anchor": "security",
+        "virtual_path": "docs/security.md"
+      },
+      {
+        "title": "License",
+        "kind": "link",
+        "source_url": "https://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "title": "Code of Conduct",
+        "kind": "link",
+        "source_url": "https://www.apache.org/foundation/policies/conduct.html"
+      },
+      {
+        "title": "Download",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/download_dbcp.cgi"
+      },
+      {
+        "title": "Javadoc",
+        "kind": "category",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/",
+        "anchor": "index",
+        "virtual_path": "docs/index.md",
+        "children": [
+          {
+            "title": "Javadoc Current",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/apidocs/index.html"
+          },
+          {
+            "title": "Javadoc 2.x Archive",
+            "kind": "link",
+            "source_url": "https://javadoc.io/doc/org.apache.commons/commons-dbcp2/latest/index.html"
+          },
+          {
+            "title": "Javadoc 1.x Archive",
+            "kind": "link",
+            "source_url": "https://javadoc.io/doc/commons-dbcp/commons-dbcp/1.4/index.html"
+          }
+        ]
+      },
+      {
+        "title": "Configuration",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/configuration.html",
+        "anchor": "configuration",
+        "virtual_path": "docs/configuration.md"
+      },
+      {
+        "title": "Developers Guide",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/guide/index.html",
+        "anchor": "guide",
+        "virtual_path": "docs/guide/index.md",
+        "children": [
+          {
+            "title": "JNDI Howto",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/guide/jndi-howto.html",
+            "anchor": "guide-jndi-howto",
+            "virtual_path": "docs/guide/jndi-howto.md"
+          },
+          {
+            "title": "Class Diagrams",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/guide/classdiagrams.html",
+            "anchor": "guide-classdiagrams",
+            "virtual_path": "docs/guide/classdiagrams.md"
+          },
+          {
+            "title": "Sequence Diagrams",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/guide/sequencediagrams.html",
+            "anchor": "guide-sequencediagrams",
+            "virtual_path": "docs/guide/sequencediagrams.md"
+          },
+          {
+            "title": "Building",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/building.html",
+            "anchor": "building",
+            "virtual_path": "docs/building.md"
+          }
+        ]
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://gitbox.apache.org/repos/asf?p=commons-dbcp.git%3Ba%3Dtree%3Bf%3Ddoc%3Bhb%3DHEAD"
+      },
+      {
+        "title": "Downloads",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/download_dbcp.cgi"
+      },
+      {
+        "title": "Wiki",
+        "kind": "link",
+        "source_url": "https://wiki.apache.org/commons/DBCP"
+      }
+    ]
+  },
+  {
+    "title": "Project Documentation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Project Information",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/project-info.html",
+        "anchor": "project-info",
+        "virtual_path": "docs/project-info.md",
+        "children": [
+          {
+            "title": "About",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/index.html",
+            "anchor": "index_2",
+            "virtual_path": "docs/index_2.md"
+          },
+          {
+            "title": "Summary",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/summary.html",
+            "anchor": "summary",
+            "virtual_path": "docs/summary.md"
+          },
+          {
+            "title": "Team",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/team.html",
+            "anchor": "team",
+            "virtual_path": "docs/team.md"
+          },
+          {
+            "title": "Source Code Management",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/scm.html",
+            "anchor": "scm",
+            "virtual_path": "docs/scm.md"
+          },
+          {
+            "title": "Issue Management",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/issue-management.html",
+            "anchor": "issue-management",
+            "virtual_path": "docs/issue-management.md"
+          },
+          {
+            "title": "Mailing Lists",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/mailing-lists.html"
+          },
+          {
+            "title": "Maven Coordinates",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/dependency-info.html",
+            "anchor": "dependency-info",
+            "virtual_path": "docs/dependency-info.md"
+          },
+          {
+            "title": "Dependency Management",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/dependency-management.html",
+            "anchor": "dependency-management",
+            "virtual_path": "docs/dependency-management.md"
+          },
+          {
+            "title": "Dependencies",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/dependencies.html",
+            "anchor": "dependencies",
+            "virtual_path": "docs/dependencies.md"
+          },
+          {
+            "title": "Dependency Convergence",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/dependency-convergence.html",
+            "anchor": "dependency-convergence",
+            "virtual_path": "docs/dependency-convergence.md"
+          },
+          {
+            "title": "CI Management",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/ci-management.html",
+            "anchor": "ci-management",
+            "virtual_path": "docs/ci-management.md"
+          },
+          {
+            "title": "Distribution Management",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/distribution-management.html",
+            "anchor": "distribution-management",
+            "virtual_path": "docs/distribution-management.md"
+          }
+        ]
+      },
+      {
+        "title": "Project Reports",
+        "kind": "category",
+        "source_url": "https://commons.apache.org/proper/commons-dbcp/project-reports.html",
+        "anchor": "project-reports",
+        "virtual_path": "docs/project-reports.md",
+        "children": [
+          {
+            "title": "Changes",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/changes.html",
+            "anchor": "changes",
+            "virtual_path": "docs/changes.md"
+          },
+          {
+            "title": "JIRA Report",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/jira-changes.html",
+            "anchor": "jira-changes",
+            "virtual_path": "docs/jira-changes.md"
+          },
+          {
+            "title": "Javadoc",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/apidocs/index.html"
+          },
+          {
+            "title": "Source Xref",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/xref/index.html"
+          },
+          {
+            "title": "Test Source Xref",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/xref-test/index.html"
+          },
+          {
+            "title": "Surefire",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/surefire.html",
+            "anchor": "surefire",
+            "virtual_path": "docs/surefire.md"
+          },
+          {
+            "title": "RAT Report",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/rat-report.html",
+            "anchor": "rat-report",
+            "virtual_path": "docs/rat-report.md"
+          },
+          {
+            "title": "japicmp",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/japicmp.html",
+            "anchor": "japicmp",
+            "virtual_path": "docs/japicmp.md"
+          },
+          {
+            "title": "SpotBugs",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/spotbugs.html",
+            "anchor": "spotbugs",
+            "virtual_path": "docs/spotbugs.md"
+          },
+          {
+            "title": "Checkstyle",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/checkstyle.html",
+            "anchor": "checkstyle",
+            "virtual_path": "docs/checkstyle.md"
+          },
+          {
+            "title": "PMD",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/pmd.html",
+            "anchor": "pmd",
+            "virtual_path": "docs/pmd.md"
+          },
+          {
+            "title": "CPD",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-dbcp/cpd.html",
+            "anchor": "cpd",
+            "virtual_path": "docs/cpd.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Commons",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Home",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/"
+      },
+      {
+        "title": "License",
+        "kind": "link",
+        "source_url": "https://www.apache.org/licenses/"
+      },
+      {
+        "title": "Components",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/components.html"
+      },
+      {
+        "title": "Sandbox",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/sandbox/index.html"
+      },
+      {
+        "title": "Dormant",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/dormant/index.html"
+      }
+    ]
+  },
+  {
+    "title": "General Information",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/security.html"
+      },
+      {
+        "title": "Volunteering",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/volunteering.html"
+      },
+      {
+        "title": "Contributing Patches",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/patches.html"
+      },
+      {
+        "title": "Building Components",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/building.html"
+      },
+      {
+        "title": "Commons Parent POM",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/commons-parent-pom.html"
+      },
+      {
+        "title": "Commons Build Plugin",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/build-plugin/index.html"
+      },
+      {
+        "title": "Commons Release Plugin",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/release-plugin/index.html"
+      },
+      {
+        "title": "Site Publication",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/site-publish.html"
+      },
+      {
+        "title": "Releasing Components",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/releases/index.html"
+      },
+      {
+        "title": "Wiki",
+        "kind": "link",
+        "source_url": "https://cwiki.apache.org/confluence/display/commons/FrontPage"
+      }
+    ]
+  },
+  {
+    "title": "ASF",
+    "kind": "category",
+    "children": [
+      {
+        "title": "How the ASF works",
+        "kind": "link",
+        "source_url": "https://www.apache.org/foundation/how-it-works.html"
+      },
+      {
+        "title": "Get Involved",
+        "kind": "link",
+        "source_url": "https://www.apache.org/foundation/getinvolved.html"
+      },
+      {
+        "title": "Developer Resources",
+        "kind": "link",
+        "source_url": "https://www.apache.org/dev/"
+      },
+      {
+        "title": "Code of Conduct",
+        "kind": "link",
+        "source_url": "https://www.apache.org/foundation/policies/conduct.html"
+      },
+      {
+        "title": "Privacy",
+        "kind": "link",
+        "source_url": "https://privacy.apache.org/policies/privacy-policy-public.html"
+      },
+      {
+        "title": "Sponsorship",
+        "kind": "link",
+        "source_url": "https://www.apache.org/foundation/sponsorship.html"
+      },
+      {
+        "title": "Thanks",
+        "kind": "link",
+        "source_url": "https://www.apache.org/foundation/thanks.html"
+      }
+    ]
+  }
+]

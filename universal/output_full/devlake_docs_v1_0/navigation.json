@@ -1,0 +1,867 @@
+[
+  {
+    "title": "Overview",
+    "kind": "link",
+    "source_url": "https://devlake.apache.org/docs/v1.0/Overview/",
+    "anchor": "overview",
+    "virtual_path": "docs/Overview/index.md",
+    "children": [
+      {
+        "title": "Introduction",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Overview/Introduction/",
+        "anchor": "overview-introduction",
+        "virtual_path": "docs/Overview/Introduction/index.md"
+      },
+      {
+        "title": "Architecture",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Overview/Architecture/",
+        "anchor": "overview-architecture",
+        "virtual_path": "docs/Overview/Architecture/index.md"
+      },
+      {
+        "title": "Key Concepts",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Overview/KeyConcepts/",
+        "anchor": "overview-keyconcepts",
+        "virtual_path": "docs/Overview/KeyConcepts/index.md"
+      },
+      {
+        "title": "Supported Data Sources",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Overview/SupportedDataSources/",
+        "anchor": "overview-supporteddatasources",
+        "virtual_path": "docs/Overview/SupportedDataSources/index.md"
+      },
+      {
+        "title": "API References",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Overview/References/",
+        "anchor": "overview-references",
+        "virtual_path": "docs/Overview/References/index.md"
+      },
+      {
+        "title": "Roadmap",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Overview/Roadmap/",
+        "anchor": "overview-roadmap",
+        "virtual_path": "docs/Overview/Roadmap/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Getting Started",
+    "kind": "link",
+    "source_url": "https://devlake.apache.org/docs/v1.0/GettingStarted/",
+    "anchor": "gettingstarted",
+    "virtual_path": "docs/GettingStarted/index.md",
+    "children": [
+      {
+        "title": "Quick Start",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/GettingStarted/QuickStart/",
+        "anchor": "gettingstarted-quickstart",
+        "virtual_path": "docs/GettingStarted/QuickStart/index.md"
+      },
+      {
+        "title": "Install via Docker Compose",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/GettingStarted/DockerComposeSetup/",
+        "anchor": "gettingstarted-dockercomposesetup",
+        "virtual_path": "docs/GettingStarted/DockerComposeSetup/index.md"
+      },
+      {
+        "title": "Install via Helm",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/GettingStarted/HelmSetup/",
+        "anchor": "gettingstarted-helmsetup",
+        "virtual_path": "docs/GettingStarted/HelmSetup/index.md"
+      },
+      {
+        "title": "Upgrade",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/GettingStarted/Upgrade/",
+        "anchor": "gettingstarted-upgrade",
+        "virtual_path": "docs/GettingStarted/Upgrade/index.md"
+      },
+      {
+        "title": "Security and Authentication",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/GettingStarted/Authentication/",
+        "anchor": "gettingstarted-authentication",
+        "virtual_path": "docs/GettingStarted/Authentication/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Config UI",
+    "kind": "link",
+    "source_url": "https://devlake.apache.org/docs/v1.0/Config%20UI/",
+    "anchor": "config-ui",
+    "virtual_path": "docs/Config%20UI/index.md",
+    "children": [
+      {
+        "title": "Tutorial",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/Tutorial/",
+        "anchor": "configuration-tutorial",
+        "virtual_path": "docs/Configuration/Tutorial/index.md"
+      },
+      {
+        "title": "How to Organize DevLake Projects",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/HowToOrganizeDevlakeProjects/",
+        "anchor": "configuration-howtoorganizedevlakeprojects",
+        "virtual_path": "docs/Configuration/HowToOrganizeDevlakeProjects/index.md"
+      },
+      {
+        "title": "Azure DevOps",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/AzureDevOps/",
+        "anchor": "configuration-azuredevops",
+        "virtual_path": "docs/Configuration/AzureDevOps/index.md"
+      },
+      {
+        "title": "Bitbucket Cloud",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/BitBucket/",
+        "anchor": "configuration-bitbucket",
+        "virtual_path": "docs/Configuration/BitBucket/index.md"
+      },
+      {
+        "title": "Bitbucket Server/Data Center",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/BitBucketServer/",
+        "anchor": "configuration-bitbucketserver",
+        "virtual_path": "docs/Configuration/BitBucketServer/index.md"
+      },
+      {
+        "title": "CircleCI",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/CircleCI/",
+        "anchor": "configuration-circleci",
+        "virtual_path": "docs/Configuration/CircleCI/index.md"
+      },
+      {
+        "title": "GitHub",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/GitHub/",
+        "anchor": "configuration-github",
+        "virtual_path": "docs/Configuration/GitHub/index.md"
+      },
+      {
+        "title": "GitLab",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/GitLab/",
+        "anchor": "configuration-gitlab",
+        "virtual_path": "docs/Configuration/GitLab/index.md"
+      },
+      {
+        "title": "Opsgenie",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/Opsgenie/",
+        "anchor": "configuration-opsgenie",
+        "virtual_path": "docs/Configuration/Opsgenie/index.md"
+      },
+      {
+        "title": "Jenkins",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/Jenkins/",
+        "anchor": "configuration-jenkins",
+        "virtual_path": "docs/Configuration/Jenkins/index.md"
+      },
+      {
+        "title": "Jira",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/Jira/",
+        "anchor": "configuration-jira",
+        "virtual_path": "docs/Configuration/Jira/index.md"
+      },
+      {
+        "title": "PagerDuty",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/PagerDuty/",
+        "anchor": "configuration-pagerduty",
+        "virtual_path": "docs/Configuration/PagerDuty/index.md"
+      },
+      {
+        "title": "SonarQube Server",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/SonarQube/",
+        "anchor": "configuration-sonarqube",
+        "virtual_path": "docs/Configuration/SonarQube/index.md"
+      },
+      {
+        "title": "TAPD",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/Tapd/",
+        "anchor": "configuration-tapd",
+        "virtual_path": "docs/Configuration/Tapd/index.md"
+      },
+      {
+        "title": "Teambition(WIP)",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/Teambition/",
+        "anchor": "configuration-teambition",
+        "virtual_path": "docs/Configuration/Teambition/index.md"
+      },
+      {
+        "title": "Webhooks",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/webhook/",
+        "anchor": "configuration-webhook",
+        "virtual_path": "docs/Configuration/webhook/index.md"
+      },
+      {
+        "title": "Zentao",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/Zentao/",
+        "anchor": "configuration-zentao",
+        "virtual_path": "docs/Configuration/Zentao/index.md"
+      },
+      {
+        "title": "Blueprint Advanced Mode",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/AdvancedMode/",
+        "anchor": "configuration-advancedmode",
+        "virtual_path": "docs/Configuration/AdvancedMode/index.md"
+      },
+      {
+        "title": "API Keys",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/APIKeys/",
+        "anchor": "configuration-apikeys",
+        "virtual_path": "docs/Configuration/APIKeys/index.md"
+      },
+      {
+        "title": "Team Configuration",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/TeamConfiguration/",
+        "anchor": "configuration-teamconfiguration",
+        "virtual_path": "docs/Configuration/TeamConfiguration/index.md"
+      },
+      {
+        "title": "Dashboard Configuration",
+        "kind": "category",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/Dashboards/AccessControl/",
+        "anchor": "configuration-dashboards-accesscontrol",
+        "virtual_path": "docs/Configuration/Dashboards/AccessControl/index.md",
+        "children": [
+          {
+            "title": "Dashboard Access Control",
+            "kind": "link",
+            "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/Dashboards/AccessControl/",
+            "anchor": "configuration-dashboards-accesscontrol",
+            "virtual_path": "docs/Configuration/Dashboards/AccessControl/index.md"
+          },
+          {
+            "title": "Grafana User Guide",
+            "kind": "link",
+            "source_url": "https://devlake.apache.org/docs/v1.0/Configuration/Dashboards/GrafanaUserGuide/",
+            "anchor": "configuration-dashboards-grafanauserguide",
+            "virtual_path": "docs/Configuration/Dashboards/GrafanaUserGuide/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "DORA",
+    "kind": "link",
+    "source_url": "https://devlake.apache.org/docs/v1.0/DORA/",
+    "anchor": "dora",
+    "virtual_path": "docs/DORA/index.md"
+  },
+  {
+    "title": "Metrics",
+    "kind": "category",
+    "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/",
+    "anchor": "metrics",
+    "virtual_path": "docs/Metrics/index.md",
+    "children": [
+      {
+        "title": "Requirement Count",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/RequirementCount/",
+        "anchor": "metrics-requirementcount",
+        "virtual_path": "docs/Metrics/RequirementCount/index.md"
+      },
+      {
+        "title": "Requirement Lead Time",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/RequirementLeadTime/",
+        "anchor": "metrics-requirementleadtime",
+        "virtual_path": "docs/Metrics/RequirementLeadTime/index.md"
+      },
+      {
+        "title": "Requirement Delivery Rate",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/RequirementDeliveryRate/",
+        "anchor": "metrics-requirementdeliveryrate",
+        "virtual_path": "docs/Metrics/RequirementDeliveryRate/index.md"
+      },
+      {
+        "title": "Requirement Granularity",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/RequirementGranularity/",
+        "anchor": "metrics-requirementgranularity",
+        "virtual_path": "docs/Metrics/RequirementGranularity/index.md"
+      },
+      {
+        "title": "Bug Age",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/BugAge/",
+        "anchor": "metrics-bugage",
+        "virtual_path": "docs/Metrics/BugAge/index.md"
+      },
+      {
+        "title": "Bug Count per 1k Lines of Code",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/BugCountPer1kLinesOfCode/",
+        "anchor": "metrics-bugcountper1klinesofcode",
+        "virtual_path": "docs/Metrics/BugCountPer1kLinesOfCode/index.md"
+      },
+      {
+        "title": "Incident Age",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/IncidentAge/",
+        "anchor": "metrics-incidentage",
+        "virtual_path": "docs/Metrics/IncidentAge/index.md"
+      },
+      {
+        "title": "Incident Count per 1k Lines of Code",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/IncidentCountPer1kLinesOfCode/",
+        "anchor": "metrics-incidentcountper1klinesofcode",
+        "virtual_path": "docs/Metrics/IncidentCountPer1kLinesOfCode/index.md"
+      },
+      {
+        "title": "Commit Count",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/CommitCount/",
+        "anchor": "metrics-commitcount",
+        "virtual_path": "docs/Metrics/CommitCount/index.md"
+      },
+      {
+        "title": "Commit Author Count",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/CommitAuthorCount/",
+        "anchor": "metrics-commitauthorcount",
+        "virtual_path": "docs/Metrics/CommitAuthorCount/index.md"
+      },
+      {
+        "title": "Added Lines of Code",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/AddedLinesOfCode/",
+        "anchor": "metrics-addedlinesofcode",
+        "virtual_path": "docs/Metrics/AddedLinesOfCode/index.md"
+      },
+      {
+        "title": "Deleted Lines of Code",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/DeletedLinesOfCode/",
+        "anchor": "metrics-deletedlinesofcode",
+        "virtual_path": "docs/Metrics/DeletedLinesOfCode/index.md"
+      },
+      {
+        "title": "PR Count",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/PRCount/",
+        "anchor": "metrics-prcount",
+        "virtual_path": "docs/Metrics/PRCount/index.md"
+      },
+      {
+        "title": "PR Cycle Time",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/PRCycleTime/",
+        "anchor": "metrics-prcycletime",
+        "virtual_path": "docs/Metrics/PRCycleTime/index.md"
+      },
+      {
+        "title": "PR Coding Time",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/PRCodingTime/",
+        "anchor": "metrics-prcodingtime",
+        "virtual_path": "docs/Metrics/PRCodingTime/index.md"
+      },
+      {
+        "title": "PR Pickup Time",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/PRPickupTime/",
+        "anchor": "metrics-prpickuptime",
+        "virtual_path": "docs/Metrics/PRPickupTime/index.md"
+      },
+      {
+        "title": "PR Review Time",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/PRReviewTime/",
+        "anchor": "metrics-prreviewtime",
+        "virtual_path": "docs/Metrics/PRReviewTime/index.md"
+      },
+      {
+        "title": "PR Deploy Time",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/PRDeployTime/",
+        "anchor": "metrics-prdeploytime",
+        "virtual_path": "docs/Metrics/PRDeployTime/index.md"
+      },
+      {
+        "title": "PR Time To Merge",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/PRTimeToMerge/",
+        "anchor": "metrics-prtimetomerge",
+        "virtual_path": "docs/Metrics/PRTimeToMerge/index.md"
+      },
+      {
+        "title": "PR Merge Rate",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/PRMergeRate/",
+        "anchor": "metrics-prmergerate",
+        "virtual_path": "docs/Metrics/PRMergeRate/index.md"
+      },
+      {
+        "title": "PR Review Depth",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/PRReviewDepth/",
+        "anchor": "metrics-prreviewdepth",
+        "virtual_path": "docs/Metrics/PRReviewDepth/index.md"
+      },
+      {
+        "title": "PR Size",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/PRSize/",
+        "anchor": "metrics-prsize",
+        "virtual_path": "docs/Metrics/PRSize/index.md"
+      },
+      {
+        "title": "Build Count",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/BuildCount/",
+        "anchor": "metrics-buildcount",
+        "virtual_path": "docs/Metrics/BuildCount/index.md"
+      },
+      {
+        "title": "Build Duration",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/BuildDuration/",
+        "anchor": "metrics-buildduration",
+        "virtual_path": "docs/Metrics/BuildDuration/index.md"
+      },
+      {
+        "title": "Build Success Rate",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/BuildSuccessRate/",
+        "anchor": "metrics-buildsuccessrate",
+        "virtual_path": "docs/Metrics/BuildSuccessRate/index.md"
+      },
+      {
+        "title": "DORA - Deployment Frequency",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/DeploymentFrequency/",
+        "anchor": "metrics-deploymentfrequency",
+        "virtual_path": "docs/Metrics/DeploymentFrequency/index.md"
+      },
+      {
+        "title": "DORA - Median Lead Time for Changes",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/LeadTimeForChanges/",
+        "anchor": "metrics-leadtimeforchanges",
+        "virtual_path": "docs/Metrics/LeadTimeForChanges/index.md"
+      },
+      {
+        "title": "DORA - Failed Deployment Recovery Time",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/FailedDeploymentRecoveryTime/",
+        "anchor": "metrics-faileddeploymentrecoverytime",
+        "virtual_path": "docs/Metrics/FailedDeploymentRecoveryTime/index.md"
+      },
+      {
+        "title": "DORA - Median Time to Restore Service",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/MTTR/",
+        "anchor": "metrics-mttr",
+        "virtual_path": "docs/Metrics/MTTR/index.md"
+      },
+      {
+        "title": "DORA - Change Failure Rate",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/CFR/",
+        "anchor": "metrics-cfr",
+        "virtual_path": "docs/Metrics/CFR/index.md"
+      },
+      {
+        "title": "Code Quality Issue Count",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/CQIssueCount/",
+        "anchor": "metrics-cqissuecount",
+        "virtual_path": "docs/Metrics/CQIssueCount/index.md"
+      },
+      {
+        "title": "Code Quality Test",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/CQTest/",
+        "anchor": "metrics-cqtest",
+        "virtual_path": "docs/Metrics/CQTest/index.md"
+      },
+      {
+        "title": "Code Quality Maintainability-Debt",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/CQMaintainability-Debt/",
+        "anchor": "metrics-cqmaintainability-debt",
+        "virtual_path": "docs/Metrics/CQMaintainability-Debt/index.md"
+      },
+      {
+        "title": "Code Quality Duplicated Blocks",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/CQDuplicatedBlocks/",
+        "anchor": "metrics-cqduplicatedblocks",
+        "virtual_path": "docs/Metrics/CQDuplicatedBlocks/index.md"
+      },
+      {
+        "title": "Code Quality Duplicated Lines",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Metrics/CQDuplicatedLines/",
+        "anchor": "metrics-cqduplicatedlines",
+        "virtual_path": "docs/Metrics/CQDuplicatedLines/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Data Models",
+    "kind": "link",
+    "source_url": "https://devlake.apache.org/docs/v1.0/DataModels/",
+    "anchor": "datamodels",
+    "virtual_path": "docs/DataModels/index.md",
+    "children": [
+      {
+        "title": "Domain Layer Schema",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DataModels/DevLakeDomainLayerSchema/",
+        "anchor": "datamodels-devlakedomainlayerschema",
+        "virtual_path": "docs/DataModels/DevLakeDomainLayerSchema/index.md"
+      },
+      {
+        "title": "Tool Layer Schema",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DataModels/ToolLayerSchema/",
+        "anchor": "datamodels-toollayerschema",
+        "virtual_path": "docs/DataModels/ToolLayerSchema/index.md"
+      },
+      {
+        "title": "Raw Layer Schema",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DataModels/RawLayerSchema/",
+        "anchor": "datamodels-rawlayerschema",
+        "virtual_path": "docs/DataModels/RawLayerSchema/index.md"
+      },
+      {
+        "title": "System Tables",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DataModels/SystemTables/",
+        "anchor": "datamodels-systemtables",
+        "virtual_path": "docs/DataModels/SystemTables/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Developer Manuals",
+    "kind": "link",
+    "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/",
+    "anchor": "developermanuals",
+    "virtual_path": "docs/DeveloperManuals/index.md",
+    "children": [
+      {
+        "title": "Developer Setup",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/DeveloperSetup/",
+        "anchor": "developermanuals-developersetup",
+        "virtual_path": "docs/DeveloperManuals/DeveloperSetup/index.md"
+      },
+      {
+        "title": "Source Code References",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/SourceCodeReference/",
+        "anchor": "developermanuals-sourcecodereference",
+        "virtual_path": "docs/DeveloperManuals/SourceCodeReference/index.md"
+      },
+      {
+        "title": "Plugin Implementation",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/PluginImplementation/",
+        "anchor": "developermanuals-pluginimplementation",
+        "virtual_path": "docs/DeveloperManuals/PluginImplementation/index.md"
+      },
+      {
+        "title": "DB Migration",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/DBMigration/",
+        "anchor": "developermanuals-dbmigration",
+        "virtual_path": "docs/DeveloperManuals/DBMigration/index.md"
+      },
+      {
+        "title": "Notifications",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/Notifications/",
+        "anchor": "developermanuals-notifications",
+        "virtual_path": "docs/DeveloperManuals/Notifications/index.md"
+      },
+      {
+        "title": "Dal",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/Dal/",
+        "anchor": "developermanuals-dal",
+        "virtual_path": "docs/DeveloperManuals/Dal/index.md"
+      },
+      {
+        "title": "Project",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/Project/",
+        "anchor": "developermanuals-project",
+        "virtual_path": "docs/DeveloperManuals/Project/index.md"
+      },
+      {
+        "title": "Tag Naming Conventions",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/TagNamingConventions/",
+        "anchor": "developermanuals-tagnamingconventions",
+        "virtual_path": "docs/DeveloperManuals/TagNamingConventions/index.md"
+      },
+      {
+        "title": "E2E Test Guide",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/E2E-Test-Guide/",
+        "anchor": "developermanuals-e2e-test-guide",
+        "virtual_path": "docs/DeveloperManuals/E2E-Test-Guide/index.md"
+      },
+      {
+        "title": "DevLake Release Guide",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/Release-SOP/",
+        "anchor": "developermanuals-release-sop",
+        "virtual_path": "docs/DeveloperManuals/Release-SOP/index.md"
+      },
+      {
+        "title": "UnitTest Test Guide",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/DeveloperManuals/UnitTest/",
+        "anchor": "developermanuals-unittest",
+        "virtual_path": "docs/DeveloperManuals/UnitTest/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Plugins",
+    "kind": "link",
+    "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/",
+    "anchor": "plugins",
+    "virtual_path": "docs/Plugins/index.md",
+    "children": [
+      {
+        "title": "Azure DevOps",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/azuredevops/",
+        "anchor": "plugins-azuredevops",
+        "virtual_path": "docs/Plugins/azuredevops/index.md"
+      },
+      {
+        "title": "Bamboo",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/bamboo/",
+        "anchor": "plugins-bamboo",
+        "virtual_path": "docs/Plugins/bamboo/index.md"
+      },
+      {
+        "title": "BitBucket Cloud",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/bitbucket/",
+        "anchor": "plugins-bitbucket",
+        "virtual_path": "docs/Plugins/bitbucket/index.md"
+      },
+      {
+        "title": "BitBucket Data Center",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/bitbucket_server/",
+        "anchor": "plugins-bitbucket_server",
+        "virtual_path": "docs/Plugins/bitbucket_server/index.md"
+      },
+      {
+        "title": "CircleCI",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/circleci/",
+        "anchor": "plugins-circleci",
+        "virtual_path": "docs/Plugins/circleci/index.md"
+      },
+      {
+        "title": "Customize",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/customize/",
+        "anchor": "plugins-customize",
+        "virtual_path": "docs/Plugins/customize/index.md"
+      },
+      {
+        "title": "DBT",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/dbt/",
+        "anchor": "plugins-dbt",
+        "virtual_path": "docs/Plugins/dbt/index.md"
+      },
+      {
+        "title": "Feishu",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/feishu/",
+        "anchor": "plugins-feishu",
+        "virtual_path": "docs/Plugins/feishu/index.md"
+      },
+      {
+        "title": "Gitee(WIP)",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/gitee/",
+        "anchor": "plugins-gitee",
+        "virtual_path": "docs/Plugins/gitee/index.md"
+      },
+      {
+        "title": "GitExtractor",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/gitextractor/",
+        "anchor": "plugins-gitextractor",
+        "virtual_path": "docs/Plugins/gitextractor/index.md"
+      },
+      {
+        "title": "GitHub",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/github/",
+        "anchor": "plugins-github",
+        "virtual_path": "docs/Plugins/github/index.md"
+      },
+      {
+        "title": "GitLab",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/gitlab/",
+        "anchor": "plugins-gitlab",
+        "virtual_path": "docs/Plugins/gitlab/index.md"
+      },
+      {
+        "title": "Jenkins",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/jenkins/",
+        "anchor": "plugins-jenkins",
+        "virtual_path": "docs/Plugins/jenkins/index.md"
+      },
+      {
+        "title": "Jira",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/jira/",
+        "anchor": "plugins-jira",
+        "virtual_path": "docs/Plugins/jira/index.md"
+      },
+      {
+        "title": "Linker",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/linker/",
+        "anchor": "plugins-linker",
+        "virtual_path": "docs/Plugins/linker/index.md"
+      },
+      {
+        "title": "Opsgenie",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/opsgenie/",
+        "anchor": "plugins-opsgenie",
+        "virtual_path": "docs/Plugins/opsgenie/index.md"
+      },
+      {
+        "title": "PagerDuty",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/pagerduty/",
+        "anchor": "plugins-pagerduty",
+        "virtual_path": "docs/Plugins/pagerduty/index.md"
+      },
+      {
+        "title": "RefDiff",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/refdiff/",
+        "anchor": "plugins-refdiff",
+        "virtual_path": "docs/Plugins/refdiff/index.md"
+      },
+      {
+        "title": "SonarQube",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/sonarqube/",
+        "anchor": "plugins-sonarqube",
+        "virtual_path": "docs/Plugins/sonarqube/index.md"
+      },
+      {
+        "title": "TAPD",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/tapd/",
+        "anchor": "plugins-tapd",
+        "virtual_path": "docs/Plugins/tapd/index.md"
+      },
+      {
+        "title": "Teambition(WIP)",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/teambition/",
+        "anchor": "plugins-teambition",
+        "virtual_path": "docs/Plugins/teambition/index.md"
+      },
+      {
+        "title": "Trello(WIP)",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/trello/",
+        "anchor": "plugins-trello",
+        "virtual_path": "docs/Plugins/trello/index.md"
+      },
+      {
+        "title": "Webhook",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/webhook/",
+        "anchor": "plugins-webhook",
+        "virtual_path": "docs/Plugins/webhook/index.md"
+      },
+      {
+        "title": "Zentao",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Plugins/zentao/",
+        "anchor": "plugins-zentao",
+        "virtual_path": "docs/Plugins/zentao/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Troubleshooting",
+    "kind": "link",
+    "source_url": "https://devlake.apache.org/docs/v1.0/Troubleshooting/",
+    "anchor": "troubleshooting",
+    "virtual_path": "docs/Troubleshooting/index.md",
+    "children": [
+      {
+        "title": "Installation Troubleshooting",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Troubleshooting/Installation/",
+        "anchor": "troubleshooting-installation",
+        "virtual_path": "docs/Troubleshooting/Installation/index.md"
+      },
+      {
+        "title": "Configuration and Blueprint Troubleshooting",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Troubleshooting/Configuration/",
+        "anchor": "troubleshooting-configuration",
+        "virtual_path": "docs/Troubleshooting/Configuration/index.md"
+      },
+      {
+        "title": "Dashboard Troubleshooting",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Troubleshooting/Dashboard/",
+        "anchor": "troubleshooting-dashboard",
+        "virtual_path": "docs/Troubleshooting/Dashboard/index.md"
+      },
+      {
+        "title": "Mysql Troubleshooting",
+        "kind": "link",
+        "source_url": "https://devlake.apache.org/docs/v1.0/Troubleshooting/MySqlIssue/",
+        "anchor": "troubleshooting-mysqlissue",
+        "virtual_path": "docs/Troubleshooting/MySqlIssue/index.md"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1853 @@
+[
+  {
+    "title": "Building",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Building and Installing Apache Celix",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/building/README.html",
+        "anchor": "documents-building-readme",
+        "virtual_path": "docs/documents/building/README.md"
+      },
+      {
+        "title": "Building and Developing Apache Celix with CLion",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/building/dev_celix_with_clion.html",
+        "anchor": "documents-building-dev_celix_with_clion",
+        "virtual_path": "docs/documents/building/dev_celix_with_clion.md"
+      }
+    ]
+  },
+  {
+    "title": "C Patterns",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Apache Celix C Patterns",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/c_patterns.html",
+        "anchor": "documents-c_patterns",
+        "virtual_path": "docs/documents/c_patterns.md"
+      }
+    ]
+  },
+  {
+    "title": "Framework",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Apache Celix Bundles",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/bundles.html",
+        "anchor": "documents-bundles",
+        "virtual_path": "docs/documents/bundles.md"
+      },
+      {
+        "title": "Apache Celix Services",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/services.html",
+        "anchor": "documents-services",
+        "virtual_path": "docs/documents/services.md"
+      },
+      {
+        "title": "Apache Celix Components",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/components.html",
+        "anchor": "documents-components",
+        "virtual_path": "docs/documents/components.md"
+      },
+      {
+        "title": "Apache Celix Framework",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/framework.html",
+        "anchor": "documents-framework",
+        "virtual_path": "docs/documents/framework.md"
+      },
+      {
+        "title": "Apache Celix Containers",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/containers.html",
+        "anchor": "documents-containers",
+        "virtual_path": "docs/documents/containers.md"
+      },
+      {
+        "title": "Apache Celix Patterns",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/patterns.html",
+        "anchor": "documents-patterns",
+        "virtual_path": "docs/documents/patterns.md"
+      },
+      {
+        "title": "Apache Celix Scheduled Events",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/scheduled_events.html",
+        "anchor": "documents-scheduled_events",
+        "virtual_path": "docs/documents/scheduled_events.md"
+      }
+    ]
+  },
+  {
+    "title": "Apache Celix CMake Commands",
+    "kind": "link",
+    "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/cmake_commands/",
+    "anchor": "documents-cmake_commands",
+    "virtual_path": "docs/documents/cmake_commands/index.md"
+  },
+  {
+    "title": "Apache Celix Sub Projects",
+    "kind": "link",
+    "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/subprojects.html",
+    "anchor": "documents-subprojects",
+    "virtual_path": "docs/documents/subprojects.md"
+  },
+  {
+    "title": "Apache Celix Coding Conventions Guide",
+    "kind": "link",
+    "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/development/README.html",
+    "anchor": "documents-development-readme",
+    "virtual_path": "docs/documents/development/README.md"
+  },
+  {
+    "title": "HTTP Admin",
+    "kind": "link",
+    "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/http_admin/README.html",
+    "anchor": "bundles-http_admin-readme",
+    "virtual_path": "docs/bundles/http_admin/README.md"
+  },
+  {
+    "title": "Log Service",
+    "kind": "category",
+    "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/logging/README.html",
+    "anchor": "bundles-logging-readme",
+    "virtual_path": "docs/bundles/logging/README.md"
+  },
+  {
+    "title": "Shell",
+    "kind": "link",
+    "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/shell/README.html",
+    "anchor": "bundles-shell-readme",
+    "virtual_path": "docs/bundles/shell/README.md"
+  },
+  {
+    "title": "Pubsub",
+    "kind": "link",
+    "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/README.html",
+    "anchor": "bundles-pubsub-readme",
+    "virtual_path": "docs/bundles/pubsub/README.md"
+  },
+  {
+    "title": "Remote Services",
+    "kind": "link",
+    "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/",
+    "anchor": "bundles-remote_services",
+    "virtual_path": "docs/bundles/remote_services/index.md"
+  },
+  {
+    "title": "Components Ready Check",
+    "kind": "link",
+    "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/components_ready_check/README.html",
+    "anchor": "bundles-components_ready_check-readme",
+    "virtual_path": "docs/bundles/components_ready_check/README.md"
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/components_ready_check",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/components_ready_check/",
+        "anchor": "bundles-components_ready_check",
+        "virtual_path": "docs/bundles/components_ready_check/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/components_ready_check",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/components_ready_check/?C=D%3BO%3DA",
+        "anchor": "bundles-components_ready_check-index_2",
+        "virtual_path": "docs/bundles/components_ready_check/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/components_ready_check",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/components_ready_check/?C=M%3BO%3DA",
+        "anchor": "bundles-components_ready_check-index_3",
+        "virtual_path": "docs/bundles/components_ready_check/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/components_ready_check",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/components_ready_check/?C=N%3BO%3DD",
+        "anchor": "bundles-components_ready_check-index_4",
+        "virtual_path": "docs/bundles/components_ready_check/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/components_ready_check",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/components_ready_check/?C=S%3BO%3DA",
+        "anchor": "bundles-components_ready_check-index_5",
+        "virtual_path": "docs/bundles/components_ready_check/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/cxx_remote_services",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/cxx_remote_services/",
+        "anchor": "bundles-cxx_remote_services",
+        "virtual_path": "docs/bundles/cxx_remote_services/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/cxx_remote_services",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/cxx_remote_services/?C=D%3BO%3DA",
+        "anchor": "bundles-cxx_remote_services-index_2",
+        "virtual_path": "docs/bundles/cxx_remote_services/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/cxx_remote_services",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/cxx_remote_services/?C=M%3BO%3DA",
+        "anchor": "bundles-cxx_remote_services-index_3",
+        "virtual_path": "docs/bundles/cxx_remote_services/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/cxx_remote_services",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/cxx_remote_services/?C=N%3BO%3DD",
+        "anchor": "bundles-cxx_remote_services-index_4",
+        "virtual_path": "docs/bundles/cxx_remote_services/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/cxx_remote_services",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/cxx_remote_services/?C=S%3BO%3DA",
+        "anchor": "bundles-cxx_remote_services-index_5",
+        "virtual_path": "docs/bundles/cxx_remote_services/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/deployment_admin",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/deployment_admin/",
+        "anchor": "bundles-deployment_admin",
+        "virtual_path": "docs/bundles/deployment_admin/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/deployment_admin",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/deployment_admin/?C=D%3BO%3DA",
+        "anchor": "bundles-deployment_admin-index_2",
+        "virtual_path": "docs/bundles/deployment_admin/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/deployment_admin",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/deployment_admin/?C=M%3BO%3DA",
+        "anchor": "bundles-deployment_admin-index_3",
+        "virtual_path": "docs/bundles/deployment_admin/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/deployment_admin",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/deployment_admin/?C=N%3BO%3DD",
+        "anchor": "bundles-deployment_admin-index_4",
+        "virtual_path": "docs/bundles/deployment_admin/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/deployment_admin",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/deployment_admin/?C=S%3BO%3DA",
+        "anchor": "bundles-deployment_admin-index_5",
+        "virtual_path": "docs/bundles/deployment_admin/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/http_admin",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/http_admin/",
+        "anchor": "bundles-http_admin",
+        "virtual_path": "docs/bundles/http_admin/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/http_admin",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/http_admin/?C=D%3BO%3DA",
+        "anchor": "bundles-http_admin-index_2",
+        "virtual_path": "docs/bundles/http_admin/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/http_admin",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/http_admin/?C=M%3BO%3DA",
+        "anchor": "bundles-http_admin-index_3",
+        "virtual_path": "docs/bundles/http_admin/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/http_admin",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/http_admin/?C=N%3BO%3DD",
+        "anchor": "bundles-http_admin-index_4",
+        "virtual_path": "docs/bundles/http_admin/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/http_admin",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/http_admin/?C=S%3BO%3DA",
+        "anchor": "bundles-http_admin-index_5",
+        "virtual_path": "docs/bundles/http_admin/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/",
+        "anchor": "bundles",
+        "virtual_path": "docs/bundles/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/?C=D%3BO%3DA",
+        "anchor": "bundles-index_2",
+        "virtual_path": "docs/bundles/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/?C=M%3BO%3DA",
+        "anchor": "bundles-index_3",
+        "virtual_path": "docs/bundles/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/?C=N%3BO%3DD",
+        "anchor": "bundles-index_4",
+        "virtual_path": "docs/bundles/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/?C=S%3BO%3DA",
+        "anchor": "bundles-index_5",
+        "virtual_path": "docs/bundles/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/logging",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/logging/",
+        "anchor": "bundles-logging",
+        "virtual_path": "docs/bundles/logging/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/logging",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/logging/?C=D%3BO%3DA",
+        "anchor": "bundles-logging-index_2",
+        "virtual_path": "docs/bundles/logging/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/logging",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/logging/?C=M%3BO%3DA",
+        "anchor": "bundles-logging-index_3",
+        "virtual_path": "docs/bundles/logging/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/logging",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/logging/?C=N%3BO%3DD",
+        "anchor": "bundles-logging-index_4",
+        "virtual_path": "docs/bundles/logging/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/logging",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/logging/?C=S%3BO%3DA",
+        "anchor": "bundles-logging-index_5",
+        "virtual_path": "docs/bundles/logging/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/logging/log_writers",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/logging/log_writers/",
+        "anchor": "bundles-logging-log_writers",
+        "virtual_path": "docs/bundles/logging/log_writers/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/logging/log_writers",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/logging/log_writers/?C=D%3BO%3DA",
+        "anchor": "bundles-logging-log_writers-index_2",
+        "virtual_path": "docs/bundles/logging/log_writers/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/logging/log_writers",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/logging/log_writers/?C=M%3BO%3DA",
+        "anchor": "bundles-logging-log_writers-index_3",
+        "virtual_path": "docs/bundles/logging/log_writers/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/logging/log_writers",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/logging/log_writers/?C=N%3BO%3DD",
+        "anchor": "bundles-logging-log_writers-index_4",
+        "virtual_path": "docs/bundles/logging/log_writers/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/logging/log_writers",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/logging/log_writers/?C=S%3BO%3DA",
+        "anchor": "bundles-logging-log_writers-index_5",
+        "virtual_path": "docs/bundles/logging/log_writers/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/examples/",
+        "anchor": "bundles-pubsub-examples",
+        "virtual_path": "docs/bundles/pubsub/examples/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/examples/?C=D%3BO%3DA",
+        "anchor": "bundles-pubsub-examples-index_2",
+        "virtual_path": "docs/bundles/pubsub/examples/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/examples/?C=M%3BO%3DA",
+        "anchor": "bundles-pubsub-examples-index_3",
+        "virtual_path": "docs/bundles/pubsub/examples/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/examples/?C=N%3BO%3DD",
+        "anchor": "bundles-pubsub-examples-index_4",
+        "virtual_path": "docs/bundles/pubsub/examples/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/examples/?C=S%3BO%3DA",
+        "anchor": "bundles-pubsub-examples-index_5",
+        "virtual_path": "docs/bundles/pubsub/examples/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/examples/keys",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/examples/keys/",
+        "anchor": "bundles-pubsub-examples-keys",
+        "virtual_path": "docs/bundles/pubsub/examples/keys/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/examples/keys",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/examples/keys/?C=D%3BO%3DA",
+        "anchor": "bundles-pubsub-examples-keys-index_2",
+        "virtual_path": "docs/bundles/pubsub/examples/keys/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/examples/keys",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/examples/keys/?C=M%3BO%3DA",
+        "anchor": "bundles-pubsub-examples-keys-index_3",
+        "virtual_path": "docs/bundles/pubsub/examples/keys/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/examples/keys",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/examples/keys/?C=N%3BO%3DD",
+        "anchor": "bundles-pubsub-examples-keys-index_4",
+        "virtual_path": "docs/bundles/pubsub/examples/keys/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/examples/keys",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/examples/keys/?C=S%3BO%3DA",
+        "anchor": "bundles-pubsub-examples-keys-index_5",
+        "virtual_path": "docs/bundles/pubsub/examples/keys/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/",
+        "anchor": "bundles-pubsub",
+        "virtual_path": "docs/bundles/pubsub/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/?C=D%3BO%3DA",
+        "anchor": "bundles-pubsub-index_2",
+        "virtual_path": "docs/bundles/pubsub/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/?C=M%3BO%3DA",
+        "anchor": "bundles-pubsub-index_3",
+        "virtual_path": "docs/bundles/pubsub/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/?C=N%3BO%3DD",
+        "anchor": "bundles-pubsub-index_4",
+        "virtual_path": "docs/bundles/pubsub/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/?C=S%3BO%3DA",
+        "anchor": "bundles-pubsub-index_5",
+        "virtual_path": "docs/bundles/pubsub/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/pubsub_admin_udp_mc",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/pubsub_admin_udp_mc/",
+        "anchor": "bundles-pubsub-pubsub_admin_udp_mc",
+        "virtual_path": "docs/bundles/pubsub/pubsub_admin_udp_mc/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/pubsub_admin_udp_mc",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/pubsub_admin_udp_mc/?C=D%3BO%3DA",
+        "anchor": "bundles-pubsub-pubsub_admin_udp_mc-index_2",
+        "virtual_path": "docs/bundles/pubsub/pubsub_admin_udp_mc/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/pubsub_admin_udp_mc",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/pubsub_admin_udp_mc/?C=M%3BO%3DA",
+        "anchor": "bundles-pubsub-pubsub_admin_udp_mc-index_3",
+        "virtual_path": "docs/bundles/pubsub/pubsub_admin_udp_mc/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/pubsub_admin_udp_mc",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/pubsub_admin_udp_mc/?C=N%3BO%3DD",
+        "anchor": "bundles-pubsub-pubsub_admin_udp_mc-index_4",
+        "virtual_path": "docs/bundles/pubsub/pubsub_admin_udp_mc/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/pubsub/pubsub_admin_udp_mc",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/pubsub/pubsub_admin_udp_mc/?C=S%3BO%3DA",
+        "anchor": "bundles-pubsub-pubsub_admin_udp_mc-index_5",
+        "virtual_path": "docs/bundles/pubsub/pubsub_admin_udp_mc/index_5.md"
+      },
+      {
+        "title": "Discovery ETCD / Apache Celix",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/discovery_etcd/README.html",
+        "anchor": "bundles-remote_services-discovery_etcd-readme",
+        "virtual_path": "docs/bundles/remote_services/discovery_etcd/README.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/discovery_etcd",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/discovery_etcd/",
+        "anchor": "bundles-remote_services-discovery_etcd",
+        "virtual_path": "docs/bundles/remote_services/discovery_etcd/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/discovery_etcd",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/discovery_etcd/?C=D%3BO%3DA",
+        "anchor": "bundles-remote_services-discovery_etcd-index_2",
+        "virtual_path": "docs/bundles/remote_services/discovery_etcd/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/discovery_etcd",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/discovery_etcd/?C=M%3BO%3DA",
+        "anchor": "bundles-remote_services-discovery_etcd-index_3",
+        "virtual_path": "docs/bundles/remote_services/discovery_etcd/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/discovery_etcd",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/discovery_etcd/?C=N%3BO%3DD",
+        "anchor": "bundles-remote_services-discovery_etcd-index_4",
+        "virtual_path": "docs/bundles/remote_services/discovery_etcd/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/discovery_etcd",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/discovery_etcd/?C=S%3BO%3DA",
+        "anchor": "bundles-remote_services-discovery_etcd-index_5",
+        "virtual_path": "docs/bundles/remote_services/discovery_etcd/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/?C=D%3BO%3DA",
+        "anchor": "bundles-remote_services-index_2",
+        "virtual_path": "docs/bundles/remote_services/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/?C=M%3BO%3DA",
+        "anchor": "bundles-remote_services-index_3",
+        "virtual_path": "docs/bundles/remote_services/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/?C=N%3BO%3DD",
+        "anchor": "bundles-remote_services-index_4",
+        "virtual_path": "docs/bundles/remote_services/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/?C=S%3BO%3DA",
+        "anchor": "bundles-remote_services-index_5",
+        "virtual_path": "docs/bundles/remote_services/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_dfi",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_dfi/",
+        "anchor": "bundles-remote_services-remote_service_admin_dfi",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_dfi/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_dfi",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_dfi/?C=D%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_dfi-index_2",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_dfi/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_dfi",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_dfi/?C=M%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_dfi-index_3",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_dfi/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_dfi",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_dfi/?C=N%3BO%3DD",
+        "anchor": "bundles-remote_services-remote_service_admin_dfi-index_4",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_dfi/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_dfi",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_dfi/?C=S%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_dfi-index_5",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_dfi/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/?C=D%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-index_2",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/?C=M%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-index_3",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/?C=N%3BO%3DD",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-index_4",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/?C=S%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-index_5",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/?C=D%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-index_2",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/?C=M%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-index_3",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/?C=N%3BO%3DD",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-index_4",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/?C=S%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-index_5",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-src",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/?C=D%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-src-index_2",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/?C=M%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-src-index_3",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/?C=N%3BO%3DD",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-src-index_4",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/?C=S%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-src-index_5",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf/",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-src-tlsf",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf/?C=D%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-src-tlsf-index_2",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf/?C=M%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-src-tlsf-index_3",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf/?C=N%3BO%3DD",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-src-tlsf-index_4",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf/?C=S%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-shm_pool-src-tlsf-index_5",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/shm_pool/src/tlsf/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/thpool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/thpool/",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-thpool",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/thpool/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/thpool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/thpool/?C=D%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-thpool-index_2",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/thpool/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/thpool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/thpool/?C=M%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-thpool-index_3",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/thpool/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/thpool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/thpool/?C=N%3BO%3DD",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-thpool-index_4",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/thpool/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/thpool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_service_admin_shm_v2/thpool/?C=S%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_service_admin_shm_v2-thpool-index_5",
+        "virtual_path": "docs/bundles/remote_services/remote_service_admin_shm_v2/thpool/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_services_api",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_services_api/",
+        "anchor": "bundles-remote_services-remote_services_api",
+        "virtual_path": "docs/bundles/remote_services/remote_services_api/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_services_api",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_services_api/?C=D%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_services_api-index_2",
+        "virtual_path": "docs/bundles/remote_services/remote_services_api/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_services_api",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_services_api/?C=M%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_services_api-index_3",
+        "virtual_path": "docs/bundles/remote_services/remote_services_api/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_services_api",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_services_api/?C=N%3BO%3DD",
+        "anchor": "bundles-remote_services-remote_services_api-index_4",
+        "virtual_path": "docs/bundles/remote_services/remote_services_api/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/remote_services_api",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/remote_services_api/?C=S%3BO%3DA",
+        "anchor": "bundles-remote_services-remote_services_api-index_5",
+        "virtual_path": "docs/bundles/remote_services/remote_services_api/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/rsa_spi",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/rsa_spi/",
+        "anchor": "bundles-remote_services-rsa_spi",
+        "virtual_path": "docs/bundles/remote_services/rsa_spi/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/rsa_spi",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/rsa_spi/?C=D%3BO%3DA",
+        "anchor": "bundles-remote_services-rsa_spi-index_2",
+        "virtual_path": "docs/bundles/remote_services/rsa_spi/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/rsa_spi",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/rsa_spi/?C=M%3BO%3DA",
+        "anchor": "bundles-remote_services-rsa_spi-index_3",
+        "virtual_path": "docs/bundles/remote_services/rsa_spi/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/rsa_spi",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/rsa_spi/?C=N%3BO%3DD",
+        "anchor": "bundles-remote_services-rsa_spi-index_4",
+        "virtual_path": "docs/bundles/remote_services/rsa_spi/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/rsa_spi",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/rsa_spi/?C=S%3BO%3DA",
+        "anchor": "bundles-remote_services-rsa_spi-index_5",
+        "virtual_path": "docs/bundles/remote_services/rsa_spi/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/topology_manager",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/topology_manager/",
+        "anchor": "bundles-remote_services-topology_manager",
+        "virtual_path": "docs/bundles/remote_services/topology_manager/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/topology_manager",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/topology_manager/?C=D%3BO%3DA",
+        "anchor": "bundles-remote_services-topology_manager-index_2",
+        "virtual_path": "docs/bundles/remote_services/topology_manager/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/topology_manager",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/topology_manager/?C=M%3BO%3DA",
+        "anchor": "bundles-remote_services-topology_manager-index_3",
+        "virtual_path": "docs/bundles/remote_services/topology_manager/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/topology_manager",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/topology_manager/?C=N%3BO%3DD",
+        "anchor": "bundles-remote_services-topology_manager-index_4",
+        "virtual_path": "docs/bundles/remote_services/topology_manager/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/remote_services/topology_manager",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/remote_services/topology_manager/?C=S%3BO%3DA",
+        "anchor": "bundles-remote_services-topology_manager-index_5",
+        "virtual_path": "docs/bundles/remote_services/topology_manager/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/shell/diagrams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/shell/diagrams/",
+        "anchor": "bundles-shell-diagrams",
+        "virtual_path": "docs/bundles/shell/diagrams/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/shell/diagrams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/shell/diagrams/?C=D%3BO%3DA",
+        "anchor": "bundles-shell-diagrams-index_2",
+        "virtual_path": "docs/bundles/shell/diagrams/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/shell/diagrams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/shell/diagrams/?C=M%3BO%3DA",
+        "anchor": "bundles-shell-diagrams-index_3",
+        "virtual_path": "docs/bundles/shell/diagrams/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/shell/diagrams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/shell/diagrams/?C=N%3BO%3DD",
+        "anchor": "bundles-shell-diagrams-index_4",
+        "virtual_path": "docs/bundles/shell/diagrams/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/shell/diagrams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/shell/diagrams/?C=S%3BO%3DA",
+        "anchor": "bundles-shell-diagrams-index_5",
+        "virtual_path": "docs/bundles/shell/diagrams/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/shell",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/shell/",
+        "anchor": "bundles-shell",
+        "virtual_path": "docs/bundles/shell/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/shell",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/shell/?C=D%3BO%3DA",
+        "anchor": "bundles-shell-index_2",
+        "virtual_path": "docs/bundles/shell/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/shell",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/shell/?C=M%3BO%3DA",
+        "anchor": "bundles-shell-index_3",
+        "virtual_path": "docs/bundles/shell/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/shell",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/shell/?C=N%3BO%3DD",
+        "anchor": "bundles-shell-index_4",
+        "virtual_path": "docs/bundles/shell/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/bundles/shell",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/bundles/shell/?C=S%3BO%3DA",
+        "anchor": "bundles-shell-index_5",
+        "virtual_path": "docs/bundles/shell/index_5.md"
+      },
+      {
+        "title": "Documentation for Celix v2.4.0",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/docs.html",
+        "anchor": "docs-2.4.0-docs",
+        "virtual_path": "docs/docs/2.4.0/docs.md"
+      },
+      {
+        "title": "Apache Celix Introduction",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/README.html",
+        "anchor": "documents-readme",
+        "virtual_path": "docs/documents/README.md"
+      },
+      {
+        "title": "Apache Celix - CMake Commands",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/cmake_commands/README.html",
+        "anchor": "documents-cmake_commands-readme",
+        "virtual_path": "docs/documents/cmake_commands/README.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/documents/cmake_commands",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/cmake_commands/?C=D%3BO%3DA",
+        "anchor": "documents-cmake_commands-index_2",
+        "virtual_path": "docs/documents/cmake_commands/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/documents/cmake_commands",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/cmake_commands/?C=M%3BO%3DA",
+        "anchor": "documents-cmake_commands-index_3",
+        "virtual_path": "docs/documents/cmake_commands/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/documents/cmake_commands",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/cmake_commands/?C=N%3BO%3DD",
+        "anchor": "documents-cmake_commands-index_4",
+        "virtual_path": "docs/documents/cmake_commands/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/documents/cmake_commands",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/cmake_commands/?C=S%3BO%3DA",
+        "anchor": "documents-cmake_commands-index_5",
+        "virtual_path": "docs/documents/cmake_commands/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/documents",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/documents/",
+        "anchor": "documents",
+        "virtual_path": "docs/documents/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/http_example",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/http_example/",
+        "anchor": "examples-celix-examples-http_example",
+        "virtual_path": "docs/examples/celix-examples/http_example/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/http_example",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/http_example/?C=D%3BO%3DA",
+        "anchor": "examples-celix-examples-http_example-index_2",
+        "virtual_path": "docs/examples/celix-examples/http_example/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/http_example",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/http_example/?C=M%3BO%3DA",
+        "anchor": "examples-celix-examples-http_example-index_3",
+        "virtual_path": "docs/examples/celix-examples/http_example/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/http_example",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/http_example/?C=N%3BO%3DD",
+        "anchor": "examples-celix-examples-http_example-index_4",
+        "virtual_path": "docs/examples/celix-examples/http_example/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/http_example",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/http_example/?C=S%3BO%3DA",
+        "anchor": "examples-celix-examples-http_example-index_5",
+        "virtual_path": "docs/examples/celix-examples/http_example/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/",
+        "anchor": "examples-celix-examples",
+        "virtual_path": "docs/examples/celix-examples/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/?C=D%3BO%3DA",
+        "anchor": "examples-celix-examples-index_2",
+        "virtual_path": "docs/examples/celix-examples/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/?C=M%3BO%3DA",
+        "anchor": "examples-celix-examples-index_3",
+        "virtual_path": "docs/examples/celix-examples/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/?C=N%3BO%3DD",
+        "anchor": "examples-celix-examples-index_4",
+        "virtual_path": "docs/examples/celix-examples/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/?C=S%3BO%3DA",
+        "anchor": "examples-celix-examples-index_5",
+        "virtual_path": "docs/examples/celix-examples/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/services_example_c",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/services_example_c/",
+        "anchor": "examples-celix-examples-services_example_c",
+        "virtual_path": "docs/examples/celix-examples/services_example_c/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/services_example_c",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/services_example_c/?C=D%3BO%3DA",
+        "anchor": "examples-celix-examples-services_example_c-index_2",
+        "virtual_path": "docs/examples/celix-examples/services_example_c/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/services_example_c",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/services_example_c/?C=M%3BO%3DA",
+        "anchor": "examples-celix-examples-services_example_c-index_3",
+        "virtual_path": "docs/examples/celix-examples/services_example_c/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/services_example_c",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/services_example_c/?C=N%3BO%3DD",
+        "anchor": "examples-celix-examples-services_example_c-index_4",
+        "virtual_path": "docs/examples/celix-examples/services_example_c/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/services_example_c",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/services_example_c/?C=S%3BO%3DA",
+        "anchor": "examples-celix-examples-services_example_c-index_5",
+        "virtual_path": "docs/examples/celix-examples/services_example_c/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/services_example_cxx",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/services_example_cxx/",
+        "anchor": "examples-celix-examples-services_example_cxx",
+        "virtual_path": "docs/examples/celix-examples/services_example_cxx/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/services_example_cxx",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/services_example_cxx/?C=D%3BO%3DA",
+        "anchor": "examples-celix-examples-services_example_cxx-index_2",
+        "virtual_path": "docs/examples/celix-examples/services_example_cxx/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/services_example_cxx",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/services_example_cxx/?C=M%3BO%3DA",
+        "anchor": "examples-celix-examples-services_example_cxx-index_3",
+        "virtual_path": "docs/examples/celix-examples/services_example_cxx/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/services_example_cxx",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/services_example_cxx/?C=N%3BO%3DD",
+        "anchor": "examples-celix-examples-services_example_cxx-index_4",
+        "virtual_path": "docs/examples/celix-examples/services_example_cxx/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/celix-examples/services_example_cxx",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/celix-examples/services_example_cxx/?C=S%3BO%3DA",
+        "anchor": "examples-celix-examples-services_example_cxx-index_5",
+        "virtual_path": "docs/examples/celix-examples/services_example_cxx/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/conan_test_package",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/conan_test_package/",
+        "anchor": "examples-conan_test_package",
+        "virtual_path": "docs/examples/conan_test_package/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/conan_test_package",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/conan_test_package/?C=D%3BO%3DA",
+        "anchor": "examples-conan_test_package-index_2",
+        "virtual_path": "docs/examples/conan_test_package/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/conan_test_package",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/conan_test_package/?C=M%3BO%3DA",
+        "anchor": "examples-conan_test_package-index_3",
+        "virtual_path": "docs/examples/conan_test_package/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/conan_test_package",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/conan_test_package/?C=N%3BO%3DD",
+        "anchor": "examples-conan_test_package-index_4",
+        "virtual_path": "docs/examples/conan_test_package/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples/conan_test_package",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/conan_test_package/?C=S%3BO%3DA",
+        "anchor": "examples-conan_test_package-index_5",
+        "virtual_path": "docs/examples/conan_test_package/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/",
+        "anchor": "examples",
+        "virtual_path": "docs/examples/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/?C=D%3BO%3DA",
+        "anchor": "examples-index_2",
+        "virtual_path": "docs/examples/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/?C=M%3BO%3DA",
+        "anchor": "examples-index_3",
+        "virtual_path": "docs/examples/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/?C=N%3BO%3DD",
+        "anchor": "examples-index_4",
+        "virtual_path": "docs/examples/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/examples",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/examples/?C=S%3BO%3DA",
+        "anchor": "examples-index_5",
+        "virtual_path": "docs/examples/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/?C=D%3BO%3DA",
+        "anchor": "index_2",
+        "virtual_path": "docs/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/?C=M%3BO%3DA",
+        "anchor": "index_3",
+        "virtual_path": "docs/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/?C=N%3BO%3DD",
+        "anchor": "index_4",
+        "virtual_path": "docs/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/?C=S%3BO%3DA",
+        "anchor": "index_5",
+        "virtual_path": "docs/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/error_injector",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/error_injector/",
+        "anchor": "libs-error_injector",
+        "virtual_path": "docs/libs/error_injector/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/error_injector",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/error_injector/?C=D%3BO%3DA",
+        "anchor": "libs-error_injector-index_2",
+        "virtual_path": "docs/libs/error_injector/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/error_injector",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/error_injector/?C=M%3BO%3DA",
+        "anchor": "libs-error_injector-index_3",
+        "virtual_path": "docs/libs/error_injector/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/error_injector",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/error_injector/?C=N%3BO%3DD",
+        "anchor": "libs-error_injector-index_4",
+        "virtual_path": "docs/libs/error_injector/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/error_injector",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/error_injector/?C=S%3BO%3DA",
+        "anchor": "libs-error_injector-index_5",
+        "virtual_path": "docs/libs/error_injector/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/etcdlib",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/etcdlib/",
+        "anchor": "libs-etcdlib",
+        "virtual_path": "docs/libs/etcdlib/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/etcdlib",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/etcdlib/?C=D%3BO%3DA",
+        "anchor": "libs-etcdlib-index_2",
+        "virtual_path": "docs/libs/etcdlib/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/etcdlib",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/etcdlib/?C=M%3BO%3DA",
+        "anchor": "libs-etcdlib-index_3",
+        "virtual_path": "docs/libs/etcdlib/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/etcdlib",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/etcdlib/?C=N%3BO%3DD",
+        "anchor": "libs-etcdlib-index_4",
+        "virtual_path": "docs/libs/etcdlib/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/etcdlib",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/etcdlib/?C=S%3BO%3DA",
+        "anchor": "libs-etcdlib-index_5",
+        "virtual_path": "docs/libs/etcdlib/index_5.md"
+      },
+      {
+        "title": "Intro",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/framework/doxygen.html",
+        "anchor": "libs-framework-doxygen",
+        "virtual_path": "docs/libs/framework/doxygen.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/framework",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/framework/",
+        "anchor": "libs-framework",
+        "virtual_path": "docs/libs/framework/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/framework",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/framework/?C=D%3BO%3DA",
+        "anchor": "libs-framework-index_2",
+        "virtual_path": "docs/libs/framework/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/framework",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/framework/?C=M%3BO%3DA",
+        "anchor": "libs-framework-index_3",
+        "virtual_path": "docs/libs/framework/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/framework",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/framework/?C=N%3BO%3DD",
+        "anchor": "libs-framework-index_4",
+        "virtual_path": "docs/libs/framework/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/framework",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/framework/?C=S%3BO%3DA",
+        "anchor": "libs-framework-index_5",
+        "virtual_path": "docs/libs/framework/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/",
+        "anchor": "libs",
+        "virtual_path": "docs/libs/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/?C=D%3BO%3DA",
+        "anchor": "libs-index_2",
+        "virtual_path": "docs/libs/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/?C=M%3BO%3DA",
+        "anchor": "libs-index_3",
+        "virtual_path": "docs/libs/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/?C=N%3BO%3DD",
+        "anchor": "libs-index_4",
+        "virtual_path": "docs/libs/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/?C=S%3BO%3DA",
+        "anchor": "libs-index_5",
+        "virtual_path": "docs/libs/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/launcher",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/launcher/",
+        "anchor": "libs-launcher",
+        "virtual_path": "docs/libs/launcher/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/launcher",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/launcher/?C=D%3BO%3DA",
+        "anchor": "libs-launcher-index_2",
+        "virtual_path": "docs/libs/launcher/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/launcher",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/launcher/?C=M%3BO%3DA",
+        "anchor": "libs-launcher-index_3",
+        "virtual_path": "docs/libs/launcher/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/launcher",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/launcher/?C=N%3BO%3DD",
+        "anchor": "libs-launcher-index_4",
+        "virtual_path": "docs/libs/launcher/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/launcher",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/launcher/?C=S%3BO%3DA",
+        "anchor": "libs-launcher-index_5",
+        "virtual_path": "docs/libs/launcher/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/promises",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/promises/",
+        "anchor": "libs-promises",
+        "virtual_path": "docs/libs/promises/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/promises",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/promises/?C=D%3BO%3DA",
+        "anchor": "libs-promises-index_2",
+        "virtual_path": "docs/libs/promises/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/promises",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/promises/?C=M%3BO%3DA",
+        "anchor": "libs-promises-index_3",
+        "virtual_path": "docs/libs/promises/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/promises",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/promises/?C=N%3BO%3DD",
+        "anchor": "libs-promises-index_4",
+        "virtual_path": "docs/libs/promises/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/promises",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/promises/?C=S%3BO%3DA",
+        "anchor": "libs-promises-index_5",
+        "virtual_path": "docs/libs/promises/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/pushstreams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/pushstreams/",
+        "anchor": "libs-pushstreams",
+        "virtual_path": "docs/libs/pushstreams/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/pushstreams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/pushstreams/?C=D%3BO%3DA",
+        "anchor": "libs-pushstreams-index_2",
+        "virtual_path": "docs/libs/pushstreams/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/pushstreams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/pushstreams/?C=M%3BO%3DA",
+        "anchor": "libs-pushstreams-index_3",
+        "virtual_path": "docs/libs/pushstreams/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/pushstreams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/pushstreams/?C=N%3BO%3DD",
+        "anchor": "libs-pushstreams-index_4",
+        "virtual_path": "docs/libs/pushstreams/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/pushstreams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/pushstreams/?C=S%3BO%3DA",
+        "anchor": "libs-pushstreams-index_5",
+        "virtual_path": "docs/libs/pushstreams/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/rcm/diagrams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/rcm/diagrams/",
+        "anchor": "libs-rcm-diagrams",
+        "virtual_path": "docs/libs/rcm/diagrams/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/rcm/diagrams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/rcm/diagrams/?C=D%3BO%3DA",
+        "anchor": "libs-rcm-diagrams-index_2",
+        "virtual_path": "docs/libs/rcm/diagrams/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/rcm/diagrams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/rcm/diagrams/?C=M%3BO%3DA",
+        "anchor": "libs-rcm-diagrams-index_3",
+        "virtual_path": "docs/libs/rcm/diagrams/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/rcm/diagrams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/rcm/diagrams/?C=N%3BO%3DD",
+        "anchor": "libs-rcm-diagrams-index_4",
+        "virtual_path": "docs/libs/rcm/diagrams/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/rcm/diagrams",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/rcm/diagrams/?C=S%3BO%3DA",
+        "anchor": "libs-rcm-diagrams-index_5",
+        "virtual_path": "docs/libs/rcm/diagrams/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/rcm",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/rcm/",
+        "anchor": "libs-rcm",
+        "virtual_path": "docs/libs/rcm/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/rcm",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/rcm/?C=D%3BO%3DA",
+        "anchor": "libs-rcm-index_2",
+        "virtual_path": "docs/libs/rcm/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/rcm",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/rcm/?C=M%3BO%3DA",
+        "anchor": "libs-rcm-index_3",
+        "virtual_path": "docs/libs/rcm/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/rcm",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/rcm/?C=N%3BO%3DD",
+        "anchor": "libs-rcm-index_4",
+        "virtual_path": "docs/libs/rcm/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/rcm",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/rcm/?C=S%3BO%3DA",
+        "anchor": "libs-rcm-index_5",
+        "virtual_path": "docs/libs/rcm/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/docs",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/",
+        "anchor": "libs-utils-docs",
+        "virtual_path": "docs/libs/utils/docs/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/docs",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/?C=D%3BO%3DA",
+        "anchor": "libs-utils-docs-index_2",
+        "virtual_path": "docs/libs/utils/docs/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/docs",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/?C=M%3BO%3DA",
+        "anchor": "libs-utils-docs-index_3",
+        "virtual_path": "docs/libs/utils/docs/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/docs",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/?C=N%3BO%3DD",
+        "anchor": "libs-utils-docs-index_4",
+        "virtual_path": "docs/libs/utils/docs/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/docs",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/?C=S%3BO%3DA",
+        "anchor": "libs-utils-docs-index_5",
+        "virtual_path": "docs/libs/utils/docs/index_5.md"
+      },
+      {
+        "title": "Design.md / Apache Celix",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/thpool/Design.html",
+        "anchor": "libs-utils-docs-thpool-design",
+        "virtual_path": "docs/libs/utils/docs/thpool/Design.md"
+      },
+      {
+        "title": "FAQ.md / Apache Celix",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/thpool/FAQ.html",
+        "anchor": "libs-utils-docs-thpool-faq",
+        "virtual_path": "docs/libs/utils/docs/thpool/FAQ.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/docs/thpool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/thpool/",
+        "anchor": "libs-utils-docs-thpool",
+        "virtual_path": "docs/libs/utils/docs/thpool/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/docs/thpool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/thpool/?C=D%3BO%3DA",
+        "anchor": "libs-utils-docs-thpool-index_2",
+        "virtual_path": "docs/libs/utils/docs/thpool/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/docs/thpool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/thpool/?C=M%3BO%3DA",
+        "anchor": "libs-utils-docs-thpool-index_3",
+        "virtual_path": "docs/libs/utils/docs/thpool/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/docs/thpool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/thpool/?C=N%3BO%3DD",
+        "anchor": "libs-utils-docs-thpool-index_4",
+        "virtual_path": "docs/libs/utils/docs/thpool/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/docs/thpool",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/docs/thpool/?C=S%3BO%3DA",
+        "anchor": "libs-utils-docs-thpool-index_5",
+        "virtual_path": "docs/libs/utils/docs/thpool/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/include",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/include/",
+        "anchor": "libs-utils-include",
+        "virtual_path": "docs/libs/utils/include/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/include",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/include/?C=D%3BO%3DA",
+        "anchor": "libs-utils-include-index_2",
+        "virtual_path": "docs/libs/utils/include/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/include",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/include/?C=M%3BO%3DA",
+        "anchor": "libs-utils-include-index_3",
+        "virtual_path": "docs/libs/utils/include/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/include",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/include/?C=N%3BO%3DD",
+        "anchor": "libs-utils-include-index_4",
+        "virtual_path": "docs/libs/utils/include/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/include",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/include/?C=S%3BO%3DA",
+        "anchor": "libs-utils-include-index_5",
+        "virtual_path": "docs/libs/utils/include/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/include/memstream",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/include/memstream/",
+        "anchor": "libs-utils-include-memstream",
+        "virtual_path": "docs/libs/utils/include/memstream/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/include/memstream",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/include/memstream/?C=D%3BO%3DA",
+        "anchor": "libs-utils-include-memstream-index_2",
+        "virtual_path": "docs/libs/utils/include/memstream/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/include/memstream",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/include/memstream/?C=M%3BO%3DA",
+        "anchor": "libs-utils-include-memstream-index_3",
+        "virtual_path": "docs/libs/utils/include/memstream/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/include/memstream",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/include/memstream/?C=N%3BO%3DD",
+        "anchor": "libs-utils-include-memstream-index_4",
+        "virtual_path": "docs/libs/utils/include/memstream/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils/include/memstream",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/include/memstream/?C=S%3BO%3DA",
+        "anchor": "libs-utils-include-memstream-index_5",
+        "virtual_path": "docs/libs/utils/include/memstream/index_5.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/",
+        "anchor": "libs-utils",
+        "virtual_path": "docs/libs/utils/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/?C=D%3BO%3DA",
+        "anchor": "libs-utils-index_2",
+        "virtual_path": "docs/libs/utils/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/?C=M%3BO%3DA",
+        "anchor": "libs-utils-index_3",
+        "virtual_path": "docs/libs/utils/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/?C=N%3BO%3DD",
+        "anchor": "libs-utils-index_4",
+        "virtual_path": "docs/libs/utils/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/libs/utils",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/libs/utils/?C=S%3BO%3DA",
+        "anchor": "libs-utils-index_5",
+        "virtual_path": "docs/libs/utils/index_5.md"
+      },
+      {
+        "title": "Intro",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/misc/experimental/",
+        "anchor": "misc-experimental",
+        "virtual_path": "docs/misc/experimental/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/misc",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/misc/",
+        "anchor": "misc",
+        "virtual_path": "docs/misc/index.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/misc",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/misc/?C=D%3BO%3DA",
+        "anchor": "misc-index_2",
+        "virtual_path": "docs/misc/index_2.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/misc",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/misc/?C=M%3BO%3DA",
+        "anchor": "misc-index_3",
+        "virtual_path": "docs/misc/index_3.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/misc",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/misc/?C=N%3BO%3DD",
+        "anchor": "misc-index_4",
+        "virtual_path": "docs/misc/index_4.md"
+      },
+      {
+        "title": "Index of /docs/2.4.0/celix/misc",
+        "kind": "link",
+        "source_url": "https://celix.apache.org/docs/2.4.0/celix/misc/?C=S%3BO%3DA",
+        "anchor": "misc-index_5",
+        "virtual_path": "docs/misc/index_5.md"
+      }
+    ]
+  }
+]
