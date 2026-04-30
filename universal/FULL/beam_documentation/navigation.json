@@ -1,0 +1,1643 @@
+[
+  {
+    "title": "Documentation",
+    "kind": "category",
+    "source_url": "https://beam.apache.org/documentation/",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "Using the Documentation",
+    "kind": "link",
+    "source_url": "https://beam.apache.org/documentation/",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "Concepts",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Basics of the Beam model",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/basics/",
+        "anchor": "basics",
+        "virtual_path": "docs/basics/index.md"
+      },
+      {
+        "title": "How Beam executes a pipeline",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/runtime/model/",
+        "anchor": "runtime-model",
+        "virtual_path": "docs/runtime/model/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Beam programming guide",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/programming-guide/",
+        "anchor": "programming-guide",
+        "virtual_path": "docs/programming-guide/index.md"
+      },
+      {
+        "title": "Pipelines",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/programming-guide/#creating-a-pipeline",
+        "anchor": "programming-guide--creating-a-pipeline",
+        "virtual_path": "docs/programming-guide/index.md"
+      },
+      {
+        "title": "PCollections",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Creating a PCollection",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#pcollections",
+            "anchor": "programming-guide--pcollections",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "PCollection characteristics",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#pcollection-characteristics",
+            "anchor": "programming-guide--pcollection-characteristics",
+            "virtual_path": "docs/programming-guide/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Transforms",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Applying transforms",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#applying-transforms",
+            "anchor": "programming-guide--applying-transforms",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Core Beam transforms",
+            "kind": "category",
+            "children": [
+              {
+                "title": "ParDo",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/programming-guide/#pardo",
+                "anchor": "programming-guide--pardo",
+                "virtual_path": "docs/programming-guide/index.md"
+              },
+              {
+                "title": "GroupByKey",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/programming-guide/#groupbykey",
+                "anchor": "programming-guide--groupbykey",
+                "virtual_path": "docs/programming-guide/index.md"
+              },
+              {
+                "title": "CoGroupByKey",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/programming-guide/#cogroupbykey",
+                "anchor": "programming-guide--cogroupbykey",
+                "virtual_path": "docs/programming-guide/index.md"
+              },
+              {
+                "title": "Combine",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/programming-guide/#combine",
+                "anchor": "programming-guide--combine",
+                "virtual_path": "docs/programming-guide/index.md"
+              },
+              {
+                "title": "Flatten",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/programming-guide/#flatten",
+                "anchor": "programming-guide--flatten",
+                "virtual_path": "docs/programming-guide/index.md"
+              },
+              {
+                "title": "Partition",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/programming-guide/#partition",
+                "anchor": "programming-guide--partition",
+                "virtual_path": "docs/programming-guide/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Requirements for user code",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#requirements-for-writing-user-code-for-beam-transforms",
+            "anchor": "programming-guide--requirements-for-writing-user-code-for-beam-transforms",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Side inputs",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#side-inputs",
+            "anchor": "programming-guide--side-inputs",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Additional outputs",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#additional-outputs",
+            "anchor": "programming-guide--additional-outputs",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Composite transforms",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#composite-transforms",
+            "anchor": "programming-guide--composite-transforms",
+            "virtual_path": "docs/programming-guide/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Pipeline I/O",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Using I/O transforms",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#pipeline-io",
+            "anchor": "programming-guide--pipeline-io",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "I/O connectors",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/io/connectors/",
+            "anchor": "io-connectors",
+            "virtual_path": "docs/io/connectors/index.md"
+          },
+          {
+            "title": "Managed I/O",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/io/managed-io/",
+            "anchor": "io-managed-io",
+            "virtual_path": "docs/io/managed-io/index.md"
+          },
+          {
+            "title": "I/O connector guides",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Apache Iceberg",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/built-in/iceberg/",
+                "anchor": "io-built-in-iceberg",
+                "virtual_path": "docs/io/built-in/iceberg/index.md"
+              },
+              {
+                "title": "Apache Parquet",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/built-in/parquet/",
+                "anchor": "io-built-in-parquet",
+                "virtual_path": "docs/io/built-in/parquet/index.md"
+              },
+              {
+                "title": "Hadoop Input/Output Format",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/built-in/hadoop/",
+                "anchor": "io-built-in-hadoop",
+                "virtual_path": "docs/io/built-in/hadoop/index.md"
+              },
+              {
+                "title": "HCatalog IO",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/built-in/hcatalog/",
+                "anchor": "io-built-in-hcatalog",
+                "virtual_path": "docs/io/built-in/hcatalog/index.md"
+              },
+              {
+                "title": "Google BigQuery",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/built-in/google-bigquery/",
+                "anchor": "io-built-in-google-bigquery",
+                "virtual_path": "docs/io/built-in/google-bigquery/index.md"
+              },
+              {
+                "title": "Snowflake",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/built-in/snowflake/",
+                "anchor": "io-built-in-snowflake",
+                "virtual_path": "docs/io/built-in/snowflake/index.md"
+              },
+              {
+                "title": "CDAP I/O",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/built-in/cdap/",
+                "anchor": "io-built-in-cdap",
+                "virtual_path": "docs/io/built-in/cdap/index.md"
+              },
+              {
+                "title": "Spark Receiver I/O",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/built-in/sparkreceiver/",
+                "anchor": "io-built-in-sparkreceiver",
+                "virtual_path": "docs/io/built-in/sparkreceiver/index.md"
+              },
+              {
+                "title": "SingleStoreDB I/O",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/built-in/singlestore/",
+                "anchor": "io-built-in-singlestore",
+                "virtual_path": "docs/io/built-in/singlestore/index.md"
+              },
+              {
+                "title": "Web APIs I/O",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/built-in/webapis/",
+                "anchor": "io-built-in-webapis",
+                "virtual_path": "docs/io/built-in/webapis/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Developing new I/O connectors",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Overview: Developing connectors",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/developing-io-overview/",
+                "anchor": "io-developing-io-overview",
+                "virtual_path": "docs/io/developing-io-overview/index.md"
+              },
+              {
+                "title": "Developing connectors (Java)",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/developing-io-java/",
+                "anchor": "io-developing-io-java",
+                "virtual_path": "docs/io/developing-io-java/index.md"
+              },
+              {
+                "title": "Developing connectors (Python)",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/developing-io-python/",
+                "anchor": "io-developing-io-python",
+                "virtual_path": "docs/io/developing-io-python/index.md"
+              },
+              {
+                "title": "I/O Standards",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/io/io-standards/",
+                "anchor": "io-io-standards",
+                "virtual_path": "docs/io/io-standards/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Testing I/O transforms",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/io/testing/",
+            "anchor": "io-testing",
+            "virtual_path": "docs/io/testing/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Schemas",
+        "kind": "category",
+        "children": [
+          {
+            "title": "What is a schema",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#what-is-a-schema",
+            "anchor": "programming-guide--what-is-a-schema",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Schemas for programming language types",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#schemas-for-pl-types",
+            "anchor": "programming-guide--schemas-for-pl-types",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Schema definition",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#schema-definition",
+            "anchor": "programming-guide--schema-definition",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Logical types",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#logical-types",
+            "anchor": "programming-guide--logical-types",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Creating schemas",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#creating-schemas",
+            "anchor": "programming-guide--creating-schemas",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Using schemas",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#using-schemas",
+            "anchor": "programming-guide--using-schemas",
+            "virtual_path": "docs/programming-guide/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Data encoding and type safety",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Data encoding basics",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#data-encoding-and-type-safety",
+            "anchor": "programming-guide--data-encoding-and-type-safety",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Specifying coders",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#specifying-coders",
+            "anchor": "programming-guide--specifying-coders",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Default coders and the CoderRegistry",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#default-coders-and-the-coderregistry",
+            "anchor": "programming-guide--default-coders-and-the-coderregistry",
+            "virtual_path": "docs/programming-guide/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Windowing",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Windowing basics",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#windowing",
+            "anchor": "programming-guide--windowing",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Provided windowing functions",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#provided-windowing-functions",
+            "anchor": "programming-guide--provided-windowing-functions",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Setting your PCollection’s windowing function",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#setting-your-pcollections-windowing-function",
+            "anchor": "programming-guide--setting-your-pcollections-windowing-function",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Watermarks and late data",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#watermarks-and-late-data",
+            "anchor": "programming-guide--watermarks-and-late-data",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Adding timestamps to a PCollection’s elements",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#adding-timestamps-to-a-pcollections-elements",
+            "anchor": "programming-guide--adding-timestamps-to-a-pcollections-elements",
+            "virtual_path": "docs/programming-guide/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Triggers",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Trigger basics",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#triggers",
+            "anchor": "programming-guide--triggers",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Event time triggers and the default trigger",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#event-time-triggers",
+            "anchor": "programming-guide--event-time-triggers",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Processing time triggers",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#processing-time-triggers",
+            "anchor": "programming-guide--processing-time-triggers",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Data-driven triggers",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#data-driven-triggers",
+            "anchor": "programming-guide--data-driven-triggers",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Setting a trigger",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#setting-a-trigger",
+            "anchor": "programming-guide--setting-a-trigger",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Composite triggers",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#composite-triggers",
+            "anchor": "programming-guide--composite-triggers",
+            "virtual_path": "docs/programming-guide/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Metrics",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Metrics basics",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#metrics",
+            "anchor": "programming-guide--metrics",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Types of metrics",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#types-of-metrics",
+            "anchor": "programming-guide--types-of-metrics",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Querying metrics",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#querying-metrics",
+            "anchor": "programming-guide--querying-metrics",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Using metrics in pipeline",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#using-metrics",
+            "anchor": "programming-guide--using-metrics",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Export metrics",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#export-metrics",
+            "anchor": "programming-guide--export-metrics",
+            "virtual_path": "docs/programming-guide/index.md"
+          }
+        ]
+      },
+      {
+        "title": "State and Timers",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Types of state",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#types-of-state",
+            "anchor": "programming-guide--types-of-state",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Deferred state reads",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#deferred-state-reads",
+            "anchor": "programming-guide--deferred-state-reads",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Timers",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#timers",
+            "anchor": "programming-guide--timers",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Garbage collecting state",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#garbage-collecting-state",
+            "anchor": "programming-guide--garbage-collecting-state",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "State and timers examples",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#state-timers-examples",
+            "anchor": "programming-guide--state-timers-examples",
+            "virtual_path": "docs/programming-guide/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Splittable DoFns",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Basics",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#sdf-basics",
+            "anchor": "programming-guide--sdf-basics",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Sizing and progress",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#sizing-and-progress",
+            "anchor": "programming-guide--sizing-and-progress",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "User-initiated checkpoint",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#user-initiated-checkpoint",
+            "anchor": "programming-guide--user-initiated-checkpoint",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Runner initiated split",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#runner-initiated-split",
+            "anchor": "programming-guide--runner-initiated-split",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Watermark estimation",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#watermark-estimation",
+            "anchor": "programming-guide--watermark-estimation",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Truncating during drain",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#truncating-during-drain",
+            "anchor": "programming-guide--truncating-during-drain",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Bundle finalization",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#bundle-finalization",
+            "anchor": "programming-guide--bundle-finalization",
+            "virtual_path": "docs/programming-guide/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Multi-language Pipelines",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Creating cross-language transforms",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#create-x-lang-transforms",
+            "anchor": "programming-guide--create-x-lang-transforms",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Using cross-language transforms",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#use-x-lang-transforms",
+            "anchor": "programming-guide--use-x-lang-transforms",
+            "virtual_path": "docs/programming-guide/index.md"
+          },
+          {
+            "title": "Runner Support",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/programming-guide/#x-lang-transform-runner-support",
+            "anchor": "programming-guide--x-lang-transform-runner-support",
+            "virtual_path": "docs/programming-guide/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Batched DoFns",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/programming-guide/#batched-dofns",
+        "anchor": "programming-guide--batched-dofns",
+        "virtual_path": "docs/programming-guide/index.md"
+      },
+      {
+        "title": "Transform service",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/programming-guide/#transform-service",
+        "anchor": "programming-guide--transform-service",
+        "virtual_path": "docs/programming-guide/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Pipeline development lifecycle",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Design Your Pipeline",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/pipelines/design-your-pipeline/",
+        "anchor": "pipelines-design-your-pipeline",
+        "virtual_path": "docs/pipelines/design-your-pipeline/index.md"
+      },
+      {
+        "title": "Create Your Pipeline",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/pipelines/create-your-pipeline/",
+        "anchor": "pipelines-create-your-pipeline",
+        "virtual_path": "docs/pipelines/create-your-pipeline/index.md"
+      },
+      {
+        "title": "Test Your Pipeline",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/pipelines/test-your-pipeline/",
+        "anchor": "pipelines-test-your-pipeline",
+        "virtual_path": "docs/pipelines/test-your-pipeline/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Common pipeline patterns",
+    "kind": "category",
+    "source_url": "https://beam.apache.org/documentation/patterns/overview/",
+    "anchor": "patterns-overview",
+    "virtual_path": "docs/patterns/overview/index.md",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/overview/",
+        "anchor": "patterns-overview",
+        "virtual_path": "docs/patterns/overview/index.md"
+      },
+      {
+        "title": "File processing",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/file-processing/",
+        "anchor": "patterns-file-processing",
+        "virtual_path": "docs/patterns/file-processing/index.md"
+      },
+      {
+        "title": "Side inputs",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/side-inputs/",
+        "anchor": "patterns-side-inputs",
+        "virtual_path": "docs/patterns/side-inputs/index.md"
+      },
+      {
+        "title": "Pipeline options",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/pipeline-options/",
+        "anchor": "patterns-pipeline-options",
+        "virtual_path": "docs/patterns/pipeline-options/index.md"
+      },
+      {
+        "title": "Custom I/O",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/custom-io/",
+        "anchor": "patterns-custom-io",
+        "virtual_path": "docs/patterns/custom-io/index.md"
+      },
+      {
+        "title": "Custom windows",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/custom-windows/",
+        "anchor": "patterns-custom-windows",
+        "virtual_path": "docs/patterns/custom-windows/index.md"
+      },
+      {
+        "title": "BigQueryIO",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/bigqueryio/",
+        "anchor": "patterns-bigqueryio",
+        "virtual_path": "docs/patterns/bigqueryio/index.md"
+      },
+      {
+        "title": "AI Platform",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/ai-platform/",
+        "anchor": "patterns-ai-platform",
+        "virtual_path": "docs/patterns/ai-platform/index.md"
+      },
+      {
+        "title": "Schema",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/schema/",
+        "anchor": "patterns-schema",
+        "virtual_path": "docs/patterns/schema/index.md"
+      },
+      {
+        "title": "BigQuery ML",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/bqml/",
+        "anchor": "patterns-bqml",
+        "virtual_path": "docs/patterns/bqml/index.md"
+      },
+      {
+        "title": "Grouping elements for efficient external service calls",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/grouping-elements-for-efficient-external-service-calls/",
+        "anchor": "patterns-grouping-elements-for-efficient-external-service-calls",
+        "virtual_path": "docs/patterns/grouping-elements-for-efficient-external-service-calls/index.md"
+      },
+      {
+        "title": "Rate limiting DoFns and Transforms",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/rate-limiting/",
+        "anchor": "patterns-rate-limiting",
+        "virtual_path": "docs/patterns/rate-limiting/index.md"
+      },
+      {
+        "title": "Cache using a shared object",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/patterns/shared-class/",
+        "anchor": "patterns-shared-class",
+        "virtual_path": "docs/patterns/shared-class/index.md"
+      }
+    ]
+  },
+  {
+    "title": "AI/ML pipelines",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Get started with AI/ML",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/ml/overview/",
+        "anchor": "ml-overview",
+        "virtual_path": "docs/ml/overview/index.md"
+      },
+      {
+        "title": "About Beam ML",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/ml/about-ml/",
+        "anchor": "ml-about-ml",
+        "virtual_path": "docs/ml/about-ml/index.md"
+      },
+      {
+        "title": "Prediction and inference",
+        "kind": "category",
+        "source_url": "https://beam.apache.org/documentation/ml/inference-overview/",
+        "anchor": "ml-inference-overview",
+        "virtual_path": "docs/ml/inference-overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/inference-overview/",
+            "anchor": "ml-inference-overview",
+            "virtual_path": "docs/ml/inference-overview/index.md"
+          },
+          {
+            "title": "Build a pipeline with multiple models",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/multi-model-pipelines/",
+            "anchor": "ml-multi-model-pipelines",
+            "virtual_path": "docs/ml/multi-model-pipelines/index.md"
+          },
+          {
+            "title": "Build a custom model handler with TensorRT",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/tensorrt-runinference/",
+            "anchor": "ml-tensorrt-runinference",
+            "virtual_path": "docs/ml/tensorrt-runinference/index.md"
+          },
+          {
+            "title": "Use LLM inference",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/large-language-modeling/",
+            "anchor": "ml-large-language-modeling",
+            "virtual_path": "docs/ml/large-language-modeling/index.md"
+          },
+          {
+            "title": "Build a multi-language inference pipeline",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/multi-language-inference/",
+            "anchor": "ml-multi-language-inference",
+            "virtual_path": "docs/ml/multi-language-inference/index.md"
+          },
+          {
+            "title": "Update your model in production",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/side-input-updates/",
+            "anchor": "ml-side-input-updates",
+            "virtual_path": "docs/ml/side-input-updates/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Data processing",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Preprocess data",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/preprocess-data/",
+            "anchor": "ml-preprocess-data",
+            "virtual_path": "docs/ml/preprocess-data/index.md"
+          },
+          {
+            "title": "Explore your data",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/data-processing/",
+            "anchor": "ml-data-processing",
+            "virtual_path": "docs/ml/data-processing/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Workflow orchestration",
+        "kind": "category",
+        "source_url": "https://beam.apache.org/documentation/ml/orchestration/",
+        "anchor": "ml-orchestration",
+        "virtual_path": "docs/ml/orchestration/index.md",
+        "children": [
+          {
+            "title": "Use ML-OPS workflow orchestrators",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/orchestration/",
+            "anchor": "ml-orchestration",
+            "virtual_path": "docs/ml/orchestration/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Model training",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Per-entity training",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/per-entity-training/",
+            "anchor": "ml-per-entity-training",
+            "virtual_path": "docs/ml/per-entity-training/index.md"
+          },
+          {
+            "title": "Online clustering",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/online-clustering/",
+            "anchor": "ml-online-clustering",
+            "virtual_path": "docs/ml/online-clustering/index.md"
+          },
+          {
+            "title": "ML model evaluation",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/model-evaluation/",
+            "anchor": "ml-model-evaluation",
+            "virtual_path": "docs/ml/model-evaluation/index.md"
+          }
+        ]
+      },
+      {
+        "title": "ML Dependency Extras",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/ml/ml-dependency-extras/",
+        "anchor": "ml-ml-dependency-extras",
+        "virtual_path": "docs/ml/ml-dependency-extras/index.md"
+      },
+      {
+        "title": "Use cases",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Build an anomaly detection pipeline",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/anomaly-detection/",
+            "anchor": "ml-anomaly-detection",
+            "virtual_path": "docs/ml/anomaly-detection/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Reference",
+        "kind": "category",
+        "children": [
+          {
+            "title": "RunInference metrics",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/runinference-metrics/",
+            "anchor": "ml-runinference-metrics",
+            "virtual_path": "docs/ml/runinference-metrics/index.md"
+          },
+          {
+            "title": "Model validation",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/ml/model-evaluation/",
+            "anchor": "ml-model-evaluation",
+            "virtual_path": "docs/ml/model-evaluation/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Runtime systems",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Container environments",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/runtime/environments/",
+        "anchor": "runtime-environments",
+        "virtual_path": "docs/runtime/environments/index.md"
+      },
+      {
+        "title": "Resource hints",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/runtime/resource-hints/",
+        "anchor": "runtime-resource-hints",
+        "virtual_path": "docs/runtime/resource-hints/index.md"
+      },
+      {
+        "title": "SDK Harness Configuration",
+        "kind": "link",
+        "source_url": "https://beam.apache.org/documentation/runtime/sdk-harness-config/",
+        "anchor": "runtime-sdk-harness-config",
+        "virtual_path": "docs/runtime/sdk-harness-config/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Transform catalog",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Python",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/transforms/python/overview/",
+            "anchor": "transforms-python-overview",
+            "virtual_path": "docs/transforms/python/overview/index.md"
+          },
+          {
+            "title": "Element-wise",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Enrichment",
+                "kind": "category",
+                "children": [
+                  {
+                    "title": "Overview",
+                    "kind": "link",
+                    "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/enrichment/",
+                    "anchor": "transforms-python-elementwise-enrichment",
+                    "virtual_path": "docs/transforms/python/elementwise/enrichment/index.md"
+                  },
+                  {
+                    "title": "Bigtable example",
+                    "kind": "link",
+                    "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-bigtable/",
+                    "anchor": "transforms-python-elementwise-enrichment-bigtable",
+                    "virtual_path": "docs/transforms/python/elementwise/enrichment-bigtable/index.md"
+                  },
+                  {
+                    "title": "Milvus example",
+                    "kind": "link",
+                    "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-milvus/",
+                    "anchor": "transforms-python-elementwise-enrichment-milvus",
+                    "virtual_path": "docs/transforms/python/elementwise/enrichment-milvus/index.md"
+                  },
+                  {
+                    "title": "CloudSQL example",
+                    "kind": "link",
+                    "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-cloudsql/",
+                    "anchor": "transforms-python-elementwise-enrichment-cloudsql",
+                    "virtual_path": "docs/transforms/python/elementwise/enrichment-cloudsql/index.md"
+                  },
+                  {
+                    "title": "Vertex AI Feature Store examples",
+                    "kind": "link",
+                    "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-vertexai/",
+                    "anchor": "transforms-python-elementwise-enrichment-vertexai",
+                    "virtual_path": "docs/transforms/python/elementwise/enrichment-vertexai/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "Filter",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/filter/",
+                "anchor": "transforms-python-elementwise-filter",
+                "virtual_path": "docs/transforms/python/elementwise/filter/index.md"
+              },
+              {
+                "title": "FlatMap",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/flatmap/",
+                "anchor": "transforms-python-elementwise-flatmap",
+                "virtual_path": "docs/transforms/python/elementwise/flatmap/index.md"
+              },
+              {
+                "title": "Keys",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/keys/",
+                "anchor": "transforms-python-elementwise-keys",
+                "virtual_path": "docs/transforms/python/elementwise/keys/index.md"
+              },
+              {
+                "title": "KvSwap",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/kvswap/",
+                "anchor": "transforms-python-elementwise-kvswap",
+                "virtual_path": "docs/transforms/python/elementwise/kvswap/index.md"
+              },
+              {
+                "title": "Map",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/map/",
+                "anchor": "transforms-python-elementwise-map",
+                "virtual_path": "docs/transforms/python/elementwise/map/index.md"
+              },
+              {
+                "title": "MLTransform",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/mltransform/",
+                "anchor": "transforms-python-elementwise-mltransform",
+                "virtual_path": "docs/transforms/python/elementwise/mltransform/index.md"
+              },
+              {
+                "title": "ParDo",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/pardo/",
+                "anchor": "transforms-python-elementwise-pardo",
+                "virtual_path": "docs/transforms/python/elementwise/pardo/index.md"
+              },
+              {
+                "title": "Partition",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/partition/",
+                "anchor": "transforms-python-elementwise-partition",
+                "virtual_path": "docs/transforms/python/elementwise/partition/index.md"
+              },
+              {
+                "title": "Regex",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/regex/",
+                "anchor": "transforms-python-elementwise-regex",
+                "virtual_path": "docs/transforms/python/elementwise/regex/index.md"
+              },
+              {
+                "title": "Reify",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/reify/",
+                "anchor": "transforms-python-elementwise-reify",
+                "virtual_path": "docs/transforms/python/elementwise/reify/index.md"
+              },
+              {
+                "title": "RunInference",
+                "kind": "category",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/runinference/",
+                "anchor": "transforms-python-elementwise-runinference",
+                "virtual_path": "docs/transforms/python/elementwise/runinference/index.md",
+                "children": [
+                  {
+                    "title": "Overview",
+                    "kind": "link",
+                    "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/runinference/",
+                    "anchor": "transforms-python-elementwise-runinference",
+                    "virtual_path": "docs/transforms/python/elementwise/runinference/index.md"
+                  },
+                  {
+                    "title": "PyTorch examples",
+                    "kind": "link",
+                    "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/runinference-pytorch/",
+                    "anchor": "transforms-python-elementwise-runinference-pytorch",
+                    "virtual_path": "docs/transforms/python/elementwise/runinference-pytorch/index.md"
+                  },
+                  {
+                    "title": "Sklearn examples",
+                    "kind": "link",
+                    "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/runinference-sklearn/",
+                    "anchor": "transforms-python-elementwise-runinference-sklearn",
+                    "virtual_path": "docs/transforms/python/elementwise/runinference-sklearn/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "ToString",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/tostring/",
+                "anchor": "transforms-python-elementwise-tostring",
+                "virtual_path": "docs/transforms/python/elementwise/tostring/index.md"
+              },
+              {
+                "title": "Values",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/values/",
+                "anchor": "transforms-python-elementwise-values",
+                "virtual_path": "docs/transforms/python/elementwise/values/index.md"
+              },
+              {
+                "title": "WithTimestamps",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/withtimestamps/",
+                "anchor": "transforms-python-elementwise-withtimestamps",
+                "virtual_path": "docs/transforms/python/elementwise/withtimestamps/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Aggregation",
+            "kind": "category",
+            "children": [
+              {
+                "title": "ApproximateQuantiles",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/approximatequantiles/",
+                "anchor": "transforms-python-aggregation-approximatequantiles",
+                "virtual_path": "docs/transforms/python/aggregation/approximatequantiles/index.md"
+              },
+              {
+                "title": "ApproximateUnique",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/approximateunique/",
+                "anchor": "transforms-python-aggregation-approximateunique",
+                "virtual_path": "docs/transforms/python/aggregation/approximateunique/index.md"
+              },
+              {
+                "title": "BatchElements",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/batchelements/",
+                "anchor": "transforms-python-aggregation-batchelements",
+                "virtual_path": "docs/transforms/python/aggregation/batchelements/index.md"
+              },
+              {
+                "title": "CoGroupByKey",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/cogroupbykey/",
+                "anchor": "transforms-python-aggregation-cogroupbykey",
+                "virtual_path": "docs/transforms/python/aggregation/cogroupbykey/index.md"
+              },
+              {
+                "title": "CombineGlobally",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/combineglobally/",
+                "anchor": "transforms-python-aggregation-combineglobally",
+                "virtual_path": "docs/transforms/python/aggregation/combineglobally/index.md"
+              },
+              {
+                "title": "CombinePerKey",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/combineperkey/",
+                "anchor": "transforms-python-aggregation-combineperkey",
+                "virtual_path": "docs/transforms/python/aggregation/combineperkey/index.md"
+              },
+              {
+                "title": "CombineValues",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/combinevalues/",
+                "anchor": "transforms-python-aggregation-combinevalues",
+                "virtual_path": "docs/transforms/python/aggregation/combinevalues/index.md"
+              },
+              {
+                "title": "Count",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/count/",
+                "anchor": "transforms-python-aggregation-count",
+                "virtual_path": "docs/transforms/python/aggregation/count/index.md"
+              },
+              {
+                "title": "Distinct",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/distinct/",
+                "anchor": "transforms-python-aggregation-distinct",
+                "virtual_path": "docs/transforms/python/aggregation/distinct/index.md"
+              },
+              {
+                "title": "GroupBy",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/groupby/",
+                "anchor": "transforms-python-aggregation-groupby",
+                "virtual_path": "docs/transforms/python/aggregation/groupby/index.md"
+              },
+              {
+                "title": "GroupByKey",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/groupbykey/",
+                "anchor": "transforms-python-aggregation-groupbykey",
+                "virtual_path": "docs/transforms/python/aggregation/groupbykey/index.md"
+              },
+              {
+                "title": "GroupIntoBatches",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/groupintobatches/",
+                "anchor": "transforms-python-aggregation-groupintobatches",
+                "virtual_path": "docs/transforms/python/aggregation/groupintobatches/index.md"
+              },
+              {
+                "title": "Latest",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/latest/",
+                "anchor": "transforms-python-aggregation-latest",
+                "virtual_path": "docs/transforms/python/aggregation/latest/index.md"
+              },
+              {
+                "title": "Max",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/max/",
+                "anchor": "transforms-python-aggregation-max",
+                "virtual_path": "docs/transforms/python/aggregation/max/index.md"
+              },
+              {
+                "title": "Mean",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/mean/",
+                "anchor": "transforms-python-aggregation-mean",
+                "virtual_path": "docs/transforms/python/aggregation/mean/index.md"
+              },
+              {
+                "title": "Min",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/min/",
+                "anchor": "transforms-python-aggregation-min",
+                "virtual_path": "docs/transforms/python/aggregation/min/index.md"
+              },
+              {
+                "title": "Sample",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/sample/",
+                "anchor": "transforms-python-aggregation-sample",
+                "virtual_path": "docs/transforms/python/aggregation/sample/index.md"
+              },
+              {
+                "title": "Sum",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/sum/",
+                "anchor": "transforms-python-aggregation-sum",
+                "virtual_path": "docs/transforms/python/aggregation/sum/index.md"
+              },
+              {
+                "title": "Top",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/top/",
+                "anchor": "transforms-python-aggregation-top",
+                "virtual_path": "docs/transforms/python/aggregation/top/index.md"
+              },
+              {
+                "title": "ToList",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/tolist/",
+                "anchor": "transforms-python-aggregation-tolist",
+                "virtual_path": "docs/transforms/python/aggregation/tolist/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Other",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Create",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/other/create/",
+                "anchor": "transforms-python-other-create",
+                "virtual_path": "docs/transforms/python/other/create/index.md"
+              },
+              {
+                "title": "Flatten",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/other/flatten/",
+                "anchor": "transforms-python-other-flatten",
+                "virtual_path": "docs/transforms/python/other/flatten/index.md"
+              },
+              {
+                "title": "Reshuffle",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/other/reshuffle/",
+                "anchor": "transforms-python-other-reshuffle",
+                "virtual_path": "docs/transforms/python/other/reshuffle/index.md"
+              },
+              {
+                "title": "WaitOn",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/other/waiton/",
+                "anchor": "transforms-python-other-waiton",
+                "virtual_path": "docs/transforms/python/other/waiton/index.md"
+              },
+              {
+                "title": "WindowInto",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/python/other/windowinto/",
+                "anchor": "transforms-python-other-windowinto",
+                "virtual_path": "docs/transforms/python/other/windowinto/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Java",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://beam.apache.org/documentation/transforms/java/overview/",
+            "anchor": "transforms-java-overview",
+            "virtual_path": "docs/transforms/java/overview/index.md"
+          },
+          {
+            "title": "Element-wise",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Filter",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/filter/",
+                "anchor": "transforms-java-elementwise-filter",
+                "virtual_path": "docs/transforms/java/elementwise/filter/index.md"
+              },
+              {
+                "title": "FlatMapElements",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/flatmapelements/",
+                "anchor": "transforms-java-elementwise-flatmapelements",
+                "virtual_path": "docs/transforms/java/elementwise/flatmapelements/index.md"
+              },
+              {
+                "title": "Keys",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/keys/",
+                "anchor": "transforms-java-elementwise-keys",
+                "virtual_path": "docs/transforms/java/elementwise/keys/index.md"
+              },
+              {
+                "title": "KvSwap",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/kvswap/",
+                "anchor": "transforms-java-elementwise-kvswap",
+                "virtual_path": "docs/transforms/java/elementwise/kvswap/index.md"
+              },
+              {
+                "title": "MapElements",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/mapelements/",
+                "anchor": "transforms-java-elementwise-mapelements",
+                "virtual_path": "docs/transforms/java/elementwise/mapelements/index.md"
+              },
+              {
+                "title": "ParDo",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/pardo/",
+                "anchor": "transforms-java-elementwise-pardo",
+                "virtual_path": "docs/transforms/java/elementwise/pardo/index.md"
+              },
+              {
+                "title": "Partition",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/partition/",
+                "anchor": "transforms-java-elementwise-partition",
+                "virtual_path": "docs/transforms/java/elementwise/partition/index.md"
+              },
+              {
+                "title": "Regex",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/regex/",
+                "anchor": "transforms-java-elementwise-regex",
+                "virtual_path": "docs/transforms/java/elementwise/regex/index.md"
+              },
+              {
+                "title": "Reify",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/reify/",
+                "anchor": "transforms-java-elementwise-reify",
+                "virtual_path": "docs/transforms/java/elementwise/reify/index.md"
+              },
+              {
+                "title": "ToString",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/tostring/",
+                "anchor": "transforms-java-elementwise-tostring",
+                "virtual_path": "docs/transforms/java/elementwise/tostring/index.md"
+              },
+              {
+                "title": "Values",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/values/",
+                "anchor": "transforms-java-elementwise-values",
+                "virtual_path": "docs/transforms/java/elementwise/values/index.md"
+              },
+              {
+                "title": "WithKeys",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/withkeys/",
+                "anchor": "transforms-java-elementwise-withkeys",
+                "virtual_path": "docs/transforms/java/elementwise/withkeys/index.md"
+              },
+              {
+                "title": "WithTimestamps",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/withtimestamps/",
+                "anchor": "transforms-java-elementwise-withtimestamps",
+                "virtual_path": "docs/transforms/java/elementwise/withtimestamps/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Aggregation",
+            "kind": "category",
+            "children": [
+              {
+                "title": "ApproximateQuantiles",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/approximatequantiles/",
+                "anchor": "transforms-java-aggregation-approximatequantiles",
+                "virtual_path": "docs/transforms/java/aggregation/approximatequantiles/index.md"
+              },
+              {
+                "title": "ApproximateUnique",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/approximateunique/",
+                "anchor": "transforms-java-aggregation-approximateunique",
+                "virtual_path": "docs/transforms/java/aggregation/approximateunique/index.md"
+              },
+              {
+                "title": "CoGroupByKey",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/cogroupbykey/",
+                "anchor": "transforms-java-aggregation-cogroupbykey",
+                "virtual_path": "docs/transforms/java/aggregation/cogroupbykey/index.md"
+              },
+              {
+                "title": "Combine",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/combine/",
+                "anchor": "transforms-java-aggregation-combine",
+                "virtual_path": "docs/transforms/java/aggregation/combine/index.md"
+              },
+              {
+                "title": "CombineWithContext",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/combinewithcontext/",
+                "anchor": "transforms-java-aggregation-combinewithcontext",
+                "virtual_path": "docs/transforms/java/aggregation/combinewithcontext/index.md"
+              },
+              {
+                "title": "Count",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/count/",
+                "anchor": "transforms-java-aggregation-count",
+                "virtual_path": "docs/transforms/java/aggregation/count/index.md"
+              },
+              {
+                "title": "Distinct",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/distinct/",
+                "anchor": "transforms-java-aggregation-distinct",
+                "virtual_path": "docs/transforms/java/aggregation/distinct/index.md"
+              },
+              {
+                "title": "GroupByKey",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/groupbykey/",
+                "anchor": "transforms-java-aggregation-groupbykey",
+                "virtual_path": "docs/transforms/java/aggregation/groupbykey/index.md"
+              },
+              {
+                "title": "GroupIntoBatches",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/groupintobatches/",
+                "anchor": "transforms-java-aggregation-groupintobatches",
+                "virtual_path": "docs/transforms/java/aggregation/groupintobatches/index.md"
+              },
+              {
+                "title": "HllCount",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/hllcount/",
+                "anchor": "transforms-java-aggregation-hllcount",
+                "virtual_path": "docs/transforms/java/aggregation/hllcount/index.md"
+              },
+              {
+                "title": "Latest",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/latest/",
+                "anchor": "transforms-java-aggregation-latest",
+                "virtual_path": "docs/transforms/java/aggregation/latest/index.md"
+              },
+              {
+                "title": "Max",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/max/",
+                "anchor": "transforms-java-aggregation-max",
+                "virtual_path": "docs/transforms/java/aggregation/max/index.md"
+              },
+              {
+                "title": "Mean",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/mean/",
+                "anchor": "transforms-java-aggregation-mean",
+                "virtual_path": "docs/transforms/java/aggregation/mean/index.md"
+              },
+              {
+                "title": "Min",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/min/",
+                "anchor": "transforms-java-aggregation-min",
+                "virtual_path": "docs/transforms/java/aggregation/min/index.md"
+              },
+              {
+                "title": "Sample",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/sample/",
+                "anchor": "transforms-java-aggregation-sample",
+                "virtual_path": "docs/transforms/java/aggregation/sample/index.md"
+              },
+              {
+                "title": "Sum",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/sum/",
+                "anchor": "transforms-java-aggregation-sum",
+                "virtual_path": "docs/transforms/java/aggregation/sum/index.md"
+              },
+              {
+                "title": "Top",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/top/",
+                "anchor": "transforms-java-aggregation-top",
+                "virtual_path": "docs/transforms/java/aggregation/top/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Other",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Create",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/other/create/",
+                "anchor": "transforms-java-other-create",
+                "virtual_path": "docs/transforms/java/other/create/index.md"
+              },
+              {
+                "title": "Flatten",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/other/flatten/",
+                "anchor": "transforms-java-other-flatten",
+                "virtual_path": "docs/transforms/java/other/flatten/index.md"
+              },
+              {
+                "title": "PAssert",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/other/passert/",
+                "anchor": "transforms-java-other-passert",
+                "virtual_path": "docs/transforms/java/other/passert/index.md"
+              },
+              {
+                "title": "View",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/other/view/",
+                "anchor": "transforms-java-other-view",
+                "virtual_path": "docs/transforms/java/other/view/index.md"
+              },
+              {
+                "title": "Wait.On",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/other/wait/",
+                "anchor": "transforms-java-other-wait",
+                "virtual_path": "docs/transforms/java/other/wait/index.md"
+              },
+              {
+                "title": "Window",
+                "kind": "link",
+                "source_url": "https://beam.apache.org/documentation/transforms/java/other/window/",
+                "anchor": "transforms-java-other-window",
+                "virtual_path": "docs/transforms/java/other/window/index.md"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Glossary",
+    "kind": "link",
+    "source_url": "https://beam.apache.org/documentation/glossary/",
+    "anchor": "glossary",
+    "virtual_path": "docs/glossary/index.md"
+  }
+]

@@ -1,0 +1,632 @@
+{
+  "entry_url": "https://fluss.incubator.apache.org/docs/",
+  "site_prefix": "/docs/",
+  "site_slug": "fluss_docs",
+  "profile": "docusaurus",
+  "combined_markdown": "combined.md",
+  "page_count": 69,
+  "asset_count": 8,
+  "pages": [
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/apis/client-support-matrix/",
+      "title": "Client Feature Support Matrix",
+      "anchor": "apis-client-support-matrix",
+      "virtual_path": "docs/apis/client-support-matrix/index.md",
+      "profile": "docusaurus",
+      "score": 6573,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/apis/java-client/",
+      "title": "Fluss Java Client",
+      "anchor": "apis-java-client",
+      "virtual_path": "docs/apis/java-client/index.md",
+      "profile": "docusaurus",
+      "score": 29449,
+      "depth": 1
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/concepts/architecture/",
+      "title": "Architecture",
+      "anchor": "concepts-architecture",
+      "virtual_path": "docs/concepts/architecture/index.md",
+      "profile": "docusaurus",
+      "score": 9462,
+      "depth": 1
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-flink/datastream/",
+      "title": "Flink DataStream API",
+      "anchor": "engine-flink-datastream",
+      "virtual_path": "docs/engine-flink/datastream/index.md",
+      "profile": "docusaurus",
+      "score": 28659,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-flink/ddl/",
+      "title": "Flink DDL",
+      "anchor": "engine-flink-ddl",
+      "virtual_path": "docs/engine-flink/ddl/index.md",
+      "profile": "docusaurus",
+      "score": 33897,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-flink/delta-joins/",
+      "title": "Flink Delta Join",
+      "anchor": "engine-flink-delta-joins",
+      "virtual_path": "docs/engine-flink/delta-joins/index.md",
+      "profile": "docusaurus",
+      "score": 19256,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-flink/getting-started/",
+      "title": "Getting Started with Flink Engine",
+      "anchor": "engine-flink-getting-started",
+      "virtual_path": "docs/engine-flink/getting-started/index.md",
+      "profile": "docusaurus",
+      "score": 16106,
+      "depth": 1
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-flink/lookups/",
+      "title": "Flink Lookup Joins",
+      "anchor": "engine-flink-lookups",
+      "virtual_path": "docs/engine-flink/lookups/index.md",
+      "profile": "docusaurus",
+      "score": 22647,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-flink/options/",
+      "title": "Flink Connector Options",
+      "anchor": "engine-flink-options",
+      "virtual_path": "docs/engine-flink/options/index.md",
+      "profile": "docusaurus",
+      "score": 37716,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-flink/procedures/",
+      "title": "Flink Procedures",
+      "anchor": "engine-flink-procedures",
+      "virtual_path": "docs/engine-flink/procedures/index.md",
+      "profile": "docusaurus",
+      "score": 32864,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-flink/reads/",
+      "title": "Flink Reads",
+      "anchor": "engine-flink-reads",
+      "virtual_path": "docs/engine-flink/reads/index.md",
+      "profile": "docusaurus",
+      "score": 23181,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-flink/writes/",
+      "title": "Flink Writes",
+      "anchor": "engine-flink-writes",
+      "virtual_path": "docs/engine-flink/writes/index.md",
+      "profile": "docusaurus",
+      "score": 9996,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-spark/ddl/",
+      "title": "Spark DDL",
+      "anchor": "engine-spark-ddl",
+      "virtual_path": "docs/engine-spark/ddl/index.md",
+      "profile": "docusaurus",
+      "score": 18687,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-spark/getting-started/",
+      "title": "Getting Started with Spark Engine",
+      "anchor": "engine-spark-getting-started",
+      "virtual_path": "docs/engine-spark/getting-started/index.md",
+      "profile": "docusaurus",
+      "score": 13667,
+      "depth": 1
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-spark/options/",
+      "title": "Spark Connector Options",
+      "anchor": "engine-spark-options",
+      "virtual_path": "docs/engine-spark/options/index.md",
+      "profile": "docusaurus",
+      "score": 3761,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-spark/procedures/",
+      "title": "Spark Procedures",
+      "anchor": "engine-spark-procedures",
+      "virtual_path": "docs/engine-spark/procedures/index.md",
+      "profile": "docusaurus",
+      "score": 9463,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-spark/reads/",
+      "title": "Spark Reads",
+      "anchor": "engine-spark-reads",
+      "virtual_path": "docs/engine-spark/reads/index.md",
+      "profile": "docusaurus",
+      "score": 16807,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-spark/structured-streaming/",
+      "title": "Spark Structured Streaming",
+      "anchor": "engine-spark-structured-streaming",
+      "virtual_path": "docs/engine-spark/structured-streaming/index.md",
+      "profile": "docusaurus",
+      "score": 10197,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/engine-spark/writes/",
+      "title": "Spark Writes",
+      "anchor": "engine-spark-writes",
+      "virtual_path": "docs/engine-spark/writes/index.md",
+      "profile": "docusaurus",
+      "score": 9042,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/",
+      "title": "What is Fluss?",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "docusaurus",
+      "score": 4956,
+      "depth": 0
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/install-deploy/deploying-distributed-cluster/",
+      "title": "Deploying Distributed Cluster",
+      "anchor": "install-deploy-deploying-distributed-cluster",
+      "virtual_path": "docs/install-deploy/deploying-distributed-cluster/index.md",
+      "profile": "docusaurus",
+      "score": 15285,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/install-deploy/deploying-local-cluster/",
+      "title": "Deploying Local Cluster",
+      "anchor": "install-deploy-deploying-local-cluster",
+      "virtual_path": "docs/install-deploy/deploying-local-cluster/index.md",
+      "profile": "docusaurus",
+      "score": 9159,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/install-deploy/deploying-with-docker/",
+      "title": "Deploying with Docker",
+      "anchor": "install-deploy-deploying-with-docker",
+      "virtual_path": "docs/install-deploy/deploying-with-docker/index.md",
+      "profile": "docusaurus",
+      "score": 21868,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/install-deploy/deploying-with-helm/",
+      "title": "Deploying with Helm Charts",
+      "anchor": "install-deploy-deploying-with-helm",
+      "virtual_path": "docs/install-deploy/deploying-with-helm/index.md",
+      "profile": "docusaurus",
+      "score": 57568,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/install-deploy/overview/",
+      "title": "Overview",
+      "anchor": "install-deploy-overview",
+      "virtual_path": "docs/install-deploy/overview/index.md",
+      "profile": "docusaurus",
+      "score": 6616,
+      "depth": 1
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/configuration/",
+      "title": "Server Configuration",
+      "anchor": "maintenance-configuration",
+      "virtual_path": "docs/maintenance/configuration/index.md",
+      "profile": "docusaurus",
+      "score": 36227,
+      "depth": 1
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/filesystems/azure/",
+      "title": "Azure Blob Storage",
+      "anchor": "maintenance-filesystems-azure",
+      "virtual_path": "docs/maintenance/filesystems/azure/index.md",
+      "profile": "docusaurus",
+      "score": 5306,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/filesystems/hdfs/",
+      "title": "HDFS",
+      "anchor": "maintenance-filesystems-hdfs",
+      "virtual_path": "docs/maintenance/filesystems/hdfs/index.md",
+      "profile": "docusaurus",
+      "score": 7577,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/filesystems/obs/",
+      "title": "HuaweiCloud OBS",
+      "anchor": "maintenance-filesystems-obs",
+      "virtual_path": "docs/maintenance/filesystems/obs/index.md",
+      "profile": "docusaurus",
+      "score": 6471,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/filesystems/oss/",
+      "title": "Aliyun OSS",
+      "anchor": "maintenance-filesystems-oss",
+      "virtual_path": "docs/maintenance/filesystems/oss/index.md",
+      "profile": "docusaurus",
+      "score": 6859,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/filesystems/overview/",
+      "title": "File Systems",
+      "anchor": "maintenance-filesystems-overview",
+      "virtual_path": "docs/maintenance/filesystems/overview/index.md",
+      "profile": "docusaurus",
+      "score": 5481,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/filesystems/s3/",
+      "title": "Amazon S3",
+      "anchor": "maintenance-filesystems-s3",
+      "virtual_path": "docs/maintenance/filesystems/s3/index.md",
+      "profile": "docusaurus",
+      "score": 8388,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/observability/logging/",
+      "title": "Logging",
+      "anchor": "maintenance-observability-logging",
+      "virtual_path": "docs/maintenance/observability/logging/index.md",
+      "profile": "docusaurus",
+      "score": 8825,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/observability/metric-reporters/",
+      "title": "Metric Reporters",
+      "anchor": "maintenance-observability-metric-reporters",
+      "virtual_path": "docs/maintenance/observability/metric-reporters/index.md",
+      "profile": "docusaurus",
+      "score": 10022,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/observability/monitor-metrics/",
+      "title": "Monitor Metrics",
+      "anchor": "maintenance-observability-monitor-metrics",
+      "virtual_path": "docs/maintenance/observability/monitor-metrics/index.md",
+      "profile": "docusaurus",
+      "score": 31148,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/observability/quickstart/",
+      "title": "Observability Quickstart Guides",
+      "anchor": "maintenance-observability-quickstart",
+      "virtual_path": "docs/maintenance/observability/quickstart/index.md",
+      "profile": "docusaurus",
+      "score": 10383,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/operations/graceful-shutdown/",
+      "title": "Graceful Shutdown",
+      "anchor": "maintenance-operations-graceful-shutdown",
+      "virtual_path": "docs/maintenance/operations/graceful-shutdown/index.md",
+      "profile": "docusaurus",
+      "score": 12765,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/operations/racks/",
+      "title": "Balancing Replicas Across Racks",
+      "anchor": "maintenance-operations-racks",
+      "virtual_path": "docs/maintenance/operations/racks/index.md",
+      "profile": "docusaurus",
+      "score": 4315,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/operations/rebalance/",
+      "title": "Rebalance",
+      "anchor": "maintenance-operations-rebalance",
+      "virtual_path": "docs/maintenance/operations/rebalance/index.md",
+      "profile": "docusaurus",
+      "score": 21981,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/operations/updating-configs/",
+      "title": "Updating Configs",
+      "anchor": "maintenance-operations-updating-configs",
+      "virtual_path": "docs/maintenance/operations/updating-configs/index.md",
+      "profile": "docusaurus",
+      "score": 6928,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/operations/upgrade-notes-archive/",
+      "title": "Upgrade Notes Archive",
+      "anchor": "maintenance-operations-upgrade-notes-archive",
+      "virtual_path": "docs/maintenance/operations/upgrade-notes-archive/index.md",
+      "profile": "docusaurus",
+      "score": 2197,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/operations/upgrading/",
+      "title": "Upgrading and Compatibility",
+      "anchor": "maintenance-operations-upgrading",
+      "virtual_path": "docs/maintenance/operations/upgrading/index.md",
+      "profile": "docusaurus",
+      "score": 11741,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/tiered-storage/lakehouse-storage/",
+      "title": "Lakehouse Storage",
+      "anchor": "maintenance-tiered-storage-lakehouse-storage",
+      "virtual_path": "docs/maintenance/tiered-storage/lakehouse-storage/index.md",
+      "profile": "docusaurus",
+      "score": 13853,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/tiered-storage/overview/",
+      "title": "Overview",
+      "anchor": "maintenance-tiered-storage-overview",
+      "virtual_path": "docs/maintenance/tiered-storage/overview/index.md",
+      "profile": "docusaurus",
+      "score": 3243,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/maintenance/tiered-storage/remote-storage/",
+      "title": "Remote Storage",
+      "anchor": "maintenance-tiered-storage-remote-storage",
+      "virtual_path": "docs/maintenance/tiered-storage/remote-storage/index.md",
+      "profile": "docusaurus",
+      "score": 8586,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/quickstart/flink/",
+      "title": "Real-Time Analytics With Flink",
+      "anchor": "quickstart-flink",
+      "virtual_path": "docs/quickstart/flink/index.md",
+      "profile": "docusaurus",
+      "score": 28482,
+      "depth": 1
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/quickstart/lakehouse/",
+      "title": "Building a Streaming Lakehouse",
+      "anchor": "quickstart-lakehouse",
+      "virtual_path": "docs/quickstart/lakehouse/index.md",
+      "profile": "docusaurus",
+      "score": 46076,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/quickstart/security/",
+      "title": "Secure Your Fluss Cluster in Minutes",
+      "anchor": "quickstart-security",
+      "virtual_path": "docs/quickstart/security/index.md",
+      "profile": "docusaurus",
+      "score": 34063,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/security/authentication/",
+      "title": "Authentication",
+      "anchor": "security-authentication",
+      "virtual_path": "docs/security/authentication/index.md",
+      "profile": "docusaurus",
+      "score": 10926,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/security/authorization/",
+      "title": "Authorization and ACLs",
+      "anchor": "security-authorization",
+      "virtual_path": "docs/security/authorization/index.md",
+      "profile": "docusaurus",
+      "score": 18503,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/security/overview/",
+      "title": "Security Overview",
+      "anchor": "security-overview",
+      "virtual_path": "docs/security/overview/index.md",
+      "profile": "docusaurus",
+      "score": 17834,
+      "depth": 1
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/streaming-lakehouse/integrate-data-lakes/iceberg/",
+      "title": "Iceberg",
+      "anchor": "streaming-lakehouse-integrate-data-lakes-iceberg",
+      "virtual_path": "docs/streaming-lakehouse/integrate-data-lakes/iceberg/index.md",
+      "profile": "docusaurus",
+      "score": 44593,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/streaming-lakehouse/integrate-data-lakes/lance/",
+      "title": "Lance",
+      "anchor": "streaming-lakehouse-integrate-data-lakes-lance",
+      "virtual_path": "docs/streaming-lakehouse/integrate-data-lakes/lance/index.md",
+      "profile": "docusaurus",
+      "score": 18342,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/streaming-lakehouse/integrate-data-lakes/paimon/",
+      "title": "Paimon",
+      "anchor": "streaming-lakehouse-integrate-data-lakes-paimon",
+      "virtual_path": "docs/streaming-lakehouse/integrate-data-lakes/paimon/index.md",
+      "profile": "docusaurus",
+      "score": 19482,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/streaming-lakehouse/overview/",
+      "title": "Lakehouse Overview",
+      "anchor": "streaming-lakehouse-overview",
+      "virtual_path": "docs/streaming-lakehouse/overview/index.md",
+      "profile": "docusaurus",
+      "score": 7150,
+      "depth": 1
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/data-distribution/bucketing/",
+      "title": "Bucketing",
+      "anchor": "table-design-data-distribution-bucketing",
+      "virtual_path": "docs/table-design/data-distribution/bucketing/index.md",
+      "profile": "docusaurus",
+      "score": 5518,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/data-distribution/partitioning/",
+      "title": "Partitioning",
+      "anchor": "table-design-data-distribution-partitioning",
+      "virtual_path": "docs/table-design/data-distribution/partitioning/index.md",
+      "profile": "docusaurus",
+      "score": 14986,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/data-distribution/ttl/",
+      "title": "TTL",
+      "anchor": "table-design-data-distribution-ttl",
+      "virtual_path": "docs/table-design/data-distribution/ttl/index.md",
+      "profile": "docusaurus",
+      "score": 2654,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/data-formats/",
+      "title": "Data Formats",
+      "anchor": "table-design-data-formats",
+      "virtual_path": "docs/table-design/data-formats/index.md",
+      "profile": "docusaurus",
+      "score": 12500,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/data-types/",
+      "title": "Data Types",
+      "anchor": "table-design-data-types",
+      "virtual_path": "docs/table-design/data-types/index.md",
+      "profile": "docusaurus",
+      "score": 7964,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/merge-engines/aggregation/",
+      "title": "Aggregation Merge Engine",
+      "anchor": "table-design-merge-engines-aggregation",
+      "virtual_path": "docs/table-design/merge-engines/aggregation/index.md",
+      "profile": "docusaurus",
+      "score": 54394,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/merge-engines/default/",
+      "title": "Default Merge Engine (LastRow)",
+      "anchor": "table-design-merge-engines-default",
+      "virtual_path": "docs/table-design/merge-engines/default/index.md",
+      "profile": "docusaurus",
+      "score": 4800,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/merge-engines/first-row/",
+      "title": "FirstRow Merge Engine",
+      "anchor": "table-design-merge-engines-first-row",
+      "virtual_path": "docs/table-design/merge-engines/first-row/index.md",
+      "profile": "docusaurus",
+      "score": 3878,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/merge-engines/",
+      "title": "Merge Engines",
+      "anchor": "table-design-merge-engines",
+      "virtual_path": "docs/table-design/merge-engines/index.md",
+      "profile": "docusaurus",
+      "score": 2521,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/merge-engines/versioned/",
+      "title": "Versioned Merge Engine",
+      "anchor": "table-design-merge-engines-versioned",
+      "virtual_path": "docs/table-design/merge-engines/versioned/index.md",
+      "profile": "docusaurus",
+      "score": 6203,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/overview/",
+      "title": "Table Overview",
+      "anchor": "table-design-overview",
+      "virtual_path": "docs/table-design/overview/index.md",
+      "profile": "docusaurus",
+      "score": 7632,
+      "depth": 1
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/table-types/log-table/",
+      "title": "Log Table",
+      "anchor": "table-design-table-types-log-table",
+      "virtual_path": "docs/table-design/table-types/log-table/index.md",
+      "profile": "docusaurus",
+      "score": 12235,
+      "depth": 2
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/table-types/pk-table/",
+      "title": "Primary Key Table",
+      "anchor": "table-design-table-types-pk-table",
+      "virtual_path": "docs/table-design/table-types/pk-table/index.md",
+      "profile": "docusaurus",
+      "score": 19379,
+      "depth": 3
+    },
+    {
+      "source_url": "https://fluss.incubator.apache.org/docs/table-design/virtual-tables/",
+      "title": "Virtual Tables",
+      "anchor": "table-design-virtual-tables",
+      "virtual_path": "docs/table-design/virtual-tables/index.md",
+      "profile": "docusaurus",
+      "score": 18159,
+      "depth": 2
+    }
+  ]
+}

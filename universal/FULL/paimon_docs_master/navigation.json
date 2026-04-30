@@ -1,0 +1,958 @@
+[
+  {
+    "title": "▾",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/concepts/overview/",
+        "anchor": "concepts-overview",
+        "virtual_path": "docs/concepts/overview/index.md"
+      },
+      {
+        "title": "Basic Concepts",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/concepts/basic-concepts/",
+        "anchor": "concepts-basic-concepts",
+        "virtual_path": "docs/concepts/basic-concepts/index.md"
+      },
+      {
+        "title": "Concurrency Control",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/concepts/concurrency-control/",
+        "anchor": "concepts-concurrency-control",
+        "virtual_path": "docs/concepts/concurrency-control/index.md"
+      },
+      {
+        "title": "Catalog",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/concepts/catalog/",
+        "anchor": "concepts-catalog",
+        "virtual_path": "docs/concepts/catalog/index.md"
+      },
+      {
+        "title": "▾",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/rest/overview/",
+            "anchor": "concepts-rest-overview",
+            "virtual_path": "docs/concepts/rest/overview/index.md"
+          },
+          {
+            "title": "Bear Token",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/rest/bear/",
+            "anchor": "concepts-rest-bear",
+            "virtual_path": "docs/concepts/rest/bear/index.md"
+          },
+          {
+            "title": "DLF Token",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/rest/dlf/",
+            "anchor": "concepts-rest-dlf",
+            "virtual_path": "docs/concepts/rest/dlf/index.md"
+          },
+          {
+            "title": "Tables",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/rest/tables/",
+            "anchor": "concepts-rest-tables",
+            "virtual_path": "docs/concepts/rest/tables/index.md"
+          },
+          {
+            "title": "PVFS",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/rest/pvfs/",
+            "anchor": "concepts-rest-pvfs",
+            "virtual_path": "docs/concepts/rest/pvfs/index.md"
+          },
+          {
+            "title": "REST API",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/rest/rest-api/",
+            "anchor": "concepts-rest-rest-api",
+            "virtual_path": "docs/concepts/rest/rest-api/index.md"
+          },
+          {
+            "title": "Schema",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/spec/schema/",
+            "anchor": "concepts-spec-schema",
+            "virtual_path": "docs/concepts/spec/schema/index.md"
+          },
+          {
+            "title": "Snapshot",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/spec/snapshot/",
+            "anchor": "concepts-spec-snapshot",
+            "virtual_path": "docs/concepts/spec/snapshot/index.md"
+          },
+          {
+            "title": "Manifest",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/spec/manifest/",
+            "anchor": "concepts-spec-manifest",
+            "virtual_path": "docs/concepts/spec/manifest/index.md"
+          },
+          {
+            "title": "DataFile",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/spec/datafile/",
+            "anchor": "concepts-spec-datafile",
+            "virtual_path": "docs/concepts/spec/datafile/index.md"
+          },
+          {
+            "title": "FileFormat",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/spec/fileformat/",
+            "anchor": "concepts-spec-fileformat",
+            "virtual_path": "docs/concepts/spec/fileformat/index.md"
+          },
+          {
+            "title": "Table Index",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/spec/tableindex/",
+            "anchor": "concepts-spec-tableindex",
+            "virtual_path": "docs/concepts/spec/tableindex/index.md"
+          },
+          {
+            "title": "File Index",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/concepts/spec/fileindex/",
+            "anchor": "concepts-spec-fileindex",
+            "virtual_path": "docs/concepts/spec/fileindex/index.md"
+          },
+          {
+            "title": "Partial Update",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/primary-key-table/merge-engine/partial-update/",
+            "anchor": "primary-key-table-merge-engine-partial-update",
+            "virtual_path": "docs/primary-key-table/merge-engine/partial-update/index.md"
+          },
+          {
+            "title": "Aggregation",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/primary-key-table/merge-engine/aggregation/",
+            "anchor": "primary-key-table-merge-engine-aggregation",
+            "virtual_path": "docs/primary-key-table/merge-engine/aggregation/index.md"
+          },
+          {
+            "title": "First Row",
+            "kind": "link",
+            "source_url": "https://paimon.apache.org/docs/master/primary-key-table/merge-engine/first-row/",
+            "anchor": "primary-key-table-merge-engine-first-row",
+            "virtual_path": "docs/primary-key-table/merge-engine/first-row/index.md"
+          }
+        ]
+      },
+      {
+        "title": "System Tables",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/concepts/system-tables/",
+        "anchor": "concepts-system-tables",
+        "virtual_path": "docs/concepts/system-tables/index.md"
+      },
+      {
+        "title": "Data Types",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/concepts/data-types/",
+        "anchor": "concepts-data-types",
+        "virtual_path": "docs/concepts/data-types/index.md"
+      },
+      {
+        "title": "Functions",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/concepts/functions/",
+        "anchor": "concepts-functions",
+        "virtual_path": "docs/concepts/functions/index.md"
+      },
+      {
+        "title": "Views",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/concepts/views/",
+        "anchor": "concepts-views",
+        "virtual_path": "docs/concepts/views/index.md"
+      },
+      {
+        "title": "Data Distribution",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/primary-key-table/data-distribution/",
+        "anchor": "primary-key-table-data-distribution",
+        "virtual_path": "docs/primary-key-table/data-distribution/index.md"
+      },
+      {
+        "title": "Table Mode",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/primary-key-table/table-mode/",
+        "anchor": "primary-key-table-table-mode",
+        "virtual_path": "docs/primary-key-table/table-mode/index.md"
+      },
+      {
+        "title": "Changelog Producer",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/primary-key-table/changelog-producer/",
+        "anchor": "primary-key-table-changelog-producer",
+        "virtual_path": "docs/primary-key-table/changelog-producer/index.md"
+      },
+      {
+        "title": "Sequence & Rowkind",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/primary-key-table/sequence-rowkind/",
+        "anchor": "primary-key-table-sequence-rowkind",
+        "virtual_path": "docs/primary-key-table/sequence-rowkind/index.md"
+      },
+      {
+        "title": "Compaction",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/primary-key-table/compaction/",
+        "anchor": "primary-key-table-compaction",
+        "virtual_path": "docs/primary-key-table/compaction/index.md"
+      },
+      {
+        "title": "Query Performance",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/primary-key-table/query-performance/",
+        "anchor": "primary-key-table-query-performance",
+        "virtual_path": "docs/primary-key-table/query-performance/index.md"
+      },
+      {
+        "title": "Chain Table",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/primary-key-table/chain-table/",
+        "anchor": "primary-key-table-chain-table",
+        "virtual_path": "docs/primary-key-table/chain-table/index.md"
+      },
+      {
+        "title": "PK Clustering Override",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/primary-key-table/pk-clustering-override/",
+        "anchor": "primary-key-table-pk-clustering-override",
+        "virtual_path": "docs/primary-key-table/pk-clustering-override/index.md"
+      },
+      {
+        "title": "Incremental Clustering",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/append-table/incremental-clustering/",
+        "anchor": "append-table-incremental-clustering",
+        "virtual_path": "docs/append-table/incremental-clustering/index.md"
+      },
+      {
+        "title": "Bucketed",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/append-table/bucketed/",
+        "anchor": "append-table-bucketed",
+        "virtual_path": "docs/append-table/bucketed/index.md"
+      },
+      {
+        "title": "Row Tracking",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/append-table/row-tracking/",
+        "anchor": "append-table-row-tracking",
+        "virtual_path": "docs/append-table/row-tracking/index.md"
+      },
+      {
+        "title": "Data Evolution",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/append-table/data-evolution/",
+        "anchor": "append-table-data-evolution",
+        "virtual_path": "docs/append-table/data-evolution/index.md"
+      },
+      {
+        "title": "Blob Storage",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/append-table/blob/",
+        "anchor": "append-table-blob",
+        "virtual_path": "docs/append-table/blob/index.md"
+      },
+      {
+        "title": "Vector Storage",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/append-table/vector/",
+        "anchor": "append-table-vector",
+        "virtual_path": "docs/append-table/vector/index.md"
+      },
+      {
+        "title": "Global Index",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/append-table/global-index/",
+        "anchor": "append-table-global-index",
+        "virtual_path": "docs/append-table/global-index/index.md"
+      },
+      {
+        "title": "Quick Start",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/flink/quick-start/",
+        "anchor": "flink-quick-start",
+        "virtual_path": "docs/flink/quick-start/index.md"
+      },
+      {
+        "title": "SQL DDL",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/flink/sql-ddl/",
+        "anchor": "flink-sql-ddl",
+        "virtual_path": "docs/flink/sql-ddl/index.md"
+      },
+      {
+        "title": "SQL Write",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/flink/sql-write/",
+        "anchor": "flink-sql-write",
+        "virtual_path": "docs/flink/sql-write/index.md"
+      },
+      {
+        "title": "SQL Query",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/flink/sql-query/",
+        "anchor": "flink-sql-query",
+        "virtual_path": "docs/flink/sql-query/index.md"
+      },
+      {
+        "title": "Consumer ID",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/flink/consumer-id/",
+        "anchor": "flink-consumer-id",
+        "virtual_path": "docs/flink/consumer-id/index.md"
+      },
+      {
+        "title": "SQL Lookup",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/flink/sql-lookup/",
+        "anchor": "flink-sql-lookup",
+        "virtual_path": "docs/flink/sql-lookup/index.md"
+      },
+      {
+        "title": "SQL Alter",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/flink/sql-alter/",
+        "anchor": "flink-sql-alter",
+        "virtual_path": "docs/flink/sql-alter/index.md"
+      },
+      {
+        "title": "Default Value",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/flink/default-value/",
+        "anchor": "flink-default-value",
+        "virtual_path": "docs/flink/default-value/index.md"
+      },
+      {
+        "title": "Procedures",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/flink/procedures/",
+        "anchor": "flink-procedures",
+        "virtual_path": "docs/flink/procedures/index.md"
+      },
+      {
+        "title": "Action Jars",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/flink/action-jars/",
+        "anchor": "flink-action-jars",
+        "virtual_path": "docs/flink/action-jars/index.md"
+      },
+      {
+        "title": "Savepoint",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/flink/savepoint/",
+        "anchor": "flink-savepoint",
+        "virtual_path": "docs/flink/savepoint/index.md"
+      },
+      {
+        "title": "SQL Functions",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/sql-functions/",
+        "anchor": "spark-sql-functions",
+        "virtual_path": "docs/spark/sql-functions/index.md"
+      },
+      {
+        "title": "Auxiliary",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/auxiliary/",
+        "anchor": "spark-auxiliary",
+        "virtual_path": "docs/spark/auxiliary/index.md"
+      },
+      {
+        "title": "DataFrame",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/dataframe/",
+        "anchor": "spark-dataframe",
+        "virtual_path": "docs/spark/dataframe/index.md"
+      },
+      {
+        "title": "SQL Upsert",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/sql-upsert/",
+        "anchor": "spark-sql-upsert",
+        "virtual_path": "docs/spark/sql-upsert/index.md"
+      },
+      {
+        "title": "Structured Streaming",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/structured-streaming/",
+        "anchor": "spark-structured-streaming",
+        "virtual_path": "docs/spark/structured-streaming/index.md"
+      },
+      {
+        "title": "StarRocks",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/ecosystem/starrocks/",
+        "anchor": "ecosystem-starrocks",
+        "virtual_path": "docs/ecosystem/starrocks/index.md"
+      },
+      {
+        "title": "Doris",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/ecosystem/doris/",
+        "anchor": "ecosystem-doris",
+        "virtual_path": "docs/ecosystem/doris/index.md"
+      },
+      {
+        "title": "Hive",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/ecosystem/hive/",
+        "anchor": "ecosystem-hive",
+        "virtual_path": "docs/ecosystem/hive/index.md"
+      },
+      {
+        "title": "Trino",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/ecosystem/trino/",
+        "anchor": "ecosystem-trino",
+        "virtual_path": "docs/ecosystem/trino/index.md"
+      },
+      {
+        "title": "Amoro",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/ecosystem/amoro/",
+        "anchor": "ecosystem-amoro",
+        "virtual_path": "docs/ecosystem/amoro/index.md"
+      },
+      {
+        "title": "Mysql CDC",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/cdc-ingestion/mysql-cdc/",
+        "anchor": "cdc-ingestion-mysql-cdc",
+        "virtual_path": "docs/cdc-ingestion/mysql-cdc/index.md"
+      },
+      {
+        "title": "Postgres CDC",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/cdc-ingestion/postgres-cdc/",
+        "anchor": "cdc-ingestion-postgres-cdc",
+        "virtual_path": "docs/cdc-ingestion/postgres-cdc/index.md"
+      },
+      {
+        "title": "Kafka CDC",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/cdc-ingestion/kafka-cdc/",
+        "anchor": "cdc-ingestion-kafka-cdc",
+        "virtual_path": "docs/cdc-ingestion/kafka-cdc/index.md"
+      },
+      {
+        "title": "Mongo CDC",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/cdc-ingestion/mongo-cdc/",
+        "anchor": "cdc-ingestion-mongo-cdc",
+        "virtual_path": "docs/cdc-ingestion/mongo-cdc/index.md"
+      },
+      {
+        "title": "Pulsar CDC",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/cdc-ingestion/pulsar-cdc/",
+        "anchor": "cdc-ingestion-pulsar-cdc",
+        "virtual_path": "docs/cdc-ingestion/pulsar-cdc/index.md"
+      },
+      {
+        "title": "Flink CDC",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/cdc-ingestion/flink-cdc/",
+        "anchor": "cdc-ingestion-flink-cdc",
+        "virtual_path": "docs/cdc-ingestion/flink-cdc/index.md"
+      },
+      {
+        "title": "Filesystems",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/maintenance/filesystems/",
+        "anchor": "maintenance-filesystems",
+        "virtual_path": "docs/maintenance/filesystems/index.md"
+      },
+      {
+        "title": "Write Performance",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/maintenance/write-performance/",
+        "anchor": "maintenance-write-performance",
+        "virtual_path": "docs/maintenance/write-performance/index.md"
+      },
+      {
+        "title": "Dedicated Compaction",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/maintenance/dedicated-compaction/",
+        "anchor": "maintenance-dedicated-compaction",
+        "virtual_path": "docs/maintenance/dedicated-compaction/index.md"
+      },
+      {
+        "title": "Manage Snapshots",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/maintenance/manage-snapshots/",
+        "anchor": "maintenance-manage-snapshots",
+        "virtual_path": "docs/maintenance/manage-snapshots/index.md"
+      },
+      {
+        "title": "Rescale Bucket",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/maintenance/rescale-bucket/",
+        "anchor": "maintenance-rescale-bucket",
+        "virtual_path": "docs/maintenance/rescale-bucket/index.md"
+      },
+      {
+        "title": "Manage Tags",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/maintenance/manage-tags/",
+        "anchor": "maintenance-manage-tags",
+        "virtual_path": "docs/maintenance/manage-tags/index.md"
+      },
+      {
+        "title": "Metrics",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/maintenance/metrics/",
+        "anchor": "maintenance-metrics",
+        "virtual_path": "docs/maintenance/metrics/index.md"
+      },
+      {
+        "title": "Manage Privileges",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/maintenance/manage-privileges/",
+        "anchor": "maintenance-manage-privileges",
+        "virtual_path": "docs/maintenance/manage-privileges/index.md"
+      },
+      {
+        "title": "Manage Branches",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/maintenance/manage-branches/",
+        "anchor": "maintenance-manage-branches",
+        "virtual_path": "docs/maintenance/manage-branches/index.md"
+      },
+      {
+        "title": "Manage Partitions",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/maintenance/manage-partitions/",
+        "anchor": "maintenance-manage-partitions",
+        "virtual_path": "docs/maintenance/manage-partitions/index.md"
+      },
+      {
+        "title": "Configurations",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/maintenance/configurations/",
+        "anchor": "maintenance-configurations",
+        "virtual_path": "docs/maintenance/configurations/index.md"
+      },
+      {
+        "title": "REST API",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/program-api/rest-api/",
+        "anchor": "program-api-rest-api",
+        "virtual_path": "docs/program-api/rest-api/index.md"
+      },
+      {
+        "title": "Flink API",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/program-api/flink-api/",
+        "anchor": "program-api-flink-api",
+        "virtual_path": "docs/program-api/flink-api/index.md"
+      },
+      {
+        "title": "Java API",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/program-api/java-api/",
+        "anchor": "program-api-java-api",
+        "virtual_path": "docs/program-api/java-api/index.md"
+      },
+      {
+        "title": "Catalog API",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/program-api/catalog-api/",
+        "anchor": "program-api-catalog-api",
+        "virtual_path": "docs/program-api/catalog-api/index.md"
+      },
+      {
+        "title": "Cpp API",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/program-api/cpp-api/",
+        "anchor": "program-api-cpp-api",
+        "virtual_path": "docs/program-api/cpp-api/index.md"
+      },
+      {
+        "title": "Rust API",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/program-api/rust-api/",
+        "anchor": "program-api-rust-api",
+        "virtual_path": "docs/program-api/rust-api/index.md"
+      },
+      {
+        "title": "Python API",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/pypaimon/python-api/",
+        "anchor": "pypaimon-python-api",
+        "virtual_path": "docs/pypaimon/python-api/index.md"
+      },
+      {
+        "title": "Ray Data",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/pypaimon/ray-data/",
+        "anchor": "pypaimon-ray-data",
+        "virtual_path": "docs/pypaimon/ray-data/index.md"
+      },
+      {
+        "title": "PyTorch",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/pypaimon/pytorch/",
+        "anchor": "pypaimon-pytorch",
+        "virtual_path": "docs/pypaimon/pytorch/index.md"
+      },
+      {
+        "title": "FUSE Support",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/pypaimon/fuse-support/",
+        "anchor": "pypaimon-fuse-support",
+        "virtual_path": "docs/pypaimon/fuse-support/index.md"
+      },
+      {
+        "title": "PyJindoSDK Support",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/pypaimon/pyjindosdk-support/",
+        "anchor": "pypaimon-pyjindosdk-support",
+        "virtual_path": "docs/pypaimon/pyjindosdk-support/index.md"
+      },
+      {
+        "title": "Command Line Interface",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/pypaimon/cli/",
+        "anchor": "pypaimon-cli",
+        "virtual_path": "docs/pypaimon/cli/index.md"
+      },
+      {
+        "title": "Migration From Hive",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/migration/migration-from-hive/",
+        "anchor": "migration-migration-from-hive",
+        "virtual_path": "docs/migration/migration-from-hive/index.md"
+      },
+      {
+        "title": "Upsert To Partitioned",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/migration/upsert-to-partitioned/",
+        "anchor": "migration-upsert-to-partitioned",
+        "virtual_path": "docs/migration/upsert-to-partitioned/index.md"
+      },
+      {
+        "title": "Clone To Paimon",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/migration/clone-to-paimon/",
+        "anchor": "migration-clone-to-paimon",
+        "virtual_path": "docs/migration/clone-to-paimon/index.md"
+      },
+      {
+        "title": "Append Table",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/iceberg/append-table/",
+        "anchor": "iceberg-append-table",
+        "virtual_path": "docs/iceberg/append-table/index.md"
+      },
+      {
+        "title": "Primary Key Table",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/iceberg/primary-key-table/",
+        "anchor": "iceberg-primary-key-table",
+        "virtual_path": "docs/iceberg/primary-key-table/index.md"
+      },
+      {
+        "title": "Iceberg Tags",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/iceberg/iceberg-tags/",
+        "anchor": "iceberg-iceberg-tags",
+        "virtual_path": "docs/iceberg/iceberg-tags/index.md"
+      },
+      {
+        "title": "Hive Catalogs",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/iceberg/hive-catalog/",
+        "anchor": "iceberg-hive-catalog",
+        "virtual_path": "docs/iceberg/hive-catalog/index.md"
+      },
+      {
+        "title": "Rest Catalog",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/iceberg/rest-catalog/",
+        "anchor": "iceberg-rest-catalog",
+        "virtual_path": "docs/iceberg/rest-catalog/index.md"
+      },
+      {
+        "title": "Ecosystem",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/iceberg/ecosystem/",
+        "anchor": "iceberg-ecosystem",
+        "virtual_path": "docs/iceberg/ecosystem/index.md"
+      },
+      {
+        "title": "Download",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/project/download/",
+        "anchor": "project-download",
+        "virtual_path": "docs/project/download/index.md"
+      },
+      {
+        "title": "Contributing",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/project/contributing/",
+        "anchor": "project-contributing",
+        "virtual_path": "docs/project/contributing/index.md"
+      },
+      {
+        "title": "Committer",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/project/committer/",
+        "anchor": "project-committer",
+        "virtual_path": "docs/project/committer/index.md"
+      },
+      {
+        "title": "Understand Files",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/learn-paimon/understand-files/",
+        "anchor": "learn-paimon-understand-files",
+        "virtual_path": "docs/learn-paimon/understand-files/index.md"
+      },
+      {
+        "title": "Scenario Guide",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/learn-paimon/scenario-guide/",
+        "anchor": "learn-paimon-scenario-guide",
+        "virtual_path": "docs/learn-paimon/scenario-guide/index.md"
+      }
+    ]
+  },
+  {
+    "title": "JavaDocs",
+    "kind": "link",
+    "source_url": "https://paimon.apache.org/docs/master/api/java/",
+    "anchor": "api-java",
+    "virtual_path": "docs/api/java/index.md"
+  },
+  {
+    "title": "master",
+    "kind": "link",
+    "source_url": "https://paimon.apache.org/docs/master/",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "All Versions",
+    "kind": "link",
+    "source_url": "https://paimon.apache.org/docs/master/versions/",
+    "anchor": "versions",
+    "virtual_path": "docs/versions/index.md"
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Index of /docs/master/api",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/api/",
+        "anchor": "api",
+        "virtual_path": "docs/api/index.md"
+      },
+      {
+        "title": "Index of /docs/master/api",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/api/?C=D%3BO%3DA",
+        "anchor": "api-index_2",
+        "virtual_path": "docs/api/index_2.md"
+      },
+      {
+        "title": "Index of /docs/master/api",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/api/?C=M%3BO%3DA",
+        "anchor": "api-index_3",
+        "virtual_path": "docs/api/index_3.md"
+      },
+      {
+        "title": "Index of /docs/master/api",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/api/?C=N%3BO%3DD",
+        "anchor": "api-index_4",
+        "virtual_path": "docs/api/index_4.md"
+      },
+      {
+        "title": "Index of /docs/master/api",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/api/?C=S%3BO%3DA",
+        "anchor": "api-index_5",
+        "virtual_path": "docs/api/index_5.md"
+      },
+      {
+        "title": "Index of /docs/master/api/java",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/api/java/?C=D%3BO%3DA",
+        "anchor": "api-java-index_2",
+        "virtual_path": "docs/api/java/index_2.md"
+      },
+      {
+        "title": "Index of /docs/master/api/java",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/api/java/?C=M%3BO%3DA",
+        "anchor": "api-java-index_3",
+        "virtual_path": "docs/api/java/index_3.md"
+      },
+      {
+        "title": "Index of /docs/master/api/java",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/api/java/?C=N%3BO%3DD",
+        "anchor": "api-java-index_4",
+        "virtual_path": "docs/api/java/index_4.md"
+      },
+      {
+        "title": "Index of /docs/master/api/java",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/api/java/?C=S%3BO%3DA",
+        "anchor": "api-java-index_5",
+        "virtual_path": "docs/api/java/index_5.md"
+      },
+      {
+        "title": "Overview #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/append-table/overview/",
+        "anchor": "append-table-overview",
+        "virtual_path": "docs/append-table/overview/index.md"
+      },
+      {
+        "title": "Overview #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/cdc-ingestion/overview/",
+        "anchor": "cdc-ingestion-overview",
+        "virtual_path": "docs/cdc-ingestion/overview/index.md"
+      },
+      {
+        "title": "Spec Overview #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/concepts/spec/overview/",
+        "anchor": "concepts-spec-overview",
+        "virtual_path": "docs/concepts/spec/overview/index.md"
+      },
+      {
+        "title": "Overview #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/ecosystem/overview/",
+        "anchor": "ecosystem-overview",
+        "virtual_path": "docs/ecosystem/overview/index.md"
+      },
+      {
+        "title": "Configurations #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/iceberg/configurations/",
+        "anchor": "iceberg-configurations",
+        "virtual_path": "docs/iceberg/configurations/index.md"
+      },
+      {
+        "title": "Overview #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/iceberg/overview/",
+        "anchor": "iceberg-overview",
+        "virtual_path": "docs/iceberg/overview/index.md"
+      },
+      {
+        "title": "Overview #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/primary-key-table/merge-engine/overview/",
+        "anchor": "primary-key-table-merge-engine-overview",
+        "virtual_path": "docs/primary-key-table/merge-engine/overview/index.md"
+      },
+      {
+        "title": "Overview #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/primary-key-table/overview/",
+        "anchor": "primary-key-table-overview",
+        "virtual_path": "docs/primary-key-table/overview/index.md"
+      },
+      {
+        "title": "Data Evolution #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/pypaimon/data-evolution/",
+        "anchor": "pypaimon-data-evolution",
+        "virtual_path": "docs/pypaimon/data-evolution/index.md"
+      },
+      {
+        "title": "Manage Tags #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/pypaimon/manage-tags/",
+        "anchor": "pypaimon-manage-tags",
+        "virtual_path": "docs/pypaimon/manage-tags/index.md"
+      },
+      {
+        "title": "Overview #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/pypaimon/overview/",
+        "anchor": "pypaimon-overview",
+        "virtual_path": "docs/pypaimon/overview/index.md"
+      },
+      {
+        "title": "SQL Query #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/pypaimon/sql/",
+        "anchor": "pypaimon-sql",
+        "virtual_path": "docs/pypaimon/sql/index.md"
+      },
+      {
+        "title": "Default Value #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/default-value/",
+        "anchor": "spark-default-value",
+        "virtual_path": "docs/spark/default-value/index.md"
+      },
+      {
+        "title": "Procedures #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/procedures/",
+        "anchor": "spark-procedures",
+        "virtual_path": "docs/spark/procedures/index.md"
+      },
+      {
+        "title": "Quick Start #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/quick-start/",
+        "anchor": "spark-quick-start",
+        "virtual_path": "docs/spark/quick-start/index.md"
+      },
+      {
+        "title": "Altering Tables #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/sql-alter/",
+        "anchor": "spark-sql-alter",
+        "virtual_path": "docs/spark/sql-alter/index.md"
+      },
+      {
+        "title": "SQL DDL #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/sql-ddl/",
+        "anchor": "spark-sql-ddl",
+        "virtual_path": "docs/spark/sql-ddl/index.md"
+      },
+      {
+        "title": "SQL Query #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/sql-query/",
+        "anchor": "spark-sql-query",
+        "virtual_path": "docs/spark/sql-query/index.md"
+      },
+      {
+        "title": "SQL Write #",
+        "kind": "link",
+        "source_url": "https://paimon.apache.org/docs/master/spark/sql-write/",
+        "anchor": "spark-sql-write",
+        "virtual_path": "docs/spark/sql-write/index.md"
+      }
+    ]
+  }
+]

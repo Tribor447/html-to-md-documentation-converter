@@ -1,0 +1,26 @@
+# Summary
+
+- Commons Configuration
+  - [About](#index)
+  - [Release History](#changes)
+  - [Sources](#scm)
+  - [Security](#security)
+  - [Javadoc](#index)
+  - [Building](#building)
+  - [User's Guide](#userguide-user_guide)
+  - [Upgrade Guide: 1.x to 2.0](#userguide-upgradeto2_0)
+  - [Upgrade Guide: 2.x](#userguide-upgradeto2_x)
+- Project Documentation
+  - [Project Information](#project-info)
+    - [About](#index)
+    - [Team](#team)
+    - [Source Code Management](#scm)
+    - [CI Management](#ci-management)
+  - [Project Reports](#project-reports)
+    - [Changes](#changes)
+    - [JIRA Report](#jira-changes)
+    - [Surefire](#surefire)
+    - [RAT Report](#rat-report)
+    - [japicmp](#japicmp)
+    - [Checkstyle](#checkstyle)
+    - [SpotBugs](#spotbugs)
