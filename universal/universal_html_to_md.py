@@ -80,6 +80,29 @@ GENERIC_CONTENT_SELECTORS = [
     ".document",
     "[data-testid='page.content']",
     "[data-testid*='page-content' i]",
+    "main#main-content",
+    "#main-content",
+    "main article.doc",
+    "article.doc",
+    "main .doc",
+    "[role='main'] .doc",
+    ".article .content",
+    ".article-content",
+    ".doc-content",
+    ".documentation-content",
+    ".td-content",
+    "#xooki-body",
+    ".xooki-body",
+    "td#main",
+    "td#body",
+    "td#doc-content",
+    "td.content",
+    "td.main",
+    "td[class*='content' i]",
+    "td[class*='main' i]",
+    "#docs-content",
+    ".docs-content",
+    ".guide-content",
     ".markdown-section",
     ".gitbook-page",
     ".content",
@@ -124,9 +147,28 @@ GENERIC_NAV_SELECTORS = [
     "nav.bd-links",
     ".globaltoc",
     ".toctree-wrapper",
+    ".nav-container",
+    ".nav-panel",
+    ".nav-list",
+    ".docs-menu",
+    ".docs-nav",
+    ".sidebar-nav",
+    ".site-sidebar",
+    ".toc-menu",
+    ".nav-sidebar",
+    "#xooki-menu",
+    ".xooki-menu",
+    "#xooki-toc",
+    ".xooki-toc",
+    ".side-navigation",
     "[data-testid*='sidebar' i]",
     "[data-testid*='navigation' i]",
     ".gitbook-navigation",
+    "#toc",
+    ".toc",
+    "#table-of-contents",
+    "#left",
+    "#right",
     "#leftColumn",
     "#navcolumn",
     ".book-menu",
@@ -233,8 +275,6 @@ SKIP_URL_PATTERNS = [
         r"/categor(?:y|ies)(?:/|\.html)?$",
         r"/blog(?:/|\.html?|$)",
         r"/news(?:/|\.html?|$)",
-        r"/changelog(?:/|\.html?|$)",
-        r"/release(?:s|_notes|-notes)?(?:/|\.html?|$)",
         r"/apidocs(?:/|\.html?|$)",
         r"/api-release(?:/|\.html?|$)",
         r"/testapidocs(?:/|\.html?|$)",
@@ -254,12 +294,17 @@ SKIP_URL_PATTERNS = [
         r"/package-use\.html$",
         r"/help-doc\.html$",
         r"/constant-values\.html$",
+        # Maven/Commons generated report pages. These are not documentation pages
+        # and can explode one project-info entry into many report-only pages.
+        r"/(?:changes|changes-report|jira-changes|rat-report|checkstyle|pmd|cpd)\.html$",
+        r"/(?:spotbugs|findbugs|japicmp|clirr|taglist|surefire-report|failsafe-report)\.html$",
+        r"/(?:jdepend|jdeps|junit-report|test-results|project-reports)\.html$",
        
        
         r"/(?:dependencies|dependency-convergence|dependency-info|dependency-management)\.html$",
         r"/(?:distribution-management|issue-management|license|licenses|mail-lists)\.html$",
         r"/(?:plugin-management|plugins|project-info|project-modules|scm-usage|source-repository)\.html$",
-        r"/(?:team-list|summary|about)\.html$",
+        r"/(?:team-list)\.html$",
     ]
 ]
 
@@ -322,12 +367,31 @@ VERSION_QUERY_PARAMS = {
 
 SEARCH_QUERY_PARAMS = {"q", "query", "search", "keyword", "keywords", "term", "terms"}
 
+LANGUAGE_QUERY_PARAMS = {"lang", "language", "locale", "hl"}
+PREFERRED_LANGUAGE_DEFAULT = "en"
+ENGLISH_LANGUAGE_CODES = {
+    "en", "en-us", "en-gb", "en-ca", "en-au", "en-nz", "en-ie", "en-za",
+}
+KNOWN_LANGUAGE_CODES = {
+    "af", "am", "ar", "az", "be", "bg", "bn", "bs", "ca", "cs", "cy", "da",
+    "de", "el", "es", "et", "eu", "fa", "fi", "fr", "ga", "gl", "gu", "he",
+    "hi", "hr", "hu", "hy", "id", "is", "it", "ja", "ka", "kk", "km", "kn",
+    "ko", "lt", "lv", "mk", "ml", "mn", "mr", "ms", "my", "nb", "ne", "nl",
+    "nn", "no", "pa", "pl", "pt", "ro", "ru", "si", "sk", "sl", "sq", "sr",
+    "sv", "sw", "ta", "te", "th", "tl", "tr", "uk", "ur", "uz", "vi", "zh",
+    "zh-cn", "zh-tw", "zh-hans", "zh-hant", "pt-br", "pt-pt", "es-es", "es-mx",
+    "fr-fr", "de-de", "ja-jp", "ko-kr", *ENGLISH_LANGUAGE_CODES,
+}
+LANGUAGE_SEGMENT_RE = re.compile(r"^[a-z]{2,3}(?:[-_][a-z0-9]{2,8}){0,2}$", re.I)
+
 
 
 SIDEBAR_CONTEXT_RE = re.compile(
     r"(?:^|[-_\s])(?:sidebar|side-nav|sidenav|docs-sidebar|doc-sidebar|"
     r"docsidebar|toc-tree|toctree|navcolumn|leftcolumn|book-menu|wy-menu|"
-    r"bd-sidebar|bd-links|md-sidebar|vpsidebar|vpsidebarnav|theme-doc-sidebar|"
+    r"bd-sidebar|bd-links|nav-container|nav-panel|nav-list|docs-menu|"
+    r"docs-nav|sidebar-nav|site-sidebar|toc-menu|nav-sidebar|side-navigation|"
+    r"md-sidebar|vpsidebar|vpsidebarnav|theme-doc-sidebar|"
     r"gitbook-navigation|menu)(?:$|[-_\s])",
     re.I,
 )
@@ -349,7 +413,13 @@ CONTENT_CHROME_SELECTORS = [
     ".theme-doc-sidebar-container", ".docSidebar", "[class*='docSidebar']",
     ".VPSidebar", ".VPSidebarNav", ".vp-sidebar", ".md-sidebar", ".wy-nav-side",
     ".sphinxsidebar", ".bd-sidebar", ".bd-sidebar-primary", "nav.bd-links",
+    ".nav-container", ".nav-panel", ".nav-list", ".docs-menu", ".docs-nav",
+    ".sidebar-nav", ".site-sidebar", ".toc-menu", ".nav-sidebar", ".side-navigation",
     ".book-menu", ".book-menu-content", ".gitbook-navigation",
+    "#toc", ".toc", "#table-of-contents", ".table-of-contents",
+    "#left", "#right", "#quickReference", "#quick-reference",
+    ".quickref", ".quick-reference", ".quickReference",
+    ".version-selector", ".versions", ".edit-page",
     "[data-testid*='sidebar' i]", "[data-testid*='navigation' i]",
     "aside[class*='sidebar' i]", "div[class*='sidebar' i]",
     "nav[class*='sidebar' i]", "nav[aria-label*='sidebar' i]",
@@ -374,8 +444,9 @@ GENERIC_DOC_LINK_TEXT_RE = re.compile(
     r"\b(?:"
     r"docs?|documentation|manual|guide|guides|tutorial|tutorials|reference|"
     r"getting\s+started|quick\s+start|overview|introduction|install(?:ation)?|"
+    r"build(?:ing)?|subprojects?|modules?|components?|features?|platforms?|"
     r"setup|configure|configuration|usage|examples?|concepts?|how\s*to|faq|"
-    r"api|cli|sdk|developer|developers?|user\s+guide|admin\s+guide|"
+    r"api|cli|sdk|reference|developer|developers?|user\s+guide|admin\s+guide|"
     r"next|previous|prev|continue|read\s+more"
     r")\b",
     re.I,
@@ -588,6 +659,105 @@ def normalize_url(url: str, *, keep_query: bool = True) -> str:
         fragment="",
     )
     return urlunsplit(clean)
+
+
+
+def normalize_language_code(value: str) -> str:
+    value = unquote(str(value or "")).strip().lower().replace("_", "-")
+    value = value.split(".", 1)[0]
+    value = re.sub(r"[^a-z0-9-]", "", value)
+    return value
+
+
+def preferred_language_key(value: Optional[str]) -> str:
+    value = normalize_language_code(value or PREFERRED_LANGUAGE_DEFAULT)
+    if value in {"", "any", "all", "none", "off"}:
+        return "any"
+    return value
+
+
+def is_english_language_code(value: str) -> bool:
+    value = normalize_language_code(value)
+    return value in ENGLISH_LANGUAGE_CODES or value.startswith("en-")
+
+
+def language_matches_preference(value: str, preferred: str) -> bool:
+    preferred = preferred_language_key(preferred)
+    if preferred == "any":
+        return True
+    value = normalize_language_code(value)
+    if not value:
+        return True
+    if preferred == "en":
+        return is_english_language_code(value)
+    return value == preferred or value.startswith(preferred + "-")
+
+
+def url_language_code(url: str) -> str:
+    parts = urlsplit(url)
+    for key, value in parse_qsl(parts.query, keep_blank_values=True):
+        if key.lower() in LANGUAGE_QUERY_PARAMS:
+            lang = normalize_language_code(value)
+            if lang:
+                return lang
+    segments = [unquote(seg).strip() for seg in parts.path.split("/") if seg.strip()]
+    for idx, seg in enumerate(segments[:5]):
+        lang = normalize_language_code(seg)
+        if not lang or not LANGUAGE_SEGMENT_RE.match(lang):
+            continue
+        base = lang.split("-", 1)[0]
+        if lang not in KNOWN_LANGUAGE_CODES and base not in KNOWN_LANGUAGE_CODES:
+            continue
+        prev = normalize_language_code(segments[idx - 1]) if idx > 0 else ""
+        next_seg = normalize_language_code(segments[idx + 1]) if idx + 1 < len(segments) else ""
+        docish_prev = prev in DOC_LIKE_KEYWORDS or "doc" in prev or "manual" in prev or "guide" in prev
+        near_docs_marker = idx == 0 or docish_prev
+        looks_like_locale_prefix = (
+            idx <= 3
+            and not looks_versionish(prev)
+            and (next_seg in DOC_LIKE_KEYWORDS or looks_versionish(next_seg) or (docish_prev and len(segments) > idx + 2))
+        )
+        if near_docs_marker or looks_like_locale_prefix:
+            return lang
+    return ""
+
+
+def url_allowed_for_language(url: str, preferred_language: str) -> bool:
+    preferred = preferred_language_key(preferred_language)
+    if preferred == "any":
+        return True
+    lang = url_language_code(url)
+    if not lang:
+        return True
+    return language_matches_preference(lang, preferred)
+
+
+def soup_declared_language(soup: BeautifulSoup) -> str:
+    html_tag = soup.find("html")
+    if html_tag is not None:
+        for attr in ("lang", "xml:lang"):
+            value = html_tag.get(attr)
+            if value:
+                return normalize_language_code(str(value))
+    for meta in soup.find_all("meta"):
+        http_equiv = str(meta.get("http-equiv") or "").lower()
+        name = str(meta.get("name") or meta.get("property") or "").lower()
+        if http_equiv == "content-language" or name in {"language", "og:locale"}:
+            content = str(meta.get("content") or "").split(",", 1)[0]
+            lang = normalize_language_code(content)
+            if lang:
+                return lang
+    return ""
+
+
+def soup_allowed_for_language(soup: BeautifulSoup, preferred_language: str) -> bool:
+    preferred = preferred_language_key(preferred_language)
+    if preferred == "any":
+        return True
+    declared = soup_declared_language(soup)
+    if not declared:
+        return True
+    return language_matches_preference(declared, preferred)
 
 
 def scoped_query_params_from_url(url: str) -> List[Tuple[str, str]]:
@@ -1490,7 +1660,8 @@ def iter_generic_content_candidates(soup: BeautifulSoup) -> List[Tag]:
         "[itemprop='articleBody']", "[itemprop='text']",
         ".markdown-body", ".prose", ".post-content", ".entry-content",
         ".article-content", ".page-content", ".content-body", ".docs-content",
-        ".documentation", ".manual", ".guide", ".chapter",
+        ".doc-content", ".documentation-content", ".td-content", "article.doc",
+        "main .doc", "[role='main'] .doc", ".documentation", ".manual", ".guide", ".chapter",
         "[class*='content' i]", "[id*='content' i]",
         "[class*='article' i]", "[id*='article' i]",
         "[class*='docs' i]", "[id*='docs' i]",
@@ -1507,11 +1678,20 @@ def iter_generic_content_candidates(soup: BeautifulSoup) -> List[Tag]:
     for node in soup.find_all(["main", "article", "section", "div", "td"], limit=2500):
         if not isinstance(node, Tag) or id(node) in seen:
             continue
-        if node.name == "td" and str(node.get("id", "")).lower() not in {"bodycolumn", "content", "contentbox"}:
-            continue
         text_len = len(clean_text(node.get_text(" ", strip=True)))
         attrs = " ".join([node.get("id", ""), *node.get("class", []), node.name or ""])
-        min_text = 10 if GENERIC_CONTENT_CLASS_RE.search(attrs) or node.name in {"main", "article"} else 160
+        if node.name == "td":
+            td_id = str(node.get("id", "")).lower()
+            td_classes = " ".join(node.get("class", [])).lower()
+            td_contentish = (
+                td_id in {"bodycolumn", "content", "contentbox", "main", "body", "doc-content"}
+                or GENERIC_CONTENT_CLASS_RE.search(attrs)
+                or "main" in td_classes
+                or len(node.find_all(re.compile(r"^h[1-6]$"))) >= 1
+            )
+            if not td_contentish and text_len < 500:
+                continue
+        min_text = 10 if GENERIC_CONTENT_CLASS_RE.search(attrs) or node.name in {"main", "article", "td"} else 160
         if text_len < min_text:
             continue
         if node.name not in {"main", "article"} and not GENERIC_CONTENT_CLASS_RE.search(attrs):
@@ -1540,7 +1720,7 @@ def tighten_generic_content_root(node: Tag, score: int) -> Tag:
     while True:
         best_child: Optional[Tag] = None
         best_score = -10**9
-        for child in current.find_all(["main", "article", "section", "div", "td"], recursive=False):
+        for child in current.find_all(["main", "article", "section", "div", "td", "table", "tbody", "tr"], recursive=False):
             if not isinstance(child, Tag):
                 continue
             child_score = generic_content_candidate_score(child)
@@ -1779,8 +1959,6 @@ def select_nav_root(
         for parent in best_node.parents:
             if not isinstance(parent, Tag) or parent.name in {"body", "html"}:
                 break
-            if not is_sidebarish_tag(parent):
-                continue
             if not has_structured_nav_headings(parent):
                 continue
             parent_score = compute_nav_score(
@@ -1791,7 +1969,10 @@ def select_nav_root(
                 current_url=normalize_url(current_url) if current_url else None,
                 site_prefix=site_prefix,
             )
-            if parent_score > 0 and parent_score >= int(best_score * 0.35):
+            if parent_score > 0 and (
+                is_sidebarish_tag(parent)
+                or parent_score >= int(best_score * 0.28)
+            ):
                 return parent
 
     if is_sidebarish_tag(best_node) and has_structured_nav_headings(best_node):
@@ -2028,6 +2209,50 @@ def generic_nav_is_weak(
     return False
 
 
+def is_doc_link_hub(
+    node: Optional[Tag],
+    domain: str,
+    base_url: str,
+    site_prefix: Optional[str],
+) -> bool:
+    if node is None:
+        return False
+    links: Set[str] = set()
+    docish = 0
+    for a in node.select("a[href]"):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith(("#", "javascript:", "mailto:", "tel:")):
+            continue
+        abs_url = split_and_normalize(base_url, href)[0]
+        parts = urlsplit(abs_url)
+        if parts.netloc != domain:
+            continue
+        if not url_path_in_prefix(abs_url, site_prefix):
+            continue
+        if Path(parts.path).suffix.lower() not in DOC_PAGE_EXTENSIONS:
+            continue
+        if query_looks_search_like(abs_url):
+            continue
+        if any(pattern.search(parts.path) for pattern in SKIP_URL_PATTERNS):
+            continue
+        links.add(abs_url)
+        text = link_visible_text(a)
+        tokens = path_token_set(parts.path)
+        if GENERIC_DOC_LINK_TEXT_RE.search(text) or tokens & DOC_LIKE_KEYWORDS:
+            docish += 1
+    if len(links) < 3:
+        return False
+    headings = len(node.find_all(re.compile(r"^h[1-6]$")))
+    lists = len(node.find_all(["ul", "ol", "dl"]))
+    paragraphs = len(node.find_all("p"))
+    text_len = len(clean_text(node.get_text(" ", strip=True)))
+    if headings == 0 and lists == 0:
+        return False
+    if docish >= 2:
+        return True
+    return paragraphs <= 3 and text_len <= 12000
+
+
 def link_visible_text(a: Tag) -> str:
     pieces = [a.get_text(" ", strip=True)]
     for attr in ("aria-label", "title"):
@@ -2112,6 +2337,8 @@ def generic_content_link_score(
         "quickstart", "quick-start", "start", "usage", "use", "config",
         "configuration", "configure", "api", "cli", "sdk", "examples", "example",
         "tutorial", "tutorials", "reference", "guide", "guides", "manual",
+        "build", "building", "subproject", "subprojects", "module", "modules",
+        "component", "components", "platform", "platforms", "architecture", "security",
         "faq", "howto", "how-to", "concept", "concepts",
     }
     if tokens & docish_extra:
@@ -2179,10 +2406,12 @@ def is_doc_like_page(content_root: Optional[Tag], nav_root: Optional[Tag], score
    
     if text_len >= 10 and headings >= 1 and (paragraphs >= 1 or code_blocks >= 1 or tables >= 1):
         return True
+    if text_len >= 60 and headings >= 1 and len(content_root.find_all(["ul", "ol", "dl"])) >= 1:
+        return True
 
     if nav_root is None:
         return False
-    return text_len >= 180
+    return text_len >= 120
 
 
 def first_nonempty_attr(tag: Tag, names: Sequence[str]) -> str:
@@ -2268,6 +2497,7 @@ def clean_nav_title_value(title: str) -> str:
     title = re.sub(r"^(?:expand|collapse)\s+sidebar\s+category\s+", "", title, flags=re.I)
     title = re.sub(r"^(?:open|close)\s+", "", title, flags=re.I)
     title = re.sub(r"^[•›»·\-\s]+", "", title)
+    title = re.sub(r"\s*[¶#]+\s*$", "", title)
     title = re.sub(r"\s+", " ", title).strip()
    
    
@@ -2963,6 +3193,7 @@ def extract_crawl_links(
     profile: str,
     follow_content_links: bool = False,
     current_url: Optional[str] = None,
+    preferred_language: str = PREFERRED_LANGUAGE_DEFAULT,
 ) -> List[str]:
 
 
@@ -2990,6 +3221,7 @@ def extract_crawl_links(
         )
     )
     generator_content_fallback = profile in {"book", "sphinx", "vitepress"} and nav_link_count < 3
+    content_link_hub = profile == "generic" and is_doc_link_hub(content_root, domain, base_url, site_prefix)
 
     containers: List[Tuple[Tag, str]] = []
     if nav_root is not None and not nav_is_weak:
@@ -3008,7 +3240,7 @@ def extract_crawl_links(
             if isinstance(node, Tag):
                 containers.append((node, "pagination"))
 
-    auto_content_fallback = nav_is_weak or generator_content_fallback
+    auto_content_fallback = nav_is_weak or generator_content_fallback or content_link_hub
 
     if (follow_content_links or auto_content_fallback) and content_root is not None:
         containers.append((content_root, "content"))
@@ -3033,6 +3265,9 @@ def extract_crawl_links(
             if not href:
                 continue
             if href.startswith(("#", "javascript:", "mailto:", "tel:")):
+                continue
+            hreflang = str(a.get("hreflang") or "").strip()
+            if hreflang and not language_matches_preference(hreflang, preferred_language):
                 continue
 
             abs_url, _frag = split_and_normalize(base_url, href)
@@ -3063,6 +3298,28 @@ def extract_crawl_links(
                 continue
             seen.add(abs_url)
             out.append(abs_url)
+
+    for tag in soup.select("iframe[src], frame[src], embed[src], object[data]"):
+        raw = str(tag.get("src") or tag.get("data") or "").strip()
+        if not raw or raw.startswith(("#", "javascript:", "mailto:", "tel:")):
+            continue
+        abs_url, _frag = split_and_normalize(base_url, raw)
+        parts = urlsplit(abs_url)
+        if parts.netloc != domain:
+            continue
+        if not parts.path.startswith(site_prefix):
+            continue
+        ext = Path(parts.path).suffix.lower()
+        if ext not in DOC_PAGE_EXTENSIONS:
+            continue
+        if query_looks_search_like(abs_url):
+            continue
+        if any(pattern.search(parts.path) for pattern in SKIP_URL_PATTERNS):
+            continue
+        if abs_url in seen:
+            continue
+        seen.add(abs_url)
+        out.append(abs_url)
 
     return out
 
@@ -3153,6 +3410,7 @@ def extract_preformatted_text(pre: Tag) -> Tuple[str, str]:
     if line_nodes:
         lines = [extract_inline_text(node).replace("\xa0", " ") for node in line_nodes]
         text = "\n".join(line.rstrip("\n") for line in lines)
+        text = clean_extracted_code_text(text)
         return repair_shell_command_wrapping(text, language), language
 
     code = pre.find("code")
@@ -3162,8 +3420,7 @@ def extract_preformatted_text(pre: Tag) -> Tuple[str, str]:
         text = code.get_text("", strip=False)
     else:
         text = pre.get_text("", strip=False)
-    text = text.replace("\r\n", "\n").replace("\r", "\n")
-    text = maybe_fix_mojibake(text)
+    text = clean_extracted_code_text(text)
     return repair_shell_command_wrapping(text, language), language
 
 
@@ -3187,10 +3444,10 @@ def detect_code_language(node: Optional[Tag]) -> str:
 
 def find_code_line_nodes(root: Tag) -> List[Tag]:
     selectors = [
-        ".token-line", ".line", ".cl",
+        ".token-line", ".line",
         "[class*=tokenLine]", "[class*=codeLine]",
         ".code-line", "[class*=lineContent]",
-        "[class~=line]", "[class~=cl]",
+        "[class~=line]",
         "[data-code-line]",
         'span[style*="display:block"]',
     ]
@@ -3205,7 +3462,7 @@ def find_code_line_nodes(root: Tag) -> List[Tag]:
                 for parent in node.parents
             )
         ]
-        if filtered:
+        if filtered and line_node_candidates_are_reasonable(filtered, root):
             return filtered
 
     direct_tag_children = [child for child in root.children if isinstance(child, Tag)]
@@ -3319,16 +3576,351 @@ def looks_like_tab_container(node: Tag) -> bool:
     return False
 
 
+
+
+def nearest_table_ancestor(tag: Tag) -> Optional[Tag]:
+    current = tag.parent
+    while isinstance(current, Tag):
+        if current.name == "table":
+            return current
+        current = current.parent
+    return None
+
+
+def direct_table_rows(table: Tag) -> List[Tag]:
+    rows: List[Tag] = []
+    for tr in table.find_all("tr"):
+        if nearest_table_ancestor(tr) is table:
+            rows.append(tr)
+    return rows
+
+
+def direct_row_cells(row: Tag) -> List[Tag]:
+    cells: List[Tag] = []
+    for cell in row.find_all(["td", "th"], recursive=False):
+        cells.append(cell)
+    return cells
+
+
+def direct_table_cells(table: Tag) -> List[Tag]:
+    cells: List[Tag] = []
+    for row in direct_table_rows(table):
+        cells.extend(direct_row_cells(row))
+    if not cells:
+        # Some old pages omit <tr>; keep a conservative fallback.
+        for cell in table.find_all(["td", "th"]):
+            if nearest_table_ancestor(cell) is table:
+                cells.append(cell)
+    return cells
+
+
+def table_has_nested_tables(table: Tag) -> bool:
+    return any(nested is not table for nested in table.find_all("table"))
+
+
+def table_attr_text(table: Tag) -> str:
+    return " ".join([
+        table.name or "",
+        str(table.get("id", "")),
+        *[str(cls) for cls in table.get("class", [])],
+        str(table.get("role", "")),
+        str(table.get("summary", "")),
+    ]).lower()
+
+
+def table_has_layout_attrs(table: Tag) -> bool:
+    attrs = table_attr_text(table)
+    if re.search(r"(?:^|[-_\s])(?:layout|container|wrapper|shell|page|main|content|body|columns?|grid)(?:$|[-_\s])", attrs):
+        return True
+    border = str(table.get("border") or "").strip()
+    cellpadding = str(table.get("cellpadding") or "").strip()
+    cellspacing = str(table.get("cellspacing") or "").strip()
+    width = str(table.get("width") or "").strip()
+    if border in {"0", "", "none"} and (width in {"100%", "100", ""} or cellpadding or cellspacing):
+        return True
+    return False
+
+
+def cell_is_probably_chrome(cell: Tag) -> bool:
+    text_len = len(clean_text(cell.get_text(" ", strip=True)))
+    attrs = tag_context_signature(cell, max_ancestors=2)
+    if SIDEBAR_CONTEXT_RE.search(attrs) or TOC_CONTEXT_RE.search(attrs):
+        return True
+    links = cell.find_all("a", href=True)
+    if not links:
+        return False
+    link_text_len = sum(len(clean_text(a.get_text(" ", strip=True))) for a in links)
+    link_density = link_text_len / max(text_len, 1)
+    paragraphs = len(cell.find_all("p"))
+    headings = len(cell.find_all(re.compile(r"^h[1-6]$")))
+    if len(links) >= 5 and link_density > 0.45 and paragraphs < 2 and headings < 2:
+        return True
+    if len(links) >= 12 and paragraphs < 3:
+        return True
+    return False
+
+
+def cell_is_contentish(cell: Tag) -> bool:
+    text_len = len(clean_text(cell.get_text(" ", strip=True)))
+    if text_len >= 500:
+        return True
+    if cell.find(re.compile(r"^h[1-6]$")) and text_len >= 80:
+        return True
+    if cell.find("pre") or cell.find("blockquote"):
+        return True
+    if len(cell.find_all("p")) >= 2 and text_len >= 180:
+        return True
+    if table_has_nested_tables(cell):
+        return True
+    return False
+
+
+def table_row_widths(table: Tag) -> List[int]:
+    widths: List[int] = []
+    for row in direct_table_rows(table):
+        cells = direct_row_cells(row)
+        if cells:
+            widths.append(len(cells))
+    return widths
+
+
+def looks_like_data_table(node: Tag) -> bool:
+    if node.name != "table":
+        return False
+    if table_has_nested_tables(node):
+        return False
+    rows = direct_table_rows(node)
+    cells = direct_table_cells(node)
+    if len(rows) < 2 or len(cells) < 4:
+        return False
+    widths = [len(direct_row_cells(row)) for row in rows if direct_row_cells(row)]
+    if not widths or max(widths) < 2:
+        return False
+    common_width = max(set(widths), key=widths.count)
+    if widths.count(common_width) / max(len(widths), 1) < 0.60:
+        return False
+    direct_headers = [cell for cell in cells if cell.name == "th"]
+    if direct_headers:
+        return True
+    # Headerless data tables exist, but if the cells contain full sections, it is layout.
+    heavy_cells = sum(1 for cell in cells if cell_is_contentish(cell))
+    short_first_row = all(len(clean_text(cell.get_text(" ", strip=True))) <= 80 for cell in direct_row_cells(rows[0]))
+    return heavy_cells == 0 and short_first_row and len(rows) >= 3
+
+
+def looks_like_layout_table(node: Tag) -> bool:
+    if node.name != "table":
+        return False
+
+    rows = direct_table_rows(node)
+    cells = direct_table_cells(node)
+    if not rows and not cells:
+        return False
+
+    widths = table_row_widths(node)
+    if widths and max(widths) <= 1:
+        return True
+
+    # Nested tables are almost always old-school page layout or a table wrapper.
+    # The inner data table should be preserved, the outer wrapper should not.
+    if table_has_nested_tables(node):
+        return True
+
+    if looks_like_data_table(node):
+        return False
+
+    if table_has_layout_attrs(node):
+        return True
+
+    text_len = len(clean_text(node.get_text(" ", strip=True)))
+    headings = len(node.find_all(re.compile(r"^h[1-6]$")))
+    pre_blocks = len(node.find_all("pre"))
+    paragraphs = len(node.find_all("p"))
+    direct_headers = any(cell.name == "th" for cell in cells)
+
+    chrome_cells = sum(1 for cell in cells[:16] if cell_is_probably_chrome(cell))
+    content_cells = sum(1 for cell in cells[:16] if cell_is_contentish(cell))
+    if chrome_cells >= 1 and content_cells >= 1:
+        return True
+
+    # A real data table usually has many similar rows. A wrapper table often has
+    # a few huge cells containing headings, paragraphs, code blocks, or sections.
+    if not direct_headers and text_len >= 600 and (headings >= 1 or pre_blocks >= 1 or paragraphs >= 2):
+        if len(rows) <= 6 or content_cells >= 1:
+            return True
+
+    if widths and len(set(widths)) > 2 and not direct_headers:
+        return True
+
+    return False
+
+
+def best_layout_content_cell(root: Tag) -> Optional[Tag]:
+    tables: List[Tag] = []
+    if isinstance(root, Tag) and root.name == "table":
+        tables.append(root)
+    tables.extend([table for table in root.find_all("table") if isinstance(table, Tag)])
+
+    best_cell: Optional[Tag] = None
+    best_score = -10**9
+    for table in tables:
+        if not looks_like_layout_table(table):
+            continue
+        for cell in direct_table_cells(table):
+            text_len = len(clean_text(cell.get_text(" ", strip=True)))
+            if text_len < 20:
+                continue
+            if cell_is_probably_chrome(cell):
+                continue
+            score = generic_content_candidate_score(cell)
+            score += min(text_len, 5000)
+            if cell.find(re.compile(r"^h[1-6]$")):
+                score += 900
+            if cell.find("pre"):
+                score += 600
+            if table_has_nested_tables(cell):
+                score += 300
+            if cell.find("iframe") or cell.find("object") or cell.find("embed"):
+                score -= 3000
+            if score > best_score:
+                best_score = score
+                best_cell = cell
+    return best_cell
+
+
+def unwrap_layout_table_content(root: Tag) -> Tag:
+    # Only replace the whole selected content root when the root itself is a
+    # layout table, or when a direct child layout table clearly dominates the
+    # root. Otherwise we would accidentally drop useful siblings that appear
+    # before/after a layout wrapper.
+    target: Optional[Tag] = None
+    if isinstance(root, Tag) and root.name == "table" and looks_like_layout_table(root):
+        target = root
+    elif isinstance(root, Tag):
+        root_text_len = len(clean_text(root.get_text(" ", strip=True)))
+        direct_tables = [child for child in root.find_all("table", recursive=False) if isinstance(child, Tag)]
+        for table in direct_tables:
+            if not looks_like_layout_table(table):
+                continue
+            table_text_len = len(clean_text(table.get_text(" ", strip=True)))
+            outside_text_len = max(0, root_text_len - table_text_len)
+            if table_text_len >= max(200, int(root_text_len * 0.82)) and outside_text_len <= 220:
+                target = table
+                break
+    if target is None:
+        return root
+
+    cell = best_layout_content_cell(target)
+    if cell is None:
+        return root
+    wrapper_soup = BeautifulSoup("<div></div>", "html.parser")
+    wrapper = wrapper_soup.div
+    assert wrapper is not None
+    for child in list(cell.children):
+        wrapper.append(copy.copy(child))
+    return wrapper
+
+
+def markdownify_table_cell_contents(cell: Tag) -> str:
+    wrapper_soup = BeautifulSoup("<div></div>", "html.parser")
+    wrapper = wrapper_soup.div
+    assert wrapper is not None
+    for child in list(cell.children):
+        wrapper.append(copy.copy(child))
+    return markdownify_fragment(wrapper)
+
+
+def flatten_layout_table_to_markdown(node: Tag) -> str:
+    rows = direct_table_rows(node)
+    parts: List[str] = []
+
+    def append_cell(cell: Tag) -> None:
+        if cell_is_probably_chrome(cell):
+            return
+        text = markdownify_table_cell_contents(cell).strip()
+        text = re.sub(r"\s*\|\s*$", "", text).strip()
+        if not text:
+            return
+        parts.append(text)
+
+    if rows:
+        for row in rows:
+            for cell in direct_row_cells(row):
+                append_cell(cell)
+    else:
+        for cell in direct_table_cells(node):
+            append_cell(cell)
+
+    if not parts:
+        text = clean_text(node.get_text(" ", strip=True))
+        return f"\n{text}\n" if text else "\n"
+    return "\n\n" + "\n\n".join(parts) + "\n"
+
+
+def cell_text_for_markdown_table(cell: Tag) -> str:
+    wrapper_soup = BeautifulSoup("<div></div>", "html.parser")
+    wrapper = wrapper_soup.div
+    assert wrapper is not None
+    for child in list(cell.children):
+        wrapper.append(copy.copy(child))
+    for br in list(wrapper.find_all("br")):
+        br.replace_with(NavigableString(" "))
+    text = markdownify_fragment(wrapper)
+    text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s*\|\s*$", "", text).strip()
+    text = text.replace("|", r"\|")
+    return text
+
+
+def render_markdown_table(node: Tag) -> Optional[str]:
+    rows: List[List[str]] = []
+    header_seen = False
+    for tr in direct_table_rows(node):
+        direct_cells = direct_row_cells(tr)
+        if not direct_cells:
+            continue
+        if any((cell.get("rowspan") and str(cell.get("rowspan")).strip() not in {"", "1"}) or (cell.get("colspan") and str(cell.get("colspan")).strip() not in {"", "1"}) for cell in direct_cells):
+            return None
+        if any(cell.find(["table", "pre", "blockquote", "ul", "ol", "dl"]) for cell in direct_cells):
+            return None
+        row = [cell_text_for_markdown_table(cell) for cell in direct_cells]
+        if not any(row):
+            continue
+        rows.append(row)
+        if any(cell.name == "th" for cell in direct_cells):
+            header_seen = True
+    if not rows:
+        return None
+    width = max(len(row) for row in rows)
+    if width < 2:
+        return None
+    normalized = [row + [""] * (width - len(row)) for row in rows]
+    if not header_seen:
+        first = normalized[0]
+        header_seen = len(normalized) >= 3 and all(0 < len(cell) <= 80 for cell in first)
+    if not header_seen:
+        return None
+    header = normalized[0]
+    body = normalized[1:]
+    lines = ["| " + " | ".join(header) + " |", "| " + " | ".join(["---"] * width) + " |"]
+    for row in body:
+        lines.append("| " + " | ".join(row) + " |")
+    return "\n" + "\n".join(lines) + "\n"
+
+
+def render_html_table(node: Tag) -> str:
+    clone = clone_tag(node)
+    sanitize_raw_html_tree(clone)
+    for tag in clone.find_all(True):
+        if tag.name not in {"table", "thead", "tbody", "tfoot", "tr", "th", "td", "caption", "colgroup", "col", "a", "img", "br", "p", "strong", "em", "code", "span", "div", "ul", "ol", "li", "pre"}:
+            tag.unwrap()
+    return "\n" + str(clone) + "\n"
+
+
 def table_is_simple(node: Tag) -> bool:
-
-
-    if node.find("table") is not node:
-       
-        pass
-    for nested in node.find_all("table"):
-        if nested is not node:
-            return False
-    for cell in node.find_all(["td", "th"]):
+    if table_has_nested_tables(node):
+        return False
+    for cell in direct_table_cells(node):
         if cell.get("rowspan") and str(cell["rowspan"]).strip() not in {"", "1"}:
             return False
         if cell.get("colspan") and str(cell["colspan"]).strip() not in {"", "1"}:
@@ -3344,16 +3936,91 @@ def render_complex_block(node: Tag) -> str:
     if looks_like_admonition(node):
         return render_admonition_block(node)
     if node.name == "table":
-        if table_is_simple(node):
-           
-            return "\n" + md(str(clone_tag(node)), heading_style="ATX") + "\n"
-        clone = clone_tag(node)
-        sanitize_raw_html_tree(clone)
-        return "\n" + str(clone) + "\n"
+        if looks_like_layout_table(node):
+            return flatten_layout_table_to_markdown(node)
+        markdown_table = render_markdown_table(node) if table_is_simple(node) else None
+        if markdown_table is not None:
+            return markdown_table
+        # Last resort: only preserve actual complex data tables as raw HTML.
+        # Unknown/wrapper tables are flattened so the rest of the document cannot
+        # accidentally become part of a giant table in GitHub/Markdown renderers.
+        if looks_like_data_table(node):
+            return render_html_table(node)
+        return flatten_layout_table_to_markdown(node)
     clone = clone_tag(node)
     sanitize_raw_html_tree(clone)
     return "\n" + str(clone) + "\n"
 
+
+def replace_markdown_placeholders(markdown: str, placeholders: Dict[str, str]) -> str:
+    for _ in range(max(1, len(placeholders) + 1)):
+        changed = False
+        for token, replacement in placeholders.items():
+            if token in markdown:
+                markdown = markdown.replace(token, replacement)
+                changed = True
+        if not changed:
+            break
+    return markdown
+
+
+def clean_extracted_code_text(text: str) -> str:
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = maybe_fix_mojibake(text)
+    lines = text.splitlines()
+    if len(lines) >= 8:
+        nonblank = [line for line in lines if line.strip()]
+        short_ratio = sum(1 for line in nonblank if len(line.strip()) <= 3) / max(len(nonblank), 1)
+        punct_ratio = sum(1 for line in nonblank if re.fullmatch(r"[{}()\[\],.;:=:+\-*/<>!&|]+", line.strip())) / max(len(nonblank), 1)
+        if short_ratio > 0.45 or punct_ratio > 0.20:
+            rebuilt: List[str] = []
+            current = ""
+            for raw in lines:
+                part = raw.strip()
+                if not part:
+                    if current.strip():
+                        rebuilt.append(current.rstrip())
+                        current = ""
+                    continue
+                if not current:
+                    current = part
+                elif part in {"::", ".", ",", ";", ":", ")", "]", "}", ">"}:
+                    current += part
+                    if part == ";":
+                        rebuilt.append(current.rstrip())
+                        current = ""
+                elif current.endswith(("::", ".", "(", "[", "{", "<", "=", ":", ",")):
+                    current += part
+                elif part in {"(", "[", "{"}:
+                    current += " " + part
+                else:
+                    current += " " + part
+            if current.strip():
+                rebuilt.append(current.rstrip())
+            if rebuilt and sum(len(line) for line in rebuilt) >= max(20, len("".join(nonblank)) // 2):
+                text = "\n".join(rebuilt)
+    return text
+
+
+def line_node_candidates_are_reasonable(nodes: List[Tag], root: Tag) -> bool:
+    if not nodes:
+        return False
+    if any(node.name in {"div", "p"} for node in nodes):
+        return True
+    classes = [" ".join(node.get("class", [])).lower() for node in nodes]
+    strong_line_class = any(re.search(r"(?:^|[-_\s])(?:token-line|code-line|line-content|linecontent)(?:$|[-_\s])", cls) for cls in classes)
+    if strong_line_class:
+        return True
+    texts = [extract_inline_text(node).strip() for node in nodes if extract_inline_text(node).strip()]
+    if not texts:
+        return False
+    root_text = root.get_text("", strip=False)
+    root_newlines = max(1, root_text.count("\n"))
+    if len(texts) > root_newlines + 8:
+        short_ratio = sum(1 for t in texts if len(t) <= 3) / len(texts)
+        if short_ratio > 0.35:
+            return False
+    return True
 
 def render_code_block(pre: Tag) -> str:
     text, language = extract_preformatted_text(pre)
@@ -3502,6 +4169,9 @@ def markdownify_fragment(root: Tag) -> str:
             continue
         if tag.name == "code" and tag.parent and tag.parent.name == "pre":
             continue
+        if tag.name == "table":
+            complex_nodes.append(tag)
+            continue
         if looks_like_tab_container(tag):
             complex_nodes.append(tag)
             continue
@@ -3523,8 +4193,7 @@ def markdownify_fragment(root: Tag) -> str:
 
     html_text = str(fragment)
     markdown = md(html_text, heading_style="ATX", bullets="-", strong_em_symbol="*")
-    for token, replacement in placeholders.items():
-        markdown = markdown.replace(token, replacement)
+    markdown = replace_markdown_placeholders(markdown, placeholders)
     return postprocess_markdown(markdown)
 
 
@@ -3624,9 +4293,88 @@ def prefix_from_doc_link_clusters(entry_path: str, candidate_links: List[str]) -
     return clamp_prefix_to_version_scope(entry_path, best_prefix)
 
 
+
+def broad_docs_prefix_from_nav(entry_url: str, nav_root: Optional[Tag]) -> Optional[str]:
+    if nav_root is None or is_inside_global_chrome(nav_root):
+        return None
+    parts = urlsplit(entry_url)
+    urls: List[str] = []
+    for a in nav_root.select("a[href]"):
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith(("#", "javascript:", "mailto:", "tel:")):
+            continue
+        abs_url, _frag = split_and_normalize(entry_url, href)
+        target = urlsplit(abs_url)
+        if target.netloc != parts.netloc:
+            continue
+        if Path(target.path).suffix.lower() not in DOC_PAGE_EXTENSIONS:
+            continue
+        if query_looks_search_like(abs_url):
+            continue
+        if any(pattern.search(target.path) for pattern in SKIP_URL_PATTERNS):
+            continue
+        urls.append(abs_url)
+    unique = sorted(set(urls))
+    if len(unique) < 12:
+        return None
+    paths = [urlsplit(url).path for url in unique]
+    common = common_path_prefix(paths + [parts.path or "/"])
+    first_segments: Dict[str, int] = {}
+    for path in paths:
+        rel = path[len(common):].lstrip("/") if common != "/" and path.startswith(common) else path.lstrip("/")
+        first = rel.split("/", 1)[0]
+        if first:
+            first_segments[first] = first_segments.get(first, 0) + 1
+    if len(first_segments) < 2:
+        return None
+    largest = max(first_segments.values())
+    if largest / max(len(unique), 1) > 0.86:
+        return None
+    if common == "/":
+        return "/"
+    return ensure_trailing_slash(common)
+
+
+def apache_project_scope_prefix_from_entry_path(path: str, profile: str = "generic") -> Optional[str]:
+    """Return a tight per-project prefix for Apache Maven/Commons-style sites.
+
+    Apache Commons pages often live under /proper/<component>/ or
+    /dormant/<component>/, while the site navigation and sitemap contain many
+    sibling components.  If we let a broad nav/sidebar decide the prefix first,
+    a single commons-email entry can expand to commons-bcel, commons-codec, etc.
+    """
+    segs = [unquote(seg) for seg in (path or "/").strip("/").split("/") if seg]
+    if len(segs) >= 2 and segs[0].lower() in {"proper", "dormant", "sandbox"}:
+        return "/" + "/".join(segs[:2]) + "/"
+
+    # Maven-generated sites normally place project-info.html and generated
+    # reports in the project root.  For those pages, the safe scope is the
+    # directory that contains the entry page, not a broader nav/sitemap prefix.
+    leaf = segs[-1].lower() if segs else ""
+    maven_report_leaves = {
+        "project-info.html", "index.html", "summary.html",
+        "dependencies.html", "dependency-info.html", "dependency-management.html",
+        "dependency-convergence.html", "distribution-management.html",
+        "issue-management.html", "mail-lists.html", "plugin-management.html",
+        "plugins.html", "project-modules.html", "scm-usage.html",
+        "source-repository.html", "team-list.html", "license.html", "licenses.html",
+        "changes.html", "changes-report.html", "jira-changes.html", "rat-report.html",
+        "checkstyle.html", "pmd.html", "cpd.html", "spotbugs.html", "japicmp.html",
+    }
+    if profile == "maven" and (leaf in maven_report_leaves or leaf.endswith("-report.html")):
+        parent = posixpath.dirname(path or "/") or "/"
+        return ensure_trailing_slash(parent)
+
+    return None
+
 def guess_site_prefix(entry_url: str, soup: BeautifulSoup, profile: str = "generic") -> str:
     parts = urlsplit(entry_url)
     path = parts.path or "/"
+
+    tight_project_prefix = apache_project_scope_prefix_from_entry_path(path, profile=profile)
+    if tight_project_prefix:
+        return clamp_prefix_to_version_scope(path, tight_project_prefix)
+
     nav_root = select_nav_root(soup, parts.netloc, base_url=entry_url, profile=profile)
     content_root = select_content_root(soup, profile=profile)
 
@@ -3650,6 +4398,14 @@ def guess_site_prefix(entry_url: str, soup: BeautifulSoup, profile: str = "gener
 
    
    
+    broad_nav_prefix = broad_docs_prefix_from_nav(entry_url, nav_root)
+    path_segs_for_broad = [seg.lower() for seg in path.strip("/").split("/") if seg]
+    broad_prefix_allowed = profile != "maven" and not (
+        len(path_segs_for_broad) >= 2 and path_segs_for_broad[0] in {"proper", "dormant", "sandbox"}
+    )
+    if broad_nav_prefix and broad_prefix_allowed:
+        return clamp_prefix_to_version_scope(path, broad_nav_prefix)
+
     cluster_prefix = prefix_from_doc_link_clusters(path, candidate_links)
     if cluster_prefix and (profile == "generic" or path == "/" or path.endswith("/index.html")):
         return cluster_prefix
@@ -3775,14 +4531,32 @@ def extension_for_asset(final_url: str, content_type: Optional[str]) -> str:
     return ".bin"
 
 
+def normalize_target_url(raw: str) -> Optional[str]:
+    raw = (raw or "").strip()
+    if not raw or raw.startswith("#"):
+        return None
+    if not re.match(r"^[A-Za-z][A-Za-z0-9+.-]*://", raw):
+        if re.match(r"^[A-Za-z0-9.-]+\.[A-Za-z]{2,}(?:/|$)", raw):
+            raw = "https://" + raw
+        else:
+            return None
+    parts = urlsplit(raw)
+    if parts.scheme.lower() not in {"http", "https"} or not parts.netloc:
+        return None
+    return normalize_url(raw)
+
+
 def load_targets(targets_file: Optional[Path], urls: List[str]) -> List[str]:
-    out = [normalize_url(u) for u in urls if u.strip()]
+    out: List[str] = []
+    for raw in urls:
+        target = normalize_target_url(raw)
+        if target:
+            out.append(target)
     if targets_file is not None:
         for line in targets_file.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            out.append(normalize_url(line))
+            target = normalize_target_url(line)
+            if target:
+                out.append(target)
     return dedupe_preserve_order(out)
 
 
@@ -3871,6 +4645,7 @@ class UniversalDocsConverter:
         asset_concurrency: int = DEFAULT_ASSET_CONCURRENCY,
         skip_assets: bool = False,
         strict_version_scope: bool = True,
+        preferred_language: str = PREFERRED_LANGUAGE_DEFAULT,
     ) -> None:
         self.entry_url = normalize_url(entry_url)
         self.entry_parts = urlsplit(self.entry_url)
@@ -3894,6 +4669,7 @@ class UniversalDocsConverter:
         self.asset_concurrency = max(1, asset_concurrency)
         self.skip_assets = skip_assets
         self.strict_version_scope = strict_version_scope
+        self.preferred_language = preferred_language_key(preferred_language)
 
         self.session = build_session()
         self.rate_limiter = RateLimiter(delay)
@@ -3973,6 +4749,8 @@ class UniversalDocsConverter:
 
         print(f"profile    : {self.profile}")
         print(f"site prefix: {self.site_prefix}")
+        if self.preferred_language != "any":
+            print(f"language   : {self.preferred_language}")
         if self.version_scope_prefix or self.version_query_scope:
             print(f"version pin: {self.version_scope_prefix or '-'} {dict(self.version_query_scope) if self.version_query_scope else ''}")
         print(f"output dir : {self.site_dir}")
@@ -4006,12 +4784,11 @@ class UniversalDocsConverter:
 
         assert self.site_prefix is not None
         start_urls: List[Tuple[str, int]] = [(entry_final_url, 0)]
-        use_sitemap_seed = self.use_sitemap or self.profile in {"sphinx", "vitepress", "book"}
+        use_sitemap_seed = self.use_sitemap
         if use_sitemap_seed:
             sitemap_urls = self.discover_from_sitemap()
             if sitemap_urls:
-                mode = "manual" if self.use_sitemap else "auto"
-                print(f"sitemap seeds ({mode}): {len(sitemap_urls)}")
+                print(f"sitemap seeds: {len(sitemap_urls)}")
                 for url in sorted(sitemap_urls):
                     if url != entry_final_url:
                         start_urls.append((url, 0))
@@ -4160,6 +4937,9 @@ class UniversalDocsConverter:
             return None
 
         soup = BeautifulSoup(html_text, "html.parser")
+        if not soup_allowed_for_language(soup, self.preferred_language):
+            print(f"[skip] non-{self.preferred_language} page {final_url}")
+            return None
         profile = detect_profile(soup, final_url, hint=self.profile)
         content_root = select_content_root(soup, profile=profile)
         nav_root = select_nav_root(
@@ -4230,6 +5010,7 @@ class UniversalDocsConverter:
             profile=profile,
             follow_content_links=self.follow_content_links,
             current_url=final_url,
+            preferred_language=self.preferred_language,
         )
         return record, candidate_links
 
@@ -4378,6 +5159,8 @@ class UniversalDocsConverter:
             root = copy.copy(root)
             root = BeautifulSoup(str(root), "html.parser")
             content = root.find() or root
+            if isinstance(content, Tag):
+                content = unwrap_layout_table_content(content)
             if isinstance(content, Tag) and content.name in {"td", "th"}:
                 wrapper_soup = BeautifulSoup("<div></div>", "html.parser")
                 wrapper = wrapper_soup.div
@@ -4430,7 +5213,20 @@ class UniversalDocsConverter:
                 if tag is not root:
                     tag.decompose()
 
-        if getattr(root, "name", None) == "body" or root.select_one("#navcolumn, #leftColumn, .theme-doc-sidebar-container, .VPSidebar, .md-sidebar, .sphinxsidebar"):
+        replacement_root = unwrap_layout_table_content(root)
+        if replacement_root is not root:
+            root.clear()
+            for child in list(replacement_root.children):
+                root.append(copy.copy(child))
+
+        for text_node in list(root.find_all(string=re.compile(r"^\s*Improve this doc\s*$", re.I))):
+            parent = text_node.parent
+            if isinstance(parent, Tag) and parent.name == "a":
+                parent.decompose()
+            else:
+                text_node.extract()
+
+        if getattr(root, "name", None) == "body" or root.select_one("#navcolumn, #leftColumn, #left, #right, #toc, .toc, .theme-doc-sidebar-container, .VPSidebar, .md-sidebar, .sphinxsidebar"):
             nav_in_content = select_nav_root(
                 root,
                 current_domain=self.domain,
@@ -4602,8 +5398,7 @@ class UniversalDocsConverter:
             bullets="-",
             strong_em_symbol="*",
         )
-        for token, replacement in placeholders.items():
-            markdown = markdown.replace(token, replacement)
+        markdown = replace_markdown_placeholders(markdown, placeholders)
         root.clear()
         root.append(NavigableString(markdown))
 
@@ -4814,6 +5609,8 @@ class UniversalDocsConverter:
         parts = urlsplit(url)
         if parts.netloc != self.domain:
             return False
+        if not url_allowed_for_language(url, self.preferred_language):
+            return False
         if query_looks_search_like(url):
             return False
         if any(pattern.search(parts.path) for pattern in SKIP_URL_PATTERNS):
@@ -4951,6 +5748,8 @@ def build_arg_parser() -> argparse.ArgumentParser:
                         help="Download images/files from external hosts. Default: keep external URLs unchanged.")
     parser.add_argument("--loose-version-scope", action="store_true",
                         help="Allow crawling sibling documentation versions. Default: stay pinned to the entry URL's version.")
+    parser.add_argument("--language", default=PREFERRED_LANGUAGE_DEFAULT,
+                        help="Preferred documentation language. Default: en. Use 'any' to disable language filtering.")
     parser.add_argument("--cache-dir", type=Path, default=None,
                         help="HTTP cache directory (default: <out-dir>/.cache).")
     parser.add_argument("--no-cache", action="store_true", help="Disable the HTTP cache.")
@@ -4994,6 +5793,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             asset_concurrency=args.asset_concurrency,
             skip_assets=args.no_assets,
             strict_version_scope=not args.loose_version_scope,
+            preferred_language=args.language,
         )
         try:
             converter.run()
@@ -5006,4 +5806,3 @@ def main(argv: Optional[List[str]] = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
