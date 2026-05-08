@@ -275,6 +275,7 @@ SKIP_URL_PATTERNS = [
         r"/categor(?:y|ies)(?:/|\.html)?$",
         r"/blog(?:/|\.html?|$)",
         r"/news(?:/|\.html?|$)",
+        r"/[^/]*(?:release[-_]?notes?|releasenotes|change[-_]?log)[^/]*(?:/|\.html?|$)",
         r"/apidocs(?:/|\.html?|$)",
         r"/api-release(?:/|\.html?|$)",
         r"/testapidocs(?:/|\.html?|$)",
@@ -461,6 +462,21 @@ GENERIC_BAD_LINK_TEXT_RE = re.compile(
     r")\b",
     re.I,
 )
+
+RELEASE_NOTES_LINK_TEXT_RE = re.compile(
+    r"\b(?:"
+    r"release\s+notes?|release\s+history|changelog|change\s*log|"
+    r"all\s+releases?|download\b[^\n]{0,80}\breleases?"
+    r")\b",
+    re.I,
+)
+
+RELEASE_NOTE_PATH_TOKENS = {
+    "release-notes", "release_notes", "releasenotes",
+    "changelog", "change-log", "change_log", "changes",
+}
+
+RELEASE_SECTION_PATH_SEGMENTS = {"release", "releases"}
 
 GENERIC_SKIP_PATH_TOKENS = {
     "blog", "blogs", "news", "press", "releases", "release-notes",
@@ -2052,6 +2068,8 @@ def compute_nav_score(
             continue
         if query_looks_search_like(abs_url):
             continue
+        if should_skip_crawl_url(abs_url, link_text=link_visible_text(a)):
+            continue
         internal_links.append(abs_url)
         if url_path_in_prefix(abs_url, site_prefix):
             scoped_links.append(abs_url)
@@ -2166,6 +2184,8 @@ def nav_internal_doc_link_count(
             continue
         if query_looks_search_like(abs_url):
             continue
+        if should_skip_crawl_url(abs_url, link_text=link_visible_text(a)):
+            continue
         urls.add(abs_url)
     return len(urls)
 
@@ -2233,10 +2253,10 @@ def is_doc_link_hub(
             continue
         if query_looks_search_like(abs_url):
             continue
-        if any(pattern.search(parts.path) for pattern in SKIP_URL_PATTERNS):
+        text = link_visible_text(a)
+        if should_skip_crawl_url(abs_url, link_text=text):
             continue
         links.add(abs_url)
-        text = link_visible_text(a)
         tokens = path_token_set(parts.path)
         if GENERIC_DOC_LINK_TEXT_RE.search(text) or tokens & DOC_LIKE_KEYWORDS:
             docish += 1
@@ -2276,6 +2296,60 @@ def path_token_set(path: str) -> Set[str]:
     return tokens
 
 
+def path_stem_segments(path: str) -> List[str]:
+    segments: List[str] = []
+    for seg in path.strip("/").split("/"):
+        seg = unquote(seg).strip().lower()
+        if not seg:
+            continue
+        stem = Path(seg).stem if Path(seg).suffix else seg
+        if stem:
+            segments.append(stem)
+    return segments
+
+
+def is_release_notes_or_release_page(url: str, link_text: str = "") -> bool:
+    
+    if link_text and RELEASE_NOTES_LINK_TEXT_RE.search(clean_text(link_text)):
+        return True
+
+    try:
+        path = urlsplit(url).path or "/"
+    except Exception:
+        return False
+
+    segments = path_stem_segments(path)
+    tokens = path_token_set(path)
+
+    if RELEASE_NOTE_PATH_TOKENS & set(segments):
+        return True
+    if RELEASE_NOTE_PATH_TOKENS & tokens:
+        return True
+
+    release_section_indices = [
+        idx for idx, segment in enumerate(segments)
+        if segment in RELEASE_SECTION_PATH_SEGMENTS
+    ]
+    if not release_section_indices:
+        return False
+
+    docish_tokens = tokens & DOC_LIKE_KEYWORDS
+    if docish_tokens:
+        return False
+
+    return True
+
+
+def should_skip_crawl_url(url: str, link_text: str = "") -> bool:
+    try:
+        path = urlsplit(url).path or "/"
+    except Exception:
+        path = str(url or "")
+    if any(pattern.search(path) for pattern in SKIP_URL_PATTERNS):
+        return True
+    return is_release_notes_or_release_page(url, link_text=link_text)
+
+
 def is_same_or_child_section(candidate_path: str, current_path: str, site_prefix: str) -> bool:
     if candidate_path == current_path:
         return False
@@ -2311,7 +2385,7 @@ def generic_content_link_score(
     tokens = path_token_set(path)
     rel = path[len(site_prefix):].lstrip("/") if path.startswith(site_prefix) else path.lstrip("/")
 
-    if any(pattern.search(path) for pattern in SKIP_URL_PATTERNS):
+    if should_skip_crawl_url(abs_url, link_text=link_text):
         return -9999
     if tokens & GENERIC_SKIP_PATH_TOKENS:
         return -9999
@@ -3281,11 +3355,11 @@ def extract_crawl_links(
                 continue
             if query_looks_search_like(abs_url):
                 continue
-            if any(pattern.search(parts.path) for pattern in SKIP_URL_PATTERNS):
+            text = link_visible_text(a)
+            if should_skip_crawl_url(abs_url, link_text=text):
                 continue
 
             if source == "content" and profile == "generic":
-                text = link_visible_text(a)
                 if not should_follow_generic_content_link(
                     abs_url,
                     link_text=text,
@@ -3314,7 +3388,7 @@ def extract_crawl_links(
             continue
         if query_looks_search_like(abs_url):
             continue
-        if any(pattern.search(parts.path) for pattern in SKIP_URL_PATTERNS):
+        if should_skip_crawl_url(abs_url):
             continue
         if abs_url in seen:
             continue
@@ -4311,7 +4385,7 @@ def broad_docs_prefix_from_nav(entry_url: str, nav_root: Optional[Tag]) -> Optio
             continue
         if query_looks_search_like(abs_url):
             continue
-        if any(pattern.search(target.path) for pattern in SKIP_URL_PATTERNS):
+        if should_skip_crawl_url(abs_url, link_text=link_visible_text(a)):
             continue
         urls.append(abs_url)
     unique = sorted(set(urls))
@@ -4393,6 +4467,8 @@ def guess_site_prefix(entry_url: str, soup: BeautifulSoup, profile: str = "gener
             if ext not in DOC_PAGE_EXTENSIONS:
                 continue
             if query_looks_search_like(abs_url):
+                continue
+            if should_skip_crawl_url(abs_url, link_text=link_visible_text(a)):
                 continue
             candidate_links.append(abs_url)
 
@@ -5613,7 +5689,7 @@ class UniversalDocsConverter:
             return False
         if query_looks_search_like(url):
             return False
-        if any(pattern.search(parts.path) for pattern in SKIP_URL_PATTERNS):
+        if should_skip_crawl_url(url):
             return False
         ext = Path(parts.path).suffix.lower()
         if ext not in DOC_PAGE_EXTENSIONS:
