@@ -350,6 +350,68 @@ DOC_LIKE_KEYWORDS = {
     "handbook", "cookbook",
 }
 
+# Release pages almost never contain the project documentation itself.  They are
+# especially noisy on Apache sites, where a docs page sidebar can contain an
+# entire release archive.  Keep explicitly doc-like paths under releases/ so
+# projects that publish versioned docs as /releases/<version>/docs/... still work.
+RELEASE_SKIP_SEGMENTS = {
+    "release", "releases", "release-notes", "release-notes.html",
+    "releasenotes", "changelog", "changelogs", "changes", "all-releases",
+}
+
+RELEASE_LINK_TEXT_RE = re.compile(
+    r"(?:^|\b)(?:release\s+notes?|all\s+releases?|download\s+.*releases?|"
+    r"changelog|changes)(?:\b|$)",
+    re.I,
+)
+
+
+
+def _normalized_path_segments(path: str) -> List[str]:
+    segments: List[str] = []
+    for raw in (path or "").split("/"):
+        seg = unquote(raw).strip().lower()
+        if not seg:
+            continue
+        segments.append(seg)
+    return segments
+
+
+def _segment_docish(seg: str) -> bool:
+    stem = Path(seg).stem.lower() if Path(seg).suffix else seg.lower()
+    if stem in DOC_LIKE_KEYWORDS:
+        return True
+    return any(token in stem for token in ("doc", "manual", "guide", "tutorial", "reference"))
+
+
+def path_has_docish_tail_after_release(path: str) -> bool:
+    segments = _normalized_path_segments(path)
+    for index, seg in enumerate(segments):
+        stem = Path(seg).stem.lower() if Path(seg).suffix else seg
+        if seg in RELEASE_SKIP_SEGMENTS or stem in RELEASE_SKIP_SEGMENTS:
+            return any(_segment_docish(tail) for tail in segments[index + 1:])
+    return False
+
+
+def should_skip_crawl_url(url: str, link_text: str = "") -> bool:
+    try:
+        parts = urlsplit(url)
+    except Exception:
+        return False
+    path = parts.path or "/"
+    segments = _normalized_path_segments(path)
+    stems = {Path(seg).stem.lower() if Path(seg).suffix else seg for seg in segments}
+    text = re.sub(r"\s+", " ", link_text or "").strip()
+
+    release_text = bool(RELEASE_LINK_TEXT_RE.search(text))
+    release_path = bool(stems & RELEASE_SKIP_SEGMENTS or set(segments) & RELEASE_SKIP_SEGMENTS)
+    if not release_text and not release_path:
+        return False
+
+    if path_has_docish_tail_after_release(path):
+        return False
+    return True
+
 
 
 TRACKING_QUERY_PARAMS = {
@@ -547,6 +609,7 @@ class PageRecord:
     virtual_path: Optional[Path] = None
     page_anchor: Optional[str] = None
     markdown_body: str = ""
+    heading_nav: List["NavNode"] = field(default_factory=list)
     profile: str = "generic"
     content_score: int = 0
     depth: int = 0
@@ -2070,6 +2133,8 @@ def compute_nav_score(
             continue
         if should_skip_crawl_url(abs_url, link_text=link_visible_text(a)):
             continue
+        if should_skip_crawl_url(abs_url, link_visible_text(a)):
+            continue
         internal_links.append(abs_url)
         if url_path_in_prefix(abs_url, site_prefix):
             scoped_links.append(abs_url)
@@ -2185,6 +2250,8 @@ def nav_internal_doc_link_count(
         if query_looks_search_like(abs_url):
             continue
         if should_skip_crawl_url(abs_url, link_text=link_visible_text(a)):
+            continue
+        if should_skip_crawl_url(abs_url, link_visible_text(a)):
             continue
         urls.add(abs_url)
     return len(urls)
@@ -2386,6 +2453,8 @@ def generic_content_link_score(
     rel = path[len(site_prefix):].lstrip("/") if path.startswith(site_prefix) else path.lstrip("/")
 
     if should_skip_crawl_url(abs_url, link_text=link_text):
+        return -9999
+    if should_skip_crawl_url(abs_url, link_text):
         return -9999
     if tokens & GENERIC_SKIP_PATH_TOKENS:
         return -9999
@@ -3390,6 +3459,8 @@ def extract_crawl_links(
             continue
         if should_skip_crawl_url(abs_url):
             continue
+        if should_skip_crawl_url(abs_url):
+            continue
         if abs_url in seen:
             continue
         seen.add(abs_url)
@@ -4387,6 +4458,8 @@ def broad_docs_prefix_from_nav(entry_url: str, nav_root: Optional[Tag]) -> Optio
             continue
         if should_skip_crawl_url(abs_url, link_text=link_visible_text(a)):
             continue
+        if should_skip_crawl_url(abs_url, link_visible_text(a)):
+            continue
         urls.append(abs_url)
     unique = sorted(set(urls))
     if len(unique) < 12:
@@ -4469,6 +4542,8 @@ def guess_site_prefix(entry_url: str, soup: BeautifulSoup, profile: str = "gener
             if query_looks_search_like(abs_url):
                 continue
             if should_skip_crawl_url(abs_url, link_text=link_visible_text(a)):
+                continue
+            if should_skip_crawl_url(abs_url, link_visible_text(a)):
                 continue
             candidate_links.append(abs_url)
 
@@ -4694,6 +4769,505 @@ def build_url_tree(
     return root.children
 
 
+# ---- Navigation recovery helpers -------------------------------------------------
+
+def docusaurus_version_segment_from_path(path: str, site_prefix: Optional[str] = None) -> str:
+    candidates: List[str] = []
+    for source in [site_prefix or "", path or ""]:
+        segs = [unquote(seg) for seg in source.strip("/").split("/") if seg]
+        for idx, seg in enumerate(segs):
+            low = seg.lower()
+            if low in {"docs", "doc", "documentation"} and idx + 1 < len(segs):
+                nxt = segs[idx + 1]
+                if looks_versionish(nxt):
+                    candidates.append(nxt)
+        for seg in segs[:4]:
+            if looks_versionish(seg):
+                candidates.append(seg)
+    return candidates[0] if candidates else ""
+
+
+def docusaurus_docs_base_prefix(
+    entry_path: str,
+    site_prefix: Optional[str],
+    version_scope_prefix: Optional[str] = None,
+) -> str:
+    if version_scope_prefix:
+        return ensure_trailing_slash(version_scope_prefix)
+    if site_prefix:
+        return ensure_trailing_slash(site_prefix)
+    segs = [unquote(seg) for seg in (entry_path or "/").strip("/").split("/") if seg]
+    for idx, seg in enumerate(segs):
+        if seg.lower() in {"docs", "doc", "documentation"}:
+            upto = idx + 1
+            if idx + 1 < len(segs) and looks_versionish(segs[idx + 1]):
+                upto += 1
+            return "/" + "/".join(segs[:upto]) + "/"
+    return "/"
+
+
+def humanize_doc_id(doc_id: str) -> str:
+    leaf = unquote(str(doc_id or "").strip("/").rsplit("/", 1)[-1])
+    leaf = re.sub(r"\.(?:mdx?|html?)$", "", leaf, flags=re.I)
+    leaf = leaf.replace("_", "-")
+    leaf = re.sub(r"[-]+", " ", leaf)
+    return clean_nav_title_value(leaf).title() or "Page"
+
+
+def strip_docusaurus_doc_extension(doc_id: str) -> str:
+    doc_id = str(doc_id or "").strip().strip("/")
+    doc_id = re.sub(r"\.(?:mdx?|html?)$", "", doc_id, flags=re.I)
+    return doc_id
+
+
+def docusaurus_doc_id_to_url(entry_url: str, docs_base_prefix: str, doc_id: str) -> Optional[str]:
+    doc_id = strip_docusaurus_doc_extension(doc_id)
+    if not doc_id or doc_id in {".", "index"}:
+        rel_path = ensure_trailing_slash(docs_base_prefix)
+    else:
+        rel_path = ensure_trailing_slash(docs_base_prefix) + doc_id.strip("/") + "/"
+    parts = urlsplit(entry_url)
+    return normalize_url(urlunsplit(SplitResult(
+        scheme=parts.scheme,
+        netloc=parts.netloc,
+        path=rel_path,
+        query="",
+        fragment="",
+    )))
+
+
+def rewrite_unversioned_docusaurus_docs_href(path: str, docs_base_prefix: str) -> str:
+    docs_base_prefix = ensure_trailing_slash(docs_base_prefix or "/")
+    if docs_base_prefix == "/":
+        return path
+    base_parts = [part for part in docs_base_prefix.strip("/").split("/") if part]
+    if len(base_parts) < 2 or not looks_versionish(base_parts[-1]):
+        return path
+    docs_root = "/" + "/".join(base_parts[:-1]) + "/"
+    if not path.startswith(docs_root) or path.startswith(docs_base_prefix):
+        return path
+    rel = path[len(docs_root):].lstrip("/")
+    first = rel.split("/", 1)[0] if rel else ""
+    if first and looks_versionish(first):
+        return path
+    return docs_base_prefix + rel
+
+
+def docusaurus_href_to_url(entry_url: str, docs_base_prefix: str, href: str) -> Optional[str]:
+    href = str(href or "").strip()
+    if not href or href.startswith(("#", "javascript:", "mailto:", "tel:")):
+        return None
+    if href.startswith("pathname://"):
+        href = href.replace("pathname://", "", 1)
+    abs_url, _frag = split_and_normalize(entry_url, href)
+    parts = urlsplit(abs_url)
+    entry_parts = urlsplit(entry_url)
+    if parts.netloc != entry_parts.netloc:
+        return None
+    path = rewrite_unversioned_docusaurus_docs_href(parts.path or "/", docs_base_prefix)
+    rewritten = urlunsplit(SplitResult(
+        scheme=parts.scheme,
+        netloc=parts.netloc,
+        path=path,
+        query=parts.query,
+        fragment="",
+    ))
+    rewritten = normalize_url(rewritten)
+    if should_skip_crawl_url(rewritten, href):
+        return None
+    return rewritten
+
+
+def remove_js_comments(text: str) -> str:
+    text = re.sub(r"/\*.*?\*/", "", text, flags=re.S)
+    text = re.sub(r"(?m)//.*$", "", text)
+    return text
+
+
+def maybe_json_from_javascript_object(text: str) -> str:
+    candidate = text.strip()
+    candidate = re.sub(r"^\s*(?:module\.exports\s*=|export\s+default)\s*", "", candidate)
+    candidate = re.sub(r";\s*$", "", candidate)
+    candidate = remove_js_comments(candidate)
+    candidate = re.sub(r"([{,]\s*)([A-Za-z_$][\w$-]*)(\s*:)", r'\1"\2"\3', candidate)
+    candidate = re.sub(r",(\s*[}\]])", r"\1", candidate)
+    return candidate
+
+
+def parse_sidebars_payload(text: str) -> Optional[object]:
+    text = (text or "").strip()
+    if not text:
+        return None
+    probe = text[:800].lower()
+    if "<html" in probe or "<!doctype" in probe:
+        return None
+    for candidate in [text, maybe_json_from_javascript_object(text)]:
+        try:
+            return json.loads(candidate)
+        except Exception:
+            pass
+    # Last-resort support for very small JS sidebars that only differ by single quotes.
+    candidate = maybe_json_from_javascript_object(text).replace("'", '"')
+    try:
+        return json.loads(candidate)
+    except Exception:
+        return None
+
+
+def github_raw_roots_from_soup(soup: BeautifulSoup) -> List[str]:
+    roots: List[str] = []
+    for a in soup.find_all("a", href=True):
+        href = str(a.get("href") or "").strip()
+        if "github.com" not in href:
+            continue
+        text = clean_text(a.get_text(" ", strip=True)).lower()
+        if not any(marker in href for marker in ("/edit/", "/blob/")) and "edit" not in text:
+            continue
+        match = re.search(r"https?://github\.com/([^/]+)/([^/]+)/(?:blob|edit)/([^/]+)/", href)
+        if not match:
+            continue
+        owner, repo, branch = match.groups()
+        repo = repo[:-4] if repo.endswith(".git") else repo
+        roots.append(f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/")
+    return dedupe_preserve_order(roots)
+
+
+def docusaurus_sidebar_candidate_urls(
+    entry_url: str,
+    soup: BeautifulSoup,
+    site_prefix: Optional[str],
+    version_scope_prefix: Optional[str],
+) -> List[str]:
+    parts = urlsplit(entry_url)
+    origin = f"{parts.scheme}://{parts.netloc}"
+    version = docusaurus_version_segment_from_path(parts.path or "/", site_prefix)
+    names: List[str] = []
+    if version:
+        safe_version = version.strip("/")
+        names.extend([
+            f"versioned_sidebars/version-{safe_version}-sidebars.json",
+            f"versioned_sidebars/version-{safe_version}-sidebars.js",
+            f"versioned_sidebars/{safe_version}-sidebars.json",
+            f"versioned_sidebars/{safe_version}.json",
+        ])
+    names.extend([
+        "sidebars.json",
+        "sidebars.js",
+        "sidebars.ts",
+        "_sidebars/sidebars.json",
+    ])
+
+    candidates: List[str] = []
+    # Some sites publish source-like metadata as static files; most do not, but
+    # trying them is cheap and safely ignored on 404/HTML responses.
+    for name in names:
+        candidates.append(normalize_url(origin + "/" + name))
+
+    # Docusaurus pages normally include an "Edit this page" link.  When they do,
+    # the sidebars file can often be read from the same repository/branch.
+    for raw_root in github_raw_roots_from_soup(soup):
+        for name in names:
+            candidates.append(normalize_url(raw_root + name))
+    return dedupe_preserve_order(candidates)
+
+
+def docusaurus_sidebar_item_to_nav(
+    item: object,
+    entry_url: str,
+    docs_base_prefix: str,
+) -> Optional[NavNode]:
+    if isinstance(item, str):
+        href = docusaurus_doc_id_to_url(entry_url, docs_base_prefix, item)
+        if not href or should_skip_crawl_url(href, item):
+            return None
+        return NavNode(title=humanize_doc_id(item), href=href, kind="link")
+
+    if not isinstance(item, dict):
+        return None
+
+    item_type = str(item.get("type") or "").lower()
+    label = clean_nav_title_value(str(item.get("label") or item.get("title") or ""))
+
+    if item_type in {"doc", "ref"} or (not item_type and item.get("id")):
+        doc_id = str(item.get("id") or item.get("docId") or "").strip()
+        if not doc_id:
+            return None
+        href = docusaurus_doc_id_to_url(entry_url, docs_base_prefix, doc_id)
+        if not href or should_skip_crawl_url(href, label or doc_id):
+            return None
+        return NavNode(title=label or humanize_doc_id(doc_id), href=href, kind="link")
+
+    if item_type == "link" or item.get("href") or item.get("to"):
+        href_value = str(item.get("href") or item.get("to") or "").strip()
+        href = docusaurus_href_to_url(entry_url, docs_base_prefix, href_value)
+        if not href or should_skip_crawl_url(href, label or href_value):
+            return None
+        return NavNode(title=label or humanize_doc_id(href_value), href=href, kind="link")
+
+    if item_type == "category" or item.get("items"):
+        children: List[NavNode] = []
+        for child in item.get("items") or []:
+            child_node = docusaurus_sidebar_item_to_nav(child, entry_url, docs_base_prefix)
+            if child_node is not None:
+                children.append(child_node)
+
+        href: Optional[str] = None
+        link = item.get("link")
+        if isinstance(link, dict):
+            link_type = str(link.get("type") or "").lower()
+            if link_type == "doc" or link.get("id"):
+                doc_id = str(link.get("id") or link.get("docId") or "").strip()
+                href = docusaurus_doc_id_to_url(entry_url, docs_base_prefix, doc_id) if doc_id else None
+            elif link.get("href") or link.get("to"):
+                href = docusaurus_href_to_url(entry_url, docs_base_prefix, str(link.get("href") or link.get("to") or ""))
+        elif isinstance(link, str):
+            href = docusaurus_href_to_url(entry_url, docs_base_prefix, link)
+
+        if href and should_skip_crawl_url(href, label):
+            href = None
+        if not label and href:
+            label = humanize_doc_id(urlsplit(href).path.rstrip("/").rsplit("/", 1)[-1])
+        if not label and children:
+            label = children[0].title
+        if not label and not children:
+            return None
+        return NavNode(title=label or "Section", href=href, children=dedupe_nav(children), kind="category")
+
+    return None
+
+
+def nav_from_docusaurus_sidebars_payload(
+    payload: object,
+    entry_url: str,
+    site_prefix: Optional[str],
+    version_scope_prefix: Optional[str],
+) -> List[NavNode]:
+    docs_base_prefix = docusaurus_docs_base_prefix(
+        urlsplit(entry_url).path or "/",
+        site_prefix,
+        version_scope_prefix,
+    )
+    sidebar_lists: List[Tuple[str, List[object]]] = []
+    if isinstance(payload, list):
+        sidebar_lists.append(("Docs", payload))
+    elif isinstance(payload, dict):
+        if isinstance(payload.get("docsSidebar"), list):
+            sidebar_lists.append(("Docs", payload["docsSidebar"]))
+        for key, value in payload.items():
+            if key == "docsSidebar":
+                continue
+            if isinstance(value, list):
+                sidebar_lists.append((str(key), value))
+    nodes: List[NavNode] = []
+    for key, items in sidebar_lists:
+        parsed = [
+            node for node in (
+                docusaurus_sidebar_item_to_nav(item, entry_url, docs_base_prefix)
+                for item in items
+            )
+            if node is not None
+        ]
+        parsed = dedupe_nav(parsed)
+        if not parsed:
+            continue
+        if len(sidebar_lists) == 1 or key.lower() in {"docs", "docssidebar", "tutorialsidebar"}:
+            merge_nav_lists(nodes, parsed)
+        else:
+            nodes.append(NavNode(title=clean_nav_title_value(key), children=parsed, kind="category"))
+    return dedupe_nav(nodes)
+
+
+def heading_fragment_candidates(heading: Tag) -> List[str]:
+    values: List[str] = []
+    for attr in ("id", "name"):
+        value = heading.get(attr)
+        if value:
+            values.append(str(value))
+    for anchor in heading.find_all("a", recursive=False):
+        for attr in ("id", "name"):
+            value = anchor.get(attr)
+            if value:
+                values.append(str(value))
+    prev = heading.previous_sibling
+    while isinstance(prev, NavigableString) and not clean_text(str(prev)):
+        prev = prev.previous_sibling
+    if isinstance(prev, Tag) and prev.name == "a":
+        for attr in ("id", "name"):
+            value = prev.get(attr)
+            if value:
+                values.append(str(value))
+    heading_text = clean_text(heading.get_text(" ", strip=True))
+    if heading_text:
+        values.append(heading_text)
+    return dedupe_preserve_order(values)
+
+
+def heading_is_inside_chrome(heading: Tag, root: Tag) -> bool:
+    current = heading.parent
+    while isinstance(current, Tag) and current is not root:
+        if current.name in {"nav", "aside", "header", "footer"}:
+            return True
+        sig = tag_attr_signature(current)
+        if TOC_CONTEXT_RE.search(sig) or SIDEBAR_CONTEXT_RE.search(sig):
+            return True
+        current = current.parent
+    return False
+
+
+def extract_heading_nav_from_content(root: Tag, current_url: str, max_relative_depth: int = 4) -> List[NavNode]:
+    nodes: List[NavNode] = []
+    stack: List[Tuple[int, NavNode]] = []
+    skipped_first_h1 = False
+    base_level: Optional[int] = None
+
+    for heading in root.find_all(re.compile(r"^h[1-6]$")):
+        if heading_is_inside_chrome(heading, root):
+            continue
+        title = clean_nav_title_value(heading.get_text(" ", strip=True))
+        if not title:
+            continue
+        try:
+            level = int(heading.name[1])
+        except Exception:
+            level = 2
+
+        if level == 1 and not skipped_first_h1:
+            skipped_first_h1 = True
+            continue
+        if base_level is None:
+            base_level = level
+        if level - base_level >= max_relative_depth:
+            continue
+
+        fragments = heading_fragment_candidates(heading)
+        fragment = fragments[0] if fragments else title
+        node = NavNode(title=title, href=url_with_fragment(current_url, fragment), kind="link")
+        while stack and stack[-1][0] >= level:
+            stack.pop()
+        if stack:
+            parent = stack[-1][1]
+            parent.kind = "category"
+            parent.children.append(node)
+        else:
+            nodes.append(node)
+        stack.append((level, node))
+
+    return dedupe_nav(nodes)
+
+
+def flattened_nav_link_count(nodes: List[NavNode]) -> int:
+    return len(flatten_nav_urls(nodes))
+
+
+def nav_looks_like_single_page_shell(nodes: List[NavNode], page_urls: Set[str]) -> bool:
+    if not nodes:
+        return True
+    links = {nav_href_base(href) for href in flatten_nav_urls(nodes)}
+    links = {href for href in links if href}
+    if not links:
+        return True
+    if links and links.issubset(page_urls) and len(links) <= 2 and nav_max_depth(nodes) <= 3:
+        return True
+    return False
+
+
+def nav_category_keyword_set(title: str) -> Set[str]:
+    text = slugify_anchor(title)
+    tokens = {part for part in re.split(r"[-_]+", text) if part}
+    stop = {"apache", "pulsar", "ozone", "docs", "doc", "guide", "guides", "and", "the", "for", "api"}
+    tokens = {token for token in tokens if token not in stop and len(token) > 1}
+    phrases = {text}
+    if text.startswith("pulsar-"):
+        phrases.add(text[len("pulsar-"):])
+    if text.endswith("-guide"):
+        phrases.add(text[:-len("-guide")])
+    aliases = {
+        "get-started": {"getting-started", "quick-start", "quickstart", "standalone", "docker"},
+        "concepts-and-architecture": {"concepts", "architecture"},
+        "functions": {"functions", "window-functions"},
+        "io": {"io"},
+        "tiered-storage": {"tiered-storage"},
+        "transactions": {"transactions", "txn"},
+        "deployment": {"deploy", "deployment", "helm", "install"},
+        "administration": {"administration"},
+        "observability": {"observability", "metrics", "monitoring"},
+        "security": {"security"},
+        "performance": {"performance"},
+        "client-libraries": {"client", "client-libraries"},
+        "admin-api": {"admin-api"},
+        "adaptors": {"adaptors", "adapter", "adaptor"},
+        "tutorials": {"tutorials", "tutorial", "cookbooks", "cookbook", "how-to"},
+        "development": {"develop", "developers", "development"},
+        "reference": {"reference", "configuration", "terminology", "cli"},
+    }
+    for phrase in list(phrases):
+        tokens.update(aliases.get(phrase, set()))
+    tokens.update(phrases)
+    return {token for token in tokens if token}
+
+
+def page_slug_for_grouping(url: str, site_prefix: Optional[str]) -> str:
+    path = urlsplit(url).path or "/"
+    rel = path[len(site_prefix):] if site_prefix and path.startswith(site_prefix) else path.strip("/")
+    rel = rel.strip("/")
+    if not rel or rel.endswith("/"):
+        stem = rel.strip("/").rsplit("/", 1)[-1] if rel else "index"
+    else:
+        leaf = rel.rsplit("/", 1)[-1]
+        stem = Path(leaf).stem if Path(leaf).suffix else leaf
+    return slugify_anchor(stem)
+
+
+def best_category_for_page(nodes: List[NavNode], url: str, title: str, site_prefix: Optional[str]) -> Optional[NavNode]:
+    page_slug = page_slug_for_grouping(url, site_prefix)
+    title_slug = slugify_anchor(title)
+    page_tokens = {part for part in re.split(r"[-_]+", page_slug + "-" + title_slug) if part}
+    best_node: Optional[NavNode] = None
+    best_score = 0
+
+    def visit(node: NavNode, depth: int = 0) -> None:
+        nonlocal best_node, best_score
+        keywords = nav_category_keyword_set(node.title)
+        if keywords:
+            score = 0
+            for key in keywords:
+                if not key:
+                    continue
+                key = slugify_anchor(key)
+                if page_slug == key or page_slug.startswith(key + "-"):
+                    score = max(score, 120 + depth * 8)
+                elif key in page_tokens:
+                    score = max(score, 45 + depth * 8)
+                elif key and key in page_slug and len(key) >= 5:
+                    score = max(score, 35 + depth * 8)
+            if score > best_score:
+                best_score = score
+                best_node = node
+        for child in node.children:
+            if child.children or not child.href:
+                visit(child, depth + 1)
+
+    for node in nodes:
+        visit(node, 0)
+    return best_node if best_score >= 50 else None
+
+
+def repair_combined_markdown_layout(text: str) -> str:
+    protected, placeholders = protect_fenced_code_blocks(text)
+    protected = re.sub(r"(?m)^(# [^\n#]{1,180})\s+## Navigation\b", r"\1\n\n## Navigation", protected)
+    protected = re.sub(r"(?m)(## Navigation)\s+(-\s+)", r"\1\n\n\2", protected)
+
+    nav_match = re.search(r"(?s)(## Navigation\s*)(.*?)(\n## Content\b|\Z)", protected)
+    if nav_match:
+        nav_body = nav_match.group(2)
+        nav_body = re.sub(r"(?<!\n)\s+-\s+(?=(?:\[[^\]]+\]\(|[A-Za-z0-9]))", "\n- ", nav_body)
+        nav_body = re.sub(r"\n{3,}", "\n\n", nav_body).strip("\n")
+        replacement = "## Navigation\n\n" + nav_body + nav_match.group(3)
+        protected = protected[:nav_match.start()] + replacement + protected[nav_match.end():]
+    protected = re.sub(r"(?m)(\S)\s+(## Content\b)", r"\1\n\n\2", protected)
+    return restore_placeholders(protected, placeholders)
+
+
 
 class UniversalDocsConverter:
     def __init__(
@@ -4775,6 +5349,8 @@ class UniversalDocsConverter:
         self.pages: Dict[str, PageRecord] = {}
         self.nav_tree: List[NavNode] = []
         self.nav_snapshots: List[List[NavNode]] = []
+        self.sidebar_nav_tree: List[NavNode] = []
+        self.seed_urls: Set[str] = set()
         self.site_prefix: Optional[str] = None
         self.site_slug: Optional[str] = None
         self.site_dir: Optional[Path] = None
@@ -4814,6 +5390,10 @@ class UniversalDocsConverter:
                     urlsplit(entry_final_url).path,
                     self.site_prefix,
                 )
+
+        if self.profile == "docusaurus":
+            self.discover_docusaurus_sidebars(entry_soup, entry_final_url)
+
         self.site_slug = build_site_slug(entry_final_url, self.site_prefix)
         self.site_dir = self.out_root / self.site_slug
         self.combined_output_path = self.site_dir / self.combined_filename
@@ -4853,6 +5433,54 @@ class UniversalDocsConverter:
                 self.browser_pool.close()
         print(f"done: {len(self.pages)} pages, {len(self.asset_cache)} assets")
 
+
+    def discover_docusaurus_sidebars(self, entry_soup: BeautifulSoup, entry_final_url: str) -> None:
+        assert self.site_prefix is not None
+        candidates = docusaurus_sidebar_candidate_urls(
+            entry_final_url,
+            entry_soup,
+            self.site_prefix,
+            self.version_scope_prefix,
+        )
+        best_nodes: List[NavNode] = []
+        best_url = ""
+        best_score = -10**9
+
+        for sidebar_url in candidates:
+            try:
+                result = self.fetcher.fetch_text(sidebar_url)
+            except Exception:
+                continue
+            payload = parse_sidebars_payload(result.text)
+            if payload is None:
+                continue
+            nodes = nav_from_docusaurus_sidebars_payload(
+                payload,
+                entry_final_url,
+                self.site_prefix,
+                self.version_scope_prefix,
+            )
+            if not nodes:
+                continue
+            score = nav_tree_quality(nodes, site_prefix=self.site_prefix, domain=self.domain)
+            score += flattened_nav_link_count(nodes) * 10
+            if score > best_score:
+                best_score = score
+                best_nodes = nodes
+                best_url = sidebar_url
+
+        if not best_nodes:
+            return
+
+        self.sidebar_nav_tree = cleanup_nav_tree(best_nodes)
+        self.seed_urls.update(
+            url for url in flatten_nav_urls(self.sidebar_nav_tree)
+            if urlsplit(url).netloc == self.domain and self.is_allowed_page(url)
+        )
+        self.nav_snapshots.append(copy.deepcopy(self.sidebar_nav_tree))
+        print(f"sidebar    : {flattened_nav_link_count(self.sidebar_nav_tree)} links from {best_url}")
+
+
    
     def crawl(self, entry_html: str, entry_final_url: str) -> None:
 
@@ -4860,6 +5488,11 @@ class UniversalDocsConverter:
 
         assert self.site_prefix is not None
         start_urls: List[Tuple[str, int]] = [(entry_final_url, 0)]
+        if self.seed_urls:
+            seeds = [url for url in sorted(self.seed_urls) if url != entry_final_url and self.is_allowed_page(url)]
+            if seeds:
+                print(f"sidebar seeds: {len(seeds)}")
+                start_urls.extend((url, 0) for url in seeds)
         use_sitemap_seed = self.use_sitemap
         if use_sitemap_seed:
             sitemap_urls = self.discover_from_sitemap()
@@ -5246,6 +5879,8 @@ class UniversalDocsConverter:
                 content = wrapper
 
             assert record.page_anchor is not None
+            if isinstance(content, Tag):
+                record.heading_nav = extract_heading_nav_from_content(content, url)
             self.prepare_content(
                 content,
                 current_url=url,
@@ -5335,6 +5970,19 @@ class UniversalDocsConverter:
                 value = heading.get(attr)
                 if value:
                     raw_ids.append(str(value))
+            for anchor in heading.find_all("a", recursive=False):
+                for attr in ("id", "name"):
+                    value = anchor.get(attr)
+                    if value:
+                        raw_ids.append(str(value))
+            prev = heading.previous_sibling
+            while isinstance(prev, NavigableString) and not clean_text(str(prev)):
+                prev = prev.previous_sibling
+            if isinstance(prev, Tag) and prev.name == "a":
+                for attr in ("id", "name"):
+                    value = prev.get(attr)
+                    if value:
+                        raw_ids.append(str(value))
             for a in list(heading.select("a.hash-link, a.headerlink")):
                 a.decompose()
             heading_text = clean_text(heading.get_text(" ", strip=True))
@@ -5529,10 +6177,52 @@ class UniversalDocsConverter:
                 return direct
         return probe
 
+    def hydrate_nav_titles_from_pages(self, nodes: List[NavNode]) -> List[NavNode]:
+        hydrated = copy.deepcopy(nodes)
+
+        def visit(node: NavNode) -> None:
+            base = nav_href_base(node.href)
+            canon = self.canonicalize_page_url(base) if base else None
+            if canon in self.pages:
+                record = self.pages[canon]
+                current_key = slugify_anchor(node.title)
+                page_key = page_slug_for_grouping(canon, self.site_prefix)
+                if not node.children or current_key == page_key or current_key in {"index", "page"}:
+                    node.title = record.title
+            for child in node.children:
+                visit(child)
+
+        for node in hydrated:
+            visit(node)
+        return hydrated
+
+    def single_page_outline_nav(self) -> List[NavNode]:
+        if len(self.pages) != 1:
+            return []
+        url, record = next(iter(self.pages.items()))
+        if not record.heading_nav:
+            return []
+        return [NavNode(
+            title=record.title,
+            href=url,
+            children=copy.deepcopy(record.heading_nav),
+            kind="category",
+        )]
+
+    def attach_missing_pages_to_nav(self, nav: List[NavNode], missing_urls: List[str]) -> List[str]:
+        remaining: List[str] = []
+        for url in missing_urls:
+            record = self.pages[url]
+            target = best_category_for_page(nav, url, record.title, self.site_prefix)
+            if target is None:
+                remaining.append(url)
+                continue
+            target.kind = "category"
+            merge_nav_lists(target.children, [NavNode(title=record.title, href=url, kind="link")])
+        return remaining
+
     def effective_nav_tree(self) -> List[NavNode]:
-       
-       
-       
+        page_url_set = set(self.pages.keys())
         nav = merged_nav_from_snapshots(
             self.nav_snapshots,
             site_prefix=self.site_prefix,
@@ -5541,9 +6231,14 @@ class UniversalDocsConverter:
         if not nav:
             nav = copy.deepcopy(self.nav_tree)
 
-       
-        nav = filter_nav_to_known_urls(nav, set(self.pages.keys()), self.url_alias_to_canonical)
+        nav = filter_nav_to_known_urls(nav, page_url_set, self.url_alias_to_canonical)
         nav = cleanup_nav_tree(nav)
+        nav = self.hydrate_nav_titles_from_pages(nav)
+
+        outline_nav = self.single_page_outline_nav()
+        if outline_nav and nav_looks_like_single_page_shell(nav, page_url_set):
+            return outline_nav
+
         if not nav:
             nav = build_url_tree(self.pages, self.url_to_virtual_path)
 
@@ -5553,13 +6248,17 @@ class UniversalDocsConverter:
             if self.canonicalize_page_url(url) not in nav_urls
         ]
         if missing_urls:
-           
             missing_urls.sort(key=lambda u: self.url_to_virtual_path[u].as_posix())
+            missing_urls = self.attach_missing_pages_to_nav(nav, missing_urls)
+
+        if missing_urls:
             other_children = [
                 NavNode(title=self.pages[url].title, href=url, kind="link")
                 for url in missing_urls
             ]
             nav.append(NavNode(title="Other pages", children=other_children, kind="category"))
+
+        nav = cleanup_nav_tree(nav)
         return nav
 
     def ordered_page_urls_from_nav(self, nav: List[NavNode]) -> List[str]:
