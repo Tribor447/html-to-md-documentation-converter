@@ -1,0 +1,425 @@
+{
+  "entry_url": "https://guacamole.apache.org/doc/gug/",
+  "site_prefix": "/doc/gug/",
+  "site_slug": "guacamole_doc_gug",
+  "profile": "sphinx",
+  "combined_markdown": "combined.md",
+  "page_count": 46,
+  "asset_count": 70,
+  "pages": [
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/adhoc-connections.html",
+      "title": "Creating ad-hoc connections",
+      "anchor": "adhoc-connections",
+      "virtual_path": "docs/adhoc-connections.md",
+      "profile": "sphinx",
+      "score": 17979,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/administration.html",
+      "title": "Guacamole’s administrative interface",
+      "anchor": "administration",
+      "virtual_path": "docs/administration.md",
+      "profile": "sphinx",
+      "score": 25625,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/auth-ban.html",
+      "title": "Securing Guacamole against brute-force attacks",
+      "anchor": "auth-ban",
+      "virtual_path": "docs/auth-ban.md",
+      "profile": "sphinx",
+      "score": 15890,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/auth-restrict.html",
+      "title": "Enforcing advanced login and connection restrictions",
+      "anchor": "auth-restrict",
+      "virtual_path": "docs/auth-restrict.md",
+      "profile": "sphinx",
+      "score": 30308,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/batch-import.html",
+      "title": "Importing connections from CSV, JSON, or YAML",
+      "anchor": "batch-import",
+      "virtual_path": "docs/batch-import.md",
+      "profile": "sphinx",
+      "score": 11228,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/cas-auth.html",
+      "title": "Using CAS for single sign-on",
+      "anchor": "cas-auth",
+      "virtual_path": "docs/cas-auth.md",
+      "profile": "sphinx",
+      "score": 25295,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/configuring-guacamole.html",
+      "title": "Configuring Guacamole",
+      "anchor": "configuring-guacamole",
+      "virtual_path": "docs/configuring-guacamole.md",
+      "profile": "sphinx",
+      "score": 207723,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/custom-auth.html",
+      "title": "Custom authentication",
+      "anchor": "custom-auth",
+      "virtual_path": "docs/custom-auth.md",
+      "profile": "sphinx",
+      "score": 25019,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/custom-protocols.html",
+      "title": "Adding new protocols",
+      "anchor": "custom-protocols",
+      "virtual_path": "docs/custom-protocols.md",
+      "profile": "sphinx",
+      "score": 37523,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/duo-auth.html",
+      "title": "Using Duo for multi-factor authentication",
+      "anchor": "duo-auth",
+      "virtual_path": "docs/duo-auth.md",
+      "profile": "sphinx",
+      "score": 29268,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/event-listeners.html",
+      "title": "Event listeners",
+      "anchor": "event-listeners",
+      "virtual_path": "docs/event-listeners.md",
+      "profile": "sphinx",
+      "score": 21172,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/external-auth.html",
+      "title": "External authentication",
+      "anchor": "external-auth",
+      "virtual_path": "docs/external-auth.md",
+      "profile": "sphinx",
+      "score": 4964,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/guacamole-architecture.html",
+      "title": "Implementation and architecture",
+      "anchor": "guacamole-architecture",
+      "virtual_path": "docs/guacamole-architecture.md",
+      "profile": "sphinx",
+      "score": 12925,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/guacamole-common-js.html",
+      "title": "guacamole-common-js",
+      "anchor": "guacamole-common-js",
+      "virtual_path": "docs/guacamole-common-js.md",
+      "profile": "sphinx",
+      "score": 26324,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/guacamole-common.html",
+      "title": "guacamole-common",
+      "anchor": "guacamole-common",
+      "virtual_path": "docs/guacamole-common.md",
+      "profile": "sphinx",
+      "score": 11801,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/guacamole-docker.html",
+      "title": "Installing Guacamole with Docker",
+      "anchor": "guacamole-docker",
+      "virtual_path": "docs/guacamole-docker.md",
+      "profile": "sphinx",
+      "score": 22082,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/guacamole-ext.html",
+      "title": "guacamole-ext",
+      "anchor": "guacamole-ext",
+      "virtual_path": "docs/guacamole-ext.md",
+      "profile": "sphinx",
+      "score": 46920,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/guacamole-native.html",
+      "title": "Installing Guacamole natively",
+      "anchor": "guacamole-native",
+      "virtual_path": "docs/guacamole-native.md",
+      "profile": "sphinx",
+      "score": 49916,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/guacamole-protocol.html",
+      "title": "The Guacamole protocol",
+      "anchor": "guacamole-protocol",
+      "virtual_path": "docs/guacamole-protocol.md",
+      "profile": "sphinx",
+      "score": 29619,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/header-auth.html",
+      "title": "HTTP header authentication",
+      "anchor": "header-auth",
+      "virtual_path": "docs/header-auth.md",
+      "profile": "sphinx",
+      "score": 13596,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/",
+      "title": "Apache Guacamole Manual",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "sphinx",
+      "score": 4453,
+      "depth": 0
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/installing-guacamole.html",
+      "title": "Installing Guacamole",
+      "anchor": "installing-guacamole",
+      "virtual_path": "docs/installing-guacamole.md",
+      "profile": "sphinx",
+      "score": 4677,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/introduction.html",
+      "title": "Introduction",
+      "anchor": "introduction",
+      "virtual_path": "docs/introduction.md",
+      "profile": "sphinx",
+      "score": 13895,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/jdbc-auth-schema.html",
+      "title": "Database schema reference",
+      "anchor": "jdbc-auth-schema",
+      "virtual_path": "docs/jdbc-auth-schema.md",
+      "profile": "sphinx",
+      "score": 52746,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/jdbc-auth.html",
+      "title": "Database authentication",
+      "anchor": "jdbc-auth",
+      "virtual_path": "docs/jdbc-auth.md",
+      "profile": "sphinx",
+      "score": 5321,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/json-auth.html",
+      "title": "Encrypted JSON authentication",
+      "anchor": "json-auth",
+      "virtual_path": "docs/json-auth.md",
+      "profile": "sphinx",
+      "score": 29626,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/ldap-auth.html",
+      "title": "LDAP authentication",
+      "anchor": "ldap-auth",
+      "virtual_path": "docs/ldap-auth.md",
+      "profile": "sphinx",
+      "score": 68750,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/libguac.html",
+      "title": "libguac",
+      "anchor": "libguac",
+      "virtual_path": "docs/libguac.md",
+      "profile": "sphinx",
+      "score": 28249,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/mfa.html",
+      "title": "Multi-factor authentication",
+      "anchor": "mfa",
+      "virtual_path": "docs/mfa.md",
+      "profile": "sphinx",
+      "score": 3866,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/mysql-auth.html",
+      "title": "Database setup for MariaDB / MySQL",
+      "anchor": "mysql-auth",
+      "virtual_path": "docs/mysql-auth.md",
+      "profile": "sphinx",
+      "score": 63034,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/openid-auth.html",
+      "title": "Using OpenID Connect for single sign-on",
+      "anchor": "openid-auth",
+      "virtual_path": "docs/openid-auth.md",
+      "profile": "sphinx",
+      "score": 29464,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/postgresql-auth.html",
+      "title": "Database setup for PostgreSQL",
+      "anchor": "postgresql-auth",
+      "virtual_path": "docs/postgresql-auth.md",
+      "profile": "sphinx",
+      "score": 62578,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/protocol-reference.html",
+      "title": "Guacamole protocol reference",
+      "anchor": "protocol-reference",
+      "virtual_path": "docs/protocol-reference.md",
+      "profile": "sphinx",
+      "score": 62472,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/radius-auth.html",
+      "title": "RADIUS authentication",
+      "anchor": "radius-auth",
+      "virtual_path": "docs/radius-auth.md",
+      "profile": "sphinx",
+      "score": 21178,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/recording-playback.html",
+      "title": "Viewing session recordings in-browser",
+      "anchor": "recording-playback",
+      "virtual_path": "docs/recording-playback.md",
+      "profile": "sphinx",
+      "score": 25672,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/reverse-proxy.html",
+      "title": "Using a reverse proxy for SSL termination",
+      "anchor": "reverse-proxy",
+      "virtual_path": "docs/reverse-proxy.md",
+      "profile": "sphinx",
+      "score": 28920,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/saml-auth.html",
+      "title": "Using SAML for single sign-on",
+      "anchor": "saml-auth",
+      "virtual_path": "docs/saml-auth.md",
+      "profile": "sphinx",
+      "score": 24100,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/security.html",
+      "title": "Securing a Guacamole install",
+      "anchor": "security",
+      "virtual_path": "docs/security.md",
+      "profile": "sphinx",
+      "score": 4421,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/sqlserver-auth.html",
+      "title": "Database setup for SQL Server",
+      "anchor": "sqlserver-auth",
+      "virtual_path": "docs/sqlserver-auth.md",
+      "profile": "sphinx",
+      "score": 53066,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/ssl-auth.html",
+      "title": "Signing in with smart cards or certificates",
+      "anchor": "ssl-auth",
+      "virtual_path": "docs/ssl-auth.md",
+      "profile": "sphinx",
+      "score": 37614,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/sso.html",
+      "title": "Authenticating with Guacamole using single sign-on",
+      "anchor": "sso",
+      "virtual_path": "docs/sso.md",
+      "profile": "sphinx",
+      "score": 4325,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/totp-auth.html",
+      "title": "Using TOTP for multi-factor authentication",
+      "anchor": "totp-auth",
+      "virtual_path": "docs/totp-auth.md",
+      "profile": "sphinx",
+      "score": 28001,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/troubleshooting.html",
+      "title": "Troubleshooting",
+      "anchor": "troubleshooting",
+      "virtual_path": "docs/troubleshooting.md",
+      "profile": "sphinx",
+      "score": 55552,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/using-guacamole.html",
+      "title": "Guacamole’s user interface",
+      "anchor": "using-guacamole",
+      "virtual_path": "docs/using-guacamole.md",
+      "profile": "sphinx",
+      "score": 39266,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/vault.html",
+      "title": "Retrieving secrets from a vault",
+      "anchor": "vault",
+      "virtual_path": "docs/vault.md",
+      "profile": "sphinx",
+      "score": 42121,
+      "depth": 1
+    },
+    {
+      "source_url": "https://guacamole.apache.org/doc/gug/writing-you-own-guacamole-app.html",
+      "title": "Writing your own Guacamole application",
+      "anchor": "writing-you-own-guacamole-app",
+      "virtual_path": "docs/writing-you-own-guacamole-app.md",
+      "profile": "sphinx",
+      "score": 31493,
+      "depth": 1
+    }
+  ]
+}

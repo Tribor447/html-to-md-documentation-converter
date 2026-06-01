@@ -1,0 +1,247 @@
+[
+  {
+    "title": "Tutorial Outline",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Participant",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_participant.html",
+        "anchor": "tutorial_participant",
+        "virtual_path": "docs/tutorial_participant.md"
+      },
+      {
+        "title": "Spectator",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_spectator.html",
+        "anchor": "tutorial_spectator",
+        "virtual_path": "docs/tutorial_spectator.md"
+      },
+      {
+        "title": "Controller",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_controller.html",
+        "anchor": "tutorial_controller",
+        "virtual_path": "docs/tutorial_controller.md"
+      },
+      {
+        "title": "Rebalancing Algorithms",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_rebalance.html",
+        "anchor": "tutorial_rebalance",
+        "virtual_path": "docs/tutorial_rebalance.md"
+      },
+      {
+        "title": "User-Defined Rebalancing",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_user_def_rebalancer.html",
+        "anchor": "tutorial_user_def_rebalancer",
+        "virtual_path": "docs/tutorial_user_def_rebalancer.md"
+      },
+      {
+        "title": "State Machines",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_state.html",
+        "anchor": "tutorial_state",
+        "virtual_path": "docs/tutorial_state.md"
+      },
+      {
+        "title": "Messaging",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_messaging.html",
+        "anchor": "tutorial_messaging",
+        "virtual_path": "docs/tutorial_messaging.md"
+      },
+      {
+        "title": "Customized health check",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_health.html",
+        "anchor": "tutorial_health",
+        "virtual_path": "docs/tutorial_health.md"
+      },
+      {
+        "title": "Throttling",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_throttling.html",
+        "anchor": "tutorial_throttling",
+        "virtual_path": "docs/tutorial_throttling.md"
+      },
+      {
+        "title": "Application Property Store",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_propstore.html",
+        "anchor": "tutorial_propstore",
+        "virtual_path": "docs/tutorial_propstore.md"
+      },
+      {
+        "title": "Admin Interface",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_admin.html",
+        "anchor": "tutorial_admin",
+        "virtual_path": "docs/tutorial_admin.md"
+      },
+      {
+        "title": "YAML Cluster Setup",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_yaml.html",
+        "anchor": "tutorial_yaml",
+        "virtual_path": "docs/tutorial_yaml.md"
+      },
+      {
+        "title": "Helix Agent (for non-JVM systems)",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_agent.html",
+        "anchor": "tutorial_agent",
+        "virtual_path": "docs/tutorial_agent.md"
+      },
+      {
+        "title": "Task Framework",
+        "kind": "category",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_task_framework.html",
+        "anchor": "tutorial_task_framework",
+        "virtual_path": "docs/tutorial_task_framework.md",
+        "children": [
+          {
+            "title": "Task with User Defined Content Store",
+            "kind": "link",
+            "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_user_content_store.html",
+            "anchor": "tutorial_user_content_store",
+            "virtual_path": "docs/tutorial_user_content_store.md"
+          },
+          {
+            "title": "Task Throttling",
+            "kind": "link",
+            "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_task_throttling.html",
+            "anchor": "tutorial_task_throttling",
+            "virtual_path": "docs/tutorial_task_throttling.md"
+          },
+          {
+            "title": "Quota-based Scheduling",
+            "kind": "link",
+            "source_url": "https://helix.apache.org/1.4.3-docs/quota_scheduling.html",
+            "anchor": "quota_scheduling",
+            "virtual_path": "docs/quota_scheduling.md"
+          }
+        ]
+      },
+      {
+        "title": "Helix REST Service 2.0",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_rest_service.html",
+        "anchor": "tutorial_rest_service",
+        "virtual_path": "docs/tutorial_rest_service.md"
+      },
+      {
+        "title": "Helix UI Setup",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_ui.html",
+        "anchor": "tutorial_ui",
+        "virtual_path": "docs/tutorial_ui.md"
+      },
+      {
+        "title": "Helix Customized View",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_customized_view.html",
+        "anchor": "tutorial_customized_view",
+        "virtual_path": "docs/tutorial_customized_view.md"
+      },
+      {
+        "title": "Helix Cloud Support",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_cloud_support.html",
+        "anchor": "tutorial_cloud_support",
+        "virtual_path": "docs/tutorial_cloud_support.md"
+      },
+      {
+        "title": "Helix Distributed Lock",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/tutorial_distributed_lock.html",
+        "anchor": "tutorial_distributed_lock",
+        "virtual_path": "docs/tutorial_distributed_lock.md"
+      }
+    ]
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Apache Helix – Build Instructions",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/Building.html",
+        "anchor": "building",
+        "virtual_path": "docs/Building.md"
+      },
+      {
+        "title": "Apache Helix – Helix Monitoring Metrics",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/Metrics.html",
+        "anchor": "metrics",
+        "virtual_path": "docs/Metrics.md"
+      },
+      {
+        "title": "Apache Helix – Quickstart",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/Quickstart.html",
+        "anchor": "quickstart",
+        "virtual_path": "docs/Quickstart.md"
+      },
+      {
+        "title": "Helix Tutorial",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/Tutorial.html",
+        "anchor": "tutorial",
+        "virtual_path": "docs/Tutorial.md"
+      },
+      {
+        "title": "CrushED (Crush-based rebalancer with Even Distribution)",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/design_crushed.html",
+        "anchor": "design_crushed",
+        "virtual_path": "docs/design_crushed.md"
+      },
+      {
+        "title": "Apache Helix – Helix 1.4.3 Documentation",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "Apache Helix – Distributed Lock Manager",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/recipes/lock_manager.html",
+        "anchor": "recipes-lock_manager",
+        "virtual_path": "docs/recipes/lock_manager.md"
+      },
+      {
+        "title": "Apache Helix – RabbitMQ Consumer Group",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/recipes/rabbitmq_consumer_group.html",
+        "anchor": "recipes-rabbitmq_consumer_group",
+        "virtual_path": "docs/recipes/rabbitmq_consumer_group.md"
+      },
+      {
+        "title": "Apache Helix – Near-Realtime Rsync Replicated File System",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/recipes/rsync_replicated_file_store.html",
+        "anchor": "recipes-rsync_replicated_file_store",
+        "virtual_path": "docs/recipes/rsync_replicated_file_store.md"
+      },
+      {
+        "title": "Apache Helix – Service Discovery",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/recipes/service_discovery.html",
+        "anchor": "recipes-service_discovery",
+        "virtual_path": "docs/recipes/service_discovery.md"
+      },
+      {
+        "title": "Apache Helix – Distributed Task Execution",
+        "kind": "link",
+        "source_url": "https://helix.apache.org/1.4.3-docs/recipes/task_dag_execution.html",
+        "anchor": "recipes-task_dag_execution",
+        "virtual_path": "docs/recipes/task_dag_execution.md"
+      }
+    ]
+  }
+]

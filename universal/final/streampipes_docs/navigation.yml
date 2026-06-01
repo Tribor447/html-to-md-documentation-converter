@@ -1,0 +1,247 @@
+- title: 🚀 Try StreamPipes
+  kind: link
+  source_url: https://streampipes.apache.org/docs/user-guide-introduction/
+  anchor: user-guide-introduction
+  virtual_path: docs/user-guide-introduction/index.md
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://streampipes.apache.org/docs/user-guide-introduction/
+    anchor: user-guide-introduction
+    virtual_path: docs/user-guide-introduction/index.md
+  - title: Installation
+    kind: link
+    source_url: https://streampipes.apache.org/docs/try-installation/
+    anchor: try-installation
+    virtual_path: docs/try-installation/index.md
+- title: 💡 Concepts
+  kind: link
+  source_url: https://streampipes.apache.org/docs/introduction/
+  anchor: introduction
+  virtual_path: docs/introduction/index.md
+  children:
+  - title: Introduction
+    kind: link
+    source_url: https://streampipes.apache.org/docs/introduction/
+    anchor: introduction
+    virtual_path: docs/introduction/index.md
+  - title: Overview
+    kind: link
+    source_url: https://streampipes.apache.org/docs/concepts-overview/
+    anchor: concepts-overview
+    virtual_path: docs/concepts-overview/index.md
+- title: 🎓 Use StreamPipes
+  kind: link
+  source_url: https://streampipes.apache.org/docs/use-connect/
+  anchor: use-connect
+  virtual_path: docs/use-connect/index.md
+  children:
+  - title: StreamPipes Connect
+    kind: link
+    source_url: https://streampipes.apache.org/docs/use-connect/
+    anchor: use-connect
+    virtual_path: docs/use-connect/index.md
+  - title: Pipeline Editor
+    kind: link
+    source_url: https://streampipes.apache.org/docs/use-pipeline-editor/
+    anchor: use-pipeline-editor
+    virtual_path: docs/use-pipeline-editor/index.md
+  - title: Managing Pipelines
+    kind: link
+    source_url: https://streampipes.apache.org/docs/use-managing-pipelines/
+    anchor: use-managing-pipelines
+    virtual_path: docs/use-managing-pipelines/index.md
+  - title: Live Dashboard
+    kind: link
+    source_url: https://streampipes.apache.org/docs/use-dashboard/
+    anchor: use-dashboard
+    virtual_path: docs/use-dashboard/index.md
+  - title: Data Explorer
+    kind: link
+    source_url: https://streampipes.apache.org/docs/use-data-explorer/
+    anchor: use-data-explorer
+    virtual_path: docs/use-data-explorer/index.md
+  - title: Notifications
+    kind: link
+    source_url: https://streampipes.apache.org/docs/use-notifications/
+    anchor: use-notifications
+    virtual_path: docs/use-notifications/index.md
+  - title: Install Pipeline Elements
+    kind: link
+    source_url: https://streampipes.apache.org/docs/use-install-pipeline-elements/
+    anchor: use-install-pipeline-elements
+    virtual_path: docs/use-install-pipeline-elements/index.md
+  - title: Configurations
+    kind: link
+    source_url: https://streampipes.apache.org/docs/use-configurations/
+    anchor: use-configurations
+    virtual_path: docs/use-configurations/index.md
+  - title: Adapters as Code
+    kind: link
+    source_url: https://streampipes.apache.org/docs/use-programmatically-create-adapters/
+    anchor: use-programmatically-create-adapters
+    virtual_path: docs/use-programmatically-create-adapters/index.md
+  - title: Pipelines as Code
+    kind: link
+    source_url: https://streampipes.apache.org/docs/use-programmatically-create-pipelines/
+    anchor: use-programmatically-create-pipelines
+    virtual_path: docs/use-programmatically-create-pipelines/index.md
+- title: ⚡ Deploy StreamPipes
+  kind: link
+  source_url: https://streampipes.apache.org/docs/choosing-the-right-flavor/
+  anchor: choosing-the-right-flavor
+  virtual_path: docs/choosing-the-right-flavor/index.md
+  children:
+  - title: Service selection options
+    kind: link
+    source_url: https://streampipes.apache.org/docs/choosing-the-right-flavor/
+    anchor: choosing-the-right-flavor
+    virtual_path: docs/choosing-the-right-flavor/index.md
+  - title: Docker Deployment
+    kind: link
+    source_url: https://streampipes.apache.org/docs/deploy-docker/
+    anchor: deploy-docker
+    virtual_path: docs/deploy-docker/index.md
+  - title: Kubernetes Deployment
+    kind: link
+    source_url: https://streampipes.apache.org/docs/deploy-kubernetes/
+    anchor: deploy-kubernetes
+    virtual_path: docs/deploy-kubernetes/index.md
+  - title: Use SSL
+    kind: link
+    source_url: https://streampipes.apache.org/docs/deploy-use-ssl/
+    anchor: deploy-use-ssl
+    virtual_path: docs/deploy-use-ssl/index.md
+  - title: Security
+    kind: link
+    source_url: https://streampipes.apache.org/docs/deploy-security/
+    anchor: deploy-security
+    virtual_path: docs/deploy-security/index.md
+  - title: Environment Variables
+    kind: link
+    source_url: https://streampipes.apache.org/docs/deploy-environment-variables/
+    anchor: deploy-environment-variables
+    virtual_path: docs/deploy-environment-variables/index.md
+  - title: Enable Datalake Retention
+    kind: link
+    source_url: https://streampipes.apache.org/docs/deploy-retention-config/
+    anchor: deploy-retention-config
+    virtual_path: docs/deploy-retention-config/index.md
+- title: 💻 Customize StreamPipes
+  kind: category
+  source_url: https://streampipes.apache.org/docs/extend-setup/
+  anchor: extend-setup
+  virtual_path: docs/extend-setup/index.md
+  children:
+  - title: Development Setup
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-setup/
+    anchor: extend-setup
+    virtual_path: docs/extend-setup/index.md
+  - title: StreamPipes CLI
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-cli/
+    anchor: extend-cli
+    virtual_path: docs/extend-cli/index.md
+  - title: Maven Archetypes
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-archetypes/
+    anchor: extend-archetypes
+    virtual_path: docs/extend-archetypes/index.md
+  - title: Your first data processor
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-first-processor/
+    anchor: extend-first-processor
+    virtual_path: docs/extend-first-processor/index.md
+  - title: 'Tutorial: Adapters'
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-tutorial-adapters/
+    anchor: extend-tutorial-adapters
+    virtual_path: docs/extend-tutorial-adapters/index.md
+  - title: 'Tutorial: Data Processors'
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-tutorial-data-processors/
+    anchor: extend-tutorial-data-processors
+    virtual_path: docs/extend-tutorial-data-processors/index.md
+  - title: 'Tutorial: Data Sinks'
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-tutorial-data-sinks/
+    anchor: extend-tutorial-data-sinks
+    virtual_path: docs/extend-tutorial-data-sinks/index.md
+  - title: StreamPipes Client
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-client/
+    anchor: extend-client
+    virtual_path: docs/extend-client/index.md
+  - title: 'SDK: Functions'
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-sdk-functions/
+    anchor: extend-sdk-functions
+    virtual_path: docs/extend-sdk-functions/index.md
+  - title: 'SDK: Event Model'
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-sdk-event-model/
+    anchor: extend-sdk-event-model
+    virtual_path: docs/extend-sdk-event-model/index.md
+  - title: 'SDK: PE Migration'
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-sdk-migration/
+    anchor: extend-sdk-migration
+    virtual_path: docs/extend-sdk-migration/index.md
+  - title: 'SDK: Stream Requirements'
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-sdk-stream-requirements/
+    anchor: extend-sdk-stream-requirements
+    virtual_path: docs/extend-sdk-stream-requirements/index.md
+  - title: 'SDK: Static Properties'
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-sdk-static-properties/
+    anchor: extend-sdk-static-properties
+    virtual_path: docs/extend-sdk-static-properties/index.md
+  - title: 'SDK: Output Strategies'
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-sdk-output-strategies/
+    anchor: extend-sdk-output-strategies
+    virtual_path: docs/extend-sdk-output-strategies/index.md
+  - title: UI customization
+    kind: link
+    source_url: https://streampipes.apache.org/docs/extend-customize-ui/
+    anchor: extend-customize-ui
+    virtual_path: docs/extend-customize-ui/index.md
+- title: 🔧 Technicals
+  kind: link
+  source_url: https://streampipes.apache.org/docs/technicals-architecture/
+  anchor: technicals-architecture
+  virtual_path: docs/technicals-architecture/index.md
+  children:
+  - title: Architecture
+    kind: link
+    source_url: https://streampipes.apache.org/docs/technicals-architecture/
+    anchor: technicals-architecture
+    virtual_path: docs/technicals-architecture/index.md
+  - title: Runtime Wrappers
+    kind: link
+    source_url: https://streampipes.apache.org/docs/technicals-runtime-wrappers/
+    anchor: technicals-runtime-wrappers
+    virtual_path: docs/technicals-runtime-wrappers/index.md
+  - title: Messaging
+    kind: link
+    source_url: https://streampipes.apache.org/docs/technicals-messaging/
+    anchor: technicals-messaging
+    virtual_path: docs/technicals-messaging/index.md
+- title: 👪 Community
+  kind: link
+  source_url: https://streampipes.apache.org/docs/community-get-help/
+  anchor: community-get-help
+  virtual_path: docs/community-get-help/index.md
+  children:
+  - title: Get Help
+    kind: link
+    source_url: https://streampipes.apache.org/docs/community-get-help/
+    anchor: community-get-help
+    virtual_path: docs/community-get-help/index.md
+  - title: Contribute
+    kind: link
+    source_url: https://streampipes.apache.org/docs/community-contribute/
+    anchor: community-contribute
+    virtual_path: docs/community-contribute/index.md

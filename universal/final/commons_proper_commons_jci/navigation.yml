@@ -1,0 +1,57 @@
+- title: Apache Commons JCI
+  kind: category
+  children:
+  - title: About
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-jci/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Usage
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-jci/usage.html
+    anchor: usage
+    virtual_path: docs/usage.md
+  - title: FAQ
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-jci/faq.html
+    anchor: faq
+    virtual_path: docs/faq.md
+  - title: Issue Tracking
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-jci/issue-tracking.html
+    anchor: issue-tracking
+    virtual_path: docs/issue-tracking.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-jci/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: category
+      source_url: https://commons.apache.org/proper/commons-jci/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Issue Tracking
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-jci/issue-tracking.html
+      anchor: issue-tracking
+      virtual_path: docs/issue-tracking.md
+    - title: Continuous Integration
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-jci/integration.html
+      anchor: integration
+      virtual_path: docs/integration.md
+    - title: Project Modules
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-jci/modules.html
+      anchor: modules
+      virtual_path: docs/modules.md
+    - title: Project Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-jci/project-summary.html
+      anchor: project-summary
+      virtual_path: docs/project-summary.md

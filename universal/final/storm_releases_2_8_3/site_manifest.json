@@ -1,0 +1,560 @@
+{
+  "entry_url": "https://storm.apache.org/releases/2.8.3/index.html",
+  "site_prefix": "/releases/2.8.3/",
+  "site_slug": "storm_releases_2_8_3",
+  "profile": "generic",
+  "combined_markdown": "combined.md",
+  "page_count": 61,
+  "asset_count": 40,
+  "pages": [
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Acking-framework-implementation.html",
+      "title": "Acking framework implementation",
+      "anchor": "acking-framework-implementation",
+      "virtual_path": "docs/Acking-framework-implementation.md",
+      "profile": "generic",
+      "score": 5308,
+      "depth": 2
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Classpath-handling.html",
+      "title": "Classpath Handling",
+      "anchor": "classpath-handling",
+      "virtual_path": "docs/Classpath-handling.md",
+      "profile": "generic",
+      "score": 7653,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/ClusterMetrics.html",
+      "title": "Cluster Metrics",
+      "anchor": "clustermetrics",
+      "virtual_path": "docs/ClusterMetrics.md",
+      "profile": "generic",
+      "score": 27699,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Command-line-client.html",
+      "title": "Command Line Client",
+      "anchor": "command-line-client",
+      "virtual_path": "docs/Command-line-client.md",
+      "profile": "generic",
+      "score": 33478,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Common-patterns.html",
+      "title": "Common Topology Patterns",
+      "anchor": "common-patterns",
+      "virtual_path": "docs/Common-patterns.md",
+      "profile": "generic",
+      "score": 10443,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Concepts.html",
+      "title": "Concepts",
+      "anchor": "concepts",
+      "virtual_path": "docs/Concepts.md",
+      "profile": "generic",
+      "score": 15753,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Configuration.html",
+      "title": "Bolts, Spouts, and Plugins",
+      "anchor": "configuration",
+      "virtual_path": "docs/Configuration.md",
+      "profile": "generic",
+      "score": 5191,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/DSLs-and-multilang-adapters.html",
+      "title": "Storm DSLs and Multi-Lang Adapters",
+      "anchor": "dsls-and-multilang-adapters",
+      "virtual_path": "docs/DSLs-and-multilang-adapters.md",
+      "profile": "generic",
+      "score": 1049,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Daemon-Fault-Tolerance.html",
+      "title": "Daemon Fault Tolerance",
+      "anchor": "daemon-fault-tolerance",
+      "virtual_path": "docs/Daemon-Fault-Tolerance.md",
+      "profile": "generic",
+      "score": 5022,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Defining-a-non-jvm-language-dsl-for-storm.html",
+      "title": "Defining a Non-JVM DSL for Storm",
+      "anchor": "defining-a-non-jvm-language-dsl-for-storm",
+      "virtual_path": "docs/Defining-a-non-jvm-language-dsl-for-storm.md",
+      "profile": "generic",
+      "score": 4082,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Distributed-RPC.html",
+      "title": "Distributed RPC",
+      "anchor": "distributed-rpc",
+      "virtual_path": "docs/Distributed-RPC.md",
+      "profile": "generic",
+      "score": 19474,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Eventlogging.html",
+      "title": "Introduction",
+      "anchor": "eventlogging",
+      "virtual_path": "docs/Eventlogging.md",
+      "profile": "generic",
+      "score": 10039,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/FAQ.html",
+      "title": "FAQ",
+      "anchor": "faq",
+      "virtual_path": "docs/FAQ.md",
+      "profile": "generic",
+      "score": 19541,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Generic-resources.html",
+      "title": "Generic Resources",
+      "anchor": "generic-resources",
+      "virtual_path": "docs/Generic-resources.md",
+      "profile": "generic",
+      "score": 3893,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Guaranteeing-message-processing.html",
+      "title": "Guaranteeing Message Processing",
+      "anchor": "guaranteeing-message-processing",
+      "virtual_path": "docs/Guaranteeing-message-processing.md",
+      "profile": "generic",
+      "score": 22743,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Hooks.html",
+      "title": "Hooks",
+      "anchor": "hooks",
+      "virtual_path": "docs/Hooks.md",
+      "profile": "generic",
+      "score": 4837,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Implementation-docs.html",
+      "title": "Storm Internal Implementation",
+      "anchor": "implementation-docs",
+      "virtual_path": "docs/Implementation-docs.md",
+      "profile": "generic",
+      "score": 1193,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Joins.html",
+      "title": "Joining Streams in Storm Core",
+      "anchor": "joins",
+      "virtual_path": "docs/Joins.md",
+      "profile": "generic",
+      "score": 12462,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Lifecycle-of-a-topology.html",
+      "title": "Lifecycle of a Storm Topology",
+      "anchor": "lifecycle-of-a-topology",
+      "virtual_path": "docs/Lifecycle-of-a-topology.md",
+      "profile": "generic",
+      "score": 10637,
+      "depth": 2
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Local-mode.html",
+      "title": "Local Mode",
+      "anchor": "local-mode",
+      "virtual_path": "docs/Local-mode.md",
+      "profile": "generic",
+      "score": 9836,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Logs.html",
+      "title": "Storm Logs",
+      "anchor": "logs",
+      "virtual_path": "docs/Logs.md",
+      "profile": "generic",
+      "score": 4491,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Maven.html",
+      "title": "Maven",
+      "anchor": "maven",
+      "virtual_path": "docs/Maven.md",
+      "profile": "generic",
+      "score": 2458,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Message-passing-implementation.html",
+      "title": "Message Passing Implementation",
+      "anchor": "message-passing-implementation",
+      "virtual_path": "docs/Message-passing-implementation.md",
+      "profile": "generic",
+      "score": 3908,
+      "depth": 2
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Metrics.html",
+      "title": "Storm Metrics",
+      "anchor": "metrics",
+      "virtual_path": "docs/Metrics.md",
+      "profile": "generic",
+      "score": 34280,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Multilang-protocol.html",
+      "title": "Storm Multi-Language Protocol",
+      "anchor": "multilang-protocol",
+      "virtual_path": "docs/Multilang-protocol.md",
+      "profile": "generic",
+      "score": 20918,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Pacemaker.html",
+      "title": "Pacemaker",
+      "anchor": "pacemaker",
+      "virtual_path": "docs/Pacemaker.md",
+      "profile": "generic",
+      "score": 10562,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Resource_Aware_Scheduler_overview.html",
+      "title": "Version: 2.8.3",
+      "anchor": "resource_aware_scheduler_overview",
+      "virtual_path": "docs/Resource_Aware_Scheduler_overview.md",
+      "profile": "generic",
+      "score": 46050,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Running-topologies-on-a-production-cluster.html",
+      "title": "Running Topologies on a Production Cluster",
+      "anchor": "running-topologies-on-a-production-cluster",
+      "virtual_path": "docs/Running-topologies-on-a-production-cluster.md",
+      "profile": "generic",
+      "score": 9181,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/SECURITY.html",
+      "title": "Running Apache Storm Securely",
+      "anchor": "security",
+      "virtual_path": "docs/SECURITY.md",
+      "profile": "generic",
+      "score": 53182,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/STORM-UI-REST-API.html",
+      "title": "Data format",
+      "anchor": "storm-ui-rest-api",
+      "virtual_path": "docs/STORM-UI-REST-API.md",
+      "profile": "generic",
+      "score": 74109,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Serialization.html",
+      "title": "Serialization",
+      "anchor": "serialization",
+      "virtual_path": "docs/Serialization.md",
+      "profile": "generic",
+      "score": 10695,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Setting-up-a-Storm-cluster.html",
+      "title": "Setting up a Storm Cluster",
+      "anchor": "setting-up-a-storm-cluster",
+      "virtual_path": "docs/Setting-up-a-Storm-cluster.md",
+      "profile": "generic",
+      "score": 15694,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/State-checkpointing.html",
+      "title": "State support in core storm",
+      "anchor": "state-checkpointing",
+      "virtual_path": "docs/State-checkpointing.md",
+      "profile": "generic",
+      "score": 22177,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Storm-Scheduler.html",
+      "title": "Scheduler",
+      "anchor": "storm-scheduler",
+      "virtual_path": "docs/Storm-Scheduler.md",
+      "profile": "generic",
+      "score": 4641,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Stream-API.html",
+      "title": "Concepts",
+      "anchor": "stream-api",
+      "virtual_path": "docs/Stream-API.md",
+      "profile": "generic",
+      "score": 39687,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Structure-of-the-codebase.html",
+      "title": "Structure of the Codebase",
+      "anchor": "structure-of-the-codebase",
+      "virtual_path": "docs/Structure-of-the-codebase.md",
+      "profile": "generic",
+      "score": 15625,
+      "depth": 2
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Trident-API-Overview.html",
+      "title": "Trident API Overview",
+      "anchor": "trident-api-overview",
+      "virtual_path": "docs/Trident-API-Overview.md",
+      "profile": "generic",
+      "score": 42999,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Trident-RAS-API.html",
+      "title": "Trident RAS API",
+      "anchor": "trident-ras-api",
+      "virtual_path": "docs/Trident-RAS-API.md",
+      "profile": "generic",
+      "score": 4986,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Trident-spouts.html",
+      "title": "Trident spouts",
+      "anchor": "trident-spouts",
+      "virtual_path": "docs/Trident-spouts.md",
+      "profile": "generic",
+      "score": 5977,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Trident-state.html",
+      "title": "Trident State",
+      "anchor": "trident-state",
+      "virtual_path": "docs/Trident-state.md",
+      "profile": "generic",
+      "score": 31133,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Trident-tutorial.html",
+      "title": "Trident Tutorial",
+      "anchor": "trident-tutorial",
+      "virtual_path": "docs/Trident-tutorial.md",
+      "profile": "generic",
+      "score": 29542,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Troubleshooting.html",
+      "title": "Troubleshooting",
+      "anchor": "troubleshooting",
+      "virtual_path": "docs/Troubleshooting.md",
+      "profile": "generic",
+      "score": 11945,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Tutorial.html",
+      "title": "Tutorial",
+      "anchor": "tutorial",
+      "virtual_path": "docs/Tutorial.md",
+      "profile": "generic",
+      "score": 29807,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Understanding-the-parallelism-of-a-Storm-topology.html",
+      "title": "Understanding the Parallelism of a Storm Topology",
+      "anchor": "understanding-the-parallelism-of-a-storm-topology",
+      "virtual_path": "docs/Understanding-the-parallelism-of-a-Storm-topology.md",
+      "profile": "generic",
+      "score": 11320,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Using-non-JVM-languages-with-Storm.html",
+      "title": "Using non JVM languages with Storm",
+      "anchor": "using-non-jvm-languages-with-storm",
+      "virtual_path": "docs/Using-non-JVM-languages-with-Storm.md",
+      "profile": "generic",
+      "score": 5508,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/Windowing.html",
+      "title": "Windowing Support in Core Storm",
+      "anchor": "windowing",
+      "virtual_path": "docs/Windowing.md",
+      "profile": "generic",
+      "score": 25688,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/cgroups_in_storm.html",
+      "title": "CGroups in Storm",
+      "anchor": "cgroups_in_storm",
+      "virtual_path": "docs/cgroups_in_storm.md",
+      "profile": "generic",
+      "score": 19655,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/distcache-blobstore.html",
+      "title": "Storm Distributed Cache API",
+      "anchor": "distcache-blobstore",
+      "virtual_path": "docs/distcache-blobstore.md",
+      "profile": "generic",
+      "score": 59786,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/dynamic-log-level-settings.html",
+      "title": "Dynamic Log Level Settings",
+      "anchor": "dynamic-log-level-settings",
+      "virtual_path": "docs/dynamic-log-level-settings.md",
+      "profile": "generic",
+      "score": 4724,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/dynamic-worker-profiling.html",
+      "title": "Dynamic Worker Profiling",
+      "anchor": "dynamic-worker-profiling",
+      "virtual_path": "docs/dynamic-worker-profiling.md",
+      "profile": "generic",
+      "score": 4706,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/flux.html",
+      "title": "Existing Topologies",
+      "anchor": "flux",
+      "virtual_path": "docs/flux.md",
+      "profile": "generic",
+      "score": 50772,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/index.html",
+      "title": "Documentation",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "generic",
+      "score": 5979,
+      "depth": 0
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/metrics_v2.html",
+      "title": "Metrics Reporting API v2",
+      "anchor": "metrics_v2",
+      "virtual_path": "docs/metrics_v2.md",
+      "profile": "generic",
+      "score": 12411,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/nimbus-ha-design.html",
+      "title": "Highly Available Nimbus Design",
+      "anchor": "nimbus-ha-design",
+      "virtual_path": "docs/nimbus-ha-design.md",
+      "profile": "generic",
+      "score": 17041,
+      "depth": 2
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/storm-hdfs.html",
+      "title": "HDFS Bolt",
+      "anchor": "storm-hdfs",
+      "virtual_path": "docs/storm-hdfs.md",
+      "profile": "generic",
+      "score": 42566,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/storm-jdbc.html",
+      "title": "Storm JDBC Integration",
+      "anchor": "storm-jdbc",
+      "virtual_path": "docs/storm-jdbc.md",
+      "profile": "generic",
+      "score": 25075,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/storm-jms.html",
+      "title": "Storm JMS Integration",
+      "anchor": "storm-jms",
+      "virtual_path": "docs/storm-jms.md",
+      "profile": "generic",
+      "score": 3965,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/storm-kafka-client.html",
+      "title": "Storm Apache Kafka integration using the kafka-client jar",
+      "anchor": "storm-kafka-client",
+      "virtual_path": "docs/storm-kafka-client.md",
+      "profile": "generic",
+      "score": 34193,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/storm-metricstore.html",
+      "title": "Storm Metricstore",
+      "anchor": "storm-metricstore",
+      "virtual_path": "docs/storm-metricstore.md",
+      "profile": "generic",
+      "score": 5886,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/storm-redis.html",
+      "title": "Storm Redis Integration",
+      "anchor": "storm-redis",
+      "virtual_path": "docs/storm-redis.md",
+      "profile": "generic",
+      "score": 14345,
+      "depth": 1
+    },
+    {
+      "source_url": "https://storm.apache.org/releases/2.8.3/windows-users-guide.html",
+      "title": "Windows Users Guide",
+      "anchor": "windows-users-guide",
+      "virtual_path": "docs/windows-users-guide.md",
+      "profile": "generic",
+      "score": 4019,
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,1063 @@
+[
+  {
+    "title": "Settings file structure",
+    "kind": "category",
+    "children": [
+      {
+        "title": "property",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/property.html",
+        "anchor": "settings-property",
+        "virtual_path": "docs/settings/property.md"
+      },
+      {
+        "title": "properties",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/properties.html",
+        "anchor": "settings-properties",
+        "virtual_path": "docs/settings/properties.md"
+      },
+      {
+        "title": "settings",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/settings.html",
+        "anchor": "settings-settings",
+        "virtual_path": "docs/settings/settings.md"
+      },
+      {
+        "title": "include",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/include.html",
+        "anchor": "settings-include",
+        "virtual_path": "docs/settings/include.md"
+      },
+      {
+        "title": "classpath",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/classpath.html",
+        "anchor": "settings-classpath",
+        "virtual_path": "docs/settings/classpath.md"
+      },
+      {
+        "title": "typedef",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/typedef.html",
+        "anchor": "settings-typedef",
+        "virtual_path": "docs/settings/typedef.md"
+      },
+      {
+        "title": "credentials",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/credentials.html",
+        "anchor": "settings-credentials",
+        "virtual_path": "docs/settings/credentials.md"
+      },
+      {
+        "title": "signers",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/signers.html",
+        "anchor": "settings-signers",
+        "virtual_path": "docs/settings/signers.md"
+      },
+      {
+        "title": "lock-strategies",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/lock-strategies.html",
+        "anchor": "settings-lock-strategies",
+        "virtual_path": "docs/settings/lock-strategies.md"
+      },
+      {
+        "title": "caches",
+        "kind": "category",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/caches.html",
+        "anchor": "settings-caches",
+        "virtual_path": "docs/settings/caches.md",
+        "children": [
+          {
+            "title": "cache",
+            "kind": "link",
+            "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/caches/cache.html",
+            "anchor": "settings-caches-cache",
+            "virtual_path": "docs/settings/caches/cache.md"
+          }
+        ]
+      },
+      {
+        "title": "latest-strategies",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/latest-strategies.html",
+        "anchor": "settings-latest-strategies",
+        "virtual_path": "docs/settings/latest-strategies.md"
+      },
+      {
+        "title": "parsers",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/parsers.html",
+        "anchor": "settings-parsers",
+        "virtual_path": "docs/settings/parsers.md"
+      },
+      {
+        "title": "namespaces",
+        "kind": "category",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/namespaces.html",
+        "anchor": "settings-namespaces",
+        "virtual_path": "docs/settings/namespaces.md",
+        "children": [
+          {
+            "title": "namespace",
+            "kind": "category",
+            "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/namespace.html",
+            "anchor": "settings-namespace",
+            "virtual_path": "docs/settings/namespace.md",
+            "children": [
+              {
+                "title": "rule",
+                "kind": "category",
+                "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/namespace/rule.html",
+                "anchor": "settings-namespace-rule",
+                "virtual_path": "docs/settings/namespace/rule.md",
+                "children": [
+                  {
+                    "title": "fromsystem",
+                    "kind": "category",
+                    "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/namespace/fromtosystem.html",
+                    "anchor": "settings-namespace-fromtosystem",
+                    "virtual_path": "docs/settings/namespace/fromtosystem.md",
+                    "children": [
+                      {
+                        "title": "src",
+                        "kind": "link",
+                        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/namespace/src.html",
+                        "anchor": "settings-namespace-src",
+                        "virtual_path": "docs/settings/namespace/src.md"
+                      },
+                      {
+                        "title": "dest",
+                        "kind": "link",
+                        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/namespace/dest.html",
+                        "anchor": "settings-namespace-dest",
+                        "virtual_path": "docs/settings/namespace/dest.md"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "tosystem",
+                    "kind": "category",
+                    "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/namespace/fromtosystem.html",
+                    "anchor": "settings-namespace-fromtosystem",
+                    "virtual_path": "docs/settings/namespace/fromtosystem.md",
+                    "children": [
+                      {
+                        "title": "src",
+                        "kind": "link",
+                        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/namespace/src.html",
+                        "anchor": "settings-namespace-src",
+                        "virtual_path": "docs/settings/namespace/src.md"
+                      },
+                      {
+                        "title": "dest",
+                        "kind": "link",
+                        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/namespace/dest.html",
+                        "anchor": "settings-namespace-dest",
+                        "virtual_path": "docs/settings/namespace/dest.md"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "macrodef",
+        "kind": "category",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/macrodef.html",
+        "anchor": "settings-macrodef",
+        "virtual_path": "docs/settings/macrodef.md",
+        "children": [
+          {
+            "title": "attribute",
+            "kind": "link",
+            "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/macrodef/attribute.html",
+            "anchor": "settings-macrodef-attribute",
+            "virtual_path": "docs/settings/macrodef/attribute.md"
+          }
+        ]
+      },
+      {
+        "title": "resolvers",
+        "kind": "category",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/resolvers.html",
+        "anchor": "settings-resolvers",
+        "virtual_path": "docs/settings/resolvers.md"
+      },
+      {
+        "title": "conflict-managers",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/conflict-managers.html",
+        "anchor": "settings-conflict-managers",
+        "virtual_path": "docs/settings/conflict-managers.md"
+      },
+      {
+        "title": "modules",
+        "kind": "category",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/modules.html",
+        "anchor": "settings-modules",
+        "virtual_path": "docs/settings/modules.md",
+        "children": [
+          {
+            "title": "module",
+            "kind": "link",
+            "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/module.html",
+            "anchor": "settings-module",
+            "virtual_path": "docs/settings/module.md"
+          }
+        ]
+      },
+      {
+        "title": "outputters",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/outputters.html",
+        "anchor": "settings-outputters",
+        "virtual_path": "docs/settings/outputters.md"
+      },
+      {
+        "title": "statuses",
+        "kind": "category",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/statuses.html",
+        "anchor": "settings-statuses",
+        "virtual_path": "docs/settings/statuses.md",
+        "children": [
+          {
+            "title": "status",
+            "kind": "link",
+            "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/status.html",
+            "anchor": "settings-status",
+            "virtual_path": "docs/settings/status.md"
+          }
+        ]
+      },
+      {
+        "title": "triggers",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/triggers.html",
+        "anchor": "settings-triggers",
+        "virtual_path": "docs/settings/triggers.md"
+      },
+      {
+        "title": "version-matchers",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/version-matchers.html",
+        "anchor": "settings-version-matchers",
+        "virtual_path": "docs/settings/version-matchers.md"
+      },
+      {
+        "title": "timeout-constraints",
+        "kind": "category",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/timeout-constraints.html",
+        "anchor": "settings-timeout-constraints",
+        "virtual_path": "docs/settings/timeout-constraints.md",
+        "children": [
+          {
+            "title": "timeout-constraint",
+            "kind": "link",
+            "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/timeout-constraint.html",
+            "anchor": "settings-timeout-constraint",
+            "virtual_path": "docs/settings/timeout-constraint.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Documentation (2.5.3)",
+    "kind": "category",
+    "source_url": "https://ant.apache.org/ivy/history/2.5.3/index.html",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Ant Tasks",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ant.html",
+        "anchor": "ant",
+        "virtual_path": "docs/ant.md"
+      },
+      {
+        "title": "Best practices",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/bestpractices.html",
+        "anchor": "bestpractices",
+        "virtual_path": "docs/bestpractices.md"
+      },
+      {
+        "title": "Ivy Release Announcement",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/book.html",
+        "anchor": "book",
+        "virtual_path": "docs/book.md"
+      },
+      {
+        "title": "Compatibility",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/compatibility.html",
+        "anchor": "compatibility",
+        "virtual_path": "docs/compatibility.md"
+      },
+      {
+        "title": "Main Concepts",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/concept.html",
+        "anchor": "concept",
+        "virtual_path": "docs/concept.md"
+      },
+      {
+        "title": "Developer doc",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/dev.html",
+        "anchor": "dev",
+        "virtual_path": "docs/dev.md"
+      },
+      {
+        "title": "Making a release",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/dev/makerelease.html",
+        "anchor": "dev-makerelease",
+        "virtual_path": "docs/dev/makerelease.md"
+      },
+      {
+        "title": "Extending Ivy",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/extend.html",
+        "anchor": "extend",
+        "virtual_path": "docs/extend.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/install.html",
+        "anchor": "install",
+        "virtual_path": "docs/install.md"
+      },
+      {
+        "title": "Ivy Files",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile.html",
+        "anchor": "ivyfile",
+        "virtual_path": "docs/ivyfile.md"
+      },
+      {
+        "title": "conf",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/artifact-conf.html",
+        "anchor": "ivyfile-artifact-conf",
+        "virtual_path": "docs/ivyfile/artifact-conf.md"
+      },
+      {
+        "title": "conf",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/artifact-exclude-conf.html",
+        "anchor": "ivyfile-artifact-exclude-conf",
+        "virtual_path": "docs/ivyfile/artifact-exclude-conf.md"
+      },
+      {
+        "title": "exclude",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/artifact-exclude.html",
+        "anchor": "ivyfile-artifact-exclude",
+        "virtual_path": "docs/ivyfile/artifact-exclude.md"
+      },
+      {
+        "title": "artifact",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/artifact.html",
+        "anchor": "ivyfile-artifact",
+        "virtual_path": "docs/ivyfile/artifact.md"
+      },
+      {
+        "title": "conf",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/conf.html",
+        "anchor": "ivyfile-conf",
+        "virtual_path": "docs/ivyfile/conf.md"
+      },
+      {
+        "title": "configurations",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/configurations.html",
+        "anchor": "ivyfile-configurations",
+        "virtual_path": "docs/ivyfile/configurations.md"
+      },
+      {
+        "title": "conflict",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/conflict.html",
+        "anchor": "ivyfile-conflict",
+        "virtual_path": "docs/ivyfile/conflict.md"
+      },
+      {
+        "title": "conflicts",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/conflicts.html",
+        "anchor": "ivyfile-conflicts",
+        "virtual_path": "docs/ivyfile/conflicts.md"
+      },
+      {
+        "title": "conf",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/dependency-artifact-conf.html",
+        "anchor": "ivyfile-dependency-artifact-conf",
+        "virtual_path": "docs/ivyfile/dependency-artifact-conf.md"
+      },
+      {
+        "title": "artifact",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/dependency-artifact.html",
+        "anchor": "ivyfile-dependency-artifact",
+        "virtual_path": "docs/ivyfile/dependency-artifact.md"
+      },
+      {
+        "title": "conf",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/dependency-conf.html",
+        "anchor": "ivyfile-dependency-conf",
+        "virtual_path": "docs/ivyfile/dependency-conf.md"
+      },
+      {
+        "title": "conf",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/dependency-include-conf.html",
+        "anchor": "ivyfile-dependency-include-conf",
+        "virtual_path": "docs/ivyfile/dependency-include-conf.md"
+      },
+      {
+        "title": "include",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/dependency-include.html",
+        "anchor": "ivyfile-dependency-include",
+        "virtual_path": "docs/ivyfile/dependency-include.md"
+      },
+      {
+        "title": "dependency",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/dependency.html",
+        "anchor": "ivyfile-dependency",
+        "virtual_path": "docs/ivyfile/dependency.md"
+      },
+      {
+        "title": "description",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/description.html",
+        "anchor": "ivyfile-description",
+        "virtual_path": "docs/ivyfile/description.md"
+      },
+      {
+        "title": "exclude",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/exclude.html",
+        "anchor": "ivyfile-exclude",
+        "virtual_path": "docs/ivyfile/exclude.md"
+      },
+      {
+        "title": "extends",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/extends.html",
+        "anchor": "ivyfile-extends",
+        "virtual_path": "docs/ivyfile/extends.md"
+      },
+      {
+        "title": "include",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/include.html",
+        "anchor": "ivyfile-include",
+        "virtual_path": "docs/ivyfile/include.md"
+      },
+      {
+        "title": "info",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/info.html",
+        "anchor": "ivyfile-info",
+        "virtual_path": "docs/ivyfile/info.md"
+      },
+      {
+        "title": "ivyauthor",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/ivyauthor.html",
+        "anchor": "ivyfile-ivyauthor",
+        "virtual_path": "docs/ivyfile/ivyauthor.md"
+      },
+      {
+        "title": "manager",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/manager.html",
+        "anchor": "ivyfile-manager",
+        "virtual_path": "docs/ivyfile/manager.md"
+      },
+      {
+        "title": "mapped",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/mapped.html",
+        "anchor": "ivyfile-mapped",
+        "virtual_path": "docs/ivyfile/mapped.md"
+      },
+      {
+        "title": "override",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/override.html",
+        "anchor": "ivyfile-override",
+        "virtual_path": "docs/ivyfile/override.md"
+      },
+      {
+        "title": "publications",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/publications.html",
+        "anchor": "ivyfile-publications",
+        "virtual_path": "docs/ivyfile/publications.md"
+      },
+      {
+        "title": "repository",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/ivyfile/repository.html",
+        "anchor": "ivyfile-repository",
+        "virtual_path": "docs/ivyfile/repository.md"
+      },
+      {
+        "title": "More examples",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/moreexamples.html",
+        "anchor": "moreexamples",
+        "virtual_path": "docs/moreexamples.md"
+      },
+      {
+        "title": "OSGi",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/osgi.html",
+        "anchor": "osgi",
+        "virtual_path": "docs/osgi.md"
+      },
+      {
+        "title": "Building an Eclipse plugin",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/osgi/eclipse-plugin.html",
+        "anchor": "osgi-eclipse-plugin",
+        "virtual_path": "docs/osgi/eclipse-plugin.md"
+      },
+      {
+        "title": "OSGi mapping",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/osgi/osgi-mapping.html",
+        "anchor": "osgi-osgi-mapping",
+        "virtual_path": "docs/osgi/osgi-mapping.md"
+      },
+      {
+        "title": "Apache Felix Sigil",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/osgi/sigil.html",
+        "anchor": "osgi-sigil",
+        "virtual_path": "docs/osgi/sigil.md"
+      },
+      {
+        "title": "Building a standard OSGi bundle",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/osgi/standard-osgi.html",
+        "anchor": "osgi-standard-osgi",
+        "virtual_path": "docs/osgi/standard-osgi.md"
+      },
+      {
+        "title": "Managing a target platform",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/osgi/target-platform.html",
+        "anchor": "osgi-target-platform",
+        "virtual_path": "docs/osgi/target-platform.md"
+      },
+      {
+        "title": "How does it work ?",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/principle.html",
+        "anchor": "principle",
+        "virtual_path": "docs/principle.md"
+      },
+      {
+        "title": "Reference",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/reference.html",
+        "anchor": "reference",
+        "virtual_path": "docs/reference.md"
+      },
+      {
+        "title": "Release Notes",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/release-notes.html",
+        "anchor": "release-notes",
+        "virtual_path": "docs/release-notes.md"
+      },
+      {
+        "title": "Bintray Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/bintray.html",
+        "anchor": "resolver-bintray",
+        "virtual_path": "docs/resolver/bintray.md"
+      },
+      {
+        "title": "Chain Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/chain.html",
+        "anchor": "resolver-chain",
+        "virtual_path": "docs/resolver/chain.md"
+      },
+      {
+        "title": "Dual Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/dual.html",
+        "anchor": "resolver-dual",
+        "virtual_path": "docs/resolver/dual.md"
+      },
+      {
+        "title": "File System Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/filesystem.html",
+        "anchor": "resolver-filesystem",
+        "virtual_path": "docs/resolver/filesystem.md"
+      },
+      {
+        "title": "IBiblio Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/ibiblio.html",
+        "anchor": "resolver-ibiblio",
+        "virtual_path": "docs/resolver/ibiblio.md"
+      },
+      {
+        "title": "IvyRep Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/ivyrep.html",
+        "anchor": "resolver-ivyrep",
+        "virtual_path": "docs/resolver/ivyrep.md"
+      },
+      {
+        "title": "Jar Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/jar.html",
+        "anchor": "resolver-jar",
+        "virtual_path": "docs/resolver/jar.md"
+      },
+      {
+        "title": "Mirrored Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/mirrored.html",
+        "anchor": "resolver-mirrored",
+        "virtual_path": "docs/resolver/mirrored.md"
+      },
+      {
+        "title": "OSGi Bundle Repository",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/obr.html",
+        "anchor": "resolver-obr",
+        "virtual_path": "docs/resolver/obr.md"
+      },
+      {
+        "title": "Aggregated OSGi Repository",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/osgiagg.html",
+        "anchor": "resolver-osgiagg",
+        "virtual_path": "docs/resolver/osgiagg.md"
+      },
+      {
+        "title": "Packager Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/packager.html",
+        "anchor": "resolver-packager",
+        "virtual_path": "docs/resolver/packager.md"
+      },
+      {
+        "title": "SFTP Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/sftp.html",
+        "anchor": "resolver-sftp",
+        "virtual_path": "docs/resolver/sftp.md"
+      },
+      {
+        "title": "SSH Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/ssh.html",
+        "anchor": "resolver-ssh",
+        "virtual_path": "docs/resolver/ssh.md"
+      },
+      {
+        "title": "Eclipse updatesite",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/updatesite.html",
+        "anchor": "resolver-updatesite",
+        "virtual_path": "docs/resolver/updatesite.md"
+      },
+      {
+        "title": "URL Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/url.html",
+        "anchor": "resolver-url",
+        "virtual_path": "docs/resolver/url.md"
+      },
+      {
+        "title": "VFS Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/resolver/vfs.html",
+        "anchor": "resolver-vfs",
+        "virtual_path": "docs/resolver/vfs.md"
+      },
+      {
+        "title": "| Apache Ivy™ Documentation",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/running.html",
+        "anchor": "running",
+        "virtual_path": "docs/running.md"
+      },
+      {
+        "title": "hello-ivy by apache",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/samples/apache-hello-ivy-default.html",
+        "anchor": "samples-apache-hello-ivy-default",
+        "virtual_path": "docs/samples/apache-hello-ivy-default.md"
+      },
+      {
+        "title": "ivyrep-example by jayasoft",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/samples/jayasoft-ivyrep-example-default.html",
+        "anchor": "samples-jayasoft-ivyrep-example-default",
+        "virtual_path": "docs/samples/jayasoft-ivyrep-example-default.md"
+      },
+      {
+        "title": "Settings Files",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings.html",
+        "anchor": "settings",
+        "virtual_path": "docs/settings.md"
+      },
+      {
+        "title": "ttl",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/settings/caches/ttl.html",
+        "anchor": "settings-caches-ttl",
+        "virtual_path": "docs/settings/caches/ttl.md"
+      },
+      {
+        "title": "Using standalone",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/standalone.html",
+        "anchor": "standalone",
+        "virtual_path": "docs/standalone.md"
+      },
+      {
+        "title": "System Properties",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/systemproperties.html",
+        "anchor": "systemproperties",
+        "virtual_path": "docs/systemproperties.md"
+      },
+      {
+        "title": "Terminology",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/terminology.html",
+        "anchor": "terminology",
+        "virtual_path": "docs/terminology.md"
+      },
+      {
+        "title": "Text Conventions",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/textual.html",
+        "anchor": "textual",
+        "virtual_path": "docs/textual.md"
+      },
+      {
+        "title": "Tutorials",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/tutorial.html",
+        "anchor": "tutorial",
+        "virtual_path": "docs/tutorial.md"
+      },
+      {
+        "title": "Building a repository",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/tutorial/build-repository.html",
+        "anchor": "tutorial-build-repository",
+        "virtual_path": "docs/tutorial/build-repository.md"
+      },
+      {
+        "title": "Using namespaces",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/tutorial/build-repository/advanced.html",
+        "anchor": "tutorial-build-repository-advanced",
+        "virtual_path": "docs/tutorial/build-repository/advanced.md"
+      },
+      {
+        "title": "Basic repository copy",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/tutorial/build-repository/basic.html",
+        "anchor": "tutorial-build-repository-basic",
+        "virtual_path": "docs/tutorial/build-repository/basic.md"
+      },
+      {
+        "title": "Using Ivy Module Configurations",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/tutorial/conf.html",
+        "anchor": "tutorial-conf",
+        "virtual_path": "docs/tutorial/conf.md"
+      },
+      {
+        "title": "Adjusting default settings",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/tutorial/defaultconf.html",
+        "anchor": "tutorial-defaultconf",
+        "virtual_path": "docs/tutorial/defaultconf.md"
+      },
+      {
+        "title": "Project dependencies",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/tutorial/dependence.html",
+        "anchor": "tutorial-dependence",
+        "virtual_path": "docs/tutorial/dependence.md"
+      },
+      {
+        "title": "Dual Resolver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/tutorial/dual.html",
+        "anchor": "tutorial-dual",
+        "virtual_path": "docs/tutorial/dual.md"
+      },
+      {
+        "title": "Multiple Resolvers",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/tutorial/multiple.html",
+        "anchor": "tutorial-multiple",
+        "virtual_path": "docs/tutorial/multiple.md"
+      },
+      {
+        "title": "Using Ivy in multiple projects environment",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/tutorial/multiproject.html",
+        "anchor": "tutorial-multiproject",
+        "virtual_path": "docs/tutorial/multiproject.md"
+      },
+      {
+        "title": "Quick Start",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/tutorial/start.html",
+        "anchor": "tutorial-start",
+        "virtual_path": "docs/tutorial/start.md"
+      },
+      {
+        "title": "artifactproperty",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/artifactproperty.html",
+        "anchor": "use-artifactproperty",
+        "virtual_path": "docs/use/artifactproperty.md"
+      },
+      {
+        "title": "artifactreport",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/artifactreport.html",
+        "anchor": "use-artifactreport",
+        "virtual_path": "docs/use/artifactreport.md"
+      },
+      {
+        "title": "buildlist",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/buildlist.html",
+        "anchor": "use-buildlist",
+        "virtual_path": "docs/use/buildlist.md"
+      },
+      {
+        "title": "buildnumber",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/buildnumber.html",
+        "anchor": "use-buildnumber",
+        "virtual_path": "docs/use/buildnumber.md"
+      },
+      {
+        "title": "buildobr",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/buildobr.html",
+        "anchor": "use-buildobr",
+        "virtual_path": "docs/use/buildobr.md"
+      },
+      {
+        "title": "cachefileset",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/cachefileset.html",
+        "anchor": "use-cachefileset",
+        "virtual_path": "docs/use/cachefileset.md"
+      },
+      {
+        "title": "cachepath",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/cachepath.html",
+        "anchor": "use-cachepath",
+        "virtual_path": "docs/use/cachepath.md"
+      },
+      {
+        "title": "checkdepsupdate",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/checkdepsupdate.html",
+        "anchor": "use-checkdepsupdate",
+        "virtual_path": "docs/use/checkdepsupdate.md"
+      },
+      {
+        "title": "cleancache",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/cleancache.html",
+        "anchor": "use-cleancache",
+        "virtual_path": "docs/use/cleancache.md"
+      },
+      {
+        "title": "configure",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/configure.html",
+        "anchor": "use-configure",
+        "virtual_path": "docs/use/configure.md"
+      },
+      {
+        "title": "convertmanifest",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/convertmanifest.html",
+        "anchor": "use-convertmanifest",
+        "virtual_path": "docs/use/convertmanifest.md"
+      },
+      {
+        "title": "convertpom",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/convertpom.html",
+        "anchor": "use-convertpom",
+        "virtual_path": "docs/use/convertpom.md"
+      },
+      {
+        "title": "deliver",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/deliver.html",
+        "anchor": "use-deliver",
+        "virtual_path": "docs/use/deliver.md"
+      },
+      {
+        "title": "dependencytree",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/dependencytree.html",
+        "anchor": "use-dependencytree",
+        "virtual_path": "docs/use/dependencytree.md"
+      },
+      {
+        "title": "findrevision",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/findrevision.html",
+        "anchor": "use-findrevision",
+        "virtual_path": "docs/use/findrevision.md"
+      },
+      {
+        "title": "fixdeps",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/fixdeps.html",
+        "anchor": "use-fixdeps",
+        "virtual_path": "docs/use/fixdeps.md"
+      },
+      {
+        "title": "info",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/info.html",
+        "anchor": "use-info",
+        "virtual_path": "docs/use/info.md"
+      },
+      {
+        "title": "install",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/install.html",
+        "anchor": "use-install",
+        "virtual_path": "docs/use/install.md"
+      },
+      {
+        "title": "listmodules",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/listmodules.html",
+        "anchor": "use-listmodules",
+        "virtual_path": "docs/use/listmodules.md"
+      },
+      {
+        "title": "makepom",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/makepom.html",
+        "anchor": "use-makepom",
+        "virtual_path": "docs/use/makepom.md"
+      },
+      {
+        "title": "post resolve tasks",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/postresolvetask.html",
+        "anchor": "use-postresolvetask",
+        "virtual_path": "docs/use/postresolvetask.md"
+      },
+      {
+        "title": "publish",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/publish.html",
+        "anchor": "use-publish",
+        "virtual_path": "docs/use/publish.md"
+      },
+      {
+        "title": "report",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/report.html",
+        "anchor": "use-report",
+        "virtual_path": "docs/use/report.md"
+      },
+      {
+        "title": "repreport",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/repreport.html",
+        "anchor": "use-repreport",
+        "virtual_path": "docs/use/repreport.md"
+      },
+      {
+        "title": "resolve",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/resolve.html",
+        "anchor": "use-resolve",
+        "virtual_path": "docs/use/resolve.md"
+      },
+      {
+        "title": "resources",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/resources.html",
+        "anchor": "use-resources",
+        "virtual_path": "docs/use/resources.md"
+      },
+      {
+        "title": "retrieve",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/retrieve.html",
+        "anchor": "use-retrieve",
+        "virtual_path": "docs/use/retrieve.md"
+      },
+      {
+        "title": "settings",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/settings.html",
+        "anchor": "use-settings",
+        "virtual_path": "docs/use/settings.md"
+      },
+      {
+        "title": "var",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/use/var.html",
+        "anchor": "use-var",
+        "virtual_path": "docs/use/var.md"
+      },
+      {
+        "title": "Using yEd to layout report graphs",
+        "kind": "link",
+        "source_url": "https://ant.apache.org/ivy/history/2.5.3/yed.html",
+        "anchor": "yed",
+        "virtual_path": "docs/yed.md"
+      }
+    ]
+  }
+]

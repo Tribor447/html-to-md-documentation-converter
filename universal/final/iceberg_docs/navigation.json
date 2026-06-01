@@ -1,0 +1,394 @@
+[
+  {
+    "title": "Docs",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Java",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Nightly",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Introduction",
+                "kind": "link",
+                "source_url": "https://iceberg.apache.org/docs/nightly/",
+                "anchor": "nightly",
+                "virtual_path": "docs/nightly/index.md"
+              },
+              {
+                "title": "Concepts",
+                "kind": "category",
+                "children": [
+                  {
+                    "title": "Tables",
+                    "kind": "category",
+                    "children": [
+                      {
+                        "title": "Branching and Tagging",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/branching/",
+                        "anchor": "nightly-branching",
+                        "virtual_path": "docs/nightly/branching/index.md"
+                      },
+                      {
+                        "title": "Configuration",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/configuration/",
+                        "anchor": "nightly-configuration",
+                        "virtual_path": "docs/nightly/configuration/index.md"
+                      },
+                      {
+                        "title": "Encryption",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/encryption/",
+                        "anchor": "nightly-encryption",
+                        "virtual_path": "docs/nightly/encryption/index.md"
+                      },
+                      {
+                        "title": "Evolution",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/evolution/",
+                        "anchor": "nightly-evolution",
+                        "virtual_path": "docs/nightly/evolution/index.md"
+                      },
+                      {
+                        "title": "Maintenance",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/maintenance/",
+                        "anchor": "nightly-maintenance",
+                        "virtual_path": "docs/nightly/maintenance/index.md"
+                      },
+                      {
+                        "title": "Metrics Reporting",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/metrics-reporting/",
+                        "anchor": "nightly-metrics-reporting",
+                        "virtual_path": "docs/nightly/metrics-reporting/index.md"
+                      },
+                      {
+                        "title": "Partitioning",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/partitioning/",
+                        "anchor": "nightly-partitioning",
+                        "virtual_path": "docs/nightly/partitioning/index.md"
+                      },
+                      {
+                        "title": "Performance",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/performance/",
+                        "anchor": "nightly-performance",
+                        "virtual_path": "docs/nightly/performance/index.md"
+                      },
+                      {
+                        "title": "Reliability",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/reliability/",
+                        "anchor": "nightly-reliability",
+                        "virtual_path": "docs/nightly/reliability/index.md"
+                      },
+                      {
+                        "title": "Schemas",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/schemas/",
+                        "anchor": "nightly-schemas",
+                        "virtual_path": "docs/nightly/schemas/index.md"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Views",
+                    "kind": "category",
+                    "children": [
+                      {
+                        "title": "Configuration",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/view-configuration/",
+                        "anchor": "nightly-view-configuration",
+                        "virtual_path": "docs/nightly/view-configuration/index.md"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "API",
+                "kind": "category",
+                "children": [
+                  {
+                    "title": "Quickstart",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/java-api-quickstart/",
+                    "anchor": "nightly-java-api-quickstart",
+                    "virtual_path": "docs/nightly/java-api-quickstart/index.md"
+                  },
+                  {
+                    "title": "API",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/api/",
+                    "anchor": "nightly-api",
+                    "virtual_path": "docs/nightly/api/index.md"
+                  },
+                  {
+                    "title": "File I/O",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/fileio/",
+                    "anchor": "nightly-fileio",
+                    "virtual_path": "docs/nightly/fileio/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "Integrations",
+                "kind": "category",
+                "children": [
+                  {
+                    "title": "Apache Spark",
+                    "kind": "category",
+                    "children": [
+                      {
+                        "title": "Getting Started",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/spark-getting-started/",
+                        "anchor": "nightly-spark-getting-started",
+                        "virtual_path": "docs/nightly/spark-getting-started/index.md"
+                      },
+                      {
+                        "title": "Configuration",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/spark-configuration/",
+                        "anchor": "nightly-spark-configuration",
+                        "virtual_path": "docs/nightly/spark-configuration/index.md"
+                      },
+                      {
+                        "title": "DDL",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/spark-ddl/",
+                        "anchor": "nightly-spark-ddl",
+                        "virtual_path": "docs/nightly/spark-ddl/index.md"
+                      },
+                      {
+                        "title": "Procedures",
+                        "kind": "category",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/spark-procedures/",
+                        "anchor": "nightly-spark-procedures",
+                        "virtual_path": "docs/nightly/spark-procedures/index.md"
+                      },
+                      {
+                        "title": "Queries",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/spark-queries/",
+                        "anchor": "nightly-spark-queries",
+                        "virtual_path": "docs/nightly/spark-queries/index.md"
+                      },
+                      {
+                        "title": "Structured Streaming",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/spark-structured-streaming/",
+                        "anchor": "nightly-spark-structured-streaming",
+                        "virtual_path": "docs/nightly/spark-structured-streaming/index.md"
+                      },
+                      {
+                        "title": "Writes",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/spark-writes/",
+                        "anchor": "nightly-spark-writes",
+                        "virtual_path": "docs/nightly/spark-writes/index.md"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Apache Flink",
+                    "kind": "category",
+                    "children": [
+                      {
+                        "title": "Getting Started",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/flink/",
+                        "anchor": "nightly-flink",
+                        "virtual_path": "docs/nightly/flink/index.md"
+                      },
+                      {
+                        "title": "Flink Connector",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/flink-connector/",
+                        "anchor": "nightly-flink-connector",
+                        "virtual_path": "docs/nightly/flink-connector/index.md"
+                      },
+                      {
+                        "title": "Flink DDL",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/flink-ddl/",
+                        "anchor": "nightly-flink-ddl",
+                        "virtual_path": "docs/nightly/flink-ddl/index.md"
+                      },
+                      {
+                        "title": "Flink Queries",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/flink-queries/",
+                        "anchor": "nightly-flink-queries",
+                        "virtual_path": "docs/nightly/flink-queries/index.md"
+                      },
+                      {
+                        "title": "Flink Writes",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/flink-writes/",
+                        "anchor": "nightly-flink-writes",
+                        "virtual_path": "docs/nightly/flink-writes/index.md"
+                      },
+                      {
+                        "title": "Flink TableMaintenance",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/flink-maintenance/",
+                        "anchor": "nightly-flink-maintenance",
+                        "virtual_path": "docs/nightly/flink-maintenance/index.md"
+                      },
+                      {
+                        "title": "Flink Configuration",
+                        "kind": "link",
+                        "source_url": "https://iceberg.apache.org/docs/nightly/flink-configuration/",
+                        "anchor": "nightly-flink-configuration",
+                        "virtual_path": "docs/nightly/flink-configuration/index.md"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Kafka Connect",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/kafka-connect/",
+                    "anchor": "nightly-kafka-connect",
+                    "virtual_path": "docs/nightly/kafka-connect/index.md"
+                  },
+                  {
+                    "title": "Apache Hive",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/hive/",
+                    "anchor": "nightly-hive",
+                    "virtual_path": "docs/nightly/hive/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "Migration",
+                "kind": "category",
+                "children": [
+                  {
+                    "title": "Overview",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/table-migration/",
+                    "anchor": "nightly-table-migration",
+                    "virtual_path": "docs/nightly/table-migration/index.md"
+                  },
+                  {
+                    "title": "Hive Migration",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/hive-migration/",
+                    "anchor": "nightly-hive-migration",
+                    "virtual_path": "docs/nightly/hive-migration/index.md"
+                  },
+                  {
+                    "title": "Delta Lake Migration",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/delta-lake-migration/",
+                    "anchor": "nightly-delta-lake-migration",
+                    "virtual_path": "docs/nightly/delta-lake-migration/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "Catalogs",
+                "kind": "category",
+                "children": [
+                  {
+                    "title": "Catalog properties",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/catalog-properties/",
+                    "anchor": "nightly-catalog-properties",
+                    "virtual_path": "docs/nightly/catalog-properties/index.md"
+                  },
+                  {
+                    "title": "AWS Glue",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/aws/#glue-catalog",
+                    "anchor": "nightly-aws--glue-catalog",
+                    "virtual_path": "docs/nightly/aws/index.md"
+                  },
+                  {
+                    "title": "AWS DynamoDB",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/aws/#dynamodb-catalog",
+                    "anchor": "nightly-aws--dynamodb-catalog",
+                    "virtual_path": "docs/nightly/aws/index.md"
+                  },
+                  {
+                    "title": "HiveCatalog",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/hive/#global-hive-catalog",
+                    "anchor": "nightly-hive--global-hive-catalog",
+                    "virtual_path": "docs/nightly/hive/index.md"
+                  },
+                  {
+                    "title": "JDBC",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/jdbc/",
+                    "anchor": "nightly-jdbc",
+                    "virtual_path": "docs/nightly/jdbc/index.md"
+                  },
+                  {
+                    "title": "Java Custom Catalog",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/custom-catalog/",
+                    "anchor": "nightly-custom-catalog",
+                    "virtual_path": "docs/nightly/custom-catalog/index.md"
+                  },
+                  {
+                    "title": "Nessie",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/nessie/",
+                    "anchor": "nightly-nessie",
+                    "virtual_path": "docs/nightly/nessie/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "Storage",
+                "kind": "category",
+                "children": [
+                  {
+                    "title": "AWS S3",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/aws/#s3-fileio",
+                    "anchor": "nightly-aws--s3-fileio",
+                    "virtual_path": "docs/nightly/aws/index.md"
+                  },
+                  {
+                    "title": "Dell ECS",
+                    "kind": "link",
+                    "source_url": "https://iceberg.apache.org/docs/nightly/dell/",
+                    "anchor": "nightly-dell",
+                    "virtual_path": "docs/nightly/dell/index.md"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Latest (1.10.1)",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Introduction",
+                "kind": "link",
+                "source_url": "https://iceberg.apache.org/docs/latest/",
+                "anchor": "latest",
+                "virtual_path": "docs/latest/index.md"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

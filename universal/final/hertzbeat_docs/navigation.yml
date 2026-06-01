@@ -1,0 +1,1313 @@
+- title: Introduce
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/
+  anchor: index
+  virtual_path: docs/index.md
+- title: QuickStart
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/start/docker-deploy/
+  anchor: start-docker-deploy
+  virtual_path: docs/start/docker-deploy/index.md
+  children:
+  - title: Install
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/start/docker-deploy/
+    anchor: start-docker-deploy
+    virtual_path: docs/start/docker-deploy/index.md
+    children:
+    - title: Install via Docker
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/docker-deploy/
+      anchor: start-docker-deploy
+      virtual_path: docs/start/docker-deploy/index.md
+    - title: Install via Docker Compose
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/docker-compose-deploy/
+      anchor: start-docker-compose-deploy
+      virtual_path: docs/start/docker-compose-deploy/index.md
+    - title: Install via Package
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/package-deploy/
+      anchor: start-package-deploy
+      virtual_path: docs/start/package-deploy/index.md
+    - title: Extern Install
+      kind: category
+      source_url: https://hertzbeat.apache.org/docs/start/baota-deploy/
+      anchor: start-baota-deploy
+      virtual_path: docs/start/baota-deploy/index.md
+      children:
+      - title: Install via aaPanel
+        kind: link
+        source_url: https://hertzbeat.apache.org/docs/start/baota-deploy/
+        anchor: start-baota-deploy
+        virtual_path: docs/start/baota-deploy/index.md
+      - title: Install via Rainbond
+        kind: link
+        source_url: https://hertzbeat.apache.org/docs/start/rainbond-deploy/
+        anchor: start-rainbond-deploy
+        virtual_path: docs/start/rainbond-deploy/index.md
+  - title: Upgrade
+    kind: link
+    children:
+    - title: Version Upgrade Guide
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/upgrade/
+      anchor: start-upgrade
+      virtual_path: docs/start/upgrade/index.md
+  - title: Setting
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/start/account-modify/
+    anchor: start-account-modify
+    virtual_path: docs/start/account-modify/index.md
+    children:
+    - title: Update Account Secret
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/account-modify/
+      anchor: start-account-modify
+      virtual_path: docs/start/account-modify/index.md
+    - title: Advanced Params Config
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/custom-config/
+      anchor: start-custom-config
+      virtual_path: docs/start/custom-config/index.md
+  - title: Change DB
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/start/greptime-init/
+    anchor: start-greptime-init
+    virtual_path: docs/start/greptime-init/index.md
+    children:
+    - title: Metrics Store Greptime (Recommended)
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/greptime-init/
+      anchor: start-greptime-init
+      virtual_path: docs/start/greptime-init/index.md
+    - title: Metrics Store VictoriaMetrics (Recommended)
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/victoria-metrics-init/
+      anchor: start-victoria-metrics-init
+      virtual_path: docs/start/victoria-metrics-init/index.md
+    - title: Metrics Store IoTDB
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/iotdb-init/
+      anchor: start-iotdb-init
+      virtual_path: docs/start/iotdb-init/index.md
+    - title: Metrics Store InfluxDB
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/influxdb-init/
+      anchor: start-influxdb-init
+      virtual_path: docs/start/influxdb-init/index.md
+    - title: Metrics Store QuestDB
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/questdb-init/
+      anchor: start-questdb-init
+      virtual_path: docs/start/questdb-init/index.md
+    - title: Meta Store PostgreSQL (Recommended)
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/postgresql-change/
+      anchor: start-postgresql-change
+      virtual_path: docs/start/postgresql-change/index.md
+    - title: Meta Store MYSQL
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/mysql-change/
+      anchor: start-mysql-change
+      virtual_path: docs/start/mysql-change/index.md
+  - title: Use Case
+    kind: category
+    source_url: https://hertzbeat.apache.org/docs/start/usecase/ssl-cert-practice/
+    anchor: start-usecase-ssl-cert-practice
+    virtual_path: docs/start/usecase/ssl-cert-practice/index.md
+    children:
+    - title: SSL Certificate Monitoring Practice
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/usecase/ssl-cert-practice/
+      anchor: start-usecase-ssl-cert-practice
+      virtual_path: docs/start/usecase/ssl-cert-practice/index.md
+    - title: SpringBoot Web Application Monitoring Practice
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/usecase/springboot-auto-practice/
+      anchor: start-usecase-springboot-auto-practice
+      virtual_path: docs/start/usecase/springboot-auto-practice/index.md
+    - title: Linux Operating System Monitoring Practice
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/usecase/linux-os-practice/
+      anchor: start-usecase-linux-os-practice
+      virtual_path: docs/start/usecase/linux-os-practice/index.md
+- title: Use Guides
+  kind: category
+  source_url: https://hertzbeat.apache.org/docs/help/guide/
+  anchor: help-guide
+  virtual_path: docs/help/guide/index.md
+  children:
+  - title: Help Center
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/guide/
+    anchor: help-guide
+    virtual_path: docs/help/guide/index.md
+  - title: Security Model
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/security_model/
+    anchor: help-security_model
+    virtual_path: docs/help/security_model/index.md
+  - title: HertzBeat AI
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/ai_agent/
+    anchor: help-ai_agent
+    virtual_path: docs/help/ai_agent/index.md
+  - title: MCP Server
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/mcp_server/
+    anchor: help-mcp_server
+    virtual_path: docs/help/mcp_server/index.md
+  - title: Use Case
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/start/usecase/ssl-cert-practice/
+    anchor: start-usecase-ssl-cert-practice
+    virtual_path: docs/start/usecase/ssl-cert-practice/index.md
+    children:
+    - title: SSL Certificate Monitoring Practice
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/usecase/ssl-cert-practice/
+      anchor: start-usecase-ssl-cert-practice
+      virtual_path: docs/start/usecase/ssl-cert-practice/index.md
+    - title: SpringBoot Web Application Monitoring Practice
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/usecase/springboot-auto-practice/
+      anchor: start-usecase-springboot-auto-practice
+      virtual_path: docs/start/usecase/springboot-auto-practice/index.md
+    - title: Linux Operating System Monitoring Practice
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/usecase/linux-os-practice/
+      anchor: start-usecase-linux-os-practice
+      virtual_path: docs/start/usecase/linux-os-practice/index.md
+    - title: TDengine Monitoring Practice
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/start/usecase/tdengine-practice/
+      anchor: start-usecase-tdengine-practice
+      virtual_path: docs/start/usecase/tdengine-practice/index.md
+  - title: Log
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/log_integration/
+    anchor: help-log_integration
+    virtual_path: docs/help/log_integration/index.md
+    children:
+    - title: Log Integration (Beta)
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/log_integration/
+      anchor: help-log_integration
+      virtual_path: docs/help/log_integration/index.md
+    - title: Log Stream (Beta)
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/log_stream/
+      anchor: help-log_stream
+      virtual_path: docs/help/log_stream/index.md
+    - title: Log Management (Beta)
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/log_manage/
+      anchor: help-log_manage
+      virtual_path: docs/help/log_manage/index.md
+  - title: Alerting
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/alarm_center/
+    anchor: help-alarm_center
+    virtual_path: docs/help/alarm_center/index.md
+    children:
+    - title: Alarm Center
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alarm_center/
+      anchor: help-alarm_center
+      virtual_path: docs/help/alarm_center/index.md
+    - title: Alarm Threshold
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_threshold/
+      anchor: help-alert_threshold
+      virtual_path: docs/help/alert_threshold/index.md
+    - title: Threshold Trigger Expression
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_threshold_expr/
+      anchor: help-alert_threshold_expr
+      virtual_path: docs/help/alert_threshold_expr/index.md
+    - title: Alarm Grouping
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alarm_group/
+      anchor: help-alarm_group
+      virtual_path: docs/help/alarm_group/index.md
+    - title: Alarm Inhibition
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alarm_inhibit/
+      anchor: help-alarm_inhibit
+      virtual_path: docs/help/alarm_inhibit/index.md
+    - title: Alarm Silence
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alarm_silence/
+      anchor: help-alarm_silence
+      virtual_path: docs/help/alarm_silence/index.md
+    - title: Alert Integration
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_integration/
+      anchor: help-alert_integration
+      virtual_path: docs/help/alert_integration/index.md
+  - title: Notification
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/alert_email/
+    anchor: help-alert_email
+    virtual_path: docs/help/alert_email/index.md
+    children:
+    - title: Alert email notification
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_email/
+      anchor: help-alert_email
+      virtual_path: docs/help/alert_email/index.md
+    - title: Alert SMS notification
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_sms/
+      anchor: help-alert_sms
+      virtual_path: docs/help/alert_sms/index.md
+    - title: Alert webHook notification
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_webhook/
+      anchor: help-alert_webhook
+      virtual_path: docs/help/alert_webhook/index.md
+    - title: Alert Discord bot notification
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_discord/
+      anchor: help-alert_discord
+      virtual_path: docs/help/alert_discord/index.md
+    - title: Alert Slack Webhook Notification
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_slack/
+      anchor: help-alert_slack
+      virtual_path: docs/help/alert_slack/index.md
+    - title: Alert Telegram bot notification
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_telegram/
+      anchor: help-alert_telegram
+      virtual_path: docs/help/alert_telegram/index.md
+    - title: Alert enterprise Wechat notification
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_wework/
+      anchor: help-alert_wework
+      virtual_path: docs/help/alert_wework/index.md
+    - title: Alert DingDing robot notification
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_dingtalk/
+      anchor: help-alert_dingtalk
+      virtual_path: docs/help/alert_dingtalk/index.md
+    - title: Alert FeiShu robot notification
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_feishu/
+      anchor: help-alert_feishu
+      virtual_path: docs/help/alert_feishu/index.md
+    - title: Alert FeiShu app notification
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_feishu_app/
+      anchor: help-alert_feishu_app
+      virtual_path: docs/help/alert_feishu_app/index.md
+    - title: Console address in alarm template
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_console/
+      anchor: help-alert_console
+      virtual_path: docs/help/alert_console/index.md
+    - title: Alert Enterprise Wechat App notification
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_enterprise_wechat_app/
+      anchor: help-alert_enterprise_wechat_app
+      virtual_path: docs/help/alert_enterprise_wechat_app/index.md
+    - title: Alert Huawei Cloud SMN Notifications
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_smn/
+      anchor: help-alert_smn
+      virtual_path: docs/help/alert_smn/index.md
+    - title: Notification Template
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/alert_notification_template/
+      anchor: help-alert_notification_template
+      virtual_path: docs/help/alert_notification_template/index.md
+  - title: Service Discovery
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/eureka_sd/
+    anchor: help-eureka_sd
+    virtual_path: docs/help/eureka_sd/index.md
+    children:
+    - title: Eureka Service Discovery
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/eureka_sd/
+      anchor: help-eureka_sd
+      virtual_path: docs/help/eureka_sd/index.md
+    - title: Nacos Service Discovery
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/nacos_sd/
+      anchor: help-nacos_sd
+      virtual_path: docs/help/nacos_sd/index.md
+    - title: Consul Service Discovery
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/consul_sd/
+      anchor: help-consul_sd
+      virtual_path: docs/help/consul_sd/index.md
+    - title: Zookeeper Service Discovery
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/zookeeper_sd/
+      anchor: help-zookeeper_sd
+      virtual_path: docs/help/zookeeper_sd/index.md
+    - title: HTTP Service Discovery
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/http_sd/
+      anchor: help-http_sd
+      virtual_path: docs/help/http_sd/index.md
+    - title: DNS Service Discovery
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/dns_sd/
+      anchor: help-dns_sd
+      virtual_path: docs/help/dns_sd/index.md
+  - title: Service Monitor
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/prometheus/
+    anchor: help-prometheus
+    virtual_path: docs/help/prometheus/index.md
+    children:
+    - title: Prometheus Task Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/prometheus/
+      anchor: help-prometheus
+      virtual_path: docs/help/prometheus/index.md
+    - title: Website Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/website/
+      anchor: help-website
+      virtual_path: docs/help/website/index.md
+    - title: HTTP API
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/api/
+      anchor: help-api
+      virtual_path: docs/help/api/index.md
+    - title: PING connectivity
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/ping/
+      anchor: help-ping
+      virtual_path: docs/help/ping/index.md
+    - title: TCP Port availability
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/port/
+      anchor: help-port
+      virtual_path: docs/help/port/index.md
+    - title: UDP Port availability
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/udp_port/
+      anchor: help-udp_port
+      virtual_path: docs/help/udp_port/index.md
+    - title: Full site Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/fullsite/
+      anchor: help-fullsite
+      virtual_path: docs/help/fullsite/index.md
+    - title: SSL Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/ssl_cert/
+      anchor: help-ssl_cert
+      virtual_path: docs/help/ssl_cert/index.md
+    - title: Nginx Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/nginx/
+      anchor: help-nginx
+      virtual_path: docs/help/nginx/index.md
+    - title: mailbox Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/imap/
+      anchor: help-imap
+      virtual_path: docs/help/imap/index.md
+    - title: POP3 Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/pop3/
+      anchor: help-pop3
+      virtual_path: docs/help/pop3/index.md
+    - title: SMTP Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/smtp/
+      anchor: help-smtp
+      virtual_path: docs/help/smtp/index.md
+    - title: NTP Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/ntp/
+      anchor: help-ntp
+      virtual_path: docs/help/ntp/index.md
+    - title: DNS Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/dns/
+      anchor: help-dns
+      virtual_path: docs/help/dns/index.md
+    - title: FTP Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/ftp/
+      anchor: help-ftp
+      virtual_path: docs/help/ftp/index.md
+    - title: Websocket Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/websocket/
+      anchor: help-websocket
+      virtual_path: docs/help/websocket/index.md
+    - title: MQTT Connection
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/mqtt/
+      anchor: help-mqtt
+      virtual_path: docs/help/mqtt/index.md
+    - title: Modbus Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/modbus/
+      anchor: help-modbus
+      virtual_path: docs/help/modbus/index.md
+    - title: Jenkins
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/jenkins/
+      anchor: help-jenkins
+      virtual_path: docs/help/jenkins/index.md
+  - title: Program Monitor
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/process/
+    anchor: help-process
+    virtual_path: docs/help/process/index.md
+    children:
+    - title: Process
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/process/
+      anchor: help-process
+      virtual_path: docs/help/process/index.md
+    - title: JVM Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/jvm/
+      anchor: help-jvm
+      virtual_path: docs/help/jvm/index.md
+    - title: SpringBoot 2.0
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/springboot2/
+      anchor: help-springboot2
+      virtual_path: docs/help/springboot2/index.md
+    - title: SpringBoot 3.0
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/springboot3/
+      anchor: help-springboot3
+      virtual_path: docs/help/springboot3/index.md
+    - title: DynamicTp Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/dynamic_tp/
+      anchor: help-dynamic_tp
+      virtual_path: docs/help/dynamic_tp/index.md
+  - title: Database Monitor
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/mysql/
+    anchor: help-mysql
+    virtual_path: docs/help/mysql/index.md
+    children:
+    - title: MySQL database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/mysql/
+      anchor: help-mysql
+      virtual_path: docs/help/mysql/index.md
+    - title: MariaDB database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/mariadb/
+      anchor: help-mariadb
+      virtual_path: docs/help/mariadb/index.md
+    - title: PostgreSQL database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/postgresql/
+      anchor: help-postgresql
+      virtual_path: docs/help/postgresql/index.md
+    - title: GreenPlum database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/greenplum/
+      anchor: help-greenplum
+      virtual_path: docs/help/greenplum/index.md
+    - title: Vastbase database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/vastbase/
+      anchor: help-vastbase
+      virtual_path: docs/help/vastbase/index.md
+    - title: Kingbase database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/kingbase/
+      anchor: help-kingbase
+      virtual_path: docs/help/kingbase/index.md
+    - title: SqlServer database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/sqlserver/
+      anchor: help-sqlserver
+      virtual_path: docs/help/sqlserver/index.md
+    - title: ORACLE database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/oracle/
+      anchor: help-oracle
+      virtual_path: docs/help/oracle/index.md
+    - title: DM Database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/dm/
+      anchor: help-dm
+      virtual_path: docs/help/dm/index.md
+    - title: OpenGauss Database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/opengauss/
+      anchor: help-opengauss
+      virtual_path: docs/help/opengauss/index.md
+    - title: NebulaGraph Database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/nebulaGraph/
+      anchor: help-nebulagraph
+      virtual_path: docs/help/nebulaGraph/index.md
+    - title: NebulaGraph Cluster
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/nebulagraph_cluster/
+      anchor: help-nebulagraph_cluster
+      virtual_path: docs/help/nebulagraph_cluster/index.md
+    - title: TiDB database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/tidb/
+      anchor: help-tidb
+      virtual_path: docs/help/tidb/index.md
+    - title: MongoDB database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/mongodb/
+      anchor: help-mongodb
+      virtual_path: docs/help/mongodb/index.md
+    - title: MongoDB Atlas Database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/mongodb_atlas/
+      anchor: help-mongodb_atlas
+      virtual_path: docs/help/mongodb_atlas/index.md
+    - title: OceanBase database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/oceanbase/
+      anchor: help-oceanbase
+      virtual_path: docs/help/oceanbase/index.md
+    - title: DB2 Database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/db2/
+      anchor: help-db2
+      virtual_path: docs/help/db2/index.md
+  - title: Cache Monitor
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/redis/
+    anchor: help-redis
+    virtual_path: docs/help/redis/index.md
+    children:
+    - title: REDIS
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/redis/
+      anchor: help-redis
+      virtual_path: docs/help/redis/index.md
+    - title: Memcached Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/memcached/
+      anchor: help-memcached
+      virtual_path: docs/help/memcached/index.md
+    - title: Valkey
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/valkey/
+      anchor: help-valkey
+      virtual_path: docs/help/valkey/index.md
+  - title: OS Monitor
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/linux/
+    anchor: help-linux
+    virtual_path: docs/help/linux/index.md
+    children:
+    - title: Linux operating system
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/linux/
+      anchor: help-linux
+      virtual_path: docs/help/linux/index.md
+    - title: Windows operating system
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/windows/
+      anchor: help-windows
+      virtual_path: docs/help/windows/index.md
+    - title: Ubuntu operating system
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/ubuntu/
+      anchor: help-ubuntu
+      virtual_path: docs/help/ubuntu/index.md
+    - title: Debian
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/debian/
+      anchor: help-debian
+      virtual_path: docs/help/debian/index.md
+    - title: CentOS operating system
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/centos/
+      anchor: help-centos
+      virtual_path: docs/help/centos/index.md
+    - title: AlmaLinux Operating System
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/almalinux/
+      anchor: help-almalinux
+      virtual_path: docs/help/almalinux/index.md
+    - title: OpenSUSE OS
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/opensuse/
+      anchor: help-opensuse
+      virtual_path: docs/help/opensuse/index.md
+    - title: FreeBSD Operating System
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/freebsd/
+      anchor: help-freebsd
+      virtual_path: docs/help/freebsd/index.md
+    - title: RedHat OS Operating System
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/redhat/
+      anchor: help-redhat
+      virtual_path: docs/help/redhat/index.md
+    - title: Rocky Linux Operating System
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/rockylinux/
+      anchor: help-rockylinux
+      virtual_path: docs/help/rockylinux/index.md
+    - title: EulerOS
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/euleros/
+      anchor: help-euleros
+      virtual_path: docs/help/euleros/index.md
+    - title: Fedora OS Operating System
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/fedora/
+      anchor: help-fedora
+      virtual_path: docs/help/fedora/index.md
+    - title: Using Scripts to Monitor Linux OS
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/linux_script/
+      anchor: help-linux_script
+      virtual_path: docs/help/linux_script/index.md
+    - title: Using Scripts to Monitor Windows OS
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/windows_script/
+      anchor: help-windows_script
+      virtual_path: docs/help/windows_script/index.md
+    - title: macOS operating system
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/macos/
+      anchor: help-macos
+      virtual_path: docs/help/macos/index.md
+    - title: darwin operating system
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/darwin/
+      anchor: help-darwin
+      virtual_path: docs/help/darwin/index.md
+    - title: NVIDIA Monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/nvidia/
+      anchor: help-nvidia
+      virtual_path: docs/help/nvidia/index.md
+  - title: Server Monitor
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/ipmi/
+    anchor: help-ipmi
+    virtual_path: docs/help/ipmi/index.md
+    children:
+    - title: Server Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/ipmi/
+      anchor: help-ipmi
+      virtual_path: docs/help/ipmi/index.md
+    - title: Hikvision ISAPI
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/hikvision_isapi/
+      anchor: help-hikvision_isapi
+      virtual_path: docs/help/hikvision_isapi/index.md
+    - title: Dahua
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/dahua/
+      anchor: help-dahua
+      virtual_path: docs/help/dahua/index.md
+    - title: Uniview
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/uniview/
+      anchor: help-uniview
+      virtual_path: docs/help/uniview/index.md
+    - title: Synology NAS
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/synology_nas/
+      anchor: help-synology_nas
+      virtual_path: docs/help/synology_nas/index.md
+  - title: Middleware Monitor
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/activemq/
+    anchor: help-activemq
+    virtual_path: docs/help/activemq/index.md
+    children:
+    - title: Apache ActiveMQ
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/activemq/
+      anchor: help-activemq
+      virtual_path: docs/help/activemq/index.md
+    - title: Apache Kafka
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/kafka/
+      anchor: help-kafka
+      virtual_path: docs/help/kafka/index.md
+    - title: Kafka Monitoring (Client-based)
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/kafka_client/
+      anchor: help-kafka_client
+      virtual_path: docs/help/kafka_client/index.md
+    - title: Apache Pulsar
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/pulsar/
+      anchor: help-pulsar
+      virtual_path: docs/help/pulsar/index.md
+    - title: Nacos Server
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/nacos/
+      anchor: help-nacos
+      virtual_path: docs/help/nacos/index.md
+    - title: RabbitMQ Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/rabbitmq/
+      anchor: help-rabbitmq
+      virtual_path: docs/help/rabbitmq/index.md
+    - title: Apache RocketMQ
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/rocketmq/
+      anchor: help-rocketmq
+      virtual_path: docs/help/rocketmq/index.md
+    - title: Apache ShenYu
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/shenyu/
+      anchor: help-shenyu
+      virtual_path: docs/help/shenyu/index.md
+    - title: Spring Cloud Gateway
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/spring_gateway/
+      anchor: help-spring_gateway
+      virtual_path: docs/help/spring_gateway/index.md
+    - title: Zookeeper Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/zookeeper/
+      anchor: help-zookeeper
+      virtual_path: docs/help/zookeeper/index.md
+    - title: Apollo Configuration Center
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/apollo/
+      anchor: help-apollo
+      virtual_path: docs/help/apollo/index.md
+  - title: Bigdata Monitor
+    kind: category
+    source_url: https://hertzbeat.apache.org/docs/help/airflow/
+    anchor: help-airflow
+    virtual_path: docs/help/airflow/index.md
+    children:
+    - title: Apache Airflow
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/airflow/
+      anchor: help-airflow
+      virtual_path: docs/help/airflow/index.md
+    - title: HbaseMaster Monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/hbase_master/
+      anchor: help-hbase_master
+      virtual_path: docs/help/hbase_master/index.md
+    - title: HBase RegionServer Monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/hbase_regionserver/
+      anchor: help-hbase_regionserver
+      virtual_path: docs/help/hbase_regionserver/index.md
+    - title: Apache HDFS DataNode
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/hdfs_datanode/
+      anchor: help-hdfs_datanode
+      virtual_path: docs/help/hdfs_datanode/index.md
+    - title: Apache HDFS NameNode
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/hdfs_namenode/
+      anchor: help-hdfs_namenode
+      virtual_path: docs/help/hdfs_namenode/index.md
+    - title: Apache HugeGraph
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/hugegraph/
+      anchor: help-hugegraph
+      virtual_path: docs/help/hugegraph/index.md
+    - title: Apache Hadoop
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/hadoop/
+      anchor: help-hadoop
+      virtual_path: docs/help/hadoop/index.md
+    - title: Apache Hive
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/hive/
+      anchor: help-hive
+      virtual_path: docs/help/hive/index.md
+    - title: Apache Iceberg
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/iceberg/
+      anchor: help-iceberg
+      virtual_path: docs/help/iceberg/index.md
+    - title: ClickHouse Database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/clickhouse/
+      anchor: help-clickhouse
+      virtual_path: docs/help/clickhouse/index.md
+    - title: DORIS Database BE
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/doris_be/
+      anchor: help-doris_be
+      virtual_path: docs/help/doris_be/index.md
+    - title: DORIS Database FE
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/doris_fe/
+      anchor: help-doris_fe
+      virtual_path: docs/help/doris_fe/index.md
+    - title: StarRocks Database BE
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/starrocks_be/
+      anchor: help-starrocks_be
+      virtual_path: docs/help/starrocks_be/index.md
+    - title: StarRocks Database FE
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/starrocks_fe/
+      anchor: help-starrocks_fe
+      virtual_path: docs/help/starrocks_fe/index.md
+    - title: ElasticSearch
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/elasticsearch/
+      anchor: help-elasticsearch
+      virtual_path: docs/help/elasticsearch/index.md
+    - title: Flink
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/flink/
+      anchor: help-flink
+      virtual_path: docs/help/flink/index.md
+    - title: Flink On Yarn Monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/flink_on_yarn/
+      anchor: help-flink_on_yarn
+      virtual_path: docs/help/flink_on_yarn/index.md
+    - title: InfluxDB Database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/influxdb/
+      anchor: help-influxdb
+      virtual_path: docs/help/influxdb/index.md
+    - title: IoTDB Database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/iotdb/
+      anchor: help-iotdb
+      virtual_path: docs/help/iotdb/index.md
+    - title: PrestoDB Database
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/presto/
+      anchor: help-presto
+      virtual_path: docs/help/presto/index.md
+    - title: SeaTunnel
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/seatunnel/
+      anchor: help-seatunnel
+      virtual_path: docs/help/seatunnel/index.md
+    - title: Spark Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/spark/
+      anchor: help-spark
+      virtual_path: docs/help/spark/index.md
+    - title: Apache Yarn
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/yarn/
+      anchor: help-yarn
+      virtual_path: docs/help/yarn/index.md
+    - title: Apache DolphinScheduler
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/dolphinscheduler/
+      anchor: help-dolphinscheduler
+      virtual_path: docs/help/dolphinscheduler/index.md
+  - title: WebServer Monitor
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/tomcat/
+    anchor: help-tomcat
+    virtual_path: docs/help/tomcat/index.md
+    children:
+    - title: Apache Tomcat
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/tomcat/
+      anchor: help-tomcat
+      virtual_path: docs/help/tomcat/index.md
+    - title: Jetty Web Server
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/jetty/
+      anchor: help-jetty
+      virtual_path: docs/help/jetty/index.md
+  - title: CloudNative Monitor
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/docker/
+    anchor: help-docker
+    virtual_path: docs/help/docker/index.md
+    children:
+    - title: Docker Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/docker/
+      anchor: help-docker
+      virtual_path: docs/help/docker/index.md
+    - title: Kubernetes Monitor
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/kubernetes/
+      anchor: help-kubernetes
+      virtual_path: docs/help/kubernetes/index.md
+  - title: AI LLM Monitor
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/openai/
+    anchor: help-openai
+    virtual_path: docs/help/openai/index.md
+    children:
+    - title: OpenAI Account Status
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/openai/
+      anchor: help-openai
+      virtual_path: docs/help/openai/index.md
+    - title: Deepseek Account Status
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/deepseek/
+      anchor: help-deepseek
+      virtual_path: docs/help/deepseek/index.md
+  - title: Network Monitor
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/huawei_switch/
+    anchor: help-huawei_switch
+    virtual_path: docs/help/huawei_switch/index.md
+    children:
+    - title: Huawei switch
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/huawei_switch/
+      anchor: help-huawei_switch
+      virtual_path: docs/help/huawei_switch/index.md
+  - title: Custom
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/kafka_promql/
+    anchor: help-kafka_promql
+    virtual_path: docs/help/kafka_promql/index.md
+    children:
+    - title: Kafka-PromQL
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/kafka_promql/
+      anchor: help-kafka_promql
+      virtual_path: docs/help/kafka_promql/index.md
+    - title: InfluxDB-PromQL
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/influxdb_promql/
+      anchor: help-influxdb_promql
+      virtual_path: docs/help/influxdb_promql/index.md
+    - title: TDengine-PromQL
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/help/tdengine_promql/
+      anchor: help-tdengine_promql
+      virtual_path: docs/help/tdengine_promql/index.md
+  - title: Status Page
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/status/
+    anchor: help-status
+    virtual_path: docs/help/status/index.md
+  - title: Customized bulletins
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/bulletin/
+    anchor: help-bulletin
+    virtual_path: docs/help/bulletin/index.md
+  - title: Custom plugin(Beta)
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/plugin/
+    anchor: help-plugin
+    virtual_path: docs/help/plugin/index.md
+  - title: Time Expression
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/time_expression/
+    anchor: help-time_expression
+    virtual_path: docs/help/time_expression/index.md
+  - title: Grafana Historical Charts
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/grafana_dashboard/
+    anchor: help-grafana_dashboard
+    virtual_path: docs/help/grafana_dashboard/index.md
+  - title: Collector
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/collector/
+    anchor: help-collector
+    virtual_path: docs/help/collector/index.md
+  - title: RISC-V
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/risc-v/
+    anchor: help-risc-v
+    virtual_path: docs/help/risc-v/index.md
+  - title: Common issues
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/issue/
+    anchor: help-issue
+    virtual_path: docs/help/issue/index.md
+- title: Custom
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/advanced/extend-point/
+  anchor: advanced-extend-point
+  virtual_path: docs/advanced/extend-point/index.md
+  children:
+  - title: Custom Monitoring
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/advanced/extend-point/
+    anchor: advanced-extend-point
+    virtual_path: docs/advanced/extend-point/index.md
+  - title: Tutorial Case
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/advanced/extend-tutorial/
+    anchor: advanced-extend-tutorial
+    virtual_path: docs/advanced/extend-tutorial/index.md
+  - title: HTTP Protocol
+    kind: category
+    source_url: https://hertzbeat.apache.org/docs/advanced/extend-http/
+    anchor: advanced-extend-http
+    virtual_path: docs/advanced/extend-http/index.md
+    children:
+    - title: HTTP Protocol Custom Monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-http/
+      anchor: advanced-extend-http
+      virtual_path: docs/advanced/extend-http/index.md
+    - title: Default Parsing Method
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-http-default/
+      anchor: advanced-extend-http-default
+      virtual_path: docs/advanced/extend-http-default/index.md
+    - title: JsonPath Parsing Method
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-http-jsonpath/
+      anchor: advanced-extend-http-jsonpath
+      virtual_path: docs/advanced/extend-http-jsonpath/index.md
+    - title: XmlPath Parsing Method
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-http-xmlpath/
+      anchor: advanced-extend-http-xmlpath
+      virtual_path: docs/advanced/extend-http-xmlpath/index.md
+    - title: Tutorial 1 Adapting an HTTP protocol monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-http-example-hertzbeat/
+      anchor: advanced-extend-http-example-hertzbeat
+      virtual_path: docs/advanced/extend-http-example-hertzbeat/index.md
+    - title: Tutorial 2 Get TOKEN for subsequent authentication
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-http-example-token/
+      anchor: advanced-extend-http-example-token
+      virtual_path: docs/advanced/extend-http-example-token/index.md
+  - title: JDBC Protocol
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/advanced/extend-jdbc/
+    anchor: advanced-extend-jdbc
+    virtual_path: docs/advanced/extend-jdbc/index.md
+    children:
+    - title: JDBC Protocol Custom Monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-jdbc/
+      anchor: advanced-extend-jdbc
+      virtual_path: docs/advanced/extend-jdbc/index.md
+  - title: SSH Protocol
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/advanced/extend-ssh/
+    anchor: advanced-extend-ssh
+    virtual_path: docs/advanced/extend-ssh/index.md
+    children:
+    - title: SSH Protocol Custom Monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-ssh/
+      anchor: advanced-extend-ssh
+      virtual_path: docs/advanced/extend-ssh/index.md
+  - title: TELNET Protocol
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/advanced/extend-telnet/
+    anchor: advanced-extend-telnet
+    virtual_path: docs/advanced/extend-telnet/index.md
+    children:
+    - title: Telnet Protocol Custom Monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-telnet/
+      anchor: advanced-extend-telnet
+      virtual_path: docs/advanced/extend-telnet/index.md
+  - title: JMX Protocol
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/advanced/extend-jmx/
+    anchor: advanced-extend-jmx
+    virtual_path: docs/advanced/extend-jmx/index.md
+    children:
+    - title: JMX Protocol Custom Monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-jmx/
+      anchor: advanced-extend-jmx
+      virtual_path: docs/advanced/extend-jmx/index.md
+  - title: SNMP Protocol
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/advanced/extend-snmp/
+    anchor: advanced-extend-snmp
+    virtual_path: docs/advanced/extend-snmp/index.md
+    children:
+    - title: SNMP Protocol Custom Monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-snmp/
+      anchor: advanced-extend-snmp
+      virtual_path: docs/advanced/extend-snmp/index.md
+  - title: NGQL
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/advanced/extend-ngql/
+    anchor: advanced-extend-ngql
+    virtual_path: docs/advanced/extend-ngql/index.md
+    children:
+    - title: NGQL Custom Monitoring
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/advanced/extend-ngql/
+      anchor: advanced-extend-ngql
+      virtual_path: docs/advanced/extend-ngql/index.md
+- title: Monitoring Template
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/template/
+  anchor: template
+  virtual_path: docs/template/index.md
+- title: Community
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/community/maturity/
+  anchor: community-maturity
+  virtual_path: docs/community/maturity/index.md
+  children:
+  - title: Maturity
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/community/maturity/
+    anchor: community-maturity
+    virtual_path: docs/community/maturity/index.md
+  - title: Discussion
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/community/contact/
+    anchor: community-contact
+    virtual_path: docs/community/contact/index.md
+  - title: Development
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/community/development/
+    anchor: community-development
+    virtual_path: docs/community/development/index.md
+  - title: Contribution Guide
+    kind: category
+    source_url: https://hertzbeat.apache.org/docs/community/contribution/
+    anchor: community-contribution
+    virtual_path: docs/community/contribution/index.md
+    children:
+    - title: Contributor Guide
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/community/contribution/
+      anchor: community-contribution
+      virtual_path: docs/community/contribution/index.md
+    - title: Mailing Lists
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/community/mailing_lists/
+      anchor: community-mailing_lists
+      virtual_path: docs/community/mailing_lists/index.md
+    - title: Become A Committer
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/community/become_committer/
+      anchor: community-become_committer
+      virtual_path: docs/community/become_committer/index.md
+    - title: Become A new PMC member
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/community/become_pmc_member/
+      anchor: community-become_pmc_member
+      virtual_path: docs/community/become_pmc_member/index.md
+    - title: New Committer Process
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/community/new_committer_process/
+      anchor: community-new_committer_process
+      virtual_path: docs/community/new_committer_process/index.md
+    - title: new PMC Member Process
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/community/new_pmc_ember_process/
+      anchor: community-new_pmc_ember_process
+      virtual_path: docs/community/new_pmc_ember_process/index.md
+  - title: Submit Guide
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/community/document/
+    anchor: community-document
+    virtual_path: docs/community/document/index.md
+    children:
+    - title: Documentation Notice
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/community/document/
+      anchor: community-document
+      virtual_path: docs/community/document/index.md
+    - title: Submit Code
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/community/submit_code/
+      anchor: community-submit_code
+      virtual_path: docs/community/submit_code/index.md
+    - title: Code style and quality guide
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/community/code_style_and_quality_guide/
+      anchor: community-code_style_and_quality_guide
+      virtual_path: docs/community/code_style_and_quality_guide/index.md
+  - title: Release Guide
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/community/how_to_release/
+    anchor: community-how_to_release
+    virtual_path: docs/community/how_to_release/index.md
+    children:
+    - title: How to Release
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/community/how_to_release/
+      anchor: community-how_to_release
+      virtual_path: docs/community/how_to_release/index.md
+    - title: How to Verify Release
+      kind: link
+      source_url: https://hertzbeat.apache.org/docs/community/how_to_verify_release/
+      anchor: community-how_to_verify_release
+      virtual_path: docs/community/how_to_verify_release/index.md
+- title: Others
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/others/resource/
+  anchor: others-resource
+  virtual_path: docs/others/resource/index.md
+- title: Docs
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Download
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/download/
+  anchor: download
+  virtual_path: docs/download/index.md
+- title: Contact Discuss
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/community/contact/
+  anchor: community-contact
+  virtual_path: docs/community/contact/index.md
+- title: Join Mailing Lists
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/community/mailing_lists/
+  anchor: community-mailing_lists
+  virtual_path: docs/community/mailing_lists/index.md
+- title: Become Committer
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/community/become_committer/
+  anchor: community-become_committer
+  virtual_path: docs/community/become_committer/index.md
+- title: Become Pmc Member
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/community/become_pmc_member/
+  anchor: community-become_pmc_member
+  virtual_path: docs/community/become_pmc_member/index.md
+- title: Security
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/help/security_model/
+  anchor: help-security_model
+  virtual_path: docs/help/security_model/index.md
+- title: Resource
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/others/resource/
+  anchor: others-resource
+  virtual_path: docs/others/resource/index.md
+- title: 1.8.0
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/template/
+  anchor: template
+  virtual_path: docs/template/index.md
+- title: English
+  kind: link
+  source_url: https://hertzbeat.apache.org/docs/template/
+  anchor: template
+  virtual_path: docs/template/index.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Dell iDRAC Monitoring
+    kind: link
+    source_url: https://hertzbeat.apache.org/docs/help/idrac/
+    anchor: help-idrac
+    virtual_path: docs/help/idrac/index.md

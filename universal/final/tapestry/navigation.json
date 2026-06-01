@@ -1,0 +1,2326 @@
+[
+  {
+    "title": "All Topics",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Introduction",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/introduction.html",
+        "anchor": "introduction",
+        "virtual_path": "docs/introduction.md"
+      },
+      {
+        "title": "Getting Started",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/getting-started.html",
+        "anchor": "getting-started",
+        "virtual_path": "docs/getting-started.md"
+      },
+      {
+        "title": "Principles",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/principles.html",
+        "anchor": "principles",
+        "virtual_path": "docs/principles.md"
+      },
+      {
+        "title": "Tapestry Tutorial",
+        "kind": "category",
+        "source_url": "https://tapestry.apache.org/tapestry-tutorial.html",
+        "anchor": "tapestry-tutorial",
+        "virtual_path": "docs/tapestry-tutorial.md",
+        "children": [
+          {
+            "title": "Dependencies, Tools and Plugins",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/dependencies-tools-and-plugins.html",
+            "anchor": "dependencies-tools-and-plugins",
+            "virtual_path": "docs/dependencies-tools-and-plugins.md"
+          },
+          {
+            "title": "Creating The Skeleton Application",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/creating-the-skeleton-application.html",
+            "anchor": "creating-the-skeleton-application",
+            "virtual_path": "docs/creating-the-skeleton-application.md"
+          },
+          {
+            "title": "Exploring the Project",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/exploring-the-project.html",
+            "anchor": "exploring-the-project",
+            "virtual_path": "docs/exploring-the-project.md"
+          },
+          {
+            "title": "Implementing the Hi-Lo Guessing Game",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/implementing-the-hi-lo-guessing-game.html",
+            "anchor": "implementing-the-hi-lo-guessing-game",
+            "virtual_path": "docs/implementing-the-hi-lo-guessing-game.md"
+          },
+          {
+            "title": "Using BeanEditForm To Create User Forms",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/using-beaneditform-to-create-user-forms.html",
+            "anchor": "using-beaneditform-to-create-user-forms",
+            "virtual_path": "docs/using-beaneditform-to-create-user-forms.md"
+          },
+          {
+            "title": "Using Tapestry With Hibernate",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/using-tapestry-with-hibernate.html",
+            "anchor": "using-tapestry-with-hibernate",
+            "virtual_path": "docs/using-tapestry-with-hibernate.md"
+          }
+        ]
+      },
+      {
+        "title": "User Guide",
+        "kind": "category",
+        "source_url": "https://tapestry.apache.org/user-guide.html",
+        "anchor": "user-guide",
+        "virtual_path": "docs/user-guide.md",
+        "children": [
+          {
+            "title": "Supported Environments and Versions",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/supported-environments-and-versions.html",
+            "anchor": "supported-environments-and-versions",
+            "virtual_path": "docs/supported-environments-and-versions.md"
+          },
+          {
+            "title": "Project Layout",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/project-layout.html",
+            "anchor": "project-layout",
+            "virtual_path": "docs/project-layout.md"
+          },
+          {
+            "title": "Configuration",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/configuration.html",
+            "anchor": "configuration",
+            "virtual_path": "docs/configuration.md"
+          },
+          {
+            "title": "Runtime Exceptions",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/runtime-exceptions.html",
+            "anchor": "runtime-exceptions",
+            "virtual_path": "docs/runtime-exceptions.md"
+          },
+          {
+            "title": "Class Reloading",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/class-reloading.html",
+            "anchor": "class-reloading",
+            "virtual_path": "docs/class-reloading.md"
+          },
+          {
+            "title": "Component Reference",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/component-reference.html",
+            "anchor": "component-reference",
+            "virtual_path": "docs/component-reference.md"
+          },
+          {
+            "title": "Annotations",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/annotations.html",
+            "anchor": "annotations",
+            "virtual_path": "docs/annotations.md"
+          },
+          {
+            "title": "Component Classes",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/component-classes.html",
+            "anchor": "component-classes",
+            "virtual_path": "docs/component-classes.md"
+          },
+          {
+            "title": "Component Templates",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/component-templates.html",
+            "anchor": "component-templates",
+            "virtual_path": "docs/component-templates.md"
+          },
+          {
+            "title": "Property Expressions",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/property-expressions.html",
+            "anchor": "property-expressions",
+            "virtual_path": "docs/property-expressions.md"
+          },
+          {
+            "title": "Component Parameters",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/component-parameters.html",
+            "anchor": "component-parameters",
+            "virtual_path": "docs/component-parameters.md"
+          },
+          {
+            "title": "Parameter Type Coercion",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/parameter-type-coercion.html",
+            "anchor": "parameter-type-coercion",
+            "virtual_path": "docs/parameter-type-coercion.md"
+          },
+          {
+            "title": "Layout Component",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/layout-component.html",
+            "anchor": "layout-component",
+            "virtual_path": "docs/layout-component.md"
+          },
+          {
+            "title": "Component Mixins",
+            "kind": "category",
+            "source_url": "https://tapestry.apache.org/component-mixins.html",
+            "anchor": "component-mixins",
+            "virtual_path": "docs/component-mixins.md",
+            "children": [
+              {
+                "title": "Built-in Mixins",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/built-in-mixins.html",
+                "anchor": "built-in-mixins",
+                "virtual_path": "docs/built-in-mixins.md"
+              }
+            ]
+          },
+          {
+            "title": "Page Navigation",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/page-navigation.html",
+            "anchor": "page-navigation",
+            "virtual_path": "docs/page-navigation.md"
+          },
+          {
+            "title": "Localization",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/localization.html",
+            "anchor": "localization",
+            "virtual_path": "docs/localization.md"
+          },
+          {
+            "title": "Page Life Cycle",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/page-life-cycle.html",
+            "anchor": "page-life-cycle",
+            "virtual_path": "docs/page-life-cycle.md"
+          },
+          {
+            "title": "Request Processing",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/request-processing.html",
+            "anchor": "request-processing",
+            "virtual_path": "docs/request-processing.md"
+          },
+          {
+            "title": "Component Rendering",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/component-rendering.html",
+            "anchor": "component-rendering",
+            "virtual_path": "docs/component-rendering.md"
+          },
+          {
+            "title": "Component Events",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/component-events.html",
+            "anchor": "component-events",
+            "virtual_path": "docs/component-events.md"
+          },
+          {
+            "title": "URL rewriting",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/url-rewriting.html",
+            "anchor": "url-rewriting",
+            "virtual_path": "docs/url-rewriting.md"
+          },
+          {
+            "title": "DOM",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/dom.html",
+            "anchor": "dom",
+            "virtual_path": "docs/dom.md"
+          },
+          {
+            "title": "Response Compression",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/response-compression.html",
+            "anchor": "response-compression",
+            "virtual_path": "docs/response-compression.md"
+          },
+          {
+            "title": "Security",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/security.html",
+            "anchor": "security",
+            "virtual_path": "docs/security.md"
+          },
+          {
+            "title": "HTTPS",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/https.html",
+            "anchor": "https",
+            "virtual_path": "docs/https.md"
+          },
+          {
+            "title": "Content Type and Markup",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/content-type-and-markup.html",
+            "anchor": "content-type-and-markup",
+            "virtual_path": "docs/content-type-and-markup.md"
+          },
+          {
+            "title": "Persistent Page Data",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/persistent-page-data.html",
+            "anchor": "persistent-page-data",
+            "virtual_path": "docs/persistent-page-data.md"
+          },
+          {
+            "title": "Session Storage",
+            "kind": "category",
+            "source_url": "https://tapestry.apache.org/session-storage.html",
+            "anchor": "session-storage",
+            "virtual_path": "docs/session-storage.md",
+            "children": [
+              {
+                "title": "Clustering Issues",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/clustering-issues.html",
+                "anchor": "clustering-issues",
+                "virtual_path": "docs/clustering-issues.md"
+              }
+            ]
+          },
+          {
+            "title": "Injection",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/injection.html",
+            "anchor": "injection",
+            "virtual_path": "docs/injection.md"
+          },
+          {
+            "title": "Environmental Services",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/environmental-services.html",
+            "anchor": "environmental-services",
+            "virtual_path": "docs/environmental-services.md"
+          },
+          {
+            "title": "CSS",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/css.html",
+            "anchor": "css",
+            "virtual_path": "docs/css.md"
+          },
+          {
+            "title": "Assets",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/assets.html",
+            "anchor": "assets",
+            "virtual_path": "docs/assets.md"
+          },
+          {
+            "title": "Forms and Validation",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/forms-and-validation.html",
+            "anchor": "forms-and-validation",
+            "virtual_path": "docs/forms-and-validation.md"
+          },
+          {
+            "title": "BeanEditForm Guide",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/beaneditform-guide.html",
+            "anchor": "beaneditform-guide",
+            "virtual_path": "docs/beaneditform-guide.md"
+          },
+          {
+            "title": "Uploading Files",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/uploading-files.html",
+            "anchor": "uploading-files",
+            "virtual_path": "docs/uploading-files.md"
+          },
+          {
+            "title": "Logging",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/logging.html",
+            "anchor": "logging",
+            "virtual_path": "docs/logging.md"
+          },
+          {
+            "title": "Unit testing pages or components",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/unit-testing-pages-or-components.html",
+            "anchor": "unit-testing-pages-or-components",
+            "virtual_path": "docs/unit-testing-pages-or-components.md"
+          },
+          {
+            "title": "Integration Testing",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/integration-testing.html",
+            "anchor": "integration-testing",
+            "virtual_path": "docs/integration-testing.md"
+          },
+          {
+            "title": "Development Dashboard",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/development-dashboard.html",
+            "anchor": "development-dashboard",
+            "virtual_path": "docs/development-dashboard.md"
+          },
+          {
+            "title": "Modules",
+            "kind": "category",
+            "source_url": "https://tapestry.apache.org/modules.html",
+            "anchor": "modules",
+            "virtual_path": "docs/modules.md",
+            "children": [
+              {
+                "title": "Built In Modules",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/built-in-modules.html",
+                "anchor": "built-in-modules",
+                "virtual_path": "docs/built-in-modules.md"
+              },
+              {
+                "title": "Third Party Modules",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/third-party-modules.html",
+                "anchor": "third-party-modules",
+                "virtual_path": "docs/third-party-modules.md"
+              }
+            ]
+          },
+          {
+            "title": "IOC",
+            "kind": "category",
+            "source_url": "https://tapestry.apache.org/ioc.html",
+            "anchor": "ioc",
+            "virtual_path": "docs/ioc.md",
+            "children": [
+              {
+                "title": "Tapestry IoC Overview",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/tapestry-ioc-overview.html",
+                "anchor": "tapestry-ioc-overview",
+                "virtual_path": "docs/tapestry-ioc-overview.md"
+              },
+              {
+                "title": "Tapestry IoC Modules",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/tapestry-ioc-modules.html",
+                "anchor": "tapestry-ioc-modules",
+                "virtual_path": "docs/tapestry-ioc-modules.md"
+              },
+              {
+                "title": "Defining Tapestry IOC Services",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/defining-tapestry-ioc-services.html",
+                "anchor": "defining-tapestry-ioc-services",
+                "virtual_path": "docs/defining-tapestry-ioc-services.md"
+              },
+              {
+                "title": "Service Advisors",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/service-advisors.html",
+                "anchor": "service-advisors",
+                "virtual_path": "docs/service-advisors.md"
+              },
+              {
+                "title": "Tapestry IoC Decorators",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/tapestry-ioc-decorators.html",
+                "anchor": "tapestry-ioc-decorators",
+                "virtual_path": "docs/tapestry-ioc-decorators.md"
+              },
+              {
+                "title": "Tapestry IoC Configuration",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/tapestry-ioc-configuration.html",
+                "anchor": "tapestry-ioc-configuration",
+                "virtual_path": "docs/tapestry-ioc-configuration.md"
+              },
+              {
+                "title": "Case Insensitivity",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/case-insensitivity.html",
+                "anchor": "case-insensitivity",
+                "virtual_path": "docs/case-insensitivity.md"
+              },
+              {
+                "title": "Autoloading Modules",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/autoloading-modules.html",
+                "anchor": "autoloading-modules",
+                "virtual_path": "docs/autoloading-modules.md"
+              },
+              {
+                "title": "Service Implementation Reloading",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/service-implementation-reloading.html",
+                "anchor": "service-implementation-reloading",
+                "virtual_path": "docs/service-implementation-reloading.md"
+              },
+              {
+                "title": "Ordering by Constraints",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/ordering-by-constraints.html",
+                "anchor": "ordering-by-constraints",
+                "virtual_path": "docs/ordering-by-constraints.md"
+              },
+              {
+                "title": "Symbols",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/symbols.html",
+                "anchor": "symbols",
+                "virtual_path": "docs/symbols.md"
+              },
+              {
+                "title": "ChainBuilder Service",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/chainbuilder-service.html",
+                "anchor": "chainbuilder-service",
+                "virtual_path": "docs/chainbuilder-service.md"
+              },
+              {
+                "title": "PipelineBuilder Service",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/pipelinebuilder-service.html",
+                "anchor": "pipelinebuilder-service",
+                "virtual_path": "docs/pipelinebuilder-service.md"
+              },
+              {
+                "title": "ShadowBuilder Service",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/shadowbuilder-service.html",
+                "anchor": "shadowbuilder-service",
+                "virtual_path": "docs/shadowbuilder-service.md"
+              },
+              {
+                "title": "StrategyBuilder Service",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/strategybuilder-service.html",
+                "anchor": "strategybuilder-service",
+                "virtual_path": "docs/strategybuilder-service.md"
+              },
+              {
+                "title": "Injection in Detail",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/injection-in-detail.html",
+                "anchor": "injection-in-detail",
+                "virtual_path": "docs/injection-in-detail.md"
+              },
+              {
+                "title": "Object Providers",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/object-providers.html",
+                "anchor": "object-providers",
+                "virtual_path": "docs/object-providers.md"
+              },
+              {
+                "title": "Service Serialization",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/service-serialization.html",
+                "anchor": "service-serialization",
+                "virtual_path": "docs/service-serialization.md"
+              },
+              {
+                "title": "Type Coercion",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/type-coercion.html",
+                "anchor": "type-coercion",
+                "virtual_path": "docs/type-coercion.md"
+              },
+              {
+                "title": "Starting the IoC Registry",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/starting-the-ioc-registry.html",
+                "anchor": "starting-the-ioc-registry",
+                "virtual_path": "docs/starting-the-ioc-registry.md"
+              },
+              {
+                "title": "Registry Startup",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/registry-startup.html",
+                "anchor": "registry-startup",
+                "virtual_path": "docs/registry-startup.md"
+              },
+              {
+                "title": "Parallel Execution",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/parallel-execution.html",
+                "anchor": "parallel-execution",
+                "virtual_path": "docs/parallel-execution.md"
+              },
+              {
+                "title": "Logging in Tapestry",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/logging-in-tapestry.html",
+                "anchor": "logging-in-tapestry",
+                "virtual_path": "docs/logging-in-tapestry.md"
+              },
+              {
+                "title": "Using JSR 330 standard annotations",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/using-jsr-330-standard-annotations.html",
+                "anchor": "using-jsr-330-standard-annotations",
+                "virtual_path": "docs/using-jsr-330-standard-annotations.md"
+              },
+              {
+                "title": "Operation Tracker",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/operation-tracker.html",
+                "anchor": "operation-tracker",
+                "virtual_path": "docs/operation-tracker.md"
+              }
+            ]
+          },
+          {
+            "title": "Hibernate - Core",
+            "kind": "category",
+            "source_url": "https://tapestry.apache.org/hibernate-core.html",
+            "anchor": "hibernate-core",
+            "virtual_path": "docs/hibernate-core.md",
+            "children": [
+              {
+                "title": "Hibernate - Core - Conf",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/hibernate-core-conf.html",
+                "anchor": "hibernate-core-conf",
+                "virtual_path": "docs/hibernate-core-conf.md"
+              },
+              {
+                "title": "Hibernate",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/hibernate.html",
+                "anchor": "hibernate",
+                "virtual_path": "docs/hibernate.md"
+              },
+              {
+                "title": "Hibernate User Guide",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/hibernate-user-guide.html",
+                "anchor": "hibernate-user-guide",
+                "virtual_path": "docs/hibernate-user-guide.md"
+              }
+            ]
+          },
+          {
+            "title": "Integrating with Spring Framework",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/integrating-with-spring-framework.html",
+            "anchor": "integrating-with-spring-framework",
+            "virtual_path": "docs/integrating-with-spring-framework.md"
+          },
+          {
+            "title": "Bean Validation",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/bean-validation.html",
+            "anchor": "bean-validation",
+            "virtual_path": "docs/bean-validation.md"
+          },
+          {
+            "title": "Component Report",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/component-report.html",
+            "anchor": "component-report",
+            "virtual_path": "docs/component-report.md"
+          },
+          {
+            "title": "Aliases",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/aliases.html",
+            "anchor": "aliases",
+            "virtual_path": "docs/aliases.md"
+          },
+          {
+            "title": "Integrating with JPA",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/integrating-with-jpa.html",
+            "anchor": "integrating-with-jpa",
+            "virtual_path": "docs/integrating-with-jpa.md"
+          },
+          {
+            "title": "Client-Side JavaScript",
+            "kind": "category",
+            "source_url": "https://tapestry.apache.org/client-side-javascript.html",
+            "anchor": "client-side-javascript",
+            "virtual_path": "docs/client-side-javascript.md",
+            "children": [
+              {
+                "title": "JavaScript Modules",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/javascript-modules.html",
+                "anchor": "javascript-modules",
+                "virtual_path": "docs/javascript-modules.md"
+              },
+              {
+                "title": "CoffeeScript",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/coffeescript.html",
+                "anchor": "coffeescript",
+                "virtual_path": "docs/coffeescript.md"
+              },
+              {
+                "title": "TypeScript",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/typescript.html",
+                "anchor": "typescript",
+                "virtual_path": "docs/typescript.md"
+              },
+              {
+                "title": "Legacy JavaScript",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/legacy-javascript.html",
+                "anchor": "legacy-javascript",
+                "virtual_path": "docs/legacy-javascript.md"
+              },
+              {
+                "title": "Ajax and Zones",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/ajax-and-zones.html",
+                "anchor": "ajax-and-zones",
+                "virtual_path": "docs/ajax-and-zones.md"
+              }
+            ]
+          },
+          {
+            "title": "REST Support (5.8.0+)",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/rest-support-580.html",
+            "anchor": "rest-support-580",
+            "virtual_path": "docs/rest-support-580.md"
+          },
+          {
+            "title": "CORS (Cross-Origin Resource Sharing) Support (5.8.2+)",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/cors-cross-origin-resource-sharing-support-582.html",
+            "anchor": "cors-cross-origin-resource-sharing-support-582",
+            "virtual_path": "docs/cors-cross-origin-resource-sharing-support-582.md"
+          }
+        ]
+      },
+      {
+        "title": "Cheat Sheets",
+        "kind": "category",
+        "source_url": "https://tapestry.apache.org/cheat-sheets.html",
+        "anchor": "cheat-sheets",
+        "virtual_path": "docs/cheat-sheets.md",
+        "children": [
+          {
+            "title": "Application Module Class Cheat Sheet",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/application-module-class-cheat-sheet.html",
+            "anchor": "application-module-class-cheat-sheet",
+            "virtual_path": "docs/application-module-class-cheat-sheet.md"
+          },
+          {
+            "title": "Component Cheat Sheet",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/component-cheat-sheet.html",
+            "anchor": "component-cheat-sheet",
+            "virtual_path": "docs/component-cheat-sheet.md"
+          },
+          {
+            "title": "Tapestry for JSF Users",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/tapestry-for-jsf-users.html",
+            "anchor": "tapestry-for-jsf-users",
+            "virtual_path": "docs/tapestry-for-jsf-users.md"
+          }
+        ]
+      },
+      {
+        "title": "Cookbook",
+        "kind": "category",
+        "source_url": "https://tapestry.apache.org/cookbook.html",
+        "anchor": "cookbook",
+        "virtual_path": "docs/cookbook.md",
+        "children": [
+          {
+            "title": "Default Parameter",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/default-parameter.html",
+            "anchor": "default-parameter",
+            "virtual_path": "docs/default-parameter.md"
+          },
+          {
+            "title": "Overriding Exception Reporting",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/overriding-exception-reporting.html",
+            "anchor": "overriding-exception-reporting",
+            "virtual_path": "docs/overriding-exception-reporting.md"
+          },
+          {
+            "title": "Error Page Recipe",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/error-page-recipe.html",
+            "anchor": "error-page-recipe",
+            "virtual_path": "docs/error-page-recipe.md"
+          },
+          {
+            "title": "Supporting Informal Parameters",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/supporting-informal-parameters.html",
+            "anchor": "supporting-informal-parameters",
+            "virtual_path": "docs/supporting-informal-parameters.md"
+          },
+          {
+            "title": "Component Libraries",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/component-libraries.html",
+            "anchor": "component-libraries",
+            "virtual_path": "docs/component-libraries.md"
+          },
+          {
+            "title": "Switching Cases",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/switching-cases.html",
+            "anchor": "switching-cases",
+            "virtual_path": "docs/switching-cases.md"
+          },
+          {
+            "title": "Enum Parameter Recipe",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/enum-parameter-recipe.html",
+            "anchor": "enum-parameter-recipe",
+            "virtual_path": "docs/enum-parameter-recipe.md"
+          },
+          {
+            "title": "Extending the If Component",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/extending-the-if-component.html",
+            "anchor": "extending-the-if-component",
+            "virtual_path": "docs/extending-the-if-component.md"
+          },
+          {
+            "title": "Meta-Programming Page Content",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/meta-programming-page-content.html",
+            "anchor": "meta-programming-page-content",
+            "virtual_path": "docs/meta-programming-page-content.md"
+          },
+          {
+            "title": "Using Select With a List",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/using-select-with-a-list.html",
+            "anchor": "using-select-with-a-list",
+            "virtual_path": "docs/using-select-with-a-list.md"
+          },
+          {
+            "title": "IoC cookbook",
+            "kind": "category",
+            "source_url": "https://tapestry.apache.org/ioc-cookbook.html",
+            "anchor": "ioc-cookbook",
+            "virtual_path": "docs/ioc-cookbook.md",
+            "children": [
+              {
+                "title": "IoC Cookbook - Basic Services and Injection",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/ioc-cookbook-basic-services-and-injection.html",
+                "anchor": "ioc-cookbook-basic-services-and-injection",
+                "virtual_path": "docs/ioc-cookbook-basic-services-and-injection.md"
+              },
+              {
+                "title": "IoC Cookbook - Overriding IoC Services",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/ioc-cookbook-overriding-ioc-services.html",
+                "anchor": "ioc-cookbook-overriding-ioc-services",
+                "virtual_path": "docs/ioc-cookbook-overriding-ioc-services.md"
+              },
+              {
+                "title": "IoC Cookbook - Patterns",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/ioc-cookbook-patterns.html",
+                "anchor": "ioc-cookbook-patterns",
+                "virtual_path": "docs/ioc-cookbook-patterns.md"
+              },
+              {
+                "title": "IoC cookbook - Service Configurations",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/ioc-cookbook-service-configurations.html",
+                "anchor": "ioc-cookbook-service-configurations",
+                "virtual_path": "docs/ioc-cookbook-service-configurations.md"
+              }
+            ]
+          },
+          {
+            "title": "Performance and Clustering",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/performance-and-clustering.html",
+            "anchor": "performance-and-clustering",
+            "virtual_path": "docs/performance-and-clustering.md"
+          },
+          {
+            "title": "Google App Engine",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/google-app-engine.html",
+            "anchor": "google-app-engine",
+            "virtual_path": "docs/google-app-engine.md"
+          }
+        ]
+      },
+      {
+        "title": "Frequently Asked Questions",
+        "kind": "category",
+        "source_url": "https://tapestry.apache.org/frequently-asked-questions.html",
+        "anchor": "frequently-asked-questions",
+        "virtual_path": "docs/frequently-asked-questions.md",
+        "children": [
+          {
+            "title": "General Questions",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/general-questions.html",
+            "anchor": "general-questions",
+            "virtual_path": "docs/general-questions.md"
+          },
+          {
+            "title": "Templating and Markup FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/templating-and-markup-faq.html",
+            "anchor": "templating-and-markup-faq",
+            "virtual_path": "docs/templating-and-markup-faq.md"
+          },
+          {
+            "title": "Page And Component Classes FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/page-and-component-classes-faq.html",
+            "anchor": "page-and-component-classes-faq",
+            "virtual_path": "docs/page-and-component-classes-faq.md"
+          },
+          {
+            "title": "Forms and Form Components FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/forms-and-form-components-faq.html",
+            "anchor": "forms-and-form-components-faq",
+            "virtual_path": "docs/forms-and-form-components-faq.md"
+          },
+          {
+            "title": "BeanEditForm FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/beaneditform-faq.html",
+            "anchor": "beaneditform-faq",
+            "virtual_path": "docs/beaneditform-faq.md"
+          },
+          {
+            "title": "Link Components FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/link-components-faq.html",
+            "anchor": "link-components-faq",
+            "virtual_path": "docs/link-components-faq.md"
+          },
+          {
+            "title": "Component Events FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/component-events-faq.html",
+            "anchor": "component-events-faq",
+            "virtual_path": "docs/component-events-faq.md"
+          },
+          {
+            "title": "JavaScript FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/javascript-faq.html",
+            "anchor": "javascript-faq",
+            "virtual_path": "docs/javascript-faq.md"
+          },
+          {
+            "title": "Ajax Components FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/ajax-components-faq.html",
+            "anchor": "ajax-components-faq",
+            "virtual_path": "docs/ajax-components-faq.md"
+          },
+          {
+            "title": "Injection FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/injection-faq.html",
+            "anchor": "injection-faq",
+            "virtual_path": "docs/injection-faq.md"
+          },
+          {
+            "title": "Tapestry Inversion of Control FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/tapestry-inversion-of-control-faq.html",
+            "anchor": "tapestry-inversion-of-control-faq",
+            "virtual_path": "docs/tapestry-inversion-of-control-faq.md"
+          },
+          {
+            "title": "Security FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/security-faq.html",
+            "anchor": "security-faq",
+            "virtual_path": "docs/security-faq.md"
+          },
+          {
+            "title": "Integration with existing applications",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/integration-with-existing-applications.html",
+            "anchor": "integration-with-existing-applications",
+            "virtual_path": "docs/integration-with-existing-applications.md"
+          },
+          {
+            "title": "Request Processing FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/request-processing-faq.html",
+            "anchor": "request-processing-faq",
+            "virtual_path": "docs/request-processing-faq.md"
+          },
+          {
+            "title": "Limitations",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/limitations.html",
+            "anchor": "limitations",
+            "virtual_path": "docs/limitations.md"
+          },
+          {
+            "title": "Specific Errors FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/specific-errors-faq.html",
+            "anchor": "specific-errors-faq",
+            "virtual_path": "docs/specific-errors-faq.md"
+          },
+          {
+            "title": "Hibernate Support FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/hibernate-support-faq.html",
+            "anchor": "hibernate-support-faq",
+            "virtual_path": "docs/hibernate-support-faq.md"
+          },
+          {
+            "title": "Maven Support FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/maven-support-faq.html",
+            "anchor": "maven-support-faq",
+            "virtual_path": "docs/maven-support-faq.md"
+          },
+          {
+            "title": "Release Upgrade FAQ",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-upgrade-faq.html",
+            "anchor": "release-upgrade-faq",
+            "virtual_path": "docs/release-upgrade-faq.md"
+          }
+        ]
+      },
+      {
+        "title": "Release Notes",
+        "kind": "category",
+        "source_url": "https://tapestry.apache.org/release-notes.html",
+        "anchor": "release-notes",
+        "virtual_path": "docs/release-notes.md",
+        "children": [
+          {
+            "title": "How to Upgrade",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/how-to-upgrade.html",
+            "anchor": "how-to-upgrade",
+            "virtual_path": "docs/how-to-upgrade.md"
+          },
+          {
+            "title": "Release Notes 5.0",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-50.html",
+            "anchor": "release-notes-50",
+            "virtual_path": "docs/release-notes-50.md"
+          },
+          {
+            "title": "Release Notes 5.1",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-51.html",
+            "anchor": "release-notes-51",
+            "virtual_path": "docs/release-notes-51.md"
+          },
+          {
+            "title": "Release Notes 5.2",
+            "kind": "category",
+            "source_url": "https://tapestry.apache.org/release-notes-52.html",
+            "anchor": "release-notes-52",
+            "virtual_path": "docs/release-notes-52.md",
+            "children": [
+              {
+                "title": "Release Notes 5.2.0",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/release-notes-520.html",
+                "anchor": "release-notes-520",
+                "virtual_path": "docs/release-notes-520.md"
+              },
+              {
+                "title": "Release Notes 5.2.1",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/release-notes-521.html",
+                "anchor": "release-notes-521",
+                "virtual_path": "docs/release-notes-521.md"
+              },
+              {
+                "title": "Release Notes 5.2.2",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/release-notes-522.html",
+                "anchor": "release-notes-522",
+                "virtual_path": "docs/release-notes-522.md"
+              },
+              {
+                "title": "Release Notes 5.2.3",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/release-notes-523.html",
+                "anchor": "release-notes-523",
+                "virtual_path": "docs/release-notes-523.md"
+              },
+              {
+                "title": "Release Notes 5.2.4",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/release-notes-524.html",
+                "anchor": "release-notes-524",
+                "virtual_path": "docs/release-notes-524.md"
+              },
+              {
+                "title": "Release Notes 5.2.5",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/release-notes-525.html",
+                "anchor": "release-notes-525",
+                "virtual_path": "docs/release-notes-525.md"
+              },
+              {
+                "title": "Release Notes 5.2.6",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/release-notes-526.html",
+                "anchor": "release-notes-526",
+                "virtual_path": "docs/release-notes-526.md"
+              }
+            ]
+          },
+          {
+            "title": "Release Notes 5.3",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-53.html",
+            "anchor": "release-notes-53",
+            "virtual_path": "docs/release-notes-53.md"
+          },
+          {
+            "title": "Release Notes 5.3.1",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-531.html",
+            "anchor": "release-notes-531",
+            "virtual_path": "docs/release-notes-531.md"
+          },
+          {
+            "title": "Release Notes 5.3.2",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-532.html",
+            "anchor": "release-notes-532",
+            "virtual_path": "docs/release-notes-532.md"
+          },
+          {
+            "title": "Release Notes 5.3.3",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-533.html",
+            "anchor": "release-notes-533",
+            "virtual_path": "docs/release-notes-533.md"
+          },
+          {
+            "title": "Release Notes 5.3.4",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-534.html",
+            "anchor": "release-notes-534",
+            "virtual_path": "docs/release-notes-534.md"
+          },
+          {
+            "title": "Release Notes 5.3.5",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-535.html",
+            "anchor": "release-notes-535",
+            "virtual_path": "docs/release-notes-535.md"
+          },
+          {
+            "title": "Release Notes 5.3.6",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-536.html",
+            "anchor": "release-notes-536",
+            "virtual_path": "docs/release-notes-536.md"
+          },
+          {
+            "title": "Release Notes 5.3.7",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-537.html",
+            "anchor": "release-notes-537",
+            "virtual_path": "docs/release-notes-537.md"
+          },
+          {
+            "title": "Release Notes 5.3.8",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-538.html",
+            "anchor": "release-notes-538",
+            "virtual_path": "docs/release-notes-538.md"
+          },
+          {
+            "title": "Release Notes 5.4",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-54.html",
+            "anchor": "release-notes-54",
+            "virtual_path": "docs/release-notes-54.md"
+          },
+          {
+            "title": "Release Notes 5.4.1",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-541.html",
+            "anchor": "release-notes-541",
+            "virtual_path": "docs/release-notes-541.md"
+          },
+          {
+            "title": "Release Notes 5.4.2",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-542.html",
+            "anchor": "release-notes-542",
+            "virtual_path": "docs/release-notes-542.md"
+          },
+          {
+            "title": "Release Notes 5.4.3",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-543.html",
+            "anchor": "release-notes-543",
+            "virtual_path": "docs/release-notes-543.md"
+          },
+          {
+            "title": "Release Notes 5.4.4",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-544.html",
+            "anchor": "release-notes-544",
+            "virtual_path": "docs/release-notes-544.md"
+          },
+          {
+            "title": "Release Notes 5.4.5",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-545.html",
+            "anchor": "release-notes-545",
+            "virtual_path": "docs/release-notes-545.md"
+          },
+          {
+            "title": "Release Notes 5.5.0",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-550.html",
+            "anchor": "release-notes-550",
+            "virtual_path": "docs/release-notes-550.md"
+          },
+          {
+            "title": "Release Notes 5.6.0",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-560.html",
+            "anchor": "release-notes-560",
+            "virtual_path": "docs/release-notes-560.md"
+          },
+          {
+            "title": "Release Notes 5.6.1",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-561.html",
+            "anchor": "release-notes-561",
+            "virtual_path": "docs/release-notes-561.md"
+          },
+          {
+            "title": "Release Notes 5.6.2",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-562.html",
+            "anchor": "release-notes-562",
+            "virtual_path": "docs/release-notes-562.md"
+          },
+          {
+            "title": "Release Notes 5.6.3",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-563.html",
+            "anchor": "release-notes-563",
+            "virtual_path": "docs/release-notes-563.md"
+          },
+          {
+            "title": "Release Notes 5.7.0",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-570.html",
+            "anchor": "release-notes-570",
+            "virtual_path": "docs/release-notes-570.md"
+          },
+          {
+            "title": "Release Notes 5.7.1",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-571.html",
+            "anchor": "release-notes-571",
+            "virtual_path": "docs/release-notes-571.md"
+          },
+          {
+            "title": "Release Notes 5.7.2",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-572.html",
+            "anchor": "release-notes-572",
+            "virtual_path": "docs/release-notes-572.md"
+          },
+          {
+            "title": "Release Notes 5.6.4",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-564.html",
+            "anchor": "release-notes-564",
+            "virtual_path": "docs/release-notes-564.md"
+          },
+          {
+            "title": "Release Notes 5.7.3",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-573.html",
+            "anchor": "release-notes-573",
+            "virtual_path": "docs/release-notes-573.md"
+          },
+          {
+            "title": "Release Notes 5.8.0",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-580.html",
+            "anchor": "release-notes-580",
+            "virtual_path": "docs/release-notes-580.md"
+          },
+          {
+            "title": "Release Notes 5.8.1",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-581.html",
+            "anchor": "release-notes-581",
+            "virtual_path": "docs/release-notes-581.md"
+          },
+          {
+            "title": "Release Notes 5.8.2",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-582.html",
+            "anchor": "release-notes-582",
+            "virtual_path": "docs/release-notes-582.md"
+          },
+          {
+            "title": "Release Notes 5.8.3",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-583.html",
+            "anchor": "release-notes-583",
+            "virtual_path": "docs/release-notes-583.md"
+          },
+          {
+            "title": "Release Notes 5.8.4",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-584.html",
+            "anchor": "release-notes-584",
+            "virtual_path": "docs/release-notes-584.md"
+          },
+          {
+            "title": "Release Notes 5.8.5",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-585.html",
+            "anchor": "release-notes-585",
+            "virtual_path": "docs/release-notes-585.md"
+          },
+          {
+            "title": "Release Notes 5.8.6",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-586.html",
+            "anchor": "release-notes-586",
+            "virtual_path": "docs/release-notes-586.md"
+          },
+          {
+            "title": "Release Notes 5.8.7",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-587.html",
+            "anchor": "release-notes-587",
+            "virtual_path": "docs/release-notes-587.md"
+          },
+          {
+            "title": "Release Notes 5.9.0",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-notes-590.html",
+            "anchor": "release-notes-590",
+            "virtual_path": "docs/release-notes-590.md"
+          }
+        ]
+      },
+      {
+        "title": "JavaScript Rewrite in 5.4",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/javascript-rewrite-in-54.html",
+        "anchor": "javascript-rewrite-in-54",
+        "virtual_path": "docs/javascript-rewrite-in-54.md"
+      },
+      {
+        "title": "Support",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/support.html",
+        "anchor": "support",
+        "virtual_path": "docs/support.md"
+      },
+      {
+        "title": "Developer Information",
+        "kind": "category",
+        "source_url": "https://tapestry.apache.org/developer-information.html",
+        "anchor": "developer-information",
+        "virtual_path": "docs/developer-information.md",
+        "children": [
+          {
+            "title": "Building Tapestry from Source",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/building-tapestry-from-source.html",
+            "anchor": "building-tapestry-from-source",
+            "virtual_path": "docs/building-tapestry-from-source.md"
+          },
+          {
+            "title": "Confluence Site Setup",
+            "kind": "category",
+            "source_url": "https://tapestry.apache.org/confluence-site-setup.html",
+            "anchor": "confluence-site-setup",
+            "virtual_path": "docs/confluence-site-setup.md",
+            "children": [
+              {
+                "title": "Since and Deprecated User Macros",
+                "kind": "link",
+                "source_url": "https://tapestry.apache.org/since-and-deprecated-user-macros.html",
+                "anchor": "since-and-deprecated-user-macros",
+                "virtual_path": "docs/since-and-deprecated-user-macros.md"
+              }
+            ]
+          },
+          {
+            "title": "Developer Bible",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/developer-bible.html",
+            "anchor": "developer-bible",
+            "virtual_path": "docs/developer-bible.md"
+          },
+          {
+            "title": "Release Process",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/release-process.html",
+            "anchor": "release-process",
+            "virtual_path": "docs/release-process.md"
+          },
+          {
+            "title": "The tapestry jail",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/the-tapestry-jail.html",
+            "anchor": "the-tapestry-jail",
+            "virtual_path": "docs/the-tapestry-jail.md"
+          },
+          {
+            "title": "Version Numbers",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/version-numbers.html",
+            "anchor": "version-numbers",
+            "virtual_path": "docs/version-numbers.md"
+          },
+          {
+            "title": "Development Roadmap",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/development-roadmap.html",
+            "anchor": "development-roadmap",
+            "virtual_path": "docs/development-roadmap.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Tapestry Core",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Supported Environments and Versions",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/supported-environments-and-versions.html",
+        "anchor": "supported-environments-and-versions",
+        "virtual_path": "docs/supported-environments-and-versions.md"
+      },
+      {
+        "title": "Project Layout",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/project-layout.html",
+        "anchor": "project-layout",
+        "virtual_path": "docs/project-layout.md"
+      },
+      {
+        "title": "Configuration",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/configuration.html",
+        "anchor": "configuration",
+        "virtual_path": "docs/configuration.md"
+      },
+      {
+        "title": "Class Reloading",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/class-reloading.html",
+        "anchor": "class-reloading",
+        "virtual_path": "docs/class-reloading.md"
+      },
+      {
+        "title": "Component Reference",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/component-reference.html",
+        "anchor": "component-reference",
+        "virtual_path": "docs/component-reference.md"
+      },
+      {
+        "title": "Annotations",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/annotations.html",
+        "anchor": "annotations",
+        "virtual_path": "docs/annotations.md"
+      }
+    ]
+  },
+  {
+    "title": "Pages and Components",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Component Classes",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/component-classes.html",
+        "anchor": "component-classes",
+        "virtual_path": "docs/component-classes.md"
+      },
+      {
+        "title": "Component Templates",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/component-templates.html",
+        "anchor": "component-templates",
+        "virtual_path": "docs/component-templates.md"
+      },
+      {
+        "title": "Property Expressions",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/property-expressions.html",
+        "anchor": "property-expressions",
+        "virtual_path": "docs/property-expressions.md"
+      },
+      {
+        "title": "Component Parameters",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/component-parameters.html",
+        "anchor": "component-parameters",
+        "virtual_path": "docs/component-parameters.md"
+      },
+      {
+        "title": "Parameter Type Coercion",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/parameter-type-coercion.html",
+        "anchor": "parameter-type-coercion",
+        "virtual_path": "docs/parameter-type-coercion.md"
+      },
+      {
+        "title": "Layout Component",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/layout-component.html",
+        "anchor": "layout-component",
+        "virtual_path": "docs/layout-component.md"
+      },
+      {
+        "title": "Component Mixins",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/component-mixins.html",
+        "anchor": "component-mixins",
+        "virtual_path": "docs/component-mixins.md"
+      },
+      {
+        "title": "Page Navigation",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/page-navigation.html",
+        "anchor": "page-navigation",
+        "virtual_path": "docs/page-navigation.md"
+      },
+      {
+        "title": "Localization",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/localization.html",
+        "anchor": "localization",
+        "virtual_path": "docs/localization.md"
+      }
+    ]
+  },
+  {
+    "title": "Request/Response Processing",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Page Life Cycle",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/page-life-cycle.html",
+        "anchor": "page-life-cycle",
+        "virtual_path": "docs/page-life-cycle.md"
+      },
+      {
+        "title": "Request Processing",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/request-processing.html",
+        "anchor": "request-processing",
+        "virtual_path": "docs/request-processing.md"
+      },
+      {
+        "title": "Component Rendering",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/component-rendering.html",
+        "anchor": "component-rendering",
+        "virtual_path": "docs/component-rendering.md"
+      },
+      {
+        "title": "URL Rewriting",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/url-rewriting.html",
+        "anchor": "url-rewriting",
+        "virtual_path": "docs/url-rewriting.md"
+      },
+      {
+        "title": "Document Object Model",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/dom.html",
+        "anchor": "dom",
+        "virtual_path": "docs/dom.md"
+      },
+      {
+        "title": "Response Compression",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/response-compression.html",
+        "anchor": "response-compression",
+        "virtual_path": "docs/response-compression.md"
+      },
+      {
+        "title": "Securing your application with HTTPS",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/https.html",
+        "anchor": "https",
+        "virtual_path": "docs/https.md"
+      },
+      {
+        "title": "Content Type and Markup",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/content-type-and-markup.html",
+        "anchor": "content-type-and-markup",
+        "virtual_path": "docs/content-type-and-markup.md"
+      }
+    ]
+  },
+  {
+    "title": "Data persistence",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Persistent Page Data",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/persistent-page-data.html",
+        "anchor": "persistent-page-data",
+        "virtual_path": "docs/persistent-page-data.md"
+      },
+      {
+        "title": "Session Storage",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/session-storage.html",
+        "anchor": "session-storage",
+        "virtual_path": "docs/session-storage.md"
+      }
+    ]
+  },
+  {
+    "title": "Interacting with components",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Injection",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/injection.html",
+        "anchor": "injection",
+        "virtual_path": "docs/injection.md"
+      },
+      {
+        "title": "Environmental Services",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/environmental-services.html",
+        "anchor": "environmental-services",
+        "virtual_path": "docs/environmental-services.md"
+      }
+    ]
+  },
+  {
+    "title": "JavaScript, AJAX, CSS & Binary Data",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Client-Side JavaScript",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/client-side-javascript.html",
+        "anchor": "client-side-javascript",
+        "virtual_path": "docs/client-side-javascript.md"
+      },
+      {
+        "title": "JavaScript Modules",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/javascript-modules.html",
+        "anchor": "javascript-modules",
+        "virtual_path": "docs/javascript-modules.md"
+      },
+      {
+        "title": "CoffeeScript",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/coffeescript.html",
+        "anchor": "coffeescript",
+        "virtual_path": "docs/coffeescript.md"
+      },
+      {
+        "title": "Ajax and Zones",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/ajax-and-zones.html",
+        "anchor": "ajax-and-zones",
+        "virtual_path": "docs/ajax-and-zones.md"
+      },
+      {
+        "title": "Cascading Style Sheets",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/css.html",
+        "anchor": "css",
+        "virtual_path": "docs/css.md"
+      },
+      {
+        "title": "Assets",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/assets.html",
+        "anchor": "assets",
+        "virtual_path": "docs/assets.md"
+      },
+      {
+        "title": "Legacy JavaScript",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/legacy-javascript.html",
+        "anchor": "legacy-javascript",
+        "virtual_path": "docs/legacy-javascript.md"
+      }
+    ]
+  },
+  {
+    "title": "Working with forms",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Logging & Debugging",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/logging.html",
+        "anchor": "logging",
+        "virtual_path": "docs/logging.md"
+      },
+      {
+        "title": "User Guide",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/user-guide.html",
+        "anchor": "user-guide",
+        "virtual_path": "docs/user-guide.md"
+      },
+      {
+        "title": "Uploading files",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/user-guide.html",
+        "anchor": "user-guide",
+        "virtual_path": "docs/user-guide.md"
+      }
+    ]
+  },
+  {
+    "title": "Debugging, Testing & Tooling",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Logging & Debugging",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/user-guide.html",
+        "anchor": "user-guide",
+        "virtual_path": "docs/user-guide.md"
+      },
+      {
+        "title": "Unit testing pages or components",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/unit-testing-pages-or-components.html",
+        "anchor": "unit-testing-pages-or-components",
+        "virtual_path": "docs/unit-testing-pages-or-components.md"
+      },
+      {
+        "title": "Integration testing with Selenium",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/integration-testing.html",
+        "anchor": "integration-testing",
+        "virtual_path": "docs/integration-testing.md"
+      },
+      {
+        "title": "Development Dashboard",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/development-dashboard.html",
+        "anchor": "development-dashboard",
+        "virtual_path": "docs/development-dashboard.md"
+      }
+    ]
+  },
+  {
+    "title": "Related Articles",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Page:",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/tapestry-ioc-overview.html",
+        "anchor": "tapestry-ioc-overview",
+        "virtual_path": "docs/tapestry-ioc-overview.md"
+      }
+    ]
+  },
+  {
+    "title": "IoC Subtopics",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Tapestry IoC Overview",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/tapestry-ioc-overview.html",
+        "anchor": "tapestry-ioc-overview",
+        "virtual_path": "docs/tapestry-ioc-overview.md"
+      },
+      {
+        "title": "Tapestry IoC Modules",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/tapestry-ioc-modules.html",
+        "anchor": "tapestry-ioc-modules",
+        "virtual_path": "docs/tapestry-ioc-modules.md"
+      },
+      {
+        "title": "Defining Tapestry IOC Services",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/defining-tapestry-ioc-services.html",
+        "anchor": "defining-tapestry-ioc-services",
+        "virtual_path": "docs/defining-tapestry-ioc-services.md"
+      },
+      {
+        "title": "Service Advisors",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/service-advisors.html",
+        "anchor": "service-advisors",
+        "virtual_path": "docs/service-advisors.md"
+      },
+      {
+        "title": "Tapestry IoC Decorators",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/tapestry-ioc-decorators.html",
+        "anchor": "tapestry-ioc-decorators",
+        "virtual_path": "docs/tapestry-ioc-decorators.md"
+      },
+      {
+        "title": "Tapestry IoC Configuration",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/tapestry-ioc-configuration.html",
+        "anchor": "tapestry-ioc-configuration",
+        "virtual_path": "docs/tapestry-ioc-configuration.md"
+      },
+      {
+        "title": "Case Insensitivity",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/case-insensitivity.html",
+        "anchor": "case-insensitivity",
+        "virtual_path": "docs/case-insensitivity.md"
+      },
+      {
+        "title": "Autoloading Modules",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/autoloading-modules.html",
+        "anchor": "autoloading-modules",
+        "virtual_path": "docs/autoloading-modules.md"
+      },
+      {
+        "title": "Service Implementation Reloading",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/service-implementation-reloading.html",
+        "anchor": "service-implementation-reloading",
+        "virtual_path": "docs/service-implementation-reloading.md"
+      },
+      {
+        "title": "Ordering by Constraints",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/ordering-by-constraints.html",
+        "anchor": "ordering-by-constraints",
+        "virtual_path": "docs/ordering-by-constraints.md"
+      },
+      {
+        "title": "Symbols",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/symbols.html",
+        "anchor": "symbols",
+        "virtual_path": "docs/symbols.md"
+      },
+      {
+        "title": "ChainBuilder Service",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/chainbuilder-service.html",
+        "anchor": "chainbuilder-service",
+        "virtual_path": "docs/chainbuilder-service.md"
+      },
+      {
+        "title": "PipelineBuilder Service",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/pipelinebuilder-service.html",
+        "anchor": "pipelinebuilder-service",
+        "virtual_path": "docs/pipelinebuilder-service.md"
+      },
+      {
+        "title": "ShadowBuilder Service",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/shadowbuilder-service.html",
+        "anchor": "shadowbuilder-service",
+        "virtual_path": "docs/shadowbuilder-service.md"
+      },
+      {
+        "title": "StrategyBuilder Service",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/strategybuilder-service.html",
+        "anchor": "strategybuilder-service",
+        "virtual_path": "docs/strategybuilder-service.md"
+      },
+      {
+        "title": "Injection in Detail",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/injection-in-detail.html",
+        "anchor": "injection-in-detail",
+        "virtual_path": "docs/injection-in-detail.md"
+      },
+      {
+        "title": "Object Providers",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/object-providers.html",
+        "anchor": "object-providers",
+        "virtual_path": "docs/object-providers.md"
+      },
+      {
+        "title": "Service Serialization",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/service-serialization.html",
+        "anchor": "service-serialization",
+        "virtual_path": "docs/service-serialization.md"
+      },
+      {
+        "title": "Type Coercion",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/type-coercion.html",
+        "anchor": "type-coercion",
+        "virtual_path": "docs/type-coercion.md"
+      },
+      {
+        "title": "Starting the IoC Registry",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/starting-the-ioc-registry.html",
+        "anchor": "starting-the-ioc-registry",
+        "virtual_path": "docs/starting-the-ioc-registry.md"
+      },
+      {
+        "title": "Registry Startup",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/registry-startup.html",
+        "anchor": "registry-startup",
+        "virtual_path": "docs/registry-startup.md"
+      },
+      {
+        "title": "Parallel Execution",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/parallel-execution.html",
+        "anchor": "parallel-execution",
+        "virtual_path": "docs/parallel-execution.md"
+      },
+      {
+        "title": "Logging in Tapestry",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/logging-in-tapestry.html",
+        "anchor": "logging-in-tapestry",
+        "virtual_path": "docs/logging-in-tapestry.md"
+      },
+      {
+        "title": "Using JSR 330 standard annotations",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/using-jsr-330-standard-annotations.html",
+        "anchor": "using-jsr-330-standard-annotations",
+        "virtual_path": "docs/using-jsr-330-standard-annotations.md"
+      },
+      {
+        "title": "Operation Tracker",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/operation-tracker.html",
+        "anchor": "operation-tracker",
+        "virtual_path": "docs/operation-tracker.md"
+      }
+    ]
+  },
+  {
+    "title": "Apache Tapestry",
+    "kind": "link",
+    "source_url": "https://tapestry.apache.org/index.html",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "Documentation",
+    "kind": "link",
+    "source_url": "https://tapestry.apache.org/documentation.html",
+    "anchor": "documentation",
+    "virtual_path": "docs/documentation.md"
+  },
+  {
+    "title": "Contents",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Default Parameter",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/default-parameter.html",
+        "anchor": "default-parameter",
+        "virtual_path": "docs/default-parameter.md"
+      },
+      {
+        "title": "Overriding Exception Reporting",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/overriding-exception-reporting.html",
+        "anchor": "overriding-exception-reporting",
+        "virtual_path": "docs/overriding-exception-reporting.md"
+      },
+      {
+        "title": "Error Page Recipe",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/error-page-recipe.html",
+        "anchor": "error-page-recipe",
+        "virtual_path": "docs/error-page-recipe.md"
+      },
+      {
+        "title": "Supporting Informal Parameters",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/supporting-informal-parameters.html",
+        "anchor": "supporting-informal-parameters",
+        "virtual_path": "docs/supporting-informal-parameters.md"
+      },
+      {
+        "title": "Component Libraries",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/component-libraries.html",
+        "anchor": "component-libraries",
+        "virtual_path": "docs/component-libraries.md"
+      },
+      {
+        "title": "Switching Cases",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/switching-cases.html",
+        "anchor": "switching-cases",
+        "virtual_path": "docs/switching-cases.md"
+      },
+      {
+        "title": "Enum Parameter Recipe",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/enum-parameter-recipe.html",
+        "anchor": "enum-parameter-recipe",
+        "virtual_path": "docs/enum-parameter-recipe.md"
+      },
+      {
+        "title": "Extending the If Component",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/extending-the-if-component.html",
+        "anchor": "extending-the-if-component",
+        "virtual_path": "docs/extending-the-if-component.md"
+      },
+      {
+        "title": "Meta-Programming Page Content",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/meta-programming-page-content.html",
+        "anchor": "meta-programming-page-content",
+        "virtual_path": "docs/meta-programming-page-content.md"
+      },
+      {
+        "title": "Using Select With a List",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/using-select-with-a-list.html",
+        "anchor": "using-select-with-a-list",
+        "virtual_path": "docs/using-select-with-a-list.md"
+      },
+      {
+        "title": "IoC cookbook",
+        "kind": "category",
+        "source_url": "https://tapestry.apache.org/ioc-cookbook.html",
+        "anchor": "ioc-cookbook",
+        "virtual_path": "docs/ioc-cookbook.md",
+        "children": [
+          {
+            "title": "IoC Cookbook - Basic Services and Injection",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/ioc-cookbook-basic-services-and-injection.html",
+            "anchor": "ioc-cookbook-basic-services-and-injection",
+            "virtual_path": "docs/ioc-cookbook-basic-services-and-injection.md"
+          },
+          {
+            "title": "IoC Cookbook - Overriding IoC Services",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/ioc-cookbook-overriding-ioc-services.html",
+            "anchor": "ioc-cookbook-overriding-ioc-services",
+            "virtual_path": "docs/ioc-cookbook-overriding-ioc-services.md"
+          },
+          {
+            "title": "IoC Cookbook - Patterns",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/ioc-cookbook-patterns.html",
+            "anchor": "ioc-cookbook-patterns",
+            "virtual_path": "docs/ioc-cookbook-patterns.md"
+          },
+          {
+            "title": "IoC cookbook - Service Configurations",
+            "kind": "link",
+            "source_url": "https://tapestry.apache.org/ioc-cookbook-service-configurations.html",
+            "anchor": "ioc-cookbook-service-configurations",
+            "virtual_path": "docs/ioc-cookbook-service-configurations.md"
+          }
+        ]
+      },
+      {
+        "title": "Performance and Clustering",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/performance-and-clustering.html",
+        "anchor": "performance-and-clustering",
+        "virtual_path": "docs/performance-and-clustering.md"
+      },
+      {
+        "title": "Google App Engine",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/google-app-engine.html",
+        "anchor": "google-app-engine",
+        "virtual_path": "docs/google-app-engine.md"
+      }
+    ]
+  },
+  {
+    "title": "Hibernate Integration",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Hibernate Configuration",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/hibernate-core-conf.html",
+        "anchor": "hibernate-core-conf",
+        "virtual_path": "docs/hibernate-core-conf.md"
+      },
+      {
+        "title": "Hibernate User Guide",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/hibernate-user-guide.html",
+        "anchor": "hibernate-user-guide",
+        "virtual_path": "docs/hibernate-user-guide.md"
+      },
+      {
+        "title": "Hibernate Statistics",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/hibernate-statistics.html",
+        "anchor": "hibernate-statistics",
+        "virtual_path": "docs/hibernate-statistics.md"
+      },
+      {
+        "title": "Hibernate-Core",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/hibernate-core.html",
+        "anchor": "hibernate-core",
+        "virtual_path": "docs/hibernate-core.md"
+      }
+    ]
+  },
+  {
+    "title": "Spring Integration",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Spring Core",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/integrating-with-spring-framework.html",
+        "anchor": "integrating-with-spring-framework",
+        "virtual_path": "docs/integrating-with-spring-framework.md"
+      }
+    ]
+  },
+  {
+    "title": "JPA Integration",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Integrating with JPA",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/integrating-with-jpa.html",
+        "anchor": "integrating-with-jpa",
+        "virtual_path": "docs/integrating-with-jpa.md"
+      }
+    ]
+  },
+  {
+    "title": "Other Modules",
+    "kind": "category",
+    "children": [
+      {
+        "title": "JSR 303 Bean Validation",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/bean-validation.html",
+        "anchor": "bean-validation",
+        "virtual_path": "docs/bean-validation.md"
+      },
+      {
+        "title": "Functional Flows",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/functional-flows.html",
+        "anchor": "functional-flows",
+        "virtual_path": "docs/functional-flows.md"
+      },
+      {
+        "title": "JMX Integration",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/jmx-module.html",
+        "anchor": "jmx-module",
+        "virtual_path": "docs/jmx-module.md"
+      },
+      {
+        "title": "JSON",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/json.html",
+        "anchor": "json",
+        "virtual_path": "docs/json.md"
+      },
+      {
+        "title": "Component Report",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/component-report.html",
+        "anchor": "component-report",
+        "virtual_path": "docs/component-report.md"
+      }
+    ]
+  },
+  {
+    "title": "How Tos",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Confluence Site Setup",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/confluence-site-setup.html",
+        "anchor": "confluence-site-setup",
+        "virtual_path": "docs/confluence-site-setup.md"
+      },
+      {
+        "title": "Release Process",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/release-process.html",
+        "anchor": "release-process",
+        "virtual_path": "docs/release-process.md"
+      },
+      {
+        "title": "Developer Bible",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/developer-bible.html",
+        "anchor": "developer-bible",
+        "virtual_path": "docs/developer-bible.md"
+      },
+      {
+        "title": "Building Tapestry from Source",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/building-tapestry-from-source.html",
+        "anchor": "building-tapestry-from-source",
+        "virtual_path": "docs/building-tapestry-from-source.md"
+      },
+      {
+        "title": "Version Numbers",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/version-numbers.html",
+        "anchor": "version-numbers",
+        "virtual_path": "docs/version-numbers.md"
+      }
+    ]
+  },
+  {
+    "title": "Developer Tools & Reports",
+    "kind": "category",
+    "children": [
+      {
+        "title": "The tapestry jail",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/the-tapestry-jail.html",
+        "anchor": "the-tapestry-jail",
+        "virtual_path": "docs/the-tapestry-jail.md"
+      }
+    ]
+  },
+  {
+    "title": "Home",
+    "kind": "link",
+    "source_url": "https://tapestry.apache.org/index.html",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "Download",
+    "kind": "link",
+    "source_url": "https://tapestry.apache.org/download.html",
+    "anchor": "download",
+    "virtual_path": "docs/download.md"
+  },
+  {
+    "title": "Team",
+    "kind": "link",
+    "source_url": "https://tapestry.apache.org/about.html",
+    "anchor": "about",
+    "virtual_path": "docs/about.md"
+  },
+  {
+    "title": "Docs",
+    "kind": "link",
+    "source_url": "https://tapestry.apache.org/documentation.html",
+    "anchor": "documentation",
+    "virtual_path": "docs/documentation.md"
+  },
+  {
+    "title": "FAQ",
+    "kind": "link",
+    "source_url": "https://tapestry.apache.org/frequently-asked-questions.html",
+    "anchor": "frequently-asked-questions",
+    "virtual_path": "docs/frequently-asked-questions.md"
+  },
+  {
+    "title": "Community",
+    "kind": "link",
+    "source_url": "https://tapestry.apache.org/community.html",
+    "anchor": "community",
+    "virtual_path": "docs/community.md"
+  },
+  {
+    "title": "Breaking Changes",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Page classes with instance variables that are not thread safe must be created in a method rather than declared as an instance variable. For example, creating an instance variable",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/release-notes-52.html",
+        "anchor": "release-notes-52",
+        "virtual_path": "docs/release-notes-52.md"
+      }
+    ]
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Books",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/books.html",
+        "anchor": "books",
+        "virtual_path": "docs/books.md"
+      },
+      {
+        "title": "IoC - symbols",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/ioc-symbols.html",
+        "anchor": "ioc-symbols",
+        "virtual_path": "docs/ioc-symbols.md"
+      },
+      {
+        "title": "Key Features",
+        "kind": "link",
+        "source_url": "https://tapestry.apache.org/key-features.html",
+        "anchor": "key-features",
+        "virtual_path": "docs/key-features.md"
+      }
+    ]
+  }
+]

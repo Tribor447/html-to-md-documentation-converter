@@ -1,0 +1,8 @@
+0.8.1-alpha is a bug-fix release on the 0.8 line, which brought in support for external service to Tez (TEZ-2003).
+This is an alpha release, to make external-service artifacts available. APIs for this support
+will change in the coming releases.
+All fixes from previous releases - 0.5.4, 0.6.1, 0.7.0, 0.8.0-alpha are part of this release.
+
+Major changes
+1) Support for co-ordinating and running DAGs for external services.
+Please see CHANGES.txt for more details.

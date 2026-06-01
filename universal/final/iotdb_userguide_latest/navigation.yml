@@ -1,0 +1,474 @@
+- title: Quick Start
+  kind: link
+  source_url: https://iotdb.apache.org/UserGuide/latest/QuickStart/QuickStart_apache.html
+  anchor: quickstart-quickstart_apache
+  virtual_path: docs/QuickStart/QuickStart_apache.md
+- title: Java Native API
+  kind: category
+  source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-Java-Native-API_apache.html
+  anchor: api-programming-java-native-api_apache
+  virtual_path: docs/API/Programming-Java-Native-API_apache.md
+  children:
+  - title: Java Native API
+    kind: category
+    source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-Java-Native-API_apache.html
+    anchor: api-programming-java-native-api_apache
+    virtual_path: docs/API/Programming-Java-Native-API_apache.md
+    children:
+    - title: Java Native API
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-Java-Native-API_apache.html
+      anchor: api-programming-java-native-api_apache
+      virtual_path: docs/API/Programming-Java-Native-API_apache.md
+    - title: Data Subscription API
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-Data-Subscription_apache.html
+      anchor: api-programming-data-subscription_apache
+      virtual_path: docs/API/Programming-Data-Subscription_apache.md
+  - title: Python Native API
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-Python-Native-API_apache.html
+    anchor: api-programming-python-native-api_apache
+    virtual_path: docs/API/Programming-Python-Native-API_apache.md
+  - title: C++ Native API
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-Cpp-Native-API.html
+    anchor: api-programming-cpp-native-api
+    virtual_path: docs/API/Programming-Cpp-Native-API.md
+  - title: Go Native API
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-Go-Native-API.html
+    anchor: api-programming-go-native-api
+    virtual_path: docs/API/Programming-Go-Native-API.md
+  - title: C# Native API
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-CSharp-Native-API.html
+    anchor: api-programming-csharp-native-api
+    virtual_path: docs/API/Programming-CSharp-Native-API.md
+  - title: Node.js Native API
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-NodeJS-Native-API.html
+    anchor: api-programming-nodejs-native-api
+    virtual_path: docs/API/Programming-NodeJS-Native-API.md
+  - title: Rust Native API
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-Rust-Native-API.html
+    anchor: api-programming-rust-native-api
+    virtual_path: docs/API/Programming-Rust-Native-API.md
+  - title: JDBC
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-JDBC_apache
+    anchor: api-programming-jdbc_apache
+    virtual_path: docs/API/Programming-JDBC_apache.md
+  - title: MQTT Protocol
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/API/Programming-MQTT_apache.html
+    anchor: api-programming-mqtt_apache
+    virtual_path: docs/API/Programming-MQTT_apache.md
+- title: Command Line Interface (CLI)
+  kind: category
+  source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/CLI_apache.html
+  anchor: tools-system-cli_apache
+  virtual_path: docs/Tools-System/CLI_apache.md
+  children:
+  - title: Command Line Interface (CLI)
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/CLI_apache.html
+    anchor: tools-system-cli_apache
+    virtual_path: docs/Tools-System/CLI_apache.md
+  - title: Monitor Tool
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/Monitor-Tool_apache.html
+    anchor: tools-system-monitor-tool_apache
+    virtual_path: docs/Tools-System/Monitor-Tool_apache.md
+  - title: Benchmark Tool
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/Benchmark.html
+    anchor: tools-system-benchmark
+    virtual_path: docs/Tools-System/Benchmark.md
+  - title: Cluster Management Tool
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/Maintenance-Tool_apache.html
+    anchor: tools-system-maintenance-tool_apache
+    virtual_path: docs/Tools-System/Maintenance-Tool_apache.md
+  - title: Data Import
+    kind: category
+    source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/Data-Import-Tool_apache.html
+    anchor: tools-system-data-import-tool_apache
+    virtual_path: docs/Tools-System/Data-Import-Tool_apache.md
+    children:
+    - title: Data Import
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/Data-Import-Tool_apache.html
+      anchor: tools-system-data-import-tool_apache
+      virtual_path: docs/Tools-System/Data-Import-Tool_apache.md
+    - title: Data Export
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/Data-Export-Tool_apache.html
+      anchor: tools-system-data-export-tool_apache
+      virtual_path: docs/Tools-System/Data-Export-Tool_apache.md
+  - title: Full Backup Tool
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/Backup-Tool.html
+    anchor: tools-system-backup-tool
+    virtual_path: docs/Tools-System/Backup-Tool.md
+  - title: Health Check Tool
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/Health-Check-Tool.html
+    anchor: tools-system-health-check-tool
+    virtual_path: docs/Tools-System/Health-Check-Tool.md
+- title: Data Sync
+  kind: category
+  source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Data-Sync_apache.html
+  anchor: user-manual-data-sync_apache
+  virtual_path: docs/User-Manual/Data-Sync_apache.md
+  children:
+  - title: Data Sync
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Data-Sync_apache.html
+    anchor: user-manual-data-sync_apache
+    virtual_path: docs/User-Manual/Data-Sync_apache.md
+  - title: Data Subscription
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Data-subscription_apache.html
+    anchor: user-manual-data-subscription_apache
+    virtual_path: docs/User-Manual/Data-subscription_apache.md
+  - title: UDF
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/User-defined-function_apache.html
+    anchor: user-manual-user-defined-function_apache
+    virtual_path: docs/User-Manual/User-defined-function_apache.md
+  - title: Query Performance Analysis
+    kind: category
+    source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Query-Performance-Analysis.html
+    anchor: user-manual-query-performance-analysis
+    virtual_path: docs/User-Manual/Query-Performance-Analysis.md
+    children:
+    - title: Query Performance Analysis
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Query-Performance-Analysis.html
+      anchor: user-manual-query-performance-analysis
+      virtual_path: docs/User-Manual/Query-Performance-Analysis.md
+    - title: Cluster Maintenance
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Load-Balance.html
+      anchor: user-manual-load-balance
+      virtual_path: docs/User-Manual/Load-Balance.md
+    - title: Maintenance statement
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Maintenance-commands_apache.html
+      anchor: user-manual-maintenance-commands_apache
+      virtual_path: docs/User-Manual/Maintenance-commands_apache.md
+    - title: Auto-start On Boot
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Auto-Start-On-Boot_apache.html
+      anchor: user-manual-auto-start-on-boot_apache
+      virtual_path: docs/User-Manual/Auto-Start-On-Boot_apache.md
+  - title: Stream Computing Framework
+    kind: category
+    source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Streaming_apache.html
+    anchor: user-manual-streaming_apache
+    virtual_path: docs/User-Manual/Streaming_apache.md
+    children:
+    - title: Stream Computing Framework
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Streaming_apache.html
+      anchor: user-manual-streaming_apache
+      virtual_path: docs/User-Manual/Streaming_apache.md
+    - title: Continuous Query
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Database-Programming.html
+      anchor: user-manual-database-programming
+      virtual_path: docs/User-Manual/Database-Programming.md
+    - title: Trigger
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Trigger.html
+      anchor: user-manual-trigger
+      virtual_path: docs/User-Manual/Trigger.md
+  - title: Authority Management(Before V2.0.7)
+    kind: category
+    children:
+    - title: Authority Management(Before V2.0.7)
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Authority-Management_apache.html
+      anchor: user-manual-authority-management_apache
+      virtual_path: docs/User-Manual/Authority-Management_apache.md
+    - title: Authority Management(From V2.0.7)
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/User-Manual/Authority-Management-Upgrade_apache.html
+      anchor: user-manual-authority-management-upgrade_apache
+      virtual_path: docs/User-Manual/Authority-Management-Upgrade_apache.md
+- title: QuickStart Only SQL
+  kind: category
+  source_url: https://iotdb.apache.org/UserGuide/latest/SQL-Manual/QuickStart-Only-Sql_apache.html
+  anchor: sql-manual-quickstart-only-sql_apache
+  virtual_path: docs/SQL-Manual/QuickStart-Only-Sql_apache.md
+  children:
+  - title: QuickStart Only SQL
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/SQL-Manual/QuickStart-Only-Sql_apache.html
+    anchor: sql-manual-quickstart-only-sql_apache
+    virtual_path: docs/SQL-Manual/QuickStart-Only-Sql_apache.md
+  - title: Identifiers
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/SQL-Manual/Syntax-Rule.html
+    anchor: sql-manual-syntax-rule
+    virtual_path: docs/SQL-Manual/Syntax-Rule.md
+  - title: Keywords
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/SQL-Manual/Keywords.html
+    anchor: sql-manual-keywords
+    virtual_path: docs/SQL-Manual/Keywords.md
+  - title: SQL Manual
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/SQL-Manual/SQL-Manual_apache
+    anchor: sql-manual-sql-manual_apache
+    virtual_path: docs/SQL-Manual/SQL-Manual_apache.md
+  - title: UDF Libraries
+    kind: category
+    source_url: https://iotdb.apache.org/UserGuide/latest/SQL-Manual/UDF-Libraries_apache.html
+    anchor: sql-manual-udf-libraries_apache
+    virtual_path: docs/SQL-Manual/UDF-Libraries_apache.md
+    children:
+    - title: UDF Libraries
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/SQL-Manual/UDF-Libraries_apache.html
+      anchor: sql-manual-udf-libraries_apache
+      virtual_path: docs/SQL-Manual/UDF-Libraries_apache.md
+    - title: Operator and Expression
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/SQL-Manual/Operator-and-Expression.html
+      anchor: sql-manual-operator-and-expression
+      virtual_path: docs/SQL-Manual/Operator-and-Expression.md
+    - title: Function and Expression
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/SQL-Manual/Function-and-Expression.html
+      anchor: sql-manual-function-and-expression
+      virtual_path: docs/SQL-Manual/Function-and-Expression.md
+- title: Deployment form
+  kind: category
+  source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Deployment-form_apache.html
+  anchor: deployment-and-maintenance-deployment-form_apache
+  virtual_path: docs/Deployment-and-Maintenance/Deployment-form_apache.md
+  children:
+  - title: Deployment form
+    kind: category
+    source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Deployment-form_apache.html
+    anchor: deployment-and-maintenance-deployment-form_apache
+    virtual_path: docs/Deployment-and-Maintenance/Deployment-form_apache.md
+    children:
+    - title: Deployment form
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Deployment-form_apache.html
+      anchor: deployment-and-maintenance-deployment-form_apache
+      virtual_path: docs/Deployment-and-Maintenance/Deployment-form_apache.md
+    - title: Obtain IoTDB
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/IoTDB-Package_apache.html
+      anchor: deployment-and-maintenance-iotdb-package_apache
+      virtual_path: docs/Deployment-and-Maintenance/IoTDB-Package_apache.md
+    - title: Database Resources
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Database-Resources.html
+      anchor: deployment-and-maintenance-database-resources
+      virtual_path: docs/Deployment-and-Maintenance/Database-Resources.md
+    - title: Environment Requirements
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Environment-Requirements.html
+      anchor: deployment-and-maintenance-environment-requirements
+      virtual_path: docs/Deployment-and-Maintenance/Environment-Requirements.md
+- title: Stand-Alone Deployment
+  kind: category
+  source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Stand-Alone-Deployment_apache.html
+  anchor: deployment-and-maintenance-stand-alone-deployment_apache
+  virtual_path: docs/Deployment-and-Maintenance/Stand-Alone-Deployment_apache.md
+  children:
+  - title: Stand-Alone Deployment
+    kind: category
+    source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Stand-Alone-Deployment_apache.html
+    anchor: deployment-and-maintenance-stand-alone-deployment_apache
+    virtual_path: docs/Deployment-and-Maintenance/Stand-Alone-Deployment_apache.md
+    children:
+    - title: Stand-Alone Deployment
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Stand-Alone-Deployment_apache.html
+      anchor: deployment-and-maintenance-stand-alone-deployment_apache
+      virtual_path: docs/Deployment-and-Maintenance/Stand-Alone-Deployment_apache.md
+    - title: Cluster Deployment
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Cluster-Deployment_apache.html
+      anchor: deployment-and-maintenance-cluster-deployment_apache
+      virtual_path: docs/Deployment-and-Maintenance/Cluster-Deployment_apache.md
+    - title: Docker Deployment
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Docker-Deployment_apache.html
+      anchor: deployment-and-maintenance-docker-deployment_apache
+      virtual_path: docs/Deployment-and-Maintenance/Docker-Deployment_apache.md
+    - title: Kubernetes Deployment
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Kubernetes_apache.html
+      anchor: deployment-and-maintenance-kubernetes_apache
+      virtual_path: docs/Deployment-and-Maintenance/Kubernetes_apache.md
+- title: Data Modeling
+  kind: category
+  source_url: https://iotdb.apache.org/UserGuide/latest/Basic-Concept/Operate-Metadata_apache.html
+  anchor: basic-concept-operate-metadata_apache
+  virtual_path: docs/Basic-Concept/Operate-Metadata_apache.md
+  children:
+  - title: Data Modeling
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Basic-Concept/Operate-Metadata_apache.html
+    anchor: basic-concept-operate-metadata_apache
+    virtual_path: docs/Basic-Concept/Operate-Metadata_apache.md
+  - title: Write Data
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Basic-Concept/Write-Data_apache.html
+    anchor: basic-concept-write-data_apache
+    virtual_path: docs/Basic-Concept/Write-Data_apache.md
+  - title: Query Data
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Basic-Concept/Query-Data_apache.html
+    anchor: basic-concept-query-data_apache
+    virtual_path: docs/Basic-Concept/Query-Data_apache.md
+  - title: Delete Data
+    kind: category
+    source_url: https://iotdb.apache.org/UserGuide/latest/Basic-Concept/Delete-Data.html
+    anchor: basic-concept-delete-data
+    virtual_path: docs/Basic-Concept/Delete-Data.md
+    children:
+    - title: Delete Data
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Basic-Concept/Delete-Data.html
+      anchor: basic-concept-delete-data
+      virtual_path: docs/Basic-Concept/Delete-Data.md
+    - title: TTL Delete Data
+      kind: link
+      source_url: https://iotdb.apache.org/UserGuide/latest/Basic-Concept/TTL-Delete.html
+      anchor: basic-concept-ttl-delete
+      virtual_path: docs/Basic-Concept/TTL-Delete.md
+- title: Common Concepts
+  kind: category
+  source_url: https://iotdb.apache.org/UserGuide/latest/Background-knowledge/Cluster-Concept_apache.html
+  anchor: background-knowledge-cluster-concept_apache
+  virtual_path: docs/Background-knowledge/Cluster-Concept_apache.md
+  children:
+  - title: Common Concepts
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Background-knowledge/Cluster-Concept_apache.html
+    anchor: background-knowledge-cluster-concept_apache
+    virtual_path: docs/Background-knowledge/Cluster-Concept_apache.md
+  - title: Timeseries Data Model
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Background-knowledge/Navigating_Time_Series_Data_apache.html
+    anchor: background-knowledge-navigating_time_series_data_apache
+    virtual_path: docs/Background-knowledge/Navigating_Time_Series_Data_apache.md
+  - title: Modeling Scheme Design
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Background-knowledge/Data-Model-and-Terminology_apache.html
+    anchor: background-knowledge-data-model-and-terminology_apache
+    virtual_path: docs/Background-knowledge/Data-Model-and-Terminology_apache.md
+  - title: Data Type
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Background-knowledge/Data-Type.html
+    anchor: background-knowledge-data-type
+    virtual_path: docs/Background-knowledge/Data-Type.md
+- title: IoTDB Introduction
+  kind: category
+  source_url: https://iotdb.apache.org/UserGuide/latest/IoTDB-Introduction/IoTDB-Introduction_apache.html
+  anchor: iotdb-introduction-iotdb-introduction_apache
+  virtual_path: docs/IoTDB-Introduction/IoTDB-Introduction_apache.md
+  children:
+  - title: IoTDB Introduction
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/IoTDB-Introduction/IoTDB-Introduction_apache.html
+    anchor: iotdb-introduction-iotdb-introduction_apache
+    virtual_path: docs/IoTDB-Introduction/IoTDB-Introduction_apache.md
+  - title: Scenario
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/IoTDB-Introduction/Scenario.html
+    anchor: iotdb-introduction-scenario
+    virtual_path: docs/IoTDB-Introduction/Scenario.md
+  - title: Release History
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/IoTDB-Introduction/Release-history_apache.html
+    anchor: iotdb-introduction-release-history_apache
+    virtual_path: docs/IoTDB-Introduction/Release-history_apache.md
+- title: Research Paper
+  kind: category
+  source_url: https://iotdb.apache.org/UserGuide/latest/Technical-Insider/Publication.html
+  anchor: technical-insider-publication
+  virtual_path: docs/Technical-Insider/Publication.md
+  children:
+  - title: Research Paper
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Technical-Insider/Publication.html
+    anchor: technical-insider-publication
+    virtual_path: docs/Technical-Insider/Publication.md
+  - title: Compression & Encoding
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Technical-Insider/Encoding-and-Compression.html
+    anchor: technical-insider-encoding-and-compression
+    virtual_path: docs/Technical-Insider/Encoding-and-Compression.md
+  - title: Data Partitioning & Load Balancing
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Technical-Insider/Cluster-data-partitioning.html
+    anchor: technical-insider-cluster-data-partitioning
+    virtual_path: docs/Technical-Insider/Cluster-data-partitioning.md
+- title: Other pages
+  kind: category
+  children:
+  - title: REST API V1(Not Recommend)
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/API/RestServiceV1_apache
+    anchor: api-restservicev1_apache
+    virtual_path: docs/API/RestServiceV1_apache.md
+  - title: REST API V2
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/API/RestServiceV2_apache
+    anchor: api-restservicev2_apache
+    virtual_path: docs/API/RestServiceV2_apache.md
+  - title: IoTDB Website
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Background-knowledge/Cluster-Concept.html
+    anchor: background-knowledge-cluster-concept
+    virtual_path: docs/Background-knowledge/Cluster-Concept.md
+  - title: IoTDB Website
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Basic-Concept/Operate-Metadata.html
+    anchor: basic-concept-operate-metadata
+    virtual_path: docs/Basic-Concept/Operate-Metadata.md
+  - title: Monitoring Panel Deployment
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Deployment-and-Maintenance/Monitoring-panel-deployment.html
+    anchor: deployment-and-maintenance-monitoring-panel-deployment
+    virtual_path: docs/Deployment-and-Maintenance/Monitoring-panel-deployment.md
+  - title: Frequently Asked Questions
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/FAQ/Frequently-asked-questions.html
+    anchor: faq-frequently-asked-questions
+    virtual_path: docs/FAQ/Frequently-asked-questions.md
+  - title: IoTDB Website
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Reference/DataNode-Config-Manual.html
+    anchor: reference-datanode-config-manual
+    virtual_path: docs/Reference/DataNode-Config-Manual.md
+  - title: Page not found
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/SQL-Manual/SQL-Manual_timecho
+    anchor: sql-manual-sql-manual_timecho
+    virtual_path: docs/SQL-Manual/SQL-Manual_timecho.md
+  - title: IoTDB Website
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/SQL-Manual/UDF-Libraries.html
+    anchor: sql-manual-udf-libraries
+    virtual_path: docs/SQL-Manual/UDF-Libraries.md
+  - title: IoTDB Website
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/CLI.html
+    anchor: tools-system-cli
+    virtual_path: docs/Tools-System/CLI.md
+  - title: IoTDB Website
+    kind: link
+    source_url: https://iotdb.apache.org/UserGuide/latest/Tools-System/Monitor-Tool.html
+    anchor: tools-system-monitor-tool
+    virtual_path: docs/Tools-System/Monitor-Tool.md

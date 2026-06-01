@@ -1,0 +1,124 @@
+- title: Commons SCXML Resources
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-scxml/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Roadmap
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-scxml/roadmap.html
+    anchor: roadmap
+    virtual_path: docs/roadmap.md
+  - title: User Guide
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-scxml/guide.html
+    anchor: guide
+    virtual_path: docs/guide.md
+    children:
+    - title: SCXML documents
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/guide/scxml-documents.html
+      anchor: guide-scxml-documents
+      virtual_path: docs/guide/scxml-documents.md
+    - title: Using Commons SCXML
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/guide/using-commons-scxml.html
+      anchor: guide-using-commons-scxml
+      virtual_path: docs/guide/using-commons-scxml.md
+    - title: Standalone Testing
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/guide/testing-standalone.html
+      anchor: guide-testing-standalone
+      virtual_path: docs/guide/testing-standalone.md
+    - title: SCXML Reader
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/guide/core-reader.html
+      anchor: guide-core-reader
+      virtual_path: docs/guide/core-reader.md
+    - title: SCXML datamodel
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/guide/datamodel.html
+      anchor: guide-datamodel
+      virtual_path: docs/guide/datamodel.md
+    - title: Contexts and Evaluators
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/guide/contexts-evaluators.html
+      anchor: guide-contexts-evaluators
+      virtual_path: docs/guide/contexts-evaluators.md
+    - title: SCXML Engine
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/guide/core-engine.html
+      anchor: guide-core-engine
+      virtual_path: docs/guide/core-engine.md
+    - title: Triggering Events
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/guide/core-events.html
+      anchor: guide-core-events
+      virtual_path: docs/guide/core-events.md
+    - title: Custom Actions
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/guide/custom-actions.html
+      anchor: guide-custom-actions
+      virtual_path: docs/guide/custom-actions.md
+    - title: Custom Semantics
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/guide/custom-semantics.html
+      anchor: guide-custom-semantics
+      virtual_path: docs/guide/custom-semantics.md
+  - title: FAQ
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-scxml/faq.html
+    anchor: faq
+    virtual_path: docs/faq.md
+  - title: Usecases
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-scxml/usecases.html
+    anchor: usecases
+    virtual_path: docs/usecases.md
+    children:
+    - title: SCXML Stopwatch
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/usecases/scxml-stopwatch.html
+      anchor: usecases-scxml-stopwatch
+      virtual_path: docs/usecases/scxml-stopwatch.md
+  - title: Building
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-scxml/building.html
+    anchor: building
+    virtual_path: docs/building.md
+  - title: Issue Tracking
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-scxml/issue-tracking.html
+    anchor: issue-tracking
+    virtual_path: docs/issue-tracking.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-scxml/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Project Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/project-summary.html
+      anchor: project-summary
+      virtual_path: docs/project-summary.md
+    - title: Issue Tracking
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/issue-tracking.html
+      anchor: issue-tracking
+      virtual_path: docs/issue-tracking.md
+    - title: Continuous Integration
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-scxml/integration.html
+      anchor: integration
+      virtual_path: docs/integration.md

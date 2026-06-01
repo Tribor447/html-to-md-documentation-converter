@@ -1,0 +1,373 @@
+- title: Apache Whisker™
+  kind: category
+  children:
+  - title: Introducing Whisker
+    kind: category
+    source_url: https://creadur.apache.org/whisker/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Meta Data
+    kind: link
+    source_url: https://creadur.apache.org/whisker/meta-data.html
+    anchor: meta-data
+    virtual_path: docs/meta-data.md
+  - title: Maven Plugin
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/index.html
+    anchor: apache-whisker-maven-plugin
+    virtual_path: docs/apache-whisker-maven-plugin/index.md
+  - title: Command Line
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-cli/index.html
+    anchor: apache-whisker-cli
+    virtual_path: docs/apache-whisker-cli/index.md
+  - title: FAQ
+    kind: link
+    source_url: https://creadur.apache.org/whisker/faq.html
+    anchor: faq
+    virtual_path: docs/faq.md
+- title: Examples
+  kind: category
+  children:
+  - title: In 5 Minutes
+    kind: link
+    source_url: https://creadur.apache.org/whisker/examples/in-5-mins.html
+    anchor: examples-in-5-mins
+    virtual_path: docs/examples/in-5-mins.md
+  - title: 3rd Party (Individual)
+    kind: link
+    source_url: https://creadur.apache.org/whisker/examples/3rd-party-individual.html
+    anchor: examples-3rd-party-individual
+    virtual_path: docs/examples/3rd-party-individual.md
+  - title: 3rd Party (Corporate)
+    kind: link
+    source_url: https://creadur.apache.org/whisker/examples/3rd-party-corporate.html
+    anchor: examples-3rd-party-corporate
+    virtual_path: docs/examples/3rd-party-corporate.md
+  - title: 3rd Party (Group)
+    kind: link
+    source_url: https://creadur.apache.org/whisker/examples/3rd-party-group.html
+    anchor: examples-3rd-party-group
+    virtual_path: docs/examples/3rd-party-group.md
+  - title: License Family
+    kind: link
+    source_url: https://creadur.apache.org/whisker/examples/license-family.html
+    anchor: examples-license-family
+    virtual_path: docs/examples/license-family.md
+  - title: Copyright Notices
+    kind: link
+    source_url: https://creadur.apache.org/whisker/examples/copyright-notices.html
+    anchor: examples-copyright-notices
+    virtual_path: docs/examples/copyright-notices.md
+- title: Modules
+  kind: category
+  children:
+  - title: Apache Whisker::Model
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-model/index.html
+    anchor: apache-whisker-model
+    virtual_path: docs/apache-whisker-model/index.md
+  - title: Apache Whisker::Scan
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-scan/index.html
+    anchor: apache-whisker-scan
+    virtual_path: docs/apache-whisker-scan/index.md
+  - title: Apache Whisker::XML
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-xml/index.html
+    anchor: apache-whisker-xml
+    virtual_path: docs/apache-whisker-xml/index.md
+  - title: Apache Whisker::App
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-app/index.html
+    anchor: apache-whisker-app
+    virtual_path: docs/apache-whisker-app/index.md
+  - title: Apache Whisker::Output(velocity)
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-velocity/index.html
+    anchor: apache-whisker-velocity
+    virtual_path: docs/apache-whisker-velocity/index.md
+  - title: Apache Whisker::Command Line Interface
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-cli/index.html
+    anchor: apache-whisker-cli
+    virtual_path: docs/apache-whisker-cli/index.md
+  - title: Apache Whisker::Maven Plugin
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/index.html
+    anchor: apache-whisker-maven-plugin
+    virtual_path: docs/apache-whisker-maven-plugin/index.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://creadur.apache.org/whisker/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: CI Management
+      kind: link
+      source_url: https://creadur.apache.org/whisker/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+    - title: About
+      kind: category
+      source_url: https://creadur.apache.org/whisker/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Mailing Lists
+      kind: link
+      source_url: https://creadur.apache.org/whisker/mailing-lists.html
+      anchor: mailing-lists
+      virtual_path: docs/mailing-lists.md
+    - title: Project Modules
+      kind: link
+      source_url: https://creadur.apache.org/whisker/modules.html
+      anchor: modules
+      virtual_path: docs/modules.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://creadur.apache.org/whisker/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: Summary
+      kind: link
+      source_url: https://creadur.apache.org/whisker/summary.html
+      anchor: summary
+      virtual_path: docs/summary.md
+    - title: Team
+      kind: link
+      source_url: https://creadur.apache.org/whisker/team.html
+      anchor: team
+      virtual_path: docs/team.md
+  - title: Project Reports
+    kind: link
+    children:
+    - title: Surefire
+      kind: link
+      source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/surefire.html
+      anchor: apache-whisker-maven-plugin-surefire
+      virtual_path: docs/apache-whisker-maven-plugin/surefire.md
+    - title: JDepend
+      kind: link
+      source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/jdepend-report.html
+      anchor: apache-whisker-maven-plugin-jdepend-report
+      virtual_path: docs/apache-whisker-maven-plugin/jdepend-report.md
+    - title: Plugin Details
+      kind: category
+      source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/plugin-info.html
+      anchor: apache-whisker-maven-plugin-plugin-info
+      virtual_path: docs/apache-whisker-maven-plugin/plugin-info.md
+- title: Overview
+  kind: category
+  source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/scm.html
+  anchor: apache-whisker-maven-plugin-scm
+  virtual_path: docs/apache-whisker-maven-plugin/scm.md
+  children:
+  - title: Introduction
+    kind: category
+    source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/index.html
+    anchor: apache-whisker-maven-plugin
+    virtual_path: docs/apache-whisker-maven-plugin/index.md
+  - title: Goals
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/plugin-info.html
+    anchor: apache-whisker-maven-plugin-plugin-info
+    virtual_path: docs/apache-whisker-maven-plugin/plugin-info.md
+  - title: Usage
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/usage.html
+    anchor: apache-whisker-maven-plugin-usage
+    virtual_path: docs/apache-whisker-maven-plugin/usage.md
+  - title: FAQ
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/faq.html
+    anchor: apache-whisker-maven-plugin-faq
+    virtual_path: docs/apache-whisker-maven-plugin/faq.md
+- title: Parent Project
+  kind: category
+  children:
+  - title: Apache Whisker
+    kind: link
+    source_url: https://creadur.apache.org/whisker/index.html
+    anchor: index
+    virtual_path: docs/index.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-app/ci-management.html
+    anchor: apache-whisker-app-ci-management
+    virtual_path: docs/apache-whisker-app/ci-management.md
+  - title: Project Mailing Lists
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-app/mailing-lists.html
+    anchor: apache-whisker-app-mailing-lists
+    virtual_path: docs/apache-whisker-app/mailing-lists.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-app/scm.html
+    anchor: apache-whisker-app-scm
+    virtual_path: docs/apache-whisker-app/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-app/summary.html
+    anchor: apache-whisker-app-summary
+    virtual_path: docs/apache-whisker-app/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-app/team.html
+    anchor: apache-whisker-app-team
+    virtual_path: docs/apache-whisker-app/team.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-cli/ci-management.html
+    anchor: apache-whisker-cli-ci-management
+    virtual_path: docs/apache-whisker-cli/ci-management.md
+  - title: Project Mailing Lists
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-cli/mailing-lists.html
+    anchor: apache-whisker-cli-mailing-lists
+    virtual_path: docs/apache-whisker-cli/mailing-lists.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-cli/scm.html
+    anchor: apache-whisker-cli-scm
+    virtual_path: docs/apache-whisker-cli/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-cli/summary.html
+    anchor: apache-whisker-cli-summary
+    virtual_path: docs/apache-whisker-cli/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-cli/team.html
+    anchor: apache-whisker-cli-team
+    virtual_path: docs/apache-whisker-cli/team.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/ci-management.html
+    anchor: apache-whisker-maven-plugin-ci-management
+    virtual_path: docs/apache-whisker-maven-plugin/ci-management.md
+  - title: Generation In 5 Minutes
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/examples/generation-in-5-mins.html
+    anchor: apache-whisker-maven-plugin-examples-generation-in-5-mins
+    virtual_path: docs/apache-whisker-maven-plugin/examples/generation-in-5-mins.md
+  - title: Project Mailing Lists
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/mailing-lists.html
+    anchor: apache-whisker-maven-plugin-mailing-lists
+    virtual_path: docs/apache-whisker-maven-plugin/mailing-lists.md
+  - title: Project Summary
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/summary.html
+    anchor: apache-whisker-maven-plugin-summary
+    virtual_path: docs/apache-whisker-maven-plugin/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-maven-plugin/team.html
+    anchor: apache-whisker-maven-plugin-team
+    virtual_path: docs/apache-whisker-maven-plugin/team.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-model/ci-management.html
+    anchor: apache-whisker-model-ci-management
+    virtual_path: docs/apache-whisker-model/ci-management.md
+  - title: Project Mailing Lists
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-model/mailing-lists.html
+    anchor: apache-whisker-model-mailing-lists
+    virtual_path: docs/apache-whisker-model/mailing-lists.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-model/scm.html
+    anchor: apache-whisker-model-scm
+    virtual_path: docs/apache-whisker-model/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-model/summary.html
+    anchor: apache-whisker-model-summary
+    virtual_path: docs/apache-whisker-model/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-model/team.html
+    anchor: apache-whisker-model-team
+    virtual_path: docs/apache-whisker-model/team.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-scan/ci-management.html
+    anchor: apache-whisker-scan-ci-management
+    virtual_path: docs/apache-whisker-scan/ci-management.md
+  - title: Project Mailing Lists
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-scan/mailing-lists.html
+    anchor: apache-whisker-scan-mailing-lists
+    virtual_path: docs/apache-whisker-scan/mailing-lists.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-scan/scm.html
+    anchor: apache-whisker-scan-scm
+    virtual_path: docs/apache-whisker-scan/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-scan/summary.html
+    anchor: apache-whisker-scan-summary
+    virtual_path: docs/apache-whisker-scan/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-scan/team.html
+    anchor: apache-whisker-scan-team
+    virtual_path: docs/apache-whisker-scan/team.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-velocity/ci-management.html
+    anchor: apache-whisker-velocity-ci-management
+    virtual_path: docs/apache-whisker-velocity/ci-management.md
+  - title: Project Mailing Lists
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-velocity/mailing-lists.html
+    anchor: apache-whisker-velocity-mailing-lists
+    virtual_path: docs/apache-whisker-velocity/mailing-lists.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-velocity/scm.html
+    anchor: apache-whisker-velocity-scm
+    virtual_path: docs/apache-whisker-velocity/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-velocity/summary.html
+    anchor: apache-whisker-velocity-summary
+    virtual_path: docs/apache-whisker-velocity/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-velocity/team.html
+    anchor: apache-whisker-velocity-team
+    virtual_path: docs/apache-whisker-velocity/team.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-xml/ci-management.html
+    anchor: apache-whisker-xml-ci-management
+    virtual_path: docs/apache-whisker-xml/ci-management.md
+  - title: Project Mailing Lists
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-xml/mailing-lists.html
+    anchor: apache-whisker-xml-mailing-lists
+    virtual_path: docs/apache-whisker-xml/mailing-lists.md
+  - title: Overview
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-xml/scm.html
+    anchor: apache-whisker-xml-scm
+    virtual_path: docs/apache-whisker-xml/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-xml/summary.html
+    anchor: apache-whisker-xml-summary
+    virtual_path: docs/apache-whisker-xml/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://creadur.apache.org/whisker/apache-whisker-xml/team.html
+    anchor: apache-whisker-xml-team
+    virtual_path: docs/apache-whisker-xml/team.md

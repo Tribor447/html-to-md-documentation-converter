@@ -1,0 +1,101 @@
+# Summary
+
+- Numbers
+  - [Overview](#index)
+  - [Issue Tracking](#issue-tracking)
+  - [Developers Guide](#developers)
+- User Guide
+  - [Contents](#userguide)
+- Project Documentation
+  - [Project Information](#project-info)
+    - [About](#index)
+    - [Summary](#summary)
+    - [Project Modules](#modules)
+    - [Team](#team)
+    - [Source Code Management](#scm)
+    - [CI Management](#ci-management)
+- Numbers Documentation
+  - [Overview](#commons-numbers-docs)
+- Numbers Bill of Materials
+  - [Overview](#commons-numbers-bom)
+- Numbers Primes
+  - [Overview](#commons-numbers-primes)
+- Numbers Core
+  - [Overview](#commons-numbers-core)
+- Numbers Field
+  - [Overview](#commons-numbers-field)
+- Numbers Gamma
+  - [Overview](#commons-numbers-gamma)
+- Numbers Combinatorics
+  - [Overview](#commons-numbers-combinatorics)
+- Numbers Angle
+  - [Overview](#commons-numbers-angle)
+- Numbers Root Finder
+  - [Overview](#commons-numbers-rootfinder)
+- Numbers Arrays
+  - [Overview](#commons-numbers-arrays)
+- Numbers Quaternion
+  - [Overview](#commons-numbers-quaternion)
+- Numbers Complex
+  - [Overview](#commons-numbers-complex)
+- Numbers Fraction
+  - [Overview](#commons-numbers-fraction)
+- Other pages
+  - [Overview](#commons-numbers-angle-ci-management)
+  - [Overview](#commons-numbers-angle-scm)
+  - [Project Summary](#commons-numbers-angle-summary)
+  - [Project Team](#commons-numbers-angle-team)
+  - [Overview](#commons-numbers-arrays-ci-management)
+  - [Overview](#commons-numbers-arrays-scm)
+  - [Project Summary](#commons-numbers-arrays-summary)
+  - [Project Team](#commons-numbers-arrays-team)
+  - [Overview](#commons-numbers-bom-ci-management)
+  - [Overview](#commons-numbers-bom-scm)
+  - [Project Summary](#commons-numbers-bom-summary)
+  - [Project Team](#commons-numbers-bom-team)
+  - [Overview](#commons-numbers-combinatorics-ci-management)
+  - [Overview](#commons-numbers-combinatorics-scm)
+  - [Project Summary](#commons-numbers-combinatorics-summary)
+  - [Project Team](#commons-numbers-combinatorics-team)
+  - [Overview](#commons-numbers-complex-ci-management)
+  - [Overview](#commons-numbers-complex-scm)
+  - [Project Summary](#commons-numbers-complex-summary)
+  - [Project Team](#commons-numbers-complex-team)
+  - [Overview](#commons-numbers-core-ci-management)
+  - [Overview](#commons-numbers-core-scm)
+  - [Project Summary](#commons-numbers-core-summary)
+  - [Project Team](#commons-numbers-core-team)
+  - [Overview](#commons-numbers-docs-ci-management)
+  - [Overview](#commons-numbers-docs-scm)
+  - [Project Summary](#commons-numbers-docs-summary)
+  - [Project Team](#commons-numbers-docs-team)
+  - [Overview](#commons-numbers-examples-ci-management)
+  - [About Apache Commons Numbers Examples](#commons-numbers-examples)
+  - [Project Modules](#commons-numbers-examples-modules)
+  - [Overview](#commons-numbers-examples-scm)
+  - [Project Summary](#commons-numbers-examples-summary)
+  - [Project Team](#commons-numbers-examples-team)
+  - [Overview](#commons-numbers-field-ci-management)
+  - [Overview](#commons-numbers-field-scm)
+  - [Project Summary](#commons-numbers-field-summary)
+  - [Project Team](#commons-numbers-field-team)
+  - [Overview](#commons-numbers-fraction-ci-management)
+  - [Overview](#commons-numbers-fraction-scm)
+  - [Project Summary](#commons-numbers-fraction-summary)
+  - [Project Team](#commons-numbers-fraction-team)
+  - [Overview](#commons-numbers-gamma-ci-management)
+  - [Overview](#commons-numbers-gamma-scm)
+  - [Project Summary](#commons-numbers-gamma-summary)
+  - [Project Team](#commons-numbers-gamma-team)
+  - [Overview](#commons-numbers-primes-ci-management)
+  - [Overview](#commons-numbers-primes-scm)
+  - [Project Summary](#commons-numbers-primes-summary)
+  - [Project Team](#commons-numbers-primes-team)
+  - [Overview](#commons-numbers-quaternion-ci-management)
+  - [Overview](#commons-numbers-quaternion-scm)
+  - [Project Summary](#commons-numbers-quaternion-summary)
+  - [Project Team](#commons-numbers-quaternion-team)
+  - [Overview](#commons-numbers-rootfinder-ci-management)
+  - [Overview](#commons-numbers-rootfinder-scm)
+  - [Project Summary](#commons-numbers-rootfinder-summary)
+  - [Project Team](#commons-numbers-rootfinder-team)

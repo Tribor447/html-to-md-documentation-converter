@@ -1,0 +1,1865 @@
+- title: 1. Overview
+  kind: link
+  source_url: https://shardingsphere.apache.org/document/current/en/overview/
+  anchor: overview
+  virtual_path: docs/overview/index.md
+- title: 2. Quick Start
+  kind: category
+  source_url: https://shardingsphere.apache.org/document/current/en/quick-start/
+  anchor: quick-start
+  virtual_path: docs/quick-start/index.md
+  children:
+  - title: 2.1. ShardingSphere-JDBC
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/quick-start/shardingsphere-jdbc-quick-start/
+    anchor: quick-start-shardingsphere-jdbc-quick-start
+    virtual_path: docs/quick-start/shardingsphere-jdbc-quick-start/index.md
+  - title: 2.2. ShardingSphere-Proxy
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/quick-start/shardingsphere-proxy-quick-start/
+    anchor: quick-start-shardingsphere-proxy-quick-start
+    virtual_path: docs/quick-start/shardingsphere-proxy-quick-start/index.md
+- title: 3. Features
+  kind: category
+  source_url: https://shardingsphere.apache.org/document/current/en/features/
+  anchor: features
+  virtual_path: docs/features/index.md
+  children:
+  - title: 3.1. Sharding
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/features/sharding/
+    anchor: features-sharding
+    virtual_path: docs/features/sharding/index.md
+    children:
+    - title: Core Concept
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/sharding/concept/
+      anchor: features-sharding-concept
+      virtual_path: docs/features/sharding/concept/index.md
+    - title: Limitations
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/sharding/limitation/
+      anchor: features-sharding-limitation
+      virtual_path: docs/features/sharding/limitation/index.md
+    - title: Appendix with SQL operator
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/sharding/appendix/
+      anchor: features-sharding-appendix
+      virtual_path: docs/features/sharding/appendix/index.md
+  - title: 3.2. Distributed Transaction
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/features/transaction/
+    anchor: features-transaction
+    virtual_path: docs/features/transaction/index.md
+    children:
+    - title: Core Concept
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/transaction/concept/
+      anchor: features-transaction-concept
+      virtual_path: docs/features/transaction/concept/index.md
+    - title: Limitations
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/transaction/limitations/
+      anchor: features-transaction-limitations
+      virtual_path: docs/features/transaction/limitations/index.md
+    - title: Appendix with SQL operator
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/transaction/appendix/
+      anchor: features-transaction-appendix
+      virtual_path: docs/features/transaction/appendix/index.md
+  - title: 3.3. Readwrite-splitting
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/features/readwrite-splitting/
+    anchor: features-readwrite-splitting
+    virtual_path: docs/features/readwrite-splitting/index.md
+    children:
+    - title: Core Concept
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/readwrite-splitting/concept/
+      anchor: features-readwrite-splitting-concept
+      virtual_path: docs/features/readwrite-splitting/concept/index.md
+    - title: Limitations
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/readwrite-splitting/limitations/
+      anchor: features-readwrite-splitting-limitations
+      virtual_path: docs/features/readwrite-splitting/limitations/index.md
+  - title: 3.4. DB Gateway
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/features/db-gateway/
+    anchor: features-db-gateway
+    virtual_path: docs/features/db-gateway/index.md
+    children:
+    - title: Core Concept
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/db-gateway/concept/
+      anchor: features-db-gateway-concept
+      virtual_path: docs/features/db-gateway/concept/index.md
+    - title: Limitations
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/db-gateway/limitations/
+      anchor: features-db-gateway-limitations
+      virtual_path: docs/features/db-gateway/limitations/index.md
+  - title: 3.5. Traffic Governance
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/features/management/
+    anchor: features-management
+    virtual_path: docs/features/management/index.md
+    children:
+    - title: Core Concept
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/management/concept/
+      anchor: features-management-concept
+      virtual_path: docs/features/management/concept/index.md
+  - title: 3.6. Data Migration
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/features/migration/
+    anchor: features-migration
+    virtual_path: docs/features/migration/index.md
+    children:
+    - title: Core Concept
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/migration/concept/
+      anchor: features-migration-concept
+      virtual_path: docs/features/migration/concept/index.md
+    - title: Limitations
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/migration/limitations/
+      anchor: features-migration-limitations
+      virtual_path: docs/features/migration/limitations/index.md
+  - title: 3.7. Encryption
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/features/encrypt/
+    anchor: features-encrypt
+    virtual_path: docs/features/encrypt/index.md
+    children:
+    - title: Core Concept
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/encrypt/concept/
+      anchor: features-encrypt-concept
+      virtual_path: docs/features/encrypt/concept/index.md
+    - title: Limitations
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/encrypt/limitations/
+      anchor: features-encrypt-limitations
+      virtual_path: docs/features/encrypt/limitations/index.md
+    - title: Appendix with SQL operator
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/encrypt/appendix/
+      anchor: features-encrypt-appendix
+      virtual_path: docs/features/encrypt/appendix/index.md
+  - title: 3.8. Data Masking
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/features/mask/
+    anchor: features-mask
+    virtual_path: docs/features/mask/index.md
+    children:
+    - title: Core Concept
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/mask/concept/
+      anchor: features-mask-concept
+      virtual_path: docs/features/mask/concept/index.md
+    - title: Limitations
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/mask/limitations/
+      anchor: features-mask-limitations
+      virtual_path: docs/features/mask/limitations/index.md
+  - title: 3.9. Shadow
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/features/shadow/
+    anchor: features-shadow
+    virtual_path: docs/features/shadow/index.md
+    children:
+    - title: Core Concept
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/shadow/concept/
+      anchor: features-shadow-concept
+      virtual_path: docs/features/shadow/concept/index.md
+    - title: Limitations
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/shadow/limitations/
+      anchor: features-shadow-limitations
+      virtual_path: docs/features/shadow/limitations/index.md
+  - title: 3.10. Observability
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/features/observability/
+    anchor: features-observability
+    virtual_path: docs/features/observability/index.md
+    children:
+    - title: Core Concept
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/observability/concept/
+      anchor: features-observability-concept
+      virtual_path: docs/features/observability/concept/index.md
+  - title: 3.11. SQL Federation
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/features/sql-federation/
+    anchor: features-sql-federation
+    virtual_path: docs/features/sql-federation/index.md
+    children:
+    - title: Limitations
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/features/sql-federation/limitation/
+      anchor: features-sql-federation-limitation
+      virtual_path: docs/features/sql-federation/limitation/index.md
+- title: 4. User Manual
+  kind: category
+  source_url: https://shardingsphere.apache.org/document/current/en/user-manual/
+  anchor: user-manual
+  virtual_path: docs/user-manual/index.md
+  children:
+  - title: 4.1. ShardingSphere-JDBC
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/
+    anchor: user-manual-shardingsphere-jdbc
+    virtual_path: docs/user-manual/shardingsphere-jdbc/index.md
+    children:
+    - title: YAML Configuration
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/
+      anchor: user-manual-shardingsphere-jdbc-yaml-config
+      virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/index.md
+      children:
+      - title: Mode
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/mode/
+        anchor: user-manual-shardingsphere-jdbc-yaml-config-mode
+        virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/mode/index.md
+      - title: Data Source
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/data-source/
+        anchor: user-manual-shardingsphere-jdbc-yaml-config-data-source
+        virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/data-source/index.md
+      - title: Rules
+        kind: category
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/
+        anchor: user-manual-shardingsphere-jdbc-yaml-config-rules
+        virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/index.md
+        children:
+        - title: Sharding
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/sharding/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-sharding
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/sharding/index.md
+        - title: Broadcast Table
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/broadcast/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-broadcast
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/broadcast/index.md
+        - title: Readwrite-splitting
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/readwrite-splitting/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-readwrite-splitting
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/readwrite-splitting/index.md
+        - title: Distributed Transaction
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/transaction/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-transaction
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/transaction/index.md
+        - title: Encryption
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/encrypt/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-encrypt
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/encrypt/index.md
+        - title: Data Masking
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/mask/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-mask
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/mask/index.md
+        - title: Shadow DB
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/shadow/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-shadow
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/shadow/index.md
+        - title: SQL-parser
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/sql-parser/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-sql-parser
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/sql-parser/index.md
+        - title: SQL Translator
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/sql-translator/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-sql-translator
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/sql-translator/index.md
+        - title: Mixed Rules
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/mix/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-mix
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/mix/index.md
+        - title: Cache for Sharding Route
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/sharding-cache/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-sharding-cache
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/sharding-cache/index.md
+        - title: Single Table
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/single/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-single
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/single/index.md
+        - title: SQL Federation
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/rules/sql-federation/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-rules-sql-federation
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/rules/sql-federation/index.md
+      - title: Algorithm
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/algorithm/
+        anchor: user-manual-shardingsphere-jdbc-yaml-config-algorithm
+        virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/algorithm/index.md
+      - title: JDBC Driver
+        kind: category
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/jdbc-driver/
+        anchor: user-manual-shardingsphere-jdbc-yaml-config-jdbc-driver
+        virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/jdbc-driver/index.md
+        children:
+        - title: Known Implementation
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/jdbc-driver/known-implementation/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-jdbc-driver-known-implementation
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/jdbc-driver/known-implementation/index.md
+        - title: Spring Boot
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/jdbc-driver/spring-boot/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-jdbc-driver-spring-boot
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/jdbc-driver/spring-boot/index.md
+        - title: Spring Namespace
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/yaml-config/jdbc-driver/spring-namespace/
+          anchor: user-manual-shardingsphere-jdbc-yaml-config-jdbc-driver-spring-namespace
+          virtual_path: docs/user-manual/shardingsphere-jdbc/yaml-config/jdbc-driver/spring-namespace/index.md
+    - title: Java API
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/
+      anchor: user-manual-shardingsphere-jdbc-java-api
+      virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/index.md
+      children:
+      - title: Mode
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/mode/
+        anchor: user-manual-shardingsphere-jdbc-java-api-mode
+        virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/mode/index.md
+      - title: Data Source
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/data-source/
+        anchor: user-manual-shardingsphere-jdbc-java-api-data-source
+        virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/data-source/index.md
+      - title: Rules
+        kind: category
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/
+        anchor: user-manual-shardingsphere-jdbc-java-api-rules
+        virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/index.md
+        children:
+        - title: Sharding
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/sharding/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-sharding
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/sharding/index.md
+        - title: Broadcast Table
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/broadcast/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-broadcast
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/broadcast/index.md
+        - title: Readwrite-splitting
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/readwrite-splitting/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-readwrite-splitting
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/readwrite-splitting/index.md
+        - title: Distributed Transaction
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/transaction/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-transaction
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/transaction/index.md
+        - title: Encryption
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/encrypt/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-encrypt
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/encrypt/index.md
+        - title: Data Masking
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/mask/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-mask
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/mask/index.md
+        - title: Shadow DB
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/shadow/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-shadow
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/shadow/index.md
+        - title: SQL Parser
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/sql-parser/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-sql-parser
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/sql-parser/index.md
+        - title: SQL Translator
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/sql-translator/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-sql-translator
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/sql-translator/index.md
+        - title: Mixed Rules
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/mix/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-mix
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/mix/index.md
+        - title: Cache for Sharding Route
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/sharding-cache/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-sharding-cache
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/sharding-cache/index.md
+        - title: Single Table
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/single/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-single
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/single/index.md
+        - title: SQL-federation
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/rules/sql-federation/
+          anchor: user-manual-shardingsphere-jdbc-java-api-rules-sql-federation
+          virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/rules/sql-federation/index.md
+      - title: Algorithm
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/java-api/algorithm/
+        anchor: user-manual-shardingsphere-jdbc-java-api-algorithm
+        virtual_path: docs/user-manual/shardingsphere-jdbc/java-api/algorithm/index.md
+    - title: Special API
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/special-api/
+      anchor: user-manual-shardingsphere-jdbc-special-api
+      virtual_path: docs/user-manual/shardingsphere-jdbc/special-api/index.md
+      children:
+      - title: Sharding
+        kind: category
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/special-api/sharding/
+        anchor: user-manual-shardingsphere-jdbc-special-api-sharding
+        virtual_path: docs/user-manual/shardingsphere-jdbc/special-api/sharding/index.md
+        children:
+        - title: Hint
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/special-api/sharding/hint/
+          anchor: user-manual-shardingsphere-jdbc-special-api-sharding-hint
+          virtual_path: docs/user-manual/shardingsphere-jdbc/special-api/sharding/hint/index.md
+      - title: Readwrite-splitting
+        kind: category
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/special-api/readwrite-splitting/
+        anchor: user-manual-shardingsphere-jdbc-special-api-readwrite-splitting
+        virtual_path: docs/user-manual/shardingsphere-jdbc/special-api/readwrite-splitting/index.md
+        children:
+        - title: Hint
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/special-api/readwrite-splitting/hint/
+          anchor: user-manual-shardingsphere-jdbc-special-api-readwrite-splitting-hint
+          virtual_path: docs/user-manual/shardingsphere-jdbc/special-api/readwrite-splitting/hint/index.md
+      - title: Transaction
+        kind: category
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/special-api/transaction/
+        anchor: user-manual-shardingsphere-jdbc-special-api-transaction
+        virtual_path: docs/user-manual/shardingsphere-jdbc/special-api/transaction/index.md
+        children:
+        - title: Use Java API
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/special-api/transaction/java-api/
+          anchor: user-manual-shardingsphere-jdbc-special-api-transaction-java-api
+          virtual_path: docs/user-manual/shardingsphere-jdbc/special-api/transaction/java-api/index.md
+        - title: Atomikos Transaction
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/special-api/transaction/atomikos/
+          anchor: user-manual-shardingsphere-jdbc-special-api-transaction-atomikos
+          virtual_path: docs/user-manual/shardingsphere-jdbc/special-api/transaction/atomikos/index.md
+        - title: Narayana Transaction
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/special-api/transaction/narayana/
+          anchor: user-manual-shardingsphere-jdbc-special-api-transaction-narayana
+          virtual_path: docs/user-manual/shardingsphere-jdbc/special-api/transaction/narayana/index.md
+        - title: Seata Transaction
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/special-api/transaction/seata/
+          anchor: user-manual-shardingsphere-jdbc-special-api-transaction-seata
+          virtual_path: docs/user-manual/shardingsphere-jdbc/special-api/transaction/seata/index.md
+    - title: Optional Plugins
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/optional-plugins/
+      anchor: user-manual-shardingsphere-jdbc-optional-plugins
+      virtual_path: docs/user-manual/shardingsphere-jdbc/optional-plugins/index.md
+      children:
+      - title: ClickHouse
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/optional-plugins/clickhouse/
+        anchor: user-manual-shardingsphere-jdbc-optional-plugins-clickhouse
+        virtual_path: docs/user-manual/shardingsphere-jdbc/optional-plugins/clickhouse/index.md
+      - title: Doris FE
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/optional-plugins/doris-fe/
+        anchor: user-manual-shardingsphere-jdbc-optional-plugins-doris-fe
+        virtual_path: docs/user-manual/shardingsphere-jdbc/optional-plugins/doris-fe/index.md
+      - title: Firebird
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/optional-plugins/firebird/
+        anchor: user-manual-shardingsphere-jdbc-optional-plugins-firebird
+        virtual_path: docs/user-manual/shardingsphere-jdbc/optional-plugins/firebird/index.md
+      - title: H2
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/optional-plugins/h2/
+        anchor: user-manual-shardingsphere-jdbc-optional-plugins-h2
+        virtual_path: docs/user-manual/shardingsphere-jdbc/optional-plugins/h2/index.md
+      - title: HiveServer2
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/optional-plugins/hiveserver2/
+        anchor: user-manual-shardingsphere-jdbc-optional-plugins-hiveserver2
+        virtual_path: docs/user-manual/shardingsphere-jdbc/optional-plugins/hiveserver2/index.md
+      - title: MS SQL Server
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/optional-plugins/ms-sql-server/
+        anchor: user-manual-shardingsphere-jdbc-optional-plugins-ms-sql-server
+        virtual_path: docs/user-manual/shardingsphere-jdbc/optional-plugins/ms-sql-server/index.md
+      - title: Presto
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/optional-plugins/presto/
+        anchor: user-manual-shardingsphere-jdbc-optional-plugins-presto
+        virtual_path: docs/user-manual/shardingsphere-jdbc/optional-plugins/presto/index.md
+    - title: Unsupported Items
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/unsupported/
+      anchor: user-manual-shardingsphere-jdbc-unsupported
+      virtual_path: docs/user-manual/shardingsphere-jdbc/unsupported/index.md
+    - title: GraalVM Native Image
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/graalvm-native-image/
+      anchor: user-manual-shardingsphere-jdbc-graalvm-native-image
+      virtual_path: docs/user-manual/shardingsphere-jdbc/graalvm-native-image/index.md
+      children:
+      - title: Development and test
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-jdbc/graalvm-native-image/development/
+        anchor: user-manual-shardingsphere-jdbc-graalvm-native-image-development
+        virtual_path: docs/user-manual/shardingsphere-jdbc/graalvm-native-image/development/index.md
+  - title: 4.2. ShardingSphere-Proxy
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/
+    anchor: user-manual-shardingsphere-proxy
+    virtual_path: docs/user-manual/shardingsphere-proxy/index.md
+    children:
+    - title: Startup
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/startup/
+      anchor: user-manual-shardingsphere-proxy-startup
+      virtual_path: docs/user-manual/shardingsphere-proxy/startup/index.md
+      children:
+      - title: Use Binary Tar
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/startup/bin/
+        anchor: user-manual-shardingsphere-proxy-startup-bin
+        virtual_path: docs/user-manual/shardingsphere-proxy/startup/bin/index.md
+      - title: Build GraalVM Native Image(Alpha)
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/startup/graalvm-native-image/
+        anchor: user-manual-shardingsphere-proxy-startup-graalvm-native-image
+        virtual_path: docs/user-manual/shardingsphere-proxy/startup/graalvm-native-image/index.md
+      - title: Use Docker
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/startup/docker/
+        anchor: user-manual-shardingsphere-proxy-startup-docker
+        virtual_path: docs/user-manual/shardingsphere-proxy/startup/docker/index.md
+      - title: Use Helm
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/startup/helm/
+        anchor: user-manual-shardingsphere-proxy-startup-helm
+        virtual_path: docs/user-manual/shardingsphere-proxy/startup/helm/index.md
+      - title: Add dependencies
+        kind: category
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/startup/dependencies-download/
+        anchor: user-manual-shardingsphere-proxy-startup-dependencies-download
+        virtual_path: docs/user-manual/shardingsphere-proxy/startup/dependencies-download/index.md
+        children:
+        - title: Add Narayana dependencies
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/startup/dependencies-download/add_narayana_dependency/
+          anchor: user-manual-shardingsphere-proxy-startup-dependencies-download-add_narayana_dependency
+          virtual_path: docs/user-manual/shardingsphere-proxy/startup/dependencies-download/add_narayana_dependency/index.md
+    - title: Yaml Configuration
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/yaml-config/
+      anchor: user-manual-shardingsphere-proxy-yaml-config
+      virtual_path: docs/user-manual/shardingsphere-proxy/yaml-config/index.md
+      children:
+      - title: Authentication & Authorization
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/yaml-config/authority/
+        anchor: user-manual-shardingsphere-proxy-yaml-config-authority
+        virtual_path: docs/user-manual/shardingsphere-proxy/yaml-config/authority/index.md
+      - title: Properties
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/yaml-config/props/
+        anchor: user-manual-shardingsphere-proxy-yaml-config-props
+        virtual_path: docs/user-manual/shardingsphere-proxy/yaml-config/props/index.md
+      - title: Rules
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/yaml-config/rules/
+        anchor: user-manual-shardingsphere-proxy-yaml-config-rules
+        virtual_path: docs/user-manual/shardingsphere-proxy/yaml-config/rules/index.md
+      - title: Data Source
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/yaml-config/data-source/
+        anchor: user-manual-shardingsphere-proxy-yaml-config-data-source
+        virtual_path: docs/user-manual/shardingsphere-proxy/yaml-config/data-source/index.md
+    - title: DistSQL
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/
+      anchor: user-manual-shardingsphere-proxy-distsql
+      virtual_path: docs/user-manual/shardingsphere-proxy/distsql/index.md
+      children:
+      - title: Syntax
+        kind: category
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/
+        anchor: user-manual-shardingsphere-proxy-distsql-syntax
+        virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/index.md
+        children:
+        - title: RDL Syntax
+          kind: category
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/
+          anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl
+          virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/index.md
+          children:
+          - title: Storage Unit Definition
+            kind: category
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/storage-unit-definition/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-storage-unit-definition
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/storage-unit-definition/index.md
+            children:
+            - title: REGISTER STORAGE UNIT
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/storage-unit-definition/register-storage-unit/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-storage-unit-definition-register-storage-unit
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/storage-unit-definition/register-storage-unit/index.md
+            - title: ALTER STORAGE UNIT
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/storage-unit-definition/alter-storage-unit/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-storage-unit-definition-alter-storage-unit
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/storage-unit-definition/alter-storage-unit/index.md
+            - title: UNREGISTER STORAGE UNIT
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/storage-unit-definition/unregister-storage-unit/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-storage-unit-definition-unregister-storage-unit
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/storage-unit-definition/unregister-storage-unit/index.md
+          - title: Rule Definition
+            kind: category
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/index.md
+            children:
+            - title: Sharding
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/index.md
+              children:
+              - title: CREATE SHARDING TABLE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/create-sharding-table-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-create-sharding-table-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/create-sharding-table-rule/index.md
+              - title: ALTER SHARDING TABLE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/alter-sharding-table-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-alter-sharding-table-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/alter-sharding-table-rule/index.md
+              - title: DROP SHARDING TABLE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-sharding-table-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-drop-sharding-table-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-sharding-table-rule/index.md
+              - title: CREATE DEFAULT SHARDING STRATEGY
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/create-default-sharding-strategy/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-create-default-sharding-strategy
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/create-default-sharding-strategy/index.md
+              - title: ALTER DEFAULT SHARDING STRATEGY
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/alter-default-sharding-strategy/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-alter-default-sharding-strategy
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/alter-default-sharding-strategy/index.md
+              - title: DROP DEFAULT SHARDING STRATEGY
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-default-sharding-strategy/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-drop-default-sharding-strategy
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-default-sharding-strategy/index.md
+              - title: CREATE SHARDING KEY GENERATE STRATEGY
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/create-sharding-key-generate-strategy/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-create-sharding-key-generate-strategy
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/create-sharding-key-generate-strategy/index.md
+              - title: ALTER SHARDING KEY GENERATE STRATEGY
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/alter-sharding-key-generate-strategy/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-alter-sharding-key-generate-strategy
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/alter-sharding-key-generate-strategy/index.md
+              - title: CREATE SHARDING KEY GENERATOR
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/create-sharding-key-generator/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-create-sharding-key-generator
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/create-sharding-key-generator/index.md
+              - title: ALTER SHARDING KEY GENERATOR
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/alter-sharding-key-generator/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-alter-sharding-key-generator
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/alter-sharding-key-generator/index.md
+              - title: DROP SHARDING KEY GENERATE STRATEGY
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-sharding-key-generate-strategy/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-drop-sharding-key-generate-strategy
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-sharding-key-generate-strategy/index.md
+              - title: DROP SHARDING KEY GENERATOR
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-sharding-key-generator/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-drop-sharding-key-generator
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-sharding-key-generator/index.md
+              - title: DROP SHARDING ALGORITHM
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-sharding-algorithm/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-drop-sharding-algorithm
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-sharding-algorithm/index.md
+              - title: CREATE SHARDING TABLE REFERENCE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/create-sharding-table-reference-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-create-sharding-table-reference-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/create-sharding-table-reference-rule/index.md
+              - title: ALTER SHARDING TABLE REFERENCE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/alter-sharding-table-reference-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-alter-sharding-table-reference-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/alter-sharding-table-reference-rule/index.md
+              - title: DROP SHARDING TABLE REFERENCE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-sharding-table-reference-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-sharding-drop-sharding-table-reference-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/sharding/drop-sharding-table-reference-rule/index.md
+            - title: Broadcast Table
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/broadcast-table/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-broadcast-table
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/broadcast-table/index.md
+              children:
+              - title: CREATE BROADCAST TABLE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/broadcast-table/create-broadcast-table-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-broadcast-table-create-broadcast-table-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/broadcast-table/create-broadcast-table-rule/index.md
+              - title: DROP BROADCAST TABLE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/broadcast-table/drop-broadcast-table-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-broadcast-table-drop-broadcast-table-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/broadcast-table/drop-broadcast-table-rule/index.md
+            - title: Single Table
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/single-table/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-single-table
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/single-table/index.md
+              children:
+              - title: LOAD SINGLE TABLE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/single-table/load-single-table/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-single-table-load-single-table
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/single-table/load-single-table/index.md
+              - title: UNLOAD SINGLE TABLE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/single-table/unload-single-table/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-single-table-unload-single-table
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/single-table/unload-single-table/index.md
+              - title: SET DEFAULT SINGLE TABLE STORAGE UNIT
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/single-table/set-default-single-table-storage-unit/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-single-table-set-default-single-table-storage-unit
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/single-table/set-default-single-table-storage-unit/index.md
+            - title: Readwrite-Splitting
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/readwrite-splitting/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-readwrite-splitting
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/readwrite-splitting/index.md
+              children:
+              - title: CREATE READWRITE_SPLITTING RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/readwrite-splitting/create-readwrite-splitting-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-readwrite-splitting-create-readwrite-splitting-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/readwrite-splitting/create-readwrite-splitting-rule/index.md
+              - title: ALTER READWRITE_SPLITTING RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/readwrite-splitting/alter-readwrite-splitting-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-readwrite-splitting-alter-readwrite-splitting-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/readwrite-splitting/alter-readwrite-splitting-rule/index.md
+              - title: DROP READWRITE_SPLITTING RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/readwrite-splitting/drop-readwrite-splitting-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-readwrite-splitting-drop-readwrite-splitting-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/readwrite-splitting/drop-readwrite-splitting-rule/index.md
+            - title: Encrypt
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/encrypt/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-encrypt
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/encrypt/index.md
+              children:
+              - title: CREATE ENCRYPT RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/encrypt/create-encrypt-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-encrypt-create-encrypt-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/encrypt/create-encrypt-rule/index.md
+              - title: ALTER ENCRYPT RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/encrypt/alter-encrypt-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-encrypt-alter-encrypt-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/encrypt/alter-encrypt-rule/index.md
+              - title: DROP ENCRYPT RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/encrypt/drop-encrypt-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-encrypt-drop-encrypt-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/encrypt/drop-encrypt-rule/index.md
+            - title: Mask
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/mask/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-mask
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/mask/index.md
+              children:
+              - title: CREATE MASK RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/mask/create-mask-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-mask-create-mask-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/mask/create-mask-rule/index.md
+              - title: ALTER MASK RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/mask/alter-mask-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-mask-alter-mask-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/mask/alter-mask-rule/index.md
+              - title: DROP MASK RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/mask/drop-mask-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-mask-drop-mask-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/mask/drop-mask-rule/index.md
+            - title: Shadow
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-shadow
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/index.md
+              children:
+              - title: CREATE SHADOW RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/create-shadow-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-shadow-create-shadow-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/create-shadow-rule/index.md
+              - title: ALTER SHADOW RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/alter-shadow-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-shadow-alter-shadow-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/alter-shadow-rule/index.md
+              - title: DROP SHADOW RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/drop-shadow-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-shadow-drop-shadow-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/drop-shadow-rule/index.md
+              - title: CREATE DEFAULT SHADOW ALGORITHM
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/create-default-shadow-algorithm/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-shadow-create-default-shadow-algorithm
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/create-default-shadow-algorithm/index.md
+              - title: ALTER DEFAULT SHADOW ALGORITHM
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/alter-default-shadow-algorithm/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-shadow-alter-default-shadow-algorithm
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/alter-default-shadow-algorithm/index.md
+              - title: DROP DEFAULT SHADOW ALGORITHM
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/drop-default-shadow-algorithm/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-shadow-drop-default-shadow-algorithm
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/drop-default-shadow-algorithm/index.md
+              - title: DROP SHADOW ALGORITHM
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/drop-shadow-algorithm/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rdl-rule-definition-shadow-drop-shadow-algorithm
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rdl/rule-definition/shadow/drop-shadow-algorithm/index.md
+        - title: RQL Syntax
+          kind: category
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/
+          anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql
+          virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/index.md
+          children:
+          - title: Storage Unit Query
+            kind: category
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/storage-unit-query/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-storage-unit-query
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/storage-unit-query/index.md
+            children:
+            - title: SHOW STORAGE UNITS
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/storage-unit-query/show-storage-units/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-storage-unit-query-show-storage-units
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/storage-unit-query/show-storage-units/index.md
+          - title: Rule Query
+            kind: category
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/index.md
+            children:
+            - title: Sharding
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/index.md
+              children:
+              - title: SHOW SHARDING TABLE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-sharding-table-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-rule/index.md
+              - title: SHOW SHARDING ALGORITHMS
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-algorithms/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-sharding-algorithms
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-algorithms/index.md
+              - title: SHOW UNUSED SHARDING ALGORITHMS
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-unused-sharding-algorithms/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-unused-sharding-algorithms
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-unused-sharding-algorithms/index.md
+              - title: SHOW DEFAULT SHARDING STRATEGY
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-default-sharding-strategy/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-default-sharding-strategy
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-default-sharding-strategy/index.md
+              - title: SHOW SHARDING KEY GENERATOR
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-key-generator/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-sharding-key-generator
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-key-generator/index.md
+              - title: SHOW UNUSED SHARDING KEY GENERATORS
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-unused-sharding-key-generators/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-unused-sharding-key-generators
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-unused-sharding-key-generators/index.md
+              - title: SHOW SHARDING AUDITORS
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-auditors/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-sharding-auditors
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-auditors/index.md
+              - title: SHOW UNUSED SHARDING AUDITORS
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-unused-sharding-auditors/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-unused-sharding-auditors
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-unused-sharding-auditors/index.md
+              - title: SHOW SHARDING TABLE NODES
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-nodes/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-sharding-table-nodes
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-nodes/index.md
+              - title: SHOW SHARDING TABLE RULES USED ALGORITHM
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-rules-used-algorithm/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-sharding-table-rules-used-algorithm
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-rules-used-algorithm/index.md
+              - title: SHOW SHARDING TABLE RULES USED KEY GENERATOR
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-rules-used-key-generator/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-sharding-table-rules-used-key-generator
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-rules-used-key-generator/index.md
+              - title: SHOW SHARDING TABLE RULES USED AUDITOR
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-rules-used-auditor/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-sharding-table-rules-used-auditor
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-rules-used-auditor/index.md
+              - title: SHOW SHARDING TABLE REFERENCE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-reference-rules/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-sharding-table-reference-rules
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-table-reference-rules/index.md
+              - title: SHOW SHARDING KEY GENERATE STRATEGY
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-key-generate-strategy/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-show-sharding-key-generate-strategy
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/show-sharding-key-generate-strategy/index.md
+              - title: COUNT SHARDING RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/count-sharding-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-sharding-count-sharding-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/sharding/count-sharding-rule/index.md
+            - title: Broadcast Table
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/broadcast-table/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-broadcast-table
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/broadcast-table/index.md
+              children:
+              - title: SHOW BROADCAST TABLE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/broadcast-table/show-broadcast-table-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-broadcast-table-show-broadcast-table-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/broadcast-table/show-broadcast-table-rule/index.md
+              - title: COUNT BROADCAST RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/broadcast-table/count-broadcast-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-broadcast-table-count-broadcast-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/broadcast-table/count-broadcast-rule/index.md
+            - title: Single Table
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/single-table/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-single-table
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/single-table/index.md
+              children:
+              - title: SHOW SINGLE TABLE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/single-table/show-single-table/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-single-table-show-single-table
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/single-table/show-single-table/index.md
+              - title: SHOW DEFAULT SINGLE TABLE STORAGE UNIT
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/single-table/show-deafult-single-table-storage-unit/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-single-table-show-deafult-single-table-storage-unit
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/single-table/show-deafult-single-table-storage-unit/index.md
+              - title: COUNT SINGLE_TABLE RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/single-table/count-single-table/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-single-table-count-single-table
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/single-table/count-single-table/index.md
+              - title: SHOW UNLOADED SINGLE TABLES
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/single-table/show-unloaded-single-tables/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-single-table-show-unloaded-single-tables
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/single-table/show-unloaded-single-tables/index.md
+            - title: Readwrite-Splitting
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/readwrite-splitting/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-readwrite-splitting
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/readwrite-splitting/index.md
+              children:
+              - title: SHOW READWRITE_SPLITTING RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/readwrite-splitting/show-readwrite-splitting-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-readwrite-splitting-show-readwrite-splitting-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/readwrite-splitting/show-readwrite-splitting-rule/index.md
+              - title: COUNT READWRITE_SPLITTING RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/readwrite-splitting/count-readwrite-splitting-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-readwrite-splitting-count-readwrite-splitting-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/readwrite-splitting/count-readwrite-splitting-rule/index.md
+            - title: Encrypt
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/encrypt/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-encrypt
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/encrypt/index.md
+              children:
+              - title: SHOW ENCRYPT RULES
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/encrypt/show-encrypt-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-encrypt-show-encrypt-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/encrypt/show-encrypt-rule/index.md
+              - title: COUNT ENCRYPT RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/encrypt/count-encrypt-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-encrypt-count-encrypt-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/encrypt/count-encrypt-rule/index.md
+            - title: Mask
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/mask/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-mask
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/mask/index.md
+              children:
+              - title: SHOW MASK RULES
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/mask/show-mask-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-mask-show-mask-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/mask/show-mask-rule/index.md
+              - title: COUNT MASK RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/mask/count-mask-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-mask-count-mask-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/mask/count-mask-rule/index.md
+            - title: Shadow
+              kind: category
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-shadow
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/index.md
+              children:
+              - title: SHOW SHADOW RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/show-shadow-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-shadow-show-shadow-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/show-shadow-rule/index.md
+              - title: SHOW SHADOW TABLE RULES
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/show-shadow-table-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-shadow-show-shadow-table-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/show-shadow-table-rule/index.md
+              - title: SHOW SHADOW ALGORITHMS
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/show-shadow-algorithm/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-shadow-show-shadow-algorithm
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/show-shadow-algorithm/index.md
+              - title: SHOW DEFAULT SHADOW ALGORITHM
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/show-default-shadow-algorithm/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-shadow-show-default-shadow-algorithm
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/show-default-shadow-algorithm/index.md
+              - title: COUNT SHADOW RULE
+                kind: link
+                source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/count-shadow-rule/
+                anchor: user-manual-shardingsphere-proxy-distsql-syntax-rql-rule-query-shadow-count-shadow-rule
+                virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rql/rule-query/shadow/count-shadow-rule/index.md
+        - title: RAL Syntax
+          kind: category
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/
+          anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral
+          virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/index.md
+          children:
+          - title: GLOBAL RULE
+            kind: category
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/index.md
+            children:
+            - title: SHOW AUTHORITY RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-authority-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule-show-authority-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-authority-rule/index.md
+            - title: SHOW TRANSACTION RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-transaction-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule-show-transaction-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-transaction-rule/index.md
+            - title: ALTER TRANSACTION RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/alter-transaction-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule-alter-transaction-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/alter-transaction-rule/index.md
+            - title: SHOW SQL_PARSER RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-sql-parser-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule-show-sql-parser-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-sql-parser-rule/index.md
+            - title: Alter SQL_PARSER Rule
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/alter-sql-parser-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule-alter-sql-parser-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/alter-sql-parser-rule/index.md
+            - title: SHOW SQL_TRANSLATOR RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-sql-translator-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule-show-sql-translator-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-sql-translator-rule/index.md
+            - title: ALTER SQL_TRANSLATOR RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/alter-sql-translator-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule-alter-sql-translator-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/alter-sql-translator-rule/index.md
+            - title: SHOW TRAFFIC RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-traffic-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule-show-traffic-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-traffic-rule/index.md
+            - title: ALTER TRAFFIC RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/alter-traffic-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule-alter-traffic-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/alter-traffic-rule/index.md
+            - title: SHOW SQL_FEDERATION RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-sql-federation-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule-show-sql-federation-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/show-sql-federation-rule/index.md
+            - title: ALTER SQL_FEDERATION RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/alter-sql-federation-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-global-rule-alter-sql-federation-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/global-rule/alter-sql-federation-rule/index.md
+          - title: CIRCUIT BREAKER
+            kind: category
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-circuit-breaker
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/index.md
+            children:
+            - title: ALTER READWRITE_SPLITTING RULE ENABLE/DISABLE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/alter-readwrite-splitting-rule-enable-disable/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-circuit-breaker-alter-readwrite-splitting-rule-enable-disable
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/alter-readwrite-splitting-rule-enable-disable/index.md
+            - title: SHOW STATUS FROM READWRITE_SPLITTING RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/show-status-from-readwrite-splitting-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-circuit-breaker-show-status-from-readwrite-splitting-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/show-status-from-readwrite-splitting-rule/index.md
+            - title: SHOW COMPUTE NODES
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/show-compute-nodes/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-circuit-breaker-show-compute-nodes
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/show-compute-nodes/index.md
+            - title: ENABLE/DISABLE COMPUTE NODE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/enable-disable-compute-node/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-circuit-breaker-enable-disable-compute-node
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/enable-disable-compute-node/index.md
+            - title: LABEL|RELABEL COMPUTE NODES
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/label-relabel-compute-node/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-circuit-breaker-label-relabel-compute-node
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/label-relabel-compute-node/index.md
+            - title: UNLABEL COMPUTE NODES
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/unlabel-compute-node/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-circuit-breaker-unlabel-compute-node
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/circuit-breaker/unlabel-compute-node/index.md
+          - title: MIGRATUION
+            kind: category
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/index.md
+            children:
+            - title: SHOW MIGRATION RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-show-migration-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-rule/index.md
+            - title: ALTER MIGRATION RULE
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/alter-migration-rule/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-alter-migration-rule
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/alter-migration-rule/index.md
+            - title: REGISTER MIGRATION SOURCE STORAGE UNIT
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/register-migration-source-storage-unit/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-register-migration-source-storage-unit
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/register-migration-source-storage-unit/index.md
+            - title: UNREGISTER MIGRATION SOURCE STORAGE UNIT
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/unregister-storage-unit/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-unregister-storage-unit
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/unregister-storage-unit/index.md
+            - title: SHOW MIGRATION SOURCE STORAGE UNITS
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-source-storage-units/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-show-migration-source-storage-units
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-source-storage-units/index.md
+            - title: MIGRATE TABLE INTO
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/migrate-table-into/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-migrate-table-into
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/migrate-table-into/index.md
+            - title: SHOW MIGRATION LIST
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-list/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-show-migration-list
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-list/index.md
+            - title: SHOW MIGRATION STATUS
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-status/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-show-migration-status
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-status/index.md
+            - title: SHOW MIGRATION CHECK ALGORITHM
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-check-algorithm/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-show-migration-check-algorithm
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-check-algorithm/index.md
+            - title: CHECK MIGRATION
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/check-migration/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-check-migration
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/check-migration/index.md
+            - title: SHOW MIGRATION CHECK STATUS
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-check-status/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-show-migration-check-status
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/show-migration-check-status/index.md
+            - title: START MIGRATION CHECK
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/start-migration-check/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-start-migration-check
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/start-migration-check/index.md
+            - title: STOP MIGRATION CHECK
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/stop-migration-check/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-stop-migration-check
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/stop-migration-check/index.md
+            - title: START MIGRATION
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/start-migration/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-start-migration
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/start-migration/index.md
+            - title: STOP MIGRATION
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/stop-migration/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-stop-migration
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/stop-migration/index.md
+            - title: COMMIT MIGRATION
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/commit-migration/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-commit-migration
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/commit-migration/index.md
+            - title: ROLLBACK MIGRATION
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/rollback-migration/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-migration-rollback-migration
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/migration/rollback-migration/index.md
+          - title: PLUGIN
+            kind: category
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-plugin
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/index.md
+            children:
+            - title: SHOW PLUGINS OF SPI
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-plugins/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-plugin-show-plugins
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-plugins/index.md
+            - title: SHOW SHARDING ALGORITHM PLUGINS
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-sharding-algorithm-plugins/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-plugin-show-sharding-algorithm-plugins
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-sharding-algorithm-plugins/index.md
+            - title: SHOW LOAD BALANCE ALGORITHM PLUGINS
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-load-balance-algorithm-plugins/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-plugin-show-load-balance-algorithm-plugins
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-load-balance-algorithm-plugins/index.md
+            - title: SHOW ENCRYPT ALGORITHM PLUGINS
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-encrypt-algorithm-plugins/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-plugin-show-encrypt-algorithm-plugins
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-encrypt-algorithm-plugins/index.md
+            - title: SHOW MASK ALGORITHM PLUGINS
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-mask-algorithm-plugins/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-plugin-show-mask-algorithm-plugins
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-mask-algorithm-plugins/index.md
+            - title: SHOW SHADOW ALGORITHM PLUGINS
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-shadow-algorithm-plugins/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-plugin-show-shadow-algorithm-plugins
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-shadow-algorithm-plugins/index.md
+            - title: SHOW KEY GENERATE ALGORITHM PLUGINS
+              kind: link
+              source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-key-generate-algorithm-plugins/
+              anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-plugin-show-key-generate-algorithm-plugins
+              virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/plugin/show-key-generate-algorithm-plugins/index.md
+          - title: SHOW COMPUTE NODE INFO
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/show-compute-node-info/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-show-compute-node-info
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/show-compute-node-info/index.md
+          - title: SHOW COMPUTE NODE MODE
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/show-compute-node-mode/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-show-compute-node-mode
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/show-compute-node-mode/index.md
+          - title: SET DIST VARIABLE
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/set-dist-vairable/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-set-dist-vairable
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/set-dist-vairable/index.md
+          - title: SHOW DIST VARIABLE
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/show-dist-variable/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-show-dist-variable
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/show-dist-variable/index.md
+          - title: REFRESH TABLE METADATA
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/refresh-table-metadata/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-refresh-table-metadata
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/refresh-table-metadata/index.md
+          - title: REFRESH DATABASE METADATA FROM GOVERNANCE CENTER
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/refresh-database-metadata/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-refresh-database-metadata
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/refresh-database-metadata/index.md
+          - title: SHOW TABLE METADATA
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/show-table-metadata/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-show-table-metadata
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/show-table-metadata/index.md
+          - title: SHOW RULES USED STORAGE UNIT
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/show-rules-used-storage-unit/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-show-rules-used-storage-unit
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/show-rules-used-storage-unit/index.md
+          - title: EXPORT DATABASE CONFIGURATION
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/export-database-configuration/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-export-database-configuration
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/export-database-configuration/index.md
+          - title: IMPORT DATABASE CONFIGURATION
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/import-database-configuration/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-import-database-configuration
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/import-database-configuration/index.md
+          - title: CONVERT YAML CONFIGURATION
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/convert-yaml-configuration/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-convert-yaml-configuration
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/convert-yaml-configuration/index.md
+          - title: LOCK CLUSTER WITH
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/lock-cluster-with/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-lock-cluster-with
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/lock-cluster-with/index.md
+          - title: UNLOCK CLUSTER
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/unlock-cluster/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-unlock-cluster
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/unlock-cluster/index.md
+          - title: EXPORT METADATA
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/export-metadata/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-export-metadata
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/export-metadata/index.md
+          - title: IMPORT METADATA
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/import-metadata/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-import-metadata
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/import-metadata/index.md
+          - title: EXPORT STORAGE NODES
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/ral/export-storage-nodes/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-ral-export-storage-nodes
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/ral/export-storage-nodes/index.md
+        - title: RUL Syntax
+          kind: category
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rul/
+          anchor: user-manual-shardingsphere-proxy-distsql-syntax-rul
+          virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rul/index.md
+          children:
+          - title: PARSE SQL
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rul/parse-sql/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-rul-parse-sql
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rul/parse-sql/index.md
+          - title: FORMAT SQL
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rul/format-sql/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-rul-format-sql
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rul/format-sql/index.md
+          - title: PREVIEW SQL
+            kind: link
+            source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/rul/preview-sql/
+            anchor: user-manual-shardingsphere-proxy-distsql-syntax-rul-preview-sql
+            virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/rul/preview-sql/index.md
+        - title: Reserved word
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/syntax/reserved-word/
+          anchor: user-manual-shardingsphere-proxy-distsql-syntax-reserved-word
+          virtual_path: docs/user-manual/shardingsphere-proxy/distsql/syntax/reserved-word/index.md
+      - title: Usage
+        kind: category
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/usage/
+        anchor: user-manual-shardingsphere-proxy-distsql-usage
+        virtual_path: docs/user-manual/shardingsphere-proxy/distsql/usage/index.md
+        children:
+        - title: Sharding
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/usage/sharding-rule/
+          anchor: user-manual-shardingsphere-proxy-distsql-usage-sharding-rule
+          virtual_path: docs/user-manual/shardingsphere-proxy/distsql/usage/sharding-rule/index.md
+        - title: Readwrite splitting
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/usage/readwirte-splitting-rule/
+          anchor: user-manual-shardingsphere-proxy-distsql-usage-readwirte-splitting-rule
+          virtual_path: docs/user-manual/shardingsphere-proxy/distsql/usage/readwirte-splitting-rule/index.md
+        - title: Encrypt
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/usage/encrypt-rule/
+          anchor: user-manual-shardingsphere-proxy-distsql-usage-encrypt-rule
+          virtual_path: docs/user-manual/shardingsphere-proxy/distsql/usage/encrypt-rule/index.md
+        - title: MASK
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/usage/mask-rule/
+          anchor: user-manual-shardingsphere-proxy-distsql-usage-mask-rule
+          virtual_path: docs/user-manual/shardingsphere-proxy/distsql/usage/mask-rule/index.md
+        - title: Shadow
+          kind: link
+          source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/distsql/usage/shadow-rule/
+          anchor: user-manual-shardingsphere-proxy-distsql-usage-shadow-rule
+          virtual_path: docs/user-manual/shardingsphere-proxy/distsql/usage/shadow-rule/index.md
+    - title: Data Migration
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/migration/
+      anchor: user-manual-shardingsphere-proxy-migration
+      virtual_path: docs/user-manual/shardingsphere-proxy/migration/index.md
+      children:
+      - title: Build
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/migration/build/
+        anchor: user-manual-shardingsphere-proxy-migration-build
+        virtual_path: docs/user-manual/shardingsphere-proxy/migration/build/index.md
+      - title: Manual
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/migration/usage/
+        anchor: user-manual-shardingsphere-proxy-migration-usage
+        virtual_path: docs/user-manual/shardingsphere-proxy/migration/usage/index.md
+    - title: Observability
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/observability/
+      anchor: user-manual-shardingsphere-proxy-observability
+      virtual_path: docs/user-manual/shardingsphere-proxy/observability/index.md
+    - title: Optional Plugins
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/optional-plugins/
+      anchor: user-manual-shardingsphere-proxy-optional-plugins
+      virtual_path: docs/user-manual/shardingsphere-proxy/optional-plugins/index.md
+      children:
+      - title: Seata AT Mode transactions
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/optional-plugins/seata-at/
+        anchor: user-manual-shardingsphere-proxy-optional-plugins-seata-at
+        virtual_path: docs/user-manual/shardingsphere-proxy/optional-plugins/seata-at/index.md
+    - title: Session Management
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/session/
+      anchor: user-manual-shardingsphere-proxy-session
+      virtual_path: docs/user-manual/shardingsphere-proxy/session/index.md
+    - title: Logging Configuration
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/logging/
+      anchor: user-manual-shardingsphere-proxy-logging
+      virtual_path: docs/user-manual/shardingsphere-proxy/logging/index.md
+    - title: CDC
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/cdc/
+      anchor: user-manual-shardingsphere-proxy-cdc
+      virtual_path: docs/user-manual/shardingsphere-proxy/cdc/index.md
+      children:
+      - title: Build
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/cdc/build/
+        anchor: user-manual-shardingsphere-proxy-cdc-build
+        virtual_path: docs/user-manual/shardingsphere-proxy/cdc/build/index.md
+      - title: Manual
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-proxy/cdc/usage/
+        anchor: user-manual-shardingsphere-proxy-cdc-usage
+        virtual_path: docs/user-manual/shardingsphere-proxy/cdc/usage/index.md
+  - title: 4.3. Common Configuration
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/
+    anchor: user-manual-common-config
+    virtual_path: docs/user-manual/common-config/index.md
+    children:
+    - title: Properties Configuration
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/props/
+      anchor: user-manual-common-config-props
+      virtual_path: docs/user-manual/common-config/props/index.md
+    - title: Builtin Algorithm
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/builtin-algorithm/
+      anchor: user-manual-common-config-builtin-algorithm
+      virtual_path: docs/user-manual/common-config/builtin-algorithm/index.md
+      children:
+      - title: Metadata Repository
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/builtin-algorithm/metadata-repository/
+        anchor: user-manual-common-config-builtin-algorithm-metadata-repository
+        virtual_path: docs/user-manual/common-config/builtin-algorithm/metadata-repository/index.md
+      - title: Sharding Algorithm
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/builtin-algorithm/sharding/
+        anchor: user-manual-common-config-builtin-algorithm-sharding
+        virtual_path: docs/user-manual/common-config/builtin-algorithm/sharding/index.md
+      - title: Key Generate Algorithm
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/builtin-algorithm/keygen/
+        anchor: user-manual-common-config-builtin-algorithm-keygen
+        virtual_path: docs/user-manual/common-config/builtin-algorithm/keygen/index.md
+      - title: Load Balance Algorithm
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/builtin-algorithm/load-balance/
+        anchor: user-manual-common-config-builtin-algorithm-load-balance
+        virtual_path: docs/user-manual/common-config/builtin-algorithm/load-balance/index.md
+      - title: Encryption Algorithm
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/builtin-algorithm/encrypt/
+        anchor: user-manual-common-config-builtin-algorithm-encrypt
+        virtual_path: docs/user-manual/common-config/builtin-algorithm/encrypt/index.md
+      - title: Shadow Algorithm
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/builtin-algorithm/shadow/
+        anchor: user-manual-common-config-builtin-algorithm-shadow
+        virtual_path: docs/user-manual/common-config/builtin-algorithm/shadow/index.md
+      - title: SQL Translator
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/builtin-algorithm/sql-translator/
+        anchor: user-manual-common-config-builtin-algorithm-sql-translator
+        virtual_path: docs/user-manual/common-config/builtin-algorithm/sql-translator/index.md
+      - title: Sharding Audit Algorithm
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/builtin-algorithm/audit/
+        anchor: user-manual-common-config-builtin-algorithm-audit
+        virtual_path: docs/user-manual/common-config/builtin-algorithm/audit/index.md
+      - title: Data Masking Algorithm
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/builtin-algorithm/mask/
+        anchor: user-manual-common-config-builtin-algorithm-mask
+        virtual_path: docs/user-manual/common-config/builtin-algorithm/mask/index.md
+      - title: Row Value Expressions
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/builtin-algorithm/expr/
+        anchor: user-manual-common-config-builtin-algorithm-expr
+        virtual_path: docs/user-manual/common-config/builtin-algorithm/expr/index.md
+    - title: SQL Hint
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/common-config/sql-hint/
+      anchor: user-manual-common-config-sql-hint
+      virtual_path: docs/user-manual/common-config/sql-hint/index.md
+  - title: 4.4. Error Code
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/user-manual/error-code/
+    anchor: user-manual-error-code
+    virtual_path: docs/user-manual/error-code/index.md
+    children:
+    - title: SQL Error Code
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/error-code/sql-error-code/
+      anchor: user-manual-error-code-sql-error-code
+      virtual_path: docs/user-manual/error-code/sql-error-code/index.md
+    - title: Server Error Code
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/error-code/server-error-code/
+      anchor: user-manual-error-code-server-error-code
+      virtual_path: docs/user-manual/error-code/server-error-code/index.md
+  - title: 4.5. Dependency Management
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/user-manual/dependencies/
+    anchor: user-manual-dependencies
+    virtual_path: docs/user-manual/dependencies/index.md
+    children:
+    - title: 4.5.1. Bill of Materials (BOM)
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/dependencies/bom/
+      anchor: user-manual-dependencies-bom
+      virtual_path: docs/user-manual/dependencies/bom/index.md
+  - title: 4.6. ShardingSphere-Agent
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-agent/
+    anchor: user-manual-shardingsphere-agent
+    virtual_path: docs/user-manual/shardingsphere-agent/index.md
+    children:
+    - title: Usage
+      kind: category
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-agent/usage/
+      anchor: user-manual-shardingsphere-agent-usage
+      virtual_path: docs/user-manual/shardingsphere-agent/usage/index.md
+      children:
+      - title: Docker
+        kind: link
+        source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-agent/usage/docker/
+        anchor: user-manual-shardingsphere-agent-usage-docker
+        virtual_path: docs/user-manual/shardingsphere-agent/usage/docker/index.md
+    - title: Configuration
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-agent/configuration/
+      anchor: user-manual-shardingsphere-agent-configuration
+      virtual_path: docs/user-manual/shardingsphere-agent/configuration/index.md
+    - title: Metrics
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-agent/metrics/
+      anchor: user-manual-shardingsphere-agent-metrics
+      virtual_path: docs/user-manual/shardingsphere-agent/metrics/index.md
+    - title: Plugins
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/user-manual/shardingsphere-agent/plugins/
+      anchor: user-manual-shardingsphere-agent-plugins
+      virtual_path: docs/user-manual/shardingsphere-agent/plugins/index.md
+- title: 5. Dev Manual
+  kind: category
+  source_url: https://shardingsphere.apache.org/document/current/en/dev-manual/
+  anchor: dev-manual
+  virtual_path: docs/dev-manual/index.md
+  children:
+  - title: 5.1. Mode
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/dev-manual/mode/
+    anchor: dev-manual-mode
+    virtual_path: docs/dev-manual/mode/index.md
+  - title: 5.2. SQL Parser
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/dev-manual/sql-parser/
+    anchor: dev-manual-sql-parser
+    virtual_path: docs/dev-manual/sql-parser/index.md
+  - title: 5.3. Data Sharding
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/dev-manual/sharding/
+    anchor: dev-manual-sharding
+    virtual_path: docs/dev-manual/sharding/index.md
+  - title: 5.4. Infra algorithm
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/dev-manual/infra-algorithm/
+    anchor: dev-manual-infra-algorithm
+    virtual_path: docs/dev-manual/infra-algorithm/index.md
+  - title: 5.5. SQL Audit
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/dev-manual/sql-audit/
+    anchor: dev-manual-sql-audit
+    virtual_path: docs/dev-manual/sql-audit/index.md
+  - title: 5.6. Encryption
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/dev-manual/encrypt/
+    anchor: dev-manual-encrypt
+    virtual_path: docs/dev-manual/encrypt/index.md
+  - title: 5.7. Data Masking
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/dev-manual/mask/
+    anchor: dev-manual-mask
+    virtual_path: docs/dev-manual/mask/index.md
+  - title: 5.8. Shadow DB
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/dev-manual/shadow/
+    anchor: dev-manual-shadow
+    virtual_path: docs/dev-manual/shadow/index.md
+  - title: 5.9. Observability
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/dev-manual/agent/
+    anchor: dev-manual-agent
+    virtual_path: docs/dev-manual/agent/index.md
+- title: 6. Test Manual
+  kind: category
+  source_url: https://shardingsphere.apache.org/document/current/en/test-manual/
+  anchor: test-manual
+  virtual_path: docs/test-manual/index.md
+  children:
+  - title: 6.1. Integration Test
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/test-manual/integration-test/
+    anchor: test-manual-integration-test
+    virtual_path: docs/test-manual/integration-test/index.md
+  - title: 6.2. Performance Test
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/test-manual/performance-test/
+    anchor: test-manual-performance-test
+    virtual_path: docs/test-manual/performance-test/index.md
+    children:
+    - title: SysBench ShardingSphere-Proxy Empty Rule Performance Test
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/test-manual/performance-test/sysbench-proxy-norules-test/
+      anchor: test-manual-performance-test-sysbench-proxy-norules-test
+      virtual_path: docs/test-manual/performance-test/sysbench-proxy-norules-test/index.md
+    - title: BenchmarkSQL ShardingSphere-Proxy Sharding Performance Test
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/test-manual/performance-test/benchmarksql-proxy-sharding-test/
+      anchor: test-manual-performance-test-benchmarksql-proxy-sharding-test
+      virtual_path: docs/test-manual/performance-test/benchmarksql-proxy-sharding-test/index.md
+  - title: 6.3. Module Test
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/test-manual/module-test/
+    anchor: test-manual-module-test
+    virtual_path: docs/test-manual/module-test/index.md
+    children:
+    - title: SQL Parser Test
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/test-manual/module-test/parser-test/
+      anchor: test-manual-module-test-parser-test
+      virtual_path: docs/test-manual/module-test/parser-test/index.md
+    - title: SQL Rewrite Test
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/test-manual/module-test/rewrite-test/
+      anchor: test-manual-module-test-rewrite-test
+      virtual_path: docs/test-manual/module-test/rewrite-test/index.md
+  - title: 6.4. Pipeline E2E Test
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/test-manual/pipeline-e2e-test/
+    anchor: test-manual-pipeline-e2e-test
+    virtual_path: docs/test-manual/pipeline-e2e-test/index.md
+- title: 7. Reference
+  kind: category
+  source_url: https://shardingsphere.apache.org/document/current/en/reference/
+  anchor: reference
+  virtual_path: docs/reference/index.md
+  children:
+  - title: 7.1. Database Compatibility
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/reference/db-compatibility/
+    anchor: reference-db-compatibility
+    virtual_path: docs/reference/db-compatibility/index.md
+  - title: 7.2. Database Gateway
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/reference/gateway/
+    anchor: reference-gateway
+    virtual_path: docs/reference/gateway/index.md
+  - title: 7.3. Management
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/reference/management/
+    anchor: reference-management
+    virtual_path: docs/reference/management/index.md
+  - title: 7.4. Sharding
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/reference/sharding/
+    anchor: reference-sharding
+    virtual_path: docs/reference/sharding/index.md
+    children:
+    - title: Parse Engine
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/reference/sharding/parse/
+      anchor: reference-sharding-parse
+      virtual_path: docs/reference/sharding/parse/index.md
+    - title: Route Engine
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/reference/sharding/route/
+      anchor: reference-sharding-route
+      virtual_path: docs/reference/sharding/route/index.md
+    - title: Rewrite Engine
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/reference/sharding/rewrite/
+      anchor: reference-sharding-rewrite
+      virtual_path: docs/reference/sharding/rewrite/index.md
+    - title: Execute Engine
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/reference/sharding/execute/
+      anchor: reference-sharding-execute
+      virtual_path: docs/reference/sharding/execute/index.md
+    - title: Merger Engine
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/reference/sharding/merge/
+      anchor: reference-sharding-merge
+      virtual_path: docs/reference/sharding/merge/index.md
+  - title: 7.5. Transaction
+    kind: category
+    source_url: https://shardingsphere.apache.org/document/current/en/reference/transaction/
+    anchor: reference-transaction
+    virtual_path: docs/reference/transaction/index.md
+    children:
+    - title: XA Transaction
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/reference/transaction/2pc-xa-transaction/
+      anchor: reference-transaction-2pc-xa-transaction
+      virtual_path: docs/reference/transaction/2pc-xa-transaction/index.md
+    - title: Seata BASE transaction
+      kind: link
+      source_url: https://shardingsphere.apache.org/document/current/en/reference/transaction/base-transaction-seata/
+      anchor: reference-transaction-base-transaction-seata
+      virtual_path: docs/reference/transaction/base-transaction-seata/index.md
+  - title: 7.6. Data Migration
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/reference/migration/
+    anchor: reference-migration
+    virtual_path: docs/reference/migration/index.md
+  - title: 7.7. Encryption
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/reference/encrypt/
+    anchor: reference-encrypt
+    virtual_path: docs/reference/encrypt/index.md
+  - title: 7.8. Mask
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/reference/mask/
+    anchor: reference-mask
+    virtual_path: docs/reference/mask/index.md
+  - title: 7.9. Shadow
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/reference/shadow/
+    anchor: reference-shadow
+    virtual_path: docs/reference/shadow/index.md
+  - title: 7.10. Oberservability
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/reference/observability/
+    anchor: reference-observability
+    virtual_path: docs/reference/observability/index.md
+  - title: 7.11. Architecture
+    kind: link
+    source_url: https://shardingsphere.apache.org/document/current/en/reference/architecture/
+    anchor: reference-architecture
+    virtual_path: docs/reference/architecture/index.md
+- title: 8. FAQ
+  kind: link
+  source_url: https://shardingsphere.apache.org/document/current/en/faq/
+  anchor: faq
+  virtual_path: docs/faq/index.md
+- title: 9. Downloads
+  kind: link
+  source_url: https://shardingsphere.apache.org/document/current/en/downloads/
+  anchor: downloads
+  virtual_path: docs/downloads/index.md

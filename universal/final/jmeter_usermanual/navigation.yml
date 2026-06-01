@@ -1,0 +1,184 @@
+- title: Documentation
+  kind: category
+  children:
+  - title: Get Started
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/get-started.html
+    anchor: get-started
+    virtual_path: docs/get-started.md
+  - title: User Manual
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Best Practices
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/best-practices.html
+    anchor: best-practices
+    virtual_path: docs/best-practices.md
+  - title: Component Reference
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/component_reference.html
+    anchor: component_reference
+    virtual_path: docs/component_reference.md
+  - title: Functions Reference
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/functions.html
+    anchor: functions
+    virtual_path: docs/functions.md
+  - title: Properties Reference
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/properties_reference.html
+    anchor: properties_reference
+    virtual_path: docs/properties_reference.md
+- title: Tutorials
+  kind: category
+  children:
+  - title: Distributed Testing
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/jmeter_distributed_testing_step_by_step.html
+    anchor: jmeter_distributed_testing_step_by_step
+    virtual_path: docs/jmeter_distributed_testing_step_by_step.md
+  - title: Recording Tests
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/jmeter_proxy_step_by_step.html
+    anchor: jmeter_proxy_step_by_step
+    virtual_path: docs/jmeter_proxy_step_by_step.md
+  - title: JUnit Sampler
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/junitsampler_tutorial.html
+    anchor: junitsampler_tutorial
+    virtual_path: docs/junitsampler_tutorial.md
+  - title: Access Log Sampler
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/jmeter_accesslog_sampler_step_by_step.html
+    anchor: jmeter_accesslog_sampler_step_by_step
+    virtual_path: docs/jmeter_accesslog_sampler_step_by_step.md
+  - title: Extending JMeter
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/jmeter_tutorial.html
+    anchor: jmeter_tutorial
+    virtual_path: docs/jmeter_tutorial.md
+- title: Other pages
+  kind: category
+  children:
+  - title: 17. Help! My boss wants me to load test our application! ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/boss.html
+    anchor: boss
+    virtual_path: docs/boss.md
+  - title: 5. Building an Advanced Web Test Plan ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/build-adv-web-test-plan.html
+    anchor: build-adv-web-test-plan
+    virtual_path: docs/build-adv-web-test-plan.md
+  - title: 6. Building a Database Test Plan ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/build-db-test-plan.html
+    anchor: build-db-test-plan
+    virtual_path: docs/build-db-test-plan.md
+  - title: 7. Building an FTP Test Plan ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/build-ftp-test-plan.html
+    anchor: build-ftp-test-plan
+    virtual_path: docs/build-ftp-test-plan.md
+  - title: 10. Building a JMS Point-to-Point Test Plan ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/build-jms-point-to-point-test-plan.html
+    anchor: build-jms-point-to-point-test-plan
+    virtual_path: docs/build-jms-point-to-point-test-plan.md
+  - title: 11. Building a JMS Topic Test Plan ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/build-jms-topic-test-plan.html
+    anchor: build-jms-topic-test-plan
+    virtual_path: docs/build-jms-topic-test-plan.md
+  - title: 8a. Building an LDAP Test Plan ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/build-ldap-test-plan.html
+    anchor: build-ldap-test-plan
+    virtual_path: docs/build-ldap-test-plan.md
+  - title: 8b. Building an Extended LDAP Test Plan ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/build-ldapext-test-plan.html
+    anchor: build-ldapext-test-plan
+    virtual_path: docs/build-ldapext-test-plan.md
+  - title: Building a Test Plan Programmatically ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/build-programmatic-test-plan.html
+    anchor: build-programmatic-test-plan
+    virtual_path: docs/build-programmatic-test-plan.md
+  - title: 2. Building a Test Plan
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/build-test-plan.html
+    anchor: build-test-plan
+    virtual_path: docs/build-test-plan.md
+  - title: 4. Building a Web Test Plan ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/build-web-test-plan.html
+    anchor: build-web-test-plan
+    virtual_path: docs/build-web-test-plan.md
+  - title: 9. Building a WebService Test Plan ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/build-ws-test-plan.html
+    anchor: build-ws-test-plan
+    virtual_path: docs/build-ws-test-plan.md
+  - title: 24. Curl ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/curl.html
+    anchor: curl
+    virtual_path: docs/curl.md
+  - title: 14. Generating Report Dashboard ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/generating-dashboard.html
+    anchor: generating-dashboard
+    virtual_path: docs/generating-dashboard.md
+  - title: 23. Glossary ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/glossary.html
+    anchor: glossary
+    virtual_path: docs/glossary.md
+  - title: 22. Hints and Tips ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/hints_and_tips.html
+    anchor: hints_and_tips
+    virtual_path: docs/hints_and_tips.md
+  - title: 25. History and Future ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/history_future.html
+    anchor: history_future
+    virtual_path: docs/history_future.md
+  - title: description of the ldapanswer XML definition ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/ldapanswer_xml.html
+    anchor: ldapanswer_xml
+    virtual_path: docs/ldapanswer_xml.md
+  - title: A short LDAP Operations tutorial ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/ldapops_tutor.html
+    anchor: ldapops_tutor
+    virtual_path: docs/ldapops_tutor.md
+  - title: 12. Introduction to listeners ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/listeners.html
+    anchor: listeners
+    virtual_path: docs/listeners.md
+  - title: 15. Real-time results ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/realtime-results.html
+    anchor: realtime-results
+    virtual_path: docs/realtime-results.md
+  - title: 21. Regular Expressions ¶
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/regular_expressions.html
+    anchor: regular_expressions
+    virtual_path: docs/regular_expressions.md
+  - title: 13. Remote Testing
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/remote-test.html
+    anchor: remote-test
+    virtual_path: docs/remote-test.md
+  - title: 3. Elements of a Test Plan
+    kind: link
+    source_url: https://jmeter.apache.org/usermanual/test_plan.html
+    anchor: test_plan
+    virtual_path: docs/test_plan.md

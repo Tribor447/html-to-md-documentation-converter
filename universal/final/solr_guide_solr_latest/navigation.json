@@ -1,0 +1,1820 @@
+[
+  {
+    "title": "Solr Reference Guide",
+    "kind": "category",
+    "source_url": "https://solr.apache.org/guide/solr/latest/index.html",
+    "anchor": "index",
+    "virtual_path": "docs/index.md",
+    "children": [
+      {
+        "title": "10.0",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Getting Started",
+    "kind": "category",
+    "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/math-start.html",
+    "anchor": "query-guide-math-start",
+    "virtual_path": "docs/query-guide/math-start.md",
+    "children": [
+      {
+        "title": "Introduction to Solr",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/introduction.html",
+        "anchor": "getting-started-introduction",
+        "virtual_path": "docs/getting-started/introduction.md"
+      },
+      {
+        "title": "Solr Concepts",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Documents, Fields, and Schema Design",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/documents-fields-schema-design.html",
+            "anchor": "getting-started-documents-fields-schema-design",
+            "virtual_path": "docs/getting-started/documents-fields-schema-design.md"
+          },
+          {
+            "title": "Solr Indexing",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/solr-indexing.html",
+            "anchor": "getting-started-solr-indexing",
+            "virtual_path": "docs/getting-started/solr-indexing.md"
+          },
+          {
+            "title": "Searching in Solr",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/searching-in-solr.html",
+            "anchor": "getting-started-searching-in-solr",
+            "virtual_path": "docs/getting-started/searching-in-solr.md"
+          },
+          {
+            "title": "Relevance",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/relevance.html",
+            "anchor": "getting-started-relevance",
+            "virtual_path": "docs/getting-started/relevance.md"
+          },
+          {
+            "title": "Solr Glossary",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/solr-glossary.html",
+            "anchor": "getting-started-solr-glossary",
+            "virtual_path": "docs/getting-started/solr-glossary.md"
+          }
+        ]
+      },
+      {
+        "title": "Solr Tutorials",
+        "kind": "category",
+        "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/solr-tutorial.html",
+        "anchor": "getting-started-solr-tutorial",
+        "virtual_path": "docs/getting-started/solr-tutorial.md",
+        "children": [
+          {
+            "title": "Exercise 0: Five Minutes to Searching!",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/tutorial-five-minutes.html",
+            "anchor": "getting-started-tutorial-five-minutes",
+            "virtual_path": "docs/getting-started/tutorial-five-minutes.md"
+          },
+          {
+            "title": "Exercise 1: Index Techproducts Data",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/tutorial-techproducts.html",
+            "anchor": "getting-started-tutorial-techproducts",
+            "virtual_path": "docs/getting-started/tutorial-techproducts.md"
+          },
+          {
+            "title": "Exercise 2: Index Films Data",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/tutorial-films.html",
+            "anchor": "getting-started-tutorial-films",
+            "virtual_path": "docs/getting-started/tutorial-films.md"
+          },
+          {
+            "title": "Exercise 3: Index Your Own Data",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/tutorial-diy.html",
+            "anchor": "getting-started-tutorial-diy",
+            "virtual_path": "docs/getting-started/tutorial-diy.md"
+          },
+          {
+            "title": "Exercise 4: Using ParamSets",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/tutorial-paramsets.html",
+            "anchor": "getting-started-tutorial-paramsets",
+            "virtual_path": "docs/getting-started/tutorial-paramsets.md"
+          },
+          {
+            "title": "Exercise 5: Using Vectors",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/tutorial-vectors.html",
+            "anchor": "getting-started-tutorial-vectors",
+            "virtual_path": "docs/getting-started/tutorial-vectors.md"
+          },
+          {
+            "title": "Exercise 6: Getting Deeper with SolrCloud",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/tutorial-solrcloud.html",
+            "anchor": "getting-started-tutorial-solrcloud",
+            "virtual_path": "docs/getting-started/tutorial-solrcloud.md"
+          },
+          {
+            "title": "Exercise 7: Sentiment Analysis with OpenNLP",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/tutorial-opennlp.html",
+            "anchor": "getting-started-tutorial-opennlp",
+            "virtual_path": "docs/getting-started/tutorial-opennlp.md"
+          },
+          {
+            "title": "SolrCloud on AWS EC2",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/tutorial-aws.html",
+            "anchor": "getting-started-tutorial-aws",
+            "virtual_path": "docs/getting-started/tutorial-aws.md"
+          }
+        ]
+      },
+      {
+        "title": "Solr Admin UI",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/solr-admin-ui.html",
+        "anchor": "getting-started-solr-admin-ui",
+        "virtual_path": "docs/getting-started/solr-admin-ui.md"
+      },
+      {
+        "title": "About This Guide",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/getting-started/about-this-guide.html",
+        "anchor": "getting-started-about-this-guide",
+        "virtual_path": "docs/getting-started/about-this-guide.md"
+      }
+    ]
+  },
+  {
+    "title": "Deployment Guide",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Solr Control Script Reference",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/solr-control-script-reference.html",
+        "anchor": "deployment-guide-solr-control-script-reference",
+        "virtual_path": "docs/deployment-guide/solr-control-script-reference.md"
+      },
+      {
+        "title": "Installation & Deployment",
+        "kind": "category",
+        "children": [
+          {
+            "title": "System Requirements",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/system-requirements.html",
+            "anchor": "deployment-guide-system-requirements",
+            "virtual_path": "docs/deployment-guide/system-requirements.md"
+          },
+          {
+            "title": "Installing Solr",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/installing-solr.html",
+            "anchor": "deployment-guide-installing-solr",
+            "virtual_path": "docs/deployment-guide/installing-solr.md"
+          },
+          {
+            "title": "Taking Solr to Production",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/taking-solr-to-production.html",
+            "anchor": "deployment-guide-taking-solr-to-production",
+            "virtual_path": "docs/deployment-guide/taking-solr-to-production.md"
+          },
+          {
+            "title": "JVM Settings",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/jvm-settings.html",
+            "anchor": "deployment-guide-jvm-settings",
+            "virtual_path": "docs/deployment-guide/jvm-settings.md"
+          },
+          {
+            "title": "Upgrading a Solr Cluster",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/upgrading-a-solr-cluster.html",
+            "anchor": "deployment-guide-upgrading-a-solr-cluster",
+            "virtual_path": "docs/deployment-guide/upgrading-a-solr-cluster.md"
+          },
+          {
+            "title": "Backup and Restore",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/backup-restore.html",
+            "anchor": "deployment-guide-backup-restore",
+            "virtual_path": "docs/deployment-guide/backup-restore.md"
+          },
+          {
+            "title": "Solr in Docker",
+            "kind": "category",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/solr-in-docker.html",
+            "anchor": "deployment-guide-solr-in-docker",
+            "virtual_path": "docs/deployment-guide/solr-in-docker.md",
+            "children": [
+              {
+                "title": "Solr Docker FAQ",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/docker-faq.html",
+                "anchor": "deployment-guide-docker-faq",
+                "virtual_path": "docs/deployment-guide/docker-faq.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Scaling Solr",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Solr Cluster Types",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/cluster-types.html",
+            "anchor": "deployment-guide-cluster-types",
+            "virtual_path": "docs/deployment-guide/cluster-types.md"
+          },
+          {
+            "title": "SolrCloud Clusters",
+            "kind": "category",
+            "children": [
+              {
+                "title": "SolrCloud Shards and Indexing",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/solrcloud-shards-indexing.html",
+                "anchor": "deployment-guide-solrcloud-shards-indexing",
+                "virtual_path": "docs/deployment-guide/solrcloud-shards-indexing.md"
+              },
+              {
+                "title": "SolrCloud Recoveries and Write Tolerance",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/solrcloud-recoveries-and-write-tolerance.html",
+                "anchor": "deployment-guide-solrcloud-recoveries-and-write-tolerance",
+                "virtual_path": "docs/deployment-guide/solrcloud-recoveries-and-write-tolerance.md"
+              },
+              {
+                "title": "SolrCloud Distributed Requests",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/solrcloud-distributed-requests.html",
+                "anchor": "deployment-guide-solrcloud-distributed-requests",
+                "virtual_path": "docs/deployment-guide/solrcloud-distributed-requests.md"
+              },
+              {
+                "title": "Node Roles",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/node-roles.html",
+                "anchor": "deployment-guide-node-roles",
+                "virtual_path": "docs/deployment-guide/node-roles.md"
+              },
+              {
+                "title": "Aliases",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/aliases.html",
+                "anchor": "deployment-guide-aliases",
+                "virtual_path": "docs/deployment-guide/aliases.md"
+              },
+              {
+                "title": "Collections API",
+                "kind": "category",
+                "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/collections-api.html",
+                "anchor": "configuration-guide-collections-api",
+                "virtual_path": "docs/configuration-guide/collections-api.md",
+                "children": [
+                  {
+                    "title": "Cluster and Node Management Commands",
+                    "kind": "link",
+                    "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/cluster-node-management.html",
+                    "anchor": "deployment-guide-cluster-node-management",
+                    "virtual_path": "docs/deployment-guide/cluster-node-management.md"
+                  },
+                  {
+                    "title": "Collection Management Commands",
+                    "kind": "link",
+                    "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/collection-management.html",
+                    "anchor": "deployment-guide-collection-management",
+                    "virtual_path": "docs/deployment-guide/collection-management.md"
+                  },
+                  {
+                    "title": "Shard Management Commands",
+                    "kind": "link",
+                    "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/shard-management.html",
+                    "anchor": "deployment-guide-shard-management",
+                    "virtual_path": "docs/deployment-guide/shard-management.md"
+                  },
+                  {
+                    "title": "Replica Management Commands",
+                    "kind": "link",
+                    "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/replica-management.html",
+                    "anchor": "deployment-guide-replica-management",
+                    "virtual_path": "docs/deployment-guide/replica-management.md"
+                  },
+                  {
+                    "title": "Alias Management",
+                    "kind": "link",
+                    "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/alias-management.html",
+                    "anchor": "deployment-guide-alias-management",
+                    "virtual_path": "docs/deployment-guide/alias-management.md"
+                  }
+                ]
+              },
+              {
+                "title": "ZooKeeper Configuration",
+                "kind": "category",
+                "children": [
+                  {
+                    "title": "ZooKeeper Ensemble Configuration",
+                    "kind": "link",
+                    "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/zookeeper-ensemble.html",
+                    "anchor": "deployment-guide-zookeeper-ensemble",
+                    "virtual_path": "docs/deployment-guide/zookeeper-ensemble.md"
+                  },
+                  {
+                    "title": "ZooKeeper File Management",
+                    "kind": "link",
+                    "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/zookeeper-file-management.html",
+                    "anchor": "deployment-guide-zookeeper-file-management",
+                    "virtual_path": "docs/deployment-guide/zookeeper-file-management.md"
+                  },
+                  {
+                    "title": "ZooKeeper Utilities",
+                    "kind": "link",
+                    "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/zookeeper-utilities.html",
+                    "anchor": "deployment-guide-zookeeper-utilities",
+                    "virtual_path": "docs/deployment-guide/zookeeper-utilities.md"
+                  },
+                  {
+                    "title": "SolrCloud with Legacy Configuration Files",
+                    "kind": "link",
+                    "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/solrcloud-with-legacy-configuration-files.html",
+                    "anchor": "deployment-guide-solrcloud-with-legacy-configuration-files",
+                    "virtual_path": "docs/deployment-guide/solrcloud-with-legacy-configuration-files.md"
+                  }
+                ]
+              },
+              {
+                "title": "Admin UI",
+                "kind": "category",
+                "children": [
+                  {
+                    "title": "Collections / Core Admin",
+                    "kind": "link",
+                    "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/collections-core-admin.html",
+                    "anchor": "deployment-guide-collections-core-admin",
+                    "virtual_path": "docs/deployment-guide/collections-core-admin.md"
+                  },
+                  {
+                    "title": "Cloud Screens",
+                    "kind": "link",
+                    "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/cloud-screens.html",
+                    "anchor": "deployment-guide-cloud-screens",
+                    "virtual_path": "docs/deployment-guide/cloud-screens.md"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "User-Managed Clusters",
+            "kind": "category",
+            "children": [
+              {
+                "title": "User-Managed Index Replication Index Replication",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/user-managed-index-replication.html",
+                "anchor": "deployment-guide-user-managed-index-replication",
+                "virtual_path": "docs/deployment-guide/user-managed-index-replication.md"
+              },
+              {
+                "title": "User-Managed Distributed Search",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/user-managed-distributed-search.html",
+                "anchor": "deployment-guide-user-managed-distributed-search",
+                "virtual_path": "docs/deployment-guide/user-managed-distributed-search.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Monitoring Solr",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Configuring Logging",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/configuring-logging.html",
+            "anchor": "deployment-guide-configuring-logging",
+            "virtual_path": "docs/deployment-guide/configuring-logging.md"
+          },
+          {
+            "title": "Ping",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/ping.html",
+            "anchor": "deployment-guide-ping",
+            "virtual_path": "docs/deployment-guide/ping.md"
+          },
+          {
+            "title": "Metrics Reporting and Monitoring",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/metrics-reporting.html",
+            "anchor": "deployment-guide-metrics-reporting",
+            "virtual_path": "docs/deployment-guide/metrics-reporting.md"
+          },
+          {
+            "title": "Performance Statistics Reference",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/performance-statistics-reference.html",
+            "anchor": "deployment-guide-performance-statistics-reference",
+            "virtual_path": "docs/deployment-guide/performance-statistics-reference.md"
+          },
+          {
+            "title": "Plugins & Stats Screen",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/plugins-stats-screen.html",
+            "anchor": "deployment-guide-plugins-stats-screen",
+            "virtual_path": "docs/deployment-guide/plugins-stats-screen.md"
+          },
+          {
+            "title": "JMX with Solr",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/jmx-with-solr.html",
+            "anchor": "deployment-guide-jmx-with-solr",
+            "virtual_path": "docs/deployment-guide/jmx-with-solr.md"
+          },
+          {
+            "title": "Thread Dump Screen",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/thread-dump.html",
+            "anchor": "deployment-guide-thread-dump",
+            "virtual_path": "docs/deployment-guide/thread-dump.md"
+          },
+          {
+            "title": "Distributed Tracing",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/distributed-tracing.html",
+            "anchor": "deployment-guide-distributed-tracing",
+            "virtual_path": "docs/deployment-guide/distributed-tracing.md"
+          },
+          {
+            "title": "Circuit Breakers",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/circuit-breakers.html",
+            "anchor": "deployment-guide-circuit-breakers",
+            "virtual_path": "docs/deployment-guide/circuit-breakers.md"
+          },
+          {
+            "title": "Request Rate Limiters",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/rate-limiters.html",
+            "anchor": "deployment-guide-rate-limiters",
+            "virtual_path": "docs/deployment-guide/rate-limiters.md"
+          },
+          {
+            "title": "Task Management",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/task-management.html",
+            "anchor": "deployment-guide-task-management",
+            "virtual_path": "docs/deployment-guide/task-management.md"
+          }
+        ]
+      },
+      {
+        "title": "Securing Solr",
+        "kind": "category",
+        "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/securing-solr.html",
+        "anchor": "deployment-guide-securing-solr",
+        "virtual_path": "docs/deployment-guide/securing-solr.md",
+        "children": [
+          {
+            "title": "Configuring Authentication and Authorization",
+            "kind": "category",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/authentication-and-authorization-plugins.html",
+            "anchor": "deployment-guide-authentication-and-authorization-plugins",
+            "virtual_path": "docs/deployment-guide/authentication-and-authorization-plugins.md",
+            "children": [
+              {
+                "title": "Basic Authentication Plugin",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/basic-authentication-plugin.html",
+                "anchor": "deployment-guide-basic-authentication-plugin",
+                "virtual_path": "docs/deployment-guide/basic-authentication-plugin.md"
+              },
+              {
+                "title": "JWT Authentication Plugin",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/jwt-authentication-plugin.html",
+                "anchor": "deployment-guide-jwt-authentication-plugin",
+                "virtual_path": "docs/deployment-guide/jwt-authentication-plugin.md"
+              },
+              {
+                "title": "Certificate Authentication Plugin",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/cert-authentication-plugin.html",
+                "anchor": "deployment-guide-cert-authentication-plugin",
+                "virtual_path": "docs/deployment-guide/cert-authentication-plugin.md"
+              },
+              {
+                "title": "Rule-Based Authorization Plugins",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/rule-based-authorization-plugin.html",
+                "anchor": "deployment-guide-rule-based-authorization-plugin",
+                "virtual_path": "docs/deployment-guide/rule-based-authorization-plugin.md"
+              }
+            ]
+          },
+          {
+            "title": "Audit Logging",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/audit-logging.html",
+            "anchor": "deployment-guide-audit-logging",
+            "virtual_path": "docs/deployment-guide/audit-logging.md"
+          },
+          {
+            "title": "Enabling SSL",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/enabling-ssl.html",
+            "anchor": "deployment-guide-enabling-ssl",
+            "virtual_path": "docs/deployment-guide/enabling-ssl.md"
+          },
+          {
+            "title": "ZooKeeper Access Control",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/zookeeper-access-control.html",
+            "anchor": "deployment-guide-zookeeper-access-control",
+            "virtual_path": "docs/deployment-guide/zookeeper-access-control.md"
+          },
+          {
+            "title": "Security UI",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/security-ui.html",
+            "anchor": "deployment-guide-security-ui",
+            "virtual_path": "docs/deployment-guide/security-ui.md"
+          }
+        ]
+      },
+      {
+        "title": "Client APIs",
+        "kind": "category",
+        "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/client-apis.html",
+        "anchor": "deployment-guide-client-apis",
+        "virtual_path": "docs/deployment-guide/client-apis.md",
+        "children": [
+          {
+            "title": "SolrJ",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/solrj.html",
+            "anchor": "deployment-guide-solrj",
+            "virtual_path": "docs/deployment-guide/solrj.md"
+          },
+          {
+            "title": "JavaScript",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/javascript.html",
+            "anchor": "deployment-guide-javascript",
+            "virtual_path": "docs/deployment-guide/javascript.md"
+          },
+          {
+            "title": "Python",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/python.html",
+            "anchor": "deployment-guide-python",
+            "virtual_path": "docs/deployment-guide/python.md"
+          },
+          {
+            "title": "Ruby",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/ruby.html",
+            "anchor": "deployment-guide-ruby",
+            "virtual_path": "docs/deployment-guide/ruby.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Configuration Guide",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Solr Configuration Files",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/configuration-files.html",
+        "anchor": "configuration-guide-configuration-files",
+        "virtual_path": "docs/configuration-guide/configuration-files.md"
+      },
+      {
+        "title": "Property Substitution in Configuration Files",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/property-substitution.html",
+        "anchor": "configuration-guide-property-substitution",
+        "virtual_path": "docs/configuration-guide/property-substitution.md"
+      },
+      {
+        "title": "Core Discovery",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/core-discovery.html",
+        "anchor": "configuration-guide-core-discovery",
+        "virtual_path": "docs/configuration-guide/core-discovery.md"
+      },
+      {
+        "title": "Configuring solr.xml",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/configuring-solr-xml.html",
+        "anchor": "configuration-guide-configuring-solr-xml",
+        "virtual_path": "docs/configuration-guide/configuring-solr-xml.md"
+      },
+      {
+        "title": "Solr Properties Reference",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/solr-properties.html",
+        "anchor": "configuration-guide-solr-properties",
+        "virtual_path": "docs/configuration-guide/solr-properties.md"
+      },
+      {
+        "title": "Configuring solrconfig.xml",
+        "kind": "category",
+        "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/configuring-solrconfig-xml.html",
+        "anchor": "configuration-guide-configuring-solrconfig-xml",
+        "virtual_path": "docs/configuration-guide/configuring-solrconfig-xml.md",
+        "children": [
+          {
+            "title": "Index Location and Format",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/index-location-format.html",
+            "anchor": "configuration-guide-index-location-format",
+            "virtual_path": "docs/configuration-guide/index-location-format.md"
+          },
+          {
+            "title": "Index Segments and Merging",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/index-segments-merging.html",
+            "anchor": "configuration-guide-index-segments-merging",
+            "virtual_path": "docs/configuration-guide/index-segments-merging.md"
+          },
+          {
+            "title": "Schema Factory Configuration",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/schema-factory.html",
+            "anchor": "configuration-guide-schema-factory",
+            "virtual_path": "docs/configuration-guide/schema-factory.md"
+          },
+          {
+            "title": "Commits and Transaction Logs",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/commits-transaction-logs.html",
+            "anchor": "configuration-guide-commits-transaction-logs",
+            "virtual_path": "docs/configuration-guide/commits-transaction-logs.md"
+          },
+          {
+            "title": "Caches and Query Warming",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/caches-warming.html",
+            "anchor": "configuration-guide-caches-warming",
+            "virtual_path": "docs/configuration-guide/caches-warming.md"
+          },
+          {
+            "title": "Request Handlers and Search Components",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/requesthandlers-searchcomponents.html",
+            "anchor": "configuration-guide-requesthandlers-searchcomponents",
+            "virtual_path": "docs/configuration-guide/requesthandlers-searchcomponents.md"
+          },
+          {
+            "title": "Implicit Request Handlers",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/implicit-requesthandlers.html",
+            "anchor": "configuration-guide-implicit-requesthandlers",
+            "virtual_path": "docs/configuration-guide/implicit-requesthandlers.md"
+          },
+          {
+            "title": "RealTime Get",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/realtime-get.html",
+            "anchor": "configuration-guide-realtime-get",
+            "virtual_path": "docs/configuration-guide/realtime-get.md"
+          },
+          {
+            "title": "InitParams",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/initparams.html",
+            "anchor": "configuration-guide-initparams",
+            "virtual_path": "docs/configuration-guide/initparams.md"
+          },
+          {
+            "title": "RequestDispatcher",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/requestdispatcher.html",
+            "anchor": "configuration-guide-requestdispatcher",
+            "virtual_path": "docs/configuration-guide/requestdispatcher.md"
+          },
+          {
+            "title": "Update Request Processors",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/update-request-processors.html",
+            "anchor": "configuration-guide-update-request-processors",
+            "virtual_path": "docs/configuration-guide/update-request-processors.md"
+          },
+          {
+            "title": "Script Update Processor",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/script-update-processor.html",
+            "anchor": "configuration-guide-script-update-processor",
+            "virtual_path": "docs/configuration-guide/script-update-processor.md"
+          },
+          {
+            "title": "Codec Factory",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/codec-factory.html",
+            "anchor": "configuration-guide-codec-factory",
+            "virtual_path": "docs/configuration-guide/codec-factory.md"
+          }
+        ]
+      },
+      {
+        "title": "Configuration APIs",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Config API",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/config-api.html",
+            "anchor": "configuration-guide-config-api",
+            "virtual_path": "docs/configuration-guide/config-api.md"
+          },
+          {
+            "title": "Request Parameters API",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/request-parameters-api.html",
+            "anchor": "configuration-guide-request-parameters-api",
+            "virtual_path": "docs/configuration-guide/request-parameters-api.md"
+          },
+          {
+            "title": "Managed Resources",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/managed-resources.html",
+            "anchor": "configuration-guide-managed-resources",
+            "virtual_path": "docs/configuration-guide/managed-resources.md"
+          },
+          {
+            "title": "Collections API",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/collections-api.html",
+            "anchor": "configuration-guide-collections-api",
+            "virtual_path": "docs/configuration-guide/collections-api.md"
+          },
+          {
+            "title": "Configsets API",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/configsets-api.html",
+            "anchor": "configuration-guide-configsets-api",
+            "virtual_path": "docs/configuration-guide/configsets-api.md"
+          },
+          {
+            "title": "CoreAdmin API",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/coreadmin-api.html",
+            "anchor": "configuration-guide-coreadmin-api",
+            "virtual_path": "docs/configuration-guide/coreadmin-api.md"
+          },
+          {
+            "title": "v2 API",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/v2-api.html",
+            "anchor": "configuration-guide-v2-api",
+            "virtual_path": "docs/configuration-guide/v2-api.md"
+          }
+        ]
+      },
+      {
+        "title": "Configsets",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/config-sets.html",
+        "anchor": "configuration-guide-config-sets",
+        "virtual_path": "docs/configuration-guide/config-sets.md"
+      },
+      {
+        "title": "Resource Loading",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/resource-loading.html",
+        "anchor": "configuration-guide-resource-loading",
+        "virtual_path": "docs/configuration-guide/resource-loading.md"
+      },
+      {
+        "title": "Solr Plugins",
+        "kind": "category",
+        "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/solr-plugins.html",
+        "anchor": "configuration-guide-solr-plugins",
+        "virtual_path": "docs/configuration-guide/solr-plugins.md",
+        "children": [
+          {
+            "title": "Lib Directories",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/libs.html",
+            "anchor": "configuration-guide-libs",
+            "virtual_path": "docs/configuration-guide/libs.md"
+          },
+          {
+            "title": "Solr Modules",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/solr-modules.html",
+            "anchor": "configuration-guide-solr-modules",
+            "virtual_path": "docs/configuration-guide/solr-modules.md"
+          },
+          {
+            "title": "Package Management",
+            "kind": "category",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/package-manager.html",
+            "anchor": "configuration-guide-package-manager",
+            "virtual_path": "docs/configuration-guide/package-manager.md",
+            "children": [
+              {
+                "title": "Package Manager Internals",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/package-manager-internals.html",
+                "anchor": "configuration-guide-package-manager-internals",
+                "virtual_path": "docs/configuration-guide/package-manager-internals.md"
+              }
+            ]
+          },
+          {
+            "title": "Cluster Plugins",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/cluster-plugins.html",
+            "anchor": "configuration-guide-cluster-plugins",
+            "virtual_path": "docs/configuration-guide/cluster-plugins.md"
+          },
+          {
+            "title": "Replica Placement Plugins",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/replica-placement-plugins.html",
+            "anchor": "configuration-guide-replica-placement-plugins",
+            "virtual_path": "docs/configuration-guide/replica-placement-plugins.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Schema and Indexing Guide",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Solr Schema",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Schema Elements",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/schema-elements.html",
+            "anchor": "indexing-guide-schema-elements",
+            "virtual_path": "docs/indexing-guide/schema-elements.md"
+          },
+          {
+            "title": "Schema API",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/schema-api.html",
+            "anchor": "indexing-guide-schema-api",
+            "virtual_path": "docs/indexing-guide/schema-api.md"
+          },
+          {
+            "title": "Schemaless Mode",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/schemaless-mode.html",
+            "anchor": "indexing-guide-schemaless-mode",
+            "virtual_path": "docs/indexing-guide/schemaless-mode.md"
+          },
+          {
+            "title": "Schema Designer",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/schema-designer.html",
+            "anchor": "indexing-guide-schema-designer",
+            "virtual_path": "docs/indexing-guide/schema-designer.md"
+          },
+          {
+            "title": "Schema Browser Screen",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/schema-browser-screen.html",
+            "anchor": "indexing-guide-schema-browser-screen",
+            "virtual_path": "docs/indexing-guide/schema-browser-screen.md"
+          }
+        ]
+      },
+      {
+        "title": "Fields & Schema Design",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Fields",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/fields.html",
+            "anchor": "indexing-guide-fields",
+            "virtual_path": "docs/indexing-guide/fields.md"
+          },
+          {
+            "title": "Field Types",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Field Type Definitions and Properties",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/field-type-definitions-and-properties.html",
+                "anchor": "indexing-guide-field-type-definitions-and-properties",
+                "virtual_path": "docs/indexing-guide/field-type-definitions-and-properties.md"
+              },
+              {
+                "title": "Field Types Included with Solr",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/field-types-included-with-solr.html",
+                "anchor": "indexing-guide-field-types-included-with-solr",
+                "virtual_path": "docs/indexing-guide/field-types-included-with-solr.md"
+              },
+              {
+                "title": "Currencies and Exchange Rates",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/currencies-exchange-rates.html",
+                "anchor": "indexing-guide-currencies-exchange-rates",
+                "virtual_path": "docs/indexing-guide/currencies-exchange-rates.md"
+              },
+              {
+                "title": "Date Formatting and Date Math",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/date-formatting-math.html",
+                "anchor": "indexing-guide-date-formatting-math",
+                "virtual_path": "docs/indexing-guide/date-formatting-math.md"
+              },
+              {
+                "title": "Enum Fields",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/enum-fields.html",
+                "anchor": "indexing-guide-enum-fields",
+                "virtual_path": "docs/indexing-guide/enum-fields.md"
+              },
+              {
+                "title": "Field Properties by Use Case",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/field-properties-by-use-case.html",
+                "anchor": "indexing-guide-field-properties-by-use-case",
+                "virtual_path": "docs/indexing-guide/field-properties-by-use-case.md"
+              }
+            ]
+          },
+          {
+            "title": "Copy Fields",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/copy-fields.html",
+            "anchor": "indexing-guide-copy-fields",
+            "virtual_path": "docs/indexing-guide/copy-fields.md"
+          },
+          {
+            "title": "Dynamic Fields",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/dynamic-fields.html",
+            "anchor": "indexing-guide-dynamic-fields",
+            "virtual_path": "docs/indexing-guide/dynamic-fields.md"
+          },
+          {
+            "title": "DocValues",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/docvalues.html",
+            "anchor": "indexing-guide-docvalues",
+            "virtual_path": "docs/indexing-guide/docvalues.md"
+          },
+          {
+            "title": "Luke Request Handler",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/luke-request-handler.html",
+            "anchor": "indexing-guide-luke-request-handler",
+            "virtual_path": "docs/indexing-guide/luke-request-handler.md"
+          }
+        ]
+      },
+      {
+        "title": "Document Analysis in Solr",
+        "kind": "category",
+        "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/document-analysis.html",
+        "anchor": "indexing-guide-document-analysis",
+        "virtual_path": "docs/indexing-guide/document-analysis.md",
+        "children": [
+          {
+            "title": "Analyzers",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/analyzers.html",
+            "anchor": "indexing-guide-analyzers",
+            "virtual_path": "docs/indexing-guide/analyzers.md"
+          },
+          {
+            "title": "Tokenizers",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/tokenizers.html",
+            "anchor": "indexing-guide-tokenizers",
+            "virtual_path": "docs/indexing-guide/tokenizers.md"
+          },
+          {
+            "title": "Filters",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/filters.html",
+            "anchor": "indexing-guide-filters",
+            "virtual_path": "docs/indexing-guide/filters.md"
+          },
+          {
+            "title": "CharFilters",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/charfilters.html",
+            "anchor": "indexing-guide-charfilters",
+            "virtual_path": "docs/indexing-guide/charfilters.md"
+          },
+          {
+            "title": "Language Analysis",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/language-analysis.html",
+            "anchor": "indexing-guide-language-analysis",
+            "virtual_path": "docs/indexing-guide/language-analysis.md"
+          },
+          {
+            "title": "Phonetic Matching",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/phonetic-matching.html",
+            "anchor": "indexing-guide-phonetic-matching",
+            "virtual_path": "docs/indexing-guide/phonetic-matching.md"
+          },
+          {
+            "title": "Analysis Screen",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/analysis-screen.html",
+            "anchor": "indexing-guide-analysis-screen",
+            "virtual_path": "docs/indexing-guide/analysis-screen.md"
+          }
+        ]
+      },
+      {
+        "title": "Indexing & Data Operations",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Indexing with Update Handlers",
+            "kind": "category",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/indexing-with-update-handlers.html",
+            "anchor": "indexing-guide-indexing-with-update-handlers",
+            "virtual_path": "docs/indexing-guide/indexing-with-update-handlers.md",
+            "children": [
+              {
+                "title": "Transforming and Indexing Custom JSON",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/transforming-and-indexing-custom-json.html",
+                "anchor": "indexing-guide-transforming-and-indexing-custom-json",
+                "virtual_path": "docs/indexing-guide/transforming-and-indexing-custom-json.md"
+              }
+            ]
+          },
+          {
+            "title": "Indexing with Update CBOR data format",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/indexing-with-cbor.html",
+            "anchor": "indexing-guide-indexing-with-cbor",
+            "virtual_path": "docs/indexing-guide/indexing-with-cbor.md"
+          },
+          {
+            "title": "Indexing with Solr Cell and Apache Tika",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/indexing-with-tika.html",
+            "anchor": "indexing-guide-indexing-with-tika",
+            "virtual_path": "docs/indexing-guide/indexing-with-tika.md"
+          },
+          {
+            "title": "Indexing Nested Documents",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/indexing-nested-documents.html",
+            "anchor": "indexing-guide-indexing-nested-documents",
+            "virtual_path": "docs/indexing-guide/indexing-nested-documents.md"
+          },
+          {
+            "title": "Post Tool",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/post-tool.html",
+            "anchor": "indexing-guide-post-tool",
+            "virtual_path": "docs/indexing-guide/post-tool.md"
+          },
+          {
+            "title": "Documents Screen",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/documents-screen.html",
+            "anchor": "indexing-guide-documents-screen",
+            "virtual_path": "docs/indexing-guide/documents-screen.md"
+          },
+          {
+            "title": "Partial Document Updates",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/partial-document-updates.html",
+            "anchor": "indexing-guide-partial-document-updates",
+            "virtual_path": "docs/indexing-guide/partial-document-updates.md"
+          },
+          {
+            "title": "Reindexing",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/reindexing.html",
+            "anchor": "indexing-guide-reindexing",
+            "virtual_path": "docs/indexing-guide/reindexing.md"
+          },
+          {
+            "title": "Language Detection",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/language-detection.html",
+            "anchor": "indexing-guide-language-detection",
+            "virtual_path": "docs/indexing-guide/language-detection.md"
+          },
+          {
+            "title": "De-Duplication",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/de-duplication.html",
+            "anchor": "indexing-guide-de-duplication",
+            "virtual_path": "docs/indexing-guide/de-duplication.md"
+          },
+          {
+            "title": "Content Streams",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/indexing-guide/content-streams.html",
+            "anchor": "indexing-guide-content-streams",
+            "virtual_path": "docs/indexing-guide/content-streams.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Query Guide",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Query Syntax and Parsers",
+        "kind": "category",
+        "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/query-syntax-and-parsers.html",
+        "anchor": "query-guide-query-syntax-and-parsers",
+        "virtual_path": "docs/query-guide/query-syntax-and-parsers.md",
+        "children": [
+          {
+            "title": "Common Query Parameters",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/common-query-parameters.html",
+            "anchor": "query-guide-common-query-parameters",
+            "virtual_path": "docs/query-guide/common-query-parameters.md"
+          },
+          {
+            "title": "Standard Query Parser",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/standard-query-parser.html",
+            "anchor": "query-guide-standard-query-parser",
+            "virtual_path": "docs/query-guide/standard-query-parser.md"
+          },
+          {
+            "title": "DisMax Query Parser",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/dismax-query-parser.html",
+            "anchor": "query-guide-dismax-query-parser",
+            "virtual_path": "docs/query-guide/dismax-query-parser.md"
+          },
+          {
+            "title": "Extended DisMax (eDisMax) Query Parser",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/edismax-query-parser.html",
+            "anchor": "query-guide-edismax-query-parser",
+            "virtual_path": "docs/query-guide/edismax-query-parser.md"
+          },
+          {
+            "title": "Function Queries",
+            "kind": "category",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/function-queries.html",
+            "anchor": "query-guide-function-queries",
+            "virtual_path": "docs/query-guide/function-queries.md",
+            "children": [
+              {
+                "title": "Expression Value Source Parser",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/expression-value-source-parser.html",
+                "anchor": "query-guide-expression-value-source-parser",
+                "virtual_path": "docs/query-guide/expression-value-source-parser.md"
+              }
+            ]
+          },
+          {
+            "title": "Local Params",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/local-params.html",
+            "anchor": "query-guide-local-params",
+            "virtual_path": "docs/query-guide/local-params.md"
+          },
+          {
+            "title": "JSON Request API",
+            "kind": "category",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/json-request-api.html",
+            "anchor": "query-guide-json-request-api",
+            "virtual_path": "docs/query-guide/json-request-api.md",
+            "children": [
+              {
+                "title": "JSON Query DSL",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/json-query-dsl.html",
+                "anchor": "query-guide-json-query-dsl",
+                "virtual_path": "docs/query-guide/json-query-dsl.md"
+              }
+            ]
+          },
+          {
+            "title": "Searching Nested Child Documents",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/searching-nested-documents.html",
+            "anchor": "query-guide-searching-nested-documents",
+            "virtual_path": "docs/query-guide/searching-nested-documents.md"
+          },
+          {
+            "title": "Block Join Query Parser",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/block-join-query-parser.html",
+            "anchor": "query-guide-block-join-query-parser",
+            "virtual_path": "docs/query-guide/block-join-query-parser.md"
+          },
+          {
+            "title": "Join Query Parser",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/join-query-parser.html",
+            "anchor": "query-guide-join-query-parser",
+            "virtual_path": "docs/query-guide/join-query-parser.md"
+          },
+          {
+            "title": "Spatial Search",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/spatial-search.html",
+            "anchor": "query-guide-spatial-search",
+            "virtual_path": "docs/query-guide/spatial-search.md"
+          },
+          {
+            "title": "Dense Vector Search",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/dense-vector-search.html",
+            "anchor": "query-guide-dense-vector-search",
+            "virtual_path": "docs/query-guide/dense-vector-search.md"
+          },
+          {
+            "title": "Other Query Parsers",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/other-parsers.html",
+            "anchor": "query-guide-other-parsers",
+            "virtual_path": "docs/query-guide/other-parsers.md"
+          },
+          {
+            "title": "SQL Query Language",
+            "kind": "category",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/sql-query.html",
+            "anchor": "query-guide-sql-query",
+            "virtual_path": "docs/query-guide/sql-query.md",
+            "children": [
+              {
+                "title": "JDBC with DbVisualizer",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/jdbc-dbvisualizer.html",
+                "anchor": "query-guide-jdbc-dbvisualizer",
+                "virtual_path": "docs/query-guide/jdbc-dbvisualizer.md"
+              },
+              {
+                "title": "JDBC with SQuirreL SQL",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/jdbc-squirrel.html",
+                "anchor": "query-guide-jdbc-squirrel",
+                "virtual_path": "docs/query-guide/jdbc-squirrel.md"
+              },
+              {
+                "title": "JDBC with Apache Zeppelin",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/jdbc-zeppelin.html",
+                "anchor": "query-guide-jdbc-zeppelin",
+                "virtual_path": "docs/query-guide/jdbc-zeppelin.md"
+              },
+              {
+                "title": "JDBC with Python/Jython",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/jdbc-python-jython.html",
+                "anchor": "query-guide-jdbc-python-jython",
+                "virtual_path": "docs/query-guide/jdbc-python-jython.md"
+              },
+              {
+                "title": "JDBC with R",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/jdbc-r.html",
+                "anchor": "query-guide-jdbc-r",
+                "virtual_path": "docs/query-guide/jdbc-r.md"
+              }
+            ]
+          },
+          {
+            "title": "Query Screen",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/query-screen.html",
+            "anchor": "query-guide-query-screen",
+            "virtual_path": "docs/query-guide/query-screen.md"
+          },
+          {
+            "title": "SQL Query Screen",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/sql-screen.html",
+            "anchor": "query-guide-sql-screen",
+            "virtual_path": "docs/query-guide/sql-screen.md"
+          }
+        ]
+      },
+      {
+        "title": "Enhancing Queries",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Spell Checking",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/spell-checking.html",
+            "anchor": "query-guide-spell-checking",
+            "virtual_path": "docs/query-guide/spell-checking.md"
+          },
+          {
+            "title": "Suggester",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/suggester.html",
+            "anchor": "query-guide-suggester",
+            "virtual_path": "docs/query-guide/suggester.md"
+          },
+          {
+            "title": "MoreLikeThis",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/morelikethis.html",
+            "anchor": "query-guide-morelikethis",
+            "virtual_path": "docs/query-guide/morelikethis.md"
+          },
+          {
+            "title": "Query Re-Ranking",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/query-re-ranking.html",
+            "anchor": "query-guide-query-re-ranking",
+            "virtual_path": "docs/query-guide/query-re-ranking.md"
+          },
+          {
+            "title": "Learning To Rank",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/learning-to-rank.html",
+            "anchor": "query-guide-learning-to-rank",
+            "virtual_path": "docs/query-guide/learning-to-rank.md"
+          },
+          {
+            "title": "Tagger Handler",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/tagger-handler.html",
+            "anchor": "query-guide-tagger-handler",
+            "virtual_path": "docs/query-guide/tagger-handler.md"
+          },
+          {
+            "title": "Terms Component",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/terms-component.html",
+            "anchor": "query-guide-terms-component",
+            "virtual_path": "docs/query-guide/terms-component.md"
+          },
+          {
+            "title": "Term Vector Component",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/term-vector-component.html",
+            "anchor": "query-guide-term-vector-component",
+            "virtual_path": "docs/query-guide/term-vector-component.md"
+          },
+          {
+            "title": "Stats Component",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/stats-component.html",
+            "anchor": "query-guide-stats-component",
+            "virtual_path": "docs/query-guide/stats-component.md"
+          }
+        ]
+      },
+      {
+        "title": "Controlling Results",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Faceting",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/faceting.html",
+            "anchor": "query-guide-faceting",
+            "virtual_path": "docs/query-guide/faceting.md"
+          },
+          {
+            "title": "JSON Facet API",
+            "kind": "category",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/json-facet-api.html",
+            "anchor": "query-guide-json-facet-api",
+            "virtual_path": "docs/query-guide/json-facet-api.md",
+            "children": [
+              {
+                "title": "JSON Faceting Domain Changes",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/json-faceting-domain-changes.html",
+                "anchor": "query-guide-json-faceting-domain-changes",
+                "virtual_path": "docs/query-guide/json-faceting-domain-changes.md"
+              }
+            ]
+          },
+          {
+            "title": "Collapse and Expand Results",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/collapse-and-expand-results.html",
+            "anchor": "query-guide-collapse-and-expand-results",
+            "virtual_path": "docs/query-guide/collapse-and-expand-results.md"
+          },
+          {
+            "title": "Result Grouping",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/result-grouping.html",
+            "anchor": "query-guide-result-grouping",
+            "virtual_path": "docs/query-guide/result-grouping.md"
+          },
+          {
+            "title": "Result Clustering",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/result-clustering.html",
+            "anchor": "query-guide-result-clustering",
+            "virtual_path": "docs/query-guide/result-clustering.md"
+          },
+          {
+            "title": "Highlighting",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/highlighting.html",
+            "anchor": "query-guide-highlighting",
+            "virtual_path": "docs/query-guide/highlighting.md"
+          },
+          {
+            "title": "Query Elevation Component",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/query-elevation-component.html",
+            "anchor": "query-guide-query-elevation-component",
+            "virtual_path": "docs/query-guide/query-elevation-component.md"
+          },
+          {
+            "title": "Document Transformers",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/document-transformers.html",
+            "anchor": "query-guide-document-transformers",
+            "virtual_path": "docs/query-guide/document-transformers.md"
+          },
+          {
+            "title": "Response Writers",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/response-writers.html",
+            "anchor": "query-guide-response-writers",
+            "virtual_path": "docs/query-guide/response-writers.md"
+          },
+          {
+            "title": "Exporting Result Sets",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/exporting-result-sets.html",
+            "anchor": "query-guide-exporting-result-sets",
+            "virtual_path": "docs/query-guide/exporting-result-sets.md"
+          },
+          {
+            "title": "Pagination of Results",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/pagination-of-results.html",
+            "anchor": "query-guide-pagination-of-results",
+            "virtual_path": "docs/query-guide/pagination-of-results.md"
+          }
+        ]
+      },
+      {
+        "title": "Streaming Expressions",
+        "kind": "category",
+        "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/streaming-expressions.html",
+        "anchor": "query-guide-streaming-expressions",
+        "virtual_path": "docs/query-guide/streaming-expressions.md",
+        "children": [
+          {
+            "title": "Stream Source Reference",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/stream-source-reference.html",
+            "anchor": "query-guide-stream-source-reference",
+            "virtual_path": "docs/query-guide/stream-source-reference.md"
+          },
+          {
+            "title": "Stream Decorator Reference",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/stream-decorator-reference.html",
+            "anchor": "query-guide-stream-decorator-reference",
+            "virtual_path": "docs/query-guide/stream-decorator-reference.md"
+          },
+          {
+            "title": "Stream Evaluator Reference",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/stream-evaluator-reference.html",
+            "anchor": "query-guide-stream-evaluator-reference",
+            "virtual_path": "docs/query-guide/stream-evaluator-reference.md"
+          },
+          {
+            "title": "Streaming Expressions and Math Expressions",
+            "kind": "category",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/math-expressions.html",
+            "anchor": "query-guide-math-expressions",
+            "virtual_path": "docs/query-guide/math-expressions.md",
+            "children": [
+              {
+                "title": "Visualization",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/visualization.html",
+                "anchor": "query-guide-visualization",
+                "virtual_path": "docs/query-guide/visualization.md"
+              },
+              {
+                "title": "Getting Started",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/math-start.html",
+                "anchor": "query-guide-math-start",
+                "virtual_path": "docs/query-guide/math-start.md"
+              },
+              {
+                "title": "Loading Data",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/loading.html",
+                "anchor": "query-guide-loading",
+                "virtual_path": "docs/query-guide/loading.md"
+              },
+              {
+                "title": "Searching, Sampling and Aggregation",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/search-sample.html",
+                "anchor": "query-guide-search-sample",
+                "virtual_path": "docs/query-guide/search-sample.md"
+              },
+              {
+                "title": "Transforming Data",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/transform.html",
+                "anchor": "query-guide-transform",
+                "virtual_path": "docs/query-guide/transform.md"
+              },
+              {
+                "title": "Scalar Math",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/scalar-math.html",
+                "anchor": "query-guide-scalar-math",
+                "virtual_path": "docs/query-guide/scalar-math.md"
+              },
+              {
+                "title": "Vector Math",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/vector-math.html",
+                "anchor": "query-guide-vector-math",
+                "virtual_path": "docs/query-guide/vector-math.md"
+              },
+              {
+                "title": "Variables",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/variables.html",
+                "anchor": "query-guide-variables",
+                "virtual_path": "docs/query-guide/variables.md"
+              },
+              {
+                "title": "Matrices and Matrix Math",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/matrix-math.html",
+                "anchor": "query-guide-matrix-math",
+                "virtual_path": "docs/query-guide/matrix-math.md"
+              },
+              {
+                "title": "Text Analysis and Term Vectors",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/term-vectors.html",
+                "anchor": "query-guide-term-vectors",
+                "virtual_path": "docs/query-guide/term-vectors.md"
+              },
+              {
+                "title": "Probability Distributions",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/probability-distributions.html",
+                "anchor": "query-guide-probability-distributions",
+                "virtual_path": "docs/query-guide/probability-distributions.md"
+              },
+              {
+                "title": "Statistics",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/statistics.html",
+                "anchor": "query-guide-statistics",
+                "virtual_path": "docs/query-guide/statistics.md"
+              },
+              {
+                "title": "Linear Regression",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/regression.html",
+                "anchor": "query-guide-regression",
+                "virtual_path": "docs/query-guide/regression.md"
+              },
+              {
+                "title": "Curve Fitting",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/curve-fitting.html",
+                "anchor": "query-guide-curve-fitting",
+                "virtual_path": "docs/query-guide/curve-fitting.md"
+              },
+              {
+                "title": "Time Series",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/time-series.html",
+                "anchor": "query-guide-time-series",
+                "virtual_path": "docs/query-guide/time-series.md"
+              },
+              {
+                "title": "Interpolation, Derivatives and Integrals",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/numerical-analysis.html",
+                "anchor": "query-guide-numerical-analysis",
+                "virtual_path": "docs/query-guide/numerical-analysis.md"
+              },
+              {
+                "title": "Digital Signal Processing",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/dsp.html",
+                "anchor": "query-guide-dsp",
+                "virtual_path": "docs/query-guide/dsp.md"
+              },
+              {
+                "title": "Monte Carlo Simulations",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/simulations.html",
+                "anchor": "query-guide-simulations",
+                "virtual_path": "docs/query-guide/simulations.md"
+              },
+              {
+                "title": "Machine Learning",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/machine-learning.html",
+                "anchor": "query-guide-machine-learning",
+                "virtual_path": "docs/query-guide/machine-learning.md"
+              },
+              {
+                "title": "Graph",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/graph.html",
+                "anchor": "query-guide-graph",
+                "virtual_path": "docs/query-guide/graph.md"
+              },
+              {
+                "title": "Computational Geometry",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/computational-geometry.html",
+                "anchor": "query-guide-computational-geometry",
+                "virtual_path": "docs/query-guide/computational-geometry.md"
+              },
+              {
+                "title": "Log Analytics",
+                "kind": "link",
+                "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/logs.html",
+                "anchor": "query-guide-logs",
+                "virtual_path": "docs/query-guide/logs.md"
+              }
+            ]
+          },
+          {
+            "title": "Graph Traversal",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/graph-traversal.html",
+            "anchor": "query-guide-graph-traversal",
+            "virtual_path": "docs/query-guide/graph-traversal.md"
+          },
+          {
+            "title": "Stream Request Handler API",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/stream-api.html",
+            "anchor": "query-guide-stream-api",
+            "virtual_path": "docs/query-guide/stream-api.md"
+          },
+          {
+            "title": "Stream Screen",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/stream-screen.html",
+            "anchor": "query-guide-stream-screen",
+            "virtual_path": "docs/query-guide/stream-screen.md"
+          },
+          {
+            "title": "Stream Tool",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/stream-tool.html",
+            "anchor": "query-guide-stream-tool",
+            "virtual_path": "docs/query-guide/stream-tool.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Solr Upgrade Notes",
+    "kind": "category",
+    "source_url": "https://solr.apache.org/guide/solr/latest/upgrade-notes/solr-upgrade-notes.html",
+    "anchor": "upgrade-notes-solr-upgrade-notes",
+    "virtual_path": "docs/upgrade-notes/solr-upgrade-notes.md",
+    "children": [
+      {
+        "title": "Solr Upgrade Notes",
+        "kind": "category",
+        "source_url": "https://solr.apache.org/guide/solr/latest/upgrade-notes/solr-upgrade-notes.html",
+        "anchor": "upgrade-notes-solr-upgrade-notes",
+        "virtual_path": "docs/upgrade-notes/solr-upgrade-notes.md",
+        "children": [
+          {
+            "title": "Major Changes in Solr 10",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/upgrade-notes/major-changes-in-solr-10.html",
+            "anchor": "upgrade-notes-major-changes-in-solr-10",
+            "virtual_path": "docs/upgrade-notes/major-changes-in-solr-10.md"
+          },
+          {
+            "title": "Major Changes in Solr 9",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/upgrade-notes/major-changes-in-solr-9.html",
+            "anchor": "upgrade-notes-major-changes-in-solr-9",
+            "virtual_path": "docs/upgrade-notes/major-changes-in-solr-9.md"
+          },
+          {
+            "title": "Major Changes in Solr 8",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/upgrade-notes/major-changes-in-solr-8.html",
+            "anchor": "upgrade-notes-major-changes-in-solr-8",
+            "virtual_path": "docs/upgrade-notes/major-changes-in-solr-8.md"
+          },
+          {
+            "title": "Major Changes in Solr 7",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/upgrade-notes/major-changes-in-solr-7.html",
+            "anchor": "upgrade-notes-major-changes-in-solr-7",
+            "virtual_path": "docs/upgrade-notes/major-changes-in-solr-7.md"
+          },
+          {
+            "title": "Major Changes in Solr 6",
+            "kind": "link",
+            "source_url": "https://solr.apache.org/guide/solr/latest/upgrade-notes/major-changes-in-solr-6.html",
+            "anchor": "upgrade-notes-major-changes-in-solr-6",
+            "virtual_path": "docs/upgrade-notes/major-changes-in-solr-6.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "How To Contribute",
+    "kind": "category",
+    "source_url": "https://solr.apache.org/guide/solr/latest/how-to-contribute/how-to-contribute.html",
+    "anchor": "how-to-contribute-how-to-contribute",
+    "virtual_path": "docs/how-to-contribute/how-to-contribute.md",
+    "children": [
+      {
+        "title": "How To Contribute",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/how-to-contribute/how-to-contribute.html",
+        "anchor": "how-to-contribute-how-to-contribute",
+        "virtual_path": "docs/how-to-contribute/how-to-contribute.md"
+      }
+    ]
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Cluster Singleton Plugins",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/cluster-singleton-plugins.html",
+        "anchor": "configuration-guide-cluster-singleton-plugins",
+        "virtual_path": "docs/configuration-guide/cluster-singleton-plugins.md"
+      },
+      {
+        "title": "System Info Handler",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/configuration-guide/system-info-handler.html",
+        "anchor": "configuration-guide-system-info-handler",
+        "virtual_path": "docs/configuration-guide/system-info-handler.md"
+      },
+      {
+        "title": "Cross Datacenter Replication",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/deployment-guide/cross-dc-replication.html",
+        "anchor": "deployment-guide-cross-dc-replication",
+        "virtual_path": "docs/deployment-guide/cross-dc-replication.md"
+      },
+      {
+        "title": "Text to Vector",
+        "kind": "link",
+        "source_url": "https://solr.apache.org/guide/solr/latest/query-guide/text-to-vector.html",
+        "anchor": "query-guide-text-to-vector",
+        "virtual_path": "docs/query-guide/text-to-vector.md"
+      }
+    ]
+  }
+]

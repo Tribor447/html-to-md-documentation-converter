@@ -1,0 +1,264 @@
+[
+  {
+    "title": "Introduction",
+    "kind": "category",
+    "children": [
+      {
+        "title": "First if you haven't already done so, make sure to check the",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/quickstart.html",
+        "anchor": "quickstart",
+        "virtual_path": "docs/quickstart.md"
+      },
+      {
+        "title": "You can also take a look at the",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/api/javadoc.html",
+        "anchor": "api-javadoc",
+        "virtual_path": "docs/api/javadoc.md"
+      }
+    ]
+  },
+  {
+    "title": "Gora Modules",
+    "kind": "category",
+    "children": [
+      {
+        "title": "gora-compiler",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/compiler.html",
+        "anchor": "compiler",
+        "virtual_path": "docs/compiler.md"
+      },
+      {
+        "title": "gora-compiler-cli",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/compiler-cli.html",
+        "anchor": "compiler-cli",
+        "virtual_path": "docs/compiler-cli.md"
+      },
+      {
+        "title": "gora-core",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-core.html",
+        "anchor": "gora-core",
+        "virtual_path": "docs/gora-core.md"
+      },
+      {
+        "title": "gora-accumulo",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-accumulo.html",
+        "anchor": "gora-accumulo",
+        "virtual_path": "docs/gora-accumulo.md"
+      },
+      {
+        "title": "camel-gora",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-camel.html",
+        "anchor": "gora-camel",
+        "virtual_path": "docs/gora-camel.md"
+      },
+      {
+        "title": "gora-cassandra",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-cassandra.html",
+        "anchor": "gora-cassandra",
+        "virtual_path": "docs/gora-cassandra.md"
+      },
+      {
+        "title": "gora-dynamodb",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-dynamodb.html",
+        "anchor": "gora-dynamodb",
+        "virtual_path": "docs/gora-dynamodb.md"
+      },
+      {
+        "title": "gora-hbase",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-hbase.html",
+        "anchor": "gora-hbase",
+        "virtual_path": "docs/gora-hbase.md"
+      },
+      {
+        "title": "gora-jcache",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-jcache.html",
+        "anchor": "gora-jcache",
+        "virtual_path": "docs/gora-jcache.md"
+      },
+      {
+        "title": "gora-couchdb",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-couchdb.html",
+        "anchor": "gora-couchdb",
+        "virtual_path": "docs/gora-couchdb.md"
+      },
+      {
+        "title": "gora-metamodel",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-metamodel.html",
+        "anchor": "gora-metamodel",
+        "virtual_path": "docs/gora-metamodel.md"
+      },
+      {
+        "title": "gora-mongodb",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-mongodb.html",
+        "anchor": "gora-mongodb",
+        "virtual_path": "docs/gora-mongodb.md"
+      },
+      {
+        "title": "gora-solr",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-solr.html",
+        "anchor": "gora-solr",
+        "virtual_path": "docs/gora-solr.md"
+      },
+      {
+        "title": "gora-aerospike",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-aerospike.html",
+        "anchor": "gora-aerospike",
+        "virtual_path": "docs/gora-aerospike.md"
+      },
+      {
+        "title": "gora-ignite",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-ignite.html",
+        "anchor": "gora-ignite",
+        "virtual_path": "docs/gora-ignite.md"
+      },
+      {
+        "title": "gora-kudu",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-kudu.html",
+        "anchor": "gora-kudu",
+        "virtual_path": "docs/gora-kudu.md"
+      },
+      {
+        "title": "gora-pig",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-pig.html",
+        "anchor": "gora-pig",
+        "virtual_path": "docs/gora-pig.md"
+      },
+      {
+        "title": "gora-tutorial",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/tutorial.html",
+        "anchor": "tutorial",
+        "virtual_path": "docs/tutorial.md"
+      },
+      {
+        "title": "gora-sql",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-sql.html",
+        "anchor": "gora-sql",
+        "virtual_path": "docs/gora-sql.md"
+      }
+    ]
+  },
+  {
+    "title": "Data store specific settings",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Gora Core Module",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-core.html",
+        "anchor": "gora-core",
+        "virtual_path": "docs/gora-core.md"
+      },
+      {
+        "title": "Gora HBase Module",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-hbase.html",
+        "anchor": "gora-hbase",
+        "virtual_path": "docs/gora-hbase.md"
+      },
+      {
+        "title": "Gora Cassandra Module",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-cassandra.html",
+        "anchor": "gora-cassandra",
+        "virtual_path": "docs/gora-cassandra.md"
+      },
+      {
+        "title": "Gora Solr Module",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-solr.html",
+        "anchor": "gora-solr",
+        "virtual_path": "docs/gora-solr.md"
+      },
+      {
+        "title": "Gora Accumulo Module",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-accumulo.html",
+        "anchor": "gora-accumulo",
+        "virtual_path": "docs/gora-accumulo.md"
+      },
+      {
+        "title": "Gora DynamoDB Module",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-dynamodb.html",
+        "anchor": "gora-dynamodb",
+        "virtual_path": "docs/gora-dynamodb.md"
+      },
+      {
+        "title": "Gora MongoDB Module",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-mongodb.html",
+        "anchor": "gora-mongodb",
+        "virtual_path": "docs/gora-mongodb.md"
+      }
+    ]
+  },
+  {
+    "title": "Gora Java Documentation",
+    "kind": "category",
+    "source_url": "https://gora.apache.org/current/api/javadoc.html",
+    "anchor": "api-javadoc",
+    "virtual_path": "docs/api/javadoc.md"
+  },
+  {
+    "title": "Current Documentation",
+    "kind": "link",
+    "source_url": "https://gora.apache.org/current/index.html",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "JavaDoc Documentation",
+    "kind": "link",
+    "source_url": "https://gora.apache.org/current/api/javadoc.html",
+    "anchor": "api-javadoc",
+    "virtual_path": "docs/api/javadoc.md"
+  },
+  {
+    "title": "Gora Tutorial",
+    "kind": "link",
+    "source_url": "https://gora.apache.org/current/tutorial.html",
+    "anchor": "tutorial",
+    "virtual_path": "docs/tutorial.md"
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Apache Gora™ - Gora Configuration",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/gora-conf.html",
+        "anchor": "gora-conf",
+        "virtual_path": "docs/gora-conf.md"
+      },
+      {
+        "title": "Apache Gora™ - Gora Module Overview",
+        "kind": "link",
+        "source_url": "https://gora.apache.org/current/overview.html",
+        "anchor": "overview",
+        "virtual_path": "docs/overview.md"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1149 @@
+- title: CXF User's Guide
+  kind: category
+  source_url: https://cxf.apache.org/docs/index.html
+  anchor: index
+  virtual_path: docs/index.md
+  children:
+  - title: Overview
+    kind: category
+    source_url: https://cxf.apache.org/docs/overview.html
+    anchor: overview
+    virtual_path: docs/overview.md
+    children:
+    - title: Why CXF?
+      kind: link
+      source_url: https://cxf.apache.org/docs/why-cxf.html
+      anchor: why-cxf
+      virtual_path: docs/why-cxf.md
+    - title: How do I integrate my application with CXF
+      kind: link
+      source_url: https://cxf.apache.org/docs/how-do-i-integrate-my-application-with-cxf.html
+      anchor: how-do-i-integrate-my-application-with-cxf
+      virtual_path: docs/how-do-i-integrate-my-application-with-cxf.md
+    - title: How do I develop a service?
+      kind: link
+      source_url: https://cxf.apache.org/docs/how-do-i-develop-a-service.html
+      anchor: how-do-i-develop-a-service
+      virtual_path: docs/how-do-i-develop-a-service.md
+    - title: How do I develop a client?
+      kind: link
+      source_url: https://cxf.apache.org/docs/how-do-i-develop-a-client.html
+      anchor: how-do-i-develop-a-client
+      virtual_path: docs/how-do-i-develop-a-client.md
+  - title: How-Tos
+    kind: category
+    source_url: https://cxf.apache.org/docs/how-tos.html
+    anchor: how-tos
+    virtual_path: docs/how-tos.md
+    children:
+    - title: Writing a service with Spring
+      kind: link
+      source_url: https://cxf.apache.org/docs/writing-a-service-with-spring.html
+      anchor: writing-a-service-with-spring
+      virtual_path: docs/writing-a-service-with-spring.md
+    - title: A simple JAX-WS service
+      kind: link
+      source_url: https://cxf.apache.org/docs/a-simple-jax-ws-service.html
+      anchor: a-simple-jax-ws-service
+      virtual_path: docs/a-simple-jax-ws-service.md
+    - title: Running a service in Tomcat on zOS
+      kind: link
+      source_url: https://cxf.apache.org/docs/running-a-service-in-tomcat-on-zos.html
+      anchor: running-a-service-in-tomcat-on-zos
+      virtual_path: docs/running-a-service-in-tomcat-on-zos.md
+    - title: Defining Contract first webservices with wsdl generation from java
+      kind: link
+      source_url: https://cxf.apache.org/docs/defining-contract-first-webservices-with-wsdl-generation-from-java.html
+      anchor: defining-contract-first-webservices-with-wsdl-generation-from-java
+      virtual_path: docs/defining-contract-first-webservices-with-wsdl-generation-from-java.md
+    - title: Migration Guides
+      kind: link
+      source_url: https://cxf.apache.org/docs/migration-guides.html
+      anchor: migration-guides
+      virtual_path: docs/migration-guides.md
+    - title: Sample Projects
+      kind: link
+      source_url: https://cxf.apache.org/docs/sample-projects.html
+      anchor: sample-projects
+      virtual_path: docs/sample-projects.md
+  - title: Frontends
+    kind: category
+    source_url: https://cxf.apache.org/docs/frontends.html
+    anchor: frontends
+    virtual_path: docs/frontends.md
+    children:
+    - title: Annotations
+      kind: link
+      source_url: https://cxf.apache.org/docs/annotations.html
+      anchor: annotations
+      virtual_path: docs/annotations.md
+    - title: Dynamic Clients
+      kind: link
+      source_url: https://cxf.apache.org/docs/dynamic-clients.html
+      anchor: dynamic-clients
+      virtual_path: docs/dynamic-clients.md
+    - title: JAX-WS
+      kind: category
+      source_url: https://cxf.apache.org/docs/jax-ws.html
+      anchor: jax-ws
+      virtual_path: docs/jax-ws.md
+      children:
+      - title: Developing a Consumer
+        kind: link
+        source_url: https://cxf.apache.org/docs/developing-a-consumer.html
+        anchor: developing-a-consumer
+        virtual_path: docs/developing-a-consumer.md
+      - title: Developing a Service
+        kind: link
+        source_url: https://cxf.apache.org/docs/developing-a-service.html
+        anchor: developing-a-service
+        virtual_path: docs/developing-a-service.md
+      - title: JAX-WS Configuration
+        kind: link
+        source_url: https://cxf.apache.org/docs/jax-ws-configuration.html
+        anchor: jax-ws-configuration
+        virtual_path: docs/jax-ws-configuration.md
+      - title: JAX-WS Dispatch API
+        kind: link
+        source_url: https://cxf.apache.org/docs/jax-ws-dispatch-api.html
+        anchor: jax-ws-dispatch-api
+        virtual_path: docs/jax-ws-dispatch-api.md
+      - title: Provider Services
+        kind: link
+        source_url: https://cxf.apache.org/docs/provider-services.html
+        anchor: provider-services
+        virtual_path: docs/provider-services.md
+      - title: WebserviceContext
+        kind: link
+        source_url: https://cxf.apache.org/docs/webservicecontext.html
+        anchor: webservicecontext
+        virtual_path: docs/webservicecontext.md
+    - title: Simple
+      kind: category
+      source_url: https://cxf.apache.org/docs/simple.html
+      anchor: simple
+      virtual_path: docs/simple.md
+      children:
+      - title: Simple Frontend
+        kind: link
+        source_url: https://cxf.apache.org/docs/simple-frontend.html
+        anchor: simple-frontend
+        virtual_path: docs/simple-frontend.md
+      - title: Simple Frontend Configuration
+        kind: link
+        source_url: https://cxf.apache.org/docs/simple-frontend-configuration.html
+        anchor: simple-frontend-configuration
+        virtual_path: docs/simple-frontend-configuration.md
+  - title: DataBindings
+    kind: category
+    source_url: https://cxf.apache.org/docs/databindings.html
+    anchor: databindings
+    virtual_path: docs/databindings.md
+    children:
+    - title: Aegis (2.1)
+      kind: link
+      source_url: https://cxf.apache.org/docs/aegis-21.html
+      anchor: aegis-21
+      virtual_path: docs/aegis-21.md
+    - title: Aegis Databinding (2.0.x)
+      kind: link
+      source_url: https://cxf.apache.org/docs/aegis-databinding-20x.html
+      anchor: aegis-databinding-20x
+      virtual_path: docs/aegis-databinding-20x.md
+    - title: JAXB
+      kind: link
+      source_url: https://cxf.apache.org/docs/jaxb.html
+      anchor: jaxb
+      virtual_path: docs/jaxb.md
+    - title: MTOM Attachments with JAXB
+      kind: link
+      source_url: https://cxf.apache.org/docs/mtom-attachments-with-jaxb.html
+      anchor: mtom-attachments-with-jaxb
+      virtual_path: docs/mtom-attachments-with-jaxb.md
+    - title: SDO
+      kind: link
+      source_url: https://cxf.apache.org/docs/sdo.html
+      anchor: sdo
+      virtual_path: docs/sdo.md
+    - title: XMLBeans
+      kind: link
+      source_url: https://cxf.apache.org/docs/xmlbeans.html
+      anchor: xmlbeans
+      virtual_path: docs/xmlbeans.md
+  - title: Transports
+    kind: category
+    source_url: https://cxf.apache.org/docs/transports.html
+    anchor: transports
+    virtual_path: docs/transports.md
+    children:
+    - title: HTTP Transport
+      kind: category
+      source_url: https://cxf.apache.org/docs/http-transport.html
+      anchor: http-transport
+      virtual_path: docs/http-transport.md
+      children:
+      - title: Asynchronous Client HTTP Transport
+        kind: link
+        source_url: https://cxf.apache.org/docs/asynchronous-client-http-transport.html
+        anchor: asynchronous-client-http-transport
+        virtual_path: docs/asynchronous-client-http-transport.md
+      - title: Client HTTP Transport (including SSL support)
+        kind: link
+        source_url: https://cxf.apache.org/docs/client-http-transport-including-ssl-support.html
+        anchor: client-http-transport-including-ssl-support
+        virtual_path: docs/client-http-transport-including-ssl-support.md
+      - title: HTTP/2 support
+        kind: link
+        source_url: https://cxf.apache.org/docs/http2-support.html
+        anchor: http2-support
+        virtual_path: docs/http2-support.md
+      - title: Jetty Configuration
+        kind: link
+        source_url: https://cxf.apache.org/docs/jetty-configuration.html
+        anchor: jetty-configuration
+        virtual_path: docs/jetty-configuration.md
+      - title: Netty Configuration
+        kind: link
+        source_url: https://cxf.apache.org/docs/netty-configuration.html
+        anchor: netty-configuration
+        virtual_path: docs/netty-configuration.md
+      - title: Server HTTP Transport
+        kind: link
+        source_url: https://cxf.apache.org/docs/server-http-transport.html
+        anchor: server-http-transport
+        virtual_path: docs/server-http-transport.md
+      - title: Servlet Transport
+        kind: link
+        source_url: https://cxf.apache.org/docs/servlet-transport.html
+        anchor: servlet-transport
+        virtual_path: docs/servlet-transport.md
+      - title: Standalone HTTP Transport
+        kind: link
+        source_url: https://cxf.apache.org/docs/standalone-http-transport.html
+        anchor: standalone-http-transport
+        virtual_path: docs/standalone-http-transport.md
+      - title: Undertow Configuration
+        kind: link
+        source_url: https://cxf.apache.org/docs/undertow-configuration.html
+        anchor: undertow-configuration
+        virtual_path: docs/undertow-configuration.md
+    - title: JMS Transport
+      kind: category
+      source_url: https://cxf.apache.org/docs/jms-transport.html
+      anchor: jms-transport
+      virtual_path: docs/jms-transport.md
+      children:
+      - title: CXF 2.x JMS configuration (removed in CXF 3)
+        kind: link
+        source_url: https://cxf.apache.org/docs/cxf-2x-jms-configuration-removed-in-cxf-3.html
+        anchor: cxf-2x-jms-configuration-removed-in-cxf-3
+        virtual_path: docs/cxf-2x-jms-configuration-removed-in-cxf-3.md
+      - title: JMS performance and pooling
+        kind: link
+        source_url: https://cxf.apache.org/docs/jms-performance-and-pooling.html
+        anchor: jms-performance-and-pooling
+        virtual_path: docs/jms-performance-and-pooling.md
+      - title: JMS transactions
+        kind: link
+        source_url: https://cxf.apache.org/docs/jms-transactions.html
+        anchor: jms-transactions
+        virtual_path: docs/jms-transactions.md
+      - title: SOAP over JMS 1.0 support
+        kind: link
+        source_url: https://cxf.apache.org/docs/soap-over-jms-10-support.html
+        anchor: soap-over-jms-10-support
+        virtual_path: docs/soap-over-jms-10-support.md
+      - title: Using the JMSConfigFeature
+        kind: link
+        source_url: https://cxf.apache.org/docs/using-the-jmsconfigfeature.html
+        anchor: using-the-jmsconfigfeature
+        virtual_path: docs/using-the-jmsconfigfeature.md
+    - title: Local Transport
+      kind: link
+      source_url: https://cxf.apache.org/docs/local-transport.html
+      anchor: local-transport
+      virtual_path: docs/local-transport.md
+    - title: UDP Transport
+      kind: category
+      source_url: https://cxf.apache.org/docs/udp-transport.html
+      anchor: udp-transport
+      virtual_path: docs/udp-transport.md
+      children:
+      - title: SOAP over UDP
+        kind: link
+        source_url: https://cxf.apache.org/docs/soap-over-udp.html
+        anchor: soap-over-udp
+        virtual_path: docs/soap-over-udp.md
+    - title: Custom Transport
+      kind: link
+      source_url: https://cxf.apache.org/docs/custom-transport.html
+      anchor: custom-transport
+      virtual_path: docs/custom-transport.md
+    - title: Coloc Feature
+      kind: link
+      source_url: https://cxf.apache.org/docs/coloc-feature.html
+      anchor: coloc-feature
+      virtual_path: docs/coloc-feature.md
+    - title: Apache Camel Transport
+      kind: link
+      source_url: https://cxf.apache.org/docs/apache-camel-transport.html
+      anchor: apache-camel-transport
+      virtual_path: docs/apache-camel-transport.md
+    - title: WebSocket
+      kind: link
+      source_url: https://cxf.apache.org/docs/websocket.html
+      anchor: websocket
+      virtual_path: docs/websocket.md
+    - title: SSE
+      kind: link
+      source_url: https://cxf.apache.org/docs/sse.html
+      anchor: sse
+      virtual_path: docs/sse.md
+  - title: Configuration
+    kind: category
+    source_url: https://cxf.apache.org/docs/configuration.html
+    anchor: configuration
+    virtual_path: docs/configuration.md
+    children:
+    - title: Bus Configuration
+      kind: link
+      source_url: https://cxf.apache.org/docs/bus-configuration.html
+      anchor: bus-configuration
+      virtual_path: docs/bus-configuration.md
+    - title: FeaturesList
+      kind: link
+      source_url: https://cxf.apache.org/docs/featureslist.html
+      anchor: featureslist
+      virtual_path: docs/featureslist.md
+    - title: JMX Management
+      kind: link
+      source_url: https://cxf.apache.org/docs/jmx-management.html
+      anchor: jmx-management
+      virtual_path: docs/jmx-management.md
+    - title: WSAConfiguration
+      kind: link
+      source_url: https://cxf.apache.org/docs/wsaconfiguration.html
+      anchor: wsaconfiguration
+      virtual_path: docs/wsaconfiguration.md
+    - title: WSPConfiguration
+      kind: link
+      source_url: https://cxf.apache.org/docs/wspconfiguration.html
+      anchor: wspconfiguration
+      virtual_path: docs/wspconfiguration.md
+    - title: WSRMConfiguration
+      kind: link
+      source_url: https://cxf.apache.org/docs/wsrmconfiguration.html
+      anchor: wsrmconfiguration
+      virtual_path: docs/wsrmconfiguration.md
+  - title: Debugging and Logging
+    kind: link
+    source_url: https://cxf.apache.org/docs/debugging-and-logging.html
+    anchor: debugging-and-logging
+    virtual_path: docs/debugging-and-logging.md
+  - title: Tools
+    kind: category
+    source_url: https://cxf.apache.org/docs/tools.html
+    anchor: tools
+    virtual_path: docs/tools.md
+    children:
+    - title: CXF tools in Eclipse
+      kind: link
+      source_url: https://cxf.apache.org/docs/cxf-tools-in-eclipse.html
+      anchor: cxf-tools-in-eclipse
+      virtual_path: docs/cxf-tools-in-eclipse.md
+    - title: IDL to WSDL
+      kind: link
+      source_url: https://cxf.apache.org/docs/idl-to-wsdl.html
+      anchor: idl-to-wsdl
+      virtual_path: docs/idl-to-wsdl.md
+    - title: Java to Javascript
+      kind: link
+      source_url: https://cxf.apache.org/docs/java-to-javascript.html
+      anchor: java-to-javascript
+      virtual_path: docs/java-to-javascript.md
+    - title: Java to WS
+      kind: link
+      source_url: https://cxf.apache.org/docs/java-to-ws.html
+      anchor: java-to-ws
+      virtual_path: docs/java-to-ws.md
+    - title: Java to WSDL
+      kind: link
+      source_url: https://cxf.apache.org/docs/java-to-wsdl.html
+      anchor: java-to-wsdl
+      virtual_path: docs/java-to-wsdl.md
+    - title: Maven cxf-codegen-plugin (WSDL to Java)
+      kind: link
+      source_url: https://cxf.apache.org/docs/maven-cxf-codegen-plugin-wsdl-to-java.html
+      anchor: maven-cxf-codegen-plugin-wsdl-to-java
+      virtual_path: docs/maven-cxf-codegen-plugin-wsdl-to-java.md
+    - title: Maven Java2WSDL plugin (CXF 2.0.x only. Removed in 2.1 and replaced with
+        Java2WS)
+      kind: link
+      source_url: https://cxf.apache.org/docs/maven-java2wsdl-plugin-cxf-20x-only-removed-in-21-and-replaced-with-java2ws.html
+      anchor: maven-java2wsdl-plugin-cxf-20x-only-removed-in-21-and-replaced-with-java2ws
+      virtual_path: docs/maven-java2wsdl-plugin-cxf-20x-only-removed-in-21-and-replaced-with-java2ws.md
+    - title: Maven Java2WS plugin
+      kind: link
+      source_url: https://cxf.apache.org/docs/maven-java2ws-plugin.html
+      anchor: maven-java2ws-plugin
+      virtual_path: docs/maven-java2ws-plugin.md
+    - title: Using CXF with maven
+      kind: link
+      source_url: https://cxf.apache.org/docs/using-cxf-with-maven.html
+      anchor: using-cxf-with-maven
+      virtual_path: docs/using-cxf-with-maven.md
+    - title: WSDL to CORBA
+      kind: link
+      source_url: https://cxf.apache.org/docs/wsdl-to-corba.html
+      anchor: wsdl-to-corba
+      virtual_path: docs/wsdl-to-corba.md
+    - title: WSDL to Java
+      kind: link
+      source_url: https://cxf.apache.org/docs/wsdl-to-java.html
+      anchor: wsdl-to-java
+      virtual_path: docs/wsdl-to-java.md
+    - title: WSDL to Javascript
+      kind: link
+      source_url: https://cxf.apache.org/docs/wsdl-to-javascript.html
+      anchor: wsdl-to-javascript
+      virtual_path: docs/wsdl-to-javascript.md
+    - title: WSDL to Service
+      kind: link
+      source_url: https://cxf.apache.org/docs/wsdl-to-service.html
+      anchor: wsdl-to-service
+      virtual_path: docs/wsdl-to-service.md
+    - title: WSDL to SOAP
+      kind: link
+      source_url: https://cxf.apache.org/docs/wsdl-to-soap.html
+      anchor: wsdl-to-soap
+      virtual_path: docs/wsdl-to-soap.md
+    - title: WSDL to XML
+      kind: link
+      source_url: https://cxf.apache.org/docs/wsdl-to-xml.html
+      anchor: wsdl-to-xml
+      virtual_path: docs/wsdl-to-xml.md
+    - title: WSDLValidator
+      kind: link
+      source_url: https://cxf.apache.org/docs/wsdlvalidator.html
+      anchor: wsdlvalidator
+      virtual_path: docs/wsdlvalidator.md
+    - title: XSD to WSDL
+      kind: link
+      source_url: https://cxf.apache.org/docs/xsd-to-wsdl.html
+      anchor: xsd-to-wsdl
+      virtual_path: docs/xsd-to-wsdl.md
+  - title: RESTful Services
+    kind: category
+    source_url: https://cxf.apache.org/docs/restful-services.html
+    anchor: restful-services
+    virtual_path: docs/restful-services.md
+    children:
+    - title: HTTP Binding
+      kind: link
+      source_url: https://cxf.apache.org/docs/http-binding.html
+      anchor: http-binding
+      virtual_path: docs/http-binding.md
+    - title: JAX-RS
+      kind: link
+      source_url: https://cxf.apache.org/docs/jax-rs.html
+      anchor: jax-rs
+      virtual_path: docs/jax-rs.md
+    - title: JAX-RS (JSR-311)
+      kind: link
+      source_url: https://cxf.apache.org/docs/jax-rs-jsr-311.html
+      anchor: jax-rs-jsr-311
+      virtual_path: docs/jax-rs-jsr-311.md
+    - title: REST with JAX-WS Provider and Dispatch
+      kind: link
+      source_url: https://cxf.apache.org/docs/rest-with-jax-ws-provider-and-dispatch.html
+      anchor: rest-with-jax-ws-provider-and-dispatch
+      virtual_path: docs/rest-with-jax-ws-provider-and-dispatch.md
+    - title: JSON Support
+      kind: link
+      source_url: https://cxf.apache.org/docs/json-support.html
+      anchor: json-support
+      virtual_path: docs/json-support.md
+  - title: WSDL Bindings
+    kind: category
+    source_url: https://cxf.apache.org/docs/wsdl-bindings.html
+    anchor: wsdl-bindings
+    virtual_path: docs/wsdl-bindings.md
+    children:
+    - title: MTOM
+      kind: link
+      source_url: https://cxf.apache.org/docs/mtom.html
+      anchor: mtom
+      virtual_path: docs/mtom.md
+    - title: Pure XML
+      kind: link
+      source_url: https://cxf.apache.org/docs/pure-xml.html
+      anchor: pure-xml
+      virtual_path: docs/pure-xml.md
+    - title: SOAP 1.1
+      kind: link
+      source_url: https://cxf.apache.org/docs/soap-11.html
+      anchor: soap-11
+      virtual_path: docs/soap-11.md
+    - title: SOAP 1.2
+      kind: link
+      source_url: https://cxf.apache.org/docs/soap-12.html
+      anchor: soap-12
+      virtual_path: docs/soap-12.md
+  - title: Service Routing
+    kind: link
+    source_url: https://cxf.apache.org/docs/service-routing.html
+    anchor: service-routing
+    virtual_path: docs/service-routing.md
+  - title: Dynamic Languages
+    kind: category
+    source_url: https://cxf.apache.org/docs/dynamic-languages.html
+    anchor: dynamic-languages
+    virtual_path: docs/dynamic-languages.md
+    children:
+    - title: JavaScript
+      kind: link
+      source_url: https://cxf.apache.org/docs/javascript.html
+      anchor: javascript
+      virtual_path: docs/javascript.md
+    - title: JavaScript Clients
+      kind: link
+      source_url: https://cxf.apache.org/docs/javascript-clients.html
+      anchor: javascript-clients
+      virtual_path: docs/javascript-clients.md
+  - title: WS-* Support
+    kind: category
+    source_url: https://cxf.apache.org/docs/ws-support.html
+    anchor: ws-support
+    virtual_path: docs/ws-support.md
+    children:
+    - title: WS-Addressing
+      kind: link
+      source_url: https://cxf.apache.org/docs/ws-addressing.html
+      anchor: ws-addressing
+      virtual_path: docs/ws-addressing.md
+    - title: WS-Discovery
+      kind: link
+      source_url: https://cxf.apache.org/docs/ws-discovery.html
+      anchor: ws-discovery
+      virtual_path: docs/ws-discovery.md
+    - title: WS-MetadataExchange
+      kind: link
+      source_url: https://cxf.apache.org/docs/ws-metadataexchange.html
+      anchor: ws-metadataexchange
+      virtual_path: docs/ws-metadataexchange.md
+    - title: WS-Policy
+      kind: link
+      source_url: https://cxf.apache.org/docs/ws-policy.html
+      anchor: ws-policy
+      virtual_path: docs/ws-policy.md
+    - title: WS-ReliableMessaging
+      kind: link
+      source_url: https://cxf.apache.org/docs/ws-reliablemessaging.html
+      anchor: ws-reliablemessaging
+      virtual_path: docs/ws-reliablemessaging.md
+    - title: WS-SecureConversation
+      kind: link
+      source_url: https://cxf.apache.org/docs/ws-secureconversation.html
+      anchor: ws-secureconversation
+      virtual_path: docs/ws-secureconversation.md
+    - title: WS-Security
+      kind: link
+      source_url: https://cxf.apache.org/docs/ws-security.html
+      anchor: ws-security
+      virtual_path: docs/ws-security.md
+    - title: WS-SecurityPolicy
+      kind: link
+      source_url: https://cxf.apache.org/docs/ws-securitypolicy.html
+      anchor: ws-securitypolicy
+      virtual_path: docs/ws-securitypolicy.md
+    - title: WS-Trust
+      kind: link
+      source_url: https://cxf.apache.org/docs/ws-trust.html
+      anchor: ws-trust
+      virtual_path: docs/ws-trust.md
+  - title: Securing CXF Services
+    kind: category
+    source_url: https://cxf.apache.org/docs/securing-cxf-services.html
+    anchor: securing-cxf-services
+    virtual_path: docs/securing-cxf-services.md
+    children:
+    - title: JAXRS Kerberos
+      kind: link
+      source_url: https://cxf.apache.org/docs/jaxrs-kerberos.html
+      anchor: jaxrs-kerberos
+      virtual_path: docs/jaxrs-kerberos.md
+    - title: SAML Web SSO
+      kind: link
+      source_url: https://cxf.apache.org/docs/saml-web-sso.html
+      anchor: saml-web-sso
+      virtual_path: docs/saml-web-sso.md
+    - title: Security Configuration
+      kind: link
+      source_url: https://cxf.apache.org/docs/security-configuration.html
+      anchor: security-configuration
+      virtual_path: docs/security-configuration.md
+  - title: Advanced Integration
+    kind: category
+    source_url: https://cxf.apache.org/docs/advanced-integration.html
+    anchor: advanced-integration
+    virtual_path: docs/advanced-integration.md
+    children:
+    - title: Features
+      kind: link
+      source_url: https://cxf.apache.org/docs/features.html
+      anchor: features
+      virtual_path: docs/features.md
+    - title: Interceptors
+      kind: link
+      source_url: https://cxf.apache.org/docs/interceptors.html
+      anchor: interceptors
+      virtual_path: docs/interceptors.md
+    - title: Invokers
+      kind: link
+      source_url: https://cxf.apache.org/docs/invokers.html
+      anchor: invokers
+      virtual_path: docs/invokers.md
+    - title: Multiplexed EndpointReferences
+      kind: link
+      source_url: https://cxf.apache.org/docs/multiplexed-endpointreferences.html
+      anchor: multiplexed-endpointreferences
+      virtual_path: docs/multiplexed-endpointreferences.md
+    - title: Server, Service, and Client FactoryBeans
+      kind: link
+      source_url: https://cxf.apache.org/docs/server-service-and-client-factorybeans.html
+      anchor: server-service-and-client-factorybeans
+      virtual_path: docs/server-service-and-client-factorybeans.md
+  - title: Deployment
+    kind: category
+    source_url: https://cxf.apache.org/docs/deployment.html
+    anchor: deployment
+    virtual_path: docs/deployment.md
+    children:
+    - title: Application Server Specific Configuration Guide
+      kind: link
+      source_url: https://cxf.apache.org/docs/application-server-specific-configuration-guide.html
+      anchor: application-server-specific-configuration-guide
+      virtual_path: docs/application-server-specific-configuration-guide.md
+    - title: Bundling CXF into single jar with Maven shade plugin
+      kind: link
+      source_url: https://cxf.apache.org/docs/bundling-cxf-into-single-jar-with-maven-shade-plugin.html
+      anchor: bundling-cxf-into-single-jar-with-maven-shade-plugin
+      virtual_path: docs/bundling-cxf-into-single-jar-with-maven-shade-plugin.md
+    - title: Embedding CXF inside Spring
+      kind: link
+      source_url: https://cxf.apache.org/docs/embedding-cxf-inside-spring.html
+      anchor: embedding-cxf-inside-spring
+      virtual_path: docs/embedding-cxf-inside-spring.md
+    - title: Using CXF and CDI 1.1/1.2 (JSR-346) in OSGi environment
+      kind: link
+      source_url: https://cxf.apache.org/docs/using-cxf-and-cdi-1112-jsr-346-in-osgi-environment.html
+      anchor: using-cxf-and-cdi-1112-jsr-346-in-osgi-environment
+      virtual_path: docs/using-cxf-and-cdi-1112-jsr-346-in-osgi-environment.md
+    - title: Using CXF and CDI 1.1 (JSR-346)
+      kind: link
+      source_url: https://cxf.apache.org/docs/using-cxf-and-cdi-11-jsr-346.html
+      anchor: using-cxf-and-cdi-11-jsr-346
+      virtual_path: docs/using-cxf-and-cdi-11-jsr-346.md
+    - title: Using CXF and Failover in OSGi environment
+      kind: link
+      source_url: https://cxf.apache.org/docs/using-cxf-and-failover-in-osgi-environment.html
+      anchor: using-cxf-and-failover-in-osgi-environment
+      virtual_path: docs/using-cxf-and-failover-in-osgi-environment.md
+    - title: Using CXF-JCA RAR in Application Server
+      kind: link
+      source_url: https://cxf.apache.org/docs/using-cxf-jca-rar-in-application-server.html
+      anchor: using-cxf-jca-rar-in-application-server
+      virtual_path: docs/using-cxf-jca-rar-in-application-server.md
+  - title: Distributed Tracing
+    kind: category
+    source_url: https://cxf.apache.org/docs/distributed-tracing.html
+    anchor: distributed-tracing
+    virtual_path: docs/distributed-tracing.md
+    children:
+    - title: Using Apache HTrace
+      kind: link
+      source_url: https://cxf.apache.org/docs/using-apache-htrace.html
+      anchor: using-apache-htrace
+      virtual_path: docs/using-apache-htrace.md
+    - title: Using Micrometer Observation
+      kind: link
+      source_url: https://cxf.apache.org/docs/using-micrometer-observation.html
+      anchor: using-micrometer-observation
+      virtual_path: docs/using-micrometer-observation.md
+    - title: Using OpenTelemetry
+      kind: link
+      source_url: https://cxf.apache.org/docs/using-opentelemetry.html
+      anchor: using-opentelemetry
+      virtual_path: docs/using-opentelemetry.md
+    - title: Using OpenTracing
+      kind: link
+      source_url: https://cxf.apache.org/docs/using-opentracing.html
+      anchor: using-opentracing
+      virtual_path: docs/using-opentracing.md
+    - title: Using OpenZipkin Brave
+      kind: link
+      source_url: https://cxf.apache.org/docs/using-openzipkin-brave.html
+      anchor: using-openzipkin-brave
+      virtual_path: docs/using-openzipkin-brave.md
+  - title: Metrics
+    kind: category
+    source_url: https://cxf.apache.org/docs/metrics.html
+    anchor: metrics
+    virtual_path: docs/metrics.md
+    children:
+    - title: Dropwizard Metrics
+      kind: link
+      source_url: https://cxf.apache.org/docs/dropwizard-metrics.html
+      anchor: dropwizard-metrics
+      virtual_path: docs/dropwizard-metrics.md
+    - title: Micrometer
+      kind: link
+      source_url: https://cxf.apache.org/docs/micrometer.html
+      anchor: micrometer
+      virtual_path: docs/micrometer.md
+  - title: Use of Schemas and Namespaces
+    kind: link
+    source_url: https://cxf.apache.org/docs/schemas-and-namespaces.html
+    anchor: schemas-and-namespaces
+    virtual_path: docs/schemas-and-namespaces.md
+  - title: JPMS (Java 9 and beyond)
+    kind: link
+    source_url: https://cxf.apache.org/docs/jpms-java-9-and-beyond.html
+    anchor: jpms-java-9-and-beyond
+    virtual_path: docs/jpms-java-9-and-beyond.md
+  - title: GraalVM Support
+    kind: link
+    source_url: https://cxf.apache.org/docs/graalvm-support.html
+    anchor: graalvm-support
+    virtual_path: docs/graalvm-support.md
+  - title: JakartaEE TCKs
+    kind: link
+    source_url: https://cxf.apache.org/docs/jakartaee-tcks.html
+    anchor: jakartaee-tcks
+    virtual_path: docs/jakartaee-tcks.md
+  - title: Javadoc
+    kind: link
+    source_url: https://cxf.apache.org/docs/javadoc.html
+    anchor: javadoc
+    virtual_path: docs/javadoc.md
+- title: Developer Guide
+  kind: category
+  children:
+  - title: CXF Architecture
+    kind: link
+    source_url: https://cxf.apache.org/docs/cxf-architecture.html
+    anchor: cxf-architecture
+    virtual_path: docs/cxf-architecture.md
+  - title: Configuration for Developers
+    kind: link
+    source_url: https://cxf.apache.org/docs/configuration-for-developers.html
+    anchor: configuration-for-developers
+    virtual_path: docs/configuration-for-developers.md
+  - title: CXF Dependency Graphs
+    kind: link
+    source_url: https://cxf.apache.org/docs/cxf-dependency-graphs.html
+    anchor: cxf-dependency-graphs
+    virtual_path: docs/cxf-dependency-graphs.md
+  - title: Documentation TODOs
+    kind: link
+    source_url: https://cxf.apache.org/docs/documentation-todos.html
+    anchor: documentation-todos
+    virtual_path: docs/documentation-todos.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Apache CXF -- 2.1 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/21-migration-guide.html
+    anchor: 21-migration-guide
+    virtual_path: docs/21-migration-guide.md
+  - title: Apache CXF -- 2.2 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/22-migration-guide.html
+    anchor: 22-migration-guide
+    virtual_path: docs/22-migration-guide.md
+  - title: Apache CXF -- 2.3 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/23-migration-guide.html
+    anchor: 23-migration-guide
+    virtual_path: docs/23-migration-guide.md
+  - title: Apache CXF -- 2.4 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/24-migration-guide.html
+    anchor: 24-migration-guide
+    virtual_path: docs/24-migration-guide.md
+  - title: Apache CXF -- 2.5 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/25-migration-guide.html
+    anchor: 25-migration-guide
+    virtual_path: docs/25-migration-guide.md
+  - title: Apache CXF -- 2.6 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/26-migration-guide.html
+    anchor: 26-migration-guide
+    virtual_path: docs/26-migration-guide.md
+  - title: Apache CXF -- 2.7 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/27-migration-guide.html
+    anchor: 27-migration-guide
+    virtual_path: docs/27-migration-guide.md
+  - title: Apache CXF -- 3.0 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/30-migration-guide.html
+    anchor: 30-migration-guide
+    virtual_path: docs/30-migration-guide.md
+  - title: Apache CXF -- 3.1 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/31-migration-guide.html
+    anchor: 31-migration-guide
+    virtual_path: docs/31-migration-guide.md
+  - title: Apache CXF -- 3.2 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/32-migration-guide.html
+    anchor: 32-migration-guide
+    virtual_path: docs/32-migration-guide.md
+  - title: Apache CXF -- 3.3 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/33-migration-guide.html
+    anchor: 33-migration-guide
+    virtual_path: docs/33-migration-guide.md
+  - title: Apache CXF -- 3.4 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/34-migration-guide.html
+    anchor: 34-migration-guide
+    virtual_path: docs/34-migration-guide.md
+  - title: Apache CXF -- 3.5 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/35-migration-guide.html
+    anchor: 35-migration-guide
+    virtual_path: docs/35-migration-guide.md
+  - title: Apache CXF -- 3.6 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/36-migration-guide.html
+    anchor: 36-migration-guide
+    virtual_path: docs/36-migration-guide.md
+  - title: Apache CXF -- 4.0 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/40-migration-guide.html
+    anchor: 40-migration-guide
+    virtual_path: docs/40-migration-guide.md
+  - title: Apache CXF -- 4.1 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/41-migration-guide.html
+    anchor: 41-migration-guide
+    virtual_path: docs/41-migration-guide.md
+  - title: Apache CXF -- 4.2 Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/42-migration-guide.html
+    anchor: 42-migration-guide
+    virtual_path: docs/42-migration-guide.md
+  - title: Soap 1.1 SOAP mappings
+    kind: link
+    source_url: https://cxf.apache.org/docs/aegis-default-mappings.html
+    anchor: aegis-default-mappings
+    virtual_path: docs/aegis-default-mappings.md
+  - title: Summary (Why use Aegis?)
+    kind: link
+    source_url: https://cxf.apache.org/docs/aegis-theory-of-operation-20x.html
+    anchor: aegis-theory-of-operation-20x
+    virtual_path: docs/aegis-theory-of-operation-20x.md
+  - title: Apache CXF -- Annotated Aegis File Schema
+    kind: link
+    source_url: https://cxf.apache.org/docs/annotated-aegis-file-schema.html
+    anchor: annotated-aegis-file-schema
+    virtual_path: docs/annotated-aegis-file-schema.md
+  - title: Apache CXF -- Celtix Migration Guide
+    kind: link
+    source_url: https://cxf.apache.org/docs/celtix-migration-guide.html
+    anchor: celtix-migration-guide
+    virtual_path: docs/celtix-migration-guide.md
+  - title: Apache CXF -- Configuration of Runtime Constructed Objects
+    kind: link
+    source_url: https://cxf.apache.org/docs/configuration-of-runtime-constructed-objects.html
+    anchor: configuration-of-runtime-constructed-objects
+    virtual_path: docs/configuration-of-runtime-constructed-objects.md
+  - title: Apache CXF -- Configuration of the Bus
+    kind: link
+    source_url: https://cxf.apache.org/docs/configuration-of-the-bus.html
+    anchor: configuration-of-the-bus
+    virtual_path: docs/configuration-of-the-bus.md
+  - title: Continuations
+    kind: link
+    source_url: https://cxf.apache.org/docs/continuations.html
+    anchor: continuations
+    virtual_path: docs/continuations.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/data-binding-architecture.html
+    anchor: data-binding-architecture
+    virtual_path: docs/data-binding-architecture.md
+  - title: Apache CXF -- Developing Assertions
+    kind: link
+    source_url: https://cxf.apache.org/docs/developing-assertions.html
+    anchor: developing-assertions
+    virtual_path: docs/developing-assertions.md
+  - title: Failover and Load Distributor Feature
+    kind: link
+    source_url: https://cxf.apache.org/docs/failoverfeature.html
+    anchor: failoverfeature
+    virtual_path: docs/failoverfeature.md
+  - title: Configuring logging levels
+    kind: link
+    source_url: https://cxf.apache.org/docs/general-cxf-logging.html
+    anchor: general-cxf-logging
+    virtual_path: docs/general-cxf-logging.md
+  - title: Apache CXF -- How It Works
+    kind: link
+    source_url: https://cxf.apache.org/docs/how-it-works.html
+    anchor: how-it-works
+    virtual_path: docs/how-it-works.md
+  - title: Apache CXF -- How to Define Policies
+    kind: link
+    source_url: https://cxf.apache.org/docs/how-to-define-policies.html
+    anchor: how-to-define-policies
+    virtual_path: docs/how-to-define-policies.md
+  - title: Structure of the Code
+    kind: link
+    source_url: https://cxf.apache.org/docs/javascript-client-code.html
+    anchor: javascript-client-code
+    virtual_path: docs/javascript-client-code.md
+  - title: Apache CXF -- JavaScript Client Configuration
+    kind: link
+    source_url: https://cxf.apache.org/docs/javascript-client-configuration.html
+    anchor: javascript-client-configuration
+    virtual_path: docs/javascript-client-configuration.md
+  - title: Apache CXF -- JavaScript Client Limitations
+    kind: link
+    source_url: https://cxf.apache.org/docs/javascript-client-limitations.html
+    anchor: javascript-client-limitations
+    virtual_path: docs/javascript-client-limitations.md
+  - title: Apache CXF -- JavaScript Client Samples
+    kind: link
+    source_url: https://cxf.apache.org/docs/javascript-client-samples.html
+    anchor: javascript-client-samples
+    virtual_path: docs/javascript-client-samples.md
+  - title: JMS Support
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-advanced-features.html
+    anchor: jax-rs-advanced-features
+    virtual_path: docs/jax-rs-advanced-features.md
+  - title: XPath support
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-advanced-xml.html
+    anchor: jax-rs-advanced-xml
+    virtual_path: docs/jax-rs-advanced-xml.md
+  - title: JAX-RS and JAX-WS
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-and-jax-ws.html
+    anchor: jax-rs-and-jax-ws
+    virtual_path: docs/jax-rs-and-jax-ws.md
+  - title: What is New in JAX-RS 2.1
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-basics.html
+    anchor: jax-rs-basics
+    virtual_path: docs/jax-rs-basics.md
+  - title: Maven Dependency
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-client-api.html
+    anchor: jax-rs-client-api
+    virtual_path: docs/jax-rs-client-api.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-cors.html
+    anchor: jax-rs-cors
+    virtual_path: docs/jax-rs-cors.md
+  - title: JAXB support
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-data-bindings.html
+    anchor: jax-rs-data-bindings
+    virtual_path: docs/jax-rs-data-bindings.md
+  - title: Failover
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-failover.html
+    anchor: jax-rs-failover
+    virtual_path: docs/jax-rs-failover.md
+  - title: Filters
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-filters.html
+    anchor: jax-rs-filters
+    virtual_path: docs/jax-rs-filters.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-http-signature.html
+    anchor: jax-rs-http-signature
+    virtual_path: docs/jax-rs-http-signature.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-jose.html
+    anchor: jax-rs-jose
+    virtual_path: docs/jax-rs-jose.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-maven-plugins.html
+    anchor: jax-rs-maven-plugins
+    virtual_path: docs/jax-rs-maven-plugins.md
+  - title: Reading attachments
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-multiparts.html
+    anchor: jax-rs-multiparts
+    virtual_path: docs/jax-rs-multiparts.md
+  - title: NIO Extension
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-nio.html
+    anchor: jax-rs-nio
+    virtual_path: docs/jax-rs-nio.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-oauth.html
+    anchor: jax-rs-oauth
+    virtual_path: docs/jax-rs-oauth.md
+  - title: 'JAX-RS: OAuth2'
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-oauth2.html
+    anchor: jax-rs-oauth2
+    virtual_path: docs/jax-rs-oauth2.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-oidc.html
+    anchor: jax-rs-oidc
+    virtual_path: docs/jax-rs-oidc.md
+  - title: Project Reactor support
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-project-reactor-support.html
+    anchor: jax-rs-project-reactor-support
+    virtual_path: docs/jax-rs-project-reactor-support.md
+  - title: With RequestDispatcherProvider
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-redirection.html
+    anchor: jax-rs-redirection
+    virtual_path: docs/jax-rs-redirection.md
+  - title: RxJava3 Flowable and Observable support
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-rxjava.html
+    anchor: jax-rs-rxjava
+    virtual_path: docs/jax-rs-rxjava.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-saml.html
+    anchor: jax-rs-saml
+    virtual_path: docs/jax-rs-saml.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/jax-rs-token-authorization.html
+    anchor: jax-rs-token-authorization
+    virtual_path: docs/jax-rs-token-authorization.md
+  - title: 'JAXRS: OAuth2 Assertions'
+    kind: link
+    source_url: https://cxf.apache.org/docs/jaxrs-oauth2-assertions.html
+    anchor: jaxrs-oauth2-assertions
+    virtual_path: docs/jaxrs-oauth2-assertions.md
+  - title: Configuring JAX-RS services programmatically
+    kind: link
+    source_url: https://cxf.apache.org/docs/jaxrs-services-configuration.html
+    anchor: jaxrs-services-configuration
+    virtual_path: docs/jaxrs-services-configuration.md
+  - title: Swagger
+    kind: link
+    source_url: https://cxf.apache.org/docs/jaxrs-services-description.html
+    anchor: jaxrs-services-description
+    virtual_path: docs/jaxrs-services-description.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/jaxrsclientspringboot.html
+    anchor: jaxrsclientspringboot
+    virtual_path: docs/jaxrsclientspringboot.md
+  - title: LogBrowser
+    kind: link
+    source_url: https://cxf.apache.org/docs/logbrowser-configuration.html
+    anchor: logbrowser-configuration
+    virtual_path: docs/logbrowser-configuration.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/logbrowser-software-requirements-specification.html
+    anchor: logbrowser-software-requirements-specification
+    virtual_path: docs/logbrowser-software-requirements-specification.md
+  - title: System architectural design
+    kind: link
+    source_url: https://cxf.apache.org/docs/logbrowser-system-architectural-design.html
+    anchor: logbrowser-system-architectural-design
+    virtual_path: docs/logbrowser-system-architectural-design.md
+  - title: Apache CXF -- LogBrowser
+    kind: link
+    source_url: https://cxf.apache.org/docs/logbrowser.html
+    anchor: logbrowser
+    virtual_path: docs/logbrowser.md
+  - title: Apache CXF -- Message Logging
+    kind: link
+    source_url: https://cxf.apache.org/docs/message-logging.html
+    anchor: message-logging
+    virtual_path: docs/message-logging.md
+  - title: Apache CXF -- Old Message Logging
+    kind: link
+    source_url: https://cxf.apache.org/docs/old-message-logging.html
+    anchor: old-message-logging
+    virtual_path: docs/old-message-logging.md
+  - title: Apache CXF -- OpenApiFeature (Microprofile)
+    kind: link
+    source_url: https://cxf.apache.org/docs/openapifeature-microprofile.html
+    anchor: openapifeature-microprofile
+    virtual_path: docs/openapifeature-microprofile.md
+  - title: Introduction
+    kind: link
+    source_url: https://cxf.apache.org/docs/openapifeature.html
+    anchor: openapifeature
+    virtual_path: docs/openapifeature.md
+  - title: HTTPS
+    kind: link
+    source_url: https://cxf.apache.org/docs/secure-jax-rs-services.html
+    anchor: secure-jax-rs-services
+    virtual_path: docs/secure-jax-rs-services.md
+  - title: Apache CXF -- Spring
+    kind: link
+    source_url: https://cxf.apache.org/docs/spring.html
+    anchor: spring
+    virtual_path: docs/spring.md
+  - title: Spring Boot Actuator
+    kind: link
+    source_url: https://cxf.apache.org/docs/springboot.html
+    anchor: springboot
+    virtual_path: docs/springboot.md
+  - title: Swagger2Feature
+    kind: link
+    source_url: https://cxf.apache.org/docs/swagger2feature.html
+    anchor: swagger2feature
+    virtual_path: docs/swagger2feature.md
+  - title: TLS Parameters common to both Clients and Servers
+    kind: link
+    source_url: https://cxf.apache.org/docs/tls-configuration.html
+    anchor: tls-configuration
+    virtual_path: docs/tls-configuration.md
+  - title: Transformation Feature
+    kind: link
+    source_url: https://cxf.apache.org/docs/transformationfeature.html
+    anchor: transformationfeature
+    virtual_path: docs/transformationfeature.md
+  - title: Bean Validation Feature
+    kind: link
+    source_url: https://cxf.apache.org/docs/validationfeature.html
+    anchor: validationfeature
+    virtual_path: docs/validationfeature.md
+  - title: Apache CXF -- WS-Policy Framework Overview
+    kind: link
+    source_url: https://cxf.apache.org/docs/ws-policy-framework-overview.html
+    anchor: ws-policy-framework-overview
+    virtual_path: docs/ws-policy-framework-overview.md
+  - title: Completed Functionality and CXF analogues
+    kind: link
+    source_url: https://cxf.apache.org/docs/xfire-migration-guide.html
+    anchor: xfire-migration-guide
+    virtual_path: docs/xfire-migration-guide.md
+  - title: XML Key Management Service (XKMS)
+    kind: link
+    source_url: https://cxf.apache.org/docs/xml-key-management-service-xkms.html
+    anchor: xml-key-management-service-xkms
+    virtual_path: docs/xml-key-management-service-xkms.md
+  - title: XSLT Feature
+    kind: link
+    source_url: https://cxf.apache.org/docs/xslt-feature.html
+    anchor: xslt-feature
+    virtual_path: docs/xslt-feature.md

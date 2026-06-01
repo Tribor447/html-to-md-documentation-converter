@@ -1,0 +1,524 @@
+{
+  "entry_url": "https://geaflow.incubator.apache.org/docs/guide",
+  "site_prefix": "/docs/",
+  "site_slug": "geaflow_docs",
+  "profile": "docusaurus",
+  "combined_markdown": "combined.md",
+  "page_count": 57,
+  "asset_count": 76,
+  "pages": [
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/api/graph/compute/",
+      "title": "Graph Compute Introduction",
+      "anchor": "application-development-api-graph-compute",
+      "virtual_path": "docs/application-development/api/graph/compute/index.md",
+      "profile": "docusaurus",
+      "score": 16933,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/api/graph/traversal/",
+      "title": "Graph Traversal Introduction",
+      "anchor": "application-development-api-graph-traversal",
+      "virtual_path": "docs/application-development/api/graph/traversal/index.md",
+      "profile": "docusaurus",
+      "score": 17918,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/api/overview/",
+      "title": "API Introduction",
+      "anchor": "application-development-api-overview",
+      "virtual_path": "docs/application-development/api/overview/index.md",
+      "profile": "docusaurus",
+      "score": 35405,
+      "depth": 1
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/api/stream/process/",
+      "title": "Process Introduction",
+      "anchor": "application-development-api-stream-process",
+      "virtual_path": "docs/application-development/api/stream/process/index.md",
+      "profile": "docusaurus",
+      "score": 8932,
+      "depth": 3
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/api/stream/sink/",
+      "title": "Sink Introduction",
+      "anchor": "application-development-api-stream-sink",
+      "virtual_path": "docs/application-development/api/stream/sink/index.md",
+      "profile": "docusaurus",
+      "score": 4546,
+      "depth": 3
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/api/stream/source/",
+      "title": "Source Introduction",
+      "anchor": "application-development-api-stream-source",
+      "virtual_path": "docs/application-development/api/stream/source/index.md",
+      "profile": "docusaurus",
+      "score": 5391,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/chat_guide/",
+      "title": "Text2GQL Syntax Manual",
+      "anchor": "application-development-chat_guide",
+      "virtual_path": "docs/application-development/chat_guide/index.md",
+      "profile": "docusaurus",
+      "score": 9422,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/connector/common/",
+      "title": "Introduction to Connector Basics",
+      "anchor": "application-development-connector-common",
+      "virtual_path": "docs/application-development/connector/common/index.md",
+      "profile": "docusaurus",
+      "score": 5454,
+      "depth": 3
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/connector/console/",
+      "title": "Console Connector Introduction",
+      "anchor": "application-development-connector-console",
+      "virtual_path": "docs/application-development/connector/console/index.md",
+      "profile": "docusaurus",
+      "score": 3942,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/connector/file/",
+      "title": "File Connector Introduction",
+      "anchor": "application-development-connector-file",
+      "virtual_path": "docs/application-development/connector/file/index.md",
+      "profile": "docusaurus",
+      "score": 4635,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/connector/hbase/",
+      "title": "Hbase Connector Introduction",
+      "anchor": "application-development-connector-hbase",
+      "virtual_path": "docs/application-development/connector/hbase/index.md",
+      "profile": "docusaurus",
+      "score": 4695,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/connector/hive/",
+      "title": "Hive Connector Introduction",
+      "anchor": "application-development-connector-hive",
+      "virtual_path": "docs/application-development/connector/hive/index.md",
+      "profile": "docusaurus",
+      "score": 4534,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/connector/hudi/",
+      "title": "Hudi Connector Introduction",
+      "anchor": "application-development-connector-hudi",
+      "virtual_path": "docs/application-development/connector/hudi/index.md",
+      "profile": "docusaurus",
+      "score": 4543,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/connector/jdbc/",
+      "title": "JDBC Connector Introduction",
+      "anchor": "application-development-connector-jdbc",
+      "virtual_path": "docs/application-development/connector/jdbc/index.md",
+      "profile": "docusaurus",
+      "score": 5251,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/connector/kafka/",
+      "title": "Kafka Connector Introduction",
+      "anchor": "application-development-connector-kafka",
+      "virtual_path": "docs/application-development/connector/kafka/index.md",
+      "profile": "docusaurus",
+      "score": 4412,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/connector/pulsar/",
+      "title": "Pulsar Connector Introduction",
+      "anchor": "application-development-connector-pulsar",
+      "virtual_path": "docs/application-development/connector/pulsar/index.md",
+      "profile": "docusaurus",
+      "score": 7724,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/connector/udc/",
+      "title": "User Defined Connector",
+      "anchor": "application-development-connector-udc",
+      "virtual_path": "docs/application-development/connector/udc/index.md",
+      "profile": "docusaurus",
+      "score": 9041,
+      "depth": 3
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/build-in/aggregate/",
+      "title": "Aggregate",
+      "anchor": "application-development-dsl-build-in-aggregate",
+      "virtual_path": "docs/application-development/dsl/build-in/aggregate/index.md",
+      "profile": "docusaurus",
+      "score": 7982,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/build-in/condition/",
+      "title": "Condition",
+      "anchor": "application-development-dsl-build-in-condition",
+      "virtual_path": "docs/application-development/dsl/build-in/condition/index.md",
+      "profile": "docusaurus",
+      "score": 4770,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/build-in/date/",
+      "title": "Date",
+      "anchor": "application-development-dsl-build-in-date",
+      "virtual_path": "docs/application-development/dsl/build-in/date/index.md",
+      "profile": "docusaurus",
+      "score": 25705,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/build-in/logical/",
+      "title": "Logical",
+      "anchor": "application-development-dsl-build-in-logical",
+      "virtual_path": "docs/application-development/dsl/build-in/logical/index.md",
+      "profile": "docusaurus",
+      "score": 4368,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/build-in/math/",
+      "title": "Math",
+      "anchor": "application-development-dsl-build-in-math",
+      "virtual_path": "docs/application-development/dsl/build-in/math/index.md",
+      "profile": "docusaurus",
+      "score": 4695,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/build-in/string/",
+      "title": "String",
+      "anchor": "application-development-dsl-build-in-string",
+      "virtual_path": "docs/application-development/dsl/build-in/string/index.md",
+      "profile": "docusaurus",
+      "score": 34638,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/build-in/table/",
+      "title": "Table",
+      "anchor": "application-development-dsl-build-in-table",
+      "virtual_path": "docs/application-development/dsl/build-in/table/index.md",
+      "profile": "docusaurus",
+      "score": 3679,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/overview/",
+      "title": "Hybrid-DSL Introduction",
+      "anchor": "application-development-dsl-overview",
+      "virtual_path": "docs/application-development/dsl/overview/index.md",
+      "profile": "docusaurus",
+      "score": 5325,
+      "depth": 3
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/syntax/dcl/",
+      "title": "Use Graph",
+      "anchor": "application-development-dsl-syntax-dcl",
+      "virtual_path": "docs/application-development/dsl/syntax/dcl/index.md",
+      "profile": "docusaurus",
+      "score": 5466,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/syntax/ddl/",
+      "title": "DDL",
+      "anchor": "application-development-dsl-syntax-ddl",
+      "virtual_path": "docs/application-development/dsl/syntax/ddl/index.md",
+      "profile": "docusaurus",
+      "score": 15472,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/syntax/dml/",
+      "title": "DML",
+      "anchor": "application-development-dsl-syntax-dml",
+      "virtual_path": "docs/application-development/dsl/syntax/dml/index.md",
+      "profile": "docusaurus",
+      "score": 11179,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/syntax/dql/match/",
+      "title": "Match",
+      "anchor": "application-development-dsl-syntax-dql-match",
+      "virtual_path": "docs/application-development/dsl/syntax/dql/match/index.md",
+      "profile": "docusaurus",
+      "score": 16634,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/syntax/dql/select/",
+      "title": "SELECT",
+      "anchor": "application-development-dsl-syntax-dql-select",
+      "virtual_path": "docs/application-development/dsl/syntax/dql/select/index.md",
+      "profile": "docusaurus",
+      "score": 8497,
+      "depth": 6
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/syntax/dql/union/",
+      "title": "UNION",
+      "anchor": "application-development-dsl-syntax-dql-union",
+      "virtual_path": "docs/application-development/dsl/syntax/dql/union/index.md",
+      "profile": "docusaurus",
+      "score": 3015,
+      "depth": 6
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/syntax/dql/with/",
+      "title": "WITH",
+      "anchor": "application-development-dsl-syntax-dql-with",
+      "virtual_path": "docs/application-development/dsl/syntax/dql/with/index.md",
+      "profile": "docusaurus",
+      "score": 3345,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/udf/udaf/",
+      "title": "UDAF Introduction",
+      "anchor": "application-development-dsl-udf-udaf",
+      "virtual_path": "docs/application-development/dsl/udf/udaf/index.md",
+      "profile": "docusaurus",
+      "score": 5323,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/udf/udf/",
+      "title": "UDF Introduction",
+      "anchor": "application-development-dsl-udf-udf",
+      "virtual_path": "docs/application-development/dsl/udf/udf/index.md",
+      "profile": "docusaurus",
+      "score": 3997,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/udf/udga/",
+      "title": "UDGA Introduction",
+      "anchor": "application-development-dsl-udf-udga",
+      "virtual_path": "docs/application-development/dsl/udf/udga/index.md",
+      "profile": "docusaurus",
+      "score": 6320,
+      "depth": 4
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/application-development/dsl/udf/udtf/",
+      "title": "UDTF Introduction",
+      "anchor": "application-development-dsl-udf-udtf",
+      "virtual_path": "docs/application-development/dsl/udf/udtf/index.md",
+      "profile": "docusaurus",
+      "score": 4988,
+      "depth": 5
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/concepts/console_principle/",
+      "title": "GeaFlow Console Platform",
+      "anchor": "concepts-console_principle",
+      "virtual_path": "docs/concepts/console_principle/index.md",
+      "profile": "docusaurus",
+      "score": 7352,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/concepts/dsl_principle/",
+      "title": "DSL Principle Introduction",
+      "anchor": "concepts-dsl_principle",
+      "virtual_path": "docs/concepts/dsl_principle/index.md",
+      "profile": "docusaurus",
+      "score": 6220,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/concepts/framework_principle/",
+      "title": "Framework Architecture",
+      "anchor": "concepts-framework_principle",
+      "virtual_path": "docs/concepts/framework_principle/index.md",
+      "profile": "docusaurus",
+      "score": 17120,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/concepts/glossary/",
+      "title": "Glossary",
+      "anchor": "concepts-glossary",
+      "virtual_path": "docs/concepts/glossary/index.md",
+      "profile": "docusaurus",
+      "score": 16744,
+      "depth": 1
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/concepts/state_principle/",
+      "title": "Introduction to State Principles",
+      "anchor": "concepts-state_principle",
+      "virtual_path": "docs/concepts/state_principle/index.md",
+      "profile": "docusaurus",
+      "score": 16493,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/contacts/",
+      "title": "Contacts",
+      "anchor": "contacts",
+      "virtual_path": "docs/contacts/index.md",
+      "profile": "docusaurus",
+      "score": 824,
+      "depth": 1
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/contribution/",
+      "title": "Contribution",
+      "anchor": "contribution",
+      "virtual_path": "docs/contribution/index.md",
+      "profile": "docusaurus",
+      "score": 4627,
+      "depth": 1
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/deploy/collaborate_with_g6vp/",
+      "title": "🌈 G6VP Graph Visualization",
+      "anchor": "deploy-collaborate_with_g6vp",
+      "virtual_path": "docs/deploy/collaborate_with_g6vp/index.md",
+      "profile": "docusaurus",
+      "score": 6991,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/deploy/dashboard/",
+      "title": "GeaFlow Dashboard",
+      "anchor": "deploy-dashboard",
+      "virtual_path": "docs/deploy/dashboard/index.md",
+      "profile": "docusaurus",
+      "score": 11461,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/deploy/install_guide/",
+      "title": "Kubernetes Cluster Deployment",
+      "anchor": "deploy-install_guide",
+      "virtual_path": "docs/deploy/install_guide/index.md",
+      "profile": "docusaurus",
+      "score": 20126,
+      "depth": 1
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/deploy/install_llm/",
+      "title": "LLM Local Deployment",
+      "anchor": "deploy-install_llm",
+      "virtual_path": "docs/deploy/install_llm/index.md",
+      "profile": "docusaurus",
+      "score": 7835,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/deploy/install_minikube/",
+      "title": "Install Minikube",
+      "anchor": "deploy-install_minikube",
+      "virtual_path": "docs/deploy/install_minikube/index.md",
+      "profile": "docusaurus",
+      "score": 4374,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/deploy/quick_start_operator/",
+      "title": "Deploying Kubernetes Operator",
+      "anchor": "deploy-quick_start_operator",
+      "virtual_path": "docs/deploy/quick_start_operator/index.md",
+      "profile": "docusaurus",
+      "score": 15597,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/guide/",
+      "title": "Guide",
+      "anchor": "guide",
+      "virtual_path": "docs/guide/index.md",
+      "profile": "docusaurus",
+      "score": 12708,
+      "depth": 0
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/introduction/",
+      "title": "Introduction",
+      "anchor": "introduction",
+      "virtual_path": "docs/introduction/index.md",
+      "profile": "docusaurus",
+      "score": 11457,
+      "depth": 1
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/quick_start/quick_start/",
+      "title": "Quick Start (Running in Local)",
+      "anchor": "quick_start-quick_start",
+      "virtual_path": "docs/quick_start/quick_start/index.md",
+      "profile": "docusaurus",
+      "score": 16762,
+      "depth": 1
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/quick_start/quick_start_docker/",
+      "title": "Quick Start(Running in GeaFlow Console)",
+      "anchor": "quick_start-quick_start_docker",
+      "virtual_path": "docs/quick_start/quick_start_docker/index.md",
+      "profile": "docusaurus",
+      "score": 11360,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/quick_start/quick_start_infer&UDF/",
+      "title": "Quick Start (Running near line inference with UDF)",
+      "anchor": "quick_start-quick_start_infer-udf",
+      "virtual_path": "docs/quick_start/quick_start_infer&UDF/index.md",
+      "profile": "docusaurus",
+      "score": 18442,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/quick_start/quick_start_sql_to_graph/",
+      "title": "quick_start_sql_to_graph",
+      "anchor": "quick_start-quick_start_sql_to_graph",
+      "virtual_path": "docs/quick_start/quick_start_sql_to_graph/index.md",
+      "profile": "docusaurus",
+      "score": 7554,
+      "depth": 2
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/reference/vs_join/",
+      "title": "Why using graphs for relational operations is more appealing than table joins?",
+      "anchor": "reference-vs_join",
+      "virtual_path": "docs/reference/vs_join/index.md",
+      "profile": "docusaurus",
+      "score": 11216,
+      "depth": 1
+    },
+    {
+      "source_url": "https://geaflow.incubator.apache.org/docs/thanks/",
+      "title": "Thanks",
+      "anchor": "thanks",
+      "virtual_path": "docs/thanks/index.md",
+      "profile": "docusaurus",
+      "score": 2174,
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+[
+  {
+    "title": "Home",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Manual",
+        "kind": "category",
+        "source_url": "https://logging.apache.org/log4j/2.x/manual/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md",
+        "children": [
+          {
+            "title": "Getting started",
+            "kind": "link",
+            "source_url": "https://logging.apache.org/log4j/2.x/manual/getting-started.html",
+            "anchor": "getting-started",
+            "virtual_path": "docs/getting-started.md"
+          },
+          {
+            "title": "Installation",
+            "kind": "link",
+            "source_url": "https://logging.apache.org/log4j/2.x/manual/installation.html",
+            "anchor": "installation",
+            "virtual_path": "docs/installation.md"
+          },
+          {
+            "title": "API",
+            "kind": "category",
+            "source_url": "https://logging.apache.org/log4j/2.x/manual/api.html",
+            "anchor": "api",
+            "virtual_path": "docs/api.md",
+            "children": [
+              {
+                "title": "Loggers",
+                "kind": "category",
+                "source_url": "https://logging.apache.org/log4j/2.x/manual/api.html#loggers",
+                "anchor": "api--loggers",
+                "virtual_path": "docs/api.md",
+                "children": [
+                  {
+                    "title": "Event Logger",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/eventlogging.html",
+                    "anchor": "eventlogging",
+                    "virtual_path": "docs/eventlogging.md"
+                  },
+                  {
+                    "title": "Simple Logger",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/simple-logger.html",
+                    "anchor": "simple-logger",
+                    "virtual_path": "docs/simple-logger.md"
+                  },
+                  {
+                    "title": "Status Logger",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/status-logger.html",
+                    "anchor": "status-logger",
+                    "virtual_path": "docs/status-logger.md"
+                  }
+                ]
+              },
+              {
+                "title": "Fluent API",
+                "kind": "link",
+                "source_url": "https://logging.apache.org/log4j/2.x/manual/logbuilder.html",
+                "anchor": "logbuilder",
+                "virtual_path": "docs/logbuilder.md"
+              },
+              {
+                "title": "Fish tagging",
+                "kind": "category",
+                "source_url": "https://logging.apache.org/log4j/2.x/manual/api.html#fish-tagging",
+                "anchor": "api--fish-tagging",
+                "virtual_path": "docs/api.md",
+                "children": [
+                  {
+                    "title": "Levels",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/customloglevels.html",
+                    "anchor": "customloglevels",
+                    "virtual_path": "docs/customloglevels.md"
+                  },
+                  {
+                    "title": "Markers",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/markers.html",
+                    "anchor": "markers",
+                    "virtual_path": "docs/markers.md"
+                  },
+                  {
+                    "title": "Thread Context",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/thread-context.html",
+                    "anchor": "thread-context",
+                    "virtual_path": "docs/thread-context.md"
+                  }
+                ]
+              },
+              {
+                "title": "Messages",
+                "kind": "link",
+                "source_url": "https://logging.apache.org/log4j/2.x/manual/messages.html",
+                "anchor": "messages",
+                "virtual_path": "docs/messages.md"
+              },
+              {
+                "title": "Flow Tracing",
+                "kind": "link",
+                "source_url": "https://logging.apache.org/log4j/2.x/manual/flowtracing.html",
+                "anchor": "flowtracing",
+                "virtual_path": "docs/flowtracing.md"
+              }
+            ]
+          },
+          {
+            "title": "Implementation",
+            "kind": "category",
+            "source_url": "https://logging.apache.org/log4j/2.x/manual/implementation.html",
+            "anchor": "implementation",
+            "virtual_path": "docs/implementation.md",
+            "children": [
+              {
+                "title": "Architecture",
+                "kind": "link",
+                "source_url": "https://logging.apache.org/log4j/2.x/manual/architecture.html",
+                "anchor": "architecture",
+                "virtual_path": "docs/architecture.md"
+              },
+              {
+                "title": "Configuration",
+                "kind": "category",
+                "source_url": "https://logging.apache.org/log4j/2.x/manual/config-intro.html",
+                "anchor": "config-intro",
+                "virtual_path": "docs/config-intro.md",
+                "children": [
+                  {
+                    "title": "Configuration file",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/configuration.html",
+                    "anchor": "configuration",
+                    "virtual_path": "docs/configuration.md"
+                  },
+                  {
+                    "title": "Configuration properties",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/systemproperties.html",
+                    "anchor": "systemproperties",
+                    "virtual_path": "docs/systemproperties.md"
+                  },
+                  {
+                    "title": "Programmatic configuration",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/customconfig.html",
+                    "anchor": "customconfig",
+                    "virtual_path": "docs/customconfig.md"
+                  },
+                  {
+                    "title": "Appenders",
+                    "kind": "category",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/appenders.html",
+                    "anchor": "appenders",
+                    "virtual_path": "docs/appenders.md",
+                    "children": [
+                      {
+                        "title": "File appenders",
+                        "kind": "link",
+                        "source_url": "https://logging.apache.org/log4j/2.x/manual/appenders/file.html",
+                        "anchor": "appenders-file",
+                        "virtual_path": "docs/appenders/file.md"
+                      },
+                      {
+                        "title": "Rolling file appenders",
+                        "kind": "link",
+                        "source_url": "https://logging.apache.org/log4j/2.x/manual/appenders/rolling-file.html",
+                        "anchor": "appenders-rolling-file",
+                        "virtual_path": "docs/appenders/rolling-file.md"
+                      },
+                      {
+                        "title": "Database appenders",
+                        "kind": "link",
+                        "source_url": "https://logging.apache.org/log4j/2.x/manual/appenders/database.html",
+                        "anchor": "appenders-database",
+                        "virtual_path": "docs/appenders/database.md"
+                      },
+                      {
+                        "title": "Network Appenders",
+                        "kind": "link",
+                        "source_url": "https://logging.apache.org/log4j/2.x/manual/appenders/network.html",
+                        "anchor": "appenders-network",
+                        "virtual_path": "docs/appenders/network.md"
+                      },
+                      {
+                        "title": "Message queue appenders",
+                        "kind": "link",
+                        "source_url": "https://logging.apache.org/log4j/2.x/manual/appenders/message-queue.html",
+                        "anchor": "appenders-message-queue",
+                        "virtual_path": "docs/appenders/message-queue.md"
+                      },
+                      {
+                        "title": "Delegating Appenders",
+                        "kind": "link",
+                        "source_url": "https://logging.apache.org/log4j/2.x/manual/appenders/delegating.html",
+                        "anchor": "appenders-delegating",
+                        "virtual_path": "docs/appenders/delegating.md"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Layouts",
+                    "kind": "category",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/layouts.html",
+                    "anchor": "layouts",
+                    "virtual_path": "docs/layouts.md",
+                    "children": [
+                      {
+                        "title": "JSON Template Layout",
+                        "kind": "link",
+                        "source_url": "https://logging.apache.org/log4j/2.x/manual/json-template-layout.html",
+                        "anchor": "json-template-layout",
+                        "virtual_path": "docs/json-template-layout.md"
+                      },
+                      {
+                        "title": "Pattern Layout",
+                        "kind": "link",
+                        "source_url": "https://logging.apache.org/log4j/2.x/manual/pattern-layout.html",
+                        "anchor": "pattern-layout",
+                        "virtual_path": "docs/pattern-layout.md"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Lookups",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/lookups.html",
+                    "anchor": "lookups",
+                    "virtual_path": "docs/lookups.md"
+                  },
+                  {
+                    "title": "Filters",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/filters.html",
+                    "anchor": "filters",
+                    "virtual_path": "docs/filters.md"
+                  },
+                  {
+                    "title": "Scripts",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/scripts.html",
+                    "anchor": "scripts",
+                    "virtual_path": "docs/scripts.md"
+                  },
+                  {
+                    "title": "JMX",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/jmx.html",
+                    "anchor": "jmx",
+                    "virtual_path": "docs/jmx.md"
+                  }
+                ]
+              },
+              {
+                "title": "Extending",
+                "kind": "category",
+                "source_url": "https://logging.apache.org/log4j/2.x/manual/extending.html",
+                "anchor": "extending",
+                "virtual_path": "docs/extending.md"
+              },
+              {
+                "title": "Performance",
+                "kind": "category",
+                "source_url": "https://logging.apache.org/log4j/2.x/manual/performance.html",
+                "anchor": "performance",
+                "virtual_path": "docs/performance.md",
+                "children": [
+                  {
+                    "title": "Asynchronous loggers",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/async.html",
+                    "anchor": "async",
+                    "virtual_path": "docs/async.md"
+                  },
+                  {
+                    "title": "Garbage-free logging",
+                    "kind": "link",
+                    "source_url": "https://logging.apache.org/log4j/2.x/manual/garbagefree.html",
+                    "anchor": "garbagefree",
+                    "virtual_path": "docs/garbagefree.md"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

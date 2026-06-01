@@ -1,0 +1,380 @@
+{
+  "entry_url": "https://iceberg.apache.org/docs/latest/",
+  "site_prefix": "/docs/",
+  "site_slug": "iceberg_docs",
+  "profile": "mkdocs",
+  "combined_markdown": "combined.md",
+  "page_count": 41,
+  "asset_count": 9,
+  "pages": [
+    {
+      "source_url": "https://iceberg.apache.org/docs/latest/",
+      "title": "Documentation 🔗",
+      "anchor": "latest",
+      "virtual_path": "docs/latest/index.md",
+      "profile": "mkdocs",
+      "score": 5230,
+      "depth": 0
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/api/",
+      "title": "Iceberg Java API 🔗",
+      "anchor": "nightly-api",
+      "virtual_path": "docs/nightly/api/index.md",
+      "profile": "mkdocs",
+      "score": 19697,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/aws/",
+      "title": "Iceberg AWS Integrations 🔗",
+      "anchor": "nightly-aws",
+      "virtual_path": "docs/nightly/aws/index.md",
+      "profile": "mkdocs",
+      "score": 75627,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/branching/",
+      "title": "Branching and Tagging 🔗",
+      "anchor": "nightly-branching",
+      "virtual_path": "docs/nightly/branching/index.md",
+      "profile": "mkdocs",
+      "score": 14354,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/catalog-properties/",
+      "title": "Catalog properties 🔗",
+      "anchor": "nightly-catalog-properties",
+      "virtual_path": "docs/nightly/catalog-properties/index.md",
+      "profile": "mkdocs",
+      "score": 16497,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/configuration/",
+      "title": "Configuration 🔗",
+      "anchor": "nightly-configuration",
+      "virtual_path": "docs/nightly/configuration/index.md",
+      "profile": "mkdocs",
+      "score": 14863,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/custom-catalog/",
+      "title": "Custom Catalog 🔗",
+      "anchor": "nightly-custom-catalog",
+      "virtual_path": "docs/nightly/custom-catalog/index.md",
+      "profile": "mkdocs",
+      "score": 14380,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/dell/",
+      "title": "Iceberg Dell Integration 🔗",
+      "anchor": "nightly-dell",
+      "virtual_path": "docs/nightly/dell/index.md",
+      "profile": "mkdocs",
+      "score": 9607,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/delta-lake-migration/",
+      "title": "Delta Lake Table Migration 🔗",
+      "anchor": "nightly-delta-lake-migration",
+      "virtual_path": "docs/nightly/delta-lake-migration/index.md",
+      "profile": "mkdocs",
+      "score": 11781,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/encryption/",
+      "title": "Encryption 🔗",
+      "anchor": "nightly-encryption",
+      "virtual_path": "docs/nightly/encryption/index.md",
+      "profile": "mkdocs",
+      "score": 12036,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/evolution/",
+      "title": "Evolution 🔗",
+      "anchor": "nightly-evolution",
+      "virtual_path": "docs/nightly/evolution/index.md",
+      "profile": "mkdocs",
+      "score": 9343,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/fileio/",
+      "title": "Iceberg FileIO 🔗",
+      "anchor": "nightly-fileio",
+      "virtual_path": "docs/nightly/fileio/index.md",
+      "profile": "mkdocs",
+      "score": 4488,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/flink-configuration/",
+      "title": "Flink Configuration 🔗",
+      "anchor": "nightly-flink-configuration",
+      "virtual_path": "docs/nightly/flink-configuration/index.md",
+      "profile": "mkdocs",
+      "score": 18562,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/flink-connector/",
+      "title": "Flink Connector 🔗",
+      "anchor": "nightly-flink-connector",
+      "virtual_path": "docs/nightly/flink-connector/index.md",
+      "profile": "mkdocs",
+      "score": 9494,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/flink-ddl/",
+      "title": "Flink DDL",
+      "anchor": "nightly-flink-ddl",
+      "virtual_path": "docs/nightly/flink-ddl/index.md",
+      "profile": "mkdocs",
+      "score": 18639,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/flink-maintenance/",
+      "title": "Flink TableMaintenance",
+      "anchor": "nightly-flink-maintenance",
+      "virtual_path": "docs/nightly/flink-maintenance/index.md",
+      "profile": "mkdocs",
+      "score": 42395,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/flink-queries/",
+      "title": "Flink Queries 🔗",
+      "anchor": "nightly-flink-queries",
+      "virtual_path": "docs/nightly/flink-queries/index.md",
+      "profile": "mkdocs",
+      "score": 39462,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/flink-writes/",
+      "title": "Flink Writes 🔗",
+      "anchor": "nightly-flink-writes",
+      "virtual_path": "docs/nightly/flink-writes/index.md",
+      "profile": "mkdocs",
+      "score": 47155,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/flink/",
+      "title": "Getting Started",
+      "anchor": "nightly-flink",
+      "virtual_path": "docs/nightly/flink/index.md",
+      "profile": "mkdocs",
+      "score": 25863,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/hive-migration/",
+      "title": "Hive Table Migration 🔗",
+      "anchor": "nightly-hive-migration",
+      "virtual_path": "docs/nightly/hive-migration/index.md",
+      "profile": "mkdocs",
+      "score": 5688,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/hive/",
+      "title": "Hive 🔗",
+      "anchor": "nightly-hive",
+      "virtual_path": "docs/nightly/hive/index.md",
+      "profile": "mkdocs",
+      "score": 61691,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/",
+      "title": "Documentation 🔗",
+      "anchor": "nightly",
+      "virtual_path": "docs/nightly/index.md",
+      "profile": "mkdocs",
+      "score": 5230,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/java-api-quickstart/",
+      "title": "Java API Quickstart 🔗",
+      "anchor": "nightly-java-api-quickstart",
+      "virtual_path": "docs/nightly/java-api-quickstart/index.md",
+      "profile": "mkdocs",
+      "score": 20231,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/jdbc/",
+      "title": "Iceberg JDBC Integration 🔗",
+      "anchor": "nightly-jdbc",
+      "virtual_path": "docs/nightly/jdbc/index.md",
+      "profile": "mkdocs",
+      "score": 6197,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/kafka-connect/",
+      "title": "Kafka Connect 🔗",
+      "anchor": "nightly-kafka-connect",
+      "virtual_path": "docs/nightly/kafka-connect/index.md",
+      "profile": "mkdocs",
+      "score": 42700,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/maintenance/",
+      "title": "Maintenance 🔗",
+      "anchor": "nightly-maintenance",
+      "virtual_path": "docs/nightly/maintenance/index.md",
+      "profile": "mkdocs",
+      "score": 14469,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/metrics-reporting/",
+      "title": "Metrics Reporting 🔗",
+      "anchor": "nightly-metrics-reporting",
+      "virtual_path": "docs/nightly/metrics-reporting/index.md",
+      "profile": "mkdocs",
+      "score": 12194,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/nessie/",
+      "title": "Iceberg Nessie Integration 🔗",
+      "anchor": "nightly-nessie",
+      "virtual_path": "docs/nightly/nessie/index.md",
+      "profile": "mkdocs",
+      "score": 13749,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/partitioning/",
+      "title": "Partitioning 🔗",
+      "anchor": "nightly-partitioning",
+      "virtual_path": "docs/nightly/partitioning/index.md",
+      "profile": "mkdocs",
+      "score": 9304,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/performance/",
+      "title": "Performance 🔗",
+      "anchor": "nightly-performance",
+      "virtual_path": "docs/nightly/performance/index.md",
+      "profile": "mkdocs",
+      "score": 5656,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/reliability/",
+      "title": "Reliability 🔗",
+      "anchor": "nightly-reliability",
+      "virtual_path": "docs/nightly/reliability/index.md",
+      "profile": "mkdocs",
+      "score": 7664,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/schemas/",
+      "title": "Schemas 🔗",
+      "anchor": "nightly-schemas",
+      "virtual_path": "docs/nightly/schemas/index.md",
+      "profile": "mkdocs",
+      "score": 3696,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/spark-configuration/",
+      "title": "Spark Configuration 🔗",
+      "anchor": "nightly-spark-configuration",
+      "virtual_path": "docs/nightly/spark-configuration/index.md",
+      "profile": "mkdocs",
+      "score": 26974,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/spark-ddl/",
+      "title": "Spark DDL 🔗",
+      "anchor": "nightly-spark-ddl",
+      "virtual_path": "docs/nightly/spark-ddl/index.md",
+      "profile": "mkdocs",
+      "score": 55222,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/spark-getting-started/",
+      "title": "Getting Started 🔗",
+      "anchor": "nightly-spark-getting-started",
+      "virtual_path": "docs/nightly/spark-getting-started/index.md",
+      "profile": "mkdocs",
+      "score": 14265,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/spark-procedures/",
+      "title": "Spark Procedures 🔗",
+      "anchor": "nightly-spark-procedures",
+      "virtual_path": "docs/nightly/spark-procedures/index.md",
+      "profile": "mkdocs",
+      "score": 103276,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/spark-queries/",
+      "title": "Spark Queries 🔗",
+      "anchor": "nightly-spark-queries",
+      "virtual_path": "docs/nightly/spark-queries/index.md",
+      "profile": "mkdocs",
+      "score": 51685,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/spark-structured-streaming/",
+      "title": "Spark Structured Streaming 🔗",
+      "anchor": "nightly-spark-structured-streaming",
+      "virtual_path": "docs/nightly/spark-structured-streaming/index.md",
+      "profile": "mkdocs",
+      "score": 14309,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/spark-writes/",
+      "title": "Spark Writes 🔗",
+      "anchor": "nightly-spark-writes",
+      "virtual_path": "docs/nightly/spark-writes/index.md",
+      "profile": "mkdocs",
+      "score": 36238,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/table-migration/",
+      "title": "Table Migration 🔗",
+      "anchor": "nightly-table-migration",
+      "virtual_path": "docs/nightly/table-migration/index.md",
+      "profile": "mkdocs",
+      "score": 8045,
+      "depth": 1
+    },
+    {
+      "source_url": "https://iceberg.apache.org/docs/nightly/view-configuration/",
+      "title": "Configuration 🔗",
+      "anchor": "nightly-view-configuration",
+      "virtual_path": "docs/nightly/view-configuration/index.md",
+      "profile": "mkdocs",
+      "score": 3628,
+      "depth": 1
+    }
+  ]
+}

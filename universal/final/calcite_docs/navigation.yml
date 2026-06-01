@@ -1,0 +1,135 @@
+- title: Overview
+  kind: category
+  children:
+  - title: Background
+    kind: link
+    source_url: https://calcite.apache.org/docs/
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Tutorial
+    kind: link
+    source_url: https://calcite.apache.org/docs/tutorial.html
+    anchor: tutorial
+    virtual_path: docs/tutorial.md
+  - title: Algebra
+    kind: link
+    source_url: https://calcite.apache.org/docs/algebra.html
+    anchor: algebra
+    virtual_path: docs/algebra.md
+- title: Advanced
+  kind: category
+  children:
+  - title: Adapters
+    kind: link
+    source_url: https://calcite.apache.org/docs/adapter.html
+    anchor: adapter
+    virtual_path: docs/adapter.md
+  - title: Spatial
+    kind: link
+    source_url: https://calcite.apache.org/docs/spatial.html
+    anchor: spatial
+    virtual_path: docs/spatial.md
+  - title: Streaming
+    kind: link
+    source_url: https://calcite.apache.org/docs/stream.html
+    anchor: stream
+    virtual_path: docs/stream.md
+  - title: Materialized Views
+    kind: link
+    source_url: https://calcite.apache.org/docs/materialized_views.html
+    anchor: materialized_views
+    virtual_path: docs/materialized_views.md
+  - title: Lattices
+    kind: link
+    source_url: https://calcite.apache.org/docs/lattice.html
+    anchor: lattice
+    virtual_path: docs/lattice.md
+- title: Reference
+  kind: category
+  children:
+  - title: SQL language
+    kind: link
+    source_url: https://calcite.apache.org/docs/reference.html
+    anchor: reference
+    virtual_path: docs/reference.md
+  - title: JSON/YAML models
+    kind: link
+    source_url: https://calcite.apache.org/docs/model.html
+    anchor: model
+    virtual_path: docs/model.md
+  - title: HOWTO
+    kind: link
+    source_url: https://calcite.apache.org/docs/howto.html
+    anchor: howto
+    virtual_path: docs/howto.md
+- title: Meta
+  kind: category
+  children:
+  - title: History
+    kind: link
+    source_url: https://calcite.apache.org/docs/history.html
+    anchor: history
+    virtual_path: docs/history.md
+  - title: Powered by Calcite
+    kind: link
+    source_url: https://calcite.apache.org/docs/powered_by.html
+    anchor: powered_by
+    virtual_path: docs/powered_by.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Arrow adapter
+    kind: link
+    source_url: https://calcite.apache.org/docs/arrow_adapter.html
+    anchor: arrow_adapter
+    virtual_path: docs/arrow_adapter.md
+  - title: Cassandra adapter
+    kind: link
+    source_url: https://calcite.apache.org/docs/cassandra_adapter.html
+    anchor: cassandra_adapter
+    virtual_path: docs/cassandra_adapter.md
+  - title: Druid adapter
+    kind: link
+    source_url: https://calcite.apache.org/docs/druid_adapter.html
+    anchor: druid_adapter
+    virtual_path: docs/druid_adapter.md
+  - title: Elasticsearch adapter
+    kind: link
+    source_url: https://calcite.apache.org/docs/elasticsearch_adapter.html
+    anchor: elasticsearch_adapter
+    virtual_path: docs/elasticsearch_adapter.md
+  - title: File adapter
+    kind: link
+    source_url: https://calcite.apache.org/docs/file_adapter.html
+    anchor: file_adapter
+    virtual_path: docs/file_adapter.md
+  - title: Apache Geode adapter
+    kind: link
+    source_url: https://calcite.apache.org/docs/geode_adapter.html
+    anchor: geode_adapter
+    virtual_path: docs/geode_adapter.md
+  - title: InnoDB adapter
+    kind: link
+    source_url: https://calcite.apache.org/docs/innodb_adapter.html
+    anchor: innodb_adapter
+    virtual_path: docs/innodb_adapter.md
+  - title: Kafka adapter
+    kind: link
+    source_url: https://calcite.apache.org/docs/kafka_adapter.html
+    anchor: kafka_adapter
+    virtual_path: docs/kafka_adapter.md
+  - title: OS adapter and sqlsh
+    kind: link
+    source_url: https://calcite.apache.org/docs/os_adapter.html
+    anchor: os_adapter
+    virtual_path: docs/os_adapter.md
+  - title: Pig adapter
+    kind: link
+    source_url: https://calcite.apache.org/docs/pig_adapter.html
+    anchor: pig_adapter
+    virtual_path: docs/pig_adapter.md
+  - title: Redis adapter
+    kind: link
+    source_url: https://calcite.apache.org/docs/redis_adapter.html
+    anchor: redis_adapter
+    virtual_path: docs/redis_adapter.md

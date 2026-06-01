@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Apache Sandesha2",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Home",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/sandesha/index.html",
+        "anchor": "sandesha",
+        "virtual_path": "docs/sandesha/index.md"
+      },
+      {
+        "title": "Documentation",
+        "kind": "category",
+        "children": [
+          {
+            "title": "User Guide",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/sandesha/userGuide.html",
+            "anchor": "sandesha-userguide",
+            "virtual_path": "docs/sandesha/userGuide.md"
+          },
+          {
+            "title": "Architecture Guide",
+            "kind": "category",
+            "source_url": "https://axis.apache.org/axis2/java/sandesha/architectureGuide.html",
+            "anchor": "sandesha-architectureguide",
+            "virtual_path": "docs/sandesha/architectureGuide.md"
+          }
+        ]
+      },
+      {
+        "title": "Project Information",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Issue Tracking",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/sandesha/issue-tracking.html",
+            "anchor": "sandesha-issue-tracking",
+            "virtual_path": "docs/sandesha/issue-tracking.md"
+          }
+        ]
+      }
+    ]
+  }
+]

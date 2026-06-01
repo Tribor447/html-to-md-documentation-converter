@@ -1,0 +1,6 @@
+Tez 0.5.1 is an incremental release that contains an important fix for API 
+consistency that was missed in 0.5.0 (TEZ-1571). It also adds some new APIs 
+that make dynamic partition pruning code in Hive more efficient (TEZ-1447). 
+Other than this there are improvements to broadcast data fetch scalability 
+(TEZ-1157) and a host of bug fixes.
+

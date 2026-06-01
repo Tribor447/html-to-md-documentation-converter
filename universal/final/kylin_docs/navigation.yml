@@ -1,0 +1,748 @@
+- title: Overview
+  kind: link
+  source_url: https://kylin.apache.org/docs/overview/
+  anchor: overview
+  virtual_path: docs/overview/index.md
+- title: Quick Start
+  kind: link
+  source_url: https://kylin.apache.org/docs/quickstart/intro/
+  anchor: quickstart-intro
+  virtual_path: docs/quickstart/intro/index.md
+  children:
+  - title: Kylin Tutorial
+    kind: link
+    source_url: https://kylin.apache.org/docs/quickstart/tutorial/
+    anchor: quickstart-tutorial
+    virtual_path: docs/quickstart/tutorial/index.md
+- title: Deployment
+  kind: link
+  source_url: https://kylin.apache.org/docs/deployment/intro/
+  anchor: deployment-intro
+  virtual_path: docs/deployment/intro/index.md
+  children:
+  - title: Prerequisite
+    kind: link
+    source_url: https://kylin.apache.org/docs/deployment/prerequisite/
+    anchor: deployment-prerequisite
+    virtual_path: docs/deployment/prerequisite/index.md
+    children:
+    - title: Use MySQL as Metadata DB
+      kind: link
+      source_url: https://kylin.apache.org/docs/deployment/rdbms_metastore/use_mysql_as_metadb/
+      anchor: deployment-rdbms_metastore-use_mysql_as_metadb
+      virtual_path: docs/deployment/rdbms_metastore/use_mysql_as_metadb/index.md
+    - title: Use PostgreSQL as Metadata DB
+      kind: link
+      source_url: https://kylin.apache.org/docs/deployment/rdbms_metastore/usepg_as_metadb/
+      anchor: deployment-rdbms_metastore-usepg_as_metadb
+      virtual_path: docs/deployment/rdbms_metastore/usepg_as_metadb/index.md
+  - title: Single Node Mode
+    kind: link
+    source_url: https://kylin.apache.org/docs/deployment/single_node_mode/
+    anchor: deployment-single_node_mode
+    virtual_path: docs/deployment/single_node_mode/index.md
+  - title: Cluster Mode
+    kind: link
+    source_url: https://kylin.apache.org/docs/deployment/cluster_mode/
+    anchor: deployment-cluster_mode
+    virtual_path: docs/deployment/cluster_mode/index.md
+  - title: Read/Write Separation Deployment
+    kind: link
+    source_url: https://kylin.apache.org/docs/deployment/rw_separation/
+    anchor: deployment-rw_separation
+    virtual_path: docs/deployment/rw_separation/index.md
+  - title: Configuration
+    kind: category
+    source_url: https://kylin.apache.org/docs/configuration/intro/
+    anchor: configuration-intro
+    virtual_path: docs/configuration/intro/index.md
+    children:
+    - title: Basic Configuration
+      kind: link
+      source_url: https://kylin.apache.org/docs/configuration/config/
+      anchor: configuration-config
+      virtual_path: docs/configuration/config/index.md
+    - title: Gluten Configuration
+      kind: link
+      source_url: https://kylin.apache.org/docs/configuration/gluten_config/
+      anchor: configuration-gluten_config
+      virtual_path: docs/configuration/gluten_config/index.md
+    - title: Hadoop Queue
+      kind: link
+      source_url: https://kylin.apache.org/docs/configuration/hadoop_queue_config/
+      anchor: configuration-hadoop_queue_config
+      virtual_path: docs/configuration/hadoop_queue_config/index.md
+    - title: HTTPS Connection
+      kind: link
+      source_url: https://kylin.apache.org/docs/configuration/https/
+      anchor: configuration-https
+      virtual_path: docs/configuration/https/index.md
+    - title: Log Rotate
+      kind: link
+      source_url: https://kylin.apache.org/docs/configuration/log_rotate/
+      anchor: configuration-log_rotate
+      virtual_path: docs/configuration/log_rotate/index.md
+    - title: Query Cache
+      kind: link
+      source_url: https://kylin.apache.org/docs/configuration/query_cache/
+      anchor: configuration-query_cache
+      virtual_path: docs/configuration/query_cache/index.md
+    - title: Spark Dynamic Allocation
+      kind: link
+      source_url: https://kylin.apache.org/docs/configuration/spark_dynamic_allocation/
+      anchor: configuration-spark_dynamic_allocation
+      virtual_path: docs/configuration/spark_dynamic_allocation/index.md
+    - title: Spark RPC Encryption
+      kind: link
+      source_url: https://kylin.apache.org/docs/configuration/spark_rpc_encryption/
+      anchor: configuration-spark_rpc_encryption
+      virtual_path: docs/configuration/spark_rpc_encryption/index.md
+- title: Datasource
+  kind: link
+  source_url: https://kylin.apache.org/docs/datasource/intro/
+  anchor: datasource-intro
+  virtual_path: docs/datasource/intro/index.md
+  children:
+  - title: Use Hive as Data Source
+    kind: link
+    source_url: https://kylin.apache.org/docs/datasource/import_hive/
+    anchor: datasource-import_hive
+    virtual_path: docs/datasource/import_hive/index.md
+  - title: Data Sampling
+    kind: link
+    source_url: https://kylin.apache.org/docs/datasource/data_sampling/
+    anchor: datasource-data_sampling
+    virtual_path: docs/datasource/data_sampling/index.md
+  - title: Logical View
+    kind: link
+    source_url: https://kylin.apache.org/docs/datasource/logical_view/
+    anchor: datasource-logical_view
+    virtual_path: docs/datasource/logical_view/index.md
+- title: Internal Table
+  kind: link
+  source_url: https://kylin.apache.org/docs/internaltable/intro/
+  anchor: internaltable-intro
+  virtual_path: docs/internaltable/intro/index.md
+  children:
+  - title: Table Management
+    kind: link
+    source_url: https://kylin.apache.org/docs/internaltable/internal_table_management/
+    anchor: internaltable-internal_table_management
+    virtual_path: docs/internaltable/internal_table_management/index.md
+  - title: Data Loading
+    kind: link
+    source_url: https://kylin.apache.org/docs/internaltable/load_data_into_internal_table/
+    anchor: internaltable-load_data_into_internal_table
+    virtual_path: docs/internaltable/load_data_into_internal_table/index.md
+  - title: Querying Internal Tables
+    kind: link
+    source_url: https://kylin.apache.org/docs/internaltable/query_internal_table/
+    anchor: internaltable-query_internal_table
+    virtual_path: docs/internaltable/query_internal_table/index.md
+- title: Model
+  kind: category
+  source_url: https://kylin.apache.org/docs/model/intro/
+  anchor: model-intro
+  virtual_path: docs/model/intro/index.md
+  children:
+  - title: Manual Modeling
+    kind: link
+    source_url: https://kylin.apache.org/docs/model/manual/modeling/
+    anchor: model-manual-modeling
+    virtual_path: docs/model/manual/modeling/index.md
+    children:
+    - title: Aggregate Index
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/manual/aggregation_group/
+      anchor: model-manual-aggregation_group
+      virtual_path: docs/model/manual/aggregation_group/index.md
+    - title: Table Index
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/manual/table_index/
+      anchor: model-manual-table_index
+      virtual_path: docs/model/manual/table_index/index.md
+    - title: Computed Column
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/manual/computed_column/
+      anchor: model-manual-computed_column
+      virtual_path: docs/model/manual/computed_column/index.md
+  - title: Recommendation
+    kind: link
+    source_url: https://kylin.apache.org/docs/model/rec/intro/
+    anchor: model-rec-intro
+    virtual_path: docs/model/rec/intro/index.md
+    children:
+    - title: Imported SQL Modeling
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/rec/sql_modeling/
+      anchor: model-rec-sql_modeling
+      virtual_path: docs/model/rec/sql_modeling/index.md
+    - title: Query History Recommendation
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/rec/optimize_by_qh/
+      anchor: model-rec-optimize_by_qh
+      virtual_path: docs/model/rec/optimize_by_qh/index.md
+    - title: Index Optimization
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/rec/index_optimization/
+      anchor: model-rec-index_optimization
+      virtual_path: docs/model/rec/index_optimization/index.md
+  - title: Management
+    kind: link
+    source_url: https://kylin.apache.org/docs/model/manage/model_info/
+    anchor: model-manage-model_info
+    virtual_path: docs/model/manage/model_info/index.md
+    children:
+    - title: Model Information
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/manage/model_info/
+      anchor: model-manage-model_info
+      virtual_path: docs/model/manage/model_info/index.md
+    - title: Model Operation
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/manage/model_operation/
+      anchor: model-manage-model_operation
+      virtual_path: docs/model/manage/model_operation/index.md
+    - title: Import and Export
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/manage/import_export/
+      anchor: model-manage-import_export
+      virtual_path: docs/model/manage/import_export/index.md
+    - title: Data Loading
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/manage/data_loading/
+      anchor: model-manage-data_loading
+      virtual_path: docs/model/manage/data_loading/index.md
+    - title: Segment
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/manage/segment/
+      anchor: model-manage-segment
+      virtual_path: docs/model/manage/segment/index.md
+  - title: Table Snapshot
+    kind: link
+    source_url: https://kylin.apache.org/docs/model/snapshot/
+    anchor: model-snapshot
+    virtual_path: docs/model/snapshot/index.md
+  - title: Advanced Features
+    kind: category
+    source_url: https://kylin.apache.org/docs/model/features/measures/intro/
+    anchor: model-features-measures-intro
+    virtual_path: docs/model/features/measures/intro/index.md
+    children:
+    - title: Measures
+      kind: category
+      source_url: https://kylin.apache.org/docs/model/features/measures/intro/
+      anchor: model-features-measures-intro
+      virtual_path: docs/model/features/measures/intro/index.md
+      children:
+      - title: Top-N (Approximate) (Beta)
+        kind: link
+        source_url: https://kylin.apache.org/docs/model/features/measures/topn/
+        anchor: model-features-measures-topn
+        virtual_path: docs/model/features/measures/topn/index.md
+      - title: Count Distinct (Precise)
+        kind: link
+        source_url: https://kylin.apache.org/docs/model/features/measures/count_distinct_bitmap/
+        anchor: model-features-measures-count_distinct_bitmap
+        virtual_path: docs/model/features/measures/count_distinct_bitmap/index.md
+      - title: Count Distinct (Approximate)
+        kind: link
+        source_url: https://kylin.apache.org/docs/model/features/measures/count_distinct_hllc/
+        anchor: model-features-measures-count_distinct_hllc
+        virtual_path: docs/model/features/measures/count_distinct_hllc/index.md
+      - title: Percentile (Approximate)
+        kind: link
+        source_url: https://kylin.apache.org/docs/model/features/measures/percentile_approx/
+        anchor: model-features-measures-percentile_approx
+        virtual_path: docs/model/features/measures/percentile_approx/index.md
+      - title: CORR
+        kind: link
+        source_url: https://kylin.apache.org/docs/model/features/measures/corr/
+        anchor: model-features-measures-corr
+        virtual_path: docs/model/features/measures/corr/index.md
+      - title: COLLECT SET
+        kind: link
+        source_url: https://kylin.apache.org/docs/model/features/measures/collect_set/
+        anchor: model-features-measures-collect_set
+        virtual_path: docs/model/features/measures/collect_set/index.md
+    - title: SCD2
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/features/scd2/
+      anchor: model-features-scd2
+      virtual_path: docs/model/features/scd2/index.md
+    - title: Runtime Join
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/features/runtime_join/
+      anchor: model-features-runtime_join
+      virtual_path: docs/model/features/runtime_join/index.md
+    - title: Multilevel Partitioning
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/features/multi_partitioning/
+      anchor: model-features-multi_partitioning
+      virtual_path: docs/model/features/multi_partitioning/index.md
+    - title: Scalar Subquery
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/features/scalar_subquery/
+      anchor: model-features-scalar_subquery
+      virtual_path: docs/model/features/scalar_subquery/index.md
+    - title: Fast Bitmap Index
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/features/fast_bitmap/
+      anchor: model-features-fast_bitmap
+      virtual_path: docs/model/features/fast_bitmap/index.md
+    - title: Dictionary Encoding
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/features/integer_encoding/
+      anchor: model-features-integer_encoding
+      virtual_path: docs/model/features/integer_encoding/index.md
+  - title: Streaming
+    kind: link
+    source_url: https://kylin.apache.org/docs/model/streaming/intro/
+    anchor: model-streaming-intro
+    virtual_path: docs/model/streaming/intro/index.md
+    children:
+    - title: Prerequisite
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/streaming/prerequisite/
+      anchor: model-streaming-prerequisite
+      virtual_path: docs/model/streaming/prerequisite/index.md
+    - title: Work with Kylin Real-time
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/streaming/real-time/
+      anchor: model-streaming-real-time
+      virtual_path: docs/model/streaming/real-time/index.md
+    - title: Streaming Message Parser
+      kind: link
+      source_url: https://kylin.apache.org/docs/model/streaming/custom-parser/
+      anchor: model-streaming-custom-parser
+      virtual_path: docs/model/streaming/custom-parser/index.md
+- title: Query
+  kind: link
+  source_url: https://kylin.apache.org/docs/query/insight/
+  anchor: query-insight
+  virtual_path: docs/query/insight/index.md
+  children:
+  - title: SQL Specification
+    kind: category
+    source_url: https://kylin.apache.org/docs/query/specification/sql_spec/
+    anchor: query-specification-sql_spec
+    virtual_path: docs/query/specification/sql_spec/index.md
+    children:
+    - title: Data Types
+      kind: link
+      source_url: https://kylin.apache.org/docs/query/specification/data_type/
+      anchor: query-specification-data_type
+      virtual_path: docs/query/specification/data_type/index.md
+    - title: Operators
+      kind: link
+      source_url: https://kylin.apache.org/docs/query/specification/operators/
+      anchor: query-specification-operators
+      virtual_path: docs/query/specification/operators/index.md
+    - title: Basic Functions
+      kind: link
+      source_url: https://kylin.apache.org/docs/query/specification/functions/
+      anchor: query-specification-functions
+      virtual_path: docs/query/specification/functions/index.md
+    - title: Advanced Functions
+      kind: category
+      source_url: https://kylin.apache.org/docs/query/specification/window_function/
+      anchor: query-specification-window_function
+      virtual_path: docs/query/specification/window_function/index.md
+      children:
+      - title: Window Functions
+        kind: link
+        source_url: https://kylin.apache.org/docs/query/specification/window_function/
+        anchor: query-specification-window_function
+        virtual_path: docs/query/specification/window_function/index.md
+      - title: Multi-Dimension Analysis
+        kind: link
+        source_url: https://kylin.apache.org/docs/query/specification/grouping_function/
+        anchor: query-specification-grouping_function
+        virtual_path: docs/query/specification/grouping_function/index.md
+      - title: Bitmap Functions
+        kind: link
+        source_url: https://kylin.apache.org/docs/query/specification/bitmap_function/
+        anchor: query-specification-bitmap_function
+        virtual_path: docs/query/specification/bitmap_function/index.md
+      - title: Intersect Functions
+        kind: link
+        source_url: https://kylin.apache.org/docs/query/specification/intersect_function/
+        anchor: query-specification-intersect_function
+        virtual_path: docs/query/specification/intersect_function/index.md
+  - title: Query Tuning
+    kind: link
+    source_url: https://kylin.apache.org/docs/query/tuning/data_skipping/
+    anchor: query-tuning-data_skipping
+    virtual_path: docs/query/tuning/data_skipping/index.md
+    children:
+    - title: Data Skipping
+      kind: link
+      source_url: https://kylin.apache.org/docs/query/tuning/data_skipping/
+      anchor: query-tuning-data_skipping
+      virtual_path: docs/query/tuning/data_skipping/index.md
+    - title: Query Specific Model
+      kind: link
+      source_url: https://kylin.apache.org/docs/query/tuning/model_priority/
+      anchor: query-tuning-model_priority
+      virtual_path: docs/query/tuning/model_priority/index.md
+    - title: Sum Expression
+      kind: link
+      source_url: https://kylin.apache.org/docs/query/tuning/sum_expression/
+      anchor: query-tuning-sum_expression
+      virtual_path: docs/query/tuning/sum_expression/index.md
+    - title: Count-distinct Expression
+      kind: link
+      source_url: https://kylin.apache.org/docs/query/tuning/count_distinct_expr/
+      anchor: query-tuning-count_distinct_expr
+      virtual_path: docs/query/tuning/count_distinct_expr/index.md
+    - title: Equivalent Semantics Query
+      kind: link
+      source_url: https://kylin.apache.org/docs/query/tuning/query_enhanced/
+      anchor: query-tuning-query_enhanced
+      virtual_path: docs/query/tuning/query_enhanced/index.md
+  - title: Pushdown
+    kind: link
+    source_url: https://kylin.apache.org/docs/query/push_down/
+    anchor: query-push_down
+    virtual_path: docs/query/push_down/index.md
+  - title: Query History
+    kind: link
+    source_url: https://kylin.apache.org/docs/query/history/query_history/
+    anchor: query-history-query_history
+    virtual_path: docs/query/history/query_history/index.md
+    children:
+    - title: Guide
+      kind: link
+      source_url: https://kylin.apache.org/docs/query/history/query_history/
+      anchor: query-history-query_history
+      virtual_path: docs/query/history/query_history/index.md
+    - title: Table Schema
+      kind: link
+      source_url: https://kylin.apache.org/docs/query/history/query_history_fields/
+      anchor: query-history-query_history_fields
+      virtual_path: docs/query/history/query_history_fields/index.md
+  - title: Asynchronous Query
+    kind: link
+    source_url: https://kylin.apache.org/docs/query/async_query/
+    anchor: query-async_query
+    virtual_path: docs/query/async_query/index.md
+- title: Maintenance Guide
+  kind: link
+  source_url: https://kylin.apache.org/docs/operations/intro/
+  anchor: operations-intro
+  virtual_path: docs/operations/intro/index.md
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://kylin.apache.org/docs/operations/overview/
+    anchor: operations-overview
+    virtual_path: docs/operations/overview/index.md
+  - title: Project Managing
+    kind: link
+    source_url: https://kylin.apache.org/docs/operations/project-managing/intro/
+    anchor: operations-project-managing-intro
+    virtual_path: docs/operations/project-managing/intro/index.md
+    children:
+    - title: Project Management
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/project-managing/project_management/
+      anchor: operations-project-managing-project_management
+      virtual_path: docs/operations/project-managing/project_management/index.md
+    - title: Project Settings
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/project-managing/project_settings/
+      anchor: operations-project-managing-project_settings
+      virtual_path: docs/operations/project-managing/project_settings/index.md
+    - title: Tool Bar
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/project-managing/toolbar/
+      anchor: operations-project-managing-toolbar
+      virtual_path: docs/operations/project-managing/toolbar/index.md
+    - title: Job Status Alert
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/project-managing/alerting/
+      anchor: operations-project-managing-alerting
+      virtual_path: docs/operations/project-managing/alerting/index.md
+  - title: Access Control
+    kind: link
+    source_url: https://kylin.apache.org/docs/operations/access-control/intro/
+    anchor: operations-access-control-intro
+    virtual_path: docs/operations/access-control/intro/index.md
+    children:
+    - title: User Management
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/access-control/user_management/
+      anchor: operations-access-control-user_management
+      virtual_path: docs/operations/access-control/user_management/index.md
+    - title: User Group Management
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/access-control/group_management/
+      anchor: operations-access-control-group_management
+      virtual_path: docs/operations/access-control/group_management/index.md
+    - title: Data Access Control
+      kind: category
+      source_url: https://kylin.apache.org/docs/operations/access-control/data-access-control/intro/
+      anchor: operations-access-control-data-access-control-intro
+      virtual_path: docs/operations/access-control/data-access-control/intro/index.md
+      children:
+      - title: Project Access Control
+        kind: link
+        source_url: https://kylin.apache.org/docs/operations/access-control/data-access-control/project_acl/
+        anchor: operations-access-control-data-access-control-project_acl
+        virtual_path: docs/operations/access-control/data-access-control/project_acl/index.md
+  - title: System Operation
+    kind: category
+    source_url: https://kylin.apache.org/docs/operations/system-operation/intro/
+    anchor: operations-system-operation-intro
+    virtual_path: docs/operations/system-operation/intro/index.md
+    children:
+    - title: Diagnosis
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/system-operation/diagnosis/intro/
+      anchor: operations-system-operation-diagnosis-intro
+      virtual_path: docs/operations/system-operation/diagnosis/intro/index.md
+      children:
+      - title: System, Job and Query Diagnosis
+        kind: link
+        source_url: https://kylin.apache.org/docs/operations/system-operation/diagnosis/
+        anchor: operations-system-operation-diagnosis
+        virtual_path: docs/operations/system-operation/diagnosis/index.md
+      - title: Query Flame Graph
+        kind: link
+        source_url: https://kylin.apache.org/docs/operations/system-operation/diagnosis/query_flame_graph/
+        anchor: operations-system-operation-diagnosis-query_flame_graph
+        virtual_path: docs/operations/system-operation/diagnosis/query_flame_graph/index.md
+      - title: Build Flame Graph
+        kind: link
+        source_url: https://kylin.apache.org/docs/operations/system-operation/diagnosis/build_flame_graph/
+        anchor: operations-system-operation-diagnosis-build_flame_graph
+        virtual_path: docs/operations/system-operation/diagnosis/build_flame_graph/index.md
+    - title: Update Session Table Tool
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/system-operation/update-session-table/
+      anchor: operations-system-operation-update-session-table
+      virtual_path: docs/operations/system-operation/update-session-table/index.md
+    - title: CLI Operation Tool
+      kind: category
+      source_url: https://kylin.apache.org/docs/operations/system-operation/cli_tool/intro/
+      anchor: operations-system-operation-cli_tool-intro
+      virtual_path: docs/operations/system-operation/cli_tool/intro/index.md
+      children:
+      - title: Environment Check
+        kind: link
+        source_url: https://kylin.apache.org/docs/operations/system-operation/cli_tool/environment_check/
+        anchor: operations-system-operation-cli_tool-environment_check
+        virtual_path: docs/operations/system-operation/cli_tool/environment_check/index.md
+      - title: Diagnostic Package
+        kind: link
+        source_url: https://kylin.apache.org/docs/operations/system-operation/cli_tool/diagnosis/
+        anchor: operations-system-operation-cli_tool-diagnosis
+        virtual_path: docs/operations/system-operation/cli_tool/diagnosis/index.md
+      - title: Metadata Operation
+        kind: link
+        source_url: https://kylin.apache.org/docs/operations/system-operation/cli_tool/metadata_operation/
+        anchor: operations-system-operation-cli_tool-metadata_operation
+        virtual_path: docs/operations/system-operation/cli_tool/metadata_operation/index.md
+      - title: Rollback Tool
+        kind: link
+        source_url: https://kylin.apache.org/docs/operations/system-operation/cli_tool/rollback/
+        anchor: operations-system-operation-cli_tool-rollback
+        virtual_path: docs/operations/system-operation/cli_tool/rollback/index.md
+    - title: Kylin Guardian Process
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/system-operation/guardian/
+      anchor: operations-system-operation-guardian
+      virtual_path: docs/operations/system-operation/guardian/index.md
+    - title: Junk File Cleanup
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/system-operation/junk_file_clean/
+      anchor: operations-system-operation-junk_file_clean
+      virtual_path: docs/operations/system-operation/junk_file_clean/index.md
+    - title: Limit query current capacity, protect query stability
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/system-operation/limit_query/
+      anchor: operations-system-operation-limit_query
+      virtual_path: docs/operations/system-operation/limit_query/index.md
+  - title: Job Monitoring
+    kind: link
+    source_url: https://kylin.apache.org/docs/operations/job-monitoring/intro/
+    anchor: operations-job-monitoring-intro
+    virtual_path: docs/operations/job-monitoring/intro/index.md
+    children:
+    - title: Job Concept and Settings
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/job-monitoring/job_concept_settings/
+      anchor: operations-job-monitoring-job_concept_settings
+      virtual_path: docs/operations/job-monitoring/job_concept_settings/index.md
+    - title: Job Operations
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/job-monitoring/job_operations/
+      anchor: operations-job-monitoring-job_operations
+      virtual_path: docs/operations/job-monitoring/job_operations/index.md
+    - title: Job Diagnosis
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/job-monitoring/job_diagnosis/
+      anchor: operations-job-monitoring-job_diagnosis
+      virtual_path: docs/operations/job-monitoring/job_diagnosis/index.md
+    - title: Common Job Error Causes and Solutions
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/job-monitoring/job_exception_resolve/
+      anchor: operations-job-monitoring-job_exception_resolve
+      virtual_path: docs/operations/job-monitoring/job_exception_resolve/index.md
+  - title: System Monitoring
+    kind: link
+    source_url: https://kylin.apache.org/docs/operations/system-monitoring/intro/
+    anchor: operations-system-monitoring-intro
+    virtual_path: docs/operations/system-monitoring/intro/index.md
+    children:
+    - title: InfluxDB
+      kind: category
+      source_url: https://kylin.apache.org/docs/operations/system-monitoring/influxdb/intro/
+      anchor: operations-system-monitoring-influxdb-intro
+      virtual_path: docs/operations/system-monitoring/influxdb/intro/index.md
+      children:
+      - title: Use InfluxDB as Time-Series Database
+        kind: link
+        source_url: https://kylin.apache.org/docs/operations/system-monitoring/influxdb/
+        anchor: operations-system-monitoring-influxdb
+        virtual_path: docs/operations/system-monitoring/influxdb/index.md
+      - title: InfluxDB Maintenance
+        kind: link
+        source_url: https://kylin.apache.org/docs/operations/system-monitoring/influxdb/influxdb_maintenance/
+        anchor: operations-system-monitoring-influxdb-influxdb_maintenance
+        virtual_path: docs/operations/system-monitoring/influxdb/influxdb_maintenance/index.md
+    - title: Metrics Monitoring
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/system-monitoring/metrics_intro/
+      anchor: operations-system-monitoring-metrics_intro
+      virtual_path: docs/operations/system-monitoring/metrics_intro/index.md
+    - title: Service Monitoring
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/system-monitoring/service/
+      anchor: operations-system-monitoring-service
+      virtual_path: docs/operations/system-monitoring/service/index.md
+  - title: Logs
+    kind: link
+    source_url: https://kylin.apache.org/docs/operations/logs/intro/
+    anchor: operations-logs-intro
+    virtual_path: docs/operations/logs/intro/index.md
+    children:
+    - title: System Log
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/logs/system_log/
+      anchor: operations-logs-system_log
+      virtual_path: docs/operations/logs/system_log/index.md
+    - title: Audit Log
+      kind: link
+      source_url: https://kylin.apache.org/docs/operations/logs/audit_log/
+      anchor: operations-logs-audit_log
+      virtual_path: docs/operations/logs/audit_log/index.md
+- title: Integration
+  kind: link
+  source_url: https://kylin.apache.org/docs/integration/intro/
+  anchor: integration-intro
+  virtual_path: docs/integration/intro/index.md
+  children:
+  - title: Kylin JDBC Driver
+    kind: link
+    source_url: https://kylin.apache.org/docs/integration/jdbc/
+    anchor: integration-jdbc
+    virtual_path: docs/integration/jdbc/index.md
+- title: Rest API
+  kind: link
+  source_url: https://kylin.apache.org/docs/restapi/intro/
+  anchor: restapi-intro
+  virtual_path: docs/restapi/intro/index.md
+  children:
+  - title: Access and Authentication
+    kind: link
+    source_url: https://kylin.apache.org/docs/restapi/authentication/
+    anchor: restapi-authentication
+    virtual_path: docs/restapi/authentication/index.md
+  - title: Project Management
+    kind: link
+    source_url: https://kylin.apache.org/docs/restapi/project_api/
+    anchor: restapi-project_api
+    virtual_path: docs/restapi/project_api/index.md
+  - title: Model Management
+    kind: link
+    source_url: https://kylin.apache.org/docs/restapi/model_api/intro/
+    anchor: restapi-model_api-intro
+    virtual_path: docs/restapi/model_api/intro/index.md
+    children:
+    - title: Model Data Loading
+      kind: link
+      source_url: https://kylin.apache.org/docs/restapi/model_api/model_build_api/
+      anchor: restapi-model_api-model_build_api
+      virtual_path: docs/restapi/model_api/model_build_api/index.md
+    - title: Model Import & Export
+      kind: link
+      source_url: https://kylin.apache.org/docs/restapi/model_api/model_import_and_export_api/
+      anchor: restapi-model_api-model_import_and_export_api
+      virtual_path: docs/restapi/model_api/model_import_and_export_api/index.md
+    - title: Multi-level Partitioning
+      kind: link
+      source_url: https://kylin.apache.org/docs/restapi/model_api/model_multilevel_partitioning_api/
+      anchor: restapi-model_api-model_multilevel_partitioning_api
+      virtual_path: docs/restapi/model_api/model_multilevel_partitioning_api/index.md
+  - title: Segment Management
+    kind: link
+    source_url: https://kylin.apache.org/docs/restapi/segment_management_api/
+    anchor: restapi-segment_management_api
+    virtual_path: docs/restapi/segment_management_api/index.md
+  - title: Snapshot Management
+    kind: link
+    source_url: https://kylin.apache.org/docs/restapi/snapshot_management_api/
+    anchor: restapi-snapshot_management_api
+    virtual_path: docs/restapi/snapshot_management_api/index.md
+  - title: Query
+    kind: link
+    source_url: https://kylin.apache.org/docs/restapi/query_api/
+    anchor: restapi-query_api
+    virtual_path: docs/restapi/query_api/index.md
+  - title: Data Source
+    kind: link
+    source_url: https://kylin.apache.org/docs/restapi/data_source_api/
+    anchor: restapi-data_source_api
+    virtual_path: docs/restapi/data_source_api/index.md
+  - title: Custom Parser Jar Management
+    kind: link
+    source_url: https://kylin.apache.org/docs/restapi/custom_jar_manager_api/
+    anchor: restapi-custom_jar_manager_api
+    virtual_path: docs/restapi/custom_jar_manager_api/index.md
+  - title: Async Query
+    kind: link
+    source_url: https://kylin.apache.org/docs/restapi/async_query_api/
+    anchor: restapi-async_query_api
+    virtual_path: docs/restapi/async_query_api/index.md
+  - title: Job Management
+    kind: link
+    source_url: https://kylin.apache.org/docs/restapi/job_api/
+    anchor: restapi-job_api
+    virtual_path: docs/restapi/job_api/index.md
+  - title: ACL Management API
+    kind: category
+    source_url: https://kylin.apache.org/docs/restapi/acl_api/intro/
+    anchor: restapi-acl_api-intro
+    virtual_path: docs/restapi/acl_api/intro/index.md
+    children:
+    - title: User Management
+      kind: link
+      source_url: https://kylin.apache.org/docs/restapi/acl_api/user_api/
+      anchor: restapi-acl_api-user_api
+      virtual_path: docs/restapi/acl_api/user_api/index.md
+    - title: User Group Management
+      kind: link
+      source_url: https://kylin.apache.org/docs/restapi/acl_api/user_group_api/
+      anchor: restapi-acl_api-user_group_api
+      virtual_path: docs/restapi/acl_api/user_group_api/index.md
+    - title: Project ACL
+      kind: link
+      source_url: https://kylin.apache.org/docs/restapi/acl_api/project_acl_api/
+      anchor: restapi-acl_api-project_acl_api
+      virtual_path: docs/restapi/acl_api/project_acl_api/index.md
+  - title: Use callback API to monitor job status
+    kind: link
+    source_url: https://kylin.apache.org/docs/restapi/callback_api/
+    anchor: restapi-callback_api
+    virtual_path: docs/restapi/callback_api/index.md

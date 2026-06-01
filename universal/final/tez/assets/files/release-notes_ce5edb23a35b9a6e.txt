@@ -1,0 +1,14 @@
+0.9.0 is a major version release with lots of new features, bug fixes and improvement.
+
+Major new features:
+1) Tez custom shuffle handler (TEZ-3334)
+2) New Tez UI (TEZ-3106)
+3) Fair custom data routing (TEZ-3209)
+4) Parallel cartesian product (TEZ-2104)
+
+Major changes:
+1) Minimum Hadoop version is 2.7.0
+2) Minimum Java version is JDK 8
+
+Please see CHANGES.txt for more details: https://git-wip-us.apache.org/repos/asf/tez/repo?p=tez.git;a=blob_plain;f=CHANGES.txt;hb=refs/tags/rel/release-0.9.0
+List of issues fixed in 0.9.0: https://issues.apache.org/jira/browse/TEZ/fixforversion/12334632

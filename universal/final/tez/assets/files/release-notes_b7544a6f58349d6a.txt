@@ -1,0 +1,108 @@
+
+Tez 0.5.0 is a developer focused release that stabilizes the APIs and improves
+the debugging experience for Tez applications. The following items outline the 
+important features of this release
+
+1) Stable APIs - The core DAG and Runtime APIs have been marked stable and
+will be compatibly supported going forward. So developers can take a
+dependency on these APIs. The convention is that classes,  methods
+configuration that have been explicitly annotated as @Public and @Stable are 
+going to be compatible. Classes, methods and configurations that have been
+marked @Evolving and @Unstable may continue to change going forward. Classes,
+methods and configurations that have been marked @Private are not to be used.
+2) Documentation - This release produced the first javadocs for Tez and a
+number of tutorial like examples have been added to learn the APIs
+3) Local mode execution - Tez applications can be run without running a
+cluster. This mode is to be used for debugging the application locally.
+4) Performance debugging tools - New tools like swimlanes analysis have been
+added to help in debugging the performance of Tez applications
+5) Support for ACLs - Tez now supports ACLs for fine grained access control to
+view and modify DAGs.
+6) New intermediate data format - Initial support for a new data format for
+intermediate Key Value data for better performance.
+7) Added UnorderedPartitionedOutput - This new output was added to write key
+value data into partitions with the data being unordered in these partitions.
+
+In addition there have been a number of performance and stability improvements
+made. For full details please look at CHANGES.txt in the release artifacts.
+
+There are a number of incompatible changes in this release. For a full list
+please look at CHANGES.txt in the release artifacts.
+
+Important incompatible changes for configuration are listed below to help
+in migrating existing deployments of 0.4.1-incubating to 0.5.0.
+
+Session vs non-session mode are now determined via configuration via the
+following new configuration.
+"tez.am.mode.session" DEFAULT = false
+
+New configuration to set the log level for tasks.
+"tez.task.log.level" DEFAULT = "INFO"
+
+Configuration to set the AM launch command line options changed from
+"tez.am.java.opts" to "tez.am.launch.cmd-opts" with DEFAULT = 
+"-server -Djava.net.preferIPv4Stack=true -XX:+PrintGCDetails -verbose:gc 
+-XX:+PrintGCTimeStamps -XX:+UseNUMA -XX:+UseParallelGC 
+-Dhadoop.metrics.log.level=WARN"
+
+Configuration to set the task launch command line options is 
+"tez.task.launch.cmd-opts" with DEFAULT = 
+"-server -Djava.net.preferIPv4Stack=true -XX:+PrintGCDetails -verbose:gc 
+-XX:+PrintGCTimeStamps -XX:+UseNUMA -XX:+UseParallelGC 
+-Dhadoop.metrics.log.level=WARN"
+
+There is no need to add Xmx to the launch Java command line options for the AM
+or the tasks. Tez automatically adds these as a fraction of the memory allocated 
+to them. If Xmx or Xms options are specifically added by the user then this
+automatic addition by Tez is disabled.
+"tez.container.max.java.heap.fraction" DEFAULT = 0.8
+
+Configuration to set the environment values for the AM changed 
+from "tez.am.launch.env" to "tez.am.env" DEFAULT = 
+For Windows : "PATH=%PATH%;%HADOOP_COMMON_HOME%\\bin"
+For Linux : "LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HADOOP_COMMON_HOME/lib/native/"
+
+New configuration to set the environment values for tasks
+"tez.task.launch.env" DEFAULT = 
+For Windows : "PATH=%PATH%;%HADOOP_COMMON_HOME%\\bin"
+For Linux : "LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HADOOP_COMMON_HOME/lib/native/"
+ 
+The default value of the memory allocated for the AM changes 
+"tez.am.resource.memory.mb" DEFAULT = 1024 MB (was 1536 MB)
+
+The behavior of idle container held in session mode changes to having a
+minimum number of held containers via new configuration
+"tez.am.session.min.held-containers" DEFAULT = 0
+
+Idle containers are released randomly between the following min and max idle
+times via new configurations
+"tez.am.container.idle.release-timeout-min.millis" DEFAULT = 5 seconds
+"tez.am.container.idle.release-timeout-max.millis" DEFAULT = 10 seconds
+
+This configuration is not supported any more
+"tez.am.container.session.delay-allocation-millis"
+
+Deployment of TEZ library code changed to packaging and including all
+necessary Hadoop/YARN dependencies inside the package. New configuration added
+to support deploying TEZ library code where the dependencies are picked from
+the cluster
+"tez.use.cluster.hadoop-libs" DEFAULT = false
+
+All runtime configurations now have a "tez.runtime." prefix, along with other
+incompatible name changes. Please look at CHANGES.txt for full details.
+Notably, certain configurations are no longer input/ouput specific.
+"tez.runtime.key.comparator.class" replaces
+"tez.runtime.intermediate-output.key.comparator.class" &
+"tez.runtime.intermediate-input.key.comparator.class"
+"tez.runtime.key.class" replaces "tez.runtime.intermediate-output.key.class" &
+"tez.runtime.intermediate-input.key.class"
+"tez.runtime.value.class" replaces
+"tez.runtime.intermediate-output.value.class" &
+"tez.runtime.intermediate-input.value.class"
+"tez.runtime.compress" replaces
+"tez.runtime.intermediate-output.should-compress" &
+"tez.runtime.intermediate-input.is-compressed"
+"tez.runtime.compress.codec" replaces
+"tez.runtime.intermediate-output.compress.codec" &
+"tez.runtime.intermediate-input.compress.codec"
+

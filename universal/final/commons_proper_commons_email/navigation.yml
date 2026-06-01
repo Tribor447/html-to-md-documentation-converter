@@ -1,0 +1,198 @@
+- title: Email
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: User guide
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/userguide.html
+    anchor: userguide
+    virtual_path: docs/userguide.md
+  - title: Security Reports
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/security-reports.html
+    anchor: security-reports
+    virtual_path: docs/security-reports.md
+- title: Development
+  kind: category
+  children:
+  - title: Building
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/building.html
+    anchor: building
+    virtual_path: docs/building.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-email/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-email/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-email/summary.html
+      anchor: summary
+      virtual_path: docs/summary.md
+    - title: Project Modules
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-email/modules.html
+      anchor: modules
+      virtual_path: docs/modules.md
+    - title: Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-email/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-email/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: CI Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-email/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Apache Commons Email Bill of Materials – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-bom/ci-management.html
+    anchor: commons-email2-bom-ci-management
+    virtual_path: docs/commons-email2-bom/ci-management.md
+  - title: Apache Commons Email Bill of Materials – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-bom/index.html
+    anchor: commons-email2-bom
+    virtual_path: docs/commons-email2-bom/index.md
+  - title: Apache Commons Email Bill of Materials – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-bom/scm.html
+    anchor: commons-email2-bom-scm
+    virtual_path: docs/commons-email2-bom/scm.md
+  - title: Apache Commons Email Bill of Materials – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-bom/summary.html
+    anchor: commons-email2-bom-summary
+    virtual_path: docs/commons-email2-bom/summary.md
+  - title: Apache Commons Email Bill of Materials – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-bom/team.html
+    anchor: commons-email2-bom-team
+    virtual_path: docs/commons-email2-bom/team.md
+  - title: Apache Commons Email Core – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-core/ci-management.html
+    anchor: commons-email2-core-ci-management
+    virtual_path: docs/commons-email2-core/ci-management.md
+  - title: Apache Commons Email Core – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-core/index.html
+    anchor: commons-email2-core
+    virtual_path: docs/commons-email2-core/index.md
+  - title: Apache Commons Email Core – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-core/scm.html
+    anchor: commons-email2-core-scm
+    virtual_path: docs/commons-email2-core/scm.md
+  - title: Apache Commons Email Core – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-core/summary.html
+    anchor: commons-email2-core-summary
+    virtual_path: docs/commons-email2-core/summary.md
+  - title: Apache Commons Email Core – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-core/team.html
+    anchor: commons-email2-core-team
+    virtual_path: docs/commons-email2-core/team.md
+  - title: Apache Commons Email Distribution – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-distribution/ci-management.html
+    anchor: commons-email2-distribution-ci-management
+    virtual_path: docs/commons-email2-distribution/ci-management.md
+  - title: Apache Commons Email Distribution – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-distribution/index.html
+    anchor: commons-email2-distribution
+    virtual_path: docs/commons-email2-distribution/index.md
+  - title: Apache Commons Email Distribution – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-distribution/scm.html
+    anchor: commons-email2-distribution-scm
+    virtual_path: docs/commons-email2-distribution/scm.md
+  - title: Apache Commons Email Distribution – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-distribution/summary.html
+    anchor: commons-email2-distribution-summary
+    virtual_path: docs/commons-email2-distribution/summary.md
+  - title: Apache Commons Email Distribution – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-distribution/team.html
+    anchor: commons-email2-distribution-team
+    virtual_path: docs/commons-email2-distribution/team.md
+  - title: Apache Commons Email for Jakarta – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-jakarta/ci-management.html
+    anchor: commons-email2-jakarta-ci-management
+    virtual_path: docs/commons-email2-jakarta/ci-management.md
+  - title: Apache Commons Email for Jakarta – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-jakarta/index.html
+    anchor: commons-email2-jakarta
+    virtual_path: docs/commons-email2-jakarta/index.md
+  - title: Apache Commons Email for Jakarta – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-jakarta/scm.html
+    anchor: commons-email2-jakarta-scm
+    virtual_path: docs/commons-email2-jakarta/scm.md
+  - title: Apache Commons Email for Jakarta – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-jakarta/summary.html
+    anchor: commons-email2-jakarta-summary
+    virtual_path: docs/commons-email2-jakarta/summary.md
+  - title: Apache Commons Email for Jakarta – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-jakarta/team.html
+    anchor: commons-email2-jakarta-team
+    virtual_path: docs/commons-email2-jakarta/team.md
+  - title: Apache Commons Email for Javax – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-javax/ci-management.html
+    anchor: commons-email2-javax-ci-management
+    virtual_path: docs/commons-email2-javax/ci-management.md
+  - title: Apache Commons Email for Javax – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-javax/index.html
+    anchor: commons-email2-javax
+    virtual_path: docs/commons-email2-javax/index.md
+  - title: Apache Commons Email for Javax – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-javax/scm.html
+    anchor: commons-email2-javax-scm
+    virtual_path: docs/commons-email2-javax/scm.md
+  - title: Apache Commons Email for Javax – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-javax/summary.html
+    anchor: commons-email2-javax-summary
+    virtual_path: docs/commons-email2-javax/summary.md
+  - title: Apache Commons Email for Javax – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/commons-email2-javax/team.html
+    anchor: commons-email2-javax-team
+    virtual_path: docs/commons-email2-javax/team.md
+  - title: Commons Email – Apache Commons Email Parent POM Issue tracking
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-email/issue-tracking.html
+    anchor: issue-tracking
+    virtual_path: docs/issue-tracking.md

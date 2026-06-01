@@ -1,0 +1,312 @@
+- title: Installation
+  kind: category
+  children:
+  - title: WAR Deployment
+    kind: link
+    source_url: https://ode.apache.org/war-deployment.html
+    anchor: war-deployment
+    virtual_path: docs/war-deployment.md
+  - title: Upgrading ODE
+    kind: link
+    source_url: https://ode.apache.org/upgrading-ode.html
+    anchor: upgrading-ode
+    virtual_path: docs/upgrading-ode.md
+- title: Using ODE
+  kind: category
+  children:
+  - title: Creating a Process
+    kind: link
+    source_url: https://ode.apache.org/creating-a-process.html
+    anchor: creating-a-process
+    virtual_path: docs/creating-a-process.md
+  - title: Process Versioning
+    kind: link
+    source_url: https://ode.apache.org/process-versioning.html
+    anchor: process-versioning
+    virtual_path: docs/process-versioning.md
+  - title: Management API
+    kind: link
+    source_url: https://ode.apache.org/management-api.html
+    anchor: management-api
+    virtual_path: docs/management-api.md
+  - title: Instance Replayer
+    kind: link
+    source_url: https://ode.apache.org/instance-replayer.html
+    anchor: instance-replayer
+    virtual_path: docs/instance-replayer.md
+  - title: ODE Execution Events
+    kind: link
+    source_url: https://ode.apache.org/ode-execution-events.html
+    anchor: ode-execution-events
+    virtual_path: docs/ode-execution-events.md
+  - title: Endpoint References
+    kind: link
+    source_url: https://ode.apache.org/endpoint-references.html
+    anchor: endpoint-references
+    virtual_path: docs/endpoint-references.md
+  - title: WSDL 1.1 HTTP Binding Support
+    kind: link
+    source_url: https://ode.apache.org/wsdl-11-http-binding-support.html
+    anchor: wsdl-11-http-binding-support
+    virtual_path: docs/wsdl-11-http-binding-support.md
+  - title: WSDL 1.1 Extensions for REST
+    kind: link
+    source_url: https://ode.apache.org/extensions/wsdl-11-extensions-for-rest.html
+    anchor: extensions-wsdl-11-extensions-for-rest
+    virtual_path: docs/extensions/wsdl-11-extensions-for-rest.md
+  - title: BPEL Extensions
+    kind: link
+    source_url: https://ode.apache.org/extensions/
+    anchor: extensions
+    virtual_path: docs/extensions/index.md
+  - title: Instance Data Cleanup
+    kind: link
+    source_url: https://ode.apache.org/instance-data-cleanup.html
+    anchor: instance-data-cleanup
+    virtual_path: docs/instance-data-cleanup.md
+  - title: Direct Process-to-Process Communication
+    kind: link
+    source_url: https://ode.apache.org/direct-process-to-process-communication.html
+    anchor: direct-process-to-process-communication
+    virtual_path: docs/direct-process-to-process-communication.md
+  - title: Stateful Exchange Protocol
+    kind: link
+    source_url: https://ode.apache.org/developerguide/stateful-exchange-protocol.html
+    anchor: developerguide-stateful-exchange-protocol
+    virtual_path: docs/developerguide/stateful-exchange-protocol.md
+  - title: Activity Failure and Recovery
+    kind: link
+    source_url: https://ode.apache.org/extensions/activity-failure-and-recovery.html
+    anchor: extensions-activity-failure-and-recovery
+    virtual_path: docs/extensions/activity-failure-and-recovery.md
+  - title: XQuery Extensions
+    kind: link
+    source_url: https://ode.apache.org/extensions/xquery-extensions.html
+    anchor: extensions-xquery-extensions
+    virtual_path: docs/extensions/xquery-extensions.md
+  - title: Custom XPath functions
+    kind: link
+    source_url: https://ode.apache.org/custom-xpath-functions.html
+    anchor: custom-xpath-functions
+    virtual_path: docs/custom-xpath-functions.md
+  - title: Atomic Scopes Extension for BPEL
+    kind: link
+    source_url: https://ode.apache.org/developerguide/atomic-scopes-extension-for-bpel.html
+    anchor: developerguide-atomic-scopes-extension-for-bpel
+    virtual_path: docs/developerguide/atomic-scopes-extension-for-bpel.md
+- title: How To
+  kind: category
+  children:
+  - title: ODE JBI and Axis2 properties overview
+    kind: link
+    source_url: https://ode.apache.org/ode-jbi-and-axis2-properties-overview.html
+    anchor: ode-jbi-and-axis2-properties-overview
+    virtual_path: docs/ode-jbi-and-axis2-properties-overview.md
+  - title: Controlling ODE's Memory Footprint
+    kind: link
+    source_url: https://ode.apache.org/controlling-odes-memory-footprint.html
+    anchor: controlling-odes-memory-footprint
+    virtual_path: docs/controlling-odes-memory-footprint.md
+  - title: Endpoint Configuration
+    kind: link
+    source_url: https://ode.apache.org/endpoint-configuration.html
+    anchor: endpoint-configuration
+    virtual_path: docs/endpoint-configuration.md
+  - title: HTTP Authentication
+    kind: link
+    source_url: https://ode.apache.org/http-authentication.html
+    anchor: http-authentication
+    virtual_path: docs/http-authentication.md
+  - title: Using a JNDI DataSource under ServiceMix JBI
+    kind: link
+    source_url: https://ode.apache.org/using-a-jndi-datasource-under-servicemix-jbi.html
+    anchor: using-a-jndi-datasource-under-servicemix-jbi
+    virtual_path: docs/using-a-jndi-datasource-under-servicemix-jbi.md
+  - title: Writing BPEL Test Cases
+    kind: link
+    source_url: https://ode.apache.org/writing-bpel-test-cases.html
+    anchor: writing-bpel-test-cases
+    virtual_path: docs/writing-bpel-test-cases.md
+  - title: WS-Security in ODE
+    kind: link
+    source_url: https://ode.apache.org/ws-security-in-ode.html
+    anchor: ws-security-in-ode
+    virtual_path: docs/ws-security-in-ode.md
+  - title: Use Assign to build messages
+    kind: link
+    source_url: https://ode.apache.org/use-assign-to-build-messages.html
+    anchor: use-assign-to-build-messages
+    virtual_path: docs/use-assign-to-build-messages.md
+- title: End of Life
+  kind: category
+  children:
+  - title: JBI Deployment
+    kind: link
+    source_url: https://ode.apache.org/jbi-deployment.html
+    anchor: jbi-deployment
+    virtual_path: docs/jbi-deployment.md
+  - title: SMX4 OSGi Deployment
+    kind: link
+    source_url: https://ode.apache.org/smx4-osgi-deployment.html
+    anchor: smx4-osgi-deployment
+    virtual_path: docs/smx4-osgi-deployment.md
+- title: Getting ODE
+  kind: link
+  source_url: https://ode.apache.org/getting-ode.html
+  anchor: getting-ode
+  virtual_path: docs/getting-ode.md
+- title: Documentation
+  kind: category
+  source_url: https://ode.apache.org/userguide/
+  anchor: userguide
+  virtual_path: docs/userguide/index.md
+  children:
+  - title: User Guide
+    kind: link
+    source_url: https://ode.apache.org/userguide/
+    anchor: userguide
+    virtual_path: docs/userguide/index.md
+  - title: Developer Guide
+    kind: link
+    source_url: https://ode.apache.org/developerguide/
+    anchor: developerguide
+    virtual_path: docs/developerguide/index.md
+  - title: WS-BPEL Compliance
+    kind: link
+    source_url: https://ode.apache.org/ws-bpel-20-specification-compliance.html
+    anchor: ws-bpel-20-specification-compliance
+    virtual_path: docs/ws-bpel-20-specification-compliance.md
+  - title: WS-BPEL Extensions
+    kind: link
+    source_url: https://ode.apache.org/extensions/
+    anchor: extensions
+    virtual_path: docs/extensions/index.md
+  - title: FAQ
+    kind: link
+    source_url: https://ode.apache.org/faq.html
+    anchor: faq
+    virtual_path: docs/faq.md
+  - title: Roadmap
+    kind: link
+    source_url: https://ode.apache.org/roadmap.html
+    anchor: roadmap
+    virtual_path: docs/roadmap.md
+  - title: Resources & Services
+    kind: link
+    source_url: https://ode.apache.org/resource-services.html
+    anchor: resource-services
+    virtual_path: docs/resource-services.md
+- title: Contributing
+  kind: category
+  children:
+  - title: Mailing Lists
+    kind: link
+    source_url: https://ode.apache.org/mailing-lists.html
+    anchor: mailing-lists
+    virtual_path: docs/mailing-lists.md
+  - title: Building ODE
+    kind: link
+    source_url: https://ode.apache.org/developerguide/building-ode.html
+    anchor: developerguide-building-ode
+    virtual_path: docs/developerguide/building-ode.md
+  - title: Source Code
+    kind: link
+    source_url: https://ode.apache.org/developerguide/source-code.html
+    anchor: developerguide-source-code
+    virtual_path: docs/developerguide/source-code.md
+  - title: Contributors
+    kind: link
+    source_url: https://ode.apache.org/contributors.html
+    anchor: contributors
+    virtual_path: docs/contributors.md
+- title: Configuring ODE in Tomcat with a MySQL database
+  kind: category
+  children:
+  - title: ODE schema
+    kind: link
+    source_url: https://ode.apache.org/ode-schema.html
+    anchor: ode-schema
+    virtual_path: docs/ode-schema.md
+- title: Other pages
+  kind: category
+  children:
+  - title: assign
+    kind: link
+    source_url: https://ode.apache.org/assign.html
+    anchor: assign
+    virtual_path: docs/assign.md
+  - title: BPEL Management API Specification
+    kind: link
+    source_url: https://ode.apache.org/bpel-management-api-specification.html
+    anchor: bpel-management-api-specification
+    virtual_path: docs/bpel-management-api-specification.md
+  - title: Architectural Overview
+    kind: link
+    source_url: https://ode.apache.org/developerguide/architectural-overview.html
+    anchor: developerguide-architectural-overview
+    virtual_path: docs/developerguide/architectural-overview.md
+  - title: Apache ODE – Extension Activities & Extensible Assign Operations
+    kind: link
+    source_url: https://ode.apache.org/extensions/extension-activities-extensible-assign-operations.html
+    anchor: extensions-extension-activities-extensible-assign-operations
+    virtual_path: docs/extensions/extension-activities-extensible-assign-operations.md
+  - title: External Variables
+    kind: link
+    source_url: https://ode.apache.org/extensions/external-variables.html
+    anchor: extensions-external-variables
+    virtual_path: docs/extensions/external-variables.md
+  - title: Apache ODE – Flexible Assigns
+    kind: link
+    source_url: https://ode.apache.org/extensions/flexible-assigns.html
+    anchor: extensions-flexible-assigns
+    virtual_path: docs/extensions/flexible-assigns.md
+  - title: Apache ODE – Headers Handling
+    kind: link
+    source_url: https://ode.apache.org/extensions/headers-handling.html
+    anchor: extensions-headers-handling
+    virtual_path: docs/extensions/headers-handling.md
+  - title: Implicit Correlations
+    kind: link
+    source_url: https://ode.apache.org/extensions/implicit-correlations.html
+    anchor: extensions-implicit-correlations
+    virtual_path: docs/extensions/implicit-correlations.md
+  - title: Iterable ForEach
+    kind: link
+    source_url: https://ode.apache.org/extensions/iterable-foreach.html
+    anchor: extensions-iterable-foreach
+    virtual_path: docs/extensions/iterable-foreach.md
+  - title: Process Contexts
+    kind: link
+    source_url: https://ode.apache.org/extensions/process-contexts.html
+    anchor: extensions-process-contexts
+    virtual_path: docs/extensions/process-contexts.md
+  - title: Apache ODE – RESTful BPEL, Part I
+    kind: link
+    source_url: https://ode.apache.org/extensions/restful-bpel-part-i.html
+    anchor: extensions-restful-bpel-part-i
+    virtual_path: docs/extensions/restful-bpel-part-i.md
+  - title: RESTful BPEL, Part II
+    kind: link
+    source_url: https://ode.apache.org/extensions/restful-bpel-part-ii.html
+    anchor: extensions-restful-bpel-part-ii
+    virtual_path: docs/extensions/restful-bpel-part-ii.md
+  - title: XPath Extensions
+    kind: link
+    source_url: https://ode.apache.org/extensions/xpath-extensions.html
+    anchor: extensions-xpath-extensions
+    virtual_path: docs/extensions/xpath-extensions.md
+  - title: Required Third-Party Libraries
+    kind: link
+    source_url: https://ode.apache.org/required-third-party-libraries.html
+    anchor: required-third-party-libraries
+    virtual_path: docs/required-third-party-libraries.md
+  - title: Apache ODE – sendsoap Command
+    kind: link
+    source_url: https://ode.apache.org/sendsoap-command.html
+    anchor: sendsoap-command
+    virtual_path: docs/sendsoap-command.md
+  - title: Apache ODE – WS-BPEL 2.0
+    kind: link
+    source_url: https://ode.apache.org/ws-bpel-20.html
+    anchor: ws-bpel-20
+    virtual_path: docs/ws-bpel-20.md

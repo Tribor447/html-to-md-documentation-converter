@@ -1,0 +1,1142 @@
+[
+  {
+    "title": "Table of Contents",
+    "kind": "category",
+    "source_url": "https://axis.apache.org/axis2/java/core/docs/toc.html",
+    "anchor": "docs-toc",
+    "virtual_path": "docs/docs/toc.md",
+    "children": [
+      {
+        "title": "Introduction",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/contents.html",
+        "anchor": "docs-contents",
+        "virtual_path": "docs/docs/contents.md"
+      },
+      {
+        "title": "Installation Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/installationguide.html",
+        "anchor": "docs-installationguide",
+        "virtual_path": "docs/docs/installationguide.md"
+      },
+      {
+        "title": "Add-on Modules",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/modules/index.html",
+        "anchor": "modules",
+        "virtual_path": "docs/modules/index.md"
+      },
+      {
+        "title": "Application Server Specific Configuration Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/app_server.html",
+        "anchor": "docs-app_server",
+        "virtual_path": "docs/docs/app_server.md"
+      },
+      {
+        "title": "Quick Start Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/quickstartguide.html",
+        "anchor": "docs-quickstartguide",
+        "virtual_path": "docs/docs/quickstartguide.md"
+      },
+      {
+        "title": "User's Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/userguide.html",
+        "anchor": "docs-userguide",
+        "virtual_path": "docs/docs/userguide.md"
+      },
+      {
+        "title": "Advanced User's Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/adv-userguide.html",
+        "anchor": "docs-adv-userguide",
+        "virtual_path": "docs/docs/adv-userguide.md"
+      },
+      {
+        "title": "OpenAPI REST Services Guide",
+        "kind": "category",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-userguide.html",
+        "anchor": "docs-openapi-rest-userguide",
+        "virtual_path": "docs/docs/openapi-rest-userguide.md",
+        "children": [
+          {
+            "title": "7.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-userguide.html#Introduction",
+            "anchor": "docs-openapi-rest-userguide--introduction",
+            "virtual_path": "docs/docs/openapi-rest-userguide.md"
+          },
+          {
+            "title": "7.2",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-userguide.html#OpenAPI_Integration_Features",
+            "anchor": "docs-openapi-rest-userguide--openapi_integration_features",
+            "virtual_path": "docs/docs/openapi-rest-userguide.md"
+          },
+          {
+            "title": "7.3",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-userguide.html#Sample_Services_Overview",
+            "anchor": "docs-openapi-rest-userguide--sample_services_overview",
+            "virtual_path": "docs/docs/openapi-rest-userguide.md"
+          },
+          {
+            "title": "7.4",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-userguide.html#Interactive_Swagger_UI",
+            "anchor": "docs-openapi-rest-userguide--interactive_swagger_ui",
+            "virtual_path": "docs/docs/openapi-rest-userguide.md"
+          },
+          {
+            "title": "7.5",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-advanced-userguide.html",
+            "anchor": "docs-openapi-rest-advanced-userguide",
+            "virtual_path": "docs/docs/openapi-rest-advanced-userguide.md"
+          },
+          {
+            "title": "7.6",
+            "kind": "category",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-jpa-schema.html",
+            "anchor": "docs-openapi-jpa-schema",
+            "virtual_path": "docs/docs/openapi-jpa-schema.md",
+            "children": [
+              {
+                "title": "7.6.1",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-jpa-schema.html#annotation_mode",
+                "anchor": "docs-openapi-jpa-schema--annotation_mode",
+                "virtual_path": "docs/docs/openapi-jpa-schema.md"
+              },
+              {
+                "title": "7.6.2",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-jpa-schema.html#hbm_xml_mode",
+                "anchor": "docs-openapi-jpa-schema--hbm_xml_mode",
+                "virtual_path": "docs/docs/openapi-jpa-schema.md"
+              },
+              {
+                "title": "7.6.3",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-jpa-schema.html#read_write_schemas",
+                "anchor": "docs-openapi-jpa-schema--read_write_schemas",
+                "virtual_path": "docs/docs/openapi-jpa-schema.md"
+              },
+              {
+                "title": "7.6.4",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-jpa-schema.html#custom_annotations",
+                "anchor": "docs-openapi-jpa-schema--custom_annotations",
+                "virtual_path": "docs/docs/openapi-jpa-schema.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Configuration Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/axis2config.html",
+        "anchor": "docs-axis2config",
+        "virtual_path": "docs/docs/axis2config.md"
+      },
+      {
+        "title": "Web Administrator's Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/webadminguide.html",
+        "anchor": "docs-webadminguide",
+        "virtual_path": "docs/docs/webadminguide.md"
+      },
+      {
+        "title": "Architecture Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/Axis2ArchitectureGuide.html",
+        "anchor": "docs-axis2architectureguide",
+        "virtual_path": "docs/docs/Axis2ArchitectureGuide.md"
+      },
+      {
+        "title": "JAXWS Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/jaxws-guide.html",
+        "anchor": "docs-jaxws-guide",
+        "virtual_path": "docs/docs/jaxws-guide.md"
+      },
+      {
+        "title": "POJO Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/pojoguide.html",
+        "anchor": "docs-pojoguide",
+        "virtual_path": "docs/docs/pojoguide.md"
+      },
+      {
+        "title": "Spring Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/spring.html",
+        "anchor": "docs-spring",
+        "virtual_path": "docs/docs/spring.md"
+      },
+      {
+        "title": "Spring Boot Starter",
+        "kind": "category",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html",
+        "anchor": "docs-spring-boot-starter",
+        "virtual_path": "docs/docs/spring-boot-starter.md",
+        "children": [
+          {
+            "title": "12a.0",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html#deployment_model",
+            "anchor": "docs-spring-boot-starter--deployment_model",
+            "virtual_path": "docs/docs/spring-boot-starter.md"
+          },
+          {
+            "title": "12a.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html#quickstart",
+            "anchor": "docs-spring-boot-starter--quickstart",
+            "virtual_path": "docs/docs/spring-boot-starter.md"
+          },
+          {
+            "title": "12a.2",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html#how_axisservlet_works",
+            "anchor": "docs-spring-boot-starter--how_axisservlet_works",
+            "virtual_path": "docs/docs/spring-boot-starter.md"
+          },
+          {
+            "title": "12a.3",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html#properties",
+            "anchor": "docs-spring-boot-starter--properties",
+            "virtual_path": "docs/docs/spring-boot-starter.md"
+          },
+          {
+            "title": "12a.4",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html#soap_vs_json",
+            "anchor": "docs-spring-boot-starter--soap_vs_json",
+            "virtual_path": "docs/docs/spring-boot-starter.md"
+          },
+          {
+            "title": "12a.5",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html#what_autoconfigured",
+            "anchor": "docs-spring-boot-starter--what_autoconfigured",
+            "virtual_path": "docs/docs/spring-boot-starter.md"
+          },
+          {
+            "title": "12a.6",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html#what_stays",
+            "anchor": "docs-spring-boot-starter--what_stays",
+            "virtual_path": "docs/docs/spring-boot-starter.md"
+          },
+          {
+            "title": "12a.7",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html#openapi_mcp",
+            "anchor": "docs-spring-boot-starter--openapi_mcp",
+            "virtual_path": "docs/docs/spring-boot-starter.md"
+          },
+          {
+            "title": "12a.8",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html#migration",
+            "anchor": "docs-spring-boot-starter--migration",
+            "virtual_path": "docs/docs/spring-boot-starter.md"
+          },
+          {
+            "title": "12a.9",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html#Container_matrix",
+            "anchor": "docs-spring-boot-starter--container_matrix",
+            "virtual_path": "docs/docs/spring-boot-starter.md"
+          }
+        ]
+      },
+      {
+        "title": "ModulesGuide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/modules.html",
+        "anchor": "docs-modules",
+        "virtual_path": "docs/docs/modules.md"
+      },
+      {
+        "title": "ADB Data Binding",
+        "kind": "category",
+        "children": [
+          {
+            "title": "14.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/adb/adb-howto.html",
+            "anchor": "docs-adb-adb-howto",
+            "virtual_path": "docs/docs/adb/adb-howto.md"
+          },
+          {
+            "title": "14.2",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/adb/adb-advanced.html",
+            "anchor": "docs-adb-adb-advanced",
+            "virtual_path": "docs/docs/adb/adb-advanced.md"
+          },
+          {
+            "title": "14.3",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/adb/adb-codegen-integration.html",
+            "anchor": "docs-adb-adb-codegen-integration",
+            "virtual_path": "docs/docs/adb/adb-codegen-integration.md"
+          },
+          {
+            "title": "14.4",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/adb/adb-tweaking.html",
+            "anchor": "docs-adb-adb-tweaking",
+            "virtual_path": "docs/docs/adb/adb-tweaking.md"
+          }
+        ]
+      },
+      {
+        "title": "Advanced",
+        "kind": "category",
+        "children": [
+          {
+            "title": "16.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/xmlbased-server.html",
+            "anchor": "docs-xmlbased-server",
+            "virtual_path": "docs/docs/xmlbased-server.md"
+          },
+          {
+            "title": "16.2",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/dii.html",
+            "anchor": "docs-dii",
+            "virtual_path": "docs/docs/dii.md"
+          }
+        ]
+      },
+      {
+        "title": "Attachments/MTOM Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/mtom-guide.html",
+        "anchor": "docs-mtom-guide",
+        "virtual_path": "docs/docs/mtom-guide.md"
+      },
+      {
+        "title": "Transports",
+        "kind": "category",
+        "children": [
+          {
+            "title": "18.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/http-transport.html",
+            "anchor": "docs-http-transport",
+            "virtual_path": "docs/docs/http-transport.md"
+          },
+          {
+            "title": "18.2",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/http2-integration-guide.html",
+            "anchor": "docs-http2-integration-guide",
+            "virtual_path": "docs/docs/http2-integration-guide.md"
+          },
+          {
+            "title": "18.3",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/axis2-http2-simplified-example.html",
+            "anchor": "docs-axis2-http2-simplified-example",
+            "virtual_path": "docs/docs/axis2-http2-simplified-example.md"
+          },
+          {
+            "title": "18.4",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/json-streaming-formatter.html",
+            "anchor": "docs-json-streaming-formatter",
+            "virtual_path": "docs/docs/json-streaming-formatter.md"
+          },
+          {
+            "title": "18.4a",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/http2-java-client.html",
+            "anchor": "docs-http2-java-client",
+            "virtual_path": "docs/docs/http2-java-client.md"
+          },
+          {
+            "title": "18.5",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/wildfly-http2-integration-guide.html",
+            "anchor": "docs-wildfly-http2-integration-guide",
+            "virtual_path": "docs/docs/wildfly-http2-integration-guide.md"
+          },
+          {
+            "title": "18.6",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/http2-transport-additions.html",
+            "anchor": "docs-http2-transport-additions",
+            "virtual_path": "docs/docs/http2-transport-additions.md"
+          },
+          {
+            "title": "18.7",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/servlet-transport.html",
+            "anchor": "docs-servlet-transport",
+            "virtual_path": "docs/docs/servlet-transport.md"
+          },
+          {
+            "title": "18.8",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/jms-transport.html",
+            "anchor": "docs-jms-transport",
+            "virtual_path": "docs/docs/jms-transport.md"
+          },
+          {
+            "title": "18.9",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/tcp-transport.html",
+            "anchor": "docs-tcp-transport",
+            "virtual_path": "docs/docs/tcp-transport.md"
+          },
+          {
+            "title": "18.10",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/mail-transport.html",
+            "anchor": "docs-mail-transport",
+            "virtual_path": "docs/docs/mail-transport.md"
+          },
+          {
+            "title": "18.11",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/udp-transport.html",
+            "anchor": "docs-udp-transport",
+            "virtual_path": "docs/docs/udp-transport.md"
+          },
+          {
+            "title": "18.13",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/transport_howto.html",
+            "anchor": "docs-transport_howto",
+            "virtual_path": "docs/docs/transport_howto.md"
+          }
+        ]
+      },
+      {
+        "title": "WS-Policy Support",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/WS_policy.html",
+        "anchor": "docs-ws_policy",
+        "virtual_path": "docs/docs/WS_policy.md"
+      },
+      {
+        "title": "REST Support",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/rest-ws.html",
+        "anchor": "docs-rest-ws",
+        "virtual_path": "docs/docs/rest-ws.md"
+      },
+      {
+        "title": "JSON support",
+        "kind": "category",
+        "children": [
+          {
+            "title": "23.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/json_support.html",
+            "anchor": "docs-json_support",
+            "virtual_path": "docs/docs/json_support.md"
+          },
+          {
+            "title": "23.2",
+            "kind": "category",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/json_support_gson.html",
+            "anchor": "docs-json_support_gson",
+            "virtual_path": "docs/docs/json_support_gson.md",
+            "children": [
+              {
+                "title": "Native Approach",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json_support_gson.html#native_approach",
+                "anchor": "docs-json_support_gson--native_approach",
+                "virtual_path": "docs/docs/json_support_gson.md"
+              },
+              {
+                "title": "XML Stream API Base Approach",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json_support_gson.html#xml_stream_api_base_approach",
+                "anchor": "docs-json_support_gson--xml_stream_api_base_approach",
+                "virtual_path": "docs/docs/json_support_gson.md"
+              },
+              {
+                "title": "User Guide",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json_gson_user_guide.html",
+                "anchor": "docs-json_gson_user_guide",
+                "virtual_path": "docs/docs/json_gson_user_guide.md"
+              },
+              {
+                "title": "JSON and REST with Spring Boot User's Guide",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-springboot-userguide.html",
+                "anchor": "docs-json-springboot-userguide",
+                "virtual_path": "docs/docs/json-springboot-userguide.md"
+              }
+            ]
+          },
+          {
+            "title": "OpenAPI REST with JSON Support",
+            "kind": "category",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-userguide.html",
+            "anchor": "docs-openapi-rest-userguide",
+            "virtual_path": "docs/docs/openapi-rest-userguide.md",
+            "children": [
+              {
+                "title": "Automatic OpenAPI 3.0.1 Generation",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-userguide.html#OpenAPI_Integration_Features",
+                "anchor": "docs-openapi-rest-userguide--openapi_integration_features",
+                "virtual_path": "docs/docs/openapi-rest-userguide.md"
+              },
+              {
+                "title": "Complete JSON REST API Examples",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-userguide.html#Sample_Services_Overview",
+                "anchor": "docs-openapi-rest-userguide--sample_services_overview",
+                "virtual_path": "docs/docs/openapi-rest-userguide.md"
+              },
+              {
+                "title": "Interactive API Testing with Swagger UI",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-userguide.html#Interactive_Swagger_UI",
+                "anchor": "docs-openapi-rest-userguide--interactive_swagger_ui",
+                "virtual_path": "docs/docs/openapi-rest-userguide.md"
+              },
+              {
+                "title": "Advanced Enterprise Features",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-advanced-userguide.html",
+                "anchor": "docs-openapi-rest-advanced-userguide",
+                "virtual_path": "docs/docs/openapi-rest-advanced-userguide.md"
+              }
+            ]
+          },
+          {
+            "title": "JSON-RPC MCP Integration Guide",
+            "kind": "category",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/json-rpc-mcp-guide.html",
+            "anchor": "docs-json-rpc-mcp-guide",
+            "virtual_path": "docs/docs/json-rpc-mcp-guide.md",
+            "children": [
+              {
+                "title": "MCP Catalog Endpoint (/openapi-mcp.json)",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-rpc-mcp-guide.html#mcp_catalog",
+                "anchor": "docs-json-rpc-mcp-guide--mcp_catalog",
+                "virtual_path": "docs/docs/json-rpc-mcp-guide.md"
+              },
+              {
+                "title": "Catalog Schema: _meta and per-tool fields",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-rpc-mcp-guide.html#catalog_schema",
+                "anchor": "docs-json-rpc-mcp-guide--catalog_schema",
+                "virtual_path": "docs/docs/json-rpc-mcp-guide.md"
+              },
+              {
+                "title": "Axis2 JSON-RPC Envelope Format",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-rpc-mcp-guide.html#envelope",
+                "anchor": "docs-json-rpc-mcp-guide--envelope",
+                "virtual_path": "docs/docs/json-rpc-mcp-guide.md"
+              },
+              {
+                "title": "Two-Phase Bearer Token Authentication",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-rpc-mcp-guide.html#auth",
+                "anchor": "docs-json-rpc-mcp-guide--auth",
+                "virtual_path": "docs/docs/json-rpc-mcp-guide.md"
+              },
+              {
+                "title": "Error Handling: Correlation ID Pattern",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-rpc-mcp-guide.html#error_handling",
+                "anchor": "docs-json-rpc-mcp-guide--error_handling",
+                "virtual_path": "docs/docs/json-rpc-mcp-guide.md"
+              },
+              {
+                "title": "Not Implemented / Limitations",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-rpc-mcp-guide.html#not_implemented",
+                "anchor": "docs-json-rpc-mcp-guide--not_implemented",
+                "virtual_path": "docs/docs/json-rpc-mcp-guide.md"
+              },
+              {
+                "title": "Streaming Formatter for Large MCP Tool Responses",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-streaming-formatter.html",
+                "anchor": "docs-json-streaming-formatter",
+                "virtual_path": "docs/docs/json-streaming-formatter.md"
+              },
+              {
+                "title": "Python MCP Client Example",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-rpc-mcp-guide.html#python_compat",
+                "anchor": "docs-json-rpc-mcp-guide--python_compat",
+                "virtual_path": "docs/docs/json-rpc-mcp-guide.md"
+              }
+            ]
+          },
+          {
+            "title": "MCP Architecture — Multi-Protocol Design",
+            "kind": "category",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-architecture.html",
+            "anchor": "docs-mcp-architecture",
+            "virtual_path": "docs/docs/mcp-architecture.md",
+            "children": [
+              {
+                "title": "Current State",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-architecture.html#Current_State_.282026-04-09.29",
+                "anchor": "docs-mcp-architecture--current_state_.282026-04-09.29",
+                "virtual_path": "docs/docs/mcp-architecture.md"
+              },
+              {
+                "title": "Track A: OpenAPI-Driven MCP Bridge",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-architecture.html#Track_A_remaining",
+                "anchor": "docs-mcp-architecture--track_a_remaining",
+                "virtual_path": "docs/docs/mcp-architecture.md"
+              },
+              {
+                "title": "Track B: Native MCP Transport",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-architecture.html#Track_B",
+                "anchor": "docs-mcp-architecture--track_b",
+                "virtual_path": "docs/docs/mcp-architecture.md"
+              },
+              {
+                "title": "Security Architecture (mTLS + X.509)",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-architecture.html#Security_Architecture",
+                "anchor": "docs-mcp-architecture--security_architecture",
+                "virtual_path": "docs/docs/mcp-architecture.md"
+              },
+              {
+                "title": "Key Design Decisions",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-architecture.html#Key_Design_Decisions",
+                "anchor": "docs-mcp-architecture--key_design_decisions",
+                "virtual_path": "docs/docs/mcp-architecture.md"
+              }
+            ]
+          },
+          {
+            "title": "Streaming JSON Message Formatter",
+            "kind": "category",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/json-streaming-formatter.html",
+            "anchor": "docs-json-streaming-formatter",
+            "virtual_path": "docs/docs/json-streaming-formatter.md",
+            "children": [
+              {
+                "title": "Overview",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-streaming-formatter.html#Overview",
+                "anchor": "docs-json-streaming-formatter--overview",
+                "virtual_path": "docs/docs/json-streaming-formatter.md"
+              },
+              {
+                "title": "Problem: Large Responses and Reverse Proxies",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-streaming-formatter.html#Problem_-_Large_HTTP_Responses_and_Reverse_Proxies",
+                "anchor": "docs-json-streaming-formatter--problem_-_large_http_responses_and_reverse_proxies",
+                "virtual_path": "docs/docs/json-streaming-formatter.md"
+              },
+              {
+                "title": "Configuration (axis2.xml / services.xml)",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-streaming-formatter.html#Configuration",
+                "anchor": "docs-json-streaming-formatter--configuration",
+                "virtual_path": "docs/docs/json-streaming-formatter.md"
+              },
+              {
+                "title": "Services That Benefit (BigDataH2Service, FinancialBenchmarkService)",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-streaming-formatter.html#Services_That_Benefit",
+                "anchor": "docs-json-streaming-formatter--services_that_benefit",
+                "virtual_path": "docs/docs/json-streaming-formatter.md"
+              },
+              {
+                "title": "Axis2/C Equivalent (ap_rflush)",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-streaming-formatter.html#Axis2.2FC_Equivalent",
+                "anchor": "docs-json-streaming-formatter--axis2.2fc_equivalent",
+                "virtual_path": "docs/docs/json-streaming-formatter.md"
+              }
+            ]
+          },
+          {
+            "title": "MCP Examples — Financial Services Benchmarks",
+            "kind": "category",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-examples.html",
+            "anchor": "docs-mcp-examples",
+            "virtual_path": "docs/docs/mcp-examples.md",
+            "children": [
+              {
+                "title": "Live Examples (WildFly 32)",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-examples.html#Live_Examples_.28Tested_on_WildFly_32.29",
+                "anchor": "docs-mcp-examples--live_examples_.28tested_on_wildfly_32.29",
+                "virtual_path": "docs/docs/mcp-examples.md"
+              },
+              {
+                "title": "Demo 1: Stress Test",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-examples.html#Demo_1.3A_Stress-test_.E2.80.94_.E2.80.9CWhat_if_correlations_spike.3F.E2.80.9D",
+                "anchor": "docs-mcp-examples--demo_1.3a_stress-test_.e2.80.94_.e2.80.9cwhat_if_correlations_spike.3f.e2.80.9d",
+                "virtual_path": "docs/docs/mcp-examples.md"
+              },
+              {
+                "title": "Demo 2: Pre-Trade Risk",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-examples.html#Demo_2.3A_Pre-trade_risk_.E2.80.94_.E2.80.9CShould_I_add_this_name.3F.E2.80.9D",
+                "anchor": "docs-mcp-examples--demo_2.3a_pre-trade_risk_.e2.80.94_.e2.80.9cshould_i_add_this_name.3f.e2.80.9d",
+                "virtual_path": "docs/docs/mcp-examples.md"
+              },
+              {
+                "title": "Demo 3: Convergence",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-examples.html#Demo_3.3A_Convergence_.E2.80.94_.E2.80.9CHow_much_compute_do_I_actually_need.3F.E2.80.9D",
+                "anchor": "docs-mcp-examples--demo_3.3a_convergence_.e2.80.94_.e2.80.9chow_much_compute_do_i_actually_need.3f.e2.80.9d",
+                "virtual_path": "docs/docs/mcp-examples.md"
+              },
+              {
+                "title": "Full Performance Summary (C vs Java)",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-examples.html#Full_Performance_Summary",
+                "anchor": "docs-mcp-examples--full_performance_summary",
+                "virtual_path": "docs/docs/mcp-examples.md"
+              }
+            ]
+          },
+          {
+            "title": "Offset/Limit Pagination for JSON-RPC Services",
+            "kind": "category",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/json-pagination.html",
+            "anchor": "docs-json-pagination",
+            "virtual_path": "docs/docs/json-pagination.md",
+            "children": [
+              {
+                "title": "23.8.1",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-pagination.html#overview",
+                "anchor": "docs-json-pagination--overview",
+                "virtual_path": "docs/docs/json-pagination.md"
+              },
+              {
+                "title": "23.8.2",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-pagination.html#wire_format",
+                "anchor": "docs-json-pagination--wire_format",
+                "virtual_path": "docs/docs/json-pagination.md"
+              },
+              {
+                "title": "23.8.3",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-pagination.html#service_integration",
+                "anchor": "docs-json-pagination--service_integration",
+                "virtual_path": "docs/docs/json-pagination.md"
+              },
+              {
+                "title": "23.8.4",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-pagination.html#frontend_patterns",
+                "anchor": "docs-json-pagination--frontend_patterns",
+                "virtual_path": "docs/docs/json-pagination.md"
+              },
+              {
+                "title": "23.8.5",
+                "kind": "link",
+                "source_url": "https://axis.apache.org/axis2/java/core/docs/json-pagination.html#safety",
+                "anchor": "docs-json-pagination--safety",
+                "virtual_path": "docs/docs/json-pagination.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Exposing CORBA Services as Web Services",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/corba-deployer.html",
+        "anchor": "docs-corba-deployer",
+        "virtual_path": "docs/docs/corba-deployer.md"
+      },
+      {
+        "title": "Guide to using EJB Provider in Axis2",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/ejb-provider.html",
+        "anchor": "docs-ejb-provider",
+        "virtual_path": "docs/docs/ejb-provider.md"
+      },
+      {
+        "title": "Command Line Tools",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/reference.html",
+        "anchor": "docs-reference",
+        "virtual_path": "docs/docs/reference.md"
+      },
+      {
+        "title": "Tools/Plug-ins",
+        "kind": "category",
+        "source_url": "https://axis.apache.org/axis2/java/core/tools/index.html",
+        "anchor": "tools",
+        "virtual_path": "docs/tools/index.md",
+        "children": [
+          {
+            "title": "25.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/tools/CodegenToolReference.html",
+            "anchor": "tools-codegentoolreference",
+            "virtual_path": "docs/tools/CodegenToolReference.md"
+          },
+          {
+            "title": "25.2",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/tools/maven-plugins/maven-aar-plugin.html",
+            "anchor": "tools-maven-plugins-maven-aar-plugin",
+            "virtual_path": "docs/tools/maven-plugins/maven-aar-plugin.md"
+          },
+          {
+            "title": "25.6",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/tools/maven-plugins/maven-java2wsdl-plugin.html",
+            "anchor": "tools-maven-plugins-maven-java2wsdl-plugin",
+            "virtual_path": "docs/tools/maven-plugins/maven-java2wsdl-plugin.md"
+          }
+        ]
+      },
+      {
+        "title": "Migration Guide (from Axis1)",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/migration.html",
+        "anchor": "docs-migration",
+        "virtual_path": "docs/docs/migration.md"
+      },
+      {
+        "title": "Design Notes",
+        "kind": "category",
+        "children": [
+          {
+            "title": "27.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/docs/Axis2-rpc-support.html",
+            "anchor": "docs-axis2-rpc-support",
+            "virtual_path": "docs/docs/Axis2-rpc-support.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Axis2/Java",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Home",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "Downloads",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/download.html",
+        "anchor": "download",
+        "virtual_path": "docs/download.md"
+      },
+      {
+        "title": "Release Notes",
+        "kind": "category",
+        "children": [
+          {
+            "title": "1.6.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.6.1.html",
+            "anchor": "release-notes-1.6.1",
+            "virtual_path": "docs/release-notes/1.6.1.md"
+          },
+          {
+            "title": "1.6.2",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.6.2.html",
+            "anchor": "release-notes-1.6.2",
+            "virtual_path": "docs/release-notes/1.6.2.md"
+          },
+          {
+            "title": "1.6.3",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.6.3.html",
+            "anchor": "release-notes-1.6.3",
+            "virtual_path": "docs/release-notes/1.6.3.md"
+          },
+          {
+            "title": "1.6.4",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.6.4.html",
+            "anchor": "release-notes-1.6.4",
+            "virtual_path": "docs/release-notes/1.6.4.md"
+          },
+          {
+            "title": "1.7.0",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.0.html",
+            "anchor": "release-notes-1.7.0",
+            "virtual_path": "docs/release-notes/1.7.0.md"
+          },
+          {
+            "title": "1.7.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.1.html",
+            "anchor": "release-notes-1.7.1",
+            "virtual_path": "docs/release-notes/1.7.1.md"
+          },
+          {
+            "title": "1.7.2",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.2.html",
+            "anchor": "release-notes-1.7.2",
+            "virtual_path": "docs/release-notes/1.7.2.md"
+          },
+          {
+            "title": "1.7.3",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.3.html",
+            "anchor": "release-notes-1.7.3",
+            "virtual_path": "docs/release-notes/1.7.3.md"
+          },
+          {
+            "title": "1.7.4",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.4.html",
+            "anchor": "release-notes-1.7.4",
+            "virtual_path": "docs/release-notes/1.7.4.md"
+          },
+          {
+            "title": "1.7.5",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.5.html",
+            "anchor": "release-notes-1.7.5",
+            "virtual_path": "docs/release-notes/1.7.5.md"
+          },
+          {
+            "title": "1.7.6",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.6.html",
+            "anchor": "release-notes-1.7.6",
+            "virtual_path": "docs/release-notes/1.7.6.md"
+          },
+          {
+            "title": "1.7.7",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.7.html",
+            "anchor": "release-notes-1.7.7",
+            "virtual_path": "docs/release-notes/1.7.7.md"
+          },
+          {
+            "title": "1.7.8",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.8.html",
+            "anchor": "release-notes-1.7.8",
+            "virtual_path": "docs/release-notes/1.7.8.md"
+          },
+          {
+            "title": "1.7.9",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.9.html",
+            "anchor": "release-notes-1.7.9",
+            "virtual_path": "docs/release-notes/1.7.9.md"
+          },
+          {
+            "title": "1.8.0",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.8.0.html",
+            "anchor": "release-notes-1.8.0",
+            "virtual_path": "docs/release-notes/1.8.0.md"
+          },
+          {
+            "title": "1.8.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.8.1.html",
+            "anchor": "release-notes-1.8.1",
+            "virtual_path": "docs/release-notes/1.8.1.md"
+          },
+          {
+            "title": "1.8.2",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.8.2.html",
+            "anchor": "release-notes-1.8.2",
+            "virtual_path": "docs/release-notes/1.8.2.md"
+          },
+          {
+            "title": "2.0.0",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/2.0.0.html",
+            "anchor": "release-notes-2.0.0",
+            "virtual_path": "docs/release-notes/2.0.0.md"
+          },
+          {
+            "title": "2.0.1",
+            "kind": "link",
+            "source_url": "https://axis.apache.org/axis2/java/core/release-notes/2.0.1.html",
+            "anchor": "release-notes-2.0.1",
+            "virtual_path": "docs/release-notes/2.0.1.md"
+          }
+        ]
+      },
+      {
+        "title": "Modules",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/modules/index.html",
+        "anchor": "modules",
+        "virtual_path": "docs/modules/index.md"
+      },
+      {
+        "title": "Tools",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/tools/index.html",
+        "anchor": "tools",
+        "virtual_path": "docs/tools/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Documentation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Table of Contents",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/toc.html",
+        "anchor": "docs-toc",
+        "virtual_path": "docs/docs/toc.md"
+      },
+      {
+        "title": "Installation Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/installationguide.html",
+        "anchor": "docs-installationguide",
+        "virtual_path": "docs/docs/installationguide.md"
+      },
+      {
+        "title": "QuickStart Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/quickstartguide.html",
+        "anchor": "docs-quickstartguide",
+        "virtual_path": "docs/docs/quickstartguide.md"
+      },
+      {
+        "title": "User Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/userguide.html",
+        "anchor": "docs-userguide",
+        "virtual_path": "docs/docs/userguide.md"
+      },
+      {
+        "title": "JAXWS Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/jaxws-guide.html",
+        "anchor": "docs-jaxws-guide",
+        "virtual_path": "docs/docs/jaxws-guide.md"
+      },
+      {
+        "title": "POJO Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/pojoguide.html",
+        "anchor": "docs-pojoguide",
+        "virtual_path": "docs/docs/pojoguide.md"
+      },
+      {
+        "title": "Spring Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/spring.html",
+        "anchor": "docs-spring",
+        "virtual_path": "docs/docs/spring.md"
+      },
+      {
+        "title": "Web Administrator's Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/webadminguide.html",
+        "anchor": "docs-webadminguide",
+        "virtual_path": "docs/docs/webadminguide.md"
+      },
+      {
+        "title": "Migration Guide (from Axis1)",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/migration.html",
+        "anchor": "docs-migration",
+        "virtual_path": "docs/docs/migration.md"
+      }
+    ]
+  },
+  {
+    "title": "Resources",
+    "kind": "category",
+    "children": [
+      {
+        "title": "FAQ",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/faq.html",
+        "anchor": "faq",
+        "virtual_path": "docs/faq.md"
+      }
+    ]
+  },
+  {
+    "title": "Get Involved",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/overview.html",
+        "anchor": "overview",
+        "virtual_path": "docs/overview.md"
+      },
+      {
+        "title": "Release Process",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/release-process.html",
+        "anchor": "release-process",
+        "virtual_path": "docs/release-process.md"
+      },
+      {
+        "title": "Developer Guidelines",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/guidelines.html",
+        "anchor": "guidelines",
+        "virtual_path": "docs/guidelines.md"
+      },
+      {
+        "title": "Build the Site",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/siteHowTo.html",
+        "anchor": "sitehowto",
+        "virtual_path": "docs/siteHowTo.md"
+      }
+    ]
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Apache Tomcat 11 + Axis2 HTTP/2 Integration Guide",
+        "kind": "link",
+        "source_url": "https://axis.apache.org/axis2/java/core/docs/tomcat-http2-integration-guide.html",
+        "anchor": "docs-tomcat-http2-integration-guide",
+        "virtual_path": "docs/docs/tomcat-http2-integration-guide.md"
+      }
+    ]
+  }
+]

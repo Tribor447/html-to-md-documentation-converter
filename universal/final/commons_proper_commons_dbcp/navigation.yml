@@ -1,0 +1,88 @@
+- title: Commons DBCP
+  kind: category
+  children:
+  - title: About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbcp/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Sources
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbcp/scm.html
+    anchor: scm
+    virtual_path: docs/scm.md
+  - title: Security
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbcp/security.html
+    anchor: security
+    virtual_path: docs/security.md
+  - title: Javadoc
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-dbcp/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Configuration
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbcp/configuration.html
+    anchor: configuration
+    virtual_path: docs/configuration.md
+  - title: Developers Guide
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-dbcp/guide/index.html
+    anchor: guide
+    virtual_path: docs/guide/index.md
+    children:
+    - title: JNDI Howto
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbcp/guide/jndi-howto.html
+      anchor: guide-jndi-howto
+      virtual_path: docs/guide/jndi-howto.md
+    - title: Class Diagrams
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbcp/guide/classdiagrams.html
+      anchor: guide-classdiagrams
+      virtual_path: docs/guide/classdiagrams.md
+    - title: Sequence Diagrams
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbcp/guide/sequencediagrams.html
+      anchor: guide-sequencediagrams
+      virtual_path: docs/guide/sequencediagrams.md
+    - title: Building
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbcp/building.html
+      anchor: building
+      virtual_path: docs/building.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-dbcp/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbcp/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbcp/summary.html
+      anchor: summary
+      virtual_path: docs/summary.md
+    - title: Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbcp/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbcp/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: CI Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-dbcp/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md

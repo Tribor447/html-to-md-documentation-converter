@@ -1,0 +1,1160 @@
+- title: Docs
+  kind: link
+  source_url: https://stanbol.apache.org/docs/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Trunk
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/
+  anchor: trunk
+  virtual_path: docs/trunk/index.md
+- title: Components
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/
+  anchor: trunk-components
+  virtual_path: docs/trunk/components/index.md
+- title: Enhancer
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/
+  anchor: trunk-components-enhancer
+  virtual_path: docs/trunk/components/enhancer/index.md
+- title: Engines
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/
+  anchor: trunk-components-enhancer-engines
+  virtual_path: docs/trunk/components/enhancer/engines/index.md
+- title: Preprocessing
+  kind: category
+  children:
+  - title: Tika Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/tikaengine
+    anchor: trunk-components-enhancer-engines-tikaengine
+    virtual_path: docs/trunk/components/enhancer/engines/tikaengine.md
+  - title: Metaxa Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/metaxaengine
+    anchor: trunk-components-enhancer-engines-metaxaengine
+    virtual_path: docs/trunk/components/enhancer/engines/metaxaengine.md
+- title: Language Detection
+  kind: category
+  children:
+  - title: Language Identification Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/langidengine
+    anchor: trunk-components-enhancer-engines-langidengine
+    virtual_path: docs/trunk/components/enhancer/engines/langidengine.md
+  - title: Language Detection Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/langdetectengine
+    anchor: trunk-components-enhancer-engines-langdetectengine
+    virtual_path: docs/trunk/components/enhancer/engines/langdetectengine.md
+  - title: RESTful Language Identification Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/restfullangident
+    anchor: trunk-components-enhancer-engines-restfullangident
+    virtual_path: docs/trunk/components/enhancer/engines/restfullangident.md
+    children:
+    - title: Client for the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/restfullangidentservice
+      anchor: trunk-components-enhancer-nlp-restfullangidentservice
+      virtual_path: docs/trunk/components/enhancer/nlp/restfullangidentservice.md
+- title: Sentence Detection
+  kind: category
+  children:
+  - title: OpenNLP Sentence Detection Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opennlpsentence
+    anchor: trunk-components-enhancer-engines-opennlpsentence
+    virtual_path: docs/trunk/components/enhancer/engines/opennlpsentence.md
+  - title: Smartcn Sentence Detection Engine
+    kind: category
+    children:
+    - title: Part of the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/smartcn
+      anchor: trunk-components-enhancer-nlp-smartcn
+      virtual_path: docs/trunk/components/enhancer/nlp/smartcn.md
+- title: Tokenizer Engines
+  kind: category
+  children:
+  - title: OpenNLP Tokenizer Detection Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opennlptokenizer
+    anchor: trunk-components-enhancer-engines-opennlptokenizer
+    virtual_path: docs/trunk/components/enhancer/engines/opennlptokenizer.md
+  - title: Smartcn Tokenizer Engine
+    kind: category
+    children:
+    - title: Part of the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/smartcn
+      anchor: trunk-components-enhancer-nlp-smartcn
+      virtual_path: docs/trunk/components/enhancer/nlp/smartcn.md
+  - title: Paoding Tokenizer Engine
+    kind: category
+    children:
+    - title: Part of the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/paoding
+      anchor: trunk-components-enhancer-nlp-paoding
+      virtual_path: docs/trunk/components/enhancer/nlp/paoding.md
+- title: Part of Speech (POS) Tagging
+  kind: category
+  children:
+  - title: OpenNLP POS Tagging Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opennlppos
+    anchor: trunk-components-enhancer-engines-opennlppos
+    virtual_path: docs/trunk/components/enhancer/engines/opennlppos.md
+- title: Chunk/Phrase detection
+  kind: category
+  children:
+  - title: OpenNLP Chunker Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opennlpchunker
+    anchor: trunk-components-enhancer-engines-opennlpchunker
+    virtual_path: docs/trunk/components/enhancer/engines/opennlpchunker.md
+- title: Named Entity Recognition (NER) Engines
+  kind: category
+  children:
+  - title: OpenNLP NER Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opennlpner
+    anchor: trunk-components-enhancer-engines-opennlpner
+    virtual_path: docs/trunk/components/enhancer/engines/opennlpner.md
+    children:
+    - title: supports
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/nlpannotations#name-entity-ner-annotations
+      anchor: trunk-components-enhancer-nlp-nlpannotations--name-entity-ner-annotations
+      virtual_path: docs/trunk/components/enhancer/nlp/nlpannotations.md
+  - title: OpenNLP Custom NER Model Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opennlpcustomner
+    anchor: trunk-components-enhancer-engines-opennlpcustomner
+    virtual_path: docs/trunk/components/enhancer/engines/opennlpcustomner.md
+  - title: OpenCalais Enhancement Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opencalaisengine
+    anchor: trunk-components-enhancer-engines-opencalaisengine
+    virtual_path: docs/trunk/components/enhancer/engines/opencalaisengine.md
+- title: General NLP processing Engines
+  kind: category
+  children:
+  - title: RESTfull NLP Analysis Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/restfulnlpanalysis
+    anchor: trunk-components-enhancer-engines-restfulnlpanalysis
+    virtual_path: docs/trunk/components/enhancer/engines/restfulnlpanalysis.md
+    children:
+    - title: client for the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/restfulnlpanalysisservice
+      anchor: trunk-components-enhancer-nlp-restfulnlpanalysisservice
+      virtual_path: docs/trunk/components/enhancer/nlp/restfulnlpanalysisservice.md
+  - title: Kuromoji NLP Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/kuromojinlp
+    anchor: trunk-components-enhancer-engines-kuromojinlp
+    virtual_path: docs/trunk/components/enhancer/engines/kuromojinlp.md
+- title: Linking / Suggestions
+  kind: category
+  children:
+  - title: Named Entity Linking Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/namedentitytaggingengine
+    anchor: trunk-components-enhancer-engines-namedentitytaggingengine
+    virtual_path: docs/trunk/components/enhancer/engines/namedentitytaggingengine.md
+  - title: Entityhub Linking Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/entityhublinking
+    anchor: trunk-components-enhancer-engines-entityhublinking
+    virtual_path: docs/trunk/components/enhancer/engines/entityhublinking.md
+    children:
+    - title: EntityLinkingEngine
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/entitylinking
+      anchor: trunk-components-enhancer-engines-entitylinking
+      virtual_path: docs/trunk/components/enhancer/engines/entitylinking.md
+    - title: consumes NLP processing results form the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/analyzedtext
+      anchor: trunk-components-enhancer-nlp-analyzedtext
+      virtual_path: docs/trunk/components/enhancer/nlp/analyzedtext.md
+  - title: FST Linking Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/lucenefstlinking
+    anchor: trunk-components-enhancer-engines-lucenefstlinking
+    virtual_path: docs/trunk/components/enhancer/engines/lucenefstlinking.md
+    children:
+    - title: Provides better linking performance as the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/entityhublinking
+      anchor: trunk-components-enhancer-engines-entityhublinking
+      virtual_path: docs/trunk/components/enhancer/engines/entityhublinking.md
+  - title: Entity Co-Mention Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/comention
+    anchor: trunk-components-enhancer-engines-comention
+    virtual_path: docs/trunk/components/enhancer/engines/comention.md
+  - title: Geonames Enhancement Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/geonamesengine
+    anchor: trunk-components-enhancer-engines-geonamesengine
+    virtual_path: docs/trunk/components/enhancer/engines/geonamesengine.md
+  - title: OpenCalais Enhancement Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opencalaisengine
+    anchor: trunk-components-enhancer-engines-opencalaisengine
+    virtual_path: docs/trunk/components/enhancer/engines/opencalaisengine.md
+  - title: Zemanta Enhancement Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/zemantaengine
+    anchor: trunk-components-enhancer-engines-zemantaengine
+    virtual_path: docs/trunk/components/enhancer/engines/zemantaengine.md
+- title: Sentiment Analyses
+  kind: category
+  children:
+  - title: AnalyzedText
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/analyzedtext
+    anchor: trunk-components-enhancer-nlp-analyzedtext
+    virtual_path: docs/trunk/components/enhancer/nlp/analyzedtext.md
+- title: Dereference Entities
+  kind: category
+  children:
+  - title: Entityhub Dereference Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/entityhubdereference
+    anchor: trunk-components-enhancer-engines-entityhubdereference
+    virtual_path: docs/trunk/components/enhancer/engines/entityhubdereference.md
+- title: Refactor Engines
+  kind: category
+  children:
+  - title: TextAnnotation new Model Converter Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/textannotationnewmodel
+    anchor: trunk-components-enhancer-engines-textannotationnewmodel
+    virtual_path: docs/trunk/components/enhancer/engines/textannotationnewmodel.md
+  - title: Refactor Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/refactorengine
+    anchor: trunk-components-enhancer-engines-refactorengine
+    virtual_path: docs/trunk/components/enhancer/engines/refactorengine.md
+- title: Others
+  kind: category
+  children:
+  - title: NIF 2.0 Transformation Engine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/nif20
+    anchor: trunk-components-enhancer-engines-nif20
+    virtual_path: docs/trunk/components/enhancer/engines/nif20.md
+    children:
+    - title: This engines allows to retrieve detailed information about NLP results
+        typically only available by the Java API of the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/analyzedtext
+      anchor: trunk-components-enhancer-nlp-analyzedtext
+      virtual_path: docs/trunk/components/enhancer/nlp/analyzedtext.md
+- title: Deprecated
+  kind: category
+  children:
+  - title: KeywordLinkingEngine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/keywordlinkingengine
+    anchor: trunk-components-enhancer-engines-keywordlinkingengine
+    virtual_path: docs/trunk/components/enhancer/engines/keywordlinkingengine.md
+  - title: STANBOL-741
+    kind: category
+    children:
+    - title: replaced by the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/nif20
+      anchor: trunk-components-enhancer-engines-nif20
+      virtual_path: docs/trunk/components/enhancer/engines/nif20.md
+    - title: converts NLP processing results stored in the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/analyzedtext
+      anchor: trunk-components-enhancer-nlp-analyzedtext
+      virtual_path: docs/trunk/components/enhancer/nlp/analyzedtext.md
+- title: EntityLinkingEngine
+  kind: category
+  children:
+  - title: EntitySearcher
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/entityhublinking
+    anchor: trunk-components-enhancer-engines-entityhublinking
+    virtual_path: docs/trunk/components/enhancer/engines/entityhublinking.md
+- title: Entity Linker Configuration
+  kind: category
+  children:
+  - title: Type Field
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancementstructure#fiseentityannotation
+    anchor: trunk-components-enhancer-enhancementstructure--fiseentityannotation
+    virtual_path: docs/trunk/components/enhancer/enhancementstructure.md
+  - title: Type Mappings
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancementstructure#fisetextannotation
+    anchor: trunk-components-enhancer-enhancementstructure--fisetextannotation
+    virtual_path: docs/trunk/components/enhancer/enhancementstructure.md
+- title: Min Search Token Length
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/analyzedtext
+  anchor: trunk-components-enhancer-nlp-analyzedtext
+  virtual_path: docs/trunk/components/enhancer/nlp/analyzedtext.md
+- title: Nlp
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/
+  anchor: trunk-components-enhancer-nlp
+  virtual_path: docs/trunk/components/enhancer/nlp/index.md
+- title: 'Overview:'
+  kind: category
+  children:
+  - title: The
+    kind: category
+    children:
+    - title: how to implement an
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/nlpengine
+      anchor: trunk-components-enhancer-nlp-nlpengine
+      virtual_path: docs/trunk/components/enhancer/nlp/nlpengine.md
+    - title: how to integrate third party NLP frameworks as a
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/restfulnlpanalysisservice
+      anchor: trunk-components-enhancer-nlp-restfulnlpanalysisservice
+      virtual_path: docs/trunk/components/enhancer/nlp/restfulnlpanalysisservice.md
+- title: NLP processing API
+  kind: category
+  children:
+  - title: Analysed Text
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/analyzedtext
+    anchor: trunk-components-enhancer-nlp-analyzedtext
+    virtual_path: docs/trunk/components/enhancer/nlp/analyzedtext.md
+  - title: NLP Annotations
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/nlpannotations
+    anchor: trunk-components-enhancer-nlp-nlpannotations
+    virtual_path: docs/trunk/components/enhancer/nlp/nlpannotations.md
+- title: Utilities for
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/nlpengine
+  anchor: trunk-components-enhancer-nlp-nlpengine
+  virtual_path: docs/trunk/components/enhancer/nlp/nlpengine.md
+- title: JSON serialization and parsing support for analysed text including NLP annotations.
+    Together with the
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/restfulnlpanalysis
+  anchor: trunk-components-enhancer-engines-restfulnlpanalysis
+  virtual_path: docs/trunk/components/enhancer/engines/restfulnlpanalysis.md
+- title: RESTful service definition for a
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/restfullangidentservice
+  anchor: trunk-components-enhancer-nlp-restfullangidentservice
+  virtual_path: docs/trunk/components/enhancer/nlp/restfullangidentservice.md
+- title: Integrated NLP frameworks
+  kind: category
+  children:
+  - title: OpenNLP
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/opennlp
+    anchor: trunk-components-enhancer-nlp-opennlp
+    virtual_path: docs/trunk/components/enhancer/nlp/opennlp.md
+  - title: Smartcn
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/smartcn
+    anchor: trunk-components-enhancer-nlp-smartcn
+    virtual_path: docs/trunk/components/enhancer/nlp/smartcn.md
+  - title: Paoding
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/paoding
+    anchor: trunk-components-enhancer-nlp-paoding
+    virtual_path: docs/trunk/components/enhancer/nlp/paoding.md
+  - title: CELI / linguagrid.org
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/celi
+    anchor: trunk-components-enhancer-nlp-celi
+    virtual_path: docs/trunk/components/enhancer/nlp/celi.md
+- title: Supported Languages
+  kind: category
+  children:
+  - title: Chinese
+    kind: category
+    children:
+    - title: Smartcn
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/smartcn
+      anchor: trunk-components-enhancer-nlp-smartcn
+      virtual_path: docs/trunk/components/enhancer/nlp/smartcn.md
+    - title: Paoding
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/paoding
+      anchor: trunk-components-enhancer-nlp-paoding
+      virtual_path: docs/trunk/components/enhancer/nlp/paoding.md
+  - title: Danish
+    kind: category
+    children:
+    - title: OpenNLP
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/opennlp
+      anchor: trunk-components-enhancer-nlp-opennlp
+      virtual_path: docs/trunk/components/enhancer/nlp/opennlp.md
+    - title: CELI
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/celi
+      anchor: trunk-components-enhancer-nlp-celi
+      virtual_path: docs/trunk/components/enhancer/nlp/celi.md
+  - title: English
+    kind: category
+    children:
+    - title: OpenNLP
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/opennlp
+      anchor: trunk-components-enhancer-nlp-opennlp
+      virtual_path: docs/trunk/components/enhancer/nlp/opennlp.md
+    - title: OpenCalais
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opencalaisengine
+      anchor: trunk-components-enhancer-engines-opencalaisengine
+      virtual_path: docs/trunk/components/enhancer/engines/opencalaisengine.md
+  - title: French
+    kind: category
+    children:
+    - title: CELI
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/celi
+      anchor: trunk-components-enhancer-nlp-celi
+      virtual_path: docs/trunk/components/enhancer/nlp/celi.md
+    - title: OpenCalais
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opencalaisengine
+      anchor: trunk-components-enhancer-engines-opencalaisengine
+      virtual_path: docs/trunk/components/enhancer/engines/opencalaisengine.md
+  - title: German
+    kind: category
+    children:
+    - title: OpenNLP
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/opennlp
+      anchor: trunk-components-enhancer-nlp-opennlp
+      virtual_path: docs/trunk/components/enhancer/nlp/opennlp.md
+    - title: CELI
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/celi
+      anchor: trunk-components-enhancer-nlp-celi
+      virtual_path: docs/trunk/components/enhancer/nlp/celi.md
+  - title: Italien
+    kind: category
+    children:
+    - title: CELI
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/celi
+      anchor: trunk-components-enhancer-nlp-celi
+      virtual_path: docs/trunk/components/enhancer/nlp/celi.md
+  - title: Japanese
+    kind: category
+    children:
+    - title: Kuromoji
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/kuromojinlp
+      anchor: trunk-components-enhancer-engines-kuromojinlp
+      virtual_path: docs/trunk/components/enhancer/engines/kuromojinlp.md
+  - title: Portuguese
+    kind: category
+    children:
+    - title: OpenNLP
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/opennlp
+      anchor: trunk-components-enhancer-nlp-opennlp
+      virtual_path: docs/trunk/components/enhancer/nlp/opennlp.md
+  - title: Romanian
+    kind: category
+    children:
+    - title: CELI
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/celi
+      anchor: trunk-components-enhancer-nlp-celi
+      virtual_path: docs/trunk/components/enhancer/nlp/celi.md
+  - title: Russian
+    kind: category
+    children:
+    - title: CELI
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/celi
+      anchor: trunk-components-enhancer-nlp-celi
+      virtual_path: docs/trunk/components/enhancer/nlp/celi.md
+  - title: Spanish
+    kind: category
+    children:
+    - title: OpenNLP
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/opennlp
+      anchor: trunk-components-enhancer-nlp-opennlp
+      virtual_path: docs/trunk/components/enhancer/nlp/opennlp.md
+    - title: OpenCalais
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opencalaisengine
+      anchor: trunk-components-enhancer-engines-opencalaisengine
+      virtual_path: docs/trunk/components/enhancer/engines/opencalaisengine.md
+  - title: Swedish
+    kind: category
+    children:
+    - title: OpenNLP
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/opennlp
+      anchor: trunk-components-enhancer-nlp-opennlp
+      virtual_path: docs/trunk/components/enhancer/nlp/opennlp.md
+    - title: CELI
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/celi
+      anchor: trunk-components-enhancer-nlp-celi
+      virtual_path: docs/trunk/components/enhancer/nlp/celi.md
+- title: Managing Custom Vocabularies with the Stanbol Entityhub
+  kind: category
+  children:
+  - title: Managed Sites
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/entityhub/managedsite
+    anchor: trunk-components-entityhub-managedsite
+    virtual_path: docs/trunk/components/entityhub/managedsite.md
+- title: Using a Entityhub Managed Site
+  kind: category
+  children:
+  - title: the
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/entityhub/managedsite#configuration-of-a-solryard
+    anchor: trunk-components-entityhub-managedsite--configuration-of-a-solryard
+    virtual_path: docs/trunk/components/entityhub/managedsite.md
+- title: '"langdetect" -'
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/langdetectengine
+  anchor: trunk-components-enhancer-engines-langdetectengine
+  virtual_path: docs/trunk/components/enhancer/engines/langdetectengine.md
+- title: '"{name}Linking - the'
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/namedentitytaggingengine
+  anchor: trunk-components-enhancer-engines-namedentitytaggingengine
+  virtual_path: docs/trunk/components/enhancer/engines/namedentitytaggingengine.md
+- title: Configuring Entity Linking
+  kind: category
+  children:
+  - title: The configuration of the field used for linking
+    kind: category
+    children:
+    - title: in case of the FST Linking engine you need to provide the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/lucenefstlinking#fst-tagging-configuration
+      anchor: trunk-components-enhancer-engines-lucenefstlinking--fst-tagging-configuration
+      virtual_path: docs/trunk/components/enhancer/engines/lucenefstlinking.md
+  - title: The "Type Mappings" might be interesting for you if your vocabulary contains
+      custom types as those mappings can be used to map 'rdf:type's of entities in
+      your vocabulary to 'dc:typ
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/entitylinking#type-mappings-syntax
+    anchor: trunk-components-enhancer-engines-entitylinking--type-mappings-syntax
+    virtual_path: docs/trunk/components/enhancer/engines/entitylinking.md
+- title: opennlp-sentence -
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opennlpsentence
+  anchor: trunk-components-enhancer-engines-opennlpsentence
+  virtual_path: docs/trunk/components/enhancer/engines/opennlpsentence.md
+- title: opennlp-token -
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opennlptokenizer
+  anchor: trunk-components-enhancer-engines-opennlptokenizer
+  virtual_path: docs/trunk/components/enhancer/engines/opennlptokenizer.md
+- title: opennlp-pos -
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opennlppos
+  anchor: trunk-components-enhancer-engines-opennlppos
+  virtual_path: docs/trunk/components/enhancer/engines/opennlppos.md
+- title: opennlp-chunker - The
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opennlpchunker
+  anchor: trunk-components-enhancer-engines-opennlpchunker
+  virtual_path: docs/trunk/components/enhancer/engines/opennlpchunker.md
+- title: '"{name}Extraction - the'
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/entityhublinking
+  anchor: trunk-components-enhancer-engines-entityhublinking
+  virtual_path: docs/trunk/components/enhancer/engines/entityhublinking.md
+- title: Working with Multiple Languages
+  kind: category
+  children:
+  - title: Keyword Linking
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/keywordlinkingengine
+    anchor: trunk-components-enhancer-engines-keywordlinkingengine
+    virtual_path: docs/trunk/components/enhancer/engines/keywordlinkingengine.md
+- title: English
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/namedentitytaggingengine
+  anchor: trunk-components-enhancer-engines-namedentitytaggingengine
+  virtual_path: docs/trunk/components/enhancer/engines/namedentitytaggingengine.md
+- title: Spansh
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/namedentitytaggingengine
+  anchor: trunk-components-enhancer-engines-namedentitytaggingengine
+  virtual_path: docs/trunk/components/enhancer/engines/namedentitytaggingengine.md
+- title: Dutch
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/namedentitytaggingengine
+  anchor: trunk-components-enhancer-engines-namedentitytaggingengine
+  virtual_path: docs/trunk/components/enhancer/engines/namedentitytaggingengine.md
+- title: French
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opencalaisengine
+  anchor: trunk-components-enhancer-engines-opencalaisengine
+  virtual_path: docs/trunk/components/enhancer/engines/opencalaisengine.md
+- title: Configuration steps
+  kind: category
+  children:
+  - title: Configure the Named Entity Linking / Keyword Linking chain(s)
+    kind: category
+    children:
+    - title: ensure language detection support (e.g by using the
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/langidengine
+      anchor: trunk-components-enhancer-engines-langidengine
+      virtual_path: docs/trunk/components/enhancer/engines/langidengine.md
+    - title: configure the required Enhancement Engines and one or more
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/
+      anchor: trunk-components-enhancer-chains
+      virtual_path: docs/trunk/components/enhancer/chains/index.md
+- title: Configure Named Entity Linking
+  kind: category
+  children:
+  - title: 'NER Engine: possibilities include'
+    kind: category
+    children:
+    - title: NamedEntityTaggingEngine
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/namedentitytaggingengine
+      anchor: trunk-components-enhancer-engines-namedentitytaggingengine
+      virtual_path: docs/trunk/components/enhancer/engines/namedentitytaggingengine.md
+    - title: OpenCalais
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/opencalaisengine
+      anchor: trunk-components-enhancer-engines-opencalaisengine
+      virtual_path: docs/trunk/components/enhancer/engines/opencalaisengine.md
+- title: Configure KeywordLinking
+  kind: category
+  children:
+  - title: Name
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/
+    anchor: trunk-components-enhancer-chains
+    virtual_path: docs/trunk/components/enhancer/chains/index.md
+- title: '"youVocKeyqord - custom configuration of the'
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/keywordlinkingengine
+  anchor: trunk-components-enhancer-engines-keywordlinkingengine
+  virtual_path: docs/trunk/components/enhancer/engines/keywordlinkingengine.md
+- title: Configuration
+  kind: category
+  children:
+  - title: Fallback Mode
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/weightedchain.html
+    anchor: trunk-components-enhancer-chains-weightedchain
+    virtual_path: docs/trunk/components/enhancer/chains/weightedchain.md
+- title: Configuration Parameter
+  kind: category
+  children:
+  - title: Name
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/
+    anchor: trunk-components-enhancer-engines
+    virtual_path: docs/trunk/components/enhancer/engines/index.md
+  - title: Label Field
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/customvocabulary.html
+    anchor: trunk-customvocabulary
+    virtual_path: docs/trunk/customvocabulary.md
+  - title: Type Field
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancementstructure#fiseentityannotation
+    anchor: trunk-components-enhancer-enhancementstructure--fiseentityannotation
+    virtual_path: docs/trunk/components/enhancer/enhancementstructure.md
+  - title: Type Mappings
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancementstructure#fisetextannotation
+    anchor: trunk-components-enhancer-enhancementstructure--fisetextannotation
+    virtual_path: docs/trunk/components/enhancer/enhancementstructure.md
+- title: Engine Name and Service Ranking
+  kind: category
+  children:
+  - title: Name
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/
+    anchor: trunk-components-enhancer-engines
+    virtual_path: docs/trunk/components/enhancer/engines/index.md
+- title: Configuration of the Solr Index
+  kind: category
+  children:
+  - title: ReferencedSolrServer
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/utils/commons-solr#referencedsolrserver
+    anchor: trunk-utils-commons-solr--referencedsolrserver
+    virtual_path: docs/trunk/utils/commons-solr.md
+  - title: ManagedSolrServer
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/utils/commons-solr#managedsolrserver
+    anchor: trunk-utils-commons-solr--managedsolrserver
+    virtual_path: docs/trunk/utils/commons-solr.md
+- title: Linking Mode
+  kind: category
+  children:
+  - title: ': This mode will only consider detected Named Entities for linking. This
+      mode is similar to using the'
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/namedentitytaggingengine
+    anchor: trunk-components-enhancer-engines-namedentitytaggingengine
+    virtual_path: docs/trunk/components/enhancer/engines/namedentitytaggingengine.md
+- title: FST storage location
+  kind: category
+  children:
+  - title: ': the name of the'
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/utils/commons-solr#referencedsolrserver
+    anchor: trunk-utils-commons-solr--referencedsolrserver
+    virtual_path: docs/trunk/utils/commons-solr.md
+- title: RESTful NLP Analysis Service
+  kind: category
+  children:
+  - title: 'NLP Frameworks under licenses with strong copy left such as GPL and AGLP:
+      Integrating a NLP framework as'
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/nlpengine
+    anchor: trunk-components-enhancer-nlp-nlpengine
+    virtual_path: docs/trunk/components/enhancer/nlp/nlpengine.md
+- title: Integration of NLP frameworks with the Stanbol NLP processing Module
+  kind: category
+  children:
+  - title: create an
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/analyzedtext
+    anchor: trunk-components-enhancer-nlp-analyzedtext
+    virtual_path: docs/trunk/components/enhancer/nlp/analyzedtext.md
+- title: Design
+  kind: category
+  children:
+  - title: EnhancementEngine
+    kind: category
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/
+    anchor: trunk-components-enhancer-engines
+    virtual_path: docs/trunk/components/enhancer/engines/index.md
+    children:
+    - title: supports
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancementproperties
+      anchor: trunk-components-enhancer-enhancementproperties
+      virtual_path: docs/trunk/components/enhancer/enhancementproperties.md
+- title: Ontologymanager
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/ontologymanager/
+  anchor: trunk-components-ontologymanager
+  virtual_path: docs/trunk/components/ontologymanager/index.md
+- title: Ontonet
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/ontologymanager/ontonet/
+  anchor: trunk-components-ontologymanager-ontonet
+  virtual_path: docs/trunk/components/ontologymanager/ontonet/index.md
+- title: Main Interfaces and Utility Classes
+  kind: category
+  children:
+  - title: ContentItem
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/contentitem
+    anchor: trunk-components-enhancer-contentitem
+    virtual_path: docs/trunk/components/enhancer/contentitem.md
+  - title: EnhancementEngine
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/
+    anchor: trunk-components-enhancer-engines
+    virtual_path: docs/trunk/components/enhancer/engines/index.md
+  - title: EnhancementChain
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/
+    anchor: trunk-components-enhancer-chains
+    virtual_path: docs/trunk/components/enhancer/chains/index.md
+  - title: EnhancementJobManager
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancementjobmanager.html
+    anchor: trunk-components-enhancer-enhancementjobmanager
+    virtual_path: docs/trunk/components/enhancer/enhancementjobmanager.md
+  - title: ChainManager
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/chainmanager.html
+    anchor: trunk-components-enhancer-chains-chainmanager
+    virtual_path: docs/trunk/components/enhancer/chains/chainmanager.md
+  - title: EnhancementEngineManager
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/enhancementenginemanager.html
+    anchor: trunk-components-enhancer-engines-enhancementenginemanager
+    virtual_path: docs/trunk/components/enhancer/engines/enhancementenginemanager.md
+- title: Enhancement Structure
+  kind: category
+  children:
+  - title: TextAnnotaitons
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancementstructure#fisetextannotation
+    anchor: trunk-components-enhancer-enhancementstructure--fisetextannotation
+    virtual_path: docs/trunk/components/enhancer/enhancementstructure.md
+  - title: EntityAnnotaitons
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancementstructure#fiseentityannotation
+    anchor: trunk-components-enhancer-enhancementstructure--fiseentityannotation
+    virtual_path: docs/trunk/components/enhancer/enhancementstructure.md
+  - title: TopicAnnotaitons
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancementstructure#fisetopicannotation
+    anchor: trunk-components-enhancer-enhancementstructure--fisetopicannotation
+    virtual_path: docs/trunk/components/enhancer/enhancementstructure.md
+- title: Configuring and Using Enhancement Chains
+  kind: category
+  children:
+  - title: the self sorting
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/weightedchain.html
+    anchor: trunk-components-enhancer-chains-weightedchain
+    virtual_path: docs/trunk/components/enhancer/chains/weightedchain.md
+  - title: the
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/listchain.html
+    anchor: trunk-components-enhancer-chains-listchain
+    virtual_path: docs/trunk/components/enhancer/chains/listchain.md
+- title: tika
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/tikaengine
+  anchor: trunk-components-enhancer-engines-tikaengine
+  virtual_path: docs/trunk/components/enhancer/engines/tikaengine.md
+- title: langid
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/langidengine
+  anchor: trunk-components-enhancer-engines-langidengine
+  virtual_path: docs/trunk/components/enhancer/engines/langidengine.md
+- title: dbpediaLinking
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/namedentitytaggingengine
+  anchor: trunk-components-enhancer-engines-namedentitytaggingengine
+  virtual_path: docs/trunk/components/enhancer/engines/namedentitytaggingengine.md
+- title: myCustomVocExtraction
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/keywordlinkingengine
+  anchor: trunk-components-enhancer-engines-keywordlinkingengine
+  virtual_path: docs/trunk/components/enhancer/engines/keywordlinkingengine.md
+- title: zemanta
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/zemantaengine
+  anchor: trunk-components-enhancer-engines-zemantaengine
+  virtual_path: docs/trunk/components/enhancer/engines/zemantaengine.md
+- title: As one needs to use the names of active
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/
+  anchor: trunk-components-enhancer-engines
+  virtual_path: docs/trunk/components/enhancer/engines/index.md
+- title: Utils
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/utils/
+  anchor: trunk-utils
+  virtual_path: docs/trunk/utils/index.md
+- title: Chains
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/
+  anchor: trunk-components-enhancer-chains
+  virtual_path: docs/trunk/components/enhancer/chains/index.md
+- title: Chain implementations
+  kind: category
+  children:
+  - title: DefaultChain
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/defaultchain.html
+    anchor: trunk-components-enhancer-chains-defaultchain
+    virtual_path: docs/trunk/components/enhancer/chains/defaultchain.md
+  - title: ListChain
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/listchain.html
+    anchor: trunk-components-enhancer-chains-listchain
+    virtual_path: docs/trunk/components/enhancer/chains/listchain.md
+  - title: WeightedChain
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/weightedchain.html
+    anchor: trunk-components-enhancer-chains-weightedchain
+    virtual_path: docs/trunk/components/enhancer/chains/weightedchain.md
+  - title: GraphChain
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/graphchain.html
+    anchor: trunk-components-enhancer-chains-graphchain
+    virtual_path: docs/trunk/components/enhancer/chains/graphchain.md
+  - title: SingleEngineChain
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancementjobmanager.html
+    anchor: trunk-components-enhancer-enhancementjobmanager
+    virtual_path: docs/trunk/components/enhancer/enhancementjobmanager.md
+- title: Apache Stanbol Ontology Manager
+  kind: category
+  source_url: https://stanbol.apache.org/docs/trunk/components/ontologymanager/
+  anchor: trunk-components-ontologymanager
+  virtual_path: docs/trunk/components/ontologymanager/index.md
+- title: Features
+  kind: category
+  children:
+  - title: SWRL
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/reasoner/
+    anchor: trunk-components-reasoner
+    virtual_path: docs/trunk/components/reasoner/index.md
+  - title: Jena Rules
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/reasoner/
+    anchor: trunk-components-reasoner
+    virtual_path: docs/trunk/components/reasoner/index.md
+  - title: SPARQL
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/rules/refactor.html
+    anchor: trunk-components-rules-refactor
+    virtual_path: docs/trunk/components/rules/refactor.md
+- title: Sub-Components
+  kind: category
+  children:
+  - title: OntoNet
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/ontologymanager/ontonet/
+    anchor: trunk-components-ontologymanager-ontonet
+    virtual_path: docs/trunk/components/ontologymanager/ontonet/index.md
+  - title: Registry
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/ontologymanager/registry/
+    anchor: trunk-components-ontologymanager-registry
+    virtual_path: docs/trunk/components/ontologymanager/registry/index.md
+  - title: Rule language
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/rules/language.html
+    anchor: trunk-components-rules-language
+    virtual_path: docs/trunk/components/rules/language.md
+  - title: Rule Store
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/rules/store.html
+    anchor: trunk-components-rules-store
+    virtual_path: docs/trunk/components/rules/store.md
+  - title: Refactor
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/rules/refactor.html
+    anchor: trunk-components-rules-refactor
+    virtual_path: docs/trunk/components/rules/refactor.md
+- title: Rules
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/rules/
+  anchor: trunk-components-rules
+  virtual_path: docs/trunk/components/rules/index.md
+- title: Entityhub
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/entityhub/
+  anchor: trunk-components-entityhub
+  virtual_path: docs/trunk/components/entityhub/index.md
+- title: Apache Entityhub
+  kind: category
+  source_url: https://stanbol.apache.org/docs/trunk/components/entityhub/
+  anchor: trunk-components-entityhub
+  virtual_path: docs/trunk/components/entityhub/index.md
+  children:
+  - title: Entityhub
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/entityhub/managedsite
+    anchor: trunk-components-entityhub-managedsite
+    virtual_path: docs/trunk/components/entityhub/managedsite.md
+  - title: Sites
+    kind: category
+    children:
+    - title: ReferencedSite
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/customvocabulary.html
+      anchor: trunk-customvocabulary
+      virtual_path: docs/trunk/customvocabulary.md
+    - title: ManagedSite
+      kind: link
+      source_url: https://stanbol.apache.org/docs/trunk/components/entityhub/managedsite
+      anchor: trunk-components-entityhub-managedsite
+      virtual_path: docs/trunk/components/entityhub/managedsite.md
+- title: Reasoner
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/reasoner/
+  anchor: trunk-components-reasoner
+  virtual_path: docs/trunk/components/reasoner/index.md
+- title: Apache Stanbol Tools and Utilities
+  kind: category
+  children:
+  - title: Enhancer Stress Test Tool
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/utils/enhancerstresstest
+    anchor: trunk-utils-enhancerstresstest
+    virtual_path: docs/trunk/utils/enhancerstresstest.md
+  - title: Commons Solr
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/utils/commons-solr
+    anchor: trunk-utils-commons-solr
+    virtual_path: docs/trunk/utils/commons-solr.md
+  - title: Marmotta KiWi Repository Service
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/utils/marmotta-kiwi-repository-service
+    anchor: trunk-utils-marmotta-kiwi-repository-service
+    virtual_path: docs/trunk/utils/marmotta-kiwi-repository-service.md
+  - title: Data File Provider
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/utils/datafileprovider
+    anchor: trunk-utils-datafileprovider
+    virtual_path: docs/trunk/utils/datafileprovider.md
+- title: Cmsadapter
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/cmsadapter/
+  anchor: trunk-components-cmsadapter
+  virtual_path: docs/trunk/components/cmsadapter/index.md
+- title: CMS Adapter
+  kind: category
+  source_url: https://stanbol.apache.org/docs/trunk/components/cmsadapter/
+  anchor: trunk-components-cmsadapter
+  virtual_path: docs/trunk/components/cmsadapter/index.md
+- title: Getting Started
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/tutorial.html
+  anchor: trunk-tutorial
+  virtual_path: docs/trunk/tutorial.md
+- title: Documentation
+  kind: category
+  source_url: https://stanbol.apache.org/docs/trunk/
+  anchor: trunk
+  virtual_path: docs/trunk/index.md
+  children:
+  - title: Usage Scenarios
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/scenarios.html
+    anchor: trunk-scenarios
+    virtual_path: docs/trunk/scenarios.md
+  - title: Components
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/
+    anchor: trunk-components
+    virtual_path: docs/trunk/components/index.md
+  - title: Production Mode
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/production-mode/
+    anchor: trunk-production-mode
+    virtual_path: docs/trunk/production-mode/index.md
+- title: Downloads
+  kind: category
+  source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancementstructure
+  anchor: trunk-components-enhancer-enhancementstructure
+  virtual_path: docs/trunk/components/enhancer/enhancementstructure.md
+- title: Factstore
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/factstore/
+  anchor: trunk-components-factstore
+  virtual_path: docs/trunk/components/factstore/index.md
+- title: Contenthub
+  kind: link
+  source_url: https://stanbol.apache.org/docs/trunk/components/contenthub/
+  anchor: trunk-components-contenthub
+  virtual_path: docs/trunk/components/contenthub/index.md
+- title: Apache Stanbol Contenthub
+  kind: category
+  source_url: https://stanbol.apache.org/docs/trunk/components/contenthub/
+  anchor: trunk-components-contenthub
+  virtual_path: docs/trunk/components/contenthub/index.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Downloads
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/cmsadapter/cmsadapter5min
+    anchor: trunk-components-cmsadapter-cmsadapter5min
+    virtual_path: docs/trunk/components/cmsadapter/cmsadapter5min.md
+  - title: Downloads
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/contenthub/contenthub5min
+    anchor: trunk-components-contenthub-contenthub5min
+    virtual_path: docs/trunk/components/contenthub/contenthub5min.md
+  - title: Execution Plan
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/chains/executionplan
+    anchor: trunk-components-enhancer-chains-executionplan
+    virtual_path: docs/trunk/components/enhancer/chains/executionplan.md
+  - title: Downloads
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/contentitemfactory.html
+    anchor: trunk-components-enhancer-contentitemfactory
+    virtual_path: docs/trunk/components/enhancer/contentitemfactory.md
+  - title: Downloads
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/dereference
+    anchor: trunk-components-enhancer-engines-dereference
+    virtual_path: docs/trunk/components/enhancer/engines/dereference.md
+  - title: Downloads
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/engines/list
+    anchor: trunk-components-enhancer-engines-list
+    virtual_path: docs/trunk/components/enhancer/engines/list.md
+  - title: Downloads
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/enhancerrest.html
+    anchor: trunk-components-enhancer-enhancerrest
+    virtual_path: docs/trunk/components/enhancer/enhancerrest.md
+  - title: Downloads
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/executionmetadata.html
+    anchor: trunk-components-enhancer-executionmetadata
+    virtual_path: docs/trunk/components/enhancer/executionmetadata.md
+  - title: In-Memory AnalyzedText and Annotation implementation
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/enhancer/nlp/inmemoryanalyzedtextimpl
+    anchor: trunk-components-enhancer-nlp-inmemoryanalyzedtextimpl
+    virtual_path: docs/trunk/components/enhancer/nlp/inmemoryanalyzedtextimpl.md
+  - title: FactStore Implementation Concept
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/factstore/implementation.html
+    anchor: trunk-components-factstore-implementation
+    virtual_path: docs/trunk/components/factstore/implementation.md
+  - title: Downloads
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/factstore/specification.html
+    anchor: trunk-components-factstore-specification
+    virtual_path: docs/trunk/components/factstore/specification.md
+  - title: Ontology Registry Language
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/components/ontologymanager/registry/language
+    anchor: trunk-components-ontologymanager-registry-language
+    virtual_path: docs/trunk/components/ontologymanager/registry/language.md
+  - title: Downloads
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/contentenhancement.html
+    anchor: trunk-contentenhancement
+    virtual_path: docs/trunk/contentenhancement.md
+  - title: Downloads
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/enhancementusage.html
+    anchor: trunk-enhancementusage
+    virtual_path: docs/trunk/enhancementusage.md
+  - title: Downloads
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/multilingual.html
+    anchor: trunk-multilingual
+    virtual_path: docs/trunk/multilingual.md
+  - title: File based bundle configuration
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/production-mode/file-bundle-configuration.html
+    anchor: trunk-production-mode-file-bundle-configuration
+    virtual_path: docs/trunk/production-mode/file-bundle-configuration.md
+  - title: Hot partial Stanbol update
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/production-mode/partial-updates.html
+    anchor: trunk-production-mode-partial-updates
+    virtual_path: docs/trunk/production-mode/partial-updates.md
+  - title: Build your launcher
+    kind: link
+    source_url: https://stanbol.apache.org/docs/trunk/production-mode/your-launcher.html
+    anchor: trunk-production-mode-your-launcher
+    virtual_path: docs/trunk/production-mode/your-launcher.md

@@ -1,0 +1,623 @@
+{
+  "entry_url": "https://hudi.apache.org/docs/overview",
+  "site_prefix": "/docs/",
+  "site_slug": "hudi_docs",
+  "profile": "docusaurus",
+  "combined_markdown": "combined.md",
+  "page_count": 68,
+  "asset_count": 57,
+  "pages": [
+    {
+      "source_url": "https://hudi.apache.org/docs/azure_hoodie/",
+      "title": "Microsoft Azure",
+      "anchor": "azure_hoodie",
+      "virtual_path": "docs/azure_hoodie/index.md",
+      "profile": "docusaurus",
+      "score": 6463,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/basic_configurations/",
+      "title": "Basic Configurations",
+      "anchor": "basic_configurations",
+      "virtual_path": "docs/basic_configurations/index.md",
+      "profile": "docusaurus",
+      "score": 81658,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/bos_hoodie/",
+      "title": "Baidu Cloud",
+      "anchor": "bos_hoodie",
+      "virtual_path": "docs/bos_hoodie/index.md",
+      "profile": "docusaurus",
+      "score": 5018,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/catalog_polaris/",
+      "title": "Apache Polaris (Incubating)",
+      "anchor": "catalog_polaris",
+      "virtual_path": "docs/catalog_polaris/index.md",
+      "profile": "docusaurus",
+      "score": 9565,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/cleaning/",
+      "title": "Cleaning",
+      "anchor": "cleaning",
+      "virtual_path": "docs/cleaning/index.md",
+      "profile": "docusaurus",
+      "score": 16061,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/cli/",
+      "title": "CLI",
+      "anchor": "cli",
+      "virtual_path": "docs/cli/index.md",
+      "profile": "docusaurus",
+      "score": 58871,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/cloud/",
+      "title": "Cloud Storage",
+      "anchor": "cloud",
+      "virtual_path": "docs/cloud/index.md",
+      "profile": "docusaurus",
+      "score": 3623,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/clustering/",
+      "title": "Clustering",
+      "anchor": "clustering",
+      "virtual_path": "docs/clustering/index.md",
+      "profile": "docusaurus",
+      "score": 37667,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/compaction/",
+      "title": "Compaction",
+      "anchor": "compaction",
+      "virtual_path": "docs/compaction/index.md",
+      "profile": "docusaurus",
+      "score": 26785,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/concurrency_control/",
+      "title": "Concurrency Control",
+      "anchor": "concurrency_control",
+      "virtual_path": "docs/concurrency_control/index.md",
+      "profile": "docusaurus",
+      "score": 40370,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/configurations/",
+      "title": "All Configurations",
+      "anchor": "configurations",
+      "virtual_path": "docs/configurations/index.md",
+      "profile": "docusaurus",
+      "score": 349825,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/cos_hoodie/",
+      "title": "Tencent Cloud",
+      "anchor": "cos_hoodie",
+      "virtual_path": "docs/cos_hoodie/index.md",
+      "profile": "docusaurus",
+      "score": 5477,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/deployment/",
+      "title": "Deployment",
+      "anchor": "deployment",
+      "virtual_path": "docs/deployment/index.md",
+      "profile": "docusaurus",
+      "score": 24148,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/disaster_recovery/",
+      "title": "Disaster Recovery",
+      "anchor": "disaster_recovery",
+      "virtual_path": "docs/disaster_recovery/index.md",
+      "profile": "docusaurus",
+      "score": 26676,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/docker_demo/",
+      "title": "Docker Demo",
+      "anchor": "docker_demo",
+      "virtual_path": "docs/docker_demo/index.md",
+      "profile": "docusaurus",
+      "score": 68371,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/encryption/",
+      "title": "Encryption",
+      "anchor": "encryption",
+      "virtual_path": "docs/encryption/index.md",
+      "profile": "docusaurus",
+      "score": 6438,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/file_sizing/",
+      "title": "File Sizing",
+      "anchor": "file_sizing",
+      "virtual_path": "docs/file_sizing/index.md",
+      "profile": "docusaurus",
+      "score": 19255,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/flink-quick-start-guide/",
+      "title": "Flink Quick Start",
+      "anchor": "flink-quick-start-guide",
+      "virtual_path": "docs/flink-quick-start-guide/index.md",
+      "profile": "docusaurus",
+      "score": 25323,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/flink_tuning/",
+      "title": "Flink Tuning Guide",
+      "anchor": "flink_tuning",
+      "virtual_path": "docs/flink_tuning/index.md",
+      "profile": "docusaurus",
+      "score": 16036,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/gcp_bigquery/",
+      "title": "Google BigQuery",
+      "anchor": "gcp_bigquery",
+      "virtual_path": "docs/gcp_bigquery/index.md",
+      "profile": "docusaurus",
+      "score": 11671,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/gcs_hoodie/",
+      "title": "Google Cloud",
+      "anchor": "gcs_hoodie",
+      "virtual_path": "docs/gcs_hoodie/index.md",
+      "profile": "docusaurus",
+      "score": 4973,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/hoodie_streaming_ingestion/",
+      "title": "Using Spark",
+      "anchor": "hoodie_streaming_ingestion",
+      "virtual_path": "docs/hoodie_streaming_ingestion/index.md",
+      "profile": "docusaurus",
+      "score": 50275,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/hudi_stack/",
+      "title": "The Hudi Stack",
+      "anchor": "hudi_stack",
+      "virtual_path": "docs/hudi_stack/index.md",
+      "profile": "docusaurus",
+      "score": 29660,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/ibm_cos_hoodie/",
+      "title": "IBM Cloud",
+      "anchor": "ibm_cos_hoodie",
+      "virtual_path": "docs/ibm_cos_hoodie/index.md",
+      "profile": "docusaurus",
+      "score": 5619,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/indexes/",
+      "title": "Indexes",
+      "anchor": "indexes",
+      "virtual_path": "docs/indexes/index.md",
+      "profile": "docusaurus",
+      "score": 40984,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/ingestion_flink/",
+      "title": "Using Flink",
+      "anchor": "ingestion_flink",
+      "virtual_path": "docs/ingestion_flink/index.md",
+      "profile": "docusaurus",
+      "score": 31110,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/ingestion_kafka_connect/",
+      "title": "Using Kafka Connect",
+      "anchor": "ingestion_kafka_connect",
+      "virtual_path": "docs/ingestion_kafka_connect/index.md",
+      "profile": "docusaurus",
+      "score": 6424,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/jfs_hoodie/",
+      "title": "JuiceFS",
+      "anchor": "jfs_hoodie",
+      "virtual_path": "docs/jfs_hoodie/index.md",
+      "profile": "docusaurus",
+      "score": 8542,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/key_generation/",
+      "title": "Key Generation",
+      "anchor": "key_generation",
+      "virtual_path": "docs/key_generation/index.md",
+      "profile": "docusaurus",
+      "score": 22315,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/ks3_hoodie/",
+      "title": "KS3 Filesystem",
+      "anchor": "ks3_hoodie",
+      "virtual_path": "docs/ks3_hoodie/index.md",
+      "profile": "docusaurus",
+      "score": 4590,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/markers/",
+      "title": "Marker Mechanism",
+      "anchor": "markers",
+      "virtual_path": "docs/markers/index.md",
+      "profile": "docusaurus",
+      "score": 12769,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/metadata/",
+      "title": "Table Metadata",
+      "anchor": "metadata",
+      "virtual_path": "docs/metadata/index.md",
+      "profile": "docusaurus",
+      "score": 16607,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/metadata_indexing/",
+      "title": "Indexing",
+      "anchor": "metadata_indexing",
+      "virtual_path": "docs/metadata_indexing/index.md",
+      "profile": "docusaurus",
+      "score": 24546,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/metrics/",
+      "title": "Metrics",
+      "anchor": "metrics",
+      "virtual_path": "docs/metrics/index.md",
+      "profile": "docusaurus",
+      "score": 19522,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/migration_guide/",
+      "title": "Bootstrapping",
+      "anchor": "migration_guide",
+      "virtual_path": "docs/migration_guide/index.md",
+      "profile": "docusaurus",
+      "score": 14809,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/notebooks/",
+      "title": "Notebooks",
+      "anchor": "notebooks",
+      "virtual_path": "docs/notebooks/index.md",
+      "profile": "docusaurus",
+      "score": 13844,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/oci_hoodie/",
+      "title": "Oracle Cloud Infrastructure",
+      "anchor": "oci_hoodie",
+      "virtual_path": "docs/oci_hoodie/index.md",
+      "profile": "docusaurus",
+      "score": 7091,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/oss_hoodie/",
+      "title": "Alibaba Cloud",
+      "anchor": "oss_hoodie",
+      "virtual_path": "docs/oss_hoodie/index.md",
+      "profile": "docusaurus",
+      "score": 5503,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/overview/",
+      "title": "Overview",
+      "anchor": "overview",
+      "virtual_path": "docs/overview/index.md",
+      "profile": "docusaurus",
+      "score": 9000,
+      "depth": 0
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/performance/",
+      "title": "Performance",
+      "anchor": "performance",
+      "virtual_path": "docs/performance/index.md",
+      "profile": "docusaurus",
+      "score": 15051,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/platform_services_post_commit_callback/",
+      "title": "Post-commit Callback",
+      "anchor": "platform_services_post_commit_callback",
+      "virtual_path": "docs/platform_services_post_commit_callback/index.md",
+      "profile": "docusaurus",
+      "score": 7711,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/precommit_validator/",
+      "title": "Data Quality",
+      "anchor": "precommit_validator",
+      "virtual_path": "docs/precommit_validator/index.md",
+      "profile": "docusaurus",
+      "score": 11938,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/procedures/",
+      "title": "SQL Procedures",
+      "anchor": "procedures",
+      "virtual_path": "docs/procedures/index.md",
+      "profile": "docusaurus",
+      "score": 133721,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/python-rust-quick-start-guide/",
+      "title": "Python/Rust Quick Start",
+      "anchor": "python-rust-quick-start-guide",
+      "virtual_path": "docs/python-rust-quick-start-guide/index.md",
+      "profile": "docusaurus",
+      "score": 18798,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/quick-start-guide/",
+      "title": "Spark Quick Start",
+      "anchor": "quick-start-guide",
+      "virtual_path": "docs/quick-start-guide/index.md",
+      "profile": "docusaurus",
+      "score": 57960,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/reading_tables_batch_reads/",
+      "title": "Batch Reads",
+      "anchor": "reading_tables_batch_reads",
+      "virtual_path": "docs/reading_tables_batch_reads/index.md",
+      "profile": "docusaurus",
+      "score": 3766,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/reading_tables_streaming_reads/",
+      "title": "Streaming Reads",
+      "anchor": "reading_tables_streaming_reads",
+      "virtual_path": "docs/reading_tables_streaming_reads/index.md",
+      "profile": "docusaurus",
+      "score": 4772,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/record_merger/",
+      "title": "Record Merger",
+      "anchor": "record_merger",
+      "virtual_path": "docs/record_merger/index.md",
+      "profile": "docusaurus",
+      "score": 31026,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/rollbacks/",
+      "title": "Auto Rollbacks",
+      "anchor": "rollbacks",
+      "virtual_path": "docs/rollbacks/index.md",
+      "profile": "docusaurus",
+      "score": 9355,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/s3_hoodie/",
+      "title": "AWS S3",
+      "anchor": "s3_hoodie",
+      "virtual_path": "docs/s3_hoodie/index.md",
+      "profile": "docusaurus",
+      "score": 6787,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/schema_evolution/",
+      "title": "Schema Evolution",
+      "anchor": "schema_evolution",
+      "virtual_path": "docs/schema_evolution/index.md",
+      "profile": "docusaurus",
+      "score": 20845,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/snapshot_exporter/",
+      "title": "Exporter",
+      "anchor": "snapshot_exporter",
+      "virtual_path": "docs/snapshot_exporter/index.md",
+      "profile": "docusaurus",
+      "score": 13044,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/sql_ddl/",
+      "title": "SQL DDL",
+      "anchor": "sql_ddl",
+      "virtual_path": "docs/sql_ddl/index.md",
+      "profile": "docusaurus",
+      "score": 58088,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/sql_dml/",
+      "title": "SQL DML",
+      "anchor": "sql_dml",
+      "virtual_path": "docs/sql_dml/index.md",
+      "profile": "docusaurus",
+      "score": 37568,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/sql_queries/",
+      "title": "SQL Queries",
+      "anchor": "sql_queries",
+      "virtual_path": "docs/sql_queries/index.md",
+      "profile": "docusaurus",
+      "score": 59459,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/storage_layouts/",
+      "title": "Storage Layouts",
+      "anchor": "storage_layouts",
+      "virtual_path": "docs/storage_layouts/index.md",
+      "profile": "docusaurus",
+      "score": 8585,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/syncing_aws_glue_data_catalog/",
+      "title": "AWS Glue Data Catalog",
+      "anchor": "syncing_aws_glue_data_catalog",
+      "virtual_path": "docs/syncing_aws_glue_data_catalog/index.md",
+      "profile": "docusaurus",
+      "score": 7977,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/syncing_datahub/",
+      "title": "DataHub",
+      "anchor": "syncing_datahub",
+      "virtual_path": "docs/syncing_datahub/index.md",
+      "profile": "docusaurus",
+      "score": 6852,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/syncing_metastore/",
+      "title": "Apache Hive Metastore",
+      "anchor": "syncing_metastore",
+      "virtual_path": "docs/syncing_metastore/index.md",
+      "profile": "docusaurus",
+      "score": 24680,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/syncing_xtable/",
+      "title": "Apache XTable (Incubating)",
+      "anchor": "syncing_xtable",
+      "virtual_path": "docs/syncing_xtable/index.md",
+      "profile": "docusaurus",
+      "score": 6165,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/table_types/",
+      "title": "Table & Query Types",
+      "anchor": "table_types",
+      "virtual_path": "docs/table_types/index.md",
+      "profile": "docusaurus",
+      "score": 24638,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/timeline/",
+      "title": "Timeline",
+      "anchor": "timeline",
+      "virtual_path": "docs/timeline/index.md",
+      "profile": "docusaurus",
+      "score": 19444,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/troubleshooting/",
+      "title": "Troubleshooting",
+      "anchor": "troubleshooting",
+      "virtual_path": "docs/troubleshooting/index.md",
+      "profile": "docusaurus",
+      "score": 27697,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/tuning-guide/",
+      "title": "Spark Tuning Guide",
+      "anchor": "tuning-guide",
+      "virtual_path": "docs/tuning-guide/index.md",
+      "profile": "docusaurus",
+      "score": 13292,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/use_cases/",
+      "title": "Use Cases",
+      "anchor": "use_cases",
+      "virtual_path": "docs/use_cases/index.md",
+      "profile": "docusaurus",
+      "score": 17873,
+      "depth": 1
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/write_operations/",
+      "title": "Write Operations",
+      "anchor": "write_operations",
+      "virtual_path": "docs/write_operations/index.md",
+      "profile": "docusaurus",
+      "score": 21242,
+      "depth": 2
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/writing_data/",
+      "title": "Batch Writes",
+      "anchor": "writing_data",
+      "virtual_path": "docs/writing_data/index.md",
+      "profile": "docusaurus",
+      "score": 25380,
+      "depth": 3
+    },
+    {
+      "source_url": "https://hudi.apache.org/docs/writing_tables_streaming_writes/",
+      "title": "Streaming Writes",
+      "anchor": "writing_tables_streaming_writes",
+      "virtual_path": "docs/writing_tables_streaming_writes/index.md",
+      "profile": "docusaurus",
+      "score": 5404,
+      "depth": 2
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+# Commons Functor - Project Information
+
+## Navigation
+
+- Commons Functor
+  - [Overview](#index)
+  - [Examples](#examples)
+- Project Documentation
+  - [Project Information](#project-info)
+    - [About](#index)
+    - [Project Summary](#project-summary)
+    - [Project Modules](#modules)
+    - [Issue Tracking](#issue-tracking)
+    - [Continuous Integration](#integration)
+
+## Content
+
+<a id="index"></a>
+
+<!-- source_url: https://commons.apache.org/dormant/commons-functor/index.html -->
+
+<!-- page_index: 1 -->
+
+<a id="index--commons-functor:-function-objects-for-java"></a>
+
+## Commons Functor: Function Objects for Java
+
+A *functor* is a function that can be manipulated
+as an object, or an object representing a single, generic
+function.
+
+Functors support and encourage a number of powerful programming
+techniques including:
+
+- programming in a functional style
+- higher order functions
+- internal iterators
+- reuse and specialization through composition rather than inheritance and overloading
+- generic "callback" or "extension point" APIs
+- generic "filters" or predicate APIs
+- many "behavioral" design patterns, such as
+  Visitor, Strategy, Chain of Responsibility, etc.
+
+See the [examples](#examples) for more information on some of
+these techniques.
+
+<a id="index--overview"></a>
+
+## Overview
+
+Commons Functor defines three general types of
+functors:
+
+predicates
+:   functors that return a boolean value
+
+functions
+:   functors that return an Object value
+
+procedures
+:   functors that don't return anything
+
+The root
+[functor](https://commons.apache.org/dormant/commons-functor/apidocs/org/apache/commons/functor/package-summary.html)
+package defines three signatures for each functor type--taking zero, one or
+two Object arguments.
+
+The
+[remaining packages](https://commons.apache.org/dormant/commons-functor/apidocs/index.html)
+provide common functor implementations, adapters and utilities.
+
+<a id="index--releases"></a>
+
+## Releases
+
+There are not releases yet.
+
+---
+
+<a id="examples"></a>
+
+<!-- source_url: https://commons.apache.org/dormant/commons-functor/examples.html -->
+
+<!-- page_index: 2 -->
+
+<a id="examples--examples"></a>
+
+## Examples
+
+This page contains basic examples using [Predicates](https://commons.apache.org/dormant/commons-functor/apidocs/org/apache/commons/functor/Predicate.html), [Functions](https://commons.apache.org/dormant/commons-functor/apidocs/org/apache/commons/functor/Function.html), [Procedures](https://commons.apache.org/dormant/commons-functor/apidocs/org/apache/commons/functor/Procedure.html), [Generators](https://commons.apache.org/dormant/commons-functor/apidocs/org/apache/commons/functor/generator/Generator.html), [Ranges](https://commons.apache.org/dormant/commons-functor/apidocs/org/apache/commons/functor/range/Range.html) and
+[Aggregators](https://commons.apache.org/dormant/commons-functor/apidocs/org/apache/commons/functor/aggregator/Aggregator.html).
+There are also examples using composition and more practical examples
+at the bottom of this page.
+
+<a id="examples--predicates"></a>
+
+### Predicates
+
+*Predicates* are *functors* that return a boolean value. The following
+snippet of code shows how to use a *Predicate* that says whether a
+number is even or not.
+
+```
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4);
+Predicate<Integer> isEven = new Predicate<Integer>() {public boolean test(Integer obj) {return obj % 2 == 0;} };
+for( Integer number : numbers ) {if (isEven.test(number)) {System.out.print(number + " ");}}
+```
+
+The code above produces the following output: 2 4
+
+<a id="examples--functions"></a>
+
+### Functions
+
+*Functions* are functors that return an Object value. The following
+snippet of code shows how to use a *Function* that doubles a value.
+
+```
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4);
+Function<Integer, Integer> doubler = new Function<Integer, Integer>() {public Integer evaluate(Integer obj) {return obj * 2;} };
+for( Integer number : numbers ) {Integer value = doubler.evaluate(number); System.out.print(value + " ");}
+```
+
+The code above produces the following output: 2 4 6 8
+
+<a id="examples--procedures"></a>
+
+### Procedures
+
+*Procedures* are *functors* that do not return anything. In the snippet of
+code below you can find an example that prints the value passed to the
+*Procedure*.
+
+```
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4);
+Procedure<Integer> print = new Procedure<Integer>() {public void run(Integer obj) {System.out.print(obj + " ");} };
+for( Integer number : numbers ) {print.run(number);}
+```
+
+The code above produces the following output: 1 2 3 4 .
+
+<a id="examples--generators"></a>
+
+### Generators
+
+Apache Functor includes other objects that you can can use to code in
+a less imperative way, like *Generators*. In the following
+example, we create an *Integer Generator* that generates
+integers from 1 to 4 (the right argument is non-inclusive). The
+generator is wrapped within a *Filtered Generator* that applies
+the isEven predicate to each integer generated by the former generator.
+Finally, we execute a *Composite Unary Procedure* that uses
+a function to double the value of the integer before printing it.
+
+```
+Generator<Integer> integerGenerator = new IntegerRange(1, 5); // inclusive, exclusive
+UnaryPredicate<Integer> isEven = new UnaryPredicate<Integer>() {public boolean test(Integer obj) {return obj % 2 == 0;} };
+FilteredGenerator<Integer> filteredGenerator =new FilteredGenerator<Integer>(integerGenerator, isEven);
+UnaryFunction<Integer, Integer> doubler = new UnaryFunction<Integer, Integer>() {public Integer evaluate(Integer obj) {return obj * 2;} };
+UnaryProcedure<Integer> print = new UnaryProcedure<Integer>() {public void run(Integer obj) {System.out.print(obj + " ");} };
+CompositeUnaryProcedure<Integer> compositeProcedure =new CompositeUnaryProcedure<Integer>(print);
+filteredGenerator.run(compositeProcedure.of(doubler));
+```
+
+The [lines](http://svn.apache.org/viewvc/commons/proper/functor/trunk/src/test/java/org/apache/commons/functor/example/lines/)
+package demonstrates a functional approach to IO using Generators and the Algorithms class.
+
+<a id="examples--ranges"></a>
+
+### Ranges
+
+Using *Ranges* you are able to create a series of elements of
+a certain type. The distance between each element is called
+*step*. And the *left* and *right* limits are
+*endpoints*.
+
+By default, in numeric ranges the left value is inclusive and the
+right is exclusive. The range below creates a series of Integers
+between *0* and *10*, with a default step of *1*.
+
+```
+
+// [0, 10), 1 = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+IntegerRange range = new IntegerRange(0, 10);
+```
+
+The step value can be changed, altering the distance between each
+element in the range. As shown below.
+
+```
+
+// [0, 10), 2 = 0, 2, 4, 6, 8
+IntegerRange range = new IntegerRange(0, 10, 2);
+```
+
+It is possible, too, to define the *bound type* of each endpoint.
+It is similar to mathematical intervals, where a
+*closed* endpoint means that the value is included in the
+series of elements in the range. On the other hand, an *open*
+endpoint means that the value is not included.
+
+```
+
+// (0, 10], 2 = 2, 4, 6, 8, 10
+IntegerRange range = new IntegerRange(0, BoundType.OPEN, 10, BoundType.CLOSED, 2);
+```
+
+A Range is also by nature a Generator, so you can use it for executing
+procedures for each of its elements.
+
+```
+// [0, 10), 1 = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 IntegerRange range = new IntegerRange(0, 10); UnaryProcedure<Integer> printProcedure = new UnaryProcedure<Integer>() {
+public void run(Integer obj) {System.out.print(obj + " ");} }; range.run(printProcedure);
+```
+
+The code above produces the following output: 0 1 2 3 4 5 6 7 8 9
+
+<a id="examples--aggregators"></a>
+
+### Aggregators
+
+There are some code snippets / examples for the org.apache.commons.functor.aggregator package
+available on [this page](https://commons.apache.org/dormant/commons-functor/aggregator.html). Also, to exemplify the usage of the Aggregator
+classes, there are code examples in the test section.
+
+First such set of example involves the usage of the *nostore* Aggregator. Code can be found in
+[org.apache.commons.functor.example.aggregator.nostore](http://svn.apache.org/viewvc/commons/proper/functor/trunk/src/test/java/org/apache/commons/functor/example/aggregator/nostore/).
+This shows how can you use an aggregator which doesn't store the data series and processes them on the fly.
+Also, there are examples provided which show how can you implement your own aggregation function
+to be used with this Aggregator type.
+
+For using an Aggregator which stores the data series in a list, examples are in
+[org.apache.commons.functor.example.aggregator.list](http://svn.apache.org/viewvc/commons/proper/functor/trunk/src/test/java/org/apache/commons/functor/example/aggregator/list/).
+This shows how can you use the ArrayList-backed aggregator or provide your own List-based implementation.
+Also, there are examples provided which show how can you implement your own aggregation function
+to be used with this Aggregator type.
+
+<a id="examples--reuse-through-composition"></a>
+
+### Reuse Through Composition
+
+The *Functor* package, and more generally, a functional approach
+to program design, supports a powerful technique for balancing
+behavior specialization and code reuse.
+
+Traditional Object Oriented design suggests inheritence as a
+mechanism code reuse, and method overloading as a mechanism for
+specialization. For example, one defines a general purpose, perhaps
+even abstract class, say *AbstractList*, and then extend or
+specialize this parent via subclasses, inheriting some behaviors
+and overloading others.
+
+*Functors* encourage another, complementary approach to code reuse
+and behavior specialiazation: composition. Following a compositional
+design, we create a number of simple objects and then combine them to
+create more complex behaviors. For example, the
+[Commons Pool](http://commons.apache.org/pool/)
+component defines an ObjectPool type that maintains
+a collection of pooled objects, but delegates to a
+PoolableObjectFactory to create, validate and destroy
+the objects to be pooled. Arbitrary ObjectPool
+implementations can be composed with arbitrary
+PoolableObjectFactory
+implementations in order to create new types of pools.
+
+Let's see an example that combines the three functors seen here so
+far. In this example, we will use the functors that we created so that
+for each *even* number found, it will *double* its value
+and will *print* the new value.
+
+```
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4);
+Predicate<Integer> isEven = new Predicate<Integer>() {public boolean test(Integer obj) {return obj % 2 == 0;} };
+Function<Integer, Integer> doubler = new Function<Integer, Integer>() {public Integer evaluate(Integer obj) {return obj * 2;} };
+Procedure<Integer> print = new Procedure<Integer>() {public void run(Integer obj) {System.out.print(obj + " ");} };
+for( Integer number : numbers ) {if(isEven.test(number)) {print.run(doubler.evaluate(number));}}
+```
+
+The code above produces the following output: 4 8
+
+The
+[FlexiMap example](http://svn.apache.org/repos/asf/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/FlexiMapExample.java)
+applies this design to java.util.Map, demonstrating how
+"pluggable" functors can be applied to a generic Map structure in order
+to introduce new behaviors. The [map](http://svn.apache.org/repos/asf/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/map)
+package is a more complete example of this, implementing a number of the Commons-Collections Maps
+derived from a base
+[FunctoredMap](http://svn.apache.org/repos/asf/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/map/FunctoredMap.java).
+
+<a id="examples--generators-2"></a>
+
+### Generators
+
+Apache Functor includes other objects that you can can use to code in
+a less imperative way, like *Generators*. In the following
+example, we create an *Integer Generator* that generates
+integers from 1 to 4 (the right argument is non-inclusive). The
+generator is wrapped within a *Filtered Generator* that applies
+the isEven predicate to each integer generated by the former generator.
+Finally, we execute a *Composite Procedure* that uses
+a function to double the value of the integer before printing it.
+
+```
+Generator<Integer> integerGenerator = new IntegerRange(1, 5); // inclusive, exclusive
+Predicate<Integer> isEven = new Predicate<Integer>() {public boolean test(Integer obj) {return obj % 2 == 0;} };
+FilteredGenerator<Integer> filteredGenerator =new FilteredGenerator<Integer>(integerGenerator, isEven);
+Function<Integer, Integer> doubler = new Function<Integer, Integer>() {public Integer evaluate(Integer obj) {return obj * 2;} };
+Procedure<Integer> print = new Procedure<Integer>() {public void run(Integer obj) {System.out.print(obj + " ");} };
+CompositeProcedure<Integer> compositeProcedure =new CompositeProcedure<Integer>(print);
+filteredGenerator.run(compositeProcedure.of(doubler));
+```
+
+The [lines](http://svn.apache.org/viewvc/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/lines/)
+package demonstrates a functional approach to IO using Generators and the Algorithms class.
+
+<a id="examples--aggregators-2"></a>
+
+### Aggregators
+
+There are some code snippets / examples for the org.apache.commons.functor.aggregator package
+available on [this page](https://commons.apache.org/dormant/commons-functor/aggregator.html). Also, to exemplify the usage of the Aggregator
+classes, there are code examples in the test section.
+
+First such set of example involves the usage of the *nostore* Aggregator. Code can be found in
+[org.apache.commons.functor.example.aggregator.nostore](http://svn.apache.org/viewvc/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/aggregator/nostore/).
+This shows how can you use an aggregator which doesn't store the data series and processes them on the fly.
+Also, there are examples provided which show how can you implement your own aggregation function
+to be used with this Aggregator type.
+
+For using an Aggregator which stores the data series in a list, examples are in
+[org.apache.commons.functor.example.aggregator.list](http://svn.apache.org/viewvc/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/aggregator/list/).
+This shows how can you use the ArrayList-backed aggregator or provide your own List-based implementation.
+Also, there are examples provided which show how can you implement your own aggregation function
+to be used with this Aggregator type.
+
+<a id="examples--code-katas"></a>
+
+### Code Katas
+
+"Pragmatic" Dave Thomas has been
+[blogging](http://pragprog.com/pragdave/)
+a series of programming exercises he calls
+[Code Katas](http://pragprog.com/pragdave/Practices/Kata).
+These exercises are intended to provide "practice sessions" that allow
+programmers to hone their craft. The notion is borrowed from the
+practice of Karate, where, in Dave's words
+"a kata is an exercise where you repeat a form many, many times, making little improvements in each".
+
+Here we use several of Dave's Code Katas to explore the
+Commons-Functor library.
+
+[Kata One: Supermarket Pricing](http://svn.apache.org/viewvc/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/kata/one/)
+:   Dave's [Kata One](http://pragprog.com/pragdave/Practices/Kata/KataOne.rdoc,v) asks how
+    one might implement supermarket pricing rules, like "three for a dollar" or "buy two get one free".
+    By encapsulating tiny bits of logic, functors provide a useful solution to this problem, as
+    illustrated in the
+    [SupermarketPricingExample](http://svn.apache.org/repos/asf/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/kata/one/SupermarketPricingExample.java).
+
+[Kata Two: Binary Chop](http://svn.apache.org/viewvc/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/kata/two/)
+:   [Kata Two](http://pragprog.com/pragdave/Practices/Kata/KataTwo.rdoc,v) asks us
+    to create several different implementations of the binary search algorithm, which once you
+    get past three or four implementations, is more difficult that it sounds.
+    [TestBinaryChop](http://svn.apache.org/repos/asf/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/kata/two/TestBinaryChop.java)
+    presents several implementations, with functor and non-functor variations.
+
+[Kata Four: Data Munging](http://svn.apache.org/viewvc/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/kata/four/)
+:   [Kata Four](http://pragprog.com/pragdave/Practices/Kata/KataFour.doc,v) asks us
+    to explore extreme reuse. Our
+    [DataMunger](http://svn.apache.org/repos/asf/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/kata/four/DataMunger.java)
+    allosubsubsectionws for very small implementations of the
+    [weather](http://svn.apache.org/repos/asf/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/kata/four/TestWeather.java)
+    and
+    [soccer (football)](http://svn.apache.org/repos/asf/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/kata/four/TestSoccer.java)
+    parsers.
+
+<a id="examples--a-quicksort-implementation"></a>
+
+### A Quicksort Implementation
+
+The [Quicksort example](http://svn.apache.org/repos/asf/commons/proper/functor/trunk/core/src/test/java/org/apache/commons/functor/example/QuicksortExample.java)
+presents an implementation of the Quicksort sorting algorithm written in a functional programming
+style using Commons Functor.
+
+---
+
+<a id="project-info"></a>
+
+<!-- source_url: https://commons.apache.org/dormant/commons-functor/project-info.html -->
+
+<!-- page_index: 3 -->
+
+<a id="project-info--project-information"></a>
+
+## Project Information
+
+This document provides an overview of the various documents and links that are part of this project's general information. All of this content is automatically generated by [Maven](http://maven.apache.org) on behalf of the project.
+
+<a id="project-info--overview"></a>
+
+### Overview
+
+| Document | Description |
+| --- | --- |
+| [About](#index) | A "functor" is an entity that serves the role of a function but can be operated upon like an object. The Apache Commons Functor library defines common functor and functor-related interfaces, implementations, and utilities. |
+| [Project Summary](#project-summary) | This document lists other related information of this project |
+| [Project Modules](#modules) | This document lists the modules (sub-projects) of this project. |
+| [Project Team](https://commons.apache.org/dormant/commons-functor/team-list.html) | This document provides information on the members of this project. These are the individuals who have contributed to the project in one form or another. |
+| [Source Repository](https://commons.apache.org/dormant/commons-functor/source-repository.html) | This is a link to the online source repository that can be viewed via a web browser. |
+| [Issue Tracking](#issue-tracking) | This is a link to the issue management system for this project. Issues (bugs, features, change requests) can be created and queried using this link. |
+| [Mailing Lists](https://commons.apache.org/dormant/commons-functor/mail-lists.html) | This document provides subscription and archive information for this project's mailing lists. |
+| [Dependency Management](https://commons.apache.org/dormant/commons-functor/dependency-management.html) | This document lists the dependencies that are defined through dependencyManagement. |
+| [Dependencies](https://commons.apache.org/dormant/commons-functor/dependencies.html) | This document lists the project's dependencies and provides information on each dependency. |
+| [Dependency Convergence](https://commons.apache.org/dormant/commons-functor/dependency-convergence.html) | This document presents the convergence of dependency versions across the entire project, and its sub modules. |
+| [Continuous Integration](#integration) | This is a link to the definitions of all continuous integration processes that builds and tests code on a frequent, regular basis. |
+| [Distribution Management](https://commons.apache.org/dormant/commons-functor/distribution-management.html) | This document provides informations on the distribution management of this project. |
+
+---
+
+<a id="project-summary"></a>
+
+<!-- source_url: https://commons.apache.org/dormant/commons-functor/project-summary.html -->
+
+<!-- page_index: 4 -->
+
+<a id="project-summary--project-summary"></a>
+
+## Project Summary
+
+<a id="project-summary--project-information"></a>
+
+### Project Information
+
+| Field | Value |
+| --- | --- |
+| Name | Apache Commons Functor |
+| Description | A "functor" is an entity that serves the role of a function but can be operated upon like an object. The Apache Commons Functor library defines common functor and functor-related interfaces, implementations, and utilities. |
+| Homepage | <http://commons.apache.org/proper/commons-functor/> |
+
+<a id="project-summary--project-organization"></a>
+
+### Project Organization
+
+| Field | Value |
+| --- | --- |
+| Name | The Apache Software Foundation |
+| URL | <http://www.apache.org/> |
+
+<a id="project-summary--build-information"></a>
+
+### Build Information
+
+| Field | Value |
+| --- | --- |
+| GroupId | org.apache.commons |
+| ArtifactId | commons-functor-parent |
+| Version | 1.0-SNAPSHOT |
+| Type | pom |
+
+---
+
+<a id="modules"></a>
+
+<!-- source_url: https://commons.apache.org/dormant/commons-functor/modules.html -->
+
+<!-- page_index: 5 -->
+
+<a id="modules--project-modules"></a>
+
+## Project Modules
+
+This project has declared the following modules:
+
+| Name | Description |
+| --- | --- |
+| [Commons Functor Build Tools](https://commons.apache.org/dormant/commons-functor/commons-functor-build-tools/index.html) | Provide common setup, from http://maven.apache.org/plugins/maven-checkstyle-plugin/examples/multi-module-config.html |
+| [Commons Functor API](https://commons.apache.org/dormant/commons-functor/commons-functor-api/index.html) | Provide the basic APIs |
+| [Commons Functor Core](https://commons.apache.org/dormant/commons-functor/commons-functor/index.html) | Provide implementations of the functor APIs |
+
+---
+
+<a id="issue-tracking"></a>
+
+<!-- source_url: https://commons.apache.org/dormant/commons-functor/issue-tracking.html -->
+
+<!-- page_index: 6 -->
+
+<a id="issue-tracking--commons-functor-issue-tracking"></a>
+
+## Commons Functor Issue tracking
+
+Commons Functor uses [ASF JIRA](http://issues.apache.org/jira/) for tracking issues.
+See the [Commons Functor JIRA project page](http://issues.apache.org/jira/browse/FUNCTOR).
+
+To use JIRA you may need to [create an account](http://issues.apache.org/jira/secure/Signup!default.jspa)
+(if you have previously created/updated Commons issues using Bugzilla an account will have been automatically
+created and you can use the [Forgot Password](http://issues.apache.org/jira/secure/ForgotPassword!default.jspa)
+page to get a new password).
+
+If you would like to report a bug, or raise an enhancement request with
+Commons Functor please do the following:
+
+1. [Search existing open bugs](http://issues.apache.org/jira/secure/IssueNavigator.jspa?reset=true&pid=12312520&sorter/field=issuekey&sorter/order=DESC&status=1&status=3&status=4).
+   If you find your issue listed then please add a comment with your details.
+2. [Search the mailing list archive(s)](https://commons.apache.org/dormant/commons-functor/mail-lists.html).
+   You may find your issue or idea has already been discussed.
+3. Decide if your issue is a bug or an enhancement.
+4. Submit either a [bug report](http://issues.apache.org/jira/secure/CreateIssueDetails!init.jspa?pid=12312520&issuetype=1&priority=4&assignee=-1)
+   or [enhancement request](http://issues.apache.org/jira/secure/CreateIssueDetails!init.jspa?pid=12312520&issuetype=4&priority=4&assignee=-1).
+
+Please also remember these points:
+
+- the more information you provide, the better we can help you
+- test cases are vital, particularly for any proposed enhancements
+- the developers of Commons Functor are all unpaid volunteers
+
+For more information on subversion and creating patches see the
+[Apache Contributors Guide](http://www.apache.org/dev/contributors.html).
+
+You may also find these links useful:
+
+- [All Open Commons Functor bugs](http://issues.apache.org/jira/secure/IssueNavigator.jspa?reset=true&pid=12312520&sorter/field=issuekey&sorter/order=DESC&status=1&status=3&status=4)
+- [All Resolved Commons Functor bugs](http://issues.apache.org/jira/secure/IssueNavigator.jspa?reset=true&pid=12312520&sorter/field=issuekey&sorter/order=DESC&status=5&status=6)
+- [All Commons Functor bugs](http://issues.apache.org/jira/secure/IssueNavigator.jspa?reset=true&pid=12312520&sorter/field=issuekey&sorter/order=DESC)
+
+---
+
+<a id="integration"></a>
+
+<!-- source_url: https://commons.apache.org/dormant/commons-functor/integration.html -->
+
+<!-- page_index: 7 -->
+
+<a id="integration--overview"></a>
+
+## Overview
+
+This project uses [Continuum](http://continuum.apache.org/).
+
+<a id="integration--access"></a>
+
+## Access
+
+The following is a link to the continuous integration system used by the project.
+
+```
+http://vmbuild.apache.org/continuum/
+```
+
+<a id="integration--notifiers"></a>
+
+## Notifiers
+
+No notifiers are defined. Please check back at a later date.
+
+---

@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Anakia",
+    "kind": "category",
+    "children": [
+      {
+        "title": "General",
+        "kind": "link",
+        "source_url": "https://velocity.apache.org/anakia/1.0/",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Developers",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Resolved Issues",
+        "kind": "category",
+        "source_url": "https://velocity.apache.org/anakia/1.0/jira-report.html",
+        "anchor": "jira-report",
+        "virtual_path": "docs/jira-report.md"
+      }
+    ]
+  },
+  {
+    "title": "Project Documentation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Project Reports",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Change Log",
+            "kind": "link",
+            "source_url": "https://velocity.apache.org/anakia/1.0/changelog.html",
+            "anchor": "changelog",
+            "virtual_path": "docs/changelog.md"
+          },
+          {
+            "title": "Developer Activity",
+            "kind": "link",
+            "source_url": "https://velocity.apache.org/anakia/1.0/dev-activity.html",
+            "anchor": "dev-activity",
+            "virtual_path": "docs/dev-activity.md"
+          },
+          {
+            "title": "File Activity",
+            "kind": "link",
+            "source_url": "https://velocity.apache.org/anakia/1.0/file-activity.html",
+            "anchor": "file-activity",
+            "virtual_path": "docs/file-activity.md"
+          },
+          {
+            "title": "Jira Report",
+            "kind": "category",
+            "source_url": "https://velocity.apache.org/anakia/1.0/jira-report.html",
+            "anchor": "jira-report",
+            "virtual_path": "docs/jira-report.md"
+          }
+        ]
+      }
+    ]
+  }
+]

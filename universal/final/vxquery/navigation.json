@@ -1,0 +1,206 @@
+[
+  {
+    "title": "For Users",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Get Started",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/user_get_started.html",
+        "anchor": "user_get_started",
+        "virtual_path": "docs/user_get_started.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/user_installation.html",
+        "anchor": "user_installation",
+        "virtual_path": "docs/user_installation.md"
+      },
+      {
+        "title": "Cluster Installation",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/user_cluster_installation.html",
+        "anchor": "user_cluster_installation",
+        "virtual_path": "docs/user_cluster_installation.md"
+      },
+      {
+        "title": "Executing a Query",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/user_query.html",
+        "anchor": "user_query",
+        "virtual_path": "docs/user_query.md"
+      },
+      {
+        "title": "Using HDFS with VXQuery",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/user_query_hdfs.html",
+        "anchor": "user_query_hdfs",
+        "virtual_path": "docs/user_query_hdfs.md"
+      },
+      {
+        "title": "Running the Test Suite",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/user_running_tests.html",
+        "anchor": "user_running_tests",
+        "virtual_path": "docs/user_running_tests.md"
+      }
+    ]
+  },
+  {
+    "title": "For Developers",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Get Started",
+        "kind": "category",
+        "source_url": "https://vxquery.apache.org/developer_get_started.html",
+        "anchor": "developer_get_started",
+        "virtual_path": "docs/developer_get_started.md"
+      },
+      {
+        "title": "Contributing Code",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/development_contribution.html",
+        "anchor": "development_contribution",
+        "virtual_path": "docs/development_contribution.md"
+      },
+      {
+        "title": "Data Handling",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/development_data_handling.html",
+        "anchor": "development_data_handling",
+        "virtual_path": "docs/development_data_handling.md"
+      },
+      {
+        "title": "Eclipse Setup",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/development_eclipse_setup.html",
+        "anchor": "development_eclipse_setup",
+        "virtual_path": "docs/development_eclipse_setup.md"
+      },
+      {
+        "title": "Release Steps",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/development_release.html",
+        "anchor": "development_release",
+        "virtual_path": "docs/development_release.md"
+      },
+      {
+        "title": "Site Update Steps",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/development_site_update.html",
+        "anchor": "development_site_update",
+        "virtual_path": "docs/development_site_update.md"
+      },
+      {
+        "title": "Update Local Git XQTS Results",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/development_update_xqts_results.html",
+        "anchor": "development_update_xqts_results",
+        "virtual_path": "docs/development_update_xqts_results.md"
+      },
+      {
+        "title": "XMark Benchmark Status",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/development_xmark_status.html",
+        "anchor": "development_xmark_status",
+        "virtual_path": "docs/development_xmark_status.md"
+      },
+      {
+        "title": "XML Data and Node Types",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/development_xml_node_details.html",
+        "anchor": "development_xml_node_details",
+        "virtual_path": "docs/development_xml_node_details.md"
+      },
+      {
+        "title": "XML Data Model Example",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/development_xml_document.html",
+        "anchor": "development_xml_document",
+        "virtual_path": "docs/development_xml_document.md"
+      }
+    ]
+  },
+  {
+    "title": "Project Documentation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Project Information",
+        "kind": "link",
+        "children": [
+          {
+            "title": "About",
+            "kind": "category",
+            "source_url": "https://vxquery.apache.org/vxquery-core/index.html",
+            "anchor": "vxquery-core",
+            "virtual_path": "docs/vxquery-core/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Modules",
+    "kind": "category",
+    "children": [
+      {
+        "title": "VXQuery Core",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/vxquery-core/index.html",
+        "anchor": "vxquery-core",
+        "virtual_path": "docs/vxquery-core/index.md"
+      },
+      {
+        "title": "VXQuery Server",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/vxquery-server/index.html",
+        "anchor": "vxquery-server",
+        "virtual_path": "docs/vxquery-server/index.md"
+      },
+      {
+        "title": "VXQuery CLI",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/vxquery-cli/index.html",
+        "anchor": "vxquery-cli",
+        "virtual_path": "docs/vxquery-cli/index.md"
+      },
+      {
+        "title": "VXQuery XTest",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/vxquery-xtest/index.html",
+        "anchor": "vxquery-xtest",
+        "virtual_path": "docs/vxquery-xtest/index.md"
+      },
+      {
+        "title": "VXQuery Benchmark",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/vxquery-benchmark/index.html",
+        "anchor": "vxquery-benchmark",
+        "virtual_path": "docs/vxquery-benchmark/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Items",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Missing Functions",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/vxquery-core/missing-functions.html",
+        "anchor": "vxquery-core-missing-functions",
+        "virtual_path": "docs/vxquery-core/missing-functions.md"
+      },
+      {
+        "title": "Missing Operators",
+        "kind": "link",
+        "source_url": "https://vxquery.apache.org/vxquery-core/missing-operators.html",
+        "anchor": "vxquery-core-missing-operators",
+        "virtual_path": "docs/vxquery-core/missing-operators.md"
+      }
+    ]
+  }
+]

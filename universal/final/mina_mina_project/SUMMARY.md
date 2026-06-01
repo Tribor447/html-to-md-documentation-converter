@@ -1,0 +1,25 @@
+# Summary
+
+- Latest Downloads
+  - [Mina 2.0.28](#downloads_2_0)
+  - [Mina 2.1.12](#downloads_2_1)
+  - [Mina 2.2.7](#downloads_2_2)
+  - [Mina old versions](#downloads_old)
+- [Documentation](#documentation)
+  - [Base documentation](#documentation)
+  - [User guide](#userguide-user-guide-toc)
+  - [2.2 vs 2.1](#2.2-vs-2.1)
+  - [2.1 vs 2.0](#2.1-vs-2.0)
+  - [Features](#features)
+  - [Road Map](#road-map)
+  - [Quick Start Guide](#quick-start-guide)
+  - [FAQ](#faq)
+- Resources
+  - [Mailing lists & IRC](#mailing-lists)
+  - [Issue tracking](#issue-tracking)
+  - [Sources](#sources)
+  - [Performances](#performances)
+  - [Testimonials](#testimonials)
+  - [Conferences](#conferences)
+  - [Developers Guide](#developer-guide)
+  - [Related Projects](#related-projects)

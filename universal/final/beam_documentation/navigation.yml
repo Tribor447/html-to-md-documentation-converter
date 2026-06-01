@@ -1,0 +1,3089 @@
+- title: Documentation
+  kind: category
+  source_url: https://beam.apache.org/documentation/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Using the Documentation
+  kind: link
+  source_url: https://beam.apache.org/documentation/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Concepts
+  kind: category
+  children:
+  - title: Basics of the Beam model
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/
+    anchor: basics
+    virtual_path: docs/basics/index.md
+  - title: How Beam executes a pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/runtime/model/
+    anchor: runtime-model
+    virtual_path: docs/runtime/model/index.md
+  - title: Start with the
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/
+    anchor: basics
+    virtual_path: docs/basics/index.md
+  - title: Read the
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/
+    anchor: programming-guide
+    virtual_path: docs/programming-guide/index.md
+  - title: Learn about Beam’s
+    kind: link
+    source_url: https://beam.apache.org/documentation/runtime/model/
+    anchor: runtime-model
+    virtual_path: docs/runtime/model/index.md
+  - title: Reference the
+    kind: link
+    source_url: https://beam.apache.org/documentation/glossary/
+    anchor: glossary
+    virtual_path: docs/glossary/index.md
+- title: Beam programming guide
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/
+    anchor: programming-guide
+    virtual_path: docs/programming-guide/index.md
+  - title: Pipelines
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#creating-a-pipeline
+    anchor: programming-guide--creating-a-pipeline
+    virtual_path: docs/programming-guide/index.md
+  - title: PCollections
+    kind: category
+    children:
+    - title: Creating a PCollection
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#pcollections
+      anchor: programming-guide--pcollections
+      virtual_path: docs/programming-guide/index.md
+    - title: PCollection characteristics
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#pcollection-characteristics
+      anchor: programming-guide--pcollection-characteristics
+      virtual_path: docs/programming-guide/index.md
+  - title: Transforms
+    kind: category
+    children:
+    - title: Applying transforms
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#applying-transforms
+      anchor: programming-guide--applying-transforms
+      virtual_path: docs/programming-guide/index.md
+    - title: Core Beam transforms
+      kind: category
+      children:
+      - title: ParDo
+        kind: link
+        source_url: https://beam.apache.org/documentation/programming-guide/#pardo
+        anchor: programming-guide--pardo
+        virtual_path: docs/programming-guide/index.md
+      - title: GroupByKey
+        kind: link
+        source_url: https://beam.apache.org/documentation/programming-guide/#groupbykey
+        anchor: programming-guide--groupbykey
+        virtual_path: docs/programming-guide/index.md
+      - title: CoGroupByKey
+        kind: link
+        source_url: https://beam.apache.org/documentation/programming-guide/#cogroupbykey
+        anchor: programming-guide--cogroupbykey
+        virtual_path: docs/programming-guide/index.md
+      - title: Combine
+        kind: link
+        source_url: https://beam.apache.org/documentation/programming-guide/#combine
+        anchor: programming-guide--combine
+        virtual_path: docs/programming-guide/index.md
+      - title: Flatten
+        kind: link
+        source_url: https://beam.apache.org/documentation/programming-guide/#flatten
+        anchor: programming-guide--flatten
+        virtual_path: docs/programming-guide/index.md
+      - title: Partition
+        kind: link
+        source_url: https://beam.apache.org/documentation/programming-guide/#partition
+        anchor: programming-guide--partition
+        virtual_path: docs/programming-guide/index.md
+    - title: Requirements for user code
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#requirements-for-writing-user-code-for-beam-transforms
+      anchor: programming-guide--requirements-for-writing-user-code-for-beam-transforms
+      virtual_path: docs/programming-guide/index.md
+    - title: Side inputs
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#side-inputs
+      anchor: programming-guide--side-inputs
+      virtual_path: docs/programming-guide/index.md
+    - title: Additional outputs
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#additional-outputs
+      anchor: programming-guide--additional-outputs
+      virtual_path: docs/programming-guide/index.md
+    - title: Composite transforms
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#composite-transforms
+      anchor: programming-guide--composite-transforms
+      virtual_path: docs/programming-guide/index.md
+  - title: Pipeline I/O
+    kind: category
+    children:
+    - title: Using I/O transforms
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#pipeline-io
+      anchor: programming-guide--pipeline-io
+      virtual_path: docs/programming-guide/index.md
+    - title: I/O connectors
+      kind: link
+      source_url: https://beam.apache.org/documentation/io/connectors/
+      anchor: io-connectors
+      virtual_path: docs/io/connectors/index.md
+    - title: Managed I/O
+      kind: link
+      source_url: https://beam.apache.org/documentation/io/managed-io/
+      anchor: io-managed-io
+      virtual_path: docs/io/managed-io/index.md
+    - title: I/O connector guides
+      kind: category
+      children:
+      - title: Apache Iceberg
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/built-in/iceberg/
+        anchor: io-built-in-iceberg
+        virtual_path: docs/io/built-in/iceberg/index.md
+      - title: Apache Parquet
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/built-in/parquet/
+        anchor: io-built-in-parquet
+        virtual_path: docs/io/built-in/parquet/index.md
+      - title: Hadoop Input/Output Format
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/built-in/hadoop/
+        anchor: io-built-in-hadoop
+        virtual_path: docs/io/built-in/hadoop/index.md
+      - title: HCatalog IO
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/built-in/hcatalog/
+        anchor: io-built-in-hcatalog
+        virtual_path: docs/io/built-in/hcatalog/index.md
+      - title: Google BigQuery
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/built-in/google-bigquery/
+        anchor: io-built-in-google-bigquery
+        virtual_path: docs/io/built-in/google-bigquery/index.md
+      - title: Snowflake
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/built-in/snowflake/
+        anchor: io-built-in-snowflake
+        virtual_path: docs/io/built-in/snowflake/index.md
+      - title: CDAP I/O
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/built-in/cdap/
+        anchor: io-built-in-cdap
+        virtual_path: docs/io/built-in/cdap/index.md
+      - title: Spark Receiver I/O
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/built-in/sparkreceiver/
+        anchor: io-built-in-sparkreceiver
+        virtual_path: docs/io/built-in/sparkreceiver/index.md
+      - title: SingleStoreDB I/O
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/built-in/singlestore/
+        anchor: io-built-in-singlestore
+        virtual_path: docs/io/built-in/singlestore/index.md
+      - title: Web APIs I/O
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/built-in/webapis/
+        anchor: io-built-in-webapis
+        virtual_path: docs/io/built-in/webapis/index.md
+    - title: Developing new I/O connectors
+      kind: category
+      children:
+      - title: 'Overview: Developing connectors'
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/developing-io-overview/
+        anchor: io-developing-io-overview
+        virtual_path: docs/io/developing-io-overview/index.md
+      - title: Developing connectors (Java)
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/developing-io-java/
+        anchor: io-developing-io-java
+        virtual_path: docs/io/developing-io-java/index.md
+      - title: Developing connectors (Python)
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/developing-io-python/
+        anchor: io-developing-io-python
+        virtual_path: docs/io/developing-io-python/index.md
+      - title: I/O Standards
+        kind: link
+        source_url: https://beam.apache.org/documentation/io/io-standards/
+        anchor: io-io-standards
+        virtual_path: docs/io/io-standards/index.md
+    - title: Testing I/O transforms
+      kind: link
+      source_url: https://beam.apache.org/documentation/io/testing/
+      anchor: io-testing
+      virtual_path: docs/io/testing/index.md
+  - title: Schemas
+    kind: category
+    children:
+    - title: What is a schema
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#what-is-a-schema
+      anchor: programming-guide--what-is-a-schema
+      virtual_path: docs/programming-guide/index.md
+    - title: Schemas for programming language types
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#schemas-for-pl-types
+      anchor: programming-guide--schemas-for-pl-types
+      virtual_path: docs/programming-guide/index.md
+    - title: Schema definition
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#schema-definition
+      anchor: programming-guide--schema-definition
+      virtual_path: docs/programming-guide/index.md
+    - title: Logical types
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#logical-types
+      anchor: programming-guide--logical-types
+      virtual_path: docs/programming-guide/index.md
+    - title: Creating schemas
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#creating-schemas
+      anchor: programming-guide--creating-schemas
+      virtual_path: docs/programming-guide/index.md
+    - title: Using schemas
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#using-schemas
+      anchor: programming-guide--using-schemas
+      virtual_path: docs/programming-guide/index.md
+  - title: Data encoding and type safety
+    kind: category
+    children:
+    - title: Data encoding basics
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#data-encoding-and-type-safety
+      anchor: programming-guide--data-encoding-and-type-safety
+      virtual_path: docs/programming-guide/index.md
+    - title: Specifying coders
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#specifying-coders
+      anchor: programming-guide--specifying-coders
+      virtual_path: docs/programming-guide/index.md
+    - title: Default coders and the CoderRegistry
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#default-coders-and-the-coderregistry
+      anchor: programming-guide--default-coders-and-the-coderregistry
+      virtual_path: docs/programming-guide/index.md
+  - title: Windowing
+    kind: category
+    children:
+    - title: Windowing basics
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#windowing
+      anchor: programming-guide--windowing
+      virtual_path: docs/programming-guide/index.md
+    - title: Provided windowing functions
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#provided-windowing-functions
+      anchor: programming-guide--provided-windowing-functions
+      virtual_path: docs/programming-guide/index.md
+    - title: Setting your PCollection’s windowing function
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#setting-your-pcollections-windowing-function
+      anchor: programming-guide--setting-your-pcollections-windowing-function
+      virtual_path: docs/programming-guide/index.md
+    - title: Watermarks and late data
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#watermarks-and-late-data
+      anchor: programming-guide--watermarks-and-late-data
+      virtual_path: docs/programming-guide/index.md
+    - title: Adding timestamps to a PCollection’s elements
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#adding-timestamps-to-a-pcollections-elements
+      anchor: programming-guide--adding-timestamps-to-a-pcollections-elements
+      virtual_path: docs/programming-guide/index.md
+  - title: Triggers
+    kind: category
+    children:
+    - title: Trigger basics
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#triggers
+      anchor: programming-guide--triggers
+      virtual_path: docs/programming-guide/index.md
+    - title: Event time triggers and the default trigger
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#event-time-triggers
+      anchor: programming-guide--event-time-triggers
+      virtual_path: docs/programming-guide/index.md
+    - title: Processing time triggers
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#processing-time-triggers
+      anchor: programming-guide--processing-time-triggers
+      virtual_path: docs/programming-guide/index.md
+    - title: Data-driven triggers
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#data-driven-triggers
+      anchor: programming-guide--data-driven-triggers
+      virtual_path: docs/programming-guide/index.md
+    - title: Setting a trigger
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#setting-a-trigger
+      anchor: programming-guide--setting-a-trigger
+      virtual_path: docs/programming-guide/index.md
+    - title: Composite triggers
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#composite-triggers
+      anchor: programming-guide--composite-triggers
+      virtual_path: docs/programming-guide/index.md
+  - title: Metrics
+    kind: category
+    children:
+    - title: Metrics basics
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#metrics
+      anchor: programming-guide--metrics
+      virtual_path: docs/programming-guide/index.md
+    - title: Types of metrics
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#types-of-metrics
+      anchor: programming-guide--types-of-metrics
+      virtual_path: docs/programming-guide/index.md
+    - title: Querying metrics
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#querying-metrics
+      anchor: programming-guide--querying-metrics
+      virtual_path: docs/programming-guide/index.md
+    - title: Using metrics in pipeline
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#using-metrics
+      anchor: programming-guide--using-metrics
+      virtual_path: docs/programming-guide/index.md
+    - title: Export metrics
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#export-metrics
+      anchor: programming-guide--export-metrics
+      virtual_path: docs/programming-guide/index.md
+  - title: State and Timers
+    kind: category
+    children:
+    - title: Types of state
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#types-of-state
+      anchor: programming-guide--types-of-state
+      virtual_path: docs/programming-guide/index.md
+    - title: Deferred state reads
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#deferred-state-reads
+      anchor: programming-guide--deferred-state-reads
+      virtual_path: docs/programming-guide/index.md
+    - title: Timers
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#timers
+      anchor: programming-guide--timers
+      virtual_path: docs/programming-guide/index.md
+    - title: Garbage collecting state
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#garbage-collecting-state
+      anchor: programming-guide--garbage-collecting-state
+      virtual_path: docs/programming-guide/index.md
+    - title: State and timers examples
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#state-timers-examples
+      anchor: programming-guide--state-timers-examples
+      virtual_path: docs/programming-guide/index.md
+  - title: Splittable DoFns
+    kind: category
+    children:
+    - title: Basics
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#sdf-basics
+      anchor: programming-guide--sdf-basics
+      virtual_path: docs/programming-guide/index.md
+    - title: Sizing and progress
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#sizing-and-progress
+      anchor: programming-guide--sizing-and-progress
+      virtual_path: docs/programming-guide/index.md
+    - title: User-initiated checkpoint
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#user-initiated-checkpoint
+      anchor: programming-guide--user-initiated-checkpoint
+      virtual_path: docs/programming-guide/index.md
+    - title: Runner initiated split
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#runner-initiated-split
+      anchor: programming-guide--runner-initiated-split
+      virtual_path: docs/programming-guide/index.md
+    - title: Watermark estimation
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#watermark-estimation
+      anchor: programming-guide--watermark-estimation
+      virtual_path: docs/programming-guide/index.md
+    - title: Truncating during drain
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#truncating-during-drain
+      anchor: programming-guide--truncating-during-drain
+      virtual_path: docs/programming-guide/index.md
+    - title: Bundle finalization
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#bundle-finalization
+      anchor: programming-guide--bundle-finalization
+      virtual_path: docs/programming-guide/index.md
+  - title: Multi-language Pipelines
+    kind: category
+    children:
+    - title: Creating cross-language transforms
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#create-x-lang-transforms
+      anchor: programming-guide--create-x-lang-transforms
+      virtual_path: docs/programming-guide/index.md
+    - title: Using cross-language transforms
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#use-x-lang-transforms
+      anchor: programming-guide--use-x-lang-transforms
+      virtual_path: docs/programming-guide/index.md
+    - title: Runner Support
+      kind: link
+      source_url: https://beam.apache.org/documentation/programming-guide/#x-lang-transform-runner-support
+      anchor: programming-guide--x-lang-transform-runner-support
+      virtual_path: docs/programming-guide/index.md
+  - title: Batched DoFns
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#batched-dofns
+    anchor: programming-guide--batched-dofns
+    virtual_path: docs/programming-guide/index.md
+  - title: Transform service
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#transform-service
+    anchor: programming-guide--transform-service
+    virtual_path: docs/programming-guide/index.md
+- title: Pipeline development lifecycle
+  kind: category
+  children:
+  - title: Design Your Pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/pipelines/design-your-pipeline/
+    anchor: pipelines-design-your-pipeline
+    virtual_path: docs/pipelines/design-your-pipeline/index.md
+  - title: Create Your Pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/pipelines/create-your-pipeline/
+    anchor: pipelines-create-your-pipeline
+    virtual_path: docs/pipelines/create-your-pipeline/index.md
+  - title: Test Your Pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/pipelines/test-your-pipeline/
+    anchor: pipelines-test-your-pipeline
+    virtual_path: docs/pipelines/test-your-pipeline/index.md
+- title: Common pipeline patterns
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/overview/
+  anchor: patterns-overview
+  virtual_path: docs/patterns/overview/index.md
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/overview/
+    anchor: patterns-overview
+    virtual_path: docs/patterns/overview/index.md
+  - title: File processing
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/file-processing/
+    anchor: patterns-file-processing
+    virtual_path: docs/patterns/file-processing/index.md
+  - title: Side inputs
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/side-inputs/
+    anchor: patterns-side-inputs
+    virtual_path: docs/patterns/side-inputs/index.md
+  - title: Pipeline options
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/pipeline-options/
+    anchor: patterns-pipeline-options
+    virtual_path: docs/patterns/pipeline-options/index.md
+  - title: Custom I/O
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/custom-io/
+    anchor: patterns-custom-io
+    virtual_path: docs/patterns/custom-io/index.md
+  - title: Custom windows
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/custom-windows/
+    anchor: patterns-custom-windows
+    virtual_path: docs/patterns/custom-windows/index.md
+  - title: BigQueryIO
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/bigqueryio/
+    anchor: patterns-bigqueryio
+    virtual_path: docs/patterns/bigqueryio/index.md
+  - title: AI Platform
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/ai-platform/
+    anchor: patterns-ai-platform
+    virtual_path: docs/patterns/ai-platform/index.md
+  - title: Schema
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/schema/
+    anchor: patterns-schema
+    virtual_path: docs/patterns/schema/index.md
+  - title: BigQuery ML
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/bqml/
+    anchor: patterns-bqml
+    virtual_path: docs/patterns/bqml/index.md
+  - title: Grouping elements for efficient external service calls
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/grouping-elements-for-efficient-external-service-calls/
+    anchor: patterns-grouping-elements-for-efficient-external-service-calls
+    virtual_path: docs/patterns/grouping-elements-for-efficient-external-service-calls/index.md
+  - title: Rate limiting DoFns and Transforms
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/rate-limiting/
+    anchor: patterns-rate-limiting
+    virtual_path: docs/patterns/rate-limiting/index.md
+  - title: Cache using a shared object
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/shared-class/
+    anchor: patterns-shared-class
+    virtual_path: docs/patterns/shared-class/index.md
+  - title: Processing files as they arrive
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/file-processing/#processing-files-as-they-arrive
+    anchor: patterns-file-processing--processing-files-as-they-arrive
+    virtual_path: docs/patterns/file-processing/index.md
+  - title: Accessing filenames
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/file-processing/#accessing-filenames
+    anchor: patterns-file-processing--accessing-filenames
+    virtual_path: docs/patterns/file-processing/index.md
+- title: Runtime systems
+  kind: category
+  children:
+  - title: Container environments
+    kind: link
+    source_url: https://beam.apache.org/documentation/runtime/environments/
+    anchor: runtime-environments
+    virtual_path: docs/runtime/environments/index.md
+  - title: Resource hints
+    kind: link
+    source_url: https://beam.apache.org/documentation/runtime/resource-hints/
+    anchor: runtime-resource-hints
+    virtual_path: docs/runtime/resource-hints/index.md
+  - title: SDK Harness Configuration
+    kind: link
+    source_url: https://beam.apache.org/documentation/runtime/sdk-harness-config/
+    anchor: runtime-sdk-harness-config
+    virtual_path: docs/runtime/sdk-harness-config/index.md
+- title: Transform catalog
+  kind: category
+  children:
+  - title: Python
+    kind: category
+    children:
+    - title: Overview
+      kind: link
+      source_url: https://beam.apache.org/documentation/transforms/python/overview/
+      anchor: transforms-python-overview
+      virtual_path: docs/transforms/python/overview/index.md
+    - title: Element-wise
+      kind: category
+      children:
+      - title: Enrichment
+        kind: category
+        children:
+        - title: Overview
+          kind: link
+          source_url: https://beam.apache.org/documentation/transforms/python/elementwise/enrichment/
+          anchor: transforms-python-elementwise-enrichment
+          virtual_path: docs/transforms/python/elementwise/enrichment/index.md
+        - title: Bigtable example
+          kind: link
+          source_url: https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-bigtable/
+          anchor: transforms-python-elementwise-enrichment-bigtable
+          virtual_path: docs/transforms/python/elementwise/enrichment-bigtable/index.md
+        - title: Milvus example
+          kind: link
+          source_url: https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-milvus/
+          anchor: transforms-python-elementwise-enrichment-milvus
+          virtual_path: docs/transforms/python/elementwise/enrichment-milvus/index.md
+        - title: CloudSQL example
+          kind: link
+          source_url: https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-cloudsql/
+          anchor: transforms-python-elementwise-enrichment-cloudsql
+          virtual_path: docs/transforms/python/elementwise/enrichment-cloudsql/index.md
+        - title: Vertex AI Feature Store examples
+          kind: link
+          source_url: https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-vertexai/
+          anchor: transforms-python-elementwise-enrichment-vertexai
+          virtual_path: docs/transforms/python/elementwise/enrichment-vertexai/index.md
+      - title: Filter
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/filter/
+        anchor: transforms-python-elementwise-filter
+        virtual_path: docs/transforms/python/elementwise/filter/index.md
+      - title: FlatMap
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/flatmap/
+        anchor: transforms-python-elementwise-flatmap
+        virtual_path: docs/transforms/python/elementwise/flatmap/index.md
+      - title: Keys
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/keys/
+        anchor: transforms-python-elementwise-keys
+        virtual_path: docs/transforms/python/elementwise/keys/index.md
+      - title: KvSwap
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/kvswap/
+        anchor: transforms-python-elementwise-kvswap
+        virtual_path: docs/transforms/python/elementwise/kvswap/index.md
+      - title: Map
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/map/
+        anchor: transforms-python-elementwise-map
+        virtual_path: docs/transforms/python/elementwise/map/index.md
+      - title: MLTransform
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/mltransform/
+        anchor: transforms-python-elementwise-mltransform
+        virtual_path: docs/transforms/python/elementwise/mltransform/index.md
+      - title: ParDo
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/pardo/
+        anchor: transforms-python-elementwise-pardo
+        virtual_path: docs/transforms/python/elementwise/pardo/index.md
+      - title: Partition
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/partition/
+        anchor: transforms-python-elementwise-partition
+        virtual_path: docs/transforms/python/elementwise/partition/index.md
+      - title: Regex
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/regex/
+        anchor: transforms-python-elementwise-regex
+        virtual_path: docs/transforms/python/elementwise/regex/index.md
+      - title: Reify
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/reify/
+        anchor: transforms-python-elementwise-reify
+        virtual_path: docs/transforms/python/elementwise/reify/index.md
+      - title: RunInference
+        kind: category
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/runinference/
+        anchor: transforms-python-elementwise-runinference
+        virtual_path: docs/transforms/python/elementwise/runinference/index.md
+        children:
+        - title: Overview
+          kind: link
+          source_url: https://beam.apache.org/documentation/transforms/python/elementwise/runinference/
+          anchor: transforms-python-elementwise-runinference
+          virtual_path: docs/transforms/python/elementwise/runinference/index.md
+        - title: PyTorch examples
+          kind: link
+          source_url: https://beam.apache.org/documentation/transforms/python/elementwise/runinference-pytorch/
+          anchor: transforms-python-elementwise-runinference-pytorch
+          virtual_path: docs/transforms/python/elementwise/runinference-pytorch/index.md
+        - title: Sklearn examples
+          kind: link
+          source_url: https://beam.apache.org/documentation/transforms/python/elementwise/runinference-sklearn/
+          anchor: transforms-python-elementwise-runinference-sklearn
+          virtual_path: docs/transforms/python/elementwise/runinference-sklearn/index.md
+      - title: ToString
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/tostring/
+        anchor: transforms-python-elementwise-tostring
+        virtual_path: docs/transforms/python/elementwise/tostring/index.md
+      - title: Values
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/values/
+        anchor: transforms-python-elementwise-values
+        virtual_path: docs/transforms/python/elementwise/values/index.md
+      - title: WithTimestamps
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/elementwise/withtimestamps/
+        anchor: transforms-python-elementwise-withtimestamps
+        virtual_path: docs/transforms/python/elementwise/withtimestamps/index.md
+    - title: Aggregation
+      kind: category
+      children:
+      - title: ApproximateQuantiles
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/approximatequantiles/
+        anchor: transforms-python-aggregation-approximatequantiles
+        virtual_path: docs/transforms/python/aggregation/approximatequantiles/index.md
+      - title: ApproximateUnique
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/approximateunique/
+        anchor: transforms-python-aggregation-approximateunique
+        virtual_path: docs/transforms/python/aggregation/approximateunique/index.md
+      - title: BatchElements
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/batchelements/
+        anchor: transforms-python-aggregation-batchelements
+        virtual_path: docs/transforms/python/aggregation/batchelements/index.md
+      - title: CoGroupByKey
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/cogroupbykey/
+        anchor: transforms-python-aggregation-cogroupbykey
+        virtual_path: docs/transforms/python/aggregation/cogroupbykey/index.md
+      - title: CombineGlobally
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/combineglobally/
+        anchor: transforms-python-aggregation-combineglobally
+        virtual_path: docs/transforms/python/aggregation/combineglobally/index.md
+      - title: CombinePerKey
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/combineperkey/
+        anchor: transforms-python-aggregation-combineperkey
+        virtual_path: docs/transforms/python/aggregation/combineperkey/index.md
+      - title: CombineValues
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/combinevalues/
+        anchor: transforms-python-aggregation-combinevalues
+        virtual_path: docs/transforms/python/aggregation/combinevalues/index.md
+      - title: Count
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/count/
+        anchor: transforms-python-aggregation-count
+        virtual_path: docs/transforms/python/aggregation/count/index.md
+      - title: Distinct
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/distinct/
+        anchor: transforms-python-aggregation-distinct
+        virtual_path: docs/transforms/python/aggregation/distinct/index.md
+      - title: GroupBy
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/groupby/
+        anchor: transforms-python-aggregation-groupby
+        virtual_path: docs/transforms/python/aggregation/groupby/index.md
+      - title: GroupByKey
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/groupbykey/
+        anchor: transforms-python-aggregation-groupbykey
+        virtual_path: docs/transforms/python/aggregation/groupbykey/index.md
+      - title: GroupIntoBatches
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/groupintobatches/
+        anchor: transforms-python-aggregation-groupintobatches
+        virtual_path: docs/transforms/python/aggregation/groupintobatches/index.md
+      - title: Latest
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/latest/
+        anchor: transforms-python-aggregation-latest
+        virtual_path: docs/transforms/python/aggregation/latest/index.md
+      - title: Max
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/max/
+        anchor: transforms-python-aggregation-max
+        virtual_path: docs/transforms/python/aggregation/max/index.md
+      - title: Mean
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/mean/
+        anchor: transforms-python-aggregation-mean
+        virtual_path: docs/transforms/python/aggregation/mean/index.md
+      - title: Min
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/min/
+        anchor: transforms-python-aggregation-min
+        virtual_path: docs/transforms/python/aggregation/min/index.md
+      - title: Sample
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/sample/
+        anchor: transforms-python-aggregation-sample
+        virtual_path: docs/transforms/python/aggregation/sample/index.md
+      - title: Sum
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/sum/
+        anchor: transforms-python-aggregation-sum
+        virtual_path: docs/transforms/python/aggregation/sum/index.md
+      - title: Top
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/top/
+        anchor: transforms-python-aggregation-top
+        virtual_path: docs/transforms/python/aggregation/top/index.md
+      - title: ToList
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/aggregation/tolist/
+        anchor: transforms-python-aggregation-tolist
+        virtual_path: docs/transforms/python/aggregation/tolist/index.md
+    - title: Other
+      kind: category
+      children:
+      - title: Create
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/other/create/
+        anchor: transforms-python-other-create
+        virtual_path: docs/transforms/python/other/create/index.md
+      - title: Flatten
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/other/flatten/
+        anchor: transforms-python-other-flatten
+        virtual_path: docs/transforms/python/other/flatten/index.md
+      - title: Reshuffle
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/other/reshuffle/
+        anchor: transforms-python-other-reshuffle
+        virtual_path: docs/transforms/python/other/reshuffle/index.md
+      - title: WaitOn
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/other/waiton/
+        anchor: transforms-python-other-waiton
+        virtual_path: docs/transforms/python/other/waiton/index.md
+      - title: WindowInto
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/python/other/windowinto/
+        anchor: transforms-python-other-windowinto
+        virtual_path: docs/transforms/python/other/windowinto/index.md
+  - title: Java
+    kind: category
+    children:
+    - title: Overview
+      kind: link
+      source_url: https://beam.apache.org/documentation/transforms/java/overview/
+      anchor: transforms-java-overview
+      virtual_path: docs/transforms/java/overview/index.md
+    - title: Element-wise
+      kind: category
+      children:
+      - title: Filter
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/filter/
+        anchor: transforms-java-elementwise-filter
+        virtual_path: docs/transforms/java/elementwise/filter/index.md
+      - title: FlatMapElements
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/flatmapelements/
+        anchor: transforms-java-elementwise-flatmapelements
+        virtual_path: docs/transforms/java/elementwise/flatmapelements/index.md
+      - title: Keys
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/keys/
+        anchor: transforms-java-elementwise-keys
+        virtual_path: docs/transforms/java/elementwise/keys/index.md
+      - title: KvSwap
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/kvswap/
+        anchor: transforms-java-elementwise-kvswap
+        virtual_path: docs/transforms/java/elementwise/kvswap/index.md
+      - title: MapElements
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/mapelements/
+        anchor: transforms-java-elementwise-mapelements
+        virtual_path: docs/transforms/java/elementwise/mapelements/index.md
+      - title: ParDo
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/pardo/
+        anchor: transforms-java-elementwise-pardo
+        virtual_path: docs/transforms/java/elementwise/pardo/index.md
+      - title: Partition
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/partition/
+        anchor: transforms-java-elementwise-partition
+        virtual_path: docs/transforms/java/elementwise/partition/index.md
+      - title: Regex
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/regex/
+        anchor: transforms-java-elementwise-regex
+        virtual_path: docs/transforms/java/elementwise/regex/index.md
+      - title: Reify
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/reify/
+        anchor: transforms-java-elementwise-reify
+        virtual_path: docs/transforms/java/elementwise/reify/index.md
+      - title: ToString
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/tostring/
+        anchor: transforms-java-elementwise-tostring
+        virtual_path: docs/transforms/java/elementwise/tostring/index.md
+      - title: Values
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/values/
+        anchor: transforms-java-elementwise-values
+        virtual_path: docs/transforms/java/elementwise/values/index.md
+      - title: WithKeys
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/withkeys/
+        anchor: transforms-java-elementwise-withkeys
+        virtual_path: docs/transforms/java/elementwise/withkeys/index.md
+      - title: WithTimestamps
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/elementwise/withtimestamps/
+        anchor: transforms-java-elementwise-withtimestamps
+        virtual_path: docs/transforms/java/elementwise/withtimestamps/index.md
+    - title: Aggregation
+      kind: category
+      children:
+      - title: ApproximateQuantiles
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/approximatequantiles/
+        anchor: transforms-java-aggregation-approximatequantiles
+        virtual_path: docs/transforms/java/aggregation/approximatequantiles/index.md
+      - title: ApproximateUnique
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/approximateunique/
+        anchor: transforms-java-aggregation-approximateunique
+        virtual_path: docs/transforms/java/aggregation/approximateunique/index.md
+      - title: CoGroupByKey
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/cogroupbykey/
+        anchor: transforms-java-aggregation-cogroupbykey
+        virtual_path: docs/transforms/java/aggregation/cogroupbykey/index.md
+      - title: Combine
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/combine/
+        anchor: transforms-java-aggregation-combine
+        virtual_path: docs/transforms/java/aggregation/combine/index.md
+      - title: CombineWithContext
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/combinewithcontext/
+        anchor: transforms-java-aggregation-combinewithcontext
+        virtual_path: docs/transforms/java/aggregation/combinewithcontext/index.md
+      - title: Count
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/count/
+        anchor: transforms-java-aggregation-count
+        virtual_path: docs/transforms/java/aggregation/count/index.md
+      - title: Distinct
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/distinct/
+        anchor: transforms-java-aggregation-distinct
+        virtual_path: docs/transforms/java/aggregation/distinct/index.md
+      - title: GroupByKey
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/groupbykey/
+        anchor: transforms-java-aggregation-groupbykey
+        virtual_path: docs/transforms/java/aggregation/groupbykey/index.md
+      - title: GroupIntoBatches
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/groupintobatches/
+        anchor: transforms-java-aggregation-groupintobatches
+        virtual_path: docs/transforms/java/aggregation/groupintobatches/index.md
+      - title: BatchElements
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/batchelements/
+        anchor: transforms-java-aggregation-batchelements
+        virtual_path: docs/transforms/java/aggregation/batchelements/index.md
+      - title: HllCount
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/hllcount/
+        anchor: transforms-java-aggregation-hllcount
+        virtual_path: docs/transforms/java/aggregation/hllcount/index.md
+      - title: Latest
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/latest/
+        anchor: transforms-java-aggregation-latest
+        virtual_path: docs/transforms/java/aggregation/latest/index.md
+      - title: Max
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/max/
+        anchor: transforms-java-aggregation-max
+        virtual_path: docs/transforms/java/aggregation/max/index.md
+      - title: Mean
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/mean/
+        anchor: transforms-java-aggregation-mean
+        virtual_path: docs/transforms/java/aggregation/mean/index.md
+      - title: Min
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/min/
+        anchor: transforms-java-aggregation-min
+        virtual_path: docs/transforms/java/aggregation/min/index.md
+      - title: Sample
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/sample/
+        anchor: transforms-java-aggregation-sample
+        virtual_path: docs/transforms/java/aggregation/sample/index.md
+      - title: Sum
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/sum/
+        anchor: transforms-java-aggregation-sum
+        virtual_path: docs/transforms/java/aggregation/sum/index.md
+      - title: Top
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/aggregation/top/
+        anchor: transforms-java-aggregation-top
+        virtual_path: docs/transforms/java/aggregation/top/index.md
+    - title: Other
+      kind: category
+      children:
+      - title: Create
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/other/create/
+        anchor: transforms-java-other-create
+        virtual_path: docs/transforms/java/other/create/index.md
+      - title: Flatten
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/other/flatten/
+        anchor: transforms-java-other-flatten
+        virtual_path: docs/transforms/java/other/flatten/index.md
+      - title: PAssert
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/other/passert/
+        anchor: transforms-java-other-passert
+        virtual_path: docs/transforms/java/other/passert/index.md
+      - title: View
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/other/view/
+        anchor: transforms-java-other-view
+        virtual_path: docs/transforms/java/other/view/index.md
+      - title: Wait.On
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/other/wait/
+        anchor: transforms-java-other-wait
+        virtual_path: docs/transforms/java/other/wait/index.md
+      - title: Window
+        kind: link
+        source_url: https://beam.apache.org/documentation/transforms/java/other/window/
+        anchor: transforms-java-other-window
+        virtual_path: docs/transforms/java/other/window/index.md
+- title: Glossary
+  kind: link
+  source_url: https://beam.apache.org/documentation/glossary/
+  anchor: glossary
+  virtual_path: docs/glossary/index.md
+- title: 13. Multi-language pipelines
+  kind: category
+  children:
+  - title: Python multi-language pipelines quickstart
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-multi-language-pipelines/
+    anchor: sdks-python-multi-language-pipelines
+    virtual_path: docs/sdks/python-multi-language-pipelines/index.md
+  - title: Java multi-language pipelines quickstart
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java-multi-language-pipelines/
+    anchor: sdks-java-multi-language-pipelines
+    virtual_path: docs/sdks/java-multi-language-pipelines/index.md
+- title: Apache Beam Programming Guide
+  kind: category
+  source_url: https://beam.apache.org/documentation/programming-guide/
+  anchor: programming-guide
+  virtual_path: docs/programming-guide/index.md
+- title: Apply
+  kind: category
+  children:
+  - title: Applying transforms
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#applying-transforms
+    anchor: programming-guide--applying-transforms
+    virtual_path: docs/programming-guide/index.md
+- title: 4.2.1.4. DoFn lifecycle
+  kind: category
+  children:
+  - title: For the Python SDK, the pipeline contents such as DoFn user code, is
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-pipeline-dependencies/#pickling-and-managing-the-main-session
+    anchor: sdks-python-pipeline-dependencies--pickling-and-managing-the-main-session
+    virtual_path: docs/sdks/python-pipeline-dependencies/index.md
+- title: 15.4 Portable transforms included in the Transform service
+  kind: category
+  children:
+  - title: RunInference
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/elementwise/runinference/
+    anchor: transforms-python-elementwise-runinference
+    virtual_path: docs/transforms/python/elementwise/runinference/index.md
+- title: Using SnowflakeIO with AWS S3
+  kind: category
+  children:
+  - title: Create
+    kind: link
+    source_url: https://beam.apache.org/documentation/io/built-in/snowflake/#extending-pipeline-options
+    anchor: io-built-in-snowflake--extending-pipeline-options
+    virtual_path: docs/io/built-in/snowflake/index.md
+- title: Snowflake I/O
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/built-in/snowflake/
+  anchor: io-built-in-snowflake
+  virtual_path: docs/io/built-in/snowflake/index.md
+- title: General usage
+  kind: category
+  children:
+  - title: .withCsvMapper(mapper)
+    kind: category
+    children:
+    - title: Accepts a
+      kind: link
+      source_url: https://beam.apache.org/documentation/io/built-in/snowflake/#csvmapper
+      anchor: io-built-in-snowflake--csvmapper
+      virtual_path: docs/io/built-in/snowflake/index.md
+- title: Accepts the
+  kind: category
+  children:
+  - title: Accepts the
+    kind: link
+    source_url: https://beam.apache.org/documentation/io/built-in/snowflake/#userdatamapper-function
+    anchor: io-built-in-snowflake--userdatamapper-function
+    virtual_path: docs/io/built-in/snowflake/index.md
+- title: Pipeline
+  kind: category
+  children:
+  - title: 'Beam Programming Guide: Overview'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#overview
+    anchor: programming-guide--overview
+    virtual_path: docs/programming-guide/index.md
+  - title: 'Beam Programming Guide: Creating a pipeline'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#creating-a-pipeline
+    anchor: programming-guide--creating-a-pipeline
+    virtual_path: docs/programming-guide/index.md
+  - title: Design your pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/pipelines/design-your-pipeline/
+    anchor: pipelines-design-your-pipeline
+    virtual_path: docs/pipelines/design-your-pipeline/index.md
+  - title: Create your pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/pipelines/create-your-pipeline/
+    anchor: pipelines-create-your-pipeline
+    virtual_path: docs/pipelines/create-your-pipeline/index.md
+  - title: 'Basics of the Beam model: Pipeline'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#pipeline
+    anchor: basics--pipeline
+    virtual_path: docs/basics/index.md
+  - title: Overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#overview
+    anchor: programming-guide--overview
+    virtual_path: docs/programming-guide/index.md
+  - title: Creating a pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#creating-a-pipeline
+    anchor: programming-guide--creating-a-pipeline
+    virtual_path: docs/programming-guide/index.md
+- title: PCollection
+  kind: category
+  children:
+  - title: 'Basics of the Beam model: PCollection'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#pcollection
+    anchor: basics--pcollection
+    virtual_path: docs/basics/index.md
+  - title: 'Programming guide: PCollections'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#pcollections
+    anchor: programming-guide--pcollections
+    virtual_path: docs/programming-guide/index.md
+- title: PTransform
+  kind: category
+  children:
+  - title: 'Basics of the Beam model: PTransform'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#ptransform
+    anchor: basics--ptransform
+    virtual_path: docs/basics/index.md
+  - title: Overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#overview
+    anchor: programming-guide--overview
+    virtual_path: docs/programming-guide/index.md
+  - title: Transforms
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#transforms
+    anchor: programming-guide--transforms
+    virtual_path: docs/programming-guide/index.md
+- title: Aggregation
+  kind: category
+  children:
+  - title: Java Transform catalog
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/overview/#aggregation
+    anchor: transforms-java-overview--aggregation
+    virtual_path: docs/transforms/java/overview/index.md
+  - title: Python Transform catalog
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/overview/#aggregation
+    anchor: transforms-python-overview--aggregation
+    virtual_path: docs/transforms/python/overview/index.md
+- title: User-defined function (UDF)
+  kind: category
+  children:
+  - title: DoFn
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#pardo
+    anchor: programming-guide--pardo
+    virtual_path: docs/programming-guide/index.md
+  - title: WindowFn
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#setting-your-pcollections-windowing-function
+    anchor: programming-guide--setting-your-pcollections-windowing-function
+    virtual_path: docs/programming-guide/index.md
+  - title: ViewFn
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#side-inputs
+    anchor: programming-guide--side-inputs
+    virtual_path: docs/programming-guide/index.md
+  - title: WindowMappingFn
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#side-inputs-windowing
+    anchor: programming-guide--side-inputs-windowing
+    virtual_path: docs/programming-guide/index.md
+  - title: CombineFn
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#combine
+    anchor: programming-guide--combine
+    virtual_path: docs/programming-guide/index.md
+  - title: Coder
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#data-encoding-and-type-safety
+    anchor: programming-guide--data-encoding-and-type-safety
+    virtual_path: docs/programming-guide/index.md
+- title: Schema
+  kind: category
+  children:
+  - title: 'Beam Programming Guide: Schemas'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#schemas
+    anchor: programming-guide--schemas
+    virtual_path: docs/programming-guide/index.md
+  - title: Schema Patterns
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/schema/
+    anchor: patterns-schema
+    virtual_path: docs/patterns/schema/index.md
+  - title: 'Basics of the Beam model: Schema'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#schema
+    anchor: basics--schema
+    virtual_path: docs/basics/index.md
+  - title: 'Programming guide: Schemas'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#schemas
+    anchor: programming-guide--schemas
+    virtual_path: docs/programming-guide/index.md
+- title: Runner
+  kind: category
+  children:
+  - title: Choosing a Runner
+    kind: link
+    source_url: https://beam.apache.org/documentation/#choosing-a-runner
+    anchor: index--choosing-a-runner
+    virtual_path: docs/index.md
+  - title: Beam Capability Matrix
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/capability-matrix/
+    anchor: runners-capability-matrix
+    virtual_path: docs/runners/capability-matrix/index.md
+  - title: 'Basics of the Beam model: Runner'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#runner
+    anchor: basics--runner
+    virtual_path: docs/basics/index.md
+- title: Watermark
+  kind: category
+  children:
+  - title: 'Beam Programming Guide: Watermarks and late data'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#watermarks-and-late-data
+    anchor: programming-guide--watermarks-and-late-data
+    virtual_path: docs/programming-guide/index.md
+  - title: 'Basics of the Beam model: Watermark'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#watermark
+    anchor: basics--watermark
+    virtual_path: docs/basics/index.md
+  - title: 'Programming guide: Watermarks and late data'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#watermarks-and-late-data
+    anchor: programming-guide--watermarks-and-late-data
+    virtual_path: docs/programming-guide/index.md
+- title: Trigger
+  kind: category
+  children:
+  - title: 'Basics of the Beam model: Trigger'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#trigger
+    anchor: basics--trigger
+    virtual_path: docs/basics/index.md
+  - title: 'Programming guide: Triggers'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#triggers
+    anchor: programming-guide--triggers
+    virtual_path: docs/programming-guide/index.md
+- title: Splittable DoFn
+  kind: category
+  children:
+  - title: 'Basics of the Beam model: Splittable DoFn'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#splittable-dofn
+    anchor: basics--splittable-dofn
+    virtual_path: docs/basics/index.md
+  - title: 'Programming guide: Splittable DoFns'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#splittable-dofns
+    anchor: programming-guide--splittable-dofns
+    virtual_path: docs/programming-guide/index.md
+- title: What’s next
+  kind: category
+  children:
+  - title: Create your own pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/pipelines/create-your-pipeline/
+    anchor: pipelines-create-your-pipeline
+    virtual_path: docs/pipelines/create-your-pipeline/index.md
+  - title: Test your pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/pipelines/test-your-pipeline/
+    anchor: pipelines-test-your-pipeline
+    virtual_path: docs/pipelines/test-your-pipeline/index.md
+  - title: Programming Guide
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/
+    anchor: programming-guide
+    virtual_path: docs/programming-guide/index.md
+  - title: Execute your pipeline on a
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/capability-matrix/
+    anchor: runners-capability-matrix
+    virtual_path: docs/runners/capability-matrix/index.md
+- title: 'Beam Programming Guide: PCollections'
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#pcollections
+  anchor: programming-guide--pcollections
+  virtual_path: docs/programming-guide/index.md
+- title: 'Beam Programming Guide: Transforms'
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#transforms
+  anchor: programming-guide--transforms
+  virtual_path: docs/programming-guide/index.md
+- title: Beam transform catalog (
+  kind: link
+  source_url: https://beam.apache.org/documentation/transforms/java/overview/
+  anchor: transforms-java-overview
+  virtual_path: docs/transforms/java/overview/index.md
+- title: 'Beam Programming Guide: Core Beam transforms'
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#core-beam-transforms
+  anchor: programming-guide--core-beam-transforms
+  virtual_path: docs/programming-guide/index.md
+- title: Requirements for writing user code for Beam transforms
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#requirements-for-writing-user-code-for-beam-transforms
+  anchor: programming-guide--requirements-for-writing-user-code-for-beam-transforms
+  virtual_path: docs/programming-guide/index.md
+- title: 'Beam Programming Guide: ParDo'
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#pardo
+  anchor: programming-guide--pardo
+  virtual_path: docs/programming-guide/index.md
+- title: 'Beam Programming Guide: WindowFn'
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#setting-your-pcollections-windowing-function
+  anchor: programming-guide--setting-your-pcollections-windowing-function
+  virtual_path: docs/programming-guide/index.md
+- title: 'Beam Programming Guide: CombineFn'
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#combine
+  anchor: programming-guide--combine
+  virtual_path: docs/programming-guide/index.md
+- title: 'Beam Programming Guide: Coder'
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#data-encoding-and-type-safety
+  anchor: programming-guide--data-encoding-and-type-safety
+  virtual_path: docs/programming-guide/index.md
+- title: 'Beam Programming Guide: Side inputs'
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#side-inputs
+  anchor: programming-guide--side-inputs
+  virtual_path: docs/programming-guide/index.md
+- title: 'Beam Programming Guide: Windowing'
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#windowing
+  anchor: programming-guide--windowing
+  virtual_path: docs/programming-guide/index.md
+- title: 'Beam Programming Guide: Triggers'
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#triggers
+  anchor: programming-guide--triggers
+  virtual_path: docs/programming-guide/index.md
+- title: 'Beam Programming Guide: State and Timers'
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#state-and-timers
+  anchor: programming-guide--state-and-timers
+  virtual_path: docs/programming-guide/index.md
+- title: Splittable DoFns
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#splittable-dofns
+  anchor: programming-guide--splittable-dofns
+  virtual_path: docs/programming-guide/index.md
+- title: Batch processing
+  kind: category
+  children:
+  - title: Size and boundedness
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#size-and-boundedness
+    anchor: programming-guide--size-and-boundedness
+    virtual_path: docs/programming-guide/index.md
+- title: Bounded data
+  kind: category
+  children:
+  - title: Size and boundedness
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#size-and-boundedness
+    anchor: programming-guide--size-and-boundedness
+    virtual_path: docs/programming-guide/index.md
+- title: Bundle
+  kind: category
+  children:
+  - title: Bundling and persistence
+    kind: link
+    source_url: https://beam.apache.org/documentation/runtime/model/#bundling-and-persistence
+    anchor: runtime-model--bundling-and-persistence
+    virtual_path: docs/runtime/model/index.md
+- title: Coder
+  kind: category
+  children:
+  - title: Data encoding and type safety
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#data-encoding-and-type-safety
+    anchor: programming-guide--data-encoding-and-type-safety
+    virtual_path: docs/programming-guide/index.md
+- title: Composite transform
+  kind: category
+  children:
+  - title: Composite transforms
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#composite-transforms
+    anchor: programming-guide--composite-transforms
+    virtual_path: docs/programming-guide/index.md
+- title: Counter (metric)
+  kind: category
+  children:
+  - title: Types of metrics
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#types-of-metrics
+    anchor: programming-guide--types-of-metrics
+    virtual_path: docs/programming-guide/index.md
+- title: Cross-language transforms
+  kind: category
+  children:
+  - title: Multi-language pipelines
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#multi-language-pipelines
+    anchor: programming-guide--multi-language-pipelines
+    virtual_path: docs/programming-guide/index.md
+- title: Distribution (metric)
+  kind: category
+  children:
+  - title: Types of metrics
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#types-of-metrics
+    anchor: programming-guide--types-of-metrics
+    virtual_path: docs/programming-guide/index.md
+- title: DoFn
+  kind: category
+  children:
+  - title: ParDo
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#pardo
+    anchor: programming-guide--pardo
+    virtual_path: docs/programming-guide/index.md
+- title: Driver
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#overview
+    anchor: programming-guide--overview
+    virtual_path: docs/programming-guide/index.md
+- title: Element
+  kind: category
+  children:
+  - title: PCollection characteristics
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#pcollection-characteristics
+    anchor: programming-guide--pcollection-characteristics
+    virtual_path: docs/programming-guide/index.md
+- title: Element-wise
+  kind: category
+  children:
+  - title: Java Transform catalog
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/overview/#element-wise
+    anchor: transforms-java-overview--element-wise
+    virtual_path: docs/transforms/java/overview/index.md
+  - title: Python Transform catalog
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/overview/#element-wise
+    anchor: transforms-python-overview--element-wise
+    virtual_path: docs/transforms/python/overview/index.md
+- title: Event time
+  kind: category
+  children:
+  - title: Watermarks and late data
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#watermarks-and-late-data
+    anchor: programming-guide--watermarks-and-late-data
+    virtual_path: docs/programming-guide/index.md
+  - title: Triggers
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#triggers
+    anchor: programming-guide--triggers
+    virtual_path: docs/programming-guide/index.md
+- title: Gauge (metric)
+  kind: category
+  children:
+  - title: Types of metrics
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#types-of-metrics
+    anchor: programming-guide--types-of-metrics
+    virtual_path: docs/programming-guide/index.md
+- title: I/O connector
+  kind: category
+  children:
+  - title: Pipeline I/O
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#pipeline-io
+    anchor: programming-guide--pipeline-io
+    virtual_path: docs/programming-guide/index.md
+- title: Metrics
+  kind: category
+  children:
+  - title: Metrics
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#metrics
+    anchor: programming-guide--metrics
+    virtual_path: docs/programming-guide/index.md
+- title: Multi-language pipeline
+  kind: category
+  children:
+  - title: Multi-language pipelines
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#multi-language-pipelines
+    anchor: programming-guide--multi-language-pipelines
+    virtual_path: docs/programming-guide/index.md
+- title: Pipe operator ( | )
+  kind: category
+  children:
+  - title: Applying transforms
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#applying-transforms
+    anchor: programming-guide--applying-transforms
+    virtual_path: docs/programming-guide/index.md
+- title: Processing time
+  kind: category
+  children:
+  - title: Watermarks and late data
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#watermarks-and-late-data
+    anchor: programming-guide--watermarks-and-late-data
+    virtual_path: docs/programming-guide/index.md
+  - title: Triggers
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#triggers
+    anchor: programming-guide--triggers
+    virtual_path: docs/programming-guide/index.md
+- title: Session
+  kind: category
+  children:
+  - title: Session windows
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#session-windows
+    anchor: programming-guide--session-windows
+    virtual_path: docs/programming-guide/index.md
+- title: Side input
+  kind: category
+  children:
+  - title: Side inputs
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#side-inputs
+    anchor: programming-guide--side-inputs
+    virtual_path: docs/programming-guide/index.md
+  - title: Side input patterns
+    kind: link
+    source_url: https://beam.apache.org/documentation/patterns/side-inputs/
+    anchor: patterns-side-inputs
+    virtual_path: docs/patterns/side-inputs/index.md
+- title: Sink
+  kind: category
+  children:
+  - title: Developing new I/O connectors
+    kind: link
+    source_url: https://beam.apache.org/documentation/io/developing-io-overview/
+    anchor: io-developing-io-overview
+    virtual_path: docs/io/developing-io-overview/index.md
+  - title: Pipeline I/O
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#pipeline-io
+    anchor: programming-guide--pipeline-io
+    virtual_path: docs/programming-guide/index.md
+- title: Source
+  kind: category
+  children:
+  - title: Developing new I/O connectors
+    kind: link
+    source_url: https://beam.apache.org/documentation/io/developing-io-overview/
+    anchor: io-developing-io-overview
+    virtual_path: docs/io/developing-io-overview/index.md
+  - title: Pipeline I/O
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#pipeline-io
+    anchor: programming-guide--pipeline-io
+    virtual_path: docs/programming-guide/index.md
+- title: State
+  kind: category
+  children:
+  - title: 'Basics of the Beam model: State and timers'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#state-and-timers
+    anchor: basics--state-and-timers
+    virtual_path: docs/basics/index.md
+  - title: 'Programming guide: State and Timers'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#state-and-timers
+    anchor: programming-guide--state-and-timers
+    virtual_path: docs/programming-guide/index.md
+- title: Streaming
+  kind: category
+  children:
+  - title: Size and boundedness
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#size-and-boundedness
+    anchor: programming-guide--size-and-boundedness
+    virtual_path: docs/programming-guide/index.md
+  - title: Python Streaming Pipelines
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-streaming/
+    anchor: sdks-python-streaming
+    virtual_path: docs/sdks/python-streaming/index.md
+- title: Timestamp
+  kind: category
+  children:
+  - title: 'Basics of the Beam model: Timestamp'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#timestamp
+    anchor: basics--timestamp
+    virtual_path: docs/basics/index.md
+  - title: Element timestamps
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#element-timestamps
+    anchor: programming-guide--element-timestamps
+    virtual_path: docs/programming-guide/index.md
+  - title: Adding timestamps to a PCollection’s elements
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#adding-timestamps-to-a-pcollections-elements
+    anchor: programming-guide--adding-timestamps-to-a-pcollections-elements
+    virtual_path: docs/programming-guide/index.md
+- title: Unbounded data
+  kind: category
+  children:
+  - title: Size and boundedness
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#size-and-boundedness
+    anchor: programming-guide--size-and-boundedness
+    virtual_path: docs/programming-guide/index.md
+- title: User-defined function
+  kind: category
+  children:
+  - title: 'Basics of the Beam model: User-Defined Functions (UDFs)'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#user-defined-functions-udfs
+    anchor: basics--user-defined-functions-udfs
+    virtual_path: docs/basics/index.md
+  - title: ParDo
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#pardo
+    anchor: programming-guide--pardo
+    virtual_path: docs/programming-guide/index.md
+  - title: Requirements for writing user code for Beam transforms
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#requirements-for-writing-user-code-for-beam-transforms
+    anchor: programming-guide--requirements-for-writing-user-code-for-beam-transforms
+    virtual_path: docs/programming-guide/index.md
+- title: Windowing
+  kind: category
+  children:
+  - title: 'Basics of the Beam model: Window'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#window
+    anchor: basics--window
+    virtual_path: docs/basics/index.md
+  - title: 'Programming guide: Windowing'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#windowing
+    anchor: programming-guide--windowing
+    virtual_path: docs/programming-guide/index.md
+- title: Worker
+  kind: category
+  children:
+  - title: Execution model
+    kind: link
+    source_url: https://beam.apache.org/documentation/runtime/model/
+    anchor: runtime-model
+    virtual_path: docs/runtime/model/index.md
+- title: Apache Beam glossary
+  kind: category
+  source_url: https://beam.apache.org/documentation/glossary/
+  anchor: glossary
+  virtual_path: docs/glossary/index.md
+- title: 'Basics of the Beam model: Aggregation'
+  kind: link
+  source_url: https://beam.apache.org/documentation/basics/#aggregation
+  anchor: basics--aggregation
+  virtual_path: docs/basics/index.md
+- title: Timer
+  kind: category
+  children:
+  - title: 'Basics of the Beam model: State and timers'
+    kind: link
+    source_url: https://beam.apache.org/documentation/basics/#state-and-timers
+    anchor: basics--state-and-timers
+    virtual_path: docs/basics/index.md
+  - title: 'Programming guide: State and Timers'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#state-and-timers
+    anchor: programming-guide--state-and-timers
+    virtual_path: docs/programming-guide/index.md
+- title: Cdap IO
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/built-in/cdap/
+  anchor: io-built-in-cdap
+  virtual_path: docs/io/built-in/cdap/index.md
+- title: Overview
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/go-cross-compilation/
+  anchor: sdks-go-cross-compilation
+  virtual_path: docs/sdks/go-cross-compilation/index.md
+- title: Java
+  kind: category
+  children:
+  - title: Java SDK overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java/
+    anchor: sdks-java
+    virtual_path: docs/sdks/java/index.md
+  - title: Java SDK dependencies
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java-dependencies/
+    anchor: sdks-java-dependencies
+    virtual_path: docs/sdks/java-dependencies/index.md
+  - title: Java SDK extensions
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java-extensions/
+    anchor: sdks-java-extensions
+    virtual_path: docs/sdks/java-extensions/index.md
+  - title: Java 3rd party extensions
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java-thirdparty/
+    anchor: sdks-java-thirdparty
+    virtual_path: docs/sdks/java-thirdparty/index.md
+  - title: Nexmark benchmark suite
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java/testing/nexmark/
+    anchor: sdks-java-testing-nexmark
+    virtual_path: docs/sdks/java/testing/nexmark/index.md
+  - title: TPC-DS benchmark suite
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java/testing/tpcds/
+    anchor: sdks-java-testing-tpcds
+    virtual_path: docs/sdks/java/testing/tpcds/index.md
+  - title: Java multi-language pipelines quickstart
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java-multi-language-pipelines/
+    anchor: sdks-java-multi-language-pipelines
+    virtual_path: docs/sdks/java-multi-language-pipelines/index.md
+  - title: Defining the transformation itself as a
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#composite-transforms
+    anchor: programming-guide--composite-transforms
+    virtual_path: docs/programming-guide/index.md
+  - title: Writing a
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/yaml/#providers
+    anchor: sdks-yaml--providers
+    virtual_path: docs/sdks/yaml/index.md
+- title: General
+  kind: category
+  source_url: https://beam.apache.org/documentation/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Python
+  kind: category
+  children:
+  - title: Python SDK overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python/
+    anchor: sdks-python
+    virtual_path: docs/sdks/python/index.md
+  - title: Python SDK dependencies
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-dependencies/
+    anchor: sdks-python-dependencies
+    virtual_path: docs/sdks/python-dependencies/index.md
+  - title: Python streaming pipelines
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-streaming/
+    anchor: sdks-python-streaming
+    virtual_path: docs/sdks/python-streaming/index.md
+  - title: Ensuring Python type safety
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-type-safety/
+    anchor: sdks-python-type-safety
+    virtual_path: docs/sdks/python-type-safety/index.md
+  - title: Managing pipeline dependencies
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-pipeline-dependencies/
+    anchor: sdks-python-pipeline-dependencies
+    virtual_path: docs/sdks/python-pipeline-dependencies/index.md
+  - title: Python multi-language pipelines guide
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-custom-multi-language-pipelines-guide/
+    anchor: sdks-python-custom-multi-language-pipelines-guide
+    virtual_path: docs/sdks/python-custom-multi-language-pipelines-guide/index.md
+  - title: Python multi-language pipelines quickstart
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-multi-language-pipelines/
+    anchor: sdks-python-multi-language-pipelines
+    virtual_path: docs/sdks/python-multi-language-pipelines/index.md
+  - title: Python Unrecoverable Errors
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-unrecoverable-errors/
+    anchor: sdks-python-unrecoverable-errors
+    virtual_path: docs/sdks/python-unrecoverable-errors/index.md
+  - title: Python SDK image build
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-sdk-image-build/
+    anchor: sdks-python-sdk-image-build
+    virtual_path: docs/sdks/python-sdk-image-build/index.md
+- title: Typescript
+  kind: category
+  children:
+  - title: Typescript SDK overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/typescript/
+    anchor: sdks-typescript
+    virtual_path: docs/sdks/typescript/index.md
+- title: Developing I/O connectors for Java
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/developing-io-java/
+  anchor: io-developing-io-java
+  virtual_path: docs/io/developing-io-java/index.md
+- title: Google BigQuery I/O connector
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/built-in/google-bigquery/
+  anchor: io-built-in-google-bigquery
+  virtual_path: docs/io/built-in/google-bigquery/index.md
+- title: Developing I/O connectors for Python
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/developing-io-python/
+  anchor: io-developing-io-python
+  virtual_path: docs/io/developing-io-python/index.md
+- title: Web APIs I/O connector
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/built-in/webapis/
+  anchor: io-built-in-webapis
+  virtual_path: docs/io/built-in/webapis/index.md
+- title: Hadoop Input/Output Format IO
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/built-in/hadoop/
+  anchor: io-built-in-hadoop
+  virtual_path: docs/io/built-in/hadoop/index.md
+- title: You can test an entire
+  kind: link
+  source_url: https://beam.apache.org/documentation/programming-guide/#composite-transforms
+  anchor: programming-guide--composite-transforms
+  virtual_path: docs/programming-guide/index.md
+- title: Managed I/O Connectors
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/managed-io/
+  anchor: io-managed-io
+  virtual_path: docs/io/managed-io/index.md
+- title: Apache Iceberg I/O connector
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/built-in/iceberg/
+  anchor: io-built-in-iceberg
+  virtual_path: docs/io/built-in/iceberg/index.md
+- title: Building Beam Python SDK Image Guide
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/python-sdk-image-build/
+  anchor: sdks-python-sdk-image-build
+  virtual_path: docs/sdks/python-sdk-image-build/index.md
+- title: this guide
+  kind: link
+  source_url: https://beam.apache.org/documentation/sdks/python-sdk-image-build/
+  anchor: sdks-python-sdk-image-build
+  virtual_path: docs/sdks/python-sdk-image-build/index.md
+- title: What to consider when designing your pipeline
+  kind: category
+  children:
+  - title: What do you want to do with your data?
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#pardo
+    anchor: programming-guide--pardo
+    virtual_path: docs/programming-guide/index.md
+- title: Related transforms
+  kind: category
+  children:
+  - title: Filter
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/elementwise/filter/
+    anchor: transforms-python-elementwise-filter
+    virtual_path: docs/transforms/python/elementwise/filter/index.md
+  - title: ParDo
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/elementwise/pardo/
+    anchor: transforms-python-elementwise-pardo
+    virtual_path: docs/transforms/python/elementwise/pardo/index.md
+  - title: Map
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/elementwise/map/
+    anchor: transforms-python-elementwise-map
+    virtual_path: docs/transforms/python/elementwise/map/index.md
+  - title: FlatMap
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/elementwise/flatmap/
+    anchor: transforms-python-elementwise-flatmap
+    virtual_path: docs/transforms/python/elementwise/flatmap/index.md
+  - title: CombineGlobally
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/combineglobally/
+    anchor: transforms-python-aggregation-combineglobally
+    virtual_path: docs/transforms/python/aggregation/combineglobally/index.md
+  - title: CombineValues
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/combinevalues/
+    anchor: transforms-python-aggregation-combinevalues
+    virtual_path: docs/transforms/python/aggregation/combinevalues/index.md
+  - title: Mean
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/mean/
+    anchor: transforms-python-aggregation-mean
+    virtual_path: docs/transforms/python/aggregation/mean/index.md
+  - title: Count
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/count/
+    anchor: transforms-python-aggregation-count
+    virtual_path: docs/transforms/python/aggregation/count/index.md
+  - title: Top
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/top/
+    anchor: transforms-python-aggregation-top
+    virtual_path: docs/transforms/python/aggregation/top/index.md
+  - title: Sample
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/sample/
+    anchor: transforms-python-aggregation-sample
+    virtual_path: docs/transforms/python/aggregation/sample/index.md
+  - title: CombinePerKey
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/combineperkey/
+    anchor: transforms-python-aggregation-combineperkey
+    virtual_path: docs/transforms/python/aggregation/combineperkey/index.md
+  - title: Max
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/max/
+    anchor: transforms-python-aggregation-max
+    virtual_path: docs/transforms/python/aggregation/max/index.md
+  - title: Sum
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/sum/
+    anchor: transforms-python-aggregation-sum
+    virtual_path: docs/transforms/python/aggregation/sum/index.md
+  - title: Min
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/min/
+    anchor: transforms-python-aggregation-min
+    virtual_path: docs/transforms/python/aggregation/min/index.md
+  - title: CoGroupByKey
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/cogroupbykey/
+    anchor: transforms-python-aggregation-cogroupbykey
+    virtual_path: docs/transforms/python/aggregation/cogroupbykey/index.md
+  - title: Keys
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/elementwise/keys/
+    anchor: transforms-java-elementwise-keys
+    virtual_path: docs/transforms/java/elementwise/keys/index.md
+  - title: Values
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/elementwise/values/
+    anchor: transforms-java-elementwise-values
+    virtual_path: docs/transforms/java/elementwise/values/index.md
+  - title: KvSwap
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/elementwise/kvswap/
+    anchor: transforms-java-elementwise-kvswap
+    virtual_path: docs/transforms/java/elementwise/kvswap/index.md
+  - title: Combine
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/aggregation/combine/
+    anchor: transforms-java-aggregation-combine
+    virtual_path: docs/transforms/java/aggregation/combine/index.md
+  - title: Reify
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/elementwise/reify/
+    anchor: transforms-python-elementwise-reify
+    virtual_path: docs/transforms/python/elementwise/reify/index.md
+  - title: ApproximateUnique
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/aggregation/approximateunique/
+    anchor: transforms-java-aggregation-approximateunique
+    virtual_path: docs/transforms/java/aggregation/approximateunique/index.md
+  - title: WithTimestamps
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/elementwise/withtimestamps/
+    anchor: transforms-java-elementwise-withtimestamps
+    virtual_path: docs/transforms/java/elementwise/withtimestamps/index.md
+  - title: GroupByKey
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/groupbykey/
+    anchor: transforms-python-aggregation-groupbykey
+    virtual_path: docs/transforms/python/aggregation/groupbykey/index.md
+  - title: GroupBy
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/groupby/
+    anchor: transforms-python-aggregation-groupby
+    virtual_path: docs/transforms/python/aggregation/groupby/index.md
+  - title: Flatten
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/other/flatten/
+    anchor: transforms-python-other-flatten
+    virtual_path: docs/transforms/python/other/flatten/index.md
+  - title: WindowInto
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/other/windowinto/
+    anchor: transforms-python-other-windowinto
+    virtual_path: docs/transforms/python/other/windowinto/index.md
+  - title: Reshuffle
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/other/reshuffle/
+    anchor: transforms-python-other-reshuffle
+    virtual_path: docs/transforms/python/other/reshuffle/index.md
+  - title: WithKeys
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/elementwise/withkeys/
+    anchor: transforms-java-elementwise-withkeys
+    virtual_path: docs/transforms/java/elementwise/withkeys/index.md
+  - title: FlatMapElements
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/elementwise/flatmapelements/
+    anchor: transforms-java-elementwise-flatmapelements
+    virtual_path: docs/transforms/java/elementwise/flatmapelements/index.md
+  - title: HllCount
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/aggregation/hllcount/
+    anchor: transforms-java-aggregation-hllcount
+    virtual_path: docs/transforms/java/aggregation/hllcount/index.md
+  - title: Distinct
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/aggregation/distinct/
+    anchor: transforms-java-aggregation-distinct
+    virtual_path: docs/transforms/java/aggregation/distinct/index.md
+  - title: Window
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/other/window/
+    anchor: transforms-java-other-window
+    virtual_path: docs/transforms/java/other/window/index.md
+  - title: Timestamp
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/elementwise/withtimestamps/
+    anchor: transforms-python-elementwise-withtimestamps
+    virtual_path: docs/transforms/python/elementwise/withtimestamps/index.md
+  - title: MapElements
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/elementwise/mapelements/
+    anchor: transforms-java-elementwise-mapelements
+    virtual_path: docs/transforms/java/elementwise/mapelements/index.md
+  - title: CombineWithContext
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/aggregation/combinewithcontext/
+    anchor: transforms-java-aggregation-combinewithcontext
+    virtual_path: docs/transforms/java/aggregation/combinewithcontext/index.md
+  - title: Latest
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/aggregation/latest/
+    anchor: transforms-java-aggregation-latest
+    virtual_path: docs/transforms/java/aggregation/latest/index.md
+  - title: Partition
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/elementwise/partition/
+    anchor: transforms-java-elementwise-partition
+    virtual_path: docs/transforms/java/elementwise/partition/index.md
+  - title: GroupIntoBatches
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/aggregation/groupintobatches/
+    anchor: transforms-python-aggregation-groupintobatches
+    virtual_path: docs/transforms/python/aggregation/groupintobatches/index.md
+- title: Serialization and communication
+  kind: category
+  children:
+  - title: Passing elements between transforms that are running on the same worker.
+      This may allow the runner to avoid serializing elements; instead, the runner
+      can just pass the elements in
+    kind: link
+    source_url: https://beam.apache.org/documentation/glossary/#fusion
+    anchor: glossary--fusion
+    virtual_path: docs/glossary/index.md
+- title: Languages
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/java/
+  anchor: sdks-java
+  virtual_path: docs/sdks/java/index.md
+- title: Go
+  kind: category
+  children:
+  - title: Go SDK overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/go/
+    anchor: sdks-go
+    virtual_path: docs/sdks/go/index.md
+- title: Scala
+  kind: category
+  children:
+  - title: Scio
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/scala/
+    anchor: sdks-scala
+    virtual_path: docs/sdks/scala/index.md
+- title: Yaml
+  kind: category
+  children:
+  - title: Yaml overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/yaml/
+    anchor: sdks-yaml
+    virtual_path: docs/sdks/yaml/index.md
+  - title: Yaml User Defined Functions
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/yaml-udf/
+    anchor: sdks-yaml-udf
+    virtual_path: docs/sdks/yaml-udf/index.md
+  - title: Yaml Aggregation
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/yaml-combine/
+    anchor: sdks-yaml-combine
+    virtual_path: docs/sdks/yaml-combine/index.md
+  - title: Error handling
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/yaml-errors/
+    anchor: sdks-yaml-errors
+    virtual_path: docs/sdks/yaml-errors/index.md
+  - title: Yaml Testing
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/yaml-testing/
+    anchor: sdks-yaml-testing
+    virtual_path: docs/sdks/yaml-testing/index.md
+  - title: Inlining Python
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/yaml-inline-python/
+    anchor: sdks-yaml-inline-python
+    virtual_path: docs/sdks/yaml-inline-python/index.md
+  - title: Yaml Providers
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/yaml-providers/
+    anchor: sdks-yaml-providers
+    virtual_path: docs/sdks/yaml-providers/index.md
+  - title: Yaml Join
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/yaml-join/
+    anchor: sdks-yaml-join
+    virtual_path: docs/sdks/yaml-join/index.md
+- title: SQL
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/dsls/sql/overview/
+    anchor: dsls-sql-overview
+    virtual_path: docs/dsls/sql/overview/index.md
+  - title: Walkthrough
+    kind: link
+    source_url: https://beam.apache.org/documentation/dsls/sql/walkthrough/
+    anchor: dsls-sql-walkthrough
+    virtual_path: docs/dsls/sql/walkthrough/index.md
+  - title: Shell
+    kind: link
+    source_url: https://beam.apache.org/documentation/dsls/sql/shell/
+    anchor: dsls-sql-shell
+    virtual_path: docs/dsls/sql/shell/index.md
+  - title: Apache Calcite dialect
+    kind: category
+    children:
+    - title: Calcite support overview
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/calcite/overview/
+      anchor: dsls-sql-calcite-overview
+      virtual_path: docs/dsls/sql/calcite/overview/index.md
+    - title: Query syntax
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/calcite/query-syntax/
+      anchor: dsls-sql-calcite-query-syntax
+      virtual_path: docs/dsls/sql/calcite/query-syntax/index.md
+    - title: Data types
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/calcite/data-types/
+      anchor: dsls-sql-calcite-data-types
+      virtual_path: docs/dsls/sql/calcite/data-types/index.md
+    - title: Scalar functions
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/calcite/scalar-functions/
+      anchor: dsls-sql-calcite-scalar-functions
+      virtual_path: docs/dsls/sql/calcite/scalar-functions/index.md
+    - title: Aggregate functions
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/calcite/aggregate-functions/
+      anchor: dsls-sql-calcite-aggregate-functions
+      virtual_path: docs/dsls/sql/calcite/aggregate-functions/index.md
+  - title: ZetaSQL dialect
+    kind: category
+    children:
+    - title: ZetaSQL support overview
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/overview/
+      anchor: dsls-sql-zetasql-overview
+      virtual_path: docs/dsls/sql/zetasql/overview/index.md
+    - title: Function call rules
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/syntax/
+      anchor: dsls-sql-zetasql-syntax
+      virtual_path: docs/dsls/sql/zetasql/syntax/index.md
+    - title: Conversion rules
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/conversion-rules/
+      anchor: dsls-sql-zetasql-conversion-rules
+      virtual_path: docs/dsls/sql/zetasql/conversion-rules/index.md
+    - title: Query syntax
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/query-syntax/
+      anchor: dsls-sql-zetasql-query-syntax
+      virtual_path: docs/dsls/sql/zetasql/query-syntax/index.md
+    - title: Lexical structure
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/lexical/
+      anchor: dsls-sql-zetasql-lexical
+      virtual_path: docs/dsls/sql/zetasql/lexical/index.md
+    - title: Data types
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/data-types/
+      anchor: dsls-sql-zetasql-data-types
+      virtual_path: docs/dsls/sql/zetasql/data-types/index.md
+    - title: Operators
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/operators/
+      anchor: dsls-sql-zetasql-operators
+      virtual_path: docs/dsls/sql/zetasql/operators/index.md
+    - title: Scalar functions
+      kind: category
+      children:
+      - title: String functions
+        kind: link
+        source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/string-functions/
+        anchor: dsls-sql-zetasql-string-functions
+        virtual_path: docs/dsls/sql/zetasql/string-functions/index.md
+      - title: Mathematical functions
+        kind: link
+        source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/math-functions/
+        anchor: dsls-sql-zetasql-math-functions
+        virtual_path: docs/dsls/sql/zetasql/math-functions/index.md
+      - title: Conditional expressions
+        kind: link
+        source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/conditional-expressions/
+        anchor: dsls-sql-zetasql-conditional-expressions
+        virtual_path: docs/dsls/sql/zetasql/conditional-expressions/index.md
+    - title: Aggregate functions
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/aggregate-functions/
+      anchor: dsls-sql-zetasql-aggregate-functions
+      virtual_path: docs/dsls/sql/zetasql/aggregate-functions/index.md
+  - title: Beam SQL extensions
+    kind: category
+    children:
+    - title: CREATE EXTERNAL TABLE
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/extensions/create-external-table/
+      anchor: dsls-sql-extensions-create-external-table
+      virtual_path: docs/dsls/sql/extensions/create-external-table/index.md
+    - title: Windowing & triggering
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/extensions/windowing-and-triggering/
+      anchor: dsls-sql-extensions-windowing-and-triggering
+      virtual_path: docs/dsls/sql/extensions/windowing-and-triggering/index.md
+    - title: Joins
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/extensions/joins/
+      anchor: dsls-sql-extensions-joins
+      virtual_path: docs/dsls/sql/extensions/joins/index.md
+    - title: User-defined functions
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/extensions/user-defined-functions/
+      anchor: dsls-sql-extensions-user-defined-functions
+      virtual_path: docs/dsls/sql/extensions/user-defined-functions/index.md
+    - title: SET pipeline options
+      kind: link
+      source_url: https://beam.apache.org/documentation/dsls/sql/extensions/set/
+      anchor: dsls-sql-extensions-set
+      virtual_path: docs/dsls/sql/extensions/set/index.md
+- title: DataFrames
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://beam.apache.org/documentation/dsls/dataframes/overview/
+    anchor: dsls-dataframes-overview
+    virtual_path: docs/dsls/dataframes/overview/index.md
+  - title: Differences from pandas
+    kind: link
+    source_url: https://beam.apache.org/documentation/dsls/dataframes/differences-from-pandas/
+    anchor: dsls-dataframes-differences-from-pandas
+    virtual_path: docs/dsls/dataframes/differences-from-pandas/index.md
+- title: 'Beam SQL extensions: CREATE EXTERNAL TABLE'
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/extensions/create-external-table/
+  anchor: dsls-sql-extensions-create-external-table
+  virtual_path: docs/dsls/sql/extensions/create-external-table/index.md
+- title: Pipeline Fundamentals
+  kind: category
+  children:
+  - title: Design Your Pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/pipelines/design-your-pipeline/
+    anchor: pipelines-design-your-pipeline
+    virtual_path: docs/pipelines/design-your-pipeline/index.md
+  - title: Create Your Pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/pipelines/create-your-pipeline/
+    anchor: pipelines-create-your-pipeline
+    virtual_path: docs/pipelines/create-your-pipeline/index.md
+  - title: Test Your Pipeline
+    kind: link
+    source_url: https://beam.apache.org/documentation/pipelines/test-your-pipeline/
+    anchor: pipelines-test-your-pipeline
+    virtual_path: docs/pipelines/test-your-pipeline/index.md
+- title: SDKs
+  kind: category
+  children:
+  - title: Java SDK
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java/
+    anchor: sdks-java
+    virtual_path: docs/sdks/java/index.md
+  - title: Python SDK
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python/
+    anchor: sdks-python
+    virtual_path: docs/sdks/python/index.md
+  - title: Go SDK
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/go/
+    anchor: sdks-go
+    virtual_path: docs/sdks/go/index.md
+- title: Transform catalogs
+  kind: category
+  children:
+  - title: Java transform catalog
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/java/overview/
+    anchor: transforms-java-overview
+    virtual_path: docs/transforms/java/overview/index.md
+  - title: Python transform catalog
+    kind: link
+    source_url: https://beam.apache.org/documentation/transforms/python/overview/
+    anchor: transforms-python-overview
+    virtual_path: docs/transforms/python/overview/index.md
+- title: Runners
+  kind: category
+  source_url: https://beam.apache.org/documentation/runners/capability-matrix/
+  anchor: runners-capability-matrix
+  virtual_path: docs/runners/capability-matrix/index.md
+- title: Apache Beam Documentation
+  kind: category
+  source_url: https://beam.apache.org/documentation/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Available Runners
+  kind: category
+  children:
+  - title: 'JetRunner:'
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/jet/
+    anchor: runners-jet
+    virtual_path: docs/runners/jet/index.md
+  - title: 'Twister2Runner:'
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/twister2/
+    anchor: runners-twister2
+    virtual_path: docs/runners/twister2/index.md
+- title: Enrichment transform
+  kind: category
+  source_url: https://beam.apache.org/documentation/transforms/python/elementwise/enrichment/
+  anchor: transforms-python-elementwise-enrichment
+  virtual_path: docs/transforms/python/elementwise/enrichment/index.md
+- title: 'Overview: Developing a new I/O connector'
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/developing-io-overview/
+  anchor: io-developing-io-overview
+  virtual_path: docs/io/developing-io-overview/index.md
+- title: SparkReceiver IO
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/built-in/sparkreceiver/
+  anchor: io-built-in-sparkreceiver
+  virtual_path: docs/io/built-in/sparkreceiver/index.md
+- title: File processing patterns
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/file-processing/
+  anchor: patterns-file-processing
+  virtual_path: docs/patterns/file-processing/index.md
+- title: Analysing the structure and meaning of text
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/ai-platform/#analysing-the-structure-and-meaning-of-text
+  anchor: patterns-ai-platform--analysing-the-structure-and-meaning-of-text
+  virtual_path: docs/patterns/ai-platform/index.md
+- title: Getting predictions
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/ai-platform/#getting-predictions
+  anchor: patterns-ai-platform--getting-predictions
+  virtual_path: docs/patterns/ai-platform/index.md
+- title: AI Platform integration patterns
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/ai-platform/
+  anchor: patterns-ai-platform
+  virtual_path: docs/patterns/ai-platform/index.md
+- title: Using data to dynamically set session window gaps
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/custom-windows/#using-data-to-dynamically-set-session-window-gaps
+  anchor: patterns-custom-windows--using-data-to-dynamically-set-session-window-gaps
+  virtual_path: docs/patterns/custom-windows/index.md
+- title: Custom window patterns
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/custom-windows/
+  anchor: patterns-custom-windows
+  virtual_path: docs/patterns/custom-windows/index.md
+- title: Slowly updating global window side inputs
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/side-inputs/#slowly-updating-global-window-side-inputs
+  anchor: patterns-side-inputs--slowly-updating-global-window-side-inputs
+  virtual_path: docs/patterns/side-inputs/index.md
+- title: Dynamically grouping elements using the BatchElements -transform
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/batch-elements/
+  anchor: patterns-batch-elements
+  virtual_path: docs/patterns/batch-elements/index.md
+- title: BigQuery ML integration
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/bqml/
+  anchor: patterns-bqml
+  virtual_path: docs/patterns/bqml/index.md
+- title: Rate limiting patterns
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/rate-limiting/
+  anchor: patterns-rate-limiting
+  virtual_path: docs/patterns/rate-limiting/index.md
+- title: Grouping elements for efficient external service calls using the GroupIntoBatches
+    -transform
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/grouping-elements-for-efficient-external-service-calls/
+  anchor: patterns-grouping-elements-for-efficient-external-service-calls
+  virtual_path: docs/patterns/grouping-elements-for-efficient-external-service-calls/index.md
+- title: MLTransform for data processing
+  kind: category
+  source_url: https://beam.apache.org/documentation/transforms/python/elementwise/mltransform/
+  anchor: transforms-python-elementwise-mltransform
+  virtual_path: docs/transforms/python/elementwise/mltransform/index.md
+- title: Use CloudSQL to enrich data
+  kind: category
+  source_url: https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-cloudsql/
+  anchor: transforms-python-elementwise-enrichment-cloudsql
+  virtual_path: docs/transforms/python/elementwise/enrichment-cloudsql/index.md
+- title: Latest
+  kind: category
+  source_url: https://beam.apache.org/documentation/transforms/java/aggregation/hllcount/
+  anchor: transforms-java-aggregation-hllcount
+  virtual_path: docs/transforms/java/aggregation/hllcount/index.md
+- title: Retroactively logging runtime parameters
+  kind: link
+  source_url: https://beam.apache.org/documentation/patterns/pipeline-options/#retroactively-logging-runtime-parameters
+  anchor: patterns-pipeline-options--retroactively-logging-runtime-parameters
+  virtual_path: docs/patterns/pipeline-options/index.md
+- title: Choosing between built-in and custom connectors
+  kind: link
+  source_url: https://beam.apache.org/documentation/patterns/custom-io/#choosing-between-built-in-and-custom-connectors
+  anchor: patterns-custom-io--choosing-between-built-in-and-custom-connectors
+  virtual_path: docs/patterns/custom-io/index.md
+- title: Google BigQuery patterns
+  kind: link
+  source_url: https://beam.apache.org/documentation/patterns/bigqueryio/#google-bigquery-patterns
+  anchor: patterns-bigqueryio--google-bigquery-patterns
+  virtual_path: docs/patterns/bigqueryio/index.md
+- title: Using Joins
+  kind: link
+  source_url: https://beam.apache.org/documentation/patterns/schema/#using-joins
+  anchor: patterns-schema--using-joins
+  virtual_path: docs/patterns/schema/index.md
+- title: Model export and on-worker serving using BQML and TFX_BSL
+  kind: link
+  source_url: https://beam.apache.org/documentation/patterns/bqml/#bigquery-ml-integration
+  anchor: patterns-bqml--bigquery-ml-integration
+  virtual_path: docs/patterns/bqml/index.md
+- title: Grouping elements for efficient external service calls
+  kind: link
+  source_url: https://beam.apache.org/documentation/patterns/grouping-elements-for-efficient-external-service-calls/#grouping-elements-for-efficient-external-service-calls-using-the-`GroupIntoBatches`-transform
+  anchor: patterns-grouping-elements-for-efficient-external-service-calls--grouping-elements-for-efficient-external-service-calls-using-the-groupintobatches-transform
+  virtual_path: docs/patterns/grouping-elements-for-efficient-external-service-calls/index.md
+- title: Dynamically grouping elements
+  kind: link
+  source_url: https://beam.apache.org/documentation/patterns/batch-elements/#dynamically-grouping-elements-using-the-`BatchElements`-transform
+  anchor: patterns-batch-elements--dynamically-grouping-elements-using-the-batchelements-transform
+  virtual_path: docs/patterns/batch-elements/index.md
+- title: Create a cache on a batch pipeline
+  kind: link
+  source_url: https://beam.apache.org/documentation/patterns/shared-class/#create-a-cache-on-a-batch-pipeline
+  anchor: patterns-shared-class--create-a-cache-on-a-batch-pipeline
+  virtual_path: docs/patterns/shared-class/index.md
+- title: Create a cache and update it regularly on a streaming pipeline
+  kind: link
+  source_url: https://beam.apache.org/documentation/patterns/shared-class/#create-a-cache-and-update-it-regularly-on-a-streaming-pipeline
+  anchor: patterns-shared-class--create-a-cache-and-update-it-regularly-on-a-streaming-pipeline
+  virtual_path: docs/patterns/shared-class/index.md
+- title: Custom I/O patterns
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/custom-io/
+  anchor: patterns-custom-io
+  virtual_path: docs/patterns/custom-io/index.md
+- title: Apache Parquet I/O connector
+  kind: category
+  source_url: https://beam.apache.org/documentation/io/built-in/parquet/
+  anchor: io-built-in-parquet
+  virtual_path: docs/io/built-in/parquet/index.md
+- title: Pipeline option patterns
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/pipeline-options/
+  anchor: patterns-pipeline-options
+  virtual_path: docs/patterns/pipeline-options/index.md
+- title: Python transform catalog overview
+  kind: category
+  source_url: https://beam.apache.org/documentation/transforms/python/overview/
+  anchor: transforms-python-overview
+  virtual_path: docs/transforms/python/overview/index.md
+- title: Enrichment with Google Cloud Vertex AI Feature Store
+  kind: category
+  source_url: https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-vertexai/
+  anchor: transforms-python-elementwise-enrichment-vertexai
+  virtual_path: docs/transforms/python/elementwise/enrichment-vertexai/index.md
+- title: Java transform catalog overview
+  kind: category
+  source_url: https://beam.apache.org/documentation/transforms/java/overview/
+  anchor: transforms-java-overview
+  virtual_path: docs/transforms/java/overview/index.md
+- title: Cache data using a shared object
+  kind: category
+  source_url: https://beam.apache.org/documentation/patterns/shared-class/
+  anchor: patterns-shared-class
+  virtual_path: docs/patterns/shared-class/index.md
+- title: Use Milvus to enrich data
+  kind: category
+  source_url: https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-milvus/
+  anchor: transforms-python-elementwise-enrichment-milvus
+  virtual_path: docs/transforms/python/elementwise/enrichment-milvus/index.md
+- title: Use RunInference with PyTorch
+  kind: category
+  source_url: https://beam.apache.org/documentation/transforms/python/elementwise/runinference-pytorch/
+  anchor: transforms-python-elementwise-runinference-pytorch
+  virtual_path: docs/transforms/python/elementwise/runinference-pytorch/index.md
+- title: Use RunInference with Sklearn
+  kind: category
+  source_url: https://beam.apache.org/documentation/transforms/python/elementwise/runinference-sklearn/
+  anchor: transforms-python-elementwise-runinference-sklearn
+  virtual_path: docs/transforms/python/elementwise/runinference-sklearn/index.md
+- title: Use Bigtable to enrich data
+  kind: category
+  source_url: https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-bigtable/
+  anchor: transforms-python-elementwise-enrichment-bigtable
+  virtual_path: docs/transforms/python/elementwise/enrichment-bigtable/index.md
+- title: direct runner
+  kind: category
+  source_url: https://beam.apache.org/documentation/runners/direct/
+  anchor: runners-direct
+  virtual_path: docs/runners/direct/index.md
+- title: FROM clause
+  kind: category
+  children:
+  - title: Syntax
+    kind: category
+    source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/query-syntax/
+    anchor: dsls-sql-zetasql-query-syntax
+    virtual_path: docs/dsls/sql/zetasql/query-syntax/index.md
+- title: JOIN types
+  kind: category
+  children:
+  - title: Syntax
+    kind: category
+    source_url: https://beam.apache.org/documentation/dsls/sql/calcite/query-syntax/
+    anchor: dsls-sql-calcite-query-syntax
+    virtual_path: docs/dsls/sql/calcite/query-syntax/index.md
+- title: WHERE clause
+  kind: category
+  children:
+  - title: Syntax
+    kind: category
+    source_url: https://beam.apache.org/documentation/dsls/sql/calcite/query-syntax/
+    anchor: dsls-sql-calcite-query-syntax
+    virtual_path: docs/dsls/sql/calcite/query-syntax/index.md
+- title: GROUP BY clause
+  kind: category
+  children:
+  - title: Syntax
+    kind: category
+    source_url: https://beam.apache.org/documentation/dsls/sql/calcite/query-syntax/
+    anchor: dsls-sql-calcite-query-syntax
+    virtual_path: docs/dsls/sql/calcite/query-syntax/index.md
+- title: HAVING clause
+  kind: category
+  children:
+  - title: Syntax
+    kind: category
+    source_url: https://beam.apache.org/documentation/dsls/sql/calcite/query-syntax/
+    anchor: dsls-sql-calcite-query-syntax
+    virtual_path: docs/dsls/sql/calcite/query-syntax/index.md
+- title: Set operators
+  kind: category
+  children:
+  - title: Syntax
+    kind: category
+    source_url: https://beam.apache.org/documentation/dsls/sql/calcite/query-syntax/
+    anchor: dsls-sql-calcite-query-syntax
+    virtual_path: docs/dsls/sql/calcite/query-syntax/index.md
+- title: LIMIT clause and OFFSET clause
+  kind: category
+  children:
+  - title: Syntax
+    kind: category
+    source_url: https://beam.apache.org/documentation/dsls/sql/calcite/query-syntax/
+    anchor: dsls-sql-calcite-query-syntax
+    virtual_path: docs/dsls/sql/calcite/query-syntax/index.md
+- title: Beam Calcite SQL query syntax
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/calcite/query-syntax/
+  anchor: dsls-sql-calcite-query-syntax
+  virtual_path: docs/dsls/sql/calcite/query-syntax/index.md
+  children:
+  - title: Joins
+    kind: link
+    source_url: https://beam.apache.org/documentation/dsls/sql/extensions/joins/
+    anchor: dsls-sql-extensions-joins
+    virtual_path: docs/dsls/sql/extensions/joins/index.md
+- title: Beam ZetaSQL query syntax
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/query-syntax/
+  anchor: dsls-sql-zetasql-query-syntax
+  virtual_path: docs/dsls/sql/zetasql/query-syntax/index.md
+- title: Euphoria Java 8 DSL
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/java/euphoria/
+  anchor: sdks-java-euphoria
+  virtual_path: docs/sdks/java/euphoria/index.md
+- title: TPC Benchmark™ DS (TPC-DS) benchmark suite
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/java/testing/tpcds/
+  anchor: sdks-java-testing-tpcds
+  virtual_path: docs/sdks/java/testing/tpcds/index.md
+- title: Python custom multi-language pipelines guide
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/python-custom-multi-language-pipelines-guide/
+  anchor: sdks-python-custom-multi-language-pipelines-guide
+  virtual_path: docs/sdks/python-custom-multi-language-pipelines-guide/index.md
+- title: Implement a TypedSchemaTransformProvider
+  kind: category
+  children:
+  - title: ': Returns a unique identifier for this transform. The'
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#1314-defining-a-urn
+    anchor: programming-guide--1314-defining-a-urn
+    virtual_path: docs/programming-guide/index.md
+- title: Beam ZetaSQL lexical structure
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/data-types/
+  anchor: dsls-sql-zetasql-data-types
+  virtual_path: docs/dsls/sql/zetasql/data-types/index.md
+- title: Beam SQL Shell
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/shell/
+  anchor: dsls-sql-shell
+  virtual_path: docs/dsls/sql/shell/index.md
+- title: Managing Python Pipeline Dependencies
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/python-pipeline-dependencies/
+  anchor: sdks-python-pipeline-dependencies
+  virtual_path: docs/sdks/python-pipeline-dependencies/index.md
+- title: Make the launch environment compatible with the runtime environment
+  kind: category
+  children:
+  - title: save the main session
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/python-pipeline-dependencies/#pickling-and-managing-the-main-session
+    anchor: sdks-python-pipeline-dependencies--pickling-and-managing-the-main-session
+    virtual_path: docs/sdks/python-pipeline-dependencies/index.md
+- title: Beam YAML
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/yaml/
+  anchor: sdks-yaml
+  virtual_path: docs/sdks/yaml/index.md
+- title: Beam SDK for Java dependencies
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/java-dependencies/
+  anchor: sdks-java-dependencies
+  virtual_path: docs/sdks/java-dependencies/index.md
+- title: 'Beam SQL extensions: User-defined functions'
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/extensions/user-defined-functions/
+  anchor: dsls-sql-extensions-user-defined-functions
+  virtual_path: docs/dsls/sql/extensions/user-defined-functions/index.md
+- title: Apache Beam 3rd Party Java Extensions
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/java-thirdparty/
+  anchor: sdks-java-thirdparty
+  virtual_path: docs/sdks/java-thirdparty/index.md
+- title: Beam YAML mappings
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/yaml-udf/
+  anchor: sdks-yaml-udf
+  virtual_path: docs/sdks/yaml-udf/index.md
+- title: Beam ZetaSQL aggregate functions
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/aggregate-functions/
+  anchor: dsls-sql-zetasql-aggregate-functions
+  virtual_path: docs/dsls/sql/zetasql/aggregate-functions/index.md
+- title: Beam ZetaSQL operators
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/operators/
+  anchor: dsls-sql-zetasql-operators
+  virtual_path: docs/dsls/sql/zetasql/operators/index.md
+- title: 'Beam SQL extensions: Joins'
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/extensions/joins/
+  anchor: dsls-sql-extensions-joins
+  virtual_path: docs/dsls/sql/extensions/joins/index.md
+- title: Modifying a pipeline to use stream processing
+  kind: category
+  children:
+  - title: Choose a
+    kind: link
+    source_url: https://beam.apache.org/documentation/programming-guide/#windowing
+    anchor: programming-guide--windowing
+    virtual_path: docs/programming-guide/index.md
+- title: Running a streaming pipeline
+  kind: category
+  children:
+  - title: DirectRunner streaming execution
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/direct/#streaming-execution
+    anchor: runners-direct--streaming-execution
+    virtual_path: docs/runners/direct/index.md
+  - title: DataflowRunner streaming execution
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/dataflow/#streaming-execution
+    anchor: runners-dataflow--streaming-execution
+    virtual_path: docs/runners/dataflow/index.md
+  - title: Portable Flink runner
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/flink/
+    anchor: runners-flink
+    virtual_path: docs/runners/flink/index.md
+- title: Apache Beam Java SDK Extensions
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/java-extensions/
+  anchor: sdks-java-extensions
+  virtual_path: docs/sdks/java-extensions/index.md
+- title: Beam ZetaSQL string functions
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/string-functions/
+  anchor: dsls-sql-zetasql-string-functions
+  virtual_path: docs/dsls/sql/zetasql/string-functions/index.md
+- title: Extensions
+  kind: category
+  children:
+  - title: join-library
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java-extensions/#join-library
+    anchor: sdks-java-extensions--join-library
+    virtual_path: docs/sdks/java-extensions/index.md
+  - title: sorter
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java-extensions/#sorter
+    anchor: sdks-java-extensions--sorter
+    virtual_path: docs/sdks/java-extensions/index.md
+  - title: Nexmark
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java/testing/nexmark/
+    anchor: sdks-java-testing-nexmark
+    virtual_path: docs/sdks/java/testing/nexmark/index.md
+  - title: TPC-DS
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java/testing/tpcds/
+    anchor: sdks-java-testing-tpcds
+    virtual_path: docs/sdks/java/testing/tpcds/index.md
+  - title: euphoria
+    kind: link
+    source_url: https://beam.apache.org/documentation/sdks/java/euphoria/
+    anchor: sdks-java-euphoria
+    virtual_path: docs/sdks/java/euphoria/index.md
+- title: Apache Beam Java SDK
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/java/
+  anchor: sdks-java
+  virtual_path: docs/sdks/java/index.md
+- title: Unrecoverable Errors in Beam Python
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/python-unrecoverable-errors/
+  anchor: sdks-python-unrecoverable-errors
+  virtual_path: docs/sdks/python-unrecoverable-errors/index.md
+- title: Apache Beam Python SDK
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/python/
+  anchor: sdks-python
+  virtual_path: docs/sdks/python/index.md
+- title: Beam YAML Schema
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/yaml-schema/
+  anchor: sdks-yaml-schema
+  virtual_path: docs/sdks/yaml-schema/index.md
+- title: Beam SQL Walkthrough
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/walkthrough/
+  anchor: dsls-sql-walkthrough
+  virtual_path: docs/dsls/sql/walkthrough/index.md
+- title: Beam Calcite SQL scalar functions
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/calcite/scalar-functions/
+  anchor: dsls-sql-calcite-scalar-functions
+  virtual_path: docs/dsls/sql/calcite/scalar-functions/index.md
+- title: Apache Beam Typescript SDK
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/typescript/
+  anchor: sdks-typescript
+  virtual_path: docs/sdks/typescript/index.md
+- title: Beam ZetaSQL mathematical functions
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/math-functions/
+  anchor: dsls-sql-zetasql-math-functions
+  virtual_path: docs/dsls/sql/zetasql/math-functions/index.md
+- title: 'Beam SQL extensions: Windowing and triggering'
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/extensions/windowing-and-triggering/
+  anchor: dsls-sql-extensions-windowing-and-triggering
+  virtual_path: docs/dsls/sql/extensions/windowing-and-triggering/index.md
+- title: 'Beam SQL extensions: SET and RESET Pipeline Options'
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/extensions/set/
+  anchor: dsls-sql-extensions-set
+  virtual_path: docs/dsls/sql/extensions/set/index.md
+- title: Beam Calcite SQL overview
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/calcite/overview/
+  anchor: dsls-sql-calcite-overview
+  virtual_path: docs/dsls/sql/calcite/overview/index.md
+- title: Beam ZetaSQL conversion rules
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/conversion-rules/
+  anchor: dsls-sql-zetasql-conversion-rules
+  virtual_path: docs/dsls/sql/zetasql/conversion-rules/index.md
+- title: Beam YAML Tests
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/yaml-testing/
+  anchor: sdks-yaml-testing
+  virtual_path: docs/sdks/yaml-testing/index.md
+- title: Beam ZetaSQL function call rules
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/syntax/
+  anchor: dsls-sql-zetasql-syntax
+  virtual_path: docs/dsls/sql/zetasql/syntax/index.md
+- title: Beam ZetaSQL overview
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/overview/
+  anchor: dsls-sql-zetasql-overview
+  virtual_path: docs/dsls/sql/zetasql/overview/index.md
+- title: Beam DataFrames overview
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/dataframes/overview/
+  anchor: dsls-dataframes-overview
+  virtual_path: docs/dsls/dataframes/overview/index.md
+- title: Beam SQL overview
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/overview/
+  anchor: dsls-sql-overview
+  virtual_path: docs/dsls/sql/overview/index.md
+- title: Beam YAML Aggregations
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/yaml-combine/
+  anchor: sdks-yaml-combine
+  virtual_path: docs/sdks/yaml-combine/index.md
+- title: Using PyTransform from YAML
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/yaml-inline-python/
+  anchor: sdks-yaml-inline-python
+  virtual_path: docs/sdks/yaml-inline-python/index.md
+- title: Apache Beam Go SDK
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/go/
+  anchor: sdks-go
+  virtual_path: docs/sdks/go/index.md
+- title: Beam YAML Join
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/yaml-join/
+  anchor: sdks-yaml-join
+  virtual_path: docs/sdks/yaml-join/index.md
+- title: Beam SDK for Go dependencies
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/go-dependencies/
+  anchor: sdks-go-dependencies
+  virtual_path: docs/sdks/go-dependencies/index.md
+- title: Apache Beam Scala SDK
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/scala/
+  anchor: sdks-scala
+  virtual_path: docs/sdks/scala/index.md
+- title: Beam YAML Error Handling
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/yaml-errors/
+  anchor: sdks-yaml-errors
+  virtual_path: docs/sdks/yaml-errors/index.md
+- title: Providers
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/yaml-providers/
+  anchor: sdks-yaml-providers
+  virtual_path: docs/sdks/yaml-providers/index.md
+- title: Beam SDK for Python dependencies
+  kind: category
+  source_url: https://beam.apache.org/documentation/sdks/python-dependencies/
+  anchor: sdks-python-dependencies
+  virtual_path: docs/sdks/python-dependencies/index.md
+- title: Beam Calcite SQL aggregate functions
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/calcite/aggregate-functions/
+  anchor: dsls-sql-calcite-aggregate-functions
+  virtual_path: docs/dsls/sql/calcite/aggregate-functions/index.md
+- title: Beam Calcite SQL data types
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/calcite/data-types/
+  anchor: dsls-sql-calcite-data-types
+  virtual_path: docs/dsls/sql/calcite/data-types/index.md
+- title: Beam ZetaSQL conditional expressions
+  kind: category
+  source_url: https://beam.apache.org/documentation/dsls/sql/zetasql/conditional-expressions/
+  anchor: dsls-sql-zetasql-conditional-expressions
+  virtual_path: docs/dsls/sql/zetasql/conditional-expressions/index.md
+- title: Capability Matrix
+  kind: link
+  source_url: https://beam.apache.org/documentation/runners/capability-matrix/
+  anchor: runners-capability-matrix
+  virtual_path: docs/runners/capability-matrix/index.md
+- title: Prism Runner
+  kind: link
+  source_url: https://beam.apache.org/documentation/runners/prism/
+  anchor: runners-prism
+  virtual_path: docs/runners/prism/index.md
+- title: Apache Flink
+  kind: link
+  source_url: https://beam.apache.org/documentation/runners/flink/
+  anchor: runners-flink
+  virtual_path: docs/runners/flink/index.md
+- title: Apache Nemo
+  kind: link
+  source_url: https://beam.apache.org/documentation/runners/nemo/
+  anchor: runners-nemo
+  virtual_path: docs/runners/nemo/index.md
+- title: Apache Spark
+  kind: link
+  source_url: https://beam.apache.org/documentation/runners/spark/
+  anchor: runners-spark
+  virtual_path: docs/runners/spark/index.md
+- title: Google Cloud Dataflow
+  kind: link
+  source_url: https://beam.apache.org/documentation/runners/dataflow/
+  anchor: runners-dataflow
+  virtual_path: docs/runners/dataflow/index.md
+- title: Hazelcast Jet
+  kind: link
+  source_url: https://beam.apache.org/documentation/runners/jet/
+  anchor: runners-jet
+  virtual_path: docs/runners/jet/index.md
+- title: Twister2
+  kind: link
+  source_url: https://beam.apache.org/documentation/runners/twister2/
+  anchor: runners-twister2
+  virtual_path: docs/runners/twister2/index.md
+- title: Using the Apache Spark Runner
+  kind: category
+  source_url: https://beam.apache.org/documentation/runners/spark/
+  anchor: runners-spark
+  virtual_path: docs/runners/spark/index.md
+- title: What is being computed?
+  kind: category
+  children:
+  - title: SEE DETAILS AND FULL VERSION HERE.
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/capability-matrix/what-is-being-computed/
+    anchor: runners-capability-matrix-what-is-being-computed
+    virtual_path: docs/runners/capability-matrix/what-is-being-computed/index.md
+- title: Bounded Splittable DoFn Support Status
+  kind: category
+  children:
+  - title: SEE DETAILS AND FULL VERSION HERE.
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/capability-matrix/bounded-splittable-dofn-support-status/
+    anchor: runners-capability-matrix-bounded-splittable-dofn-support-status
+    virtual_path: docs/runners/capability-matrix/bounded-splittable-dofn-support-status/index.md
+- title: Unbounded Splittable DoFn Support Status
+  kind: category
+  children:
+  - title: SEE DETAILS AND FULL VERSION HERE.
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/capability-matrix/unbounded-splittable-dofn-support-status/
+    anchor: runners-capability-matrix-unbounded-splittable-dofn-support-status
+    virtual_path: docs/runners/capability-matrix/unbounded-splittable-dofn-support-status/index.md
+- title: Where in event time?
+  kind: category
+  children:
+  - title: SEE DETAILS AND FULL VERSION HERE.
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/capability-matrix/where-in-event-time/
+    anchor: runners-capability-matrix-where-in-event-time
+    virtual_path: docs/runners/capability-matrix/where-in-event-time/index.md
+- title: When in processing time?
+  kind: category
+  children:
+  - title: SEE DETAILS AND FULL VERSION HERE.
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/capability-matrix/when-in-processing-time/
+    anchor: runners-capability-matrix-when-in-processing-time
+    virtual_path: docs/runners/capability-matrix/when-in-processing-time/index.md
+- title: How do refinements relate?
+  kind: category
+  children:
+  - title: SEE DETAILS AND FULL VERSION HERE.
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/capability-matrix/how-do-refinements-relate/
+    anchor: runners-capability-matrix-how-do-refinements-relate
+    virtual_path: docs/runners/capability-matrix/how-do-refinements-relate/index.md
+- title: Additional common features not yet part of the Beam model
+  kind: category
+  children:
+  - title: SEE DETAILS AND FULL VERSION HERE.
+    kind: link
+    source_url: https://beam.apache.org/documentation/runners/capability-matrix/additional-common-features-not-yet-part-of-the-beam-model/
+    anchor: runners-capability-matrix-additional-common-features-not-yet-part-of-the-beam-model
+    virtual_path: docs/runners/capability-matrix/additional-common-features-not-yet-part-of-the-beam-model/index.md
+- title: Using the Direct Runner
+  kind: category
+  source_url: https://beam.apache.org/documentation/runners/direct/
+  anchor: runners-direct
+  virtual_path: docs/runners/direct/index.md
+- title: Using the Google Cloud Dataflow Runner
+  kind: category
+  source_url: https://beam.apache.org/documentation/runners/dataflow/
+  anchor: runners-dataflow
+  virtual_path: docs/runners/dataflow/index.md
+- title: Using the Apache Nemo Runner
+  kind: category
+  source_url: https://beam.apache.org/documentation/runners/nemo/
+  anchor: runners-nemo
+  virtual_path: docs/runners/nemo/index.md
+- title: Using the Apache Samza Runner
+  kind: category
+  source_url: https://beam.apache.org/documentation/runners/samza/
+  anchor: runners-samza
+  virtual_path: docs/runners/samza/index.md
