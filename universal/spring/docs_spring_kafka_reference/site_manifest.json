@@ -1,0 +1,650 @@
+{
+  "entry_url": "https://docs.spring.io/spring-kafka/reference/index.html",
+  "site_prefix": "/spring-kafka/reference/",
+  "site_slug": "docs_spring_kafka_reference",
+  "profile": "antora",
+  "combined_markdown": "combined.md",
+  "page_count": 71,
+  "asset_count": 0,
+  "pages": [
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/appendix/change-history.html",
+      "title": "Change History",
+      "anchor": "appendix-change-history",
+      "virtual_path": "docs/appendix/change-history.md",
+      "profile": "antora",
+      "score": 142930,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/appendix/micrometer.html",
+      "title": "Micrometer Observation Documentation",
+      "anchor": "appendix-micrometer",
+      "virtual_path": "docs/appendix/micrometer.md",
+      "profile": "antora",
+      "score": 15808,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/appendix/native-images.html",
+      "title": "Native Images",
+      "anchor": "appendix-native-images",
+      "virtual_path": "docs/appendix/native-images.md",
+      "profile": "antora",
+      "score": 2386,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/appendix/override-boot-dependencies.html",
+      "title": "Override Spring Boot Dependencies",
+      "anchor": "appendix-override-boot-dependencies",
+      "virtual_path": "docs/appendix/override-boot-dependencies.md",
+      "profile": "antora",
+      "score": 4494,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/index.html",
+      "title": "Overview",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "antora",
+      "score": 2244,
+      "depth": 0
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/introduction.html",
+      "title": "Introduction",
+      "anchor": "introduction",
+      "virtual_path": "docs/introduction.md",
+      "profile": "antora",
+      "score": 2100,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka.html",
+      "title": "Using Spring for Apache Kafka",
+      "anchor": "kafka",
+      "virtual_path": "docs/kafka.md",
+      "profile": "antora",
+      "score": 2673,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/annotation-error-handling.html",
+      "title": "Handling Exceptions",
+      "anchor": "kafka-annotation-error-handling",
+      "virtual_path": "docs/kafka/annotation-error-handling.md",
+      "profile": "antora",
+      "score": 83447,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/configuring-topics.html",
+      "title": "Configuring Topics",
+      "anchor": "kafka-configuring-topics",
+      "virtual_path": "docs/kafka/configuring-topics.md",
+      "profile": "antora",
+      "score": 9418,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/connecting.html",
+      "title": "Connecting to Kafka",
+      "anchor": "kafka-connecting",
+      "virtual_path": "docs/kafka/connecting.md",
+      "profile": "antora",
+      "score": 8199,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/container-factory.html",
+      "title": "Container factory",
+      "anchor": "kafka-container-factory",
+      "virtual_path": "docs/kafka/container-factory.md",
+      "profile": "antora",
+      "score": 5014,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/container-props.html",
+      "title": "Listener Container Properties",
+      "anchor": "kafka-container-props",
+      "virtual_path": "docs/kafka/container-props.md",
+      "profile": "antora",
+      "score": 29282,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/dynamic-containers.html",
+      "title": "Dynamically Creating Containers",
+      "anchor": "kafka-dynamic-containers",
+      "virtual_path": "docs/kafka/dynamic-containers.md",
+      "profile": "antora",
+      "score": 6980,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/events.html",
+      "title": "Application Events",
+      "anchor": "kafka-events",
+      "virtual_path": "docs/kafka/events.md",
+      "profile": "antora",
+      "score": 21993,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/exactly-once.html",
+      "title": "Exactly Once Semantics",
+      "anchor": "kafka-exactly-once",
+      "virtual_path": "docs/kafka/exactly-once.md",
+      "profile": "antora",
+      "score": 4299,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/headers.html",
+      "title": "Message Headers",
+      "anchor": "kafka-headers",
+      "virtual_path": "docs/kafka/headers.md",
+      "profile": "antora",
+      "score": 17852,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/interceptors.html",
+      "title": "Wiring Spring Beans into Producer/Consumer Interceptors",
+      "anchor": "kafka-interceptors",
+      "virtual_path": "docs/kafka/interceptors.md",
+      "profile": "antora",
+      "score": 6239,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/kafka-queues.html",
+      "title": "Kafka Queues (Share Consumer)",
+      "anchor": "kafka-kafka-queues",
+      "virtual_path": "docs/kafka/kafka-queues.md",
+      "profile": "antora",
+      "score": 70927,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/kerberos.html",
+      "title": "JAAS and Kerberos",
+      "anchor": "kafka-kerberos",
+      "virtual_path": "docs/kafka/kerberos.md",
+      "profile": "antora",
+      "score": 2936,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/micrometer.html",
+      "title": "Monitoring",
+      "anchor": "kafka-micrometer",
+      "virtual_path": "docs/kafka/micrometer.md",
+      "profile": "antora",
+      "score": 14071,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/pause-resume-partitions.html",
+      "title": "Pausing and Resuming Partitions on Listener Containers",
+      "anchor": "kafka-pause-resume-partitions",
+      "virtual_path": "docs/kafka/pause-resume-partitions.md",
+      "profile": "antora",
+      "score": 2928,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/pause-resume.html",
+      "title": "Pausing and Resuming Listener Containers",
+      "anchor": "kafka-pause-resume",
+      "virtual_path": "docs/kafka/pause-resume.md",
+      "profile": "antora",
+      "score": 6140,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/producer-interceptor-managed-in-spring.html",
+      "title": "Producer Interceptor Managed in Spring",
+      "anchor": "kafka-producer-interceptor-managed-in-spring",
+      "virtual_path": "docs/kafka/producer-interceptor-managed-in-spring.md",
+      "profile": "antora",
+      "score": 4759,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages.html",
+      "title": "Receiving Messages",
+      "anchor": "kafka-receiving-messages",
+      "virtual_path": "docs/kafka/receiving-messages.md",
+      "profile": "antora",
+      "score": 2545,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/annotation-send-to.html",
+      "title": "Forwarding Listener Results using @SendTo",
+      "anchor": "kafka-receiving-messages-annotation-send-to",
+      "virtual_path": "docs/kafka/receiving-messages/annotation-send-to.md",
+      "profile": "antora",
+      "score": 11439,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/async-returns.html",
+      "title": "Asynchronous @KafkaListener Return Types",
+      "anchor": "kafka-receiving-messages-async-returns",
+      "virtual_path": "docs/kafka/receiving-messages/async-returns.md",
+      "profile": "antora",
+      "score": 4050,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/class-level-kafkalistener.html",
+      "title": "@KafkaListener on a Class",
+      "anchor": "kafka-receiving-messages-class-level-kafkalistener",
+      "virtual_path": "docs/kafka/receiving-messages/class-level-kafkalistener.md",
+      "profile": "antora",
+      "score": 6179,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/container-thread-naming.html",
+      "title": "Container Thread Naming",
+      "anchor": "kafka-receiving-messages-container-thread-naming",
+      "virtual_path": "docs/kafka/receiving-messages/container-thread-naming.md",
+      "profile": "antora",
+      "score": 3751,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/enforced-rebalance.html",
+      "title": "Enforcing Consumer Rebalance",
+      "anchor": "kafka-receiving-messages-enforced-rebalance",
+      "virtual_path": "docs/kafka/receiving-messages/enforced-rebalance.md",
+      "profile": "antora",
+      "score": 4080,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/filtering.html",
+      "title": "Filtering Messages",
+      "anchor": "kafka-receiving-messages-filtering",
+      "virtual_path": "docs/kafka/receiving-messages/filtering.md",
+      "profile": "antora",
+      "score": 7162,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/kafkalistener-attrs.html",
+      "title": "@KafkaListener Attribute Modification",
+      "anchor": "kafka-receiving-messages-kafkalistener-attrs",
+      "virtual_path": "docs/kafka/receiving-messages/kafkalistener-attrs.md",
+      "profile": "antora",
+      "score": 3521,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/kafkalistener-lifecycle.html",
+      "title": "@KafkaListener Lifecycle Management",
+      "anchor": "kafka-receiving-messages-kafkalistener-lifecycle",
+      "virtual_path": "docs/kafka/receiving-messages/kafkalistener-lifecycle.md",
+      "profile": "antora",
+      "score": 8373,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/listener-annotation.html",
+      "title": "@KafkaListener Annotation",
+      "anchor": "kafka-receiving-messages-listener-annotation",
+      "virtual_path": "docs/kafka/receiving-messages/listener-annotation.md",
+      "profile": "antora",
+      "score": 29250,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/listener-group-id.html",
+      "title": "Obtaining the Consumer group.id",
+      "anchor": "kafka-receiving-messages-listener-group-id",
+      "virtual_path": "docs/kafka/receiving-messages/listener-group-id.md",
+      "profile": "antora",
+      "score": 3103,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/listener-meta.html",
+      "title": "@KafkaListener as a Meta Annotation",
+      "anchor": "kafka-receiving-messages-listener-meta",
+      "virtual_path": "docs/kafka/receiving-messages/listener-meta.md",
+      "profile": "antora",
+      "score": 3352,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/message-listener-container.html",
+      "title": "Message Listener Containers",
+      "anchor": "kafka-receiving-messages-message-listener-container",
+      "virtual_path": "docs/kafka/receiving-messages/message-listener-container.md",
+      "profile": "antora",
+      "score": 27481,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/message-listeners.html",
+      "title": "Message Listeners",
+      "anchor": "kafka-receiving-messages-message-listeners",
+      "virtual_path": "docs/kafka/receiving-messages/message-listeners.md",
+      "profile": "antora",
+      "score": 6139,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/ooo-commits.html",
+      "title": "Manually Committing Offsets",
+      "anchor": "kafka-receiving-messages-ooo-commits",
+      "virtual_path": "docs/kafka/receiving-messages/ooo-commits.md",
+      "profile": "antora",
+      "score": 3170,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/rebalance-listeners.html",
+      "title": "Rebalancing Listeners",
+      "anchor": "kafka-receiving-messages-rebalance-listeners",
+      "virtual_path": "docs/kafka/receiving-messages/rebalance-listeners.md",
+      "profile": "antora",
+      "score": 7810,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/retrying-deliveries.html",
+      "title": "Retrying Deliveries",
+      "anchor": "kafka-receiving-messages-retrying-deliveries",
+      "virtual_path": "docs/kafka/receiving-messages/retrying-deliveries.md",
+      "profile": "antora",
+      "score": 1601,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/sequencing.html",
+      "title": "Starting @KafkaListener s in Sequence",
+      "anchor": "kafka-receiving-messages-sequencing",
+      "virtual_path": "docs/kafka/receiving-messages/sequencing.md",
+      "profile": "antora",
+      "score": 5362,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/template-receive.html",
+      "title": "Using KafkaTemplate to Receive",
+      "anchor": "kafka-receiving-messages-template-receive",
+      "virtual_path": "docs/kafka/receiving-messages/template-receive.md",
+      "profile": "antora",
+      "score": 3330,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/validation.html",
+      "title": "@KafkaListener @Payload Validation",
+      "anchor": "kafka-receiving-messages-validation",
+      "virtual_path": "docs/kafka/receiving-messages/validation.md",
+      "profile": "antora",
+      "score": 4929,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/seek.html",
+      "title": "Seeking to a Specific Offset",
+      "anchor": "kafka-seek",
+      "virtual_path": "docs/kafka/seek.md",
+      "profile": "antora",
+      "score": 13644,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/sending-messages.html",
+      "title": "Sending Messages",
+      "anchor": "kafka-sending-messages",
+      "virtual_path": "docs/kafka/sending-messages.md",
+      "profile": "antora",
+      "score": 47564,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/serdes.html",
+      "title": "Serialization, Deserialization, and Message Conversion",
+      "anchor": "kafka-serdes",
+      "virtual_path": "docs/kafka/serdes.md",
+      "profile": "antora",
+      "score": 59759,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/thread-safety.html",
+      "title": "Thread Safety",
+      "anchor": "kafka-thread-safety",
+      "virtual_path": "docs/kafka/thread-safety.md",
+      "profile": "antora",
+      "score": 5213,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/tombstones.html",
+      "title": "Null Payloads and Log Compaction of 'Tombstone' Records",
+      "anchor": "kafka-tombstones",
+      "virtual_path": "docs/kafka/tombstones.md",
+      "profile": "antora",
+      "score": 5294,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/topic/partition-initial-offset.html",
+      "title": "Topic/Partition Initial Offset",
+      "anchor": "kafka-topic-partition-initial-offset",
+      "virtual_path": "docs/kafka/topic/partition-initial-offset.md",
+      "profile": "antora",
+      "score": 2966,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/kafka/transactions.html",
+      "title": "Transactions",
+      "anchor": "kafka-transactions",
+      "virtual_path": "docs/kafka/transactions.md",
+      "profile": "antora",
+      "score": 18504,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/other-resources.html",
+      "title": "Other Resources",
+      "anchor": "other-resources",
+      "virtual_path": "docs/other-resources.md",
+      "profile": "antora",
+      "score": 2205,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/quick-tour.html",
+      "title": "Quick Tour",
+      "anchor": "quick-tour",
+      "virtual_path": "docs/quick-tour.md",
+      "profile": "antora",
+      "score": 15119,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/reference.html",
+      "title": "Reference",
+      "anchor": "reference",
+      "virtual_path": "docs/reference.md",
+      "profile": "antora",
+      "score": 2009,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic.html",
+      "title": "Non-Blocking Retries",
+      "anchor": "retrytopic",
+      "virtual_path": "docs/retrytopic.md",
+      "profile": "antora",
+      "score": 3489,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/access-topic-info-runtime.html",
+      "title": "Accessing Topics' Information at Runtime",
+      "anchor": "retrytopic-access-topic-info-runtime",
+      "virtual_path": "docs/retrytopic/access-topic-info-runtime.md",
+      "profile": "antora",
+      "score": 3273,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/accessing-delivery-attempts.html",
+      "title": "Accessing Delivery Attempts",
+      "anchor": "retrytopic-accessing-delivery-attempts",
+      "virtual_path": "docs/retrytopic/accessing-delivery-attempts.md",
+      "profile": "antora",
+      "score": 3808,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/back-off-delay-precision.html",
+      "title": "Back Off Delay Precision",
+      "anchor": "retrytopic-back-off-delay-precision",
+      "virtual_path": "docs/retrytopic/back-off-delay-precision.md",
+      "profile": "antora",
+      "score": 3449,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/change-kboe-logging-level.html",
+      "title": "Changing KafkaBackOffException Logging Level",
+      "anchor": "retrytopic-change-kboe-logging-level",
+      "virtual_path": "docs/retrytopic/change-kboe-logging-level.md",
+      "profile": "antora",
+      "score": 2870,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/dlt-strategies.html",
+      "title": "DLT Strategies",
+      "anchor": "retrytopic-dlt-strategies",
+      "virtual_path": "docs/retrytopic/dlt-strategies.md",
+      "profile": "antora",
+      "score": 9835,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/features.html",
+      "title": "Features",
+      "anchor": "retrytopic-features",
+      "virtual_path": "docs/retrytopic/features.md",
+      "profile": "antora",
+      "score": 20240,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/how-the-pattern-works.html",
+      "title": "How the Pattern Works",
+      "anchor": "retrytopic-how-the-pattern-works",
+      "virtual_path": "docs/retrytopic/how-the-pattern-works.md",
+      "profile": "antora",
+      "score": 4550,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/multi-retry.html",
+      "title": "Multiple Listeners, Same Topic(s)",
+      "anchor": "retrytopic-multi-retry",
+      "virtual_path": "docs/retrytopic/multi-retry.md",
+      "profile": "antora",
+      "score": 3390,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/programmatic-construction.html",
+      "title": "Programmatic Construction",
+      "anchor": "retrytopic-programmatic-construction",
+      "virtual_path": "docs/retrytopic/programmatic-construction.md",
+      "profile": "antora",
+      "score": 5031,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/retry-config.html",
+      "title": "Configuration",
+      "anchor": "retrytopic-retry-config",
+      "virtual_path": "docs/retrytopic/retry-config.md",
+      "profile": "antora",
+      "score": 17238,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/retry-topic-combine-blocking.html",
+      "title": "Combining Blocking and Non-Blocking Retries",
+      "anchor": "retrytopic-retry-topic-combine-blocking",
+      "virtual_path": "docs/retrytopic/retry-topic-combine-blocking.md",
+      "profile": "antora",
+      "score": 5859,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/retry-topic-lcf.html",
+      "title": "Specifying a ListenerContainerFactory",
+      "anchor": "retrytopic-retry-topic-lcf",
+      "virtual_path": "docs/retrytopic/retry-topic-lcf.md",
+      "profile": "antora",
+      "score": 3763,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/retrytopic/topic-naming.html",
+      "title": "Topic Naming",
+      "anchor": "retrytopic-topic-naming",
+      "virtual_path": "docs/retrytopic/topic-naming.md",
+      "profile": "antora",
+      "score": 14642,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/streams.html",
+      "title": "Apache Kafka Streams Support",
+      "anchor": "streams",
+      "virtual_path": "docs/streams.md",
+      "profile": "antora",
+      "score": 49290,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/testing.html",
+      "title": "Testing Applications",
+      "anchor": "testing",
+      "virtual_path": "docs/testing.md",
+      "profile": "antora",
+      "score": 41594,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/tips.html",
+      "title": "Tips, Tricks and Examples",
+      "anchor": "tips",
+      "virtual_path": "docs/tips.md",
+      "profile": "antora",
+      "score": 10803,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-kafka/reference/whats-new.html",
+      "title": "What’s new?",
+      "anchor": "whats-new",
+      "virtual_path": "docs/whats-new.md",
+      "profile": "antora",
+      "score": 12462,
+      "depth": 1
+    }
+  ]
+}

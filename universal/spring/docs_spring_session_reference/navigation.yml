@@ -1,0 +1,159 @@
+- title: What’s New
+  kind: category
+  children:
+  - title: What’s New
+    kind: link
+    source_url: https://docs.spring.io/spring-session/reference/whats-new.html
+    anchor: whats-new
+    virtual_path: docs/whats-new.md
+  - title: Samples & Guides (Start Here)
+    kind: category
+    source_url: https://docs.spring.io/spring-session/reference/samples.html
+    anchor: samples
+    virtual_path: docs/samples.md
+    children:
+    - title: Boot Samples
+      kind: category
+      children:
+      - title: HttpSession
+        kind: category
+        children:
+        - title: Redis
+          kind: category
+          children:
+          - title: Redis with Events
+            kind: link
+            source_url: https://docs.spring.io/spring-session/reference/guides/boot-redis.html
+            anchor: guides-boot-redis
+            virtual_path: docs/guides/boot-redis.md
+        - title: JDBC
+          kind: link
+          source_url: https://docs.spring.io/spring-session/reference/guides/boot-jdbc.html
+          anchor: guides-boot-jdbc
+          virtual_path: docs/guides/boot-jdbc.md
+      - title: Find by Username
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/guides/boot-findbyusername.html
+        anchor: guides-boot-findbyusername
+        virtual_path: docs/guides/boot-findbyusername.md
+      - title: WebSockets
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/guides/boot-websocket.html
+        anchor: guides-boot-websocket
+        virtual_path: docs/guides/boot-websocket.md
+    - title: WebFlux
+      kind: category
+      children:
+      - title: Custom Cookie
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/guides/boot-webflux-custom-cookie.html
+        anchor: guides-boot-webflux-custom-cookie
+        virtual_path: docs/guides/boot-webflux-custom-cookie.md
+    - title: Java Configuration
+      kind: category
+      children:
+      - title: Custom Cookie
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/guides/java-custom-cookie.html
+        anchor: guides-java-custom-cookie
+        virtual_path: docs/guides/java-custom-cookie.md
+      - title: Redis
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/guides/java-redis.html
+        anchor: guides-java-redis
+        virtual_path: docs/guides/java-redis.md
+      - title: JDBC
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/guides/java-jdbc.html
+        anchor: guides-java-jdbc
+        virtual_path: docs/guides/java-jdbc.md
+      - title: REST
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/guides/java-rest.html
+        anchor: guides-java-rest
+        virtual_path: docs/guides/java-rest.md
+      - title: Spring Security
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/guides/java-security.html
+        anchor: guides-java-security
+        virtual_path: docs/guides/java-security.md
+    - title: XML Configuration
+      kind: category
+      children:
+      - title: Redis
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/guides/xml-redis.html
+        anchor: guides-xml-redis
+        virtual_path: docs/guides/xml-redis.md
+      - title: JDBC
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/guides/xml-jdbc.html
+        anchor: guides-xml-jdbc
+        virtual_path: docs/guides/xml-jdbc.md
+  - title: Configurations
+    kind: category
+    source_url: https://docs.spring.io/spring-session/reference/configurations.html
+    anchor: configurations
+    virtual_path: docs/configurations.md
+    children:
+    - title: Redis
+      kind: category
+      children:
+      - title: Redis HTTP Session
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/configuration/redis.html
+        anchor: configuration-redis
+        virtual_path: docs/configuration/redis.md
+      - title: Redis Indexed Web Session
+        kind: link
+        source_url: https://docs.spring.io/spring-session/reference/configuration/reactive-redis-indexed.html
+        anchor: configuration-reactive-redis-indexed
+        virtual_path: docs/configuration/reactive-redis-indexed.md
+    - title: JDBC
+      kind: link
+      source_url: https://docs.spring.io/spring-session/reference/configuration/jdbc.html
+      anchor: configuration-jdbc
+      virtual_path: docs/configuration/jdbc.md
+    - title: Common Configurations
+      kind: link
+      source_url: https://docs.spring.io/spring-session/reference/configuration/common.html
+      anchor: configuration-common
+      virtual_path: docs/configuration/common.md
+  - title: HttpSession Integration
+    kind: link
+    source_url: https://docs.spring.io/spring-session/reference/http-session.html
+    anchor: http-session
+    virtual_path: docs/http-session.md
+  - title: WebSocket Integration
+    kind: link
+    source_url: https://docs.spring.io/spring-session/reference/web-socket.html
+    anchor: web-socket
+    virtual_path: docs/web-socket.md
+  - title: WebSession Integration
+    kind: link
+    source_url: https://docs.spring.io/spring-session/reference/web-session.html
+    anchor: web-session
+    virtual_path: docs/web-session.md
+  - title: Spring Security Integration
+    kind: link
+    source_url: https://docs.spring.io/spring-session/reference/spring-security.html
+    anchor: spring-security
+    virtual_path: docs/spring-security.md
+  - title: API Documentation
+    kind: link
+    source_url: https://docs.spring.io/spring-session/reference/api.html
+    anchor: api
+    virtual_path: docs/api.md
+  - title: Upgrading
+    kind: link
+    source_url: https://docs.spring.io/spring-session/reference/upgrading.html
+    anchor: upgrading
+    virtual_path: docs/upgrading.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Spring Session
+    kind: link
+    source_url: https://docs.spring.io/spring-session/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md

@@ -1,0 +1,323 @@
+- title: Overview
+  kind: category
+  children:
+  - title: Installing
+    kind: link
+    source_url: https://docs.micrometer.io/micrometer/reference/installing.html
+    anchor: installing
+    virtual_path: docs/installing.md
+  - title: Concepts
+    kind: category
+    source_url: https://docs.micrometer.io/micrometer/reference/concepts.html
+    anchor: concepts
+    virtual_path: docs/concepts.md
+    children:
+    - title: Supported Monitoring Systems
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/implementations.html
+      anchor: concepts-implementations
+      virtual_path: docs/concepts/implementations.md
+    - title: Meters
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/meters.html
+      anchor: concepts-meters
+      virtual_path: docs/concepts/meters.md
+    - title: Registry
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/registry.html
+      anchor: concepts-registry
+      virtual_path: docs/concepts/registry.md
+    - title: Naming Meters
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/naming.html
+      anchor: concepts-naming
+      virtual_path: docs/concepts/naming.md
+    - title: Meter Filters
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/meter-filters.html
+      anchor: concepts-meter-filters
+      virtual_path: docs/concepts/meter-filters.md
+    - title: Rate Aggregation
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/rate-aggregation.html
+      anchor: concepts-rate-aggregation
+      virtual_path: docs/concepts/rate-aggregation.md
+    - title: Counters
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/counters.html
+      anchor: concepts-counters
+      virtual_path: docs/concepts/counters.md
+    - title: Gauges
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/gauges.html
+      anchor: concepts-gauges
+      virtual_path: docs/concepts/gauges.md
+    - title: Timers
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/timers.html
+      anchor: concepts-timers
+      virtual_path: docs/concepts/timers.md
+    - title: Distribution Summaries
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/distribution-summaries.html
+      anchor: concepts-distribution-summaries
+      virtual_path: docs/concepts/distribution-summaries.md
+    - title: Long Task Timers
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/long-task-timers.html
+      anchor: concepts-long-task-timers
+      virtual_path: docs/concepts/long-task-timers.md
+    - title: Histograms and Percentiles
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/histogram-quantiles.html
+      anchor: concepts-histogram-quantiles
+      virtual_path: docs/concepts/histogram-quantiles.md
+    - title: Meter Provider
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/meter-provider.html
+      anchor: concepts-meter-provider
+      virtual_path: docs/concepts/meter-provider.md
+    - title: Meter Convention
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/meter-convention.html
+      anchor: concepts-meter-convention
+      virtual_path: docs/concepts/meter-convention.md
+    - title: High Cardinality Tags Detector
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/concepts/high-cardinality-tags-detector.html
+      anchor: concepts-high-cardinality-tags-detector
+      virtual_path: docs/concepts/high-cardinality-tags-detector.md
+  - title: Implementations
+    kind: category
+    children:
+    - title: Atlas
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/atlas.html
+      anchor: implementations-atlas
+      virtual_path: docs/implementations/atlas.md
+    - title: Azure Monitor
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/azure-monitor.html
+      anchor: implementations-azure-monitor
+      virtual_path: docs/implementations/azure-monitor.md
+    - title: CloudWatch
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/cloudwatch.html
+      anchor: implementations-cloudwatch
+      virtual_path: docs/implementations/cloudwatch.md
+    - title: Datadog
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/datadog.html
+      anchor: implementations-datadog
+      virtual_path: docs/implementations/datadog.md
+    - title: Elasticsearch
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/elastic.html
+      anchor: implementations-elastic
+      virtual_path: docs/implementations/elastic.md
+    - title: Graphite
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/graphite.html
+      anchor: implementations-graphite
+      virtual_path: docs/implementations/graphite.md
+    - title: Humio
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/humio.html
+      anchor: implementations-humio
+      virtual_path: docs/implementations/humio.md
+    - title: Influx
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/influx.html
+      anchor: implementations-influx
+      virtual_path: docs/implementations/influx.md
+    - title: Instana
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/instana.html
+      anchor: implementations-instana
+      virtual_path: docs/implementations/instana.md
+    - title: New Relic
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/new-relic.html
+      anchor: implementations-new-relic
+      virtual_path: docs/implementations/new-relic.md
+    - title: Prometheus
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/prometheus.html
+      anchor: implementations-prometheus
+      virtual_path: docs/implementations/prometheus.md
+    - title: SignalFx
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/signalFx.html
+      anchor: implementations-signalfx
+      virtual_path: docs/implementations/signalFx.md
+    - title: Stackdriver
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/stackdriver.html
+      anchor: implementations-stackdriver
+      virtual_path: docs/implementations/stackdriver.md
+    - title: statsD
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/statsD.html
+      anchor: implementations-statsd
+      virtual_path: docs/implementations/statsD.md
+    - title: Wavefront
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/implementations/wavefront.html
+      anchor: implementations-wavefront
+      virtual_path: docs/implementations/wavefront.md
+  - title: Reference Instrumentations
+    kind: category
+    source_url: https://docs.micrometer.io/micrometer/reference/reference.html
+    anchor: reference
+    virtual_path: docs/reference.md
+    children:
+    - title: Cache
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/cache.html
+      anchor: reference-cache
+      virtual_path: docs/reference/cache.md
+    - title: Commons Pool
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/commons-pool.html
+      anchor: reference-commons-pool
+      virtual_path: docs/reference/commons-pool.md
+    - title: Database
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/db.html
+      anchor: reference-db
+      virtual_path: docs/reference/db.md
+    - title: gRPC
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/grpc.html
+      anchor: reference-grpc
+      virtual_path: docs/reference/grpc.md
+    - title: HttpComponents Client
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/httpcomponents.html
+      anchor: reference-httpcomponents
+      virtual_path: docs/reference/httpcomponents.md
+    - title: Jakarta Mail
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/mail.html
+      anchor: reference-mail
+      virtual_path: docs/reference/mail.md
+    - title: Java HttpClient
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/java-httpclient.html
+      anchor: reference-java-httpclient
+      virtual_path: docs/reference/java-httpclient.md
+    - title: Jetty and Jersey
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/jetty.html
+      anchor: reference-jetty
+      virtual_path: docs/reference/jetty.md
+    - title: JMS
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/jms.html
+      anchor: reference-jms
+      virtual_path: docs/reference/jms.md
+    - title: JVM
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/jvm.html
+      anchor: reference-jvm
+      virtual_path: docs/reference/jvm.md
+    - title: Kafka
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/kafka.html
+      anchor: reference-kafka
+      virtual_path: docs/reference/kafka.md
+    - title: Logging
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/logging.html
+      anchor: reference-logging
+      virtual_path: docs/reference/logging.md
+    - title: MongoDB
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/mongodb.html
+      anchor: reference-mongodb
+      virtual_path: docs/reference/mongodb.md
+    - title: Netty
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/netty.html
+      anchor: reference-netty
+      virtual_path: docs/reference/netty.md
+    - title: OkHttpClient
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/okhttpclient.html
+      anchor: reference-okhttpclient
+      virtual_path: docs/reference/okhttpclient.md
+    - title: System
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/system.html
+      anchor: reference-system
+      virtual_path: docs/reference/system.md
+    - title: Tomcat
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/reference/tomcat.html
+      anchor: reference-tomcat
+      virtual_path: docs/reference/tomcat.md
+  - title: Guides
+    kind: category
+    source_url: https://docs.micrometer.io/micrometer/reference/guides.html
+    anchor: guides
+    virtual_path: docs/guides.md
+    children:
+    - title: Passing through to Dropwizard’s console reporter
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/guides/console-reporter.html
+      anchor: guides-console-reporter
+      virtual_path: docs/guides/console-reporter.md
+    - title: HttpSender with Resilience4j retry
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/guides/http-sender-resilience4j-retry.html
+      anchor: guides-http-sender-resilience4j-retry
+      virtual_path: docs/guides/http-sender-resilience4j-retry.md
+    - title: Custom meter registry
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/guides/custom-meter-registry.html
+      anchor: guides-custom-meter-registry
+      virtual_path: docs/guides/custom-meter-registry.md
+  - title: Micrometer Observation
+    kind: category
+    source_url: https://docs.micrometer.io/micrometer/reference/observation.html
+    anchor: observation
+    virtual_path: docs/observation.md
+    children:
+    - title: Installing
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/observation/installing.html
+      anchor: observation-installing
+      virtual_path: docs/observation/installing.md
+    - title: Introduction
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/observation/introduction.html
+      anchor: observation-introduction
+      virtual_path: docs/observation/introduction.md
+    - title: Components
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/observation/components.html
+      anchor: observation-components
+      virtual_path: docs/observation/components.md
+    - title: Instrumenting
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/observation/instrumenting.html
+      anchor: observation-instrumenting
+      virtual_path: docs/observation/instrumenting.md
+    - title: Testing
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/observation/testing.html
+      anchor: observation-testing
+      virtual_path: docs/observation/testing.md
+    - title: Instrumented Projects
+      kind: link
+      source_url: https://docs.micrometer.io/micrometer/reference/observation/projects.html
+      anchor: observation-projects
+      virtual_path: docs/observation/projects.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Micrometer Documentation
+    kind: link
+    source_url: https://docs.micrometer.io/micrometer/reference/
+    anchor: index
+    virtual_path: docs/index.md

@@ -1,0 +1,2657 @@
+{
+  "entry_url": "https://docs.spring.io/spring-security/reference/index.html",
+  "site_prefix": "/spring-security/reference/",
+  "site_slug": "docs_spring_security_reference",
+  "profile": "antora",
+  "combined_markdown": "combined.md",
+  "page_count": 294,
+  "asset_count": 51,
+  "pages": [
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/index.html",
+      "title": "All modules",
+      "anchor": "api-kotlin",
+      "virtual_path": "docs/api/kotlin/index.md",
+      "profile": "maven",
+      "score": 10683,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/index.html",
+      "title": "spring-security-config",
+      "anchor": "api-kotlin-spring-security-config",
+      "virtual_path": "docs/api/kotlin/spring-security-config/index.md",
+      "profile": "maven",
+      "score": 1969,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-cache-control-dsl/index.html",
+      "title": "Cache Control Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-cache-control-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-cache-control-dsl/index.md",
+      "profile": "maven",
+      "score": 3161,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-content-security-policy-dsl/index.html",
+      "title": "Content Security Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-content-security-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-content-security-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3478,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-content-type-options-dsl/index.html",
+      "title": "Content Type Options Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-content-type-options-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-content-type-options-dsl/index.md",
+      "profile": "maven",
+      "score": 3201,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-cross-origin-embedder-policy-dsl/index.html",
+      "title": "Cross Origin Embedder Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-cross-origin-embedder-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-cross-origin-embedder-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3336,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-cross-origin-opener-policy-dsl/index.html",
+      "title": "Cross Origin Opener Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-cross-origin-opener-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-cross-origin-opener-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3322,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-cross-origin-resource-policy-dsl/index.html",
+      "title": "Cross Origin Resource Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-cross-origin-resource-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-cross-origin-resource-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3336,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-frame-options-dsl/index.html",
+      "title": "Frame Options Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-frame-options-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-frame-options-dsl/index.md",
+      "profile": "maven",
+      "score": 3898,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-headers-security-marker/index.html",
+      "title": "Headers Security Marker",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-headers-security-marker",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-headers-security-marker/index.md",
+      "profile": "maven",
+      "score": 2295,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-http-public-key-pinning-dsl/index.html",
+      "title": "Http Public Key Pinning Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-http-public-key-pinning-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-http-public-key-pinning-dsl/index.md",
+      "profile": "maven",
+      "score": 5079,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-http-strict-transport-security-dsl/index.html",
+      "title": "Http Strict Transport Security Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-http-strict-transport-security-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-http-strict-transport-security-dsl/index.md",
+      "profile": "maven",
+      "score": 4533,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-permissions-policy-dsl/index.html",
+      "title": "Permissions Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-permissions-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-permissions-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3206,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-referrer-policy-dsl/index.html",
+      "title": "Referrer Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-referrer-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-referrer-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3256,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-xss-protection-config-dsl/index.html",
+      "title": "Xss Protection Config Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers-xss-protection-config-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/-xss-protection-config-dsl/index.md",
+      "profile": "maven",
+      "score": 3924,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/index.html",
+      "title": "Package-level declarations",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.headers",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.headers/index.md",
+      "profile": "maven",
+      "score": 4972,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.client/-authorization-code-grant-dsl/index.html",
+      "title": "Authorization Code Grant Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.client-authorization-code-grant-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.client/-authorization-code-grant-dsl/index.md",
+      "profile": "maven",
+      "score": 4121,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.client/-o-auth2-client-security-marker/index.html",
+      "title": "OAuth2Client Security Marker",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.client-o-auth2-client-security-marker",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.client/-o-auth2-client-security-marker/index.md",
+      "profile": "maven",
+      "score": 2324,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.client/index.html",
+      "title": "Package-level declarations",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.client",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.client/index.md",
+      "profile": "maven",
+      "score": 2171,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-authorization-endpoint-dsl/index.html",
+      "title": "Authorization Endpoint Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.login-authorization-endpoint-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-authorization-endpoint-dsl/index.md",
+      "profile": "maven",
+      "score": 4019,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-o-auth2-login-security-marker/index.html",
+      "title": "OAuth2Login Security Marker",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.login-o-auth2-login-security-marker",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-o-auth2-login-security-marker/index.md",
+      "profile": "maven",
+      "score": 2320,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-oidc-back-channel-logout-dsl/index.html",
+      "title": "Oidc Back Channel Logout Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.login-oidc-back-channel-logout-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-oidc-back-channel-logout-dsl/index.md",
+      "profile": "maven",
+      "score": 3135,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-redirection-endpoint-dsl/index.html",
+      "title": "Redirection Endpoint Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.login-redirection-endpoint-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-redirection-endpoint-dsl/index.md",
+      "profile": "maven",
+      "score": 3236,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-token-endpoint-dsl/index.html",
+      "title": "Token Endpoint Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.login-token-endpoint-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-token-endpoint-dsl/index.md",
+      "profile": "maven",
+      "score": 3345,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-user-info-endpoint-dsl/index.html",
+      "title": "User Info Endpoint Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.login-user-info-endpoint-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/-user-info-endpoint-dsl/index.md",
+      "profile": "maven",
+      "score": 3931,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/index.html",
+      "title": "Package-level declarations",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.login",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.login/index.md",
+      "profile": "maven",
+      "score": 3217,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.resourceserver/-d-po-p-dsl/index.html",
+      "title": "DPo PDsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.resourceserver-d-po-p-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.resourceserver/-d-po-p-dsl/index.md",
+      "profile": "maven",
+      "score": 4397,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.resourceserver/-jwt-dsl/index.html",
+      "title": "Jwt Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.resourceserver-jwt-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.resourceserver/-jwt-dsl/index.md",
+      "profile": "maven",
+      "score": 3886,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.resourceserver/-o-auth2-resource-server-security-marker/index.html",
+      "title": "OAuth2Resource Server Security Marker",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.resourceserver-o-auth2-resource-server-security-marker",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.resourceserver/-o-auth2-resource-server-security-marker/index.md",
+      "profile": "maven",
+      "score": 2364,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.resourceserver/-opaque-token-dsl/index.html",
+      "title": "Opaque Token Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.resourceserver-opaque-token-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.resourceserver/-opaque-token-dsl/index.md",
+      "profile": "maven",
+      "score": 4327,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.resourceserver/index.html",
+      "title": "Package-level declarations",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.oauth2.resourceserver",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.oauth2.resourceserver/index.md",
+      "profile": "maven",
+      "score": 2689,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.saml2/-logout-request-dsl/index.html",
+      "title": "Logout Request Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.saml2-logout-request-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.saml2/-logout-request-dsl/index.md",
+      "profile": "maven",
+      "score": 4279,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.saml2/-logout-response-dsl/index.html",
+      "title": "Logout Response Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.saml2-logout-response-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.saml2/-logout-response-dsl/index.md",
+      "profile": "maven",
+      "score": 3939,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.saml2/-saml2-security-marker/index.html",
+      "title": "Saml2Security Marker",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.saml2-saml2-security-marker",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.saml2/-saml2-security-marker/index.md",
+      "profile": "maven",
+      "score": 2299,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.saml2/index.html",
+      "title": "Package-level declarations",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.saml2",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.saml2/index.md",
+      "profile": "maven",
+      "score": 2442,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.session/-session-concurrency-dsl/index.html",
+      "title": "Session Concurrency Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.session-session-concurrency-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.session/-session-concurrency-dsl/index.md",
+      "profile": "maven",
+      "score": 4717,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.session/-session-fixation-dsl/index.html",
+      "title": "Session Fixation Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.session-session-fixation-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.session/-session-fixation-dsl/index.md",
+      "profile": "maven",
+      "score": 4180,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.session/-session-security-marker/index.html",
+      "title": "Session Security Marker",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.session-session-security-marker",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.session/-session-security-marker/index.md",
+      "profile": "maven",
+      "score": 2295,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.session/index.html",
+      "title": "Package-level declarations",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web.session",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web.session/index.md",
+      "profile": "maven",
+      "score": 2422,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-abstract-request-matcher-dsl/index.html",
+      "title": "Abstract Request Matcher Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-abstract-request-matcher-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-abstract-request-matcher-dsl/index.md",
+      "profile": "maven",
+      "score": 3501,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-anonymous-dsl/index.html",
+      "title": "Anonymous Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-anonymous-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-anonymous-dsl/index.md",
+      "profile": "maven",
+      "score": 4564,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-authorize-http-requests-dsl/index.html",
+      "title": "Authorize Http Requests Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-authorize-http-requests-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-authorize-http-requests-dsl/index.md",
+      "profile": "maven",
+      "score": 7850,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-cors-dsl/index.html",
+      "title": "Cors Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-cors-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-cors-dsl/index.md",
+      "profile": "maven",
+      "score": 3837,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-csrf-dsl/index.html",
+      "title": "Csrf Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-csrf-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-csrf-dsl/index.md",
+      "profile": "maven",
+      "score": 4745,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-exception-handling-dsl/index.html",
+      "title": "Exception Handling Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-exception-handling-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-exception-handling-dsl/index.md",
+      "profile": "maven",
+      "score": 4784,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-form-login-dsl/index.html",
+      "title": "Form Login Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-form-login-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-form-login-dsl/index.md",
+      "profile": "maven",
+      "score": 5981,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-headers-dsl/index.html",
+      "title": "Headers Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-headers-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-headers-dsl/index.md",
+      "profile": "maven",
+      "score": 7269,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-http-basic-dsl/index.html",
+      "title": "Http Basic Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-http-basic-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-http-basic-dsl/index.md",
+      "profile": "maven",
+      "score": 4315,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-http-security-dsl/index.html",
+      "title": "Http Security Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-http-security-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-http-security-dsl/index.md",
+      "profile": "maven",
+      "score": 13826,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-https-redirect-dsl/index.html",
+      "title": "Https Redirect Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-https-redirect-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-https-redirect-dsl/index.md",
+      "profile": "maven",
+      "score": 3085,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-logout-dsl/index.html",
+      "title": "Logout Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-logout-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-logout-dsl/index.md",
+      "profile": "maven",
+      "score": 5875,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-o-auth2-client-dsl/index.html",
+      "title": "OAuth2Client Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-o-auth2-client-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-o-auth2-client-dsl/index.md",
+      "profile": "maven",
+      "score": 4235,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-o-auth2-login-dsl/index.html",
+      "title": "OAuth2Login Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-o-auth2-login-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-o-auth2-login-dsl/index.md",
+      "profile": "maven",
+      "score": 7217,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-o-auth2-resource-server-dsl/index.html",
+      "title": "OAuth2Resource Server Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-o-auth2-resource-server-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-o-auth2-resource-server-dsl/index.md",
+      "profile": "maven",
+      "score": 4926,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-oidc-logout-dsl/index.html",
+      "title": "Oidc Logout Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-oidc-logout-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-oidc-logout-dsl/index.md",
+      "profile": "maven",
+      "score": 3694,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-one-time-token-login-dsl/index.html",
+      "title": "One Time Token Login Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-one-time-token-login-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-one-time-token-login-dsl/index.md",
+      "profile": "maven",
+      "score": 5568,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-password-management-dsl/index.html",
+      "title": "Password Management Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-password-management-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-password-management-dsl/index.md",
+      "profile": "maven",
+      "score": 3151,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-port-mapper-dsl/index.html",
+      "title": "Port Mapper Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-port-mapper-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-port-mapper-dsl/index.md",
+      "profile": "maven",
+      "score": 3698,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-remember-me-dsl/index.html",
+      "title": "Remember Me Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-remember-me-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-remember-me-dsl/index.md",
+      "profile": "maven",
+      "score": 5169,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-request-cache-dsl/index.html",
+      "title": "Request Cache Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-request-cache-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-request-cache-dsl/index.md",
+      "profile": "maven",
+      "score": 3214,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-requires-channel-dsl/index.html",
+      "title": "Requires Channel Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-requires-channel-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-requires-channel-dsl/index.md",
+      "profile": "maven",
+      "score": 5628,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-saml2-dsl/index.html",
+      "title": "Saml2Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-saml2-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-saml2-dsl/index.md",
+      "profile": "maven",
+      "score": 5972,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-saml2-logout-dsl/index.html",
+      "title": "Saml2Logout Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-saml2-logout-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-saml2-logout-dsl/index.md",
+      "profile": "maven",
+      "score": 4354,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-saml2-metadata-dsl/index.html",
+      "title": "Saml2Metadata Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-saml2-metadata-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-saml2-metadata-dsl/index.md",
+      "profile": "maven",
+      "score": 3578,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-security-context-dsl/index.html",
+      "title": "Security Context Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-security-context-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-security-context-dsl/index.md",
+      "profile": "maven",
+      "score": 3374,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-security-marker/index.html",
+      "title": "Security Marker",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-security-marker",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-security-marker/index.md",
+      "profile": "maven",
+      "score": 2262,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-session-management-dsl/index.html",
+      "title": "Session Management Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-session-management-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-session-management-dsl/index.md",
+      "profile": "maven",
+      "score": 4541,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-web-authn-dsl/index.html",
+      "title": "Web Authn Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-web-authn-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-web-authn-dsl/index.md",
+      "profile": "maven",
+      "score": 3900,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-x509-dsl/index.html",
+      "title": "X509Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-x509-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/-x509-dsl/index.md",
+      "profile": "maven",
+      "score": 4567,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/index.html",
+      "title": "Package-level declarations",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/index.md",
+      "profile": "maven",
+      "score": 9076,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/invoke.html",
+      "title": "invoke",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.annotation.web-invoke",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.annotation.web/invoke.md",
+      "profile": "maven",
+      "score": 3535,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-anonymous-dsl/index.html",
+      "title": "Server Anonymous Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-anonymous-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-anonymous-dsl/index.md",
+      "profile": "maven",
+      "score": 4354,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-cache-control-dsl/index.html",
+      "title": "Server Cache Control Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-cache-control-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-cache-control-dsl/index.md",
+      "profile": "maven",
+      "score": 3170,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-content-security-policy-dsl/index.html",
+      "title": "Server Content Security Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-content-security-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-content-security-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3131,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-content-type-options-dsl/index.html",
+      "title": "Server Content Type Options Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-content-type-options-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-content-type-options-dsl/index.md",
+      "profile": "maven",
+      "score": 3212,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-cors-dsl/index.html",
+      "title": "Server Cors Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-cors-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-cors-dsl/index.md",
+      "profile": "maven",
+      "score": 3660,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-cross-origin-embedder-policy-dsl/index.html",
+      "title": "Server Cross Origin Embedder Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-cross-origin-embedder-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-cross-origin-embedder-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3369,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-cross-origin-opener-policy-dsl/index.html",
+      "title": "Server Cross Origin Opener Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-cross-origin-opener-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-cross-origin-opener-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3356,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-cross-origin-resource-policy-dsl/index.html",
+      "title": "Server Cross Origin Resource Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-cross-origin-resource-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-cross-origin-resource-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3369,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-csrf-dsl/index.html",
+      "title": "Server Csrf Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-csrf-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-csrf-dsl/index.md",
+      "profile": "maven",
+      "score": 4484,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-exception-handling-dsl/index.html",
+      "title": "Server Exception Handling Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-exception-handling-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-exception-handling-dsl/index.md",
+      "profile": "maven",
+      "score": 3584,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-form-login-dsl/index.html",
+      "title": "Server Form Login Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-form-login-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-form-login-dsl/index.md",
+      "profile": "maven",
+      "score": 5398,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-frame-options-dsl/index.html",
+      "title": "Server Frame Options Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-frame-options-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-frame-options-dsl/index.md",
+      "profile": "maven",
+      "score": 3757,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-headers-dsl/index.html",
+      "title": "Server Headers Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-headers-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-headers-dsl/index.md",
+      "profile": "maven",
+      "score": 6530,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-http-basic-dsl/index.html",
+      "title": "Server Http Basic Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-http-basic-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-http-basic-dsl/index.md",
+      "profile": "maven",
+      "score": 4604,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-http-security-dsl/index.html",
+      "title": "Server Http Security Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-http-security-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-http-security-dsl/index.md",
+      "profile": "maven",
+      "score": 10189,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-http-strict-transport-security-dsl/index.html",
+      "title": "Server Http Strict Transport Security Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-http-strict-transport-security-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-http-strict-transport-security-dsl/index.md",
+      "profile": "maven",
+      "score": 4179,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-https-redirect-dsl/index.html",
+      "title": "Server Https Redirect Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-https-redirect-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-https-redirect-dsl/index.md",
+      "profile": "maven",
+      "score": 4086,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-jwt-dsl/index.html",
+      "title": "Server Jwt Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-jwt-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-jwt-dsl/index.md",
+      "profile": "maven",
+      "score": 4177,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-logout-dsl/index.html",
+      "title": "Server Logout Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-logout-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-logout-dsl/index.md",
+      "profile": "maven",
+      "score": 4301,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-o-auth2-client-dsl/index.html",
+      "title": "Server OAuth2Client Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-o-auth2-client-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-o-auth2-client-dsl/index.md",
+      "profile": "maven",
+      "score": 4616,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-o-auth2-login-dsl/index.html",
+      "title": "Server OAuth2Login Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-o-auth2-login-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-o-auth2-login-dsl/index.md",
+      "profile": "maven",
+      "score": 6513,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-o-auth2-resource-server-dsl/index.html",
+      "title": "Server OAuth2Resource Server Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-o-auth2-resource-server-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-o-auth2-resource-server-dsl/index.md",
+      "profile": "maven",
+      "score": 4978,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-oidc-back-channel-logout-dsl/index.html",
+      "title": "Server Oidc Back Channel Logout Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-oidc-back-channel-logout-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-oidc-back-channel-logout-dsl/index.md",
+      "profile": "maven",
+      "score": 3162,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-oidc-logout-dsl/index.html",
+      "title": "Server Oidc Logout Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-oidc-logout-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-oidc-logout-dsl/index.md",
+      "profile": "maven",
+      "score": 3721,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-one-time-token-login-dsl/index.html",
+      "title": "Server One Time Token Login Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-one-time-token-login-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-one-time-token-login-dsl/index.md",
+      "profile": "maven",
+      "score": 6115,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-opaque-token-dsl/index.html",
+      "title": "Server Opaque Token Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-opaque-token-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-opaque-token-dsl/index.md",
+      "profile": "maven",
+      "score": 4094,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-password-management-dsl/index.html",
+      "title": "Server Password Management Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-password-management-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-password-management-dsl/index.md",
+      "profile": "maven",
+      "score": 3147,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-permissions-policy-dsl/index.html",
+      "title": "Server Permissions Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-permissions-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-permissions-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3202,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-referrer-policy-dsl/index.html",
+      "title": "Server Referrer Policy Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-referrer-policy-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-referrer-policy-dsl/index.md",
+      "profile": "maven",
+      "score": 3268,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-request-cache-dsl/index.html",
+      "title": "Server Request Cache Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-request-cache-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-request-cache-dsl/index.md",
+      "profile": "maven",
+      "score": 3704,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-security-marker/index.html",
+      "title": "Server Security Marker",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-security-marker",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-security-marker/index.md",
+      "profile": "maven",
+      "score": 2333,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-session-concurrency-dsl/index.html",
+      "title": "Server Session Concurrency Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-session-concurrency-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-session-concurrency-dsl/index.md",
+      "profile": "maven",
+      "score": 3282,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-session-management-dsl/index.html",
+      "title": "Server Session Management Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-session-management-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-session-management-dsl/index.md",
+      "profile": "maven",
+      "score": 3220,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-x509-dsl/index.html",
+      "title": "Server X509Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-x509-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-x509-dsl/index.md",
+      "profile": "maven",
+      "score": 3558,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-xss-protection-dsl/index.html",
+      "title": "Server Xss Protection Dsl",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-server-xss-protection-dsl",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/-server-xss-protection-dsl/index.md",
+      "profile": "maven",
+      "score": 3796,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/index.html",
+      "title": "Package-level declarations",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/index.md",
+      "profile": "maven",
+      "score": 11310,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/api/kotlin/spring-security-config/org.springframework.security.config.web.server/invoke.html",
+      "title": "invoke",
+      "anchor": "api-kotlin-spring-security-config-org.springframework.security.config.web.server-invoke",
+      "virtual_path": "docs/api/kotlin/spring-security-config/org.springframework.security.config.web.server/invoke.md",
+      "profile": "maven",
+      "score": 3383,
+      "depth": 2
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/community.html",
+      "title": "Spring Security Community",
+      "anchor": "community",
+      "virtual_path": "docs/community.md",
+      "profile": "antora",
+      "score": 5343,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/authentication/index.html",
+      "title": "Authentication",
+      "anchor": "features-authentication",
+      "virtual_path": "docs/features/authentication/index.md",
+      "profile": "antora",
+      "score": 2680,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/authentication/password-storage.html",
+      "title": "Password Storage",
+      "anchor": "features-authentication-password-storage",
+      "virtual_path": "docs/features/authentication/password-storage.md",
+      "profile": "antora",
+      "score": 60930,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/authorization/index.html",
+      "title": "Authorization",
+      "anchor": "features-authorization",
+      "virtual_path": "docs/features/authorization/index.md",
+      "profile": "antora",
+      "score": 3184,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/exploits/headers.html",
+      "title": "Security HTTP Response Headers",
+      "anchor": "features-exploits-headers",
+      "virtual_path": "docs/features/exploits/headers.md",
+      "profile": "antora",
+      "score": 29037,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/exploits/http.html",
+      "title": "HTTP",
+      "anchor": "features-exploits-http",
+      "virtual_path": "docs/features/exploits/http.md",
+      "profile": "antora",
+      "score": 4909,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/exploits/index.html",
+      "title": "Protection Against Exploits",
+      "anchor": "features-exploits",
+      "virtual_path": "docs/features/exploits/index.md",
+      "profile": "antora",
+      "score": 2433,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/index.html",
+      "title": "Features",
+      "anchor": "features",
+      "virtual_path": "docs/features/index.md",
+      "profile": "antora",
+      "score": 2268,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/integrations/concurrency.html",
+      "title": "Concurrency Support",
+      "anchor": "features-integrations-concurrency",
+      "virtual_path": "docs/features/integrations/concurrency.md",
+      "profile": "antora",
+      "score": 16846,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/integrations/cryptography.html",
+      "title": "Spring Security Crypto Module",
+      "anchor": "features-integrations-cryptography",
+      "virtual_path": "docs/features/integrations/cryptography.md",
+      "profile": "antora",
+      "score": 16541,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/integrations/data.html",
+      "title": "Spring Data Integration",
+      "anchor": "features-integrations-data",
+      "virtual_path": "docs/features/integrations/data.md",
+      "profile": "antora",
+      "score": 5987,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/integrations/index.html",
+      "title": "Integrations",
+      "anchor": "features-integrations",
+      "virtual_path": "docs/features/integrations/index.md",
+      "profile": "antora",
+      "score": 2488,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/integrations/jackson.html",
+      "title": "Jackson Support",
+      "anchor": "features-integrations-jackson",
+      "virtual_path": "docs/features/integrations/jackson.md",
+      "profile": "antora",
+      "score": 6517,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/integrations/localization.html",
+      "title": "Localization",
+      "anchor": "features-integrations-localization",
+      "virtual_path": "docs/features/integrations/localization.md",
+      "profile": "antora",
+      "score": 5544,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/features/integrations/rest/http-service-client.html",
+      "title": "HTTP Service Clients Integration",
+      "anchor": "features-integrations-rest-http-service-client",
+      "virtual_path": "docs/features/integrations/rest/http-service-client.md",
+      "profile": "antora",
+      "score": 11165,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/getting-spring-security.html",
+      "title": "Getting Spring Security",
+      "anchor": "getting-spring-security",
+      "virtual_path": "docs/getting-spring-security.md",
+      "profile": "antora",
+      "score": 16173,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/index.html",
+      "title": "Spring Security",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "antora",
+      "score": 3609,
+      "depth": 0
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/migration-8/index.html",
+      "title": "Preparing for 8.0",
+      "anchor": "migration-8",
+      "virtual_path": "docs/migration-8/index.md",
+      "profile": "antora",
+      "score": 2466,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/migration/index.html",
+      "title": "Migrating to 7.0",
+      "anchor": "migration",
+      "virtual_path": "docs/migration/index.md",
+      "profile": "antora",
+      "score": 5458,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/migration/reactive.html",
+      "title": "Reactive",
+      "anchor": "migration-reactive",
+      "virtual_path": "docs/migration/reactive.md",
+      "profile": "antora",
+      "score": 5635,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/migration/servlet/authorization.html",
+      "title": "Authorization Changes",
+      "anchor": "migration-servlet-authorization",
+      "virtual_path": "docs/migration/servlet/authorization.md",
+      "profile": "antora",
+      "score": 3457,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/migration/servlet/index.html",
+      "title": "Servlet Migrations",
+      "anchor": "migration-servlet",
+      "virtual_path": "docs/migration/servlet/index.md",
+      "profile": "antora",
+      "score": 2277,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/migration/servlet/oauth2.html",
+      "title": "OAuth 2.0 Migrations",
+      "anchor": "migration-servlet-oauth2",
+      "virtual_path": "docs/migration/servlet/oauth2.md",
+      "profile": "antora",
+      "score": 8722,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/migration/servlet/saml2.html",
+      "title": "SAML 2.0 Migrations",
+      "anchor": "migration-servlet-saml2",
+      "virtual_path": "docs/migration/servlet/saml2.md",
+      "profile": "antora",
+      "score": 10314,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/modules.html",
+      "title": "Project Modules and Dependencies",
+      "anchor": "modules",
+      "virtual_path": "docs/modules.md",
+      "profile": "antora",
+      "score": 21867,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/native-image/index.html",
+      "title": "GraalVM Native Image Support",
+      "anchor": "native-image",
+      "virtual_path": "docs/native-image/index.md",
+      "profile": "antora",
+      "score": 2457,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/native-image/method-security.html",
+      "title": "Method Security in GraalVM Native Image",
+      "anchor": "native-image-method-security",
+      "virtual_path": "docs/native-image/method-security.md",
+      "profile": "antora",
+      "score": 6392,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/prerequisites.html",
+      "title": "Prerequisites",
+      "anchor": "prerequisites",
+      "virtual_path": "docs/prerequisites.md",
+      "profile": "antora",
+      "score": 3039,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/authentication/concurrent-sessions-control.html",
+      "title": "Concurrent Sessions Control",
+      "anchor": "reactive-authentication-concurrent-sessions-control",
+      "virtual_path": "docs/reactive/authentication/concurrent-sessions-control.md",
+      "profile": "antora",
+      "score": 21023,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/authentication/index.html",
+      "title": "Authentication",
+      "anchor": "reactive-authentication",
+      "virtual_path": "docs/reactive/authentication/index.md",
+      "profile": "antora",
+      "score": 1854,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/authentication/logout.html",
+      "title": "Logout",
+      "anchor": "reactive-authentication-logout",
+      "virtual_path": "docs/reactive/authentication/logout.md",
+      "profile": "antora",
+      "score": 4002,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/authentication/x509.html",
+      "title": "Reactive X.509 Authentication",
+      "anchor": "reactive-authentication-x509",
+      "virtual_path": "docs/reactive/authentication/x509.md",
+      "profile": "antora",
+      "score": 6495,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/authorization/authorize-http-requests.html",
+      "title": "Authorize ServerHttpRequest",
+      "anchor": "reactive-authorization-authorize-http-requests",
+      "virtual_path": "docs/reactive/authorization/authorize-http-requests.md",
+      "profile": "antora",
+      "score": 6503,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/authorization/method.html",
+      "title": "EnableReactiveMethodSecurity",
+      "anchor": "reactive-authorization-method",
+      "virtual_path": "docs/reactive/authorization/method.md",
+      "profile": "antora",
+      "score": 31552,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/configuration/webflux.html",
+      "title": "WebFlux Security",
+      "anchor": "reactive-configuration-webflux",
+      "virtual_path": "docs/reactive/configuration/webflux.md",
+      "profile": "antora",
+      "score": 22180,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/exploits/csrf.html",
+      "title": "Cross Site Request Forgery (CSRF) for WebFlux Environments",
+      "anchor": "reactive-exploits-csrf",
+      "virtual_path": "docs/reactive/exploits/csrf.md",
+      "profile": "antora",
+      "score": 28823,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/exploits/firewall.html",
+      "title": "ServerWebExchangeFirewall",
+      "anchor": "reactive-exploits-firewall",
+      "virtual_path": "docs/reactive/exploits/firewall.md",
+      "profile": "antora",
+      "score": 13708,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/exploits/headers.html",
+      "title": "Security HTTP Response Headers",
+      "anchor": "reactive-exploits-headers",
+      "virtual_path": "docs/reactive/exploits/headers.md",
+      "profile": "antora",
+      "score": 26010,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/exploits/http.html",
+      "title": "HTTP",
+      "anchor": "reactive-exploits-http",
+      "virtual_path": "docs/reactive/exploits/http.md",
+      "profile": "antora",
+      "score": 6133,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/exploits/index.html",
+      "title": "Protection Against Exploits",
+      "anchor": "reactive-exploits",
+      "virtual_path": "docs/reactive/exploits/index.md",
+      "profile": "antora",
+      "score": 2135,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/getting-started.html",
+      "title": "Getting Started with WebFlux Applications",
+      "anchor": "reactive-getting-started",
+      "virtual_path": "docs/reactive/getting-started.md",
+      "profile": "antora",
+      "score": 6721,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/index.html",
+      "title": "Reactive Applications",
+      "anchor": "reactive",
+      "virtual_path": "docs/reactive/index.md",
+      "profile": "antora",
+      "score": 2060,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/integrations/cors.html",
+      "title": "CORS",
+      "anchor": "reactive-integrations-cors",
+      "virtual_path": "docs/reactive/integrations/cors.md",
+      "profile": "antora",
+      "score": 5607,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/integrations/observability.html",
+      "title": "Observability",
+      "anchor": "reactive-integrations-observability",
+      "virtual_path": "docs/reactive/integrations/observability.md",
+      "profile": "antora",
+      "score": 22458,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/integrations/rsocket.html",
+      "title": "RSocket Security",
+      "anchor": "reactive-integrations-rsocket",
+      "virtual_path": "docs/reactive/integrations/rsocket.md",
+      "profile": "antora",
+      "score": 23916,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/client/authorization-grants.html",
+      "title": "Authorization Grant Support",
+      "anchor": "reactive-oauth2-client-authorization-grants",
+      "virtual_path": "docs/reactive/oauth2/client/authorization-grants.md",
+      "profile": "antora",
+      "score": 144174,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/client/authorized-clients.html",
+      "title": "Authorized Client Features",
+      "anchor": "reactive-oauth2-client-authorized-clients",
+      "virtual_path": "docs/reactive/oauth2/client/authorized-clients.md",
+      "profile": "antora",
+      "score": 14981,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/client/client-authentication.html",
+      "title": "Client Authentication Support",
+      "anchor": "reactive-oauth2-client-client-authentication",
+      "virtual_path": "docs/reactive/oauth2/client/client-authentication.md",
+      "profile": "antora",
+      "score": 16439,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/client/core.html",
+      "title": "Core Interfaces / Classes",
+      "anchor": "reactive-oauth2-client-core",
+      "virtual_path": "docs/reactive/oauth2/client/core.md",
+      "profile": "antora",
+      "score": 28467,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/client/index.html",
+      "title": "OAuth 2.0 Client",
+      "anchor": "reactive-oauth2-client",
+      "virtual_path": "docs/reactive/oauth2/client/index.md",
+      "profile": "antora",
+      "score": 8208,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/index.html",
+      "title": "OAuth2 WebFlux",
+      "anchor": "reactive-oauth2",
+      "virtual_path": "docs/reactive/oauth2/index.md",
+      "profile": "antora",
+      "score": 69921,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/login/advanced.html",
+      "title": "Advanced Configuration",
+      "anchor": "reactive-oauth2-login-advanced",
+      "virtual_path": "docs/reactive/oauth2/login/advanced.md",
+      "profile": "antora",
+      "score": 34762,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/login/core.html",
+      "title": "Core Configuration",
+      "anchor": "reactive-oauth2-login-core",
+      "virtual_path": "docs/reactive/oauth2/login/core.md",
+      "profile": "antora",
+      "score": 31217,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/login/index.html",
+      "title": "OAuth 2.0 Login",
+      "anchor": "reactive-oauth2-login",
+      "virtual_path": "docs/reactive/oauth2/login/index.md",
+      "profile": "antora",
+      "score": 2874,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/login/logout.html",
+      "title": "OIDC Logout",
+      "anchor": "reactive-oauth2-login-logout",
+      "virtual_path": "docs/reactive/oauth2/login/logout.md",
+      "profile": "antora",
+      "score": 19240,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/resource-server/bearer-tokens.html",
+      "title": "OAuth 2.0 Resource Server Bearer Tokens",
+      "anchor": "reactive-oauth2-resource-server-bearer-tokens",
+      "virtual_path": "docs/reactive/oauth2/resource-server/bearer-tokens.md",
+      "profile": "antora",
+      "score": 7802,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/resource-server/index.html",
+      "title": "OAuth 2.0 Resource Server",
+      "anchor": "reactive-oauth2-resource-server",
+      "virtual_path": "docs/reactive/oauth2/resource-server/index.md",
+      "profile": "antora",
+      "score": 2702,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/resource-server/jwt.html",
+      "title": "OAuth 2.0 Resource Server JWT",
+      "anchor": "reactive-oauth2-resource-server-jwt",
+      "virtual_path": "docs/reactive/oauth2/resource-server/jwt.md",
+      "profile": "antora",
+      "score": 52339,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/resource-server/multitenancy.html",
+      "title": "OAuth 2.0 Resource Server Multi-tenancy",
+      "anchor": "reactive-oauth2-resource-server-multitenancy",
+      "virtual_path": "docs/reactive/oauth2/resource-server/multitenancy.md",
+      "profile": "antora",
+      "score": 8937,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/oauth2/resource-server/opaque-token.html",
+      "title": "OAuth 2.0 Resource Server Opaque Token",
+      "anchor": "reactive-oauth2-resource-server-opaque-token",
+      "virtual_path": "docs/reactive/oauth2/resource-server/opaque-token.md",
+      "profile": "antora",
+      "score": 43658,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/test/index.html",
+      "title": "Reactive Test Support",
+      "anchor": "reactive-test",
+      "virtual_path": "docs/reactive/test/index.md",
+      "profile": "antora",
+      "score": 2145,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/test/method.html",
+      "title": "Testing Method Security",
+      "anchor": "reactive-test-method",
+      "virtual_path": "docs/reactive/test/method.md",
+      "profile": "antora",
+      "score": 4189,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/test/web/authentication.html",
+      "title": "Testing Authentication",
+      "anchor": "reactive-test-web-authentication",
+      "virtual_path": "docs/reactive/test/web/authentication.md",
+      "profile": "antora",
+      "score": 5054,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/test/web/csrf.html",
+      "title": "Testing with CSRF",
+      "anchor": "reactive-test-web-csrf",
+      "virtual_path": "docs/reactive/test/web/csrf.md",
+      "profile": "antora",
+      "score": 2976,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/test/web/index.html",
+      "title": "Testing Web Security",
+      "anchor": "reactive-test-web",
+      "virtual_path": "docs/reactive/test/web/index.md",
+      "profile": "antora",
+      "score": 2090,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/test/web/oauth2.html",
+      "title": "Testing OAuth 2.0",
+      "anchor": "reactive-test-web-oauth2",
+      "virtual_path": "docs/reactive/test/web/oauth2.md",
+      "profile": "antora",
+      "score": 61214,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/test/web/setup.html",
+      "title": "WebTestClient Security Setup",
+      "anchor": "reactive-test-web-setup",
+      "virtual_path": "docs/reactive/test/web/setup.md",
+      "profile": "antora",
+      "score": 4030,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/reactive/test/web/x509.html",
+      "title": "X509",
+      "anchor": "reactive-test-web-x509",
+      "virtual_path": "docs/reactive/test/web/x509.md",
+      "profile": "antora",
+      "score": 1795,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/samples.html",
+      "title": "Samples",
+      "anchor": "samples",
+      "virtual_path": "docs/samples.md",
+      "profile": "antora",
+      "score": 2202,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/appendix/database-schema.html",
+      "title": "Security Database Schema",
+      "anchor": "servlet-appendix-database-schema",
+      "virtual_path": "docs/servlet/appendix/database-schema.md",
+      "profile": "antora",
+      "score": 22000,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/appendix/faq.html",
+      "title": "Spring Security FAQ",
+      "anchor": "servlet-appendix-faq",
+      "virtual_path": "docs/servlet/appendix/faq.md",
+      "profile": "antora",
+      "score": 68048,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/appendix/index.html",
+      "title": "Appendix",
+      "anchor": "servlet-appendix",
+      "virtual_path": "docs/servlet/appendix/index.md",
+      "profile": "antora",
+      "score": 2020,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/appendix/namespace/authentication-manager.html",
+      "title": "Authentication Services",
+      "anchor": "servlet-appendix-namespace-authentication-manager",
+      "virtual_path": "docs/servlet/appendix/namespace/authentication-manager.md",
+      "profile": "antora",
+      "score": 18180,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/appendix/namespace/http.html",
+      "title": "Web Application Security",
+      "anchor": "servlet-appendix-namespace-http",
+      "virtual_path": "docs/servlet/appendix/namespace/http.md",
+      "profile": "antora",
+      "score": 151267,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/appendix/namespace/index.html",
+      "title": "The Security Namespace",
+      "anchor": "servlet-appendix-namespace",
+      "virtual_path": "docs/servlet/appendix/namespace/index.md",
+      "profile": "antora",
+      "score": 3269,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/appendix/namespace/ldap.html",
+      "title": "LDAP Namespace Options",
+      "anchor": "servlet-appendix-namespace-ldap",
+      "virtual_path": "docs/servlet/appendix/namespace/ldap.md",
+      "profile": "antora",
+      "score": 17756,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/appendix/namespace/method-security.html",
+      "title": "Method Security",
+      "anchor": "servlet-appendix-namespace-method-security",
+      "virtual_path": "docs/servlet/appendix/namespace/method-security.md",
+      "profile": "antora",
+      "score": 28114,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/appendix/namespace/websocket.html",
+      "title": "WebSocket Security",
+      "anchor": "servlet-appendix-namespace-websocket",
+      "virtual_path": "docs/servlet/appendix/namespace/websocket.md",
+      "profile": "antora",
+      "score": 9054,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/appendix/proxy-server.html",
+      "title": "Proxy Server Configuration",
+      "anchor": "servlet-appendix-proxy-server",
+      "virtual_path": "docs/servlet/appendix/proxy-server.md",
+      "profile": "antora",
+      "score": 3046,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/architecture.html",
+      "title": "Architecture",
+      "anchor": "servlet-architecture",
+      "virtual_path": "docs/servlet/architecture.md",
+      "profile": "antora",
+      "score": 49968,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/anonymous.html",
+      "title": "Anonymous Authentication",
+      "anchor": "servlet-authentication-anonymous",
+      "virtual_path": "docs/servlet/authentication/anonymous.md",
+      "profile": "antora",
+      "score": 14046,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/architecture.html",
+      "title": "Servlet Authentication Architecture",
+      "anchor": "servlet-authentication-architecture",
+      "virtual_path": "docs/servlet/authentication/architecture.md",
+      "profile": "antora",
+      "score": 26171,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/cas.html",
+      "title": "CAS Authentication",
+      "anchor": "servlet-authentication-cas",
+      "virtual_path": "docs/servlet/authentication/cas.md",
+      "profile": "antora",
+      "score": 36301,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/events.html",
+      "title": "Authentication Events",
+      "anchor": "servlet-authentication-events",
+      "virtual_path": "docs/servlet/authentication/events.md",
+      "profile": "antora",
+      "score": 11100,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/index.html",
+      "title": "Authentication",
+      "anchor": "servlet-authentication",
+      "virtual_path": "docs/servlet/authentication/index.md",
+      "profile": "antora",
+      "score": 4038,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/jaas.html",
+      "title": "Java Authentication and Authorization Service (JAAS) Provider",
+      "anchor": "servlet-authentication-jaas",
+      "virtual_path": "docs/servlet/authentication/jaas.md",
+      "profile": "antora",
+      "score": 14502,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/kerberos/appendix.html",
+      "title": "Appendices",
+      "anchor": "servlet-authentication-kerberos-appendix",
+      "virtual_path": "docs/servlet/authentication/kerberos/appendix.md",
+      "profile": "antora",
+      "score": 27900,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/kerberos/index.html",
+      "title": "Spring Security Kerberos",
+      "anchor": "servlet-authentication-kerberos",
+      "virtual_path": "docs/servlet/authentication/kerberos/index.md",
+      "profile": "antora",
+      "score": 1911,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/kerberos/introduction.html",
+      "title": "Introduction",
+      "anchor": "servlet-authentication-kerberos-introduction",
+      "virtual_path": "docs/servlet/authentication/kerberos/introduction.md",
+      "profile": "antora",
+      "score": 3316,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/kerberos/samples.html",
+      "title": "Spring Security Kerberos Samples",
+      "anchor": "servlet-authentication-kerberos-samples",
+      "virtual_path": "docs/servlet/authentication/kerberos/samples.md",
+      "profile": "antora",
+      "score": 12872,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/kerberos/ssk.html",
+      "title": "Spring and Spring Security Kerberos",
+      "anchor": "servlet-authentication-kerberos-ssk",
+      "virtual_path": "docs/servlet/authentication/kerberos/ssk.md",
+      "profile": "antora",
+      "score": 15009,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/logout.html",
+      "title": "Handling Logouts",
+      "anchor": "servlet-authentication-logout",
+      "virtual_path": "docs/servlet/authentication/logout.md",
+      "profile": "antora",
+      "score": 25671,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/mfa.html",
+      "title": "Multi-Factor Authentication",
+      "anchor": "servlet-authentication-mfa",
+      "virtual_path": "docs/servlet/authentication/mfa.md",
+      "profile": "antora",
+      "score": 53614,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/onetimetoken.html",
+      "title": "One-Time Token Login",
+      "anchor": "servlet-authentication-onetimetoken",
+      "virtual_path": "docs/servlet/authentication/onetimetoken.md",
+      "profile": "antora",
+      "score": 26115,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passkeys.html",
+      "title": "Passkeys",
+      "anchor": "servlet-authentication-passkeys",
+      "virtual_path": "docs/servlet/authentication/passkeys.md",
+      "profile": "antora",
+      "score": 21105,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/basic.html",
+      "title": "Basic Authentication",
+      "anchor": "servlet-authentication-passwords-basic",
+      "virtual_path": "docs/servlet/authentication/passwords/basic.md",
+      "profile": "antora",
+      "score": 8127,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/credentials-container.html",
+      "title": "CredentialsContainer",
+      "anchor": "servlet-authentication-passwords-credentials-container",
+      "virtual_path": "docs/servlet/authentication/passwords/credentials-container.md",
+      "profile": "antora",
+      "score": 3108,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/dao-authentication-provider.html",
+      "title": "DaoAuthenticationProvider",
+      "anchor": "servlet-authentication-passwords-dao-authentication-provider",
+      "virtual_path": "docs/servlet/authentication/passwords/dao-authentication-provider.md",
+      "profile": "antora",
+      "score": 3689,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/digest.html",
+      "title": "Digest Authentication",
+      "anchor": "servlet-authentication-passwords-digest",
+      "virtual_path": "docs/servlet/authentication/passwords/digest.md",
+      "profile": "antora",
+      "score": 6586,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/erasure.html",
+      "title": "Untitled :: Spring Security",
+      "anchor": "servlet-authentication-passwords-erasure",
+      "virtual_path": "docs/servlet/authentication/passwords/erasure.md",
+      "profile": "antora",
+      "score": 5760,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/form.html",
+      "title": "Form Login",
+      "anchor": "servlet-authentication-passwords-form",
+      "virtual_path": "docs/servlet/authentication/passwords/form.md",
+      "profile": "antora",
+      "score": 14425,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/in-memory.html",
+      "title": "In-Memory Authentication",
+      "anchor": "servlet-authentication-passwords-in-memory",
+      "virtual_path": "docs/servlet/authentication/passwords/in-memory.md",
+      "profile": "antora",
+      "score": 7450,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/index.html",
+      "title": "Username/Password Authentication",
+      "anchor": "servlet-authentication-passwords",
+      "virtual_path": "docs/servlet/authentication/passwords/index.md",
+      "profile": "antora",
+      "score": 19828,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/input.html",
+      "title": "Reading the Username & Password",
+      "anchor": "servlet-authentication-passwords-input",
+      "virtual_path": "docs/servlet/authentication/passwords/input.md",
+      "profile": "antora",
+      "score": 2264,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/jdbc.html",
+      "title": "JDBC Authentication",
+      "anchor": "servlet-authentication-passwords-jdbc",
+      "virtual_path": "docs/servlet/authentication/passwords/jdbc.md",
+      "profile": "antora",
+      "score": 11863,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/ldap.html",
+      "title": "LDAP Authentication",
+      "anchor": "servlet-authentication-passwords-ldap",
+      "virtual_path": "docs/servlet/authentication/passwords/ldap.md",
+      "profile": "antora",
+      "score": 32513,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/password-encoder.html",
+      "title": "PasswordEncoder",
+      "anchor": "servlet-authentication-passwords-password-encoder",
+      "virtual_path": "docs/servlet/authentication/passwords/password-encoder.md",
+      "profile": "antora",
+      "score": 1963,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/storage.html",
+      "title": "Storage Mechanisms",
+      "anchor": "servlet-authentication-passwords-storage",
+      "virtual_path": "docs/servlet/authentication/passwords/storage.md",
+      "profile": "antora",
+      "score": 2726,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/user-details-service.html",
+      "title": "UserDetailsService",
+      "anchor": "servlet-authentication-passwords-user-details-service",
+      "virtual_path": "docs/servlet/authentication/passwords/user-details-service.md",
+      "profile": "antora",
+      "score": 3870,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/user-details.html",
+      "title": "UserDetails",
+      "anchor": "servlet-authentication-passwords-user-details",
+      "virtual_path": "docs/servlet/authentication/passwords/user-details.md",
+      "profile": "antora",
+      "score": 7238,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/persistence.html",
+      "title": "Persisting Authentication",
+      "anchor": "servlet-authentication-persistence",
+      "virtual_path": "docs/servlet/authentication/persistence.md",
+      "profile": "antora",
+      "score": 18756,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/preauth.html",
+      "title": "Pre-Authentication Scenarios",
+      "anchor": "servlet-authentication-preauth",
+      "virtual_path": "docs/servlet/authentication/preauth.md",
+      "profile": "antora",
+      "score": 15750,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/rememberme.html",
+      "title": "Remember-Me Authentication",
+      "anchor": "servlet-authentication-rememberme",
+      "virtual_path": "docs/servlet/authentication/rememberme.md",
+      "profile": "antora",
+      "score": 18061,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/runas.html",
+      "title": "Run-As Authentication Replacement",
+      "anchor": "servlet-authentication-runas",
+      "virtual_path": "docs/servlet/authentication/runas.md",
+      "profile": "antora",
+      "score": 6834,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/session-management.html",
+      "title": "Authentication Persistence and Session Management",
+      "anchor": "servlet-authentication-session-management",
+      "virtual_path": "docs/servlet/authentication/session-management.md",
+      "profile": "antora",
+      "score": 53536,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authentication/x509.html",
+      "title": "X.509 Authentication",
+      "anchor": "servlet-authentication-x509",
+      "virtual_path": "docs/servlet/authentication/x509.md",
+      "profile": "antora",
+      "score": 10450,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authorization/acls.html",
+      "title": "Domain Object Security (ACLs)",
+      "anchor": "servlet-authorization-acls",
+      "virtual_path": "docs/servlet/authorization/acls.md",
+      "profile": "antora",
+      "score": 26018,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authorization/architecture.html",
+      "title": "Authorization Architecture",
+      "anchor": "servlet-authorization-architecture",
+      "virtual_path": "docs/servlet/authorization/architecture.md",
+      "profile": "antora",
+      "score": 40916,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html",
+      "title": "Authorize HttpServletRequests",
+      "anchor": "servlet-authorization-authorize-http-requests",
+      "virtual_path": "docs/servlet/authorization/authorize-http-requests.md",
+      "profile": "antora",
+      "score": 68437,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authorization/events.html",
+      "title": "Authorization Events",
+      "anchor": "servlet-authorization-events",
+      "virtual_path": "docs/servlet/authorization/events.md",
+      "profile": "antora",
+      "score": 6957,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authorization/index.html",
+      "title": "Authorization",
+      "anchor": "servlet-authorization",
+      "virtual_path": "docs/servlet/authorization/index.md",
+      "profile": "antora",
+      "score": 3925,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html",
+      "title": "Method Security",
+      "anchor": "servlet-authorization-method-security",
+      "virtual_path": "docs/servlet/authorization/method-security.md",
+      "profile": "antora",
+      "score": 162119,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/configuration/java.html",
+      "title": "Java Configuration",
+      "anchor": "servlet-configuration-java",
+      "virtual_path": "docs/servlet/configuration/java.md",
+      "profile": "antora",
+      "score": 48976,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/configuration/kotlin.html",
+      "title": "Kotlin Configuration",
+      "anchor": "servlet-configuration-kotlin",
+      "virtual_path": "docs/servlet/configuration/kotlin.md",
+      "profile": "antora",
+      "score": 27638,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/configuration/xml-namespace.html",
+      "title": "Security Namespace Configuration",
+      "anchor": "servlet-configuration-xml-namespace",
+      "virtual_path": "docs/servlet/configuration/xml-namespace.md",
+      "profile": "antora",
+      "score": 34235,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/exploits/csrf.html",
+      "title": "Cross Site Request Forgery (CSRF)",
+      "anchor": "servlet-exploits-csrf",
+      "virtual_path": "docs/servlet/exploits/csrf.md",
+      "profile": "antora",
+      "score": 74103,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/exploits/firewall.html",
+      "title": "HttpFirewall",
+      "anchor": "servlet-exploits-firewall",
+      "virtual_path": "docs/servlet/exploits/firewall.md",
+      "profile": "antora",
+      "score": 15827,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/exploits/headers.html",
+      "title": "Security HTTP Response Headers",
+      "anchor": "servlet-exploits-headers",
+      "virtual_path": "docs/servlet/exploits/headers.md",
+      "profile": "antora",
+      "score": 44066,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/exploits/http.html",
+      "title": "HTTP",
+      "anchor": "servlet-exploits-http",
+      "virtual_path": "docs/servlet/exploits/http.md",
+      "profile": "antora",
+      "score": 5246,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/exploits/index.html",
+      "title": "Protection Against Exploits",
+      "anchor": "servlet-exploits",
+      "virtual_path": "docs/servlet/exploits/index.md",
+      "profile": "antora",
+      "score": 2066,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/index.html",
+      "title": "Servlet Applications",
+      "anchor": "servlet",
+      "virtual_path": "docs/servlet/index.md",
+      "profile": "antora",
+      "score": 2556,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/integrations/concurrency.html",
+      "title": "Concurrency Support",
+      "anchor": "servlet-integrations-concurrency",
+      "virtual_path": "docs/servlet/integrations/concurrency.md",
+      "profile": "antora",
+      "score": 12923,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/integrations/cors.html",
+      "title": "CORS",
+      "anchor": "servlet-integrations-cors",
+      "virtual_path": "docs/servlet/integrations/cors.md",
+      "profile": "antora",
+      "score": 13293,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/integrations/data.html",
+      "title": "Spring Data Integration",
+      "anchor": "servlet-integrations-data",
+      "virtual_path": "docs/servlet/integrations/data.md",
+      "profile": "antora",
+      "score": 5896,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/integrations/index.html",
+      "title": "Integrations",
+      "anchor": "servlet-integrations",
+      "virtual_path": "docs/servlet/integrations/index.md",
+      "profile": "antora",
+      "score": 2283,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/integrations/jsp-taglibs.html",
+      "title": "JSP Tag Libraries",
+      "anchor": "servlet-integrations-jsp-taglibs",
+      "virtual_path": "docs/servlet/integrations/jsp-taglibs.md",
+      "profile": "antora",
+      "score": 16256,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/integrations/localization.html",
+      "title": "Localization",
+      "anchor": "servlet-integrations-localization",
+      "virtual_path": "docs/servlet/integrations/localization.md",
+      "profile": "antora",
+      "score": 5506,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/integrations/mvc.html",
+      "title": "Spring MVC Integration",
+      "anchor": "servlet-integrations-mvc",
+      "virtual_path": "docs/servlet/integrations/mvc.md",
+      "profile": "antora",
+      "score": 35362,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/integrations/observability.html",
+      "title": "Observability",
+      "anchor": "servlet-integrations-observability",
+      "virtual_path": "docs/servlet/integrations/observability.md",
+      "profile": "antora",
+      "score": 20737,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/integrations/servlet-api.html",
+      "title": "Servlet API integration",
+      "anchor": "servlet-integrations-servlet-api",
+      "virtual_path": "docs/servlet/integrations/servlet-api.md",
+      "profile": "antora",
+      "score": 19119,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/integrations/websocket.html",
+      "title": "WebSocket Security",
+      "anchor": "servlet-integrations-websocket",
+      "virtual_path": "docs/servlet/integrations/websocket.md",
+      "profile": "antora",
+      "score": 38619,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/authorization-server/configuration-model.html",
+      "title": "Configuration Model",
+      "anchor": "servlet-oauth2-authorization-server-configuration-model",
+      "virtual_path": "docs/servlet/oauth2/authorization-server/configuration-model.md",
+      "profile": "antora",
+      "score": 31471,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/authorization-server/core-model-components.html",
+      "title": "Core Model / Components",
+      "anchor": "servlet-oauth2-authorization-server-core-model-components",
+      "virtual_path": "docs/servlet/oauth2/authorization-server/core-model-components.md",
+      "profile": "antora",
+      "score": 39224,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/authorization-server/getting-started.html",
+      "title": "Getting Started",
+      "anchor": "servlet-oauth2-authorization-server-getting-started",
+      "virtual_path": "docs/servlet/oauth2/authorization-server/getting-started.md",
+      "profile": "antora",
+      "score": 12851,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/authorization-server/index.html",
+      "title": "OAuth 2.1 Authorization Server",
+      "anchor": "servlet-oauth2-authorization-server",
+      "virtual_path": "docs/servlet/oauth2/authorization-server/index.md",
+      "profile": "antora",
+      "score": 12888,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/authorization-server/protocol-endpoints.html",
+      "title": "Protocol Endpoints",
+      "anchor": "servlet-oauth2-authorization-server-protocol-endpoints",
+      "virtual_path": "docs/servlet/oauth2/authorization-server/protocol-endpoints.md",
+      "profile": "antora",
+      "score": 84565,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/client/authorization-grants.html",
+      "title": "Authorization Grant Support",
+      "anchor": "servlet-oauth2-client-authorization-grants",
+      "virtual_path": "docs/servlet/oauth2/client/authorization-grants.md",
+      "profile": "antora",
+      "score": 150725,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/client/authorized-clients.html",
+      "title": "Authorized Client Features",
+      "anchor": "servlet-oauth2-client-authorized-clients",
+      "virtual_path": "docs/servlet/oauth2/client/authorized-clients.md",
+      "profile": "antora",
+      "score": 34967,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/client/client-authentication.html",
+      "title": "Client Authentication Support",
+      "anchor": "servlet-oauth2-client-client-authentication",
+      "virtual_path": "docs/servlet/oauth2/client/client-authentication.md",
+      "profile": "antora",
+      "score": 16358,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/client/core.html",
+      "title": "Core Interfaces and Classes",
+      "anchor": "servlet-oauth2-client-core",
+      "virtual_path": "docs/servlet/oauth2/client/core.md",
+      "profile": "antora",
+      "score": 27789,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/client/index.html",
+      "title": "OAuth 2.0 Client",
+      "anchor": "servlet-oauth2-client",
+      "virtual_path": "docs/servlet/oauth2/client/index.md",
+      "profile": "antora",
+      "score": 9366,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/index.html",
+      "title": "OAuth2",
+      "anchor": "servlet-oauth2",
+      "virtual_path": "docs/servlet/oauth2/index.md",
+      "profile": "antora",
+      "score": 85580,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/login/advanced.html",
+      "title": "Advanced Configuration",
+      "anchor": "servlet-oauth2-login-advanced",
+      "virtual_path": "docs/servlet/oauth2/login/advanced.md",
+      "profile": "antora",
+      "score": 41638,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/login/core.html",
+      "title": "Core Configuration",
+      "anchor": "servlet-oauth2-login-core",
+      "virtual_path": "docs/servlet/oauth2/login/core.md",
+      "profile": "antora",
+      "score": 31793,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/login/index.html",
+      "title": "OAuth 2.0 Login",
+      "anchor": "servlet-oauth2-login",
+      "virtual_path": "docs/servlet/oauth2/login/index.md",
+      "profile": "antora",
+      "score": 2841,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/login/logout.html",
+      "title": "OIDC Logout",
+      "anchor": "servlet-oauth2-login-logout",
+      "virtual_path": "docs/servlet/oauth2/login/logout.md",
+      "profile": "antora",
+      "score": 20774,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/bearer-tokens.html",
+      "title": "OAuth 2.0 Bearer Tokens",
+      "anchor": "servlet-oauth2-resource-server-bearer-tokens",
+      "virtual_path": "docs/servlet/oauth2/resource-server/bearer-tokens.md",
+      "profile": "antora",
+      "score": 16083,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/dpop-tokens.html",
+      "title": "OAuth 2.0 DPoP-bound Access Tokens",
+      "anchor": "servlet-oauth2-resource-server-dpop-tokens",
+      "virtual_path": "docs/servlet/oauth2/resource-server/dpop-tokens.md",
+      "profile": "antora",
+      "score": 16069,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/index.html",
+      "title": "OAuth 2.0 Resource Server",
+      "anchor": "servlet-oauth2-resource-server",
+      "virtual_path": "docs/servlet/oauth2/resource-server/index.md",
+      "profile": "antora",
+      "score": 6483,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html",
+      "title": "OAuth 2.0 Resource Server JWT",
+      "anchor": "servlet-oauth2-resource-server-jwt",
+      "virtual_path": "docs/servlet/oauth2/resource-server/jwt.md",
+      "profile": "antora",
+      "score": 92285,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/multitenancy.html",
+      "title": "OAuth 2.0 Resource Server Multi-tenancy",
+      "anchor": "servlet-oauth2-resource-server-multitenancy",
+      "virtual_path": "docs/servlet/oauth2/resource-server/multitenancy.md",
+      "profile": "antora",
+      "score": 23107,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/opaque-token.html",
+      "title": "OAuth 2.0 Resource Server Opaque Token",
+      "anchor": "servlet-oauth2-resource-server-opaque-token",
+      "virtual_path": "docs/servlet/oauth2/resource-server/opaque-token.md",
+      "profile": "antora",
+      "score": 57010,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/protected-resource-metadata.html",
+      "title": "OAuth 2.0 Protected Resource Metadata",
+      "anchor": "servlet-oauth2-resource-server-protected-resource-metadata",
+      "virtual_path": "docs/servlet/oauth2/resource-server/protected-resource-metadata.md",
+      "profile": "antora",
+      "score": 3631,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/saml2/index.html",
+      "title": "SAML2",
+      "anchor": "servlet-saml2",
+      "virtual_path": "docs/servlet/saml2/index.md",
+      "profile": "antora",
+      "score": 2229,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/saml2/login/authentication-requests.html",
+      "title": "Producing <saml2:AuthnRequest> s",
+      "anchor": "servlet-saml2-login-authentication-requests",
+      "virtual_path": "docs/servlet/saml2/login/authentication-requests.md",
+      "profile": "antora",
+      "score": 17567,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/saml2/login/authentication.html",
+      "title": "Authenticating <saml2:Response> s",
+      "anchor": "servlet-saml2-login-authentication",
+      "virtual_path": "docs/servlet/saml2/login/authentication.md",
+      "profile": "antora",
+      "score": 33708,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/saml2/login/index.html",
+      "title": "SAML 2.0 Login",
+      "anchor": "servlet-saml2-login",
+      "virtual_path": "docs/servlet/saml2/login/index.md",
+      "profile": "antora",
+      "score": 3284,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/saml2/login/overview.html",
+      "title": "SAML 2.0 Login Overview",
+      "anchor": "servlet-saml2-login-overview",
+      "virtual_path": "docs/servlet/saml2/login/overview.md",
+      "profile": "antora",
+      "score": 57239,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/saml2/logout.html",
+      "title": "Performing Single Logout",
+      "anchor": "servlet-saml2-logout",
+      "virtual_path": "docs/servlet/saml2/logout.md",
+      "profile": "antora",
+      "score": 38722,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/saml2/metadata.html",
+      "title": "Saml 2.0 Metadata",
+      "anchor": "servlet-saml2-metadata",
+      "virtual_path": "docs/servlet/saml2/metadata.md",
+      "profile": "antora",
+      "score": 14330,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/saml2/saml-extension-migration.html",
+      "title": "SAML 2.0 Extension Migration",
+      "anchor": "servlet-saml2-saml-extension-migration",
+      "virtual_path": "docs/servlet/saml2/saml-extension-migration.md",
+      "profile": "antora",
+      "score": 9512,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/index.html",
+      "title": "Testing",
+      "anchor": "servlet-test",
+      "virtual_path": "docs/servlet/test/index.md",
+      "profile": "antora",
+      "score": 2617,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/method.html",
+      "title": "Testing Method Security",
+      "anchor": "servlet-test-method",
+      "virtual_path": "docs/servlet/test/method.md",
+      "profile": "antora",
+      "score": 36513,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/authentication.html",
+      "title": "Running a Test as a User in Spring MVC Test",
+      "anchor": "servlet-test-mockmvc-authentication",
+      "virtual_path": "docs/servlet/test/mockmvc/authentication.md",
+      "profile": "antora",
+      "score": 14653,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/csrf.html",
+      "title": "Testing with CSRF Protection",
+      "anchor": "servlet-test-mockmvc-csrf",
+      "virtual_path": "docs/servlet/test/mockmvc/csrf.md",
+      "profile": "antora",
+      "score": 4389,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/form-login.html",
+      "title": "Testing Form Based Authentication",
+      "anchor": "servlet-test-mockmvc-form-login",
+      "virtual_path": "docs/servlet/test/mockmvc/form-login.md",
+      "profile": "antora",
+      "score": 4810,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/http-basic.html",
+      "title": "Testing HTTP Basic Authentication",
+      "anchor": "servlet-test-mockmvc-http-basic",
+      "virtual_path": "docs/servlet/test/mockmvc/http-basic.md",
+      "profile": "antora",
+      "score": 3370,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/index.html",
+      "title": "Spring MVC Test Integration",
+      "anchor": "servlet-test-mockmvc",
+      "virtual_path": "docs/servlet/test/mockmvc/index.md",
+      "profile": "antora",
+      "score": 2134,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/logout.html",
+      "title": "Testing Logout",
+      "anchor": "servlet-test-mockmvc-logout",
+      "virtual_path": "docs/servlet/test/mockmvc/logout.md",
+      "profile": "antora",
+      "score": 3584,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/oauth2.html",
+      "title": "Testing OAuth 2.0",
+      "anchor": "servlet-test-mockmvc-oauth2",
+      "virtual_path": "docs/servlet/test/mockmvc/oauth2.md",
+      "profile": "antora",
+      "score": 59956,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/request-builders.html",
+      "title": "SecurityMockMvcRequestBuilders",
+      "anchor": "servlet-test-mockmvc-request-builders",
+      "virtual_path": "docs/servlet/test/mockmvc/request-builders.md",
+      "profile": "antora",
+      "score": 3084,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/request-post-processors.html",
+      "title": "SecurityMockMvcRequestPostProcessors",
+      "anchor": "servlet-test-mockmvc-request-post-processors",
+      "virtual_path": "docs/servlet/test/mockmvc/request-post-processors.md",
+      "profile": "antora",
+      "score": 3127,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/result-handlers.html",
+      "title": "SecurityMockMvcResultHandlers",
+      "anchor": "servlet-test-mockmvc-result-handlers",
+      "virtual_path": "docs/servlet/test/mockmvc/result-handlers.md",
+      "profile": "antora",
+      "score": 5165,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/result-matchers.html",
+      "title": "SecurityMockMvcResultMatchers",
+      "anchor": "servlet-test-mockmvc-result-matchers",
+      "virtual_path": "docs/servlet/test/mockmvc/result-matchers.md",
+      "profile": "antora",
+      "score": 9450,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/setup.html",
+      "title": "Setting Up MockMvc and Spring Security",
+      "anchor": "servlet-test-mockmvc-setup",
+      "virtual_path": "docs/servlet/test/mockmvc/setup.md",
+      "profile": "antora",
+      "score": 4425,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-security/reference/whats-new.html",
+      "title": "What’s New in Spring Security 7.1",
+      "anchor": "whats-new",
+      "virtual_path": "docs/whats-new.md",
+      "profile": "antora",
+      "score": 4205,
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,1332 @@
+- title: Home
+  kind: category
+  children:
+  - title: Home
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Preface
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/preface.html
+    anchor: preface
+    virtual_path: docs/preface.md
+  - title: What’s New?
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/whats-new.html
+    anchor: whats-new
+    virtual_path: docs/whats-new.md
+  - title: Overview
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/overview.html
+    anchor: overview
+    virtual_path: docs/overview.md
+  - title: Core Messaging
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/core.html
+    anchor: core
+    virtual_path: docs/core.md
+    children:
+    - title: Message Channels
+      kind: category
+      source_url: https://docs.spring.io/spring-integration/reference/channel.html
+      anchor: channel
+      virtual_path: docs/channel.md
+      children:
+      - title: The MessageChannel Interface
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/channel/interfaces.html
+        anchor: channel-interfaces
+        virtual_path: docs/channel/interfaces.md
+      - title: Message Channel Implementations
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/channel/implementations.html
+        anchor: channel-implementations
+        virtual_path: docs/channel/implementations.md
+      - title: Channel Interceptors
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/channel/interceptors.html
+        anchor: channel-interceptors
+        virtual_path: docs/channel/interceptors.md
+      - title: MessagingTemplate
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/channel/template.html
+        anchor: channel-template
+        virtual_path: docs/channel/template.md
+      - title: Configuring Message Channels
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/channel/configuration.html
+        anchor: channel-configuration
+        virtual_path: docs/channel/configuration.md
+      - title: Special Channels
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/channel/special-channels.html
+        anchor: channel-special-channels
+        virtual_path: docs/channel/special-channels.md
+    - title: Poller
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/polling-consumer.html
+      anchor: polling-consumer
+      virtual_path: docs/polling-consumer.md
+    - title: Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/channel-adapter.html
+      anchor: channel-adapter
+      virtual_path: docs/channel-adapter.md
+    - title: Messaging Bridge
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/bridge.html
+      anchor: bridge
+      virtual_path: docs/bridge.md
+  - title: Message
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/message.html
+    anchor: message
+    virtual_path: docs/message.md
+  - title: Message Routing
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/message-routing.html
+    anchor: message-routing
+    virtual_path: docs/message-routing.md
+    children:
+    - title: Routers
+      kind: category
+      source_url: https://docs.spring.io/spring-integration/reference/router.html
+      anchor: router
+      virtual_path: docs/router.md
+      children:
+      - title: Overview
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/router/overview.html
+        anchor: router-overview
+        virtual_path: docs/router/overview.md
+      - title: Common Router Parameters
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/router/common-parameters.html
+        anchor: router-common-parameters
+        virtual_path: docs/router/common-parameters.md
+      - title: Router Implementations
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/router/implementations.html
+        anchor: router-implementations
+        virtual_path: docs/router/implementations.md
+      - title: Configuring a Generic Router
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/router/namespace.html
+        anchor: router-namespace
+        virtual_path: docs/router/namespace.md
+      - title: Routers and the Spring Expression Language (SpEL)
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/router/spel.html
+        anchor: router-spel
+        virtual_path: docs/router/spel.md
+      - title: Configuring a Router with Annotations
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/router/annotation.html
+        anchor: router-annotation
+        virtual_path: docs/router/annotation.md
+      - title: Dynamic Routers
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/router/dynamic-routers.html
+        anchor: router-dynamic-routers
+        virtual_path: docs/router/dynamic-routers.md
+      - title: Routing Slip
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/router/routing-slip.html
+        anchor: router-routing-slip
+        virtual_path: docs/router/routing-slip.md
+      - title: Process Manager Enterprise Integration Pattern
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/router/process-manager.html
+        anchor: router-process-manager
+        virtual_path: docs/router/process-manager.md
+    - title: Filter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/filter.html
+      anchor: filter
+      virtual_path: docs/filter.md
+    - title: Splitter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/splitter.html
+      anchor: splitter
+      virtual_path: docs/splitter.md
+    - title: Aggregator
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/aggregator.html
+      anchor: aggregator
+      virtual_path: docs/aggregator.md
+    - title: Resequencer
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/resequencer.html
+      anchor: resequencer
+      virtual_path: docs/resequencer.md
+    - title: Message Handler Chain
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/chain.html
+      anchor: chain
+      virtual_path: docs/chain.md
+    - title: Scatter-Gather
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/scatter-gather.html
+      anchor: scatter-gather
+      virtual_path: docs/scatter-gather.md
+    - title: Thread Barrier
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/barrier.html
+      anchor: barrier
+      virtual_path: docs/barrier.md
+  - title: Message Transformation
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/message-transformation.html
+    anchor: message-transformation
+    virtual_path: docs/message-transformation.md
+    children:
+    - title: Transformer
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/transformer.html
+      anchor: transformer
+      virtual_path: docs/transformer.md
+    - title: Content Enricher
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/content-enrichment.html
+      anchor: content-enrichment
+      virtual_path: docs/content-enrichment.md
+    - title: Claim Check
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/claim-check.html
+      anchor: claim-check
+      virtual_path: docs/claim-check.md
+    - title: Codec
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/codec.html
+      anchor: codec
+      virtual_path: docs/codec.md
+  - title: Messaging Endpoints
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/messaging-endpoints.html
+    anchor: messaging-endpoints
+    virtual_path: docs/messaging-endpoints.md
+    children:
+    - title: Message Endpoints
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/endpoint.html
+      anchor: endpoint
+      virtual_path: docs/endpoint.md
+    - title: Endpoint Roles
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/endpoint-roles.html
+      anchor: endpoint-roles
+      virtual_path: docs/endpoint-roles.md
+    - title: Leadership Event Handling
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/leadership-event-handling.html
+      anchor: leadership-event-handling
+      virtual_path: docs/leadership-event-handling.md
+    - title: Messaging Gateways
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/gateway.html
+      anchor: gateway
+      virtual_path: docs/gateway.md
+    - title: Service Activator
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/service-activator.html
+      anchor: service-activator
+      virtual_path: docs/service-activator.md
+    - title: Delayer
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/delayer.html
+      anchor: delayer
+      virtual_path: docs/delayer.md
+    - title: Scripting Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/scripting.html
+      anchor: scripting
+      virtual_path: docs/scripting.md
+    - title: Groovy Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/groovy.html
+      anchor: groovy
+      virtual_path: docs/groovy.md
+    - title: Adding Behavior to Endpoints
+      kind: category
+      source_url: https://docs.spring.io/spring-integration/reference/handler-advice.html
+      anchor: handler-advice
+      virtual_path: docs/handler-advice.md
+      children:
+      - title: Provided Advice Classes
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/classes.html
+        anchor: handler-advice-classes
+        virtual_path: docs/handler-advice/classes.md
+      - title: Reactive Advice
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/reactive.html
+        anchor: handler-advice-reactive
+        virtual_path: docs/handler-advice/reactive.md
+      - title: Context Holder Advice
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/context-holder.html
+        anchor: handler-advice-context-holder
+        virtual_path: docs/handler-advice/context-holder.md
+      - title: Custom Advice Classes
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/custom.html
+        anchor: handler-advice-custom
+        virtual_path: docs/handler-advice/custom.md
+      - title: Other Advice Chain Elements
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/other.html
+        anchor: handler-advice-other
+        virtual_path: docs/handler-advice/other.md
+      - title: Handling Message Advice
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/handle-message.html
+        anchor: handler-advice-handle-message
+        virtual_path: docs/handler-advice/handle-message.md
+      - title: Transaction Support
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/tx-handle-message.html
+        anchor: handler-advice-tx-handle-message
+        virtual_path: docs/handler-advice/tx-handle-message.md
+      - title: Advising Filters
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/advising-filters.html
+        anchor: handler-advice-advising-filters
+        virtual_path: docs/handler-advice/advising-filters.md
+      - title: Advising Endpoints Using Annotations
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/advising-with-annotations.html
+        anchor: handler-advice-advising-with-annotations
+        virtual_path: docs/handler-advice/advising-with-annotations.md
+      - title: Ordering Advices within Advice Chain
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/order.html
+        anchor: handler-advice-order
+        virtual_path: docs/handler-advice/order.md
+      - title: Advised Handler Properties
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/advised-properties.html
+        anchor: handler-advice-advised-properties
+        virtual_path: docs/handler-advice/advised-properties.md
+      - title: Idempotent Receiver Enterprise Integration Pattern
+        kind: link
+        source_url: https://docs.spring.io/spring-integration/reference/handler-advice/idempotent-receiver.html
+        anchor: handler-advice-idempotent-receiver
+        virtual_path: docs/handler-advice/idempotent-receiver.md
+    - title: Logging Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/logging-adapter.html
+      anchor: logging-adapter
+      virtual_path: docs/logging-adapter.md
+    - title: java.util.function Interfaces Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/functions-support.html
+      anchor: functions-support
+      virtual_path: docs/functions-support.md
+    - title: Kotlin Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/kotlin-functions.html
+      anchor: kotlin-functions
+      virtual_path: docs/kotlin-functions.md
+  - title: Java DSL
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/dsl.html
+    anchor: dsl
+    virtual_path: docs/dsl.md
+    children:
+    - title: DSL Basics
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-basics.html
+      anchor: dsl-java-basics
+      virtual_path: docs/dsl/java-basics.md
+    - title: Message Channels
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-channels.html
+      anchor: dsl-java-channels
+      virtual_path: docs/dsl/java-channels.md
+    - title: Pollers
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-pollers.html
+      anchor: dsl-java-pollers
+      virtual_path: docs/dsl/java-pollers.md
+    - title: The reactive() Endpoint
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-reactive.html
+      anchor: dsl-java-reactive
+      virtual_path: docs/dsl/java-reactive.md
+    - title: DSL and Endpoint Configuration
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-endpoints.html
+      anchor: dsl-java-endpoints
+      virtual_path: docs/dsl/java-endpoints.md
+    - title: Transformers
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-transformers.html
+      anchor: dsl-java-transformers
+      virtual_path: docs/dsl/java-transformers.md
+    - title: Inbound Channel Adapters
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-inbound-adapters.html
+      anchor: dsl-java-inbound-adapters
+      virtual_path: docs/dsl/java-inbound-adapters.md
+    - title: Message Routers
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-routers.html
+      anchor: dsl-java-routers
+      virtual_path: docs/dsl/java-routers.md
+    - title: Splitters
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-splitters.html
+      anchor: dsl-java-splitters
+      virtual_path: docs/dsl/java-splitters.md
+    - title: Aggregators and Resequencers
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-aggregators.html
+      anchor: dsl-java-aggregators
+      virtual_path: docs/dsl/java-aggregators.md
+    - title: Service Activators and the .handle() method
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-handle.html
+      anchor: dsl-java-handle
+      virtual_path: docs/dsl/java-handle.md
+    - title: Operator gateway()
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-gateway.html
+      anchor: dsl-java-gateway
+      virtual_path: docs/dsl/java-gateway.md
+    - title: Operator log()
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-log.html
+      anchor: dsl-java-log
+      virtual_path: docs/dsl/java-log.md
+    - title: Operator intercept()
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-intercept.html
+      anchor: dsl-java-intercept
+      virtual_path: docs/dsl/java-intercept.md
+    - title: MessageChannelSpec.wireTap()
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-wiretap.html
+      anchor: dsl-java-wiretap
+      virtual_path: docs/dsl/java-wiretap.md
+    - title: Working With Message Flows
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-flows.html
+      anchor: dsl-java-flows
+      virtual_path: docs/dsl/java-flows.md
+    - title: FunctionExpression
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-function-expression.html
+      anchor: dsl-java-function-expression
+      virtual_path: docs/dsl/java-function-expression.md
+    - title: Sub-flows support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-subflows.html
+      anchor: dsl-java-subflows
+      virtual_path: docs/dsl/java-subflows.md
+    - title: Using Protocol Adapters
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-protocol-adapters.html
+      anchor: dsl-java-protocol-adapters
+      virtual_path: docs/dsl/java-protocol-adapters.md
+    - title: IntegrationFlowAdapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-flow-adapter.html
+      anchor: dsl-java-flow-adapter
+      virtual_path: docs/dsl/java-flow-adapter.md
+    - title: Dynamic and Runtime Integration Flows
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-runtime-flows.html
+      anchor: dsl-java-runtime-flows
+      virtual_path: docs/dsl/java-runtime-flows.md
+    - title: IntegrationFlow as a Gateway
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/integration-flow-as-gateway.html
+      anchor: dsl-integration-flow-as-gateway
+      virtual_path: docs/dsl/integration-flow-as-gateway.md
+    - title: DSL Extensions
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/java-extensions.html
+      anchor: dsl-java-extensions
+      virtual_path: docs/dsl/java-extensions.md
+    - title: Integration Flows Composition
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/dsl/integration-flows-composition.html
+      anchor: dsl-integration-flows-composition
+      virtual_path: docs/dsl/integration-flows-composition.md
+  - title: Groovy DSL
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/groovy-dsl.html
+    anchor: groovy-dsl
+    virtual_path: docs/groovy-dsl.md
+  - title: Kotlin DSL
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/kotlin-dsl.html
+    anchor: kotlin-dsl
+    virtual_path: docs/kotlin-dsl.md
+  - title: System Management
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/system-management.html
+    anchor: system-management
+    virtual_path: docs/system-management.md
+    children:
+    - title: Metrics and Management
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/metrics.html
+      anchor: metrics
+      virtual_path: docs/metrics.md
+    - title: Message History
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/message-history.html
+      anchor: message-history
+      virtual_path: docs/message-history.md
+    - title: Message Store
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/message-store.html
+      anchor: message-store
+      virtual_path: docs/message-store.md
+    - title: Metadata Store
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/meta-data-store.html
+      anchor: meta-data-store
+      virtual_path: docs/meta-data-store.md
+    - title: Distributed Locks
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/distributed-locks.html
+      anchor: distributed-locks
+      virtual_path: docs/distributed-locks.md
+    - title: Control Bus
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/control-bus.html
+      anchor: control-bus
+      virtual_path: docs/control-bus.md
+    - title: Orderly Shutdown
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/shutdown.html
+      anchor: shutdown
+      virtual_path: docs/shutdown.md
+    - title: Integration Graph
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/graph.html
+      anchor: graph
+      virtual_path: docs/graph.md
+    - title: Integration Graph Controller
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/integration-graph-controller.html
+      anchor: integration-graph-controller
+      virtual_path: docs/integration-graph-controller.md
+  - title: Reactive Streams Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/reactive-streams.html
+    anchor: reactive-streams
+    virtual_path: docs/reactive-streams.md
+  - title: Native Images Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/native-aot.html
+    anchor: native-aot
+    virtual_path: docs/native-aot.md
+  - title: Integration Endpoints
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/endpoint-summary.html
+    anchor: endpoint-summary
+    virtual_path: docs/endpoint-summary.md
+  - title: AMQP Support
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/amqp.html
+    anchor: amqp
+    virtual_path: docs/amqp.md
+    children:
+    - title: Inbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/inbound-channel-adapter.html
+      anchor: amqp-inbound-channel-adapter
+      virtual_path: docs/amqp/inbound-channel-adapter.md
+    - title: Polled Inbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/polled-inbound-channel-adapter.html
+      anchor: amqp-polled-inbound-channel-adapter
+      virtual_path: docs/amqp/polled-inbound-channel-adapter.md
+    - title: Inbound Gateway
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/inbound-gateway.html
+      anchor: amqp-inbound-gateway
+      virtual_path: docs/amqp/inbound-gateway.md
+    - title: Inbound Endpoint Acknowledge Mode
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/inbound-ack.html
+      anchor: amqp-inbound-ack
+      virtual_path: docs/amqp/inbound-ack.md
+    - title: Outbound Endpoints
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/outbound-endpoints.html
+      anchor: amqp-outbound-endpoints
+      virtual_path: docs/amqp/outbound-endpoints.md
+    - title: Outbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/outbound-channel-adapter.html
+      anchor: amqp-outbound-channel-adapter
+      virtual_path: docs/amqp/outbound-channel-adapter.md
+    - title: Outbound Gateway
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/outbound-gateway.html
+      anchor: amqp-outbound-gateway
+      virtual_path: docs/amqp/outbound-gateway.md
+    - title: Asynchronous Outbound Gateway
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/async-outbound-gateway.html
+      anchor: amqp-async-outbound-gateway
+      virtual_path: docs/amqp/async-outbound-gateway.md
+    - title: Alternative Mechanism for Publisher Confirms and Returns
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/alternative-confirms-returns.html
+      anchor: amqp-alternative-confirms-returns
+      virtual_path: docs/amqp/alternative-confirms-returns.md
+    - title: Inbound Message Conversion
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/conversion-inbound.html
+      anchor: amqp-conversion-inbound
+      virtual_path: docs/amqp/conversion-inbound.md
+    - title: Outbound Message Conversion
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/content-type-conversion-outbound.html
+      anchor: amqp-content-type-conversion-outbound
+      virtual_path: docs/amqp/content-type-conversion-outbound.md
+    - title: Outbound User ID
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/user-id.html
+      anchor: amqp-user-id
+      virtual_path: docs/amqp/user-id.md
+    - title: Delayed Message Exchange
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/delay.html
+      anchor: amqp-delay
+      virtual_path: docs/amqp/delay.md
+    - title: AMQP-backed Message Channels
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/channels.html
+      anchor: amqp-channels
+      virtual_path: docs/amqp/channels.md
+    - title: AMQP Message Headers
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/message-headers.html
+      anchor: amqp-message-headers
+      virtual_path: docs/amqp/message-headers.md
+    - title: Strict Message Ordering
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/strict-ordering.html
+      anchor: amqp-strict-ordering
+      virtual_path: docs/amqp/strict-ordering.md
+    - title: AMQP Samples
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/samples.html
+      anchor: amqp-samples
+      virtual_path: docs/amqp/samples.md
+    - title: RabbitMQ Stream Queue Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/rmq-streams.html
+      anchor: amqp-rmq-streams
+      virtual_path: docs/amqp/rmq-streams.md
+    - title: AMQP 1.0 Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/amqp/amqp-1.0.html
+      anchor: amqp-amqp-1.0
+      virtual_path: docs/amqp/amqp-1.0.md
+  - title: Apache Camel Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/camel.html
+    anchor: camel
+    virtual_path: docs/camel.md
+  - title: Apache Cassandra Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/cassandra.html
+    anchor: cassandra
+    virtual_path: docs/cassandra.md
+  - title: CloudEvents Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/cloudevents.html
+    anchor: cloudevents
+    virtual_path: docs/cloudevents.md
+  - title: Debezium Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/debezium.html
+    anchor: debezium
+    virtual_path: docs/debezium.md
+  - title: Spring ApplicationEvent Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/event.html
+    anchor: event
+    virtual_path: docs/event.md
+  - title: Feed Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/feed.html
+    anchor: feed
+    virtual_path: docs/feed.md
+  - title: File Support
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/file.html
+    anchor: file
+    virtual_path: docs/file.md
+    children:
+    - title: Reading Files
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/file/reading.html
+      anchor: file-reading
+      virtual_path: docs/file/reading.md
+    - title: Writing files
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/file/writing.html
+      anchor: file-writing
+      virtual_path: docs/file/writing.md
+    - title: File Transformers
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/file/transforming.html
+      anchor: file-transforming
+      virtual_path: docs/file/transforming.md
+    - title: File Splitter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/file/splitter.html
+      anchor: file-splitter
+      virtual_path: docs/file/splitter.md
+    - title: File Aggregator
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/file/aggregator.html
+      anchor: file-aggregator
+      virtual_path: docs/file/aggregator.md
+    - title: Remote Persistent File List Filters
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/file/remote-persistent-flf.html
+      anchor: file-remote-persistent-flf
+      virtual_path: docs/file/remote-persistent-flf.md
+  - title: FTP/FTPS Support
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/ftp.html
+    anchor: ftp
+    virtual_path: docs/ftp.md
+    children:
+    - title: FTP Session Factory
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/session-factory.html
+      anchor: ftp-session-factory
+      virtual_path: docs/ftp/session-factory.md
+    - title: Advanced Configuration
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/advanced-configuration.html
+      anchor: ftp-advanced-configuration
+      virtual_path: docs/ftp/advanced-configuration.md
+    - title: Delegating Session Factory
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/dsf.html
+      anchor: ftp-dsf
+      virtual_path: docs/ftp/dsf.md
+    - title: FTP Inbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/inbound.html
+      anchor: ftp-inbound
+      virtual_path: docs/ftp/inbound.md
+    - title: FTP Streaming Inbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/streaming.html
+      anchor: ftp-streaming
+      virtual_path: docs/ftp/streaming.md
+    - title: 'Inbound Channel Adapters: Polling Multiple Servers and Directories'
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/rotating-server-advice.html
+      anchor: ftp-rotating-server-advice
+      virtual_path: docs/ftp/rotating-server-advice.md
+    - title: 'Inbound Channel Adapters: Controlling Remote File Fetching'
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/max-fetch.html
+      anchor: ftp-max-fetch
+      virtual_path: docs/ftp/max-fetch.md
+    - title: FTP Outbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/outbound.html
+      anchor: ftp-outbound
+      virtual_path: docs/ftp/outbound.md
+    - title: FTP Outbound Gateway
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/outbound-gateway.html
+      anchor: ftp-outbound-gateway
+      virtual_path: docs/ftp/outbound-gateway.md
+    - title: FTP Session Caching
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/session-caching.html
+      anchor: ftp-session-caching
+      virtual_path: docs/ftp/session-caching.md
+    - title: Using RemoteFileTemplate
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/rft.html
+      anchor: ftp-rft
+      virtual_path: docs/ftp/rft.md
+    - title: Using MessageSessionCallback
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/session-callback.html
+      anchor: ftp-session-callback
+      virtual_path: docs/ftp/session-callback.md
+    - title: Apache Mina FTP Server Events
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/server-events.html
+      anchor: ftp-server-events
+      virtual_path: docs/ftp/server-events.md
+    - title: Remote File Information
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ftp/remote-file-info.html
+      anchor: ftp-remote-file-info
+      virtual_path: docs/ftp/remote-file-info.md
+  - title: GraphQL Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/graphql.html
+    anchor: graphql
+    virtual_path: docs/graphql.md
+  - title: gRPC Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/grpc.html
+    anchor: grpc
+    virtual_path: docs/grpc.md
+  - title: Hazelcast Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/hazelcast.html
+    anchor: hazelcast
+    virtual_path: docs/hazelcast.md
+  - title: HTTP Support
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/http.html
+    anchor: http
+    virtual_path: docs/http.md
+    children:
+    - title: Http Inbound Components
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/http/inbound.html
+      anchor: http-inbound
+      virtual_path: docs/http/inbound.md
+    - title: HTTP Outbound Components
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/http/outbound.html
+      anchor: http-outbound
+      virtual_path: docs/http/outbound.md
+    - title: HTTP Namespace Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/http/namespace.html
+      anchor: http-namespace
+      virtual_path: docs/http/namespace.md
+    - title: Configuring HTTP Endpoints with Java
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/http/java-config.html
+      anchor: http-java-config
+      virtual_path: docs/http/java-config.md
+    - title: Timeout Handling
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/http/timeout.html
+      anchor: http-timeout
+      virtual_path: docs/http/timeout.md
+    - title: HTTP Proxy configuration
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/http/proxy.html
+      anchor: http-proxy
+      virtual_path: docs/http/proxy.md
+    - title: HTTP Header Mappings
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/http/header-mapping.html
+      anchor: http-header-mapping
+      virtual_path: docs/http/header-mapping.md
+    - title: Integration Graph Controller
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/http/int-graph-controller.html
+      anchor: http-int-graph-controller
+      virtual_path: docs/http/int-graph-controller.md
+    - title: Control Bus Controller
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/http/control-bus-controller.html
+      anchor: http-control-bus-controller
+      virtual_path: docs/http/control-bus-controller.md
+    - title: HTTP Samples
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/http/samples.html
+      anchor: http-samples
+      virtual_path: docs/http/samples.md
+  - title: TCP and UDP Support
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/ip.html
+    anchor: ip
+    virtual_path: docs/ip.md
+    children:
+    - title: Introduction
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/intro.html
+      anchor: ip-intro
+      virtual_path: docs/ip/intro.md
+    - title: UDP Adapters
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/udp-adapters.html
+      anchor: ip-udp-adapters
+      virtual_path: docs/ip/udp-adapters.md
+    - title: TCP Connection Factories
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/tcp-connection-factories.html
+      anchor: ip-tcp-connection-factories
+      virtual_path: docs/ip/tcp-connection-factories.md
+    - title: Testing Connections
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/testing-connections.html
+      anchor: ip-testing-connections
+      virtual_path: docs/ip/testing-connections.md
+    - title: TCP Connection Interceptors
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/interceptors.html
+      anchor: ip-interceptors
+      virtual_path: docs/ip/interceptors.md
+    - title: TCP Connection Events
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/tcp-events.html
+      anchor: ip-tcp-events
+      virtual_path: docs/ip/tcp-events.md
+    - title: TCP Adapters
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/tcp-adapters.html
+      anchor: ip-tcp-adapters
+      virtual_path: docs/ip/tcp-adapters.md
+    - title: TCP Gateways
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/tcp-gateways.html
+      anchor: ip-tcp-gateways
+      virtual_path: docs/ip/tcp-gateways.md
+    - title: TCP Message Correlation
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/correlation.html
+      anchor: ip-correlation
+      virtual_path: docs/ip/correlation.md
+    - title: About Non-blocking I/O (NIO)
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/note-nio.html
+      anchor: ip-note-nio
+      virtual_path: docs/ip/note-nio.md
+    - title: SSL/TLS Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/ssl-tls.html
+      anchor: ip-ssl-tls
+      virtual_path: docs/ip/ssl-tls.md
+    - title: Advanced Techniques
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/tcp-advanced-techniques.html
+      anchor: ip-tcp-advanced-techniques
+      virtual_path: docs/ip/tcp-advanced-techniques.md
+    - title: IP Configuration Attributes
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/endpoint-reference.html
+      anchor: ip-endpoint-reference
+      virtual_path: docs/ip/endpoint-reference.md
+    - title: IP Message Headers
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/msg-headers.html
+      anchor: ip-msg-headers
+      virtual_path: docs/ip/msg-headers.md
+    - title: Annotation-Based Configuration
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/annotation.html
+      anchor: ip-annotation
+      virtual_path: docs/ip/annotation.md
+    - title: Using the Java DSL for TCP Components
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/ip/dsl.html
+      anchor: ip-dsl
+      virtual_path: docs/ip/dsl.md
+  - title: JDBC Support
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/jdbc.html
+    anchor: jdbc
+    virtual_path: docs/jdbc.md
+    children:
+    - title: Inbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jdbc/inbound-channel-adapter.html
+      anchor: jdbc-inbound-channel-adapter
+      virtual_path: docs/jdbc/inbound-channel-adapter.md
+    - title: Outbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jdbc/outbound-channel-adapter.html
+      anchor: jdbc-outbound-channel-adapter
+      virtual_path: docs/jdbc/outbound-channel-adapter.md
+    - title: Outbound Gateway
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jdbc/outbound-gateway.html
+      anchor: jdbc-outbound-gateway
+      virtual_path: docs/jdbc/outbound-gateway.md
+    - title: JDBC Message Store
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jdbc/message-store.html
+      anchor: jdbc-message-store
+      virtual_path: docs/jdbc/message-store.md
+    - title: JDBC Channel Message Store JSON Serialization
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jdbc/message-store-json.html
+      anchor: jdbc-message-store-json
+      virtual_path: docs/jdbc/message-store-json.md
+    - title: Stored Procedures
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jdbc/stored-procedures.html
+      anchor: jdbc-stored-procedures
+      virtual_path: docs/jdbc/stored-procedures.md
+    - title: Java DSL for JDBC Components
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jdbc/dsl.html
+      anchor: jdbc-dsl
+      virtual_path: docs/jdbc/dsl.md
+    - title: JDBC Lock Registry
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jdbc/lock-registry.html
+      anchor: jdbc-lock-registry
+      virtual_path: docs/jdbc/lock-registry.md
+    - title: JDBC Metadata Store
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jdbc/metadata-store.html
+      anchor: jdbc-metadata-store
+      virtual_path: docs/jdbc/metadata-store.md
+  - title: JPA Support
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/jpa.html
+    anchor: jpa
+    virtual_path: docs/jpa.md
+    children:
+    - title: Functionality
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jpa/functionality.html
+      anchor: jpa-functionality
+      virtual_path: docs/jpa/functionality.md
+    - title: Supported Persistence Providers
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jpa/supported-persistence-providers.html
+      anchor: jpa-supported-persistence-providers
+      virtual_path: docs/jpa/supported-persistence-providers.md
+    - title: Java Implementation
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jpa/java-implementation.html
+      anchor: jpa-java-implementation
+      virtual_path: docs/jpa/java-implementation.md
+    - title: Namespace Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jpa/namespace-support.html
+      anchor: jpa-namespace-support
+      virtual_path: docs/jpa/namespace-support.md
+    - title: Inbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jpa/inbound-channel-adapter.html
+      anchor: jpa-inbound-channel-adapter
+      virtual_path: docs/jpa/inbound-channel-adapter.md
+    - title: Outbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jpa/outbound-channel-adapter.html
+      anchor: jpa-outbound-channel-adapter
+      virtual_path: docs/jpa/outbound-channel-adapter.md
+    - title: Outbound Gateways
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/jpa/outbound-gateways.html
+      anchor: jpa-outbound-gateways
+      virtual_path: docs/jpa/outbound-gateways.md
+  - title: JMS Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/jms.html
+    anchor: jms
+    virtual_path: docs/jms.md
+  - title: JMX Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/jmx.html
+    anchor: jmx
+    virtual_path: docs/jmx.md
+  - title: Apache Kafka Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/kafka.html
+    anchor: kafka
+    virtual_path: docs/kafka.md
+  - title: Mail Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/mail.html
+    anchor: mail
+    virtual_path: docs/mail.md
+  - title: MongoDb Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/mongodb.html
+    anchor: mongodb
+    virtual_path: docs/mongodb.md
+  - title: MQTT Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/mqtt.html
+    anchor: mqtt
+    virtual_path: docs/mqtt.md
+  - title: R2DBC Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/r2dbc.html
+    anchor: r2dbc
+    virtual_path: docs/r2dbc.md
+  - title: Redis Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/redis.html
+    anchor: redis
+    virtual_path: docs/redis.md
+  - title: Resource Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/resource.html
+    anchor: resource
+    virtual_path: docs/resource.md
+  - title: RSocket Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/rsocket.html
+    anchor: rsocket
+    virtual_path: docs/rsocket.md
+  - title: SFTP Support
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/sftp.html
+    anchor: sftp
+    virtual_path: docs/sftp.md
+    children:
+    - title: SFTP Session Factory
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/session-factory.html
+      anchor: sftp-session-factory
+      virtual_path: docs/sftp/session-factory.md
+    - title: Delegating Session Factory
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/dsf.html
+      anchor: sftp-dsf
+      virtual_path: docs/sftp/dsf.md
+    - title: SFTP Session Caching
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/session-caching.html
+      anchor: sftp-session-caching
+      virtual_path: docs/sftp/session-caching.md
+    - title: Using RemoteFileTemplate
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/rft.html
+      anchor: sftp-rft
+      virtual_path: docs/sftp/rft.md
+    - title: SFTP Inbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/inbound.html
+      anchor: sftp-inbound
+      virtual_path: docs/sftp/inbound.md
+    - title: SFTP Streaming Inbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/streaming.html
+      anchor: sftp-streaming
+      virtual_path: docs/sftp/streaming.md
+    - title: 'Inbound Channel Adapters: Polling Multiple Servers and Directories'
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/rotating-server-advice.html
+      anchor: sftp-rotating-server-advice
+      virtual_path: docs/sftp/rotating-server-advice.md
+    - title: 'Inbound Channel Adapters: Controlling Remote File Fetching'
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/max-fetch.html
+      anchor: sftp-max-fetch
+      virtual_path: docs/sftp/max-fetch.md
+    - title: SFTP Outbound Channel Adapter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/outbound.html
+      anchor: sftp-outbound
+      virtual_path: docs/sftp/outbound.md
+    - title: SFTP Outbound Gateway
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/outbound-gateway.html
+      anchor: sftp-outbound-gateway
+      virtual_path: docs/sftp/outbound-gateway.md
+    - title: MessageSessionCallback
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/session-callback.html
+      anchor: sftp-session-callback
+      virtual_path: docs/sftp/session-callback.md
+    - title: Apache Mina SFTP Server Events
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/server-events.html
+      anchor: sftp-server-events
+      virtual_path: docs/sftp/server-events.md
+    - title: Remote File Information
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/sftp/remote-file-info.html
+      anchor: sftp-remote-file-info
+      virtual_path: docs/sftp/remote-file-info.md
+  - title: SMB Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/smb.html
+    anchor: smb
+    virtual_path: docs/smb.md
+  - title: STOMP Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/stomp.html
+    anchor: stomp
+    virtual_path: docs/stomp.md
+  - title: Stream Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/stream.html
+    anchor: stream
+    virtual_path: docs/stream.md
+  - title: Syslog Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/syslog.html
+    anchor: syslog
+    virtual_path: docs/syslog.md
+  - title: WebFlux Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/webflux.html
+    anchor: webflux
+    virtual_path: docs/webflux.md
+  - title: WebSockets Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/web-sockets.html
+    anchor: web-sockets
+    virtual_path: docs/web-sockets.md
+  - title: Web Services Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/ws.html
+    anchor: ws
+    virtual_path: docs/ws.md
+  - title: XML Support - Dealing with XML Payloads
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/xml.html
+    anchor: xml
+    virtual_path: docs/xml.md
+    children:
+    - title: Namespace Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/xml/xpath-namespace-support.html
+      anchor: xml-xpath-namespace-support
+      virtual_path: docs/xml/xpath-namespace-support.md
+    - title: Transforming XML Payloads
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/xml/transformation.html
+      anchor: xml-transformation
+      virtual_path: docs/xml/transformation.md
+    - title: Transforming XML Messages with XPath
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/xml/xpath-transformer.html
+      anchor: xml-xpath-transformer
+      virtual_path: docs/xml/xpath-transformer.md
+    - title: Splitting XML Messages
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/xml/xpath-splitting.html
+      anchor: xml-xpath-splitting
+      virtual_path: docs/xml/xpath-splitting.md
+    - title: Routing XML Messages with XPath
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/xml/xpath-routing.html
+      anchor: xml-xpath-routing
+      virtual_path: docs/xml/xpath-routing.md
+    - title: XPath Header Enricher
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/xml/xpath-header-enricher.html
+      anchor: xml-xpath-header-enricher
+      virtual_path: docs/xml/xpath-header-enricher.md
+    - title: Using the XPath Filter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/xml/xpath-filter.html
+      anchor: xml-xpath-filter
+      virtual_path: docs/xml/xpath-filter.md
+    - title: '#xpath SpEL Function'
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/xml/xpath-spel-function.html
+      anchor: xml-xpath-spel-function
+      virtual_path: docs/xml/xpath-spel-function.md
+    - title: XML Validating Filter
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/xml/validating-filter.html
+      anchor: xml-validating-filter
+      virtual_path: docs/xml/validating-filter.md
+  - title: XMPP Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/xmpp.html
+    anchor: xmpp
+    virtual_path: docs/xmpp.md
+  - title: ZeroMQ Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/zeromq.html
+    anchor: zeromq
+    virtual_path: docs/zeromq.md
+  - title: Zip Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/zip.html
+    anchor: zip
+    virtual_path: docs/zip.md
+  - title: Zookeeper Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/zookeeper.html
+    anchor: zookeeper
+    virtual_path: docs/zookeeper.md
+  - title: Error Handling
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/error-handling.html
+    anchor: error-handling
+    virtual_path: docs/error-handling.md
+  - title: Spring Expression Language (SpEL)
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/spel.html
+    anchor: spel
+    virtual_path: docs/spel.md
+  - title: Message Publishing
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/message-publishing.html
+    anchor: message-publishing
+    virtual_path: docs/message-publishing.md
+  - title: Transaction Support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/transactions.html
+    anchor: transactions
+    virtual_path: docs/transactions.md
+  - title: Security in Spring Integration
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/security.html
+    anchor: security
+    virtual_path: docs/security.md
+  - title: Configuration
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/configuration.html
+    anchor: configuration
+    virtual_path: docs/configuration.md
+    children:
+    - title: Namespace Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/configuration/namespace.html
+      anchor: configuration-namespace
+      virtual_path: docs/configuration/namespace.md
+    - title: Configuring the Task Scheduler
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/configuration/namespace-taskscheduler.html
+      anchor: configuration-namespace-taskscheduler
+      virtual_path: docs/configuration/namespace-taskscheduler.md
+    - title: Global Properties
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/configuration/global-properties.html
+      anchor: configuration-global-properties
+      virtual_path: docs/configuration/global-properties.md
+    - title: Annotation Support
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/configuration/annotations.html
+      anchor: configuration-annotations
+      virtual_path: docs/configuration/annotations.md
+    - title: Messaging Meta-Annotations
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/configuration/meta-annotations.html
+      anchor: configuration-meta-annotations
+      virtual_path: docs/configuration/meta-annotations.md
+    - title: Message Mapping Rules and Conventions
+      kind: link
+      source_url: https://docs.spring.io/spring-integration/reference/configuration/message-mapping-rules.html
+      anchor: configuration-message-mapping-rules
+      virtual_path: docs/configuration/message-mapping-rules.md
+  - title: Testing support
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/testing.html
+    anchor: testing
+    virtual_path: docs/testing.md
+  - title: Spring Integration Samples
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/samples.html
+    anchor: samples
+    virtual_path: docs/samples.md
+  - title: Additional Resources
+    kind: link
+    source_url: https://docs.spring.io/spring-integration/reference/resources.html
+    anchor: resources
+    virtual_path: docs/resources.md
+  - title: Change History
+    kind: category
+    source_url: https://docs.spring.io/spring-integration/reference/history.html
+    anchor: history
+    virtual_path: docs/history.md

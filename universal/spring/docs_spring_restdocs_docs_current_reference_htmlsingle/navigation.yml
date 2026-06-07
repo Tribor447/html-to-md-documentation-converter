@@ -1,0 +1,439 @@
+- title: Introduction
+  kind: heading
+  source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#introduction
+  anchor: index--introduction
+  virtual_path: docs/index.md
+- title: Getting started
+  kind: heading
+  source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started
+  anchor: index--getting-started
+  virtual_path: docs/index.md
+  children:
+  - title: Sample Applications
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started-sample-applications
+    anchor: index--getting-started-sample-applications
+    virtual_path: docs/index.md
+  - title: Requirements
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started-requirements
+    anchor: index--getting-started-requirements
+    virtual_path: docs/index.md
+  - title: Build configuration
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started-build-configuration
+    anchor: index--getting-started-build-configuration
+    virtual_path: docs/index.md
+    children:
+    - title: Packaging the Documentation
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started-build-configuration-packaging-the-documentation
+      anchor: index--getting-started-build-configuration-packaging-the-documentation
+      virtual_path: docs/index.md
+  - title: Generating Documentation Snippets
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started-documentation-snippets
+    anchor: index--getting-started-documentation-snippets
+    virtual_path: docs/index.md
+    children:
+    - title: Setting up Your Tests
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started-documentation-snippets-setup
+      anchor: index--getting-started-documentation-snippets-setup
+      virtual_path: docs/index.md
+      children:
+      - title: Setting up Your JUnit 5 Tests
+        kind: heading
+        source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started-documentation-snippets-setup-junit-5
+        anchor: index--getting-started-documentation-snippets-setup-junit-5
+        virtual_path: docs/index.md
+      - title: Setting up Your JUnit 4 Tests
+        kind: heading
+        source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started-documentation-snippets-setup-junit
+        anchor: index--getting-started-documentation-snippets-setup-junit
+        virtual_path: docs/index.md
+      - title: Setting up your tests without JUnit
+        kind: heading
+        source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started-documentation-snippets-setup-manual
+        anchor: index--getting-started-documentation-snippets-setup-manual
+        virtual_path: docs/index.md
+    - title: Invoking the RESTful Service
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started-documentation-snippets-invoking-the-service
+      anchor: index--getting-started-documentation-snippets-invoking-the-service
+      virtual_path: docs/index.md
+  - title: Using the Snippets
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#getting-started-using-the-snippets
+    anchor: index--getting-started-using-the-snippets
+    virtual_path: docs/index.md
+- title: Documenting your API
+  kind: heading
+  source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api
+  anchor: index--documenting-your-api
+  virtual_path: docs/index.md
+  children:
+  - title: Hypermedia
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-hypermedia
+    anchor: index--documenting-your-api-hypermedia
+    virtual_path: docs/index.md
+    children:
+    - title: Hypermedia Link Formats
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-hypermedia-link-formats
+      anchor: index--documenting-your-api-hypermedia-link-formats
+      virtual_path: docs/index.md
+    - title: Ignoring Common Links
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-hypermedia-ignoring-common-links
+      anchor: index--documenting-your-api-hypermedia-ignoring-common-links
+      virtual_path: docs/index.md
+  - title: Request and Response Payloads
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads
+    anchor: index--documenting-your-api-request-response-payloads
+    virtual_path: docs/index.md
+    children:
+    - title: Request and Response Fields
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads-fields
+      anchor: index--documenting-your-api-request-response-payloads-fields
+      virtual_path: docs/index.md
+      children:
+      - title: Fields in JSON Payloads
+        kind: heading
+        source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads-fields-json
+        anchor: index--documenting-your-api-request-response-payloads-fields-json
+        virtual_path: docs/index.md
+        children:
+        - title: JSON Field Paths
+          kind: heading
+          source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads-fields-json-field-paths
+          anchor: index--documenting-your-api-request-response-payloads-fields-json-field-paths
+          virtual_path: docs/index.md
+        - title: JSON Field Types
+          kind: heading
+          source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads-fields-json-field-types
+          anchor: index--documenting-your-api-request-response-payloads-fields-json-field-types
+          virtual_path: docs/index.md
+      - title: XML payloads
+        kind: heading
+        source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads-fields-xml
+        anchor: index--documenting-your-api-request-response-payloads-fields-xml
+        virtual_path: docs/index.md
+        children:
+        - title: XML Field Paths
+          kind: heading
+          source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads-fields-xml-field-paths
+          anchor: index--documenting-your-api-request-response-payloads-fields-xml-field-paths
+          virtual_path: docs/index.md
+        - title: XML Field Types
+          kind: heading
+          source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads-fields-xml-field-types
+          anchor: index--documenting-your-api-request-response-payloads-fields-xml-field-types
+          virtual_path: docs/index.md
+      - title: Reusing Field Descriptors
+        kind: heading
+        source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads-fields-reusing-field-descriptors
+        anchor: index--documenting-your-api-request-response-payloads-fields-reusing-field-descriptors
+        virtual_path: docs/index.md
+    - title: Documenting a Subsection of a Request or Response Payload
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads-subsections
+      anchor: index--documenting-your-api-request-response-payloads-subsections
+      virtual_path: docs/index.md
+      children:
+      - title: Documenting a Subsection of a Request or Response Body
+        kind: heading
+        source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads-subsections-body
+        anchor: index--documenting-your-api-request-response-payloads-subsections-body
+        virtual_path: docs/index.md
+      - title: Documenting the Fields of a Subsection of a Request or Response
+        kind: heading
+        source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-response-payloads-subsections-fields
+        anchor: index--documenting-your-api-request-response-payloads-subsections-fields
+        virtual_path: docs/index.md
+  - title: Query Parameters
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-query-parameters
+    anchor: index--documenting-your-api-query-parameters
+    virtual_path: docs/index.md
+  - title: Form Parameters
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-form-parameters
+    anchor: index--documenting-your-api-form-parameters
+    virtual_path: docs/index.md
+  - title: Path Parameters
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-path-parameters
+    anchor: index--documenting-your-api-path-parameters
+    virtual_path: docs/index.md
+  - title: Request Parts
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-parts
+    anchor: index--documenting-your-api-request-parts
+    virtual_path: docs/index.md
+  - title: Request Part Payloads
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-parts-payloads
+    anchor: index--documenting-your-api-request-parts-payloads
+    virtual_path: docs/index.md
+    children:
+    - title: Documenting a Request Part’s Body
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-parts-payloads-body
+      anchor: index--documenting-your-api-request-parts-payloads-body
+      virtual_path: docs/index.md
+    - title: Documenting a Request Part’s Fields
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-request-parts-payloads-fields
+      anchor: index--documenting-your-api-request-parts-payloads-fields
+      virtual_path: docs/index.md
+  - title: HTTP Headers
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-http-headers
+    anchor: index--documenting-your-api-http-headers
+    virtual_path: docs/index.md
+  - title: HTTP Cookies
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-http-cookies
+    anchor: index--documenting-your-api-http-cookies
+    virtual_path: docs/index.md
+  - title: Reusing Snippets
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-reusing-snippets
+    anchor: index--documenting-your-api-reusing-snippets
+    virtual_path: docs/index.md
+  - title: Documenting Constraints
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-constraints
+    anchor: index--documenting-your-api-constraints
+    virtual_path: docs/index.md
+    children:
+    - title: Finding Constraints
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-constraints-finding
+      anchor: index--documenting-your-api-constraints-finding
+      virtual_path: docs/index.md
+    - title: Describing Constraints
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-constraints-describing
+      anchor: index--documenting-your-api-constraints-describing
+      virtual_path: docs/index.md
+    - title: Using Constraint Descriptions in Generated Snippets
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#_using_constraint_descriptions_in_generated_snippets
+      anchor: index--_using_constraint_descriptions_in_generated_snippets
+      virtual_path: docs/index.md
+  - title: Default Snippets
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-default-snippets
+    anchor: index--documenting-your-api-default-snippets
+    virtual_path: docs/index.md
+  - title: Using Parameterized Output Directories
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documentating-your-api-parameterized-output-directories
+    anchor: index--documentating-your-api-parameterized-output-directories
+    virtual_path: docs/index.md
+  - title: Customizing the Output
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-customizing
+    anchor: index--documenting-your-api-customizing
+    virtual_path: docs/index.md
+    children:
+    - title: Customizing the Generated Snippets
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-customizing-snippets
+      anchor: index--documenting-your-api-customizing-snippets
+      virtual_path: docs/index.md
+    - title: Including Extra Information
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#documenting-your-api-customizing-including-extra-information
+      anchor: index--documenting-your-api-customizing-including-extra-information
+      virtual_path: docs/index.md
+- title: Customizing requests and responses
+  kind: heading
+  source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#customizing-requests-and-responses
+  anchor: index--customizing-requests-and-responses
+  virtual_path: docs/index.md
+  children:
+  - title: Preprocessors
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#customizing-requests-and-responses-preprocessors
+    anchor: index--customizing-requests-and-responses-preprocessors
+    virtual_path: docs/index.md
+    children:
+    - title: Pretty Printing
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#customizing-requests-and-responses-preprocessors-pretty-print
+      anchor: index--customizing-requests-and-responses-preprocessors-pretty-print
+      virtual_path: docs/index.md
+    - title: Masking Links
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#customizing-requests-and-responses-preprocessors-mask-links
+      anchor: index--customizing-requests-and-responses-preprocessors-mask-links
+      virtual_path: docs/index.md
+    - title: Modifying Headers
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#customizing-requests-and-responses-preprocessors-modify-headers
+      anchor: index--customizing-requests-and-responses-preprocessors-modify-headers
+      virtual_path: docs/index.md
+    - title: Replacing Patterns
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#customizing-requests-and-responses-preprocessors-replace-patterns
+      anchor: index--customizing-requests-and-responses-preprocessors-replace-patterns
+      virtual_path: docs/index.md
+    - title: Modifying URIs
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#customizing-requests-and-responses-preprocessors-modify-uris
+      anchor: index--customizing-requests-and-responses-preprocessors-modify-uris
+      virtual_path: docs/index.md
+    - title: Writing Your Own Preprocessor
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#customizing-requests-and-responses-preprocessors-writing-your-own
+      anchor: index--customizing-requests-and-responses-preprocessors-writing-your-own
+      virtual_path: docs/index.md
+- title: Configuration
+  kind: heading
+  source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#configuration
+  anchor: index--configuration
+  virtual_path: docs/index.md
+  children:
+  - title: Documented URIs
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#configuration-uris
+    anchor: index--configuration-uris
+    virtual_path: docs/index.md
+    children:
+    - title: MockMvc URI Customization
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#configuration-uris-mockmvc
+      anchor: index--configuration-uris-mockmvc
+      virtual_path: docs/index.md
+    - title: REST Assured URI Customization
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#configuration-uris-rest-assured
+      anchor: index--configuration-uris-rest-assured
+      virtual_path: docs/index.md
+    - title: WebTestClient URI Customization
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#configuration-uris-webtestclient
+      anchor: index--configuration-uris-webtestclient
+      virtual_path: docs/index.md
+  - title: Snippet Encoding
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#configuration-snippet-encoding
+    anchor: index--configuration-snippet-encoding
+    virtual_path: docs/index.md
+  - title: Snippet Template Format
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#configuration-snippet-template-format
+    anchor: index--configuration-snippet-template-format
+    virtual_path: docs/index.md
+  - title: Default Snippets
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#configuration-default-snippets
+    anchor: index--configuration-default-snippets
+    virtual_path: docs/index.md
+  - title: Default Operation Preprocessors
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#configuration-default-preprocessors
+    anchor: index--configuration-default-preprocessors
+    virtual_path: docs/index.md
+- title: Working with Asciidoctor
+  kind: heading
+  source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-asciidoctor
+  anchor: index--working-with-asciidoctor
+  virtual_path: docs/index.md
+  children:
+  - title: Resources
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-asciidoctor-resources
+    anchor: index--working-with-asciidoctor-resources
+    virtual_path: docs/index.md
+  - title: Including Snippets
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-asciidoctor-including-snippets
+    anchor: index--working-with-asciidoctor-including-snippets
+    virtual_path: docs/index.md
+    children:
+    - title: Including Multiple Snippets for an Operation
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-asciidoctor-including-snippets-operation
+      anchor: index--working-with-asciidoctor-including-snippets-operation
+      virtual_path: docs/index.md
+      children:
+      - title: Section Titles
+        kind: heading
+        source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-asciidoctor-including-snippets-operation-titles
+        anchor: index--working-with-asciidoctor-including-snippets-operation-titles
+        virtual_path: docs/index.md
+    - title: Including Individual Snippets
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-asciidoctor-including-snippets-individual
+      anchor: index--working-with-asciidoctor-including-snippets-individual
+      virtual_path: docs/index.md
+  - title: Customizing Tables
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-asciidoctor-customizing-tables
+    anchor: index--working-with-asciidoctor-customizing-tables
+    virtual_path: docs/index.md
+    children:
+    - title: Formatting Columns
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-asciidoctor-customizing-tables-formatting-columns
+      anchor: index--working-with-asciidoctor-customizing-tables-formatting-columns
+      virtual_path: docs/index.md
+    - title: Configuring the Title
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-asciidoctor-customizing-tables-title
+      anchor: index--working-with-asciidoctor-customizing-tables-title
+      virtual_path: docs/index.md
+    - title: Avoiding Table Formatting Problems
+      kind: heading
+      source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-asciidoctor-customizing-tables-formatting-problems
+      anchor: index--working-with-asciidoctor-customizing-tables-formatting-problems
+      virtual_path: docs/index.md
+  - title: Further Reading
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-asciidoctor-further-reading
+    anchor: index--working-with-asciidoctor-further-reading
+    virtual_path: docs/index.md
+- title: Working with Markdown
+  kind: heading
+  source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-markdown
+  anchor: index--working-with-markdown
+  virtual_path: docs/index.md
+  children:
+  - title: Limitations
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-markdown-limitations
+    anchor: index--working-with-markdown-limitations
+    virtual_path: docs/index.md
+  - title: Including Snippets
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#working-with-markdown-including-snippets
+    anchor: index--working-with-markdown-including-snippets
+    virtual_path: docs/index.md
+- title: Contributing
+  kind: heading
+  source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#contributing
+  anchor: index--contributing
+  virtual_path: docs/index.md
+  children:
+  - title: Questions
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#contributing-questions
+    anchor: index--contributing-questions
+    virtual_path: docs/index.md
+  - title: Bugs
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#contributing-bugs
+    anchor: index--contributing-bugs
+    virtual_path: docs/index.md
+  - title: Enhancements
+    kind: heading
+    source_url: https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/#contributing-enhancements
+    anchor: index--contributing-enhancements
+    virtual_path: docs/index.md

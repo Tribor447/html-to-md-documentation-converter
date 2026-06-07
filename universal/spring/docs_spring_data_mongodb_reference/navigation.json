@@ -1,0 +1,476 @@
+[
+  {
+    "title": "Overview",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/mongodb/reference/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md",
+        "children": [
+          {
+            "title": "Upgrading Spring Data",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/commons/upgrade.html",
+            "anchor": "commons-upgrade",
+            "virtual_path": "docs/commons/upgrade.md"
+          },
+          {
+            "title": "Migration Guides",
+            "kind": "category",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/migration-guides.html",
+            "anchor": "migration-guides",
+            "virtual_path": "docs/migration-guides.md",
+            "children": [
+              {
+                "title": "Migration Guide from 2.x to 3.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/migration-guide/migration-guide-2.x-to-3.x.html",
+                "anchor": "migration-guide-migration-guide-2.x-to-3.x",
+                "virtual_path": "docs/migration-guide/migration-guide-2.x-to-3.x.md"
+              },
+              {
+                "title": "Migration Guide from 3.x to 4.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/migration-guide/migration-guide-3.x-to-4.x.html",
+                "anchor": "migration-guide-migration-guide-3.x-to-4.x",
+                "virtual_path": "docs/migration-guide/migration-guide-3.x-to-4.x.md"
+              },
+              {
+                "title": "Migration Guide from 4.x to 5.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/migration-guide/migration-guide-4.x-to-5.x.html",
+                "anchor": "migration-guide-migration-guide-4.x-to-5.x",
+                "virtual_path": "docs/migration-guide/migration-guide-4.x-to-5.x.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "MongoDB Support",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb.html",
+        "anchor": "mongodb",
+        "virtual_path": "docs/mongodb.md",
+        "children": [
+          {
+            "title": "Requirements",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/preface.html",
+            "anchor": "preface",
+            "virtual_path": "docs/preface.md"
+          },
+          {
+            "title": "Getting Started",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/getting-started.html",
+            "anchor": "mongodb-getting-started",
+            "virtual_path": "docs/mongodb/getting-started.md"
+          },
+          {
+            "title": "Connecting to MongoDB",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/configuration.html",
+            "anchor": "mongodb-configuration",
+            "virtual_path": "docs/mongodb/configuration.md"
+          },
+          {
+            "title": "Template API",
+            "kind": "category",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-api.html",
+            "anchor": "mongodb-template-api",
+            "virtual_path": "docs/mongodb/template-api.md",
+            "children": [
+              {
+                "title": "Configuration",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-config.html",
+                "anchor": "mongodb-template-config",
+                "virtual_path": "docs/mongodb/template-config.md"
+              },
+              {
+                "title": "Index and Collection Management",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-collection-management.html",
+                "anchor": "mongodb-template-collection-management",
+                "virtual_path": "docs/mongodb/template-collection-management.md"
+              },
+              {
+                "title": "Saving, Updating, and Removing Documents",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-crud-operations.html",
+                "anchor": "mongodb-template-crud-operations",
+                "virtual_path": "docs/mongodb/template-crud-operations.md"
+              },
+              {
+                "title": "Querying Documents",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-query-operations.html",
+                "anchor": "mongodb-template-query-operations",
+                "virtual_path": "docs/mongodb/template-query-operations.md"
+              },
+              {
+                "title": "Property Paths",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/property-paths.html",
+                "anchor": "mongodb-property-paths",
+                "virtual_path": "docs/mongodb/property-paths.md"
+              },
+              {
+                "title": "Counting Documents",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-document-count.html",
+                "anchor": "mongodb-template-document-count",
+                "virtual_path": "docs/mongodb/template-document-count.md"
+              },
+              {
+                "title": "Aggregation Framework Support",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/aggregation-framework.html",
+                "anchor": "mongodb-aggregation-framework",
+                "virtual_path": "docs/mongodb/aggregation-framework.md"
+              }
+            ]
+          },
+          {
+            "title": "GridFS Support",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-gridfs.html",
+            "anchor": "mongodb-template-gridfs",
+            "virtual_path": "docs/mongodb/template-gridfs.md"
+          },
+          {
+            "title": "Object Mapping",
+            "kind": "category",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/mapping/mapping.html",
+            "anchor": "mongodb-mapping-mapping",
+            "virtual_path": "docs/mongodb/mapping/mapping.md",
+            "children": [
+              {
+                "title": "JSON Schema",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/mapping/mapping-schema.html",
+                "anchor": "mongodb-mapping-mapping-schema",
+                "virtual_path": "docs/mongodb/mapping/mapping-schema.md"
+              },
+              {
+                "title": "Type based Converter",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/mapping/custom-conversions.html",
+                "anchor": "mongodb-mapping-custom-conversions",
+                "virtual_path": "docs/mongodb/mapping/custom-conversions.md"
+              },
+              {
+                "title": "Property Converters",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/mapping/property-converters.html",
+                "anchor": "mongodb-mapping-property-converters",
+                "virtual_path": "docs/mongodb/mapping/property-converters.md"
+              },
+              {
+                "title": "Unwrapping Types",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/mapping/unwrapping-entities.html",
+                "anchor": "mongodb-mapping-unwrapping-entities",
+                "virtual_path": "docs/mongodb/mapping/unwrapping-entities.md"
+              },
+              {
+                "title": "Object References",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/mapping/document-references.html",
+                "anchor": "mongodb-mapping-document-references",
+                "virtual_path": "docs/mongodb/mapping/document-references.md"
+              },
+              {
+                "title": "Index Creation",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/mapping/mapping-index-management.html",
+                "anchor": "mongodb-mapping-mapping-index-management",
+                "virtual_path": "docs/mongodb/mapping/mapping-index-management.md"
+              }
+            ]
+          },
+          {
+            "title": "Value Expressions Fundamentals",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/value-expressions.html",
+            "anchor": "mongodb-value-expressions",
+            "virtual_path": "docs/mongodb/value-expressions.md"
+          },
+          {
+            "title": "Lifecycle Events",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/lifecycle-events.html",
+            "anchor": "mongodb-lifecycle-events",
+            "virtual_path": "docs/mongodb/lifecycle-events.md"
+          },
+          {
+            "title": "Auditing",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/auditing.html",
+            "anchor": "mongodb-auditing",
+            "virtual_path": "docs/mongodb/auditing.md"
+          },
+          {
+            "title": "Sessions & Transactions",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/client-session-transactions.html",
+            "anchor": "mongodb-client-session-transactions",
+            "virtual_path": "docs/mongodb/client-session-transactions.md"
+          },
+          {
+            "title": "Change Streams",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/change-streams.html",
+            "anchor": "mongodb-change-streams",
+            "virtual_path": "docs/mongodb/change-streams.md"
+          },
+          {
+            "title": "Tailable Cursors",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/tailable-cursors.html",
+            "anchor": "mongodb-tailable-cursors",
+            "virtual_path": "docs/mongodb/tailable-cursors.md"
+          },
+          {
+            "title": "Sharding",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/sharding.html",
+            "anchor": "mongodb-sharding",
+            "virtual_path": "docs/mongodb/sharding.md"
+          },
+          {
+            "title": "MongoDB Search",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/mongo-search-indexes.html",
+            "anchor": "mongodb-mongo-search-indexes",
+            "virtual_path": "docs/mongodb/mongo-search-indexes.md"
+          },
+          {
+            "title": "Encryption",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/mongo-encryption.html",
+            "anchor": "mongodb-mongo-encryption",
+            "virtual_path": "docs/mongodb/mongo-encryption.md"
+          },
+          {
+            "title": "Ahead of Time Optimizations",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/aot.html",
+            "anchor": "mongodb-aot",
+            "virtual_path": "docs/mongodb/aot.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Repositories",
+    "kind": "category",
+    "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories.html",
+    "anchor": "repositories",
+    "virtual_path": "docs/repositories.md",
+    "children": [
+      {
+        "title": "Repositories",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories.html",
+        "anchor": "repositories",
+        "virtual_path": "docs/repositories.md",
+        "children": [
+          {
+            "title": "Core concepts",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories/core-concepts.html",
+            "anchor": "repositories-core-concepts",
+            "virtual_path": "docs/repositories/core-concepts.md"
+          },
+          {
+            "title": "Defining Repository Interfaces",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories/definition.html",
+            "anchor": "repositories-definition",
+            "virtual_path": "docs/repositories/definition.md"
+          },
+          {
+            "title": "MongoDB Repositories",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/repositories/repositories.html",
+            "anchor": "mongodb-repositories-repositories",
+            "virtual_path": "docs/mongodb/repositories/repositories.md"
+          },
+          {
+            "title": "Spring Data Extensions",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories/core-extensions.html",
+            "anchor": "repositories-core-extensions",
+            "virtual_path": "docs/repositories/core-extensions.md"
+          },
+          {
+            "title": "Creating Repository Instances",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories/create-instances.html",
+            "anchor": "repositories-create-instances",
+            "virtual_path": "docs/repositories/create-instances.md"
+          },
+          {
+            "title": "Defining Query Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories/query-methods-details.html",
+            "anchor": "repositories-query-methods-details",
+            "virtual_path": "docs/repositories/query-methods-details.md"
+          },
+          {
+            "title": "MongoDB-specific Query Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/repositories/query-methods.html",
+            "anchor": "mongodb-repositories-query-methods",
+            "virtual_path": "docs/mongodb/repositories/query-methods.md"
+          },
+          {
+            "title": "Vector Search",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/repositories/vector-search.html",
+            "anchor": "mongodb-repositories-vector-search",
+            "virtual_path": "docs/mongodb/repositories/vector-search.md"
+          },
+          {
+            "title": "MongoDB-specific Data Manipulation Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/repositories/modifying-methods.html",
+            "anchor": "mongodb-repositories-modifying-methods",
+            "virtual_path": "docs/mongodb/repositories/modifying-methods.md"
+          },
+          {
+            "title": "Projections",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories/projections.html",
+            "anchor": "repositories-projections",
+            "virtual_path": "docs/repositories/projections.md"
+          },
+          {
+            "title": "Custom Repository Implementations",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories/custom-implementations.html",
+            "anchor": "repositories-custom-implementations",
+            "virtual_path": "docs/repositories/custom-implementations.md"
+          },
+          {
+            "title": "Publishing Events from Aggregate Roots",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories/core-domain-events.html",
+            "anchor": "repositories-core-domain-events",
+            "virtual_path": "docs/repositories/core-domain-events.md"
+          },
+          {
+            "title": "Null Handling of Repository Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories/null-handling.html",
+            "anchor": "repositories-null-handling",
+            "virtual_path": "docs/repositories/null-handling.md"
+          },
+          {
+            "title": "CDI Integration",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/mongodb/repositories/cdi-integration.html",
+            "anchor": "mongodb-repositories-cdi-integration",
+            "virtual_path": "docs/mongodb/repositories/cdi-integration.md"
+          },
+          {
+            "title": "Repository query keywords",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories/query-keywords-reference.html",
+            "anchor": "repositories-query-keywords-reference",
+            "virtual_path": "docs/repositories/query-keywords-reference.md"
+          },
+          {
+            "title": "Repository query return types",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/repositories/query-return-types-reference.html",
+            "anchor": "repositories-query-return-types-reference",
+            "virtual_path": "docs/repositories/query-return-types-reference.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Observability",
+    "kind": "category",
+    "source_url": "https://docs.spring.io/spring-data/mongodb/reference/observability/observability.html",
+    "anchor": "observability-observability",
+    "virtual_path": "docs/observability/observability.md",
+    "children": [
+      {
+        "title": "Observability",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/mongodb/reference/observability/observability.html",
+        "anchor": "observability-observability",
+        "virtual_path": "docs/observability/observability.md",
+        "children": [
+          {
+            "title": "Conventions",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/observability/conventions.html",
+            "anchor": "observability-conventions",
+            "virtual_path": "docs/observability/conventions.md"
+          },
+          {
+            "title": "Metrics",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/observability/metrics.html",
+            "anchor": "observability-metrics",
+            "virtual_path": "docs/observability/metrics.md"
+          },
+          {
+            "title": "Spans",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/observability/spans.html",
+            "anchor": "observability-spans",
+            "virtual_path": "docs/observability/spans.md"
+          }
+        ]
+      },
+      {
+        "title": "Kotlin Support",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/mongodb/reference/kotlin.html",
+        "anchor": "kotlin",
+        "virtual_path": "docs/kotlin.md",
+        "children": [
+          {
+            "title": "Requirements",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/kotlin/requirements.html",
+            "anchor": "kotlin-requirements",
+            "virtual_path": "docs/kotlin/requirements.md"
+          },
+          {
+            "title": "Null Safety",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/kotlin/null-safety.html",
+            "anchor": "kotlin-null-safety",
+            "virtual_path": "docs/kotlin/null-safety.md"
+          },
+          {
+            "title": "Extensions",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/kotlin/extensions.html",
+            "anchor": "kotlin-extensions",
+            "virtual_path": "docs/kotlin/extensions.md"
+          },
+          {
+            "title": "Coroutines",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/mongodb/reference/kotlin/coroutines.html",
+            "anchor": "kotlin-coroutines",
+            "virtual_path": "docs/kotlin/coroutines.md"
+          }
+        ]
+      }
+    ]
+  }
+]

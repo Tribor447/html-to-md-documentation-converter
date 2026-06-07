@@ -1,0 +1,205 @@
+- title: Introduction
+  kind: category
+  children:
+  - title: Introduction
+    kind: link
+    source_url: https://docs.spring.io/spring-cloud-config/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Spring Cloud Config Server
+    kind: category
+    source_url: https://docs.spring.io/spring-cloud-config/reference/server.html
+    anchor: server
+    virtual_path: docs/server.md
+    children:
+    - title: Environment Repository
+      kind: category
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository.html
+      anchor: server-environment-repository
+      virtual_path: docs/server/environment-repository.md
+      children:
+      - title: Git Backend
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/git-backend.html
+        anchor: server-environment-repository-git-backend
+        virtual_path: docs/server/environment-repository/git-backend.md
+      - title: Version Control Backend Filesystem Use
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/version-control-backend-filesystem-use.html
+        anchor: server-environment-repository-version-control-backend-filesystem-use
+        virtual_path: docs/server/environment-repository/version-control-backend-filesystem-use.md
+      - title: File System Backend
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/file-system-backend.html
+        anchor: server-environment-repository-file-system-backend
+        virtual_path: docs/server/environment-repository/file-system-backend.md
+      - title: Vault Backend
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/vault-backend.html
+        anchor: server-environment-repository-vault-backend
+        virtual_path: docs/server/environment-repository/vault-backend.md
+      - title: Accessing Backends Through a Proxy
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/accessing-backends-through-a-proxy.html
+        anchor: server-environment-repository-accessing-backends-through-a-proxy
+        virtual_path: docs/server/environment-repository/accessing-backends-through-a-proxy.md
+      - title: Sharing Configuration With All Applications
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/sharing-configuration-with-all-applications.html
+        anchor: server-environment-repository-sharing-configuration-with-all-applications
+        virtual_path: docs/server/environment-repository/sharing-configuration-with-all-applications.md
+      - title: AWS Secrets Manager
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/aws-secrets-manager.html
+        anchor: server-environment-repository-aws-secrets-manager
+        virtual_path: docs/server/environment-repository/aws-secrets-manager.md
+      - title: AWS Parameter Store
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/aws-parameter-store.html
+        anchor: server-environment-repository-aws-parameter-store
+        virtual_path: docs/server/environment-repository/aws-parameter-store.md
+      - title: JDBC Backend
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/jdbc-backend.html
+        anchor: server-environment-repository-jdbc-backend
+        virtual_path: docs/server/environment-repository/jdbc-backend.md
+      - title: Redis Backend
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/redis-backend.html
+        anchor: server-environment-repository-redis-backend
+        virtual_path: docs/server/environment-repository/redis-backend.md
+      - title: AWS S3 Backend
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/aws-s3-backend.html
+        anchor: server-environment-repository-aws-s3-backend
+        virtual_path: docs/server/environment-repository/aws-s3-backend.md
+      - title: AWS Parameter Store Backend
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/aws-parameter-store-backend.html
+        anchor: server-environment-repository-aws-parameter-store-backend
+        virtual_path: docs/server/environment-repository/aws-parameter-store-backend.md
+      - title: AWS Secrets Manager Backend
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/aws-secrets-manager-backend.html
+        anchor: server-environment-repository-aws-secrets-manager-backend
+        virtual_path: docs/server/environment-repository/aws-secrets-manager-backend.md
+      - title: Google Secret Manager Backend
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/gcp-secret-manager-backend.html
+        anchor: server-environment-repository-gcp-secret-manager-backend
+        virtual_path: docs/server/environment-repository/gcp-secret-manager-backend.md
+      - title: CredHub Backend
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/credhub-backend.html
+        anchor: server-environment-repository-credhub-backend
+        virtual_path: docs/server/environment-repository/credhub-backend.md
+      - title: MongoDB Backend
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/mongo-backend.html
+        anchor: server-environment-repository-mongo-backend
+        virtual_path: docs/server/environment-repository/mongo-backend.md
+      - title: Composite Environment Repositories
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/composite-repositories.html
+        anchor: server-environment-repository-composite-repositories
+        virtual_path: docs/server/environment-repository/composite-repositories.md
+      - title: Custom Environment Repositories
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/custom-enviroment-repository.html
+        anchor: server-environment-repository-custom-enviroment-repository
+        virtual_path: docs/server/environment-repository/custom-enviroment-repository.md
+      - title: Property Overrides
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/property-overrides.html
+        anchor: server-environment-repository-property-overrides
+        virtual_path: docs/server/environment-repository/property-overrides.md
+      - title: Using Bootstrap To Override Properties
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/using-bootstrap-to-override-properties.html
+        anchor: server-environment-repository-using-bootstrap-to-override-properties
+        virtual_path: docs/server/environment-repository/using-bootstrap-to-override-properties.md
+      - title: Overriding Properties Using Placeholders
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/overriding-properties-using-placeholders.html
+        anchor: server-environment-repository-overriding-properties-using-placeholders
+        virtual_path: docs/server/environment-repository/overriding-properties-using-placeholders.md
+      - title: Overriding Properties Using Profiles
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/overriding-properties-using-profiles.html
+        anchor: server-environment-repository-overriding-properties-using-profiles
+        virtual_path: docs/server/environment-repository/overriding-properties-using-profiles.md
+    - title: Health Indicator
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/health-indicator.html
+      anchor: server-health-indicator
+      virtual_path: docs/server/health-indicator.md
+    - title: Security
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/security.html
+      anchor: server-security
+      virtual_path: docs/server/security.md
+    - title: Actuator and Security
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/actuator-and-security.html
+      anchor: server-actuator-and-security
+      virtual_path: docs/server/actuator-and-security.md
+    - title: Encryption and Decryption
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/encryption-and-decryption.html
+      anchor: server-encryption-and-decryption
+      virtual_path: docs/server/encryption-and-decryption.md
+    - title: Key Management
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/key-management.html
+      anchor: server-key-management
+      virtual_path: docs/server/key-management.md
+    - title: Creating a Key Store for Testing
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/creating-a-key-store-for-testing.html
+      anchor: server-creating-a-key-store-for-testing
+      virtual_path: docs/server/creating-a-key-store-for-testing.md
+    - title: Using Multiple Keys and Key Rotation
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/using-multiple-keys-and-key-rotation.html
+      anchor: server-using-multiple-keys-and-key-rotation
+      virtual_path: docs/server/using-multiple-keys-and-key-rotation.md
+    - title: Serving Encrypted Properties
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/serving-encrypted-properties.html
+      anchor: server-serving-encrypted-properties
+      virtual_path: docs/server/serving-encrypted-properties.md
+    - title: Serving Alternative Formats
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/serving-alternative-formats.html
+      anchor: server-serving-alternative-formats
+      virtual_path: docs/server/serving-alternative-formats.md
+    - title: Serving Plain Text
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/serving-plain-text.html
+      anchor: server-serving-plain-text
+      virtual_path: docs/server/serving-plain-text.md
+    - title: Serving Binary Files
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/serving-binary-files.html
+      anchor: server-serving-binary-files
+      virtual_path: docs/server/serving-binary-files.md
+    - title: Embedding the Config Server
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/embedding.html
+      anchor: server-embedding
+      virtual_path: docs/server/embedding.md
+    - title: Push Notifications and Spring Cloud Bus
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/push-notifications-and-bus.html
+      anchor: server-push-notifications-and-bus
+      virtual_path: docs/server/push-notifications-and-bus.md
+    - title: AOT and Native Image Support
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-config/reference/server/aot-and-native-image-support.html
+      anchor: server-aot-and-native-image-support
+      virtual_path: docs/server/aot-and-native-image-support.md
+  - title: Spring Cloud Config Client
+    kind: link
+    source_url: https://docs.spring.io/spring-cloud-config/reference/client.html
+    anchor: client
+    virtual_path: docs/client.md

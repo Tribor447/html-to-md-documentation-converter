@@ -1,0 +1,331 @@
+- title: Overview
+  kind: category
+  source_url: https://docs.spring.io/spring-batch/reference/index.html
+  anchor: index
+  virtual_path: docs/index.md
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://docs.spring.io/spring-batch/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Spring Batch Introduction
+    kind: link
+    source_url: https://docs.spring.io/spring-batch/reference/spring-batch-intro.html
+    anchor: spring-batch-intro
+    virtual_path: docs/spring-batch-intro.md
+  - title: Spring Batch Architecture
+    kind: link
+    source_url: https://docs.spring.io/spring-batch/reference/spring-batch-architecture.html
+    anchor: spring-batch-architecture
+    virtual_path: docs/spring-batch-architecture.md
+  - title: What’s new in Spring Batch 6
+    kind: link
+    source_url: https://docs.spring.io/spring-batch/reference/whatsnew.html
+    anchor: whatsnew
+    virtual_path: docs/whatsnew.md
+  - title: The Domain Language of Batch
+    kind: link
+    source_url: https://docs.spring.io/spring-batch/reference/domain.html
+    anchor: domain
+    virtual_path: docs/domain.md
+  - title: Configuring and Running a Job
+    kind: category
+    source_url: https://docs.spring.io/spring-batch/reference/job.html
+    anchor: job
+    virtual_path: docs/job.md
+    children:
+    - title: Batch infrastructure Configuration
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/job/configuring-infrastructure.html
+      anchor: job-configuring-infrastructure
+      virtual_path: docs/job/configuring-infrastructure.md
+    - title: Configuring a Job
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/job/configuring-job.html
+      anchor: job-configuring-job
+      virtual_path: docs/job/configuring-job.md
+    - title: Configuring a JobRepository
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/job/configuring-repository.html
+      anchor: job-configuring-repository
+      virtual_path: docs/job/configuring-repository.md
+    - title: Configuring a JobOperator
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/job/configuring-operator.html
+      anchor: job-configuring-operator
+      virtual_path: docs/job/configuring-operator.md
+    - title: Running a Job
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/job/running.html
+      anchor: job-running
+      virtual_path: docs/job/running.md
+    - title: Advanced Metadata Usage
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/job/advanced-meta-data.html
+      anchor: job-advanced-meta-data
+      virtual_path: docs/job/advanced-meta-data.md
+  - title: Configuring a Step
+    kind: category
+    source_url: https://docs.spring.io/spring-batch/reference/step.html
+    anchor: step
+    virtual_path: docs/step.md
+    children:
+    - title: Chunk-oriented Processing
+      kind: category
+      source_url: https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing.html
+      anchor: step-chunk-oriented-processing
+      virtual_path: docs/step/chunk-oriented-processing.md
+      children:
+      - title: Configuring a Step
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/configuring.html
+        anchor: step-chunk-oriented-processing-configuring
+        virtual_path: docs/step/chunk-oriented-processing/configuring.md
+      - title: Inheriting from a Parent Step
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/inheriting-from-parent.html
+        anchor: step-chunk-oriented-processing-inheriting-from-parent
+        virtual_path: docs/step/chunk-oriented-processing/inheriting-from-parent.md
+      - title: The Commit Interval
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/commit-interval.html
+        anchor: step-chunk-oriented-processing-commit-interval
+        virtual_path: docs/step/chunk-oriented-processing/commit-interval.md
+      - title: Configuring a Step for Restart
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/restart.html
+        anchor: step-chunk-oriented-processing-restart
+        virtual_path: docs/step/chunk-oriented-processing/restart.md
+      - title: Configuring Skip Logic
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/configuring-skip.html
+        anchor: step-chunk-oriented-processing-configuring-skip
+        virtual_path: docs/step/chunk-oriented-processing/configuring-skip.md
+      - title: Configuring Retry Logic
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/retry-logic.html
+        anchor: step-chunk-oriented-processing-retry-logic
+        virtual_path: docs/step/chunk-oriented-processing/retry-logic.md
+      - title: Transaction Attributes
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/transaction-attributes.html
+        anchor: step-chunk-oriented-processing-transaction-attributes
+        virtual_path: docs/step/chunk-oriented-processing/transaction-attributes.md
+      - title: Registering ItemStream with a Step
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/registering-item-streams.html
+        anchor: step-chunk-oriented-processing-registering-item-streams
+        virtual_path: docs/step/chunk-oriented-processing/registering-item-streams.md
+      - title: Intercepting Step Execution
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/intercepting-execution.html
+        anchor: step-chunk-oriented-processing-intercepting-execution
+        virtual_path: docs/step/chunk-oriented-processing/intercepting-execution.md
+    - title: TaskletStep
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/step/tasklet.html
+      anchor: step-tasklet
+      virtual_path: docs/step/tasklet.md
+    - title: Controlling Step Flow
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/step/controlling-flow.html
+      anchor: step-controlling-flow
+      virtual_path: docs/step/controlling-flow.md
+    - title: Late Binding of Job and Step Attributes
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/step/late-binding.html
+      anchor: step-late-binding
+      virtual_path: docs/step/late-binding.md
+  - title: ItemReaders and ItemWriters
+    kind: category
+    source_url: https://docs.spring.io/spring-batch/reference/readersAndWriters.html
+    anchor: readersandwriters
+    virtual_path: docs/readersAndWriters.md
+    children:
+    - title: ItemReader
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/item-reader.html
+      anchor: readers-and-writers-item-reader
+      virtual_path: docs/readers-and-writers/item-reader.md
+    - title: ItemWriter
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/item-writer.html
+      anchor: readers-and-writers-item-writer
+      virtual_path: docs/readers-and-writers/item-writer.md
+    - title: ItemStream
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/item-stream.html
+      anchor: readers-and-writers-item-stream
+      virtual_path: docs/readers-and-writers/item-stream.md
+    - title: The Delegate Pattern and Registering with the Step
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/delegate-pattern-registering.html
+      anchor: readers-and-writers-delegate-pattern-registering
+      virtual_path: docs/readers-and-writers/delegate-pattern-registering.md
+    - title: Flat Files
+      kind: category
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/flat-files.html
+      anchor: readers-and-writers-flat-files
+      virtual_path: docs/readers-and-writers/flat-files.md
+      children:
+      - title: The FieldSet
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/flat-files/field-set.html
+        anchor: readers-and-writers-flat-files-field-set
+        virtual_path: docs/readers-and-writers/flat-files/field-set.md
+      - title: FlatFileItemReader
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/flat-files/file-item-reader.html
+        anchor: readers-and-writers-flat-files-file-item-reader
+        virtual_path: docs/readers-and-writers/flat-files/file-item-reader.md
+      - title: FlatFileItemWriter
+        kind: link
+        source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/flat-files/file-item-writer.html
+        anchor: readers-and-writers-flat-files-file-item-writer
+        virtual_path: docs/readers-and-writers/flat-files/file-item-writer.md
+    - title: XML Item Readers and Writers
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/xml-reading-writing.html
+      anchor: readers-and-writers-xml-reading-writing
+      virtual_path: docs/readers-and-writers/xml-reading-writing.md
+    - title: JSON Item Readers And Writers
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/json-reading-writing.html
+      anchor: readers-and-writers-json-reading-writing
+      virtual_path: docs/readers-and-writers/json-reading-writing.md
+    - title: Multi-File Input
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/multi-file-input.html
+      anchor: readers-and-writers-multi-file-input
+      virtual_path: docs/readers-and-writers/multi-file-input.md
+    - title: Database
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/database.html
+      anchor: readers-and-writers-database
+      virtual_path: docs/readers-and-writers/database.md
+    - title: Reusing Existing Services
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/reusing-existing-services.html
+      anchor: readers-and-writers-reusing-existing-services
+      virtual_path: docs/readers-and-writers/reusing-existing-services.md
+    - title: Preventing State Persistence
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/process-indicator.html
+      anchor: readers-and-writers-process-indicator
+      virtual_path: docs/readers-and-writers/process-indicator.md
+    - title: Creating Custom ItemReaders and ItemWriters
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/custom.html
+      anchor: readers-and-writers-custom
+      virtual_path: docs/readers-and-writers/custom.md
+    - title: Item Reader and Writer Implementations
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/readers-and-writers/item-reader-writer-implementations.html
+      anchor: readers-and-writers-item-reader-writer-implementations
+      virtual_path: docs/readers-and-writers/item-reader-writer-implementations.md
+  - title: Item processing
+    kind: link
+    source_url: https://docs.spring.io/spring-batch/reference/processor.html
+    anchor: processor
+    virtual_path: docs/processor.md
+  - title: Scaling and Parallel Processing
+    kind: link
+    source_url: https://docs.spring.io/spring-batch/reference/scalability.html
+    anchor: scalability
+    virtual_path: docs/scalability.md
+  - title: Repeat
+    kind: link
+    source_url: https://docs.spring.io/spring-batch/reference/repeat.html
+    anchor: repeat
+    virtual_path: docs/repeat.md
+  - title: Retry
+    kind: link
+    source_url: https://docs.spring.io/spring-batch/reference/retry.html
+    anchor: retry
+    virtual_path: docs/retry.md
+  - title: Unit Testing
+    kind: link
+    source_url: https://docs.spring.io/spring-batch/reference/testing.html
+    anchor: testing
+    virtual_path: docs/testing.md
+  - title: Common Batch Patterns
+    kind: link
+    source_url: https://docs.spring.io/spring-batch/reference/common-patterns.html
+    anchor: common-patterns
+    virtual_path: docs/common-patterns.md
+  - title: Spring Batch Integration
+    kind: category
+    source_url: https://docs.spring.io/spring-batch/reference/spring-batch-integration.html
+    anchor: spring-batch-integration
+    virtual_path: docs/spring-batch-integration.md
+    children:
+    - title: Namespace Support
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/spring-batch-integration/namespace-support.html
+      anchor: spring-batch-integration-namespace-support
+      virtual_path: docs/spring-batch-integration/namespace-support.md
+    - title: Launching Batch Jobs through Messages
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/spring-batch-integration/launching-jobs-through-messages.html
+      anchor: spring-batch-integration-launching-jobs-through-messages
+      virtual_path: docs/spring-batch-integration/launching-jobs-through-messages.md
+    - title: Available Attributes of the Job-Launching Gateway
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/spring-batch-integration/available-attributes-of-the-job-launching-gateway.html
+      anchor: spring-batch-integration-available-attributes-of-the-job-launching-gateway
+      virtual_path: docs/spring-batch-integration/available-attributes-of-the-job-launching-gateway.md
+    - title: Providing Feedback with Informational Messages
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/spring-batch-integration/providing-feedback-with-informational-messages.html
+      anchor: spring-batch-integration-providing-feedback-with-informational-messages
+      virtual_path: docs/spring-batch-integration/providing-feedback-with-informational-messages.md
+    - title: Asynchronous Processors
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/spring-batch-integration/asynchronous-processing.html
+      anchor: spring-batch-integration-asynchronous-processing
+      virtual_path: docs/spring-batch-integration/asynchronous-processing.md
+    - title: Externalizing Batch Process Execution
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/spring-batch-integration/externalizing-execution.html
+      anchor: spring-batch-integration-externalizing-execution
+      virtual_path: docs/spring-batch-integration/externalizing-execution.md
+  - title: Spring Batch Observability
+    kind: category
+    source_url: https://docs.spring.io/spring-batch/reference/spring-batch-observability.html
+    anchor: spring-batch-observability
+    virtual_path: docs/spring-batch-observability.md
+    children:
+    - title: Micrometer support
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/spring-batch-observability/micrometer.html
+      anchor: spring-batch-observability-micrometer
+      virtual_path: docs/spring-batch-observability/micrometer.md
+    - title: Java Flight Recorder (JFR) support
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/spring-batch-observability/jfr.html
+      anchor: spring-batch-observability-jfr
+      virtual_path: docs/spring-batch-observability/jfr.md
+  - title: Appendices
+    kind: category
+    children:
+    - title: List of ItemReaders and ItemWriters
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/appendix.html
+      anchor: appendix
+      virtual_path: docs/appendix.md
+    - title: Meta-Data Schema
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/schema-appendix.html
+      anchor: schema-appendix
+      virtual_path: docs/schema-appendix.md
+    - title: Glossary
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/glossary.html
+      anchor: glossary
+      virtual_path: docs/glossary.md
+    - title: Frequently Asked Questions
+      kind: link
+      source_url: https://docs.spring.io/spring-batch/reference/faq.html
+      anchor: faq
+      virtual_path: docs/faq.md

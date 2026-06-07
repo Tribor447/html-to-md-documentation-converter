@@ -1,0 +1,578 @@
+{
+  "entry_url": "https://docs.spring.io/spring-batch/reference/index.html",
+  "site_prefix": "/spring-batch/reference/",
+  "site_slug": "docs_spring_batch_reference",
+  "profile": "antora",
+  "combined_markdown": "combined.md",
+  "page_count": 63,
+  "asset_count": 32,
+  "pages": [
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/appendix.html",
+      "title": "List of ItemReaders and ItemWriters",
+      "anchor": "appendix",
+      "virtual_path": "docs/appendix.md",
+      "profile": "antora",
+      "score": 17602,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/common-patterns.html",
+      "title": "Common Batch Patterns",
+      "anchor": "common-patterns",
+      "virtual_path": "docs/common-patterns.md",
+      "profile": "antora",
+      "score": 38488,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/domain.html",
+      "title": "The Domain Language of Batch",
+      "anchor": "domain",
+      "virtual_path": "docs/domain.md",
+      "profile": "antora",
+      "score": 47426,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/faq.html",
+      "title": "Frequently Asked Questions",
+      "anchor": "faq",
+      "virtual_path": "docs/faq.md",
+      "profile": "antora",
+      "score": 11431,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/glossary.html",
+      "title": "Glossary",
+      "anchor": "glossary",
+      "virtual_path": "docs/glossary.md",
+      "profile": "antora",
+      "score": 8213,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/index.html",
+      "title": "Overview",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "antora",
+      "score": 5014,
+      "depth": 0
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/job.html",
+      "title": "Configuring and Running a Job",
+      "anchor": "job",
+      "virtual_path": "docs/job.md",
+      "profile": "antora",
+      "score": 2878,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/job/advanced-meta-data.html",
+      "title": "Advanced Metadata Usage",
+      "anchor": "job-advanced-meta-data",
+      "virtual_path": "docs/job/advanced-meta-data.md",
+      "profile": "antora",
+      "score": 13492,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/job/configuring-infrastructure.html",
+      "title": "Batch infrastructure Configuration",
+      "anchor": "job-configuring-infrastructure",
+      "virtual_path": "docs/job/configuring-infrastructure.md",
+      "profile": "antora",
+      "score": 6728,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/job/configuring-job.html",
+      "title": "Configuring a Job",
+      "anchor": "job-configuring-job",
+      "virtual_path": "docs/job/configuring-job.md",
+      "profile": "antora",
+      "score": 15520,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/job/configuring-operator.html",
+      "title": "Configuring a JobOperator",
+      "anchor": "job-configuring-operator",
+      "virtual_path": "docs/job/configuring-operator.md",
+      "profile": "antora",
+      "score": 6631,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/job/configuring-repository.html",
+      "title": "Configuring a JobRepository",
+      "anchor": "job-configuring-repository",
+      "virtual_path": "docs/job/configuring-repository.md",
+      "profile": "antora",
+      "score": 18695,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/job/running.html",
+      "title": "Running a Job",
+      "anchor": "job-running",
+      "virtual_path": "docs/job/running.md",
+      "profile": "antora",
+      "score": 12655,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/processor.html",
+      "title": "Item processing",
+      "anchor": "processor",
+      "virtual_path": "docs/processor.md",
+      "profile": "antora",
+      "score": 18079,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/custom.html",
+      "title": "Creating Custom ItemReaders and ItemWriters",
+      "anchor": "readers-and-writers-custom",
+      "virtual_path": "docs/readers-and-writers/custom.md",
+      "profile": "antora",
+      "score": 11523,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/database.html",
+      "title": "Database",
+      "anchor": "readers-and-writers-database",
+      "virtual_path": "docs/readers-and-writers/database.md",
+      "profile": "antora",
+      "score": 36619,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/delegate-pattern-registering.html",
+      "title": "The Delegate Pattern and Registering with the Step",
+      "anchor": "readers-and-writers-delegate-pattern-registering",
+      "virtual_path": "docs/readers-and-writers/delegate-pattern-registering.md",
+      "profile": "antora",
+      "score": 4801,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/flat-files.html",
+      "title": "Flat Files",
+      "anchor": "readers-and-writers-flat-files",
+      "virtual_path": "docs/readers-and-writers/flat-files.md",
+      "profile": "antora",
+      "score": 2814,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/flat-files/field-set.html",
+      "title": "The FieldSet",
+      "anchor": "readers-and-writers-flat-files-field-set",
+      "virtual_path": "docs/readers-and-writers/flat-files/field-set.md",
+      "profile": "antora",
+      "score": 3780,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/flat-files/file-item-reader.html",
+      "title": "FlatFileItemReader",
+      "anchor": "readers-and-writers-flat-files-file-item-reader",
+      "virtual_path": "docs/readers-and-writers/flat-files/file-item-reader.md",
+      "profile": "antora",
+      "score": 38190,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/flat-files/file-item-writer.html",
+      "title": "FlatFileItemWriter",
+      "anchor": "readers-and-writers-flat-files-file-item-writer",
+      "virtual_path": "docs/readers-and-writers/flat-files/file-item-writer.md",
+      "profile": "antora",
+      "score": 23429,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/item-reader-writer-implementations.html",
+      "title": "Item Reader and Writer Implementations",
+      "anchor": "readers-and-writers-item-reader-writer-implementations",
+      "virtual_path": "docs/readers-and-writers/item-reader-writer-implementations.md",
+      "profile": "antora",
+      "score": 27632,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/item-reader.html",
+      "title": "ItemReader",
+      "anchor": "readers-and-writers-item-reader",
+      "virtual_path": "docs/readers-and-writers/item-reader.md",
+      "profile": "antora",
+      "score": 4926,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/item-stream.html",
+      "title": "ItemStream",
+      "anchor": "readers-and-writers-item-stream",
+      "virtual_path": "docs/readers-and-writers/item-stream.md",
+      "profile": "antora",
+      "score": 4245,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/item-writer.html",
+      "title": "ItemWriter",
+      "anchor": "readers-and-writers-item-writer",
+      "virtual_path": "docs/readers-and-writers/item-writer.md",
+      "profile": "antora",
+      "score": 3817,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/json-reading-writing.html",
+      "title": "JSON Item Readers And Writers",
+      "anchor": "readers-and-writers-json-reading-writing",
+      "virtual_path": "docs/readers-and-writers/json-reading-writing.md",
+      "profile": "antora",
+      "score": 7015,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/multi-file-input.html",
+      "title": "Multi-File Input",
+      "anchor": "readers-and-writers-multi-file-input",
+      "virtual_path": "docs/readers-and-writers/multi-file-input.md",
+      "profile": "antora",
+      "score": 4858,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/process-indicator.html",
+      "title": "Preventing State Persistence",
+      "anchor": "readers-and-writers-process-indicator",
+      "virtual_path": "docs/readers-and-writers/process-indicator.md",
+      "profile": "antora",
+      "score": 5356,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/reusing-existing-services.html",
+      "title": "Reusing Existing Services",
+      "anchor": "readers-and-writers-reusing-existing-services",
+      "virtual_path": "docs/readers-and-writers/reusing-existing-services.md",
+      "profile": "antora",
+      "score": 6367,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readers-and-writers/xml-reading-writing.html",
+      "title": "XML Item Readers and Writers",
+      "anchor": "readers-and-writers-xml-reading-writing",
+      "virtual_path": "docs/readers-and-writers/xml-reading-writing.md",
+      "profile": "antora",
+      "score": 17612,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/readersAndWriters.html",
+      "title": "ItemReaders and ItemWriters",
+      "anchor": "readersandwriters",
+      "virtual_path": "docs/readersAndWriters.md",
+      "profile": "antora",
+      "score": 2667,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/repeat.html",
+      "title": "Repeat",
+      "anchor": "repeat",
+      "virtual_path": "docs/repeat.md",
+      "profile": "antora",
+      "score": 17978,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/retry.html",
+      "title": "Retry",
+      "anchor": "retry",
+      "virtual_path": "docs/retry.md",
+      "profile": "antora",
+      "score": 2684,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/scalability.html",
+      "title": "Scaling and Parallel Processing",
+      "anchor": "scalability",
+      "virtual_path": "docs/scalability.md",
+      "profile": "antora",
+      "score": 34836,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/schema-appendix.html",
+      "title": "Meta-Data Schema",
+      "anchor": "schema-appendix",
+      "virtual_path": "docs/schema-appendix.md",
+      "profile": "antora",
+      "score": 31252,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-architecture.html",
+      "title": "Spring Batch Architecture",
+      "anchor": "spring-batch-architecture",
+      "virtual_path": "docs/spring-batch-architecture.md",
+      "profile": "antora",
+      "score": 33863,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-integration.html",
+      "title": "Spring Batch Integration",
+      "anchor": "spring-batch-integration",
+      "virtual_path": "docs/spring-batch-integration.md",
+      "profile": "antora",
+      "score": 4242,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-integration/asynchronous-processing.html",
+      "title": "Untitled :: Spring Batch Reference",
+      "anchor": "spring-batch-integration-asynchronous-processing",
+      "virtual_path": "docs/spring-batch-integration/asynchronous-processing.md",
+      "profile": "antora",
+      "score": 5801,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-integration/available-attributes-of-the-job-launching-gateway.html",
+      "title": "Available Attributes of the Job-Launching Gateway",
+      "anchor": "spring-batch-integration-available-attributes-of-the-job-launching-gateway",
+      "virtual_path": "docs/spring-batch-integration/available-attributes-of-the-job-launching-gateway.md",
+      "profile": "antora",
+      "score": 6137,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-integration/externalizing-execution.html",
+      "title": "Untitled :: Spring Batch Reference",
+      "anchor": "spring-batch-integration-externalizing-execution",
+      "virtual_path": "docs/spring-batch-integration/externalizing-execution.md",
+      "profile": "antora",
+      "score": 31277,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-integration/launching-jobs-through-messages.html",
+      "title": "Launching Batch Jobs through Messages",
+      "anchor": "spring-batch-integration-launching-jobs-through-messages",
+      "virtual_path": "docs/spring-batch-integration/launching-jobs-through-messages.md",
+      "profile": "antora",
+      "score": 13355,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-integration/namespace-support.html",
+      "title": "Namespace Support",
+      "anchor": "spring-batch-integration-namespace-support",
+      "virtual_path": "docs/spring-batch-integration/namespace-support.md",
+      "profile": "antora",
+      "score": 4773,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-integration/providing-feedback-with-informational-messages.html",
+      "title": "Untitled :: Spring Batch Reference",
+      "anchor": "spring-batch-integration-providing-feedback-with-informational-messages",
+      "virtual_path": "docs/spring-batch-integration/providing-feedback-with-informational-messages.md",
+      "profile": "antora",
+      "score": 7867,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-intro.html",
+      "title": "Spring Batch Introduction",
+      "anchor": "spring-batch-intro",
+      "virtual_path": "docs/spring-batch-intro.md",
+      "profile": "antora",
+      "score": 11969,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-observability.html",
+      "title": "Spring Batch Observability",
+      "anchor": "spring-batch-observability",
+      "virtual_path": "docs/spring-batch-observability.md",
+      "profile": "antora",
+      "score": 2400,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-observability/jfr.html",
+      "title": "Java Flight Recorder (JFR) support",
+      "anchor": "spring-batch-observability-jfr",
+      "virtual_path": "docs/spring-batch-observability/jfr.md",
+      "profile": "antora",
+      "score": 3237,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/spring-batch-observability/micrometer.html",
+      "title": "Micrometer support",
+      "anchor": "spring-batch-observability-micrometer",
+      "virtual_path": "docs/spring-batch-observability/micrometer.md",
+      "profile": "antora",
+      "score": 11079,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step.html",
+      "title": "Configuring a Step",
+      "anchor": "step",
+      "virtual_path": "docs/step.md",
+      "profile": "antora",
+      "score": 3075,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing.html",
+      "title": "Chunk-oriented Processing",
+      "anchor": "step-chunk-oriented-processing",
+      "virtual_path": "docs/step/chunk-oriented-processing.md",
+      "profile": "antora",
+      "score": 4242,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/commit-interval.html",
+      "title": "The Commit Interval",
+      "anchor": "step-chunk-oriented-processing-commit-interval",
+      "virtual_path": "docs/step/chunk-oriented-processing/commit-interval.md",
+      "profile": "antora",
+      "score": 4640,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/configuring-skip.html",
+      "title": "Configuring Skip Logic",
+      "anchor": "step-chunk-oriented-processing-configuring-skip",
+      "virtual_path": "docs/step/chunk-oriented-processing/configuring-skip.md",
+      "profile": "antora",
+      "score": 5522,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/configuring.html",
+      "title": "Configuring a Step",
+      "anchor": "step-chunk-oriented-processing-configuring",
+      "virtual_path": "docs/step/chunk-oriented-processing/configuring.md",
+      "profile": "antora",
+      "score": 7407,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/inheriting-from-parent.html",
+      "title": "Inheriting from a Parent Step",
+      "anchor": "step-chunk-oriented-processing-inheriting-from-parent",
+      "virtual_path": "docs/step/chunk-oriented-processing/inheriting-from-parent.md",
+      "profile": "antora",
+      "score": 6996,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/intercepting-execution.html",
+      "title": "Intercepting Step Execution",
+      "anchor": "step-chunk-oriented-processing-intercepting-execution",
+      "virtual_path": "docs/step/chunk-oriented-processing/intercepting-execution.md",
+      "profile": "antora",
+      "score": 17661,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/registering-item-streams.html",
+      "title": "Registering ItemStream with a Step",
+      "anchor": "step-chunk-oriented-processing-registering-item-streams",
+      "virtual_path": "docs/step/chunk-oriented-processing/registering-item-streams.md",
+      "profile": "antora",
+      "score": 4857,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/restart.html",
+      "title": "Configuring a Step for Restart",
+      "anchor": "step-chunk-oriented-processing-restart",
+      "virtual_path": "docs/step/chunk-oriented-processing/restart.md",
+      "profile": "antora",
+      "score": 14013,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/retry-logic.html",
+      "title": "Configuring Retry Logic",
+      "anchor": "step-chunk-oriented-processing-retry-logic",
+      "virtual_path": "docs/step/chunk-oriented-processing/retry-logic.md",
+      "profile": "antora",
+      "score": 4417,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing/transaction-attributes.html",
+      "title": "Transaction Attributes",
+      "anchor": "step-chunk-oriented-processing-transaction-attributes",
+      "virtual_path": "docs/step/chunk-oriented-processing/transaction-attributes.md",
+      "profile": "antora",
+      "score": 3916,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/controlling-flow.html",
+      "title": "Controlling Step Flow",
+      "anchor": "step-controlling-flow",
+      "virtual_path": "docs/step/controlling-flow.md",
+      "profile": "antora",
+      "score": 38992,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/late-binding.html",
+      "title": "Late Binding of Job and Step Attributes",
+      "anchor": "step-late-binding",
+      "virtual_path": "docs/step/late-binding.md",
+      "profile": "antora",
+      "score": 20248,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/step/tasklet.html",
+      "title": "TaskletStep",
+      "anchor": "step-tasklet",
+      "virtual_path": "docs/step/tasklet.md",
+      "profile": "antora",
+      "score": 10608,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/testing.html",
+      "title": "Unit Testing",
+      "anchor": "testing",
+      "virtual_path": "docs/testing.md",
+      "profile": "antora",
+      "score": 17956,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-batch/reference/whatsnew.html",
+      "title": "What’s new in Spring Batch 6",
+      "anchor": "whatsnew",
+      "virtual_path": "docs/whatsnew.md",
+      "profile": "antora",
+      "score": 28763,
+      "depth": 1
+    }
+  ]
+}

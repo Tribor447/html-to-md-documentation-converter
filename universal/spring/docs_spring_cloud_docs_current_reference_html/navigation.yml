@@ -1,0 +1,28 @@
+- title: 1. About the Documentation
+  kind: heading
+  source_url: https://docs.spring.io/spring-cloud/docs/current/reference/html/documentation-overview.html#documentation-about
+  anchor: documentation-overview--documentation-about
+  virtual_path: docs/documentation-overview.md
+- title: 2. Getting Help
+  kind: heading
+  source_url: https://docs.spring.io/spring-cloud/docs/current/reference/html/documentation-overview.html#documentation-getting-help
+  anchor: documentation-overview--documentation-getting-help
+  virtual_path: docs/documentation-overview.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Untitled
+    kind: link
+    source_url: https://docs.spring.io/spring-cloud/docs/current/reference/html/configprops.html
+    anchor: configprops
+    virtual_path: docs/configprops.md
+  - title: 'Appendix: Compendium of Configuration Properties'
+    kind: link
+    source_url: https://docs.spring.io/spring-cloud/docs/current/reference/html/
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Legal
+    kind: link
+    source_url: https://docs.spring.io/spring-cloud/docs/current/reference/html/legal.html
+    anchor: legal
+    virtual_path: docs/legal.md

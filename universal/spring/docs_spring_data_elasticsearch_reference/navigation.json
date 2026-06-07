@@ -1,0 +1,303 @@
+[
+  {
+    "title": "Overview",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md",
+        "children": [
+          {
+            "title": "Upgrading Spring Data",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/commons/upgrade.html",
+            "anchor": "commons-upgrade",
+            "virtual_path": "docs/commons/upgrade.md"
+          },
+          {
+            "title": "Migration Guides",
+            "kind": "category",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides.html",
+            "anchor": "migration-guides",
+            "virtual_path": "docs/migration-guides.md",
+            "children": [
+              {
+                "title": "Upgrading from 3.2.x to 4.0.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-3.2-4.0.html",
+                "anchor": "migration-guides-migration-guide-3.2-4.0",
+                "virtual_path": "docs/migration-guides/migration-guide-3.2-4.0.md"
+              },
+              {
+                "title": "Upgrading from 4.0.x to 4.1.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-4.0-4.1.html",
+                "anchor": "migration-guides-migration-guide-4.0-4.1",
+                "virtual_path": "docs/migration-guides/migration-guide-4.0-4.1.md"
+              },
+              {
+                "title": "Upgrading from 4.1.x to 4.2.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-4.1-4.2.html",
+                "anchor": "migration-guides-migration-guide-4.1-4.2",
+                "virtual_path": "docs/migration-guides/migration-guide-4.1-4.2.md"
+              },
+              {
+                "title": "Upgrading from 4.2.x to 4.3.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-4.2-4.3.html",
+                "anchor": "migration-guides-migration-guide-4.2-4.3",
+                "virtual_path": "docs/migration-guides/migration-guide-4.2-4.3.md"
+              },
+              {
+                "title": "Upgrading from 4.3.x to 4.4.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-4.3-4.4.html",
+                "anchor": "migration-guides-migration-guide-4.3-4.4",
+                "virtual_path": "docs/migration-guides/migration-guide-4.3-4.4.md"
+              },
+              {
+                "title": "Upgrading from 4.4.x to 5.0.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-4.4-5.0.html",
+                "anchor": "migration-guides-migration-guide-4.4-5.0",
+                "virtual_path": "docs/migration-guides/migration-guide-4.4-5.0.md"
+              },
+              {
+                "title": "Upgrading from 5.0.x to 5.1.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-5.0-5.1.html",
+                "anchor": "migration-guides-migration-guide-5.0-5.1",
+                "virtual_path": "docs/migration-guides/migration-guide-5.0-5.1.md"
+              },
+              {
+                "title": "Upgrading from 5.1.x to 5.2.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-5.1-5.2.html",
+                "anchor": "migration-guides-migration-guide-5.1-5.2",
+                "virtual_path": "docs/migration-guides/migration-guide-5.1-5.2.md"
+              },
+              {
+                "title": "Upgrading from 5.2.x to 5.3.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-5.2-5.3.html",
+                "anchor": "migration-guides-migration-guide-5.2-5.3",
+                "virtual_path": "docs/migration-guides/migration-guide-5.2-5.3.md"
+              },
+              {
+                "title": "Upgrading from 5.3.x to 5.4.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-5.3-5.4.html",
+                "anchor": "migration-guides-migration-guide-5.3-5.4",
+                "virtual_path": "docs/migration-guides/migration-guide-5.3-5.4.md"
+              },
+              {
+                "title": "Upgrading from 5.4.x to 5.5.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-5.4-5.5.html",
+                "anchor": "migration-guides-migration-guide-5.4-5.5",
+                "virtual_path": "docs/migration-guides/migration-guide-5.4-5.5.md"
+              },
+              {
+                "title": "Upgrading from 5.5.x to 6.0.x",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/migration-guides/migration-guide-5.5-6.0.html",
+                "anchor": "migration-guides-migration-guide-5.5-6.0",
+                "virtual_path": "docs/migration-guides/migration-guide-5.5-6.0.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Elasticsearch Support",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch.html",
+        "anchor": "elasticsearch",
+        "virtual_path": "docs/elasticsearch.md",
+        "children": [
+          {
+            "title": "Elasticsearch Clients",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/clients.html",
+            "anchor": "elasticsearch-clients",
+            "virtual_path": "docs/elasticsearch/clients.md"
+          },
+          {
+            "title": "Elasticsearch Object Mapping",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/object-mapping.html",
+            "anchor": "elasticsearch-object-mapping",
+            "virtual_path": "docs/elasticsearch/object-mapping.md"
+          },
+          {
+            "title": "Elasticsearch Operations",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/template.html",
+            "anchor": "elasticsearch-template",
+            "virtual_path": "docs/elasticsearch/template.md"
+          },
+          {
+            "title": "Reactive Elasticsearch Operations",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/reactive-template.html",
+            "anchor": "elasticsearch-reactive-template",
+            "virtual_path": "docs/elasticsearch/reactive-template.md"
+          },
+          {
+            "title": "Entity Callbacks",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/entity-callbacks.html",
+            "anchor": "elasticsearch-entity-callbacks",
+            "virtual_path": "docs/elasticsearch/entity-callbacks.md"
+          },
+          {
+            "title": "Elasticsearch Auditing",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/auditing.html",
+            "anchor": "elasticsearch-auditing",
+            "virtual_path": "docs/elasticsearch/auditing.md"
+          },
+          {
+            "title": "Join-Type implementation",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/join-types.html",
+            "anchor": "elasticsearch-join-types",
+            "virtual_path": "docs/elasticsearch/join-types.md"
+          },
+          {
+            "title": "Routing values",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/routing.html",
+            "anchor": "elasticsearch-routing",
+            "virtual_path": "docs/elasticsearch/routing.md"
+          },
+          {
+            "title": "Miscellaneous Elasticsearch Operation Support",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/misc.html",
+            "anchor": "elasticsearch-misc",
+            "virtual_path": "docs/elasticsearch/misc.md"
+          },
+          {
+            "title": "Scripted and runtime fields",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/scripted-and-runtime-fields.html",
+            "anchor": "elasticsearch-scripted-and-runtime-fields",
+            "virtual_path": "docs/elasticsearch/scripted-and-runtime-fields.md"
+          }
+        ]
+      },
+      {
+        "title": "Repositories",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/repositories.html",
+        "anchor": "repositories",
+        "virtual_path": "docs/repositories.md",
+        "children": [
+          {
+            "title": "Core concepts",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/repositories/core-concepts.html",
+            "anchor": "repositories-core-concepts",
+            "virtual_path": "docs/repositories/core-concepts.md"
+          },
+          {
+            "title": "Defining Repository Interfaces",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/repositories/definition.html",
+            "anchor": "repositories-definition",
+            "virtual_path": "docs/repositories/definition.md"
+          },
+          {
+            "title": "Elasticsearch Repositories",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/repositories/elasticsearch-repositories.html",
+            "anchor": "elasticsearch-repositories-elasticsearch-repositories",
+            "virtual_path": "docs/elasticsearch/repositories/elasticsearch-repositories.md"
+          },
+          {
+            "title": "Reactive Elasticsearch Repositories",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/repositories/reactive-elasticsearch-repositories.html",
+            "anchor": "elasticsearch-repositories-reactive-elasticsearch-repositories",
+            "virtual_path": "docs/elasticsearch/repositories/reactive-elasticsearch-repositories.md"
+          },
+          {
+            "title": "Creating Repository Instances",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/repositories/create-instances.html",
+            "anchor": "repositories-create-instances",
+            "virtual_path": "docs/repositories/create-instances.md"
+          },
+          {
+            "title": "Defining Query Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/repositories/query-methods-details.html",
+            "anchor": "repositories-query-methods-details",
+            "virtual_path": "docs/repositories/query-methods-details.md"
+          },
+          {
+            "title": "Query methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/repositories/elasticsearch-repository-queries.html",
+            "anchor": "elasticsearch-repositories-elasticsearch-repository-queries",
+            "virtual_path": "docs/elasticsearch/repositories/elasticsearch-repository-queries.md"
+          },
+          {
+            "title": "Projections",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/repositories/projections.html",
+            "anchor": "repositories-projections",
+            "virtual_path": "docs/repositories/projections.md"
+          },
+          {
+            "title": "Custom Repository Implementations",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/repositories/custom-implementations.html",
+            "anchor": "repositories-custom-implementations",
+            "virtual_path": "docs/repositories/custom-implementations.md"
+          },
+          {
+            "title": "Publishing Events from Aggregate Roots",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/repositories/core-domain-events.html",
+            "anchor": "repositories-core-domain-events",
+            "virtual_path": "docs/repositories/core-domain-events.md"
+          },
+          {
+            "title": "Null Handling of Repository Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/repositories/null-handling.html",
+            "anchor": "repositories-null-handling",
+            "virtual_path": "docs/repositories/null-handling.md"
+          },
+          {
+            "title": "CDI Integration",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch/repositories/cdi-integration.html",
+            "anchor": "elasticsearch-repositories-cdi-integration",
+            "virtual_path": "docs/elasticsearch/repositories/cdi-integration.md"
+          },
+          {
+            "title": "Repository query keywords",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/repositories/query-keywords-reference.html",
+            "anchor": "repositories-query-keywords-reference",
+            "virtual_path": "docs/repositories/query-keywords-reference.md"
+          },
+          {
+            "title": "Repository query return types",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/elasticsearch/reference/repositories/query-return-types-reference.html",
+            "anchor": "repositories-query-return-types-reference",
+            "virtual_path": "docs/repositories/query-return-types-reference.md"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "title": "Overview",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/jpa/reference/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md",
+        "children": [
+          {
+            "title": "Upgrading Spring Data",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/commons/upgrade.html",
+            "anchor": "commons-upgrade",
+            "virtual_path": "docs/commons/upgrade.md"
+          }
+        ]
+      },
+      {
+        "title": "JPA",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa.html",
+        "anchor": "jpa",
+        "virtual_path": "docs/jpa.md",
+        "children": [
+          {
+            "title": "Getting Started",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/getting-started.html",
+            "anchor": "jpa-getting-started",
+            "virtual_path": "docs/jpa/getting-started.md"
+          },
+          {
+            "title": "Core concepts",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/core-concepts.html",
+            "anchor": "repositories-core-concepts",
+            "virtual_path": "docs/repositories/core-concepts.md"
+          },
+          {
+            "title": "Defining Repository Interfaces",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/definition.html",
+            "anchor": "repositories-definition",
+            "virtual_path": "docs/repositories/definition.md"
+          },
+          {
+            "title": "Configuration",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/create-instances.html",
+            "anchor": "repositories-create-instances",
+            "virtual_path": "docs/repositories/create-instances.md"
+          },
+          {
+            "title": "Persisting Entities",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/entity-persistence.html",
+            "anchor": "jpa-entity-persistence",
+            "virtual_path": "docs/jpa/entity-persistence.md"
+          },
+          {
+            "title": "Defining Query Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/query-methods-details.html",
+            "anchor": "repositories-query-methods-details",
+            "virtual_path": "docs/repositories/query-methods-details.md"
+          },
+          {
+            "title": "JPA Query Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html",
+            "anchor": "jpa-query-methods",
+            "virtual_path": "docs/jpa/query-methods.md"
+          },
+          {
+            "title": "Value Expressions Fundamentals",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/value-expressions.html",
+            "anchor": "jpa-value-expressions",
+            "virtual_path": "docs/jpa/value-expressions.md"
+          },
+          {
+            "title": "Projections",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/projections.html",
+            "anchor": "repositories-projections",
+            "virtual_path": "docs/repositories/projections.md"
+          },
+          {
+            "title": "Stored Procedures",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/stored-procedures.html",
+            "anchor": "jpa-stored-procedures",
+            "virtual_path": "docs/jpa/stored-procedures.md"
+          },
+          {
+            "title": "Specifications",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/specifications.html",
+            "anchor": "jpa-specifications",
+            "virtual_path": "docs/jpa/specifications.md"
+          },
+          {
+            "title": "Query by Example",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/query-by-example.html",
+            "anchor": "repositories-query-by-example",
+            "virtual_path": "docs/repositories/query-by-example.md"
+          },
+          {
+            "title": "Vector Search",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/vector-search.html",
+            "anchor": "repositories-vector-search",
+            "virtual_path": "docs/repositories/vector-search.md"
+          },
+          {
+            "title": "Transactionality",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/transactions.html",
+            "anchor": "jpa-transactions",
+            "virtual_path": "docs/jpa/transactions.md"
+          },
+          {
+            "title": "Locking",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/locking.html",
+            "anchor": "jpa-locking",
+            "virtual_path": "docs/jpa/locking.md"
+          },
+          {
+            "title": "Auditing",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/auditing.html",
+            "anchor": "auditing",
+            "virtual_path": "docs/auditing.md"
+          },
+          {
+            "title": "Merging persistence units",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/misc-merging-persistence-units.html",
+            "anchor": "jpa-misc-merging-persistence-units",
+            "virtual_path": "docs/jpa/misc-merging-persistence-units.md"
+          },
+          {
+            "title": "CDI Integration",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/jpd-misc-cdi-integration.html",
+            "anchor": "jpa-jpd-misc-cdi-integration",
+            "virtual_path": "docs/jpa/jpd-misc-cdi-integration.md"
+          },
+          {
+            "title": "Custom Repository Implementations",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/custom-implementations.html",
+            "anchor": "repositories-custom-implementations",
+            "virtual_path": "docs/repositories/custom-implementations.md"
+          },
+          {
+            "title": "Publishing Events from Aggregate Roots",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/core-domain-events.html",
+            "anchor": "repositories-core-domain-events",
+            "virtual_path": "docs/repositories/core-domain-events.md"
+          },
+          {
+            "title": "Null Handling of Repository Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/null-handling.html",
+            "anchor": "repositories-null-handling",
+            "virtual_path": "docs/repositories/null-handling.md"
+          },
+          {
+            "title": "Spring Data Extensions",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/core-extensions.html",
+            "anchor": "repositories-core-extensions",
+            "virtual_path": "docs/repositories/core-extensions.md"
+          },
+          {
+            "title": "Repository query keywords",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/query-keywords-reference.html",
+            "anchor": "repositories-query-keywords-reference",
+            "virtual_path": "docs/repositories/query-keywords-reference.md"
+          },
+          {
+            "title": "Repository query return types",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/repositories/query-return-types-reference.html",
+            "anchor": "repositories-query-return-types-reference",
+            "virtual_path": "docs/repositories/query-return-types-reference.md"
+          },
+          {
+            "title": "Ahead of Time Optimizations",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/aot.html",
+            "anchor": "jpa-aot",
+            "virtual_path": "docs/jpa/aot.md"
+          },
+          {
+            "title": "Frequently Asked Questions",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/faq.html",
+            "anchor": "jpa-faq",
+            "virtual_path": "docs/jpa/faq.md"
+          },
+          {
+            "title": "Glossary",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/jpa/glossary.html",
+            "anchor": "jpa-glossary",
+            "virtual_path": "docs/jpa/glossary.md"
+          }
+        ]
+      },
+      {
+        "title": "Envers",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/jpa/reference/envers.html",
+        "anchor": "envers",
+        "virtual_path": "docs/envers.md",
+        "children": [
+          {
+            "title": "Introduction",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/envers/introduction.html",
+            "anchor": "envers-introduction",
+            "virtual_path": "docs/envers/introduction.md"
+          },
+          {
+            "title": "Configuration",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/envers/configuration.html",
+            "anchor": "envers-configuration",
+            "virtual_path": "docs/envers/configuration.md"
+          },
+          {
+            "title": "Usage",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/jpa/reference/envers/usage.html",
+            "anchor": "envers-usage",
+            "virtual_path": "docs/envers/usage.md"
+          }
+        ]
+      }
+    ]
+  }
+]

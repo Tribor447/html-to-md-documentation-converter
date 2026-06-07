@@ -1,0 +1,1507 @@
+- title: Overview
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://docs.spring.io/spring-boot/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Documentation
+    kind: link
+    source_url: https://docs.spring.io/spring-boot/documentation.html
+    anchor: documentation
+    virtual_path: docs/documentation.md
+  - title: Community
+    kind: link
+    source_url: https://docs.spring.io/spring-boot/community.html
+    anchor: community
+    virtual_path: docs/community.md
+  - title: System Requirements
+    kind: link
+    source_url: https://docs.spring.io/spring-boot/system-requirements.html
+    anchor: system-requirements
+    virtual_path: docs/system-requirements.md
+  - title: Installing Spring Boot
+    kind: link
+    source_url: https://docs.spring.io/spring-boot/installing.html
+    anchor: installing
+    virtual_path: docs/installing.md
+  - title: Upgrading Spring Boot
+    kind: link
+    source_url: https://docs.spring.io/spring-boot/upgrading.html
+    anchor: upgrading
+    virtual_path: docs/upgrading.md
+  - title: Tutorials
+    kind: category
+    source_url: https://docs.spring.io/spring-boot/tutorial/index.html
+    anchor: tutorial
+    virtual_path: docs/tutorial/index.md
+    children:
+    - title: Developing Your First Spring Boot Application
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/tutorial/first-application/index.html
+      anchor: tutorial-first-application
+      virtual_path: docs/tutorial/first-application/index.md
+  - title: Reference
+    kind: category
+    source_url: https://docs.spring.io/spring-boot/reference/index.html
+    anchor: reference
+    virtual_path: docs/reference/index.md
+    children:
+    - title: Developing with Spring Boot
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/reference/using/index.html
+      anchor: reference-using
+      virtual_path: docs/reference/using/index.md
+      children:
+      - title: Build Systems
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/using/build-systems.html
+        anchor: reference-using-build-systems
+        virtual_path: docs/reference/using/build-systems.md
+      - title: Structuring Your Code
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/using/structuring-your-code.html
+        anchor: reference-using-structuring-your-code
+        virtual_path: docs/reference/using/structuring-your-code.md
+      - title: Configuration Classes
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/using/configuration-classes.html
+        anchor: reference-using-configuration-classes
+        virtual_path: docs/reference/using/configuration-classes.md
+      - title: Auto-configuration
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/using/auto-configuration.html
+        anchor: reference-using-auto-configuration
+        virtual_path: docs/reference/using/auto-configuration.md
+      - title: Spring Beans and Dependency Injection
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/using/spring-beans-and-dependency-injection.html
+        anchor: reference-using-spring-beans-and-dependency-injection
+        virtual_path: docs/reference/using/spring-beans-and-dependency-injection.md
+      - title: Using the @SpringBootApplication Annotation
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/using/using-the-springbootapplication-annotation.html
+        anchor: reference-using-using-the-springbootapplication-annotation
+        virtual_path: docs/reference/using/using-the-springbootapplication-annotation.md
+      - title: Running Your Application
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/using/running-your-application.html
+        anchor: reference-using-running-your-application
+        virtual_path: docs/reference/using/running-your-application.md
+      - title: Developer Tools
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/using/devtools.html
+        anchor: reference-using-devtools
+        virtual_path: docs/reference/using/devtools.md
+      - title: Packaging Your Application for Production
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/using/packaging-for-production.html
+        anchor: reference-using-packaging-for-production
+        virtual_path: docs/reference/using/packaging-for-production.md
+    - title: Core Features
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/reference/features/index.html
+      anchor: reference-features
+      virtual_path: docs/reference/features/index.md
+      children:
+      - title: SpringApplication
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/spring-application.html
+        anchor: reference-features-spring-application
+        virtual_path: docs/reference/features/spring-application.md
+      - title: Externalized Configuration
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/external-config.html
+        anchor: reference-features-external-config
+        virtual_path: docs/reference/features/external-config.md
+      - title: Profiles
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/profiles.html
+        anchor: reference-features-profiles
+        virtual_path: docs/reference/features/profiles.md
+      - title: Logging
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/logging.html
+        anchor: reference-features-logging
+        virtual_path: docs/reference/features/logging.md
+      - title: Internationalization
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/internationalization.html
+        anchor: reference-features-internationalization
+        virtual_path: docs/reference/features/internationalization.md
+      - title: Aspect-Oriented Programming
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/aop.html
+        anchor: reference-features-aop
+        virtual_path: docs/reference/features/aop.md
+      - title: JSON
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/json.html
+        anchor: reference-features-json
+        virtual_path: docs/reference/features/json.md
+      - title: Task Execution and Scheduling
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/task-execution-and-scheduling.html
+        anchor: reference-features-task-execution-and-scheduling
+        virtual_path: docs/reference/features/task-execution-and-scheduling.md
+      - title: Development-time Services
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/dev-services.html
+        anchor: reference-features-dev-services
+        virtual_path: docs/reference/features/dev-services.md
+      - title: Creating Your Own Auto-configuration
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/developing-auto-configuration.html
+        anchor: reference-features-developing-auto-configuration
+        virtual_path: docs/reference/features/developing-auto-configuration.md
+      - title: Kotlin Support
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/kotlin.html
+        anchor: reference-features-kotlin
+        virtual_path: docs/reference/features/kotlin.md
+      - title: SSL
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/features/ssl.html
+        anchor: reference-features-ssl
+        virtual_path: docs/reference/features/ssl.md
+    - title: Web
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/reference/web/index.html
+      anchor: reference-web
+      virtual_path: docs/reference/web/index.md
+      children:
+      - title: Servlet Web Applications
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/web/servlet.html
+        anchor: reference-web-servlet
+        virtual_path: docs/reference/web/servlet.md
+      - title: Reactive Web Applications
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/web/reactive.html
+        anchor: reference-web-reactive
+        virtual_path: docs/reference/web/reactive.md
+      - title: Graceful Shutdown
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/web/graceful-shutdown.html
+        anchor: reference-web-graceful-shutdown
+        virtual_path: docs/reference/web/graceful-shutdown.md
+      - title: Spring Security
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/web/spring-security.html
+        anchor: reference-web-spring-security
+        virtual_path: docs/reference/web/spring-security.md
+      - title: Spring Session
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/web/spring-session.html
+        anchor: reference-web-spring-session
+        virtual_path: docs/reference/web/spring-session.md
+      - title: Spring for GraphQL
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/web/spring-graphql.html
+        anchor: reference-web-spring-graphql
+        virtual_path: docs/reference/web/spring-graphql.md
+      - title: Spring HATEOAS
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/web/spring-hateoas.html
+        anchor: reference-web-spring-hateoas
+        virtual_path: docs/reference/web/spring-hateoas.md
+    - title: Data
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/reference/data/index.html
+      anchor: reference-data
+      virtual_path: docs/reference/data/index.md
+      children:
+      - title: SQL Databases
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/data/sql.html
+        anchor: reference-data-sql
+        virtual_path: docs/reference/data/sql.md
+      - title: Working with NoSQL Technologies
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/data/nosql.html
+        anchor: reference-data-nosql
+        virtual_path: docs/reference/data/nosql.md
+    - title: IO
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/reference/io/index.html
+      anchor: reference-io
+      virtual_path: docs/reference/io/index.md
+      children:
+      - title: Caching
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/io/caching.html
+        anchor: reference-io-caching
+        virtual_path: docs/reference/io/caching.md
+      - title: Spring Batch
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/io/spring-batch.html
+        anchor: reference-io-spring-batch
+        virtual_path: docs/reference/io/spring-batch.md
+      - title: gRPC
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/io/grpc.html
+        anchor: reference-io-grpc
+        virtual_path: docs/reference/io/grpc.md
+      - title: Hazelcast
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/io/hazelcast.html
+        anchor: reference-io-hazelcast
+        virtual_path: docs/reference/io/hazelcast.md
+      - title: Quartz Scheduler
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/io/quartz.html
+        anchor: reference-io-quartz
+        virtual_path: docs/reference/io/quartz.md
+      - title: Sending Email
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/io/email.html
+        anchor: reference-io-email
+        virtual_path: docs/reference/io/email.md
+      - title: Validation
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/io/validation.html
+        anchor: reference-io-validation
+        virtual_path: docs/reference/io/validation.md
+      - title: Calling REST Services
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/io/rest-client.html
+        anchor: reference-io-rest-client
+        virtual_path: docs/reference/io/rest-client.md
+      - title: Web Services
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/io/webservices.html
+        anchor: reference-io-webservices
+        virtual_path: docs/reference/io/webservices.md
+      - title: Distributed Transactions With JTA
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/io/jta.html
+        anchor: reference-io-jta
+        virtual_path: docs/reference/io/jta.md
+    - title: Messaging
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/reference/messaging/index.html
+      anchor: reference-messaging
+      virtual_path: docs/reference/messaging/index.md
+      children:
+      - title: JMS
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/messaging/jms.html
+        anchor: reference-messaging-jms
+        virtual_path: docs/reference/messaging/jms.md
+      - title: AMQP
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/messaging/amqp.html
+        anchor: reference-messaging-amqp
+        virtual_path: docs/reference/messaging/amqp.md
+      - title: Apache Kafka Support
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/messaging/kafka.html
+        anchor: reference-messaging-kafka
+        virtual_path: docs/reference/messaging/kafka.md
+      - title: Apache Pulsar Support
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/messaging/pulsar.html
+        anchor: reference-messaging-pulsar
+        virtual_path: docs/reference/messaging/pulsar.md
+      - title: RSocket
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/messaging/rsocket.html
+        anchor: reference-messaging-rsocket
+        virtual_path: docs/reference/messaging/rsocket.md
+      - title: Spring Integration
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/messaging/spring-integration.html
+        anchor: reference-messaging-spring-integration
+        virtual_path: docs/reference/messaging/spring-integration.md
+      - title: WebSockets
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/messaging/websockets.html
+        anchor: reference-messaging-websockets
+        virtual_path: docs/reference/messaging/websockets.md
+    - title: Security
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/reference/security/index.html
+      anchor: reference-security
+      virtual_path: docs/reference/security/index.md
+      children:
+      - title: OAuth2
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/security/oauth2.html
+        anchor: reference-security-oauth2
+        virtual_path: docs/reference/security/oauth2.md
+      - title: SAML 2.0
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/security/saml2.html
+        anchor: reference-security-saml2
+        virtual_path: docs/reference/security/saml2.md
+    - title: Testing
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/reference/testing/index.html
+      anchor: reference-testing
+      virtual_path: docs/reference/testing/index.md
+      children:
+      - title: Test Modules
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/testing/test-modules.html
+        anchor: reference-testing-test-modules
+        virtual_path: docs/reference/testing/test-modules.md
+      - title: Test Scope Dependencies
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/testing/test-scope-dependencies.html
+        anchor: reference-testing-test-scope-dependencies
+        virtual_path: docs/reference/testing/test-scope-dependencies.md
+      - title: Testing Spring Applications
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/testing/spring-applications.html
+        anchor: reference-testing-spring-applications
+        virtual_path: docs/reference/testing/spring-applications.md
+      - title: Testing Spring Boot Applications
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/testing/spring-boot-applications.html
+        anchor: reference-testing-spring-boot-applications
+        virtual_path: docs/reference/testing/spring-boot-applications.md
+      - title: Testcontainers
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/testing/testcontainers.html
+        anchor: reference-testing-testcontainers
+        virtual_path: docs/reference/testing/testcontainers.md
+      - title: Test Utilities
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/testing/test-utilities.html
+        anchor: reference-testing-test-utilities
+        virtual_path: docs/reference/testing/test-utilities.md
+    - title: Packaging Spring Boot Applications
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/reference/packaging/index.html
+      anchor: reference-packaging
+      virtual_path: docs/reference/packaging/index.md
+      children:
+      - title: Efficient Deployments
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/packaging/efficient.html
+        anchor: reference-packaging-efficient
+        virtual_path: docs/reference/packaging/efficient.md
+      - title: AOT Cache
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/packaging/aot-cache.html
+        anchor: reference-packaging-aot-cache
+        virtual_path: docs/reference/packaging/aot-cache.md
+      - title: Ahead-of-Time Processing With the JVM
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/packaging/aot.html
+        anchor: reference-packaging-aot
+        virtual_path: docs/reference/packaging/aot.md
+      - title: GraalVM Native Images
+        kind: category
+        source_url: https://docs.spring.io/spring-boot/reference/packaging/native-image/index.html
+        anchor: reference-packaging-native-image
+        virtual_path: docs/reference/packaging/native-image/index.md
+        children:
+        - title: Introducing GraalVM Native Images
+          kind: link
+          source_url: https://docs.spring.io/spring-boot/reference/packaging/native-image/introducing-graalvm-native-images.html
+          anchor: reference-packaging-native-image-introducing-graalvm-native-images
+          virtual_path: docs/reference/packaging/native-image/introducing-graalvm-native-images.md
+        - title: Advanced Native Images Topics
+          kind: link
+          source_url: https://docs.spring.io/spring-boot/reference/packaging/native-image/advanced-topics.html
+          anchor: reference-packaging-native-image-advanced-topics
+          virtual_path: docs/reference/packaging/native-image/advanced-topics.md
+      - title: Checkpoint and Restore With the JVM
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/packaging/checkpoint-restore.html
+        anchor: reference-packaging-checkpoint-restore
+        virtual_path: docs/reference/packaging/checkpoint-restore.md
+      - title: Container Images
+        kind: category
+        source_url: https://docs.spring.io/spring-boot/reference/packaging/container-images/index.html
+        anchor: reference-packaging-container-images
+        virtual_path: docs/reference/packaging/container-images/index.md
+        children:
+        - title: Efficient Container Images
+          kind: link
+          source_url: https://docs.spring.io/spring-boot/reference/packaging/container-images/efficient-images.html
+          anchor: reference-packaging-container-images-efficient-images
+          virtual_path: docs/reference/packaging/container-images/efficient-images.md
+        - title: Dockerfiles
+          kind: link
+          source_url: https://docs.spring.io/spring-boot/reference/packaging/container-images/dockerfiles.html
+          anchor: reference-packaging-container-images-dockerfiles
+          virtual_path: docs/reference/packaging/container-images/dockerfiles.md
+        - title: Cloud Native Buildpacks
+          kind: link
+          source_url: https://docs.spring.io/spring-boot/reference/packaging/container-images/cloud-native-buildpacks.html
+          anchor: reference-packaging-container-images-cloud-native-buildpacks
+          virtual_path: docs/reference/packaging/container-images/cloud-native-buildpacks.md
+    - title: Production-ready Features
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/reference/actuator/index.html
+      anchor: reference-actuator
+      virtual_path: docs/reference/actuator/index.md
+      children:
+      - title: Enabling Production-ready Features
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/enabling.html
+        anchor: reference-actuator-enabling
+        virtual_path: docs/reference/actuator/enabling.md
+      - title: Endpoints
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/endpoints.html
+        anchor: reference-actuator-endpoints
+        virtual_path: docs/reference/actuator/endpoints.md
+      - title: Monitoring and Management Over HTTP
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/monitoring.html
+        anchor: reference-actuator-monitoring
+        virtual_path: docs/reference/actuator/monitoring.md
+      - title: Monitoring and Management over JMX
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/jmx.html
+        anchor: reference-actuator-jmx
+        virtual_path: docs/reference/actuator/jmx.md
+      - title: Observability
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/observability.html
+        anchor: reference-actuator-observability
+        virtual_path: docs/reference/actuator/observability.md
+      - title: Loggers
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/loggers.html
+        anchor: reference-actuator-loggers
+        virtual_path: docs/reference/actuator/loggers.md
+      - title: Metrics
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/metrics.html
+        anchor: reference-actuator-metrics
+        virtual_path: docs/reference/actuator/metrics.md
+      - title: Tracing
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/tracing.html
+        anchor: reference-actuator-tracing
+        virtual_path: docs/reference/actuator/tracing.md
+      - title: Auditing
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/auditing.html
+        anchor: reference-actuator-auditing
+        virtual_path: docs/reference/actuator/auditing.md
+      - title: Recording HTTP Exchanges
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/http-exchanges.html
+        anchor: reference-actuator-http-exchanges
+        virtual_path: docs/reference/actuator/http-exchanges.md
+      - title: Process Monitoring
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/process-monitoring.html
+        anchor: reference-actuator-process-monitoring
+        virtual_path: docs/reference/actuator/process-monitoring.md
+      - title: Cloud Foundry Support
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/reference/actuator/cloud-foundry.html
+        anchor: reference-actuator-cloud-foundry
+        virtual_path: docs/reference/actuator/cloud-foundry.md
+  - title: How-to Guides
+    kind: category
+    source_url: https://docs.spring.io/spring-boot/how-to/index.html
+    anchor: how-to
+    virtual_path: docs/how-to/index.md
+    children:
+    - title: Spring Boot Application
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/application.html
+      anchor: how-to-application
+      virtual_path: docs/how-to/application.md
+    - title: Properties and Configuration
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/properties-and-configuration.html
+      anchor: how-to-properties-and-configuration
+      virtual_path: docs/how-to/properties-and-configuration.md
+    - title: Embedded Web Servers
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/webserver.html
+      anchor: how-to-webserver
+      virtual_path: docs/how-to/webserver.md
+    - title: Spring MVC
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/spring-mvc.html
+      anchor: how-to-spring-mvc
+      virtual_path: docs/how-to/spring-mvc.md
+    - title: Jersey
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/jersey.html
+      anchor: how-to-jersey
+      virtual_path: docs/how-to/jersey.md
+    - title: HTTP Clients
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/http-clients.html
+      anchor: how-to-http-clients
+      virtual_path: docs/how-to/http-clients.md
+    - title: Logging
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/logging.html
+      anchor: how-to-logging
+      virtual_path: docs/how-to/logging.md
+    - title: Data Access
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/data-access.html
+      anchor: how-to-data-access
+      virtual_path: docs/how-to/data-access.md
+    - title: Database Initialization
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/data-initialization.html
+      anchor: how-to-data-initialization
+      virtual_path: docs/how-to/data-initialization.md
+    - title: NoSQL
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/nosql.html
+      anchor: how-to-nosql
+      virtual_path: docs/how-to/nosql.md
+    - title: Messaging
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/messaging.html
+      anchor: how-to-messaging
+      virtual_path: docs/how-to/messaging.md
+    - title: Batch Applications
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/batch.html
+      anchor: how-to-batch
+      virtual_path: docs/how-to/batch.md
+    - title: Actuator
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/actuator.html
+      anchor: how-to-actuator
+      virtual_path: docs/how-to/actuator.md
+    - title: Security
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/security.html
+      anchor: how-to-security
+      virtual_path: docs/how-to/security.md
+    - title: Hot Swapping
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/hotswapping.html
+      anchor: how-to-hotswapping
+      virtual_path: docs/how-to/hotswapping.md
+    - title: Testing
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/testing.html
+      anchor: how-to-testing
+      virtual_path: docs/how-to/testing.md
+    - title: Build
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/build.html
+      anchor: how-to-build
+      virtual_path: docs/how-to/build.md
+    - title: Ahead-of-Time Processing
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/aot.html
+      anchor: how-to-aot
+      virtual_path: docs/how-to/aot.md
+    - title: GraalVM Native Applications
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/how-to/native-image/index.html
+      anchor: how-to-native-image
+      virtual_path: docs/how-to/native-image/index.md
+      children:
+      - title: Developing Your First GraalVM Native Application
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/how-to/native-image/developing-your-first-application.html
+        anchor: how-to-native-image-developing-your-first-application
+        virtual_path: docs/how-to/native-image/developing-your-first-application.md
+      - title: Testing GraalVM Native Images
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/how-to/native-image/testing-native-applications.html
+        anchor: how-to-native-image-testing-native-applications
+        virtual_path: docs/how-to/native-image/testing-native-applications.md
+    - title: AOT Cache
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/aot-cache.html
+      anchor: how-to-aot-cache
+      virtual_path: docs/how-to/aot-cache.md
+    - title: Deploying Spring Boot Applications
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/how-to/deployment/index.html
+      anchor: how-to-deployment
+      virtual_path: docs/how-to/deployment/index.md
+      children:
+      - title: Traditional Deployment
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/how-to/deployment/traditional-deployment.html
+        anchor: how-to-deployment-traditional-deployment
+        virtual_path: docs/how-to/deployment/traditional-deployment.md
+      - title: Deploying to the Cloud
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/how-to/deployment/cloud.html
+        anchor: how-to-deployment-cloud
+        virtual_path: docs/how-to/deployment/cloud.md
+      - title: Installing Spring Boot Applications
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/how-to/deployment/installing.html
+        anchor: how-to-deployment-installing
+        virtual_path: docs/how-to/deployment/installing.md
+    - title: Docker Compose
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/how-to/docker-compose.html
+      anchor: how-to-docker-compose
+      virtual_path: docs/how-to/docker-compose.md
+  - title: Build Tool Plugins
+    kind: category
+    source_url: https://docs.spring.io/spring-boot/build-tool-plugin/index.html
+    anchor: build-tool-plugin
+    virtual_path: docs/build-tool-plugin/index.md
+    children:
+    - title: Maven Plugin
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/maven-plugin/index.html
+      anchor: maven-plugin
+      virtual_path: docs/maven-plugin/index.md
+      children:
+      - title: Getting Started
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/maven-plugin/getting-started.html
+        anchor: maven-plugin-getting-started
+        virtual_path: docs/maven-plugin/getting-started.md
+      - title: Using the Plugin
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/maven-plugin/using.html
+        anchor: maven-plugin-using
+        virtual_path: docs/maven-plugin/using.md
+      - title: Goals
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/maven-plugin/goals.html
+        anchor: maven-plugin-goals
+        virtual_path: docs/maven-plugin/goals.md
+      - title: Packaging Executable Archives
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/maven-plugin/packaging.html
+        anchor: maven-plugin-packaging
+        virtual_path: docs/maven-plugin/packaging.md
+      - title: Packaging OCI Images
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/maven-plugin/build-image.html
+        anchor: maven-plugin-build-image
+        virtual_path: docs/maven-plugin/build-image.md
+      - title: Running your Application with Maven
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/maven-plugin/run.html
+        anchor: maven-plugin-run
+        virtual_path: docs/maven-plugin/run.md
+      - title: Ahead-of-Time Processing
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/maven-plugin/aot.html
+        anchor: maven-plugin-aot
+        virtual_path: docs/maven-plugin/aot.md
+      - title: Running Integration Tests
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/maven-plugin/integration-tests.html
+        anchor: maven-plugin-integration-tests
+        virtual_path: docs/maven-plugin/integration-tests.md
+      - title: Integrating with Actuator
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/maven-plugin/build-info.html
+        anchor: maven-plugin-build-info
+        virtual_path: docs/maven-plugin/build-info.md
+      - title: Help Information
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/maven-plugin/help.html
+        anchor: maven-plugin-help
+        virtual_path: docs/maven-plugin/help.md
+    - title: Gradle Plugin
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/gradle-plugin/index.html
+      anchor: gradle-plugin
+      virtual_path: docs/gradle-plugin/index.md
+      children:
+      - title: Getting Started
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/gradle-plugin/getting-started.html
+        anchor: gradle-plugin-getting-started
+        virtual_path: docs/gradle-plugin/getting-started.md
+      - title: Managing Dependencies
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/gradle-plugin/managing-dependencies.html
+        anchor: gradle-plugin-managing-dependencies
+        virtual_path: docs/gradle-plugin/managing-dependencies.md
+      - title: Packaging Executable Archives
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/gradle-plugin/packaging.html
+        anchor: gradle-plugin-packaging
+        virtual_path: docs/gradle-plugin/packaging.md
+      - title: Packaging OCI Images
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/gradle-plugin/packaging-oci-image.html
+        anchor: gradle-plugin-packaging-oci-image
+        virtual_path: docs/gradle-plugin/packaging-oci-image.md
+      - title: Publishing your Application
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/gradle-plugin/publishing.html
+        anchor: gradle-plugin-publishing
+        virtual_path: docs/gradle-plugin/publishing.md
+      - title: Running your Application with Gradle
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/gradle-plugin/running.html
+        anchor: gradle-plugin-running
+        virtual_path: docs/gradle-plugin/running.md
+      - title: Ahead-of-Time Processing
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/gradle-plugin/aot.html
+        anchor: gradle-plugin-aot
+        virtual_path: docs/gradle-plugin/aot.md
+      - title: Integrating with Actuator
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/gradle-plugin/integrating-with-actuator.html
+        anchor: gradle-plugin-integrating-with-actuator
+        virtual_path: docs/gradle-plugin/integrating-with-actuator.md
+      - title: Reacting to Other Plugins
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/gradle-plugin/reacting.html
+        anchor: gradle-plugin-reacting
+        virtual_path: docs/gradle-plugin/reacting.md
+    - title: Spring Boot AntLib Module
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/build-tool-plugin/antlib.html
+      anchor: build-tool-plugin-antlib
+      virtual_path: docs/build-tool-plugin/antlib.md
+    - title: Supporting Other Build Systems
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/build-tool-plugin/other-build-systems.html
+      anchor: build-tool-plugin-other-build-systems
+      virtual_path: docs/build-tool-plugin/other-build-systems.md
+  - title: Spring Boot CLI
+    kind: category
+    source_url: https://docs.spring.io/spring-boot/cli/index.html
+    anchor: cli
+    virtual_path: docs/cli/index.md
+    children:
+    - title: Installing the CLI
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/cli/installation.html
+      anchor: cli-installation
+      virtual_path: docs/cli/installation.md
+    - title: Using the CLI
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/cli/using-the-cli.html
+      anchor: cli-using-the-cli
+      virtual_path: docs/cli/using-the-cli.md
+  - title: Rest APIs
+    kind: category
+    children:
+    - title: Actuator
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/api/rest/actuator/index.html
+      anchor: api-rest-actuator
+      virtual_path: docs/api/rest/actuator/index.md
+      children:
+      - title: Audit Events ( auditevents )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/auditevents.html
+        anchor: api-rest-actuator-auditevents
+        virtual_path: docs/api/rest/actuator/auditevents.md
+      - title: Beans ( beans )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/beans.html
+        anchor: api-rest-actuator-beans
+        virtual_path: docs/api/rest/actuator/beans.md
+      - title: Caches ( caches )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/caches.html
+        anchor: api-rest-actuator-caches
+        virtual_path: docs/api/rest/actuator/caches.md
+      - title: Conditions Evaluation Report ( conditions )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/conditions.html
+        anchor: api-rest-actuator-conditions
+        virtual_path: docs/api/rest/actuator/conditions.md
+      - title: Configuration Properties ( configprops )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/configprops.html
+        anchor: api-rest-actuator-configprops
+        virtual_path: docs/api/rest/actuator/configprops.md
+      - title: Environment ( env )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/env.html
+        anchor: api-rest-actuator-env
+        virtual_path: docs/api/rest/actuator/env.md
+      - title: Flyway ( flyway )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/flyway.html
+        anchor: api-rest-actuator-flyway
+        virtual_path: docs/api/rest/actuator/flyway.md
+      - title: Health ( health )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/health.html
+        anchor: api-rest-actuator-health
+        virtual_path: docs/api/rest/actuator/health.md
+      - title: Heap Dump ( heapdump )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/heapdump.html
+        anchor: api-rest-actuator-heapdump
+        virtual_path: docs/api/rest/actuator/heapdump.md
+      - title: HTTP Exchanges ( httpexchanges )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/httpexchanges.html
+        anchor: api-rest-actuator-httpexchanges
+        virtual_path: docs/api/rest/actuator/httpexchanges.md
+      - title: Info ( info )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/info.html
+        anchor: api-rest-actuator-info
+        virtual_path: docs/api/rest/actuator/info.md
+      - title: Spring Integration Graph ( integrationgraph )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/integrationgraph.html
+        anchor: api-rest-actuator-integrationgraph
+        virtual_path: docs/api/rest/actuator/integrationgraph.md
+      - title: Liquibase ( liquibase )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/liquibase.html
+        anchor: api-rest-actuator-liquibase
+        virtual_path: docs/api/rest/actuator/liquibase.md
+      - title: Log File ( logfile )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/logfile.html
+        anchor: api-rest-actuator-logfile
+        virtual_path: docs/api/rest/actuator/logfile.md
+      - title: Loggers ( loggers )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/loggers.html
+        anchor: api-rest-actuator-loggers
+        virtual_path: docs/api/rest/actuator/loggers.md
+      - title: Mappings ( mappings )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/mappings.html
+        anchor: api-rest-actuator-mappings
+        virtual_path: docs/api/rest/actuator/mappings.md
+      - title: Metrics ( metrics )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/metrics.html
+        anchor: api-rest-actuator-metrics
+        virtual_path: docs/api/rest/actuator/metrics.md
+      - title: Prometheus ( prometheus )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/prometheus.html
+        anchor: api-rest-actuator-prometheus
+        virtual_path: docs/api/rest/actuator/prometheus.md
+      - title: Quartz ( quartz )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/quartz.html
+        anchor: api-rest-actuator-quartz
+        virtual_path: docs/api/rest/actuator/quartz.md
+      - title: Software Bill of Materials ( sbom )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/sbom.html
+        anchor: api-rest-actuator-sbom
+        virtual_path: docs/api/rest/actuator/sbom.md
+      - title: Scheduled Tasks ( scheduledtasks )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/scheduledtasks.html
+        anchor: api-rest-actuator-scheduledtasks
+        virtual_path: docs/api/rest/actuator/scheduledtasks.md
+      - title: Sessions ( sessions )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/sessions.html
+        anchor: api-rest-actuator-sessions
+        virtual_path: docs/api/rest/actuator/sessions.md
+      - title: Shutdown ( shutdown )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/shutdown.html
+        anchor: api-rest-actuator-shutdown
+        virtual_path: docs/api/rest/actuator/shutdown.md
+      - title: Application Startup ( startup )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/startup.html
+        anchor: api-rest-actuator-startup
+        virtual_path: docs/api/rest/actuator/startup.md
+      - title: Thread Dump ( threaddump )
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/api/rest/actuator/threaddump.html
+        anchor: api-rest-actuator-threaddump
+        virtual_path: docs/api/rest/actuator/threaddump.md
+  - title: Kotlin APIs
+    kind: category
+    children:
+    - title: Spring Boot
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/api/kotlin/index.html
+      anchor: api-kotlin
+      virtual_path: docs/api/kotlin/index.md
+  - title: Specifications
+    kind: category
+    children:
+    - title: Configuration Metadata
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/specification/configuration-metadata/index.html
+      anchor: specification-configuration-metadata
+      virtual_path: docs/specification/configuration-metadata/index.md
+      children:
+      - title: Metadata Format
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/specification/configuration-metadata/format.html
+        anchor: specification-configuration-metadata-format
+        virtual_path: docs/specification/configuration-metadata/format.md
+      - title: Providing Manual Hints
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/specification/configuration-metadata/manual-hints.html
+        anchor: specification-configuration-metadata-manual-hints
+        virtual_path: docs/specification/configuration-metadata/manual-hints.md
+      - title: Generating Your Own Metadata by Using the Annotation Processor
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/specification/configuration-metadata/annotation-processor.html
+        anchor: specification-configuration-metadata-annotation-processor
+        virtual_path: docs/specification/configuration-metadata/annotation-processor.md
+    - title: The Executable Jar Format
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/specification/executable-jar/index.html
+      anchor: specification-executable-jar
+      virtual_path: docs/specification/executable-jar/index.md
+      children:
+      - title: Nested JARs
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/specification/executable-jar/nested-jars.html
+        anchor: specification-executable-jar-nested-jars
+        virtual_path: docs/specification/executable-jar/nested-jars.md
+      - title: Spring Boot’s “NestedJarFile” Class
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/specification/executable-jar/jarfile-class.html
+        anchor: specification-executable-jar-jarfile-class
+        virtual_path: docs/specification/executable-jar/jarfile-class.md
+      - title: Launching Executable Jars
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/specification/executable-jar/launching.html
+        anchor: specification-executable-jar-launching
+        virtual_path: docs/specification/executable-jar/launching.md
+      - title: PropertiesLauncher Features
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/specification/executable-jar/property-launcher.html
+        anchor: specification-executable-jar-property-launcher
+        virtual_path: docs/specification/executable-jar/property-launcher.md
+      - title: Executable Jar Restrictions
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/specification/executable-jar/restrictions.html
+        anchor: specification-executable-jar-restrictions
+        virtual_path: docs/specification/executable-jar/restrictions.md
+      - title: Alternative Single Jar Solutions
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/specification/executable-jar/alternatives.html
+        anchor: specification-executable-jar-alternatives
+        virtual_path: docs/specification/executable-jar/alternatives.md
+  - title: Appendix
+    kind: category
+    children:
+    - title: Common Application Properties
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/appendix/application-properties/index.html
+      anchor: appendix-application-properties
+      virtual_path: docs/appendix/application-properties/index.md
+    - title: Deprecated Application Properties
+      kind: link
+      source_url: https://docs.spring.io/spring-boot/appendix/deprecated-application-properties/index.html
+      anchor: appendix-deprecated-application-properties
+      virtual_path: docs/appendix/deprecated-application-properties/index.md
+    - title: Auto-configuration Classes
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/index.html
+      anchor: appendix-auto-configuration-classes
+      virtual_path: docs/appendix/auto-configuration-classes/index.md
+      children:
+      - title: spring-boot-activemq
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-activemq.html
+        anchor: appendix-auto-configuration-classes-spring-boot-activemq
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-activemq.md
+      - title: spring-boot-actuator-autoconfigure
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-actuator-autoconfigure.html
+        anchor: appendix-auto-configuration-classes-spring-boot-actuator-autoconfigure
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-actuator-autoconfigure.md
+      - title: spring-boot-amqp
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-amqp.html
+        anchor: appendix-auto-configuration-classes-spring-boot-amqp
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-amqp.md
+      - title: spring-boot-artemis
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-artemis.html
+        anchor: appendix-auto-configuration-classes-spring-boot-artemis
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-artemis.md
+      - title: spring-boot-autoconfigure
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-autoconfigure.html
+        anchor: appendix-auto-configuration-classes-spring-boot-autoconfigure
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-autoconfigure.md
+      - title: spring-boot-batch
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-batch.html
+        anchor: appendix-auto-configuration-classes-spring-boot-batch
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-batch.md
+      - title: spring-boot-batch-data-mongodb
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-batch-data-mongodb.html
+        anchor: appendix-auto-configuration-classes-spring-boot-batch-data-mongodb
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-batch-data-mongodb.md
+      - title: spring-boot-batch-jdbc
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-batch-jdbc.html
+        anchor: appendix-auto-configuration-classes-spring-boot-batch-jdbc
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-batch-jdbc.md
+      - title: spring-boot-cache
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-cache.html
+        anchor: appendix-auto-configuration-classes-spring-boot-cache
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-cache.md
+      - title: spring-boot-cassandra
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-cassandra.html
+        anchor: appendix-auto-configuration-classes-spring-boot-cassandra
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-cassandra.md
+      - title: spring-boot-cloudfoundry
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-cloudfoundry.html
+        anchor: appendix-auto-configuration-classes-spring-boot-cloudfoundry
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-cloudfoundry.md
+      - title: spring-boot-couchbase
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-couchbase.html
+        anchor: appendix-auto-configuration-classes-spring-boot-couchbase
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-couchbase.md
+      - title: spring-boot-data-cassandra
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-cassandra.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-cassandra
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-cassandra.md
+      - title: spring-boot-data-commons
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-commons.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-commons
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-commons.md
+      - title: spring-boot-data-couchbase
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-couchbase.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-couchbase
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-couchbase.md
+      - title: spring-boot-data-elasticsearch
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-elasticsearch.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-elasticsearch
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-elasticsearch.md
+      - title: spring-boot-data-jdbc
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-jdbc.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-jdbc
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-jdbc.md
+      - title: spring-boot-data-jpa
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-jpa.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-jpa
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-jpa.md
+      - title: spring-boot-data-ldap
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-ldap.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-ldap
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-ldap.md
+      - title: spring-boot-data-mongodb
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-mongodb.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-mongodb
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-mongodb.md
+      - title: spring-boot-data-neo4j
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-neo4j.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-neo4j
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-neo4j.md
+      - title: spring-boot-data-r2dbc
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-r2dbc.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-r2dbc
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-r2dbc.md
+      - title: spring-boot-data-redis
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-redis.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-redis
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-redis.md
+      - title: spring-boot-data-rest
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-data-rest.html
+        anchor: appendix-auto-configuration-classes-spring-boot-data-rest
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-data-rest.md
+      - title: spring-boot-devtools
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-devtools.html
+        anchor: appendix-auto-configuration-classes-spring-boot-devtools
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-devtools.md
+      - title: spring-boot-elasticsearch
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-elasticsearch.html
+        anchor: appendix-auto-configuration-classes-spring-boot-elasticsearch
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-elasticsearch.md
+      - title: spring-boot-flyway
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-flyway.html
+        anchor: appendix-auto-configuration-classes-spring-boot-flyway
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-flyway.md
+      - title: spring-boot-freemarker
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-freemarker.html
+        anchor: appendix-auto-configuration-classes-spring-boot-freemarker
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-freemarker.md
+      - title: spring-boot-graphql
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-graphql.html
+        anchor: appendix-auto-configuration-classes-spring-boot-graphql
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-graphql.md
+      - title: spring-boot-groovy-templates
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-groovy-templates.html
+        anchor: appendix-auto-configuration-classes-spring-boot-groovy-templates
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-groovy-templates.md
+      - title: spring-boot-grpc-client
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-grpc-client.html
+        anchor: appendix-auto-configuration-classes-spring-boot-grpc-client
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-grpc-client.md
+      - title: spring-boot-grpc-server
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-grpc-server.html
+        anchor: appendix-auto-configuration-classes-spring-boot-grpc-server
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-grpc-server.md
+      - title: spring-boot-gson
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-gson.html
+        anchor: appendix-auto-configuration-classes-spring-boot-gson
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-gson.md
+      - title: spring-boot-h2console
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-h2console.html
+        anchor: appendix-auto-configuration-classes-spring-boot-h2console
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-h2console.md
+      - title: spring-boot-hateoas
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-hateoas.html
+        anchor: appendix-auto-configuration-classes-spring-boot-hateoas
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-hateoas.md
+      - title: spring-boot-hazelcast
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-hazelcast.html
+        anchor: appendix-auto-configuration-classes-spring-boot-hazelcast
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-hazelcast.md
+      - title: spring-boot-health
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-health.html
+        anchor: appendix-auto-configuration-classes-spring-boot-health
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-health.md
+      - title: spring-boot-hibernate
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-hibernate.html
+        anchor: appendix-auto-configuration-classes-spring-boot-hibernate
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-hibernate.md
+      - title: spring-boot-http-client
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-http-client.html
+        anchor: appendix-auto-configuration-classes-spring-boot-http-client
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-http-client.md
+      - title: spring-boot-http-codec
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-http-codec.html
+        anchor: appendix-auto-configuration-classes-spring-boot-http-codec
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-http-codec.md
+      - title: spring-boot-http-converter
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-http-converter.html
+        anchor: appendix-auto-configuration-classes-spring-boot-http-converter
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-http-converter.md
+      - title: spring-boot-integration
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-integration.html
+        anchor: appendix-auto-configuration-classes-spring-boot-integration
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-integration.md
+      - title: spring-boot-jackson
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-jackson.html
+        anchor: appendix-auto-configuration-classes-spring-boot-jackson
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-jackson.md
+      - title: spring-boot-jackson2
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-jackson2.html
+        anchor: appendix-auto-configuration-classes-spring-boot-jackson2
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-jackson2.md
+      - title: spring-boot-jdbc
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-jdbc.html
+        anchor: appendix-auto-configuration-classes-spring-boot-jdbc
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-jdbc.md
+      - title: spring-boot-jersey
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-jersey.html
+        anchor: appendix-auto-configuration-classes-spring-boot-jersey
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-jersey.md
+      - title: spring-boot-jetty
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-jetty.html
+        anchor: appendix-auto-configuration-classes-spring-boot-jetty
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-jetty.md
+      - title: spring-boot-jms
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-jms.html
+        anchor: appendix-auto-configuration-classes-spring-boot-jms
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-jms.md
+      - title: spring-boot-jooq
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-jooq.html
+        anchor: appendix-auto-configuration-classes-spring-boot-jooq
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-jooq.md
+      - title: spring-boot-jsonb
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-jsonb.html
+        anchor: appendix-auto-configuration-classes-spring-boot-jsonb
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-jsonb.md
+      - title: spring-boot-kafka
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-kafka.html
+        anchor: appendix-auto-configuration-classes-spring-boot-kafka
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-kafka.md
+      - title: spring-boot-kotlinx-serialization-json
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-kotlinx-serialization-json.html
+        anchor: appendix-auto-configuration-classes-spring-boot-kotlinx-serialization-json
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-kotlinx-serialization-json.md
+      - title: spring-boot-ldap
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-ldap.html
+        anchor: appendix-auto-configuration-classes-spring-boot-ldap
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-ldap.md
+      - title: spring-boot-liquibase
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-liquibase.html
+        anchor: appendix-auto-configuration-classes-spring-boot-liquibase
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-liquibase.md
+      - title: spring-boot-mail
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-mail.html
+        anchor: appendix-auto-configuration-classes-spring-boot-mail
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-mail.md
+      - title: spring-boot-micrometer-metrics
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-micrometer-metrics.html
+        anchor: appendix-auto-configuration-classes-spring-boot-micrometer-metrics
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-micrometer-metrics.md
+      - title: spring-boot-micrometer-observation
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-micrometer-observation.html
+        anchor: appendix-auto-configuration-classes-spring-boot-micrometer-observation
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-micrometer-observation.md
+      - title: spring-boot-micrometer-tracing
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-micrometer-tracing.html
+        anchor: appendix-auto-configuration-classes-spring-boot-micrometer-tracing
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-micrometer-tracing.md
+      - title: spring-boot-micrometer-tracing-brave
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-micrometer-tracing-brave.html
+        anchor: appendix-auto-configuration-classes-spring-boot-micrometer-tracing-brave
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-micrometer-tracing-brave.md
+      - title: spring-boot-micrometer-tracing-opentelemetry
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-micrometer-tracing-opentelemetry.html
+        anchor: appendix-auto-configuration-classes-spring-boot-micrometer-tracing-opentelemetry
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-micrometer-tracing-opentelemetry.md
+      - title: spring-boot-mongodb
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-mongodb.html
+        anchor: appendix-auto-configuration-classes-spring-boot-mongodb
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-mongodb.md
+      - title: spring-boot-mustache
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-mustache.html
+        anchor: appendix-auto-configuration-classes-spring-boot-mustache
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-mustache.md
+      - title: spring-boot-neo4j
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-neo4j.html
+        anchor: appendix-auto-configuration-classes-spring-boot-neo4j
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-neo4j.md
+      - title: spring-boot-netty
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-netty.html
+        anchor: appendix-auto-configuration-classes-spring-boot-netty
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-netty.md
+      - title: spring-boot-opentelemetry
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-opentelemetry.html
+        anchor: appendix-auto-configuration-classes-spring-boot-opentelemetry
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-opentelemetry.md
+      - title: spring-boot-persistence
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-persistence.html
+        anchor: appendix-auto-configuration-classes-spring-boot-persistence
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-persistence.md
+      - title: spring-boot-pulsar
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-pulsar.html
+        anchor: appendix-auto-configuration-classes-spring-boot-pulsar
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-pulsar.md
+      - title: spring-boot-quartz
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-quartz.html
+        anchor: appendix-auto-configuration-classes-spring-boot-quartz
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-quartz.md
+      - title: spring-boot-r2dbc
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-r2dbc.html
+        anchor: appendix-auto-configuration-classes-spring-boot-r2dbc
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-r2dbc.md
+      - title: spring-boot-reactor
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-reactor.html
+        anchor: appendix-auto-configuration-classes-spring-boot-reactor
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-reactor.md
+      - title: spring-boot-reactor-netty
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-reactor-netty.html
+        anchor: appendix-auto-configuration-classes-spring-boot-reactor-netty
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-reactor-netty.md
+      - title: spring-boot-restclient
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-restclient.html
+        anchor: appendix-auto-configuration-classes-spring-boot-restclient
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-restclient.md
+      - title: spring-boot-resttestclient
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-resttestclient.html
+        anchor: appendix-auto-configuration-classes-spring-boot-resttestclient
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-resttestclient.md
+      - title: spring-boot-rsocket
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-rsocket.html
+        anchor: appendix-auto-configuration-classes-spring-boot-rsocket
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-rsocket.md
+      - title: spring-boot-security
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-security.html
+        anchor: appendix-auto-configuration-classes-spring-boot-security
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-security.md
+      - title: spring-boot-security-oauth2-authorization-server
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-security-oauth2-authorization-server.html
+        anchor: appendix-auto-configuration-classes-spring-boot-security-oauth2-authorization-server
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-security-oauth2-authorization-server.md
+      - title: spring-boot-security-oauth2-client
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-security-oauth2-client.html
+        anchor: appendix-auto-configuration-classes-spring-boot-security-oauth2-client
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-security-oauth2-client.md
+      - title: spring-boot-security-oauth2-resource-server
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-security-oauth2-resource-server.html
+        anchor: appendix-auto-configuration-classes-spring-boot-security-oauth2-resource-server
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-security-oauth2-resource-server.md
+      - title: spring-boot-security-saml2
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-security-saml2.html
+        anchor: appendix-auto-configuration-classes-spring-boot-security-saml2
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-security-saml2.md
+      - title: spring-boot-sendgrid
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-sendgrid.html
+        anchor: appendix-auto-configuration-classes-spring-boot-sendgrid
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-sendgrid.md
+      - title: spring-boot-servlet
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-servlet.html
+        anchor: appendix-auto-configuration-classes-spring-boot-servlet
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-servlet.md
+      - title: spring-boot-session
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-session.html
+        anchor: appendix-auto-configuration-classes-spring-boot-session
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-session.md
+      - title: spring-boot-session-data-redis
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-session-data-redis.html
+        anchor: appendix-auto-configuration-classes-spring-boot-session-data-redis
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-session-data-redis.md
+      - title: spring-boot-session-jdbc
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-session-jdbc.html
+        anchor: appendix-auto-configuration-classes-spring-boot-session-jdbc
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-session-jdbc.md
+      - title: spring-boot-testcontainers
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-testcontainers.html
+        anchor: appendix-auto-configuration-classes-spring-boot-testcontainers
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-testcontainers.md
+      - title: spring-boot-thymeleaf
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-thymeleaf.html
+        anchor: appendix-auto-configuration-classes-spring-boot-thymeleaf
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-thymeleaf.md
+      - title: spring-boot-tomcat
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-tomcat.html
+        anchor: appendix-auto-configuration-classes-spring-boot-tomcat
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-tomcat.md
+      - title: spring-boot-transaction
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-transaction.html
+        anchor: appendix-auto-configuration-classes-spring-boot-transaction
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-transaction.md
+      - title: spring-boot-validation
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-validation.html
+        anchor: appendix-auto-configuration-classes-spring-boot-validation
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-validation.md
+      - title: spring-boot-webclient
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-webclient.html
+        anchor: appendix-auto-configuration-classes-spring-boot-webclient
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-webclient.md
+      - title: spring-boot-webflux
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-webflux.html
+        anchor: appendix-auto-configuration-classes-spring-boot-webflux
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-webflux.md
+      - title: spring-boot-webmvc
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-webmvc.html
+        anchor: appendix-auto-configuration-classes-spring-boot-webmvc
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-webmvc.md
+      - title: spring-boot-webservices
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-webservices.html
+        anchor: appendix-auto-configuration-classes-spring-boot-webservices
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-webservices.md
+      - title: spring-boot-websocket
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-websocket.html
+        anchor: appendix-auto-configuration-classes-spring-boot-websocket
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-websocket.md
+      - title: spring-boot-zipkin
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/auto-configuration-classes/spring-boot-zipkin.html
+        anchor: appendix-auto-configuration-classes-spring-boot-zipkin
+        virtual_path: docs/appendix/auto-configuration-classes/spring-boot-zipkin.md
+    - title: Test Auto-configuration Annotations
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/appendix/test-auto-configuration/index.html
+      anchor: appendix-test-auto-configuration
+      virtual_path: docs/appendix/test-auto-configuration/index.md
+      children:
+      - title: Test Slices
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/test-auto-configuration/slices.html
+        anchor: appendix-test-auto-configuration-slices
+        virtual_path: docs/appendix/test-auto-configuration/slices.md
+    - title: Dependency Versions
+      kind: category
+      source_url: https://docs.spring.io/spring-boot/appendix/dependency-versions/index.html
+      anchor: appendix-dependency-versions
+      virtual_path: docs/appendix/dependency-versions/index.md
+      children:
+      - title: Managed Dependency Coordinates
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/dependency-versions/coordinates.html
+        anchor: appendix-dependency-versions-coordinates
+        virtual_path: docs/appendix/dependency-versions/coordinates.md
+      - title: Version Properties
+        kind: link
+        source_url: https://docs.spring.io/spring-boot/appendix/dependency-versions/properties.html
+        anchor: appendix-dependency-versions-properties
+        virtual_path: docs/appendix/dependency-versions/properties.md

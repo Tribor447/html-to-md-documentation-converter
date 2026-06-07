@@ -1,0 +1,363 @@
+- title: Overview
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://docs.spring.io/spring-shell/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Getting Started
+    kind: link
+    source_url: https://docs.spring.io/spring-shell/reference/getting-started.html
+    anchor: getting-started
+    virtual_path: docs/getting-started.md
+  - title: Upgrading
+    kind: link
+    source_url: https://docs.spring.io/spring-shell/reference/upgrading.html
+    anchor: upgrading
+    virtual_path: docs/upgrading.md
+  - title: Basics
+    kind: category
+    source_url: https://docs.spring.io/spring-shell/reference/basics/index.html
+    anchor: basics
+    virtual_path: docs/basics/index.md
+    children:
+    - title: Reading Docs
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/basics/reading.html
+      anchor: basics-reading
+      virtual_path: docs/basics/reading.md
+  - title: Commands
+    kind: category
+    source_url: https://docs.spring.io/spring-shell/reference/commands/index.html
+    anchor: commands
+    virtual_path: docs/commands/index.md
+    children:
+    - title: Command Registration
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/commands/registration.html
+      anchor: commands-registration
+      virtual_path: docs/commands/registration.md
+    - title: Organizing Commands
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/commands/organize.html
+      anchor: commands-organize
+      virtual_path: docs/commands/organize.md
+    - title: Command Syntax
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/commands/syntax.html
+      anchor: commands-syntax
+      virtual_path: docs/commands/syntax.md
+    - title: Option Validation
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/commands/validation.html
+      anchor: commands-validation
+      virtual_path: docs/commands/validation.md
+    - title: Option Help
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/commands/help.html
+      anchor: commands-help
+      virtual_path: docs/commands/help.md
+    - title: Command Context
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/commands/context.html
+      anchor: commands-context
+      virtual_path: docs/commands/context.md
+    - title: Command Availability
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/commands/availability.html
+      anchor: commands-availability
+      virtual_path: docs/commands/availability.md
+    - title: Command Completion
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/commands/completion.html
+      anchor: commands-completion
+      virtual_path: docs/commands/completion.md
+    - title: Reading Input
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/commands/reading.html
+      anchor: commands-reading
+      virtual_path: docs/commands/reading.md
+    - title: Writing Output
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/commands/writing.html
+      anchor: commands-writing
+      virtual_path: docs/commands/writing.md
+    - title: Exception Handling
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/commands/exception-handling.html
+      anchor: commands-exception-handling
+      virtual_path: docs/commands/exception-handling.md
+    - title: Built-In Commands
+      kind: category
+      source_url: https://docs.spring.io/spring-shell/reference/commands/builtin/index.html
+      anchor: commands-builtin
+      virtual_path: docs/commands/builtin/index.md
+      children:
+      - title: Help
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/commands/builtin/help.html
+        anchor: commands-builtin-help
+        virtual_path: docs/commands/builtin/help.md
+      - title: Clear
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/commands/builtin/clear.html
+        anchor: commands-builtin-clear
+        virtual_path: docs/commands/builtin/clear.md
+      - title: Exit
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/commands/builtin/exit.html
+        anchor: commands-builtin-exit
+        virtual_path: docs/commands/builtin/exit.md
+      - title: Version
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/commands/builtin/version.html
+        anchor: commands-builtin-version
+        virtual_path: docs/commands/builtin/version.md
+      - title: Script
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/commands/builtin/script.html
+        anchor: commands-builtin-script
+        virtual_path: docs/commands/builtin/script.md
+  - title: Building
+    kind: link
+    source_url: https://docs.spring.io/spring-shell/reference/building.html
+    anchor: building
+    virtual_path: docs/building.md
+  - title: Components
+    kind: category
+    source_url: https://docs.spring.io/spring-shell/reference/components/index.html
+    anchor: components
+    virtual_path: docs/components/index.md
+    children:
+    - title: Flow
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/components/flow/index.html
+      anchor: components-flow
+      virtual_path: docs/components/flow/index.md
+    - title: Flow Components
+      kind: category
+      source_url: https://docs.spring.io/spring-shell/reference/components/ui/index.html
+      anchor: components-ui
+      virtual_path: docs/components/ui/index.md
+      children:
+      - title: Component Render
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/components/ui/render.html
+        anchor: components-ui-render
+        virtual_path: docs/components/ui/render.md
+      - title: String Input
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/components/ui/stringinput.html
+        anchor: components-ui-stringinput
+        virtual_path: docs/components/ui/stringinput.md
+      - title: Number Input
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/components/ui/numberinput.html
+        anchor: components-ui-numberinput
+        virtual_path: docs/components/ui/numberinput.md
+      - title: Path Input
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/components/ui/pathinput.html
+        anchor: components-ui-pathinput
+        virtual_path: docs/components/ui/pathinput.md
+      - title: Path Search
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/components/ui/pathsearch.html
+        anchor: components-ui-pathsearch
+        virtual_path: docs/components/ui/pathsearch.md
+      - title: Confirmation
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/components/ui/confirmation.html
+        anchor: components-ui-confirmation
+        virtual_path: docs/components/ui/confirmation.md
+      - title: Single Select
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/components/ui/singleselect.html
+        anchor: components-ui-singleselect
+        virtual_path: docs/components/ui/singleselect.md
+      - title: Multi Select
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/components/ui/multiselect.html
+        anchor: components-ui-multiselect
+        virtual_path: docs/components/ui/multiselect.md
+  - title: Terminal UI
+    kind: category
+    source_url: https://docs.spring.io/spring-shell/reference/tui/index.html
+    anchor: tui
+    virtual_path: docs/tui/index.md
+    children:
+    - title: Introduction
+      kind: category
+      source_url: https://docs.spring.io/spring-shell/reference/tui/intro/index.html
+      anchor: tui-intro
+      virtual_path: docs/tui/intro/index.md
+      children:
+      - title: TerminalUI
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/intro/terminalui.html
+        anchor: tui-intro-terminalui
+        virtual_path: docs/tui/intro/terminalui.md
+    - title: Views
+      kind: category
+      source_url: https://docs.spring.io/spring-shell/reference/tui/views/index.html
+      anchor: tui-views
+      virtual_path: docs/tui/views/index.md
+      children:
+      - title: AppView
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/views/app.html
+        anchor: tui-views-app
+        virtual_path: docs/tui/views/app.md
+      - title: BoxView
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/views/box.html
+        anchor: tui-views-box
+        virtual_path: docs/tui/views/box.md
+      - title: ButtonView
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/views/button.html
+        anchor: tui-views-button
+        virtual_path: docs/tui/views/button.md
+      - title: DialogView
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/views/dialog.html
+        anchor: tui-views-dialog
+        virtual_path: docs/tui/views/dialog.md
+      - title: GridView
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/views/grid.html
+        anchor: tui-views-grid
+        virtual_path: docs/tui/views/grid.md
+      - title: InputView
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/views/input.html
+        anchor: tui-views-input
+        virtual_path: docs/tui/views/input.md
+      - title: ListView
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/views/list.html
+        anchor: tui-views-list
+        virtual_path: docs/tui/views/list.md
+      - title: MenuView
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/views/menu.html
+        anchor: tui-views-menu
+        virtual_path: docs/tui/views/menu.md
+      - title: MenuBarView
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/views/menubar.html
+        anchor: tui-views-menubar
+        virtual_path: docs/tui/views/menubar.md
+      - title: ProgressView
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/views/progress.html
+        anchor: tui-views-progress
+        virtual_path: docs/tui/views/progress.md
+      - title: StatusBarView
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/views/statusbar.html
+        anchor: tui-views-statusbar
+        virtual_path: docs/tui/views/statusbar.md
+    - title: Events
+      kind: category
+      source_url: https://docs.spring.io/spring-shell/reference/tui/events/index.html
+      anchor: tui-events
+      virtual_path: docs/tui/events/index.md
+      children:
+      - title: EventLoop
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/events/eventloop.html
+        anchor: tui-events-eventloop
+        virtual_path: docs/tui/events/eventloop.md
+      - title: Key Handling
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/events/key.html
+        anchor: tui-events-key
+        virtual_path: docs/tui/events/key.md
+      - title: Mouse Handling
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/tui/events/mouse.html
+        anchor: tui-events-mouse
+        virtual_path: docs/tui/events/mouse.md
+  - title: Customization
+    kind: category
+    source_url: https://docs.spring.io/spring-shell/reference/customization/index.html
+    anchor: customization
+    virtual_path: docs/customization/index.md
+    children:
+    - title: Theming
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/customization/styling.html
+      anchor: customization-styling
+      virtual_path: docs/customization/styling.md
+    - title: Context Close
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/customization/contextclose.html
+      anchor: customization-contextclose
+      virtual_path: docs/customization/contextclose.md
+    - title: Custom Prompt
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/customization/custom-prompt.html
+      anchor: customization-custom-prompt
+      virtual_path: docs/customization/custom-prompt.md
+  - title: Execution
+    kind: link
+    source_url: https://docs.spring.io/spring-shell/reference/execution.html
+    anchor: execution
+    virtual_path: docs/execution.md
+  - title: Testing
+    kind: link
+    source_url: https://docs.spring.io/spring-shell/reference/testing.html
+    anchor: testing
+    virtual_path: docs/testing.md
+  - title: Appendices
+    kind: category
+    children:
+    - title: Technical Introduction
+      kind: category
+      source_url: https://docs.spring.io/spring-shell/reference/appendices/techintro/index.html
+      anchor: appendices-techintro
+      virtual_path: docs/appendices/techintro/index.md
+      children:
+      - title: Command Parser
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/appendices/techintro/parser.html
+        anchor: appendices-techintro-parser
+        virtual_path: docs/appendices/techintro/parser.md
+      - title: Command Execution
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/appendices/techintro/execution.html
+        anchor: appendices-techintro-execution
+        virtual_path: docs/appendices/techintro/execution.md
+      - title: Theming
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/appendices/techintro/theming.html
+        anchor: appendices-techintro-theming
+        virtual_path: docs/appendices/techintro/theming.md
+      - title: Search Algorithms
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/appendices/techintro/searchalgorithm.html
+        anchor: appendices-techintro-searchalgorithm
+        virtual_path: docs/appendices/techintro/searchalgorithm.md
+    - title: Debugging
+      kind: link
+      source_url: https://docs.spring.io/spring-shell/reference/appendices/debugging/index.html
+      anchor: appendices-debugging
+      virtual_path: docs/appendices/debugging/index.md
+    - title: Terminal UI
+      kind: category
+      source_url: https://docs.spring.io/spring-shell/reference/appendices/tui/index.html
+      anchor: appendices-tui
+      virtual_path: docs/appendices/tui/index.md
+      children:
+      - title: View Development
+        kind: link
+        source_url: https://docs.spring.io/spring-shell/reference/appendices/tui/viewdev.html
+        anchor: appendices-tui-viewdev
+        virtual_path: docs/appendices/tui/viewdev.md
+  - title: Javadoc
+    kind: link
+    source_url: https://docs.spring.io/spring-shell/reference/api/index.html
+    anchor: api
+    virtual_path: docs/api/index.md

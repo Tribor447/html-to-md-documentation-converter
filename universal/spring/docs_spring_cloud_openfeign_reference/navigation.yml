@@ -1,0 +1,24 @@
+- title: Introduction
+  kind: category
+  children:
+  - title: Introduction
+    kind: link
+    source_url: https://docs.spring.io/spring-cloud-openfeign/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Spring Cloud OpenFeign Features
+    kind: link
+    source_url: https://docs.spring.io/spring-cloud-openfeign/reference/spring-cloud-openfeign.html
+    anchor: spring-cloud-openfeign
+    virtual_path: docs/spring-cloud-openfeign.md
+  - title: Common application properties
+    kind: category
+    source_url: https://docs.spring.io/spring-cloud-openfeign/reference/appendix.html
+    anchor: appendix
+    virtual_path: docs/appendix.md
+    children:
+    - title: Configuration Properties
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-openfeign/reference/configprops.html
+      anchor: configprops
+      virtual_path: docs/configprops.md
