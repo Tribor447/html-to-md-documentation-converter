@@ -1,0 +1,118 @@
+- title: Commons Compress
+  kind: category
+  children:
+  - title: About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Release History
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/changes.html
+    anchor: changes
+    virtual_path: docs/changes.md
+  - title: Sources
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/scm.html
+    anchor: scm
+    virtual_path: docs/scm.md
+  - title: Security
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/security.html
+    anchor: security
+    virtual_path: docs/security.md
+  - title: User Guide
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/examples.html
+    anchor: examples
+    virtual_path: docs/examples.md
+  - title: Known Limitations
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/limitations.html
+    anchor: limitations
+    virtual_path: docs/limitations.md
+  - title: Conventions
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/conventions.html
+    anchor: conventions
+    virtual_path: docs/conventions.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: CI Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+  - title: Project Reports
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-compress/project-reports.html
+    anchor: project-reports
+    virtual_path: docs/project-reports.md
+    children:
+    - title: Changes
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/changes.html
+      anchor: changes
+      virtual_path: docs/changes.md
+    - title: JIRA Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/jira-changes.html
+      anchor: jira-changes
+      virtual_path: docs/jira-changes.md
+    - title: Surefire
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/surefire.html
+      anchor: surefire
+      virtual_path: docs/surefire.md
+    - title: Rat Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/rat-report.html
+      anchor: rat-report
+      virtual_path: docs/rat-report.md
+    - title: japicmp
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/japicmp.html
+      anchor: japicmp
+      virtual_path: docs/japicmp.md
+    - title: CPD
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/cpd.html
+      anchor: cpd
+      virtual_path: docs/cpd.md
+    - title: PMD
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/pmd.html
+      anchor: pmd
+      virtual_path: docs/pmd.md
+    - title: SpotBugs
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/spotbugs.html
+      anchor: spotbugs
+      virtual_path: docs/spotbugs.md
+- title: General Information
+  kind: category
+  source_url: https://commons.apache.org/proper/commons-compress/security.html
+  anchor: security
+  virtual_path: docs/security.md

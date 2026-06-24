@@ -1,0 +1,628 @@
+- title: Overview
+  kind: category
+  children:
+  - title: Overview
+    kind: category
+    source_url: https://docs.spring.io/spring-ai/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md
+    children:
+    - title: AI Concepts
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/concepts.html
+      anchor: concepts
+      virtual_path: docs/concepts.md
+  - title: Getting Started
+    kind: link
+    source_url: https://docs.spring.io/spring-ai/reference/getting-started.html
+    anchor: getting-started
+    virtual_path: docs/getting-started.md
+  - title: Reference
+    kind: category
+    children:
+    - title: Chat Client API
+      kind: category
+      source_url: https://docs.spring.io/spring-ai/reference/api/chatclient.html
+      anchor: api-chatclient
+      virtual_path: docs/api/chatclient.md
+      children:
+      - title: Advisors
+        kind: category
+        source_url: https://docs.spring.io/spring-ai/reference/api/advisors.html
+        anchor: api-advisors
+        virtual_path: docs/api/advisors.md
+        children:
+        - title: Recursive Advisors
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/advisors-recursive.html
+          anchor: api-advisors-recursive
+          virtual_path: docs/api/advisors-recursive.md
+    - title: Prompts
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/api/prompt.html
+      anchor: api-prompt
+      virtual_path: docs/api/prompt.md
+    - title: Structured Output
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/api/structured-output-converter.html
+      anchor: api-structured-output-converter
+      virtual_path: docs/api/structured-output-converter.md
+    - title: Multimodality
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/api/multimodality.html
+      anchor: api-multimodality
+      virtual_path: docs/api/multimodality.md
+    - title: Models
+      kind: category
+      source_url: https://docs.spring.io/spring-ai/reference/api/index.html
+      anchor: api
+      virtual_path: docs/api/index.md
+      children:
+      - title: Chat Models
+        kind: category
+        source_url: https://docs.spring.io/spring-ai/reference/api/chatmodel.html
+        anchor: api-chatmodel
+        virtual_path: docs/api/chatmodel.md
+        children:
+        - title: Chat Models Comparison
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/comparison.html
+          anchor: api-chat-comparison
+          virtual_path: docs/api/chat/comparison.md
+        - title: Amazon Bedrock Converse
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/bedrock-converse.html
+          anchor: api-chat-bedrock-converse
+          virtual_path: docs/api/chat/bedrock-converse.md
+        - title: Anthropic
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/anthropic-chat.html
+          anchor: api-chat-anthropic-chat
+          virtual_path: docs/api/chat/anthropic-chat.md
+        - title: Azure OpenAI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/azure-openai-chat.html
+          anchor: api-chat-azure-openai-chat
+          virtual_path: docs/api/chat/azure-openai-chat.md
+        - title: DeepSeek
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/deepseek-chat.html
+          anchor: api-chat-deepseek-chat
+          virtual_path: docs/api/chat/deepseek-chat.md
+        - title: Docker Model Runner
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/dmr-chat.html
+          anchor: api-chat-dmr-chat
+          virtual_path: docs/api/chat/dmr-chat.md
+        - title: Google
+          kind: category
+          children:
+          - title: Google GenAI
+            kind: link
+            source_url: https://docs.spring.io/spring-ai/reference/api/chat/google-genai-chat.html
+            anchor: api-chat-google-genai-chat
+            virtual_path: docs/api/chat/google-genai-chat.md
+          - title: Google VertexAI
+            kind: category
+            source_url: https://docs.spring.io/spring-ai/reference/api/chat/google-vertexai.html
+            anchor: api-chat-google-vertexai
+            virtual_path: docs/api/chat/google-vertexai.md
+            children:
+            - title: VertexAI Gemini
+              kind: link
+              source_url: https://docs.spring.io/spring-ai/reference/api/chat/vertexai-gemini-chat.html
+              anchor: api-chat-vertexai-gemini-chat
+              virtual_path: docs/api/chat/vertexai-gemini-chat.md
+        - title: Groq
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/groq-chat.html
+          anchor: api-chat-groq-chat
+          virtual_path: docs/api/chat/groq-chat.md
+        - title: Hugging Face
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/huggingface.html
+          anchor: api-chat-huggingface
+          virtual_path: docs/api/chat/huggingface.md
+        - title: Mistral AI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/mistralai-chat.html
+          anchor: api-chat-mistralai-chat
+          virtual_path: docs/api/chat/mistralai-chat.md
+        - title: MiniMax
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/minimax-chat.html
+          anchor: api-chat-minimax-chat
+          virtual_path: docs/api/chat/minimax-chat.md
+        - title: Moonshot AI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/moonshot-chat.html
+          anchor: api-chat-moonshot-chat
+          virtual_path: docs/api/chat/moonshot-chat.md
+        - title: NVIDIA
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/nvidia-chat.html
+          anchor: api-chat-nvidia-chat
+          virtual_path: docs/api/chat/nvidia-chat.md
+        - title: Ollama
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html
+          anchor: api-chat-ollama-chat
+          virtual_path: docs/api/chat/ollama-chat.md
+        - title: Perplexity AI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/perplexity-chat.html
+          anchor: api-chat-perplexity-chat
+          virtual_path: docs/api/chat/perplexity-chat.md
+        - title: OCI Generative AI
+          kind: category
+          children:
+          - title: Cohere
+            kind: link
+            source_url: https://docs.spring.io/spring-ai/reference/api/chat/oci-genai/cohere-chat.html
+            anchor: api-chat-oci-genai-cohere-chat
+            virtual_path: docs/api/chat/oci-genai/cohere-chat.md
+        - title: OpenAI SDK (Official)
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/openai-sdk-chat.html
+          anchor: api-chat-openai-sdk-chat
+          virtual_path: docs/api/chat/openai-sdk-chat.md
+        - title: OpenAI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html
+          anchor: api-chat-openai-chat
+          virtual_path: docs/api/chat/openai-chat.md
+        - title: QianFan
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/qianfan-chat.html
+          anchor: api-chat-qianfan-chat
+          virtual_path: docs/api/chat/qianfan-chat.md
+        - title: ZhiPu AI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/chat/zhipuai-chat.html
+          anchor: api-chat-zhipuai-chat
+          virtual_path: docs/api/chat/zhipuai-chat.md
+      - title: Embedding Models
+        kind: category
+        source_url: https://docs.spring.io/spring-ai/reference/api/embeddings.html
+        anchor: api-embeddings
+        virtual_path: docs/api/embeddings.md
+        children:
+        - title: Amazon Bedrock
+          kind: category
+          source_url: https://docs.spring.io/spring-ai/reference/api/bedrock.html
+          anchor: api-bedrock
+          virtual_path: docs/api/bedrock.md
+          children:
+          - title: Cohere
+            kind: link
+            source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/bedrock-cohere-embedding.html
+            anchor: api-embeddings-bedrock-cohere-embedding
+            virtual_path: docs/api/embeddings/bedrock-cohere-embedding.md
+          - title: Titan
+            kind: link
+            source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/bedrock-titan-embedding.html
+            anchor: api-embeddings-bedrock-titan-embedding
+            virtual_path: docs/api/embeddings/bedrock-titan-embedding.md
+        - title: Azure OpenAI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/azure-openai-embeddings.html
+          anchor: api-embeddings-azure-openai-embeddings
+          virtual_path: docs/api/embeddings/azure-openai-embeddings.md
+        - title: Google
+          kind: category
+          children:
+          - title: Google GenAI Text Embedding
+            kind: link
+            source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/google-genai-embeddings-text.html
+            anchor: api-embeddings-google-genai-embeddings-text
+            virtual_path: docs/api/embeddings/google-genai-embeddings-text.md
+        - title: Mistral AI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/mistralai-embeddings.html
+          anchor: api-embeddings-mistralai-embeddings
+          virtual_path: docs/api/embeddings/mistralai-embeddings.md
+        - title: MiniMax
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/minimax-embeddings.html
+          anchor: api-embeddings-minimax-embeddings
+          virtual_path: docs/api/embeddings/minimax-embeddings.md
+        - title: OCI GenAI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/oci-genai-embeddings.html
+          anchor: api-embeddings-oci-genai-embeddings
+          virtual_path: docs/api/embeddings/oci-genai-embeddings.md
+        - title: Ollama
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/ollama-embeddings.html
+          anchor: api-embeddings-ollama-embeddings
+          virtual_path: docs/api/embeddings/ollama-embeddings.md
+        - title: (ONNX) Transformers
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/onnx.html
+          anchor: api-embeddings-onnx
+          virtual_path: docs/api/embeddings/onnx.md
+        - title: OpenAI SDK (Official)
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/openai-sdk-embeddings.html
+          anchor: api-embeddings-openai-sdk-embeddings
+          virtual_path: docs/api/embeddings/openai-sdk-embeddings.md
+        - title: OpenAI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/openai-embeddings.html
+          anchor: api-embeddings-openai-embeddings
+          virtual_path: docs/api/embeddings/openai-embeddings.md
+        - title: PostgresML
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/postgresml-embeddings.html
+          anchor: api-embeddings-postgresml-embeddings
+          virtual_path: docs/api/embeddings/postgresml-embeddings.md
+        - title: QianFan
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/qianfan-embeddings.html
+          anchor: api-embeddings-qianfan-embeddings
+          virtual_path: docs/api/embeddings/qianfan-embeddings.md
+        - title: VertexAI
+          kind: category
+          children:
+          - title: Text Embedding
+            kind: link
+            source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/vertexai-embeddings-text.html
+            anchor: api-embeddings-vertexai-embeddings-text
+            virtual_path: docs/api/embeddings/vertexai-embeddings-text.md
+          - title: Multimodal Embedding
+            kind: link
+            source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/vertexai-embeddings-multimodal.html
+            anchor: api-embeddings-vertexai-embeddings-multimodal
+            virtual_path: docs/api/embeddings/vertexai-embeddings-multimodal.md
+        - title: ZhiPu AI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/embeddings/zhipuai-embeddings.html
+          anchor: api-embeddings-zhipuai-embeddings
+          virtual_path: docs/api/embeddings/zhipuai-embeddings.md
+      - title: Image Models
+        kind: category
+        source_url: https://docs.spring.io/spring-ai/reference/api/imageclient.html
+        anchor: api-imageclient
+        virtual_path: docs/api/imageclient.md
+        children:
+        - title: Azure OpenAI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/image/azure-openai-image.html
+          anchor: api-image-azure-openai-image
+          virtual_path: docs/api/image/azure-openai-image.md
+        - title: OpenAI SDK (Official)
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/image/openai-sdk-image.html
+          anchor: api-image-openai-sdk-image
+          virtual_path: docs/api/image/openai-sdk-image.md
+        - title: OpenAI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/image/openai-image.html
+          anchor: api-image-openai-image
+          virtual_path: docs/api/image/openai-image.md
+        - title: Stability
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/image/stabilityai-image.html
+          anchor: api-image-stabilityai-image
+          virtual_path: docs/api/image/stabilityai-image.md
+        - title: ZhiPuAI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/image/zhipuai-image.html
+          anchor: api-image-zhipuai-image
+          virtual_path: docs/api/image/zhipuai-image.md
+        - title: QianFan
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/image/qianfan-image.html
+          anchor: api-image-qianfan-image
+          virtual_path: docs/api/image/qianfan-image.md
+      - title: Audio Models
+        kind: category
+        children:
+        - title: Transcription API
+          kind: category
+          source_url: https://docs.spring.io/spring-ai/reference/api/audio/transcriptions.html
+          anchor: api-audio-transcriptions
+          virtual_path: docs/api/audio/transcriptions.md
+          children:
+          - title: Azure OpenAI
+            kind: link
+            source_url: https://docs.spring.io/spring-ai/reference/api/audio/transcriptions/azure-openai-transcriptions.html
+            anchor: api-audio-transcriptions-azure-openai-transcriptions
+            virtual_path: docs/api/audio/transcriptions/azure-openai-transcriptions.md
+          - title: OpenAI
+            kind: link
+            source_url: https://docs.spring.io/spring-ai/reference/api/audio/transcriptions/openai-transcriptions.html
+            anchor: api-audio-transcriptions-openai-transcriptions
+            virtual_path: docs/api/audio/transcriptions/openai-transcriptions.md
+        - title: Text-To-Speech (TTS) API
+          kind: category
+          source_url: https://docs.spring.io/spring-ai/reference/api/audio/speech.html
+          anchor: api-audio-speech
+          virtual_path: docs/api/audio/speech.md
+          children:
+          - title: OpenAI
+            kind: link
+            source_url: https://docs.spring.io/spring-ai/reference/api/audio/speech/openai-speech.html
+            anchor: api-audio-speech-openai-speech
+            virtual_path: docs/api/audio/speech/openai-speech.md
+          - title: ElevenLabs
+            kind: link
+            source_url: https://docs.spring.io/spring-ai/reference/api/audio/speech/elevenlabs-speech.html
+            anchor: api-audio-speech-elevenlabs-speech
+            virtual_path: docs/api/audio/speech/elevenlabs-speech.md
+      - title: Moderation Models
+        kind: category
+        children:
+        - title: OpenAI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/moderation/openai-moderation.html
+          anchor: api-moderation-openai-moderation
+          virtual_path: docs/api/moderation/openai-moderation.md
+        - title: Mistral AI
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/moderation/mistral-ai-moderation.html
+          anchor: api-moderation-mistral-ai-moderation
+          virtual_path: docs/api/moderation/mistral-ai-moderation.md
+    - title: Chat Memory
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/api/chat-memory.html
+      anchor: api-chat-memory
+      virtual_path: docs/api/chat-memory.md
+    - title: Tool Calling
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/api/tools.html
+      anchor: api-tools
+      virtual_path: docs/api/tools.md
+    - title: Model Context Protocol (MCP)
+      kind: category
+      source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-overview.html
+      anchor: api-mcp-mcp-overview
+      virtual_path: docs/api/mcp/mcp-overview.md
+      children:
+      - title: MCP Client Boot Starters
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-client-boot-starter-docs.html
+        anchor: api-mcp-mcp-client-boot-starter-docs
+        virtual_path: docs/api/mcp/mcp-client-boot-starter-docs.md
+      - title: MCP Server Boot Starters
+        kind: category
+        source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-server-boot-starter-docs.html
+        anchor: api-mcp-mcp-server-boot-starter-docs
+        virtual_path: docs/api/mcp/mcp-server-boot-starter-docs.md
+        children:
+        - title: STDIO and SSE MCP Servers
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-stdio-sse-server-boot-starter-docs.html
+          anchor: api-mcp-mcp-stdio-sse-server-boot-starter-docs
+          virtual_path: docs/api/mcp/mcp-stdio-sse-server-boot-starter-docs.md
+        - title: Streamable-HTTP MCP Servers
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-streamable-http-server-boot-starter-docs.html
+          anchor: api-mcp-mcp-streamable-http-server-boot-starter-docs
+          virtual_path: docs/api/mcp/mcp-streamable-http-server-boot-starter-docs.md
+        - title: Stateless Streamable-HTTP MCP Servers
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-stateless-server-boot-starter-docs.html
+          anchor: api-mcp-mcp-stateless-server-boot-starter-docs
+          virtual_path: docs/api/mcp/mcp-stateless-server-boot-starter-docs.md
+      - title: MCP Security (WIP)
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-security.html
+        anchor: api-mcp-mcp-security
+        virtual_path: docs/api/mcp/mcp-security.md
+      - title: MCP Annotations
+        kind: category
+        source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-annotations-overview.html
+        anchor: api-mcp-mcp-annotations-overview
+        virtual_path: docs/api/mcp/mcp-annotations-overview.md
+        children:
+        - title: Client Annotations
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-annotations-client.html
+          anchor: api-mcp-mcp-annotations-client
+          virtual_path: docs/api/mcp/mcp-annotations-client.md
+        - title: Server Annotations
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-annotations-server.html
+          anchor: api-mcp-mcp-annotations-server
+          virtual_path: docs/api/mcp/mcp-annotations-server.md
+        - title: Special Parameters
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-annotations-special-params.html
+          anchor: api-mcp-mcp-annotations-special-params
+          virtual_path: docs/api/mcp/mcp-annotations-special-params.md
+        - title: MCP Annotations Examples
+          kind: link
+          source_url: https://docs.spring.io/spring-ai/reference/api/mcp/mcp-annotations-examples.html
+          anchor: api-mcp-mcp-annotations-examples
+          virtual_path: docs/api/mcp/mcp-annotations-examples.md
+    - title: Retrieval Augmented Generation (RAG)
+      kind: category
+      source_url: https://docs.spring.io/spring-ai/reference/api/retrieval-augmented-generation.html
+      anchor: api-retrieval-augmented-generation
+      virtual_path: docs/api/retrieval-augmented-generation.md
+      children:
+      - title: ETL Pipeline
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/etl-pipeline.html
+        anchor: api-etl-pipeline
+        virtual_path: docs/api/etl-pipeline.md
+    - title: Model Evaluation
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/api/testing.html
+      anchor: api-testing
+      virtual_path: docs/api/testing.md
+    - title: Vector Databases
+      kind: category
+      source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs.html
+      anchor: api-vectordbs
+      virtual_path: docs/api/vectordbs.md
+      children:
+      - title: Azure AI Service
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/azure.html
+        anchor: api-vectordbs-azure
+        virtual_path: docs/api/vectordbs/azure.md
+      - title: Azure Cosmos DB
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/azure-cosmos-db.html
+        anchor: api-vectordbs-azure-cosmos-db
+        virtual_path: docs/api/vectordbs/azure-cosmos-db.md
+      - title: Apache Cassandra Vector Store
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/apache-cassandra.html
+        anchor: api-vectordbs-apache-cassandra
+        virtual_path: docs/api/vectordbs/apache-cassandra.md
+      - title: Chroma
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/chroma.html
+        anchor: api-vectordbs-chroma
+        virtual_path: docs/api/vectordbs/chroma.md
+      - title: Couchbase
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/couchbase.html
+        anchor: api-vectordbs-couchbase
+        virtual_path: docs/api/vectordbs/couchbase.md
+      - title: Elasticsearch
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/elasticsearch.html
+        anchor: api-vectordbs-elasticsearch
+        virtual_path: docs/api/vectordbs/elasticsearch.md
+      - title: GemFire
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/gemfire.html
+        anchor: api-vectordbs-gemfire
+        virtual_path: docs/api/vectordbs/gemfire.md
+      - title: MariaDB Vector Store
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/mariadb.html
+        anchor: api-vectordbs-mariadb
+        virtual_path: docs/api/vectordbs/mariadb.md
+      - title: Milvus
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/milvus.html
+        anchor: api-vectordbs-milvus
+        virtual_path: docs/api/vectordbs/milvus.md
+      - title: MongoDB Atlas
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/mongodb.html
+        anchor: api-vectordbs-mongodb
+        virtual_path: docs/api/vectordbs/mongodb.md
+      - title: Neo4j
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/neo4j.html
+        anchor: api-vectordbs-neo4j
+        virtual_path: docs/api/vectordbs/neo4j.md
+      - title: OpenSearch
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/opensearch.html
+        anchor: api-vectordbs-opensearch
+        virtual_path: docs/api/vectordbs/opensearch.md
+      - title: Oracle
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/oracle.html
+        anchor: api-vectordbs-oracle
+        virtual_path: docs/api/vectordbs/oracle.md
+      - title: PGvector
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/pgvector.html
+        anchor: api-vectordbs-pgvector
+        virtual_path: docs/api/vectordbs/pgvector.md
+      - title: Pinecone
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/pinecone.html
+        anchor: api-vectordbs-pinecone
+        virtual_path: docs/api/vectordbs/pinecone.md
+      - title: Qdrant
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/qdrant.html
+        anchor: api-vectordbs-qdrant
+        virtual_path: docs/api/vectordbs/qdrant.md
+      - title: Redis
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/redis.html
+        anchor: api-vectordbs-redis
+        virtual_path: docs/api/vectordbs/redis.md
+      - title: SAP Hana
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/hana.html
+        anchor: api-vectordbs-hana
+        virtual_path: docs/api/vectordbs/hana.md
+      - title: Typesense
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/typesense.html
+        anchor: api-vectordbs-typesense
+        virtual_path: docs/api/vectordbs/typesense.md
+      - title: Weaviate
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/vectordbs/weaviate.html
+        anchor: api-vectordbs-weaviate
+        virtual_path: docs/api/vectordbs/weaviate.md
+    - title: Observability
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/observability/index.html
+      anchor: observability
+      virtual_path: docs/observability/index.md
+    - title: Development-time Services
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/api/docker-compose.html
+      anchor: api-docker-compose
+      virtual_path: docs/api/docker-compose.md
+    - title: Testing
+      kind: category
+      children:
+      - title: Testcontainers
+        kind: link
+        source_url: https://docs.spring.io/spring-ai/reference/api/testcontainers.html
+        anchor: api-testcontainers
+        virtual_path: docs/api/testcontainers.md
+  - title: Guides
+    kind: category
+    children:
+    - title: Getting Started with MCP
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/guides/getting-started-mcp.html
+      anchor: guides-getting-started-mcp
+      virtual_path: docs/guides/getting-started-mcp.md
+    - title: Dynamic Tool Discovery
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/guides/dynamic-tool-search.html
+      anchor: guides-dynamic-tool-search
+      virtual_path: docs/guides/dynamic-tool-search.md
+    - title: LLM-as-a-Judge Evaluation
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/guides/llm-as-judge.html
+      anchor: guides-llm-as-judge
+      virtual_path: docs/guides/llm-as-judge.md
+    - title: Prompt Engineering Patterns
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/api/chat/prompt-engineering-patterns.html
+      anchor: api-chat-prompt-engineering-patterns
+      virtual_path: docs/api/chat/prompt-engineering-patterns.md
+    - title: Building Effective Agents
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/api/effective-agents.html
+      anchor: api-effective-agents
+      virtual_path: docs/api/effective-agents.md
+    - title: Deploying to the Cloud
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/api/cloud-bindings.html
+      anchor: api-cloud-bindings
+      virtual_path: docs/api/cloud-bindings.md
+- title: Upgrade Notes
+  kind: category
+  source_url: https://docs.spring.io/spring-ai/reference/upgrade-notes.html
+  anchor: upgrade-notes
+  virtual_path: docs/upgrade-notes.md
+  children:
+  - title: Upgrade Notes
+    kind: category
+    source_url: https://docs.spring.io/spring-ai/reference/upgrade-notes.html
+    anchor: upgrade-notes
+    virtual_path: docs/upgrade-notes.md
+    children:
+    - title: Migrating FunctionCallback to ToolCallback API
+      kind: link
+      source_url: https://docs.spring.io/spring-ai/reference/api/tools-migration.html
+      anchor: api-tools-migration
+      virtual_path: docs/api/tools-migration.md

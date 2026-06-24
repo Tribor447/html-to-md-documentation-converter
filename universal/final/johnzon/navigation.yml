@@ -1,0 +1,270 @@
+- title: User Guide
+  kind: category
+  children:
+  - title: Home
+    kind: link
+    source_url: https://johnzon.apache.org/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Download
+    kind: link
+    source_url: https://johnzon.apache.org/download.html
+    anchor: download
+    virtual_path: docs/download.md
+  - title: Source Code
+    kind: link
+    source_url: https://johnzon.apache.org/scm.html
+    anchor: scm
+    virtual_path: docs/scm.md
+  - title: Changelog
+    kind: link
+    source_url: https://johnzon.apache.org/changelog.html
+    anchor: changelog
+    virtual_path: docs/changelog.md
+  - title: Mailing Lists
+    kind: link
+    source_url: https://johnzon.apache.org/mailing-lists.html
+    anchor: mailing-lists
+    virtual_path: docs/mailing-lists.md
+- title: Old Releases
+  kind: category
+  children:
+  - title: Johnzon 0.7-incubating
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.7-incubating/index.html
+    anchor: archives-0.7-incubating
+    virtual_path: docs/archives/0.7-incubating/index.md
+  - title: Johnzon 0.2-incubating
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/index.html
+    anchor: archives-0.2-incubating
+    virtual_path: docs/archives/0.2-incubating/index.md
+  - title: Johnzon 0.1-incubating
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.1-incubating/index.html
+    anchor: archives-0.1-incubating
+    virtual_path: docs/archives/0.1-incubating/index.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://johnzon.apache.org/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: CI Management
+      kind: link
+      source_url: https://johnzon.apache.org/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+    - title: About
+      kind: link
+      source_url: https://johnzon.apache.org/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Mailing Lists
+      kind: link
+      source_url: https://johnzon.apache.org/mailing-lists.html
+      anchor: mailing-lists
+      virtual_path: docs/mailing-lists.md
+    - title: Project Modules
+      kind: link
+      source_url: https://johnzon.apache.org/modules.html
+      anchor: modules
+      virtual_path: docs/modules.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://johnzon.apache.org/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: Summary
+      kind: link
+      source_url: https://johnzon.apache.org/summary.html
+      anchor: summary
+      virtual_path: docs/summary.md
+    - title: Team
+      kind: link
+      source_url: https://johnzon.apache.org/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Issue Tracking
+      kind: link
+      source_url: https://johnzon.apache.org/archives/0.1-incubating/issue-tracking.html
+      anchor: archives-0.1-incubating-issue-tracking
+      virtual_path: docs/archives/0.1-incubating/issue-tracking.md
+    - title: Continuous Integration
+      kind: link
+      source_url: https://johnzon.apache.org/archives/0.1-incubating/integration.html
+      anchor: archives-0.1-incubating-integration
+      virtual_path: docs/archives/0.1-incubating/integration.md
+    - title: Project Summary
+      kind: link
+      source_url: https://johnzon.apache.org/archives/0.1-incubating/project-summary.html
+      anchor: archives-0.1-incubating-project-summary
+      virtual_path: docs/archives/0.1-incubating/project-summary.md
+  - title: Project Reports
+    kind: category
+    children:
+    - title: Dependency Updates Report
+      kind: link
+      source_url: https://johnzon.apache.org/dependency-updates-report.html
+      anchor: dependency-updates-report
+      virtual_path: docs/dependency-updates-report.md
+    - title: Plugin Updates Report
+      kind: link
+      source_url: https://johnzon.apache.org/plugin-updates-report.html
+      anchor: plugin-updates-report
+      virtual_path: docs/plugin-updates-report.md
+    - title: Property Updates Report
+      kind: link
+      source_url: https://johnzon.apache.org/property-updates-report.html
+      anchor: property-updates-report
+      virtual_path: docs/property-updates-report.md
+    - title: Change Log
+      kind: link
+      source_url: https://johnzon.apache.org/changelog.html
+      anchor: changelog
+      virtual_path: docs/changelog.md
+    - title: File Activity
+      kind: link
+      source_url: https://johnzon.apache.org/file-activity.html
+      anchor: file-activity
+      virtual_path: docs/file-activity.md
+    - title: Developer Activity
+      kind: link
+      source_url: https://johnzon.apache.org/dev-activity.html
+      anchor: dev-activity
+      virtual_path: docs/dev-activity.md
+- title: Security
+  kind: category
+  children:
+  - title: Report vulnerability
+    kind: link
+    source_url: https://johnzon.apache.org/security.html
+    anchor: security
+    virtual_path: docs/security.md
+- title: Project Information
+  kind: category
+  children:
+  - title: About
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/index.html
+    anchor: archives-0.2-incubating
+    virtual_path: docs/archives/0.2-incubating/index.md
+  - title: Issue Tracking
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/issue-tracking.html
+    anchor: archives-0.2-incubating-issue-tracking
+    virtual_path: docs/archives/0.2-incubating/issue-tracking.md
+  - title: Continuous Integration
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/integration.html
+    anchor: archives-0.2-incubating-integration
+    virtual_path: docs/archives/0.2-incubating/integration.md
+  - title: Project Modules
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/modules.html
+    anchor: archives-0.2-incubating-modules
+    virtual_path: docs/archives/0.2-incubating/modules.md
+  - title: Project Summary
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/project-summary.html
+    anchor: archives-0.2-incubating-project-summary
+    virtual_path: docs/archives/0.2-incubating/project-summary.md
+- title: Project Reports
+  kind: category
+  children:
+  - title: Dependency Updates Report
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/dependency-updates-report.html
+    anchor: archives-0.2-incubating-dependency-updates-report
+    virtual_path: docs/archives/0.2-incubating/dependency-updates-report.md
+  - title: Plugin Updates Report
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/plugin-updates-report.html
+    anchor: archives-0.2-incubating-plugin-updates-report
+    virtual_path: docs/archives/0.2-incubating/plugin-updates-report.md
+  - title: Property Updates Report
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/property-updates-report.html
+    anchor: archives-0.2-incubating-property-updates-report
+    virtual_path: docs/archives/0.2-incubating/property-updates-report.md
+  - title: Change Log
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/changelog.html
+    anchor: archives-0.2-incubating-changelog
+    virtual_path: docs/archives/0.2-incubating/changelog.md
+  - title: File Activity
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/file-activity.html
+    anchor: archives-0.2-incubating-file-activity
+    virtual_path: docs/archives/0.2-incubating/file-activity.md
+  - title: Developer Activity
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/dev-activity.html
+    anchor: archives-0.2-incubating-dev-activity
+    virtual_path: docs/archives/0.2-incubating/dev-activity.md
+  - title: JIRA Report
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.2-incubating/jira-report.html
+    anchor: archives-0.2-incubating-jira-report
+    virtual_path: docs/archives/0.2-incubating/jira-report.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Apache Johnzon - Project Modules
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.1-incubating/modules.html
+    anchor: archives-0.1-incubating-modules
+    virtual_path: docs/archives/0.1-incubating/modules.md
+  - title: Apache Johnzon - Change Log Report
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.7-incubating/changelog.html
+    anchor: archives-0.7-incubating-changelog
+    virtual_path: docs/archives/0.7-incubating/changelog.md
+  - title: Apache Johnzon - Dependency Updates Report
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.7-incubating/dependency-updates-report.html
+    anchor: archives-0.7-incubating-dependency-updates-report
+    virtual_path: docs/archives/0.7-incubating/dependency-updates-report.md
+  - title: Apache Johnzon - Developer Activity Report
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.7-incubating/dev-activity.html
+    anchor: archives-0.7-incubating-dev-activity
+    virtual_path: docs/archives/0.7-incubating/dev-activity.md
+  - title: Apache Johnzon - File Activity Report
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.7-incubating/file-activity.html
+    anchor: archives-0.7-incubating-file-activity
+    virtual_path: docs/archives/0.7-incubating/file-activity.md
+  - title: Apache Johnzon - Continuous Integration
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.7-incubating/integration.html
+    anchor: archives-0.7-incubating-integration
+    virtual_path: docs/archives/0.7-incubating/integration.md
+  - title: Apache Johnzon - Issue Tracking
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.7-incubating/issue-tracking.html
+    anchor: archives-0.7-incubating-issue-tracking
+    virtual_path: docs/archives/0.7-incubating/issue-tracking.md
+  - title: Apache Johnzon - Project Modules
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.7-incubating/modules.html
+    anchor: archives-0.7-incubating-modules
+    virtual_path: docs/archives/0.7-incubating/modules.md
+  - title: Apache Johnzon - Plugin Updates Report
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.7-incubating/plugin-updates-report.html
+    anchor: archives-0.7-incubating-plugin-updates-report
+    virtual_path: docs/archives/0.7-incubating/plugin-updates-report.md
+  - title: Apache Johnzon - Project Summary
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.7-incubating/project-summary.html
+    anchor: archives-0.7-incubating-project-summary
+    virtual_path: docs/archives/0.7-incubating/project-summary.md
+  - title: Apache Johnzon - Property Updates Report
+    kind: link
+    source_url: https://johnzon.apache.org/archives/0.7-incubating/property-updates-report.html
+    anchor: archives-0.7-incubating-property-updates-report
+    virtual_path: docs/archives/0.7-incubating/property-updates-report.md

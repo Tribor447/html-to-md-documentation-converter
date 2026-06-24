@@ -1,0 +1,49 @@
+                                      
+
+Table Of Contents
+=================
+Subject: [Important] packing 0.9 rc1, please wait
+
+The "code-freeze" makes it easier to prepare the
+release candidate packages and make them available for testing.
+
+Code-freeze means *no* non-essential commits to the trunk
+or to the new release branch. Other branches are free to
+continue. Whiteboard plugins can also continue.
+
+There should be no code enhancements or new functionality,
+because that could introduce new bugs.
+
+The main aim is to find and fix important bugs. Any minor
+issues are delayed until after release (add to Jira).
+
+Essential documentation corrections can happen because they
+will not break anything. As long as we do test the documentation
+building just prior to making any final release candidate.
+
+Although remember that such work should have happened
+prior to the code-freeze. We don't want to build subsequent
+release candidates unless necessary.
+
+However, if there are important code changes that are
+required you can make a proposal to allow that commit.
+The Release Manager will make a quick decision.
+
+Next important milestones are:
+
+[3] create final release candidate if necessary
+Saturday 2011-02-05 at 22:00 UTC
+http://www.timeanddate.com/worldclock/fixedtime.html?day=5&month=2&year=2011&hour=22&min=0&sec=0&p1=0
+
+[4] end of vote on final release candidate and commence the upload phase
+Monday 2011-02-07 at 22:00 UTC (i.e. planned release date)
+http://www.timeanddate.com/worldclock/fixedtime.html?day=7&month=2&year=2011&hour=22&min=0&sec=0&p1=0
+
+Now the Release Manager will do some final changes, such
+as license header checks, xml code cleanup, and changing
+version number information. Then the RM will build the
+packages. These steps may take some time.
+
+The next message will tell you where to download the
+release candidate packages and describe how to test.
+

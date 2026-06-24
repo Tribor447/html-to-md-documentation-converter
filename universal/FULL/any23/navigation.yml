@@ -1,0 +1,206 @@
+- title: Apache Any23
+  kind: category
+  children:
+  - title: Introduction
+    kind: category
+    source_url: https://any23.apache.org/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Downloads
+    kind: link
+    source_url: https://any23.apache.org/download.html
+    anchor: download
+    virtual_path: docs/download.md
+    children:
+    - title: Sources
+      kind: link
+      source_url: https://any23.apache.org/download.html#Apache_Any23_Sources
+      anchor: download--apache_any23_sources
+      virtual_path: docs/download.md
+    - title: Core
+      kind: link
+      source_url: https://any23.apache.org/download.html#Apache_Any23_Core
+      anchor: download--apache_any23_core
+      virtual_path: docs/download.md
+    - title: Basic Crawler
+      kind: link
+      source_url: https://any23.apache.org/download.html#Basic_Crawler
+      anchor: download--basic_crawler
+      virtual_path: docs/download.md
+    - title: HTML Scraper
+      kind: link
+      source_url: https://any23.apache.org/download.html#HTML_Scraper
+      anchor: download--html_scraper
+      virtual_path: docs/download.md
+    - title: Office Scraper
+      kind: link
+      source_url: https://any23.apache.org/download.html#Office_Scraper
+      anchor: download--office_scraper
+      virtual_path: docs/download.md
+    - title: Service
+      kind: link
+      source_url: https://any23.apache.org/download.html#Apache_Any23_Service
+      anchor: download--apache_any23_service
+      virtual_path: docs/download.md
+  - title: Install
+    kind: link
+    source_url: https://any23.apache.org/install.html
+    anchor: install
+    virtual_path: docs/install.md
+- title: Documentation
+  kind: category
+  children:
+  - title: Getting Started
+    kind: link
+    source_url: https://any23.apache.org/getting-started.html
+    anchor: getting-started
+    virtual_path: docs/getting-started.md
+  - title: Supported Formats
+    kind: link
+    source_url: https://any23.apache.org/supported-formats.html
+    anchor: supported-formats
+    virtual_path: docs/supported-formats.md
+  - title: Extractors
+    kind: link
+    source_url: https://any23.apache.org/extractors.html
+    anchor: extractors
+    virtual_path: docs/extractors.md
+  - title: Configuration
+    kind: link
+    source_url: https://any23.apache.org/configuration.html
+    anchor: configuration
+    virtual_path: docs/configuration.md
+  - title: REST Service
+    kind: link
+    source_url: https://any23.apache.org/service.html
+    anchor: service
+    virtual_path: docs/service.md
+  - title: Any23 Plugins
+    kind: link
+    source_url: https://any23.apache.org/any23-plugins.html
+    anchor: any23-plugins
+    virtual_path: docs/any23-plugins.md
+  - title: Developers Guide
+    kind: link
+    source_url: https://any23.apache.org/developers.html
+    anchor: developers
+    virtual_path: docs/developers.md
+    children:
+    - title: Build from sources
+      kind: link
+      source_url: https://any23.apache.org/build-src.html
+      anchor: build-src
+      virtual_path: docs/build-src.md
+    - title: Data Extraction
+      kind: link
+      source_url: https://any23.apache.org/dev-data-extraction.html
+      anchor: dev-data-extraction
+      virtual_path: docs/dev-data-extraction.md
+    - title: Data Conversion
+      kind: link
+      source_url: https://any23.apache.org/dev-data-conversion.html
+      anchor: dev-data-conversion
+      virtual_path: docs/dev-data-conversion.md
+    - title: Validation and Fixing
+      kind: link
+      source_url: https://any23.apache.org/dev-validation-fix.html
+      anchor: dev-validation-fix
+      virtual_path: docs/dev-validation-fix.md
+    - title: XPath Extractor
+      kind: category
+      source_url: https://any23.apache.org/dev-xpath-extractor.html
+      anchor: dev-xpath-extractor
+      virtual_path: docs/dev-xpath-extractor.md
+    - title: Microformat Extractors
+      kind: link
+      source_url: https://any23.apache.org/dev-microformat-extractors.html
+      anchor: dev-microformat-extractors
+      virtual_path: docs/dev-microformat-extractors.md
+    - title: Microdata Extractor
+      kind: link
+      source_url: https://any23.apache.org/dev-microdata-extractor.html
+      anchor: dev-microdata-extractor
+      virtual_path: docs/dev-microdata-extractor.md
+    - title: CSV Extractor
+      kind: link
+      source_url: https://any23.apache.org/dev-csv-extractor.html
+      anchor: dev-csv-extractor
+      virtual_path: docs/dev-csv-extractor.md
+    - title: HowTo Release
+      kind: link
+      source_url: https://any23.apache.org/release-howto.html
+      anchor: release-howto
+      virtual_path: docs/release-howto.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    children:
+    - title: CI Management
+      kind: link
+      source_url: https://any23.apache.org/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+    - title: About
+      kind: category
+      source_url: https://any23.apache.org/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Mailing Lists
+      kind: link
+      source_url: https://any23.apache.org/mailing-lists.html
+      anchor: mailing-lists
+      virtual_path: docs/mailing-lists.md
+    - title: Project Modules
+      kind: link
+      source_url: https://any23.apache.org/modules.html
+      anchor: modules
+      virtual_path: docs/modules.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://any23.apache.org/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: Team
+      kind: link
+      source_url: https://any23.apache.org/team.html
+      anchor: team
+      virtual_path: docs/team.md
+  - title: Project Reports
+    kind: link
+    source_url: https://any23.apache.org/project-reports.html
+    anchor: project-reports
+    virtual_path: docs/project-reports.md
+    children:
+    - title: Checkstyle
+      kind: category
+      source_url: https://any23.apache.org/checkstyle-aggregate.html
+      anchor: checkstyle-aggregate
+      virtual_path: docs/checkstyle-aggregate.md
+- title: Misc
+  kind: category
+  children:
+  - title: Acknowledgements
+    kind: link
+    source_url: https://any23.apache.org/acknowledgements.html
+    anchor: acknowledgements
+    virtual_path: docs/acknowledgements.md
+  - title: PoweredBy
+    kind: link
+    source_url: https://any23.apache.org/poweredby.html
+    anchor: poweredby
+    virtual_path: docs/poweredby.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Apache Any23 – Apache Any23 - Plugins - HTML Scraper
+    kind: link
+    source_url: https://any23.apache.org/plugin-html-scraper.html
+    anchor: plugin-html-scraper
+    virtual_path: docs/plugin-html-scraper.md
+  - title: Apache Any23 – Apache Any23 - Plugins - Office Scraper
+    kind: link
+    source_url: https://any23.apache.org/plugin-office-scraper.html
+    anchor: plugin-office-scraper
+    virtual_path: docs/plugin-office-scraper.md

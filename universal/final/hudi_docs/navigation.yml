@@ -1,0 +1,406 @@
+- title: Getting Started
+  kind: category
+  source_url: https://hudi.apache.org/docs/overview/
+  anchor: overview
+  virtual_path: docs/overview/index.md
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://hudi.apache.org/docs/overview/
+    anchor: overview
+    virtual_path: docs/overview/index.md
+  - title: Spark Quick Start
+    kind: link
+    source_url: https://hudi.apache.org/docs/quick-start-guide/
+    anchor: quick-start-guide
+    virtual_path: docs/quick-start-guide/index.md
+  - title: Flink Quick Start
+    kind: link
+    source_url: https://hudi.apache.org/docs/flink-quick-start-guide/
+    anchor: flink-quick-start-guide
+    virtual_path: docs/flink-quick-start-guide/index.md
+  - title: Python/Rust Quick Start
+    kind: link
+    source_url: https://hudi.apache.org/docs/python-rust-quick-start-guide/
+    anchor: python-rust-quick-start-guide
+    virtual_path: docs/python-rust-quick-start-guide/index.md
+  - title: Docker Demo
+    kind: link
+    source_url: https://hudi.apache.org/docs/docker_demo/
+    anchor: docker_demo
+    virtual_path: docs/docker_demo/index.md
+  - title: Notebooks
+    kind: link
+    source_url: https://hudi.apache.org/docs/notebooks/
+    anchor: notebooks
+    virtual_path: docs/notebooks/index.md
+  - title: Use Cases
+    kind: link
+    source_url: https://hudi.apache.org/docs/use_cases/
+    anchor: use_cases
+    virtual_path: docs/use_cases/index.md
+- title: Design & Concepts
+  kind: link
+  source_url: https://hudi.apache.org/docs/hudi_stack/
+  anchor: hudi_stack
+  virtual_path: docs/hudi_stack/index.md
+  children:
+  - title: The Hudi Stack
+    kind: link
+    source_url: https://hudi.apache.org/docs/hudi_stack/
+    anchor: hudi_stack
+    virtual_path: docs/hudi_stack/index.md
+  - title: Timeline
+    kind: link
+    source_url: https://hudi.apache.org/docs/timeline/
+    anchor: timeline
+    virtual_path: docs/timeline/index.md
+  - title: Storage Layouts
+    kind: link
+    source_url: https://hudi.apache.org/docs/storage_layouts/
+    anchor: storage_layouts
+    virtual_path: docs/storage_layouts/index.md
+  - title: Write Operations
+    kind: link
+    source_url: https://hudi.apache.org/docs/write_operations/
+    anchor: write_operations
+    virtual_path: docs/write_operations/index.md
+  - title: Table & Query Types
+    kind: link
+    source_url: https://hudi.apache.org/docs/table_types/
+    anchor: table_types
+    virtual_path: docs/table_types/index.md
+  - title: Key Generation
+    kind: link
+    source_url: https://hudi.apache.org/docs/key_generation/
+    anchor: key_generation
+    virtual_path: docs/key_generation/index.md
+  - title: Record Merger
+    kind: link
+    source_url: https://hudi.apache.org/docs/record_merger/
+    anchor: record_merger
+    virtual_path: docs/record_merger/index.md
+  - title: Table Metadata
+    kind: link
+    source_url: https://hudi.apache.org/docs/metadata/
+    anchor: metadata
+    virtual_path: docs/metadata/index.md
+  - title: Indexes
+    kind: link
+    source_url: https://hudi.apache.org/docs/indexes/
+    anchor: indexes
+    virtual_path: docs/indexes/index.md
+  - title: Concurrency Control
+    kind: link
+    source_url: https://hudi.apache.org/docs/concurrency_control/
+    anchor: concurrency_control
+    virtual_path: docs/concurrency_control/index.md
+  - title: Schema Evolution
+    kind: link
+    source_url: https://hudi.apache.org/docs/schema_evolution/
+    anchor: schema_evolution
+    virtual_path: docs/schema_evolution/index.md
+- title: Ingestion
+  kind: link
+  source_url: https://hudi.apache.org/docs/hoodie_streaming_ingestion/
+  anchor: hoodie_streaming_ingestion
+  virtual_path: docs/hoodie_streaming_ingestion/index.md
+  children:
+  - title: Using Spark
+    kind: link
+    source_url: https://hudi.apache.org/docs/hoodie_streaming_ingestion/
+    anchor: hoodie_streaming_ingestion
+    virtual_path: docs/hoodie_streaming_ingestion/index.md
+  - title: Using Flink
+    kind: link
+    source_url: https://hudi.apache.org/docs/ingestion_flink/
+    anchor: ingestion_flink
+    virtual_path: docs/ingestion_flink/index.md
+  - title: Using Kafka Connect
+    kind: link
+    source_url: https://hudi.apache.org/docs/ingestion_kafka_connect/
+    anchor: ingestion_kafka_connect
+    virtual_path: docs/ingestion_kafka_connect/index.md
+- title: Writing Tables
+  kind: link
+  source_url: https://hudi.apache.org/docs/sql_ddl/
+  anchor: sql_ddl
+  virtual_path: docs/sql_ddl/index.md
+  children:
+  - title: SQL DDL
+    kind: link
+    source_url: https://hudi.apache.org/docs/sql_ddl/
+    anchor: sql_ddl
+    virtual_path: docs/sql_ddl/index.md
+  - title: SQL DML
+    kind: link
+    source_url: https://hudi.apache.org/docs/sql_dml/
+    anchor: sql_dml
+    virtual_path: docs/sql_dml/index.md
+  - title: Batch Writes
+    kind: link
+    source_url: https://hudi.apache.org/docs/writing_data/
+    anchor: writing_data
+    virtual_path: docs/writing_data/index.md
+  - title: Streaming Writes
+    kind: link
+    source_url: https://hudi.apache.org/docs/writing_tables_streaming_writes/
+    anchor: writing_tables_streaming_writes
+    virtual_path: docs/writing_tables_streaming_writes/index.md
+- title: Reading Tables
+  kind: link
+  source_url: https://hudi.apache.org/docs/sql_queries/
+  anchor: sql_queries
+  virtual_path: docs/sql_queries/index.md
+  children:
+  - title: SQL Queries
+    kind: link
+    source_url: https://hudi.apache.org/docs/sql_queries/
+    anchor: sql_queries
+    virtual_path: docs/sql_queries/index.md
+  - title: Batch Reads
+    kind: link
+    source_url: https://hudi.apache.org/docs/reading_tables_batch_reads/
+    anchor: reading_tables_batch_reads
+    virtual_path: docs/reading_tables_batch_reads/index.md
+  - title: Streaming Reads
+    kind: link
+    source_url: https://hudi.apache.org/docs/reading_tables_streaming_reads/
+    anchor: reading_tables_streaming_reads
+    virtual_path: docs/reading_tables_streaming_reads/index.md
+- title: Table Services
+  kind: link
+  source_url: https://hudi.apache.org/docs/compaction/
+  anchor: compaction
+  virtual_path: docs/compaction/index.md
+  children:
+  - title: Compaction
+    kind: link
+    source_url: https://hudi.apache.org/docs/compaction/
+    anchor: compaction
+    virtual_path: docs/compaction/index.md
+  - title: Clustering
+    kind: link
+    source_url: https://hudi.apache.org/docs/clustering/
+    anchor: clustering
+    virtual_path: docs/clustering/index.md
+  - title: Cleaning
+    kind: link
+    source_url: https://hudi.apache.org/docs/cleaning/
+    anchor: cleaning
+    virtual_path: docs/cleaning/index.md
+  - title: Indexing
+    kind: link
+    source_url: https://hudi.apache.org/docs/metadata_indexing/
+    anchor: metadata_indexing
+    virtual_path: docs/metadata_indexing/index.md
+  - title: File Sizing
+    kind: link
+    source_url: https://hudi.apache.org/docs/file_sizing/
+    anchor: file_sizing
+    virtual_path: docs/file_sizing/index.md
+  - title: Auto Rollbacks
+    kind: link
+    source_url: https://hudi.apache.org/docs/rollbacks/
+    anchor: rollbacks
+    virtual_path: docs/rollbacks/index.md
+  - title: Marker Mechanism
+    kind: link
+    source_url: https://hudi.apache.org/docs/markers/
+    anchor: markers
+    virtual_path: docs/markers/index.md
+- title: Data Catalogs
+  kind: link
+  source_url: https://hudi.apache.org/docs/syncing_aws_glue_data_catalog/
+  anchor: syncing_aws_glue_data_catalog
+  virtual_path: docs/syncing_aws_glue_data_catalog/index.md
+  children:
+  - title: AWS Glue Data Catalog
+    kind: link
+    source_url: https://hudi.apache.org/docs/syncing_aws_glue_data_catalog/
+    anchor: syncing_aws_glue_data_catalog
+    virtual_path: docs/syncing_aws_glue_data_catalog/index.md
+  - title: Google BigQuery
+    kind: link
+    source_url: https://hudi.apache.org/docs/gcp_bigquery/
+    anchor: gcp_bigquery
+    virtual_path: docs/gcp_bigquery/index.md
+  - title: DataHub
+    kind: link
+    source_url: https://hudi.apache.org/docs/syncing_datahub/
+    anchor: syncing_datahub
+    virtual_path: docs/syncing_datahub/index.md
+  - title: Apache Hive Metastore
+    kind: link
+    source_url: https://hudi.apache.org/docs/syncing_metastore/
+    anchor: syncing_metastore
+    virtual_path: docs/syncing_metastore/index.md
+  - title: Apache XTable (Incubating)
+    kind: link
+    source_url: https://hudi.apache.org/docs/syncing_xtable/
+    anchor: syncing_xtable
+    virtual_path: docs/syncing_xtable/index.md
+  - title: Apache Polaris (Incubating)
+    kind: link
+    source_url: https://hudi.apache.org/docs/catalog_polaris/
+    anchor: catalog_polaris
+    virtual_path: docs/catalog_polaris/index.md
+- title: Platform & Tools
+  kind: link
+  source_url: https://hudi.apache.org/docs/snapshot_exporter/
+  anchor: snapshot_exporter
+  virtual_path: docs/snapshot_exporter/index.md
+  children:
+  - title: Exporter
+    kind: link
+    source_url: https://hudi.apache.org/docs/snapshot_exporter/
+    anchor: snapshot_exporter
+    virtual_path: docs/snapshot_exporter/index.md
+  - title: Data Quality
+    kind: link
+    source_url: https://hudi.apache.org/docs/precommit_validator/
+    anchor: precommit_validator
+    virtual_path: docs/precommit_validator/index.md
+  - title: Post-commit Callback
+    kind: link
+    source_url: https://hudi.apache.org/docs/platform_services_post_commit_callback/
+    anchor: platform_services_post_commit_callback
+    virtual_path: docs/platform_services_post_commit_callback/index.md
+  - title: Disaster Recovery
+    kind: link
+    source_url: https://hudi.apache.org/docs/disaster_recovery/
+    anchor: disaster_recovery
+    virtual_path: docs/disaster_recovery/index.md
+  - title: Bootstrapping
+    kind: link
+    source_url: https://hudi.apache.org/docs/migration_guide/
+    anchor: migration_guide
+    virtual_path: docs/migration_guide/index.md
+- title: Operating Hudi
+  kind: link
+  source_url: https://hudi.apache.org/docs/performance/
+  anchor: performance
+  virtual_path: docs/performance/index.md
+  children:
+  - title: Performance
+    kind: link
+    source_url: https://hudi.apache.org/docs/performance/
+    anchor: performance
+    virtual_path: docs/performance/index.md
+  - title: Deployment
+    kind: link
+    source_url: https://hudi.apache.org/docs/deployment/
+    anchor: deployment
+    virtual_path: docs/deployment/index.md
+  - title: SQL Procedures
+    kind: link
+    source_url: https://hudi.apache.org/docs/procedures/
+    anchor: procedures
+    virtual_path: docs/procedures/index.md
+  - title: CLI
+    kind: link
+    source_url: https://hudi.apache.org/docs/cli/
+    anchor: cli
+    virtual_path: docs/cli/index.md
+  - title: Metrics
+    kind: link
+    source_url: https://hudi.apache.org/docs/metrics/
+    anchor: metrics
+    virtual_path: docs/metrics/index.md
+  - title: Encryption
+    kind: link
+    source_url: https://hudi.apache.org/docs/encryption/
+    anchor: encryption
+    virtual_path: docs/encryption/index.md
+  - title: Troubleshooting
+    kind: link
+    source_url: https://hudi.apache.org/docs/troubleshooting/
+    anchor: troubleshooting
+    virtual_path: docs/troubleshooting/index.md
+  - title: Spark Tuning Guide
+    kind: link
+    source_url: https://hudi.apache.org/docs/tuning-guide/
+    anchor: tuning-guide
+    virtual_path: docs/tuning-guide/index.md
+  - title: Flink Tuning Guide
+    kind: link
+    source_url: https://hudi.apache.org/docs/flink_tuning/
+    anchor: flink_tuning
+    virtual_path: docs/flink_tuning/index.md
+- title: Configurations
+  kind: category
+  source_url: https://hudi.apache.org/docs/basic_configurations/
+  anchor: basic_configurations
+  virtual_path: docs/basic_configurations/index.md
+  children:
+  - title: Basic Configurations
+    kind: link
+    source_url: https://hudi.apache.org/docs/basic_configurations/
+    anchor: basic_configurations
+    virtual_path: docs/basic_configurations/index.md
+  - title: All Configurations
+    kind: link
+    source_url: https://hudi.apache.org/docs/configurations/
+    anchor: configurations
+    virtual_path: docs/configurations/index.md
+  - title: Storage Configurations
+    kind: category
+    source_url: https://hudi.apache.org/docs/cloud/
+    anchor: cloud
+    virtual_path: docs/cloud/index.md
+    children:
+    - title: Cloud Storage
+      kind: link
+      source_url: https://hudi.apache.org/docs/cloud/
+      anchor: cloud
+      virtual_path: docs/cloud/index.md
+    - title: AWS S3
+      kind: link
+      source_url: https://hudi.apache.org/docs/s3_hoodie/
+      anchor: s3_hoodie
+      virtual_path: docs/s3_hoodie/index.md
+    - title: Google Cloud
+      kind: link
+      source_url: https://hudi.apache.org/docs/gcs_hoodie/
+      anchor: gcs_hoodie
+      virtual_path: docs/gcs_hoodie/index.md
+    - title: Alibaba Cloud
+      kind: link
+      source_url: https://hudi.apache.org/docs/oss_hoodie/
+      anchor: oss_hoodie
+      virtual_path: docs/oss_hoodie/index.md
+    - title: Microsoft Azure
+      kind: link
+      source_url: https://hudi.apache.org/docs/azure_hoodie/
+      anchor: azure_hoodie
+      virtual_path: docs/azure_hoodie/index.md
+    - title: Tencent Cloud
+      kind: link
+      source_url: https://hudi.apache.org/docs/cos_hoodie/
+      anchor: cos_hoodie
+      virtual_path: docs/cos_hoodie/index.md
+    - title: IBM Cloud
+      kind: link
+      source_url: https://hudi.apache.org/docs/ibm_cos_hoodie/
+      anchor: ibm_cos_hoodie
+      virtual_path: docs/ibm_cos_hoodie/index.md
+    - title: Baidu Cloud
+      kind: link
+      source_url: https://hudi.apache.org/docs/bos_hoodie/
+      anchor: bos_hoodie
+      virtual_path: docs/bos_hoodie/index.md
+    - title: JuiceFS
+      kind: link
+      source_url: https://hudi.apache.org/docs/jfs_hoodie/
+      anchor: jfs_hoodie
+      virtual_path: docs/jfs_hoodie/index.md
+    - title: Oracle Cloud Infrastructure
+      kind: link
+      source_url: https://hudi.apache.org/docs/oci_hoodie/
+      anchor: oci_hoodie
+      virtual_path: docs/oci_hoodie/index.md
+    - title: KS3 Filesystem
+      kind: link
+      source_url: https://hudi.apache.org/docs/ks3_hoodie/
+      anchor: ks3_hoodie
+      virtual_path: docs/ks3_hoodie/index.md

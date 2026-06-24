@@ -1,0 +1,2204 @@
+[
+  {
+    "title": "Overview",
+    "kind": "link",
+    "source_url": "https://ozone.apache.org/docs/",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "Quick Start",
+    "kind": "link",
+    "source_url": "https://ozone.apache.org/docs/quick-start/",
+    "anchor": "quick-start",
+    "virtual_path": "docs/quick-start/index.md",
+    "children": [
+      {
+        "title": "Installation",
+        "kind": "category",
+        "source_url": "https://ozone.apache.org/docs/quick-start/installation/",
+        "anchor": "quick-start-installation",
+        "virtual_path": "docs/quick-start/installation/index.md",
+        "children": [
+          {
+            "title": "Docker",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/quick-start/installation/docker/",
+            "anchor": "quick-start-installation-docker",
+            "virtual_path": "docs/quick-start/installation/docker/index.md"
+          },
+          {
+            "title": "Kubernetes",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/quick-start/installation/kubernetes/",
+            "anchor": "quick-start-installation-kubernetes",
+            "virtual_path": "docs/quick-start/installation/kubernetes/index.md"
+          },
+          {
+            "title": "Bare Metal",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/quick-start/installation/bare-metal/",
+            "anchor": "quick-start-installation-bare-metal",
+            "virtual_path": "docs/quick-start/installation/bare-metal/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Reading and Writing Data in Ozone",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/quick-start/reading-writing-data/",
+        "anchor": "quick-start-reading-writing-data",
+        "virtual_path": "docs/quick-start/reading-writing-data/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Core Concepts",
+    "kind": "link",
+    "source_url": "https://ozone.apache.org/docs/core-concepts/",
+    "anchor": "core-concepts",
+    "virtual_path": "docs/core-concepts/index.md",
+    "children": [
+      {
+        "title": "Architecture",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/",
+        "anchor": "core-concepts-architecture",
+        "virtual_path": "docs/core-concepts/architecture/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/overview/",
+            "anchor": "core-concepts-architecture-overview",
+            "virtual_path": "docs/core-concepts/architecture/overview/index.md"
+          },
+          {
+            "title": "Ozone Manager",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/ozone-manager/",
+            "anchor": "core-concepts-architecture-ozone-manager",
+            "virtual_path": "docs/core-concepts/architecture/ozone-manager/index.md"
+          },
+          {
+            "title": "Storage Container Manager",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/storage-container-manager/",
+            "anchor": "core-concepts-architecture-storage-container-manager",
+            "virtual_path": "docs/core-concepts/architecture/storage-container-manager/index.md"
+          },
+          {
+            "title": "Ozone S3 Gateway",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/s3-gateway/",
+            "anchor": "core-concepts-architecture-s3-gateway",
+            "virtual_path": "docs/core-concepts/architecture/s3-gateway/index.md"
+          },
+          {
+            "title": "Datanodes",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/datanodes/",
+            "anchor": "core-concepts-architecture-datanodes",
+            "virtual_path": "docs/core-concepts/architecture/datanodes/index.md"
+          },
+          {
+            "title": "Recon",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/recon/",
+            "anchor": "core-concepts-architecture-recon",
+            "virtual_path": "docs/core-concepts/architecture/recon/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Replication",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/core-concepts/replication/",
+        "anchor": "core-concepts-replication",
+        "virtual_path": "docs/core-concepts/replication/index.md",
+        "children": [
+          {
+            "title": "Storage Containers",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/replication/storage-containers/",
+            "anchor": "core-concepts-replication-storage-containers",
+            "virtual_path": "docs/core-concepts/replication/storage-containers/index.md"
+          },
+          {
+            "title": "Write Pipelines",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/replication/write-pipelines/",
+            "anchor": "core-concepts-replication-write-pipelines",
+            "virtual_path": "docs/core-concepts/replication/write-pipelines/index.md"
+          },
+          {
+            "title": "Ratis",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/replication/ratis/",
+            "anchor": "core-concepts-replication-ratis",
+            "virtual_path": "docs/core-concepts/replication/ratis/index.md"
+          },
+          {
+            "title": "Erasure Coding",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/replication/erasure-coding/",
+            "anchor": "core-concepts-replication-erasure-coding",
+            "virtual_path": "docs/core-concepts/replication/erasure-coding/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Namespace",
+        "kind": "category",
+        "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/",
+        "anchor": "core-concepts-namespace",
+        "virtual_path": "docs/core-concepts/namespace/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/overview/",
+            "anchor": "core-concepts-namespace-overview",
+            "virtual_path": "docs/core-concepts/namespace/overview/index.md"
+          },
+          {
+            "title": "Volumes",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/volumes/",
+            "anchor": "core-concepts-namespace-volumes",
+            "virtual_path": "docs/core-concepts/namespace/volumes/index.md",
+            "children": [
+              {
+                "title": "Overview",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/volumes/overview/",
+                "anchor": "core-concepts-namespace-volumes-overview",
+                "virtual_path": "docs/core-concepts/namespace/volumes/overview/index.md"
+              },
+              {
+                "title": "Owners",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/volumes/owners/",
+                "anchor": "core-concepts-namespace-volumes-owners",
+                "virtual_path": "docs/core-concepts/namespace/volumes/owners/index.md"
+              },
+              {
+                "title": "Quotas",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/volumes/quotas/",
+                "anchor": "core-concepts-namespace-volumes-quotas",
+                "virtual_path": "docs/core-concepts/namespace/volumes/quotas/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Buckets",
+            "kind": "category",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/",
+            "anchor": "core-concepts-namespace-buckets",
+            "virtual_path": "docs/core-concepts/namespace/buckets/index.md",
+            "children": [
+              {
+                "title": "Overview",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/overview/",
+                "anchor": "core-concepts-namespace-buckets-overview",
+                "virtual_path": "docs/core-concepts/namespace/buckets/overview/index.md"
+              },
+              {
+                "title": "Owners",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/owners/",
+                "anchor": "core-concepts-namespace-buckets-owners",
+                "virtual_path": "docs/core-concepts/namespace/buckets/owners/index.md"
+              },
+              {
+                "title": "Quotas",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/quotas/",
+                "anchor": "core-concepts-namespace-buckets-quotas",
+                "virtual_path": "docs/core-concepts/namespace/buckets/quotas/index.md"
+              },
+              {
+                "title": "Layouts",
+                "kind": "category",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/layouts/",
+                "anchor": "core-concepts-namespace-buckets-layouts",
+                "virtual_path": "docs/core-concepts/namespace/buckets/layouts/index.md",
+                "children": [
+                  {
+                    "title": "Object Store (OBS)",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/layouts/object-store/",
+                    "anchor": "core-concepts-namespace-buckets-layouts-object-store",
+                    "virtual_path": "docs/core-concepts/namespace/buckets/layouts/object-store/index.md"
+                  },
+                  {
+                    "title": "File System Optimized (FSO)",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/layouts/file-system-optimized/",
+                    "anchor": "core-concepts-namespace-buckets-layouts-file-system-optimized",
+                    "virtual_path": "docs/core-concepts/namespace/buckets/layouts/file-system-optimized/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "Default Replication Type",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/replication/",
+                "anchor": "core-concepts-namespace-buckets-replication",
+                "virtual_path": "docs/core-concepts/namespace/buckets/replication/index.md"
+              },
+              {
+                "title": "Encryption",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/encryption/",
+                "anchor": "core-concepts-namespace-buckets-encryption",
+                "virtual_path": "docs/core-concepts/namespace/buckets/encryption/index.md"
+              },
+              {
+                "title": "Links",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/links/",
+                "anchor": "core-concepts-namespace-buckets-links",
+                "virtual_path": "docs/core-concepts/namespace/buckets/links/index.md"
+              },
+              {
+                "title": "Snapshots",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/snapshots/",
+                "anchor": "core-concepts-namespace-buckets-snapshots",
+                "virtual_path": "docs/core-concepts/namespace/buckets/snapshots/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Keys",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/keys/",
+            "anchor": "core-concepts-namespace-keys",
+            "virtual_path": "docs/core-concepts/namespace/keys/index.md",
+            "children": [
+              {
+                "title": "Overview",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/keys/overview/",
+                "anchor": "core-concepts-namespace-keys-overview",
+                "virtual_path": "docs/core-concepts/namespace/keys/overview/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/core-concepts/security/",
+        "anchor": "core-concepts-security",
+        "virtual_path": "docs/core-concepts/security/index.md",
+        "children": [
+          {
+            "title": "Kerberos",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/security/kerberos/",
+            "anchor": "core-concepts-security-kerberos",
+            "virtual_path": "docs/core-concepts/security/kerberos/index.md"
+          },
+          {
+            "title": "ACLs",
+            "kind": "category",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/security/acls/",
+            "anchor": "core-concepts-security-acls",
+            "virtual_path": "docs/core-concepts/security/acls/index.md",
+            "children": [
+              {
+                "title": "Native ACLs",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/security/acls/native-acls/",
+                "anchor": "core-concepts-security-acls-native-acls",
+                "virtual_path": "docs/core-concepts/security/acls/native-acls/index.md"
+              },
+              {
+                "title": "Ranger authorization policies",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/core-concepts/security/acls/ranger-acls/",
+                "anchor": "core-concepts-security-acls-ranger-acls",
+                "virtual_path": "docs/core-concepts/security/acls/ranger-acls/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "High Availability",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/core-concepts/high-availability/",
+        "anchor": "core-concepts-high-availability",
+        "virtual_path": "docs/core-concepts/high-availability/index.md",
+        "children": [
+          {
+            "title": "SCM High Availability",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/high-availability/scm-ha/",
+            "anchor": "core-concepts-high-availability-scm-ha",
+            "virtual_path": "docs/core-concepts/high-availability/scm-ha/index.md"
+          },
+          {
+            "title": "Ozone Manager High Availability",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/core-concepts/high-availability/om-ha/",
+            "anchor": "core-concepts-high-availability-om-ha",
+            "virtual_path": "docs/core-concepts/high-availability/om-ha/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Comparison with Other Storage Technologies",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/core-concepts/comparison/",
+        "anchor": "core-concepts-comparison",
+        "virtual_path": "docs/core-concepts/comparison/index.md"
+      }
+    ]
+  },
+  {
+    "title": "User Guide",
+    "kind": "link",
+    "source_url": "https://ozone.apache.org/docs/user-guide/",
+    "anchor": "user-guide",
+    "virtual_path": "docs/user-guide/index.md",
+    "children": [
+      {
+        "title": "Client Interfaces",
+        "kind": "category",
+        "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/",
+        "anchor": "user-guide-client-interfaces",
+        "virtual_path": "docs/user-guide/client-interfaces/index.md",
+        "children": [
+          {
+            "title": "Ozone Shell",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/o3/",
+            "anchor": "user-guide-client-interfaces-o3",
+            "virtual_path": "docs/user-guide/client-interfaces/o3/index.md"
+          },
+          {
+            "title": "ofs",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/ofs/",
+            "anchor": "user-guide-client-interfaces-ofs",
+            "virtual_path": "docs/user-guide/client-interfaces/ofs/index.md"
+          },
+          {
+            "title": "S3 API",
+            "kind": "category",
+            "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/s3/",
+            "anchor": "user-guide-client-interfaces-s3",
+            "virtual_path": "docs/user-guide/client-interfaces/s3/index.md",
+            "children": [
+              {
+                "title": "Overview",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/s3/s3-api/",
+                "anchor": "user-guide-client-interfaces-s3-s3-api",
+                "virtual_path": "docs/user-guide/client-interfaces/s3/s3-api/index.md"
+              },
+              {
+                "title": "Securing S3",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/s3/securing-s3/",
+                "anchor": "user-guide-client-interfaces-s3-securing-s3",
+                "virtual_path": "docs/user-guide/client-interfaces/s3/securing-s3/index.md"
+              }
+            ]
+          },
+          {
+            "title": "s3a",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/s3a/",
+            "anchor": "user-guide-client-interfaces-s3a",
+            "virtual_path": "docs/user-guide/client-interfaces/s3a/index.md"
+          },
+          {
+            "title": "HttpFS Gateway",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/httpfs/",
+            "anchor": "user-guide-client-interfaces-httpfs",
+            "virtual_path": "docs/user-guide/client-interfaces/httpfs/index.md"
+          },
+          {
+            "title": "Java Client API",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/java-client-api/",
+            "anchor": "user-guide-client-interfaces-java-client-api",
+            "virtual_path": "docs/user-guide/client-interfaces/java-client-api/index.md"
+          },
+          {
+            "title": "Accessing Apache Ozone from Python",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/python/",
+            "anchor": "user-guide-client-interfaces-python",
+            "virtual_path": "docs/user-guide/client-interfaces/python/index.md"
+          },
+          {
+            "title": "CSI Protocol",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/csi-protocol/",
+            "anchor": "user-guide-client-interfaces-csi-protocol",
+            "virtual_path": "docs/user-guide/client-interfaces/csi-protocol/index.md"
+          },
+          {
+            "title": "Native C/C++ Client Access to Ozone",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/native-cpp/",
+            "anchor": "user-guide-client-interfaces-native-cpp",
+            "virtual_path": "docs/user-guide/client-interfaces/native-cpp/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Clients",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/user-guide/clients/",
+        "anchor": "user-guide-clients",
+        "virtual_path": "docs/user-guide/clients/index.md",
+        "children": [
+          {
+            "title": "Ozone",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/clients/ozone/",
+            "anchor": "user-guide-clients-ozone",
+            "virtual_path": "docs/user-guide/clients/ozone/index.md"
+          },
+          {
+            "title": "HDFS",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/clients/hdfs/",
+            "anchor": "user-guide-clients-hdfs",
+            "virtual_path": "docs/user-guide/clients/hdfs/index.md"
+          },
+          {
+            "title": "S3",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/clients/s3/",
+            "anchor": "user-guide-clients-s3",
+            "virtual_path": "docs/user-guide/clients/s3/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Integrations",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/user-guide/integrations/",
+        "anchor": "user-guide-integrations",
+        "virtual_path": "docs/user-guide/integrations/index.md",
+        "children": [
+          {
+            "title": "Hive",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/integrations/hive/",
+            "anchor": "user-guide-integrations-hive",
+            "virtual_path": "docs/user-guide/integrations/hive/index.md"
+          },
+          {
+            "title": "Hue",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/integrations/hue/",
+            "anchor": "user-guide-integrations-hue",
+            "virtual_path": "docs/user-guide/integrations/hue/index.md"
+          },
+          {
+            "title": "Iceberg",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/integrations/iceberg/",
+            "anchor": "user-guide-integrations-iceberg",
+            "virtual_path": "docs/user-guide/integrations/iceberg/index.md"
+          },
+          {
+            "title": "Impala",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/integrations/impala/",
+            "anchor": "user-guide-integrations-impala",
+            "virtual_path": "docs/user-guide/integrations/impala/index.md"
+          },
+          {
+            "title": "Oozie",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/integrations/oozie/",
+            "anchor": "user-guide-integrations-oozie",
+            "virtual_path": "docs/user-guide/integrations/oozie/index.md"
+          },
+          {
+            "title": "Spark",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/integrations/spark/",
+            "anchor": "user-guide-integrations-spark",
+            "virtual_path": "docs/user-guide/integrations/spark/index.md"
+          },
+          {
+            "title": "Trino",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/integrations/trino/",
+            "anchor": "user-guide-integrations-trino",
+            "virtual_path": "docs/user-guide/integrations/trino/index.md"
+          },
+          {
+            "title": "DistCp",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/integrations/hadoop-distcp/",
+            "anchor": "user-guide-integrations-hadoop-distcp",
+            "virtual_path": "docs/user-guide/integrations/hadoop-distcp/index.md"
+          },
+          {
+            "title": "Flink",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/integrations/flink/",
+            "anchor": "user-guide-integrations-flink",
+            "virtual_path": "docs/user-guide/integrations/flink/index.md"
+          },
+          {
+            "title": "HBase",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/user-guide/integrations/hbase/",
+            "anchor": "user-guide-integrations-hbase",
+            "virtual_path": "docs/user-guide/integrations/hbase/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Administrator Guide",
+    "kind": "category",
+    "source_url": "https://ozone.apache.org/docs/administrator-guide/",
+    "anchor": "administrator-guide",
+    "virtual_path": "docs/administrator-guide/index.md",
+    "children": [
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/",
+        "anchor": "administrator-guide-installation",
+        "virtual_path": "docs/administrator-guide/installation/index.md",
+        "children": [
+          {
+            "title": "Deployment Architecture",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/deployment-architecture/",
+            "anchor": "administrator-guide-installation-deployment-architecture",
+            "virtual_path": "docs/administrator-guide/installation/deployment-architecture/index.md"
+          },
+          {
+            "title": "Reference Architecture",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/reference-architecture/",
+            "anchor": "administrator-guide-installation-reference-architecture",
+            "virtual_path": "docs/administrator-guide/installation/reference-architecture/index.md"
+          },
+          {
+            "title": "Hardware and Sizing",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/hardware-and-sizing/",
+            "anchor": "administrator-guide-installation-hardware-and-sizing",
+            "virtual_path": "docs/administrator-guide/installation/hardware-and-sizing/index.md"
+          },
+          {
+            "title": "Installing the Ozone Binaries",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/installing-binaries/",
+            "anchor": "administrator-guide-installation-installing-binaries",
+            "virtual_path": "docs/administrator-guide/installation/installing-binaries/index.md"
+          },
+          {
+            "title": "Initializing Cluster",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/initializing-cluster/",
+            "anchor": "administrator-guide-installation-initializing-cluster",
+            "virtual_path": "docs/administrator-guide/installation/initializing-cluster/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Configuration",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/",
+        "anchor": "administrator-guide-configuration",
+        "virtual_path": "docs/administrator-guide/configuration/index.md",
+        "children": [
+          {
+            "title": "Basic",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/",
+            "anchor": "administrator-guide-configuration-basic",
+            "virtual_path": "docs/administrator-guide/configuration/basic/index.md",
+            "children": [
+              {
+                "title": "Configuration Files",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/configuration-files/",
+                "anchor": "administrator-guide-configuration-basic-configuration-files",
+                "virtual_path": "docs/administrator-guide/configuration/basic/configuration-files/index.md"
+              },
+              {
+                "title": "Environment Variables",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/environment-variables/",
+                "anchor": "administrator-guide-configuration-basic-environment-variables",
+                "virtual_path": "docs/administrator-guide/configuration/basic/environment-variables/index.md"
+              },
+              {
+                "title": "Network",
+                "kind": "category",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/",
+                "anchor": "administrator-guide-configuration-basic-network",
+                "virtual_path": "docs/administrator-guide/configuration/basic/network/index.md",
+                "children": [
+                  {
+                    "title": "Ozone Manager",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/ozone-manager/",
+                    "anchor": "administrator-guide-configuration-basic-network-ozone-manager",
+                    "virtual_path": "docs/administrator-guide/configuration/basic/network/ozone-manager/index.md"
+                  },
+                  {
+                    "title": "Storage Container Manager",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/storage-container-manager/",
+                    "anchor": "administrator-guide-configuration-basic-network-storage-container-manager",
+                    "virtual_path": "docs/administrator-guide/configuration/basic/network/storage-container-manager/index.md"
+                  },
+                  {
+                    "title": "Datanodes",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/datanode/",
+                    "anchor": "administrator-guide-configuration-basic-network-datanode",
+                    "virtual_path": "docs/administrator-guide/configuration/basic/network/datanode/index.md"
+                  },
+                  {
+                    "title": "Recon",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/recon/",
+                    "anchor": "administrator-guide-configuration-basic-network-recon",
+                    "virtual_path": "docs/administrator-guide/configuration/basic/network/recon/index.md"
+                  },
+                  {
+                    "title": "S3 Gateways",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/s3-gateway/",
+                    "anchor": "administrator-guide-configuration-basic-network-s3-gateway",
+                    "virtual_path": "docs/administrator-guide/configuration/basic/network/s3-gateway/index.md"
+                  },
+                  {
+                    "title": "Default Ports",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/default-ports/",
+                    "anchor": "administrator-guide-configuration-basic-network-default-ports",
+                    "virtual_path": "docs/administrator-guide/configuration/basic/network/default-ports/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "Directories",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/directories/",
+                "anchor": "administrator-guide-configuration-basic-directories",
+                "virtual_path": "docs/administrator-guide/configuration/basic/directories/index.md",
+                "children": [
+                  {
+                    "title": "Ozone Manager",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/directories/ozone-manager/",
+                    "anchor": "administrator-guide-configuration-basic-directories-ozone-manager",
+                    "virtual_path": "docs/administrator-guide/configuration/basic/directories/ozone-manager/index.md"
+                  },
+                  {
+                    "title": "Storage Container Manager",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/directories/storage-container-manager/",
+                    "anchor": "administrator-guide-configuration-basic-directories-storage-container-manager",
+                    "virtual_path": "docs/administrator-guide/configuration/basic/directories/storage-container-manager/index.md"
+                  },
+                  {
+                    "title": "Datanodes",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/directories/datanode/",
+                    "anchor": "administrator-guide-configuration-basic-directories-datanode",
+                    "virtual_path": "docs/administrator-guide/configuration/basic/directories/datanode/index.md"
+                  },
+                  {
+                    "title": "Recon",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/directories/recon/",
+                    "anchor": "administrator-guide-configuration-basic-directories-recon",
+                    "virtual_path": "docs/administrator-guide/configuration/basic/directories/recon/index.md"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Logging",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/logging/",
+            "anchor": "administrator-guide-configuration-logging",
+            "virtual_path": "docs/administrator-guide/configuration/logging/index.md",
+            "children": [
+              {
+                "title": "Application Logs",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/logging/application-logs/",
+                "anchor": "administrator-guide-configuration-logging-application-logs",
+                "virtual_path": "docs/administrator-guide/configuration/logging/application-logs/index.md"
+              },
+              {
+                "title": "Audit Logs",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/logging/audit-logs/",
+                "anchor": "administrator-guide-configuration-logging-audit-logs",
+                "virtual_path": "docs/administrator-guide/configuration/logging/audit-logs/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Security",
+            "kind": "category",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/",
+            "anchor": "administrator-guide-configuration-security",
+            "virtual_path": "docs/administrator-guide/configuration/security/index.md",
+            "children": [
+              {
+                "title": "Administrators",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/administrators/",
+                "anchor": "administrator-guide-configuration-security-administrators",
+                "virtual_path": "docs/administrator-guide/configuration/security/administrators/index.md"
+              },
+              {
+                "title": "Kerberos",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/kerberos/",
+                "anchor": "administrator-guide-configuration-security-kerberos",
+                "virtual_path": "docs/administrator-guide/configuration/security/kerberos/index.md"
+              },
+              {
+                "title": "HTTPS",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/https/",
+                "anchor": "administrator-guide-configuration-security-https",
+                "virtual_path": "docs/administrator-guide/configuration/security/https/index.md"
+              },
+              {
+                "title": "Apache Knox",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/knox/",
+                "anchor": "administrator-guide-configuration-security-knox",
+                "virtual_path": "docs/administrator-guide/configuration/security/knox/index.md"
+              },
+              {
+                "title": "Encryption",
+                "kind": "category",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/",
+                "anchor": "administrator-guide-configuration-security-encryption",
+                "virtual_path": "docs/administrator-guide/configuration/security/encryption/index.md",
+                "children": [
+                  {
+                    "title": "Network Encryption",
+                    "kind": "category",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/network-encryption/",
+                    "anchor": "administrator-guide-configuration-security-encryption-network-encryption",
+                    "virtual_path": "docs/administrator-guide/configuration/security/encryption/network-encryption/index.md",
+                    "children": [
+                      {
+                        "title": "Hadoop RPC",
+                        "kind": "link",
+                        "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/network-encryption/hadoop-rpc/",
+                        "anchor": "administrator-guide-configuration-security-encryption-network-encryption-hadoop-rpc",
+                        "virtual_path": "docs/administrator-guide/configuration/security/encryption/network-encryption/hadoop-rpc/index.md"
+                      },
+                      {
+                        "title": "gRPC TLS",
+                        "kind": "link",
+                        "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/network-encryption/grpc/",
+                        "anchor": "administrator-guide-configuration-security-encryption-network-encryption-grpc",
+                        "virtual_path": "docs/administrator-guide/configuration/security/encryption/network-encryption/grpc/index.md"
+                      },
+                      {
+                        "title": "Web UI HTTPS",
+                        "kind": "link",
+                        "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/network-encryption/web-ui-https/",
+                        "anchor": "administrator-guide-configuration-security-encryption-network-encryption-web-ui-https",
+                        "virtual_path": "docs/administrator-guide/configuration/security/encryption/network-encryption/web-ui-https/index.md"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Transparent Data Encryption (TDE)",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/transparent-data-encryption/",
+                    "anchor": "administrator-guide-configuration-security-encryption-transparent-data-encryption",
+                    "virtual_path": "docs/administrator-guide/configuration/security/encryption/transparent-data-encryption/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "Apache Ranger",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/ranger/",
+                "anchor": "administrator-guide-configuration-security-ranger",
+                "virtual_path": "docs/administrator-guide/configuration/security/ranger/index.md"
+              },
+              {
+                "title": "Securing S3 Secrets",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/securing-s3-secrets/",
+                "anchor": "administrator-guide-configuration-security-securing-s3-secrets",
+                "virtual_path": "docs/administrator-guide/configuration/security/securing-s3-secrets/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Performance",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/",
+            "anchor": "administrator-guide-configuration-performance",
+            "virtual_path": "docs/administrator-guide/configuration/performance/index.md",
+            "children": [
+              {
+                "title": "Production Deployment",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/placeholder/",
+                "anchor": "administrator-guide-configuration-performance-placeholder",
+                "virtual_path": "docs/administrator-guide/configuration/performance/placeholder/index.md"
+              },
+              {
+                "title": "Topology",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/topology/",
+                "anchor": "administrator-guide-configuration-performance-topology",
+                "virtual_path": "docs/administrator-guide/configuration/performance/topology/index.md"
+              },
+              {
+                "title": "Multi-Raft",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/multi-raft/",
+                "anchor": "administrator-guide-configuration-performance-multi-raft",
+                "virtual_path": "docs/administrator-guide/configuration/performance/multi-raft/index.md"
+              },
+              {
+                "title": "RocksDB In Apache Ozone",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/rocksdb/",
+                "anchor": "administrator-guide-configuration-performance-rocksdb",
+                "virtual_path": "docs/administrator-guide/configuration/performance/rocksdb/index.md"
+              },
+              {
+                "title": "Streaming Write Pipeline",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/streaming-write-pipeline/",
+                "anchor": "administrator-guide-configuration-performance-streaming-write-pipeline",
+                "virtual_path": "docs/administrator-guide/configuration/performance/streaming-write-pipeline/index.md"
+              },
+              {
+                "title": "Calculating EC Pipeline Limits",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/calculating-ec-pipeline-limits/",
+                "anchor": "administrator-guide-configuration-performance-calculating-ec-pipeline-limits",
+                "virtual_path": "docs/administrator-guide/configuration/performance/calculating-ec-pipeline-limits/index.md"
+              },
+              {
+                "title": "Calculating Ratis Pipeline Limits",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/calculating-ratis-pipeline-limits/",
+                "anchor": "administrator-guide-configuration-performance-calculating-ratis-pipeline-limits",
+                "virtual_path": "docs/administrator-guide/configuration/performance/calculating-ratis-pipeline-limits/index.md"
+              },
+              {
+                "title": "S3 Gateway Load Balancing",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/s3-gateway-load-balancing/",
+                "anchor": "administrator-guide-configuration-performance-s3-gateway-load-balancing",
+                "virtual_path": "docs/administrator-guide/configuration/performance/s3-gateway-load-balancing/index.md"
+              },
+              {
+                "title": "Fairness",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/fair-call-queue/",
+                "anchor": "administrator-guide-configuration-performance-fair-call-queue",
+                "virtual_path": "docs/administrator-guide/configuration/performance/fair-call-queue/index.md"
+              }
+            ]
+          },
+          {
+            "title": "High Availability",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/high-availability/",
+            "anchor": "administrator-guide-configuration-high-availability",
+            "virtual_path": "docs/administrator-guide/configuration/high-availability/index.md",
+            "children": [
+              {
+                "title": "SCM HA Configuration",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/high-availability/scm-ha/",
+                "anchor": "administrator-guide-configuration-high-availability-scm-ha",
+                "virtual_path": "docs/administrator-guide/configuration/high-availability/scm-ha/index.md"
+              },
+              {
+                "title": "OM HA Configuration",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/high-availability/om-ha/",
+                "anchor": "administrator-guide-configuration-high-availability-om-ha",
+                "virtual_path": "docs/administrator-guide/configuration/high-availability/om-ha/index.md"
+              },
+              {
+                "title": "Client Failover",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/high-availability/client-failover/",
+                "anchor": "administrator-guide-configuration-high-availability-client-failover",
+                "virtual_path": "docs/administrator-guide/configuration/high-availability/client-failover/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Appendix",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/appendix/",
+            "anchor": "administrator-guide-configuration-appendix",
+            "virtual_path": "docs/administrator-guide/configuration/appendix/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Operations",
+        "kind": "category",
+        "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/",
+        "anchor": "administrator-guide-operations",
+        "virtual_path": "docs/administrator-guide/operations/index.md",
+        "children": [
+          {
+            "title": "Start and Stop",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/start-and-stop/",
+            "anchor": "administrator-guide-operations-start-and-stop",
+            "virtual_path": "docs/administrator-guide/operations/start-and-stop/index.md"
+          },
+          {
+            "title": "Upgrade and Downgrade",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/upgrade-and-downgrade/",
+            "anchor": "administrator-guide-operations-upgrade-and-downgrade",
+            "virtual_path": "docs/administrator-guide/operations/upgrade-and-downgrade/index.md"
+          },
+          {
+            "title": "Decommissioning and Maintenance",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/",
+            "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance",
+            "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/index.md",
+            "children": [
+              {
+                "title": "Ozone Manager",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/ozone-manager/",
+                "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance-ozone-manager",
+                "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/ozone-manager/index.md"
+              },
+              {
+                "title": "Storage Container Manager",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/storage-container-manager/",
+                "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance-storage-container-manager",
+                "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/storage-container-manager/index.md"
+              },
+              {
+                "title": "Datanode",
+                "kind": "category",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/",
+                "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance-datanodes",
+                "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/index.md",
+                "children": [
+                  {
+                    "title": "Datanode Decommission",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/datanode-decommission/",
+                    "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance-datanodes-datanode-decommission",
+                    "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/datanode-decommission/index.md"
+                  },
+                  {
+                    "title": "Datanode Maintenance Mode",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/datanode-maintenance/",
+                    "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance-datanodes-datanode-maintenance",
+                    "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/datanode-maintenance/index.md"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Disk Replacement",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/disk-replacement/",
+            "anchor": "administrator-guide-operations-disk-replacement",
+            "virtual_path": "docs/administrator-guide/operations/disk-replacement/index.md",
+            "children": [
+              {
+                "title": "Ozone Manager",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/disk-replacement/ozone-manager/",
+                "anchor": "administrator-guide-operations-disk-replacement-ozone-manager",
+                "virtual_path": "docs/administrator-guide/operations/disk-replacement/ozone-manager/index.md"
+              },
+              {
+                "title": "Storage Container Manager",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/disk-replacement/storage-container-manager/",
+                "anchor": "administrator-guide-operations-disk-replacement-storage-container-manager",
+                "virtual_path": "docs/administrator-guide/operations/disk-replacement/storage-container-manager/index.md"
+              },
+              {
+                "title": "Datanodes",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/disk-replacement/datanodes/",
+                "anchor": "administrator-guide-operations-disk-replacement-datanodes",
+                "virtual_path": "docs/administrator-guide/operations/disk-replacement/datanodes/index.md"
+              },
+              {
+                "title": "Recon",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/disk-replacement/recon/",
+                "anchor": "administrator-guide-operations-disk-replacement-recon",
+                "virtual_path": "docs/administrator-guide/operations/disk-replacement/recon/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Container Replication Report",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/container-replication-report/",
+            "anchor": "administrator-guide-operations-container-replication-report",
+            "virtual_path": "docs/administrator-guide/operations/container-replication-report/index.md"
+          },
+          {
+            "title": "Data Balancing",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/data-balancing/",
+            "anchor": "administrator-guide-operations-data-balancing",
+            "virtual_path": "docs/administrator-guide/operations/data-balancing/index.md",
+            "children": [
+              {
+                "title": "Balancing Data Among Datanodes",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/data-balancing/container-balancer/",
+                "anchor": "administrator-guide-operations-data-balancing-container-balancer",
+                "virtual_path": "docs/administrator-guide/operations/data-balancing/container-balancer/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Certificate Rotation",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/certificate-rotation/",
+            "anchor": "administrator-guide-operations-certificate-rotation",
+            "virtual_path": "docs/administrator-guide/operations/certificate-rotation/index.md"
+          },
+          {
+            "title": "S3 Multi-Tenancy",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/s3-multi-tenancy/",
+            "anchor": "administrator-guide-operations-s3-multi-tenancy",
+            "virtual_path": "docs/administrator-guide/operations/s3-multi-tenancy/index.md",
+            "children": [
+              {
+                "title": "Overview",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/s3-multi-tenancy/overview/",
+                "anchor": "administrator-guide-operations-s3-multi-tenancy-overview",
+                "virtual_path": "docs/administrator-guide/operations/s3-multi-tenancy/overview/index.md"
+              },
+              {
+                "title": "Setup",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/s3-multi-tenancy/setup/",
+                "anchor": "administrator-guide-operations-s3-multi-tenancy-setup",
+                "virtual_path": "docs/administrator-guide/operations/s3-multi-tenancy/setup/index.md"
+              },
+              {
+                "title": "Tenant Commands",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/s3-multi-tenancy/tenant-commands/",
+                "anchor": "administrator-guide-operations-s3-multi-tenancy-tenant-commands",
+                "virtual_path": "docs/administrator-guide/operations/s3-multi-tenancy/tenant-commands/index.md"
+              },
+              {
+                "title": "Access Control",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/s3-multi-tenancy/access-control/",
+                "anchor": "administrator-guide-operations-s3-multi-tenancy-access-control",
+                "virtual_path": "docs/administrator-guide/operations/s3-multi-tenancy/access-control/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Snapshots",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/snapshots/",
+            "anchor": "administrator-guide-operations-snapshots",
+            "virtual_path": "docs/administrator-guide/operations/snapshots/index.md",
+            "children": [
+              {
+                "title": "Snapshots Overview",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/snapshots/overview/",
+                "anchor": "administrator-guide-operations-snapshots-overview",
+                "virtual_path": "docs/administrator-guide/operations/snapshots/overview/index.md"
+              },
+              {
+                "title": "Snapshot Configuration Properties",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/snapshots/configuration-properties/",
+                "anchor": "administrator-guide-operations-snapshots-configuration-properties",
+                "virtual_path": "docs/administrator-guide/operations/snapshots/configuration-properties/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Observability",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/",
+            "anchor": "administrator-guide-operations-observability",
+            "virtual_path": "docs/administrator-guide/operations/observability/index.md",
+            "children": [
+              {
+                "title": "CLI",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/cli/",
+                "anchor": "administrator-guide-operations-observability-cli",
+                "virtual_path": "docs/administrator-guide/operations/observability/cli/index.md"
+              },
+              {
+                "title": "Recon",
+                "kind": "category",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/recon/",
+                "anchor": "administrator-guide-operations-observability-recon",
+                "virtual_path": "docs/administrator-guide/operations/observability/recon/index.md",
+                "children": [
+                  {
+                    "title": "Recon Web UI",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/recon/recon-web-ui/",
+                    "anchor": "administrator-guide-operations-observability-recon-recon-web-ui",
+                    "virtual_path": "docs/administrator-guide/operations/observability/recon/recon-web-ui/index.md"
+                  },
+                  {
+                    "title": "Recon REST API",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/recon/recon-rest-api/",
+                    "anchor": "administrator-guide-operations-observability-recon-recon-rest-api",
+                    "virtual_path": "docs/administrator-guide/operations/observability/recon/recon-rest-api/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "Web UIs",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/web-uis/",
+                "anchor": "administrator-guide-operations-observability-web-uis",
+                "virtual_path": "docs/administrator-guide/operations/observability/web-uis/index.md"
+              },
+              {
+                "title": "Prometheus",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/prometheus/",
+                "anchor": "administrator-guide-operations-observability-prometheus",
+                "virtual_path": "docs/administrator-guide/operations/observability/prometheus/index.md"
+              },
+              {
+                "title": "Grafana",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/grafana/",
+                "anchor": "administrator-guide-operations-observability-grafana",
+                "virtual_path": "docs/administrator-guide/operations/observability/grafana/index.md"
+              },
+              {
+                "title": "Distributed tracing",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/distributed-tracing/",
+                "anchor": "administrator-guide-operations-observability-distributed-tracing",
+                "virtual_path": "docs/administrator-guide/operations/observability/distributed-tracing/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Leader Transfer",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/leader-transfer/",
+            "anchor": "administrator-guide-operations-leader-transfer",
+            "virtual_path": "docs/administrator-guide/operations/leader-transfer/index.md",
+            "children": [
+              {
+                "title": "Ozone Manager",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/leader-transfer/ozone-manager/",
+                "anchor": "administrator-guide-operations-leader-transfer-ozone-manager",
+                "virtual_path": "docs/administrator-guide/operations/leader-transfer/ozone-manager/index.md"
+              },
+              {
+                "title": "Storage Container Manager",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/leader-transfer/storage-container-manager/",
+                "anchor": "administrator-guide-operations-leader-transfer-storage-container-manager",
+                "virtual_path": "docs/administrator-guide/operations/leader-transfer/storage-container-manager/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Quota in Ozone",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/quota/",
+            "anchor": "administrator-guide-operations-quota",
+            "virtual_path": "docs/administrator-guide/operations/quota/index.md"
+          },
+          {
+            "title": "Tools",
+            "kind": "category",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/",
+            "anchor": "administrator-guide-operations-tools",
+            "virtual_path": "docs/administrator-guide/operations/tools/index.md",
+            "children": [
+              {
+                "title": "Ozone Repair",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-repair/",
+                "anchor": "administrator-guide-operations-tools-ozone-repair",
+                "virtual_path": "docs/administrator-guide/operations/tools/ozone-repair/index.md"
+              },
+              {
+                "title": "Ozone Admin",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-admin/",
+                "anchor": "administrator-guide-operations-tools-ozone-admin",
+                "virtual_path": "docs/administrator-guide/operations/tools/ozone-admin/index.md"
+              },
+              {
+                "title": "Ozone Debug",
+                "kind": "category",
+                "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/",
+                "anchor": "administrator-guide-operations-tools-ozone-debug",
+                "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/index.md",
+                "children": [
+                  {
+                    "title": "LDB Tool",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/ldb-tool/",
+                    "anchor": "administrator-guide-operations-tools-ozone-debug-ldb-tool",
+                    "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/ldb-tool/index.md"
+                  },
+                  {
+                    "title": "Debug OM",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/debug-om/",
+                    "anchor": "administrator-guide-operations-tools-ozone-debug-debug-om",
+                    "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/debug-om/index.md"
+                  },
+                  {
+                    "title": "Debug Datanode",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/debug-datanode/",
+                    "anchor": "administrator-guide-operations-tools-ozone-debug-debug-datanode",
+                    "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/debug-datanode/index.md"
+                  },
+                  {
+                    "title": "Debug Replicas",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/debug-replicas/",
+                    "anchor": "administrator-guide-operations-tools-ozone-debug-debug-replicas",
+                    "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/debug-replicas/index.md"
+                  },
+                  {
+                    "title": "Ratis Log Parser",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/ratis-log-parser/",
+                    "anchor": "administrator-guide-operations-tools-ozone-debug-ratis-log-parser",
+                    "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/ratis-log-parser/index.md"
+                  },
+                  {
+                    "title": "Audit Parser",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/audit-parser-exact/",
+                    "anchor": "administrator-guide-operations-tools-ozone-debug-audit-parser-exact",
+                    "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/audit-parser-exact/index.md"
+                  },
+                  {
+                    "title": "Container Replica Debugger Tool",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/container-replica-debugger-tool/",
+                    "anchor": "administrator-guide-operations-tools-ozone-debug-container-replica-debugger-tool",
+                    "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/container-replica-debugger-tool/index.md"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Trash",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/trash/",
+            "anchor": "administrator-guide-operations-trash",
+            "virtual_path": "docs/administrator-guide/operations/trash/index.md"
+          },
+          {
+            "title": "Dynamic Property Reload",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/dynamic-property-reload/",
+            "anchor": "administrator-guide-operations-dynamic-property-reload",
+            "virtual_path": "docs/administrator-guide/operations/dynamic-property-reload/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "System Internals",
+    "kind": "link",
+    "source_url": "https://ozone.apache.org/docs/system-internals/",
+    "anchor": "system-internals",
+    "virtual_path": "docs/system-internals/index.md",
+    "children": [
+      {
+        "title": "Components",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/system-internals/components/",
+        "anchor": "system-internals-components",
+        "virtual_path": "docs/system-internals/components/index.md",
+        "children": [
+          {
+            "title": "Ozone Manager",
+            "kind": "category",
+            "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/",
+            "anchor": "system-internals-components-ozone-manager",
+            "virtual_path": "docs/system-internals/components/ozone-manager/index.md",
+            "children": [
+              {
+                "title": "Disk Layout",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/disk-layout/",
+                "anchor": "system-internals-components-ozone-manager-disk-layout",
+                "virtual_path": "docs/system-internals/components/ozone-manager/disk-layout/index.md"
+              },
+              {
+                "title": "RocksDB Schema",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/rocksdb-schema/",
+                "anchor": "system-internals-components-ozone-manager-rocksdb-schema",
+                "virtual_path": "docs/system-internals/components/ozone-manager/rocksdb-schema/index.md"
+              },
+              {
+                "title": "In-Memory Storage",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/in-memory-storage/",
+                "anchor": "system-internals-components-ozone-manager-in-memory-storage",
+                "virtual_path": "docs/system-internals/components/ozone-manager/in-memory-storage/index.md"
+              },
+              {
+                "title": "Startup Sequence",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/startup-sequence/",
+                "anchor": "system-internals-components-ozone-manager-startup-sequence",
+                "virtual_path": "docs/system-internals/components/ozone-manager/startup-sequence/index.md"
+              },
+              {
+                "title": "Roles",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/roles/",
+                "anchor": "system-internals-components-ozone-manager-roles",
+                "virtual_path": "docs/system-internals/components/ozone-manager/roles/index.md"
+              },
+              {
+                "title": "Write Request Flow",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/write-request-flow/",
+                "anchor": "system-internals-components-ozone-manager-write-request-flow",
+                "virtual_path": "docs/system-internals/components/ozone-manager/write-request-flow/index.md"
+              },
+              {
+                "title": "Read Request Flow",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/read-request-flow/",
+                "anchor": "system-internals-components-ozone-manager-read-request-flow",
+                "virtual_path": "docs/system-internals/components/ozone-manager/read-request-flow/index.md"
+              },
+              {
+                "title": "High Availability",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/high-availability/",
+                "anchor": "system-internals-components-ozone-manager-high-availability",
+                "virtual_path": "docs/system-internals/components/ozone-manager/high-availability/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Storage Container Manager",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/",
+            "anchor": "system-internals-components-storage-container-manager",
+            "virtual_path": "docs/system-internals/components/storage-container-manager/index.md",
+            "children": [
+              {
+                "title": "Disk Layout",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/disk-layout/",
+                "anchor": "system-internals-components-storage-container-manager-disk-layout",
+                "virtual_path": "docs/system-internals/components/storage-container-manager/disk-layout/index.md"
+              },
+              {
+                "title": "RocksDB Schema",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/rocksdb-schema/",
+                "anchor": "system-internals-components-storage-container-manager-rocksdb-schema",
+                "virtual_path": "docs/system-internals/components/storage-container-manager/rocksdb-schema/index.md"
+              },
+              {
+                "title": "In-Memory Storage",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/in-memory-storage/",
+                "anchor": "system-internals-components-storage-container-manager-in-memory-storage",
+                "virtual_path": "docs/system-internals/components/storage-container-manager/in-memory-storage/index.md"
+              },
+              {
+                "title": "Startup Sequence",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/startup-sequence/",
+                "anchor": "system-internals-components-storage-container-manager-startup-sequence",
+                "virtual_path": "docs/system-internals/components/storage-container-manager/startup-sequence/index.md"
+              },
+              {
+                "title": "Roles",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/roles/",
+                "anchor": "system-internals-components-storage-container-manager-roles",
+                "virtual_path": "docs/system-internals/components/storage-container-manager/roles/index.md"
+              },
+              {
+                "title": "Admin Write Request Flow",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/admin-write-request-flow/",
+                "anchor": "system-internals-components-storage-container-manager-admin-write-request-flow",
+                "virtual_path": "docs/system-internals/components/storage-container-manager/admin-write-request-flow/index.md"
+              },
+              {
+                "title": "Admin Read Request Flow",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/admin-read-request-flow/",
+                "anchor": "system-internals-components-storage-container-manager-admin-read-request-flow",
+                "virtual_path": "docs/system-internals/components/storage-container-manager/admin-read-request-flow/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Datanode",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/",
+            "anchor": "system-internals-components-datanode",
+            "virtual_path": "docs/system-internals/components/datanode/index.md",
+            "children": [
+              {
+                "title": "Disk Layout",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/disk-layout/",
+                "anchor": "system-internals-components-datanode-disk-layout",
+                "virtual_path": "docs/system-internals/components/datanode/disk-layout/index.md"
+              },
+              {
+                "title": "Datanode Container Schema v3",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/rocksdb-schema/",
+                "anchor": "system-internals-components-datanode-rocksdb-schema",
+                "virtual_path": "docs/system-internals/components/datanode/rocksdb-schema/index.md"
+              },
+              {
+                "title": "In-Memory Storage",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/in-memory-storage/",
+                "anchor": "system-internals-components-datanode-in-memory-storage",
+                "virtual_path": "docs/system-internals/components/datanode/in-memory-storage/index.md"
+              },
+              {
+                "title": "Startup Sequence",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/startup-sequence/",
+                "anchor": "system-internals-components-datanode-startup-sequence",
+                "virtual_path": "docs/system-internals/components/datanode/startup-sequence/index.md"
+              },
+              {
+                "title": "Write Request Flow",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/write-request-flow/",
+                "anchor": "system-internals-components-datanode-write-request-flow",
+                "virtual_path": "docs/system-internals/components/datanode/write-request-flow/index.md"
+              },
+              {
+                "title": "Read Request Flow",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/read-request-flow/",
+                "anchor": "system-internals-components-datanode-read-request-flow",
+                "virtual_path": "docs/system-internals/components/datanode/read-request-flow/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Recon",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/",
+            "anchor": "system-internals-components-recon",
+            "virtual_path": "docs/system-internals/components/recon/index.md",
+            "children": [
+              {
+                "title": "Disk Layout",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/disk-layout/",
+                "anchor": "system-internals-components-recon-disk-layout",
+                "virtual_path": "docs/system-internals/components/recon/disk-layout/index.md"
+              },
+              {
+                "title": "RocksDB Layout",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/rocksdb-schema/",
+                "anchor": "system-internals-components-recon-rocksdb-schema",
+                "virtual_path": "docs/system-internals/components/recon/rocksdb-schema/index.md"
+              },
+              {
+                "title": "SQL Schema",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/sql-schema/",
+                "anchor": "system-internals-components-recon-sql-schema",
+                "virtual_path": "docs/system-internals/components/recon/sql-schema/index.md"
+              },
+              {
+                "title": "In-Memory Storage",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/in-memory-storage/",
+                "anchor": "system-internals-components-recon-in-memory-storage",
+                "virtual_path": "docs/system-internals/components/recon/in-memory-storage/index.md"
+              },
+              {
+                "title": "Startup Sequence",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/startup-sequence/",
+                "anchor": "system-internals-components-recon-startup-sequence",
+                "virtual_path": "docs/system-internals/components/recon/startup-sequence/index.md"
+              },
+              {
+                "title": "Syncing Data From Ozone Manager",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/syncing-data-from-om/",
+                "anchor": "system-internals-components-recon-syncing-data-from-om",
+                "virtual_path": "docs/system-internals/components/recon/syncing-data-from-om/index.md"
+              },
+              {
+                "title": "Syncing Data From Storage Container Manager",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/syncing-data-from-scm/",
+                "anchor": "system-internals-components-recon-syncing-data-from-scm",
+                "virtual_path": "docs/system-internals/components/recon/syncing-data-from-scm/index.md"
+              },
+              {
+                "title": "Syncing Data From Datanodes",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/syncing-data-from-datanodes/",
+                "anchor": "system-internals-components-recon-syncing-data-from-datanodes",
+                "virtual_path": "docs/system-internals/components/recon/syncing-data-from-datanodes/index.md"
+              }
+            ]
+          },
+          {
+            "title": "S3 Gateway",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/components/s3-gateway/",
+            "anchor": "system-internals-components-s3-gateway",
+            "virtual_path": "docs/system-internals/components/s3-gateway/index.md",
+            "children": [
+              {
+                "title": "Overview",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/s3-gateway/overview/",
+                "anchor": "system-internals-components-s3-gateway-overview",
+                "virtual_path": "docs/system-internals/components/s3-gateway/overview/index.md"
+              },
+              {
+                "title": "Request Flow",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/s3-gateway/request-flow/",
+                "anchor": "system-internals-components-s3-gateway-request-flow",
+                "virtual_path": "docs/system-internals/components/s3-gateway/request-flow/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Client",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/components/client/",
+            "anchor": "system-internals-components-client",
+            "virtual_path": "docs/system-internals/components/client/index.md",
+            "children": [
+              {
+                "title": "Startup Sequence",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/client/startup-sequence/",
+                "anchor": "system-internals-components-client-startup-sequence",
+                "virtual_path": "docs/system-internals/components/client/startup-sequence/index.md"
+              },
+              {
+                "title": "In-Memory Storage",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/client/in-memory-storage/",
+                "anchor": "system-internals-components-client-in-memory-storage",
+                "virtual_path": "docs/system-internals/components/client/in-memory-storage/index.md"
+              },
+              {
+                "title": "Jars",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/client/jars/",
+                "anchor": "system-internals-components-client-jars",
+                "virtual_path": "docs/system-internals/components/client/jars/index.md"
+              }
+            ]
+          },
+          {
+            "title": "HttpFS Gateway",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/components/httpfs-gateway/",
+            "anchor": "system-internals-components-httpfs-gateway",
+            "virtual_path": "docs/system-internals/components/httpfs-gateway/index.md",
+            "children": [
+              {
+                "title": "Overview",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/components/httpfs-gateway/overview/",
+                "anchor": "system-internals-components-httpfs-gateway-overview",
+                "virtual_path": "docs/system-internals/components/httpfs-gateway/overview/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Data Operations",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/system-internals/data-operations/",
+        "anchor": "system-internals-data-operations",
+        "virtual_path": "docs/system-internals/data-operations/index.md",
+        "children": [
+          {
+            "title": "Write",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/data-operations/write/",
+            "anchor": "system-internals-data-operations-write",
+            "virtual_path": "docs/system-internals/data-operations/write/index.md"
+          },
+          {
+            "title": "Read",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/data-operations/read/",
+            "anchor": "system-internals-data-operations-read",
+            "virtual_path": "docs/system-internals/data-operations/read/index.md"
+          },
+          {
+            "title": "Delete",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/data-operations/delete/",
+            "anchor": "system-internals-data-operations-delete",
+            "virtual_path": "docs/system-internals/data-operations/delete/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Data Integrity",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/system-internals/data-integrity/",
+        "anchor": "system-internals-data-integrity",
+        "virtual_path": "docs/system-internals/data-integrity/index.md",
+        "children": [
+          {
+            "title": "Checksums",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/data-integrity/checksums/",
+            "anchor": "system-internals-data-integrity-checksums",
+            "virtual_path": "docs/system-internals/data-integrity/checksums/index.md"
+          },
+          {
+            "title": "Datanode Container Scanner",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/data-integrity/container-scanner/",
+            "anchor": "system-internals-data-integrity-container-scanner",
+            "virtual_path": "docs/system-internals/data-integrity/container-scanner/index.md"
+          },
+          {
+            "title": "Datanode Volume Scanner",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/data-integrity/volume-scanner/",
+            "anchor": "system-internals-data-integrity-volume-scanner",
+            "virtual_path": "docs/system-internals/data-integrity/volume-scanner/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Replication",
+        "kind": "category",
+        "source_url": "https://ozone.apache.org/docs/system-internals/replication/",
+        "anchor": "system-internals-replication",
+        "virtual_path": "docs/system-internals/replication/index.md",
+        "children": [
+          {
+            "title": "Metadata",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/replication/metadata/",
+            "anchor": "system-internals-replication-metadata",
+            "virtual_path": "docs/system-internals/replication/metadata/index.md"
+          },
+          {
+            "title": "Data",
+            "kind": "category",
+            "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/",
+            "anchor": "system-internals-replication-data",
+            "virtual_path": "docs/system-internals/replication/data/index.md",
+            "children": [
+              {
+                "title": "Write Pipelines",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/",
+                "anchor": "system-internals-replication-data-write-pipelines",
+                "virtual_path": "docs/system-internals/replication/data/write-pipelines/index.md",
+                "children": [
+                  {
+                    "title": "Overview",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/overview/",
+                    "anchor": "system-internals-replication-data-write-pipelines-overview",
+                    "virtual_path": "docs/system-internals/replication/data/write-pipelines/overview/index.md"
+                  },
+                  {
+                    "title": "Types",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/types/",
+                    "anchor": "system-internals-replication-data-write-pipelines-types",
+                    "virtual_path": "docs/system-internals/replication/data/write-pipelines/types/index.md"
+                  },
+                  {
+                    "title": "States",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/states/",
+                    "anchor": "system-internals-replication-data-write-pipelines-states",
+                    "virtual_path": "docs/system-internals/replication/data/write-pipelines/states/index.md"
+                  },
+                  {
+                    "title": "Reports",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/reports/",
+                    "anchor": "system-internals-replication-data-write-pipelines-reports",
+                    "virtual_path": "docs/system-internals/replication/data/write-pipelines/reports/index.md"
+                  },
+                  {
+                    "title": "Creation",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/creation/",
+                    "anchor": "system-internals-replication-data-write-pipelines-creation",
+                    "virtual_path": "docs/system-internals/replication/data/write-pipelines/creation/index.md"
+                  },
+                  {
+                    "title": "Persistence",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/persistence/",
+                    "anchor": "system-internals-replication-data-write-pipelines-persistence",
+                    "virtual_path": "docs/system-internals/replication/data/write-pipelines/persistence/index.md"
+                  },
+                  {
+                    "title": "Destruction",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/destruction/",
+                    "anchor": "system-internals-replication-data-write-pipelines-destruction",
+                    "virtual_path": "docs/system-internals/replication/data/write-pipelines/destruction/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "Containers",
+                "kind": "category",
+                "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/",
+                "anchor": "system-internals-replication-data-containers",
+                "virtual_path": "docs/system-internals/replication/data/containers/index.md",
+                "children": [
+                  {
+                    "title": "Overview",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/overview/",
+                    "anchor": "system-internals-replication-data-containers-overview",
+                    "virtual_path": "docs/system-internals/replication/data/containers/overview/index.md"
+                  },
+                  {
+                    "title": "Types",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/types/",
+                    "anchor": "system-internals-replication-data-containers-types",
+                    "virtual_path": "docs/system-internals/replication/data/containers/types/index.md"
+                  },
+                  {
+                    "title": "States",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/states/",
+                    "anchor": "system-internals-replication-data-containers-states",
+                    "virtual_path": "docs/system-internals/replication/data/containers/states/index.md"
+                  },
+                  {
+                    "title": "Reports",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/reports/",
+                    "anchor": "system-internals-replication-data-containers-reports",
+                    "virtual_path": "docs/system-internals/replication/data/containers/reports/index.md"
+                  },
+                  {
+                    "title": "Creation",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/creation/",
+                    "anchor": "system-internals-replication-data-containers-creation",
+                    "virtual_path": "docs/system-internals/replication/data/containers/creation/index.md"
+                  },
+                  {
+                    "title": "Persistence",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/persistence/",
+                    "anchor": "system-internals-replication-data-containers-persistence",
+                    "virtual_path": "docs/system-internals/replication/data/containers/persistence/index.md"
+                  },
+                  {
+                    "title": "Deletion",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/destruction/",
+                    "anchor": "system-internals-replication-data-containers-destruction",
+                    "virtual_path": "docs/system-internals/replication/data/containers/destruction/index.md"
+                  },
+                  {
+                    "title": "Replication",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/replication/",
+                    "anchor": "system-internals-replication-data-containers-replication",
+                    "virtual_path": "docs/system-internals/replication/data/containers/replication/index.md"
+                  },
+                  {
+                    "title": "Reconstruction",
+                    "kind": "link",
+                    "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/offline-reconstruction/",
+                    "anchor": "system-internals-replication-data-containers-offline-reconstruction",
+                    "virtual_path": "docs/system-internals/replication/data/containers/offline-reconstruction/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "SCM Replication Manager",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/replication-manager/",
+                "anchor": "system-internals-replication-data-replication-manager",
+                "virtual_path": "docs/system-internals/replication/data/replication-manager/index.md"
+              },
+              {
+                "title": "SCM Container Balancer",
+                "kind": "link",
+                "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/container-balancer/",
+                "anchor": "system-internals-replication-data-container-balancer",
+                "virtual_path": "docs/system-internals/replication/data/container-balancer/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/system-internals/security/",
+        "anchor": "system-internals-security",
+        "virtual_path": "docs/system-internals/security/index.md",
+        "children": [
+          {
+            "title": "Kerberos",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/security/kerberos/",
+            "anchor": "system-internals-security-kerberos",
+            "virtual_path": "docs/system-internals/security/kerberos/index.md"
+          },
+          {
+            "title": "Symmetric Encryption",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/security/symmetric-encryption/",
+            "anchor": "system-internals-security-symmetric-encryption",
+            "virtual_path": "docs/system-internals/security/symmetric-encryption/index.md"
+          },
+          {
+            "title": "Tokens",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/security/tokens/",
+            "anchor": "system-internals-security-tokens",
+            "virtual_path": "docs/system-internals/security/tokens/index.md"
+          },
+          {
+            "title": "Certificates",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/security/certificates/",
+            "anchor": "system-internals-security-certificates",
+            "virtual_path": "docs/system-internals/security/certificates/index.md"
+          },
+          {
+            "title": "TLS",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/security/tls/",
+            "anchor": "system-internals-security-tls",
+            "virtual_path": "docs/system-internals/security/tls/index.md"
+          },
+          {
+            "title": "SASL",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/security/sasl/",
+            "anchor": "system-internals-security-sasl",
+            "virtual_path": "docs/system-internals/security/sasl/index.md"
+          },
+          {
+            "title": "S3 Credentials",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/security/s3-credentials/",
+            "anchor": "system-internals-security-s3-credentials",
+            "virtual_path": "docs/system-internals/security/s3-credentials/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Network Protocols",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/system-internals/network-protocols/",
+        "anchor": "system-internals-network-protocols",
+        "virtual_path": "docs/system-internals/network-protocols/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/network-protocols/overview/",
+            "anchor": "system-internals-network-protocols-overview",
+            "virtual_path": "docs/system-internals/network-protocols/overview/index.md"
+          },
+          {
+            "title": "Client",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/network-protocols/client/",
+            "anchor": "system-internals-network-protocols-client",
+            "virtual_path": "docs/system-internals/network-protocols/client/index.md"
+          },
+          {
+            "title": "Server",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/network-protocols/server/",
+            "anchor": "system-internals-network-protocols-server",
+            "virtual_path": "docs/system-internals/network-protocols/server/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Features",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/system-internals/features/",
+        "anchor": "system-internals-features",
+        "virtual_path": "docs/system-internals/features/index.md",
+        "children": [
+          {
+            "title": "Filesystem Optimization (FSO)",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/features/filesystem-optimization/",
+            "anchor": "system-internals-features-filesystem-optimization",
+            "virtual_path": "docs/system-internals/features/filesystem-optimization/index.md"
+          },
+          {
+            "title": "Upgrade and Downgrade",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/features/upgrade-downgrade/",
+            "anchor": "system-internals-features-upgrade-downgrade",
+            "virtual_path": "docs/system-internals/features/upgrade-downgrade/index.md"
+          },
+          {
+            "title": "Snapshot Deletion Lifecycle",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/features/bucket-snapshot-deletion-lifecycle/",
+            "anchor": "system-internals-features-bucket-snapshot-deletion-lifecycle",
+            "virtual_path": "docs/system-internals/features/bucket-snapshot-deletion-lifecycle/index.md"
+          },
+          {
+            "title": "Bucket Snapshot",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/features/bucket-snapshots/",
+            "anchor": "system-internals-features-bucket-snapshots",
+            "virtual_path": "docs/system-internals/features/bucket-snapshots/index.md"
+          },
+          {
+            "title": "Erasure Coding",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/features/erasure-coding/",
+            "anchor": "system-internals-features-erasure-coding",
+            "virtual_path": "docs/system-internals/features/erasure-coding/index.md"
+          },
+          {
+            "title": "Snapshot Defragmentation",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/features/snapshot-defragmentation/",
+            "anchor": "system-internals-features-snapshot-defragmentation",
+            "virtual_path": "docs/system-internals/features/snapshot-defragmentation/index.md"
+          },
+          {
+            "title": "OM Bootstrapping with Snapshots",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/system-internals/features/om-bootstrapping-with-snapshots/",
+            "anchor": "system-internals-features-om-bootstrapping-with-snapshots",
+            "virtual_path": "docs/system-internals/features/om-bootstrapping-with-snapshots/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Developer Guide",
+    "kind": "link",
+    "source_url": "https://ozone.apache.org/docs/developer-guide/",
+    "anchor": "developer-guide",
+    "virtual_path": "docs/developer-guide/index.md",
+    "children": [
+      {
+        "title": "Build",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/developer-guide/build/",
+        "anchor": "developer-guide-build",
+        "virtual_path": "docs/developer-guide/build/index.md",
+        "children": [
+          {
+            "title": "Maven",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/build/maven/",
+            "anchor": "developer-guide-build-maven",
+            "virtual_path": "docs/developer-guide/build/maven/index.md"
+          },
+          {
+            "title": "Intellij",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/build/intellij/",
+            "anchor": "developer-guide-build-intellij",
+            "virtual_path": "docs/developer-guide/build/intellij/index.md"
+          },
+          {
+            "title": "Docker Images",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/build/docker-images/",
+            "anchor": "developer-guide-build-docker-images",
+            "virtual_path": "docs/developer-guide/build/docker-images/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Run",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/developer-guide/run/",
+        "anchor": "developer-guide-run",
+        "virtual_path": "docs/developer-guide/run/index.md",
+        "children": [
+          {
+            "title": "Intellij",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/run/intellij/",
+            "anchor": "developer-guide-run-intellij",
+            "virtual_path": "docs/developer-guide/run/intellij/index.md"
+          },
+          {
+            "title": "Docker Compose",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/run/docker-compose/",
+            "anchor": "developer-guide-run-docker-compose",
+            "virtual_path": "docs/developer-guide/run/docker-compose/index.md"
+          },
+          {
+            "title": "Kubernetes",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/run/kubernetes/",
+            "anchor": "developer-guide-run-kubernetes",
+            "virtual_path": "docs/developer-guide/run/kubernetes/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Test",
+        "kind": "category",
+        "source_url": "https://ozone.apache.org/docs/developer-guide/test/",
+        "anchor": "developer-guide-test",
+        "virtual_path": "docs/developer-guide/test/index.md",
+        "children": [
+          {
+            "title": "Unit Tests",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/test/unit-tests/",
+            "anchor": "developer-guide-test-unit-tests",
+            "virtual_path": "docs/developer-guide/test/unit-tests/index.md"
+          },
+          {
+            "title": "Integration Tests",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/test/integration-tests/",
+            "anchor": "developer-guide-test-integration-tests",
+            "virtual_path": "docs/developer-guide/test/integration-tests/index.md"
+          },
+          {
+            "title": "Acceptance Tests",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/test/acceptance-tests/",
+            "anchor": "developer-guide-test-acceptance-tests",
+            "virtual_path": "docs/developer-guide/test/acceptance-tests/index.md"
+          },
+          {
+            "title": "Continuous Integration",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/test/continuous-integration/",
+            "anchor": "developer-guide-test-continuous-integration",
+            "virtual_path": "docs/developer-guide/test/continuous-integration/index.md"
+          },
+          {
+            "title": "Static Analysis",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/test/static-analysis/",
+            "anchor": "developer-guide-test-static-analysis",
+            "virtual_path": "docs/developer-guide/test/static-analysis/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Project",
+        "kind": "link",
+        "source_url": "https://ozone.apache.org/docs/developer-guide/project/",
+        "anchor": "developer-guide-project",
+        "virtual_path": "docs/developer-guide/project/index.md",
+        "children": [
+          {
+            "title": "Git Branches and Tags",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/project/branches-and-tags/",
+            "anchor": "developer-guide-project-branches-and-tags",
+            "virtual_path": "docs/developer-guide/project/branches-and-tags/index.md"
+          },
+          {
+            "title": "Release Manager Guide",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/project/release-guide/",
+            "anchor": "developer-guide-project-release-guide",
+            "virtual_path": "docs/developer-guide/project/release-guide/index.md"
+          },
+          {
+            "title": "JavaDoc",
+            "kind": "link",
+            "source_url": "https://ozone.apache.org/docs/developer-guide/project/javadoc/",
+            "anchor": "developer-guide-project-javadoc",
+            "virtual_path": "docs/developer-guide/project/javadoc/index.md"
+          }
+        ]
+      }
+    ]
+  }
+]

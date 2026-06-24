@@ -1,0 +1,4529 @@
+{
+  "entry_url": "https://cloudberry.incubator.apache.org/docs/",
+  "site_prefix": "/docs/",
+  "site_slug": "cloudberry_docs",
+  "profile": "docusaurus",
+  "combined_markdown": "combined.md",
+  "page_count": 502,
+  "asset_count": 32,
+  "pages": [
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/advanced-analytics/directory-tables/",
+      "title": "Directory Table",
+      "anchor": "advanced-analytics-directory-tables",
+      "virtual_path": "docs/advanced-analytics/directory-tables/index.md",
+      "profile": "docusaurus",
+      "score": 21615,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/advanced-analytics/pgvector-search/",
+      "title": "Use pgvector for Vector Similarity Search",
+      "anchor": "advanced-analytics-pgvector-search",
+      "virtual_path": "docs/advanced-analytics/pgvector-search/index.md",
+      "profile": "docusaurus",
+      "score": 35315,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/advanced-analytics/postgis/",
+      "title": "Geospatial Analytics",
+      "anchor": "advanced-analytics-postgis",
+      "virtual_path": "docs/advanced-analytics/postgis/index.md",
+      "profile": "docusaurus",
+      "score": 18626,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/cbdb-architecture/",
+      "title": "Apache Cloudberry Architecture",
+      "anchor": "cbdb-architecture",
+      "virtual_path": "docs/cbdb-architecture/index.md",
+      "profile": "docusaurus",
+      "score": 8471,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/cbdb-op-deploy-guide/",
+      "title": "Deploy Apache Cloudberry Manually Using RPM Package",
+      "anchor": "cbdb-op-deploy-guide",
+      "virtual_path": "docs/cbdb-op-deploy-guide/index.md",
+      "profile": "docusaurus",
+      "score": 20791,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/cbdb-op-prepare-to-deploy/",
+      "title": "Prepare to Deploy on Physical or Virtual Machine",
+      "anchor": "cbdb-op-prepare-to-deploy",
+      "virtual_path": "docs/cbdb-op-prepare-to-deploy/index.md",
+      "profile": "docusaurus",
+      "score": 32640,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/cbdb-op-software-hardware/",
+      "title": "Software and Hardware Configuration",
+      "anchor": "cbdb-op-software-hardware",
+      "virtual_path": "docs/cbdb-op-software-hardware/index.md",
+      "profile": "docusaurus",
+      "score": 12746,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/cbdb-scenarios/",
+      "title": "User Scenarios",
+      "anchor": "cbdb-scenarios",
+      "virtual_path": "docs/cbdb-scenarios/index.md",
+      "profile": "docusaurus",
+      "score": 4656,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/cbdb-vs-gp-features/",
+      "title": "Comparison with Greenplum Features",
+      "anchor": "cbdb-vs-gp-features",
+      "virtual_path": "docs/cbdb-vs-gp-features/index.md",
+      "profile": "docusaurus",
+      "score": 5454,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/config-params-guc-list/",
+      "title": "Configuration Parameters",
+      "anchor": "config-params-guc-list",
+      "virtual_path": "docs/config-params-guc-list/index.md",
+      "profile": "docusaurus",
+      "score": 46195,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/connect-to-cbdb/",
+      "title": "Connect to Apache Cloudberry",
+      "anchor": "connect-to-cbdb",
+      "virtual_path": "docs/connect-to-cbdb/index.md",
+      "profile": "docusaurus",
+      "score": 14569,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-loading/handle-data-errors/",
+      "title": "Handle Data Loading Errors",
+      "anchor": "data-loading-handle-data-errors",
+      "virtual_path": "docs/data-loading/handle-data-errors/index.md",
+      "profile": "docusaurus",
+      "score": 24616,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-loading/",
+      "title": "Data Loading Overview",
+      "anchor": "data-loading",
+      "virtual_path": "docs/data-loading/index.md",
+      "profile": "docusaurus",
+      "score": 8392,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-loading/load-data-from-kafka-using-fdw/",
+      "title": "Load Data from Kafka Using Kafka FDW",
+      "anchor": "data-loading-load-data-from-kafka-using-fdw",
+      "virtual_path": "docs/data-loading/load-data-from-kafka-using-fdw/index.md",
+      "profile": "docusaurus",
+      "score": 11534,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-loading/load-data-from-s3/",
+      "title": "Load Data from Amazon S3 Using the s3 Protocol",
+      "anchor": "data-loading-load-data-from-s3",
+      "virtual_path": "docs/data-loading/load-data-from-s3/index.md",
+      "profile": "docusaurus",
+      "score": 18320,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-loading/load-data-from-web-services/",
+      "title": "Load Data from Web Services",
+      "anchor": "data-loading-load-data-from-web-services",
+      "virtual_path": "docs/data-loading/load-data-from-web-services/index.md",
+      "profile": "docusaurus",
+      "score": 7402,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-loading/load-data-using-copy/",
+      "title": "Load Data into Apache Cloudberry Using COPY",
+      "anchor": "data-loading-load-data-using-copy",
+      "virtual_path": "docs/data-loading/load-data-using-copy/index.md",
+      "profile": "docusaurus",
+      "score": 8056,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-loading/load-data-using-file-protocol/",
+      "title": "Load Data into Apache Cloudberry Using the file:// Protocol",
+      "anchor": "data-loading-load-data-using-file-protocol",
+      "virtual_path": "docs/data-loading/load-data-using-file-protocol/index.md",
+      "profile": "docusaurus",
+      "score": 5993,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-loading/load-data-using-gpfdist/",
+      "title": "Load Data into Apache Cloudberry Using gpfdist",
+      "anchor": "data-loading-load-data-using-gpfdist",
+      "virtual_path": "docs/data-loading/load-data-using-gpfdist/index.md",
+      "profile": "docusaurus",
+      "score": 18199,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-loading/load-data-using-gpfdists/",
+      "title": "Load Data Securely Using gpfdists",
+      "anchor": "data-loading-load-data-using-gpfdists",
+      "virtual_path": "docs/data-loading/load-data-using-gpfdists/index.md",
+      "profile": "docusaurus",
+      "score": 24718,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-loading/load-data-using-gpload/",
+      "title": "Load Data into Apache Cloudberry Using gpload",
+      "anchor": "data-loading-load-data-using-gpload",
+      "virtual_path": "docs/data-loading/load-data-using-gpload/index.md",
+      "profile": "docusaurus",
+      "score": 5147,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-loading/load-data-using-pxf/",
+      "title": "Load Data Using the Platform Extension Framework (PXF)",
+      "anchor": "data-loading-load-data-using-pxf",
+      "virtual_path": "docs/data-loading/load-data-using-pxf/index.md",
+      "profile": "docusaurus",
+      "score": 26838,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/data-types/",
+      "title": "Apache Cloudberry Data Types",
+      "anchor": "data-types",
+      "virtual_path": "docs/data-types/index.md",
+      "profile": "docusaurus",
+      "score": 6502,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deploy-cbdb-with-single-node/",
+      "title": "Deploy Apache Cloudberry with a Single Computing Node",
+      "anchor": "deploy-cbdb-with-single-node",
+      "virtual_path": "docs/deploy-cbdb-with-single-node/index.md",
+      "profile": "docusaurus",
+      "score": 37540,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/build-and-install/",
+      "title": "Build and Install Apache Cloudberry and contrib extensions",
+      "anchor": "deployment-build-and-install",
+      "virtual_path": "docs/deployment/build-and-install/index.md",
+      "profile": "docusaurus",
+      "score": 7976,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/build-based-on-docker/",
+      "title": "Build with Docker Dev Image",
+      "anchor": "deployment-build-based-on-docker",
+      "virtual_path": "docs/deployment/build-based-on-docker/index.md",
+      "profile": "docusaurus",
+      "score": 8846,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/configure/",
+      "title": "Configure Apache Cloudberry Build",
+      "anchor": "deployment-configure",
+      "virtual_path": "docs/deployment/configure/index.md",
+      "profile": "docusaurus",
+      "score": 13474,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/create-gpadmin-user/",
+      "title": "Create and configure the gpadmin User",
+      "anchor": "deployment-create-gpadmin-user",
+      "virtual_path": "docs/deployment/create-gpadmin-user/index.md",
+      "profile": "docusaurus",
+      "score": 7842,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/download-source-code/",
+      "title": "Download Source Code",
+      "anchor": "deployment-download-source-code",
+      "virtual_path": "docs/deployment/download-source-code/index.md",
+      "profile": "docusaurus",
+      "score": 6136,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/",
+      "title": "Build Apache Cloudberry from Source: Complete Guide",
+      "anchor": "deployment",
+      "virtual_path": "docs/deployment/index.md",
+      "profile": "docusaurus",
+      "score": 13599,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/install-required-packages/",
+      "title": "Install required packages",
+      "anchor": "deployment-install-required-packages",
+      "virtual_path": "docs/deployment/install-required-packages/index.md",
+      "profile": "docusaurus",
+      "score": 13186,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/post-installation/",
+      "title": "Post installation",
+      "anchor": "deployment-post-installation",
+      "virtual_path": "docs/deployment/post-installation/index.md",
+      "profile": "docusaurus",
+      "score": 7962,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/quick-build/",
+      "title": "Quick Build",
+      "anchor": "deployment-quick-build",
+      "virtual_path": "docs/deployment/quick-build/index.md",
+      "profile": "docusaurus",
+      "score": 22914,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/sandbox/",
+      "title": "Get Started with Sandbox",
+      "anchor": "deployment-sandbox",
+      "virtual_path": "docs/deployment/sandbox/index.md",
+      "profile": "docusaurus",
+      "score": 17848,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/set-demo-cluster/",
+      "title": "Set up a Cloudberry demo cluster",
+      "anchor": "deployment-set-demo-cluster",
+      "virtual_path": "docs/deployment/set-demo-cluster/index.md",
+      "profile": "docusaurus",
+      "score": 14543,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/deployment/system-settings/",
+      "title": "Configure System settings",
+      "anchor": "deployment-system-settings",
+      "virtual_path": "docs/deployment/system-settings/index.md",
+      "profile": "docusaurus",
+      "score": 4427,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/develop-background-process-worker/",
+      "title": "Develope a Background Worker Process",
+      "anchor": "developer-develop-background-process-worker",
+      "virtual_path": "docs/developer/develop-background-process-worker/index.md",
+      "profile": "docusaurus",
+      "score": 12365,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/develop-extensions-using-rust/",
+      "title": "Develop Database Extensions Using PGRX",
+      "anchor": "developer-develop-extensions-using-rust",
+      "virtual_path": "docs/developer/develop-extensions-using-rust/index.md",
+      "profile": "docusaurus",
+      "score": 24211,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/functions-and-procedures/overview/",
+      "title": "Stored Procedures and User-Defined Functions",
+      "anchor": "developer-functions-and-procedures-overview",
+      "virtual_path": "docs/developer/functions-and-procedures/overview/index.md",
+      "profile": "docusaurus",
+      "score": 5157,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/functions-and-procedures/use-pl-container/",
+      "title": "Use PL/Container",
+      "anchor": "developer-functions-and-procedures-use-pl-container",
+      "virtual_path": "docs/developer/functions-and-procedures/use-pl-container/index.md",
+      "profile": "docusaurus",
+      "score": 50428,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/functions-and-procedures/use-pl-java/",
+      "title": "Use PL/Java",
+      "anchor": "developer-functions-and-procedures-use-pl-java",
+      "virtual_path": "docs/developer/functions-and-procedures/use-pl-java/index.md",
+      "profile": "docusaurus",
+      "score": 13512,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/functions-and-procedures/use-pl-perl/",
+      "title": "Use PL/Perl",
+      "anchor": "developer-functions-and-procedures-use-pl-perl",
+      "virtual_path": "docs/developer/functions-and-procedures/use-pl-perl/index.md",
+      "profile": "docusaurus",
+      "score": 8032,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/functions-and-procedures/use-pl-pgsql/",
+      "title": "Use PL/pgSQL",
+      "anchor": "developer-functions-and-procedures-use-pl-pgsql",
+      "virtual_path": "docs/developer/functions-and-procedures/use-pl-pgsql/index.md",
+      "profile": "docusaurus",
+      "score": 8385,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/functions-and-procedures/use-pl-python/",
+      "title": "Use PL/Python",
+      "anchor": "developer-functions-and-procedures-use-pl-python",
+      "virtual_path": "docs/developer/functions-and-procedures/use-pl-python/index.md",
+      "profile": "docusaurus",
+      "score": 9076,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/functions-and-procedures/use-pl-r/",
+      "title": "Use PL/R",
+      "anchor": "developer-functions-and-procedures-use-pl-r",
+      "virtual_path": "docs/developer/functions-and-procedures/use-pl-r/index.md",
+      "profile": "docusaurus",
+      "score": 11871,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/supported-bi-tools/",
+      "title": "Supported BI Tools",
+      "anchor": "developer-supported-bi-tools",
+      "virtual_path": "docs/developer/supported-bi-tools/index.md",
+      "profile": "docusaurus",
+      "score": 2567,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/use-jdbc-driver/",
+      "title": "Use JDBC",
+      "anchor": "developer-use-jdbc-driver",
+      "virtual_path": "docs/developer/use-jdbc-driver/index.md",
+      "profile": "docusaurus",
+      "score": 15845,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/use-odbc-driver/",
+      "title": "Use ODBC",
+      "anchor": "developer-use-odbc-driver",
+      "virtual_path": "docs/developer/use-odbc-driver/index.md",
+      "profile": "docusaurus",
+      "score": 11142,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/developer/write-a-foreign-data-wrapper/",
+      "title": "Write a Foreign Data Wrapper",
+      "anchor": "developer-write-a-foreign-data-wrapper",
+      "virtual_path": "docs/developer/write-a-foreign-data-wrapper/index.md",
+      "profile": "docusaurus",
+      "score": 30526,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/ecosystem/data-integration/seatunnel/",
+      "title": "Apache SeaTunnel",
+      "anchor": "ecosystem-data-integration-seatunnel",
+      "virtual_path": "docs/ecosystem/data-integration/seatunnel/index.md",
+      "profile": "docusaurus",
+      "score": 2918,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/ecosystem/sql-clients/dbeaver/",
+      "title": "DBeaver",
+      "anchor": "ecosystem-sql-clients-dbeaver",
+      "virtual_path": "docs/ecosystem/sql-clients/dbeaver/index.md",
+      "profile": "docusaurus",
+      "score": 5164,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/functions/advanced-aggregate-functions/",
+      "title": "Advanced Aggregate Functions in Apache Cloudberry",
+      "anchor": "functions-advanced-aggregate-functions",
+      "virtual_path": "docs/functions/advanced-aggregate-functions/index.md",
+      "profile": "docusaurus",
+      "score": 5934,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/functions/",
+      "title": "Summary of Built-in Functions",
+      "anchor": "functions",
+      "virtual_path": "docs/functions/index.md",
+      "profile": "docusaurus",
+      "score": 11966,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/functions/json-functions-and-operators/",
+      "title": "JSON Functions and Operators in Apache Cloudberry",
+      "anchor": "functions-json-functions-and-operators",
+      "virtual_path": "docs/functions/json-functions-and-operators/index.md",
+      "profile": "docusaurus",
+      "score": 34247,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/functions/range-functions-and-operators/",
+      "title": "Range Functions and Operators in Apache Cloudberry",
+      "anchor": "functions-range-functions-and-operators",
+      "virtual_path": "docs/functions/range-functions-and-operators/index.md",
+      "profile": "docusaurus",
+      "score": 5639,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/functions/text-search-functions-and-operators/",
+      "title": "Text Search Functions and Operators in Apache Cloudberry",
+      "anchor": "functions-text-search-functions-and-operators",
+      "virtual_path": "docs/functions/text-search-functions-and-operators/index.md",
+      "profile": "docusaurus",
+      "score": 8162,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/functions/window-functions/",
+      "title": "Window Functions in Apache Cloudberry",
+      "anchor": "functions-window-functions",
+      "virtual_path": "docs/functions/window-functions/index.md",
+      "profile": "docusaurus",
+      "score": 5324,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/",
+      "title": "Apache Cloudberry Feature Overview",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "docusaurus",
+      "score": 21254,
+      "depth": 0
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/heap-and-ao-table-formats/",
+      "title": "Heap and AO Table Formats",
+      "anchor": "operate-with-data-heap-and-ao-table-formats",
+      "virtual_path": "docs/operate-with-data/heap-and-ao-table-formats/index.md",
+      "profile": "docusaurus",
+      "score": 11382,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/manage-spill-files/",
+      "title": "Manage Spill Files Generated by Queries",
+      "anchor": "operate-with-data-manage-spill-files",
+      "virtual_path": "docs/operate-with-data/manage-spill-files/index.md",
+      "profile": "docusaurus",
+      "score": 4145,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/about-table-partitioning/",
+      "title": "About Table Partitioning",
+      "anchor": "operate-with-data-operate-with-db-objects-about-table-partitioning",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/about-table-partitioning/index.md",
+      "profile": "docusaurus",
+      "score": 16952,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/brin-indexes/",
+      "title": "BRIN Indexes",
+      "anchor": "operate-with-data-operate-with-db-objects-brin-indexes",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/brin-indexes/index.md",
+      "profile": "docusaurus",
+      "score": 8826,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/create-and-manage-database/",
+      "title": "Create and Manage Apache Cloudberry",
+      "anchor": "operate-with-data-operate-with-db-objects-create-and-manage-database",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/create-and-manage-database/index.md",
+      "profile": "docusaurus",
+      "score": 11784,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/create-and-manage-indexes/",
+      "title": "Create and Manage indexes",
+      "anchor": "operate-with-data-operate-with-db-objects-create-and-manage-indexes",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/create-and-manage-indexes/index.md",
+      "profile": "docusaurus",
+      "score": 30314,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/create-and-manage-materialized-views/",
+      "title": "Create and Manage Materialized Views in Apache Cloudberry",
+      "anchor": "operate-with-data-operate-with-db-objects-create-and-manage-materialized-views",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/create-and-manage-materialized-views/index.md",
+      "profile": "docusaurus",
+      "score": 9085,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/create-and-manage-partitioned-tables/",
+      "title": "Create and Manage Partitioned Tables",
+      "anchor": "operate-with-data-operate-with-db-objects-create-and-manage-partitioned-tables",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/create-and-manage-partitioned-tables/index.md",
+      "profile": "docusaurus",
+      "score": 35503,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/create-and-manage-schemas/",
+      "title": "Create and Manage Schemas in Apache Cloudberry",
+      "anchor": "operate-with-data-operate-with-db-objects-create-and-manage-schemas",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/create-and-manage-schemas/index.md",
+      "profile": "docusaurus",
+      "score": 11109,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/create-and-manage-sequences/",
+      "title": "Create and Manage Sequences",
+      "anchor": "operate-with-data-operate-with-db-objects-create-and-manage-sequences",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/create-and-manage-sequences/index.md",
+      "profile": "docusaurus",
+      "score": 16646,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/create-and-manage-tables/",
+      "title": "Create and Manage Tables in Apache Cloudberry",
+      "anchor": "operate-with-data-operate-with-db-objects-create-and-manage-tables",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/create-and-manage-tables/index.md",
+      "profile": "docusaurus",
+      "score": 13344,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/create-and-manage-tablespaces/",
+      "title": "Create and Manage Tablespaces",
+      "anchor": "operate-with-data-operate-with-db-objects-create-and-manage-tablespaces",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/create-and-manage-tablespaces/index.md",
+      "profile": "docusaurus",
+      "score": 13610,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/create-and-manage-views/",
+      "title": "Create and Manage Views in Apache Cloudberry",
+      "anchor": "operate-with-data-operate-with-db-objects-create-and-manage-views",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/create-and-manage-views/index.md",
+      "profile": "docusaurus",
+      "score": 6600,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/insert-update-delete-rows/",
+      "title": "Insert, Update, and Delete Row Data in Apache Cloudberry",
+      "anchor": "operate-with-data-operate-with-db-objects-insert-update-delete-rows",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/insert-update-delete-rows/index.md",
+      "profile": "docusaurus",
+      "score": 13250,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/table-definition-basics/",
+      "title": "Basics of Defining Tables",
+      "anchor": "operate-with-data-operate-with-db-objects-table-definition-basics",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/table-definition-basics/index.md",
+      "profile": "docusaurus",
+      "score": 14849,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/view-storage/",
+      "title": "About View Storage",
+      "anchor": "operate-with-data-operate-with-db-objects-view-storage",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/view-storage/index.md",
+      "profile": "docusaurus",
+      "score": 5359,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/operate-with-db-objects/work-with-view-dependencies/",
+      "title": "Work with View Dependencies",
+      "anchor": "operate-with-data-operate-with-db-objects-work-with-view-dependencies",
+      "virtual_path": "docs/operate-with-data/operate-with-db-objects/work-with-view-dependencies/index.md",
+      "profile": "docusaurus",
+      "score": 17716,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/pax-table-format/",
+      "title": "PAX Storage Format",
+      "anchor": "operate-with-data-pax-table-format",
+      "virtual_path": "docs/operate-with-data/pax-table-format/index.md",
+      "profile": "docusaurus",
+      "score": 47514,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/aggregates-expressions/",
+      "title": "Queries with Aggregate Expressions",
+      "anchor": "operate-with-data-sql-queries-aggregates-expressions",
+      "virtual_path": "docs/operate-with-data/sql-queries/aggregates-expressions/index.md",
+      "profile": "docusaurus",
+      "score": 7084,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/basic-query-syntax/",
+      "title": "Basic Queries of Apache Cloudberry",
+      "anchor": "operate-with-data-sql-queries-basic-query-syntax",
+      "virtual_path": "docs/operate-with-data/sql-queries/basic-query-syntax/index.md",
+      "profile": "docusaurus",
+      "score": 6690,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/cte-queries/",
+      "title": "WITH Queries (Common Table Expressions)",
+      "anchor": "operate-with-data-sql-queries-cte-queries",
+      "virtual_path": "docs/operate-with-data/sql-queries/cte-queries/index.md",
+      "profile": "docusaurus",
+      "score": 25421,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/evaluation-order/",
+      "title": "Expression Evaluation Rules",
+      "anchor": "operate-with-data-sql-queries-evaluation-order",
+      "virtual_path": "docs/operate-with-data/sql-queries/evaluation-order/index.md",
+      "profile": "docusaurus",
+      "score": 4722,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/additional-text-search-features/",
+      "title": "Additional Text Search Features",
+      "anchor": "operate-with-data-sql-queries-full-text-search-additional-text-search-features",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/additional-text-search-features/index.md",
+      "profile": "docusaurus",
+      "score": 16876,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/control-text-search/",
+      "title": "Control Text Search",
+      "anchor": "operate-with-data-sql-queries-full-text-search-control-text-search",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/control-text-search/index.md",
+      "profile": "docusaurus",
+      "score": 30181,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/full-text-search-intro/",
+      "title": "About Full Text Search",
+      "anchor": "operate-with-data-sql-queries-full-text-search-full-text-search-intro",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/full-text-search-intro/index.md",
+      "profile": "docusaurus",
+      "score": 20177,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/full-text-search-limitations/",
+      "title": "Full Text Search Limitations",
+      "anchor": "operate-with-data-sql-queries-full-text-search-full-text-search-limitations",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/full-text-search-limitations/index.md",
+      "profile": "docusaurus",
+      "score": 3439,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/",
+      "title": "Full Text Search",
+      "anchor": "operate-with-data-sql-queries-full-text-search",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/index.md",
+      "profile": "docusaurus",
+      "score": 4117,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/preferred-indexes-for-full-text-search/",
+      "title": "Preferred Index Types for Text Search",
+      "anchor": "operate-with-data-sql-queries-full-text-search-preferred-indexes-for-full-text-search",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/preferred-indexes-for-full-text-search/index.md",
+      "profile": "docusaurus",
+      "score": 5621,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/search-text-in-db/",
+      "title": "Search Text in Database Tables",
+      "anchor": "operate-with-data-sql-queries-full-text-search-search-text-in-db",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/search-text-in-db/index.md",
+      "profile": "docusaurus",
+      "score": 10883,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/test-and-debug-text-search/",
+      "title": "Test and Debug Text Search",
+      "anchor": "operate-with-data-sql-queries-full-text-search-test-and-debug-text-search",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/test-and-debug-text-search/index.md",
+      "profile": "docusaurus",
+      "score": 15479,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/text-search-configuration/",
+      "title": "Text Search Configuration Example",
+      "anchor": "operate-with-data-sql-queries-full-text-search-text-search-configuration",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/text-search-configuration/index.md",
+      "profile": "docusaurus",
+      "score": 7145,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/text-search-dictionaries/",
+      "title": "Text Search Dictionaries",
+      "anchor": "operate-with-data-sql-queries-full-text-search-text-search-dictionaries",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/text-search-dictionaries/index.md",
+      "profile": "docusaurus",
+      "score": 36632,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/text-search-parsers/",
+      "title": "Text Search Parsers",
+      "anchor": "operate-with-data-sql-queries-full-text-search-text-search-parsers",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/text-search-parsers/index.md",
+      "profile": "docusaurus",
+      "score": 6578,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/full-text-search/text-search-psql-support/",
+      "title": "psql Support",
+      "anchor": "operate-with-data-sql-queries-full-text-search-text-search-psql-support",
+      "virtual_path": "docs/operate-with-data/sql-queries/full-text-search/text-search-psql-support/index.md",
+      "profile": "docusaurus",
+      "score": 9275,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/group-by-and-having-clauses/",
+      "title": "Group By and Having Clauses",
+      "anchor": "operate-with-data-sql-queries-group-by-and-having-clauses",
+      "virtual_path": "docs/operate-with-data/sql-queries/group-by-and-having-clauses/index.md",
+      "profile": "docusaurus",
+      "score": 9021,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/",
+      "title": "SQL Queries",
+      "anchor": "operate-with-data-sql-queries",
+      "virtual_path": "docs/operate-with-data/sql-queries/index.md",
+      "profile": "docusaurus",
+      "score": 3049,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/join-queries/",
+      "title": "Join Queries",
+      "anchor": "operate-with-data-sql-queries-join-queries",
+      "virtual_path": "docs/operate-with-data/sql-queries/join-queries/index.md",
+      "profile": "docusaurus",
+      "score": 19872,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/sql-language/",
+      "title": "SQL Language",
+      "anchor": "operate-with-data-sql-queries-sql-language",
+      "virtual_path": "docs/operate-with-data/sql-queries/sql-language/index.md",
+      "profile": "docusaurus",
+      "score": 4985,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/subqueries/",
+      "title": "Subqueries",
+      "anchor": "operate-with-data-sql-queries-subqueries",
+      "virtual_path": "docs/operate-with-data/sql-queries/subqueries/index.md",
+      "profile": "docusaurus",
+      "score": 9134,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/table-and-column-aliases/",
+      "title": "Table and Column Aliases",
+      "anchor": "operate-with-data-sql-queries-table-and-column-aliases",
+      "virtual_path": "docs/operate-with-data/sql-queries/table-and-column-aliases/index.md",
+      "profile": "docusaurus",
+      "score": 6838,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/table-functions/",
+      "title": "Table Functions",
+      "anchor": "operate-with-data-sql-queries-table-functions",
+      "virtual_path": "docs/operate-with-data/sql-queries/table-functions/index.md",
+      "profile": "docusaurus",
+      "score": 8559,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/value-expressions/",
+      "title": "Value Expressions",
+      "anchor": "operate-with-data-sql-queries-value-expressions",
+      "virtual_path": "docs/operate-with-data/sql-queries/value-expressions/index.md",
+      "profile": "docusaurus",
+      "score": 23738,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/where-clauses/",
+      "title": "WHERE Clauses",
+      "anchor": "operate-with-data-sql-queries-where-clauses",
+      "virtual_path": "docs/operate-with-data/sql-queries/where-clauses/index.md",
+      "profile": "docusaurus",
+      "score": 6042,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/sql-queries/window-functions/",
+      "title": "Queries with Window Functions",
+      "anchor": "operate-with-data-sql-queries-window-functions",
+      "virtual_path": "docs/operate-with-data/sql-queries/window-functions/index.md",
+      "profile": "docusaurus",
+      "score": 25266,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/transactional-concurrency-control/",
+      "title": "Transactional Concurrency Control in Apache Cloudberry",
+      "anchor": "operate-with-data-transactional-concurrency-control",
+      "virtual_path": "docs/operate-with-data/transactional-concurrency-control/index.md",
+      "profile": "docusaurus",
+      "score": 16487,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/operate-with-data/work-with-transactions/",
+      "title": "Work with Transactions in Apache Cloudberry",
+      "anchor": "operate-with-data-work-with-transactions",
+      "virtual_path": "docs/operate-with-data/work-with-transactions/index.md",
+      "profile": "docusaurus",
+      "score": 8485,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/common-cause-of-performance-issues/",
+      "title": "Common Causes of Performance Issues",
+      "anchor": "performance-common-cause-of-performance-issues",
+      "virtual_path": "docs/performance/common-cause-of-performance-issues/index.md",
+      "profile": "docusaurus",
+      "score": 14631,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/define-database-performance/",
+      "title": "Define Database Performance",
+      "anchor": "performance-define-database-performance",
+      "virtual_path": "docs/performance/define-database-performance/index.md",
+      "profile": "docusaurus",
+      "score": 10098,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/distribution-and-skew/",
+      "title": "Distribution and Skew",
+      "anchor": "performance-distribution-and-skew",
+      "virtual_path": "docs/performance/distribution-and-skew/index.md",
+      "profile": "docusaurus",
+      "score": 10103,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/investigate-performance-issues/",
+      "title": "Investigate Performance Issues",
+      "anchor": "performance-investigate-performance-issues",
+      "virtual_path": "docs/performance/investigate-performance-issues/index.md",
+      "profile": "docusaurus",
+      "score": 12980,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/manage-resources-using-resource-groups/",
+      "title": "Manage Resources Using Resource Groups",
+      "anchor": "performance-manage-resources-using-resource-groups",
+      "virtual_path": "docs/performance/manage-resources-using-resource-groups/index.md",
+      "profile": "docusaurus",
+      "score": 72058,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/manage-resources-using-resource-queues/",
+      "title": "Resource Queues",
+      "anchor": "performance-manage-resources-using-resource-queues",
+      "virtual_path": "docs/performance/manage-resources-using-resource-queues/index.md",
+      "profile": "docusaurus",
+      "score": 54072,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/manage-resources/",
+      "title": "Manage Resources",
+      "anchor": "performance-manage-resources",
+      "virtual_path": "docs/performance/manage-resources/index.md",
+      "profile": "docusaurus",
+      "score": 4619,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/memory-overview/",
+      "title": "Memory Overview",
+      "anchor": "performance-memory-overview",
+      "virtual_path": "docs/performance/memory-overview/index.md",
+      "profile": "docusaurus",
+      "score": 14851,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/analyze-query-performance/",
+      "title": "Analyze Query Performance",
+      "anchor": "performance-optimize-queries-analyze-query-performance",
+      "virtual_path": "docs/performance/optimize-queries/analyze-query-performance/index.md",
+      "profile": "docusaurus",
+      "score": 23902,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/",
+      "title": "Query Performance in Apache Cloudberry",
+      "anchor": "performance-optimize-queries",
+      "virtual_path": "docs/performance/optimize-queries/index.md",
+      "profile": "docusaurus",
+      "score": 12683,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/parallel-create-ao-refresh-mv/",
+      "title": "Create AO/AOCO Tables and Refresh Materialized Views in Parallel",
+      "anchor": "performance-optimize-queries-parallel-create-ao-refresh-mv",
+      "virtual_path": "docs/performance/optimize-queries/parallel-create-ao-refresh-mv/index.md",
+      "profile": "docusaurus",
+      "score": 11053,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/parallel-query-execution/",
+      "title": "Use Parallel Queries Execution",
+      "anchor": "performance-optimize-queries-parallel-query-execution",
+      "virtual_path": "docs/performance/optimize-queries/parallel-query-execution/index.md",
+      "profile": "docusaurus",
+      "score": 9903,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/query-hints/",
+      "title": "Query Plan Hints",
+      "anchor": "performance-optimize-queries-query-hints",
+      "virtual_path": "docs/performance/optimize-queries/query-hints/index.md",
+      "profile": "docusaurus",
+      "score": 15625,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/query-process-overview/",
+      "title": "Query Processing Overview",
+      "anchor": "performance-optimize-queries-query-process-overview",
+      "virtual_path": "docs/performance/optimize-queries/query-process-overview/index.md",
+      "profile": "docusaurus",
+      "score": 8953,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-aggre-pushdown-to-speed-up-queries/",
+      "title": "Use aggregation pushdown to speed up query execution",
+      "anchor": "performance-optimize-queries-use-aggre-pushdown-to-speed-up-queries",
+      "virtual_path": "docs/performance/optimize-queries/use-aggre-pushdown-to-speed-up-queries/index.md",
+      "profile": "docusaurus",
+      "score": 21962,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-auto-materialized-view-to-answer-queries/",
+      "title": "Use Automatic Materialized Views for Query Optimization",
+      "anchor": "performance-optimize-queries-use-auto-materialized-view-to-answer-queries",
+      "virtual_path": "docs/performance/optimize-queries/use-auto-materialized-view-to-answer-queries/index.md",
+      "profile": "docusaurus",
+      "score": 13247,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-incremental-materialized-view/",
+      "title": "Incremental Materialized View in Apache Cloudberry",
+      "anchor": "performance-optimize-queries-use-incremental-materialized-view",
+      "virtual_path": "docs/performance/optimize-queries/use-incremental-materialized-view/index.md",
+      "profile": "docusaurus",
+      "score": 18083,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-index-scan-on-ao-tables/",
+      "title": "Use IndexScan on AO Tables",
+      "anchor": "performance-optimize-queries-use-index-scan-on-ao-tables",
+      "virtual_path": "docs/performance/optimize-queries/use-index-scan-on-ao-tables/index.md",
+      "profile": "docusaurus",
+      "score": 7553,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-orca/gporca-collect-root-partition-stats/",
+      "title": "Collect Root Partition Statistics",
+      "anchor": "performance-optimize-queries-use-orca-gporca-collect-root-partition-stats",
+      "virtual_path": "docs/performance/optimize-queries/use-orca/gporca-collect-root-partition-stats/index.md",
+      "profile": "docusaurus",
+      "score": 9826,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-orca/gporca-limitations/",
+      "title": "GPORCA Limitations",
+      "anchor": "performance-optimize-queries-use-orca-gporca-limitations",
+      "virtual_path": "docs/performance/optimize-queries/use-orca/gporca-limitations/index.md",
+      "profile": "docusaurus",
+      "score": 8296,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-orca/gporca-usage-considerations/",
+      "title": "Considerations when using GPORCA",
+      "anchor": "performance-optimize-queries-use-orca-gporca-usage-considerations",
+      "virtual_path": "docs/performance/optimize-queries/use-orca/gporca-usage-considerations/index.md",
+      "profile": "docusaurus",
+      "score": 7540,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-orca/orca-features/",
+      "title": "GPORCA Features and Enhancements",
+      "anchor": "performance-optimize-queries-use-orca-orca-features",
+      "virtual_path": "docs/performance/optimize-queries/use-orca/orca-features/index.md",
+      "profile": "docusaurus",
+      "score": 15404,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-orca/use-orca-overview/",
+      "title": "GPORCA overview",
+      "anchor": "performance-optimize-queries-use-orca-use-orca-overview",
+      "virtual_path": "docs/performance/optimize-queries/use-orca/use-orca-overview/index.md",
+      "profile": "docusaurus",
+      "score": 13852,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-orca/whats-new-in-orca/",
+      "title": "GPORCA Optimizer Update Notes",
+      "anchor": "performance-optimize-queries-use-orca-whats-new-in-orca",
+      "virtual_path": "docs/performance/optimize-queries/use-orca/whats-new-in-orca/index.md",
+      "profile": "docusaurus",
+      "score": 13420,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-runtimefilter-to-optimize-queries/",
+      "title": "Use RuntimeFilter to Optimize Join Queries",
+      "anchor": "performance-optimize-queries-use-runtimefilter-to-optimize-queries",
+      "virtual_path": "docs/performance/optimize-queries/use-runtimefilter-to-optimize-queries/index.md",
+      "profile": "docusaurus",
+      "score": 11170,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/optimize-queries/use-unique-index-on-ao-tables/",
+      "title": "Create Unique Index on AO Table",
+      "anchor": "performance-optimize-queries-use-unique-index-on-ao-tables",
+      "virtual_path": "docs/performance/optimize-queries/use-unique-index-on-ao-tables/index.md",
+      "profile": "docusaurus",
+      "score": 8364,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/update-stats-using-analyze/",
+      "title": "Update Statistics in Apache Cloudberry",
+      "anchor": "performance-update-stats-using-analyze",
+      "virtual_path": "docs/performance/update-stats-using-analyze/index.md",
+      "profile": "docusaurus",
+      "score": 11421,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/use-columnar-compression/",
+      "title": "Use Column-Level Compression",
+      "anchor": "performance-use-columnar-compression",
+      "virtual_path": "docs/performance/use-columnar-compression/index.md",
+      "profile": "docusaurus",
+      "score": 7123,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/performance/use-dynamic-tables/",
+      "title": "Use Dynamic Tables to Speed Up Queries and Auto-Refresh Data",
+      "anchor": "performance-use-dynamic-tables",
+      "virtual_path": "docs/performance/use-dynamic-tables/index.md",
+      "profile": "docusaurus",
+      "score": 20439,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/client-auth/",
+      "title": "Configure Client Authentication",
+      "anchor": "security-client-auth",
+      "virtual_path": "docs/security/client-auth/index.md",
+      "profile": "docusaurus",
+      "score": 47617,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/configure-db-auth/",
+      "title": "Configure Database Authorization",
+      "anchor": "security-configure-db-auth",
+      "virtual_path": "docs/security/configure-db-auth/index.md",
+      "profile": "docusaurus",
+      "score": 17384,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/configure-row-level-security-policy/",
+      "title": "Configure Row-Level Security Policy",
+      "anchor": "security-configure-row-level-security-policy",
+      "virtual_path": "docs/security/configure-row-level-security-policy/index.md",
+      "profile": "docusaurus",
+      "score": 15114,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/encrypt-data-and-db-connections/",
+      "title": "Encrypt Data and Database Connections",
+      "anchor": "security-encrypt-data-and-db-connections",
+      "virtual_path": "docs/security/encrypt-data-and-db-connections/index.md",
+      "profile": "docusaurus",
+      "score": 35337,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/",
+      "title": "Security and Permission",
+      "anchor": "security",
+      "virtual_path": "docs/security/index.md",
+      "profile": "docusaurus",
+      "score": 9728,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/log-auditing/",
+      "title": "Log Auditing",
+      "anchor": "security-log-auditing",
+      "virtual_path": "docs/security/log-auditing/index.md",
+      "profile": "docusaurus",
+      "score": 12915,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/manage-roles-and-privileges/",
+      "title": "Manage Roles and Privileges in Apache Cloudberry",
+      "anchor": "security-manage-roles-and-privileges",
+      "virtual_path": "docs/security/manage-roles-and-privileges/index.md",
+      "profile": "docusaurus",
+      "score": 19222,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/ports-and-protocols/",
+      "title": "Apache Cloudberry Ports and Protocols",
+      "anchor": "security-ports-and-protocols",
+      "virtual_path": "docs/security/ports-and-protocols/index.md",
+      "profile": "docusaurus",
+      "score": 11834,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/protect-passwords/",
+      "title": "Protect passwords in Apache Cloudberry",
+      "anchor": "security-protect-passwords",
+      "virtual_path": "docs/security/protect-passwords/index.md",
+      "profile": "docusaurus",
+      "score": 4111,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/security-best-practices/",
+      "title": "Security Best Practices",
+      "anchor": "security-security-best-practices",
+      "virtual_path": "docs/security/security-best-practices/index.md",
+      "profile": "docusaurus",
+      "score": 18368,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/set-password-profile/",
+      "title": "Set password policy in Apache Cloudberry",
+      "anchor": "security-set-password-profile",
+      "virtual_path": "docs/security/set-password-profile/index.md",
+      "profile": "docusaurus",
+      "score": 42679,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/security/transparent-data-encryption/",
+      "title": "Transparent Data Encryption",
+      "anchor": "security-transparent-data-encryption",
+      "virtual_path": "docs/security/transparent-data-encryption/index.md",
+      "profile": "docusaurus",
+      "score": 15462,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/abort/",
+      "title": "ABORT",
+      "anchor": "sql-stmts-abort",
+      "virtual_path": "docs/sql-stmts/abort/index.md",
+      "profile": "docusaurus",
+      "score": 6212,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-aggregate/",
+      "title": "ALTER AGGREGATE",
+      "anchor": "sql-stmts-alter-aggregate",
+      "virtual_path": "docs/sql-stmts/alter-aggregate/index.md",
+      "profile": "docusaurus",
+      "score": 9882,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-collation/",
+      "title": "ALTER COLLATION",
+      "anchor": "sql-stmts-alter-collation",
+      "virtual_path": "docs/sql-stmts/alter-collation/index.md",
+      "profile": "docusaurus",
+      "score": 9684,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-conversion/",
+      "title": "ALTER CONVERSION",
+      "anchor": "sql-stmts-alter-conversion",
+      "virtual_path": "docs/sql-stmts/alter-conversion/index.md",
+      "profile": "docusaurus",
+      "score": 6737,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-database/",
+      "title": "ALTER DATABASE",
+      "anchor": "sql-stmts-alter-database",
+      "virtual_path": "docs/sql-stmts/alter-database/index.md",
+      "profile": "docusaurus",
+      "score": 11058,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-default-privileges/",
+      "title": "ALTER DEFAULT PRIVILEGES",
+      "anchor": "sql-stmts-alter-default-privileges",
+      "virtual_path": "docs/sql-stmts/alter-default-privileges/index.md",
+      "profile": "docusaurus",
+      "score": 12502,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-domain/",
+      "title": "ALTER DOMAIN",
+      "anchor": "sql-stmts-alter-domain",
+      "virtual_path": "docs/sql-stmts/alter-domain/index.md",
+      "profile": "docusaurus",
+      "score": 13328,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-extension/",
+      "title": "ALTER EXTENSION",
+      "anchor": "sql-stmts-alter-extension",
+      "virtual_path": "docs/sql-stmts/alter-extension/index.md",
+      "profile": "docusaurus",
+      "score": 12635,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-external-table/",
+      "title": "ALTER EXTERNAL TABLE",
+      "anchor": "sql-stmts-alter-external-table",
+      "virtual_path": "docs/sql-stmts/alter-external-table/index.md",
+      "profile": "docusaurus",
+      "score": 9629,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-foreign-data-wrapper/",
+      "title": "ALTER FOREIGN DATA WRAPPER",
+      "anchor": "sql-stmts-alter-foreign-data-wrapper",
+      "virtual_path": "docs/sql-stmts/alter-foreign-data-wrapper/index.md",
+      "profile": "docusaurus",
+      "score": 9207,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-foreign-table/",
+      "title": "ALTER FOREIGN TABLE",
+      "anchor": "sql-stmts-alter-foreign-table",
+      "virtual_path": "docs/sql-stmts/alter-foreign-table/index.md",
+      "profile": "docusaurus",
+      "score": 20490,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-function/",
+      "title": "ALTER FUNCTION",
+      "anchor": "sql-stmts-alter-function",
+      "virtual_path": "docs/sql-stmts/alter-function/index.md",
+      "profile": "docusaurus",
+      "score": 16974,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-group/",
+      "title": "ALTER GROUP",
+      "anchor": "sql-stmts-alter-group",
+      "virtual_path": "docs/sql-stmts/alter-group/index.md",
+      "profile": "docusaurus",
+      "score": 6827,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-index/",
+      "title": "ALTER INDEX",
+      "anchor": "sql-stmts-alter-index",
+      "virtual_path": "docs/sql-stmts/alter-index/index.md",
+      "profile": "docusaurus",
+      "score": 13153,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-language/",
+      "title": "ALTER LANGUAGE",
+      "anchor": "sql-stmts-alter-language",
+      "virtual_path": "docs/sql-stmts/alter-language/index.md",
+      "profile": "docusaurus",
+      "score": 5107,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-materialized-view/",
+      "title": "ALTER MATERIALIZED VIEW",
+      "anchor": "sql-stmts-alter-materialized-view",
+      "virtual_path": "docs/sql-stmts/alter-materialized-view/index.md",
+      "profile": "docusaurus",
+      "score": 8670,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-operator-class/",
+      "title": "ALTER OPERATOR CLASS",
+      "anchor": "sql-stmts-alter-operator-class",
+      "virtual_path": "docs/sql-stmts/alter-operator-class/index.md",
+      "profile": "docusaurus",
+      "score": 6043,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-operator-family/",
+      "title": "ALTER OPERATOR FAMILY",
+      "anchor": "sql-stmts-alter-operator-family",
+      "virtual_path": "docs/sql-stmts/alter-operator-family/index.md",
+      "profile": "docusaurus",
+      "score": 14606,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-operator/",
+      "title": "ALTER OPERATOR",
+      "anchor": "sql-stmts-alter-operator",
+      "virtual_path": "docs/sql-stmts/alter-operator/index.md",
+      "profile": "docusaurus",
+      "score": 7858,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-policy/",
+      "title": "ALTER POLICY",
+      "anchor": "sql-stmts-alter-policy",
+      "virtual_path": "docs/sql-stmts/alter-policy/index.md",
+      "profile": "docusaurus",
+      "score": 6589,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-procedure/",
+      "title": "ALTER PROCEDURE",
+      "anchor": "sql-stmts-alter-procedure",
+      "virtual_path": "docs/sql-stmts/alter-procedure/index.md",
+      "profile": "docusaurus",
+      "score": 12794,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-protocol/",
+      "title": "ALTER PROTOCOL",
+      "anchor": "sql-stmts-alter-protocol",
+      "virtual_path": "docs/sql-stmts/alter-protocol/index.md",
+      "profile": "docusaurus",
+      "score": 6539,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-resource-group/",
+      "title": "ALTER RESOURCE GROUP",
+      "anchor": "sql-stmts-alter-resource-group",
+      "virtual_path": "docs/sql-stmts/alter-resource-group/index.md",
+      "profile": "docusaurus",
+      "score": 13710,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-resource-queue/",
+      "title": "ALTER RESOURCE QUEUE",
+      "anchor": "sql-stmts-alter-resource-queue",
+      "virtual_path": "docs/sql-stmts/alter-resource-queue/index.md",
+      "profile": "docusaurus",
+      "score": 13433,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-role/",
+      "title": "ALTER ROLE",
+      "anchor": "sql-stmts-alter-role",
+      "virtual_path": "docs/sql-stmts/alter-role/index.md",
+      "profile": "docusaurus",
+      "score": 19841,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-routine/",
+      "title": "ALTER ROUTINE",
+      "anchor": "sql-stmts-alter-routine",
+      "virtual_path": "docs/sql-stmts/alter-routine/index.md",
+      "profile": "docusaurus",
+      "score": 6259,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-rule/",
+      "title": "ALTER RULE",
+      "anchor": "sql-stmts-alter-rule",
+      "virtual_path": "docs/sql-stmts/alter-rule/index.md",
+      "profile": "docusaurus",
+      "score": 5736,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-schema/",
+      "title": "ALTER SCHEMA",
+      "anchor": "sql-stmts-alter-schema",
+      "virtual_path": "docs/sql-stmts/alter-schema/index.md",
+      "profile": "docusaurus",
+      "score": 5355,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-sequence/",
+      "title": "ALTER SEQUENCE",
+      "anchor": "sql-stmts-alter-sequence",
+      "virtual_path": "docs/sql-stmts/alter-sequence/index.md",
+      "profile": "docusaurus",
+      "score": 14036,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-server/",
+      "title": "ALTER SERVER",
+      "anchor": "sql-stmts-alter-server",
+      "virtual_path": "docs/sql-stmts/alter-server/index.md",
+      "profile": "docusaurus",
+      "score": 7523,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-statistics/",
+      "title": "ALTER STATISTICS",
+      "anchor": "sql-stmts-alter-statistics",
+      "virtual_path": "docs/sql-stmts/alter-statistics/index.md",
+      "profile": "docusaurus",
+      "score": 5992,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-table/",
+      "title": "ALTER TABLE",
+      "anchor": "sql-stmts-alter-table",
+      "virtual_path": "docs/sql-stmts/alter-table/index.md",
+      "profile": "docusaurus",
+      "score": 91025,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-tablespace/",
+      "title": "ALTER TABLESPACE",
+      "anchor": "sql-stmts-alter-tablespace",
+      "virtual_path": "docs/sql-stmts/alter-tablespace/index.md",
+      "profile": "docusaurus",
+      "score": 7094,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-text-search-configuration/",
+      "title": "ALTER TEXT SEARCH CONFIGURATION",
+      "anchor": "sql-stmts-alter-text-search-configuration",
+      "virtual_path": "docs/sql-stmts/alter-text-search-configuration/index.md",
+      "profile": "docusaurus",
+      "score": 8876,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-text-search-dictionary/",
+      "title": "ALTER TEXT SEARCH DICTIONARY",
+      "anchor": "sql-stmts-alter-text-search-dictionary",
+      "virtual_path": "docs/sql-stmts/alter-text-search-dictionary/index.md",
+      "profile": "docusaurus",
+      "score": 8375,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-text-search-parser/",
+      "title": "ALTER TEXT SEARCH PARSER",
+      "anchor": "sql-stmts-alter-text-search-parser",
+      "virtual_path": "docs/sql-stmts/alter-text-search-parser/index.md",
+      "profile": "docusaurus",
+      "score": 5516,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-text-search-template/",
+      "title": "ALTER TEXT SEARCH TEMPLATE",
+      "anchor": "sql-stmts-alter-text-search-template",
+      "virtual_path": "docs/sql-stmts/alter-text-search-template/index.md",
+      "profile": "docusaurus",
+      "score": 5542,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-trigger/",
+      "title": "ALTER TRIGGER",
+      "anchor": "sql-stmts-alter-trigger",
+      "virtual_path": "docs/sql-stmts/alter-trigger/index.md",
+      "profile": "docusaurus",
+      "score": 6501,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-type/",
+      "title": "ALTER TYPE",
+      "anchor": "sql-stmts-alter-type",
+      "virtual_path": "docs/sql-stmts/alter-type/index.md",
+      "profile": "docusaurus",
+      "score": 17254,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-user-mapping/",
+      "title": "ALTER USER MAPPING",
+      "anchor": "sql-stmts-alter-user-mapping",
+      "virtual_path": "docs/sql-stmts/alter-user-mapping/index.md",
+      "profile": "docusaurus",
+      "score": 6714,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-user/",
+      "title": "ALTER USER",
+      "anchor": "sql-stmts-alter-user",
+      "virtual_path": "docs/sql-stmts/alter-user/index.md",
+      "profile": "docusaurus",
+      "score": 5349,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/alter-view/",
+      "title": "ALTER VIEW",
+      "anchor": "sql-stmts-alter-view",
+      "virtual_path": "docs/sql-stmts/alter-view/index.md",
+      "profile": "docusaurus",
+      "score": 9485,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/analyze/",
+      "title": "ANALYZE",
+      "anchor": "sql-stmts-analyze",
+      "virtual_path": "docs/sql-stmts/analyze/index.md",
+      "profile": "docusaurus",
+      "score": 23163,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/begin/",
+      "title": "BEGIN",
+      "anchor": "sql-stmts-begin",
+      "virtual_path": "docs/sql-stmts/begin/index.md",
+      "profile": "docusaurus",
+      "score": 7958,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/call/",
+      "title": "CALL",
+      "anchor": "sql-stmts-call",
+      "virtual_path": "docs/sql-stmts/call/index.md",
+      "profile": "docusaurus",
+      "score": 6354,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/checkpoint/",
+      "title": "CHECKPOINT",
+      "anchor": "sql-stmts-checkpoint",
+      "virtual_path": "docs/sql-stmts/checkpoint/index.md",
+      "profile": "docusaurus",
+      "score": 4217,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/close/",
+      "title": "CLOSE",
+      "anchor": "sql-stmts-close",
+      "virtual_path": "docs/sql-stmts/close/index.md",
+      "profile": "docusaurus",
+      "score": 6684,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/cluster/",
+      "title": "CLUSTER",
+      "anchor": "sql-stmts-cluster",
+      "virtual_path": "docs/sql-stmts/cluster/index.md",
+      "profile": "docusaurus",
+      "score": 11790,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/comment/",
+      "title": "COMMENT",
+      "anchor": "sql-stmts-comment",
+      "virtual_path": "docs/sql-stmts/comment/index.md",
+      "profile": "docusaurus",
+      "score": 15942,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/commit/",
+      "title": "COMMIT",
+      "anchor": "sql-stmts-commit",
+      "virtual_path": "docs/sql-stmts/commit/index.md",
+      "profile": "docusaurus",
+      "score": 6235,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/copy/",
+      "title": "COPY",
+      "anchor": "sql-stmts-copy",
+      "virtual_path": "docs/sql-stmts/copy/index.md",
+      "profile": "docusaurus",
+      "score": 56848,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-access-method/",
+      "title": "CREATE ACCESS METHOD",
+      "anchor": "sql-stmts-create-access-method",
+      "virtual_path": "docs/sql-stmts/create-access-method/index.md",
+      "profile": "docusaurus",
+      "score": 6529,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-aggregate/",
+      "title": "CREATE AGGREGATE",
+      "anchor": "sql-stmts-create-aggregate",
+      "virtual_path": "docs/sql-stmts/create-aggregate/index.md",
+      "profile": "docusaurus",
+      "score": 35152,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-cast/",
+      "title": "CREATE CAST",
+      "anchor": "sql-stmts-create-cast",
+      "virtual_path": "docs/sql-stmts/create-cast/index.md",
+      "profile": "docusaurus",
+      "score": 19200,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-collation/",
+      "title": "CREATE COLLATION",
+      "anchor": "sql-stmts-create-collation",
+      "virtual_path": "docs/sql-stmts/create-collation/index.md",
+      "profile": "docusaurus",
+      "score": 11302,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-conversion/",
+      "title": "CREATE CONVERSION",
+      "anchor": "sql-stmts-create-conversion",
+      "virtual_path": "docs/sql-stmts/create-conversion/index.md",
+      "profile": "docusaurus",
+      "score": 8484,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-database/",
+      "title": "CREATE DATABASE",
+      "anchor": "sql-stmts-create-database",
+      "virtual_path": "docs/sql-stmts/create-database/index.md",
+      "profile": "docusaurus",
+      "score": 11121,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-domain/",
+      "title": "CREATE DOMAIN",
+      "anchor": "sql-stmts-create-domain",
+      "virtual_path": "docs/sql-stmts/create-domain/index.md",
+      "profile": "docusaurus",
+      "score": 12760,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-extension/",
+      "title": "CREATE EXTENSION",
+      "anchor": "sql-stmts-create-extension",
+      "virtual_path": "docs/sql-stmts/create-extension/index.md",
+      "profile": "docusaurus",
+      "score": 12627,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-external-table/",
+      "title": "CREATE EXTERNAL TABLE",
+      "anchor": "sql-stmts-create-external-table",
+      "virtual_path": "docs/sql-stmts/create-external-table/index.md",
+      "profile": "docusaurus",
+      "score": 40840,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-foreign-data-wrapper/",
+      "title": "CREATE FOREIGN DATA WRAPPER",
+      "anchor": "sql-stmts-create-foreign-data-wrapper",
+      "virtual_path": "docs/sql-stmts/create-foreign-data-wrapper/index.md",
+      "profile": "docusaurus",
+      "score": 10947,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-foreign-table/",
+      "title": "CREATE FOREIGN TABLE",
+      "anchor": "sql-stmts-create-foreign-table",
+      "virtual_path": "docs/sql-stmts/create-foreign-table/index.md",
+      "profile": "docusaurus",
+      "score": 19836,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-function/",
+      "title": "CREATE FUNCTION",
+      "anchor": "sql-stmts-create-function",
+      "virtual_path": "docs/sql-stmts/create-function/index.md",
+      "profile": "docusaurus",
+      "score": 51102,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-group/",
+      "title": "CREATE GROUP",
+      "anchor": "sql-stmts-create-group",
+      "virtual_path": "docs/sql-stmts/create-group/index.md",
+      "profile": "docusaurus",
+      "score": 5034,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-index/",
+      "title": "CREATE INDEX",
+      "anchor": "sql-stmts-create-index",
+      "virtual_path": "docs/sql-stmts/create-index/index.md",
+      "profile": "docusaurus",
+      "score": 28279,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-language/",
+      "title": "CREATE LANGUAGE",
+      "anchor": "sql-stmts-create-language",
+      "virtual_path": "docs/sql-stmts/create-language/index.md",
+      "profile": "docusaurus",
+      "score": 13999,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-materialized-view/",
+      "title": "CREATE MATERIALIZED VIEW",
+      "anchor": "sql-stmts-create-materialized-view",
+      "virtual_path": "docs/sql-stmts/create-materialized-view/index.md",
+      "profile": "docusaurus",
+      "score": 11154,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-operator-class/",
+      "title": "CREATE OPERATOR CLASS",
+      "anchor": "sql-stmts-create-operator-class",
+      "virtual_path": "docs/sql-stmts/create-operator-class/index.md",
+      "profile": "docusaurus",
+      "score": 14700,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-operator-family/",
+      "title": "CREATE OPERATOR FAMILY",
+      "anchor": "sql-stmts-create-operator-family",
+      "virtual_path": "docs/sql-stmts/create-operator-family/index.md",
+      "profile": "docusaurus",
+      "score": 6545,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-operator/",
+      "title": "CREATE OPERATOR",
+      "anchor": "sql-stmts-create-operator",
+      "virtual_path": "docs/sql-stmts/create-operator/index.md",
+      "profile": "docusaurus",
+      "score": 16110,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-policy/",
+      "title": "CREATE POLICY",
+      "anchor": "sql-stmts-create-policy",
+      "virtual_path": "docs/sql-stmts/create-policy/index.md",
+      "profile": "docusaurus",
+      "score": 23542,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-procedure/",
+      "title": "CREATE PROCEDURE",
+      "anchor": "sql-stmts-create-procedure",
+      "virtual_path": "docs/sql-stmts/create-procedure/index.md",
+      "profile": "docusaurus",
+      "score": 14991,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-protocol/",
+      "title": "CREATE PROTOCOL",
+      "anchor": "sql-stmts-create-protocol",
+      "virtual_path": "docs/sql-stmts/create-protocol/index.md",
+      "profile": "docusaurus",
+      "score": 7976,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-resource-group/",
+      "title": "CREATE RESOURCE GROUP",
+      "anchor": "sql-stmts-create-resource-group",
+      "virtual_path": "docs/sql-stmts/create-resource-group/index.md",
+      "profile": "docusaurus",
+      "score": 14869,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-resource-queue/",
+      "title": "CREATE RESOURCE QUEUE",
+      "anchor": "sql-stmts-create-resource-queue",
+      "virtual_path": "docs/sql-stmts/create-resource-queue/index.md",
+      "profile": "docusaurus",
+      "score": 18680,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-role/",
+      "title": "CREATE ROLE",
+      "anchor": "sql-stmts-create-role",
+      "virtual_path": "docs/sql-stmts/create-role/index.md",
+      "profile": "docusaurus",
+      "score": 26653,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-rule/",
+      "title": "CREATE RULE",
+      "anchor": "sql-stmts-create-rule",
+      "virtual_path": "docs/sql-stmts/create-rule/index.md",
+      "profile": "docusaurus",
+      "score": 12692,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-schema/",
+      "title": "CREATE SCHEMA",
+      "anchor": "sql-stmts-create-schema",
+      "virtual_path": "docs/sql-stmts/create-schema/index.md",
+      "profile": "docusaurus",
+      "score": 11400,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-sequence/",
+      "title": "CREATE SEQUENCE",
+      "anchor": "sql-stmts-create-sequence",
+      "virtual_path": "docs/sql-stmts/create-sequence/index.md",
+      "profile": "docusaurus",
+      "score": 17673,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-server/",
+      "title": "CREATE SERVER",
+      "anchor": "sql-stmts-create-server",
+      "virtual_path": "docs/sql-stmts/create-server/index.md",
+      "profile": "docusaurus",
+      "score": 10107,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-statistics/",
+      "title": "CREATE STATISTICS",
+      "anchor": "sql-stmts-create-statistics",
+      "virtual_path": "docs/sql-stmts/create-statistics/index.md",
+      "profile": "docusaurus",
+      "score": 10080,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-table-as/",
+      "title": "CREATE TABLE AS",
+      "anchor": "sql-stmts-create-table-as",
+      "virtual_path": "docs/sql-stmts/create-table-as/index.md",
+      "profile": "docusaurus",
+      "score": 13089,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-table/",
+      "title": "CREATE TABLE",
+      "anchor": "sql-stmts-create-table",
+      "virtual_path": "docs/sql-stmts/create-table/index.md",
+      "profile": "docusaurus",
+      "score": 119268,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-tablespace/",
+      "title": "CREATE TABLESPACE",
+      "anchor": "sql-stmts-create-tablespace",
+      "virtual_path": "docs/sql-stmts/create-tablespace/index.md",
+      "profile": "docusaurus",
+      "score": 11891,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-text-search-configuration/",
+      "title": "CREATE TEXT SEARCH CONFIGURATION",
+      "anchor": "sql-stmts-create-text-search-configuration",
+      "virtual_path": "docs/sql-stmts/create-text-search-configuration/index.md",
+      "profile": "docusaurus",
+      "score": 6567,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-text-search-dictionary/",
+      "title": "CREATE TEXT SEARCH DICTIONARY",
+      "anchor": "sql-stmts-create-text-search-dictionary",
+      "virtual_path": "docs/sql-stmts/create-text-search-dictionary/index.md",
+      "profile": "docusaurus",
+      "score": 6979,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-text-search-parser/",
+      "title": "CREATE TEXT SEARCH PARSER",
+      "anchor": "sql-stmts-create-text-search-parser",
+      "virtual_path": "docs/sql-stmts/create-text-search-parser/index.md",
+      "profile": "docusaurus",
+      "score": 7344,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-text-search-template/",
+      "title": "CREATE TEXT SEARCH TEMPLATE",
+      "anchor": "sql-stmts-create-text-search-template",
+      "virtual_path": "docs/sql-stmts/create-text-search-template/index.md",
+      "profile": "docusaurus",
+      "score": 6801,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-transform/",
+      "title": "CREATE TRANSFORM",
+      "anchor": "sql-stmts-create-transform",
+      "virtual_path": "docs/sql-stmts/create-transform/index.md",
+      "profile": "docusaurus",
+      "score": 10426,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-trigger/",
+      "title": "CREATE TRIGGER",
+      "anchor": "sql-stmts-create-trigger",
+      "virtual_path": "docs/sql-stmts/create-trigger/index.md",
+      "profile": "docusaurus",
+      "score": 11688,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-type/",
+      "title": "CREATE TYPE",
+      "anchor": "sql-stmts-create-type",
+      "virtual_path": "docs/sql-stmts/create-type/index.md",
+      "profile": "docusaurus",
+      "score": 37974,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-user-mapping/",
+      "title": "CREATE USER MAPPING",
+      "anchor": "sql-stmts-create-user-mapping",
+      "virtual_path": "docs/sql-stmts/create-user-mapping/index.md",
+      "profile": "docusaurus",
+      "score": 7115,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-user/",
+      "title": "CREATE USER",
+      "anchor": "sql-stmts-create-user",
+      "virtual_path": "docs/sql-stmts/create-user/index.md",
+      "profile": "docusaurus",
+      "score": 4988,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/create-view/",
+      "title": "CREATE VIEW",
+      "anchor": "sql-stmts-create-view",
+      "virtual_path": "docs/sql-stmts/create-view/index.md",
+      "profile": "docusaurus",
+      "score": 22036,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/deallocate/",
+      "title": "DEALLOCATE",
+      "anchor": "sql-stmts-deallocate",
+      "virtual_path": "docs/sql-stmts/deallocate/index.md",
+      "profile": "docusaurus",
+      "score": 5727,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/declare/",
+      "title": "DECLARE",
+      "anchor": "sql-stmts-declare",
+      "virtual_path": "docs/sql-stmts/declare/index.md",
+      "profile": "docusaurus",
+      "score": 15809,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/delete/",
+      "title": "DELETE",
+      "anchor": "sql-stmts-delete",
+      "virtual_path": "docs/sql-stmts/delete/index.md",
+      "profile": "docusaurus",
+      "score": 15188,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/discard/",
+      "title": "DISCARD",
+      "anchor": "sql-stmts-discard",
+      "virtual_path": "docs/sql-stmts/discard/index.md",
+      "profile": "docusaurus",
+      "score": 6211,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/do/",
+      "title": "DO",
+      "anchor": "sql-stmts-do",
+      "virtual_path": "docs/sql-stmts/do/index.md",
+      "profile": "docusaurus",
+      "score": 8956,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-access-method/",
+      "title": "DROP ACCESS METHOD",
+      "anchor": "sql-stmts-drop-access-method",
+      "virtual_path": "docs/sql-stmts/drop-access-method/index.md",
+      "profile": "docusaurus",
+      "score": 5933,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-aggregate/",
+      "title": "DROP AGGREGATE",
+      "anchor": "sql-stmts-drop-aggregate",
+      "virtual_path": "docs/sql-stmts/drop-aggregate/index.md",
+      "profile": "docusaurus",
+      "score": 8586,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-cast/",
+      "title": "DROP CAST",
+      "anchor": "sql-stmts-drop-cast",
+      "virtual_path": "docs/sql-stmts/drop-cast/index.md",
+      "profile": "docusaurus",
+      "score": 5893,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-collation/",
+      "title": "DROP COLLATION",
+      "anchor": "sql-stmts-drop-collation",
+      "virtual_path": "docs/sql-stmts/drop-collation/index.md",
+      "profile": "docusaurus",
+      "score": 5984,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-conversion/",
+      "title": "DROP CONVERSION",
+      "anchor": "sql-stmts-drop-conversion",
+      "virtual_path": "docs/sql-stmts/drop-conversion/index.md",
+      "profile": "docusaurus",
+      "score": 5811,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-database/",
+      "title": "DROP DATABASE",
+      "anchor": "sql-stmts-drop-database",
+      "virtual_path": "docs/sql-stmts/drop-database/index.md",
+      "profile": "docusaurus",
+      "score": 6354,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-domain/",
+      "title": "DROP DOMAIN",
+      "anchor": "sql-stmts-drop-domain",
+      "virtual_path": "docs/sql-stmts/drop-domain/index.md",
+      "profile": "docusaurus",
+      "score": 5940,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-extension/",
+      "title": "DROP EXTENSION",
+      "anchor": "sql-stmts-drop-extension",
+      "virtual_path": "docs/sql-stmts/drop-extension/index.md",
+      "profile": "docusaurus",
+      "score": 7026,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-external-table/",
+      "title": "DROP EXTERNAL TABLE",
+      "anchor": "sql-stmts-drop-external-table",
+      "virtual_path": "docs/sql-stmts/drop-external-table/index.md",
+      "profile": "docusaurus",
+      "score": 6256,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-foreign-data-wrapper/",
+      "title": "DROP FOREIGN DATA WRAPPER",
+      "anchor": "sql-stmts-drop-foreign-data-wrapper",
+      "virtual_path": "docs/sql-stmts/drop-foreign-data-wrapper/index.md",
+      "profile": "docusaurus",
+      "score": 6117,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-foreign-table/",
+      "title": "DROP FOREIGN TABLE",
+      "anchor": "sql-stmts-drop-foreign-table",
+      "virtual_path": "docs/sql-stmts/drop-foreign-table/index.md",
+      "profile": "docusaurus",
+      "score": 6130,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-function/",
+      "title": "DROP FUNCTION",
+      "anchor": "sql-stmts-drop-function",
+      "virtual_path": "docs/sql-stmts/drop-function/index.md",
+      "profile": "docusaurus",
+      "score": 7170,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-group/",
+      "title": "DROP GROUP",
+      "anchor": "sql-stmts-drop-group",
+      "virtual_path": "docs/sql-stmts/drop-group/index.md",
+      "profile": "docusaurus",
+      "score": 3854,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-index/",
+      "title": "DROP INDEX",
+      "anchor": "sql-stmts-drop-index",
+      "virtual_path": "docs/sql-stmts/drop-index/index.md",
+      "profile": "docusaurus",
+      "score": 6848,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-language/",
+      "title": "DROP LANGUAGE",
+      "anchor": "sql-stmts-drop-language",
+      "virtual_path": "docs/sql-stmts/drop-language/index.md",
+      "profile": "docusaurus",
+      "score": 6236,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-materialized-view/",
+      "title": "DROP MATERIALIZED VIEW",
+      "anchor": "sql-stmts-drop-materialized-view",
+      "virtual_path": "docs/sql-stmts/drop-materialized-view/index.md",
+      "profile": "docusaurus",
+      "score": 6115,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-operator-class/",
+      "title": "DROP OPERATOR CLASS",
+      "anchor": "sql-stmts-drop-operator-class",
+      "virtual_path": "docs/sql-stmts/drop-operator-class/index.md",
+      "profile": "docusaurus",
+      "score": 7555,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-operator-family/",
+      "title": "DROP OPERATOR FAMILY",
+      "anchor": "sql-stmts-drop-operator-family",
+      "virtual_path": "docs/sql-stmts/drop-operator-family/index.md",
+      "profile": "docusaurus",
+      "score": 6874,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-operator/",
+      "title": "DROP OPERATOR",
+      "anchor": "sql-stmts-drop-operator",
+      "virtual_path": "docs/sql-stmts/drop-operator/index.md",
+      "profile": "docusaurus",
+      "score": 7561,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-owned/",
+      "title": "DROP OWNED",
+      "anchor": "sql-stmts-drop-owned",
+      "virtual_path": "docs/sql-stmts/drop-owned/index.md",
+      "profile": "docusaurus",
+      "score": 7156,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-policy/",
+      "title": "DROP POLICY",
+      "anchor": "sql-stmts-drop-policy",
+      "virtual_path": "docs/sql-stmts/drop-policy/index.md",
+      "profile": "docusaurus",
+      "score": 6150,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-procedure/",
+      "title": "DROP PROCEDURE",
+      "anchor": "sql-stmts-drop-procedure",
+      "virtual_path": "docs/sql-stmts/drop-procedure/index.md",
+      "profile": "docusaurus",
+      "score": 7418,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-protocol/",
+      "title": "DROP PROTOCOL",
+      "anchor": "sql-stmts-drop-protocol",
+      "virtual_path": "docs/sql-stmts/drop-protocol/index.md",
+      "profile": "docusaurus",
+      "score": 5883,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-resource-group/",
+      "title": "DROP RESOURCE GROUP",
+      "anchor": "sql-stmts-drop-resource-group",
+      "virtual_path": "docs/sql-stmts/drop-resource-group/index.md",
+      "profile": "docusaurus",
+      "score": 7850,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-resource-queue/",
+      "title": "DROP RESOURCE QUEUE",
+      "anchor": "sql-stmts-drop-resource-queue",
+      "virtual_path": "docs/sql-stmts/drop-resource-queue/index.md",
+      "profile": "docusaurus",
+      "score": 7199,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-role/",
+      "title": "DROP ROLE",
+      "anchor": "sql-stmts-drop-role",
+      "virtual_path": "docs/sql-stmts/drop-role/index.md",
+      "profile": "docusaurus",
+      "score": 6251,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-routine/",
+      "title": "DROP ROUTINE",
+      "anchor": "sql-stmts-drop-routine",
+      "virtual_path": "docs/sql-stmts/drop-routine/index.md",
+      "profile": "docusaurus",
+      "score": 5488,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-rule/",
+      "title": "DROP RULE",
+      "anchor": "sql-stmts-drop-rule",
+      "virtual_path": "docs/sql-stmts/drop-rule/index.md",
+      "profile": "docusaurus",
+      "score": 6086,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-schema/",
+      "title": "DROP SCHEMA",
+      "anchor": "sql-stmts-drop-schema",
+      "virtual_path": "docs/sql-stmts/drop-schema/index.md",
+      "profile": "docusaurus",
+      "score": 6754,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-sequence/",
+      "title": "DROP SEQUENCE",
+      "anchor": "sql-stmts-drop-sequence",
+      "virtual_path": "docs/sql-stmts/drop-sequence/index.md",
+      "profile": "docusaurus",
+      "score": 6021,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-server/",
+      "title": "DROP SERVER",
+      "anchor": "sql-stmts-drop-server",
+      "virtual_path": "docs/sql-stmts/drop-server/index.md",
+      "profile": "docusaurus",
+      "score": 5962,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-statistics/",
+      "title": "DROP STATISTICS",
+      "anchor": "sql-stmts-drop-statistics",
+      "virtual_path": "docs/sql-stmts/drop-statistics/index.md",
+      "profile": "docusaurus",
+      "score": 5856,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-table/",
+      "title": "DROP TABLE",
+      "anchor": "sql-stmts-drop-table",
+      "virtual_path": "docs/sql-stmts/drop-table/index.md",
+      "profile": "docusaurus",
+      "score": 6724,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-tablespace/",
+      "title": "DROP TABLESPACE",
+      "anchor": "sql-stmts-drop-tablespace",
+      "virtual_path": "docs/sql-stmts/drop-tablespace/index.md",
+      "profile": "docusaurus",
+      "score": 7440,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-text-search-configuration/",
+      "title": "DROP TEXT SEARCH CONFIGURATION",
+      "anchor": "sql-stmts-drop-text-search-configuration",
+      "virtual_path": "docs/sql-stmts/drop-text-search-configuration/index.md",
+      "profile": "docusaurus",
+      "score": 6389,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-text-search-dictionary/",
+      "title": "DROP TEXT SEARCH DICTIONARY",
+      "anchor": "sql-stmts-drop-text-search-dictionary",
+      "virtual_path": "docs/sql-stmts/drop-text-search-dictionary/index.md",
+      "profile": "docusaurus",
+      "score": 6319,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-text-search-parser/",
+      "title": "DROP TEXT SEARCH PARSER",
+      "anchor": "sql-stmts-drop-text-search-parser",
+      "virtual_path": "docs/sql-stmts/drop-text-search-parser/index.md",
+      "profile": "docusaurus",
+      "score": 6553,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-text-search-template/",
+      "title": "DROP TEXT SEARCH TEMPLATE",
+      "anchor": "sql-stmts-drop-text-search-template",
+      "virtual_path": "docs/sql-stmts/drop-text-search-template/index.md",
+      "profile": "docusaurus",
+      "score": 6713,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-transform/",
+      "title": "DROP TRANSFORM",
+      "anchor": "sql-stmts-drop-transform",
+      "virtual_path": "docs/sql-stmts/drop-transform/index.md",
+      "profile": "docusaurus",
+      "score": 6328,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-trigger/",
+      "title": "DROP TRIGGER",
+      "anchor": "sql-stmts-drop-trigger",
+      "virtual_path": "docs/sql-stmts/drop-trigger/index.md",
+      "profile": "docusaurus",
+      "score": 6241,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-type/",
+      "title": "DROP TYPE",
+      "anchor": "sql-stmts-drop-type",
+      "virtual_path": "docs/sql-stmts/drop-type/index.md",
+      "profile": "docusaurus",
+      "score": 6114,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-user-mapping/",
+      "title": "DROP USER MAPPING",
+      "anchor": "sql-stmts-drop-user-mapping",
+      "virtual_path": "docs/sql-stmts/drop-user-mapping/index.md",
+      "profile": "docusaurus",
+      "score": 6109,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-user/",
+      "title": "DROP USER",
+      "anchor": "sql-stmts-drop-user",
+      "virtual_path": "docs/sql-stmts/drop-user/index.md",
+      "profile": "docusaurus",
+      "score": 3939,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/drop-view/",
+      "title": "DROP VIEW",
+      "anchor": "sql-stmts-drop-view",
+      "virtual_path": "docs/sql-stmts/drop-view/index.md",
+      "profile": "docusaurus",
+      "score": 5962,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/end/",
+      "title": "END",
+      "anchor": "sql-stmts-end",
+      "virtual_path": "docs/sql-stmts/end/index.md",
+      "profile": "docusaurus",
+      "score": 6228,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/execute/",
+      "title": "EXECUTE",
+      "anchor": "sql-stmts-execute",
+      "virtual_path": "docs/sql-stmts/execute/index.md",
+      "profile": "docusaurus",
+      "score": 6966,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/explain/",
+      "title": "EXPLAIN",
+      "anchor": "sql-stmts-explain",
+      "virtual_path": "docs/sql-stmts/explain/index.md",
+      "profile": "docusaurus",
+      "score": 20424,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/fetch/",
+      "title": "FETCH",
+      "anchor": "sql-stmts-fetch",
+      "virtual_path": "docs/sql-stmts/fetch/index.md",
+      "profile": "docusaurus",
+      "score": 14486,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/grant/",
+      "title": "GRANT",
+      "anchor": "sql-stmts-grant",
+      "virtual_path": "docs/sql-stmts/grant/index.md",
+      "profile": "docusaurus",
+      "score": 29115,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/import-foreign-schema/",
+      "title": "IMPORT FOREIGN SCHEMA",
+      "anchor": "sql-stmts-import-foreign-schema",
+      "virtual_path": "docs/sql-stmts/import-foreign-schema/index.md",
+      "profile": "docusaurus",
+      "score": 8299,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/",
+      "title": "SQL Statements Index",
+      "anchor": "sql-stmts",
+      "virtual_path": "docs/sql-stmts/index.md",
+      "profile": "docusaurus",
+      "score": 25896,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/insert/",
+      "title": "INSERT",
+      "anchor": "sql-stmts-insert",
+      "virtual_path": "docs/sql-stmts/insert/index.md",
+      "profile": "docusaurus",
+      "score": 33140,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/listen/",
+      "title": "LISTEN",
+      "anchor": "sql-stmts-listen",
+      "virtual_path": "docs/sql-stmts/listen/index.md",
+      "profile": "docusaurus",
+      "score": 7422,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/load/",
+      "title": "LOAD",
+      "anchor": "sql-stmts-load",
+      "virtual_path": "docs/sql-stmts/load/index.md",
+      "profile": "docusaurus",
+      "score": 6366,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/lock/",
+      "title": "LOCK",
+      "anchor": "sql-stmts-lock",
+      "virtual_path": "docs/sql-stmts/lock/index.md",
+      "profile": "docusaurus",
+      "score": 15905,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/move/",
+      "title": "MOVE",
+      "anchor": "sql-stmts-move",
+      "virtual_path": "docs/sql-stmts/move/index.md",
+      "profile": "docusaurus",
+      "score": 7889,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/notify/",
+      "title": "NOTIFY",
+      "anchor": "sql-stmts-notify",
+      "virtual_path": "docs/sql-stmts/notify/index.md",
+      "profile": "docusaurus",
+      "score": 12703,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/prepare/",
+      "title": "PREPARE",
+      "anchor": "sql-stmts-prepare",
+      "virtual_path": "docs/sql-stmts/prepare/index.md",
+      "profile": "docusaurus",
+      "score": 13131,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/reassign-owned/",
+      "title": "REASSIGN OWNED",
+      "anchor": "sql-stmts-reassign-owned",
+      "virtual_path": "docs/sql-stmts/reassign-owned/index.md",
+      "profile": "docusaurus",
+      "score": 6987,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/refresh-materialized-view/",
+      "title": "REFRESH MATERIALIZED VIEW",
+      "anchor": "sql-stmts-refresh-materialized-view",
+      "virtual_path": "docs/sql-stmts/refresh-materialized-view/index.md",
+      "profile": "docusaurus",
+      "score": 8521,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/reindex/",
+      "title": "REINDEX",
+      "anchor": "sql-stmts-reindex",
+      "virtual_path": "docs/sql-stmts/reindex/index.md",
+      "profile": "docusaurus",
+      "score": 10846,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/release-savepoint/",
+      "title": "RELEASE SAVEPOINT",
+      "anchor": "sql-stmts-release-savepoint",
+      "virtual_path": "docs/sql-stmts/release-savepoint/index.md",
+      "profile": "docusaurus",
+      "score": 6950,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/reset/",
+      "title": "RESET",
+      "anchor": "sql-stmts-reset",
+      "virtual_path": "docs/sql-stmts/reset/index.md",
+      "profile": "docusaurus",
+      "score": 6659,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/retrieve/",
+      "title": "RETRIEVE",
+      "anchor": "sql-stmts-retrieve",
+      "virtual_path": "docs/sql-stmts/retrieve/index.md",
+      "profile": "docusaurus",
+      "score": 10681,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/revoke/",
+      "title": "REVOKE",
+      "anchor": "sql-stmts-revoke",
+      "virtual_path": "docs/sql-stmts/revoke/index.md",
+      "profile": "docusaurus",
+      "score": 15303,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/rollback-to-savepoint/",
+      "title": "ROLLBACK TO SAVEPOINT",
+      "anchor": "sql-stmts-rollback-to-savepoint",
+      "virtual_path": "docs/sql-stmts/rollback-to-savepoint/index.md",
+      "profile": "docusaurus",
+      "score": 8081,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/rollback/",
+      "title": "ROLLBACK",
+      "anchor": "sql-stmts-rollback",
+      "virtual_path": "docs/sql-stmts/rollback/index.md",
+      "profile": "docusaurus",
+      "score": 6208,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/savepoint/",
+      "title": "SAVEPOINT",
+      "anchor": "sql-stmts-savepoint",
+      "virtual_path": "docs/sql-stmts/savepoint/index.md",
+      "profile": "docusaurus",
+      "score": 8388,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/select-into/",
+      "title": "SELECT INTO",
+      "anchor": "sql-stmts-select-into",
+      "virtual_path": "docs/sql-stmts/select-into/index.md",
+      "profile": "docusaurus",
+      "score": 8117,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/select/",
+      "title": "SELECT",
+      "anchor": "sql-stmts-select",
+      "virtual_path": "docs/sql-stmts/select/index.md",
+      "profile": "docusaurus",
+      "score": 105358,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/set-constraints/",
+      "title": "SET CONSTRAINTS",
+      "anchor": "sql-stmts-set-constraints",
+      "virtual_path": "docs/sql-stmts/set-constraints/index.md",
+      "profile": "docusaurus",
+      "score": 7417,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/set-role/",
+      "title": "SET ROLE",
+      "anchor": "sql-stmts-set-role",
+      "virtual_path": "docs/sql-stmts/set-role/index.md",
+      "profile": "docusaurus",
+      "score": 8895,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/set-session-authorization/",
+      "title": "SET SESSION AUTHORIZATION",
+      "anchor": "sql-stmts-set-session-authorization",
+      "virtual_path": "docs/sql-stmts/set-session-authorization/index.md",
+      "profile": "docusaurus",
+      "score": 7817,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/set-transaction/",
+      "title": "SET TRANSACTION",
+      "anchor": "sql-stmts-set-transaction",
+      "virtual_path": "docs/sql-stmts/set-transaction/index.md",
+      "profile": "docusaurus",
+      "score": 13193,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/set/",
+      "title": "SET",
+      "anchor": "sql-stmts-set",
+      "virtual_path": "docs/sql-stmts/set/index.md",
+      "profile": "docusaurus",
+      "score": 12379,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/show/",
+      "title": "SHOW",
+      "anchor": "sql-stmts-show",
+      "virtual_path": "docs/sql-stmts/show/index.md",
+      "profile": "docusaurus",
+      "score": 8806,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/start-transaction/",
+      "title": "START TRANSACTION",
+      "anchor": "sql-stmts-start-transaction",
+      "virtual_path": "docs/sql-stmts/start-transaction/index.md",
+      "profile": "docusaurus",
+      "score": 5637,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/truncate/",
+      "title": "TRUNCATE",
+      "anchor": "sql-stmts-truncate",
+      "virtual_path": "docs/sql-stmts/truncate/index.md",
+      "profile": "docusaurus",
+      "score": 10076,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/unlisten/",
+      "title": "UNLISTEN",
+      "anchor": "sql-stmts-unlisten",
+      "virtual_path": "docs/sql-stmts/unlisten/index.md",
+      "profile": "docusaurus",
+      "score": 6870,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/update/",
+      "title": "UPDATE",
+      "anchor": "sql-stmts-update",
+      "virtual_path": "docs/sql-stmts/update/index.md",
+      "profile": "docusaurus",
+      "score": 22914,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/vacuum/",
+      "title": "VACUUM",
+      "anchor": "sql-stmts-vacuum",
+      "virtual_path": "docs/sql-stmts/vacuum/index.md",
+      "profile": "docusaurus",
+      "score": 19256,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sql-stmts/values/",
+      "title": "VALUES",
+      "anchor": "sql-stmts-values",
+      "virtual_path": "docs/sql-stmts/values/index.md",
+      "profile": "docusaurus",
+      "score": 11728,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/start-and-stop-cbdb-database/",
+      "title": "Start and Stop Apache Cloudberry",
+      "anchor": "start-and-stop-cbdb-database",
+      "virtual_path": "docs/start-and-stop-cbdb-database/index.md",
+      "profile": "docusaurus",
+      "score": 14414,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/backup-and-restore/",
+      "title": "Backup and Restore Overview",
+      "anchor": "sys-admin-backup-and-restore",
+      "virtual_path": "docs/sys-admin/backup-and-restore/index.md",
+      "profile": "docusaurus",
+      "score": 6893,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/backup-and-restore/perform-full-backup-and-restore/",
+      "title": "Perform Full Backup and Restore",
+      "anchor": "sys-admin-backup-and-restore-perform-full-backup-and-restore",
+      "virtual_path": "docs/sys-admin/backup-and-restore/perform-full-backup-and-restore/index.md",
+      "profile": "docusaurus",
+      "score": 44414,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/backup-and-restore/perform-incremental-backup-and-restore/",
+      "title": "Perform Incremental Backup and Restore",
+      "anchor": "sys-admin-backup-and-restore-perform-incremental-backup-and-restore",
+      "virtual_path": "docs/sys-admin/backup-and-restore/perform-incremental-backup-and-restore/index.md",
+      "profile": "docusaurus",
+      "score": 22126,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/check-database-system/",
+      "title": "Check Apache Cloudberry System",
+      "anchor": "sys-admin-check-database-system",
+      "virtual_path": "docs/sys-admin/check-database-system/index.md",
+      "profile": "docusaurus",
+      "score": 56049,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/configure-database-system/",
+      "title": "Configure Database System",
+      "anchor": "sys-admin-configure-database-system",
+      "virtual_path": "docs/sys-admin/configure-database-system/index.md",
+      "profile": "docusaurus",
+      "score": 12834,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/configure-proxy/",
+      "title": "Configure Proxies for the Interconnect",
+      "anchor": "sys-admin-configure-proxy",
+      "virtual_path": "docs/sys-admin/configure-proxy/index.md",
+      "profile": "docusaurus",
+      "score": 14027,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/expand-cluster/expand-a-db-system/",
+      "title": "Expand a Cloudberry System",
+      "anchor": "sys-admin-expand-cluster-expand-a-db-system",
+      "virtual_path": "docs/sys-admin/expand-cluster/expand-a-db-system/index.md",
+      "profile": "docusaurus",
+      "score": 5114,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/expand-cluster/initialize-new-segments/",
+      "title": "Initialize New Segments",
+      "anchor": "sys-admin-expand-cluster-initialize-new-segments",
+      "virtual_path": "docs/sys-admin/expand-cluster/initialize-new-segments/index.md",
+      "profile": "docusaurus",
+      "score": 18844,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/expand-cluster/plan-system-expansion/",
+      "title": "Plan Cloudberry System Expansion",
+      "anchor": "sys-admin-expand-cluster-plan-system-expansion",
+      "virtual_path": "docs/sys-admin/expand-cluster/plan-system-expansion/index.md",
+      "profile": "docusaurus",
+      "score": 24124,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/expand-cluster/post-expansion-tasks/",
+      "title": "Post Expansion Tasks",
+      "anchor": "sys-admin-expand-cluster-post-expansion-tasks",
+      "virtual_path": "docs/sys-admin/expand-cluster/post-expansion-tasks/index.md",
+      "profile": "docusaurus",
+      "score": 6175,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/expand-cluster/prepare-and-add-hosts/",
+      "title": "Prepare and Add Hosts",
+      "anchor": "sys-admin-expand-cluster-prepare-and-add-hosts",
+      "virtual_path": "docs/sys-admin/expand-cluster/prepare-and-add-hosts/index.md",
+      "profile": "docusaurus",
+      "score": 12548,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/expand-cluster/redistribute-tables/",
+      "title": "Redistribute Tables",
+      "anchor": "sys-admin-expand-cluster-redistribute-tables",
+      "virtual_path": "docs/sys-admin/expand-cluster/redistribute-tables/index.md",
+      "profile": "docusaurus",
+      "score": 10544,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/expand-cluster/system-expansion-overview/",
+      "title": "System Expansion Overview",
+      "anchor": "sys-admin-expand-cluster-system-expansion-overview",
+      "virtual_path": "docs/sys-admin/expand-cluster/system-expansion-overview/index.md",
+      "profile": "docusaurus",
+      "score": 11995,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/check-for-failed-segments/",
+      "title": "Check for Failed Segments",
+      "anchor": "sys-admin-high-availability-check-for-failed-segments",
+      "virtual_path": "docs/sys-admin/high-availability/check-for-failed-segments/index.md",
+      "profile": "docusaurus",
+      "score": 7614,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/coordinator-mirroring-overview/",
+      "title": "Coordinator Mirroring Overview",
+      "anchor": "sys-admin-high-availability-coordinator-mirroring-overview",
+      "virtual_path": "docs/sys-admin/high-availability/coordinator-mirroring-overview/index.md",
+      "profile": "docusaurus",
+      "score": 5365,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/detect-a-failed-segment/",
+      "title": "How a Failed Segment is Detected",
+      "anchor": "sys-admin-high-availability-detect-a-failed-segment",
+      "virtual_path": "docs/sys-admin/high-availability/detect-a-failed-segment/index.md",
+      "profile": "docusaurus",
+      "score": 7768,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/enable-coordinator-mirroring/",
+      "title": "Enable Coordinator Mirroring for Apache Cloudberry",
+      "anchor": "sys-admin-high-availability-enable-coordinator-mirroring",
+      "virtual_path": "docs/sys-admin/high-availability/enable-coordinator-mirroring/index.md",
+      "profile": "docusaurus",
+      "score": 13734,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/enable-mirroring/",
+      "title": "Enable Mirroring",
+      "anchor": "sys-admin-high-availability-enable-mirroring",
+      "virtual_path": "docs/sys-admin/high-availability/enable-mirroring/index.md",
+      "profile": "docusaurus",
+      "score": 2485,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/enable-segment-mirroring/",
+      "title": "Enable Segment Mirroring",
+      "anchor": "sys-admin-high-availability-enable-segment-mirroring",
+      "virtual_path": "docs/sys-admin/high-availability/enable-segment-mirroring/index.md",
+      "profile": "docusaurus",
+      "score": 7296,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/high-availability-overview/",
+      "title": "High Availability Overview",
+      "anchor": "sys-admin-high-availability-high-availability-overview",
+      "virtual_path": "docs/sys-admin/high-availability/high-availability-overview/index.md",
+      "profile": "docusaurus",
+      "score": 15876,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/recover-a-failed-coordinator/",
+      "title": "Recover a Failed Coordinator",
+      "anchor": "sys-admin-high-availability-recover-a-failed-coordinator",
+      "virtual_path": "docs/sys-admin/high-availability/recover-a-failed-coordinator/index.md",
+      "profile": "docusaurus",
+      "score": 5477,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/recover-from-segment-failures/",
+      "title": "Recover from Segment Failures",
+      "anchor": "sys-admin-high-availability-recover-from-segment-failures",
+      "virtual_path": "docs/sys-admin/high-availability/recover-from-segment-failures/index.md",
+      "profile": "docusaurus",
+      "score": 19888,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/restore-coordinator-mirroring-after-a-recovery/",
+      "title": "Restore Coordinator Mirroring After a Recovery",
+      "anchor": "sys-admin-high-availability-restore-coordinator-mirroring-after-a-recovery",
+      "virtual_path": "docs/sys-admin/high-availability/restore-coordinator-mirroring-after-a-recovery/index.md",
+      "profile": "docusaurus",
+      "score": 10540,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/segment-mirroring-overview/",
+      "title": "Segment Mirroring Overview",
+      "anchor": "sys-admin-high-availability-segment-mirroring-overview",
+      "virtual_path": "docs/sys-admin/high-availability/segment-mirroring-overview/index.md",
+      "profile": "docusaurus",
+      "score": 8248,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/high-availability/understand-segment-recovery/",
+      "title": "Understand Segment Recovery",
+      "anchor": "sys-admin-high-availability-understand-segment-recovery",
+      "virtual_path": "docs/sys-admin/high-availability/understand-segment-recovery/index.md",
+      "profile": "docusaurus",
+      "score": 13282,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/migration-and-upgrade/",
+      "title": "Migration and Upgrade",
+      "anchor": "sys-admin-migration-and-upgrade",
+      "virtual_path": "docs/sys-admin/migration-and-upgrade/index.md",
+      "profile": "docusaurus",
+      "score": 19028,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/monitor-long-running-operations/",
+      "title": "Monitor Long-Running Operations",
+      "anchor": "sys-admin-monitor-long-running-operations",
+      "virtual_path": "docs/sys-admin/monitor-long-running-operations/index.md",
+      "profile": "docusaurus",
+      "score": 24132,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/recommended-maintenance-monitoring-tasks/",
+      "title": "Recommended Monitoring and Maintenance Tasks",
+      "anchor": "sys-admin-recommended-maintenance-monitoring-tasks",
+      "virtual_path": "docs/sys-admin/recommended-maintenance-monitoring-tasks/index.md",
+      "profile": "docusaurus",
+      "score": 26818,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/routine-maintain-tasks/",
+      "title": "Routine System Maintenance Tasks",
+      "anchor": "sys-admin-routine-maintain-tasks",
+      "virtual_path": "docs/sys-admin/routine-maintain-tasks/index.md",
+      "profile": "docusaurus",
+      "score": 24707,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-admin/use-compression/",
+      "title": "Use Compression",
+      "anchor": "sys-admin-use-compression",
+      "virtual_path": "docs/sys-admin/use-compression/index.md",
+      "profile": "docusaurus",
+      "score": 3465,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/gp_toolkit/",
+      "title": "The gp_toolkit Administrative Schema",
+      "anchor": "sys-catalogs-gp_toolkit",
+      "virtual_path": "docs/sys-catalogs/gp_toolkit/index.md",
+      "profile": "docusaurus",
+      "score": 92535,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/gp-configuration-history/",
+      "title": "gp_configuration_history",
+      "anchor": "sys-catalogs-sys-tables-gp-configuration-history",
+      "virtual_path": "docs/sys-catalogs/sys-tables/gp-configuration-history/index.md",
+      "profile": "docusaurus",
+      "score": 3335,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/gp-distribution-policy/",
+      "title": "gp_distribution_policy",
+      "anchor": "sys-catalogs-sys-tables-gp-distribution-policy",
+      "virtual_path": "docs/sys-catalogs/sys-tables/gp-distribution-policy/index.md",
+      "profile": "docusaurus",
+      "score": 3120,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/gp-fastsequence/",
+      "title": "gp_fastsequence",
+      "anchor": "sys-catalogs-sys-tables-gp-fastsequence",
+      "virtual_path": "docs/sys-catalogs/sys-tables/gp-fastsequence/index.md",
+      "profile": "docusaurus",
+      "score": 2660,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/gp-id/",
+      "title": "gp_id",
+      "anchor": "sys-catalogs-sys-tables-gp-id",
+      "virtual_path": "docs/sys-catalogs/sys-tables/gp-id/index.md",
+      "profile": "docusaurus",
+      "score": 3081,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/gp-partition-template/",
+      "title": "gp_partition_template",
+      "anchor": "sys-catalogs-sys-tables-gp-partition-template",
+      "virtual_path": "docs/sys-catalogs/sys-tables/gp-partition-template/index.md",
+      "profile": "docusaurus",
+      "score": 3353,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/gp-segment-configuration/",
+      "title": "gp_segment_configuration",
+      "anchor": "sys-catalogs-sys-tables-gp-segment-configuration",
+      "virtual_path": "docs/sys-catalogs/sys-tables/gp-segment-configuration/index.md",
+      "profile": "docusaurus",
+      "score": 3957,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/gp-version-at-initdb/",
+      "title": "gp_version_at_initdb",
+      "anchor": "sys-catalogs-sys-tables-gp-version-at-initdb",
+      "virtual_path": "docs/sys-catalogs/sys-tables/gp-version-at-initdb/index.md",
+      "profile": "docusaurus",
+      "score": 2691,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-aggregate/",
+      "title": "pg_aggregate",
+      "anchor": "sys-catalogs-sys-tables-pg-aggregate",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-aggregate/index.md",
+      "profile": "docusaurus",
+      "score": 5473,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-am/",
+      "title": "pg_am",
+      "anchor": "sys-catalogs-sys-tables-pg-am",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-am/index.md",
+      "profile": "docusaurus",
+      "score": 2667,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-amop/",
+      "title": "pg_amop",
+      "anchor": "sys-catalogs-sys-tables-pg-amop",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-amop/index.md",
+      "profile": "docusaurus",
+      "score": 3493,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-amproc/",
+      "title": "pg_amproc",
+      "anchor": "sys-catalogs-sys-tables-pg-amproc",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-amproc/index.md",
+      "profile": "docusaurus",
+      "score": 2852,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-appendonly/",
+      "title": "pg_appendonly",
+      "anchor": "sys-catalogs-sys-tables-pg-appendonly",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-appendonly/index.md",
+      "profile": "docusaurus",
+      "score": 3602,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-attribute-encoding/",
+      "title": "pg_attribute_encoding",
+      "anchor": "sys-catalogs-sys-tables-pg-attribute-encoding",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-attribute-encoding/index.md",
+      "profile": "docusaurus",
+      "score": 3074,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-attribute/",
+      "title": "pg_attribute",
+      "anchor": "sys-catalogs-sys-tables-pg-attribute",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-attribute/index.md",
+      "profile": "docusaurus",
+      "score": 6957,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-attridef/",
+      "title": "pg_attrdef",
+      "anchor": "sys-catalogs-sys-tables-pg-attridef",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-attridef/index.md",
+      "profile": "docusaurus",
+      "score": 2719,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-auth-members/",
+      "title": "pg_auth_members",
+      "anchor": "sys-catalogs-sys-tables-pg-auth-members",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-auth-members/index.md",
+      "profile": "docusaurus",
+      "score": 2769,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-authid/",
+      "title": "pg_authid",
+      "anchor": "sys-catalogs-sys-tables-pg-authid",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-authid/index.md",
+      "profile": "docusaurus",
+      "score": 5250,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-cast/",
+      "title": "pg_cast",
+      "anchor": "sys-catalogs-sys-tables-pg-cast",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-cast/index.md",
+      "profile": "docusaurus",
+      "score": 5015,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-class/",
+      "title": "pg_class",
+      "anchor": "sys-catalogs-sys-tables-pg-class",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-class/index.md",
+      "profile": "docusaurus",
+      "score": 8161,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-depend/",
+      "title": "pg_depend",
+      "anchor": "sys-catalogs-sys-tables-pg-depend",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-depend/index.md",
+      "profile": "docusaurus",
+      "score": 8907,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-description/",
+      "title": "pg_description",
+      "anchor": "sys-catalogs-sys-tables-pg-description",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-description/index.md",
+      "profile": "docusaurus",
+      "score": 3046,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-namespace/",
+      "title": "pg_namespace",
+      "anchor": "sys-catalogs-sys-tables-pg-namespace",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-namespace/index.md",
+      "profile": "docusaurus",
+      "score": 2660,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-operator/",
+      "title": "pg_operator",
+      "anchor": "sys-catalogs-sys-tables-pg-operator",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-operator/index.md",
+      "profile": "docusaurus",
+      "score": 3386,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-partitioned-table/",
+      "title": "pg_partitioned_table",
+      "anchor": "sys-catalogs-sys-tables-pg-partitioned-table",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-partitioned-table/index.md",
+      "profile": "docusaurus",
+      "score": 3901,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-policy/",
+      "title": "pg_policy",
+      "anchor": "sys-catalogs-sys-tables-pg-policy",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-policy/index.md",
+      "profile": "docusaurus",
+      "score": 3477,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-proc/",
+      "title": "pg_proc",
+      "anchor": "sys-catalogs-sys-tables-pg-proc",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-proc/index.md",
+      "profile": "docusaurus",
+      "score": 7717,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-resgroup/",
+      "title": "pg_resgroup",
+      "anchor": "sys-catalogs-sys-tables-pg-resgroup",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-resgroup/index.md",
+      "profile": "docusaurus",
+      "score": 2814,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-resgroupcapability/",
+      "title": "pg_resgroupcapability",
+      "anchor": "sys-catalogs-sys-tables-pg-resgroupcapability",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-resgroupcapability/index.md",
+      "profile": "docusaurus",
+      "score": 3319,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-resourcetype/",
+      "title": "pg_resourcetype",
+      "anchor": "sys-catalogs-sys-tables-pg-resourcetype",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-resourcetype/index.md",
+      "profile": "docusaurus",
+      "score": 3419,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-resqueue/",
+      "title": "pg_resqueue",
+      "anchor": "sys-catalogs-sys-tables-pg-resqueue",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-resqueue/index.md",
+      "profile": "docusaurus",
+      "score": 3205,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-resqueuecapability/",
+      "title": "pg_resqueuecapability",
+      "anchor": "sys-catalogs-sys-tables-pg-resqueuecapability",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-resqueuecapability/index.md",
+      "profile": "docusaurus",
+      "score": 3452,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-rewrite/",
+      "title": "pg_rewrite",
+      "anchor": "sys-catalogs-sys-tables-pg-rewrite",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-rewrite/index.md",
+      "profile": "docusaurus",
+      "score": 2988,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-sequence/",
+      "title": "pg_sequence",
+      "anchor": "sys-catalogs-sys-tables-pg-sequence",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-sequence/index.md",
+      "profile": "docusaurus",
+      "score": 2806,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-shdepend/",
+      "title": "pg_shdepend",
+      "anchor": "sys-catalogs-sys-tables-pg-shdepend",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-shdepend/index.md",
+      "profile": "docusaurus",
+      "score": 4278,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-shdescription/",
+      "title": "pg_shdescription",
+      "anchor": "sys-catalogs-sys-tables-pg-shdescription",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-shdescription/index.md",
+      "profile": "docusaurus",
+      "score": 2984,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-stat-last-operation/",
+      "title": "pg_stat_last_operation",
+      "anchor": "sys-catalogs-sys-tables-pg-stat-last-operation",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-stat-last-operation/index.md",
+      "profile": "docusaurus",
+      "score": 5124,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-stat-last-shoperation/",
+      "title": "pg_stat_last_shoperation",
+      "anchor": "sys-catalogs-sys-tables-pg-stat-last-shoperation",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-stat-last-shoperation/index.md",
+      "profile": "docusaurus",
+      "score": 3075,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-statistic-ext-data/",
+      "title": "pg_statistic_ext_data",
+      "anchor": "sys-catalogs-sys-tables-pg-statistic-ext-data",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-statistic-ext-data/index.md",
+      "profile": "docusaurus",
+      "score": 3675,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-statistic-ext/",
+      "title": "pg_statistic_ext",
+      "anchor": "sys-catalogs-sys-tables-pg-statistic-ext",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-statistic-ext/index.md",
+      "profile": "docusaurus",
+      "score": 3956,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-statistic/",
+      "title": "pg_statistic",
+      "anchor": "sys-catalogs-sys-tables-pg-statistic",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-statistic/index.md",
+      "profile": "docusaurus",
+      "score": 6750,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-tablespace/",
+      "title": "pg_tablespace",
+      "anchor": "sys-catalogs-sys-tables-pg-tablespace",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-tablespace/index.md",
+      "profile": "docusaurus",
+      "score": 2822,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-trigger/",
+      "title": "pg_trigger",
+      "anchor": "sys-catalogs-sys-tables-pg-trigger",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-trigger/index.md",
+      "profile": "docusaurus",
+      "score": 4036,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-type-encoding/",
+      "title": "pg_type_encoding",
+      "anchor": "sys-catalogs-sys-tables-pg-type-encoding",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-type-encoding/index.md",
+      "profile": "docusaurus",
+      "score": 2398,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-type/",
+      "title": "pg_type",
+      "anchor": "sys-catalogs-sys-tables-pg-type",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-type/index.md",
+      "profile": "docusaurus",
+      "score": 9351,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-tables/pg-user-mapping/",
+      "title": "pg_user_mapping",
+      "anchor": "sys-catalogs-sys-tables-pg-user-mapping",
+      "virtual_path": "docs/sys-catalogs/sys-tables/pg-user-mapping/index.md",
+      "profile": "docusaurus",
+      "score": 2776,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-distributed-log/",
+      "title": "gp_distributed_log",
+      "anchor": "sys-catalogs-sys-views-gp-distributed-log",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-distributed-log/index.md",
+      "profile": "docusaurus",
+      "score": 3027,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-distributed-xacts/",
+      "title": "gp_distributed_xacts",
+      "anchor": "sys-catalogs-sys-views-gp-distributed-xacts",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-distributed-xacts/index.md",
+      "profile": "docusaurus",
+      "score": 3288,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-endpoints/",
+      "title": "gp_endpoints",
+      "anchor": "sys-catalogs-sys-views-gp-endpoints",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-endpoints/index.md",
+      "profile": "docusaurus",
+      "score": 3838,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-pgdatabase/",
+      "title": "gp_pgdatabase",
+      "anchor": "sys-catalogs-sys-views-gp-pgdatabase",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-pgdatabase/index.md",
+      "profile": "docusaurus",
+      "score": 3424,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-resgroup-iostats-per-host/",
+      "title": "gp_resgroup_iostats_per_host",
+      "anchor": "sys-catalogs-sys-views-gp-resgroup-iostats-per-host",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-resgroup-iostats-per-host/index.md",
+      "profile": "docusaurus",
+      "score": 4149,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-segment-endpoints/",
+      "title": "gp_segment_endpoints",
+      "anchor": "sys-catalogs-sys-views-gp-segment-endpoints",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-segment-endpoints/index.md",
+      "profile": "docusaurus",
+      "score": 3943,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-session-endpoints/",
+      "title": "gp_session_endpoints",
+      "anchor": "sys-catalogs-sys-views-gp-session-endpoints",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-session-endpoints/index.md",
+      "profile": "docusaurus",
+      "score": 3681,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-settings/",
+      "title": "gp_settings",
+      "anchor": "sys-catalogs-sys-views-gp-settings",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-settings/index.md",
+      "profile": "docusaurus",
+      "score": 4015,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-stat-activity/",
+      "title": "gp_stat_activity",
+      "anchor": "sys-catalogs-sys-views-gp-stat-activity",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-stat-activity/index.md",
+      "profile": "docusaurus",
+      "score": 5003,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-stat-all-indexes/",
+      "title": "pg_stat_all_indexes",
+      "anchor": "sys-catalogs-sys-views-gp-stat-all-indexes",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-stat-all-indexes/index.md",
+      "profile": "docusaurus",
+      "score": 3088,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-stat-archiver/",
+      "title": "gp_stat_archiver",
+      "anchor": "sys-catalogs-sys-views-gp-stat-archiver",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-stat-archiver/index.md",
+      "profile": "docusaurus",
+      "score": 3491,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-stat-progress-dtx-recovery/",
+      "title": "gp_stat_progress_dtx_recovery",
+      "anchor": "sys-catalogs-sys-views-gp-stat-progress-dtx-recovery",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-stat-progress-dtx-recovery/index.md",
+      "profile": "docusaurus",
+      "score": 3898,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/gp-suboverflowed-backend/",
+      "title": "gp_suboverflowed_backend",
+      "anchor": "sys-catalogs-sys-views-gp-suboverflowed-backend",
+      "virtual_path": "docs/sys-catalogs/sys-views/gp-suboverflowed-backend/index.md",
+      "profile": "docusaurus",
+      "score": 2618,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-backend-memory-contexts/",
+      "title": "pg_backend_memory_contexts",
+      "anchor": "sys-catalogs-sys-views-pg-backend-memory-contexts",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-backend-memory-contexts/index.md",
+      "profile": "docusaurus",
+      "score": 3147,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-config/",
+      "title": "pg_config",
+      "anchor": "sys-catalogs-sys-views-pg-config",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-config/index.md",
+      "profile": "docusaurus",
+      "score": 2545,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-cursors/",
+      "title": "pg_cursors",
+      "anchor": "sys-catalogs-sys-views-pg-cursors",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-cursors/index.md",
+      "profile": "docusaurus",
+      "score": 4185,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-file-settings/",
+      "title": "pg_file_settings",
+      "anchor": "sys-catalogs-sys-views-pg-file-settings",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-file-settings/index.md",
+      "profile": "docusaurus",
+      "score": 3027,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-replication-origin-status/",
+      "title": "pg_replication_origin_status",
+      "anchor": "sys-catalogs-sys-views-pg-replication-origin-status",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-replication-origin-status/index.md",
+      "profile": "docusaurus",
+      "score": 2909,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-replication-slots/",
+      "title": "pg_replication_slots",
+      "anchor": "sys-catalogs-sys-views-pg-replication-slots",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-replication-slots/index.md",
+      "profile": "docusaurus",
+      "score": 4940,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-stat-all-tables/",
+      "title": "pg_stat_all_tables",
+      "anchor": "sys-catalogs-sys-views-pg-stat-all-tables",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-stat-all-tables/index.md",
+      "profile": "docusaurus",
+      "score": 4269,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-stat-bgwriter/",
+      "title": "pg_stat_bgwriter",
+      "anchor": "sys-catalogs-sys-views-pg-stat-bgwriter",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-stat-bgwriter/index.md",
+      "profile": "docusaurus",
+      "score": 3916,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-stat-database-conflicts/",
+      "title": "pg_stat_database_conflicts",
+      "anchor": "sys-catalogs-sys-views-pg-stat-database-conflicts",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-stat-database-conflicts/index.md",
+      "profile": "docusaurus",
+      "score": 3306,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-stat-database/",
+      "title": "pg_stat_database",
+      "anchor": "sys-catalogs-sys-views-pg-stat-database",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-stat-database/index.md",
+      "profile": "docusaurus",
+      "score": 6263,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-stat-gssapi/",
+      "title": "pg_stat_gssapi",
+      "anchor": "sys-catalogs-sys-views-pg-stat-gssapi",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-stat-gssapi/index.md",
+      "profile": "docusaurus",
+      "score": 3195,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-stat-operations/",
+      "title": "pg_stat_operations",
+      "anchor": "sys-catalogs-sys-views-pg-stat-operations",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-stat-operations/index.md",
+      "profile": "docusaurus",
+      "score": 3514,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-stat-progress-analyze/",
+      "title": "pg_stat_progress_analyze",
+      "anchor": "sys-catalogs-sys-views-pg-stat-progress-analyze",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-stat-progress-analyze/index.md",
+      "profile": "docusaurus",
+      "score": 3890,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-stat-progress-basebackup/",
+      "title": "pg_stat_progress_basebackup",
+      "anchor": "sys-catalogs-sys-views-pg-stat-progress-basebackup",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-stat-progress-basebackup/index.md",
+      "profile": "docusaurus",
+      "score": 3830,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-stat-progress-cluster/",
+      "title": "pg_stat_progress_cluster",
+      "anchor": "sys-catalogs-sys-views-pg-stat-progress-cluster",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-stat-progress-cluster/index.md",
+      "profile": "docusaurus",
+      "score": 4708,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-stat-progress-copy/",
+      "title": "pg_stat_progress_copy",
+      "anchor": "sys-catalogs-sys-views-pg-stat-progress-copy",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-stat-progress-copy/index.md",
+      "profile": "docusaurus",
+      "score": 3961,
+      "depth": 4
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-catalogs/sys-views/pg-stat-progress-create-index/",
+      "title": "pg_stat_progress_create_index",
+      "anchor": "sys-catalogs-sys-views-pg-stat-progress-create-index",
+      "virtual_path": "docs/sys-catalogs/sys-views/pg-stat-progress-create-index/index.md",
+      "profile": "docusaurus",
+      "score": 7104,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/analyzedb/",
+      "title": "analyzedb",
+      "anchor": "sys-utilities-analyzedb",
+      "virtual_path": "docs/sys-utilities/analyzedb/index.md",
+      "profile": "docusaurus",
+      "score": 20977,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/clusterdb/",
+      "title": "clusterdb",
+      "anchor": "sys-utilities-clusterdb",
+      "virtual_path": "docs/sys-utilities/clusterdb/index.md",
+      "profile": "docusaurus",
+      "score": 12697,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/createdb/",
+      "title": "createdb",
+      "anchor": "sys-utilities-createdb",
+      "virtual_path": "docs/sys-utilities/createdb/index.md",
+      "profile": "docusaurus",
+      "score": 11201,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/createuser/",
+      "title": "createuser",
+      "anchor": "sys-utilities-createuser",
+      "virtual_path": "docs/sys-utilities/createuser/index.md",
+      "profile": "docusaurus",
+      "score": 14012,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/dropdb/",
+      "title": "dropdb",
+      "anchor": "sys-utilities-dropdb",
+      "virtual_path": "docs/sys-utilities/dropdb/index.md",
+      "profile": "docusaurus",
+      "score": 8837,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/dropuser/",
+      "title": "dropuser",
+      "anchor": "sys-utilities-dropuser",
+      "virtual_path": "docs/sys-utilities/dropuser/index.md",
+      "profile": "docusaurus",
+      "score": 8656,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpactivatestandby/",
+      "title": "gpactivatestandby",
+      "anchor": "sys-utilities-gpactivatestandby",
+      "virtual_path": "docs/sys-utilities/gpactivatestandby/index.md",
+      "profile": "docusaurus",
+      "score": 10918,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpaddmirrors/",
+      "title": "gpaddmirrors",
+      "anchor": "sys-utilities-gpaddmirrors",
+      "virtual_path": "docs/sys-utilities/gpaddmirrors/index.md",
+      "profile": "docusaurus",
+      "score": 21566,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpbackup/",
+      "title": "gpbackup",
+      "anchor": "sys-utilities-gpbackup",
+      "virtual_path": "docs/sys-utilities/gpbackup/index.md",
+      "profile": "docusaurus",
+      "score": 29500,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpcheckcat/",
+      "title": "gpcheckcat",
+      "anchor": "sys-utilities-gpcheckcat",
+      "virtual_path": "docs/sys-utilities/gpcheckcat/index.md",
+      "profile": "docusaurus",
+      "score": 15990,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpcheckperf/",
+      "title": "gpcheckperf",
+      "anchor": "sys-utilities-gpcheckperf",
+      "virtual_path": "docs/sys-utilities/gpcheckperf/index.md",
+      "profile": "docusaurus",
+      "score": 16187,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpconfig/",
+      "title": "gpconfig",
+      "anchor": "sys-utilities-gpconfig",
+      "virtual_path": "docs/sys-utilities/gpconfig/index.md",
+      "profile": "docusaurus",
+      "score": 14774,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpdeletesystem/",
+      "title": "gpdeletesystem",
+      "anchor": "sys-utilities-gpdeletesystem",
+      "virtual_path": "docs/sys-utilities/gpdeletesystem/index.md",
+      "profile": "docusaurus",
+      "score": 7607,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpdemo/",
+      "title": "gpdemo",
+      "anchor": "sys-utilities-gpdemo",
+      "virtual_path": "docs/sys-utilities/gpdemo/index.md",
+      "profile": "docusaurus",
+      "score": 12290,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpexpand/",
+      "title": "gpexpand",
+      "anchor": "sys-utilities-gpexpand",
+      "virtual_path": "docs/sys-utilities/gpexpand/index.md",
+      "profile": "docusaurus",
+      "score": 19332,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpfdist/",
+      "title": "gpfdist",
+      "anchor": "sys-utilities-gpfdist",
+      "virtual_path": "docs/sys-utilities/gpfdist/index.md",
+      "profile": "docusaurus",
+      "score": 20440,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpinitstandby/",
+      "title": "gpinitstandby",
+      "anchor": "sys-utilities-gpinitstandby",
+      "virtual_path": "docs/sys-utilities/gpinitstandby/index.md",
+      "profile": "docusaurus",
+      "score": 13263,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpinitsystem/",
+      "title": "gpinitsystem",
+      "anchor": "sys-utilities-gpinitsystem",
+      "virtual_path": "docs/sys-utilities/gpinitsystem/index.md",
+      "profile": "docusaurus",
+      "score": 37454,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpload/",
+      "title": "gpload",
+      "anchor": "sys-utilities-gpload",
+      "virtual_path": "docs/sys-utilities/gpload/index.md",
+      "profile": "docusaurus",
+      "score": 46604,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gplogfilter/",
+      "title": "gplogfilter",
+      "anchor": "sys-utilities-gplogfilter",
+      "virtual_path": "docs/sys-utilities/gplogfilter/index.md",
+      "profile": "docusaurus",
+      "score": 14612,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpmemreport/",
+      "title": "gpmemreport",
+      "anchor": "sys-utilities-gpmemreport",
+      "virtual_path": "docs/sys-utilities/gpmemreport/index.md",
+      "profile": "docusaurus",
+      "score": 7781,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpmemwatcher/",
+      "title": "gpmemwatcher",
+      "anchor": "sys-utilities-gpmemwatcher",
+      "virtual_path": "docs/sys-utilities/gpmemwatcher/index.md",
+      "profile": "docusaurus",
+      "score": 8707,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpmovemirrors/",
+      "title": "gpmovemirrors",
+      "anchor": "sys-utilities-gpmovemirrors",
+      "virtual_path": "docs/sys-utilities/gpmovemirrors/index.md",
+      "profile": "docusaurus",
+      "score": 8859,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gppkg/",
+      "title": "gppkg",
+      "anchor": "sys-utilities-gppkg",
+      "virtual_path": "docs/sys-utilities/gppkg/index.md",
+      "profile": "docusaurus",
+      "score": 10363,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gprecoverseg/",
+      "title": "gprecoverseg",
+      "anchor": "sys-utilities-gprecoverseg",
+      "virtual_path": "docs/sys-utilities/gprecoverseg/index.md",
+      "profile": "docusaurus",
+      "score": 24659,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpreload/",
+      "title": "gpreload",
+      "anchor": "sys-utilities-gpreload",
+      "virtual_path": "docs/sys-utilities/gpreload/index.md",
+      "profile": "docusaurus",
+      "score": 10541,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gprestore/",
+      "title": "gprestore",
+      "anchor": "sys-utilities-gprestore",
+      "virtual_path": "docs/sys-utilities/gprestore/index.md",
+      "profile": "docusaurus",
+      "score": 34237,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpshrink/",
+      "title": "gpshrink",
+      "anchor": "sys-utilities-gpshrink",
+      "virtual_path": "docs/sys-utilities/gpshrink/index.md",
+      "profile": "docusaurus",
+      "score": 7976,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpssh-exkeys/",
+      "title": "gpssh-exkeys",
+      "anchor": "sys-utilities-gpssh-exkeys",
+      "virtual_path": "docs/sys-utilities/gpssh-exkeys/index.md",
+      "profile": "docusaurus",
+      "score": 11203,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpssh/",
+      "title": "gpssh",
+      "anchor": "sys-utilities-gpssh",
+      "virtual_path": "docs/sys-utilities/gpssh/index.md",
+      "profile": "docusaurus",
+      "score": 15087,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpstart/",
+      "title": "gpstart",
+      "anchor": "sys-utilities-gpstart",
+      "virtual_path": "docs/sys-utilities/gpstart/index.md",
+      "profile": "docusaurus",
+      "score": 12621,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpstate/",
+      "title": "gpstate",
+      "anchor": "sys-utilities-gpstate",
+      "virtual_path": "docs/sys-utilities/gpstate/index.md",
+      "profile": "docusaurus",
+      "score": 16697,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpstop/",
+      "title": "gpstop",
+      "anchor": "sys-utilities-gpstop",
+      "virtual_path": "docs/sys-utilities/gpstop/index.md",
+      "profile": "docusaurus",
+      "score": 13937,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/gpsync/",
+      "title": "gpsync",
+      "anchor": "sys-utilities-gpsync",
+      "virtual_path": "docs/sys-utilities/gpsync/index.md",
+      "profile": "docusaurus",
+      "score": 9897,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/",
+      "title": "Utility Overview",
+      "anchor": "sys-utilities",
+      "virtual_path": "docs/sys-utilities/index.md",
+      "profile": "docusaurus",
+      "score": 7117,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/pg-checksums/",
+      "title": "pg_checksums",
+      "anchor": "sys-utilities-pg-checksums",
+      "virtual_path": "docs/sys-utilities/pg-checksums/index.md",
+      "profile": "docusaurus",
+      "score": 8623,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/pg-config/",
+      "title": "pg_config",
+      "anchor": "sys-utilities-pg-config",
+      "virtual_path": "docs/sys-utilities/pg-config/index.md",
+      "profile": "docusaurus",
+      "score": 10462,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/pg-dump/",
+      "title": "pg_dump",
+      "anchor": "sys-utilities-pg-dump",
+      "virtual_path": "docs/sys-utilities/pg-dump/index.md",
+      "profile": "docusaurus",
+      "score": 43930,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/pg-dumpall/",
+      "title": "pg_dumpall",
+      "anchor": "sys-utilities-pg-dumpall",
+      "virtual_path": "docs/sys-utilities/pg-dumpall/index.md",
+      "profile": "docusaurus",
+      "score": 22252,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/pg-filedump/",
+      "title": "pg_filedump",
+      "anchor": "sys-utilities-pg-filedump",
+      "virtual_path": "docs/sys-utilities/pg-filedump/index.md",
+      "profile": "docusaurus",
+      "score": 21378,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/psql/",
+      "title": "psql",
+      "anchor": "sys-utilities-psql",
+      "virtual_path": "docs/sys-utilities/psql/index.md",
+      "profile": "docusaurus",
+      "score": 119730,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/reindexdb/",
+      "title": "reindexdb",
+      "anchor": "sys-utilities-reindexdb",
+      "virtual_path": "docs/sys-utilities/reindexdb/index.md",
+      "profile": "docusaurus",
+      "score": 13974,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/sys-utilities/vacuumdb/",
+      "title": "vacuumdb",
+      "anchor": "sys-utilities-vacuumdb",
+      "virtual_path": "docs/sys-utilities/vacuumdb/index.md",
+      "profile": "docusaurus",
+      "score": 12330,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/best-practices/db-encryption-best-practices/",
+      "title": "Encrypt Data and Database Connections",
+      "anchor": "tutorials-best-practices-db-encryption-best-practices",
+      "virtual_path": "docs/tutorials/best-practices/db-encryption-best-practices/index.md",
+      "profile": "docusaurus",
+      "score": 30641,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/best-practices/high-availability-best-practices/",
+      "title": "High Availability",
+      "anchor": "tutorials-best-practices-high-availability-best-practices",
+      "virtual_path": "docs/tutorials/best-practices/high-availability-best-practices/index.md",
+      "profile": "docusaurus",
+      "score": 36551,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/best-practices/identify-and-mitigate-heap-table-performance-issues/",
+      "title": "Identify and Mitigate Heap Table Performance Issues",
+      "anchor": "tutorials-best-practices-identify-and-mitigate-heap-table-performance-issues",
+      "virtual_path": "docs/tutorials/best-practices/identify-and-mitigate-heap-table-performance-issues/index.md",
+      "profile": "docusaurus",
+      "score": 5086,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/best-practices/",
+      "title": "Best Practices Summary",
+      "anchor": "tutorials-best-practices",
+      "virtual_path": "docs/tutorials/best-practices/index.md",
+      "profile": "docusaurus",
+      "score": 24852,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/best-practices/load-data-best-practices/",
+      "title": "Load Data",
+      "anchor": "tutorials-best-practices-load-data-best-practices",
+      "virtual_path": "docs/tutorials/best-practices/load-data-best-practices/index.md",
+      "profile": "docusaurus",
+      "score": 16047,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/best-practices/manage-bloat/",
+      "title": "Manage Bloat in a Database",
+      "anchor": "tutorials-best-practices-manage-bloat",
+      "virtual_path": "docs/tutorials/best-practices/manage-bloat/index.md",
+      "profile": "docusaurus",
+      "score": 17639,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/best-practices/resource-group-best-practices/",
+      "title": "Memory and Resource Management with Resource Groups",
+      "anchor": "tutorials-best-practices-resource-group-best-practices",
+      "virtual_path": "docs/tutorials/best-practices/resource-group-best-practices/index.md",
+      "profile": "docusaurus",
+      "score": 11015,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/best-practices/schema-design-best-practices/",
+      "title": "Schema Design Best Practices",
+      "anchor": "tutorials-best-practices-schema-design-best-practices",
+      "virtual_path": "docs/tutorials/best-practices/schema-design-best-practices/index.md",
+      "profile": "docusaurus",
+      "score": 33735,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/best-practices/security-best-practices/",
+      "title": "Security Best Practices",
+      "anchor": "tutorials-best-practices-security-best-practices",
+      "virtual_path": "docs/tutorials/best-practices/security-best-practices/index.md",
+      "profile": "docusaurus",
+      "score": 14716,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/best-practices/system-configuration-best-practices/",
+      "title": "System Configuration Best Practices",
+      "anchor": "tutorials-best-practices-system-configuration-best-practices",
+      "virtual_path": "docs/tutorials/best-practices/system-configuration-best-practices/index.md",
+      "profile": "docusaurus",
+      "score": 21683,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/best-practices/system-monitor-and-maintain-best-practices/",
+      "title": "System Monitoring and Maintenance",
+      "anchor": "tutorials-best-practices-system-monitor-and-maintain-best-practices",
+      "virtual_path": "docs/tutorials/best-practices/system-monitor-and-maintain-best-practices/index.md",
+      "profile": "docusaurus",
+      "score": 8964,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/crash-course/",
+      "title": "Apache Cloudberry Crash Course",
+      "anchor": "tutorials-crash-course",
+      "virtual_path": "docs/tutorials/crash-course/index.md",
+      "profile": "docusaurus",
+      "score": 75488,
+      "depth": 1
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/product-principles/about-data-loading/",
+      "title": "About Parallel Data Loading",
+      "anchor": "tutorials-product-principles-about-data-loading",
+      "virtual_path": "docs/tutorials/product-principles/about-data-loading/index.md",
+      "profile": "docusaurus",
+      "score": 3641,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/product-principles/about-ha/",
+      "title": "About Redundancy and Failover",
+      "anchor": "tutorials-product-principles-about-ha",
+      "virtual_path": "docs/tutorials/product-principles/about-ha/index.md",
+      "profile": "docusaurus",
+      "score": 9525,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/product-principles/about-mvcc/",
+      "title": "About Concurrency Control",
+      "anchor": "tutorials-product-principles-about-mvcc",
+      "virtual_path": "docs/tutorials/product-principles/about-mvcc/index.md",
+      "profile": "docusaurus",
+      "score": 32846,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/product-principles/about-statistics/",
+      "title": "About Database Statistics",
+      "anchor": "tutorials-product-principles-about-statistics",
+      "virtual_path": "docs/tutorials/product-principles/about-statistics/index.md",
+      "profile": "docusaurus",
+      "score": 32467,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/product-principles/about-utilities/",
+      "title": "About Management and Monitoring Utilities",
+      "anchor": "tutorials-product-principles-about-utilities",
+      "virtual_path": "docs/tutorials/product-principles/about-utilities/index.md",
+      "profile": "docusaurus",
+      "score": 2990,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/quick-trial-lessons/backup-and-recovery-operations/",
+      "title": "Lesson 6: Backup and Restore Operations",
+      "anchor": "tutorials-quick-trial-lessons-backup-and-recovery-operations",
+      "virtual_path": "docs/tutorials/quick-trial-lessons/backup-and-recovery-operations/index.md",
+      "profile": "docusaurus",
+      "score": 12399,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/quick-trial-lessons/create-and-prepare-database/",
+      "title": "Lesson 2: Create and Prepare Database",
+      "anchor": "tutorials-quick-trial-lessons-create-and-prepare-database",
+      "virtual_path": "docs/tutorials/quick-trial-lessons/create-and-prepare-database/index.md",
+      "profile": "docusaurus",
+      "score": 15961,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/quick-trial-lessons/create-tables/",
+      "title": "Lesson 3: Create Tables",
+      "anchor": "tutorials-quick-trial-lessons-create-tables",
+      "virtual_path": "docs/tutorials/quick-trial-lessons/create-tables/index.md",
+      "profile": "docusaurus",
+      "score": 11425,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/quick-trial-lessons/create-users-and-roles/",
+      "title": "Lesson 1: Create Users and Roles",
+      "anchor": "tutorials-quick-trial-lessons-create-users-and-roles",
+      "virtual_path": "docs/tutorials/quick-trial-lessons/create-users-and-roles/index.md",
+      "profile": "docusaurus",
+      "score": 15824,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/quick-trial-lessons/data-loading/",
+      "title": "Lesson 4: Data Loading",
+      "anchor": "tutorials-quick-trial-lessons-data-loading",
+      "virtual_path": "docs/tutorials/quick-trial-lessons/data-loading/index.md",
+      "profile": "docusaurus",
+      "score": 28280,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/quick-trial-lessons/",
+      "title": "Cloudberry Tutorials",
+      "anchor": "tutorials-quick-trial-lessons",
+      "virtual_path": "docs/tutorials/quick-trial-lessons/index.md",
+      "profile": "docusaurus",
+      "score": 5595,
+      "depth": 2
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/quick-trial-lessons/introduction-to-cloudberry-in-database-analytics/",
+      "title": "[104-1] Introduction to Apache Cloudberry In-Database Analytics",
+      "anchor": "tutorials-quick-trial-lessons-introduction-to-cloudberry-in-database-analytics",
+      "virtual_path": "docs/tutorials/quick-trial-lessons/introduction-to-cloudberry-in-database-analytics/index.md",
+      "profile": "docusaurus",
+      "score": 19808,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/quick-trial-lessons/introduction-to-database-and-cloudberry-architecture/",
+      "title": "Lesson 0: Introduction to Database and Apache Cloudberry Architecture",
+      "anchor": "tutorials-quick-trial-lessons-introduction-to-database-and-cloudberry-architecture",
+      "virtual_path": "docs/tutorials/quick-trial-lessons/introduction-to-database-and-cloudberry-architecture/index.md",
+      "profile": "docusaurus",
+      "score": 11540,
+      "depth": 3
+    },
+    {
+      "source_url": "https://cloudberry.incubator.apache.org/docs/tutorials/quick-trial-lessons/queries-and-performance-tuning/",
+      "title": "Lesson 5: Queries and Performance Tuning",
+      "anchor": "tutorials-quick-trial-lessons-queries-and-performance-tuning",
+      "virtual_path": "docs/tutorials/quick-trial-lessons/queries-and-performance-tuning/index.md",
+      "profile": "docusaurus",
+      "score": 48283,
+      "depth": 3
+    }
+  ]
+}

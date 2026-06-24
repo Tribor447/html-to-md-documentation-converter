@@ -1,0 +1,376 @@
+- title: Math
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Issue Tracking
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/issue-tracking.html
+    anchor: issue-tracking
+    virtual_path: docs/issue-tracking.md
+  - title: Developers Guide
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/developers.html
+    anchor: developers
+    virtual_path: docs/developers.md
+  - title: Proposal
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/proposal.html
+    anchor: proposal
+    virtual_path: docs/proposal.md
+- title: User Guide
+  kind: category
+  children:
+  - title: Contents
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/index.html
+    anchor: userguide
+    virtual_path: docs/userguide/index.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/overview.html
+    anchor: userguide-overview
+    virtual_path: docs/userguide/overview.md
+  - title: Statistics
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/stat.html
+    anchor: userguide-stat
+    virtual_path: docs/userguide/stat.md
+  - title: Data Generation
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/random.html
+    anchor: userguide-random
+    virtual_path: docs/userguide/random.md
+  - title: Linear Algebra
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/linear.html
+    anchor: userguide-linear
+    virtual_path: docs/userguide/linear.md
+  - title: Numerical Analysis
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/analysis.html
+    anchor: userguide-analysis
+    virtual_path: docs/userguide/analysis.md
+  - title: Special Functions
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/special.html
+    anchor: userguide-special
+    virtual_path: docs/userguide/special.md
+  - title: Utilities
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/utilities.html
+    anchor: userguide-utilities
+    virtual_path: docs/userguide/utilities.md
+  - title: Complex Numbers
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/complex.html
+    anchor: userguide-complex
+    virtual_path: docs/userguide/complex.md
+  - title: Distributions
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/distribution.html
+    anchor: userguide-distribution
+    virtual_path: docs/userguide/distribution.md
+  - title: Fractions
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/fraction.html
+    anchor: userguide-fraction
+    virtual_path: docs/userguide/fraction.md
+  - title: Transform Methods
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/transform.html
+    anchor: userguide-transform
+    virtual_path: docs/userguide/transform.md
+  - title: Geometry
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/geometry.html
+    anchor: userguide-geometry
+    virtual_path: docs/userguide/geometry.md
+  - title: Optimization
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/optimization.html
+    anchor: userguide-optimization
+    virtual_path: docs/userguide/optimization.md
+  - title: Curve Fitting
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/fitting.html
+    anchor: userguide-fitting
+    virtual_path: docs/userguide/fitting.md
+  - title: Least Squares
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/leastsquares.html
+    anchor: userguide-leastsquares
+    virtual_path: docs/userguide/leastsquares.md
+  - title: Ordinary Differential Equations
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/ode.html
+    anchor: userguide-ode
+    virtual_path: docs/userguide/ode.md
+  - title: Genetic Algorithms
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/genetics.html
+    anchor: userguide-genetics
+    virtual_path: docs/userguide/genetics.md
+  - title: Filters
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/filter.html
+    anchor: userguide-filter
+    virtual_path: docs/userguide/filter.md
+  - title: Exceptions
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/userguide/exceptions.html
+    anchor: userguide-exceptions
+    virtual_path: docs/userguide/exceptions.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-math/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-math/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-math/summary.html
+      anchor: summary
+      virtual_path: docs/summary.md
+    - title: Project Modules
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-math/modules.html
+      anchor: modules
+      virtual_path: docs/modules.md
+    - title: Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-math/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-math/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: CI Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-math/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+- title: Math Documentation
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math-docs/index.html
+    anchor: commons-math-docs
+    virtual_path: docs/commons-math-docs/index.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Math – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math-docs/ci-management.html
+    anchor: commons-math-docs-ci-management
+    virtual_path: docs/commons-math-docs/ci-management.md
+  - title: Math – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math-docs/scm.html
+    anchor: commons-math-docs-scm
+    virtual_path: docs/commons-math-docs/scm.md
+  - title: Math – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math-docs/summary.html
+    anchor: commons-math-docs-summary
+    virtual_path: docs/commons-math-docs/summary.md
+  - title: Math – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math-docs/team.html
+    anchor: commons-math-docs-team
+    virtual_path: docs/commons-math-docs/team.md
+  - title: Example applications – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math-examples/ci-management.html
+    anchor: commons-math-examples-ci-management
+    virtual_path: docs/commons-math-examples/ci-management.md
+  - title: Example applications – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math-examples/index.html
+    anchor: commons-math-examples
+    virtual_path: docs/commons-math-examples/index.md
+  - title: Example applications – Project Modules
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math-examples/modules.html
+    anchor: commons-math-examples-modules
+    virtual_path: docs/commons-math-examples/modules.md
+  - title: Example applications – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math-examples/scm.html
+    anchor: commons-math-examples-scm
+    virtual_path: docs/commons-math-examples/scm.md
+  - title: Example applications – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math-examples/summary.html
+    anchor: commons-math-examples-summary
+    virtual_path: docs/commons-math-examples/summary.md
+  - title: Example applications – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math-examples/team.html
+    anchor: commons-math-examples-team
+    virtual_path: docs/commons-math-examples/team.md
+  - title: Miscellaneous core classes – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-core/ci-management.html
+    anchor: commons-math4-core-ci-management
+    virtual_path: docs/commons-math4-core/ci-management.md
+  - title: Miscellaneous core classes – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-core/index.html
+    anchor: commons-math4-core
+    virtual_path: docs/commons-math4-core/index.md
+  - title: Miscellaneous core classes – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-core/scm.html
+    anchor: commons-math4-core-scm
+    virtual_path: docs/commons-math4-core/scm.md
+  - title: Miscellaneous core classes – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-core/summary.html
+    anchor: commons-math4-core-summary
+    virtual_path: docs/commons-math4-core/summary.md
+  - title: Miscellaneous core classes – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-core/team.html
+    anchor: commons-math4-core-team
+    virtual_path: docs/commons-math4-core/team.md
+  - title: Miscellaneous core classes (Legacy) – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy-core/ci-management.html
+    anchor: commons-math4-legacy-core-ci-management
+    virtual_path: docs/commons-math4-legacy-core/ci-management.md
+  - title: Miscellaneous core classes (Legacy) – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy-core/index.html
+    anchor: commons-math4-legacy-core
+    virtual_path: docs/commons-math4-legacy-core/index.md
+  - title: Miscellaneous core classes (Legacy) – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy-core/scm.html
+    anchor: commons-math4-legacy-core-scm
+    virtual_path: docs/commons-math4-legacy-core/scm.md
+  - title: Miscellaneous core classes (Legacy) – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy-core/summary.html
+    anchor: commons-math4-legacy-core-summary
+    virtual_path: docs/commons-math4-legacy-core/summary.md
+  - title: Miscellaneous core classes (Legacy) – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy-core/team.html
+    anchor: commons-math4-legacy-core-team
+    virtual_path: docs/commons-math4-legacy-core/team.md
+  - title: Exception classes (Legacy) – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy-exception/ci-management.html
+    anchor: commons-math4-legacy-exception-ci-management
+    virtual_path: docs/commons-math4-legacy-exception/ci-management.md
+  - title: Exception classes (Legacy) – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy-exception/index.html
+    anchor: commons-math4-legacy-exception
+    virtual_path: docs/commons-math4-legacy-exception/index.md
+  - title: Exception classes (Legacy) – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy-exception/scm.html
+    anchor: commons-math4-legacy-exception-scm
+    virtual_path: docs/commons-math4-legacy-exception/scm.md
+  - title: Exception classes (Legacy) – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy-exception/summary.html
+    anchor: commons-math4-legacy-exception-summary
+    virtual_path: docs/commons-math4-legacy-exception/summary.md
+  - title: Exception classes (Legacy) – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy-exception/team.html
+    anchor: commons-math4-legacy-exception-team
+    virtual_path: docs/commons-math4-legacy-exception/team.md
+  - title: Apache Commons Math (Legacy) – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy/ci-management.html
+    anchor: commons-math4-legacy-ci-management
+    virtual_path: docs/commons-math4-legacy/ci-management.md
+  - title: Apache Commons Math (Legacy) – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy/index.html
+    anchor: commons-math4-legacy
+    virtual_path: docs/commons-math4-legacy/index.md
+  - title: Apache Commons Math (Legacy) – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy/scm.html
+    anchor: commons-math4-legacy-scm
+    virtual_path: docs/commons-math4-legacy/scm.md
+  - title: Apache Commons Math (Legacy) – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy/summary.html
+    anchor: commons-math4-legacy-summary
+    virtual_path: docs/commons-math4-legacy/summary.md
+  - title: Apache Commons Math (Legacy) – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-legacy/team.html
+    anchor: commons-math4-legacy-team
+    virtual_path: docs/commons-math4-legacy/team.md
+  - title: Artificial neural networks – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-neuralnet/ci-management.html
+    anchor: commons-math4-neuralnet-ci-management
+    virtual_path: docs/commons-math4-neuralnet/ci-management.md
+  - title: Artificial neural networks – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-neuralnet/index.html
+    anchor: commons-math4-neuralnet
+    virtual_path: docs/commons-math4-neuralnet/index.md
+  - title: Artificial neural networks – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-neuralnet/scm.html
+    anchor: commons-math4-neuralnet-scm
+    virtual_path: docs/commons-math4-neuralnet/scm.md
+  - title: Artificial neural networks – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-neuralnet/summary.html
+    anchor: commons-math4-neuralnet-summary
+    virtual_path: docs/commons-math4-neuralnet/summary.md
+  - title: Artificial neural networks – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-neuralnet/team.html
+    anchor: commons-math4-neuralnet-team
+    virtual_path: docs/commons-math4-neuralnet/team.md
+  - title: Transforms – CI Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-transform/ci-management.html
+    anchor: commons-math4-transform-ci-management
+    virtual_path: docs/commons-math4-transform/ci-management.md
+  - title: Transforms – About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-transform/index.html
+    anchor: commons-math4-transform
+    virtual_path: docs/commons-math4-transform/index.md
+  - title: Transforms – Source Code Management
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-transform/scm.html
+    anchor: commons-math4-transform-scm
+    virtual_path: docs/commons-math4-transform/scm.md
+  - title: Transforms – Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-transform/summary.html
+    anchor: commons-math4-transform-summary
+    virtual_path: docs/commons-math4-transform/summary.md
+  - title: Transforms – Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-math/commons-math4-transform/team.html
+    anchor: commons-math4-transform-team
+    virtual_path: docs/commons-math4-transform/team.md

@@ -1,0 +1,462 @@
+- title: Numbers
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Issue Tracking
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/issue-tracking.html
+    anchor: issue-tracking
+    virtual_path: docs/issue-tracking.md
+  - title: Developers Guide
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/developers.html
+    anchor: developers
+    virtual_path: docs/developers.md
+- title: User Guide
+  kind: category
+  children:
+  - title: Contents
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/userguide/index.html
+    anchor: userguide
+    virtual_path: docs/userguide/index.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-numbers/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-numbers/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-numbers/summary.html
+      anchor: summary
+      virtual_path: docs/summary.md
+    - title: Project Modules
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-numbers/modules.html
+      anchor: modules
+      virtual_path: docs/modules.md
+    - title: Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-numbers/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-numbers/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: CI Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-numbers/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+- title: Numbers Documentation
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-docs/index.html
+    anchor: commons-numbers-docs
+    virtual_path: docs/commons-numbers-docs/index.md
+- title: Numbers Bill of Materials
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-bom/index.html
+    anchor: commons-numbers-bom
+    virtual_path: docs/commons-numbers-bom/index.md
+- title: Numbers Primes
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-primes/index.html
+    anchor: commons-numbers-primes
+    virtual_path: docs/commons-numbers-primes/index.md
+- title: Numbers Core
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-core/index.html
+    anchor: commons-numbers-core
+    virtual_path: docs/commons-numbers-core/index.md
+- title: Numbers Field
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-field/index.html
+    anchor: commons-numbers-field
+    virtual_path: docs/commons-numbers-field/index.md
+- title: Numbers Gamma
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-gamma/index.html
+    anchor: commons-numbers-gamma
+    virtual_path: docs/commons-numbers-gamma/index.md
+- title: Numbers Combinatorics
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-combinatorics/index.html
+    anchor: commons-numbers-combinatorics
+    virtual_path: docs/commons-numbers-combinatorics/index.md
+- title: Numbers Angle
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-angle/index.html
+    anchor: commons-numbers-angle
+    virtual_path: docs/commons-numbers-angle/index.md
+- title: Numbers Root Finder
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-rootfinder/index.html
+    anchor: commons-numbers-rootfinder
+    virtual_path: docs/commons-numbers-rootfinder/index.md
+- title: Numbers Arrays
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-arrays/index.html
+    anchor: commons-numbers-arrays
+    virtual_path: docs/commons-numbers-arrays/index.md
+- title: Numbers Quaternion
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-quaternion/index.html
+    anchor: commons-numbers-quaternion
+    virtual_path: docs/commons-numbers-quaternion/index.md
+- title: Numbers Complex
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-complex/index.html
+    anchor: commons-numbers-complex
+    virtual_path: docs/commons-numbers-complex/index.md
+- title: Numbers Fraction
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-fraction/index.html
+    anchor: commons-numbers-fraction
+    virtual_path: docs/commons-numbers-fraction/index.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-angle/ci-management.html
+    anchor: commons-numbers-angle-ci-management
+    virtual_path: docs/commons-numbers-angle/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-angle/scm.html
+    anchor: commons-numbers-angle-scm
+    virtual_path: docs/commons-numbers-angle/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-angle/summary.html
+    anchor: commons-numbers-angle-summary
+    virtual_path: docs/commons-numbers-angle/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-angle/team.html
+    anchor: commons-numbers-angle-team
+    virtual_path: docs/commons-numbers-angle/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-arrays/ci-management.html
+    anchor: commons-numbers-arrays-ci-management
+    virtual_path: docs/commons-numbers-arrays/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-arrays/scm.html
+    anchor: commons-numbers-arrays-scm
+    virtual_path: docs/commons-numbers-arrays/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-arrays/summary.html
+    anchor: commons-numbers-arrays-summary
+    virtual_path: docs/commons-numbers-arrays/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-arrays/team.html
+    anchor: commons-numbers-arrays-team
+    virtual_path: docs/commons-numbers-arrays/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-bom/ci-management.html
+    anchor: commons-numbers-bom-ci-management
+    virtual_path: docs/commons-numbers-bom/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-bom/scm.html
+    anchor: commons-numbers-bom-scm
+    virtual_path: docs/commons-numbers-bom/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-bom/summary.html
+    anchor: commons-numbers-bom-summary
+    virtual_path: docs/commons-numbers-bom/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-bom/team.html
+    anchor: commons-numbers-bom-team
+    virtual_path: docs/commons-numbers-bom/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-combinatorics/ci-management.html
+    anchor: commons-numbers-combinatorics-ci-management
+    virtual_path: docs/commons-numbers-combinatorics/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-combinatorics/scm.html
+    anchor: commons-numbers-combinatorics-scm
+    virtual_path: docs/commons-numbers-combinatorics/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-combinatorics/summary.html
+    anchor: commons-numbers-combinatorics-summary
+    virtual_path: docs/commons-numbers-combinatorics/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-combinatorics/team.html
+    anchor: commons-numbers-combinatorics-team
+    virtual_path: docs/commons-numbers-combinatorics/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-complex/ci-management.html
+    anchor: commons-numbers-complex-ci-management
+    virtual_path: docs/commons-numbers-complex/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-complex/scm.html
+    anchor: commons-numbers-complex-scm
+    virtual_path: docs/commons-numbers-complex/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-complex/summary.html
+    anchor: commons-numbers-complex-summary
+    virtual_path: docs/commons-numbers-complex/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-complex/team.html
+    anchor: commons-numbers-complex-team
+    virtual_path: docs/commons-numbers-complex/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-core/ci-management.html
+    anchor: commons-numbers-core-ci-management
+    virtual_path: docs/commons-numbers-core/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-core/scm.html
+    anchor: commons-numbers-core-scm
+    virtual_path: docs/commons-numbers-core/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-core/summary.html
+    anchor: commons-numbers-core-summary
+    virtual_path: docs/commons-numbers-core/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-core/team.html
+    anchor: commons-numbers-core-team
+    virtual_path: docs/commons-numbers-core/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-docs/ci-management.html
+    anchor: commons-numbers-docs-ci-management
+    virtual_path: docs/commons-numbers-docs/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-docs/scm.html
+    anchor: commons-numbers-docs-scm
+    virtual_path: docs/commons-numbers-docs/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-docs/summary.html
+    anchor: commons-numbers-docs-summary
+    virtual_path: docs/commons-numbers-docs/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-docs/team.html
+    anchor: commons-numbers-docs-team
+    virtual_path: docs/commons-numbers-docs/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-examples/ci-management.html
+    anchor: commons-numbers-examples-ci-management
+    virtual_path: docs/commons-numbers-examples/ci-management.md
+  - title: About Apache Commons Numbers Examples
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-examples/index.html
+    anchor: commons-numbers-examples
+    virtual_path: docs/commons-numbers-examples/index.md
+  - title: Project Modules
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-examples/modules.html
+    anchor: commons-numbers-examples-modules
+    virtual_path: docs/commons-numbers-examples/modules.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-examples/scm.html
+    anchor: commons-numbers-examples-scm
+    virtual_path: docs/commons-numbers-examples/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-examples/summary.html
+    anchor: commons-numbers-examples-summary
+    virtual_path: docs/commons-numbers-examples/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-examples/team.html
+    anchor: commons-numbers-examples-team
+    virtual_path: docs/commons-numbers-examples/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-field/ci-management.html
+    anchor: commons-numbers-field-ci-management
+    virtual_path: docs/commons-numbers-field/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-field/scm.html
+    anchor: commons-numbers-field-scm
+    virtual_path: docs/commons-numbers-field/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-field/summary.html
+    anchor: commons-numbers-field-summary
+    virtual_path: docs/commons-numbers-field/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-field/team.html
+    anchor: commons-numbers-field-team
+    virtual_path: docs/commons-numbers-field/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-fraction/ci-management.html
+    anchor: commons-numbers-fraction-ci-management
+    virtual_path: docs/commons-numbers-fraction/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-fraction/scm.html
+    anchor: commons-numbers-fraction-scm
+    virtual_path: docs/commons-numbers-fraction/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-fraction/summary.html
+    anchor: commons-numbers-fraction-summary
+    virtual_path: docs/commons-numbers-fraction/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-fraction/team.html
+    anchor: commons-numbers-fraction-team
+    virtual_path: docs/commons-numbers-fraction/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-gamma/ci-management.html
+    anchor: commons-numbers-gamma-ci-management
+    virtual_path: docs/commons-numbers-gamma/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-gamma/scm.html
+    anchor: commons-numbers-gamma-scm
+    virtual_path: docs/commons-numbers-gamma/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-gamma/summary.html
+    anchor: commons-numbers-gamma-summary
+    virtual_path: docs/commons-numbers-gamma/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-gamma/team.html
+    anchor: commons-numbers-gamma-team
+    virtual_path: docs/commons-numbers-gamma/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-primes/ci-management.html
+    anchor: commons-numbers-primes-ci-management
+    virtual_path: docs/commons-numbers-primes/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-primes/scm.html
+    anchor: commons-numbers-primes-scm
+    virtual_path: docs/commons-numbers-primes/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-primes/summary.html
+    anchor: commons-numbers-primes-summary
+    virtual_path: docs/commons-numbers-primes/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-primes/team.html
+    anchor: commons-numbers-primes-team
+    virtual_path: docs/commons-numbers-primes/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-quaternion/ci-management.html
+    anchor: commons-numbers-quaternion-ci-management
+    virtual_path: docs/commons-numbers-quaternion/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-quaternion/scm.html
+    anchor: commons-numbers-quaternion-scm
+    virtual_path: docs/commons-numbers-quaternion/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-quaternion/summary.html
+    anchor: commons-numbers-quaternion-summary
+    virtual_path: docs/commons-numbers-quaternion/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-quaternion/team.html
+    anchor: commons-numbers-quaternion-team
+    virtual_path: docs/commons-numbers-quaternion/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-rootfinder/ci-management.html
+    anchor: commons-numbers-rootfinder-ci-management
+    virtual_path: docs/commons-numbers-rootfinder/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-rootfinder/scm.html
+    anchor: commons-numbers-rootfinder-scm
+    virtual_path: docs/commons-numbers-rootfinder/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-rootfinder/summary.html
+    anchor: commons-numbers-rootfinder-summary
+    virtual_path: docs/commons-numbers-rootfinder/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-numbers/commons-numbers-rootfinder/team.html
+    anchor: commons-numbers-rootfinder-team
+    virtual_path: docs/commons-numbers-rootfinder/team.md

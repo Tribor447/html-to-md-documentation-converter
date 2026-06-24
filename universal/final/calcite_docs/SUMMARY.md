@@ -1,0 +1,31 @@
+# Summary
+
+- Overview
+  - [Background](#index)
+  - [Tutorial](#tutorial)
+  - [Algebra](#algebra)
+- Advanced
+  - [Adapters](#adapter)
+  - [Spatial](#spatial)
+  - [Streaming](#stream)
+  - [Materialized Views](#materialized_views)
+  - [Lattices](#lattice)
+- Reference
+  - [SQL language](#reference)
+  - [JSON/YAML models](#model)
+  - [HOWTO](#howto)
+- Meta
+  - [History](#history)
+  - [Powered by Calcite](#powered_by)
+- Other pages
+  - [Arrow adapter](#arrow_adapter)
+  - [Cassandra adapter](#cassandra_adapter)
+  - [Druid adapter](#druid_adapter)
+  - [Elasticsearch adapter](#elasticsearch_adapter)
+  - [File adapter](#file_adapter)
+  - [Apache Geode adapter](#geode_adapter)
+  - [InnoDB adapter](#innodb_adapter)
+  - [Kafka adapter](#kafka_adapter)
+  - [OS adapter and sqlsh](#os_adapter)
+  - [Pig adapter](#pig_adapter)
+  - [Redis adapter](#redis_adapter)

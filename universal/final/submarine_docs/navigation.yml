@@ -1,0 +1,229 @@
+- title: Getting Started
+  kind: link
+  source_url: https://submarine.apache.org/docs/gettingStarted/quickstart/
+  anchor: gettingstarted-quickstart
+  virtual_path: docs/gettingStarted/quickstart/index.md
+  children:
+  - title: Quickstart
+    kind: link
+    source_url: https://submarine.apache.org/docs/gettingStarted/quickstart/
+    anchor: gettingstarted-quickstart
+    virtual_path: docs/gettingStarted/quickstart/index.md
+  - title: Jupyter Notebook
+    kind: link
+    source_url: https://submarine.apache.org/docs/gettingStarted/notebook/
+    anchor: gettingstarted-notebook
+    virtual_path: docs/gettingStarted/notebook/index.md
+  - title: Submarine Python SDK
+    kind: link
+    source_url: https://submarine.apache.org/docs/gettingStarted/python-sdk/
+    anchor: gettingstarted-python-sdk
+    virtual_path: docs/gettingStarted/python-sdk/index.md
+  - title: Custom Configuation
+    kind: link
+    source_url: https://submarine.apache.org/docs/gettingStarted/helm/
+    anchor: gettingstarted-helm
+    virtual_path: docs/gettingStarted/helm/index.md
+- title: User Docs
+  kind: link
+  source_url: https://submarine.apache.org/docs/userDocs/submarine-sdk/submarine-cli/
+  anchor: userdocs-submarine-sdk-submarine-cli
+  virtual_path: docs/userDocs/submarine-sdk/submarine-cli/index.md
+  children:
+  - title: Submarine SDK
+    kind: category
+    source_url: https://submarine.apache.org/docs/userDocs/submarine-sdk/submarine-cli/
+    anchor: userdocs-submarine-sdk-submarine-cli
+    virtual_path: docs/userDocs/submarine-sdk/submarine-cli/index.md
+    children:
+    - title: Submarine CLI
+      kind: link
+      source_url: https://submarine.apache.org/docs/userDocs/submarine-sdk/submarine-cli/
+      anchor: userdocs-submarine-sdk-submarine-cli
+      virtual_path: docs/userDocs/submarine-sdk/submarine-cli/index.md
+    - title: Submarine Client
+      kind: link
+      source_url: https://submarine.apache.org/docs/userDocs/submarine-sdk/submarine-client/
+      anchor: userdocs-submarine-sdk-submarine-client
+      virtual_path: docs/userDocs/submarine-sdk/submarine-client/index.md
+    - title: Experiment Client
+      kind: link
+      source_url: https://submarine.apache.org/docs/userDocs/submarine-sdk/experiment-client/
+      anchor: userdocs-submarine-sdk-experiment-client
+      virtual_path: docs/userDocs/submarine-sdk/experiment-client/index.md
+    - title: Tracking
+      kind: link
+      source_url: https://submarine.apache.org/docs/userDocs/submarine-sdk/tracking/
+      anchor: userdocs-submarine-sdk-tracking
+      virtual_path: docs/userDocs/submarine-sdk/tracking/index.md
+  - title: Others
+    kind: link
+    source_url: https://submarine.apache.org/docs/userDocs/others/mlflow/
+    anchor: userdocs-others-mlflow
+    virtual_path: docs/userDocs/others/mlflow/index.md
+    children:
+    - title: MLflow UI
+      kind: link
+      source_url: https://submarine.apache.org/docs/userDocs/others/mlflow/
+      anchor: userdocs-others-mlflow
+      virtual_path: docs/userDocs/others/mlflow/index.md
+    - title: Tensorboard
+      kind: link
+      source_url: https://submarine.apache.org/docs/userDocs/others/tensorboard/
+      anchor: userdocs-others-tensorboard
+      virtual_path: docs/userDocs/others/tensorboard/index.md
+- title: Developer Docs
+  kind: link
+  source_url: https://submarine.apache.org/docs/devDocs/
+  anchor: devdocs
+  virtual_path: docs/devDocs/index.md
+  children:
+  - title: Project Architecture
+    kind: link
+    source_url: https://submarine.apache.org/docs/devDocs/
+    anchor: devdocs
+    virtual_path: docs/devDocs/index.md
+  - title: Dependencies for Submarine
+    kind: link
+    source_url: https://submarine.apache.org/docs/devDocs/Dependencies/
+    anchor: devdocs-dependencies
+    virtual_path: docs/devDocs/Dependencies/index.md
+  - title: How to Build Submarine
+    kind: link
+    source_url: https://submarine.apache.org/docs/devDocs/BuildFromCode/
+    anchor: devdocs-buildfromcode
+    virtual_path: docs/devDocs/BuildFromCode/index.md
+  - title: Development Guide
+    kind: link
+    source_url: https://submarine.apache.org/docs/devDocs/Development/
+    anchor: devdocs-development
+    virtual_path: docs/devDocs/Development/index.md
+  - title: How to Run Integration K8s Test
+    kind: link
+    source_url: https://submarine.apache.org/docs/devDocs/IntegrationTestK8s/
+    anchor: devdocs-integrationtestk8s
+    virtual_path: docs/devDocs/IntegrationTestK8s/index.md
+  - title: How to Run Frontend Integration Test
+    kind: link
+    source_url: https://submarine.apache.org/docs/devDocs/IntegrationTestE2E/
+    anchor: devdocs-integrationteste2e
+    virtual_path: docs/devDocs/IntegrationTestE2E/index.md
+  - title: How to Release
+    kind: link
+    source_url: https://submarine.apache.org/docs/devDocs/HowToRelease/
+    anchor: devdocs-howtorelease
+    virtual_path: docs/devDocs/HowToRelease/index.md
+  - title: How to Verify
+    kind: link
+    source_url: https://submarine.apache.org/docs/devDocs/HowToVerify/
+    anchor: devdocs-howtoverify
+    virtual_path: docs/devDocs/HowToVerify/index.md
+- title: Community
+  kind: link
+  source_url: https://submarine.apache.org/docs/community/
+  anchor: community
+  virtual_path: docs/community/index.md
+  children:
+  - title: Apache Submarine Community
+    kind: link
+    source_url: https://submarine.apache.org/docs/community/
+    anchor: community
+    virtual_path: docs/community/index.md
+  - title: Bylaws
+    kind: link
+    source_url: https://submarine.apache.org/docs/community/Bylaws/
+    anchor: community-bylaws
+    virtual_path: docs/community/Bylaws/index.md
+  - title: Guide for Apache Submarine Committers
+    kind: link
+    source_url: https://submarine.apache.org/docs/community/HowToCommit/
+    anchor: community-howtocommit
+    virtual_path: docs/community/HowToCommit/index.md
+  - title: How To Contribute to Submarine
+    kind: link
+    source_url: https://submarine.apache.org/docs/community/contributing/
+    anchor: community-contributing
+    virtual_path: docs/community/contributing/index.md
+  - title: How to vote a Committer or PMC
+    kind: link
+    source_url: https://submarine.apache.org/docs/community/HowToVoteCommitterOrPMC/
+    anchor: community-howtovotecommitterorpmc
+    virtual_path: docs/community/HowToVoteCommitterOrPMC/index.md
+  - title: How to become a Committer
+    kind: link
+    source_url: https://submarine.apache.org/docs/community/HowToBecomeCommitter/
+    anchor: community-howtobecomecommitter
+    virtual_path: docs/community/HowToBecomeCommitter/index.md
+  - title: Resources
+    kind: link
+    source_url: https://submarine.apache.org/docs/community/Resources/
+    anchor: community-resources
+    virtual_path: docs/community/Resources/index.md
+- title: Design Docs
+  kind: category
+  source_url: https://submarine.apache.org/docs/designDocs/architecture-and-requirements/
+  anchor: designdocs-architecture-and-requirements
+  virtual_path: docs/designDocs/architecture-and-requirements/index.md
+  children:
+  - title: Architecture and Requirment
+    kind: link
+    source_url: https://submarine.apache.org/docs/designDocs/architecture-and-requirements/
+    anchor: designdocs-architecture-and-requirements
+    virtual_path: docs/designDocs/architecture-and-requirements/index.md
+  - title: Implementation Notes
+    kind: link
+    source_url: https://submarine.apache.org/docs/designDocs/implementation-notes/
+    anchor: designdocs-implementation-notes
+    virtual_path: docs/designDocs/implementation-notes/index.md
+  - title: Environments Implementation
+    kind: link
+    source_url: https://submarine.apache.org/docs/designDocs/environments-implementation/
+    anchor: designdocs-environments-implementation
+    virtual_path: docs/designDocs/environments-implementation/index.md
+  - title: Experiment Implementation
+    kind: link
+    source_url: https://submarine.apache.org/docs/designDocs/experiment-implementation/
+    anchor: designdocs-experiment-implementation
+    virtual_path: docs/designDocs/experiment-implementation/index.md
+  - title: Notebook Implementation
+    kind: link
+    source_url: https://submarine.apache.org/docs/designDocs/notebook-implementation/
+    anchor: designdocs-notebook-implementation
+    virtual_path: docs/designDocs/notebook-implementation/index.md
+  - title: Storage Implementation
+    kind: link
+    source_url: https://submarine.apache.org/docs/designDocs/storage-implementation/
+    anchor: designdocs-storage-implementation
+    virtual_path: docs/designDocs/storage-implementation/index.md
+  - title: Submarine Server
+    kind: category
+    source_url: https://submarine.apache.org/docs/designDocs/submarine-server/architecture/
+    anchor: designdocs-submarine-server-architecture
+    virtual_path: docs/designDocs/submarine-server/architecture/index.md
+    children:
+    - title: Submarine Server Implementation
+      kind: link
+      source_url: https://submarine.apache.org/docs/designDocs/submarine-server/architecture/
+      anchor: designdocs-submarine-server-architecture
+      virtual_path: docs/designDocs/submarine-server/architecture/index.md
+    - title: Generic Experiment Spec
+      kind: link
+      source_url: https://submarine.apache.org/docs/designDocs/submarine-server/experimentSpec/
+      anchor: designdocs-submarine-server-experimentspec
+      virtual_path: docs/designDocs/submarine-server/experimentSpec/index.md
+  - title: WIP Design Docs
+    kind: link
+    source_url: https://submarine.apache.org/docs/designDocs/wip-designs/submarine-launcher/
+    anchor: designdocs-wip-designs-submarine-launcher
+    virtual_path: docs/designDocs/wip-designs/submarine-launcher/index.md
+    children:
+    - title: Submarine Launcher
+      kind: link
+      source_url: https://submarine.apache.org/docs/designDocs/wip-designs/submarine-launcher/
+      anchor: designdocs-wip-designs-submarine-launcher
+      virtual_path: docs/designDocs/wip-designs/submarine-launcher/index.md
+    - title: Security Implementation
+      kind: link
+      source_url: https://submarine.apache.org/docs/designDocs/wip-designs/security-implementation/
+      anchor: designdocs-wip-designs-security-implementation
+      virtual_path: docs/designDocs/wip-designs/security-implementation/index.md

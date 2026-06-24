@@ -1,0 +1,92 @@
+                                      
+
+Table Of Contents
+=================
+Subject: [VOTE] please review release candidate then vote
+
+We need people to review the release candidate and to
+test it on your projects, especially on different operating
+systems and Java version. See testing hints below.
+
+Download the release candidate and supporting files:
+https://dist.apache.org/repos/dist/dev/forrest/
+
+For Windows get *.zip (md5sum ################################)
+For UNIX get *.tar.gz (md5sum ################################)
+Get the *.asc and *.md5 that match your chosen download.
+
+Java [### JavaVersion ###] or later is required.
+
+Testing and vote period concludes [#### Date #####] [2].
+Anyone can test and vote, not just PMC members.
+However only the PMC votes are binding [3].
+
+When voting, quote the md5sum to ensure that we are all
+using the correct final release candidate package. The votes
+need to happen against the final source release package.
+
+If we need to build another release candidate, due to
+necessary changes to the code or documentation [1],
+then we need to vote reagarding that package.
+
+PMC members need to satisfy themselves that the actual
+final release package meets the ASF principles.
+
+During this week we do need to hear about both successes
+and failures. Please report your operating system
+and Java versions and Jetty/Tomcat versions.
+
+So we have approximately 6 days.
+
+Here are some hints for actual testing:
+
+  * Verify the release, especially if you are a committer.
+    Follow: http://forrest.apache.org/mirrors.cgi#verify
+  * Ensure that the compressed archive will unpack properly.
+  * Follow the README.txt and index.html
+  * Set $FORREST_HOME and $PATH appropriately.
+  * Try it with different Java versions.
+  * Try it with different versions of Apache Tomcat or Jetty.
+  * Many known issues are already recorded at our Jira.
+  * Don't worry too much about minor bugs. We are looking
+    for blockers, such as it will not run.
+  * Please add other discovered issues to Jira.
+
+* Make a fresh site ...
+    cd my-new-dir
+    forrest seed-sample
+    forrest run ... use the local jetty server.
+    forrest ... build the whole site from the command-line.
+    forrest war ... use your own full Jetty or Tomcat.
+
+* Try it on the Forrest core docs ...
+    cd site-author
+    forrest run
+    forrest
+
+* Forrest was already pre-built. Try building it again.
+    cd main
+    build clean
+    build
+    build test-sample
+
+* Try it on your own project, especially if you have
+    a project sitemap and use some extra plugins.
+
+* If you are a user of forrestbot then try that.
+
+* Try building and installing the forrestbar.
+
+------------------------------
+[1] create final release candidate
+Saturday ####-##-## at 22:00 UTC
+[### time-and-date URL ###]
+
+[2] end of vote on final release candidate and commence the upload phase
+Monday ####-##-## at 22:00 UTC
+[### time-and-date URL ###]
+
+[3] "A lazy majority vote requires
+3 binding +1 votes and more binding +1 votes than -1 votes".
+http://forrest.apache.org/guidelines.html#actions
+

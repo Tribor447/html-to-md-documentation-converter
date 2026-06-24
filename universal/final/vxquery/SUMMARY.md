@@ -1,0 +1,32 @@
+# Summary
+
+- For Users
+  - [Get Started](#user_get_started)
+  - [Installation](#user_installation)
+  - [Cluster Installation](#user_cluster_installation)
+  - [Executing a Query](#user_query)
+  - [Using HDFS with VXQuery](#user_query_hdfs)
+  - [Running the Test Suite](#user_running_tests)
+- For Developers
+  - [Get Started](#developer_get_started)
+  - [Contributing Code](#development_contribution)
+  - [Data Handling](#development_data_handling)
+  - [Eclipse Setup](#development_eclipse_setup)
+  - [Release Steps](#development_release)
+  - [Site Update Steps](#development_site_update)
+  - [Update Local Git XQTS Results](#development_update_xqts_results)
+  - [XMark Benchmark Status](#development_xmark_status)
+  - [XML Data and Node Types](#development_xml_node_details)
+  - [XML Data Model Example](#development_xml_document)
+- Project Documentation
+  - Project Information
+    - [About](#vxquery-core)
+- Modules
+  - [VXQuery Core](#vxquery-core)
+  - [VXQuery Server](#vxquery-server)
+  - [VXQuery CLI](#vxquery-cli)
+  - [VXQuery XTest](#vxquery-xtest)
+  - [VXQuery Benchmark](#vxquery-benchmark)
+- Items
+  - [Missing Functions](#vxquery-core-missing-functions)
+  - [Missing Operators](#vxquery-core-missing-operators)

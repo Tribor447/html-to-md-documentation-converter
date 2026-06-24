@@ -1,0 +1,776 @@
+{
+  "entry_url": "https://axis.apache.org/axis2/java/core/docs/toc.html",
+  "site_prefix": "/axis2/java/core/",
+  "site_slug": "axis_axis2_java_core",
+  "profile": "maven",
+  "combined_markdown": "combined.md",
+  "page_count": 85,
+  "asset_count": 37,
+  "pages": [
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/Axis2-rpc-support.html",
+      "title": "Axis2 RPC Support",
+      "anchor": "docs-axis2-rpc-support",
+      "virtual_path": "docs/docs/Axis2-rpc-support.md",
+      "profile": "maven",
+      "score": 16873,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/Axis2ArchitectureGuide.html",
+      "title": "Apache Axis2 Architecture Guide",
+      "anchor": "docs-axis2architectureguide",
+      "virtual_path": "docs/docs/Axis2ArchitectureGuide.md",
+      "profile": "maven",
+      "score": 53803,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/WS_policy.html",
+      "title": "Web Services Policy Support In Apache Axis2",
+      "anchor": "docs-ws_policy",
+      "virtual_path": "docs/docs/WS_policy.md",
+      "profile": "maven",
+      "score": 13586,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/adb/adb-advanced.html",
+      "title": "Advanced Axis2 Databinding Framework Features",
+      "anchor": "docs-adb-adb-advanced",
+      "virtual_path": "docs/docs/adb/adb-advanced.md",
+      "profile": "maven",
+      "score": 8241,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/adb/adb-codegen-integration.html",
+      "title": "ADB Integration With Axis2",
+      "anchor": "docs-adb-adb-codegen-integration",
+      "virtual_path": "docs/docs/adb/adb-codegen-integration.md",
+      "profile": "maven",
+      "score": 5784,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/adb/adb-howto.html",
+      "title": "Axis2 Databinding Framework",
+      "anchor": "docs-adb-adb-howto",
+      "virtual_path": "docs/docs/adb/adb-howto.md",
+      "profile": "maven",
+      "score": 24641,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/adb/adb-tweaking.html",
+      "title": "ADB Tweaking Guide",
+      "anchor": "docs-adb-adb-tweaking",
+      "virtual_path": "docs/docs/adb/adb-tweaking.md",
+      "profile": "maven",
+      "score": 8563,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/adv-userguide.html",
+      "title": "Apache Axis2 Advanced User's Guide",
+      "anchor": "docs-adv-userguide",
+      "virtual_path": "docs/docs/adv-userguide.md",
+      "profile": "maven",
+      "score": 33188,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/app_server.html",
+      "title": "Application Server Specific Configuration Guide",
+      "anchor": "docs-app_server",
+      "virtual_path": "docs/docs/app_server.md",
+      "profile": "maven",
+      "score": 12218,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/axis2-http2-simplified-example.html",
+      "title": "Axis2 HTTP/2 Simplified Configuration Example",
+      "anchor": "docs-axis2-http2-simplified-example",
+      "virtual_path": "docs/docs/axis2-http2-simplified-example.md",
+      "profile": "maven",
+      "score": 13926,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/axis2config.html",
+      "title": "Axis2 Configuration Guide",
+      "anchor": "docs-axis2config",
+      "virtual_path": "docs/docs/axis2config.md",
+      "profile": "maven",
+      "score": 25685,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/contents.html",
+      "title": "Apache Axis2/Java Version 2.0.1 Documentation Index",
+      "anchor": "docs-contents",
+      "virtual_path": "docs/docs/contents.md",
+      "profile": "maven",
+      "score": 12884,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/corba-deployer.html",
+      "title": "Exposing CORBA Services as Web Services",
+      "anchor": "docs-corba-deployer",
+      "virtual_path": "docs/docs/corba-deployer.md",
+      "profile": "maven",
+      "score": 14810,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/dii.html",
+      "title": "Writing Web Service Clients Using Axis2's Primary APIs",
+      "anchor": "docs-dii",
+      "virtual_path": "docs/docs/dii.md",
+      "profile": "maven",
+      "score": 18007,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/ejb-provider.html",
+      "title": "Guide to using EJB Provider for Axis2",
+      "anchor": "docs-ejb-provider",
+      "virtual_path": "docs/docs/ejb-provider.md",
+      "profile": "maven",
+      "score": 13383,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/http-transport.html",
+      "title": "HTTP Transport",
+      "anchor": "docs-http-transport",
+      "virtual_path": "docs/docs/http-transport.md",
+      "profile": "maven",
+      "score": 30026,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/http2-integration-guide.html",
+      "title": "Axis2/Java HTTP/2 Integration Guide",
+      "anchor": "docs-http2-integration-guide",
+      "virtual_path": "docs/docs/http2-integration-guide.md",
+      "profile": "maven",
+      "score": 38266,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/http2-java-client.html",
+      "title": "HTTP/2 Java Client — Sample Code",
+      "anchor": "docs-http2-java-client",
+      "virtual_path": "docs/docs/http2-java-client.md",
+      "profile": "maven",
+      "score": 10958,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/http2-transport-additions.html",
+      "title": "HTTP/2 Transport – Apache Axis2",
+      "anchor": "docs-http2-transport-additions",
+      "virtual_path": "docs/docs/http2-transport-additions.md",
+      "profile": "maven",
+      "score": 38946,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/installationguide.html",
+      "title": "Apache Axis2 Installation Guide",
+      "anchor": "docs-installationguide",
+      "virtual_path": "docs/docs/installationguide.md",
+      "profile": "maven",
+      "score": 24563,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/jaxws-guide.html",
+      "title": "JAX-WS Guide",
+      "anchor": "docs-jaxws-guide",
+      "virtual_path": "docs/docs/jaxws-guide.md",
+      "profile": "maven",
+      "score": 73663,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/jms-transport.html",
+      "title": "JMS Transport",
+      "anchor": "docs-jms-transport",
+      "virtual_path": "docs/docs/jms-transport.md",
+      "profile": "maven",
+      "score": 21249,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/json-pagination.html",
+      "title": "Offset/Limit Pagination for JSON-RPC Services",
+      "anchor": "docs-json-pagination",
+      "virtual_path": "docs/docs/json-pagination.md",
+      "profile": "maven",
+      "score": 10792,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/json-rpc-mcp-guide.html",
+      "title": "Apache Axis2 MCP Integration Guide",
+      "anchor": "docs-json-rpc-mcp-guide",
+      "virtual_path": "docs/docs/json-rpc-mcp-guide.md",
+      "profile": "maven",
+      "score": 36309,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/json-springboot-userguide.html",
+      "title": "Apache Axis2 JSON and REST with Spring Boot 3 User's Guide",
+      "anchor": "docs-json-springboot-userguide",
+      "virtual_path": "docs/docs/json-springboot-userguide.md",
+      "profile": "maven",
+      "score": 23713,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/json-streaming-formatter.html",
+      "title": "Streaming JSON Message Formatter",
+      "anchor": "docs-json-streaming-formatter",
+      "virtual_path": "docs/docs/json-streaming-formatter.md",
+      "profile": "maven",
+      "score": 18910,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/json_gson_user_guide.html",
+      "title": "How to configure Native approach and XML Stream API base approach",
+      "anchor": "docs-json_gson_user_guide",
+      "virtual_path": "docs/docs/json_gson_user_guide.md",
+      "profile": "maven",
+      "score": 7101,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/json_support.html",
+      "title": "JSON Support in Axis2",
+      "anchor": "docs-json_support",
+      "virtual_path": "docs/docs/json_support.md",
+      "profile": "maven",
+      "score": 27998,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/json_support_gson.html",
+      "title": "New JSON support in Apache Axis2",
+      "anchor": "docs-json_support_gson",
+      "virtual_path": "docs/docs/json_support_gson.md",
+      "profile": "maven",
+      "score": 17072,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/mail-transport.html",
+      "title": "Introduction",
+      "anchor": "docs-mail-transport",
+      "virtual_path": "docs/docs/mail-transport.md",
+      "profile": "maven",
+      "score": 12120,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-architecture.html",
+      "title": "MCP Support for Apache Axis2/Java",
+      "anchor": "docs-mcp-architecture",
+      "virtual_path": "docs/docs/mcp-architecture.md",
+      "profile": "maven",
+      "score": 31932,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/mcp-examples.html",
+      "title": "MCP Examples: Financial Services on Axis2/Java",
+      "anchor": "docs-mcp-examples",
+      "virtual_path": "docs/docs/mcp-examples.md",
+      "profile": "maven",
+      "score": 41778,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/migration.html",
+      "title": "Migrating from Apache Axis 1.x to Axis2",
+      "anchor": "docs-migration",
+      "virtual_path": "docs/docs/migration.md",
+      "profile": "maven",
+      "score": 35252,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/modules.html",
+      "title": "Writing Your Own Axis2 Module",
+      "anchor": "docs-modules",
+      "virtual_path": "docs/docs/modules.md",
+      "profile": "maven",
+      "score": 19919,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/mtom-guide.html",
+      "title": "Handling Binary Data with Axis2 (MTOM/SwA)",
+      "anchor": "docs-mtom-guide",
+      "virtual_path": "docs/docs/mtom-guide.md",
+      "profile": "maven",
+      "score": 39381,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-jpa-schema.html",
+      "title": "JPA/Hibernate Schema Generation for OpenAPI",
+      "anchor": "docs-openapi-jpa-schema",
+      "virtual_path": "docs/docs/openapi-jpa-schema.md",
+      "profile": "maven",
+      "score": 19540,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-advanced-userguide.html",
+      "title": "Apache Axis2 OpenAPI Advanced Enterprise User Guide",
+      "anchor": "docs-openapi-rest-advanced-userguide",
+      "virtual_path": "docs/docs/openapi-rest-advanced-userguide.md",
+      "profile": "maven",
+      "score": 63289,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/openapi-rest-userguide.html",
+      "title": "Apache Axis2 OpenAPI REST Services User's Guide",
+      "anchor": "docs-openapi-rest-userguide",
+      "virtual_path": "docs/docs/openapi-rest-userguide.md",
+      "profile": "maven",
+      "score": 41344,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/pojoguide.html",
+      "title": "POJO Web Services using Apache Axis2",
+      "anchor": "docs-pojoguide",
+      "virtual_path": "docs/docs/pojoguide.md",
+      "profile": "maven",
+      "score": 35092,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/quickstartguide.html",
+      "title": "Axis2 Quick Start Guide",
+      "anchor": "docs-quickstartguide",
+      "virtual_path": "docs/docs/quickstartguide.md",
+      "profile": "maven",
+      "score": 58889,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/reference.html",
+      "title": "Axis2 Reference Guide",
+      "anchor": "docs-reference",
+      "virtual_path": "docs/docs/reference.md",
+      "profile": "maven",
+      "score": 8517,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/rest-ws.html",
+      "title": "RESTful Web Services Support",
+      "anchor": "docs-rest-ws",
+      "virtual_path": "docs/docs/rest-ws.md",
+      "profile": "maven",
+      "score": 10101,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/servlet-transport.html",
+      "title": "HTTP servlet transport",
+      "anchor": "docs-servlet-transport",
+      "virtual_path": "docs/docs/servlet-transport.md",
+      "profile": "maven",
+      "score": 7010,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/spring-boot-starter.html",
+      "title": "Apache Axis2 Spring Boot Starter",
+      "anchor": "docs-spring-boot-starter",
+      "virtual_path": "docs/docs/spring-boot-starter.md",
+      "profile": "maven",
+      "score": 34145,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/spring.html",
+      "title": "Axis2 Integration with the Spring Framework",
+      "anchor": "docs-spring",
+      "virtual_path": "docs/docs/spring.md",
+      "profile": "maven",
+      "score": 19550,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/tcp-transport.html",
+      "title": "TCP Transport",
+      "anchor": "docs-tcp-transport",
+      "virtual_path": "docs/docs/tcp-transport.md",
+      "profile": "maven",
+      "score": 11037,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/toc.html",
+      "title": "Table of Contents",
+      "anchor": "docs-toc",
+      "virtual_path": "docs/docs/toc.md",
+      "profile": "maven",
+      "score": 2454,
+      "depth": 0
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/tomcat-http2-integration-guide.html",
+      "title": "Apache Tomcat 11 + Axis2 HTTP/2 Integration Guide",
+      "anchor": "docs-tomcat-http2-integration-guide",
+      "virtual_path": "docs/docs/tomcat-http2-integration-guide.md",
+      "profile": "maven",
+      "score": 24135,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/transport_howto.html",
+      "title": "How to Write Your Own Axis2 Transport",
+      "anchor": "docs-transport_howto",
+      "virtual_path": "docs/docs/transport_howto.md",
+      "profile": "maven",
+      "score": 13652,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/udp-transport.html",
+      "title": "UDP Transport",
+      "anchor": "docs-udp-transport",
+      "virtual_path": "docs/docs/udp-transport.md",
+      "profile": "maven",
+      "score": 9379,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/userguide.html",
+      "title": "Apache Axis2 User's Guide",
+      "anchor": "docs-userguide",
+      "virtual_path": "docs/docs/userguide.md",
+      "profile": "maven",
+      "score": 17641,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/webadminguide.html",
+      "title": "Apache Axis2 Web Administrator's Guide",
+      "anchor": "docs-webadminguide",
+      "virtual_path": "docs/docs/webadminguide.md",
+      "profile": "maven",
+      "score": 19895,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/wildfly-http2-integration-guide.html",
+      "title": "WildFly + Axis2 HTTP/2 Integration Guide",
+      "anchor": "docs-wildfly-http2-integration-guide",
+      "virtual_path": "docs/docs/wildfly-http2-integration-guide.md",
+      "profile": "maven",
+      "score": 26421,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/docs/xmlbased-server.html",
+      "title": "Writing Web Services Using Apache Axis2's Primary APIs",
+      "anchor": "docs-xmlbased-server",
+      "virtual_path": "docs/docs/xmlbased-server.md",
+      "profile": "maven",
+      "score": 12062,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/download.html",
+      "title": "Releases – Apache Axis2",
+      "anchor": "download",
+      "virtual_path": "docs/download.md",
+      "profile": "maven",
+      "score": 3375,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/faq.html",
+      "title": "Frequently Asked Questions on Apache Axis2",
+      "anchor": "faq",
+      "virtual_path": "docs/faq.md",
+      "profile": "maven",
+      "score": 15264,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/guidelines.html",
+      "title": "Guidelines – Apache Axis2",
+      "anchor": "guidelines",
+      "virtual_path": "docs/guidelines.md",
+      "profile": "maven",
+      "score": 5999,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/index.html",
+      "title": "Welcome to Apache Axis2/Java",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "maven",
+      "score": 8301,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/modules/index.html",
+      "title": "Apache Axis2 Modules",
+      "anchor": "modules",
+      "virtual_path": "docs/modules/index.md",
+      "profile": "maven",
+      "score": 2508,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/overview.html",
+      "title": "Overview – Apache Axis2",
+      "anchor": "overview",
+      "virtual_path": "docs/overview.md",
+      "profile": "maven",
+      "score": 3710,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.6.1.html",
+      "title": "Apache Axis2 1.6.1 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.6.1",
+      "virtual_path": "docs/release-notes/1.6.1.md",
+      "profile": "maven",
+      "score": 2262,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.6.2.html",
+      "title": "Apache Axis2 1.6.2 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.6.2",
+      "virtual_path": "docs/release-notes/1.6.2.md",
+      "profile": "maven",
+      "score": 2223,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.6.3.html",
+      "title": "Apache Axis2 1.6.3 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.6.3",
+      "virtual_path": "docs/release-notes/1.6.3.md",
+      "profile": "maven",
+      "score": 2224,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.6.4.html",
+      "title": "Apache Axis2 1.6.4 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.6.4",
+      "virtual_path": "docs/release-notes/1.6.4.md",
+      "profile": "maven",
+      "score": 2223,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.0.html",
+      "title": "Apache Axis2 1.7.0 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.7.0",
+      "virtual_path": "docs/release-notes/1.7.0.md",
+      "profile": "maven",
+      "score": 5239,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.1.html",
+      "title": "Apache Axis2 1.7.1 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.7.1",
+      "virtual_path": "docs/release-notes/1.7.1.md",
+      "profile": "maven",
+      "score": 2340,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.2.html",
+      "title": "Apache Axis2 1.7.2 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.7.2",
+      "virtual_path": "docs/release-notes/1.7.2.md",
+      "profile": "maven",
+      "score": 2105,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.3.html",
+      "title": "Apache Axis2 1.7.3 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.7.3",
+      "virtual_path": "docs/release-notes/1.7.3.md",
+      "profile": "maven",
+      "score": 3007,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.4.html",
+      "title": "Apache Axis2 1.7.4 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.7.4",
+      "virtual_path": "docs/release-notes/1.7.4.md",
+      "profile": "maven",
+      "score": 2606,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.5.html",
+      "title": "Apache Axis2 1.7.5 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.7.5",
+      "virtual_path": "docs/release-notes/1.7.5.md",
+      "profile": "maven",
+      "score": 2238,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.6.html",
+      "title": "Apache Axis2 1.7.6 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.7.6",
+      "virtual_path": "docs/release-notes/1.7.6.md",
+      "profile": "maven",
+      "score": 2666,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.7.html",
+      "title": "Apache Axis2 1.7.7 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.7.7",
+      "virtual_path": "docs/release-notes/1.7.7.md",
+      "profile": "maven",
+      "score": 2050,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.8.html",
+      "title": "Apache Axis2 1.7.8 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.7.8",
+      "virtual_path": "docs/release-notes/1.7.8.md",
+      "profile": "maven",
+      "score": 2050,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.7.9.html",
+      "title": "Apache Axis2 1.7.9 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.7.9",
+      "virtual_path": "docs/release-notes/1.7.9.md",
+      "profile": "maven",
+      "score": 2096,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.8.0.html",
+      "title": "Apache Axis2 1.8.0 Release Note – Apache Axis2",
+      "anchor": "release-notes-1.8.0",
+      "virtual_path": "docs/release-notes/1.8.0.md",
+      "profile": "maven",
+      "score": 6994,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.8.1.html",
+      "title": "Apache Axis2 1.8.1 Release Notes – Apache Axis2",
+      "anchor": "release-notes-1.8.1",
+      "virtual_path": "docs/release-notes/1.8.1.md",
+      "profile": "maven",
+      "score": 5477,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/1.8.2.html",
+      "title": "Apache Axis2 1.8.2 Release Notes – Apache Axis2",
+      "anchor": "release-notes-1.8.2",
+      "virtual_path": "docs/release-notes/1.8.2.md",
+      "profile": "maven",
+      "score": 1037,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/2.0.0.html",
+      "title": "Apache Axis2 2.0.0 Release Notes – Apache Axis2",
+      "anchor": "release-notes-2.0.0",
+      "virtual_path": "docs/release-notes/2.0.0.md",
+      "profile": "maven",
+      "score": 10268,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-notes/2.0.1.html",
+      "title": "Apache Axis2 2.0.1 Release Notes – Apache Axis2",
+      "anchor": "release-notes-2.0.1",
+      "virtual_path": "docs/release-notes/2.0.1.md",
+      "profile": "maven",
+      "score": 6258,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/release-process.html",
+      "title": "Release Process",
+      "anchor": "release-process",
+      "virtual_path": "docs/release-process.md",
+      "profile": "maven",
+      "score": 25577,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/siteHowTo.html",
+      "title": "How to Build the Axis2 Project's Website",
+      "anchor": "sitehowto",
+      "virtual_path": "docs/siteHowTo.md",
+      "profile": "maven",
+      "score": 4827,
+      "depth": 2
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/tools/CodegenToolReference.html",
+      "title": "Code Generator Tool Guide for Command Line and Ant Task",
+      "anchor": "tools-codegentoolreference",
+      "virtual_path": "docs/tools/CodegenToolReference.md",
+      "profile": "maven",
+      "score": 33350,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/tools/index.html",
+      "title": "Apache Axis2 Tools",
+      "anchor": "tools",
+      "virtual_path": "docs/tools/index.md",
+      "profile": "maven",
+      "score": 3608,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/tools/maven-plugins/maven-aar-plugin.html",
+      "title": "Maven2 AAR Plug-in Guide",
+      "anchor": "tools-maven-plugins-maven-aar-plugin",
+      "virtual_path": "docs/tools/maven-plugins/maven-aar-plugin.md",
+      "profile": "maven",
+      "score": 7977,
+      "depth": 1
+    },
+    {
+      "source_url": "https://axis.apache.org/axis2/java/core/tools/maven-plugins/maven-java2wsdl-plugin.html",
+      "title": "Maven2 Java2WSDL Plug-in Guide",
+      "anchor": "tools-maven-plugins-maven-java2wsdl-plugin",
+      "virtual_path": "docs/tools/maven-plugins/maven-java2wsdl-plugin.md",
+      "profile": "maven",
+      "score": 6396,
+      "depth": 1
+    }
+  ]
+}

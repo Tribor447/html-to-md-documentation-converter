@@ -1,0 +1,2372 @@
+- title: Overview
+  kind: category
+  source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/overview.html
+  anchor: web-websocket-stomp-overview
+  virtual_path: docs/web/websocket/stomp/overview.md
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://docs.spring.io/spring-framework/reference/overview.html
+    anchor: overview
+    virtual_path: docs/overview.md
+  - title: Core Technologies
+    kind: category
+    source_url: https://docs.spring.io/spring-framework/reference/core.html
+    anchor: core
+    virtual_path: docs/core.md
+    children:
+    - title: The IoC Container
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/core/beans.html
+      anchor: core-beans
+      virtual_path: docs/core/beans.md
+      children:
+      - title: Introduction to the Spring IoC Container and Beans
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/introduction.html
+        anchor: core-beans-introduction
+        virtual_path: docs/core/beans/introduction.md
+      - title: Container Overview
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/basics.html
+        anchor: core-beans-basics
+        virtual_path: docs/core/beans/basics.md
+      - title: Bean Overview
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/definition.html
+        anchor: core-beans-definition
+        virtual_path: docs/core/beans/definition.md
+      - title: Dependencies
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/dependencies.html
+        anchor: core-beans-dependencies
+        virtual_path: docs/core/beans/dependencies.md
+        children:
+        - title: Dependency Injection
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html
+          anchor: core-beans-dependencies-factory-collaborators
+          virtual_path: docs/core/beans/dependencies/factory-collaborators.md
+        - title: Dependencies and Configuration in Detail
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-properties-detailed.html
+          anchor: core-beans-dependencies-factory-properties-detailed
+          virtual_path: docs/core/beans/dependencies/factory-properties-detailed.md
+        - title: Using depends-on
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-dependson.html
+          anchor: core-beans-dependencies-factory-dependson
+          virtual_path: docs/core/beans/dependencies/factory-dependson.md
+        - title: Lazy-initialized Beans
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-lazy-init.html
+          anchor: core-beans-dependencies-factory-lazy-init
+          virtual_path: docs/core/beans/dependencies/factory-lazy-init.md
+        - title: Autowiring Collaborators
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-autowire.html
+          anchor: core-beans-dependencies-factory-autowire
+          virtual_path: docs/core/beans/dependencies/factory-autowire.md
+        - title: Method Injection
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-method-injection.html
+          anchor: core-beans-dependencies-factory-method-injection
+          virtual_path: docs/core/beans/dependencies/factory-method-injection.md
+      - title: Bean Scopes
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/factory-scopes.html
+        anchor: core-beans-factory-scopes
+        virtual_path: docs/core/beans/factory-scopes.md
+      - title: Customizing the Nature of a Bean
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/factory-nature.html
+        anchor: core-beans-factory-nature
+        virtual_path: docs/core/beans/factory-nature.md
+      - title: Bean Definition Inheritance
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/child-bean-definitions.html
+        anchor: core-beans-child-bean-definitions
+        virtual_path: docs/core/beans/child-bean-definitions.md
+      - title: Container Extension Points
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/factory-extension.html
+        anchor: core-beans-factory-extension
+        virtual_path: docs/core/beans/factory-extension.md
+      - title: Annotation-based Container Configuration
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/annotation-config.html
+        anchor: core-beans-annotation-config
+        virtual_path: docs/core/beans/annotation-config.md
+        children:
+        - title: Using @Autowired
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/autowired.html
+          anchor: core-beans-annotation-config-autowired
+          virtual_path: docs/core/beans/annotation-config/autowired.md
+        - title: Fine-tuning Annotation-based Autowiring with @Primary or @Fallback
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/autowired-primary.html
+          anchor: core-beans-annotation-config-autowired-primary
+          virtual_path: docs/core/beans/annotation-config/autowired-primary.md
+        - title: Fine-tuning Annotation-based Autowiring with Qualifiers
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/autowired-qualifiers.html
+          anchor: core-beans-annotation-config-autowired-qualifiers
+          virtual_path: docs/core/beans/annotation-config/autowired-qualifiers.md
+        - title: Using Generics as Autowiring Qualifiers
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/generics-as-qualifiers.html
+          anchor: core-beans-annotation-config-generics-as-qualifiers
+          virtual_path: docs/core/beans/annotation-config/generics-as-qualifiers.md
+        - title: Using CustomAutowireConfigurer
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/custom-autowire-configurer.html
+          anchor: core-beans-annotation-config-custom-autowire-configurer
+          virtual_path: docs/core/beans/annotation-config/custom-autowire-configurer.md
+        - title: Injection with @Resource
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/resource.html
+          anchor: core-beans-annotation-config-resource
+          virtual_path: docs/core/beans/annotation-config/resource.md
+        - title: Using @Value
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/value-annotations.html
+          anchor: core-beans-annotation-config-value-annotations
+          virtual_path: docs/core/beans/annotation-config/value-annotations.md
+        - title: Using @PostConstruct and @PreDestroy
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/postconstruct-and-predestroy-annotations.html
+          anchor: core-beans-annotation-config-postconstruct-and-predestroy-annotations
+          virtual_path: docs/core/beans/annotation-config/postconstruct-and-predestroy-annotations.md
+      - title: Classpath Scanning and Managed Components
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/classpath-scanning.html
+        anchor: core-beans-classpath-scanning
+        virtual_path: docs/core/beans/classpath-scanning.md
+      - title: Using JSR-330 Standard Annotations
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/standard-annotations.html
+        anchor: core-beans-standard-annotations
+        virtual_path: docs/core/beans/standard-annotations.md
+      - title: Java-based Container Configuration
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/java.html
+        anchor: core-beans-java
+        virtual_path: docs/core/beans/java.md
+        children:
+        - title: 'Basic Concepts: @Bean and @Configuration'
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/java/basic-concepts.html
+          anchor: core-beans-java-basic-concepts
+          virtual_path: docs/core/beans/java/basic-concepts.md
+        - title: Instantiating the Spring Container by Using AnnotationConfigApplicationContext
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/java/instantiating-container.html
+          anchor: core-beans-java-instantiating-container
+          virtual_path: docs/core/beans/java/instantiating-container.md
+        - title: Using the @Bean Annotation
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/java/bean-annotation.html
+          anchor: core-beans-java-bean-annotation
+          virtual_path: docs/core/beans/java/bean-annotation.md
+        - title: Using the @Configuration annotation
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/java/configuration-annotation.html
+          anchor: core-beans-java-configuration-annotation
+          virtual_path: docs/core/beans/java/configuration-annotation.md
+        - title: Composing Java-based Configurations
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/java/composing-configuration-classes.html
+          anchor: core-beans-java-composing-configuration-classes
+          virtual_path: docs/core/beans/java/composing-configuration-classes.md
+        - title: Programmatic Bean Registration
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/beans/java/programmatic-bean-registration.html
+          anchor: core-beans-java-programmatic-bean-registration
+          virtual_path: docs/core/beans/java/programmatic-bean-registration.md
+      - title: Environment Abstraction
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/environment.html
+        anchor: core-beans-environment
+        virtual_path: docs/core/beans/environment.md
+      - title: Registering a LoadTimeWeaver
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/context-load-time-weaver.html
+        anchor: core-beans-context-load-time-weaver
+        virtual_path: docs/core/beans/context-load-time-weaver.md
+      - title: Additional Capabilities of the ApplicationContext
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/context-introduction.html
+        anchor: core-beans-context-introduction
+        virtual_path: docs/core/beans/context-introduction.md
+      - title: The BeanFactory API
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/beans/beanfactory.html
+        anchor: core-beans-beanfactory
+        virtual_path: docs/core/beans/beanfactory.md
+    - title: Resources
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/core/resources.html
+      anchor: core-resources
+      virtual_path: docs/core/resources.md
+    - title: Validation, Data Binding, and Type Conversion
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/core/validation.html
+      anchor: core-validation
+      virtual_path: docs/core/validation.md
+      children:
+      - title: Validation Using Spring’s Validator Interface
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/validation/validator.html
+        anchor: core-validation-validator
+        virtual_path: docs/core/validation/validator.md
+      - title: Data Binding
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/validation/data-binding.html
+        anchor: core-validation-data-binding
+        virtual_path: docs/core/validation/data-binding.md
+      - title: Resolving Error Codes to Error Messages
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/validation/error-code-resolution.html
+        anchor: core-validation-error-code-resolution
+        virtual_path: docs/core/validation/error-code-resolution.md
+      - title: Spring Type Conversion
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/validation/convert.html
+        anchor: core-validation-convert
+        virtual_path: docs/core/validation/convert.md
+      - title: Spring Field Formatting
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/validation/format.html
+        anchor: core-validation-format
+        virtual_path: docs/core/validation/format.md
+      - title: Configuring a Global Date and Time Format
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/validation/format-configuring-formatting-globaldatetimeformat.html
+        anchor: core-validation-format-configuring-formatting-globaldatetimeformat
+        virtual_path: docs/core/validation/format-configuring-formatting-globaldatetimeformat.md
+      - title: Java Bean Validation
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/validation/beanvalidation.html
+        anchor: core-validation-beanvalidation
+        virtual_path: docs/core/validation/beanvalidation.md
+    - title: Spring Expression Language (SpEL)
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/core/expressions.html
+      anchor: core-expressions
+      virtual_path: docs/core/expressions.md
+      children:
+      - title: Evaluation
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/expressions/evaluation.html
+        anchor: core-expressions-evaluation
+        virtual_path: docs/core/expressions/evaluation.md
+      - title: Expressions in Bean Definitions
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/expressions/beandef.html
+        anchor: core-expressions-beandef
+        virtual_path: docs/core/expressions/beandef.md
+      - title: Language Reference
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref.html
+        anchor: core-expressions-language-ref
+        virtual_path: docs/core/expressions/language-ref.md
+        children:
+        - title: Literal Expressions
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/literal.html
+          anchor: core-expressions-language-ref-literal
+          virtual_path: docs/core/expressions/language-ref/literal.md
+        - title: Properties, Arrays, Lists, Maps, and Indexers
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/properties-arrays.html
+          anchor: core-expressions-language-ref-properties-arrays
+          virtual_path: docs/core/expressions/language-ref/properties-arrays.md
+        - title: Inline Lists
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/inline-lists.html
+          anchor: core-expressions-language-ref-inline-lists
+          virtual_path: docs/core/expressions/language-ref/inline-lists.md
+        - title: Inline Maps
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/inline-maps.html
+          anchor: core-expressions-language-ref-inline-maps
+          virtual_path: docs/core/expressions/language-ref/inline-maps.md
+        - title: Array Construction
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/array-construction.html
+          anchor: core-expressions-language-ref-array-construction
+          virtual_path: docs/core/expressions/language-ref/array-construction.md
+        - title: Methods
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/methods.html
+          anchor: core-expressions-language-ref-methods
+          virtual_path: docs/core/expressions/language-ref/methods.md
+        - title: Operators
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/operators.html
+          anchor: core-expressions-language-ref-operators
+          virtual_path: docs/core/expressions/language-ref/operators.md
+        - title: Types
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/types.html
+          anchor: core-expressions-language-ref-types
+          virtual_path: docs/core/expressions/language-ref/types.md
+        - title: Constructors
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/constructors.html
+          anchor: core-expressions-language-ref-constructors
+          virtual_path: docs/core/expressions/language-ref/constructors.md
+        - title: Variables
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/variables.html
+          anchor: core-expressions-language-ref-variables
+          virtual_path: docs/core/expressions/language-ref/variables.md
+        - title: Functions
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/functions.html
+          anchor: core-expressions-language-ref-functions
+          virtual_path: docs/core/expressions/language-ref/functions.md
+        - title: Varargs Invocations
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/varargs.html
+          anchor: core-expressions-language-ref-varargs
+          virtual_path: docs/core/expressions/language-ref/varargs.md
+        - title: Bean References
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/bean-references.html
+          anchor: core-expressions-language-ref-bean-references
+          virtual_path: docs/core/expressions/language-ref/bean-references.md
+        - title: Ternary Operator (If-Then-Else)
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/operator-ternary.html
+          anchor: core-expressions-language-ref-operator-ternary
+          virtual_path: docs/core/expressions/language-ref/operator-ternary.md
+        - title: The Elvis Operator
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/operator-elvis.html
+          anchor: core-expressions-language-ref-operator-elvis
+          virtual_path: docs/core/expressions/language-ref/operator-elvis.md
+        - title: Safe Navigation Operator
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/operator-safe-navigation.html
+          anchor: core-expressions-language-ref-operator-safe-navigation
+          virtual_path: docs/core/expressions/language-ref/operator-safe-navigation.md
+        - title: Collection Selection
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/collection-selection.html
+          anchor: core-expressions-language-ref-collection-selection
+          virtual_path: docs/core/expressions/language-ref/collection-selection.md
+        - title: Collection Projection
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/collection-projection.html
+          anchor: core-expressions-language-ref-collection-projection
+          virtual_path: docs/core/expressions/language-ref/collection-projection.md
+        - title: Expression Templating
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/templating.html
+          anchor: core-expressions-language-ref-templating
+          virtual_path: docs/core/expressions/language-ref/templating.md
+      - title: Classes Used in the Examples
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/expressions/example-classes.html
+        anchor: core-expressions-example-classes
+        virtual_path: docs/core/expressions/example-classes.md
+    - title: Aspect Oriented Programming with Spring
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/core/aop.html
+      anchor: core-aop
+      virtual_path: docs/core/aop.md
+      children:
+      - title: AOP Concepts
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop/introduction-defn.html
+        anchor: core-aop-introduction-defn
+        virtual_path: docs/core/aop/introduction-defn.md
+      - title: Spring AOP Capabilities and Goals
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop/introduction-spring-defn.html
+        anchor: core-aop-introduction-spring-defn
+        virtual_path: docs/core/aop/introduction-spring-defn.md
+      - title: AOP Proxies
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop/introduction-proxies.html
+        anchor: core-aop-introduction-proxies
+        virtual_path: docs/core/aop/introduction-proxies.md
+      - title: '@AspectJ support'
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop/ataspectj.html
+        anchor: core-aop-ataspectj
+        virtual_path: docs/core/aop/ataspectj.md
+        children:
+        - title: Enabling @AspectJ Support
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/aspectj-support.html
+          anchor: core-aop-ataspectj-aspectj-support
+          virtual_path: docs/core/aop/ataspectj/aspectj-support.md
+        - title: Declaring an Aspect
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/at-aspectj.html
+          anchor: core-aop-ataspectj-at-aspectj
+          virtual_path: docs/core/aop/ataspectj/at-aspectj.md
+        - title: Declaring a Pointcut
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/pointcuts.html
+          anchor: core-aop-ataspectj-pointcuts
+          virtual_path: docs/core/aop/ataspectj/pointcuts.md
+        - title: Declaring Advice
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/advice.html
+          anchor: core-aop-ataspectj-advice
+          virtual_path: docs/core/aop/ataspectj/advice.md
+        - title: Introductions
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/introductions.html
+          anchor: core-aop-ataspectj-introductions
+          virtual_path: docs/core/aop/ataspectj/introductions.md
+        - title: Aspect Instantiation Models
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/instantiation-models.html
+          anchor: core-aop-ataspectj-instantiation-models
+          virtual_path: docs/core/aop/ataspectj/instantiation-models.md
+        - title: An AOP Example
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/example.html
+          anchor: core-aop-ataspectj-example
+          virtual_path: docs/core/aop/ataspectj/example.md
+      - title: Schema-based AOP Support
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop/schema.html
+        anchor: core-aop-schema
+        virtual_path: docs/core/aop/schema.md
+      - title: Choosing which AOP Declaration Style to Use
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop/choosing.html
+        anchor: core-aop-choosing
+        virtual_path: docs/core/aop/choosing.md
+      - title: Mixing Aspect Types
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop/mixing-styles.html
+        anchor: core-aop-mixing-styles
+        virtual_path: docs/core/aop/mixing-styles.md
+      - title: Proxying Mechanisms
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop/proxying.html
+        anchor: core-aop-proxying
+        virtual_path: docs/core/aop/proxying.md
+      - title: Programmatic Creation of @AspectJ Proxies
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop/aspectj-programmatic.html
+        anchor: core-aop-aspectj-programmatic
+        virtual_path: docs/core/aop/aspectj-programmatic.md
+      - title: Using AspectJ with Spring Applications
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop/using-aspectj.html
+        anchor: core-aop-using-aspectj
+        virtual_path: docs/core/aop/using-aspectj.md
+      - title: Further Resources
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop/resources.html
+        anchor: core-aop-resources
+        virtual_path: docs/core/aop/resources.md
+    - title: Spring AOP APIs
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/core/aop-api.html
+      anchor: core-aop-api
+      virtual_path: docs/core/aop-api.md
+      children:
+      - title: Pointcut API in Spring
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop-api/pointcuts.html
+        anchor: core-aop-api-pointcuts
+        virtual_path: docs/core/aop-api/pointcuts.md
+      - title: Advice API in Spring
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop-api/advice.html
+        anchor: core-aop-api-advice
+        virtual_path: docs/core/aop-api/advice.md
+      - title: The Advisor API in Spring
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop-api/advisor.html
+        anchor: core-aop-api-advisor
+        virtual_path: docs/core/aop-api/advisor.md
+      - title: Using the ProxyFactoryBean to Create AOP Proxies
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop-api/pfb.html
+        anchor: core-aop-api-pfb
+        virtual_path: docs/core/aop-api/pfb.md
+      - title: Concise Proxy Definitions
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop-api/concise-proxy.html
+        anchor: core-aop-api-concise-proxy
+        virtual_path: docs/core/aop-api/concise-proxy.md
+      - title: Creating AOP Proxies Programmatically with the ProxyFactory
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop-api/prog.html
+        anchor: core-aop-api-prog
+        virtual_path: docs/core/aop-api/prog.md
+      - title: Manipulating Advised Objects
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop-api/advised.html
+        anchor: core-aop-api-advised
+        virtual_path: docs/core/aop-api/advised.md
+      - title: Using the "auto-proxy" facility
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop-api/autoproxy.html
+        anchor: core-aop-api-autoproxy
+        virtual_path: docs/core/aop-api/autoproxy.md
+      - title: Using TargetSource Implementations
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop-api/targetsource.html
+        anchor: core-aop-api-targetsource
+        virtual_path: docs/core/aop-api/targetsource.md
+      - title: Defining New Advice Types
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/aop-api/extensibility.html
+        anchor: core-aop-api-extensibility
+        virtual_path: docs/core/aop-api/extensibility.md
+    - title: Resilience Features
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/core/resilience.html
+      anchor: core-resilience
+      virtual_path: docs/core/resilience.md
+    - title: Null-safety
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/core/null-safety.html
+      anchor: core-null-safety
+      virtual_path: docs/core/null-safety.md
+    - title: Data Buffers and Codecs
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/core/databuffer-codec.html
+      anchor: core-databuffer-codec
+      virtual_path: docs/core/databuffer-codec.md
+    - title: Ahead of Time Optimizations
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/core/aot.html
+      anchor: core-aot
+      virtual_path: docs/core/aot.md
+    - title: Appendix
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/core/appendix.html
+      anchor: core-appendix
+      virtual_path: docs/core/appendix.md
+      children:
+      - title: XML Schemas
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/appendix/xsd-schemas.html
+        anchor: core-appendix-xsd-schemas
+        virtual_path: docs/core/appendix/xsd-schemas.md
+      - title: XML Schema Authoring
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/appendix/xml-custom.html
+        anchor: core-appendix-xml-custom
+        virtual_path: docs/core/appendix/xml-custom.md
+      - title: Application Startup Steps
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/core/appendix/application-startup-steps.html
+        anchor: core-appendix-application-startup-steps
+        virtual_path: docs/core/appendix/application-startup-steps.md
+  - title: Data Access
+    kind: category
+    source_url: https://docs.spring.io/spring-framework/reference/data-access.html
+    anchor: data-access
+    virtual_path: docs/data-access.md
+    children:
+    - title: Transaction Management
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction.html
+      anchor: data-access-transaction
+      virtual_path: docs/data-access/transaction.md
+      children:
+      - title: Advantages of the Spring Framework’s Transaction Support Model
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/motivation.html
+        anchor: data-access-transaction-motivation
+        virtual_path: docs/data-access/transaction/motivation.md
+      - title: Understanding the Spring Framework Transaction Abstraction
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/strategies.html
+        anchor: data-access-transaction-strategies
+        virtual_path: docs/data-access/transaction/strategies.md
+      - title: Synchronizing Resources with Transactions
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/tx-resource-synchronization.html
+        anchor: data-access-transaction-tx-resource-synchronization
+        virtual_path: docs/data-access/transaction/tx-resource-synchronization.md
+      - title: Declarative Transaction Management
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative.html
+        anchor: data-access-transaction-declarative
+        virtual_path: docs/data-access/transaction/declarative.md
+        children:
+        - title: Understanding the Spring Framework’s Declarative Transaction Implementation
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/tx-decl-explained.html
+          anchor: data-access-transaction-declarative-tx-decl-explained
+          virtual_path: docs/data-access/transaction/declarative/tx-decl-explained.md
+        - title: Example of Declarative Transaction Implementation
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/first-example.html
+          anchor: data-access-transaction-declarative-first-example
+          virtual_path: docs/data-access/transaction/declarative/first-example.md
+        - title: Rolling Back a Declarative Transaction
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/rolling-back.html
+          anchor: data-access-transaction-declarative-rolling-back
+          virtual_path: docs/data-access/transaction/declarative/rolling-back.md
+        - title: Configuring Different Transactional Semantics for Different Beans
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/diff-tx.html
+          anchor: data-access-transaction-declarative-diff-tx
+          virtual_path: docs/data-access/transaction/declarative/diff-tx.md
+        - title: <tx:advice/> Settings
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/txadvice-settings.html
+          anchor: data-access-transaction-declarative-txadvice-settings
+          virtual_path: docs/data-access/transaction/declarative/txadvice-settings.md
+        - title: Using @Transactional
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/annotations.html
+          anchor: data-access-transaction-declarative-annotations
+          virtual_path: docs/data-access/transaction/declarative/annotations.md
+        - title: Transaction Propagation
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/tx-propagation.html
+          anchor: data-access-transaction-declarative-tx-propagation
+          virtual_path: docs/data-access/transaction/declarative/tx-propagation.md
+        - title: Advising Transactional Operations
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/applying-more-than-just-tx-advice.html
+          anchor: data-access-transaction-declarative-applying-more-than-just-tx-advice
+          virtual_path: docs/data-access/transaction/declarative/applying-more-than-just-tx-advice.md
+        - title: Using @Transactional with AspectJ
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/aspectj.html
+          anchor: data-access-transaction-declarative-aspectj
+          virtual_path: docs/data-access/transaction/declarative/aspectj.md
+      - title: Programmatic Transaction Management
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/programmatic.html
+        anchor: data-access-transaction-programmatic
+        virtual_path: docs/data-access/transaction/programmatic.md
+      - title: Choosing Between Programmatic and Declarative Transaction Management
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/tx-decl-vs-prog.html
+        anchor: data-access-transaction-tx-decl-vs-prog
+        virtual_path: docs/data-access/transaction/tx-decl-vs-prog.md
+      - title: Transaction-bound Events
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/event.html
+        anchor: data-access-transaction-event
+        virtual_path: docs/data-access/transaction/event.md
+      - title: Application server-specific integration
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/application-server-integration.html
+        anchor: data-access-transaction-application-server-integration
+        virtual_path: docs/data-access/transaction/application-server-integration.md
+      - title: Solutions to Common Problems
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/solutions-to-common-problems.html
+        anchor: data-access-transaction-solutions-to-common-problems
+        virtual_path: docs/data-access/transaction/solutions-to-common-problems.md
+      - title: Further Resources
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/transaction/resources.html
+        anchor: data-access-transaction-resources
+        virtual_path: docs/data-access/transaction/resources.md
+    - title: DAO Support
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/data-access/dao.html
+      anchor: data-access-dao
+      virtual_path: docs/data-access/dao.md
+    - title: Data Access with JDBC
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/data-access/jdbc.html
+      anchor: data-access-jdbc
+      virtual_path: docs/data-access/jdbc.md
+      children:
+      - title: Choosing an Approach for JDBC Database Access
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/jdbc/choose-style.html
+        anchor: data-access-jdbc-choose-style
+        virtual_path: docs/data-access/jdbc/choose-style.md
+      - title: Package Hierarchy
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/jdbc/packages.html
+        anchor: data-access-jdbc-packages
+        virtual_path: docs/data-access/jdbc/packages.md
+      - title: Using the JDBC Core Classes to Control Basic JDBC Processing and Error
+          Handling
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/jdbc/core.html
+        anchor: data-access-jdbc-core
+        virtual_path: docs/data-access/jdbc/core.md
+      - title: Controlling Database Connections
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/jdbc/connections.html
+        anchor: data-access-jdbc-connections
+        virtual_path: docs/data-access/jdbc/connections.md
+      - title: JDBC Batch Operations
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/jdbc/advanced.html
+        anchor: data-access-jdbc-advanced
+        virtual_path: docs/data-access/jdbc/advanced.md
+      - title: Simplifying JDBC Operations with the SimpleJdbc Classes
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/jdbc/simple.html
+        anchor: data-access-jdbc-simple
+        virtual_path: docs/data-access/jdbc/simple.md
+      - title: Modeling JDBC Operations as Java Objects
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/jdbc/object.html
+        anchor: data-access-jdbc-object
+        virtual_path: docs/data-access/jdbc/object.md
+      - title: Common Problems with Parameter and Data Value Handling
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/jdbc/parameter-handling.html
+        anchor: data-access-jdbc-parameter-handling
+        virtual_path: docs/data-access/jdbc/parameter-handling.md
+      - title: Embedded Database Support
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/jdbc/embedded-database-support.html
+        anchor: data-access-jdbc-embedded-database-support
+        virtual_path: docs/data-access/jdbc/embedded-database-support.md
+      - title: Initializing a DataSource
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/jdbc/initializing-datasource.html
+        anchor: data-access-jdbc-initializing-datasource
+        virtual_path: docs/data-access/jdbc/initializing-datasource.md
+    - title: Data Access with R2DBC
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/data-access/r2dbc.html
+      anchor: data-access-r2dbc
+      virtual_path: docs/data-access/r2dbc.md
+    - title: Object Relational Mapping (ORM) Data Access
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/data-access/orm.html
+      anchor: data-access-orm
+      virtual_path: docs/data-access/orm.md
+      children:
+      - title: Introduction to ORM with Spring
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/orm/introduction.html
+        anchor: data-access-orm-introduction
+        virtual_path: docs/data-access/orm/introduction.md
+      - title: General ORM Integration Considerations
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/orm/general.html
+        anchor: data-access-orm-general
+        virtual_path: docs/data-access/orm/general.md
+      - title: Hibernate
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/orm/hibernate.html
+        anchor: data-access-orm-hibernate
+        virtual_path: docs/data-access/orm/hibernate.md
+      - title: JPA
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/data-access/orm/jpa.html
+        anchor: data-access-orm-jpa
+        virtual_path: docs/data-access/orm/jpa.md
+    - title: Marshalling XML by Using Object-XML Mappers
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/data-access/oxm.html
+      anchor: data-access-oxm
+      virtual_path: docs/data-access/oxm.md
+    - title: Appendix
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/data-access/appendix.html
+      anchor: data-access-appendix
+      virtual_path: docs/data-access/appendix.md
+  - title: Web on Servlet Stack
+    kind: category
+    source_url: https://docs.spring.io/spring-framework/reference/web.html
+    anchor: web
+    virtual_path: docs/web.md
+    children:
+    - title: Spring Web MVC
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/web/webmvc.html
+      anchor: web-webmvc
+      virtual_path: docs/web/webmvc.md
+      children:
+      - title: DispatcherServlet
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet.html
+        anchor: web-webmvc-mvc-servlet
+        virtual_path: docs/web/webmvc/mvc-servlet.md
+        children:
+        - title: Context Hierarchy
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/context-hierarchy.html
+          anchor: web-webmvc-mvc-servlet-context-hierarchy
+          virtual_path: docs/web/webmvc/mvc-servlet/context-hierarchy.md
+        - title: Special Bean Types
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/special-bean-types.html
+          anchor: web-webmvc-mvc-servlet-special-bean-types
+          virtual_path: docs/web/webmvc/mvc-servlet/special-bean-types.md
+        - title: Web MVC Config
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/config.html
+          anchor: web-webmvc-mvc-servlet-config
+          virtual_path: docs/web/webmvc/mvc-servlet/config.md
+        - title: Servlet Config
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/container-config.html
+          anchor: web-webmvc-mvc-servlet-container-config
+          virtual_path: docs/web/webmvc/mvc-servlet/container-config.md
+        - title: Processing
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/sequence.html
+          anchor: web-webmvc-mvc-servlet-sequence
+          virtual_path: docs/web/webmvc/mvc-servlet/sequence.md
+        - title: Path Matching
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/handlermapping-path.html
+          anchor: web-webmvc-mvc-servlet-handlermapping-path
+          virtual_path: docs/web/webmvc/mvc-servlet/handlermapping-path.md
+        - title: Interception
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/handlermapping-interceptor.html
+          anchor: web-webmvc-mvc-servlet-handlermapping-interceptor
+          virtual_path: docs/web/webmvc/mvc-servlet/handlermapping-interceptor.md
+        - title: Exceptions
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/exceptionhandlers.html
+          anchor: web-webmvc-mvc-servlet-exceptionhandlers
+          virtual_path: docs/web/webmvc/mvc-servlet/exceptionhandlers.md
+        - title: View Resolution
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/viewresolver.html
+          anchor: web-webmvc-mvc-servlet-viewresolver
+          virtual_path: docs/web/webmvc/mvc-servlet/viewresolver.md
+        - title: Locale
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/localeresolver.html
+          anchor: web-webmvc-mvc-servlet-localeresolver
+          virtual_path: docs/web/webmvc/mvc-servlet/localeresolver.md
+        - title: Multipart Resolver
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/multipart.html
+          anchor: web-webmvc-mvc-servlet-multipart
+          virtual_path: docs/web/webmvc/mvc-servlet/multipart.md
+        - title: Logging
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/logging.html
+          anchor: web-webmvc-mvc-servlet-logging
+          virtual_path: docs/web/webmvc/mvc-servlet/logging.md
+      - title: Filters
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/filters.html
+        anchor: web-webmvc-filters
+        virtual_path: docs/web/webmvc/filters.md
+      - title: HTTP Message Conversion
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/message-converters.html
+        anchor: web-webmvc-message-converters
+        virtual_path: docs/web/webmvc/message-converters.md
+      - title: Annotated Controllers
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller.html
+        anchor: web-webmvc-mvc-controller
+        virtual_path: docs/web/webmvc/mvc-controller.md
+        children:
+        - title: Declaration
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann.html
+          anchor: web-webmvc-mvc-controller-ann
+          virtual_path: docs/web/webmvc/mvc-controller/ann.md
+        - title: Mapping Requests
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-requestmapping.html
+          anchor: web-webmvc-mvc-controller-ann-requestmapping
+          virtual_path: docs/web/webmvc/mvc-controller/ann-requestmapping.md
+        - title: Handler Methods
+          kind: category
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods.html
+          anchor: web-webmvc-mvc-controller-ann-methods
+          virtual_path: docs/web/webmvc/mvc-controller/ann-methods.md
+          children:
+          - title: Method Arguments
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/arguments.html
+            anchor: web-webmvc-mvc-controller-ann-methods-arguments
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/arguments.md
+          - title: Return Values
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/return-types.html
+            anchor: web-webmvc-mvc-controller-ann-methods-return-types
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/return-types.md
+          - title: Type Conversion
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/typeconversion.html
+            anchor: web-webmvc-mvc-controller-ann-methods-typeconversion
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/typeconversion.md
+          - title: Matrix Variables
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/matrix-variables.html
+            anchor: web-webmvc-mvc-controller-ann-methods-matrix-variables
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/matrix-variables.md
+          - title: '@RequestParam'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/requestparam.html
+            anchor: web-webmvc-mvc-controller-ann-methods-requestparam
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/requestparam.md
+          - title: '@RequestHeader'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/requestheader.html
+            anchor: web-webmvc-mvc-controller-ann-methods-requestheader
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/requestheader.md
+          - title: '@CookieValue'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/cookievalue.html
+            anchor: web-webmvc-mvc-controller-ann-methods-cookievalue
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/cookievalue.md
+          - title: '@ModelAttribute'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/modelattrib-method-args.html
+            anchor: web-webmvc-mvc-controller-ann-methods-modelattrib-method-args
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/modelattrib-method-args.md
+          - title: '@SessionAttributes'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/sessionattributes.html
+            anchor: web-webmvc-mvc-controller-ann-methods-sessionattributes
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/sessionattributes.md
+          - title: '@SessionAttribute'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/sessionattribute.html
+            anchor: web-webmvc-mvc-controller-ann-methods-sessionattribute
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/sessionattribute.md
+          - title: '@RequestAttribute'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/requestattrib.html
+            anchor: web-webmvc-mvc-controller-ann-methods-requestattrib
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/requestattrib.md
+          - title: Redirect Attributes
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/redirecting-passing-data.html
+            anchor: web-webmvc-mvc-controller-ann-methods-redirecting-passing-data
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/redirecting-passing-data.md
+          - title: Flash Attributes
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/flash-attributes.html
+            anchor: web-webmvc-mvc-controller-ann-methods-flash-attributes
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/flash-attributes.md
+          - title: Multipart
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/multipart-forms.html
+            anchor: web-webmvc-mvc-controller-ann-methods-multipart-forms
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/multipart-forms.md
+          - title: '@RequestBody'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/requestbody.html
+            anchor: web-webmvc-mvc-controller-ann-methods-requestbody
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/requestbody.md
+          - title: HttpEntity
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/httpentity.html
+            anchor: web-webmvc-mvc-controller-ann-methods-httpentity
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/httpentity.md
+          - title: '@ResponseBody'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/responsebody.html
+            anchor: web-webmvc-mvc-controller-ann-methods-responsebody
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/responsebody.md
+          - title: ResponseEntity
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/responseentity.html
+            anchor: web-webmvc-mvc-controller-ann-methods-responseentity
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/responseentity.md
+          - title: Jackson JSON
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/jackson.html
+            anchor: web-webmvc-mvc-controller-ann-methods-jackson
+            virtual_path: docs/web/webmvc/mvc-controller/ann-methods/jackson.md
+        - title: Model
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-modelattrib-methods.html
+          anchor: web-webmvc-mvc-controller-ann-modelattrib-methods
+          virtual_path: docs/web/webmvc/mvc-controller/ann-modelattrib-methods.md
+        - title: '@InitBinder'
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-initbinder.html
+          anchor: web-webmvc-mvc-controller-ann-initbinder
+          virtual_path: docs/web/webmvc/mvc-controller/ann-initbinder.md
+        - title: Validation
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-validation.html
+          anchor: web-webmvc-mvc-controller-ann-validation
+          virtual_path: docs/web/webmvc/mvc-controller/ann-validation.md
+        - title: Exceptions
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-exceptionhandler.html
+          anchor: web-webmvc-mvc-controller-ann-exceptionhandler
+          virtual_path: docs/web/webmvc/mvc-controller/ann-exceptionhandler.md
+        - title: Controller Advice
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-advice.html
+          anchor: web-webmvc-mvc-controller-ann-advice
+          virtual_path: docs/web/webmvc/mvc-controller/ann-advice.md
+      - title: Functional Endpoints
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-functional.html
+        anchor: web-webmvc-functional
+        virtual_path: docs/web/webmvc-functional.md
+      - title: URI Links
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-uri-building.html
+        anchor: web-webmvc-mvc-uri-building
+        virtual_path: docs/web/webmvc/mvc-uri-building.md
+      - title: Asynchronous Requests
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-ann-async.html
+        anchor: web-webmvc-mvc-ann-async
+        virtual_path: docs/web/webmvc/mvc-ann-async.md
+      - title: Range Requests
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-range.html
+        anchor: web-webmvc-mvc-range
+        virtual_path: docs/web/webmvc/mvc-range.md
+      - title: Data Binding
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-data-binding.html
+        anchor: web-webmvc-mvc-data-binding
+        virtual_path: docs/web/webmvc/mvc-data-binding.md
+      - title: CORS
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-cors.html
+        anchor: web-webmvc-cors
+        virtual_path: docs/web/webmvc-cors.md
+      - title: API Versioning
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-versioning.html
+        anchor: web-webmvc-versioning
+        virtual_path: docs/web/webmvc-versioning.md
+      - title: Error Responses
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-ann-rest-exceptions.html
+        anchor: web-webmvc-mvc-ann-rest-exceptions
+        virtual_path: docs/web/webmvc/mvc-ann-rest-exceptions.md
+      - title: Web Security
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-security.html
+        anchor: web-webmvc-mvc-security
+        virtual_path: docs/web/webmvc/mvc-security.md
+      - title: HTTP Caching
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-caching.html
+        anchor: web-webmvc-mvc-caching
+        virtual_path: docs/web/webmvc/mvc-caching.md
+      - title: View Technologies
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view.html
+        anchor: web-webmvc-view
+        virtual_path: docs/web/webmvc-view.md
+        children:
+        - title: Thymeleaf
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-thymeleaf.html
+          anchor: web-webmvc-view-mvc-thymeleaf
+          virtual_path: docs/web/webmvc-view/mvc-thymeleaf.md
+        - title: FreeMarker
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-freemarker.html
+          anchor: web-webmvc-view-mvc-freemarker
+          virtual_path: docs/web/webmvc-view/mvc-freemarker.md
+        - title: Groovy Markup
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-groovymarkup.html
+          anchor: web-webmvc-view-mvc-groovymarkup
+          virtual_path: docs/web/webmvc-view/mvc-groovymarkup.md
+        - title: Script Views
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-script.html
+          anchor: web-webmvc-view-mvc-script
+          virtual_path: docs/web/webmvc-view/mvc-script.md
+        - title: HTML Fragments
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-fragments.html
+          anchor: web-webmvc-view-mvc-fragments
+          virtual_path: docs/web/webmvc-view/mvc-fragments.md
+        - title: JSP and JSTL
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-jsp.html
+          anchor: web-webmvc-view-mvc-jsp
+          virtual_path: docs/web/webmvc-view/mvc-jsp.md
+        - title: RSS and Atom
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-feeds.html
+          anchor: web-webmvc-view-mvc-feeds
+          virtual_path: docs/web/webmvc-view/mvc-feeds.md
+        - title: PDF and Excel
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-document.html
+          anchor: web-webmvc-view-mvc-document
+          virtual_path: docs/web/webmvc-view/mvc-document.md
+        - title: Jackson
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-jackson.html
+          anchor: web-webmvc-view-mvc-jackson
+          virtual_path: docs/web/webmvc-view/mvc-jackson.md
+        - title: XML Marshalling
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-xml-marshalling.html
+          anchor: web-webmvc-view-mvc-xml-marshalling
+          virtual_path: docs/web/webmvc-view/mvc-xml-marshalling.md
+        - title: XSLT Views
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-xslt.html
+          anchor: web-webmvc-view-mvc-xslt
+          virtual_path: docs/web/webmvc-view/mvc-xslt.md
+      - title: MVC Config
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config.html
+        anchor: web-webmvc-mvc-config
+        virtual_path: docs/web/webmvc/mvc-config.md
+        children:
+        - title: Enable MVC Configuration
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/enable.html
+          anchor: web-webmvc-mvc-config-enable
+          virtual_path: docs/web/webmvc/mvc-config/enable.md
+        - title: MVC Config API
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/customize.html
+          anchor: web-webmvc-mvc-config-customize
+          virtual_path: docs/web/webmvc/mvc-config/customize.md
+        - title: Type Conversion
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/conversion.html
+          anchor: web-webmvc-mvc-config-conversion
+          virtual_path: docs/web/webmvc/mvc-config/conversion.md
+        - title: Validation
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/validation.html
+          anchor: web-webmvc-mvc-config-validation
+          virtual_path: docs/web/webmvc/mvc-config/validation.md
+        - title: Interceptors
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/interceptors.html
+          anchor: web-webmvc-mvc-config-interceptors
+          virtual_path: docs/web/webmvc/mvc-config/interceptors.md
+        - title: Content Types
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/content-negotiation.html
+          anchor: web-webmvc-mvc-config-content-negotiation
+          virtual_path: docs/web/webmvc/mvc-config/content-negotiation.md
+        - title: Message Converters
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/message-converters.html
+          anchor: web-webmvc-mvc-config-message-converters
+          virtual_path: docs/web/webmvc/mvc-config/message-converters.md
+        - title: View Controllers
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/view-controller.html
+          anchor: web-webmvc-mvc-config-view-controller
+          virtual_path: docs/web/webmvc/mvc-config/view-controller.md
+        - title: View Resolvers
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/view-resolvers.html
+          anchor: web-webmvc-mvc-config-view-resolvers
+          virtual_path: docs/web/webmvc/mvc-config/view-resolvers.md
+        - title: Static Resources
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/static-resources.html
+          anchor: web-webmvc-mvc-config-static-resources
+          virtual_path: docs/web/webmvc/mvc-config/static-resources.md
+        - title: Default Servlet
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/default-servlet-handler.html
+          anchor: web-webmvc-mvc-config-default-servlet-handler
+          virtual_path: docs/web/webmvc/mvc-config/default-servlet-handler.md
+        - title: Path Matching
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/path-matching.html
+          anchor: web-webmvc-mvc-config-path-matching
+          virtual_path: docs/web/webmvc/mvc-config/path-matching.md
+        - title: API Version
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/api-version.html
+          anchor: web-webmvc-mvc-config-api-version
+          virtual_path: docs/web/webmvc/mvc-config/api-version.md
+        - title: Advanced Java Config
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/advanced-java.html
+          anchor: web-webmvc-mvc-config-advanced-java
+          virtual_path: docs/web/webmvc/mvc-config/advanced-java.md
+        - title: Advanced XML Config
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/advanced-xml.html
+          anchor: web-webmvc-mvc-config-advanced-xml
+          virtual_path: docs/web/webmvc/mvc-config/advanced-xml.md
+      - title: HTTP/2
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-http2.html
+        anchor: web-webmvc-mvc-http2
+        virtual_path: docs/web/webmvc/mvc-http2.md
+    - title: REST Clients
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-client.html
+      anchor: web-webmvc-client
+      virtual_path: docs/web/webmvc-client.md
+    - title: Testing
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/web/webmvc-test.html
+      anchor: web-webmvc-test
+      virtual_path: docs/web/webmvc-test.md
+    - title: WebSockets
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/web/websocket.html
+      anchor: web-websocket
+      virtual_path: docs/web/websocket.md
+      children:
+      - title: WebSocket API
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/websocket/server.html
+        anchor: web-websocket-server
+        virtual_path: docs/web/websocket/server.md
+      - title: SockJS Fallback
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/websocket/fallback.html
+        anchor: web-websocket-fallback
+        virtual_path: docs/web/websocket/fallback.md
+      - title: STOMP
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp.html
+        anchor: web-websocket-stomp
+        virtual_path: docs/web/websocket/stomp.md
+        children:
+        - title: Overview
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/overview.html
+          anchor: web-websocket-stomp-overview
+          virtual_path: docs/web/websocket/stomp/overview.md
+        - title: Benefits
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/benefits.html
+          anchor: web-websocket-stomp-benefits
+          virtual_path: docs/web/websocket/stomp/benefits.md
+        - title: Enable STOMP
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/enable.html
+          anchor: web-websocket-stomp-enable
+          virtual_path: docs/web/websocket/stomp/enable.md
+        - title: WebSocket Transport
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/server-config.html
+          anchor: web-websocket-stomp-server-config
+          virtual_path: docs/web/websocket/stomp/server-config.md
+        - title: Flow of Messages
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/message-flow.html
+          anchor: web-websocket-stomp-message-flow
+          virtual_path: docs/web/websocket/stomp/message-flow.md
+        - title: Annotated Controllers
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/handle-annotations.html
+          anchor: web-websocket-stomp-handle-annotations
+          virtual_path: docs/web/websocket/stomp/handle-annotations.md
+        - title: Sending Messages
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/handle-send.html
+          anchor: web-websocket-stomp-handle-send
+          virtual_path: docs/web/websocket/stomp/handle-send.md
+        - title: Simple Broker
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/handle-simple-broker.html
+          anchor: web-websocket-stomp-handle-simple-broker
+          virtual_path: docs/web/websocket/stomp/handle-simple-broker.md
+        - title: External Broker
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/handle-broker-relay.html
+          anchor: web-websocket-stomp-handle-broker-relay
+          virtual_path: docs/web/websocket/stomp/handle-broker-relay.md
+        - title: Connecting to a Broker
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/handle-broker-relay-configure.html
+          anchor: web-websocket-stomp-handle-broker-relay-configure
+          virtual_path: docs/web/websocket/stomp/handle-broker-relay-configure.md
+        - title: Dots as Separators
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/destination-separator.html
+          anchor: web-websocket-stomp-destination-separator
+          virtual_path: docs/web/websocket/stomp/destination-separator.md
+        - title: Authentication
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/authentication.html
+          anchor: web-websocket-stomp-authentication
+          virtual_path: docs/web/websocket/stomp/authentication.md
+        - title: Token Authentication
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/authentication-token-based.html
+          anchor: web-websocket-stomp-authentication-token-based
+          virtual_path: docs/web/websocket/stomp/authentication-token-based.md
+        - title: Authorization
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/authorization.html
+          anchor: web-websocket-stomp-authorization
+          virtual_path: docs/web/websocket/stomp/authorization.md
+        - title: User Destinations
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/user-destination.html
+          anchor: web-websocket-stomp-user-destination
+          virtual_path: docs/web/websocket/stomp/user-destination.md
+        - title: Order of Messages
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/ordered-messages.html
+          anchor: web-websocket-stomp-ordered-messages
+          virtual_path: docs/web/websocket/stomp/ordered-messages.md
+        - title: Events
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/application-context-events.html
+          anchor: web-websocket-stomp-application-context-events
+          virtual_path: docs/web/websocket/stomp/application-context-events.md
+        - title: Interception
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/interceptors.html
+          anchor: web-websocket-stomp-interceptors
+          virtual_path: docs/web/websocket/stomp/interceptors.md
+        - title: STOMP Client
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/client.html
+          anchor: web-websocket-stomp-client
+          virtual_path: docs/web/websocket/stomp/client.md
+        - title: WebSocket Scope
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/scope.html
+          anchor: web-websocket-stomp-scope
+          virtual_path: docs/web/websocket/stomp/scope.md
+        - title: Performance
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/configuration-performance.html
+          anchor: web-websocket-stomp-configuration-performance
+          virtual_path: docs/web/websocket/stomp/configuration-performance.md
+        - title: Monitoring
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/stats.html
+          anchor: web-websocket-stomp-stats
+          virtual_path: docs/web/websocket/stomp/stats.md
+        - title: Testing
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/websocket/stomp/testing.html
+          anchor: web-websocket-stomp-testing
+          virtual_path: docs/web/websocket/stomp/testing.md
+  - title: Web on Reactive Stack
+    kind: category
+    source_url: https://docs.spring.io/spring-framework/reference/web-reactive.html
+    anchor: web-reactive
+    virtual_path: docs/web-reactive.md
+    children:
+    - title: Spring WebFlux
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/web/webflux.html
+      anchor: web-webflux
+      virtual_path: docs/web/webflux.md
+      children:
+      - title: Overview
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/new-framework.html
+        anchor: web-webflux-new-framework
+        virtual_path: docs/web/webflux/new-framework.md
+      - title: Reactive Core
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/reactive-spring.html
+        anchor: web-webflux-reactive-spring
+        virtual_path: docs/web/webflux/reactive-spring.md
+      - title: DispatcherHandler
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/dispatcher-handler.html
+        anchor: web-webflux-dispatcher-handler
+        virtual_path: docs/web/webflux/dispatcher-handler.md
+      - title: Annotated Controllers
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller.html
+        anchor: web-webflux-controller
+        virtual_path: docs/web/webflux/controller.md
+        children:
+        - title: '@Controller'
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann.html
+          anchor: web-webflux-controller-ann
+          virtual_path: docs/web/webflux/controller/ann.md
+        - title: Mapping Requests
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-requestmapping.html
+          anchor: web-webflux-controller-ann-requestmapping
+          virtual_path: docs/web/webflux/controller/ann-requestmapping.md
+        - title: Handler Methods
+          kind: category
+          source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods.html
+          anchor: web-webflux-controller-ann-methods
+          virtual_path: docs/web/webflux/controller/ann-methods.md
+          children:
+          - title: Method Arguments
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/arguments.html
+            anchor: web-webflux-controller-ann-methods-arguments
+            virtual_path: docs/web/webflux/controller/ann-methods/arguments.md
+          - title: Return Values
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/return-types.html
+            anchor: web-webflux-controller-ann-methods-return-types
+            virtual_path: docs/web/webflux/controller/ann-methods/return-types.md
+          - title: Type Conversion
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/typeconversion.html
+            anchor: web-webflux-controller-ann-methods-typeconversion
+            virtual_path: docs/web/webflux/controller/ann-methods/typeconversion.md
+          - title: Matrix Variables
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/matrix-variables.html
+            anchor: web-webflux-controller-ann-methods-matrix-variables
+            virtual_path: docs/web/webflux/controller/ann-methods/matrix-variables.md
+          - title: '@RequestParam'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/requestparam.html
+            anchor: web-webflux-controller-ann-methods-requestparam
+            virtual_path: docs/web/webflux/controller/ann-methods/requestparam.md
+          - title: '@RequestHeader'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/requestheader.html
+            anchor: web-webflux-controller-ann-methods-requestheader
+            virtual_path: docs/web/webflux/controller/ann-methods/requestheader.md
+          - title: '@CookieValue'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/cookievalue.html
+            anchor: web-webflux-controller-ann-methods-cookievalue
+            virtual_path: docs/web/webflux/controller/ann-methods/cookievalue.md
+          - title: '@ModelAttribute'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/modelattrib-method-args.html
+            anchor: web-webflux-controller-ann-methods-modelattrib-method-args
+            virtual_path: docs/web/webflux/controller/ann-methods/modelattrib-method-args.md
+          - title: '@SessionAttributes'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/sessionattributes.html
+            anchor: web-webflux-controller-ann-methods-sessionattributes
+            virtual_path: docs/web/webflux/controller/ann-methods/sessionattributes.md
+          - title: '@SessionAttribute'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/sessionattribute.html
+            anchor: web-webflux-controller-ann-methods-sessionattribute
+            virtual_path: docs/web/webflux/controller/ann-methods/sessionattribute.md
+          - title: '@RequestAttribute'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/requestattrib.html
+            anchor: web-webflux-controller-ann-methods-requestattrib
+            virtual_path: docs/web/webflux/controller/ann-methods/requestattrib.md
+          - title: Multipart Content
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/multipart-forms.html
+            anchor: web-webflux-controller-ann-methods-multipart-forms
+            virtual_path: docs/web/webflux/controller/ann-methods/multipart-forms.md
+          - title: '@RequestBody'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/requestbody.html
+            anchor: web-webflux-controller-ann-methods-requestbody
+            virtual_path: docs/web/webflux/controller/ann-methods/requestbody.md
+          - title: HttpEntity
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/httpentity.html
+            anchor: web-webflux-controller-ann-methods-httpentity
+            virtual_path: docs/web/webflux/controller/ann-methods/httpentity.md
+          - title: '@ResponseBody'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/responsebody.html
+            anchor: web-webflux-controller-ann-methods-responsebody
+            virtual_path: docs/web/webflux/controller/ann-methods/responsebody.md
+          - title: ResponseEntity
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/responseentity.html
+            anchor: web-webflux-controller-ann-methods-responseentity
+            virtual_path: docs/web/webflux/controller/ann-methods/responseentity.md
+          - title: Jackson JSON
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/jackson.html
+            anchor: web-webflux-controller-ann-methods-jackson
+            virtual_path: docs/web/webflux/controller/ann-methods/jackson.md
+        - title: Model
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-modelattrib-methods.html
+          anchor: web-webflux-controller-ann-modelattrib-methods
+          virtual_path: docs/web/webflux/controller/ann-modelattrib-methods.md
+        - title: DataBinder
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-initbinder.html
+          anchor: web-webflux-controller-ann-initbinder
+          virtual_path: docs/web/webflux/controller/ann-initbinder.md
+        - title: Validation
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-validation.html
+          anchor: web-webflux-controller-ann-validation
+          virtual_path: docs/web/webflux/controller/ann-validation.md
+        - title: Exceptions
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-exceptions.html
+          anchor: web-webflux-controller-ann-exceptions
+          virtual_path: docs/web/webflux/controller/ann-exceptions.md
+        - title: Controller Advice
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-advice.html
+          anchor: web-webflux-controller-ann-advice
+          virtual_path: docs/web/webflux/controller/ann-advice.md
+      - title: Functional Endpoints
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-functional.html
+        anchor: web-webflux-functional
+        virtual_path: docs/web/webflux-functional.md
+      - title: URI Links
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/uri-building.html
+        anchor: web-webflux-uri-building
+        virtual_path: docs/web/webflux/uri-building.md
+      - title: Range Requests
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/range.html
+        anchor: web-webflux-range
+        virtual_path: docs/web/webflux/range.md
+      - title: Data Binding
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/data-binding.html
+        anchor: web-webflux-data-binding
+        virtual_path: docs/web/webflux/data-binding.md
+      - title: CORS
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-cors.html
+        anchor: web-webflux-cors
+        virtual_path: docs/web/webflux-cors.md
+      - title: API Versioning
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-versioning.html
+        anchor: web-webflux-versioning
+        virtual_path: docs/web/webflux-versioning.md
+      - title: Error Responses
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/ann-rest-exceptions.html
+        anchor: web-webflux-ann-rest-exceptions
+        virtual_path: docs/web/webflux/ann-rest-exceptions.md
+      - title: Web Security
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/security.html
+        anchor: web-webflux-security
+        virtual_path: docs/web/webflux/security.md
+      - title: HTTP Caching
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/caching.html
+        anchor: web-webflux-caching
+        virtual_path: docs/web/webflux/caching.md
+      - title: View Technologies
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-view.html
+        anchor: web-webflux-view
+        virtual_path: docs/web/webflux-view.md
+      - title: WebFlux Config
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/config.html
+        anchor: web-webflux-config
+        virtual_path: docs/web/webflux/config.md
+      - title: HTTP/2
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux/http2.html
+        anchor: web-webflux-http2
+        virtual_path: docs/web/webflux/http2.md
+    - title: WebClient
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/web/webflux-webclient.html
+      anchor: web-webflux-webclient
+      virtual_path: docs/web/webflux-webclient.md
+      children:
+      - title: Configuration
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-builder.html
+        anchor: web-webflux-webclient-client-builder
+        virtual_path: docs/web/webflux-webclient/client-builder.md
+      - title: retrieve()
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-retrieve.html
+        anchor: web-webflux-webclient-client-retrieve
+        virtual_path: docs/web/webflux-webclient/client-retrieve.md
+      - title: Exchange
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-exchange.html
+        anchor: web-webflux-webclient-client-exchange
+        virtual_path: docs/web/webflux-webclient/client-exchange.md
+      - title: Request Body
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-body.html
+        anchor: web-webflux-webclient-client-body
+        virtual_path: docs/web/webflux-webclient/client-body.md
+      - title: Filters
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-filter.html
+        anchor: web-webflux-webclient-client-filter
+        virtual_path: docs/web/webflux-webclient/client-filter.md
+      - title: Attributes
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-attributes.html
+        anchor: web-webflux-webclient-client-attributes
+        virtual_path: docs/web/webflux-webclient/client-attributes.md
+      - title: Context
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-context.html
+        anchor: web-webflux-webclient-client-context
+        virtual_path: docs/web/webflux-webclient/client-context.md
+      - title: Synchronous Use
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-synchronous.html
+        anchor: web-webflux-webclient-client-synchronous
+        virtual_path: docs/web/webflux-webclient/client-synchronous.md
+      - title: Testing
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-testing.html
+        anchor: web-webflux-webclient-client-testing
+        virtual_path: docs/web/webflux-webclient/client-testing.md
+    - title: HTTP Service Client
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/web/webflux-http-service-client.html
+      anchor: web-webflux-http-service-client
+      virtual_path: docs/web/webflux-http-service-client.md
+    - title: WebSockets
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/web/webflux-websocket.html
+      anchor: web-webflux-websocket
+      virtual_path: docs/web/webflux-websocket.md
+    - title: Testing
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/web/webflux-test.html
+      anchor: web-webflux-test
+      virtual_path: docs/web/webflux-test.md
+    - title: RSocket
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/rsocket.html
+      anchor: rsocket
+      virtual_path: docs/rsocket.md
+    - title: Reactive Libraries
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/web/webflux-reactive-libraries.html
+      anchor: web-webflux-reactive-libraries
+      virtual_path: docs/web/webflux-reactive-libraries.md
+  - title: Testing
+    kind: category
+    source_url: https://docs.spring.io/spring-framework/reference/testing.html
+    anchor: testing
+    virtual_path: docs/testing.md
+    children:
+    - title: Introduction to Spring Testing
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/testing/introduction.html
+      anchor: testing-introduction
+      virtual_path: docs/testing/introduction.md
+    - title: Unit Testing
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/testing/unit.html
+      anchor: testing-unit
+      virtual_path: docs/testing/unit.md
+    - title: Integration Testing
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/testing/integration.html
+      anchor: testing-integration
+      virtual_path: docs/testing/integration.md
+    - title: JDBC Testing Support
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/testing/support-jdbc.html
+      anchor: testing-support-jdbc
+      virtual_path: docs/testing/support-jdbc.md
+    - title: Spring TestContext Framework
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework.html
+      anchor: testing-testcontext-framework
+      virtual_path: docs/testing/testcontext-framework.md
+      children:
+      - title: Key Abstractions
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/key-abstractions.html
+        anchor: testing-testcontext-framework-key-abstractions
+        virtual_path: docs/testing/testcontext-framework/key-abstractions.md
+      - title: Bootstrapping the TestContext Framework
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/bootstrapping.html
+        anchor: testing-testcontext-framework-bootstrapping
+        virtual_path: docs/testing/testcontext-framework/bootstrapping.md
+      - title: TestExecutionListener Configuration
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/tel-config.html
+        anchor: testing-testcontext-framework-tel-config
+        virtual_path: docs/testing/testcontext-framework/tel-config.md
+      - title: Application Events
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/application-events.html
+        anchor: testing-testcontext-framework-application-events
+        virtual_path: docs/testing/testcontext-framework/application-events.md
+      - title: Test Execution Events
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/test-execution-events.html
+        anchor: testing-testcontext-framework-test-execution-events
+        virtual_path: docs/testing/testcontext-framework/test-execution-events.md
+      - title: Context Management
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management.html
+        anchor: testing-testcontext-framework-ctx-management
+        virtual_path: docs/testing/testcontext-framework/ctx-management.md
+        children:
+        - title: Context Configuration with Component Classes
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/javaconfig.html
+          anchor: testing-testcontext-framework-ctx-management-javaconfig
+          virtual_path: docs/testing/testcontext-framework/ctx-management/javaconfig.md
+        - title: Context Configuration with XML Resources
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/xml.html
+          anchor: testing-testcontext-framework-ctx-management-xml
+          virtual_path: docs/testing/testcontext-framework/ctx-management/xml.md
+        - title: Context Configuration with Groovy Scripts
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/groovy.html
+          anchor: testing-testcontext-framework-ctx-management-groovy
+          virtual_path: docs/testing/testcontext-framework/ctx-management/groovy.md
+        - title: Default Context Configuration
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/default-config.html
+          anchor: testing-testcontext-framework-ctx-management-default-config
+          virtual_path: docs/testing/testcontext-framework/ctx-management/default-config.md
+        - title: Mixing Component Classes, XML, and Groovy Scripts
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/mixed-config.html
+          anchor: testing-testcontext-framework-ctx-management-mixed-config
+          virtual_path: docs/testing/testcontext-framework/ctx-management/mixed-config.md
+        - title: Context Configuration with Context Customizers
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/context-customizers.html
+          anchor: testing-testcontext-framework-ctx-management-context-customizers
+          virtual_path: docs/testing/testcontext-framework/ctx-management/context-customizers.md
+        - title: Context Configuration with Context Initializers
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/initializers.html
+          anchor: testing-testcontext-framework-ctx-management-initializers
+          virtual_path: docs/testing/testcontext-framework/ctx-management/initializers.md
+        - title: Context Configuration Inheritance
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/inheritance.html
+          anchor: testing-testcontext-framework-ctx-management-inheritance
+          virtual_path: docs/testing/testcontext-framework/ctx-management/inheritance.md
+        - title: Context Configuration with Environment Profiles
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/env-profiles.html
+          anchor: testing-testcontext-framework-ctx-management-env-profiles
+          virtual_path: docs/testing/testcontext-framework/ctx-management/env-profiles.md
+        - title: Context Configuration with Test Property Sources
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/property-sources.html
+          anchor: testing-testcontext-framework-ctx-management-property-sources
+          virtual_path: docs/testing/testcontext-framework/ctx-management/property-sources.md
+        - title: Context Configuration with Dynamic Property Sources
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/dynamic-property-sources.html
+          anchor: testing-testcontext-framework-ctx-management-dynamic-property-sources
+          virtual_path: docs/testing/testcontext-framework/ctx-management/dynamic-property-sources.md
+        - title: Loading a WebApplicationContext
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/web.html
+          anchor: testing-testcontext-framework-ctx-management-web
+          virtual_path: docs/testing/testcontext-framework/ctx-management/web.md
+        - title: Working with Web Mocks
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/web-mocks.html
+          anchor: testing-testcontext-framework-ctx-management-web-mocks
+          virtual_path: docs/testing/testcontext-framework/ctx-management/web-mocks.md
+        - title: Context Caching
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/caching.html
+          anchor: testing-testcontext-framework-ctx-management-caching
+          virtual_path: docs/testing/testcontext-framework/ctx-management/caching.md
+        - title: Context Pausing
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/context-pausing.html
+          anchor: testing-testcontext-framework-ctx-management-context-pausing
+          virtual_path: docs/testing/testcontext-framework/ctx-management/context-pausing.md
+        - title: Context Failure Threshold
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/failure-threshold.html
+          anchor: testing-testcontext-framework-ctx-management-failure-threshold
+          virtual_path: docs/testing/testcontext-framework/ctx-management/failure-threshold.md
+        - title: Context Hierarchies
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/hierarchies.html
+          anchor: testing-testcontext-framework-ctx-management-hierarchies
+          virtual_path: docs/testing/testcontext-framework/ctx-management/hierarchies.md
+      - title: Dependency Injection of Test Fixtures
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/fixture-di.html
+        anchor: testing-testcontext-framework-fixture-di
+        virtual_path: docs/testing/testcontext-framework/fixture-di.md
+      - title: Bean Overriding in Tests
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/bean-overriding.html
+        anchor: testing-testcontext-framework-bean-overriding
+        virtual_path: docs/testing/testcontext-framework/bean-overriding.md
+      - title: Testing Request- and Session-scoped Beans
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/web-scoped-beans.html
+        anchor: testing-testcontext-framework-web-scoped-beans
+        virtual_path: docs/testing/testcontext-framework/web-scoped-beans.md
+      - title: Transaction Management
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/tx.html
+        anchor: testing-testcontext-framework-tx
+        virtual_path: docs/testing/testcontext-framework/tx.md
+      - title: Executing SQL Scripts
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/executing-sql.html
+        anchor: testing-testcontext-framework-executing-sql
+        virtual_path: docs/testing/testcontext-framework/executing-sql.md
+      - title: Parallel Test Execution
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/parallel-test-execution.html
+        anchor: testing-testcontext-framework-parallel-test-execution
+        virtual_path: docs/testing/testcontext-framework/parallel-test-execution.md
+      - title: TestContext Framework Support Classes
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/support-classes.html
+        anchor: testing-testcontext-framework-support-classes
+        virtual_path: docs/testing/testcontext-framework/support-classes.md
+      - title: Ahead of Time Support for Tests
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/aot.html
+        anchor: testing-testcontext-framework-aot
+        virtual_path: docs/testing/testcontext-framework/aot.md
+    - title: WebTestClient
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/testing/webtestclient.html
+      anchor: testing-webtestclient
+      virtual_path: docs/testing/webtestclient.md
+    - title: RestTestClient
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/testing/resttestclient.html
+      anchor: testing-resttestclient
+      virtual_path: docs/testing/resttestclient.md
+    - title: MockMvc
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc.html
+      anchor: testing-mockmvc
+      virtual_path: docs/testing/mockmvc.md
+      children:
+      - title: Overview
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/overview.html
+        anchor: testing-mockmvc-overview
+        virtual_path: docs/testing/mockmvc/overview.md
+      - title: Setup Options
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/setup-options.html
+        anchor: testing-mockmvc-setup-options
+        virtual_path: docs/testing/mockmvc/setup-options.md
+      - title: Hamcrest Integration
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest.html
+        anchor: testing-mockmvc-hamcrest
+        virtual_path: docs/testing/mockmvc/hamcrest.md
+        children:
+        - title: Static Imports
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/static-imports.html
+          anchor: testing-mockmvc-hamcrest-static-imports
+          virtual_path: docs/testing/mockmvc/hamcrest/static-imports.md
+        - title: Configuring MockMvc
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/setup.html
+          anchor: testing-mockmvc-hamcrest-setup
+          virtual_path: docs/testing/mockmvc/hamcrest/setup.md
+        - title: Setup Features
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/setup-steps.html
+          anchor: testing-mockmvc-hamcrest-setup-steps
+          virtual_path: docs/testing/mockmvc/hamcrest/setup-steps.md
+        - title: Performing Requests
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/requests.html
+          anchor: testing-mockmvc-hamcrest-requests
+          virtual_path: docs/testing/mockmvc/hamcrest/requests.md
+        - title: Defining Expectations
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/expectations.html
+          anchor: testing-mockmvc-hamcrest-expectations
+          virtual_path: docs/testing/mockmvc/hamcrest/expectations.md
+        - title: Async Requests
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/async-requests.html
+          anchor: testing-mockmvc-hamcrest-async-requests
+          virtual_path: docs/testing/mockmvc/hamcrest/async-requests.md
+        - title: Streaming Responses
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/vs-streaming-response.html
+          anchor: testing-mockmvc-hamcrest-vs-streaming-response
+          virtual_path: docs/testing/mockmvc/hamcrest/vs-streaming-response.md
+        - title: Filter Registrations
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/filters.html
+          anchor: testing-mockmvc-hamcrest-filters
+          virtual_path: docs/testing/mockmvc/hamcrest/filters.md
+      - title: AssertJ Integration
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/assertj.html
+        anchor: testing-mockmvc-assertj
+        virtual_path: docs/testing/mockmvc/assertj.md
+        children:
+        - title: Configuring MockMvcTester
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/assertj/setup.html
+          anchor: testing-mockmvc-assertj-setup
+          virtual_path: docs/testing/mockmvc/assertj/setup.md
+        - title: Performing Requests
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/assertj/requests.html
+          anchor: testing-mockmvc-assertj-requests
+          virtual_path: docs/testing/mockmvc/assertj/requests.md
+        - title: Defining Expectations
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/assertj/assertions.html
+          anchor: testing-mockmvc-assertj-assertions
+          virtual_path: docs/testing/mockmvc/assertj/assertions.md
+        - title: MockMvc integration
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/assertj/integration.html
+          anchor: testing-mockmvc-assertj-integration
+          virtual_path: docs/testing/mockmvc/assertj/integration.md
+      - title: HtmlUnit Integration
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/htmlunit.html
+        anchor: testing-mockmvc-htmlunit
+        virtual_path: docs/testing/mockmvc/htmlunit.md
+        children:
+        - title: Why HtmlUnit Integration?
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/htmlunit/why.html
+          anchor: testing-mockmvc-htmlunit-why
+          virtual_path: docs/testing/mockmvc/htmlunit/why.md
+        - title: MockMvc and HtmlUnit
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/htmlunit/mah.html
+          anchor: testing-mockmvc-htmlunit-mah
+          virtual_path: docs/testing/mockmvc/htmlunit/mah.md
+        - title: MockMvc and WebDriver
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/htmlunit/webdriver.html
+          anchor: testing-mockmvc-htmlunit-webdriver
+          virtual_path: docs/testing/mockmvc/htmlunit/webdriver.md
+        - title: MockMvc and Geb
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/htmlunit/geb.html
+          anchor: testing-mockmvc-htmlunit-geb
+          virtual_path: docs/testing/mockmvc/htmlunit/geb.md
+      - title: MockMvc vs End-to-End Tests
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/vs-end-to-end-integration-tests.html
+        anchor: testing-mockmvc-vs-end-to-end-integration-tests
+        virtual_path: docs/testing/mockmvc/vs-end-to-end-integration-tests.md
+      - title: Further Examples
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/mockmvc/resources.html
+        anchor: testing-mockmvc-resources
+        virtual_path: docs/testing/mockmvc/resources.md
+    - title: Testing Client Applications
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/testing/spring-mvc-test-client.html
+      anchor: testing-spring-mvc-test-client
+      virtual_path: docs/testing/spring-mvc-test-client.md
+    - title: Appendix
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/testing/appendix.html
+      anchor: testing-appendix
+      virtual_path: docs/testing/appendix.md
+      children:
+      - title: Annotations
+        kind: category
+        source_url: https://docs.spring.io/spring-framework/reference/testing/annotations.html
+        anchor: testing-annotations
+        virtual_path: docs/testing/annotations.md
+        children:
+        - title: Standard Annotation Support
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-standard.html
+          anchor: testing-annotations-integration-standard
+          virtual_path: docs/testing/annotations/integration-standard.md
+        - title: Spring Testing Annotations
+          kind: category
+          source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring.html
+          anchor: testing-annotations-integration-spring
+          virtual_path: docs/testing/annotations/integration-spring.md
+          children:
+          - title: '@BootstrapWith'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-bootstrapwith.html
+            anchor: testing-annotations-integration-spring-annotation-bootstrapwith
+            virtual_path: docs/testing/annotations/integration-spring/annotation-bootstrapwith.md
+          - title: '@ContextConfiguration'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-contextconfiguration.html
+            anchor: testing-annotations-integration-spring-annotation-contextconfiguration
+            virtual_path: docs/testing/annotations/integration-spring/annotation-contextconfiguration.md
+          - title: '@WebAppConfiguration'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-webappconfiguration.html
+            anchor: testing-annotations-integration-spring-annotation-webappconfiguration
+            virtual_path: docs/testing/annotations/integration-spring/annotation-webappconfiguration.md
+          - title: '@ContextHierarchy'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-contexthierarchy.html
+            anchor: testing-annotations-integration-spring-annotation-contexthierarchy
+            virtual_path: docs/testing/annotations/integration-spring/annotation-contexthierarchy.md
+          - title: '@ContextCustomizerFactories'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-contextcustomizerfactories.html
+            anchor: testing-annotations-integration-spring-annotation-contextcustomizerfactories
+            virtual_path: docs/testing/annotations/integration-spring/annotation-contextcustomizerfactories.md
+          - title: '@ActiveProfiles'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-activeprofiles.html
+            anchor: testing-annotations-integration-spring-annotation-activeprofiles
+            virtual_path: docs/testing/annotations/integration-spring/annotation-activeprofiles.md
+          - title: '@TestPropertySource'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-testpropertysource.html
+            anchor: testing-annotations-integration-spring-annotation-testpropertysource
+            virtual_path: docs/testing/annotations/integration-spring/annotation-testpropertysource.md
+          - title: '@DynamicPropertySource'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-dynamicpropertysource.html
+            anchor: testing-annotations-integration-spring-annotation-dynamicpropertysource
+            virtual_path: docs/testing/annotations/integration-spring/annotation-dynamicpropertysource.md
+          - title: '@TestBean'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-testbean.html
+            anchor: testing-annotations-integration-spring-annotation-testbean
+            virtual_path: docs/testing/annotations/integration-spring/annotation-testbean.md
+          - title: '@MockitoBean and @MockitoSpyBean'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-mockitobean.html
+            anchor: testing-annotations-integration-spring-annotation-mockitobean
+            virtual_path: docs/testing/annotations/integration-spring/annotation-mockitobean.md
+          - title: '@DirtiesContext'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-dirtiescontext.html
+            anchor: testing-annotations-integration-spring-annotation-dirtiescontext
+            virtual_path: docs/testing/annotations/integration-spring/annotation-dirtiescontext.md
+          - title: '@TestExecutionListeners'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-testexecutionlisteners.html
+            anchor: testing-annotations-integration-spring-annotation-testexecutionlisteners
+            virtual_path: docs/testing/annotations/integration-spring/annotation-testexecutionlisteners.md
+          - title: '@RecordApplicationEvents'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-recordapplicationevents.html
+            anchor: testing-annotations-integration-spring-annotation-recordapplicationevents
+            virtual_path: docs/testing/annotations/integration-spring/annotation-recordapplicationevents.md
+          - title: '@Commit'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-commit.html
+            anchor: testing-annotations-integration-spring-annotation-commit
+            virtual_path: docs/testing/annotations/integration-spring/annotation-commit.md
+          - title: '@Rollback'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-rollback.html
+            anchor: testing-annotations-integration-spring-annotation-rollback
+            virtual_path: docs/testing/annotations/integration-spring/annotation-rollback.md
+          - title: '@BeforeTransaction'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-beforetransaction.html
+            anchor: testing-annotations-integration-spring-annotation-beforetransaction
+            virtual_path: docs/testing/annotations/integration-spring/annotation-beforetransaction.md
+          - title: '@AfterTransaction'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-aftertransaction.html
+            anchor: testing-annotations-integration-spring-annotation-aftertransaction
+            virtual_path: docs/testing/annotations/integration-spring/annotation-aftertransaction.md
+          - title: '@Sql'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-sql.html
+            anchor: testing-annotations-integration-spring-annotation-sql
+            virtual_path: docs/testing/annotations/integration-spring/annotation-sql.md
+          - title: '@SqlConfig'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-sqlconfig.html
+            anchor: testing-annotations-integration-spring-annotation-sqlconfig
+            virtual_path: docs/testing/annotations/integration-spring/annotation-sqlconfig.md
+          - title: '@SqlMergeMode'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-sqlmergemode.html
+            anchor: testing-annotations-integration-spring-annotation-sqlmergemode
+            virtual_path: docs/testing/annotations/integration-spring/annotation-sqlmergemode.md
+          - title: '@SqlGroup'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-sqlgroup.html
+            anchor: testing-annotations-integration-spring-annotation-sqlgroup
+            virtual_path: docs/testing/annotations/integration-spring/annotation-sqlgroup.md
+          - title: '@DisabledInAotMode'
+            kind: link
+            source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-disabledinaotmode.html
+            anchor: testing-annotations-integration-spring-annotation-disabledinaotmode
+            virtual_path: docs/testing/annotations/integration-spring/annotation-disabledinaotmode.md
+        - title: Spring JUnit 4 Testing Annotations
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-junit4.html
+          anchor: testing-annotations-integration-junit4
+          virtual_path: docs/testing/annotations/integration-junit4.md
+        - title: Spring JUnit Jupiter Testing Annotations
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-junit-jupiter.html
+          anchor: testing-annotations-integration-junit-jupiter
+          virtual_path: docs/testing/annotations/integration-junit-jupiter.md
+        - title: Meta-Annotation Support for Testing
+          kind: link
+          source_url: https://docs.spring.io/spring-framework/reference/testing/annotations/integration-meta.html
+          anchor: testing-annotations-integration-meta
+          virtual_path: docs/testing/annotations/integration-meta.md
+      - title: Further Resources
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/testing/resources.html
+        anchor: testing-resources
+        virtual_path: docs/testing/resources.md
+  - title: Integration
+    kind: category
+    source_url: https://docs.spring.io/spring-framework/reference/integration.html
+    anchor: integration
+    virtual_path: docs/integration.md
+    children:
+    - title: REST Clients
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/integration/rest-clients.html
+      anchor: integration-rest-clients
+      virtual_path: docs/integration/rest-clients.md
+    - title: JMS (Java Message Service)
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/integration/jms.html
+      anchor: integration-jms
+      virtual_path: docs/integration/jms.md
+      children:
+      - title: Using Spring JMS
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jms/using.html
+        anchor: integration-jms-using
+        virtual_path: docs/integration/jms/using.md
+      - title: Sending a Message
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jms/sending.html
+        anchor: integration-jms-sending
+        virtual_path: docs/integration/jms/sending.md
+      - title: Receiving a Message
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jms/receiving.html
+        anchor: integration-jms-receiving
+        virtual_path: docs/integration/jms/receiving.md
+      - title: Support for JCA Message Endpoints
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jms/jca-message-endpoint-manager.html
+        anchor: integration-jms-jca-message-endpoint-manager
+        virtual_path: docs/integration/jms/jca-message-endpoint-manager.md
+      - title: Annotation-driven Listener Endpoints
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jms/annotated.html
+        anchor: integration-jms-annotated
+        virtual_path: docs/integration/jms/annotated.md
+      - title: JMS Namespace Support
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jms/namespace.html
+        anchor: integration-jms-namespace
+        virtual_path: docs/integration/jms/namespace.md
+    - title: JMX
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/integration/jmx.html
+      anchor: integration-jmx
+      virtual_path: docs/integration/jmx.md
+      children:
+      - title: Exporting Your Beans to JMX
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jmx/exporting.html
+        anchor: integration-jmx-exporting
+        virtual_path: docs/integration/jmx/exporting.md
+      - title: Controlling the Management Interface of Your Beans
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jmx/interface.html
+        anchor: integration-jmx-interface
+        virtual_path: docs/integration/jmx/interface.md
+      - title: Controlling ObjectName Instances for Your Beans
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jmx/naming.html
+        anchor: integration-jmx-naming
+        virtual_path: docs/integration/jmx/naming.md
+      - title: Using JSR-160 Connectors
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jmx/jsr160.html
+        anchor: integration-jmx-jsr160
+        virtual_path: docs/integration/jmx/jsr160.md
+      - title: Accessing MBeans through Proxies
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jmx/proxy.html
+        anchor: integration-jmx-proxy
+        virtual_path: docs/integration/jmx/proxy.md
+      - title: Notifications
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jmx/notifications.html
+        anchor: integration-jmx-notifications
+        virtual_path: docs/integration/jmx/notifications.md
+      - title: Further Resources
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/jmx/resources.html
+        anchor: integration-jmx-resources
+        virtual_path: docs/integration/jmx/resources.md
+    - title: Email
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/integration/email.html
+      anchor: integration-email
+      virtual_path: docs/integration/email.md
+    - title: Task Execution and Scheduling
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/integration/scheduling.html
+      anchor: integration-scheduling
+      virtual_path: docs/integration/scheduling.md
+    - title: Cache Abstraction
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/integration/cache.html
+      anchor: integration-cache
+      virtual_path: docs/integration/cache.md
+      children:
+      - title: Understanding the Cache Abstraction
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/cache/strategies.html
+        anchor: integration-cache-strategies
+        virtual_path: docs/integration/cache/strategies.md
+      - title: Declarative Annotation-based Caching
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/cache/annotations.html
+        anchor: integration-cache-annotations
+        virtual_path: docs/integration/cache/annotations.md
+      - title: JCache (JSR-107) Annotations
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/cache/jsr-107.html
+        anchor: integration-cache-jsr-107
+        virtual_path: docs/integration/cache/jsr-107.md
+      - title: Declarative XML-based Caching
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/cache/declarative-xml.html
+        anchor: integration-cache-declarative-xml
+        virtual_path: docs/integration/cache/declarative-xml.md
+      - title: Configuring the Cache Storage
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/cache/store-configuration.html
+        anchor: integration-cache-store-configuration
+        virtual_path: docs/integration/cache/store-configuration.md
+      - title: Plugging-in Different Back-end Caches
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/cache/plug.html
+        anchor: integration-cache-plug
+        virtual_path: docs/integration/cache/plug.md
+      - title: How can I Set the TTL/TTI/Eviction policy/XXX feature?
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/integration/cache/specific-config.html
+        anchor: integration-cache-specific-config
+        virtual_path: docs/integration/cache/specific-config.md
+    - title: Observability Support
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/integration/observability.html
+      anchor: integration-observability
+      virtual_path: docs/integration/observability.md
+    - title: JVM AOT Cache
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/integration/aot-cache.html
+      anchor: integration-aot-cache
+      virtual_path: docs/integration/aot-cache.md
+    - title: JVM Checkpoint Restore
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/integration/checkpoint-restore.html
+      anchor: integration-checkpoint-restore
+      virtual_path: docs/integration/checkpoint-restore.md
+    - title: Appendix
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/integration/appendix.html
+      anchor: integration-appendix
+      virtual_path: docs/integration/appendix.md
+  - title: Language Support
+    kind: category
+    source_url: https://docs.spring.io/spring-framework/reference/languages.html
+    anchor: languages
+    virtual_path: docs/languages.md
+    children:
+    - title: Kotlin
+      kind: category
+      source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin.html
+      anchor: languages-kotlin
+      virtual_path: docs/languages/kotlin.md
+      children:
+      - title: Requirements
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin/requirements.html
+        anchor: languages-kotlin-requirements
+        virtual_path: docs/languages/kotlin/requirements.md
+      - title: Extensions
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin/extensions.html
+        anchor: languages-kotlin-extensions
+        virtual_path: docs/languages/kotlin/extensions.md
+      - title: Null-safety
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin/null-safety.html
+        anchor: languages-kotlin-null-safety
+        virtual_path: docs/languages/kotlin/null-safety.md
+      - title: Classes and Interfaces
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin/classes-interfaces.html
+        anchor: languages-kotlin-classes-interfaces
+        virtual_path: docs/languages/kotlin/classes-interfaces.md
+      - title: Annotations
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin/annotations.html
+        anchor: languages-kotlin-annotations
+        virtual_path: docs/languages/kotlin/annotations.md
+      - title: Bean Registration DSL
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin/bean-registration-dsl.html
+        anchor: languages-kotlin-bean-registration-dsl
+        virtual_path: docs/languages/kotlin/bean-registration-dsl.md
+      - title: Web
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin/web.html
+        anchor: languages-kotlin-web
+        virtual_path: docs/languages/kotlin/web.md
+      - title: Coroutines
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin/coroutines.html
+        anchor: languages-kotlin-coroutines
+        virtual_path: docs/languages/kotlin/coroutines.md
+      - title: Spring Projects in Kotlin
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin/spring-projects-in.html
+        anchor: languages-kotlin-spring-projects-in
+        virtual_path: docs/languages/kotlin/spring-projects-in.md
+      - title: Getting Started
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin/getting-started.html
+        anchor: languages-kotlin-getting-started
+        virtual_path: docs/languages/kotlin/getting-started.md
+      - title: Resources
+        kind: link
+        source_url: https://docs.spring.io/spring-framework/reference/languages/kotlin/resources.html
+        anchor: languages-kotlin-resources
+        virtual_path: docs/languages/kotlin/resources.md
+    - title: Apache Groovy
+      kind: link
+      source_url: https://docs.spring.io/spring-framework/reference/languages/groovy.html
+      anchor: languages-groovy
+      virtual_path: docs/languages/groovy.md
+  - title: Appendix
+    kind: link
+    source_url: https://docs.spring.io/spring-framework/reference/appendix.html
+    anchor: appendix
+    virtual_path: docs/appendix.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Spring Framework Documentation
+    kind: link
+    source_url: https://docs.spring.io/spring-framework/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md

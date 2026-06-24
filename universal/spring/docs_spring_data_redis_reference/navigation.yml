@@ -1,0 +1,222 @@
+- title: Overview
+  kind: category
+  children:
+  - title: Overview
+    kind: category
+    source_url: https://docs.spring.io/spring-data/redis/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md
+    children:
+    - title: Upgrading Spring Data
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/commons/upgrade.html
+      anchor: commons-upgrade
+      virtual_path: docs/commons/upgrade.md
+    - title: Migration Guides
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/upgrading.html
+      anchor: upgrading
+      virtual_path: docs/upgrading.md
+  - title: Redis
+    kind: category
+    source_url: https://docs.spring.io/spring-data/redis/reference/redis.html
+    anchor: redis
+    virtual_path: docs/redis.md
+    children:
+    - title: Getting Started
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/getting-started.html
+      anchor: redis-getting-started
+      virtual_path: docs/redis/getting-started.md
+    - title: Drivers
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/drivers.html
+      anchor: redis-drivers
+      virtual_path: docs/redis/drivers.md
+    - title: Connection Modes
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/connection-modes.html
+      anchor: redis-connection-modes
+      virtual_path: docs/redis/connection-modes.md
+    - title: RedisTemplate
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/template.html
+      anchor: redis-template
+      virtual_path: docs/redis/template.md
+    - title: Redis Cache
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-cache.html
+      anchor: redis-redis-cache
+      virtual_path: docs/redis/redis-cache.md
+    - title: Redis Cluster
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/cluster.html
+      anchor: redis-cluster
+      virtual_path: docs/redis/cluster.md
+    - title: Hash Mapping
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/hash-mappers.html
+      anchor: redis-hash-mappers
+      virtual_path: docs/redis/hash-mappers.md
+    - title: Pub/Sub Messaging
+      kind: category
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/pubsub.html
+      anchor: redis-pubsub
+      virtual_path: docs/redis/pubsub.md
+      children:
+      - title: Publishing (Sending a Message)
+        kind: link
+        source_url: https://docs.spring.io/spring-data/redis/reference/redis/pubsub-sending.html
+        anchor: redis-pubsub-sending
+        virtual_path: docs/redis/pubsub-sending.md
+      - title: Subscribing (Receiving a Message)
+        kind: link
+        source_url: https://docs.spring.io/spring-data/redis/reference/redis/pubsub-receiving.html
+        anchor: redis-pubsub-receiving
+        virtual_path: docs/redis/pubsub-receiving.md
+      - title: Annotation-driven Listener Endpoints
+        kind: link
+        source_url: https://docs.spring.io/spring-data/redis/reference/redis/pubsub-annotated.html
+        anchor: redis-pubsub-annotated
+        virtual_path: docs/redis/pubsub-annotated.md
+    - title: Redis Streams
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-streams.html
+      anchor: redis-redis-streams
+      virtual_path: docs/redis/redis-streams.md
+    - title: Scripting
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/scripting.html
+      anchor: redis-scripting
+      virtual_path: docs/redis/scripting.md
+    - title: Redis Transactions
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/transactions.html
+      anchor: redis-transactions
+      virtual_path: docs/redis/transactions.md
+    - title: Pipelining
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/pipelining.html
+      anchor: redis-pipelining
+      virtual_path: docs/redis/pipelining.md
+    - title: Support Classes
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/support-classes.html
+      anchor: redis-support-classes
+      virtual_path: docs/redis/support-classes.md
+  - title: Redis Repositories
+    kind: category
+    source_url: https://docs.spring.io/spring-data/redis/reference/repositories.html
+    anchor: repositories
+    virtual_path: docs/repositories.md
+    children:
+    - title: Core concepts
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/repositories/core-concepts.html
+      anchor: repositories-core-concepts
+      virtual_path: docs/repositories/core-concepts.md
+    - title: Defining Repository Interfaces
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/repositories/definition.html
+      anchor: repositories-definition
+      virtual_path: docs/repositories/definition.md
+    - title: Creating Repository Instances
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/repositories/create-instances.html
+      anchor: repositories-create-instances
+      virtual_path: docs/repositories/create-instances.md
+    - title: Usage
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-repositories/usage.html
+      anchor: redis-redis-repositories-usage
+      virtual_path: docs/redis/redis-repositories/usage.md
+    - title: Object Mapping Fundamentals
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/repositories/object-mapping.html
+      anchor: repositories-object-mapping
+      virtual_path: docs/repositories/object-mapping.md
+    - title: Object-to-Hash Mapping
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-repositories/mapping.html
+      anchor: redis-redis-repositories-mapping
+      virtual_path: docs/redis/redis-repositories/mapping.md
+    - title: Keyspaces
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-repositories/keyspaces.html
+      anchor: redis-redis-repositories-keyspaces
+      virtual_path: docs/redis/redis-repositories/keyspaces.md
+    - title: Secondary Indexes
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-repositories/indexes.html
+      anchor: redis-redis-repositories-indexes
+      virtual_path: docs/redis/redis-repositories/indexes.md
+    - title: Time To Live
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-repositories/expirations.html
+      anchor: redis-redis-repositories-expirations
+      virtual_path: docs/redis/redis-repositories/expirations.md
+    - title: Redis-specific Query Methods
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-repositories/queries.html
+      anchor: redis-redis-repositories-queries
+      virtual_path: docs/redis/redis-repositories/queries.md
+    - title: Query by Example
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-repositories/query-by-example.html
+      anchor: redis-redis-repositories-query-by-example
+      virtual_path: docs/redis/redis-repositories/query-by-example.md
+    - title: Redis Repositories Running on a Cluster
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-repositories/cluster.html
+      anchor: redis-redis-repositories-cluster
+      virtual_path: docs/redis/redis-repositories/cluster.md
+    - title: Redis Repositories Anatomy
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-repositories/anatomy.html
+      anchor: redis-redis-repositories-anatomy
+      virtual_path: docs/redis/redis-repositories/anatomy.md
+    - title: Projections
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/repositories/projections.html
+      anchor: repositories-projections
+      virtual_path: docs/repositories/projections.md
+    - title: Custom Repository Implementations
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/repositories/custom-implementations.html
+      anchor: repositories-custom-implementations
+      virtual_path: docs/repositories/custom-implementations.md
+    - title: Publishing Events from Aggregate Roots
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/repositories/core-domain-events.html
+      anchor: repositories-core-domain-events
+      virtual_path: docs/repositories/core-domain-events.md
+    - title: Null Handling of Repository Methods
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/repositories/null-handling.html
+      anchor: repositories-null-handling
+      virtual_path: docs/repositories/null-handling.md
+    - title: CDI Integration
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/redis/redis-repositories/cdi-integration.html
+      anchor: redis-redis-repositories-cdi-integration
+      virtual_path: docs/redis/redis-repositories/cdi-integration.md
+    - title: Repository query keywords
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/repositories/query-keywords-reference.html
+      anchor: repositories-query-keywords-reference
+      virtual_path: docs/repositories/query-keywords-reference.md
+    - title: Repository query return types
+      kind: link
+      source_url: https://docs.spring.io/spring-data/redis/reference/repositories/query-return-types-reference.html
+      anchor: repositories-query-return-types-reference
+      virtual_path: docs/repositories/query-return-types-reference.md
+  - title: Observability
+    kind: link
+    source_url: https://docs.spring.io/spring-data/redis/reference/observability.html
+    anchor: observability
+    virtual_path: docs/observability.md
+  - title: Appendix
+    kind: link
+    source_url: https://docs.spring.io/spring-data/redis/reference/appendix.html
+    anchor: appendix
+    virtual_path: docs/appendix.md

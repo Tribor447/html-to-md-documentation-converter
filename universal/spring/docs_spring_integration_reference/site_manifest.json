@@ -1,0 +1,2369 @@
+{
+  "entry_url": "https://docs.spring.io/spring-integration/reference/index.html",
+  "site_prefix": "/spring-integration/reference/",
+  "site_slug": "docs_spring_integration_reference",
+  "profile": "antora",
+  "combined_markdown": "combined.md",
+  "page_count": 262,
+  "asset_count": 16,
+  "pages": [
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/aggregator.html",
+      "title": "Aggregator",
+      "anchor": "aggregator",
+      "virtual_path": "docs/aggregator.md",
+      "profile": "antora",
+      "score": 78546,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp.html",
+      "title": "AMQP (RabbitMQ) Support",
+      "anchor": "amqp",
+      "virtual_path": "docs/amqp.md",
+      "profile": "antora",
+      "score": 4927,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/alternative-confirms-returns.html",
+      "title": "Alternative Mechanism for Publisher Confirms and Returns",
+      "anchor": "amqp-alternative-confirms-returns",
+      "virtual_path": "docs/amqp/alternative-confirms-returns.md",
+      "profile": "antora",
+      "score": 3940,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/amqp-1.0.html",
+      "title": "AMQP 1.0 Support",
+      "anchor": "amqp-amqp-1.0",
+      "virtual_path": "docs/amqp/amqp-1.0.md",
+      "profile": "antora",
+      "score": 17520,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/async-outbound-gateway.html",
+      "title": "Asynchronous Outbound Gateway",
+      "anchor": "amqp-async-outbound-gateway",
+      "virtual_path": "docs/amqp/async-outbound-gateway.md",
+      "profile": "antora",
+      "score": 11728,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/channels.html",
+      "title": "AMQP-backed Message Channels",
+      "anchor": "amqp-channels",
+      "virtual_path": "docs/amqp/channels.md",
+      "profile": "antora",
+      "score": 9899,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/content-type-conversion-outbound.html",
+      "title": "Outbound Message Conversion",
+      "anchor": "amqp-content-type-conversion-outbound",
+      "virtual_path": "docs/amqp/content-type-conversion-outbound.md",
+      "profile": "antora",
+      "score": 6073,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/conversion-inbound.html",
+      "title": "Inbound Message Conversion",
+      "anchor": "amqp-conversion-inbound",
+      "virtual_path": "docs/amqp/conversion-inbound.md",
+      "profile": "antora",
+      "score": 3575,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/delay.html",
+      "title": "Delayed Message Exchange",
+      "anchor": "amqp-delay",
+      "virtual_path": "docs/amqp/delay.md",
+      "profile": "antora",
+      "score": 2398,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/inbound-ack.html",
+      "title": "Inbound Endpoint Acknowledge Mode",
+      "anchor": "amqp-inbound-ack",
+      "virtual_path": "docs/amqp/inbound-ack.md",
+      "profile": "antora",
+      "score": 4128,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/inbound-channel-adapter.html",
+      "title": "Inbound Channel Adapter",
+      "anchor": "amqp-inbound-channel-adapter",
+      "virtual_path": "docs/amqp/inbound-channel-adapter.md",
+      "profile": "antora",
+      "score": 17468,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/inbound-gateway.html",
+      "title": "Inbound Gateway",
+      "anchor": "amqp-inbound-gateway",
+      "virtual_path": "docs/amqp/inbound-gateway.md",
+      "profile": "antora",
+      "score": 8097,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/message-headers.html",
+      "title": "AMQP Message Headers",
+      "anchor": "amqp-message-headers",
+      "virtual_path": "docs/amqp/message-headers.md",
+      "profile": "antora",
+      "score": 11580,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/outbound-channel-adapter.html",
+      "title": "Outbound Channel Adapter",
+      "anchor": "amqp-outbound-channel-adapter",
+      "virtual_path": "docs/amqp/outbound-channel-adapter.md",
+      "profile": "antora",
+      "score": 11878,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/outbound-endpoints.html",
+      "title": "Outbound Endpoints",
+      "anchor": "amqp-outbound-endpoints",
+      "virtual_path": "docs/amqp/outbound-endpoints.md",
+      "profile": "antora",
+      "score": 2574,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/outbound-gateway.html",
+      "title": "Outbound Gateway",
+      "anchor": "amqp-outbound-gateway",
+      "virtual_path": "docs/amqp/outbound-gateway.md",
+      "profile": "antora",
+      "score": 11210,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/polled-inbound-channel-adapter.html",
+      "title": "Polled Inbound Channel Adapter",
+      "anchor": "amqp-polled-inbound-channel-adapter",
+      "virtual_path": "docs/amqp/polled-inbound-channel-adapter.md",
+      "profile": "antora",
+      "score": 4452,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/rmq-streams.html",
+      "title": "RabbitMQ Stream Queue Support",
+      "anchor": "amqp-rmq-streams",
+      "virtual_path": "docs/amqp/rmq-streams.md",
+      "profile": "antora",
+      "score": 3732,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/samples.html",
+      "title": "AMQP Samples",
+      "anchor": "amqp-samples",
+      "virtual_path": "docs/amqp/samples.md",
+      "profile": "antora",
+      "score": 3304,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/strict-ordering.html",
+      "title": "Strict Message Ordering",
+      "anchor": "amqp-strict-ordering",
+      "virtual_path": "docs/amqp/strict-ordering.md",
+      "profile": "antora",
+      "score": 6152,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/amqp/user-id.html",
+      "title": "Outbound User ID",
+      "anchor": "amqp-user-id",
+      "virtual_path": "docs/amqp/user-id.md",
+      "profile": "antora",
+      "score": 2868,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/barrier.html",
+      "title": "Thread Barrier",
+      "anchor": "barrier",
+      "virtual_path": "docs/barrier.md",
+      "profile": "antora",
+      "score": 7524,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/bridge.html",
+      "title": "Messaging Bridge",
+      "anchor": "bridge",
+      "virtual_path": "docs/bridge.md",
+      "profile": "antora",
+      "score": 8987,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/camel.html",
+      "title": "Apache Camel Support",
+      "anchor": "camel",
+      "virtual_path": "docs/camel.md",
+      "profile": "antora",
+      "score": 9119,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/cassandra.html",
+      "title": "Apache Cassandra Support",
+      "anchor": "cassandra",
+      "virtual_path": "docs/cassandra.md",
+      "profile": "antora",
+      "score": 11176,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/chain.html",
+      "title": "Message Handler Chain",
+      "anchor": "chain",
+      "virtual_path": "docs/chain.md",
+      "profile": "antora",
+      "score": 15097,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/channel-adapter.html",
+      "title": "Channel Adapter",
+      "anchor": "channel-adapter",
+      "virtual_path": "docs/channel-adapter.md",
+      "profile": "antora",
+      "score": 18387,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/channel.html",
+      "title": "Message Channels",
+      "anchor": "channel",
+      "virtual_path": "docs/channel.md",
+      "profile": "antora",
+      "score": 2272,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/channel/configuration.html",
+      "title": "Configuring Message Channels",
+      "anchor": "channel-configuration",
+      "virtual_path": "docs/channel/configuration.md",
+      "profile": "antora",
+      "score": 52507,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/channel/implementations.html",
+      "title": "Message Channel Implementations",
+      "anchor": "channel-implementations",
+      "virtual_path": "docs/channel/implementations.md",
+      "profile": "antora",
+      "score": 23027,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/channel/interceptors.html",
+      "title": "Channel Interceptors",
+      "anchor": "channel-interceptors",
+      "virtual_path": "docs/channel/interceptors.md",
+      "profile": "antora",
+      "score": 8231,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/channel/interfaces.html",
+      "title": "The MessageChannel Interface",
+      "anchor": "channel-interfaces",
+      "virtual_path": "docs/channel/interfaces.md",
+      "profile": "antora",
+      "score": 4905,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/channel/special-channels.html",
+      "title": "Special Channels",
+      "anchor": "channel-special-channels",
+      "virtual_path": "docs/channel/special-channels.md",
+      "profile": "antora",
+      "score": 3543,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/channel/template.html",
+      "title": "MessagingTemplate",
+      "anchor": "channel-template",
+      "virtual_path": "docs/channel/template.md",
+      "profile": "antora",
+      "score": 4059,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/claim-check.html",
+      "title": "Claim Check",
+      "anchor": "claim-check",
+      "virtual_path": "docs/claim-check.md",
+      "profile": "antora",
+      "score": 14374,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/cloudevents.html",
+      "title": "CloudEvents Support",
+      "anchor": "cloudevents",
+      "virtual_path": "docs/cloudevents.md",
+      "profile": "antora",
+      "score": 26142,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/codec.html",
+      "title": "Codec",
+      "anchor": "codec",
+      "virtual_path": "docs/codec.md",
+      "profile": "antora",
+      "score": 15155,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/configuration.html",
+      "title": "Configuration",
+      "anchor": "configuration",
+      "virtual_path": "docs/configuration.md",
+      "profile": "antora",
+      "score": 3267,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/configuration/annotations.html",
+      "title": "Annotation Support",
+      "anchor": "configuration-annotations",
+      "virtual_path": "docs/configuration/annotations.md",
+      "profile": "antora",
+      "score": 23336,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/configuration/global-properties.html",
+      "title": "Global Properties",
+      "anchor": "configuration-global-properties",
+      "virtual_path": "docs/configuration/global-properties.md",
+      "profile": "antora",
+      "score": 7343,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/configuration/message-mapping-rules.html",
+      "title": "Message Mapping Rules and Conventions",
+      "anchor": "configuration-message-mapping-rules",
+      "virtual_path": "docs/configuration/message-mapping-rules.md",
+      "profile": "antora",
+      "score": 18507,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/configuration/meta-annotations.html",
+      "title": "Messaging Meta-Annotations",
+      "anchor": "configuration-meta-annotations",
+      "virtual_path": "docs/configuration/meta-annotations.md",
+      "profile": "antora",
+      "score": 11873,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/configuration/namespace-taskscheduler.html",
+      "title": "Configuring the Task Scheduler",
+      "anchor": "configuration-namespace-taskscheduler",
+      "virtual_path": "docs/configuration/namespace-taskscheduler.md",
+      "profile": "antora",
+      "score": 5953,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/configuration/namespace.html",
+      "title": "Namespace Support",
+      "anchor": "configuration-namespace",
+      "virtual_path": "docs/configuration/namespace.md",
+      "profile": "antora",
+      "score": 7561,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/content-enrichment.html",
+      "title": "Content Enricher",
+      "anchor": "content-enrichment",
+      "virtual_path": "docs/content-enrichment.md",
+      "profile": "antora",
+      "score": 31906,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/control-bus.html",
+      "title": "Control Bus",
+      "anchor": "control-bus",
+      "virtual_path": "docs/control-bus.md",
+      "profile": "antora",
+      "score": 9541,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/core.html",
+      "title": "Core Messaging",
+      "anchor": "core",
+      "virtual_path": "docs/core.md",
+      "profile": "antora",
+      "score": 2763,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/debezium.html",
+      "title": "Debezium Support",
+      "anchor": "debezium",
+      "virtual_path": "docs/debezium.md",
+      "profile": "antora",
+      "score": 14306,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/delayer.html",
+      "title": "Delayer",
+      "anchor": "delayer",
+      "virtual_path": "docs/delayer.md",
+      "profile": "antora",
+      "score": 18447,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/distributed-locks.html",
+      "title": "Distributed Locks",
+      "anchor": "distributed-locks",
+      "virtual_path": "docs/distributed-locks.md",
+      "profile": "antora",
+      "score": 6364,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl.html",
+      "title": "Java DSL",
+      "anchor": "dsl",
+      "virtual_path": "docs/dsl.md",
+      "profile": "antora",
+      "score": 5553,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/integration-flow-as-gateway.html",
+      "title": "IntegrationFlow as a Gateway",
+      "anchor": "dsl-integration-flow-as-gateway",
+      "virtual_path": "docs/dsl/integration-flow-as-gateway.md",
+      "profile": "antora",
+      "score": 4973,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/integration-flows-composition.html",
+      "title": "Integration Flows Composition",
+      "anchor": "dsl-integration-flows-composition",
+      "virtual_path": "docs/dsl/integration-flows-composition.md",
+      "profile": "antora",
+      "score": 4925,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-aggregators.html",
+      "title": "Aggregators and Resequencers",
+      "anchor": "dsl-java-aggregators",
+      "virtual_path": "docs/dsl/java-aggregators.md",
+      "profile": "antora",
+      "score": 4115,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-basics.html",
+      "title": "DSL Basics",
+      "anchor": "dsl-java-basics",
+      "virtual_path": "docs/dsl/java-basics.md",
+      "profile": "antora",
+      "score": 8816,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-channels.html",
+      "title": "Message Channels",
+      "anchor": "dsl-java-channels",
+      "virtual_path": "docs/dsl/java-channels.md",
+      "profile": "antora",
+      "score": 7176,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-endpoints.html",
+      "title": "DSL and Endpoint Configuration",
+      "anchor": "dsl-java-endpoints",
+      "virtual_path": "docs/dsl/java-endpoints.md",
+      "profile": "antora",
+      "score": 4097,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-extensions.html",
+      "title": "DSL Extensions",
+      "anchor": "dsl-java-extensions",
+      "virtual_path": "docs/dsl/java-extensions.md",
+      "profile": "antora",
+      "score": 4231,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-flow-adapter.html",
+      "title": "IntegrationFlowAdapter",
+      "anchor": "dsl-java-flow-adapter",
+      "virtual_path": "docs/dsl/java-flow-adapter.md",
+      "profile": "antora",
+      "score": 4529,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-flows.html",
+      "title": "Working With Message Flows",
+      "anchor": "dsl-java-flows",
+      "virtual_path": "docs/dsl/java-flows.md",
+      "profile": "antora",
+      "score": 5884,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-function-expression.html",
+      "title": "FunctionExpression",
+      "anchor": "dsl-java-function-expression",
+      "virtual_path": "docs/dsl/java-function-expression.md",
+      "profile": "antora",
+      "score": 2835,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-gateway.html",
+      "title": "Operator gateway()",
+      "anchor": "dsl-java-gateway",
+      "virtual_path": "docs/dsl/java-gateway.md",
+      "profile": "antora",
+      "score": 4949,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-handle.html",
+      "title": "Service Activators and the .handle() method",
+      "anchor": "dsl-java-handle",
+      "virtual_path": "docs/dsl/java-handle.md",
+      "profile": "antora",
+      "score": 4747,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-inbound-adapters.html",
+      "title": "Inbound Channel Adapters",
+      "anchor": "dsl-java-inbound-adapters",
+      "virtual_path": "docs/dsl/java-inbound-adapters.md",
+      "profile": "antora",
+      "score": 3833,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-intercept.html",
+      "title": "Operator intercept()",
+      "anchor": "dsl-java-intercept",
+      "virtual_path": "docs/dsl/java-intercept.md",
+      "profile": "antora",
+      "score": 2604,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-log.html",
+      "title": "Operator log()",
+      "anchor": "dsl-java-log",
+      "virtual_path": "docs/dsl/java-log.md",
+      "profile": "antora",
+      "score": 3378,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-pollers.html",
+      "title": "Pollers",
+      "anchor": "dsl-java-pollers",
+      "virtual_path": "docs/dsl/java-pollers.md",
+      "profile": "antora",
+      "score": 3083,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-protocol-adapters.html",
+      "title": "Using Protocol Adapters",
+      "anchor": "dsl-java-protocol-adapters",
+      "virtual_path": "docs/dsl/java-protocol-adapters.md",
+      "profile": "antora",
+      "score": 6464,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-reactive.html",
+      "title": "The reactive() Endpoint",
+      "anchor": "dsl-java-reactive",
+      "virtual_path": "docs/dsl/java-reactive.md",
+      "profile": "antora",
+      "score": 3395,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-routers.html",
+      "title": "Message Routers",
+      "anchor": "dsl-java-routers",
+      "virtual_path": "docs/dsl/java-routers.md",
+      "profile": "antora",
+      "score": 5682,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-runtime-flows.html",
+      "title": "Dynamic and Runtime Integration Flows",
+      "anchor": "dsl-java-runtime-flows",
+      "virtual_path": "docs/dsl/java-runtime-flows.md",
+      "profile": "antora",
+      "score": 8361,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-splitters.html",
+      "title": "Splitters",
+      "anchor": "dsl-java-splitters",
+      "virtual_path": "docs/dsl/java-splitters.md",
+      "profile": "antora",
+      "score": 3146,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-subflows.html",
+      "title": "Sub-flows support",
+      "anchor": "dsl-java-subflows",
+      "virtual_path": "docs/dsl/java-subflows.md",
+      "profile": "antora",
+      "score": 9272,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-transformers.html",
+      "title": "Transformers",
+      "anchor": "dsl-java-transformers",
+      "virtual_path": "docs/dsl/java-transformers.md",
+      "profile": "antora",
+      "score": 3737,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/dsl/java-wiretap.html",
+      "title": "MessageChannelSpec.wireTap()",
+      "anchor": "dsl-java-wiretap",
+      "virtual_path": "docs/dsl/java-wiretap.md",
+      "profile": "antora",
+      "score": 4333,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/endpoint-roles.html",
+      "title": "Endpoint Roles",
+      "anchor": "endpoint-roles",
+      "virtual_path": "docs/endpoint-roles.md",
+      "profile": "antora",
+      "score": 7560,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/endpoint-summary.html",
+      "title": "Integration Endpoints",
+      "anchor": "endpoint-summary",
+      "virtual_path": "docs/endpoint-summary.md",
+      "profile": "antora",
+      "score": 21421,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/endpoint.html",
+      "title": "Message Endpoints",
+      "anchor": "endpoint",
+      "virtual_path": "docs/endpoint.md",
+      "profile": "antora",
+      "score": 52575,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/error-handling.html",
+      "title": "Error Handling",
+      "anchor": "error-handling",
+      "virtual_path": "docs/error-handling.md",
+      "profile": "antora",
+      "score": 11235,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/event.html",
+      "title": "Spring ApplicationEvent Support",
+      "anchor": "event",
+      "virtual_path": "docs/event.md",
+      "profile": "antora",
+      "score": 12731,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/feed.html",
+      "title": "Feed Support",
+      "anchor": "feed",
+      "virtual_path": "docs/feed.md",
+      "profile": "antora",
+      "score": 10906,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/file.html",
+      "title": "File Support",
+      "anchor": "file",
+      "virtual_path": "docs/file.md",
+      "profile": "antora",
+      "score": 3675,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/file/aggregator.html",
+      "title": "File Aggregator",
+      "anchor": "file-aggregator",
+      "virtual_path": "docs/file/aggregator.md",
+      "profile": "antora",
+      "score": 6386,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/file/reading.html",
+      "title": "Reading Files",
+      "anchor": "file-reading",
+      "virtual_path": "docs/file/reading.md",
+      "profile": "antora",
+      "score": 43988,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/file/remote-persistent-flf.html",
+      "title": "Remote Persistent File List Filters",
+      "anchor": "file-remote-persistent-flf",
+      "virtual_path": "docs/file/remote-persistent-flf.md",
+      "profile": "antora",
+      "score": 6156,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/file/splitter.html",
+      "title": "File Splitter",
+      "anchor": "file-splitter",
+      "virtual_path": "docs/file/splitter.md",
+      "profile": "antora",
+      "score": 12397,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/file/transforming.html",
+      "title": "File Transformers",
+      "anchor": "file-transforming",
+      "virtual_path": "docs/file/transforming.md",
+      "profile": "antora",
+      "score": 4462,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/file/writing.html",
+      "title": "Writing files",
+      "anchor": "file-writing",
+      "virtual_path": "docs/file/writing.md",
+      "profile": "antora",
+      "score": 27198,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/filter.html",
+      "title": "Filter",
+      "anchor": "filter",
+      "virtual_path": "docs/filter.md",
+      "profile": "antora",
+      "score": 17626,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp.html",
+      "title": "FTP/FTPS Support",
+      "anchor": "ftp",
+      "virtual_path": "docs/ftp.md",
+      "profile": "antora",
+      "score": 4569,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/advanced-configuration.html",
+      "title": "Advanced Configuration",
+      "anchor": "ftp-advanced-configuration",
+      "virtual_path": "docs/ftp/advanced-configuration.md",
+      "profile": "antora",
+      "score": 7245,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/dsf.html",
+      "title": "Delegating Session Factory",
+      "anchor": "ftp-dsf",
+      "virtual_path": "docs/ftp/dsf.md",
+      "profile": "antora",
+      "score": 3060,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/inbound.html",
+      "title": "FTP Inbound Channel Adapter",
+      "anchor": "ftp-inbound",
+      "virtual_path": "docs/ftp/inbound.md",
+      "profile": "antora",
+      "score": 24953,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/max-fetch.html",
+      "title": "Inbound Channel Adapters: Controlling Remote File Fetching",
+      "anchor": "ftp-max-fetch",
+      "virtual_path": "docs/ftp/max-fetch.md",
+      "profile": "antora",
+      "score": 2024,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/outbound-gateway.html",
+      "title": "FTP Outbound Gateway",
+      "anchor": "ftp-outbound-gateway",
+      "virtual_path": "docs/ftp/outbound-gateway.md",
+      "profile": "antora",
+      "score": 32030,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/outbound.html",
+      "title": "FTP Outbound Channel Adapter",
+      "anchor": "ftp-outbound",
+      "virtual_path": "docs/ftp/outbound.md",
+      "profile": "antora",
+      "score": 12572,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/remote-file-info.html",
+      "title": "Remote File Information",
+      "anchor": "ftp-remote-file-info",
+      "virtual_path": "docs/ftp/remote-file-info.md",
+      "profile": "antora",
+      "score": 4083,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/rft.html",
+      "title": "Using RemoteFileTemplate",
+      "anchor": "ftp-rft",
+      "virtual_path": "docs/ftp/rft.md",
+      "profile": "antora",
+      "score": 7145,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/rotating-server-advice.html",
+      "title": "Inbound Channel Adapters: Polling Multiple Servers and Directories",
+      "anchor": "ftp-rotating-server-advice",
+      "virtual_path": "docs/ftp/rotating-server-advice.md",
+      "profile": "antora",
+      "score": 6309,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/server-events.html",
+      "title": "Apache Mina FTP Server Events",
+      "anchor": "ftp-server-events",
+      "virtual_path": "docs/ftp/server-events.md",
+      "profile": "antora",
+      "score": 5065,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/session-caching.html",
+      "title": "FTP Session Caching",
+      "anchor": "ftp-session-caching",
+      "virtual_path": "docs/ftp/session-caching.md",
+      "profile": "antora",
+      "score": 5156,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/session-callback.html",
+      "title": "Using MessageSessionCallback",
+      "anchor": "ftp-session-callback",
+      "virtual_path": "docs/ftp/session-callback.md",
+      "profile": "antora",
+      "score": 3629,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/session-factory.html",
+      "title": "FTP Session Factory",
+      "anchor": "ftp-session-factory",
+      "virtual_path": "docs/ftp/session-factory.md",
+      "profile": "antora",
+      "score": 5850,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ftp/streaming.html",
+      "title": "FTP Streaming Inbound Channel Adapter",
+      "anchor": "ftp-streaming",
+      "virtual_path": "docs/ftp/streaming.md",
+      "profile": "antora",
+      "score": 8211,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/functions-support.html",
+      "title": "java.util.function Interfaces Support",
+      "anchor": "functions-support",
+      "virtual_path": "docs/functions-support.md",
+      "profile": "antora",
+      "score": 6923,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/gateway.html",
+      "title": "Messaging Gateways",
+      "anchor": "gateway",
+      "virtual_path": "docs/gateway.md",
+      "profile": "antora",
+      "score": 67670,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/graph.html",
+      "title": "Integration Graph",
+      "anchor": "graph",
+      "virtual_path": "docs/graph.md",
+      "profile": "antora",
+      "score": 14340,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/graphql.html",
+      "title": "GraphQL Support",
+      "anchor": "graphql",
+      "virtual_path": "docs/graphql.md",
+      "profile": "antora",
+      "score": 7724,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/groovy-dsl.html",
+      "title": "Groovy DSL",
+      "anchor": "groovy-dsl",
+      "virtual_path": "docs/groovy-dsl.md",
+      "profile": "antora",
+      "score": 6804,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/groovy.html",
+      "title": "Groovy Support",
+      "anchor": "groovy",
+      "virtual_path": "docs/groovy.md",
+      "profile": "antora",
+      "score": 11772,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/grpc.html",
+      "title": "gRPC Support",
+      "anchor": "grpc",
+      "virtual_path": "docs/grpc.md",
+      "profile": "antora",
+      "score": 21548,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice.html",
+      "title": "Adding Behavior to Endpoints",
+      "anchor": "handler-advice",
+      "virtual_path": "docs/handler-advice.md",
+      "profile": "antora",
+      "score": 5254,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/advised-properties.html",
+      "title": "Advised Handler Properties",
+      "anchor": "handler-advice-advised-properties",
+      "virtual_path": "docs/handler-advice/advised-properties.md",
+      "profile": "antora",
+      "score": 4199,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/advising-filters.html",
+      "title": "Advising Filters",
+      "anchor": "handler-advice-advising-filters",
+      "virtual_path": "docs/handler-advice/advising-filters.md",
+      "profile": "antora",
+      "score": 2716,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/advising-with-annotations.html",
+      "title": "Advising Endpoints Using Annotations",
+      "anchor": "handler-advice-advising-with-annotations",
+      "virtual_path": "docs/handler-advice/advising-with-annotations.md",
+      "profile": "antora",
+      "score": 2878,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/classes.html",
+      "title": "Provided Advice Classes",
+      "anchor": "handler-advice-classes",
+      "virtual_path": "docs/handler-advice/classes.md",
+      "profile": "antora",
+      "score": 27554,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/context-holder.html",
+      "title": "Context Holder Advice",
+      "anchor": "handler-advice-context-holder",
+      "virtual_path": "docs/handler-advice/context-holder.md",
+      "profile": "antora",
+      "score": 4629,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/custom.html",
+      "title": "Custom Advice Classes",
+      "anchor": "handler-advice-custom",
+      "virtual_path": "docs/handler-advice/custom.md",
+      "profile": "antora",
+      "score": 6282,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/handle-message.html",
+      "title": "Handling Message Advice",
+      "anchor": "handler-advice-handle-message",
+      "virtual_path": "docs/handler-advice/handle-message.md",
+      "profile": "antora",
+      "score": 5695,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/idempotent-receiver.html",
+      "title": "Idempotent Receiver Enterprise Integration Pattern",
+      "anchor": "handler-advice-idempotent-receiver",
+      "virtual_path": "docs/handler-advice/idempotent-receiver.md",
+      "profile": "antora",
+      "score": 10883,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/order.html",
+      "title": "Ordering Advices within Advice Chain",
+      "anchor": "handler-advice-order",
+      "virtual_path": "docs/handler-advice/order.md",
+      "profile": "antora",
+      "score": 2842,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/other.html",
+      "title": "Other Advice Chain Elements",
+      "anchor": "handler-advice-other",
+      "virtual_path": "docs/handler-advice/other.md",
+      "profile": "antora",
+      "score": 1890,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/reactive.html",
+      "title": "Reactive Advice",
+      "anchor": "handler-advice-reactive",
+      "virtual_path": "docs/handler-advice/reactive.md",
+      "profile": "antora",
+      "score": 3448,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/handler-advice/tx-handle-message.html",
+      "title": "Transaction Support",
+      "anchor": "handler-advice-tx-handle-message",
+      "virtual_path": "docs/handler-advice/tx-handle-message.md",
+      "profile": "antora",
+      "score": 5887,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/hazelcast.html",
+      "title": "Hazelcast Support",
+      "anchor": "hazelcast",
+      "virtual_path": "docs/hazelcast.md",
+      "profile": "antora",
+      "score": 34364,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/history.html",
+      "title": "Change History",
+      "anchor": "history",
+      "virtual_path": "docs/history.md",
+      "profile": "antora",
+      "score": 2189,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/http.html",
+      "title": "HTTP Support",
+      "anchor": "http",
+      "virtual_path": "docs/http.md",
+      "profile": "antora",
+      "score": 3321,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/http/control-bus-controller.html",
+      "title": "Control Bus Controller",
+      "anchor": "http-control-bus-controller",
+      "virtual_path": "docs/http/control-bus-controller.md",
+      "profile": "antora",
+      "score": 5506,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/http/header-mapping.html",
+      "title": "HTTP Header Mappings",
+      "anchor": "http-header-mapping",
+      "virtual_path": "docs/http/header-mapping.md",
+      "profile": "antora",
+      "score": 5422,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/http/inbound.html",
+      "title": "Http Inbound Components",
+      "anchor": "http-inbound",
+      "virtual_path": "docs/http/inbound.md",
+      "profile": "antora",
+      "score": 10355,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/http/int-graph-controller.html",
+      "title": "Integration Graph Controller",
+      "anchor": "http-int-graph-controller",
+      "virtual_path": "docs/http/int-graph-controller.md",
+      "profile": "antora",
+      "score": 2140,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/http/java-config.html",
+      "title": "Configuring HTTP Endpoints with Java",
+      "anchor": "http-java-config",
+      "virtual_path": "docs/http/java-config.md",
+      "profile": "antora",
+      "score": 5082,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/http/namespace.html",
+      "title": "HTTP Namespace Support",
+      "anchor": "http-namespace",
+      "virtual_path": "docs/http/namespace.md",
+      "profile": "antora",
+      "score": 36964,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/http/outbound.html",
+      "title": "HTTP Outbound Components",
+      "anchor": "http-outbound",
+      "virtual_path": "docs/http/outbound.md",
+      "profile": "antora",
+      "score": 8347,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/http/proxy.html",
+      "title": "HTTP Proxy configuration",
+      "anchor": "http-proxy",
+      "virtual_path": "docs/http/proxy.md",
+      "profile": "antora",
+      "score": 5353,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/http/samples.html",
+      "title": "HTTP Samples",
+      "anchor": "http-samples",
+      "virtual_path": "docs/http/samples.md",
+      "profile": "antora",
+      "score": 6221,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/http/timeout.html",
+      "title": "Timeout Handling",
+      "anchor": "http-timeout",
+      "virtual_path": "docs/http/timeout.md",
+      "profile": "antora",
+      "score": 9695,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/index.html",
+      "title": "Spring Integration",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "antora",
+      "score": 10669,
+      "depth": 0
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/integration-graph-controller.html",
+      "title": "Integration Graph Controller",
+      "anchor": "integration-graph-controller",
+      "virtual_path": "docs/integration-graph-controller.md",
+      "profile": "antora",
+      "score": 5893,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip.html",
+      "title": "TCP and UDP Support",
+      "anchor": "ip",
+      "virtual_path": "docs/ip.md",
+      "profile": "antora",
+      "score": 3317,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/annotation.html",
+      "title": "Annotation-Based Configuration",
+      "anchor": "ip-annotation",
+      "virtual_path": "docs/ip/annotation.md",
+      "profile": "antora",
+      "score": 4899,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/correlation.html",
+      "title": "TCP Message Correlation",
+      "anchor": "ip-correlation",
+      "virtual_path": "docs/ip/correlation.md",
+      "profile": "antora",
+      "score": 13224,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/dsl.html",
+      "title": "Using the Java DSL for TCP Components",
+      "anchor": "ip-dsl",
+      "virtual_path": "docs/ip/dsl.md",
+      "profile": "antora",
+      "score": 4307,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/endpoint-reference.html",
+      "title": "IP Configuration Attributes",
+      "anchor": "ip-endpoint-reference",
+      "virtual_path": "docs/ip/endpoint-reference.md",
+      "profile": "antora",
+      "score": 34468,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/interceptors.html",
+      "title": "TCP Connection Interceptors",
+      "anchor": "ip-interceptors",
+      "virtual_path": "docs/ip/interceptors.md",
+      "profile": "antora",
+      "score": 5097,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/intro.html",
+      "title": "Introduction",
+      "anchor": "ip-intro",
+      "virtual_path": "docs/ip/intro.md",
+      "profile": "antora",
+      "score": 4379,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/msg-headers.html",
+      "title": "IP Message Headers",
+      "anchor": "ip-msg-headers",
+      "virtual_path": "docs/ip/msg-headers.md",
+      "profile": "antora",
+      "score": 7103,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/note-nio.html",
+      "title": "About Non-blocking I/O (NIO)",
+      "anchor": "ip-note-nio",
+      "virtual_path": "docs/ip/note-nio.md",
+      "profile": "antora",
+      "score": 12270,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/ssl-tls.html",
+      "title": "SSL/TLS Support",
+      "anchor": "ip-ssl-tls",
+      "virtual_path": "docs/ip/ssl-tls.md",
+      "profile": "antora",
+      "score": 8505,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/tcp-adapters.html",
+      "title": "TCP Adapters",
+      "anchor": "ip-tcp-adapters",
+      "virtual_path": "docs/ip/tcp-adapters.md",
+      "profile": "antora",
+      "score": 6837,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/tcp-advanced-techniques.html",
+      "title": "Advanced Techniques",
+      "anchor": "ip-tcp-advanced-techniques",
+      "virtual_path": "docs/ip/tcp-advanced-techniques.md",
+      "profile": "antora",
+      "score": 14136,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/tcp-connection-factories.html",
+      "title": "TCP Connection Factories",
+      "anchor": "ip-tcp-connection-factories",
+      "virtual_path": "docs/ip/tcp-connection-factories.md",
+      "profile": "antora",
+      "score": 27633,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/tcp-events.html",
+      "title": "TCP Connection Events",
+      "anchor": "ip-tcp-events",
+      "virtual_path": "docs/ip/tcp-events.md",
+      "profile": "antora",
+      "score": 6577,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/tcp-gateways.html",
+      "title": "TCP Gateways",
+      "anchor": "ip-tcp-gateways",
+      "virtual_path": "docs/ip/tcp-gateways.md",
+      "profile": "antora",
+      "score": 8550,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/testing-connections.html",
+      "title": "Testing Connections",
+      "anchor": "ip-testing-connections",
+      "virtual_path": "docs/ip/testing-connections.md",
+      "profile": "antora",
+      "score": 4395,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ip/udp-adapters.html",
+      "title": "UDP Adapters",
+      "anchor": "ip-udp-adapters",
+      "virtual_path": "docs/ip/udp-adapters.md",
+      "profile": "antora",
+      "score": 16247,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jdbc.html",
+      "title": "JDBC Support",
+      "anchor": "jdbc",
+      "virtual_path": "docs/jdbc.md",
+      "profile": "antora",
+      "score": 3885,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jdbc/dsl.html",
+      "title": "Java DSL for JDBC Components",
+      "anchor": "jdbc-dsl",
+      "virtual_path": "docs/jdbc/dsl.md",
+      "profile": "antora",
+      "score": 5685,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jdbc/inbound-channel-adapter.html",
+      "title": "Inbound Channel Adapter",
+      "anchor": "jdbc-inbound-channel-adapter",
+      "virtual_path": "docs/jdbc/inbound-channel-adapter.md",
+      "profile": "antora",
+      "score": 12612,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jdbc/lock-registry.html",
+      "title": "JDBC Lock Registry",
+      "anchor": "jdbc-lock-registry",
+      "virtual_path": "docs/jdbc/lock-registry.md",
+      "profile": "antora",
+      "score": 9078,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jdbc/message-store-json.html",
+      "title": "JDBC Channel Message Store JSON Serialization",
+      "anchor": "jdbc-message-store-json",
+      "virtual_path": "docs/jdbc/message-store-json.md",
+      "profile": "antora",
+      "score": 16688,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jdbc/message-store.html",
+      "title": "JDBC Message Store",
+      "anchor": "jdbc-message-store",
+      "virtual_path": "docs/jdbc/message-store.md",
+      "profile": "antora",
+      "score": 23027,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jdbc/metadata-store.html",
+      "title": "JDBC Metadata Store",
+      "anchor": "jdbc-metadata-store",
+      "virtual_path": "docs/jdbc/metadata-store.md",
+      "profile": "antora",
+      "score": 5525,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jdbc/outbound-channel-adapter.html",
+      "title": "Outbound Channel Adapter",
+      "anchor": "jdbc-outbound-channel-adapter",
+      "virtual_path": "docs/jdbc/outbound-channel-adapter.md",
+      "profile": "antora",
+      "score": 10162,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jdbc/outbound-gateway.html",
+      "title": "Outbound Gateway",
+      "anchor": "jdbc-outbound-gateway",
+      "virtual_path": "docs/jdbc/outbound-gateway.md",
+      "profile": "antora",
+      "score": 7547,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jdbc/stored-procedures.html",
+      "title": "Stored Procedures",
+      "anchor": "jdbc-stored-procedures",
+      "virtual_path": "docs/jdbc/stored-procedures.md",
+      "profile": "antora",
+      "score": 30818,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jms.html",
+      "title": "JMS Support",
+      "anchor": "jms",
+      "virtual_path": "docs/jms.md",
+      "profile": "antora",
+      "score": 76836,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jmx.html",
+      "title": "JMX Support",
+      "anchor": "jmx",
+      "virtual_path": "docs/jmx.md",
+      "profile": "antora",
+      "score": 28928,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jpa.html",
+      "title": "JPA Support",
+      "anchor": "jpa",
+      "virtual_path": "docs/jpa.md",
+      "profile": "antora",
+      "score": 5188,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jpa/functionality.html",
+      "title": "Functionality",
+      "anchor": "jpa-functionality",
+      "virtual_path": "docs/jpa/functionality.md",
+      "profile": "antora",
+      "score": 2590,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jpa/inbound-channel-adapter.html",
+      "title": "Inbound Channel Adapter",
+      "anchor": "jpa-inbound-channel-adapter",
+      "virtual_path": "docs/jpa/inbound-channel-adapter.md",
+      "profile": "antora",
+      "score": 11465,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jpa/java-implementation.html",
+      "title": "Java Implementation",
+      "anchor": "jpa-java-implementation",
+      "virtual_path": "docs/jpa/java-implementation.md",
+      "profile": "antora",
+      "score": 3993,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jpa/namespace-support.html",
+      "title": "Namespace Support",
+      "anchor": "jpa-namespace-support",
+      "virtual_path": "docs/jpa/namespace-support.md",
+      "profile": "antora",
+      "score": 12249,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jpa/outbound-channel-adapter.html",
+      "title": "Outbound Channel Adapter",
+      "anchor": "jpa-outbound-channel-adapter",
+      "virtual_path": "docs/jpa/outbound-channel-adapter.md",
+      "profile": "antora",
+      "score": 22596,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jpa/outbound-gateways.html",
+      "title": "Outbound Gateways",
+      "anchor": "jpa-outbound-gateways",
+      "virtual_path": "docs/jpa/outbound-gateways.md",
+      "profile": "antora",
+      "score": 27520,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/jpa/supported-persistence-providers.html",
+      "title": "Supported Persistence Providers",
+      "anchor": "jpa-supported-persistence-providers",
+      "virtual_path": "docs/jpa/supported-persistence-providers.md",
+      "profile": "antora",
+      "score": 1836,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/kafka.html",
+      "title": "Apache Kafka Support",
+      "anchor": "kafka",
+      "virtual_path": "docs/kafka.md",
+      "profile": "antora",
+      "score": 51196,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/kotlin-dsl.html",
+      "title": "Kotlin DSL",
+      "anchor": "kotlin-dsl",
+      "virtual_path": "docs/kotlin-dsl.md",
+      "profile": "antora",
+      "score": 6794,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/kotlin-functions.html",
+      "title": "Kotlin Support",
+      "anchor": "kotlin-functions",
+      "virtual_path": "docs/kotlin-functions.md",
+      "profile": "antora",
+      "score": 6107,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/leadership-event-handling.html",
+      "title": "Leadership Event Handling",
+      "anchor": "leadership-event-handling",
+      "virtual_path": "docs/leadership-event-handling.md",
+      "profile": "antora",
+      "score": 5410,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/logging-adapter.html",
+      "title": "Logging Channel Adapter",
+      "anchor": "logging-adapter",
+      "virtual_path": "docs/logging-adapter.md",
+      "profile": "antora",
+      "score": 6871,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/mail.html",
+      "title": "Mail Support",
+      "anchor": "mail",
+      "virtual_path": "docs/mail.md",
+      "profile": "antora",
+      "score": 71094,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/message-history.html",
+      "title": "Message History",
+      "anchor": "message-history",
+      "virtual_path": "docs/message-history.md",
+      "profile": "antora",
+      "score": 10521,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/message-publishing.html",
+      "title": "Message Publishing",
+      "anchor": "message-publishing",
+      "virtual_path": "docs/message-publishing.md",
+      "profile": "antora",
+      "score": 26834,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/message-routing.html",
+      "title": "Message Routing",
+      "anchor": "message-routing",
+      "virtual_path": "docs/message-routing.md",
+      "profile": "antora",
+      "score": 2113,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/message-store.html",
+      "title": "Message Store",
+      "anchor": "message-store",
+      "virtual_path": "docs/message-store.md",
+      "profile": "antora",
+      "score": 17852,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/message-transformation.html",
+      "title": "Message Transformation",
+      "anchor": "message-transformation",
+      "virtual_path": "docs/message-transformation.md",
+      "profile": "antora",
+      "score": 1801,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/message.html",
+      "title": "Message",
+      "anchor": "message",
+      "virtual_path": "docs/message.md",
+      "profile": "antora",
+      "score": 35446,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/messaging-endpoints.html",
+      "title": "Messaging Endpoints",
+      "anchor": "messaging-endpoints",
+      "virtual_path": "docs/messaging-endpoints.md",
+      "profile": "antora",
+      "score": 1883,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/meta-data-store.html",
+      "title": "Metadata Store",
+      "anchor": "meta-data-store",
+      "virtual_path": "docs/meta-data-store.md",
+      "profile": "antora",
+      "score": 8557,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/metrics.html",
+      "title": "Metrics and Management",
+      "anchor": "metrics",
+      "virtual_path": "docs/metrics.md",
+      "profile": "antora",
+      "score": 33887,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/mongodb.html",
+      "title": "MongoDb Support",
+      "anchor": "mongodb",
+      "virtual_path": "docs/mongodb.md",
+      "profile": "antora",
+      "score": 44455,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/mqtt.html",
+      "title": "MQTT Support",
+      "anchor": "mqtt",
+      "virtual_path": "docs/mqtt.md",
+      "profile": "antora",
+      "score": 36142,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/native-aot.html",
+      "title": "Native Images Support",
+      "anchor": "native-aot",
+      "virtual_path": "docs/native-aot.md",
+      "profile": "antora",
+      "score": 5689,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/overview.html",
+      "title": "Overview of Spring Integration Framework",
+      "anchor": "overview",
+      "virtual_path": "docs/overview.md",
+      "profile": "antora",
+      "score": 67144,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/polling-consumer.html",
+      "title": "Poller",
+      "anchor": "polling-consumer",
+      "virtual_path": "docs/polling-consumer.md",
+      "profile": "antora",
+      "score": 20638,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/preface.html",
+      "title": "Preface",
+      "anchor": "preface",
+      "virtual_path": "docs/preface.md",
+      "profile": "antora",
+      "score": 9486,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/r2dbc.html",
+      "title": "R2DBC Support",
+      "anchor": "r2dbc",
+      "virtual_path": "docs/r2dbc.md",
+      "profile": "antora",
+      "score": 9118,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/reactive-streams.html",
+      "title": "Reactive Streams Support",
+      "anchor": "reactive-streams",
+      "virtual_path": "docs/reactive-streams.md",
+      "profile": "antora",
+      "score": 36490,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/redis.html",
+      "title": "Redis Support",
+      "anchor": "redis",
+      "virtual_path": "docs/redis.md",
+      "profile": "antora",
+      "score": 90338,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/resequencer.html",
+      "title": "Resequencer",
+      "anchor": "resequencer",
+      "virtual_path": "docs/resequencer.md",
+      "profile": "antora",
+      "score": 10286,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/resource.html",
+      "title": "Resource Support",
+      "anchor": "resource",
+      "virtual_path": "docs/resource.md",
+      "profile": "antora",
+      "score": 7661,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/resources.html",
+      "title": "Additional Resources",
+      "anchor": "resources",
+      "virtual_path": "docs/resources.md",
+      "profile": "antora",
+      "score": 2127,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/router.html",
+      "title": "Routers",
+      "anchor": "router",
+      "virtual_path": "docs/router.md",
+      "profile": "antora",
+      "score": 2665,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/router/annotation.html",
+      "title": "Configuring a Router with Annotations",
+      "anchor": "router-annotation",
+      "virtual_path": "docs/router/annotation.md",
+      "profile": "antora",
+      "score": 3948,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/router/common-parameters.html",
+      "title": "Common Router Parameters",
+      "anchor": "router-common-parameters",
+      "virtual_path": "docs/router/common-parameters.md",
+      "profile": "antora",
+      "score": 8355,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/router/dynamic-routers.html",
+      "title": "Dynamic Routers",
+      "anchor": "router-dynamic-routers",
+      "virtual_path": "docs/router/dynamic-routers.md",
+      "profile": "antora",
+      "score": 17523,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/router/implementations.html",
+      "title": "Router Implementations",
+      "anchor": "router-implementations",
+      "virtual_path": "docs/router/implementations.md",
+      "profile": "antora",
+      "score": 24178,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/router/namespace.html",
+      "title": "Configuring a Generic Router",
+      "anchor": "router-namespace",
+      "virtual_path": "docs/router/namespace.md",
+      "profile": "antora",
+      "score": 7567,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/router/overview.html",
+      "title": "Overview",
+      "anchor": "router-overview",
+      "virtual_path": "docs/router/overview.md",
+      "profile": "antora",
+      "score": 8119,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/router/process-manager.html",
+      "title": "Process Manager Enterprise Integration Pattern",
+      "anchor": "router-process-manager",
+      "virtual_path": "docs/router/process-manager.md",
+      "profile": "antora",
+      "score": 3634,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/router/routing-slip.html",
+      "title": "Routing Slip",
+      "anchor": "router-routing-slip",
+      "virtual_path": "docs/router/routing-slip.md",
+      "profile": "antora",
+      "score": 10670,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/router/spel.html",
+      "title": "Routers and the Spring Expression Language (SpEL)",
+      "anchor": "router-spel",
+      "virtual_path": "docs/router/spel.md",
+      "profile": "antora",
+      "score": 6553,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/rsocket.html",
+      "title": "RSocket Support",
+      "anchor": "rsocket",
+      "virtual_path": "docs/rsocket.md",
+      "profile": "antora",
+      "score": 25861,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/samples.html",
+      "title": "Spring Integration Samples",
+      "anchor": "samples",
+      "virtual_path": "docs/samples.md",
+      "profile": "antora",
+      "score": 44077,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/scatter-gather.html",
+      "title": "Scatter-Gather",
+      "anchor": "scatter-gather",
+      "virtual_path": "docs/scatter-gather.md",
+      "profile": "antora",
+      "score": 17704,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/scripting.html",
+      "title": "Scripting Support",
+      "anchor": "scripting",
+      "virtual_path": "docs/scripting.md",
+      "profile": "antora",
+      "score": 20392,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/security.html",
+      "title": "Security in Spring Integration",
+      "anchor": "security",
+      "virtual_path": "docs/security.md",
+      "profile": "antora",
+      "score": 16735,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/service-activator.html",
+      "title": "Service Activator",
+      "anchor": "service-activator",
+      "virtual_path": "docs/service-activator.md",
+      "profile": "antora",
+      "score": 20197,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp.html",
+      "title": "SFTP Support",
+      "anchor": "sftp",
+      "virtual_path": "docs/sftp.md",
+      "profile": "antora",
+      "score": 4919,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/dsf.html",
+      "title": "Delegating Session Factory",
+      "anchor": "sftp-dsf",
+      "virtual_path": "docs/sftp/dsf.md",
+      "profile": "antora",
+      "score": 3883,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/inbound.html",
+      "title": "SFTP Inbound Channel Adapter",
+      "anchor": "sftp-inbound",
+      "virtual_path": "docs/sftp/inbound.md",
+      "profile": "antora",
+      "score": 21857,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/max-fetch.html",
+      "title": "Inbound Channel Adapters: Controlling Remote File Fetching",
+      "anchor": "sftp-max-fetch",
+      "virtual_path": "docs/sftp/max-fetch.md",
+      "profile": "antora",
+      "score": 7258,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/outbound-gateway.html",
+      "title": "SFTP Outbound Gateway",
+      "anchor": "sftp-outbound-gateway",
+      "virtual_path": "docs/sftp/outbound-gateway.md",
+      "profile": "antora",
+      "score": 29807,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/outbound.html",
+      "title": "SFTP Outbound Channel Adapter",
+      "anchor": "sftp-outbound",
+      "virtual_path": "docs/sftp/outbound.md",
+      "profile": "antora",
+      "score": 11379,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/remote-file-info.html",
+      "title": "Remote File Information",
+      "anchor": "sftp-remote-file-info",
+      "virtual_path": "docs/sftp/remote-file-info.md",
+      "profile": "antora",
+      "score": 4085,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/rft.html",
+      "title": "Using RemoteFileTemplate",
+      "anchor": "sftp-rft",
+      "virtual_path": "docs/sftp/rft.md",
+      "profile": "antora",
+      "score": 3393,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/rotating-server-advice.html",
+      "title": "Inbound Channel Adapters: Polling Multiple Servers and Directories",
+      "anchor": "sftp-rotating-server-advice",
+      "virtual_path": "docs/sftp/rotating-server-advice.md",
+      "profile": "antora",
+      "score": 6599,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/server-events.html",
+      "title": "Apache Mina SFTP Server Events",
+      "anchor": "sftp-server-events",
+      "virtual_path": "docs/sftp/server-events.md",
+      "profile": "antora",
+      "score": 4724,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/session-caching.html",
+      "title": "SFTP Session Caching",
+      "anchor": "sftp-session-caching",
+      "virtual_path": "docs/sftp/session-caching.md",
+      "profile": "antora",
+      "score": 5404,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/session-callback.html",
+      "title": "MessageSessionCallback",
+      "anchor": "sftp-session-callback",
+      "virtual_path": "docs/sftp/session-callback.md",
+      "profile": "antora",
+      "score": 3685,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/session-factory.html",
+      "title": "SFTP Session Factory",
+      "anchor": "sftp-session-factory",
+      "virtual_path": "docs/sftp/session-factory.md",
+      "profile": "antora",
+      "score": 10412,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/sftp/streaming.html",
+      "title": "SFTP Streaming Inbound Channel Adapter",
+      "anchor": "sftp-streaming",
+      "virtual_path": "docs/sftp/streaming.md",
+      "profile": "antora",
+      "score": 7931,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/shutdown.html",
+      "title": "Orderly Shutdown",
+      "anchor": "shutdown",
+      "virtual_path": "docs/shutdown.md",
+      "profile": "antora",
+      "score": 5636,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/smb.html",
+      "title": "SMB Support",
+      "anchor": "smb",
+      "virtual_path": "docs/smb.md",
+      "profile": "antora",
+      "score": 52399,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/spel.html",
+      "title": "Spring Expression Language (SpEL)",
+      "anchor": "spel",
+      "virtual_path": "docs/spel.md",
+      "profile": "antora",
+      "score": 17753,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/splitter.html",
+      "title": "Splitter",
+      "anchor": "splitter",
+      "virtual_path": "docs/splitter.md",
+      "profile": "antora",
+      "score": 16011,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/stomp.html",
+      "title": "STOMP Support",
+      "anchor": "stomp",
+      "virtual_path": "docs/stomp.md",
+      "profile": "antora",
+      "score": 21527,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/stream.html",
+      "title": "Stream Support",
+      "anchor": "stream",
+      "virtual_path": "docs/stream.md",
+      "profile": "antora",
+      "score": 12198,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/syslog.html",
+      "title": "Syslog Support",
+      "anchor": "syslog",
+      "virtual_path": "docs/syslog.md",
+      "profile": "antora",
+      "score": 11816,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/system-management.html",
+      "title": "System Management",
+      "anchor": "system-management",
+      "virtual_path": "docs/system-management.md",
+      "profile": "antora",
+      "score": 1827,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/testing.html",
+      "title": "Testing support",
+      "anchor": "testing",
+      "virtual_path": "docs/testing.md",
+      "profile": "antora",
+      "score": 27333,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/transactions.html",
+      "title": "Transaction Support",
+      "anchor": "transactions",
+      "virtual_path": "docs/transactions.md",
+      "profile": "antora",
+      "score": 25751,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/transformer.html",
+      "title": "Transformer",
+      "anchor": "transformer",
+      "virtual_path": "docs/transformer.md",
+      "profile": "antora",
+      "score": 47774,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/web-sockets.html",
+      "title": "WebSockets Support",
+      "anchor": "web-sockets",
+      "virtual_path": "docs/web-sockets.md",
+      "profile": "antora",
+      "score": 32745,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/webflux.html",
+      "title": "WebFlux Support",
+      "anchor": "webflux",
+      "virtual_path": "docs/webflux.md",
+      "profile": "antora",
+      "score": 21700,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/whats-new.html",
+      "title": "What’s New?",
+      "anchor": "whats-new",
+      "virtual_path": "docs/whats-new.md",
+      "profile": "antora",
+      "score": 9826,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/ws.html",
+      "title": "Web Services Support",
+      "anchor": "ws",
+      "virtual_path": "docs/ws.md",
+      "profile": "antora",
+      "score": 29380,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/xml.html",
+      "title": "XML Support - Dealing with XML Payloads",
+      "anchor": "xml",
+      "virtual_path": "docs/xml.md",
+      "profile": "antora",
+      "score": 4663,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/xml/transformation.html",
+      "title": "Transforming XML Payloads",
+      "anchor": "xml-transformation",
+      "virtual_path": "docs/xml/transformation.md",
+      "profile": "antora",
+      "score": 25777,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/xml/validating-filter.html",
+      "title": "XML Validating Filter",
+      "anchor": "xml-validating-filter",
+      "virtual_path": "docs/xml/validating-filter.md",
+      "profile": "antora",
+      "score": 4612,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/xml/xpath-filter.html",
+      "title": "Using the XPath Filter",
+      "anchor": "xml-xpath-filter",
+      "virtual_path": "docs/xml/xpath-filter.md",
+      "profile": "antora",
+      "score": 5818,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/xml/xpath-header-enricher.html",
+      "title": "XPath Header Enricher",
+      "anchor": "xml-xpath-header-enricher",
+      "virtual_path": "docs/xml/xpath-header-enricher.md",
+      "profile": "antora",
+      "score": 5242,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/xml/xpath-namespace-support.html",
+      "title": "Namespace Support",
+      "anchor": "xml-xpath-namespace-support",
+      "virtual_path": "docs/xml/xpath-namespace-support.md",
+      "profile": "antora",
+      "score": 13517,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/xml/xpath-routing.html",
+      "title": "Routing XML Messages with XPath",
+      "anchor": "xml-xpath-routing",
+      "virtual_path": "docs/xml/xpath-routing.md",
+      "profile": "antora",
+      "score": 10132,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/xml/xpath-spel-function.html",
+      "title": "#xpath SpEL Function",
+      "anchor": "xml-xpath-spel-function",
+      "virtual_path": "docs/xml/xpath-spel-function.md",
+      "profile": "antora",
+      "score": 3691,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/xml/xpath-splitting.html",
+      "title": "Splitting XML Messages",
+      "anchor": "xml-xpath-splitting",
+      "virtual_path": "docs/xml/xpath-splitting.md",
+      "profile": "antora",
+      "score": 6027,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/xml/xpath-transformer.html",
+      "title": "Transforming XML Messages with XPath",
+      "anchor": "xml-xpath-transformer",
+      "virtual_path": "docs/xml/xpath-transformer.md",
+      "profile": "antora",
+      "score": 8951,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/xmpp.html",
+      "title": "XMPP Support",
+      "anchor": "xmpp",
+      "virtual_path": "docs/xmpp.md",
+      "profile": "antora",
+      "score": 33071,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/zeromq.html",
+      "title": "ZeroMQ Support",
+      "anchor": "zeromq",
+      "virtual_path": "docs/zeromq.md",
+      "profile": "antora",
+      "score": 18901,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/zip.html",
+      "title": "Zip Support",
+      "anchor": "zip",
+      "virtual_path": "docs/zip.md",
+      "profile": "antora",
+      "score": 15963,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-integration/reference/zookeeper.html",
+      "title": "Zookeeper Support",
+      "anchor": "zookeeper",
+      "virtual_path": "docs/zookeeper.md",
+      "profile": "antora",
+      "score": 8914,
+      "depth": 1
+    }
+  ]
+}

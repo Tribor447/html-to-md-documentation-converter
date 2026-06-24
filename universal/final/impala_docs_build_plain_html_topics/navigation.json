@@ -1,0 +1,4222 @@
+[
+  {
+    "title": "Introducing Apache Impala",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_intro.html",
+    "anchor": "impala_intro",
+    "virtual_path": "docs/impala_intro.md"
+  },
+  {
+    "title": "Concepts and Architecture",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_concepts.html",
+    "anchor": "impala_concepts",
+    "virtual_path": "docs/impala_concepts.md",
+    "children": [
+      {
+        "title": "Components",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_components.html",
+        "anchor": "impala_components",
+        "virtual_path": "docs/impala_components.md"
+      },
+      {
+        "title": "Developing Applications",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_development.html",
+        "anchor": "impala_development",
+        "virtual_path": "docs/impala_development.md"
+      },
+      {
+        "title": "Role in the Hadoop Ecosystem",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_hadoop.html",
+        "anchor": "impala_hadoop",
+        "virtual_path": "docs/impala_hadoop.md"
+      }
+    ]
+  },
+  {
+    "title": "Deployment Planning",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_planning.html",
+    "anchor": "impala_planning",
+    "virtual_path": "docs/impala_planning.md",
+    "children": [
+      {
+        "title": "Requirements",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_prereqs.html",
+        "anchor": "impala_prereqs",
+        "virtual_path": "docs/impala_prereqs.md"
+      },
+      {
+        "title": "Designing Schemas",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_schema_design.html",
+        "anchor": "impala_schema_design",
+        "virtual_path": "docs/impala_schema_design.md"
+      }
+    ]
+  },
+  {
+    "title": "Installing Impala",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_install.html",
+    "anchor": "impala_install",
+    "virtual_path": "docs/impala_install.md"
+  },
+  {
+    "title": "Managing Impala",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_config.html",
+    "anchor": "impala_config",
+    "virtual_path": "docs/impala_config.md",
+    "children": [
+      {
+        "title": "Post-Installation Configuration for Impala",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_config_performance.html",
+        "anchor": "impala_config_performance",
+        "virtual_path": "docs/impala_config_performance.md"
+      }
+    ]
+  },
+  {
+    "title": "Upgrading Impala",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_upgrading.html",
+    "anchor": "impala_upgrading",
+    "virtual_path": "docs/impala_upgrading.md"
+  },
+  {
+    "title": "Starting Impala",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_processes.html",
+    "anchor": "impala_processes",
+    "virtual_path": "docs/impala_processes.md",
+    "children": [
+      {
+        "title": "Modifying Impala Startup Options",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_config_options.html",
+        "anchor": "impala_config_options",
+        "virtual_path": "docs/impala_config_options.md"
+      }
+    ]
+  },
+  {
+    "title": "Tutorials",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_tutorial.html",
+    "anchor": "impala_tutorial",
+    "virtual_path": "docs/impala_tutorial.md"
+  },
+  {
+    "title": "Administration",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_admin.html",
+    "anchor": "impala_admin",
+    "virtual_path": "docs/impala_admin.md",
+    "children": [
+      {
+        "title": "Setting Timeouts",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_timeouts.html",
+        "anchor": "impala_timeouts",
+        "virtual_path": "docs/impala_timeouts.md"
+      },
+      {
+        "title": "Configuring Impala for High Availability",
+        "kind": "category",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ha.html",
+        "anchor": "impala_ha",
+        "virtual_path": "docs/impala_ha.md",
+        "children": [
+          {
+            "title": "Configuring StateStore for High Availability",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ha_statestore.html",
+            "anchor": "impala_ha_statestore",
+            "virtual_path": "docs/impala_ha_statestore.md"
+          },
+          {
+            "title": "Configuring Catalog for High Availability",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ha_catalog.html",
+            "anchor": "impala_ha_catalog",
+            "virtual_path": "docs/impala_ha_catalog.md"
+          }
+        ]
+      },
+      {
+        "title": "Load-Balancing Proxy for HA",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_proxy.html",
+        "anchor": "impala_proxy",
+        "virtual_path": "docs/impala_proxy.md"
+      },
+      {
+        "title": "Managing Disk Space",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disk_space.html",
+        "anchor": "impala_disk_space",
+        "virtual_path": "docs/impala_disk_space.md"
+      }
+    ]
+  },
+  {
+    "title": "Impala Security",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_security.html",
+    "anchor": "impala_security",
+    "virtual_path": "docs/impala_security.md",
+    "children": [
+      {
+        "title": "Security Guidelines for Impala",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_security_guidelines.html",
+        "anchor": "impala_security_guidelines",
+        "virtual_path": "docs/impala_security_guidelines.md"
+      },
+      {
+        "title": "Securing Impala Data and Log Files",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_security_files.html",
+        "anchor": "impala_security_files",
+        "virtual_path": "docs/impala_security_files.md"
+      },
+      {
+        "title": "Installation Considerations for Impala Security",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_security_install.html",
+        "anchor": "impala_security_install",
+        "virtual_path": "docs/impala_security_install.md"
+      },
+      {
+        "title": "Securing the Hive Metastore Database",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_security_metastore.html",
+        "anchor": "impala_security_metastore",
+        "virtual_path": "docs/impala_security_metastore.md"
+      },
+      {
+        "title": "Securing the Impala Web User Interface",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_security_webui.html",
+        "anchor": "impala_security_webui",
+        "virtual_path": "docs/impala_security_webui.md"
+      },
+      {
+        "title": "Configuring TLS/SSL for Impala",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ssl.html",
+        "anchor": "impala_ssl",
+        "virtual_path": "docs/impala_ssl.md"
+      },
+      {
+        "title": "Impala Authorization",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_authorization.html",
+        "anchor": "impala_authorization",
+        "virtual_path": "docs/impala_authorization.md"
+      },
+      {
+        "title": "Impala Authentication",
+        "kind": "category",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_authentication.html",
+        "anchor": "impala_authentication",
+        "virtual_path": "docs/impala_authentication.md",
+        "children": [
+          {
+            "title": "Enabling Kerberos Authentication for Impala",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_kerberos.html",
+            "anchor": "impala_kerberos",
+            "virtual_path": "docs/impala_kerberos.md"
+          },
+          {
+            "title": "Enabling LDAP Authentication for Impala",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ldap.html",
+            "anchor": "impala_ldap",
+            "virtual_path": "docs/impala_ldap.md"
+          },
+          {
+            "title": "Using Multiple Authentication Methods with Impala",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_mixed_security.html",
+            "anchor": "impala_mixed_security",
+            "virtual_path": "docs/impala_mixed_security.md"
+          },
+          {
+            "title": "Configuring Impala Delegation for Clients",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_delegation.html",
+            "anchor": "impala_delegation",
+            "virtual_path": "docs/impala_delegation.md"
+          }
+        ]
+      },
+      {
+        "title": "Auditing",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_auditing.html",
+        "anchor": "impala_auditing",
+        "virtual_path": "docs/impala_auditing.md"
+      },
+      {
+        "title": "Viewing Lineage Info",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_lineage.html",
+        "anchor": "impala_lineage",
+        "virtual_path": "docs/impala_lineage.md"
+      }
+    ]
+  },
+  {
+    "title": "SQL Reference",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_langref.html",
+    "anchor": "impala_langref",
+    "virtual_path": "docs/impala_langref.md",
+    "children": [
+      {
+        "title": "Comments",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_comments.html",
+        "anchor": "impala_comments",
+        "virtual_path": "docs/impala_comments.md"
+      },
+      {
+        "title": "Data Types",
+        "kind": "category",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_datatypes.html",
+        "anchor": "impala_datatypes",
+        "virtual_path": "docs/impala_datatypes.md",
+        "children": [
+          {
+            "title": "ARRAY Complex Type (Impala 2.3 or higher only)",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_array.html",
+            "anchor": "impala_array",
+            "virtual_path": "docs/impala_array.md"
+          },
+          {
+            "title": "BIGINT",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_bigint.html",
+            "anchor": "impala_bigint",
+            "virtual_path": "docs/impala_bigint.md"
+          },
+          {
+            "title": "BOOLEAN",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_boolean.html",
+            "anchor": "impala_boolean",
+            "virtual_path": "docs/impala_boolean.md"
+          },
+          {
+            "title": "CHAR",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_char.html",
+            "anchor": "impala_char",
+            "virtual_path": "docs/impala_char.md"
+          },
+          {
+            "title": "DATE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_date.html",
+            "anchor": "impala_date",
+            "virtual_path": "docs/impala_date.md"
+          },
+          {
+            "title": "DECIMAL",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_decimal.html",
+            "anchor": "impala_decimal",
+            "virtual_path": "docs/impala_decimal.md"
+          },
+          {
+            "title": "DOUBLE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_double.html",
+            "anchor": "impala_double",
+            "virtual_path": "docs/impala_double.md"
+          },
+          {
+            "title": "FLOAT",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_float.html",
+            "anchor": "impala_float",
+            "virtual_path": "docs/impala_float.md"
+          },
+          {
+            "title": "INT",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_int.html",
+            "anchor": "impala_int",
+            "virtual_path": "docs/impala_int.md"
+          },
+          {
+            "title": "MAP Complex Type (Impala 2.3 or higher only)",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_map.html",
+            "anchor": "impala_map",
+            "virtual_path": "docs/impala_map.md"
+          },
+          {
+            "title": "REAL",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_real.html",
+            "anchor": "impala_real",
+            "virtual_path": "docs/impala_real.md"
+          },
+          {
+            "title": "SMALLINT",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_smallint.html",
+            "anchor": "impala_smallint",
+            "virtual_path": "docs/impala_smallint.md"
+          },
+          {
+            "title": "STRING",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_string.html",
+            "anchor": "impala_string",
+            "virtual_path": "docs/impala_string.md"
+          },
+          {
+            "title": "STRUCT Complex Type (Impala 2.3 or higher only)",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_struct.html",
+            "anchor": "impala_struct",
+            "virtual_path": "docs/impala_struct.md"
+          },
+          {
+            "title": "TIMESTAMP",
+            "kind": "category",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_timestamp.html",
+            "anchor": "impala_timestamp",
+            "virtual_path": "docs/impala_timestamp.md",
+            "children": [
+              {
+                "title": "Customizing Time Zones",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_custom_timezones.html",
+                "anchor": "impala_custom_timezones",
+                "virtual_path": "docs/impala_custom_timezones.md"
+              }
+            ]
+          },
+          {
+            "title": "TINYINT",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_tinyint.html",
+            "anchor": "impala_tinyint",
+            "virtual_path": "docs/impala_tinyint.md"
+          },
+          {
+            "title": "VARCHAR",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_varchar.html",
+            "anchor": "impala_varchar",
+            "virtual_path": "docs/impala_varchar.md"
+          },
+          {
+            "title": "Complex Types (Impala 2.3 or higher only)",
+            "kind": "category",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_complex_types.html",
+            "anchor": "impala_complex_types",
+            "virtual_path": "docs/impala_complex_types.md",
+            "children": [
+              {
+                "title": "Querying arrays",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_queryingarrays.html",
+                "anchor": "impala_queryingarrays",
+                "virtual_path": "docs/impala_queryingarrays.md"
+              },
+              {
+                "title": "Zipping unnest on arrays from views",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_unnest_views.html",
+                "anchor": "impala_unnest_views",
+                "virtual_path": "docs/impala_unnest_views.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Literals",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_literals.html",
+        "anchor": "impala_literals",
+        "virtual_path": "docs/impala_literals.md"
+      },
+      {
+        "title": "SQL Operators",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_operators.html",
+        "anchor": "impala_operators",
+        "virtual_path": "docs/impala_operators.md"
+      },
+      {
+        "title": "Schema Objects and Object Names",
+        "kind": "category",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_schema_objects.html",
+        "anchor": "impala_schema_objects",
+        "virtual_path": "docs/impala_schema_objects.md",
+        "children": [
+          {
+            "title": "Aliases",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_aliases.html",
+            "anchor": "impala_aliases",
+            "virtual_path": "docs/impala_aliases.md"
+          },
+          {
+            "title": "Databases",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_databases.html",
+            "anchor": "impala_databases",
+            "virtual_path": "docs/impala_databases.md"
+          },
+          {
+            "title": "Functions",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_functions_overview.html",
+            "anchor": "impala_functions_overview",
+            "virtual_path": "docs/impala_functions_overview.md"
+          },
+          {
+            "title": "Identifiers",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_identifiers.html",
+            "anchor": "impala_identifiers",
+            "virtual_path": "docs/impala_identifiers.md"
+          },
+          {
+            "title": "Tables",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_tables.html",
+            "anchor": "impala_tables",
+            "virtual_path": "docs/impala_tables.md"
+          },
+          {
+            "title": "Views",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_views.html",
+            "anchor": "impala_views",
+            "virtual_path": "docs/impala_views.md"
+          }
+        ]
+      },
+      {
+        "title": "Transactions",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_transactions.html",
+        "anchor": "impala_transactions",
+        "virtual_path": "docs/impala_transactions.md"
+      },
+      {
+        "title": "SQL Statements",
+        "kind": "category",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_langref_sql.html",
+        "anchor": "impala_langref_sql",
+        "virtual_path": "docs/impala_langref_sql.md",
+        "children": [
+          {
+            "title": "DDL Statements",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ddl.html",
+            "anchor": "impala_ddl",
+            "virtual_path": "docs/impala_ddl.md"
+          },
+          {
+            "title": "DML Statements",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_dml.html",
+            "anchor": "impala_dml",
+            "virtual_path": "docs/impala_dml.md"
+          },
+          {
+            "title": "Copy Testcase Statements",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_copy_testcase.html",
+            "anchor": "impala_copy_testcase",
+            "virtual_path": "docs/impala_copy_testcase.md"
+          },
+          {
+            "title": "ALTER DATABASE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_alter_database.html",
+            "anchor": "impala_alter_database",
+            "virtual_path": "docs/impala_alter_database.md"
+          },
+          {
+            "title": "ALTER TABLE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_alter_table.html",
+            "anchor": "impala_alter_table",
+            "virtual_path": "docs/impala_alter_table.md"
+          },
+          {
+            "title": "ALTER VIEW",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_alter_view.html",
+            "anchor": "impala_alter_view",
+            "virtual_path": "docs/impala_alter_view.md"
+          },
+          {
+            "title": "COMMENT",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_comment.html",
+            "anchor": "impala_comment",
+            "virtual_path": "docs/impala_comment.md"
+          },
+          {
+            "title": "COMPUTE STATS",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_compute_stats.html",
+            "anchor": "impala_compute_stats",
+            "virtual_path": "docs/impala_compute_stats.md"
+          },
+          {
+            "title": "CREATE DATABASE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_database.html",
+            "anchor": "impala_create_database",
+            "virtual_path": "docs/impala_create_database.md"
+          },
+          {
+            "title": "CREATE FUNCTION",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_function.html",
+            "anchor": "impala_create_function",
+            "virtual_path": "docs/impala_create_function.md"
+          },
+          {
+            "title": "CREATE ROLE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_role.html",
+            "anchor": "impala_create_role",
+            "virtual_path": "docs/impala_create_role.md"
+          },
+          {
+            "title": "CREATE TABLE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_table.html",
+            "anchor": "impala_create_table",
+            "virtual_path": "docs/impala_create_table.md"
+          },
+          {
+            "title": "CREATE VIEW",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_view.html",
+            "anchor": "impala_create_view",
+            "virtual_path": "docs/impala_create_view.md"
+          },
+          {
+            "title": "DELETE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_delete.html",
+            "anchor": "impala_delete",
+            "virtual_path": "docs/impala_delete.md"
+          },
+          {
+            "title": "DESCRIBE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_describe.html",
+            "anchor": "impala_describe",
+            "virtual_path": "docs/impala_describe.md"
+          },
+          {
+            "title": "DROP DATABASE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_database.html",
+            "anchor": "impala_drop_database",
+            "virtual_path": "docs/impala_drop_database.md"
+          },
+          {
+            "title": "DROP FUNCTION",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_function.html",
+            "anchor": "impala_drop_function",
+            "virtual_path": "docs/impala_drop_function.md"
+          },
+          {
+            "title": "DROP ROLE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_role.html",
+            "anchor": "impala_drop_role",
+            "virtual_path": "docs/impala_drop_role.md"
+          },
+          {
+            "title": "DROP STATS",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_stats.html",
+            "anchor": "impala_drop_stats",
+            "virtual_path": "docs/impala_drop_stats.md"
+          },
+          {
+            "title": "DROP TABLE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_table.html",
+            "anchor": "impala_drop_table",
+            "virtual_path": "docs/impala_drop_table.md"
+          },
+          {
+            "title": "DROP VIEW",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_view.html",
+            "anchor": "impala_drop_view",
+            "virtual_path": "docs/impala_drop_view.md"
+          },
+          {
+            "title": "EXPLAIN",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_explain.html",
+            "anchor": "impala_explain",
+            "virtual_path": "docs/impala_explain.md"
+          },
+          {
+            "title": "GRANT",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_grant.html",
+            "anchor": "impala_grant",
+            "virtual_path": "docs/impala_grant.md"
+          },
+          {
+            "title": "INSERT",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_insert.html",
+            "anchor": "impala_insert",
+            "virtual_path": "docs/impala_insert.md"
+          },
+          {
+            "title": "INVALIDATE METADATA",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_invalidate_metadata.html",
+            "anchor": "impala_invalidate_metadata",
+            "virtual_path": "docs/impala_invalidate_metadata.md"
+          },
+          {
+            "title": "LOAD DATA",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_load_data.html",
+            "anchor": "impala_load_data",
+            "virtual_path": "docs/impala_load_data.md"
+          },
+          {
+            "title": "MERGE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_merge.html",
+            "anchor": "impala_merge",
+            "virtual_path": "docs/impala_merge.md"
+          },
+          {
+            "title": "REFRESH",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_refresh.html",
+            "anchor": "impala_refresh",
+            "virtual_path": "docs/impala_refresh.md"
+          },
+          {
+            "title": "REFRESH AUTHORIZATION",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_refresh_authorization.html",
+            "anchor": "impala_refresh_authorization",
+            "virtual_path": "docs/impala_refresh_authorization.md"
+          },
+          {
+            "title": "REFRESH FUNCTIONS",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_refresh_functions.html",
+            "anchor": "impala_refresh_functions",
+            "virtual_path": "docs/impala_refresh_functions.md"
+          },
+          {
+            "title": "REVOKE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_revoke.html",
+            "anchor": "impala_revoke",
+            "virtual_path": "docs/impala_revoke.md"
+          },
+          {
+            "title": "SELECT",
+            "kind": "category",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_select.html",
+            "anchor": "impala_select",
+            "virtual_path": "docs/impala_select.md",
+            "children": [
+              {
+                "title": "Joins",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_joins.html",
+                "anchor": "impala_joins",
+                "virtual_path": "docs/impala_joins.md"
+              },
+              {
+                "title": "ORDER BY Clause",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_order_by.html",
+                "anchor": "impala_order_by",
+                "virtual_path": "docs/impala_order_by.md"
+              },
+              {
+                "title": "GROUP BY Clause",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_group_by.html",
+                "anchor": "impala_group_by",
+                "virtual_path": "docs/impala_group_by.md"
+              },
+              {
+                "title": "HAVING Clause",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_having.html",
+                "anchor": "impala_having",
+                "virtual_path": "docs/impala_having.md"
+              },
+              {
+                "title": "LIMIT Clause",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_limit.html",
+                "anchor": "impala_limit",
+                "virtual_path": "docs/impala_limit.md"
+              },
+              {
+                "title": "OFFSET Clause",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_offset.html",
+                "anchor": "impala_offset",
+                "virtual_path": "docs/impala_offset.md"
+              },
+              {
+                "title": "UNION Clause",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_union.html",
+                "anchor": "impala_union",
+                "virtual_path": "docs/impala_union.md"
+              },
+              {
+                "title": "Subqueries",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_subqueries.html",
+                "anchor": "impala_subqueries",
+                "virtual_path": "docs/impala_subqueries.md"
+              },
+              {
+                "title": "TABLESAMPLE Clause",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_tablesample.html",
+                "anchor": "impala_tablesample",
+                "virtual_path": "docs/impala_tablesample.md"
+              },
+              {
+                "title": "WITH Clause",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_with.html",
+                "anchor": "impala_with",
+                "virtual_path": "docs/impala_with.md"
+              },
+              {
+                "title": "DISTINCT Operator",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_distinct.html",
+                "anchor": "impala_distinct",
+                "virtual_path": "docs/impala_distinct.md"
+              }
+            ]
+          },
+          {
+            "title": "SET",
+            "kind": "category",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_set.html",
+            "anchor": "impala_set",
+            "virtual_path": "docs/impala_set.md",
+            "children": [
+              {
+                "title": "ABORT ON ERROR",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_abort_on_error.html",
+                "anchor": "impala_abort_on_error",
+                "virtual_path": "docs/impala_abort_on_error.md"
+              },
+              {
+                "title": "ALLOW ERASURE CODED FILES",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_allow_erasure_coded_files.html",
+                "anchor": "impala_allow_erasure_coded_files",
+                "virtual_path": "docs/impala_allow_erasure_coded_files.md"
+              },
+              {
+                "title": "AGG MEM CORRELATION FACTOR",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_agg_mem_correlation_factor.html",
+                "anchor": "impala_agg_mem_correlation_factor",
+                "virtual_path": "docs/impala_agg_mem_correlation_factor.md"
+              },
+              {
+                "title": "APPX COUNT DISTINCT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_appx_count_distinct.html",
+                "anchor": "impala_appx_count_distinct",
+                "virtual_path": "docs/impala_appx_count_distinct.md"
+              },
+              {
+                "title": "BATCH SIZE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_batch_size.html",
+                "anchor": "impala_batch_size",
+                "virtual_path": "docs/impala_batch_size.md"
+              },
+              {
+                "title": "BROADCAST BYTES LIMIT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_broadcast_bytes_limit.html",
+                "anchor": "impala_broadcast_bytes_limit",
+                "virtual_path": "docs/impala_broadcast_bytes_limit.md"
+              },
+              {
+                "title": "BUFFER POOL LIMIT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_buffer_pool_limit.html",
+                "anchor": "impala_buffer_pool_limit",
+                "virtual_path": "docs/impala_buffer_pool_limit.md"
+              },
+              {
+                "title": "COMPRESSION CODEC",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_compression_codec.html",
+                "anchor": "impala_compression_codec",
+                "virtual_path": "docs/impala_compression_codec.md"
+              },
+              {
+                "title": "COMPUTE STATS MIN SAMPLE SIZE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_compute_stats_min_sample_size.html",
+                "anchor": "impala_compute_stats_min_sample_size",
+                "virtual_path": "docs/impala_compute_stats_min_sample_size.md"
+              },
+              {
+                "title": "DEFAULT FILE FORMAT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_default_file_format.html",
+                "anchor": "impala_default_file_format",
+                "virtual_path": "docs/impala_default_file_format.md"
+              },
+              {
+                "title": "DEFAULT HINTS INSERT STATEMENT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_default_hints_insert_statement.html",
+                "anchor": "impala_default_hints_insert_statement",
+                "virtual_path": "docs/impala_default_hints_insert_statement.md"
+              },
+              {
+                "title": "DEFAULT JOIN DISTRIBUTION MODE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_default_join_distribution_mode.html",
+                "anchor": "impala_default_join_distribution_mode",
+                "virtual_path": "docs/impala_default_join_distribution_mode.md"
+              },
+              {
+                "title": "DEFAULT SPILLABLE BUFFER SIZE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_default_spillable_buffer_size.html",
+                "anchor": "impala_default_spillable_buffer_size",
+                "virtual_path": "docs/impala_default_spillable_buffer_size.md"
+              },
+              {
+                "title": "DEFAULT TRANSACTIONAL TYPE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_default_transactional_type.html",
+                "anchor": "impala_default_transactional_type",
+                "virtual_path": "docs/impala_default_transactional_type.md"
+              },
+              {
+                "title": "DELETE STATS IN TRUNCATE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_delete_stats_in_truncate.html",
+                "anchor": "impala_delete_stats_in_truncate",
+                "virtual_path": "docs/impala_delete_stats_in_truncate.md"
+              },
+              {
+                "title": "DISABLE CODEGEN",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_codegen.html",
+                "anchor": "impala_disable_codegen",
+                "virtual_path": "docs/impala_disable_codegen.md"
+              },
+              {
+                "title": "DISABLE CODEGEN ROWS THRESHOLD",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_codegen_rows_threshold.html",
+                "anchor": "impala_disable_codegen_rows_threshold",
+                "virtual_path": "docs/impala_disable_codegen_rows_threshold.md"
+              },
+              {
+                "title": "DISABLE HBASE NUM ROWS ESTIMATE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_hbase_num_rows_estimate.html",
+                "anchor": "impala_disable_hbase_num_rows_estimate",
+                "virtual_path": "docs/impala_disable_hbase_num_rows_estimate.md"
+              },
+              {
+                "title": "DISABLE ROW RUNTIME FILTERING",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_row_runtime_filtering.html",
+                "anchor": "impala_disable_row_runtime_filtering",
+                "virtual_path": "docs/impala_disable_row_runtime_filtering.md"
+              },
+              {
+                "title": "DISABLE STREAMING PREAGGREGATIONS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_streaming_preaggregations.html",
+                "anchor": "impala_disable_streaming_preaggregations",
+                "virtual_path": "docs/impala_disable_streaming_preaggregations.md"
+              },
+              {
+                "title": "DISABLE UNSAFE SPILLS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_unsafe_spills.html",
+                "anchor": "impala_disable_unsafe_spills",
+                "virtual_path": "docs/impala_disable_unsafe_spills.md"
+              },
+              {
+                "title": "ENABLE EXPR REWRITES",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_enable_expr_rewrites.html",
+                "anchor": "impala_enable_expr_rewrites",
+                "virtual_path": "docs/impala_enable_expr_rewrites.md"
+              },
+              {
+                "title": "EXEC SINGLE NODE ROWS THRESHOLD",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_exec_single_node_rows_threshold.html",
+                "anchor": "impala_exec_single_node_rows_threshold",
+                "virtual_path": "docs/impala_exec_single_node_rows_threshold.md"
+              },
+              {
+                "title": "EXEC TIME LIMIT S",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_exec_time_limit_s.html",
+                "anchor": "impala_exec_time_limit_s",
+                "virtual_path": "docs/impala_exec_time_limit_s.md"
+              },
+              {
+                "title": "EXPAND COMPLEX TYPES",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_expand_complex_types.html",
+                "anchor": "impala_expand_complex_types",
+                "virtual_path": "docs/impala_expand_complex_types.md"
+              },
+              {
+                "title": "EXPLAIN LEVEL",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_explain_level.html",
+                "anchor": "impala_explain_level",
+                "virtual_path": "docs/impala_explain_level.md"
+              },
+              {
+                "title": "FETCH ROWS TIMEOUT MS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_fetch_rows_timeout_ms.html",
+                "anchor": "impala_fetch_rows_timeout_ms",
+                "virtual_path": "docs/impala_fetch_rows_timeout_ms.md"
+              },
+              {
+                "title": "HBASE CACHE BLOCKS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_hbase_cache_blocks.html",
+                "anchor": "impala_hbase_cache_blocks",
+                "virtual_path": "docs/impala_hbase_cache_blocks.md"
+              },
+              {
+                "title": "HBASE CACHING",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_hbase_caching.html",
+                "anchor": "impala_hbase_caching",
+                "virtual_path": "docs/impala_hbase_caching.md"
+              },
+              {
+                "title": "IDLE SESSION TIMEOUT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_idle_session_timeout.html",
+                "anchor": "impala_idle_session_timeout",
+                "virtual_path": "docs/impala_idle_session_timeout.md"
+              },
+              {
+                "title": "JOIN ROWS PRODUCED LIMIT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_join_rows_produced_limit.html",
+                "anchor": "impala_join_rows_produced_limit",
+                "virtual_path": "docs/impala_join_rows_produced_limit.md"
+              },
+              {
+                "title": "KUDU READ MODE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_kudu_read_mode.html",
+                "anchor": "impala_kudu_read_mode",
+                "virtual_path": "docs/impala_kudu_read_mode.md"
+              },
+              {
+                "title": "LARGE AGG MEM THRESHOLD",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_large_agg_mem_threshold.html",
+                "anchor": "impala_large_agg_mem_threshold",
+                "virtual_path": "docs/impala_large_agg_mem_threshold.md"
+              },
+              {
+                "title": "LIVE PROGRESS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_live_progress.html",
+                "anchor": "impala_live_progress",
+                "virtual_path": "docs/impala_live_progress.md"
+              },
+              {
+                "title": "LIVE SUMMARY",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_live_summary.html",
+                "anchor": "impala_live_summary",
+                "virtual_path": "docs/impala_live_summary.md"
+              },
+              {
+                "title": "MAX ERRORS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_errors.html",
+                "anchor": "impala_max_errors",
+                "virtual_path": "docs/impala_max_errors.md"
+              },
+              {
+                "title": "MAX MEM ESTIMATE FOR ADMISSION",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_mem_estimate_for_admission.html",
+                "anchor": "impala_max_mem_estimate_for_admission",
+                "virtual_path": "docs/impala_max_mem_estimate_for_admission.md"
+              },
+              {
+                "title": "MAX NUM RUNTIME FILTERS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_num_runtime_filters.html",
+                "anchor": "impala_max_num_runtime_filters",
+                "virtual_path": "docs/impala_max_num_runtime_filters.md"
+              },
+              {
+                "title": "MAX RESULT SPOOLING MEM",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_result_spooling_mem.html",
+                "anchor": "impala_max_result_spooling_mem",
+                "virtual_path": "docs/impala_max_result_spooling_mem.md"
+              },
+              {
+                "title": "MAX ROW SIZE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_row_size.html",
+                "anchor": "impala_max_row_size",
+                "virtual_path": "docs/impala_max_row_size.md"
+              },
+              {
+                "title": "MAX SCAN RANGE LENGTH",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_scan_range_length.html",
+                "anchor": "impala_max_scan_range_length",
+                "virtual_path": "docs/impala_max_scan_range_length.md"
+              },
+              {
+                "title": "MAX SPILLED RESULT SPOOLING MEM",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_spilled_result_spooling_mem.html",
+                "anchor": "impala_max_spilled_result_spooling_mem",
+                "virtual_path": "docs/impala_max_spilled_result_spooling_mem.md"
+              },
+              {
+                "title": "MEM LIMIT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_mem_limit.html",
+                "anchor": "impala_mem_limit",
+                "virtual_path": "docs/impala_mem_limit.md"
+              },
+              {
+                "title": "MIN SPILLABLE BUFFER SIZE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_min_spillable_buffer_size.html",
+                "anchor": "impala_min_spillable_buffer_size",
+                "virtual_path": "docs/impala_min_spillable_buffer_size.md"
+              },
+              {
+                "title": "MT DOP",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_mt_dop.html",
+                "anchor": "impala_mt_dop",
+                "virtual_path": "docs/impala_mt_dop.md"
+              },
+              {
+                "title": "NUM NODES",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_num_nodes.html",
+                "anchor": "impala_num_nodes",
+                "virtual_path": "docs/impala_num_nodes.md"
+              },
+              {
+                "title": "NUM ROWS PRODUCED LIMIT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_num_rows_produced_limit.html",
+                "anchor": "impala_num_rows_produced_limit",
+                "virtual_path": "docs/impala_num_rows_produced_limit.md"
+              },
+              {
+                "title": "NUM SCANNER THREADS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_num_scanner_threads.html",
+                "anchor": "impala_num_scanner_threads",
+                "virtual_path": "docs/impala_num_scanner_threads.md"
+              },
+              {
+                "title": "OPTIMIZE PARTITION KEY SCANS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_optimize_partition_key_scans.html",
+                "anchor": "impala_optimize_partition_key_scans",
+                "virtual_path": "docs/impala_optimize_partition_key_scans.md"
+              },
+              {
+                "title": "PARQUET COMPRESSION CODEC",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_compression_codec.html",
+                "anchor": "impala_parquet_compression_codec",
+                "virtual_path": "docs/impala_parquet_compression_codec.md"
+              },
+              {
+                "title": "PARQUET ANNOTATE STRINGS UTF8",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_annotate_strings_utf8.html",
+                "anchor": "impala_parquet_annotate_strings_utf8",
+                "virtual_path": "docs/impala_parquet_annotate_strings_utf8.md"
+              },
+              {
+                "title": "PARQUET ARRAY RESOLUTION",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_array_resolution.html",
+                "anchor": "impala_parquet_array_resolution",
+                "virtual_path": "docs/impala_parquet_array_resolution.md"
+              },
+              {
+                "title": "PARQUET DICTIONARY FILTERING",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_dictionary_filtering.html",
+                "anchor": "impala_parquet_dictionary_filtering",
+                "virtual_path": "docs/impala_parquet_dictionary_filtering.md"
+              },
+              {
+                "title": "PARQUET FALLBACK SCHEMA RESOLUTION",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_fallback_schema_resolution.html",
+                "anchor": "impala_parquet_fallback_schema_resolution",
+                "virtual_path": "docs/impala_parquet_fallback_schema_resolution.md"
+              },
+              {
+                "title": "PARQUET FILE SIZE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_file_size.html",
+                "anchor": "impala_parquet_file_size",
+                "virtual_path": "docs/impala_parquet_file_size.md"
+              },
+              {
+                "title": "PARQUET OBJECT STORE SPLIT SIZE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_object_store_split_size.html",
+                "anchor": "impala_parquet_object_store_split_size",
+                "virtual_path": "docs/impala_parquet_object_store_split_size.md"
+              },
+              {
+                "title": "PARQUET PAGE ROW COUNT LIMIT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_page_row_count_limit.html",
+                "anchor": "impala_parquet_page_row_count_limit",
+                "virtual_path": "docs/impala_parquet_page_row_count_limit.md"
+              },
+              {
+                "title": "PARQUET READ STATISTICS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_read_statistics.html",
+                "anchor": "impala_parquet_read_statistics",
+                "virtual_path": "docs/impala_parquet_read_statistics.md"
+              },
+              {
+                "title": "PARQUET READ PAGE INDEX",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_read_page_index.html",
+                "anchor": "impala_parquet_read_page_index",
+                "virtual_path": "docs/impala_parquet_read_page_index.md"
+              },
+              {
+                "title": "PARQUET WRITE PAGE INDEX",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_write_page_index.html",
+                "anchor": "impala_parquet_write_page_index",
+                "virtual_path": "docs/impala_parquet_write_page_index.md"
+              },
+              {
+                "title": "PREFETCH MODE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_prefetch_mode.html",
+                "anchor": "impala_prefetch_mode",
+                "virtual_path": "docs/impala_prefetch_mode.md"
+              },
+              {
+                "title": "QUERY TIMEOUT S",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_query_timeout_s.html",
+                "anchor": "impala_query_timeout_s",
+                "virtual_path": "docs/impala_query_timeout_s.md"
+              },
+              {
+                "title": "REFRESH UPDATED HMS PARTITIONS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_refresh_updated_hms.html",
+                "anchor": "impala_refresh_updated_hms",
+                "virtual_path": "docs/impala_refresh_updated_hms.md"
+              },
+              {
+                "title": "REPLICA PREFERENCE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_replica_preference.html",
+                "anchor": "impala_replica_preference",
+                "virtual_path": "docs/impala_replica_preference.md"
+              },
+              {
+                "title": "REQUEST POOL",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_request_pool.html",
+                "anchor": "impala_request_pool",
+                "virtual_path": "docs/impala_request_pool.md"
+              },
+              {
+                "title": "RESOURCE TRACE RATIO",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_resource_trace_ratio.html",
+                "anchor": "impala_resource_trace_ratio",
+                "virtual_path": "docs/impala_resource_trace_ratio.md"
+              },
+              {
+                "title": "RETRY FAILED QUERIES",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_retry_failed_queries.html",
+                "anchor": "impala_retry_failed_queries",
+                "virtual_path": "docs/impala_retry_failed_queries.md"
+              },
+              {
+                "title": "ENABLED RUNTIME FILTER TYPES",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_enabled_runtime_filter_types.html",
+                "anchor": "impala_enabled_runtime_filter_types",
+                "virtual_path": "docs/impala_enabled_runtime_filter_types.md"
+              },
+              {
+                "title": "RUNTIME BLOOM FILTER SIZE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_bloom_filter_size.html",
+                "anchor": "impala_runtime_bloom_filter_size",
+                "virtual_path": "docs/impala_runtime_bloom_filter_size.md"
+              },
+              {
+                "title": "RUNTIME FILTER MAX SIZE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_max_size.html",
+                "anchor": "impala_runtime_filter_max_size",
+                "virtual_path": "docs/impala_runtime_filter_max_size.md"
+              },
+              {
+                "title": "RUNTIME FILTER MIN SIZE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_min_size.html",
+                "anchor": "impala_runtime_filter_min_size",
+                "virtual_path": "docs/impala_runtime_filter_min_size.md"
+              },
+              {
+                "title": "RUNTIME FILTER MODE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_mode.html",
+                "anchor": "impala_runtime_filter_mode",
+                "virtual_path": "docs/impala_runtime_filter_mode.md"
+              },
+              {
+                "title": "RUNTIME FILTER WAIT TIME MS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_wait_time_ms.html",
+                "anchor": "impala_runtime_filter_wait_time_ms",
+                "virtual_path": "docs/impala_runtime_filter_wait_time_ms.md"
+              },
+              {
+                "title": "S3 SKIP INSERT STAGING",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_s3_skip_insert_staging.html",
+                "anchor": "impala_s3_skip_insert_staging",
+                "virtual_path": "docs/impala_s3_skip_insert_staging.md"
+              },
+              {
+                "title": "SCAN BYTES LIMIT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_scan_bytes_limit.html",
+                "anchor": "impala_scan_bytes_limit",
+                "virtual_path": "docs/impala_scan_bytes_limit.md"
+              },
+              {
+                "title": "SCHEDULE RANDOM REPLICA",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_schedule_random_replica.html",
+                "anchor": "impala_schedule_random_replica",
+                "virtual_path": "docs/impala_schedule_random_replica.md"
+              },
+              {
+                "title": "SCRATCH LIMIT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_scratch_limit.html",
+                "anchor": "impala_scratch_limit",
+                "virtual_path": "docs/impala_scratch_limit.md"
+              },
+              {
+                "title": "SHUFFLE DISTINCT EXPRS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_shuffle_distinct_exprs.html",
+                "anchor": "impala_shuffle_distinct_exprs",
+                "virtual_path": "docs/impala_shuffle_distinct_exprs.md"
+              },
+              {
+                "title": "SPOOL QUERY RESULTS",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_spool_query_results.html",
+                "anchor": "impala_spool_query_results",
+                "virtual_path": "docs/impala_spool_query_results.md"
+              },
+              {
+                "title": "SUPPORT START OVER",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_support_start_over.html",
+                "anchor": "impala_support_start_over",
+                "virtual_path": "docs/impala_support_start_over.md"
+              },
+              {
+                "title": "SYNC DDL",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_sync_ddl.html",
+                "anchor": "impala_sync_ddl",
+                "virtual_path": "docs/impala_sync_ddl.md"
+              },
+              {
+                "title": "THREAD RESERVATION AGGREGATE LIMIT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_thread_reservation_aggregate_limit.html",
+                "anchor": "impala_thread_reservation_aggregate_limit",
+                "virtual_path": "docs/impala_thread_reservation_aggregate_limit.md"
+              },
+              {
+                "title": "THREAD RESERVATION LIMIT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_thread_reservation_limit.html",
+                "anchor": "impala_thread_reservation_limit",
+                "virtual_path": "docs/impala_thread_reservation_limit.md"
+              },
+              {
+                "title": "TIMEZONE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_timezone.html",
+                "anchor": "impala_timezone",
+                "virtual_path": "docs/impala_timezone.md"
+              },
+              {
+                "title": "TOPN BYTES LIMIT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_topn_bytes_limit.html",
+                "anchor": "impala_topn_bytes_limit",
+                "virtual_path": "docs/impala_topn_bytes_limit.md"
+              },
+              {
+                "title": "USE NULL SLOTS CACHE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_use_null_slots_cache.html",
+                "anchor": "impala_use_null_slots_cache",
+                "virtual_path": "docs/impala_use_null_slots_cache.md"
+              },
+              {
+                "title": "UTF8 MODE",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_utf8_mode.html",
+                "anchor": "impala_utf8_mode",
+                "virtual_path": "docs/impala_utf8_mode.md"
+              }
+            ]
+          },
+          {
+            "title": "SHOW",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_show.html",
+            "anchor": "impala_show",
+            "virtual_path": "docs/impala_show.md"
+          },
+          {
+            "title": "SHUTDOWN",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_shutdown.html",
+            "anchor": "impala_shutdown",
+            "virtual_path": "docs/impala_shutdown.md"
+          },
+          {
+            "title": "TRUNCATE TABLE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_truncate_table.html",
+            "anchor": "impala_truncate_table",
+            "virtual_path": "docs/impala_truncate_table.md"
+          },
+          {
+            "title": "UPDATE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_update.html",
+            "anchor": "impala_update",
+            "virtual_path": "docs/impala_update.md"
+          },
+          {
+            "title": "UPSERT",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_upsert.html",
+            "anchor": "impala_upsert",
+            "virtual_path": "docs/impala_upsert.md"
+          },
+          {
+            "title": "USE",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_use.html",
+            "anchor": "impala_use",
+            "virtual_path": "docs/impala_use.md"
+          },
+          {
+            "title": "VALUES",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_values.html",
+            "anchor": "impala_values",
+            "virtual_path": "docs/impala_values.md"
+          },
+          {
+            "title": "Optimizer Hints",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_hints.html",
+            "anchor": "impala_hints",
+            "virtual_path": "docs/impala_hints.md"
+          }
+        ]
+      },
+      {
+        "title": "Built-In Functions",
+        "kind": "category",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_functions.html",
+        "anchor": "impala_functions",
+        "virtual_path": "docs/impala_functions.md",
+        "children": [
+          {
+            "title": "Mathematical Functions",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_math_functions.html",
+            "anchor": "impala_math_functions",
+            "virtual_path": "docs/impala_math_functions.md"
+          },
+          {
+            "title": "Bit Functions",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_bit_functions.html",
+            "anchor": "impala_bit_functions",
+            "virtual_path": "docs/impala_bit_functions.md"
+          },
+          {
+            "title": "Type Conversion Functions",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_conversion_functions.html",
+            "anchor": "impala_conversion_functions",
+            "virtual_path": "docs/impala_conversion_functions.md"
+          },
+          {
+            "title": "Date and Time Functions",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_datetime_functions.html",
+            "anchor": "impala_datetime_functions",
+            "virtual_path": "docs/impala_datetime_functions.md"
+          },
+          {
+            "title": "Conditional Functions",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_conditional_functions.html",
+            "anchor": "impala_conditional_functions",
+            "virtual_path": "docs/impala_conditional_functions.md"
+          },
+          {
+            "title": "String Functions",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_string_functions.html",
+            "anchor": "impala_string_functions",
+            "virtual_path": "docs/impala_string_functions.md"
+          },
+          {
+            "title": "AI Functions",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ai_functions.html",
+            "anchor": "impala_ai_functions",
+            "virtual_path": "docs/impala_ai_functions.md"
+          },
+          {
+            "title": "Miscellaneous Functions",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_misc_functions.html",
+            "anchor": "impala_misc_functions",
+            "virtual_path": "docs/impala_misc_functions.md"
+          },
+          {
+            "title": "Aggregate Functions",
+            "kind": "category",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_aggregate_functions.html",
+            "anchor": "impala_aggregate_functions",
+            "virtual_path": "docs/impala_aggregate_functions.md",
+            "children": [
+              {
+                "title": "APPX MEDIAN",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_appx_median.html",
+                "anchor": "impala_appx_median",
+                "virtual_path": "docs/impala_appx_median.md"
+              },
+              {
+                "title": "AVG",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_avg.html",
+                "anchor": "impala_avg",
+                "virtual_path": "docs/impala_avg.md"
+              },
+              {
+                "title": "COUNT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_count.html",
+                "anchor": "impala_count",
+                "virtual_path": "docs/impala_count.md"
+              },
+              {
+                "title": "GROUP CONCAT",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_group_concat.html",
+                "anchor": "impala_group_concat",
+                "virtual_path": "docs/impala_group_concat.md"
+              },
+              {
+                "title": "MAX",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max.html",
+                "anchor": "impala_max",
+                "virtual_path": "docs/impala_max.md"
+              },
+              {
+                "title": "MIN",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_min.html",
+                "anchor": "impala_min",
+                "virtual_path": "docs/impala_min.md"
+              },
+              {
+                "title": "NDV",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ndv.html",
+                "anchor": "impala_ndv",
+                "virtual_path": "docs/impala_ndv.md"
+              },
+              {
+                "title": "STDDEV, STDDEV_SAMP, STDDEV_POP",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_stddev.html",
+                "anchor": "impala_stddev",
+                "virtual_path": "docs/impala_stddev.md"
+              },
+              {
+                "title": "SUM",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_sum.html",
+                "anchor": "impala_sum",
+                "virtual_path": "docs/impala_sum.md"
+              },
+              {
+                "title": "VARIANCE, VARIANCE_SAMP, VARIANCE_POP, VAR_SAMP, VAR_POP",
+                "kind": "link",
+                "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_variance.html",
+                "anchor": "impala_variance",
+                "virtual_path": "docs/impala_variance.md"
+              }
+            ]
+          },
+          {
+            "title": "Analytic Functions",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_analytic_functions.html",
+            "anchor": "impala_analytic_functions",
+            "virtual_path": "docs/impala_analytic_functions.md"
+          },
+          {
+            "title": "Geospatial Functions",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_geospatial_functions.html",
+            "anchor": "impala_geospatial_functions",
+            "virtual_path": "docs/impala_geospatial_functions.md"
+          }
+        ]
+      },
+      {
+        "title": "User-Defined Functions (UDFs)",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_udf.html",
+        "anchor": "impala_udf",
+        "virtual_path": "docs/impala_udf.md"
+      },
+      {
+        "title": "SQL Differences Between Impala and Hive",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_langref_unsupported.html",
+        "anchor": "impala_langref_unsupported",
+        "virtual_path": "docs/impala_langref_unsupported.md"
+      },
+      {
+        "title": "Porting SQL",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_porting.html",
+        "anchor": "impala_porting",
+        "virtual_path": "docs/impala_porting.md"
+      },
+      {
+        "title": "UTF-8 Support",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_utf_8.html",
+        "anchor": "impala_utf_8",
+        "virtual_path": "docs/impala_utf_8.md"
+      }
+    ]
+  },
+  {
+    "title": "Performance Tuning",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_performance.html",
+    "anchor": "impala_performance",
+    "virtual_path": "docs/impala_performance.md",
+    "children": [
+      {
+        "title": "Performance Best Practices",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_cookbook.html",
+        "anchor": "impala_perf_cookbook",
+        "virtual_path": "docs/impala_perf_cookbook.md"
+      },
+      {
+        "title": "Join Performance",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_joins.html",
+        "anchor": "impala_perf_joins",
+        "virtual_path": "docs/impala_perf_joins.md"
+      },
+      {
+        "title": "Table and Column Statistics",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_stats.html",
+        "anchor": "impala_perf_stats",
+        "virtual_path": "docs/impala_perf_stats.md"
+      },
+      {
+        "title": "Benchmarking",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_benchmarking.html",
+        "anchor": "impala_perf_benchmarking",
+        "virtual_path": "docs/impala_perf_benchmarking.md"
+      },
+      {
+        "title": "Controlling Resource Usage",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_resources.html",
+        "anchor": "impala_perf_resources",
+        "virtual_path": "docs/impala_perf_resources.md"
+      },
+      {
+        "title": "Runtime Filtering",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filtering.html",
+        "anchor": "impala_runtime_filtering",
+        "virtual_path": "docs/impala_runtime_filtering.md"
+      },
+      {
+        "title": "HDFS Caching",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_hdfs_caching.html",
+        "anchor": "impala_perf_hdfs_caching",
+        "virtual_path": "docs/impala_perf_hdfs_caching.md"
+      },
+      {
+        "title": "HDFS Block Skew",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_skew.html",
+        "anchor": "impala_perf_skew",
+        "virtual_path": "docs/impala_perf_skew.md"
+      },
+      {
+        "title": "Data Cache for Remote Reads",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_data_cache.html",
+        "anchor": "impala_data_cache",
+        "virtual_path": "docs/impala_data_cache.md"
+      },
+      {
+        "title": "Testing Impala Performance",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_testing.html",
+        "anchor": "impala_perf_testing",
+        "virtual_path": "docs/impala_perf_testing.md"
+      },
+      {
+        "title": "EXPLAIN Plans and Query Profiles",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_explain_plan.html",
+        "anchor": "impala_explain_plan",
+        "virtual_path": "docs/impala_explain_plan.md"
+      }
+    ]
+  },
+  {
+    "title": "Scalability Considerations",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_scalability.html",
+    "anchor": "impala_scalability",
+    "virtual_path": "docs/impala_scalability.md",
+    "children": [
+      {
+        "title": "Scaling Limits and Guidelines",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_scaling_limits.html",
+        "anchor": "impala_scaling_limits",
+        "virtual_path": "docs/impala_scaling_limits.md"
+      },
+      {
+        "title": "Dedicated Coordinators Optimization",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_dedicated_coordinator.html",
+        "anchor": "impala_dedicated_coordinator",
+        "virtual_path": "docs/impala_dedicated_coordinator.md"
+      },
+      {
+        "title": "Metadata Management",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_metadata.html",
+        "anchor": "impala_metadata",
+        "virtual_path": "docs/impala_metadata.md"
+      }
+    ]
+  },
+  {
+    "title": "Resource Management",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_resource_management.html",
+    "anchor": "impala_resource_management",
+    "virtual_path": "docs/impala_resource_management.md",
+    "children": [
+      {
+        "title": "Admission Control and Query Queuing",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_admission.html",
+        "anchor": "impala_admission",
+        "virtual_path": "docs/impala_admission.md"
+      },
+      {
+        "title": "Configuring Admission Control",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_admission_config.html",
+        "anchor": "impala_admission_config",
+        "virtual_path": "docs/impala_admission_config.md"
+      }
+    ]
+  },
+  {
+    "title": "Partitioning",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_partitioning.html",
+    "anchor": "impala_partitioning",
+    "virtual_path": "docs/impala_partitioning.md"
+  },
+  {
+    "title": "File Formats",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_file_formats.html",
+    "anchor": "impala_file_formats",
+    "virtual_path": "docs/impala_file_formats.md",
+    "children": [
+      {
+        "title": "Text Data Files",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_txtfile.html",
+        "anchor": "impala_txtfile",
+        "virtual_path": "docs/impala_txtfile.md"
+      },
+      {
+        "title": "Parquet Data Files",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet.html",
+        "anchor": "impala_parquet",
+        "virtual_path": "docs/impala_parquet.md"
+      },
+      {
+        "title": "ORC Data Files",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_orc.html",
+        "anchor": "impala_orc",
+        "virtual_path": "docs/impala_orc.md"
+      },
+      {
+        "title": "Avro Data Files",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_avro.html",
+        "anchor": "impala_avro",
+        "virtual_path": "docs/impala_avro.md"
+      },
+      {
+        "title": "Hudi Data Files",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_hudi.html",
+        "anchor": "impala_hudi",
+        "virtual_path": "docs/impala_hudi.md"
+      },
+      {
+        "title": "RCFile Data Files",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_rcfile.html",
+        "anchor": "impala_rcfile",
+        "virtual_path": "docs/impala_rcfile.md"
+      },
+      {
+        "title": "SequenceFile Data Files",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_seqfile.html",
+        "anchor": "impala_seqfile",
+        "virtual_path": "docs/impala_seqfile.md"
+      }
+    ]
+  },
+  {
+    "title": "Using Impala to Query External JDBC Data Sources",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_jdbc_external_table.html",
+    "anchor": "impala_jdbc_external_table",
+    "virtual_path": "docs/impala_jdbc_external_table.md"
+  },
+  {
+    "title": "Using Impala to Query Kudu Tables",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_kudu.html",
+    "anchor": "impala_kudu",
+    "virtual_path": "docs/impala_kudu.md"
+  },
+  {
+    "title": "HBase Tables",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_hbase.html",
+    "anchor": "impala_hbase",
+    "virtual_path": "docs/impala_hbase.md"
+  },
+  {
+    "title": "Iceberg Tables",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_iceberg.html",
+    "anchor": "impala_iceberg",
+    "virtual_path": "docs/impala_iceberg.md"
+  },
+  {
+    "title": "S3 Tables",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_s3.html",
+    "anchor": "impala_s3",
+    "virtual_path": "docs/impala_s3.md"
+  },
+  {
+    "title": "ADLS Tables",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_adls.html",
+    "anchor": "impala_adls",
+    "virtual_path": "docs/impala_adls.md"
+  },
+  {
+    "title": "Isilon Storage",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_isilon.html",
+    "anchor": "impala_isilon",
+    "virtual_path": "docs/impala_isilon.md"
+  },
+  {
+    "title": "Ozone Storage",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ozone.html",
+    "anchor": "impala_ozone",
+    "virtual_path": "docs/impala_ozone.md"
+  },
+  {
+    "title": "Logging",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_logging.html",
+    "anchor": "impala_logging",
+    "virtual_path": "docs/impala_logging.md"
+  },
+  {
+    "title": "Client Access",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_client.html",
+    "anchor": "impala_client",
+    "virtual_path": "docs/impala_client.md",
+    "children": [
+      {
+        "title": "The Impala Shell",
+        "kind": "category",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_impala_shell.html",
+        "anchor": "impala_impala_shell",
+        "virtual_path": "docs/impala_impala_shell.md",
+        "children": [
+          {
+            "title": "Configuration Options",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_shell_options.html",
+            "anchor": "impala_shell_options",
+            "virtual_path": "docs/impala_shell_options.md"
+          },
+          {
+            "title": "Connecting to impalad",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_connecting.html",
+            "anchor": "impala_connecting",
+            "virtual_path": "docs/impala_connecting.md"
+          },
+          {
+            "title": "Running Commands and SQL Statements",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_shell_running_commands.html",
+            "anchor": "impala_shell_running_commands",
+            "virtual_path": "docs/impala_shell_running_commands.md"
+          },
+          {
+            "title": "Command Reference",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_shell_commands.html",
+            "anchor": "impala_shell_commands",
+            "virtual_path": "docs/impala_shell_commands.md"
+          }
+        ]
+      },
+      {
+        "title": "Configuring Impala to Work with ODBC",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_odbc.html",
+        "anchor": "impala_odbc",
+        "virtual_path": "docs/impala_odbc.md"
+      },
+      {
+        "title": "Configuring Impala to Work with JDBC",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_jdbc.html",
+        "anchor": "impala_jdbc",
+        "virtual_path": "docs/impala_jdbc.md"
+      },
+      {
+        "title": "Spooling Impala Query Results",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_query_results_spooling.html",
+        "anchor": "impala_query_results_spooling",
+        "virtual_path": "docs/impala_query_results_spooling.md"
+      }
+    ]
+  },
+  {
+    "title": "Fault Tolerance",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_fault_tolerance.html",
+    "anchor": "impala_fault_tolerance",
+    "virtual_path": "docs/impala_fault_tolerance.md",
+    "children": [
+      {
+        "title": "Impala Transparent Query Retries",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_transparent_query_retries.html",
+        "anchor": "impala_transparent_query_retries",
+        "virtual_path": "docs/impala_transparent_query_retries.md"
+      },
+      {
+        "title": "Impala Node Blacklisting",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_node_blacklisting.html",
+        "anchor": "impala_node_blacklisting",
+        "virtual_path": "docs/impala_node_blacklisting.md"
+      }
+    ]
+  },
+  {
+    "title": "Troubleshooting Impala",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_troubleshooting.html",
+    "anchor": "impala_troubleshooting",
+    "virtual_path": "docs/impala_troubleshooting.md",
+    "children": [
+      {
+        "title": "Web User Interface",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_webui.html",
+        "anchor": "impala_webui",
+        "virtual_path": "docs/impala_webui.md"
+      },
+      {
+        "title": "Breakpad Minidumps",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_breakpad.html",
+        "anchor": "impala_breakpad",
+        "virtual_path": "docs/impala_breakpad.md"
+      }
+    ]
+  },
+  {
+    "title": "Ports Used by Impala",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ports.html",
+    "anchor": "impala_ports",
+    "virtual_path": "docs/impala_ports.md"
+  },
+  {
+    "title": "Impala Reserved Words",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_reserved_words.html",
+    "anchor": "impala_reserved_words",
+    "virtual_path": "docs/impala_reserved_words.md"
+  },
+  {
+    "title": "Impala Frequently Asked Questions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_faq.html",
+    "anchor": "impala_faq",
+    "virtual_path": "docs/impala_faq.md"
+  },
+  {
+    "title": "Impala Release Notes",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_release_notes.html",
+    "anchor": "impala_release_notes",
+    "virtual_path": "docs/impala_release_notes.md",
+    "children": [
+      {
+        "title": "New Features in Apache Impala",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_new_features.html",
+        "anchor": "impala_new_features",
+        "virtual_path": "docs/impala_new_features.md"
+      },
+      {
+        "title": "Incompatible Changes and Limitations in Apache Impala",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_incompatible_changes.html",
+        "anchor": "impala_incompatible_changes",
+        "virtual_path": "docs/impala_incompatible_changes.md"
+      },
+      {
+        "title": "Known Issues and Workarounds in Impala",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_known_issues.html",
+        "anchor": "impala_known_issues",
+        "virtual_path": "docs/impala_known_issues.md"
+      },
+      {
+        "title": "Fixed Issues in Apache Impala",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_fixed_issues.html",
+        "anchor": "impala_fixed_issues",
+        "virtual_path": "docs/impala_fixed_issues.md"
+      }
+    ]
+  },
+  {
+    "title": "ABORT_ON_ERROR Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_abort_on_error.html",
+    "anchor": "impala_abort_on_error",
+    "virtual_path": "docs/impala_abort_on_error.md"
+  },
+  {
+    "title": "ALLOW_ERASURE_CODED_FILES Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_allow_erasure_coded_files.html",
+    "anchor": "impala_allow_erasure_coded_files",
+    "virtual_path": "docs/impala_allow_erasure_coded_files.md"
+  },
+  {
+    "title": "AGG_MEM_CORRELATION_FACTOR Query Option (Impala 4.4 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_agg_mem_correlation_factor.html",
+    "anchor": "impala_agg_mem_correlation_factor",
+    "virtual_path": "docs/impala_agg_mem_correlation_factor.md"
+  },
+  {
+    "title": "APPX_COUNT_DISTINCT Query Option (Impala 2.0 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_appx_count_distinct.html",
+    "anchor": "impala_appx_count_distinct",
+    "virtual_path": "docs/impala_appx_count_distinct.md"
+  },
+  {
+    "title": "BATCH_SIZE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_batch_size.html",
+    "anchor": "impala_batch_size",
+    "virtual_path": "docs/impala_batch_size.md"
+  },
+  {
+    "title": "BROADCAST_BYTES_LIMIT Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_broadcast_bytes_limit.html",
+    "anchor": "impala_broadcast_bytes_limit",
+    "virtual_path": "docs/impala_broadcast_bytes_limit.md"
+  },
+  {
+    "title": "BUFFER_POOL_LIMIT Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_buffer_pool_limit.html",
+    "anchor": "impala_buffer_pool_limit",
+    "virtual_path": "docs/impala_buffer_pool_limit.md"
+  },
+  {
+    "title": "COMPRESSION_CODEC Query Option (Impala 2.0 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_compression_codec.html",
+    "anchor": "impala_compression_codec",
+    "virtual_path": "docs/impala_compression_codec.md"
+  },
+  {
+    "title": "COMPUTE_STATS_MIN_SAMPLE_SIZE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_compute_stats_min_sample_size.html",
+    "anchor": "impala_compute_stats_min_sample_size",
+    "virtual_path": "docs/impala_compute_stats_min_sample_size.md"
+  },
+  {
+    "title": "DEFAULT_FILE_FORMAT Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_default_file_format.html",
+    "anchor": "impala_default_file_format",
+    "virtual_path": "docs/impala_default_file_format.md"
+  },
+  {
+    "title": "DEFAULT_HINTS_INSERT_STATEMENT Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_default_hints_insert_statement.html",
+    "anchor": "impala_default_hints_insert_statement",
+    "virtual_path": "docs/impala_default_hints_insert_statement.md"
+  },
+  {
+    "title": "DEFAULT_JOIN_DISTRIBUTION_MODE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_default_join_distribution_mode.html",
+    "anchor": "impala_default_join_distribution_mode",
+    "virtual_path": "docs/impala_default_join_distribution_mode.md"
+  },
+  {
+    "title": "DEFAULT_SPILLABLE_BUFFER_SIZE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_default_spillable_buffer_size.html",
+    "anchor": "impala_default_spillable_buffer_size",
+    "virtual_path": "docs/impala_default_spillable_buffer_size.md"
+  },
+  {
+    "title": "DEFAULT_TRANSACTIONAL_TYPE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_default_transactional_type.html",
+    "anchor": "impala_default_transactional_type",
+    "virtual_path": "docs/impala_default_transactional_type.md"
+  },
+  {
+    "title": "DELETE_STATS_IN_TRUNCATE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_delete_stats_in_truncate.html",
+    "anchor": "impala_delete_stats_in_truncate",
+    "virtual_path": "docs/impala_delete_stats_in_truncate.md"
+  },
+  {
+    "title": "DISABLE_CODEGEN Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_codegen.html",
+    "anchor": "impala_disable_codegen",
+    "virtual_path": "docs/impala_disable_codegen.md"
+  },
+  {
+    "title": "DISABLE_CODEGEN_ROWS_THRESHOLD Query Option (Impala 2.10 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_codegen_rows_threshold.html",
+    "anchor": "impala_disable_codegen_rows_threshold",
+    "virtual_path": "docs/impala_disable_codegen_rows_threshold.md"
+  },
+  {
+    "title": "DISABLE_HBASE_NUM_ROWS_ESTIMATE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_hbase_num_rows_estimate.html",
+    "anchor": "impala_disable_hbase_num_rows_estimate",
+    "virtual_path": "docs/impala_disable_hbase_num_rows_estimate.md"
+  },
+  {
+    "title": "DISABLE_ROW_RUNTIME_FILTERING Query Option (Impala 2.5 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_row_runtime_filtering.html",
+    "anchor": "impala_disable_row_runtime_filtering",
+    "virtual_path": "docs/impala_disable_row_runtime_filtering.md"
+  },
+  {
+    "title": "DISABLE_STREAMING_PREAGGREGATIONS Query Option (Impala 2.5 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_streaming_preaggregations.html",
+    "anchor": "impala_disable_streaming_preaggregations",
+    "virtual_path": "docs/impala_disable_streaming_preaggregations.md"
+  },
+  {
+    "title": "DISABLE_UNSAFE_SPILLS Query Option (Impala 2.0 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_unsafe_spills.html",
+    "anchor": "impala_disable_unsafe_spills",
+    "virtual_path": "docs/impala_disable_unsafe_spills.md"
+  },
+  {
+    "title": "ENABLE_EXPR_REWRITES Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_enable_expr_rewrites.html",
+    "anchor": "impala_enable_expr_rewrites",
+    "virtual_path": "docs/impala_enable_expr_rewrites.md"
+  },
+  {
+    "title": "EXEC_SINGLE_NODE_ROWS_THRESHOLD Query Option (Impala 2.1 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_exec_single_node_rows_threshold.html",
+    "anchor": "impala_exec_single_node_rows_threshold",
+    "virtual_path": "docs/impala_exec_single_node_rows_threshold.md"
+  },
+  {
+    "title": "EXEC_TIME_LIMIT_S Query Option (Impala 2.12 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_exec_time_limit_s.html",
+    "anchor": "impala_exec_time_limit_s",
+    "virtual_path": "docs/impala_exec_time_limit_s.md"
+  },
+  {
+    "title": "EXPAND_COMPLEX_TYPES Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_expand_complex_types.html",
+    "anchor": "impala_expand_complex_types",
+    "virtual_path": "docs/impala_expand_complex_types.md"
+  },
+  {
+    "title": "EXPLAIN_LEVEL Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_explain_level.html",
+    "anchor": "impala_explain_level",
+    "virtual_path": "docs/impala_explain_level.md"
+  },
+  {
+    "title": "FETCH_ROWS_TIMEOUT_MS Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_fetch_rows_timeout_ms.html",
+    "anchor": "impala_fetch_rows_timeout_ms",
+    "virtual_path": "docs/impala_fetch_rows_timeout_ms.md"
+  },
+  {
+    "title": "HBASE_CACHE_BLOCKS Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_hbase_cache_blocks.html",
+    "anchor": "impala_hbase_cache_blocks",
+    "virtual_path": "docs/impala_hbase_cache_blocks.md"
+  },
+  {
+    "title": "HBASE_CACHING Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_hbase_caching.html",
+    "anchor": "impala_hbase_caching",
+    "virtual_path": "docs/impala_hbase_caching.md"
+  },
+  {
+    "title": "IDLE_SESSION_TIMEOUT Query Option (Impala 2.12 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_idle_session_timeout.html",
+    "anchor": "impala_idle_session_timeout",
+    "virtual_path": "docs/impala_idle_session_timeout.md"
+  },
+  {
+    "title": "JOIN_ROWS_PRODUCED_LIMIT Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_join_rows_produced_limit.html",
+    "anchor": "impala_join_rows_produced_limit",
+    "virtual_path": "docs/impala_join_rows_produced_limit.md"
+  },
+  {
+    "title": "KUDU_READ_MODE Query Option (Impala 3.1 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_kudu_read_mode.html",
+    "anchor": "impala_kudu_read_mode",
+    "virtual_path": "docs/impala_kudu_read_mode.md"
+  },
+  {
+    "title": "LARGE_AGG_MEM_THRESHOLD Query Option (Impala 4.4 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_large_agg_mem_threshold.html",
+    "anchor": "impala_large_agg_mem_threshold",
+    "virtual_path": "docs/impala_large_agg_mem_threshold.md"
+  },
+  {
+    "title": "LIVE_PROGRESS Query Option (Impala 2.3 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_live_progress.html",
+    "anchor": "impala_live_progress",
+    "virtual_path": "docs/impala_live_progress.md"
+  },
+  {
+    "title": "LIVE_SUMMARY Query Option (Impala 2.3 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_live_summary.html",
+    "anchor": "impala_live_summary",
+    "virtual_path": "docs/impala_live_summary.md"
+  },
+  {
+    "title": "MAX_ERRORS Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_errors.html",
+    "anchor": "impala_max_errors",
+    "virtual_path": "docs/impala_max_errors.md"
+  },
+  {
+    "title": "MAX_MEM_ESTIMATE_FOR_ADMISSION Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_mem_estimate_for_admission.html",
+    "anchor": "impala_max_mem_estimate_for_admission",
+    "virtual_path": "docs/impala_max_mem_estimate_for_admission.md"
+  },
+  {
+    "title": "MAX_NUM_RUNTIME_FILTERS Query Option (Impala 2.5 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_num_runtime_filters.html",
+    "anchor": "impala_max_num_runtime_filters",
+    "virtual_path": "docs/impala_max_num_runtime_filters.md"
+  },
+  {
+    "title": "MAX_RESULT_SPOOLING_MEM Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_result_spooling_mem.html",
+    "anchor": "impala_max_result_spooling_mem",
+    "virtual_path": "docs/impala_max_result_spooling_mem.md"
+  },
+  {
+    "title": "MAX_ROW_SIZE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_row_size.html",
+    "anchor": "impala_max_row_size",
+    "virtual_path": "docs/impala_max_row_size.md"
+  },
+  {
+    "title": "MAX_SCAN_RANGE_LENGTH Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_scan_range_length.html",
+    "anchor": "impala_max_scan_range_length",
+    "virtual_path": "docs/impala_max_scan_range_length.md"
+  },
+  {
+    "title": "MAX_SPILLED_RESULT_SPOOLING_MEM Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_spilled_result_spooling_mem.html",
+    "anchor": "impala_max_spilled_result_spooling_mem",
+    "virtual_path": "docs/impala_max_spilled_result_spooling_mem.md"
+  },
+  {
+    "title": "MEM_LIMIT Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_mem_limit.html",
+    "anchor": "impala_mem_limit",
+    "virtual_path": "docs/impala_mem_limit.md"
+  },
+  {
+    "title": "MIN_SPILLABLE_BUFFER_SIZE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_min_spillable_buffer_size.html",
+    "anchor": "impala_min_spillable_buffer_size",
+    "virtual_path": "docs/impala_min_spillable_buffer_size.md"
+  },
+  {
+    "title": "MT_DOP Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_mt_dop.html",
+    "anchor": "impala_mt_dop",
+    "virtual_path": "docs/impala_mt_dop.md"
+  },
+  {
+    "title": "NUM_NODES Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_num_nodes.html",
+    "anchor": "impala_num_nodes",
+    "virtual_path": "docs/impala_num_nodes.md"
+  },
+  {
+    "title": "NUM_ROWS_PRODUCED_LIMIT Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_num_rows_produced_limit.html",
+    "anchor": "impala_num_rows_produced_limit",
+    "virtual_path": "docs/impala_num_rows_produced_limit.md"
+  },
+  {
+    "title": "NUM_SCANNER_THREADS Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_num_scanner_threads.html",
+    "anchor": "impala_num_scanner_threads",
+    "virtual_path": "docs/impala_num_scanner_threads.md"
+  },
+  {
+    "title": "OPTIMIZE_PARTITION_KEY_SCANS Query Option (Impala 2.5 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_optimize_partition_key_scans.html",
+    "anchor": "impala_optimize_partition_key_scans",
+    "virtual_path": "docs/impala_optimize_partition_key_scans.md"
+  },
+  {
+    "title": "PARQUET_COMPRESSION_CODEC Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_compression_codec.html",
+    "anchor": "impala_parquet_compression_codec",
+    "virtual_path": "docs/impala_parquet_compression_codec.md"
+  },
+  {
+    "title": "PARQUET_ANNOTATE_STRINGS_UTF8 Query Option (Impala 2.6 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_annotate_strings_utf8.html",
+    "anchor": "impala_parquet_annotate_strings_utf8",
+    "virtual_path": "docs/impala_parquet_annotate_strings_utf8.md"
+  },
+  {
+    "title": "PARQUET_ARRAY_RESOLUTION Query Option (Impala 2.9 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_array_resolution.html",
+    "anchor": "impala_parquet_array_resolution",
+    "virtual_path": "docs/impala_parquet_array_resolution.md"
+  },
+  {
+    "title": "PARQUET_DICTIONARY_FILTERING Query Option (Impala 2.9 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_dictionary_filtering.html",
+    "anchor": "impala_parquet_dictionary_filtering",
+    "virtual_path": "docs/impala_parquet_dictionary_filtering.md"
+  },
+  {
+    "title": "PARQUET_FALLBACK_SCHEMA_RESOLUTION Query Option (Impala 2.6 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_fallback_schema_resolution.html",
+    "anchor": "impala_parquet_fallback_schema_resolution",
+    "virtual_path": "docs/impala_parquet_fallback_schema_resolution.md"
+  },
+  {
+    "title": "PARQUET_FILE_SIZE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_file_size.html",
+    "anchor": "impala_parquet_file_size",
+    "virtual_path": "docs/impala_parquet_file_size.md"
+  },
+  {
+    "title": "PARQUET_OBJECT_STORE_SPLIT_SIZE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_object_store_split_size.html",
+    "anchor": "impala_parquet_object_store_split_size",
+    "virtual_path": "docs/impala_parquet_object_store_split_size.md"
+  },
+  {
+    "title": "PARQUET_PAGE_ROW_COUNT_LIMIT Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_page_row_count_limit.html",
+    "anchor": "impala_parquet_page_row_count_limit",
+    "virtual_path": "docs/impala_parquet_page_row_count_limit.md"
+  },
+  {
+    "title": "PARQUET_READ_STATISTICS Query Option (Impala 2.9 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_read_statistics.html",
+    "anchor": "impala_parquet_read_statistics",
+    "virtual_path": "docs/impala_parquet_read_statistics.md"
+  },
+  {
+    "title": "PARQUET_READ_PAGE_INDEX Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_read_page_index.html",
+    "anchor": "impala_parquet_read_page_index",
+    "virtual_path": "docs/impala_parquet_read_page_index.md"
+  },
+  {
+    "title": "PARQUET_WRITE_PAGE_INDEX Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_write_page_index.html",
+    "anchor": "impala_parquet_write_page_index",
+    "virtual_path": "docs/impala_parquet_write_page_index.md"
+  },
+  {
+    "title": "PREFETCH_MODE Query Option (Impala 2.6 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_prefetch_mode.html",
+    "anchor": "impala_prefetch_mode",
+    "virtual_path": "docs/impala_prefetch_mode.md"
+  },
+  {
+    "title": "QUERY_TIMEOUT_S Query Option (Impala 2.0 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_query_timeout_s.html",
+    "anchor": "impala_query_timeout_s",
+    "virtual_path": "docs/impala_query_timeout_s.md"
+  },
+  {
+    "title": "REFRESH_UPDATED_HMS_PARTITIONS Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_refresh_updated_hms.html",
+    "anchor": "impala_refresh_updated_hms",
+    "virtual_path": "docs/impala_refresh_updated_hms.md"
+  },
+  {
+    "title": "REPLICA_PREFERENCE Query Option (Impala 2.7 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_replica_preference.html",
+    "anchor": "impala_replica_preference",
+    "virtual_path": "docs/impala_replica_preference.md"
+  },
+  {
+    "title": "REQUEST_POOL Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_request_pool.html",
+    "anchor": "impala_request_pool",
+    "virtual_path": "docs/impala_request_pool.md"
+  },
+  {
+    "title": "RESOURCE_TRACE_RATIO Query Option (Impala 3.2 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_resource_trace_ratio.html",
+    "anchor": "impala_resource_trace_ratio",
+    "virtual_path": "docs/impala_resource_trace_ratio.md"
+  },
+  {
+    "title": "RETRY_FAILED_QUERIES Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_retry_failed_queries.html",
+    "anchor": "impala_retry_failed_queries",
+    "virtual_path": "docs/impala_retry_failed_queries.md"
+  },
+  {
+    "title": "ENABLED_RUNTIME_FILTER_TYPES Query Option (Impala 4.0 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_enabled_runtime_filter_types.html",
+    "anchor": "impala_enabled_runtime_filter_types",
+    "virtual_path": "docs/impala_enabled_runtime_filter_types.md"
+  },
+  {
+    "title": "RUNTIME_BLOOM_FILTER_SIZE Query Option (Impala 2.5 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_bloom_filter_size.html",
+    "anchor": "impala_runtime_bloom_filter_size",
+    "virtual_path": "docs/impala_runtime_bloom_filter_size.md"
+  },
+  {
+    "title": "RUNTIME_FILTER_MAX_SIZE Query Option (Impala 2.6 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_max_size.html",
+    "anchor": "impala_runtime_filter_max_size",
+    "virtual_path": "docs/impala_runtime_filter_max_size.md"
+  },
+  {
+    "title": "RUNTIME_FILTER_MIN_SIZE Query Option (Impala 2.6 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_min_size.html",
+    "anchor": "impala_runtime_filter_min_size",
+    "virtual_path": "docs/impala_runtime_filter_min_size.md"
+  },
+  {
+    "title": "RUNTIME_FILTER_MODE Query Option (Impala 2.5 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_mode.html",
+    "anchor": "impala_runtime_filter_mode",
+    "virtual_path": "docs/impala_runtime_filter_mode.md"
+  },
+  {
+    "title": "RUNTIME_FILTER_WAIT_TIME_MS Query Option (Impala 2.5 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_wait_time_ms.html",
+    "anchor": "impala_runtime_filter_wait_time_ms",
+    "virtual_path": "docs/impala_runtime_filter_wait_time_ms.md"
+  },
+  {
+    "title": "S3_SKIP_INSERT_STAGING Query Option (Impala 2.6 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_s3_skip_insert_staging.html",
+    "anchor": "impala_s3_skip_insert_staging",
+    "virtual_path": "docs/impala_s3_skip_insert_staging.md"
+  },
+  {
+    "title": "SCAN_BYTES_LIMIT Query Option (Impala 3.1 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_scan_bytes_limit.html",
+    "anchor": "impala_scan_bytes_limit",
+    "virtual_path": "docs/impala_scan_bytes_limit.md"
+  },
+  {
+    "title": "SCHEDULE_RANDOM_REPLICA Query Option (Impala 2.5 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_schedule_random_replica.html",
+    "anchor": "impala_schedule_random_replica",
+    "virtual_path": "docs/impala_schedule_random_replica.md"
+  },
+  {
+    "title": "SCRATCH_LIMIT Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_scratch_limit.html",
+    "anchor": "impala_scratch_limit",
+    "virtual_path": "docs/impala_scratch_limit.md"
+  },
+  {
+    "title": "SHUFFLE_DISTINCT_EXPRS Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_shuffle_distinct_exprs.html",
+    "anchor": "impala_shuffle_distinct_exprs",
+    "virtual_path": "docs/impala_shuffle_distinct_exprs.md"
+  },
+  {
+    "title": "SPOOL_QUERY_RESULTS Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_spool_query_results.html",
+    "anchor": "impala_spool_query_results",
+    "virtual_path": "docs/impala_spool_query_results.md"
+  },
+  {
+    "title": "SUPPORT_START_OVER Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_support_start_over.html",
+    "anchor": "impala_support_start_over",
+    "virtual_path": "docs/impala_support_start_over.md"
+  },
+  {
+    "title": "SYNC_DDL Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_sync_ddl.html",
+    "anchor": "impala_sync_ddl",
+    "virtual_path": "docs/impala_sync_ddl.md"
+  },
+  {
+    "title": "THREAD_RESERVATION_AGGREGATE_LIMIT Query Option (Impala 3.1 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_thread_reservation_aggregate_limit.html",
+    "anchor": "impala_thread_reservation_aggregate_limit",
+    "virtual_path": "docs/impala_thread_reservation_aggregate_limit.md"
+  },
+  {
+    "title": "THREAD_RESERVATION_LIMIT Query Option (Impala 3.1 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_thread_reservation_limit.html",
+    "anchor": "impala_thread_reservation_limit",
+    "virtual_path": "docs/impala_thread_reservation_limit.md"
+  },
+  {
+    "title": "TIMEZONE Query Option (Impala 3.1 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_timezone.html",
+    "anchor": "impala_timezone",
+    "virtual_path": "docs/impala_timezone.md"
+  },
+  {
+    "title": "TOPN_BYTES_LIMIT Query Option (Impala 3.1 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_topn_bytes_limit.html",
+    "anchor": "impala_topn_bytes_limit",
+    "virtual_path": "docs/impala_topn_bytes_limit.md"
+  },
+  {
+    "title": "USE_NULL_SLOTS_CACHE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_use_null_slots_cache.html",
+    "anchor": "impala_use_null_slots_cache",
+    "virtual_path": "docs/impala_use_null_slots_cache.md"
+  },
+  {
+    "title": "UTF8_MODE Query Option",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_utf8_mode.html",
+    "anchor": "impala_utf8_mode",
+    "virtual_path": "docs/impala_utf8_mode.md"
+  },
+  {
+    "title": "ALTER DATABASE Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_alter_database.html",
+    "anchor": "impala_alter_database",
+    "virtual_path": "docs/impala_alter_database.md"
+  },
+  {
+    "title": "ALTER TABLE Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_alter_table.html",
+    "anchor": "impala_alter_table",
+    "virtual_path": "docs/impala_alter_table.md"
+  },
+  {
+    "title": "ALTER VIEW Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_alter_view.html",
+    "anchor": "impala_alter_view",
+    "virtual_path": "docs/impala_alter_view.md"
+  },
+  {
+    "title": "COMMENT Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_comment.html",
+    "anchor": "impala_comment",
+    "virtual_path": "docs/impala_comment.md"
+  },
+  {
+    "title": "COMPUTE STATS Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_compute_stats.html",
+    "anchor": "impala_compute_stats",
+    "virtual_path": "docs/impala_compute_stats.md"
+  },
+  {
+    "title": "CREATE DATABASE Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_database.html",
+    "anchor": "impala_create_database",
+    "virtual_path": "docs/impala_create_database.md"
+  },
+  {
+    "title": "CREATE FUNCTION Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_function.html",
+    "anchor": "impala_create_function",
+    "virtual_path": "docs/impala_create_function.md"
+  },
+  {
+    "title": "CREATE ROLE Statement (Impala 2.0 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_role.html",
+    "anchor": "impala_create_role",
+    "virtual_path": "docs/impala_create_role.md"
+  },
+  {
+    "title": "CREATE TABLE Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_table.html",
+    "anchor": "impala_create_table",
+    "virtual_path": "docs/impala_create_table.md"
+  },
+  {
+    "title": "CREATE VIEW Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_view.html",
+    "anchor": "impala_create_view",
+    "virtual_path": "docs/impala_create_view.md"
+  },
+  {
+    "title": "DELETE Statement (Impala 2.8 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_delete.html",
+    "anchor": "impala_delete",
+    "virtual_path": "docs/impala_delete.md"
+  },
+  {
+    "title": "DESCRIBE Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_describe.html",
+    "anchor": "impala_describe",
+    "virtual_path": "docs/impala_describe.md"
+  },
+  {
+    "title": "DROP DATABASE Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_database.html",
+    "anchor": "impala_drop_database",
+    "virtual_path": "docs/impala_drop_database.md"
+  },
+  {
+    "title": "DROP FUNCTION Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_function.html",
+    "anchor": "impala_drop_function",
+    "virtual_path": "docs/impala_drop_function.md"
+  },
+  {
+    "title": "DROP ROLE Statement (Impala 2.0 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_role.html",
+    "anchor": "impala_drop_role",
+    "virtual_path": "docs/impala_drop_role.md"
+  },
+  {
+    "title": "DROP STATS Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_stats.html",
+    "anchor": "impala_drop_stats",
+    "virtual_path": "docs/impala_drop_stats.md"
+  },
+  {
+    "title": "DROP TABLE Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_table.html",
+    "anchor": "impala_drop_table",
+    "virtual_path": "docs/impala_drop_table.md"
+  },
+  {
+    "title": "DROP VIEW Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_view.html",
+    "anchor": "impala_drop_view",
+    "virtual_path": "docs/impala_drop_view.md"
+  },
+  {
+    "title": "EXPLAIN Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_explain.html",
+    "anchor": "impala_explain",
+    "virtual_path": "docs/impala_explain.md"
+  },
+  {
+    "title": "GRANT Statement (Impala 2.0 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_grant.html",
+    "anchor": "impala_grant",
+    "virtual_path": "docs/impala_grant.md"
+  },
+  {
+    "title": "INSERT Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_insert.html",
+    "anchor": "impala_insert",
+    "virtual_path": "docs/impala_insert.md"
+  },
+  {
+    "title": "INVALIDATE METADATA Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_invalidate_metadata.html",
+    "anchor": "impala_invalidate_metadata",
+    "virtual_path": "docs/impala_invalidate_metadata.md"
+  },
+  {
+    "title": "LOAD DATA Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_load_data.html",
+    "anchor": "impala_load_data",
+    "virtual_path": "docs/impala_load_data.md"
+  },
+  {
+    "title": "MERGE Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_merge.html",
+    "anchor": "impala_merge",
+    "virtual_path": "docs/impala_merge.md"
+  },
+  {
+    "title": "REFRESH Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_refresh.html",
+    "anchor": "impala_refresh",
+    "virtual_path": "docs/impala_refresh.md"
+  },
+  {
+    "title": "REFRESH AUTHORIZATION Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_refresh_authorization.html",
+    "anchor": "impala_refresh_authorization",
+    "virtual_path": "docs/impala_refresh_authorization.md"
+  },
+  {
+    "title": "REFRESH FUNCTIONS Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_refresh_functions.html",
+    "anchor": "impala_refresh_functions",
+    "virtual_path": "docs/impala_refresh_functions.md"
+  },
+  {
+    "title": "REVOKE Statement (Impala 2.0 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_revoke.html",
+    "anchor": "impala_revoke",
+    "virtual_path": "docs/impala_revoke.md"
+  },
+  {
+    "title": "SELECT Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_select.html",
+    "anchor": "impala_select",
+    "virtual_path": "docs/impala_select.md"
+  },
+  {
+    "title": "SET Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_set.html",
+    "anchor": "impala_set",
+    "virtual_path": "docs/impala_set.md"
+  },
+  {
+    "title": "SHOW Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_show.html",
+    "anchor": "impala_show",
+    "virtual_path": "docs/impala_show.md"
+  },
+  {
+    "title": "SHUTDOWN Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_shutdown.html",
+    "anchor": "impala_shutdown",
+    "virtual_path": "docs/impala_shutdown.md"
+  },
+  {
+    "title": "TRUNCATE TABLE Statement (Impala 2.3 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_truncate_table.html",
+    "anchor": "impala_truncate_table",
+    "virtual_path": "docs/impala_truncate_table.md"
+  },
+  {
+    "title": "UPDATE Statement (Impala 2.8 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_update.html",
+    "anchor": "impala_update",
+    "virtual_path": "docs/impala_update.md"
+  },
+  {
+    "title": "UPSERT Statement (Impala 2.8 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_upsert.html",
+    "anchor": "impala_upsert",
+    "virtual_path": "docs/impala_upsert.md"
+  },
+  {
+    "title": "USE Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_use.html",
+    "anchor": "impala_use",
+    "virtual_path": "docs/impala_use.md"
+  },
+  {
+    "title": "VALUES Statement",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_values.html",
+    "anchor": "impala_values",
+    "virtual_path": "docs/impala_values.md"
+  },
+  {
+    "title": "Improvements to Impala support for the Amazon S3 filesystem:",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Using Impala with Amazon S3 Object Store",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_s3.html#s3",
+        "anchor": "impala_s3--s3",
+        "virtual_path": "docs/impala_s3.md"
+      },
+      {
+        "title": "S3_SKIP_INSERT_STAGING Query Option (Impala 2.6 or higher only)",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_s3_skip_insert_staging.html#s3_skip_insert_staging",
+        "anchor": "impala_s3_skip_insert_staging--s3_skip_insert_staging",
+        "virtual_path": "docs/impala_s3_skip_insert_staging.md"
+      }
+    ]
+  },
+  {
+    "title": "Performance improvements for the runtime filtering feature:",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filtering.html#runtime_filtering",
+    "anchor": "impala_runtime_filtering--runtime_filtering",
+    "virtual_path": "docs/impala_runtime_filtering.md",
+    "children": [
+      {
+        "title": "RUNTIME_FILTER_MODE Query Option (Impala 2.5 or higher only)",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_mode.html#runtime_filter_mode",
+        "anchor": "impala_runtime_filter_mode--runtime_filter_mode",
+        "virtual_path": "docs/impala_runtime_filter_mode.md"
+      },
+      {
+        "title": "RUNTIME_BLOOM_FILTER_SIZE Query Option (Impala 2.5 or higher only)",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_bloom_filter_size.html#runtime_bloom_filter_size",
+        "anchor": "impala_runtime_bloom_filter_size--runtime_bloom_filter_size",
+        "virtual_path": "docs/impala_runtime_bloom_filter_size.md"
+      },
+      {
+        "title": "RUNTIME_FILTER_MIN_SIZE Query Option (Impala 2.6 or higher only)",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_min_size.html#runtime_filter_min_size",
+        "anchor": "impala_runtime_filter_min_size--runtime_filter_min_size",
+        "virtual_path": "docs/impala_runtime_filter_min_size.md"
+      }
+    ]
+  },
+  {
+    "title": "Admission Control and Query Queuing",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_admission.html#admission_control",
+    "anchor": "impala_admission--admission_control",
+    "virtual_path": "docs/impala_admission.md"
+  },
+  {
+    "title": "impala perf stats.html#perf column stats manual",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_stats.html#perf_column_stats_manual",
+    "anchor": "impala_perf_stats--perf_column_stats_manual",
+    "virtual_path": "docs/impala_perf_stats.md"
+  },
+  {
+    "title": "Breakpad Minidumps for Impala (Impala 2.6 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_breakpad.html#breakpad",
+    "anchor": "impala_breakpad--breakpad",
+    "virtual_path": "docs/impala_breakpad.md"
+  },
+  {
+    "title": "Using the Parquet File Format with Impala Tables",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet.html#parquet",
+    "anchor": "impala_parquet--parquet",
+    "virtual_path": "docs/impala_parquet.md",
+    "children": [
+      {
+        "title": "PARQUET_FALLBACK_SCHEMA_RESOLUTION Query Option (Impala 2.6 or higher only)",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_fallback_schema_resolution.html#parquet_fallback_schema_resolution",
+        "anchor": "impala_parquet_fallback_schema_resolution--parquet_fallback_schema_resolution",
+        "virtual_path": "docs/impala_parquet_fallback_schema_resolution.md"
+      },
+      {
+        "title": "PARQUET_ANNOTATE_STRINGS_UTF8 Query Option (Impala 2.6 or higher only)",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet_annotate_strings_utf8.html#parquet_annotate_strings_utf8",
+        "anchor": "impala_parquet_annotate_strings_utf8--parquet_annotate_strings_utf8",
+        "virtual_path": "docs/impala_parquet_annotate_strings_utf8.md"
+      }
+    ]
+  },
+  {
+    "title": "Improvements to security and reduction in overhead for secure clusters:",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Mapping Kerberos Principals to Short Names for Impala",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_kerberos.html#auth_to_local",
+        "anchor": "impala_kerberos--auth_to_local",
+        "virtual_path": "docs/impala_kerberos.md"
+      }
+    ]
+  },
+  {
+    "title": "impala-shell Command Reference",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_shell_commands.html#shell_commands",
+    "anchor": "impala_shell_commands--shell_commands",
+    "virtual_path": "docs/impala_shell_commands.md"
+  },
+  {
+    "title": "Impala Date and Time Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_datetime_functions.html#datetime_functions",
+    "anchor": "impala_datetime_functions--datetime_functions",
+    "virtual_path": "docs/impala_datetime_functions.md"
+  },
+  {
+    "title": "Using the Avro File Format with Impala Tables",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_avro.html#avro",
+    "anchor": "impala_avro--avro",
+    "virtual_path": "docs/impala_avro.md"
+  },
+  {
+    "title": "DECIMAL Data Type (Impala 3.0 or higher only)",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_decimal.html#decimal",
+    "anchor": "impala_decimal--decimal",
+    "virtual_path": "docs/impala_decimal.md"
+  },
+  {
+    "title": "Impala Conditional Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_conditional_functions.html#conditional_functions",
+    "anchor": "impala_conditional_functions--conditional_functions",
+    "virtual_path": "docs/impala_conditional_functions.md"
+  },
+  {
+    "title": "Data Files for Text Tables",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_txtfile.html#text_data_files",
+    "anchor": "impala_txtfile--text_data_files",
+    "virtual_path": "docs/impala_txtfile.md"
+  },
+  {
+    "title": "Complex Types (Impala 2.3 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_complex_types.html#complex_types",
+    "anchor": "impala_complex_types--complex_types",
+    "virtual_path": "docs/impala_complex_types.md"
+  },
+  {
+    "title": "How Impala Works with Hadoop File Formats",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_file_formats.html#file_formats",
+    "anchor": "impala_file_formats--file_formats",
+    "virtual_path": "docs/impala_file_formats.md"
+  },
+  {
+    "title": "internal",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_tables.html#internal_tables",
+    "anchor": "impala_tables--internal_tables",
+    "virtual_path": "docs/impala_tables.md",
+    "children": [
+      {
+        "title": "Use the",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_describe.html#describe",
+        "anchor": "impala_describe--describe",
+        "virtual_path": "docs/impala_describe.md"
+      },
+      {
+        "title": "For Impala-managed (",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_table.html#drop_table",
+        "anchor": "impala_drop_table--drop_table",
+        "virtual_path": "docs/impala_drop_table.md"
+      },
+      {
+        "title": "For tables not managed by Impala (",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_refresh.html#refresh",
+        "anchor": "impala_refresh--refresh",
+        "virtual_path": "docs/impala_refresh.md"
+      },
+      {
+        "title": "Use external tables to reference HDFS data files in their original location. With this technique, you avoid copying the files, and you can map more than one Impala table to the sam",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_tables.html#external_tables",
+        "anchor": "impala_tables--external_tables",
+        "virtual_path": "docs/impala_tables.md"
+      }
+    ]
+  },
+  {
+    "title": "BIGINT Data Type",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_bigint.html",
+    "anchor": "impala_bigint",
+    "virtual_path": "docs/impala_bigint.md"
+  },
+  {
+    "title": "BOOLEAN Data Type",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_boolean.html",
+    "anchor": "impala_boolean",
+    "virtual_path": "docs/impala_boolean.md"
+  },
+  {
+    "title": "CHAR Data Type (Impala 2.0 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_char.html",
+    "anchor": "impala_char",
+    "virtual_path": "docs/impala_char.md"
+  },
+  {
+    "title": "DATE Data Type",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_date.html",
+    "anchor": "impala_date",
+    "virtual_path": "docs/impala_date.md"
+  },
+  {
+    "title": "DOUBLE Data Type",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_double.html",
+    "anchor": "impala_double",
+    "virtual_path": "docs/impala_double.md"
+  },
+  {
+    "title": "FLOAT Data Type",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_float.html",
+    "anchor": "impala_float",
+    "virtual_path": "docs/impala_float.md"
+  },
+  {
+    "title": "INT Data Type",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_int.html",
+    "anchor": "impala_int",
+    "virtual_path": "docs/impala_int.md"
+  },
+  {
+    "title": "REAL Data Type",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_real.html",
+    "anchor": "impala_real",
+    "virtual_path": "docs/impala_real.md"
+  },
+  {
+    "title": "SMALLINT Data Type",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_smallint.html",
+    "anchor": "impala_smallint",
+    "virtual_path": "docs/impala_smallint.md"
+  },
+  {
+    "title": "STRING Data Type",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_string.html",
+    "anchor": "impala_string",
+    "virtual_path": "docs/impala_string.md"
+  },
+  {
+    "title": "TIMESTAMP Data Type",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_timestamp.html",
+    "anchor": "impala_timestamp",
+    "virtual_path": "docs/impala_timestamp.md"
+  },
+  {
+    "title": "TINYINT Data Type",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_tinyint.html",
+    "anchor": "impala_tinyint",
+    "virtual_path": "docs/impala_tinyint.md"
+  },
+  {
+    "title": "VARCHAR Data Type (Impala 2.0 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_varchar.html",
+    "anchor": "impala_varchar",
+    "virtual_path": "docs/impala_varchar.md"
+  },
+  {
+    "title": "Enabling LDAP Authentication for Impala",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ldap.html#ldap",
+    "anchor": "impala_ldap--ldap",
+    "virtual_path": "docs/impala_ldap.md"
+  },
+  {
+    "title": "Use one or more techniques to reduce the possibility of the queries spilling to disk:",
+    "kind": "category",
+    "children": [
+      {
+        "title": "On a cluster with resources shared between Impala and other Hadoop components, use resource management features to allocate more memory for Impala. See",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_resource_management.html#resource_management",
+        "anchor": "impala_resource_management--resource_management",
+        "virtual_path": "docs/impala_resource_management.md"
+      },
+      {
+        "title": "If the memory pressure is due to running many concurrent queries rather than a few memory-intensive ones, consider using the Impala admission control feature to lower the limit on",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_admission.html#admission_control",
+        "anchor": "impala_admission--admission_control",
+        "virtual_path": "docs/impala_admission.md"
+      },
+      {
+        "title": "Tune the queries with the highest memory requirements, using one or more of the following techniques:",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Examine the",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_explain_plan.html#perf_explain",
+            "anchor": "impala_explain_plan--perf_explain",
+            "virtual_path": "docs/impala_explain_plan.md"
+          },
+          {
+            "title": "If Impala still chooses a suboptimal execution strategy even with statistics available, or if it is impractical to keep the statistics up to date for huge or rapidly changing table",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_hints.html#hints",
+            "anchor": "impala_hints--hints",
+            "virtual_path": "docs/impala_hints.md"
+          }
+        ]
+      },
+      {
+        "title": "If your queries experience substantial performance overhead due to spilling, enable the",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_unsafe_spills.html#disable_unsafe_spills",
+        "anchor": "impala_disable_unsafe_spills--disable_unsafe_spills",
+        "virtual_path": "docs/impala_disable_unsafe_spills.md"
+      }
+    ]
+  },
+  {
+    "title": "Impala 2.5",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_udf.html#udfs",
+    "anchor": "impala_udf--udfs",
+    "virtual_path": "docs/impala_udf.md"
+  },
+  {
+    "title": "The row size, i.e. the total size of all string and other columns, is subject to lower limits at various points in query execution that support spill-to-disk. A few examples for lo",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_row_size.html",
+    "anchor": "impala_max_row_size",
+    "virtual_path": "docs/impala_max_row_size.md"
+  },
+  {
+    "title": "Primary Impala Features",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Most common SQL-92 features of Hive Query Language (HiveQL) including",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_select.html#select",
+        "anchor": "impala_select--select",
+        "virtual_path": "docs/impala_select.md"
+      },
+      {
+        "title": "HDFS, HBase,",
+        "kind": "category",
+        "children": [
+          {
+            "title": "HDFS file formats",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_file_formats.html#file_formats",
+            "anchor": "impala_file_formats--file_formats",
+            "virtual_path": "docs/impala_file_formats.md"
+          }
+        ]
+      },
+      {
+        "title": "Common data access interfaces including:",
+        "kind": "category",
+        "children": [
+          {
+            "title": "JDBC driver",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_jdbc.html#impala_jdbc",
+            "anchor": "impala_jdbc--impala_jdbc",
+            "virtual_path": "docs/impala_jdbc.md"
+          },
+          {
+            "title": "ODBC driver",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_odbc.html#impala_odbc",
+            "anchor": "impala_odbc--impala_odbc",
+            "virtual_path": "docs/impala_odbc.md"
+          }
+        ]
+      },
+      {
+        "title": "impala-shell command-line interface",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_impala_shell.html#impala_shell",
+        "anchor": "impala_impala_shell--impala_shell",
+        "virtual_path": "docs/impala_impala_shell.md"
+      },
+      {
+        "title": "Kerberos authentication",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_security.html#security",
+        "anchor": "impala_security--security",
+        "virtual_path": "docs/impala_security.md"
+      }
+    ]
+  },
+  {
+    "title": "SQL scalar data types:",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_boolean.html#boolean",
+    "anchor": "impala_boolean--boolean",
+    "virtual_path": "docs/impala_boolean.md"
+  },
+  {
+    "title": "The complex data types",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_complex_types.html#complex_types",
+    "anchor": "impala_complex_types--complex_types",
+    "virtual_path": "docs/impala_complex_types.md"
+  },
+  {
+    "title": "An optional",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_with.html#with",
+    "anchor": "impala_with--with",
+    "virtual_path": "docs/impala_with.md"
+  },
+  {
+    "title": "ORDER BY",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_order_by.html#order_by",
+    "anchor": "impala_order_by--order_by",
+    "virtual_path": "docs/impala_order_by.md"
+  },
+  {
+    "title": "Impala supports a wide variety of JOIN clauses. Left, right, semi, full, and outer joins are supported in all Impala versions. The CROSS JOIN operator is available in Impala 1.2.2",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_joins.html#joins",
+    "anchor": "impala_joins--joins",
+    "virtual_path": "docs/impala_joins.md"
+  },
+  {
+    "title": "Common SQL built-in functions such as",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_functions.html#builtins",
+    "anchor": "impala_functions--builtins",
+    "virtual_path": "docs/impala_functions.md"
+  },
+  {
+    "title": "In",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_tablesample.html",
+    "anchor": "impala_tablesample",
+    "virtual_path": "docs/impala_tablesample.md"
+  },
+  {
+    "title": "Impala Schema Objects and Object Names",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_schema_objects.html",
+    "anchor": "impala_schema_objects",
+    "virtual_path": "docs/impala_schema_objects.md"
+  },
+  {
+    "title": "Impala Transactions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_transactions.html",
+    "anchor": "impala_transactions",
+    "virtual_path": "docs/impala_transactions.md"
+  },
+  {
+    "title": "Impala SQL Statements",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_langref_sql.html",
+    "anchor": "impala_langref_sql",
+    "virtual_path": "docs/impala_langref_sql.md"
+  },
+  {
+    "title": "Impala Built-In Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_functions.html",
+    "anchor": "impala_functions",
+    "virtual_path": "docs/impala_functions.md"
+  },
+  {
+    "title": "Porting SQL from Other Database Systems to Impala",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_porting.html",
+    "anchor": "impala_porting",
+    "virtual_path": "docs/impala_porting.md"
+  },
+  {
+    "title": "Impala uses different syntax and names for query hints,",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_joins.html#joins",
+    "anchor": "impala_joins--joins",
+    "virtual_path": "docs/impala_joins.md"
+  },
+  {
+    "title": "Impala supports a limited set of implicit casts. This can help avoid undesired results from unexpected casting behavior.",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_datatypes.html#datatypes",
+    "anchor": "impala_datatypes--datatypes",
+    "virtual_path": "docs/impala_datatypes.md",
+    "children": [
+      {
+        "title": "Impala does perform implicit casts from string to timestamp. Impala has a restricted set of literal formats for the",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_timestamp.html#timestamp",
+        "anchor": "impala_timestamp--timestamp",
+        "virtual_path": "docs/impala_timestamp.md"
+      }
+    ]
+  },
+  {
+    "title": "Impala does not store or interpret timestamps using the local timezone, to avoid undesired results from unexpected time zone issues. Timestamps are stored and interpreted relative",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_datetime_functions.html#datetime_functions",
+    "anchor": "impala_datetime_functions--datetime_functions",
+    "virtual_path": "docs/impala_datetime_functions.md"
+  },
+  {
+    "title": "How Impala SQL Statements Work with ADLS",
+    "kind": "category",
+    "children": [
+      {
+        "title": "CREATE TABLE Statement",
+        "kind": "category",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_table.html#create_table",
+        "anchor": "impala_create_table--create_table",
+        "virtual_path": "docs/impala_create_table.md"
+      },
+      {
+        "title": "SELECT Statement",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_select.html#select",
+        "anchor": "impala_select--select",
+        "virtual_path": "docs/impala_select.md"
+      },
+      {
+        "title": "DROP TABLE Statement",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_table.html#drop_table",
+        "anchor": "impala_drop_table--drop_table",
+        "virtual_path": "docs/impala_drop_table.md"
+      },
+      {
+        "title": "TRUNCATE TABLE Statement (Impala 2.3 or higher only)",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_truncate_table.html#truncate_table",
+        "anchor": "impala_truncate_table--truncate_table",
+        "virtual_path": "docs/impala_truncate_table.md"
+      },
+      {
+        "title": "LOAD DATA Statement",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_load_data.html#load_data",
+        "anchor": "impala_load_data--load_data",
+        "virtual_path": "docs/impala_load_data.md"
+      },
+      {
+        "title": "INSERT Statement",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_insert.html#insert",
+        "anchor": "impala_insert--insert",
+        "virtual_path": "docs/impala_insert.md"
+      }
+    ]
+  },
+  {
+    "title": "Configuring Impala Startup Options through the Command Line",
+    "kind": "category",
+    "children": [
+      {
+        "title": "impala authorization.html#secure startup",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_authorization.html#secure_startup",
+        "anchor": "impala_authorization--secure_startup",
+        "virtual_path": "docs/impala_authorization.md"
+      },
+      {
+        "title": "Auditing Impala Operations",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_auditing.html#auditing",
+        "anchor": "impala_auditing--auditing",
+        "virtual_path": "docs/impala_auditing.md"
+      },
+      {
+        "title": "Security Guidelines for Impala",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_security_guidelines.html#security_guidelines",
+        "anchor": "impala_security_guidelines--security_guidelines",
+        "virtual_path": "docs/impala_security_guidelines.md"
+      },
+      {
+        "title": "Impala query options",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_set.html",
+        "anchor": "impala_set",
+        "virtual_path": "docs/impala_set.md"
+      }
+    ]
+  },
+  {
+    "title": "Query Options for Runtime Filtering",
+    "kind": "category",
+    "children": [
+      {
+        "title": "\"sensitivity\"",
+        "kind": "category",
+        "children": [
+          {
+            "title": "RUNTIME_FILTER_MODE Query Option (Impala 2.5 or higher only)",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_mode.html#runtime_filter_mode",
+            "anchor": "impala_runtime_filter_mode--runtime_filter_mode",
+            "virtual_path": "docs/impala_runtime_filter_mode.md"
+          }
+        ]
+      },
+      {
+        "title": "The other query options are tuning knobs that you typically only adjust after doing performance testing, and that you might want to change only for the duration of a single expensi",
+        "kind": "category",
+        "children": [
+          {
+            "title": "MAX_NUM_RUNTIME_FILTERS Query Option (Impala 2.5 or higher only)",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max_num_runtime_filters.html#max_num_runtime_filters",
+            "anchor": "impala_max_num_runtime_filters--max_num_runtime_filters",
+            "virtual_path": "docs/impala_max_num_runtime_filters.md"
+          },
+          {
+            "title": "DISABLE_ROW_RUNTIME_FILTERING Query Option (Impala 2.5 or higher only)",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_row_runtime_filtering.html#disable_row_runtime_filtering",
+            "anchor": "impala_disable_row_runtime_filtering--disable_row_runtime_filtering",
+            "virtual_path": "docs/impala_disable_row_runtime_filtering.md"
+          },
+          {
+            "title": "RUNTIME_FILTER_MAX_SIZE Query Option (Impala 2.6 or higher only)",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_max_size.html#runtime_filter_max_size",
+            "anchor": "impala_runtime_filter_max_size--runtime_filter_max_size",
+            "virtual_path": "docs/impala_runtime_filter_max_size.md"
+          },
+          {
+            "title": "RUNTIME_FILTER_MIN_SIZE Query Option (Impala 2.6 or higher only)",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filter_min_size.html#runtime_filter_min_size",
+            "anchor": "impala_runtime_filter_min_size--runtime_filter_min_size",
+            "virtual_path": "docs/impala_runtime_filter_min_size.md"
+          },
+          {
+            "title": "RUNTIME_BLOOM_FILTER_SIZE Query Option (Impala 2.5 or higher only)",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_bloom_filter_size.html#runtime_bloom_filter_size",
+            "anchor": "impala_runtime_bloom_filter_size--runtime_bloom_filter_size",
+            "virtual_path": "docs/impala_runtime_bloom_filter_size.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Impala Mathematical Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_math_functions.html",
+    "anchor": "impala_math_functions",
+    "virtual_path": "docs/impala_math_functions.md"
+  },
+  {
+    "title": "Impala Bit Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_bit_functions.html",
+    "anchor": "impala_bit_functions",
+    "virtual_path": "docs/impala_bit_functions.md"
+  },
+  {
+    "title": "Impala Type Conversion Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_conversion_functions.html",
+    "anchor": "impala_conversion_functions",
+    "virtual_path": "docs/impala_conversion_functions.md"
+  },
+  {
+    "title": "Impala String Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_string_functions.html",
+    "anchor": "impala_string_functions",
+    "virtual_path": "docs/impala_string_functions.md"
+  },
+  {
+    "title": "Advantages and use cases of Impala AI functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ai_functions.html",
+    "anchor": "impala_ai_functions",
+    "virtual_path": "docs/impala_ai_functions.md"
+  },
+  {
+    "title": "Impala Miscellaneous Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_misc_functions.html",
+    "anchor": "impala_misc_functions",
+    "virtual_path": "docs/impala_misc_functions.md"
+  },
+  {
+    "title": "Impala Aggregate Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_aggregate_functions.html",
+    "anchor": "impala_aggregate_functions",
+    "virtual_path": "docs/impala_aggregate_functions.md"
+  },
+  {
+    "title": "Impala Analytic Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_analytic_functions.html",
+    "anchor": "impala_analytic_functions",
+    "virtual_path": "docs/impala_analytic_functions.md"
+  },
+  {
+    "title": "Impala Geospatial Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_geospatial_functions.html",
+    "anchor": "impala_geospatial_functions",
+    "virtual_path": "docs/impala_geospatial_functions.md"
+  },
+  {
+    "title": "Impala Performance Guidelines and Best Practices",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_cookbook.html",
+    "anchor": "impala_perf_cookbook",
+    "virtual_path": "docs/impala_perf_cookbook.md"
+  },
+  {
+    "title": "Performance Considerations for Join Queries",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_joins.html",
+    "anchor": "impala_perf_joins",
+    "virtual_path": "docs/impala_perf_joins.md"
+  },
+  {
+    "title": "Benchmarking Impala Queries",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_benchmarking.html",
+    "anchor": "impala_perf_benchmarking",
+    "virtual_path": "docs/impala_perf_benchmarking.md"
+  },
+  {
+    "title": "Controlling Impala Resource Usage",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_resources.html",
+    "anchor": "impala_perf_resources",
+    "virtual_path": "docs/impala_perf_resources.md"
+  },
+  {
+    "title": "Runtime Filtering for Impala Queries (Impala 2.5 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_runtime_filtering.html",
+    "anchor": "impala_runtime_filtering",
+    "virtual_path": "docs/impala_runtime_filtering.md"
+  },
+  {
+    "title": "Using HDFS Caching with Impala (Impala 2.1 or higher only)",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_hdfs_caching.html",
+    "anchor": "impala_perf_hdfs_caching",
+    "virtual_path": "docs/impala_perf_hdfs_caching.md"
+  },
+  {
+    "title": "Detecting and Correcting HDFS Block Skew Conditions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_skew.html",
+    "anchor": "impala_perf_skew",
+    "virtual_path": "docs/impala_perf_skew.md"
+  },
+  {
+    "title": "Understanding Impala Query Performance - EXPLAIN Plans and Query Profiles",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_explain_plan.html",
+    "anchor": "impala_explain_plan",
+    "virtual_path": "docs/impala_explain_plan.md"
+  },
+  {
+    "title": "Auditing Impala Operations",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_auditing.html",
+    "anchor": "impala_auditing",
+    "virtual_path": "docs/impala_auditing.md"
+  },
+  {
+    "title": "Viewing Lineage Information for Impala Data",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_lineage.html",
+    "anchor": "impala_lineage",
+    "virtual_path": "docs/impala_lineage.md"
+  },
+  {
+    "title": "APPX_MEDIAN Function",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_appx_median.html",
+    "anchor": "impala_appx_median",
+    "virtual_path": "docs/impala_appx_median.md"
+  },
+  {
+    "title": "AVG Function",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_avg.html",
+    "anchor": "impala_avg",
+    "virtual_path": "docs/impala_avg.md"
+  },
+  {
+    "title": "COUNT Function",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_count.html",
+    "anchor": "impala_count",
+    "virtual_path": "docs/impala_count.md"
+  },
+  {
+    "title": "GROUP_CONCAT Function",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_group_concat.html",
+    "anchor": "impala_group_concat",
+    "virtual_path": "docs/impala_group_concat.md"
+  },
+  {
+    "title": "MAX Function",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_max.html",
+    "anchor": "impala_max",
+    "virtual_path": "docs/impala_max.md"
+  },
+  {
+    "title": "MIN Function",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_min.html",
+    "anchor": "impala_min",
+    "virtual_path": "docs/impala_min.md"
+  },
+  {
+    "title": "NDV Function",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_ndv.html",
+    "anchor": "impala_ndv",
+    "virtual_path": "docs/impala_ndv.md"
+  },
+  {
+    "title": "STDDEV, STDDEV_SAMP, STDDEV_POP Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_stddev.html",
+    "anchor": "impala_stddev",
+    "virtual_path": "docs/impala_stddev.md"
+  },
+  {
+    "title": "SUM Function",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_sum.html",
+    "anchor": "impala_sum",
+    "virtual_path": "docs/impala_sum.md"
+  },
+  {
+    "title": "VARIANCE, VARIANCE_SAMP, VARIANCE_POP, VAR_SAMP, VAR_POP Functions",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_variance.html",
+    "anchor": "impala_variance",
+    "virtual_path": "docs/impala_variance.md"
+  },
+  {
+    "title": "Data Type Considerations for Parquet Tables",
+    "kind": "category",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_parquet.html#parquet_data_types",
+    "anchor": "impala_parquet--parquet_data_types",
+    "virtual_path": "docs/impala_parquet.md"
+  },
+  {
+    "title": "Timestamp Literals",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_literals.html#timestamp_literals",
+    "anchor": "impala_literals--timestamp_literals",
+    "virtual_path": "docs/impala_literals.md"
+  },
+  {
+    "title": "To convert to or from different date formats, or perform date arithmetic, use the date and time functions described in",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_datetime_functions.html#datetime_functions",
+    "anchor": "impala_datetime_functions--datetime_functions",
+    "virtual_path": "docs/impala_datetime_functions.md"
+  },
+  {
+    "title": "See",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_langref_unsupported.html#langref_hiveql_delta",
+    "anchor": "impala_langref_unsupported--langref_hiveql_delta",
+    "virtual_path": "docs/impala_langref_unsupported.md"
+  },
+  {
+    "title": "The Impala Catalog Service",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Automatic Invalidation/Refresh of Metadata",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_metadata.html#impala_metadata",
+        "anchor": "impala_metadata--impala_metadata",
+        "virtual_path": "docs/impala_metadata.md"
+      },
+      {
+        "title": "Installing Impala",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_install.html#install",
+        "anchor": "impala_install--install",
+        "virtual_path": "docs/impala_install.md"
+      },
+      {
+        "title": "REFRESH Statement",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_refresh.html#refresh",
+        "anchor": "impala_refresh--refresh",
+        "virtual_path": "docs/impala_refresh.md"
+      }
+    ]
+  },
+  {
+    "title": "How Impala SQL Statements Work with S3",
+    "kind": "category",
+    "children": [
+      {
+        "title": "CREATE TABLE",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_table.html#create_table",
+        "anchor": "impala_create_table--create_table",
+        "virtual_path": "docs/impala_create_table.md"
+      },
+      {
+        "title": "SELECT Statement",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_select.html#select",
+        "anchor": "impala_select--select",
+        "virtual_path": "docs/impala_select.md"
+      },
+      {
+        "title": "DROP TABLE",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_drop_table.html#drop_table",
+        "anchor": "impala_drop_table--drop_table",
+        "virtual_path": "docs/impala_drop_table.md"
+      },
+      {
+        "title": "TRUNCATE TABLE",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_truncate_table.html#truncate_table",
+        "anchor": "impala_truncate_table--truncate_table",
+        "virtual_path": "docs/impala_truncate_table.md"
+      },
+      {
+        "title": "LOAD DATA",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_load_data.html#load_data",
+        "anchor": "impala_load_data--load_data",
+        "virtual_path": "docs/impala_load_data.md"
+      },
+      {
+        "title": "INSERT",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_insert.html#insert",
+        "anchor": "impala_insert--insert",
+        "virtual_path": "docs/impala_insert.md"
+      }
+    ]
+  },
+  {
+    "title": "SQL Constructs to Double-check",
+    "kind": "category",
+    "children": [
+      {
+        "title": "How Impala Works with Hadoop File Formats",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_file_formats.html#file_formats",
+        "anchor": "impala_file_formats--file_formats",
+        "virtual_path": "docs/impala_file_formats.md"
+      },
+      {
+        "title": "Adapting tables that were already partitioned in a different database system could produce an Impala table with a high number of partitions and not enough data in each one, leading",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_partitioning.html#partitioning",
+        "anchor": "impala_partitioning--partitioning",
+        "virtual_path": "docs/impala_partitioning.md"
+      },
+      {
+        "title": "The INSERT ... VALUES syntax is suitable for setting up toy tables with a few rows for functional testing when used with HDFS. Each such statement creates a separate tiny file in H",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_tables.html#external_tables",
+        "anchor": "impala_tables--external_tables",
+        "virtual_path": "docs/impala_tables.md"
+      },
+      {
+        "title": "INSERT Statement",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_insert.html#insert",
+        "anchor": "impala_insert--insert",
+        "virtual_path": "docs/impala_insert.md"
+      },
+      {
+        "title": "DISABLE_CODEGEN Query Option",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_disable_codegen.html#disable_codegen",
+        "anchor": "impala_disable_codegen--disable_codegen",
+        "virtual_path": "docs/impala_disable_codegen.md"
+      }
+    ]
+  },
+  {
+    "title": "SQL Statements for Partitioned Tables",
+    "kind": "category",
+    "children": [
+      {
+        "title": "CREATE TABLE",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_create_table.html#create_table",
+        "anchor": "impala_create_table--create_table",
+        "virtual_path": "docs/impala_create_table.md"
+      },
+      {
+        "title": "ALTER TABLE",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_alter_table.html#alter_table",
+        "anchor": "impala_alter_table--alter_table",
+        "virtual_path": "docs/impala_alter_table.md"
+      },
+      {
+        "title": "INSERT",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_insert.html#insert",
+        "anchor": "impala_insert--insert",
+        "virtual_path": "docs/impala_insert.md"
+      },
+      {
+        "title": "Although the syntax of the",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_select.html#select",
+        "anchor": "impala_select--select",
+        "virtual_path": "docs/impala_select.md"
+      },
+      {
+        "title": "In Impala 1.4 and later, there is a",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_show.html#show",
+        "anchor": "impala_show--show",
+        "virtual_path": "docs/impala_show.md"
+      }
+    ]
+  },
+  {
+    "title": "Troubleshooting Impala SQL Syntax Issues",
+    "kind": "category",
+    "children": [
+      {
+        "title": "If a query fails against both Impala and Hive, it is likely that there is a problem with your query or other elements of your",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Review the",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_langref.html#langref",
+            "anchor": "impala_langref--langref",
+            "virtual_path": "docs/impala_langref.md"
+          },
+          {
+            "title": "Check",
+            "kind": "link",
+            "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_reserved_words.html#reserved_words",
+            "anchor": "impala_reserved_words--reserved_words",
+            "virtual_path": "docs/impala_reserved_words.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Post-Installation Configuration for Impala",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_config_performance.html#config_performance",
+    "anchor": "impala_config_performance--config_performance",
+    "virtual_path": "docs/impala_config_performance.md"
+  },
+  {
+    "title": "Configuring Impala to Work with ODBC",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_odbc.html#impala_odbc",
+    "anchor": "impala_odbc--impala_odbc",
+    "virtual_path": "docs/impala_odbc.md"
+  },
+  {
+    "title": "Configuring Impala to Work with JDBC",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_jdbc.html#impala_jdbc",
+    "anchor": "impala_jdbc--impala_jdbc",
+    "virtual_path": "docs/impala_jdbc.md"
+  },
+  {
+    "title": "Modifying Impala Startup Options",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_config_options.html#config_options",
+    "anchor": "impala_config_options--config_options",
+    "virtual_path": "docs/impala_config_options.md"
+  },
+  {
+    "title": "What is Included in an Impala Installation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Run one impalad process",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_processes.html#processes",
+        "anchor": "impala_processes--processes",
+        "virtual_path": "docs/impala_processes.md"
+      },
+      {
+        "title": "Run one instance of this daemon",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_processes.html#processes",
+        "anchor": "impala_processes--processes",
+        "virtual_path": "docs/impala_processes.md"
+      },
+      {
+        "title": "Command-line interface",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_impala_shell.html#impala_shell",
+        "anchor": "impala_impala_shell--impala_shell",
+        "virtual_path": "docs/impala_impala_shell.md"
+      }
+    ]
+  },
+  {
+    "title": "Setting the Idle Query and Idle Session Timeouts for impalad",
+    "kind": "category",
+    "children": [
+      {
+        "title": "impala-shell",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_query_timeout_s.html#query_timeout_s",
+        "anchor": "impala_query_timeout_s--query_timeout_s",
+        "virtual_path": "docs/impala_query_timeout_s.md"
+      },
+      {
+        "title": "Specifies the time in seconds after which an idle session expires. A session is idle when no activity is occurring for any of the queries in that session, and the session has not s",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_idle_session_timeout.html#idle_session_timeout",
+        "anchor": "impala_idle_session_timeout--idle_session_timeout",
+        "virtual_path": "docs/impala_idle_session_timeout.md"
+      }
+    ]
+  },
+  {
+    "title": "When Impala performs an",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_insert.html#insert",
+    "anchor": "impala_insert--insert",
+    "virtual_path": "docs/impala_insert.md"
+  },
+  {
+    "title": "partitioned tables",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_partitioning.html#partitioning",
+    "anchor": "impala_partitioning--partitioning",
+    "virtual_path": "docs/impala_partitioning.md"
+  },
+  {
+    "title": "UDFs",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_udf.html#udfs",
+    "anchor": "impala_udf--udfs",
+    "virtual_path": "docs/impala_udf.md"
+  },
+  {
+    "title": "Make sure that both",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_perf_stats.html#perf_stats",
+    "anchor": "impala_perf_stats--perf_stats",
+    "virtual_path": "docs/impala_perf_stats.md"
+  },
+  {
+    "title": "Cross Joins and Cartesian Products with the CROSS JOIN Operator",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_tutorial.html#tut_cross_join",
+    "anchor": "impala_tutorial--tut_cross_join",
+    "virtual_path": "docs/impala_tutorial.md"
+  },
+  {
+    "title": "How the entries in a",
+    "kind": "link",
+    "source_url": "https://impala.apache.org/docs/build/plain-html/topics/impala_literals.html#literals",
+    "anchor": "impala_literals--literals",
+    "virtual_path": "docs/impala_literals.md"
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Apache Impala Guide",
+        "kind": "link",
+        "source_url": "https://impala.apache.org/docs/build/plain-html/index.html",
+        "anchor": "docs-build-plain-html",
+        "virtual_path": "docs/docs/build/plain-html/index.md"
+      }
+    ]
+  }
+]

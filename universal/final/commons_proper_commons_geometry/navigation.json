@@ -1,0 +1,391 @@
+[
+  {
+    "title": "Geometry",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/issue-tracking.html",
+        "anchor": "issue-tracking",
+        "virtual_path": "docs/issue-tracking.md"
+      },
+      {
+        "title": "Developers Guide",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/developers.html",
+        "anchor": "developers",
+        "virtual_path": "docs/developers.md"
+      },
+      {
+        "title": "Release History",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/release-history.html",
+        "anchor": "release-history",
+        "virtual_path": "docs/release-history.md"
+      }
+    ]
+  },
+  {
+    "title": "User Guide",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Contents",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/userguide/index.html#toc",
+        "anchor": "userguide--toc",
+        "virtual_path": "docs/userguide/index.md"
+      },
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/userguide/index.html#overview",
+        "anchor": "userguide--overview",
+        "virtual_path": "docs/userguide/index.md"
+      },
+      {
+        "title": "Example Modules",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/userguide/index.html#example-modules",
+        "anchor": "userguide--example-modules",
+        "virtual_path": "docs/userguide/index.md"
+      },
+      {
+        "title": "Concepts",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/userguide/index.html#concepts",
+        "anchor": "userguide--concepts",
+        "virtual_path": "docs/userguide/index.md"
+      },
+      {
+        "title": "Core Interfaces",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/userguide/index.html#interfaces",
+        "anchor": "userguide--interfaces",
+        "virtual_path": "docs/userguide/index.md"
+      },
+      {
+        "title": "Euclidean Space",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/userguide/index.html#euclidean",
+        "anchor": "userguide--euclidean",
+        "virtual_path": "docs/userguide/index.md"
+      },
+      {
+        "title": "Spherical Space",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/userguide/index.html#spherical",
+        "anchor": "userguide--spherical",
+        "virtual_path": "docs/userguide/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Tutorials",
+    "kind": "category",
+    "children": [
+      {
+        "title": "BSP Trees",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/tutorials/bsp-tree.html",
+        "anchor": "tutorials-bsp-tree",
+        "virtual_path": "docs/tutorials/bsp-tree.md"
+      },
+      {
+        "title": "Solid Geometry",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/tutorials/teapot.html",
+        "anchor": "tutorials-teapot",
+        "virtual_path": "docs/tutorials/teapot.md"
+      }
+    ]
+  },
+  {
+    "title": "Project Documentation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Project Information",
+        "kind": "category",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/project-info.html",
+        "anchor": "project-info",
+        "virtual_path": "docs/project-info.md",
+        "children": [
+          {
+            "title": "About",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-geometry/index.html",
+            "anchor": "index",
+            "virtual_path": "docs/index.md"
+          },
+          {
+            "title": "Summary",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-geometry/summary.html",
+            "anchor": "summary",
+            "virtual_path": "docs/summary.md"
+          },
+          {
+            "title": "Project Modules",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-geometry/modules.html",
+            "anchor": "modules",
+            "virtual_path": "docs/modules.md"
+          },
+          {
+            "title": "Team",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-geometry/team.html",
+            "anchor": "team",
+            "virtual_path": "docs/team.md"
+          },
+          {
+            "title": "Source Code Management",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-geometry/scm.html",
+            "anchor": "scm",
+            "virtual_path": "docs/scm.md"
+          },
+          {
+            "title": "CI Management",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-geometry/ci-management.html",
+            "anchor": "ci-management",
+            "virtual_path": "docs/ci-management.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Geometry – CI Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-core/ci-management.html",
+        "anchor": "commons-geometry-core-ci-management",
+        "virtual_path": "docs/commons-geometry-core/ci-management.md"
+      },
+      {
+        "title": "Geometry – About",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-core/index.html",
+        "anchor": "commons-geometry-core",
+        "virtual_path": "docs/commons-geometry-core/index.md"
+      },
+      {
+        "title": "Geometry – Source Code Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-core/scm.html",
+        "anchor": "commons-geometry-core-scm",
+        "virtual_path": "docs/commons-geometry-core/scm.md"
+      },
+      {
+        "title": "Geometry – Project Summary",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-core/summary.html",
+        "anchor": "commons-geometry-core-summary",
+        "virtual_path": "docs/commons-geometry-core/summary.md"
+      },
+      {
+        "title": "Geometry – Project Team",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-core/team.html",
+        "anchor": "commons-geometry-core-team",
+        "virtual_path": "docs/commons-geometry-core/team.md"
+      },
+      {
+        "title": "Geometry – CI Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-euclidean/ci-management.html",
+        "anchor": "commons-geometry-euclidean-ci-management",
+        "virtual_path": "docs/commons-geometry-euclidean/ci-management.md"
+      },
+      {
+        "title": "Geometry – About",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-euclidean/index.html",
+        "anchor": "commons-geometry-euclidean",
+        "virtual_path": "docs/commons-geometry-euclidean/index.md"
+      },
+      {
+        "title": "Geometry – Source Code Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-euclidean/scm.html",
+        "anchor": "commons-geometry-euclidean-scm",
+        "virtual_path": "docs/commons-geometry-euclidean/scm.md"
+      },
+      {
+        "title": "Geometry – Project Summary",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-euclidean/summary.html",
+        "anchor": "commons-geometry-euclidean-summary",
+        "virtual_path": "docs/commons-geometry-euclidean/summary.md"
+      },
+      {
+        "title": "Geometry – Project Team",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-euclidean/team.html",
+        "anchor": "commons-geometry-euclidean-team",
+        "virtual_path": "docs/commons-geometry-euclidean/team.md"
+      },
+      {
+        "title": "Apache Commons Geometry Examples – CI Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-examples/ci-management.html",
+        "anchor": "commons-geometry-examples-ci-management",
+        "virtual_path": "docs/commons-geometry-examples/ci-management.md"
+      },
+      {
+        "title": "Apache Commons Geometry Examples – About",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-examples/index.html",
+        "anchor": "commons-geometry-examples",
+        "virtual_path": "docs/commons-geometry-examples/index.md"
+      },
+      {
+        "title": "Apache Commons Geometry Examples – Project Modules",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-examples/modules.html",
+        "anchor": "commons-geometry-examples-modules",
+        "virtual_path": "docs/commons-geometry-examples/modules.md"
+      },
+      {
+        "title": "Apache Commons Geometry Examples – Source Code Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-examples/scm.html",
+        "anchor": "commons-geometry-examples-scm",
+        "virtual_path": "docs/commons-geometry-examples/scm.md"
+      },
+      {
+        "title": "Apache Commons Geometry Examples – Project Summary",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-examples/summary.html",
+        "anchor": "commons-geometry-examples-summary",
+        "virtual_path": "docs/commons-geometry-examples/summary.md"
+      },
+      {
+        "title": "Apache Commons Geometry Examples – Project Team",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-examples/team.html",
+        "anchor": "commons-geometry-examples-team",
+        "virtual_path": "docs/commons-geometry-examples/team.md"
+      },
+      {
+        "title": "Geometry – CI Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-io-core/ci-management.html",
+        "anchor": "commons-geometry-io-core-ci-management",
+        "virtual_path": "docs/commons-geometry-io-core/ci-management.md"
+      },
+      {
+        "title": "Geometry – About",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-io-core/index.html",
+        "anchor": "commons-geometry-io-core",
+        "virtual_path": "docs/commons-geometry-io-core/index.md"
+      },
+      {
+        "title": "Geometry – Source Code Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-io-core/scm.html",
+        "anchor": "commons-geometry-io-core-scm",
+        "virtual_path": "docs/commons-geometry-io-core/scm.md"
+      },
+      {
+        "title": "Geometry – Project Summary",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-io-core/summary.html",
+        "anchor": "commons-geometry-io-core-summary",
+        "virtual_path": "docs/commons-geometry-io-core/summary.md"
+      },
+      {
+        "title": "Geometry – Project Team",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-io-core/team.html",
+        "anchor": "commons-geometry-io-core-team",
+        "virtual_path": "docs/commons-geometry-io-core/team.md"
+      },
+      {
+        "title": "Geometry – CI Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-io-euclidean/ci-management.html",
+        "anchor": "commons-geometry-io-euclidean-ci-management",
+        "virtual_path": "docs/commons-geometry-io-euclidean/ci-management.md"
+      },
+      {
+        "title": "Geometry – About",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-io-euclidean/index.html",
+        "anchor": "commons-geometry-io-euclidean",
+        "virtual_path": "docs/commons-geometry-io-euclidean/index.md"
+      },
+      {
+        "title": "Geometry – Source Code Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-io-euclidean/scm.html",
+        "anchor": "commons-geometry-io-euclidean-scm",
+        "virtual_path": "docs/commons-geometry-io-euclidean/scm.md"
+      },
+      {
+        "title": "Geometry – Project Summary",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-io-euclidean/summary.html",
+        "anchor": "commons-geometry-io-euclidean-summary",
+        "virtual_path": "docs/commons-geometry-io-euclidean/summary.md"
+      },
+      {
+        "title": "Geometry – Project Team",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-io-euclidean/team.html",
+        "anchor": "commons-geometry-io-euclidean-team",
+        "virtual_path": "docs/commons-geometry-io-euclidean/team.md"
+      },
+      {
+        "title": "Geometry – CI Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-spherical/ci-management.html",
+        "anchor": "commons-geometry-spherical-ci-management",
+        "virtual_path": "docs/commons-geometry-spherical/ci-management.md"
+      },
+      {
+        "title": "Geometry – About",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-spherical/index.html",
+        "anchor": "commons-geometry-spherical",
+        "virtual_path": "docs/commons-geometry-spherical/index.md"
+      },
+      {
+        "title": "Geometry – Source Code Management",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-spherical/scm.html",
+        "anchor": "commons-geometry-spherical-scm",
+        "virtual_path": "docs/commons-geometry-spherical/scm.md"
+      },
+      {
+        "title": "Geometry – Project Summary",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-spherical/summary.html",
+        "anchor": "commons-geometry-spherical-summary",
+        "virtual_path": "docs/commons-geometry-spherical/summary.md"
+      },
+      {
+        "title": "Geometry – Project Team",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-geometry/commons-geometry-spherical/team.html",
+        "anchor": "commons-geometry-spherical-team",
+        "virtual_path": "docs/commons-geometry-spherical/team.md"
+      }
+    ]
+  }
+]

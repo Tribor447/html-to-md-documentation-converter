@@ -1,0 +1,214 @@
+[
+  {
+    "title": "Commons Daemon",
+    "kind": "category",
+    "children": [
+      {
+        "title": "About",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "Release History",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/changes.html",
+        "anchor": "changes",
+        "virtual_path": "docs/changes.md"
+      },
+      {
+        "title": "Sources",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/scm.html",
+        "anchor": "scm",
+        "virtual_path": "docs/scm.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/security.html",
+        "anchor": "security",
+        "virtual_path": "docs/security.md"
+      },
+      {
+        "title": "Procrun",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/procrun.html",
+        "anchor": "procrun",
+        "virtual_path": "docs/procrun.md"
+      },
+      {
+        "title": "Jsvc",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/jsvc.html",
+        "anchor": "jsvc",
+        "virtual_path": "docs/jsvc.md"
+      },
+      {
+        "title": "Native binaries",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/binaries.html",
+        "anchor": "binaries",
+        "virtual_path": "docs/binaries.md"
+      },
+      {
+        "title": "FAQ",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/faq.html",
+        "anchor": "faq",
+        "virtual_path": "docs/faq.md"
+      }
+    ]
+  },
+  {
+    "title": "Project Documentation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Project Information",
+        "kind": "category",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/project-info.html",
+        "anchor": "project-info",
+        "virtual_path": "docs/project-info.md",
+        "children": [
+          {
+            "title": "About",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-daemon/index.html",
+            "anchor": "index",
+            "virtual_path": "docs/index.md"
+          },
+          {
+            "title": "Team",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-daemon/team.html",
+            "anchor": "team",
+            "virtual_path": "docs/team.md"
+          },
+          {
+            "title": "Source Code Management",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-daemon/scm.html",
+            "anchor": "scm",
+            "virtual_path": "docs/scm.md"
+          },
+          {
+            "title": "CI Management",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-daemon/ci-management.html",
+            "anchor": "ci-management",
+            "virtual_path": "docs/ci-management.md"
+          }
+        ]
+      },
+      {
+        "title": "Project Reports",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/project-reports.html",
+        "anchor": "project-reports",
+        "virtual_path": "docs/project-reports.md",
+        "children": [
+          {
+            "title": "Rat Report",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-daemon/rat-report.html",
+            "anchor": "rat-report",
+            "virtual_path": "docs/rat-report.md"
+          },
+          {
+            "title": "japicmp",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-daemon/japicmp.html",
+            "anchor": "japicmp",
+            "virtual_path": "docs/japicmp.md"
+          },
+          {
+            "title": "Surefire",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-daemon/surefire.html",
+            "anchor": "surefire",
+            "virtual_path": "docs/surefire.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Daemon",
+    "kind": "category",
+    "source_url": "https://commons.apache.org/proper/commons-daemon/japicmp.html",
+    "anchor": "japicmp",
+    "virtual_path": "docs/japicmp.md",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "Procrun",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/procrun.html",
+        "anchor": "procrun",
+        "virtual_path": "docs/procrun.md"
+      },
+      {
+        "title": "Jsvc",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/jsvc.html",
+        "anchor": "jsvc",
+        "virtual_path": "docs/jsvc.md"
+      },
+      {
+        "title": "Native binaries",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/binaries.html",
+        "anchor": "binaries",
+        "virtual_path": "docs/binaries.md"
+      },
+      {
+        "title": "FAQ",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/faq.html",
+        "anchor": "faq",
+        "virtual_path": "docs/faq.md"
+      }
+    ]
+  },
+  {
+    "title": "Development",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/issue-tracking.html",
+        "anchor": "issue-tracking",
+        "virtual_path": "docs/issue-tracking.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/scm.html",
+        "anchor": "scm",
+        "virtual_path": "docs/scm.md"
+      }
+    ]
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "JIRA Report",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-daemon/jira-changes.html",
+        "anchor": "jira-changes",
+        "virtual_path": "docs/jira-changes.md"
+      }
+    ]
+  }
+]

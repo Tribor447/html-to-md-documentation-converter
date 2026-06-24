@@ -1,0 +1,62 @@
+- title: Commons Exec
+  kind: category
+  children:
+  - title: About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-exec/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Sources
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-exec/scm.html
+    anchor: scm
+    virtual_path: docs/scm.md
+  - title: Tutorial
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-exec/tutorial.html
+    anchor: tutorial
+    virtual_path: docs/tutorial.md
+  - title: Command Line
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-exec/commandline.html
+    anchor: commandline
+    virtual_path: docs/commandline.md
+  - title: FAQ
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-exec/faq.html
+    anchor: faq
+    virtual_path: docs/faq.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-exec/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-exec/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-exec/summary.html
+      anchor: summary
+      virtual_path: docs/summary.md
+    - title: Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-exec/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-exec/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: CI Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-exec/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md

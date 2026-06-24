@@ -1,0 +1,1682 @@
+- title: Apache Sling - Bringing Back the Fun!
+  kind: link
+  source_url: https://sling.apache.org/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Contributing
+  kind: link
+  source_url: https://sling.apache.org/contributing.html
+  anchor: contributing
+  virtual_path: docs/contributing.md
+- title: Documentation
+  kind: category
+  source_url: https://sling.apache.org/documentation.html
+  anchor: documentation
+  virtual_path: docs/documentation.md
+  children:
+  - title: Bundles
+    kind: category
+    source_url: https://sling.apache.org/documentation/bundles.html
+    anchor: documentation-bundles
+    virtual_path: docs/documentation/bundles.md
+    children:
+    - title: Accessing File System Resources (org.apache.sling.fsresource)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/accessing-filesystem-resources-extensions-fsresource.html
+      anchor: documentation-bundles-accessing-filesystem-resources-extensions-fsresource
+      virtual_path: docs/documentation/bundles/accessing-filesystem-resources-extensions-fsresource.md
+    - title: Apache Sling Commons Thread Pool
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/apache-sling-commons-thread-pool.html
+      anchor: documentation-bundles-apache-sling-commons-thread-pool
+      virtual_path: docs/documentation/bundles/apache-sling-commons-thread-pool.md
+    - title: Apache Sling Dynamic Include
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/dynamic-includes.html
+      anchor: documentation-bundles-dynamic-includes
+      virtual_path: docs/documentation/bundles/dynamic-includes.md
+    - title: Apache Sling Eventing and Job Handling
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html
+      anchor: documentation-bundles-apache-sling-eventing-and-job-handling
+      virtual_path: docs/documentation/bundles/apache-sling-eventing-and-job-handling.md
+    - title: Bundle Resources (org.apache.sling.bundleresource.impl)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/bundle-resources-extensions-bundleresource.html
+      anchor: documentation-bundles-bundle-resources-extensions-bundleresource
+      virtual_path: docs/documentation/bundles/bundle-resources-extensions-bundleresource.md
+    - title: Commons Crypto
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/commons-crypto.html
+      anchor: documentation-bundles-commons-crypto
+      virtual_path: docs/documentation/bundles/commons-crypto.md
+    - title: Commons HTML Utilities (org.apache.sling.commons.html)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/commons-html-utilities.html
+      anchor: documentation-bundles-commons-html-utilities
+      virtual_path: docs/documentation/bundles/commons-html-utilities.md
+    - title: Configuration Installer Factory
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/configuration-installer-factory.html
+      anchor: documentation-bundles-configuration-installer-factory
+      virtual_path: docs/documentation/bundles/configuration-installer-factory.md
+    - title: Connection Timeout Agent
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/connection-timeout-agent.html
+      anchor: documentation-bundles-connection-timeout-agent
+      virtual_path: docs/documentation/bundles/connection-timeout-agent.md
+    - title: Content Distribution
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/distribution.html
+      anchor: documentation-bundles-distribution
+      virtual_path: docs/documentation/bundles/distribution.md
+    - title: Content Distribution (org.apache.sling.distribution)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/content-distribution.html
+      anchor: documentation-bundles-content-distribution
+      virtual_path: docs/documentation/bundles/content-distribution.md
+    - title: Content Loading and Node Type/Namespace Support (jcr.contentloader)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/content-loading-jcr-contentloader.html
+      anchor: documentation-bundles-content-loading-jcr-contentloader
+      virtual_path: docs/documentation/bundles/content-loading-jcr-contentloader.md
+    - title: Content Package Installer Factory
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/content-package-installer-factory.html
+      anchor: documentation-bundles-content-package-installer-factory
+      virtual_path: docs/documentation/bundles/content-package-installer-factory.md
+    - title: Custom Sling Health Checks
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/sling-health-checks.html
+      anchor: documentation-bundles-sling-health-checks
+      virtual_path: docs/documentation/bundles/sling-health-checks.md
+    - title: DataSource Provider
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/datasource-providers.html
+      anchor: documentation-bundles-datasource-providers
+      virtual_path: docs/documentation/bundles/datasource-providers.md
+    - title: Discovery API and its implementations
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/discovery-api-and-impl.html
+      anchor: documentation-bundles-discovery-api-and-impl
+      virtual_path: docs/documentation/bundles/discovery-api-and-impl.md
+    - title: File Installer Provider
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/file-installer-provider.html
+      anchor: documentation-bundles-file-installer-provider
+      virtual_path: docs/documentation/bundles/file-installer-provider.md
+    - title: HApi - Hypermedia API tools
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/hapi.html
+      anchor: documentation-bundles-hapi
+      virtual_path: docs/documentation/bundles/hapi.md
+    - title: Installer Vault Package Install Hook
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/installer-provider-installhook.html
+      anchor: documentation-bundles-installer-provider-installhook
+      virtual_path: docs/documentation/bundles/installer-provider-installhook.md
+    - title: Internationalization Support (i18n)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/internationalization-support-i18n.html
+      anchor: documentation-bundles-internationalization-support-i18n
+      virtual_path: docs/documentation/bundles/internationalization-support-i18n.md
+    - title: JCR Installer Provider
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/jcr-installer-provider.html
+      anchor: documentation-bundles-jcr-installer-provider
+      virtual_path: docs/documentation/bundles/jcr-installer-provider.md
+    - title: JUnit server-side testing support bundles
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/org-apache-sling-junit-bundles.html
+      anchor: documentation-bundles-org-apache-sling-junit-bundles
+      virtual_path: docs/documentation/bundles/org-apache-sling-junit-bundles.md
+    - title: Log Tracer
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/log-tracers.html
+      anchor: documentation-bundles-log-tracers
+      virtual_path: docs/documentation/bundles/log-tracers.md
+    - title: MIME Type Support (commons.mime and commons.contentdetection)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/mime-type-support-commons-mime.html
+      anchor: documentation-bundles-mime-type-support-commons-mime
+      virtual_path: docs/documentation/bundles/mime-type-support-commons-mime.md
+    - title: Managing permissions (jackrabbit.accessmanager)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/managing-permissions-jackrabbit-accessmanager.html
+      anchor: documentation-bundles-managing-permissions-jackrabbit-accessmanager
+      virtual_path: docs/documentation/bundles/managing-permissions-jackrabbit-accessmanager.md
+    - title: Managing users and groups (jackrabbit.usermanager)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/managing-users-and-groups-jackrabbit-usermanager.html
+      anchor: documentation-bundles-managing-users-and-groups-jackrabbit-usermanager
+      virtual_path: docs/documentation/bundles/managing-users-and-groups-jackrabbit-usermanager.md
+    - title: Manipulating Content - The SlingPostServlet (servlets.post)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/manipulating-content-the-slingpostservlet-servlets-post.html
+      anchor: documentation-bundles-manipulating-content-the-slingpostservlet-servlets-post
+      virtual_path: docs/documentation/bundles/manipulating-content-the-slingpostservlet-servlets-post.md
+    - title: NoSQL Resource Providers (org.apache.sling.nosql)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/nosql-resource-providers.html
+      anchor: documentation-bundles-nosql-resource-providers
+      virtual_path: docs/documentation/bundles/nosql-resource-providers.md
+    - title: OSGi Installer
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/osgi-installer.html
+      anchor: documentation-bundles-osgi-installer
+      virtual_path: docs/documentation/bundles/osgi-installer.md
+    - title: Output Rewriting Pipelines (org.apache.sling.rewriter)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html
+      anchor: documentation-bundles-output-rewriting-pipelines-org-apache-sling-rewriter
+      virtual_path: docs/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.md
+    - title: Rendering Content - GET Servlets
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/rendering-content-default-get-servlets.html
+      anchor: documentation-bundles-rendering-content-default-get-servlets
+      virtual_path: docs/documentation/bundles/rendering-content-default-get-servlets.md
+    - title: Repository Initialization (repoinit)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/repository-initialization.html
+      anchor: documentation-bundles-repository-initialization
+      virtual_path: docs/documentation/bundles/repository-initialization.md
+    - title: Request Processing Analyzer (reqanalyzer)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/request-analysis.html
+      anchor: documentation-bundles-request-analysis
+      virtual_path: docs/documentation/bundles/request-analysis.md
+    - title: Resource Access Security
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/resource-access-security.html
+      anchor: documentation-bundles-resource-access-security
+      virtual_path: docs/documentation/bundles/resource-access-security.md
+    - title: Resource Filter
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/resource-filter.html
+      anchor: documentation-bundles-resource-filter
+      virtual_path: docs/documentation/bundles/resource-filter.md
+    - title: Resource Merger (org.apache.sling.resourcemerger)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/resource-merger.html
+      anchor: documentation-bundles-resource-merger
+      virtual_path: docs/documentation/bundles/resource-merger.md
+    - title: Scheduler Service (commons scheduler)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html
+      anchor: documentation-bundles-scheduler-service-commons-scheduler
+      virtual_path: docs/documentation/bundles/scheduler-service-commons-scheduler.md
+    - title: Sling Caching Services
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/caching-services.html
+      anchor: documentation-bundles-caching-services
+      virtual_path: docs/documentation/bundles/caching-services.md
+    - title: Sling GraphQL Support
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/graphql-core.html
+      anchor: documentation-bundles-graphql-core
+      virtual_path: docs/documentation/bundles/graphql-core.md
+    - title: Sling Health Check Tools (deprecated)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/sling-health-check-tool-deprecated.html
+      anchor: documentation-bundles-sling-health-check-tool-deprecated
+      virtual_path: docs/documentation/bundles/sling-health-check-tool-deprecated.md
+    - title: Sling Health Checks Migration Guide to Felix Health Checks
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/sling-health-check-tool.html
+      anchor: documentation-bundles-sling-health-check-tool
+      virtual_path: docs/documentation/bundles/sling-health-check-tool.md
+    - title: Sling Metrics
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/metrics.html
+      anchor: documentation-bundles-metrics
+      virtual_path: docs/documentation/bundles/metrics.md
+    - title: Sling Models
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/models.html
+      anchor: documentation-bundles-models
+      virtual_path: docs/documentation/bundles/models.md
+    - title: Sling Oak Restrictions
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/sling-oak-restrictions.html
+      anchor: documentation-bundles-sling-oak-restrictions
+      virtual_path: docs/documentation/bundles/sling-oak-restrictions.md
+    - title: Sling Pipes
+      kind: category
+      source_url: https://sling.apache.org/documentation/bundles/sling-pipes.html
+      anchor: documentation-bundles-sling-pipes
+      virtual_path: docs/documentation/bundles/sling-pipes.md
+      children:
+      - title: Logical Pipes
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-pipes/logical.html
+        anchor: documentation-bundles-sling-pipes-logical
+        virtual_path: docs/documentation/bundles/sling-pipes/logical.md
+      - title: Readers Pipes
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-pipes/readers.html
+        anchor: documentation-bundles-sling-pipes-readers
+        virtual_path: docs/documentation/bundles/sling-pipes/readers.md
+      - title: Sample pipes
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-pipes/samples.html
+        anchor: documentation-bundles-sling-pipes-samples
+        virtual_path: docs/documentation/bundles/sling-pipes/samples.md
+      - title: Sling Pipes Bindings
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-pipes/bindings.html
+        anchor: documentation-bundles-sling-pipes-bindings
+        virtual_path: docs/documentation/bundles/sling-pipes/bindings.md
+      - title: Sling Pipes Configuration, Execution and monitoring
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-pipes/execution-monitoring.html
+        anchor: documentation-bundles-sling-pipes-execution-monitoring
+        virtual_path: docs/documentation/bundles/sling-pipes/execution-monitoring.md
+      - title: Writers
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-pipes/writers.html
+        anchor: documentation-bundles-sling-pipes-writers
+        virtual_path: docs/documentation/bundles/sling-pipes/writers.md
+    - title: Sling Query
+      kind: category
+      source_url: https://sling.apache.org/documentation/bundles/sling-query.html
+      anchor: documentation-bundles-sling-query
+      virtual_path: docs/documentation/bundles/sling-query.md
+      children:
+      - title: Basic Ideas
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-query/basic-ideas.html
+        anchor: documentation-bundles-sling-query-basic-ideas
+        virtual_path: docs/documentation/bundles/sling-query/basic-ideas.md
+      - title: Examples
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-query/examples.html
+        anchor: documentation-bundles-sling-query-examples
+        virtual_path: docs/documentation/bundles/sling-query/examples.md
+      - title: Hierarchy operators
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-query/hierarchy-operators.html
+        anchor: documentation-bundles-sling-query-hierarchy-operators
+        virtual_path: docs/documentation/bundles/sling-query/hierarchy-operators.md
+      - title: Method list
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-query/methods.html
+        anchor: documentation-bundles-sling-query-methods
+        virtual_path: docs/documentation/bundles/sling-query/methods.md
+      - title: Modifiers
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-query/modifiers.html
+        anchor: documentation-bundles-sling-query-modifiers
+        virtual_path: docs/documentation/bundles/sling-query/modifiers.md
+      - title: Operators
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-query/operators.html
+        anchor: documentation-bundles-sling-query-operators
+        virtual_path: docs/documentation/bundles/sling-query/operators.md
+      - title: Selectors
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-query/selectors.html
+        anchor: documentation-bundles-sling-query-selectors
+        virtual_path: docs/documentation/bundles/sling-query/selectors.md
+      - title: Sling Query vs JCR
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/sling-query/vs-jcr.html
+        anchor: documentation-bundles-sling-query-vs-jcr
+        virtual_path: docs/documentation/bundles/sling-query/vs-jcr.md
+    - title: Sling Scripting
+      kind: category
+      source_url: https://sling.apache.org/documentation/bundles/scripting.html
+      anchor: documentation-bundles-scripting
+      virtual_path: docs/documentation/bundles/scripting.md
+      children:
+      - title: HTL Scripting Engine
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/scripting/scripting-htl.html
+        anchor: documentation-bundles-scripting-scripting-htl
+        virtual_path: docs/documentation/bundles/scripting/scripting-htl.md
+      - title: JSP Scripting Engine
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/scripting/scripting-jsp.html
+        anchor: documentation-bundles-scripting-scripting-jsp
+        virtual_path: docs/documentation/bundles/scripting/scripting-jsp.md
+      - title: Sling Scripting Thymeleaf
+        kind: link
+        source_url: https://sling.apache.org/documentation/bundles/scripting/scripting-thymeleaf.html
+        anchor: documentation-bundles-scripting-scripting-thymeleaf
+        virtual_path: docs/documentation/bundles/scripting/scripting-thymeleaf.md
+    - title: Sling Servlet Helpers and Internal Requests
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/servlet-helpers.html
+      anchor: documentation-bundles-servlet-helpers
+      virtual_path: docs/documentation/bundles/servlet-helpers.md
+    - title: Sling Settings and Run Modes (org.apache.sling.settings)
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/sling-settings-org-apache-sling-settings.html
+      anchor: documentation-bundles-sling-settings-org-apache-sling-settings
+      virtual_path: docs/documentation/bundles/sling-settings-org-apache-sling-settings.md
+    - title: Sling Validation
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/validation.html
+      anchor: documentation-bundles-validation
+      virtual_path: docs/documentation/bundles/validation.md
+    - title: Subsystems Installer Factory
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/subsystem-installer-factory.html
+      anchor: documentation-bundles-subsystem-installer-factory
+      virtual_path: docs/documentation/bundles/subsystem-installer-factory.md
+    - title: The Apache Sling Resource Editor
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/resource-editor.html
+      anchor: documentation-bundles-resource-editor
+      virtual_path: docs/documentation/bundles/resource-editor.md
+    - title: Web Console Extensions
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/web-console-extensions.html
+      anchor: documentation-bundles-web-console-extensions
+      virtual_path: docs/documentation/bundles/web-console-extensions.md
+    - title: XML support
+      kind: link
+      source_url: https://sling.apache.org/documentation/bundles/xml-support.html
+      anchor: documentation-bundles-xml-support
+      virtual_path: docs/documentation/bundles/xml-support.md
+  - title: Configuration
+    kind: link
+    source_url: https://sling.apache.org/documentation/configuration.html
+    anchor: documentation-configuration
+    virtual_path: docs/documentation/configuration.md
+  - title: Development
+    kind: category
+    source_url: https://sling.apache.org/documentation/development.html
+    anchor: documentation-development
+    virtual_path: docs/documentation/development.md
+    children:
+    - title: Apache Sling Testing PaxExam
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/testing-paxexam.html
+      anchor: documentation-development-testing-paxexam
+      virtual_path: docs/documentation/development/testing-paxexam.md
+    - title: Client Request Logging
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/client-request-logging.html
+      anchor: documentation-development-client-request-logging
+      virtual_path: docs/documentation/development/client-request-logging.md
+    - title: Content-Package based development
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/content-packages.html
+      anchor: documentation-development-content-packages
+      virtual_path: docs/documentation/development/content-packages.md
+    - title: Deprecating Sling Modules
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/deprecating-sling-modules.html
+      anchor: documentation-development-deprecating-sling-modules
+      virtual_path: docs/documentation/development/deprecating-sling-modules.md
+    - title: Embedding Sling
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/embedding-sling.html
+      anchor: documentation-development-embedding-sling
+      virtual_path: docs/documentation/development/embedding-sling.md
+    - title: Getting and Building Sling
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/getting-and-building-sling.html
+      anchor: documentation-development-getting-and-building-sling
+      virtual_path: docs/documentation/development/getting-and-building-sling.md
+    - title: HTL Maven Plugin
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/htl-maven-plugin.html
+      anchor: documentation-development-htl-maven-plugin
+      virtual_path: docs/documentation/development/htl-maven-plugin.md
+    - title: Hamcrest Integration
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/hamcrest.html
+      anchor: documentation-development-hamcrest
+      virtual_path: docs/documentation/development/hamcrest.md
+    - title: Issue Tracker
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/issue-tracker.html
+      anchor: documentation-development-issue-tracker
+      virtual_path: docs/documentation/development/issue-tracker.md
+    - title: JCR Mocks
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/jcr-mock.html
+      anchor: documentation-development-jcr-mock
+      virtual_path: docs/documentation/development/jcr-mock.md
+    - title: Leveraging @NotNull/@Nullable annotations to prevent NullPointerExceptions
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/null-analysis.html
+      anchor: documentation-development-null-analysis
+      virtual_path: docs/documentation/development/null-analysis.md
+    - title: Leveraging JSR-305 null annotations to prevent NullPointerExceptions
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/jsr-305.html
+      anchor: documentation-development-jsr-305
+      virtual_path: docs/documentation/development/jsr-305.md
+    - title: Logging
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/logging.html
+      anchor: documentation-development-logging
+      virtual_path: docs/documentation/development/logging.md
+    - title: Maven Archetypes
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/maven-archetypes.html
+      anchor: documentation-development-maven-archetypes
+      virtual_path: docs/documentation/development/maven-archetypes.md
+    - title: Maven Launchpad Plugin
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/maven-launchpad-plugin.html
+      anchor: documentation-development-maven-launchpad-plugin
+      virtual_path: docs/documentation/development/maven-launchpad-plugin.md
+    - title: Maven Sling Plugin
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/sling.html
+      anchor: documentation-development-sling
+      virtual_path: docs/documentation/development/sling.md
+    - title: Maven Tips And Tricks
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/maventipsandtricks.html
+      anchor: documentation-development-maventipsandtricks
+      virtual_path: docs/documentation/development/maventipsandtricks.md
+    - title: Maven Usage
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/maven-usage.html
+      anchor: documentation-development-maven-usage
+      virtual_path: docs/documentation/development/maven-usage.md
+    - title: Monitoring Requests
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/monitoring-requests.html
+      anchor: documentation-development-monitoring-requests
+      virtual_path: docs/documentation/development/monitoring-requests.md
+    - title: OSGi Mocks
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/osgi-mock.html
+      anchor: documentation-development-osgi-mock
+      virtual_path: docs/documentation/development/osgi-mock.md
+    - title: Release Management
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/release-management.html
+      anchor: documentation-development-release-management
+      virtual_path: docs/documentation/development/release-management.md
+    - title: Repository Based Development
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/repository-based-development.html
+      anchor: documentation-development-repository-based-development
+      virtual_path: docs/documentation/development/repository-based-development.md
+    - title: Resource Resolver Mock
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/resourceresolver-mock.html
+      anchor: documentation-development-resourceresolver-mock
+      virtual_path: docs/documentation/development/resourceresolver-mock.md
+    - title: Sling IDE tooling for Eclipse User Guide
+      kind: category
+      source_url: https://sling.apache.org/documentation/development/ide-tooling.html
+      anchor: documentation-development-ide-tooling
+      virtual_path: docs/documentation/development/ide-tooling.md
+      children:
+      - title: Incremental Builds in Sling IDE tooling for Eclipse
+        kind: link
+        source_url: https://sling.apache.org/documentation/development/ide-tooling/ide-tooling-incremental-build.html
+        anchor: documentation-development-ide-tooling-ide-tooling-incremental-build
+        virtual_path: docs/documentation/development/ide-tooling/ide-tooling-incremental-build.md
+    - title: Sling Mocks
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/sling-mock.html
+      anchor: documentation-development-sling-mock
+      virtual_path: docs/documentation/development/sling-mock.md
+    - title: Sling Testing Tools
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/sling-testing-tools.html
+      anchor: documentation-development-sling-testing-tools
+      virtual_path: docs/documentation/development/sling-testing-tools.md
+    - title: The Apache Sling Provisioning Model and Apache SlingStart
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/slingstart.html
+      anchor: documentation-development-slingstart
+      virtual_path: docs/documentation/development/slingstart.md
+    - title: The OSGi Feature Model
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/feature-model.html
+      anchor: documentation-development-feature-model
+      virtual_path: docs/documentation/development/feature-model.md
+    - title: Version Policy
+      kind: link
+      source_url: https://sling.apache.org/documentation/development/version-policy.html
+      anchor: documentation-development-version-policy
+      virtual_path: docs/documentation/development/version-policy.md
+  - title: Getting Started
+    kind: category
+    source_url: https://sling.apache.org/documentation/getting-started.html
+    anchor: documentation-getting-started
+    virtual_path: docs/documentation/getting-started.md
+    children:
+    - title: Discover Sling in 15 minutes
+      kind: link
+      source_url: https://sling.apache.org/documentation/getting-started/discover-sling-in-15-minutes.html
+      anchor: documentation-getting-started-discover-sling-in-15-minutes
+      virtual_path: docs/documentation/getting-started/discover-sling-in-15-minutes.md
+  - title: Running Apache Sling on Apache Karaf
+    kind: link
+    source_url: https://sling.apache.org/documentation/karaf.html
+    anchor: documentation-karaf
+    virtual_path: docs/documentation/karaf.md
+  - title: Sling Pax Exam Utilities
+    kind: link
+    source_url: https://sling.apache.org/documentation/pax-exam-utils.html
+    anchor: documentation-pax-exam-utils
+    virtual_path: docs/documentation/pax-exam-utils.md
+  - title: The Sling Engine
+    kind: category
+    source_url: https://sling.apache.org/documentation/the-sling-engine.html
+    anchor: documentation-the-sling-engine
+    virtual_path: docs/documentation/the-sling-engine.md
+    children:
+    - title: Adapters
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/adapters.html
+      anchor: documentation-the-sling-engine-adapters
+      virtual_path: docs/documentation/the-sling-engine/adapters.md
+    - title: Architecture
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/architecture.html
+      anchor: documentation-the-sling-engine-architecture
+      virtual_path: docs/documentation/the-sling-engine/architecture.md
+    - title: Authentication
+      kind: category
+      source_url: https://sling.apache.org/documentation/the-sling-engine/authentication.html
+      anchor: documentation-the-sling-engine-authentication
+      virtual_path: docs/documentation/the-sling-engine/authentication.md
+      children:
+      - title: Authentication - Actors
+        kind: link
+        source_url: https://sling.apache.org/documentation/the-sling-engine/authentication/authentication-actors.html
+        anchor: documentation-the-sling-engine-authentication-authentication-actors
+        virtual_path: docs/documentation/the-sling-engine/authentication/authentication-actors.md
+      - title: Authentication - AuthenticationHandler
+        kind: category
+        source_url: https://sling.apache.org/documentation/the-sling-engine/authentication/authentication-authenticationhandler.html
+        anchor: documentation-the-sling-engine-authentication-authentication-authenticationhandler
+        virtual_path: docs/documentation/the-sling-engine/authentication/authentication-authenticationhandler.md
+        children:
+        - title: Form Based AuthenticationHandler
+          kind: link
+          source_url: https://sling.apache.org/documentation/the-sling-engine/authentication/authentication-authenticationhandler/form-based-authenticationhandler.html
+          anchor: documentation-the-sling-engine-authentication-authentication-authenticationhandler-form-based-authenticationhandler
+          virtual_path: docs/documentation/the-sling-engine/authentication/authentication-authenticationhandler/form-based-authenticationhandler.md
+        - title: OpenID AuthenticationHandler
+          kind: link
+          source_url: https://sling.apache.org/documentation/the-sling-engine/authentication/authentication-authenticationhandler/openid-authenticationhandler.html
+          anchor: documentation-the-sling-engine-authentication-authentication-authenticationhandler-openid-authenticationhandler
+          virtual_path: docs/documentation/the-sling-engine/authentication/authentication-authenticationhandler/openid-authenticationhandler.md
+      - title: Authentication - Framework
+        kind: link
+        source_url: https://sling.apache.org/documentation/the-sling-engine/authentication/authentication-framework.html
+        anchor: documentation-the-sling-engine-authentication-authentication-framework
+        virtual_path: docs/documentation/the-sling-engine/authentication/authentication-framework.md
+      - title: Authentication - Tasks
+        kind: link
+        source_url: https://sling.apache.org/documentation/the-sling-engine/authentication/authentication-tasks.html
+        anchor: documentation-the-sling-engine-authentication-authentication-tasks
+        virtual_path: docs/documentation/the-sling-engine/authentication/authentication-tasks.md
+    - title: Default Mapping and Rendering
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/default-mapping-and-rendering.html
+      anchor: documentation-the-sling-engine-default-mapping-and-rendering
+      virtual_path: docs/documentation/the-sling-engine/default-mapping-and-rendering.md
+    - title: Dispatching Requests
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/dispatching-requests.html
+      anchor: documentation-the-sling-engine-dispatching-requests
+      virtual_path: docs/documentation/the-sling-engine/dispatching-requests.md
+    - title: Error Handling
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/errorhandling.html
+      anchor: documentation-the-sling-engine-errorhandling
+      virtual_path: docs/documentation/the-sling-engine/errorhandling.md
+    - title: Feature Flags
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/featureflags.html
+      anchor: documentation-the-sling-engine-featureflags
+      virtual_path: docs/documentation/the-sling-engine/featureflags.md
+    - title: Mappings for Resource Resolution
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html
+      anchor: documentation-the-sling-engine-mappings-for-resource-resolution
+      virtual_path: docs/documentation/the-sling-engine/mappings-for-resource-resolution.md
+    - title: Request Listeners
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/request-listeners.html
+      anchor: documentation-the-sling-engine-request-listeners
+      virtual_path: docs/documentation/the-sling-engine/request-listeners.md
+    - title: Request Parameter Handling in Sling
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/request-parameters.html
+      anchor: documentation-the-sling-engine-request-parameters
+      virtual_path: docs/documentation/the-sling-engine/request-parameters.md
+    - title: Resources
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/resources.html
+      anchor: documentation-the-sling-engine-resources
+      virtual_path: docs/documentation/the-sling-engine/resources.md
+    - title: Service Authentication
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/service-authentication.html
+      anchor: documentation-the-sling-engine-service-authentication
+      virtual_path: docs/documentation/the-sling-engine/service-authentication.md
+    - title: Servlet Filter Support
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/filters.html
+      anchor: documentation-the-sling-engine-filters
+      virtual_path: docs/documentation/the-sling-engine/filters.md
+    - title: Servlets and Scripts
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/servlets.html
+      anchor: documentation-the-sling-engine-servlets
+      virtual_path: docs/documentation/the-sling-engine/servlets.md
+    - title: Sling API CRUD Support
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/sling-api-crud-support.html
+      anchor: documentation-the-sling-engine-sling-api-crud-support
+      virtual_path: docs/documentation/the-sling-engine/sling-api-crud-support.md
+    - title: The Sling Launchpad
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/the-sling-launchpad.html
+      anchor: documentation-the-sling-engine-the-sling-launchpad
+      virtual_path: docs/documentation/the-sling-engine/the-sling-launchpad.md
+    - title: URL decomposition
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/url-decomposition.html
+      anchor: documentation-the-sling-engine-url-decomposition
+      virtual_path: docs/documentation/the-sling-engine/url-decomposition.md
+    - title: Well-known Sling Properties
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/sling-properties.html
+      anchor: documentation-the-sling-engine-sling-properties
+      virtual_path: docs/documentation/the-sling-engine/sling-properties.md
+    - title: Wrap or Decorate Resources
+      kind: link
+      source_url: https://sling.apache.org/documentation/the-sling-engine/wrap-or-decorate-resources.html
+      anchor: documentation-the-sling-engine-wrap-or-decorate-resources
+      virtual_path: docs/documentation/the-sling-engine/wrap-or-decorate-resources.md
+  - title: Tutorials & How-Tos
+    kind: category
+    source_url: https://sling.apache.org/documentation/tutorials-how-tos.html
+    anchor: documentation-tutorials-how-tos
+    virtual_path: docs/documentation/tutorials-how-tos.md
+    children:
+    - title: 46 Line Blog
+      kind: link
+      source_url: https://sling.apache.org/documentation/tutorials-how-tos/46-line-blog.html
+      anchor: documentation-tutorials-how-tos-46-line-blog
+      virtual_path: docs/documentation/tutorials-how-tos/46-line-blog.md
+    - title: Getting Resources and Properties in Sling
+      kind: link
+      source_url: https://sling.apache.org/documentation/tutorials-how-tos/getting-resources-and-properties-in-sling.html
+      anchor: documentation-tutorials-how-tos-getting-resources-and-properties-in-sling
+      virtual_path: docs/documentation/tutorials-how-tos/getting-resources-and-properties-in-sling.md
+    - title: How to Manage Jobs in Sling
+      kind: link
+      source_url: https://sling.apache.org/documentation/tutorials-how-tos/how-to-manage-events-in-sling.html
+      anchor: documentation-tutorials-how-tos-how-to-manage-events-in-sling
+      virtual_path: docs/documentation/tutorials-how-tos/how-to-manage-events-in-sling.md
+    - title: Installing and Upgrading Bundles
+      kind: link
+      source_url: https://sling.apache.org/documentation/tutorials-how-tos/installing-and-upgrading-bundles.html
+      anchor: documentation-tutorials-how-tos-installing-and-upgrading-bundles
+      virtual_path: docs/documentation/tutorials-how-tos/installing-and-upgrading-bundles.md
+    - title: Jackrabbit Persistence
+      kind: link
+      source_url: https://sling.apache.org/documentation/tutorials-how-tos/jackrabbit-persistence.html
+      anchor: documentation-tutorials-how-tos-jackrabbit-persistence
+      virtual_path: docs/documentation/tutorials-how-tos/jackrabbit-persistence.md
+    - title: Testing Sling-based applications
+      kind: link
+      source_url: https://sling.apache.org/documentation/tutorials-how-tos/testing-sling-based-applications.html
+      anchor: documentation-tutorials-how-tos-testing-sling-based-applications
+      virtual_path: docs/documentation/tutorials-how-tos/testing-sling-based-applications.md
+  - title: Overview
+    kind: link
+    source_url: https://sling.apache.org/documentation.html
+    anchor: documentation
+    virtual_path: docs/documentation.md
+  - title: Maven Plugins
+    kind: link
+    source_url: https://sling.apache.org/components/
+    anchor: components
+    virtual_path: docs/components/index.md
+- title: Guides (retired)
+  kind: link
+  source_url: https://sling.apache.org/guides.html
+  anchor: guides
+  virtual_path: docs/guides.md
+- title: Links
+  kind: link
+  source_url: https://sling.apache.org/links.html
+  anchor: links
+  virtual_path: docs/links.md
+- title: Media
+  kind: link
+  source_url: https://sling.apache.org/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Old Stuff
+  kind: category
+  source_url: https://sling.apache.org/old-stuff.html
+  anchor: old-stuff
+  virtual_path: docs/old-stuff.md
+  children:
+  - title: Assembly
+    kind: link
+    source_url: https://sling.apache.org/old-stuff/assembly.html
+    anchor: old-stuff-assembly
+    virtual_path: docs/old-stuff/assembly.md
+  - title: Integrating Scripting Languages
+    kind: category
+    source_url: https://sling.apache.org/old-stuff/scriptengineintegration.html
+    anchor: old-stuff-scriptengineintegration
+    virtual_path: docs/old-stuff/scriptengineintegration.md
+    children:
+    - title: Groovy Support
+      kind: link
+      source_url: https://sling.apache.org/old-stuff/scriptengineintegration/groovy-support.html
+      anchor: old-stuff-scriptengineintegration-groovy-support
+      virtual_path: docs/old-stuff/scriptengineintegration/groovy-support.md
+    - title: XSLT Processing Pipeline
+      kind: link
+      source_url: https://sling.apache.org/old-stuff/scriptengineintegration/xslt-processing-pipeline.html
+      anchor: old-stuff-scriptengineintegration-xslt-processing-pipeline
+      virtual_path: docs/old-stuff/scriptengineintegration/xslt-processing-pipeline.md
+  - title: Launch Sling
+    kind: link
+    source_url: https://sling.apache.org/old-stuff/launch-sling.html
+    anchor: old-stuff-launch-sling
+    virtual_path: docs/old-stuff/launch-sling.md
+  - title: Request Processing
+    kind: link
+    source_url: https://sling.apache.org/old-stuff/request-processing.html
+    anchor: old-stuff-request-processing
+    virtual_path: docs/old-stuff/request-processing.md
+  - title: Run Modes
+    kind: link
+    source_url: https://sling.apache.org/old-stuff/run-modes-org-apache-sling-runmode.html
+    anchor: old-stuff-run-modes-org-apache-sling-runmode
+    virtual_path: docs/old-stuff/run-modes-org-apache-sling-runmode.md
+  - title: Servlet Resolution
+    kind: link
+    source_url: https://sling.apache.org/old-stuff/servlet-resolution.html
+    anchor: old-stuff-servlet-resolution
+    virtual_path: docs/old-stuff/servlet-resolution.md
+  - title: Sling API
+    kind: link
+    source_url: https://sling.apache.org/old-stuff/sling-api.html
+    anchor: old-stuff-sling-api
+    virtual_path: docs/old-stuff/sling-api.md
+- title: Project Information
+  kind: category
+  source_url: https://sling.apache.org/project-information.html
+  anchor: project-information
+  virtual_path: docs/project-information.md
+  children:
+  - title: Apache Sling Community Roles and Processes
+    kind: link
+    source_url: https://sling.apache.org/project-information/apache-sling-community-roles-and-processes.html
+    anchor: project-information-apache-sling-community-roles-and-processes
+    virtual_path: docs/project-information/apache-sling-community-roles-and-processes.md
+  - title: Project License
+    kind: link
+    source_url: https://sling.apache.org/project-information/project-license.html
+    anchor: project-information-project-license
+    virtual_path: docs/project-information/project-license.md
+  - title: Project Team
+    kind: link
+    source_url: https://sling.apache.org/project-information/project-team.html
+    anchor: project-information-project-team
+    virtual_path: docs/project-information/project-team.md
+  - title: Security
+    kind: link
+    source_url: https://sling.apache.org/project-information/security.html
+    anchor: project-information-security
+    virtual_path: docs/project-information/security.md
+- title: Releases
+  kind: link
+  source_url: https://sling.apache.org/releases.html
+  anchor: releases
+  virtual_path: docs/releases.md
+- title: Sitemap
+  kind: link
+  source_url: https://sling.apache.org/sitemap.html
+  anchor: sitemap
+  virtual_path: docs/sitemap.md
+- title: Sling Git Repositories
+  kind: link
+  source_url: https://sling.apache.org/repolist.html
+  anchor: repolist
+  virtual_path: docs/repolist.md
+- title: Overview
+  kind: category
+  source_url: https://sling.apache.org/components/htl-maven-plugin/
+  anchor: components-htl-maven-plugin
+  virtual_path: docs/components/htl-maven-plugin/index.md
+  children:
+  - title: Introduction
+    kind: category
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/
+    anchor: components-scriptingbundle-maven-plugin
+    virtual_path: docs/components/scriptingbundle-maven-plugin/index.md
+  - title: Goals
+    kind: link
+    source_url: https://sling.apache.org/components/htl-maven-plugin/plugin-info.html
+    anchor: components-htl-maven-plugin-plugin-info
+    virtual_path: docs/components/htl-maven-plugin/plugin-info.md
+  - title: Usage
+    kind: link
+    source_url: https://sling.apache.org/components/htl-maven-plugin/usage.html
+    anchor: components-htl-maven-plugin-usage
+    virtual_path: docs/components/htl-maven-plugin/usage.md
+  - title: Bnd Plugin
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html
+    anchor: components-scriptingbundle-maven-plugin-bnd
+    virtual_path: docs/components/scriptingbundle-maven-plugin/bnd.md
+  - title: Bundle Installation
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/bundle-installation.html
+    anchor: components-sling-maven-plugin-bundle-installation
+    virtual_path: docs/components/sling-maven-plugin/bundle-installation.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    children:
+    - title: CI Management
+      kind: link
+      source_url: https://sling.apache.org/components/htl-maven-plugin/ci-management.html
+      anchor: components-htl-maven-plugin-ci-management
+      virtual_path: docs/components/htl-maven-plugin/ci-management.md
+    - title: About
+      kind: category
+      source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/
+      anchor: components-scriptingbundle-maven-plugin
+      virtual_path: docs/components/scriptingbundle-maven-plugin/index.md
+    - title: Mailing Lists
+      kind: link
+      source_url: https://sling.apache.org/components/htl-maven-plugin/mailing-lists.html
+      anchor: components-htl-maven-plugin-mailing-lists
+      virtual_path: docs/components/htl-maven-plugin/mailing-lists.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://sling.apache.org/components/htl-maven-plugin/scm.html
+      anchor: components-htl-maven-plugin-scm
+      virtual_path: docs/components/htl-maven-plugin/scm.md
+    - title: Summary
+      kind: link
+      source_url: https://sling.apache.org/components/htl-maven-plugin/summary.html
+      anchor: components-htl-maven-plugin-summary
+      virtual_path: docs/components/htl-maven-plugin/summary.md
+    - title: Team
+      kind: link
+      source_url: https://sling.apache.org/components/htl-maven-plugin/team.html
+      anchor: components-htl-maven-plugin-team
+      virtual_path: docs/components/htl-maven-plugin/team.md
+  - title: Project Reports
+    kind: link
+    children:
+    - title: JIRA Report
+      kind: link
+      source_url: https://sling.apache.org/components/jspc-maven-plugin/jira-report.html
+      anchor: components-jspc-maven-plugin-jira-report
+      virtual_path: docs/components/jspc-maven-plugin/jira-report.md
+    - title: Plugin Documentation
+      kind: category
+      source_url: https://sling.apache.org/components/jspc-maven-plugin/plugin-info.html
+      anchor: components-jspc-maven-plugin-plugin-info
+      virtual_path: docs/components/jspc-maven-plugin/plugin-info.md
+- title: Support
+  kind: category
+  children:
+  - title: Sitemap
+    kind: link
+    source_url: https://sling.apache.org/sitemap.html
+    anchor: sitemap
+    virtual_path: docs/sitemap.md
+- title: Project Info
+  kind: category
+  children:
+  - title: Releases
+    kind: link
+    source_url: https://sling.apache.org/releases.html
+    anchor: releases
+    virtual_path: docs/releases.md
+  - title: Links
+    kind: link
+    source_url: https://sling.apache.org/links.html
+    anchor: links
+    virtual_path: docs/links.md
+  - title: Contributing
+    kind: link
+    source_url: https://sling.apache.org/contributing.html
+    anchor: contributing
+    virtual_path: docs/contributing.md
+  - title: Project Information
+    kind: link
+    source_url: https://sling.apache.org/project-information.html
+    anchor: project-information
+    virtual_path: docs/project-information.md
+  - title: Security
+    kind: link
+    source_url: https://sling.apache.org/project-information/security.html
+    anchor: project-information-security
+    virtual_path: docs/project-information/security.md
+- title: Source
+  kind: category
+  children:
+  - title: Repositories
+    kind: link
+    source_url: https://sling.apache.org/repolist.html
+    anchor: repolist
+    virtual_path: docs/repolist.md
+- title: Apache Sling
+  kind: link
+  source_url: https://sling.apache.org/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Apache Sling OSGi Feature Maven Plugin
+  kind: link
+  source_url: https://sling.apache.org/components/slingfeature-maven-plugin/
+  anchor: components-slingfeature-maven-plugin
+  virtual_path: docs/components/slingfeature-maven-plugin/index.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Index of /components/htl-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/htl-maven-plugin-archives/
+    anchor: components-htl-maven-plugin-archives
+    virtual_path: docs/components/htl-maven-plugin-archives/index.md
+  - title: Index of /components/htl-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/htl-maven-plugin-archives/?C=D%3BO%3DA
+    anchor: components-htl-maven-plugin-archives-index_2
+    virtual_path: docs/components/htl-maven-plugin-archives/index_2.md
+  - title: Index of /components/htl-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/htl-maven-plugin-archives/?C=M%3BO%3DA
+    anchor: components-htl-maven-plugin-archives-index_3
+    virtual_path: docs/components/htl-maven-plugin-archives/index_3.md
+  - title: Index of /components/htl-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/htl-maven-plugin-archives/?C=N%3BO%3DD
+    anchor: components-htl-maven-plugin-archives-index_4
+    virtual_path: docs/components/htl-maven-plugin-archives/index_4.md
+  - title: Index of /components/htl-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/htl-maven-plugin-archives/?C=S%3BO%3DA
+    anchor: components-htl-maven-plugin-archives-index_5
+    virtual_path: docs/components/htl-maven-plugin-archives/index_5.md
+  - title: HTL Maven Plugin – htl:help
+    kind: link
+    source_url: https://sling.apache.org/components/htl-maven-plugin/help-mojo.html
+    anchor: components-htl-maven-plugin-help-mojo
+    virtual_path: docs/components/htl-maven-plugin/help-mojo.md
+  - title: HTL Maven Plugin – htl:validate
+    kind: link
+    source_url: https://sling.apache.org/components/htl-maven-plugin/validate-mojo.html
+    anchor: components-htl-maven-plugin-validate-mojo
+    virtual_path: docs/components/htl-maven-plugin/validate-mojo.md
+  - title: Index of /components
+    kind: link
+    source_url: https://sling.apache.org/components/?C=D%3BO%3DA
+    anchor: components-index_2
+    virtual_path: docs/components/index_2.md
+  - title: Index of /components
+    kind: link
+    source_url: https://sling.apache.org/components/?C=M%3BO%3DA
+    anchor: components-index_3
+    virtual_path: docs/components/index_3.md
+  - title: Index of /components
+    kind: link
+    source_url: https://sling.apache.org/components/?C=N%3BO%3DD
+    anchor: components-index_4
+    virtual_path: docs/components/index_4.md
+  - title: Index of /components
+    kind: link
+    source_url: https://sling.apache.org/components/?C=S%3BO%3DA
+    anchor: components-index_5
+    virtual_path: docs/components/index_5.md
+  - title: Index of /components/jspc-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/jspc-maven-plugin-archives/
+    anchor: components-jspc-maven-plugin-archives
+    virtual_path: docs/components/jspc-maven-plugin-archives/index.md
+  - title: Index of /components/jspc-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/jspc-maven-plugin-archives/?C=D%3BO%3DA
+    anchor: components-jspc-maven-plugin-archives-index_2
+    virtual_path: docs/components/jspc-maven-plugin-archives/index_2.md
+  - title: Index of /components/jspc-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/jspc-maven-plugin-archives/?C=M%3BO%3DA
+    anchor: components-jspc-maven-plugin-archives-index_3
+    virtual_path: docs/components/jspc-maven-plugin-archives/index_3.md
+  - title: Index of /components/jspc-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/jspc-maven-plugin-archives/?C=N%3BO%3DD
+    anchor: components-jspc-maven-plugin-archives-index_4
+    virtual_path: docs/components/jspc-maven-plugin-archives/index_4.md
+  - title: Index of /components/jspc-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/jspc-maven-plugin-archives/?C=S%3BO%3DA
+    anchor: components-jspc-maven-plugin-archives-index_5
+    virtual_path: docs/components/jspc-maven-plugin-archives/index_5.md
+  - title: Apache Sling JSPC Maven Plugin – CI Management
+    kind: link
+    source_url: https://sling.apache.org/components/jspc-maven-plugin/ci-management.html
+    anchor: components-jspc-maven-plugin-ci-management
+    virtual_path: docs/components/jspc-maven-plugin/ci-management.md
+  - title: Apache Sling JSPC Maven Plugin –
+    kind: link
+    source_url: https://sling.apache.org/components/jspc-maven-plugin/
+    anchor: components-jspc-maven-plugin
+    virtual_path: docs/components/jspc-maven-plugin/index.md
+  - title: Apache Sling JSPC Maven Plugin – Project Mailing Lists
+    kind: link
+    source_url: https://sling.apache.org/components/jspc-maven-plugin/mailing-lists.html
+    anchor: components-jspc-maven-plugin-mailing-lists
+    virtual_path: docs/components/jspc-maven-plugin/mailing-lists.md
+  - title: Apache Sling JSPC Maven Plugin – Source Code Management
+    kind: link
+    source_url: https://sling.apache.org/components/jspc-maven-plugin/scm.html
+    anchor: components-jspc-maven-plugin-scm
+    virtual_path: docs/components/jspc-maven-plugin/scm.md
+  - title: Apache Sling JSPC Maven Plugin – Project Summary
+    kind: link
+    source_url: https://sling.apache.org/components/jspc-maven-plugin/summary.html
+    anchor: components-jspc-maven-plugin-summary
+    virtual_path: docs/components/jspc-maven-plugin/summary.md
+  - title: Apache Sling JSPC Maven Plugin – Project Team
+    kind: link
+    source_url: https://sling.apache.org/components/jspc-maven-plugin/team.html
+    anchor: components-jspc-maven-plugin-team
+    virtual_path: docs/components/jspc-maven-plugin/team.md
+  - title: Index of /components/maven-sling-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/maven-sling-plugin-archives/
+    anchor: components-maven-sling-plugin-archives
+    virtual_path: docs/components/maven-sling-plugin-archives/index.md
+  - title: Index of /components/maven-sling-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/maven-sling-plugin-archives/?C=D%3BO%3DA
+    anchor: components-maven-sling-plugin-archives-index_2
+    virtual_path: docs/components/maven-sling-plugin-archives/index_2.md
+  - title: Index of /components/maven-sling-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/maven-sling-plugin-archives/?C=M%3BO%3DA
+    anchor: components-maven-sling-plugin-archives-index_3
+    virtual_path: docs/components/maven-sling-plugin-archives/index_3.md
+  - title: Index of /components/maven-sling-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/maven-sling-plugin-archives/?C=N%3BO%3DD
+    anchor: components-maven-sling-plugin-archives-index_4
+    virtual_path: docs/components/maven-sling-plugin-archives/index_4.md
+  - title: Index of /components/maven-sling-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/maven-sling-plugin-archives/?C=S%3BO%3DA
+    anchor: components-maven-sling-plugin-archives-index_5
+    virtual_path: docs/components/maven-sling-plugin-archives/index_5.md
+  - title: Index of /components/scriptingbundle-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin-archives/
+    anchor: components-scriptingbundle-maven-plugin-archives
+    virtual_path: docs/components/scriptingbundle-maven-plugin-archives/index.md
+  - title: Index of /components/scriptingbundle-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin-archives/?C=D%3BO%3DA
+    anchor: components-scriptingbundle-maven-plugin-archives-index_2
+    virtual_path: docs/components/scriptingbundle-maven-plugin-archives/index_2.md
+  - title: Index of /components/scriptingbundle-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin-archives/?C=M%3BO%3DA
+    anchor: components-scriptingbundle-maven-plugin-archives-index_3
+    virtual_path: docs/components/scriptingbundle-maven-plugin-archives/index_3.md
+  - title: Index of /components/scriptingbundle-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin-archives/?C=N%3BO%3DD
+    anchor: components-scriptingbundle-maven-plugin-archives-index_4
+    virtual_path: docs/components/scriptingbundle-maven-plugin-archives/index_4.md
+  - title: Index of /components/scriptingbundle-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin-archives/?C=S%3BO%3DA
+    anchor: components-scriptingbundle-maven-plugin-archives-index_5
+    virtual_path: docs/components/scriptingbundle-maven-plugin-archives/index_5.md
+  - title: Scripting Bundle Maven Plugin – CI Management
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/ci-management.html
+    anchor: components-scriptingbundle-maven-plugin-ci-management
+    virtual_path: docs/components/scriptingbundle-maven-plugin/ci-management.md
+  - title: Scripting Bundle Maven Plugin – scriptingbundle:help
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/help-mojo.html
+    anchor: components-scriptingbundle-maven-plugin-help-mojo
+    virtual_path: docs/components/scriptingbundle-maven-plugin/help-mojo.md
+  - title: Scripting Bundle Maven Plugin – Project Mailing Lists
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/mailing-lists.html
+    anchor: components-scriptingbundle-maven-plugin-mailing-lists
+    virtual_path: docs/components/scriptingbundle-maven-plugin/mailing-lists.md
+  - title: Scripting Bundle Maven Plugin – scriptingbundle:metadata
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/metadata-mojo.html
+    anchor: components-scriptingbundle-maven-plugin-metadata-mojo
+    virtual_path: docs/components/scriptingbundle-maven-plugin/metadata-mojo.md
+  - title: Scripting Bundle Maven Plugin – Plugin Documentation
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/plugin-info.html
+    anchor: components-scriptingbundle-maven-plugin-plugin-info
+    virtual_path: docs/components/scriptingbundle-maven-plugin/plugin-info.md
+  - title: Scripting Bundle Maven Plugin – Source Code Management
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/scm.html
+    anchor: components-scriptingbundle-maven-plugin-scm
+    virtual_path: docs/components/scriptingbundle-maven-plugin/scm.md
+  - title: Scripting Bundle Maven Plugin – Project Summary
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/summary.html
+    anchor: components-scriptingbundle-maven-plugin-summary
+    virtual_path: docs/components/scriptingbundle-maven-plugin/summary.md
+  - title: Scripting Bundle Maven Plugin – Project Team
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/team.html
+    anchor: components-scriptingbundle-maven-plugin-team
+    virtual_path: docs/components/scriptingbundle-maven-plugin/team.md
+  - title: Scripting Bundle Maven Plugin – Usage
+    kind: link
+    source_url: https://sling.apache.org/components/scriptingbundle-maven-plugin/usage.html
+    anchor: components-scriptingbundle-maven-plugin-usage
+    virtual_path: docs/components/scriptingbundle-maven-plugin/usage.md
+  - title: Index of /components/sling-feature-converter-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin-archives/
+    anchor: components-sling-feature-converter-maven-plugin-archives
+    virtual_path: docs/components/sling-feature-converter-maven-plugin-archives/index.md
+  - title: Index of /components/sling-feature-converter-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin-archives/?C=D%3BO%3DA
+    anchor: components-sling-feature-converter-maven-plugin-archives-index_2
+    virtual_path: docs/components/sling-feature-converter-maven-plugin-archives/index_2.md
+  - title: Index of /components/sling-feature-converter-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin-archives/?C=M%3BO%3DA
+    anchor: components-sling-feature-converter-maven-plugin-archives-index_3
+    virtual_path: docs/components/sling-feature-converter-maven-plugin-archives/index_3.md
+  - title: Index of /components/sling-feature-converter-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin-archives/?C=N%3BO%3DD
+    anchor: components-sling-feature-converter-maven-plugin-archives-index_4
+    virtual_path: docs/components/sling-feature-converter-maven-plugin-archives/index_4.md
+  - title: Index of /components/sling-feature-converter-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin-archives/?C=S%3BO%3DA
+    anchor: components-sling-feature-converter-maven-plugin-archives-index_5
+    virtual_path: docs/components/sling-feature-converter-maven-plugin-archives/index_5.md
+  - title: Overview
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin/ci-management.html
+    anchor: components-sling-feature-converter-maven-plugin-ci-management
+    virtual_path: docs/components/sling-feature-converter-maven-plugin/ci-management.md
+  - title: sling-feature-converter:convert-cp
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin/convert-cp-mojo.html
+    anchor: components-sling-feature-converter-maven-plugin-convert-cp-mojo
+    virtual_path: docs/components/sling-feature-converter-maven-plugin/convert-cp-mojo.md
+  - title: sling-feature-converter:convert-pm
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin/convert-pm-mojo.html
+    anchor: components-sling-feature-converter-maven-plugin-convert-pm-mojo
+    virtual_path: docs/components/sling-feature-converter-maven-plugin/convert-pm-mojo.md
+  - title: sling-feature-converter:help
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin/help-mojo.html
+    anchor: components-sling-feature-converter-maven-plugin-help-mojo
+    virtual_path: docs/components/sling-feature-converter-maven-plugin/help-mojo.md
+  - title: Content Package to Feature Model Maven Plugin
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin/
+    anchor: components-sling-feature-converter-maven-plugin
+    virtual_path: docs/components/sling-feature-converter-maven-plugin/index.md
+  - title: Project Mailing Lists
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin/mailing-lists.html
+    anchor: components-sling-feature-converter-maven-plugin-mailing-lists
+    virtual_path: docs/components/sling-feature-converter-maven-plugin/mailing-lists.md
+  - title: Plugin Documentation
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin/plugin-info.html
+    anchor: components-sling-feature-converter-maven-plugin-plugin-info
+    virtual_path: docs/components/sling-feature-converter-maven-plugin/plugin-info.md
+  - title: Overview
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin/scm.html
+    anchor: components-sling-feature-converter-maven-plugin-scm
+    virtual_path: docs/components/sling-feature-converter-maven-plugin/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin/summary.html
+    anchor: components-sling-feature-converter-maven-plugin-summary
+    virtual_path: docs/components/sling-feature-converter-maven-plugin/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin/team.html
+    anchor: components-sling-feature-converter-maven-plugin-team
+    virtual_path: docs/components/sling-feature-converter-maven-plugin/team.md
+  - title: Usage – Apache Sling Feature Model Converter Plugin
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-converter-maven-plugin/usage.html
+    anchor: components-sling-feature-converter-maven-plugin-usage
+    virtual_path: docs/components/sling-feature-converter-maven-plugin/usage.md
+  - title: Index of /components/sling-feature-launcher-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin-archives/
+    anchor: components-sling-feature-launcher-maven-plugin-archives
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin-archives/index.md
+  - title: Index of /components/sling-feature-launcher-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin-archives/?C=D%3BO%3DA
+    anchor: components-sling-feature-launcher-maven-plugin-archives-index_2
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin-archives/index_2.md
+  - title: Index of /components/sling-feature-launcher-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin-archives/?C=M%3BO%3DA
+    anchor: components-sling-feature-launcher-maven-plugin-archives-index_3
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin-archives/index_3.md
+  - title: Index of /components/sling-feature-launcher-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin-archives/?C=N%3BO%3DD
+    anchor: components-sling-feature-launcher-maven-plugin-archives-index_4
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin-archives/index_4.md
+  - title: Index of /components/sling-feature-launcher-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin-archives/?C=S%3BO%3DA
+    anchor: components-sling-feature-launcher-maven-plugin-archives-index_5
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin-archives/index_5.md
+  - title: Overview
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin/ci-management.html
+    anchor: components-sling-feature-launcher-maven-plugin-ci-management
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin/ci-management.md
+  - title: feature-launcher:help
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin/help-mojo.html
+    anchor: components-sling-feature-launcher-maven-plugin-help-mojo
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin/help-mojo.md
+  - title: Sling Feature Launcher Maven Plugin
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin/
+    anchor: components-sling-feature-launcher-maven-plugin
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin/index.md
+  - title: Project Mailing Lists
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin/mailing-lists.html
+    anchor: components-sling-feature-launcher-maven-plugin-mailing-lists
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin/mailing-lists.md
+  - title: Plugin Documentation
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin/plugin-info.html
+    anchor: components-sling-feature-launcher-maven-plugin-plugin-info
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin/plugin-info.md
+  - title: Overview
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin/scm.html
+    anchor: components-sling-feature-launcher-maven-plugin-scm
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin/scm.md
+  - title: feature-launcher:start
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin/start-mojo.html
+    anchor: components-sling-feature-launcher-maven-plugin-start-mojo
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin/start-mojo.md
+  - title: feature-launcher:stop
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin/stop-mojo.html
+    anchor: components-sling-feature-launcher-maven-plugin-stop-mojo
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin/stop-mojo.md
+  - title: Project Summary
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin/summary.html
+    anchor: components-sling-feature-launcher-maven-plugin-summary
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://sling.apache.org/components/sling-feature-launcher-maven-plugin/team.html
+    anchor: components-sling-feature-launcher-maven-plugin-team
+    virtual_path: docs/components/sling-feature-launcher-maven-plugin/team.md
+  - title: Index of /components/sling-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin-archives/
+    anchor: components-sling-maven-plugin-archives
+    virtual_path: docs/components/sling-maven-plugin-archives/index.md
+  - title: Index of /components/sling-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin-archives/?C=D%3BO%3DA
+    anchor: components-sling-maven-plugin-archives-index_2
+    virtual_path: docs/components/sling-maven-plugin-archives/index_2.md
+  - title: Index of /components/sling-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin-archives/?C=M%3BO%3DA
+    anchor: components-sling-maven-plugin-archives-index_3
+    virtual_path: docs/components/sling-maven-plugin-archives/index_3.md
+  - title: Index of /components/sling-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin-archives/?C=N%3BO%3DD
+    anchor: components-sling-maven-plugin-archives-index_4
+    virtual_path: docs/components/sling-maven-plugin-archives/index_4.md
+  - title: Index of /components/sling-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin-archives/?C=S%3BO%3DA
+    anchor: components-sling-maven-plugin-archives-index_5
+    virtual_path: docs/components/sling-maven-plugin-archives/index_5.md
+  - title: Overview
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/ci-management.html
+    anchor: components-sling-maven-plugin-ci-management
+    virtual_path: docs/components/sling-maven-plugin/ci-management.md
+  - title: sling:deploy-file
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/deploy-file-mojo.html
+    anchor: components-sling-maven-plugin-deploy-file-mojo
+    virtual_path: docs/components/sling-maven-plugin/deploy-file-mojo.md
+  - title: sling:deploy
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/deploy-mojo.html
+    anchor: components-sling-maven-plugin-deploy-mojo
+    virtual_path: docs/components/sling-maven-plugin/deploy-mojo.md
+  - title: sling:fsmount
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/fsmount-mojo.html
+    anchor: components-sling-maven-plugin-fsmount-mojo
+    virtual_path: docs/components/sling-maven-plugin/fsmount-mojo.md
+  - title: sling:fsunmount
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/fsunmount-mojo.html
+    anchor: components-sling-maven-plugin-fsunmount-mojo
+    virtual_path: docs/components/sling-maven-plugin/fsunmount-mojo.md
+  - title: sling:generate-adapter-metadata
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/generate-adapter-metadata-mojo.html
+    anchor: components-sling-maven-plugin-generate-adapter-metadata-mojo
+    virtual_path: docs/components/sling-maven-plugin/generate-adapter-metadata-mojo.md
+  - title: sling:help
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/help-mojo.html
+    anchor: components-sling-maven-plugin-help-mojo
+    virtual_path: docs/components/sling-maven-plugin/help-mojo.md
+  - title: Sling Maven Plugin
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/
+    anchor: components-sling-maven-plugin
+    virtual_path: docs/components/sling-maven-plugin/index.md
+  - title: sling:install-file
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/install-file-mojo.html
+    anchor: components-sling-maven-plugin-install-file-mojo
+    virtual_path: docs/components/sling-maven-plugin/install-file-mojo.md
+  - title: sling:install
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/install-mojo.html
+    anchor: components-sling-maven-plugin-install-mojo
+    virtual_path: docs/components/sling-maven-plugin/install-mojo.md
+  - title: Project Mailing Lists
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/mailing-lists.html
+    anchor: components-sling-maven-plugin-mailing-lists
+    virtual_path: docs/components/sling-maven-plugin/mailing-lists.md
+  - title: Plugin Documentation
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/plugin-info.html
+    anchor: components-sling-maven-plugin-plugin-info
+    virtual_path: docs/components/sling-maven-plugin/plugin-info.md
+  - title: Overview
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/scm.html
+    anchor: components-sling-maven-plugin-scm
+    virtual_path: docs/components/sling-maven-plugin/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/summary.html
+    anchor: components-sling-maven-plugin-summary
+    virtual_path: docs/components/sling-maven-plugin/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/team.html
+    anchor: components-sling-maven-plugin-team
+    virtual_path: docs/components/sling-maven-plugin/team.md
+  - title: sling:uninstall
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/uninstall-mojo.html
+    anchor: components-sling-maven-plugin-uninstall-mojo
+    virtual_path: docs/components/sling-maven-plugin/uninstall-mojo.md
+  - title: sling:validate
+    kind: link
+    source_url: https://sling.apache.org/components/sling-maven-plugin/validate-mojo.html
+    anchor: components-sling-maven-plugin-validate-mojo
+    virtual_path: docs/components/sling-maven-plugin/validate-mojo.md
+  - title: Index of /components/slingfeature-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin-archives/
+    anchor: components-slingfeature-maven-plugin-archives
+    virtual_path: docs/components/slingfeature-maven-plugin-archives/index.md
+  - title: Index of /components/slingfeature-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin-archives/?C=D%3BO%3DA
+    anchor: components-slingfeature-maven-plugin-archives-index_2
+    virtual_path: docs/components/slingfeature-maven-plugin-archives/index_2.md
+  - title: Index of /components/slingfeature-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin-archives/?C=M%3BO%3DA
+    anchor: components-slingfeature-maven-plugin-archives-index_3
+    virtual_path: docs/components/slingfeature-maven-plugin-archives/index_3.md
+  - title: Index of /components/slingfeature-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin-archives/?C=N%3BO%3DD
+    anchor: components-slingfeature-maven-plugin-archives-index_4
+    virtual_path: docs/components/slingfeature-maven-plugin-archives/index_4.md
+  - title: Index of /components/slingfeature-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin-archives/?C=S%3BO%3DA
+    anchor: components-slingfeature-maven-plugin-archives-index_5
+    virtual_path: docs/components/slingfeature-maven-plugin-archives/index_5.md
+  - title: slingfeature:aggregate-features
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/aggregate-features-mojo.html
+    anchor: components-slingfeature-maven-plugin-aggregate-features-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/aggregate-features-mojo.md
+  - title: slingfeature:analyse-features
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/analyse-features-mojo.html
+    anchor: components-slingfeature-maven-plugin-analyse-features-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/analyse-features-mojo.md
+  - title: slingfeature:apis-jar
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/apis-jar-mojo.html
+    anchor: components-slingfeature-maven-plugin-apis-jar-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/apis-jar-mojo.md
+  - title: slingfeature:apply-default-config
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/apply-default-config-mojo.html
+    anchor: components-slingfeature-maven-plugin-apply-default-config-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/apply-default-config-mojo.md
+  - title: slingfeature:attach-featurearchives
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/attach-featurearchives-mojo.html
+    anchor: components-slingfeature-maven-plugin-attach-featurearchives-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/attach-featurearchives-mojo.md
+  - title: slingfeature:attach-features
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/attach-features-mojo.html
+    anchor: components-slingfeature-maven-plugin-attach-features-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/attach-features-mojo.md
+  - title: slingfeature:collect-artifacts
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/collect-artifacts-mojo.html
+    anchor: components-slingfeature-maven-plugin-collect-artifacts-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/collect-artifacts-mojo.md
+  - title: slingfeature:embed-features
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/embed-features-mojo.html
+    anchor: components-slingfeature-maven-plugin-embed-features-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/embed-features-mojo.md
+  - title: slingfeature:extract-extension
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/extract-extension-mojo.html
+    anchor: components-slingfeature-maven-plugin-extract-extension-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/extract-extension-mojo.md
+  - title: slingfeature:features-diff
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/features-diff-mojo.html
+    anchor: components-slingfeature-maven-plugin-features-diff-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/features-diff-mojo.md
+  - title: slingfeature:help
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/help-mojo.html
+    anchor: components-slingfeature-maven-plugin-help-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/help-mojo.md
+  - title: slingfeature:include-artifact
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/include-artifact-mojo.html
+    anchor: components-slingfeature-maven-plugin-include-artifact-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/include-artifact-mojo.md
+  - title: slingfeature:info
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/info-mojo.html
+    anchor: components-slingfeature-maven-plugin-info-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/info-mojo.md
+  - title: slingfeature:launch-features
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/launch-features-mojo.html
+    anchor: components-slingfeature-maven-plugin-launch-features-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/launch-features-mojo.md
+  - title: Plugin Documentation
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/plugin-info.html
+    anchor: components-slingfeature-maven-plugin-plugin-info
+    virtual_path: docs/components/slingfeature-maven-plugin/plugin-info.md
+  - title: slingfeature:repository
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/repository-mojo.html
+    anchor: components-slingfeature-maven-plugin-repository-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/repository-mojo.md
+  - title: slingfeature:update-feature-versions
+    kind: link
+    source_url: https://sling.apache.org/components/slingfeature-maven-plugin/update-feature-versions-mojo.html
+    anchor: components-slingfeature-maven-plugin-update-feature-versions-mojo
+    virtual_path: docs/components/slingfeature-maven-plugin/update-feature-versions-mojo.md
+  - title: Index of /components/slingstart-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin-archives/
+    anchor: components-slingstart-maven-plugin-archives
+    virtual_path: docs/components/slingstart-maven-plugin-archives/index.md
+  - title: Index of /components/slingstart-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin-archives/?C=D%3BO%3DA
+    anchor: components-slingstart-maven-plugin-archives-index_2
+    virtual_path: docs/components/slingstart-maven-plugin-archives/index_2.md
+  - title: Index of /components/slingstart-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin-archives/?C=M%3BO%3DA
+    anchor: components-slingstart-maven-plugin-archives-index_3
+    virtual_path: docs/components/slingstart-maven-plugin-archives/index_3.md
+  - title: Index of /components/slingstart-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin-archives/?C=N%3BO%3DD
+    anchor: components-slingstart-maven-plugin-archives-index_4
+    virtual_path: docs/components/slingstart-maven-plugin-archives/index_4.md
+  - title: Index of /components/slingstart-maven-plugin-archives
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin-archives/?C=S%3BO%3DA
+    anchor: components-slingstart-maven-plugin-archives-index_5
+    virtual_path: docs/components/slingstart-maven-plugin-archives/index_5.md
+  - title: SlingStart Maven Plugin
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin/
+    anchor: components-slingstart-maven-plugin
+    virtual_path: docs/components/slingstart-maven-plugin/index.md
+  - title: Apache Sling SlingStart Maven Plugin – JIRA Report
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin/jira-report.html
+    anchor: components-slingstart-maven-plugin-jira-report
+    virtual_path: docs/components/slingstart-maven-plugin/jira-report.md
+  - title: Apache Sling SlingStart Maven Plugin – Project Mailing Lists
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin/mailing-lists.html
+    anchor: components-slingstart-maven-plugin-mailing-lists
+    virtual_path: docs/components/slingstart-maven-plugin/mailing-lists.md
+  - title: Apache Sling SlingStart Maven Plugin – Plugin Documentation
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin/plugin-info.html
+    anchor: components-slingstart-maven-plugin-plugin-info
+    virtual_path: docs/components/slingstart-maven-plugin/plugin-info.md
+  - title: Apache Sling SlingStart Maven Plugin – Source Code Management
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin/scm.html
+    anchor: components-slingstart-maven-plugin-scm
+    virtual_path: docs/components/slingstart-maven-plugin/scm.md
+  - title: Apache Sling SlingStart Maven Plugin – Project Summary
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin/summary.html
+    anchor: components-slingstart-maven-plugin-summary
+    virtual_path: docs/components/slingstart-maven-plugin/summary.md
+  - title: Apache Sling SlingStart Maven Plugin – Project Team
+    kind: link
+    source_url: https://sling.apache.org/components/slingstart-maven-plugin/team.html
+    anchor: components-slingstart-maven-plugin-team
+    virtual_path: docs/components/slingstart-maven-plugin/team.md
+  - title: Apache Sling Context-Aware Configuration - Default Implementation
+    kind: link
+    source_url: https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration-default-implementation.html
+    anchor: documentation-bundles-context-aware-configuration-context-aware-configuration-default-implementation
+    virtual_path: docs/documentation/bundles/context-aware-configuration/context-aware-configuration-default-implementation.md
+  - title: Apache Sling Context-Aware Configuration - Override
+    kind: link
+    source_url: https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration-override.html
+    anchor: documentation-bundles-context-aware-configuration-context-aware-configuration-override
+    virtual_path: docs/documentation/bundles/context-aware-configuration/context-aware-configuration-override.md
+  - title: Apache Sling Context-Aware Configuration - SPI
+    kind: link
+    source_url: https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration-spi.html
+    anchor: documentation-bundles-context-aware-configuration-context-aware-configuration-spi
+    virtual_path: docs/documentation/bundles/context-aware-configuration/context-aware-configuration-spi.md
+  - title: Apache Sling Context-Aware Configuration
+    kind: link
+    source_url: https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html
+    anchor: documentation-bundles-context-aware-configuration-context-aware-configuration
+    virtual_path: docs/documentation/bundles/context-aware-configuration/context-aware-configuration.md
+  - title: HTL Maven Plugin
+    kind: link
+    source_url: https://sling.apache.org/documentation/development/jspc.html
+    anchor: documentation-development-jspc
+    virtual_path: docs/documentation/development/jspc.md
+  - title: Feature Model How-To Guide
+    kind: link
+    source_url: https://sling.apache.org/documentation/feature-model/feature-model-howto.html
+    anchor: documentation-feature-model-feature-model-howto
+    virtual_path: docs/documentation/feature-model/feature-model-howto.md
+  - title: How to Create a Composite NodeStore with the Feature Model
+    kind: link
+    source_url: https://sling.apache.org/documentation/feature-model/howtos/create-sling-composite.html
+    anchor: documentation-feature-model-howtos-create-sling-composite
+    virtual_path: docs/documentation/feature-model/howtos/create-sling-composite.md
+  - title: How to Convert a Provisioning Model to a Feature Model
+    kind: link
+    source_url: https://sling.apache.org/documentation/feature-model/howtos/create-sling-fm.html
+    anchor: documentation-feature-model-howtos-create-sling-fm
+    virtual_path: docs/documentation/feature-model/howtos/create-sling-fm.md
+  - title: How to Start Sling with the Kickstarter
+    kind: link
+    source_url: https://sling.apache.org/documentation/feature-model/howtos/kickstart.html
+    anchor: documentation-feature-model-howtos-kickstart
+    virtual_path: docs/documentation/feature-model/howtos/kickstart.md
+  - title: How to Create a Custom Feature Model Project
+    kind: link
+    source_url: https://sling.apache.org/documentation/feature-model/howtos/sling-with-custom-project.html
+    anchor: documentation-feature-model-howtos-sling-with-custom-project
+    virtual_path: docs/documentation/feature-model/howtos/sling-with-custom-project.md
+  - title: Logging (Legacy 3.x)
+    kind: link
+    source_url: https://sling.apache.org/documentation/legacy/logging.html
+    anchor: documentation-legacy-logging
+    virtual_path: docs/documentation/legacy/logging.md

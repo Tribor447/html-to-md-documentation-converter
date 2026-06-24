@@ -1,0 +1,263 @@
+[
+  {
+    "title": "Overview",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "Dependencies",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/dependencies.html",
+        "anchor": "dependencies",
+        "virtual_path": "docs/dependencies.md"
+      },
+      {
+        "title": "Upgrading Spring Data",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/upgrade.html",
+        "anchor": "upgrade",
+        "virtual_path": "docs/upgrade.md"
+      },
+      {
+        "title": "Object Mapping Fundamentals",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/object-mapping.html",
+        "anchor": "object-mapping",
+        "virtual_path": "docs/object-mapping.md"
+      },
+      {
+        "title": "Working with Spring Data Repositories",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories.html",
+        "anchor": "repositories",
+        "virtual_path": "docs/repositories.md",
+        "children": [
+          {
+            "title": "Core concepts",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/core-concepts.html",
+            "anchor": "repositories-core-concepts",
+            "virtual_path": "docs/repositories/core-concepts.md"
+          },
+          {
+            "title": "Query Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/query-methods.html",
+            "anchor": "repositories-query-methods",
+            "virtual_path": "docs/repositories/query-methods.md"
+          },
+          {
+            "title": "Defining Repository Interfaces",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/definition.html",
+            "anchor": "repositories-definition",
+            "virtual_path": "docs/repositories/definition.md"
+          },
+          {
+            "title": "Defining Query Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/query-methods-details.html",
+            "anchor": "repositories-query-methods-details",
+            "virtual_path": "docs/repositories/query-methods-details.md"
+          },
+          {
+            "title": "Vector Search",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/vector-search.html",
+            "anchor": "repositories-vector-search",
+            "virtual_path": "docs/repositories/vector-search.md"
+          },
+          {
+            "title": "Creating Repository Instances",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/create-instances.html",
+            "anchor": "repositories-create-instances",
+            "virtual_path": "docs/repositories/create-instances.md"
+          },
+          {
+            "title": "Custom Repository Implementations",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/custom-implementations.html",
+            "anchor": "repositories-custom-implementations",
+            "virtual_path": "docs/repositories/custom-implementations.md"
+          },
+          {
+            "title": "Publishing Events from Aggregate Roots",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/core-domain-events.html",
+            "anchor": "repositories-core-domain-events",
+            "virtual_path": "docs/repositories/core-domain-events.md"
+          },
+          {
+            "title": "Spring Data Extensions",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html",
+            "anchor": "repositories-core-extensions",
+            "virtual_path": "docs/repositories/core-extensions.md"
+          },
+          {
+            "title": "Scrolling",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/scrolling.html",
+            "anchor": "repositories-scrolling",
+            "virtual_path": "docs/repositories/scrolling.md"
+          },
+          {
+            "title": "Null Handling of Repository Methods",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/null-handling.html",
+            "anchor": "repositories-null-handling",
+            "virtual_path": "docs/repositories/null-handling.md"
+          },
+          {
+            "title": "Projections",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/projections.html",
+            "anchor": "repositories-projections",
+            "virtual_path": "docs/repositories/projections.md"
+          }
+        ]
+      },
+      {
+        "title": "Query by Example",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/query-by-example.html",
+        "anchor": "query-by-example",
+        "virtual_path": "docs/query-by-example.md"
+      },
+      {
+        "title": "Value Expressions Fundamentals",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/value-expressions.html",
+        "anchor": "value-expressions",
+        "virtual_path": "docs/value-expressions.md"
+      },
+      {
+        "title": "Property Paths",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/property-paths.html",
+        "anchor": "property-paths",
+        "virtual_path": "docs/property-paths.md"
+      },
+      {
+        "title": "Auditing",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/auditing.html",
+        "anchor": "auditing",
+        "virtual_path": "docs/auditing.md"
+      },
+      {
+        "title": "Custom Conversions",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/custom-conversions.html",
+        "anchor": "custom-conversions",
+        "virtual_path": "docs/custom-conversions.md"
+      },
+      {
+        "title": "Entity Callbacks",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/entity-callbacks.html",
+        "anchor": "entity-callbacks",
+        "virtual_path": "docs/entity-callbacks.md"
+      },
+      {
+        "title": "Entity State Detection Strategies",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/is-new-state-detection.html",
+        "anchor": "is-new-state-detection",
+        "virtual_path": "docs/is-new-state-detection.md"
+      },
+      {
+        "title": "Ahead of Time Optimizations",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/aot.html",
+        "anchor": "aot",
+        "virtual_path": "docs/aot.md"
+      },
+      {
+        "title": "Kotlin Support",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-data/commons/reference/kotlin.html",
+        "anchor": "kotlin",
+        "virtual_path": "docs/kotlin.md",
+        "children": [
+          {
+            "title": "Requirements",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/kotlin/requirements.html",
+            "anchor": "kotlin-requirements",
+            "virtual_path": "docs/kotlin/requirements.md"
+          },
+          {
+            "title": "Null Safety",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/kotlin/null-safety.html",
+            "anchor": "kotlin-null-safety",
+            "virtual_path": "docs/kotlin/null-safety.md"
+          },
+          {
+            "title": "Object Mapping",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/kotlin/object-mapping.html",
+            "anchor": "kotlin-object-mapping",
+            "virtual_path": "docs/kotlin/object-mapping.md"
+          },
+          {
+            "title": "Extensions",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/kotlin/extensions.html",
+            "anchor": "kotlin-extensions",
+            "virtual_path": "docs/kotlin/extensions.md"
+          },
+          {
+            "title": "Coroutines",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/kotlin/coroutines.html",
+            "anchor": "kotlin-coroutines",
+            "virtual_path": "docs/kotlin/coroutines.md"
+          }
+        ]
+      },
+      {
+        "title": "Appendices",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Namespace reference",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/namespace-reference.html",
+            "anchor": "repositories-namespace-reference",
+            "virtual_path": "docs/repositories/namespace-reference.md"
+          },
+          {
+            "title": "Populators namespace reference",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/populator-namespace-reference.html",
+            "anchor": "repositories-populator-namespace-reference",
+            "virtual_path": "docs/repositories/populator-namespace-reference.md"
+          },
+          {
+            "title": "Repository query keywords",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/query-keywords-reference.html",
+            "anchor": "repositories-query-keywords-reference",
+            "virtual_path": "docs/repositories/query-keywords-reference.md"
+          },
+          {
+            "title": "Repository query return types",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-data/commons/reference/repositories/query-return-types-reference.html",
+            "anchor": "repositories-query-return-types-reference",
+            "virtual_path": "docs/repositories/query-return-types-reference.md"
+          }
+        ]
+      }
+    ]
+  }
+]

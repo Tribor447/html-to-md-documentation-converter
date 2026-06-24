@@ -1,0 +1,605 @@
+{
+  "entry_url": "https://arrow.apache.org/docs/",
+  "site_prefix": "/docs/",
+  "site_slug": "arrow_docs",
+  "profile": "generic",
+  "combined_markdown": "combined.md",
+  "page_count": 66,
+  "asset_count": 57,
+  "pages": [
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/benchmarks.html",
+      "title": "Benchmarks #",
+      "anchor": "developers-benchmarks",
+      "virtual_path": "docs/developers/benchmarks.md",
+      "profile": "generic",
+      "score": 13241,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/bug_reports.html",
+      "title": "Bug reports and feature requests #",
+      "anchor": "developers-bug_reports",
+      "virtual_path": "docs/developers/bug_reports.md",
+      "profile": "generic",
+      "score": 13543,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/continuous_integration/archery.html",
+      "title": "Daily Development using Archery #",
+      "anchor": "developers-continuous_integration-archery",
+      "virtual_path": "docs/developers/continuous_integration/archery.md",
+      "profile": "generic",
+      "score": 6217,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/continuous_integration/crossbow.html",
+      "title": "Packaging and Testing with Crossbow #",
+      "anchor": "developers-continuous_integration-crossbow",
+      "virtual_path": "docs/developers/continuous_integration/crossbow.md",
+      "profile": "generic",
+      "score": 16318,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/continuous_integration/docker.html",
+      "title": "Running Docker Builds #",
+      "anchor": "developers-continuous_integration-docker",
+      "virtual_path": "docs/developers/continuous_integration/docker.md",
+      "profile": "generic",
+      "score": 17190,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/continuous_integration/index.html",
+      "title": "Continuous Integration #",
+      "anchor": "developers-continuous_integration",
+      "virtual_path": "docs/developers/continuous_integration/index.md",
+      "profile": "generic",
+      "score": 2632,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/continuous_integration/overview.html",
+      "title": "Continuous Integration #",
+      "anchor": "developers-continuous_integration-overview",
+      "virtual_path": "docs/developers/continuous_integration/overview.md",
+      "profile": "generic",
+      "score": 9418,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/cpp/acero.html",
+      "title": "Developing Acero #",
+      "anchor": "developers-cpp-acero",
+      "virtual_path": "docs/developers/cpp/acero.md",
+      "profile": "generic",
+      "score": 64964,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/cpp/acero/swiss_table.html",
+      "title": "Swiss Table #",
+      "anchor": "developers-cpp-acero-swiss_table",
+      "virtual_path": "docs/developers/cpp/acero/swiss_table.md",
+      "profile": "generic",
+      "score": 41401,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/cpp/building.html",
+      "title": "Building Arrow C++ #",
+      "anchor": "developers-cpp-building",
+      "virtual_path": "docs/developers/cpp/building.md",
+      "profile": "generic",
+      "score": 46714,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/cpp/compute.html",
+      "title": "Developing Arrow C++ Compute #",
+      "anchor": "developers-cpp-compute",
+      "virtual_path": "docs/developers/cpp/compute.md",
+      "profile": "generic",
+      "score": 14808,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/cpp/conventions.html",
+      "title": "Conventions #",
+      "anchor": "developers-cpp-conventions",
+      "virtual_path": "docs/developers/cpp/conventions.md",
+      "profile": "generic",
+      "score": 7740,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/cpp/development.html",
+      "title": "Development Guidelines #",
+      "anchor": "developers-cpp-development",
+      "virtual_path": "docs/developers/cpp/development.md",
+      "profile": "generic",
+      "score": 16878,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/cpp/emscripten.html",
+      "title": "Cross compiling for WebAssembly with Emscripten #",
+      "anchor": "developers-cpp-emscripten",
+      "virtual_path": "docs/developers/cpp/emscripten.md",
+      "profile": "generic",
+      "score": 7323,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/cpp/fuzzing.html",
+      "title": "Fuzzing Arrow C++ #",
+      "anchor": "developers-cpp-fuzzing",
+      "virtual_path": "docs/developers/cpp/fuzzing.md",
+      "profile": "generic",
+      "score": 10595,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/cpp/index.html",
+      "title": "C++ Development #",
+      "anchor": "developers-cpp",
+      "virtual_path": "docs/developers/cpp/index.md",
+      "profile": "generic",
+      "score": 3711,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/cpp/windows.html",
+      "title": "Developing on Windows #",
+      "anchor": "developers-cpp-windows",
+      "virtual_path": "docs/developers/cpp/windows.md",
+      "profile": "generic",
+      "score": 28168,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/documentation.html",
+      "title": "Building the Documentation #",
+      "anchor": "developers-documentation",
+      "virtual_path": "docs/developers/documentation.md",
+      "profile": "generic",
+      "score": 17566,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/architectural_overview.html",
+      "title": "Architectural Overview #",
+      "anchor": "developers-guide-architectural_overview",
+      "virtual_path": "docs/developers/guide/architectural_overview.md",
+      "profile": "generic",
+      "score": 4825,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/communication.html",
+      "title": "Communication #",
+      "anchor": "developers-guide-communication",
+      "virtual_path": "docs/developers/guide/communication.md",
+      "profile": "generic",
+      "score": 9205,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/documentation.html",
+      "title": "Helping with documentation #",
+      "anchor": "developers-guide-documentation",
+      "virtual_path": "docs/developers/guide/documentation.md",
+      "profile": "generic",
+      "score": 7571,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/index.html",
+      "title": "New Contributor’s Guide #",
+      "anchor": "developers-guide",
+      "virtual_path": "docs/developers/guide/index.md",
+      "profile": "generic",
+      "score": 12734,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/resources.html",
+      "title": "Additional information and resources #",
+      "anchor": "developers-guide-resources",
+      "virtual_path": "docs/developers/guide/resources.md",
+      "profile": "generic",
+      "score": 7030,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/arrow_codebase.html",
+      "title": "Working on the Arrow codebase 🧐 #",
+      "anchor": "developers-guide-step_by_step-arrow_codebase",
+      "virtual_path": "docs/developers/guide/step_by_step/arrow_codebase.md",
+      "profile": "generic",
+      "score": 10523,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/building.html",
+      "title": "Building the Arrow libraries 🏋🏿♀️ #",
+      "anchor": "developers-guide-step_by_step-building",
+      "virtual_path": "docs/developers/guide/step_by_step/building.md",
+      "profile": "generic",
+      "score": 13276,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/finding_issues.html",
+      "title": "Finding good first issues 🔎 #",
+      "anchor": "developers-guide-step_by_step-finding_issues",
+      "virtual_path": "docs/developers/guide/step_by_step/finding_issues.md",
+      "profile": "generic",
+      "score": 7267,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/index.html",
+      "title": "Steps in making your first PR #",
+      "anchor": "developers-guide-step_by_step",
+      "virtual_path": "docs/developers/guide/step_by_step/index.md",
+      "profile": "generic",
+      "score": 2879,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/pr_lifecycle.html",
+      "title": "Lifecycle of a pull request #",
+      "anchor": "developers-guide-step_by_step-pr_lifecycle",
+      "virtual_path": "docs/developers/guide/step_by_step/pr_lifecycle.md",
+      "profile": "generic",
+      "score": 18562,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/set_up.html",
+      "title": "Set up #",
+      "anchor": "developers-guide-step_by_step-set_up",
+      "virtual_path": "docs/developers/guide/step_by_step/set_up.md",
+      "profile": "generic",
+      "score": 8952,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/styling.html",
+      "title": "Styling 😎 #",
+      "anchor": "developers-guide-step_by_step-styling",
+      "virtual_path": "docs/developers/guide/step_by_step/styling.md",
+      "profile": "generic",
+      "score": 4273,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/testing.html",
+      "title": "Testing 🧪 #",
+      "anchor": "developers-guide-step_by_step-testing",
+      "virtual_path": "docs/developers/guide/step_by_step/testing.md",
+      "profile": "generic",
+      "score": 14166,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/tutorials/index.html",
+      "title": "Tutorials #",
+      "anchor": "developers-guide-tutorials",
+      "virtual_path": "docs/developers/guide/tutorials/index.md",
+      "profile": "generic",
+      "score": 2351,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/tutorials/python_tutorial.html",
+      "title": "Python tutorial #",
+      "anchor": "developers-guide-tutorials-python_tutorial",
+      "virtual_path": "docs/developers/guide/tutorials/python_tutorial.md",
+      "profile": "generic",
+      "score": 25165,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/guide/tutorials/r_tutorial.html",
+      "title": "R tutorials #",
+      "anchor": "developers-guide-tutorials-r_tutorial",
+      "virtual_path": "docs/developers/guide/tutorials/r_tutorial.md",
+      "profile": "generic",
+      "score": 23052,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/index.html",
+      "title": "Development #",
+      "anchor": "developers",
+      "virtual_path": "docs/developers/index.md",
+      "profile": "generic",
+      "score": 9490,
+      "depth": 1
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/java/building.html",
+      "title": "Building Arrow Java #",
+      "anchor": "developers-java-building",
+      "virtual_path": "docs/developers/java/building.md",
+      "profile": "generic",
+      "score": 39306,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/java/development.html",
+      "title": "Development Guidelines #",
+      "anchor": "developers-java-development",
+      "virtual_path": "docs/developers/java/development.md",
+      "profile": "generic",
+      "score": 14744,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/java/index.html",
+      "title": "Java Development #",
+      "anchor": "developers-java",
+      "virtual_path": "docs/developers/java/index.md",
+      "profile": "generic",
+      "score": 2604,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/overview.html",
+      "title": "Contributing Overview #",
+      "anchor": "developers-overview",
+      "virtual_path": "docs/developers/overview.md",
+      "profile": "generic",
+      "score": 21631,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/python/building.html",
+      "title": "Building PyArrow #",
+      "anchor": "developers-python-building",
+      "virtual_path": "docs/developers/python/building.md",
+      "profile": "generic",
+      "score": 38367,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/python/development.html",
+      "title": "Developing PyArrow #",
+      "anchor": "developers-python-development",
+      "virtual_path": "docs/developers/python/development.md",
+      "profile": "generic",
+      "score": 18793,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/python/index.html",
+      "title": "Python Development #",
+      "anchor": "developers-python",
+      "virtual_path": "docs/developers/python/index.md",
+      "profile": "generic",
+      "score": 2602,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/release_verification.html",
+      "title": "Release Verification Process #",
+      "anchor": "developers-release_verification",
+      "virtual_path": "docs/developers/release_verification.md",
+      "profile": "generic",
+      "score": 12802,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/developers/reviewing.html",
+      "title": "Reviewing contributions #",
+      "anchor": "developers-reviewing",
+      "virtual_path": "docs/developers/reviewing.md",
+      "profile": "generic",
+      "score": 24168,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/ADBC.html",
+      "title": "ADBC: Arrow Database Connectivity #",
+      "anchor": "format-adbc",
+      "virtual_path": "docs/format/ADBC.md",
+      "profile": "generic",
+      "score": 4694,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/CDataInterface.html",
+      "title": "The Arrow C data interface #",
+      "anchor": "format-cdatainterface",
+      "virtual_path": "docs/format/CDataInterface.md",
+      "profile": "generic",
+      "score": 61121,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/CDataInterface/PyCapsuleInterface.html",
+      "title": "The Arrow PyCapsule Interface #",
+      "anchor": "format-cdatainterface-pycapsuleinterface",
+      "virtual_path": "docs/format/CDataInterface/PyCapsuleInterface.md",
+      "profile": "generic",
+      "score": 34398,
+      "depth": 3
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/CDeviceDataInterface.html",
+      "title": "The Arrow C Device data interface #",
+      "anchor": "format-cdevicedatainterface",
+      "virtual_path": "docs/format/CDeviceDataInterface.md",
+      "profile": "generic",
+      "score": 68276,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/CStreamInterface.html",
+      "title": "The Arrow C stream interface #",
+      "anchor": "format-cstreaminterface",
+      "virtual_path": "docs/format/CStreamInterface.md",
+      "profile": "generic",
+      "score": 14117,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/CanonicalExtensions.html",
+      "title": "Canonical Extension Types #",
+      "anchor": "format-canonicalextensions",
+      "virtual_path": "docs/format/CanonicalExtensions.md",
+      "profile": "generic",
+      "score": 42443,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/CanonicalExtensions/Examples.html",
+      "title": "Canonical Extension Examples #",
+      "anchor": "format-canonicalextensions-examples",
+      "virtual_path": "docs/format/CanonicalExtensions/Examples.md",
+      "profile": "generic",
+      "score": 24513,
+      "depth": 3
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/Changing.html",
+      "title": "Changing the Apache Arrow Format Specification #",
+      "anchor": "format-changing",
+      "virtual_path": "docs/format/Changing.md",
+      "profile": "generic",
+      "score": 7137,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/Columnar.html",
+      "title": "Arrow Columnar Format #",
+      "anchor": "format-columnar",
+      "virtual_path": "docs/format/Columnar.md",
+      "profile": "generic",
+      "score": 107688,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/DissociatedIPC.html",
+      "title": "Dissociated IPC Protocol #",
+      "anchor": "format-dissociatedipc",
+      "virtual_path": "docs/format/DissociatedIPC.md",
+      "profile": "generic",
+      "score": 34988,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/Flight.html",
+      "title": "Arrow Flight RPC #",
+      "anchor": "format-flight",
+      "virtual_path": "docs/format/Flight.md",
+      "profile": "generic",
+      "score": 60908,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/FlightSql.html",
+      "title": "Arrow Flight SQL #",
+      "anchor": "format-flightsql",
+      "virtual_path": "docs/format/FlightSql.md",
+      "profile": "generic",
+      "score": 104376,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/Glossary.html",
+      "title": "Glossary #",
+      "anchor": "format-glossary",
+      "virtual_path": "docs/format/Glossary.md",
+      "profile": "generic",
+      "score": 11457,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/Integration.html",
+      "title": "Integration Testing #",
+      "anchor": "format-integration",
+      "virtual_path": "docs/format/Integration.md",
+      "profile": "generic",
+      "score": 37562,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/Intro.html",
+      "title": "Introduction #",
+      "anchor": "format-intro",
+      "virtual_path": "docs/format/Intro.md",
+      "profile": "generic",
+      "score": 32748,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/Other.html",
+      "title": "Other Data Structures #",
+      "anchor": "format-other",
+      "virtual_path": "docs/format/Other.md",
+      "profile": "generic",
+      "score": 5139,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/Security.html",
+      "title": "Security Considerations #",
+      "anchor": "format-security",
+      "virtual_path": "docs/format/Security.md",
+      "profile": "generic",
+      "score": 22017,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/StatisticsSchema.html",
+      "title": "Statistics schema #",
+      "anchor": "format-statisticsschema",
+      "virtual_path": "docs/format/StatisticsSchema.md",
+      "profile": "generic",
+      "score": 45436,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/Versioning.html",
+      "title": "Format Versioning and Stability #",
+      "anchor": "format-versioning",
+      "virtual_path": "docs/format/Versioning.md",
+      "profile": "generic",
+      "score": 9451,
+      "depth": 2
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/format/index.html",
+      "title": "Specifications #",
+      "anchor": "format",
+      "virtual_path": "docs/format/index.md",
+      "profile": "generic",
+      "score": 3926,
+      "depth": 1
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/implementations.html",
+      "title": "Implementations #",
+      "anchor": "implementations",
+      "virtual_path": "docs/implementations.md",
+      "profile": "generic",
+      "score": 8215,
+      "depth": 1
+    },
+    {
+      "source_url": "https://arrow.apache.org/docs/",
+      "title": "Apache Arrow #",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "generic",
+      "score": 4392,
+      "depth": 0
+    }
+  ]
+}

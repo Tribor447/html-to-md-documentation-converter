@@ -1,0 +1,569 @@
+{
+  "entry_url": "https://docs.micrometer.io/micrometer/reference/",
+  "site_prefix": "/micrometer/reference/",
+  "site_slug": "docs_micrometer_reference",
+  "profile": "antora",
+  "combined_markdown": "combined.md",
+  "page_count": 62,
+  "asset_count": 27,
+  "pages": [
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts.html",
+      "title": "Concepts",
+      "anchor": "concepts",
+      "virtual_path": "docs/concepts.md",
+      "profile": "antora",
+      "score": 4690,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/counters.html",
+      "title": "Counters",
+      "anchor": "concepts-counters",
+      "virtual_path": "docs/concepts/counters.md",
+      "profile": "antora",
+      "score": 15510,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/distribution-summaries.html",
+      "title": "Distribution Summaries",
+      "anchor": "concepts-distribution-summaries",
+      "virtual_path": "docs/concepts/distribution-summaries.md",
+      "profile": "antora",
+      "score": 10567,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/gauges.html",
+      "title": "Gauges",
+      "anchor": "concepts-gauges",
+      "virtual_path": "docs/concepts/gauges.md",
+      "profile": "antora",
+      "score": 13418,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/high-cardinality-tags-detector.html",
+      "title": "High Cardinality Tags Detector",
+      "anchor": "concepts-high-cardinality-tags-detector",
+      "virtual_path": "docs/concepts/high-cardinality-tags-detector.md",
+      "profile": "antora",
+      "score": 21858,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/histogram-quantiles.html",
+      "title": "Histograms and Percentiles",
+      "anchor": "concepts-histogram-quantiles",
+      "virtual_path": "docs/concepts/histogram-quantiles.md",
+      "profile": "antora",
+      "score": 8014,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/implementations.html",
+      "title": "Supported Monitoring Systems",
+      "anchor": "concepts-implementations",
+      "virtual_path": "docs/concepts/implementations.md",
+      "profile": "antora",
+      "score": 5264,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/long-task-timers.html",
+      "title": "Long Task Timers",
+      "anchor": "concepts-long-task-timers",
+      "virtual_path": "docs/concepts/long-task-timers.md",
+      "profile": "antora",
+      "score": 5793,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/meter-convention.html",
+      "title": "Meter Convention",
+      "anchor": "concepts-meter-convention",
+      "virtual_path": "docs/concepts/meter-convention.md",
+      "profile": "antora",
+      "score": 2482,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/meter-filters.html",
+      "title": "Meter Filters",
+      "anchor": "concepts-meter-filters",
+      "virtual_path": "docs/concepts/meter-filters.md",
+      "profile": "antora",
+      "score": 15907,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/meter-provider.html",
+      "title": "Meter Provider",
+      "anchor": "concepts-meter-provider",
+      "virtual_path": "docs/concepts/meter-provider.md",
+      "profile": "antora",
+      "score": 5391,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/meters.html",
+      "title": "Meters",
+      "anchor": "concepts-meters",
+      "virtual_path": "docs/concepts/meters.md",
+      "profile": "antora",
+      "score": 3544,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/naming.html",
+      "title": "Naming Meters",
+      "anchor": "concepts-naming",
+      "virtual_path": "docs/concepts/naming.md",
+      "profile": "antora",
+      "score": 9547,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/rate-aggregation.html",
+      "title": "Rate Aggregation",
+      "anchor": "concepts-rate-aggregation",
+      "virtual_path": "docs/concepts/rate-aggregation.md",
+      "profile": "antora",
+      "score": 9449,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/registry.html",
+      "title": "Registry",
+      "anchor": "concepts-registry",
+      "virtual_path": "docs/concepts/registry.md",
+      "profile": "antora",
+      "score": 6197,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/concepts/timers.html",
+      "title": "Timers",
+      "anchor": "concepts-timers",
+      "virtual_path": "docs/concepts/timers.md",
+      "profile": "antora",
+      "score": 26659,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/guides.html",
+      "title": "Guides",
+      "anchor": "guides",
+      "virtual_path": "docs/guides.md",
+      "profile": "antora",
+      "score": 1814,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/guides/console-reporter.html",
+      "title": "Passing through to Dropwizard’s Console Reporter",
+      "anchor": "guides-console-reporter",
+      "virtual_path": "docs/guides/console-reporter.md",
+      "profile": "antora",
+      "score": 4895,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/guides/custom-meter-registry.html",
+      "title": "Custom Meter Registry",
+      "anchor": "guides-custom-meter-registry",
+      "virtual_path": "docs/guides/custom-meter-registry.md",
+      "profile": "antora",
+      "score": 4857,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/guides/http-sender-resilience4j-retry.html",
+      "title": "HttpSender with Resilience4j Retry",
+      "anchor": "guides-http-sender-resilience4j-retry",
+      "virtual_path": "docs/guides/http-sender-resilience4j-retry.md",
+      "profile": "antora",
+      "score": 3552,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/atlas.html",
+      "title": "Micrometer Atlas",
+      "anchor": "implementations-atlas",
+      "virtual_path": "docs/implementations/atlas.md",
+      "profile": "antora",
+      "score": 13117,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/azure-monitor.html",
+      "title": "Micrometer Azure Monitor",
+      "anchor": "implementations-azure-monitor",
+      "virtual_path": "docs/implementations/azure-monitor.md",
+      "profile": "antora",
+      "score": 6314,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/cloudwatch.html",
+      "title": "Micrometer CloudWatch",
+      "anchor": "implementations-cloudwatch",
+      "virtual_path": "docs/implementations/cloudwatch.md",
+      "profile": "antora",
+      "score": 6418,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/datadog.html",
+      "title": "Micrometer Datadog",
+      "anchor": "implementations-datadog",
+      "virtual_path": "docs/implementations/datadog.md",
+      "profile": "antora",
+      "score": 11937,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/elastic.html",
+      "title": "Micrometer Elastic",
+      "anchor": "implementations-elastic",
+      "virtual_path": "docs/implementations/elastic.md",
+      "profile": "antora",
+      "score": 6977,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/graphite.html",
+      "title": "Micrometer Graphite",
+      "anchor": "implementations-graphite",
+      "virtual_path": "docs/implementations/graphite.md",
+      "profile": "antora",
+      "score": 13135,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/humio.html",
+      "title": "Micrometer Humio",
+      "anchor": "implementations-humio",
+      "virtual_path": "docs/implementations/humio.md",
+      "profile": "antora",
+      "score": 8177,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/influx.html",
+      "title": "Micrometer Influx",
+      "anchor": "implementations-influx",
+      "virtual_path": "docs/implementations/influx.md",
+      "profile": "antora",
+      "score": 12401,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/instana.html",
+      "title": "Micrometer Instana",
+      "anchor": "implementations-instana",
+      "virtual_path": "docs/implementations/instana.md",
+      "profile": "antora",
+      "score": 4628,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/new-relic.html",
+      "title": "Micrometer New Relic",
+      "anchor": "implementations-new-relic",
+      "virtual_path": "docs/implementations/new-relic.md",
+      "profile": "antora",
+      "score": 12162,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/prometheus.html",
+      "title": "Micrometer Prometheus",
+      "anchor": "implementations-prometheus",
+      "virtual_path": "docs/implementations/prometheus.md",
+      "profile": "antora",
+      "score": 29711,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/signalFx.html",
+      "title": "Micrometer SignalFx",
+      "anchor": "implementations-signalfx",
+      "virtual_path": "docs/implementations/signalFx.md",
+      "profile": "antora",
+      "score": 10371,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/stackdriver.html",
+      "title": "Micrometer Stackdriver Monitoring",
+      "anchor": "implementations-stackdriver",
+      "virtual_path": "docs/implementations/stackdriver.md",
+      "profile": "antora",
+      "score": 11672,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/statsD.html",
+      "title": "Micrometer StatsD",
+      "anchor": "implementations-statsd",
+      "virtual_path": "docs/implementations/statsD.md",
+      "profile": "antora",
+      "score": 13286,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/implementations/wavefront.html",
+      "title": "Micrometer Wavefront",
+      "anchor": "implementations-wavefront",
+      "virtual_path": "docs/implementations/wavefront.md",
+      "profile": "antora",
+      "score": 15181,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/",
+      "title": "Micrometer Documentation",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "antora",
+      "score": 5438,
+      "depth": 0
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/installing.html",
+      "title": "Installing",
+      "anchor": "installing",
+      "virtual_path": "docs/installing.md",
+      "profile": "antora",
+      "score": 7878,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/observation.html",
+      "title": "Micrometer Observation",
+      "anchor": "observation",
+      "virtual_path": "docs/observation.md",
+      "profile": "antora",
+      "score": 2105,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/observation/components.html",
+      "title": "Observation Components",
+      "anchor": "observation-components",
+      "virtual_path": "docs/observation/components.md",
+      "profile": "antora",
+      "score": 34854,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/observation/installing.html",
+      "title": "Installing",
+      "anchor": "observation-installing",
+      "virtual_path": "docs/observation/installing.md",
+      "profile": "antora",
+      "score": 3872,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/observation/instrumenting.html",
+      "title": "Instrumentation",
+      "anchor": "observation-instrumenting",
+      "virtual_path": "docs/observation/instrumenting.md",
+      "profile": "antora",
+      "score": 50533,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/observation/introduction.html",
+      "title": "Introduction",
+      "anchor": "observation-introduction",
+      "virtual_path": "docs/observation/introduction.md",
+      "profile": "antora",
+      "score": 11512,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/observation/projects.html",
+      "title": "Existing Instrumentations",
+      "anchor": "observation-projects",
+      "virtual_path": "docs/observation/projects.md",
+      "profile": "antora",
+      "score": 10725,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/observation/testing.html",
+      "title": "Testing",
+      "anchor": "observation-testing",
+      "virtual_path": "docs/observation/testing.md",
+      "profile": "antora",
+      "score": 9352,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference.html",
+      "title": "Micrometer Reference Instrumentations",
+      "anchor": "reference",
+      "virtual_path": "docs/reference.md",
+      "profile": "antora",
+      "score": 1857,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/cache.html",
+      "title": "Micrometer Cache Instrumentations",
+      "anchor": "reference-cache",
+      "virtual_path": "docs/reference/cache.md",
+      "profile": "antora",
+      "score": 11067,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/commons-pool.html",
+      "title": "Apache Commons Pool Instrumentation",
+      "anchor": "reference-commons-pool",
+      "virtual_path": "docs/reference/commons-pool.md",
+      "profile": "antora",
+      "score": 5278,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/db.html",
+      "title": "Database Instrumentation",
+      "anchor": "reference-db",
+      "virtual_path": "docs/reference/db.md",
+      "profile": "antora",
+      "score": 7360,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/grpc.html",
+      "title": "gRPC Instrumentation",
+      "anchor": "reference-grpc",
+      "virtual_path": "docs/reference/grpc.md",
+      "profile": "antora",
+      "score": 4911,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/httpcomponents.html",
+      "title": "Apache HttpComponents Client Instrumentation",
+      "anchor": "reference-httpcomponents",
+      "virtual_path": "docs/reference/httpcomponents.md",
+      "profile": "antora",
+      "score": 9735,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/java-httpclient.html",
+      "title": "Java HttpClient instrumentation",
+      "anchor": "reference-java-httpclient",
+      "virtual_path": "docs/reference/java-httpclient.md",
+      "profile": "antora",
+      "score": 6210,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/jetty.html",
+      "title": "Eclipse Jetty and Jersey Instrumentation",
+      "anchor": "reference-jetty",
+      "virtual_path": "docs/reference/jetty.md",
+      "profile": "antora",
+      "score": 7044,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/jms.html",
+      "title": "JMS Instrumentation",
+      "anchor": "reference-jms",
+      "virtual_path": "docs/reference/jms.md",
+      "profile": "antora",
+      "score": 10914,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/jvm.html",
+      "title": "JVM Metrics",
+      "anchor": "reference-jvm",
+      "virtual_path": "docs/reference/jvm.md",
+      "profile": "antora",
+      "score": 14728,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/kafka.html",
+      "title": "Apache Kafka Metrics",
+      "anchor": "reference-kafka",
+      "virtual_path": "docs/reference/kafka.md",
+      "profile": "antora",
+      "score": 5371,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/logging.html",
+      "title": "Logging Metrics Instrumentation",
+      "anchor": "reference-logging",
+      "virtual_path": "docs/reference/logging.md",
+      "profile": "antora",
+      "score": 5485,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/mail.html",
+      "title": "Jakarta Mail Instrumentation",
+      "anchor": "reference-mail",
+      "virtual_path": "docs/reference/mail.md",
+      "profile": "antora",
+      "score": 8798,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/mongodb.html",
+      "title": "MongoDB Metrics Instrumentation",
+      "anchor": "reference-mongodb",
+      "virtual_path": "docs/reference/mongodb.md",
+      "profile": "antora",
+      "score": 5396,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/netty.html",
+      "title": "Netty Instrumentation",
+      "anchor": "reference-netty",
+      "virtual_path": "docs/reference/netty.md",
+      "profile": "antora",
+      "score": 5303,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/okhttpclient.html",
+      "title": "OkHttpClient Instrumentation",
+      "anchor": "reference-okhttpclient",
+      "virtual_path": "docs/reference/okhttpclient.md",
+      "profile": "antora",
+      "score": 6873,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/system.html",
+      "title": "System Metrics",
+      "anchor": "reference-system",
+      "virtual_path": "docs/reference/system.md",
+      "profile": "antora",
+      "score": 5613,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.micrometer.io/micrometer/reference/reference/tomcat.html",
+      "title": "Apache Tomcat Metrics Instrumentation",
+      "anchor": "reference-tomcat",
+      "virtual_path": "docs/reference/tomcat.md",
+      "profile": "antora",
+      "score": 3982,
+      "depth": 1
+    }
+  ]
+}

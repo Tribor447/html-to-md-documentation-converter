@@ -1,0 +1,11 @@
+0.8.2 is a bug-fix release on the 0.8 line, which brought in support for external service to Tez (TEZ-2003).
+The APIs for external services continue to be unstable in this release, and can change in future version.
+All fixes from previous releases - 0.5.4, 0.6.1, 0.7.0, 0.8.1-alpha are part of this release.
+
+Major changes
+1) Support for co-ordinating and running DAGs for external services.
+
+Please see CHANGES.txt for more details.
+
+Known Critical Issues
+1) TEZ-3053. Containers timeout if not used within the container heartbeat timeout interval

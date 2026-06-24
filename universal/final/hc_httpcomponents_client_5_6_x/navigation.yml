@@ -1,0 +1,184 @@
+- title: Documentation
+  kind: category
+  children:
+  - title: Quick Start
+    kind: link
+    source_url: https://hc.apache.org/httpcomponents-client-5.6.x/quickstart.html
+    anchor: quickstart
+    virtual_path: docs/quickstart.md
+  - title: Architecture
+    kind: link
+    source_url: https://hc.apache.org/httpcomponents-client-5.6.x/architecture.html
+    anchor: architecture
+    virtual_path: docs/architecture.md
+  - title: Guides
+    kind: category
+    children:
+    - title: Migration
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/migration-guide/index.html
+      anchor: migration-guide
+      virtual_path: docs/migration-guide/index.md
+    - title: Configuration
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/configuration.html
+      anchor: configuration
+      virtual_path: docs/configuration.md
+    - title: Logging
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/logging.html
+      anchor: logging
+      virtual_path: docs/logging.md
+    - title: Connection management
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/connection-management.html
+      anchor: connection-management
+      virtual_path: docs/connection-management.md
+    - title: Connection pooling
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/connection-pooling.html
+      anchor: connection-pooling
+      virtual_path: docs/connection-pooling.md
+    - title: Async content compression / decompression
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/async-compression.html
+      anchor: async-compression
+      virtual_path: docs/async-compression.md
+    - title: Android support
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/android.html
+      anchor: android
+      virtual_path: docs/android.md
+    - title: Early Hints
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/early-hints.html
+      anchor: early-hints
+      virtual_path: docs/early-hints.md
+    - title: Observation
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/observation.html
+      anchor: observation
+      virtual_path: docs/observation.md
+    - title: SCRAM-SHA-256
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/scram-sha-256.html
+      anchor: scram-sha-256
+      virtual_path: docs/scram-sha-256.md
+    - title: SPKI pinning TLS strategy
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/spki-pinning.html
+      anchor: spki-pinning
+      virtual_path: docs/spki-pinning.md
+  - title: Examples demonstrating some common as well as more complex use cases
+    kind: category
+    children:
+    - title: HttpClient Classic APIs
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/examples.html
+      anchor: examples
+      virtual_path: docs/examples.md
+    - title: HttpClient Async APIs
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/examples-async.html
+      anchor: examples-async
+      virtual_path: docs/examples-async.md
+    - title: HttpClient Reactive Streams APIs
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/examples-reactive.html
+      anchor: examples-reactive
+      virtual_path: docs/examples-reactive.md
+    - title: HttpClient Observation APIs
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/examples-observation.html
+      anchor: examples-observation
+      virtual_path: docs/examples-observation.md
+- title: Components
+  kind: category
+  children:
+  - title: HttpClient 5.6
+    kind: category
+    source_url: https://hc.apache.org/httpcomponents-client-5.6.x/
+    anchor: index
+    virtual_path: docs/index.md
+    children:
+    - title: Quick Start
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/quickstart.html
+      anchor: quickstart
+      virtual_path: docs/quickstart.md
+    - title: Architecture
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/architecture.html
+      anchor: architecture
+      virtual_path: docs/architecture.md
+    - title: Configuration Guide
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/configuration.html
+      anchor: configuration
+      virtual_path: docs/configuration.md
+    - title: Migration Guide
+      kind: category
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/migration-guide/index.html
+      anchor: migration-guide
+      virtual_path: docs/migration-guide/index.md
+      children:
+      - title: Preparation
+        kind: category
+        source_url: https://hc.apache.org/httpcomponents-client-5.6.x/migration-guide/preparation.html
+        anchor: migration-guide-preparation
+        virtual_path: docs/migration-guide/preparation.md
+      - title: Classic
+        kind: link
+        source_url: https://hc.apache.org/httpcomponents-client-5.6.x/migration-guide/migration-to-classic.html
+        anchor: migration-guide-migration-to-classic
+        virtual_path: docs/migration-guide/migration-to-classic.md
+      - title: Async Simple
+        kind: link
+        source_url: https://hc.apache.org/httpcomponents-client-5.6.x/migration-guide/migration-to-async-simple.html
+        anchor: migration-guide-migration-to-async-simple
+        virtual_path: docs/migration-guide/migration-to-async-simple.md
+      - title: Async Streaming
+        kind: link
+        source_url: https://hc.apache.org/httpcomponents-client-5.6.x/migration-guide/migration-to-async-streaming.html
+        anchor: migration-guide-migration-to-async-streaming
+        virtual_path: docs/migration-guide/migration-to-async-streaming.md
+      - title: Async HTTP/2 only
+        kind: link
+        source_url: https://hc.apache.org/httpcomponents-client-5.6.x/migration-guide/migration-to-async-http2.html
+        anchor: migration-guide-migration-to-async-http2
+        virtual_path: docs/migration-guide/migration-to-async-http2.md
+    - title: Logging Guide
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/logging.html
+      anchor: logging
+      virtual_path: docs/logging.md
+    - title: Android
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/android.html
+      anchor: android
+      virtual_path: docs/android.md
+    - title: Examples (Classic)
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/examples.html
+      anchor: examples
+      virtual_path: docs/examples.md
+    - title: Examples (Async)
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/examples-async.html
+      anchor: examples-async
+      virtual_path: docs/examples-async.md
+    - title: Examples (Reactive)
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/examples-reactive.html
+      anchor: examples-reactive
+      virtual_path: docs/examples-reactive.md
+    - title: Related
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/related-projects.html
+      anchor: related-projects
+      virtual_path: docs/related-projects.md
+    - title: Download
+      kind: link
+      source_url: https://hc.apache.org/httpcomponents-client-5.6.x/download.html
+      anchor: download
+      virtual_path: docs/download.md

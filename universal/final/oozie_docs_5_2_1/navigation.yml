@@ -1,0 +1,152 @@
+- title: Developer Documentation
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_Overview.html
+    anchor: dg_overview
+    virtual_path: docs/DG_Overview.md
+  - title: Oozie Quick Start
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_QuickStart.html
+    anchor: dg_quickstart
+    virtual_path: docs/DG_QuickStart.md
+  - title: Running the Examples
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_Examples.html
+    anchor: dg_examples
+    virtual_path: docs/DG_Examples.md
+  - title: Workflow Functional Specification
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/WorkflowFunctionalSpec.html
+    anchor: workflowfunctionalspec
+    virtual_path: docs/WorkflowFunctionalSpec.md
+  - title: Coordinator Functional Specification
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/CoordinatorFunctionalSpec.html
+    anchor: coordinatorfunctionalspec
+    virtual_path: docs/CoordinatorFunctionalSpec.md
+  - title: Bundle Functional Specification
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/BundleFunctionalSpec.html
+    anchor: bundlefunctionalspec
+    virtual_path: docs/BundleFunctionalSpec.md
+  - title: Command Line Tool
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_CommandLineTool.html
+    anchor: dg_commandlinetool
+    virtual_path: docs/DG_CommandLineTool.md
+  - title: Workflow Re-runs Explained
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_WorkflowReRun.html
+    anchor: dg_workflowrerun
+    virtual_path: docs/DG_WorkflowReRun.md
+  - title: HCatalog Integration Explained
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_HCatalogIntegration.html
+    anchor: dg_hcatalogintegration
+    virtual_path: docs/DG_HCatalogIntegration.md
+  - title: Oozie Web Services API
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/WebServicesAPI.html
+    anchor: webservicesapi
+    virtual_path: docs/WebServicesAPI.md
+  - title: Action Authentication
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_ActionAuthentication.html
+    anchor: dg_actionauthentication
+    virtual_path: docs/DG_ActionAuthentication.md
+  - title: Fluent Job API
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_FluentJobAPI.html
+    anchor: dg_fluentjobapi
+    virtual_path: docs/DG_FluentJobAPI.md
+- title: Action Extensions
+  kind: category
+  children:
+  - title: Email Action
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_EmailActionExtension.html
+    anchor: dg_emailactionextension
+    virtual_path: docs/DG_EmailActionExtension.md
+  - title: Shell Action
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_ShellActionExtension.html
+    anchor: dg_shellactionextension
+    virtual_path: docs/DG_ShellActionExtension.md
+  - title: Hive Action
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_HiveActionExtension.html
+    anchor: dg_hiveactionextension
+    virtual_path: docs/DG_HiveActionExtension.md
+  - title: Hive 2 Action
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_Hive2ActionExtension.html
+    anchor: dg_hive2actionextension
+    virtual_path: docs/DG_Hive2ActionExtension.md
+  - title: Sqoop Action
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_SqoopActionExtension.html
+    anchor: dg_sqoopactionextension
+    virtual_path: docs/DG_SqoopActionExtension.md
+  - title: Ssh Action
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_SshActionExtension.html
+    anchor: dg_sshactionextension
+    virtual_path: docs/DG_SshActionExtension.md
+  - title: DistCp Action
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_DistCpActionExtension.html
+    anchor: dg_distcpactionextension
+    virtual_path: docs/DG_DistCpActionExtension.md
+  - title: Spark Action
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_SparkActionExtension.html
+    anchor: dg_sparkactionextension
+    virtual_path: docs/DG_SparkActionExtension.md
+  - title: Git Action
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_GitActionExtension.html
+    anchor: dg_gitactionextension
+    virtual_path: docs/DG_GitActionExtension.md
+  - title: Writing a Custom Action Executor
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_CustomActionExecutor.html
+    anchor: dg_customactionexecutor
+    virtual_path: docs/DG_CustomActionExecutor.md
+- title: Job Status and SLA Monitoring
+  kind: category
+  children:
+  - title: JMS Notifications for Job and SLA
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_JMSNotifications.html
+    anchor: dg_jmsnotifications
+    virtual_path: docs/DG_JMSNotifications.md
+  - title: Configuring and Monitoring SLA
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_SLAMonitoring.html
+    anchor: dg_slamonitoring
+    virtual_path: docs/DG_SLAMonitoring.md
+- title: Security
+  kind: link
+  source_url: https://oozie.apache.org/docs/5.2.1/AG_Install.html#Security
+  anchor: ag_install--security
+  virtual_path: docs/AG_Install.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Coordinator Rerun
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/DG_CoordinatorRerun.html
+    anchor: dg_coordinatorrerun
+    virtual_path: docs/DG_CoordinatorRerun.md
+  - title: Building Oozie
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/ENG_Building.html
+    anchor: eng_building
+    virtual_path: docs/ENG_Building.md
+  - title: Oozie, Workflow Engine for Apache Hadoop
+    kind: link
+    source_url: https://oozie.apache.org/docs/5.2.1/index.html
+    anchor: index
+    virtual_path: docs/index.md

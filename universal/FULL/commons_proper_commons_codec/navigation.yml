@@ -1,0 +1,103 @@
+- title: Commons Codec
+  kind: category
+  children:
+  - title: About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-codec/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Release History
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-codec/changes.html
+    anchor: changes
+    virtual_path: docs/changes.md
+  - title: Sources
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-codec/scm.html
+    anchor: scm
+    virtual_path: docs/scm.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-codec/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: CI Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+  - title: Project Reports
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-codec/project-reports.html
+    anchor: project-reports
+    virtual_path: docs/project-reports.md
+    children:
+    - title: Changes
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/changes.html
+      anchor: changes
+      virtual_path: docs/changes.md
+    - title: JIRA Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/jira-changes.html
+      anchor: jira-changes
+      virtual_path: docs/jira-changes.md
+    - title: Surefire
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/surefire.html
+      anchor: surefire
+      virtual_path: docs/surefire.md
+    - title: RAT Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/rat-report.html
+      anchor: rat-report
+      virtual_path: docs/rat-report.md
+    - title: japicmp
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/japicmp.html
+      anchor: japicmp
+      virtual_path: docs/japicmp.md
+    - title: Checkstyle
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/checkstyle.html
+      anchor: checkstyle
+      virtual_path: docs/checkstyle.md
+    - title: CPD
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/cpd.html
+      anchor: cpd
+      virtual_path: docs/cpd.md
+    - title: PMD
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/pmd.html
+      anchor: pmd
+      virtual_path: docs/pmd.md
+    - title: SpotBugs
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/spotbugs.html
+      anchor: spotbugs
+      virtual_path: docs/spotbugs.md
+    - title: Tag List
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-codec/taglist.html
+      anchor: taglist
+      virtual_path: docs/taglist.md

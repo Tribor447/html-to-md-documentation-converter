@@ -1,0 +1,101 @@
+- title: Chain
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Release Notes
+    kind: category
+    source_url: https://commons.apache.org/dormant/commons-chain/changes-report.html
+    anchor: changes-report
+    virtual_path: docs/changes-report.md
+  - title: Cookbook
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/cookbook.html
+    anchor: cookbook
+    virtual_path: docs/cookbook.md
+- title: Development
+  kind: category
+  children:
+  - title: Issue Tracking
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/issue-tracking.html
+    anchor: issue-tracking
+    virtual_path: docs/issue-tracking.md
+  - title: Building
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/building.html
+    anchor: building
+    virtual_path: docs/building.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: category
+      source_url: https://commons.apache.org/dormant/commons-chain/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Continuous Integration
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/integration.html
+      anchor: integration
+      virtual_path: docs/integration.md
+    - title: Issue Tracking
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/issue-tracking.html
+      anchor: issue-tracking
+      virtual_path: docs/issue-tracking.md
+    - title: Project Summary
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/project-summary.html
+      anchor: project-summary
+      virtual_path: docs/project-summary.md
+  - title: Project Reports
+    kind: category
+    source_url: https://commons.apache.org/dormant/commons-chain/project-reports.html
+    anchor: project-reports
+    virtual_path: docs/project-reports.md
+    children:
+    - title: Changes Report
+      kind: category
+      source_url: https://commons.apache.org/dormant/commons-chain/changes-report.html
+      anchor: changes-report
+      virtual_path: docs/changes-report.md
+    - title: Checkstyle
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/checkstyle.html
+      anchor: checkstyle
+      virtual_path: docs/checkstyle.md
+    - title: Clirr
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/clirr-report.html
+      anchor: clirr-report
+      virtual_path: docs/clirr-report.md
+    - title: FindBugs Report
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/findbugs.html
+      anchor: findbugs
+      virtual_path: docs/findbugs.md
+    - title: JDepend
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/jdepend-report.html
+      anchor: jdepend-report
+      virtual_path: docs/jdepend-report.md
+    - title: RAT Report
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/rat-report.html
+      anchor: rat-report
+      virtual_path: docs/rat-report.md
+    - title: Surefire Report
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/surefire-report.html
+      anchor: surefire-report
+      virtual_path: docs/surefire-report.md

@@ -1,0 +1,632 @@
+{
+  "entry_url": "https://docs.spring.io/spring-shell/reference/index.html",
+  "site_prefix": "/spring-shell/reference/",
+  "site_slug": "docs_spring_shell_reference",
+  "profile": "antora",
+  "combined_markdown": "combined.md",
+  "page_count": 69,
+  "asset_count": 0,
+  "pages": [
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/api/index.html",
+      "title": "Spring Shell 4.0.2 API",
+      "anchor": "api",
+      "virtual_path": "docs/api/index.md",
+      "profile": "antora",
+      "score": 2906,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/appendices/debugging/index.html",
+      "title": "Debugging",
+      "anchor": "appendices-debugging",
+      "virtual_path": "docs/appendices/debugging/index.md",
+      "profile": "antora",
+      "score": 1707,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/appendices/techintro/execution.html",
+      "title": "Command Execution",
+      "anchor": "appendices-techintro-execution",
+      "virtual_path": "docs/appendices/techintro/execution.md",
+      "profile": "antora",
+      "score": 1976,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/appendices/techintro/index.html",
+      "title": "Technical Introduction",
+      "anchor": "appendices-techintro",
+      "virtual_path": "docs/appendices/techintro/index.md",
+      "profile": "antora",
+      "score": 2352,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/appendices/techintro/parser.html",
+      "title": "Command Parser",
+      "anchor": "appendices-techintro-parser",
+      "virtual_path": "docs/appendices/techintro/parser.md",
+      "profile": "antora",
+      "score": 2025,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/appendices/techintro/searchalgorithm.html",
+      "title": "Search Algorithms",
+      "anchor": "appendices-techintro-searchalgorithm",
+      "virtual_path": "docs/appendices/techintro/searchalgorithm.md",
+      "profile": "antora",
+      "score": 6125,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/appendices/techintro/theming.html",
+      "title": "Theming",
+      "anchor": "appendices-techintro-theming",
+      "virtual_path": "docs/appendices/techintro/theming.md",
+      "profile": "antora",
+      "score": 4767,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/appendices/tui/index.html",
+      "title": "Terminal UI",
+      "anchor": "appendices-tui",
+      "virtual_path": "docs/appendices/tui/index.md",
+      "profile": "antora",
+      "score": 2349,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/appendices/tui/viewdev.html",
+      "title": "View Development",
+      "anchor": "appendices-tui-viewdev",
+      "virtual_path": "docs/appendices/tui/viewdev.md",
+      "profile": "antora",
+      "score": 2515,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/basics/index.html",
+      "title": "Basics",
+      "anchor": "basics",
+      "virtual_path": "docs/basics/index.md",
+      "profile": "antora",
+      "score": 3368,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/basics/reading.html",
+      "title": "Reading Docs",
+      "anchor": "basics-reading",
+      "virtual_path": "docs/basics/reading.md",
+      "profile": "antora",
+      "score": 2430,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/building.html",
+      "title": "Building",
+      "anchor": "building",
+      "virtual_path": "docs/building.md",
+      "profile": "antora",
+      "score": 11640,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/availability.html",
+      "title": "Command Availability",
+      "anchor": "commands-availability",
+      "virtual_path": "docs/commands/availability.md",
+      "profile": "antora",
+      "score": 6419,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/builtin/clear.html",
+      "title": "Clear",
+      "anchor": "commands-builtin-clear",
+      "virtual_path": "docs/commands/builtin/clear.md",
+      "profile": "antora",
+      "score": 1824,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/builtin/exit.html",
+      "title": "Exit",
+      "anchor": "commands-builtin-exit",
+      "virtual_path": "docs/commands/builtin/exit.md",
+      "profile": "antora",
+      "score": 2163,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/builtin/help.html",
+      "title": "Help",
+      "anchor": "commands-builtin-help",
+      "virtual_path": "docs/commands/builtin/help.md",
+      "profile": "antora",
+      "score": 3392,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/builtin/index.html",
+      "title": "Built-In Commands",
+      "anchor": "commands-builtin",
+      "virtual_path": "docs/commands/builtin/index.md",
+      "profile": "antora",
+      "score": 1795,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/builtin/script.html",
+      "title": "Script",
+      "anchor": "commands-builtin-script",
+      "virtual_path": "docs/commands/builtin/script.md",
+      "profile": "antora",
+      "score": 2881,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/builtin/version.html",
+      "title": "Version",
+      "anchor": "commands-builtin-version",
+      "virtual_path": "docs/commands/builtin/version.md",
+      "profile": "antora",
+      "score": 1792,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/completion.html",
+      "title": "Command Completion",
+      "anchor": "commands-completion",
+      "virtual_path": "docs/commands/completion.md",
+      "profile": "antora",
+      "score": 5125,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/context.html",
+      "title": "Command Context",
+      "anchor": "commands-context",
+      "virtual_path": "docs/commands/context.md",
+      "profile": "antora",
+      "score": 3063,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/exception-handling.html",
+      "title": "Exception Handling",
+      "anchor": "commands-exception-handling",
+      "virtual_path": "docs/commands/exception-handling.md",
+      "profile": "antora",
+      "score": 7102,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/help.html",
+      "title": "Option Help",
+      "anchor": "commands-help",
+      "virtual_path": "docs/commands/help.md",
+      "profile": "antora",
+      "score": 2448,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/index.html",
+      "title": "Commands",
+      "anchor": "commands",
+      "virtual_path": "docs/commands/index.md",
+      "profile": "antora",
+      "score": 2119,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/organize.html",
+      "title": "Organizing Commands",
+      "anchor": "commands-organize",
+      "virtual_path": "docs/commands/organize.md",
+      "profile": "antora",
+      "score": 5458,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/reading.html",
+      "title": "Reading Input",
+      "anchor": "commands-reading",
+      "virtual_path": "docs/commands/reading.md",
+      "profile": "antora",
+      "score": 2529,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/registration.html",
+      "title": "Command Registration",
+      "anchor": "commands-registration",
+      "virtual_path": "docs/commands/registration.md",
+      "profile": "antora",
+      "score": 7319,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/syntax.html",
+      "title": "Command Syntax",
+      "anchor": "commands-syntax",
+      "virtual_path": "docs/commands/syntax.md",
+      "profile": "antora",
+      "score": 8881,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/validation.html",
+      "title": "Option Validation",
+      "anchor": "commands-validation",
+      "virtual_path": "docs/commands/validation.md",
+      "profile": "antora",
+      "score": 3411,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/commands/writing.html",
+      "title": "Writing Output",
+      "anchor": "commands-writing",
+      "virtual_path": "docs/commands/writing.md",
+      "profile": "antora",
+      "score": 2475,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/components/flow/index.html",
+      "title": "Flow",
+      "anchor": "components-flow",
+      "virtual_path": "docs/components/flow/index.md",
+      "profile": "antora",
+      "score": 5238,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/components/index.html",
+      "title": "Components",
+      "anchor": "components",
+      "virtual_path": "docs/components/index.md",
+      "profile": "antora",
+      "score": 2509,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/components/ui/confirmation.html",
+      "title": "Confirmation",
+      "anchor": "components-ui-confirmation",
+      "virtual_path": "docs/components/ui/confirmation.md",
+      "profile": "antora",
+      "score": 3843,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/components/ui/index.html",
+      "title": "Flow Components",
+      "anchor": "components-ui",
+      "virtual_path": "docs/components/ui/index.md",
+      "profile": "antora",
+      "score": 3311,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/components/ui/multiselect.html",
+      "title": "Multi Select",
+      "anchor": "components-ui-multiselect",
+      "virtual_path": "docs/components/ui/multiselect.md",
+      "profile": "antora",
+      "score": 4443,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/components/ui/numberinput.html",
+      "title": "Number Input",
+      "anchor": "components-ui-numberinput",
+      "virtual_path": "docs/components/ui/numberinput.md",
+      "profile": "antora",
+      "score": 4105,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/components/ui/pathinput.html",
+      "title": "Path Input",
+      "anchor": "components-ui-pathinput",
+      "virtual_path": "docs/components/ui/pathinput.md",
+      "profile": "antora",
+      "score": 3539,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/components/ui/pathsearch.html",
+      "title": "Path Search",
+      "anchor": "components-ui-pathsearch",
+      "virtual_path": "docs/components/ui/pathsearch.md",
+      "profile": "antora",
+      "score": 4135,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/components/ui/render.html",
+      "title": "Component Render",
+      "anchor": "components-ui-render",
+      "virtual_path": "docs/components/ui/render.md",
+      "profile": "antora",
+      "score": 8194,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/components/ui/singleselect.html",
+      "title": "Single Select",
+      "anchor": "components-ui-singleselect",
+      "virtual_path": "docs/components/ui/singleselect.md",
+      "profile": "antora",
+      "score": 5251,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/components/ui/stringinput.html",
+      "title": "String Input",
+      "anchor": "components-ui-stringinput",
+      "virtual_path": "docs/components/ui/stringinput.md",
+      "profile": "antora",
+      "score": 4943,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/customization/contextclose.html",
+      "title": "Context Close",
+      "anchor": "customization-contextclose",
+      "virtual_path": "docs/customization/contextclose.md",
+      "profile": "antora",
+      "score": 2947,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/customization/custom-prompt.html",
+      "title": "Custom Prompt",
+      "anchor": "customization-custom-prompt",
+      "virtual_path": "docs/customization/custom-prompt.md",
+      "profile": "antora",
+      "score": 3161,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/customization/index.html",
+      "title": "Customization",
+      "anchor": "customization",
+      "virtual_path": "docs/customization/index.md",
+      "profile": "antora",
+      "score": 2076,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/customization/styling.html",
+      "title": "Theming",
+      "anchor": "customization-styling",
+      "virtual_path": "docs/customization/styling.md",
+      "profile": "antora",
+      "score": 5903,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/execution.html",
+      "title": "Execution",
+      "anchor": "execution",
+      "virtual_path": "docs/execution.md",
+      "profile": "antora",
+      "score": 5377,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/getting-started.html",
+      "title": "Getting Started",
+      "anchor": "getting-started",
+      "virtual_path": "docs/getting-started.md",
+      "profile": "antora",
+      "score": 6347,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/index.html",
+      "title": "Spring Shell",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "antora",
+      "score": 2966,
+      "depth": 0
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/testing.html",
+      "title": "Testing",
+      "anchor": "testing",
+      "virtual_path": "docs/testing.md",
+      "profile": "antora",
+      "score": 11204,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/events/eventloop.html",
+      "title": "EventLoop",
+      "anchor": "tui-events-eventloop",
+      "virtual_path": "docs/tui/events/eventloop.md",
+      "profile": "antora",
+      "score": 3154,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/events/index.html",
+      "title": "Events",
+      "anchor": "tui-events",
+      "virtual_path": "docs/tui/events/index.md",
+      "profile": "antora",
+      "score": 2042,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/events/key.html",
+      "title": "Key Handling",
+      "anchor": "tui-events-key",
+      "virtual_path": "docs/tui/events/key.md",
+      "profile": "antora",
+      "score": 2737,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/events/mouse.html",
+      "title": "Mouse Handling",
+      "anchor": "tui-events-mouse",
+      "virtual_path": "docs/tui/events/mouse.md",
+      "profile": "antora",
+      "score": 2387,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/index.html",
+      "title": "Terminal UI",
+      "anchor": "tui",
+      "virtual_path": "docs/tui/index.md",
+      "profile": "antora",
+      "score": 2758,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/intro/index.html",
+      "title": "Introduction",
+      "anchor": "tui-intro",
+      "virtual_path": "docs/tui/intro/index.md",
+      "profile": "antora",
+      "score": 3111,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/intro/terminalui.html",
+      "title": "TerminalUI",
+      "anchor": "tui-intro-terminalui",
+      "virtual_path": "docs/tui/intro/terminalui.md",
+      "profile": "antora",
+      "score": 6610,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/app.html",
+      "title": "AppView",
+      "anchor": "tui-views-app",
+      "virtual_path": "docs/tui/views/app.md",
+      "profile": "antora",
+      "score": 4303,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/box.html",
+      "title": "BoxView",
+      "anchor": "tui-views-box",
+      "virtual_path": "docs/tui/views/box.md",
+      "profile": "antora",
+      "score": 4047,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/button.html",
+      "title": "ButtonView",
+      "anchor": "tui-views-button",
+      "virtual_path": "docs/tui/views/button.md",
+      "profile": "antora",
+      "score": 4471,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/dialog.html",
+      "title": "DialogView",
+      "anchor": "tui-views-dialog",
+      "virtual_path": "docs/tui/views/dialog.md",
+      "profile": "antora",
+      "score": 3525,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/grid.html",
+      "title": "GridView",
+      "anchor": "tui-views-grid",
+      "virtual_path": "docs/tui/views/grid.md",
+      "profile": "antora",
+      "score": 3757,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/index.html",
+      "title": "Views",
+      "anchor": "tui-views",
+      "virtual_path": "docs/tui/views/index.md",
+      "profile": "antora",
+      "score": 2062,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/input.html",
+      "title": "InputView",
+      "anchor": "tui-views-input",
+      "virtual_path": "docs/tui/views/input.md",
+      "profile": "antora",
+      "score": 5294,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/list.html",
+      "title": "ListView",
+      "anchor": "tui-views-list",
+      "virtual_path": "docs/tui/views/list.md",
+      "profile": "antora",
+      "score": 8535,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/menu.html",
+      "title": "MenuView",
+      "anchor": "tui-views-menu",
+      "virtual_path": "docs/tui/views/menu.md",
+      "profile": "antora",
+      "score": 4853,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/menubar.html",
+      "title": "MenuBarView",
+      "anchor": "tui-views-menubar",
+      "virtual_path": "docs/tui/views/menubar.md",
+      "profile": "antora",
+      "score": 4883,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/progress.html",
+      "title": "ProgressView",
+      "anchor": "tui-views-progress",
+      "virtual_path": "docs/tui/views/progress.md",
+      "profile": "antora",
+      "score": 7226,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/tui/views/statusbar.html",
+      "title": "StatusBarView",
+      "anchor": "tui-views-statusbar",
+      "virtual_path": "docs/tui/views/statusbar.md",
+      "profile": "antora",
+      "score": 4769,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-shell/reference/upgrading.html",
+      "title": "Upgrading",
+      "anchor": "upgrading",
+      "virtual_path": "docs/upgrading.md",
+      "profile": "antora",
+      "score": 2002,
+      "depth": 1
+    }
+  ]
+}

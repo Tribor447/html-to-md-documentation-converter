@@ -1,0 +1,774 @@
+- title: Overview
+  kind: link
+  source_url: https://shenyu.apache.org/docs/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Design
+  kind: link
+  source_url: https://shenyu.apache.org/docs/design/database-design/
+  anchor: design-database-design
+  virtual_path: docs/design/database-design/index.md
+  children:
+  - title: Admin Database Design
+    kind: link
+    source_url: https://shenyu.apache.org/docs/design/database-design/
+    anchor: design-database-design
+    virtual_path: docs/design/database-design/index.md
+  - title: Data Sync Design
+    kind: link
+    source_url: https://shenyu.apache.org/docs/design/data-sync/
+    anchor: design-data-sync
+    virtual_path: docs/design/data-sync/index.md
+  - title: Flow Control Design
+    kind: link
+    source_url: https://shenyu.apache.org/docs/design/flow-control/
+    anchor: design-flow-control
+    virtual_path: docs/design/flow-control/index.md
+  - title: Client Registry Design
+    kind: link
+    source_url: https://shenyu.apache.org/docs/design/register-center-design/
+    anchor: design-register-center-design
+    virtual_path: docs/design/register-center-design/index.md
+  - title: SPI Design
+    kind: link
+    source_url: https://shenyu.apache.org/docs/design/spi-design/
+    anchor: design-spi-design
+    virtual_path: docs/design/spi-design/index.md
+  - title: WASM plugin design
+    kind: link
+    source_url: https://shenyu.apache.org/docs/design/wasm-plugin-design/
+    anchor: design-wasm-plugin-design
+    virtual_path: docs/design/wasm-plugin-design/index.md
+- title: Deployment
+  kind: link
+  source_url: https://shenyu.apache.org/docs/deployment/deployment-before/
+  anchor: deployment-deployment-before
+  virtual_path: docs/deployment/deployment-before/index.md
+  children:
+  - title: Deployment Prerequisites
+    kind: link
+    source_url: https://shenyu.apache.org/docs/deployment/deployment-before/
+    anchor: deployment-deployment-before
+    virtual_path: docs/deployment/deployment-before/index.md
+  - title: Local Deployment
+    kind: link
+    source_url: https://shenyu.apache.org/docs/deployment/deployment-local/
+    anchor: deployment-deployment-local
+    virtual_path: docs/deployment/deployment-local/index.md
+  - title: Local Quick Deployment
+    kind: link
+    source_url: https://shenyu.apache.org/docs/deployment/deployment-quick/
+    anchor: deployment-deployment-quick
+    virtual_path: docs/deployment/deployment-quick/index.md
+  - title: Binary Packages Deployment
+    kind: link
+    source_url: https://shenyu.apache.org/docs/deployment/deployment-package/
+    anchor: deployment-deployment-package
+    virtual_path: docs/deployment/deployment-package/index.md
+  - title: Docker-compose Deployment
+    kind: link
+    source_url: https://shenyu.apache.org/docs/deployment/deployment-docker-compose/
+    anchor: deployment-deployment-docker-compose
+    virtual_path: docs/deployment/deployment-docker-compose/index.md
+  - title: Docker Deployment
+    kind: link
+    source_url: https://shenyu.apache.org/docs/deployment/deployment-docker/
+    anchor: deployment-deployment-docker
+    virtual_path: docs/deployment/deployment-docker/index.md
+  - title: K8s Deployment
+    kind: link
+    source_url: https://shenyu.apache.org/docs/deployment/deployment-k8s/
+    anchor: deployment-deployment-k8s
+    virtual_path: docs/deployment/deployment-k8s/index.md
+  - title: Helm Deployment
+    kind: link
+    source_url: https://shenyu.apache.org/docs/deployment/deployment-helm/
+    anchor: deployment-deployment-helm
+    virtual_path: docs/deployment/deployment-helm/index.md
+  - title: aaPanel Deployment
+    kind: link
+    source_url: https://shenyu.apache.org/docs/deployment/deployment-aapanel/
+    anchor: deployment-deployment-aapanel
+    virtual_path: docs/deployment/deployment-aapanel/index.md
+  - title: Custom Deployment
+    kind: link
+    source_url: https://shenyu.apache.org/docs/deployment/deployment-custom/
+    anchor: deployment-deployment-custom
+    virtual_path: docs/deployment/deployment-custom/index.md
+  - title: Cluster Deployment
+    kind: link
+    source_url: https://shenyu.apache.org/docs/deployment/deployment-cluster/
+    anchor: deployment-deployment-cluster
+    virtual_path: docs/deployment/deployment-cluster/index.md
+- title: Quick Start
+  kind: link
+  source_url: https://shenyu.apache.org/docs/quick-start/quick-start-dubbo/
+  anchor: quick-start-quick-start-dubbo
+  virtual_path: docs/quick-start/quick-start-dubbo/index.md
+  children:
+  - title: Quick start with Dubbo
+    kind: link
+    source_url: https://shenyu.apache.org/docs/quick-start/quick-start-dubbo/
+    anchor: quick-start-quick-start-dubbo
+    virtual_path: docs/quick-start/quick-start-dubbo/index.md
+  - title: Quick start with gRPC
+    kind: link
+    source_url: https://shenyu.apache.org/docs/quick-start/quick-start-grpc/
+    anchor: quick-start-quick-start-grpc
+    virtual_path: docs/quick-start/quick-start-grpc/index.md
+  - title: Quick start with Http
+    kind: link
+    source_url: https://shenyu.apache.org/docs/quick-start/quick-start-http/
+    anchor: quick-start-quick-start-http
+    virtual_path: docs/quick-start/quick-start-http/index.md
+  - title: Quick start with Mcp Server
+    kind: link
+    source_url: https://shenyu.apache.org/docs/quick-start/quick-start-mcpServer/
+    anchor: quick-start-quick-start-mcpserver
+    virtual_path: docs/quick-start/quick-start-mcpServer/index.md
+  - title: Quick start with Motan
+    kind: link
+    source_url: https://shenyu.apache.org/docs/quick-start/quick-start-motan/
+    anchor: quick-start-quick-start-motan
+    virtual_path: docs/quick-start/quick-start-motan/index.md
+  - title: Quick start with Sofa
+    kind: link
+    source_url: https://shenyu.apache.org/docs/quick-start/quick-start-sofa/
+    anchor: quick-start-quick-start-sofa
+    virtual_path: docs/quick-start/quick-start-sofa/index.md
+  - title: Quick start with Spring Cloud
+    kind: link
+    source_url: https://shenyu.apache.org/docs/quick-start/quick-start-springcloud/
+    anchor: quick-start-quick-start-springcloud
+    virtual_path: docs/quick-start/quick-start-springcloud/index.md
+  - title: Quick start with Tars
+    kind: link
+    source_url: https://shenyu.apache.org/docs/quick-start/quick-start-tars/
+    anchor: quick-start-quick-start-tars
+    virtual_path: docs/quick-start/quick-start-tars/index.md
+  - title: Quick start with Websocket
+    kind: link
+    source_url: https://shenyu.apache.org/docs/quick-start/quick-start-websocket/
+    anchor: quick-start-quick-start-websocket
+    virtual_path: docs/quick-start/quick-start-websocket/index.md
+- title: User Guide
+  kind: link
+  source_url: https://shenyu.apache.org/docs/user-guide/admin-usage/api-document/
+  anchor: user-guide-admin-usage-api-document
+  virtual_path: docs/user-guide/admin-usage/api-document/index.md
+  children:
+  - title: Admin Usage
+    kind: link
+    source_url: https://shenyu.apache.org/docs/user-guide/admin-usage/api-document/
+    anchor: user-guide-admin-usage-api-document
+    virtual_path: docs/user-guide/admin-usage/api-document/index.md
+    children:
+    - title: API Document Management
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/admin-usage/api-document/
+      anchor: user-guide-admin-usage-api-document
+      virtual_path: docs/user-guide/admin-usage/api-document/index.md
+    - title: Data Permission Management
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/admin-usage/data-permission/
+      anchor: user-guide-admin-usage-data-permission
+      virtual_path: docs/user-guide/admin-usage/data-permission/index.md
+    - title: Dictionary Management
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/admin-usage/dictionary-management/
+      anchor: user-guide-admin-usage-dictionary-management
+      virtual_path: docs/user-guide/admin-usage/dictionary-management/index.md
+    - title: Namespace Management
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/admin-usage/namepsace/
+      anchor: user-guide-admin-usage-namepsace
+      virtual_path: docs/user-guide/admin-usage/namepsace/index.md
+    - title: Plugin Config
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/admin-usage/plugin-handle-explanation/
+      anchor: user-guide-admin-usage-plugin-handle-explanation
+      virtual_path: docs/user-guide/admin-usage/plugin-handle-explanation/index.md
+    - title: Role Management
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/admin-usage/role-management/
+      anchor: user-guide-admin-usage-role-management
+      virtual_path: docs/user-guide/admin-usage/role-management/index.md
+    - title: Selector And Rule Config
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/admin-usage/selector-and-rule/
+      anchor: user-guide-admin-usage-selector-and-rule
+      virtual_path: docs/user-guide/admin-usage/selector-and-rule/index.md
+  - title: Property Config
+    kind: link
+    source_url: https://shenyu.apache.org/docs/user-guide/property-config/admin-property-config/
+    anchor: user-guide-property-config-admin-property-config
+    virtual_path: docs/user-guide/property-config/admin-property-config/index.md
+    children:
+    - title: Admin Property Config
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/property-config/admin-property-config/
+      anchor: user-guide-property-config-admin-property-config
+      virtual_path: docs/user-guide/property-config/admin-property-config/index.md
+    - title: Client Property Config
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/property-config/client-property-config/
+      anchor: user-guide-property-config-client-property-config
+      virtual_path: docs/user-guide/property-config/client-property-config/index.md
+    - title: Gateway Property Config
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/property-config/gateway-property-config/
+      anchor: user-guide-property-config-gateway-property-config
+      virtual_path: docs/user-guide/property-config/gateway-property-config/index.md
+    - title: Application Client Access Config
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/property-config/register-center-access/
+      anchor: user-guide-property-config-register-center-access
+      virtual_path: docs/user-guide/property-config/register-center-access/index.md
+    - title: Register Center Instance Config
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/property-config/register-center-instance/
+      anchor: user-guide-property-config-register-center-instance
+      virtual_path: docs/user-guide/property-config/register-center-instance/index.md
+    - title: Gateway SSL Config
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/property-config/ssl/
+      anchor: user-guide-property-config-ssl
+      virtual_path: docs/user-guide/property-config/ssl/index.md
+    - title: Data Synchronization Config
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/property-config/use-data-sync/
+      anchor: user-guide-property-config-use-data-sync
+      virtual_path: docs/user-guide/property-config/use-data-sync/index.md
+  - title: Shenyu-Sdk Usage
+    kind: link
+    source_url: https://shenyu.apache.org/docs/user-guide/sdk-usage/shenyu-sdk-consul/
+    anchor: user-guide-sdk-usage-shenyu-sdk-consul
+    virtual_path: docs/user-guide/sdk-usage/shenyu-sdk-consul/index.md
+    children:
+    - title: Using Consul with Shenyu-SDK
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/sdk-usage/shenyu-sdk-consul/
+      anchor: user-guide-sdk-usage-shenyu-sdk-consul
+      virtual_path: docs/user-guide/sdk-usage/shenyu-sdk-consul/index.md
+    - title: Using Etcd with Shenyu-SDK
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/sdk-usage/shenyu-sdk-etcd/
+      anchor: user-guide-sdk-usage-shenyu-sdk-etcd
+      virtual_path: docs/user-guide/sdk-usage/shenyu-sdk-etcd/index.md
+    - title: Using Eureka with Shenyu-SDK
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/sdk-usage/shenyu-sdk-eureka/
+      anchor: user-guide-sdk-usage-shenyu-sdk-eureka
+      virtual_path: docs/user-guide/sdk-usage/shenyu-sdk-eureka/index.md
+    - title: Using Shenyu-SDK-Feign
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/sdk-usage/shenyu-sdk-feign/
+      anchor: user-guide-sdk-usage-shenyu-sdk-feign
+      virtual_path: docs/user-guide/sdk-usage/shenyu-sdk-feign/index.md
+    - title: Using Nacos with Shenyu-SDK
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/sdk-usage/shenyu-sdk-nacos/
+      anchor: user-guide-sdk-usage-shenyu-sdk-nacos
+      virtual_path: docs/user-guide/sdk-usage/shenyu-sdk-nacos/index.md
+    - title: Using Zookeeper with Shenyu-SDK
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/sdk-usage/shenyu-sdk-zookeeper/
+      anchor: user-guide-sdk-usage-shenyu-sdk-zookeeper
+      virtual_path: docs/user-guide/sdk-usage/shenyu-sdk-zookeeper/index.md
+  - title: Discovery
+    kind: link
+    source_url: https://shenyu.apache.org/docs/user-guide/discovery/discovery-mode/
+    anchor: user-guide-discovery-discovery-mode
+    virtual_path: docs/user-guide/discovery/discovery-mode/index.md
+    children:
+    - title: Discovery
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/discovery/discovery-mode/
+      anchor: user-guide-discovery-discovery-mode
+      virtual_path: docs/user-guide/discovery/discovery-mode/index.md
+  - title: Quick Connect to Your Service
+    kind: category
+    source_url: https://shenyu.apache.org/docs/user-guide/proxy/dubbo-proxy/
+    anchor: user-guide-proxy-dubbo-proxy
+    virtual_path: docs/user-guide/proxy/dubbo-proxy/index.md
+    children:
+    - title: Dubbo Proxy
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/proxy/dubbo-proxy/
+      anchor: user-guide-proxy-dubbo-proxy
+      virtual_path: docs/user-guide/proxy/dubbo-proxy/index.md
+    - title: gRPC Proxy
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/proxy/grpc-proxy/
+      anchor: user-guide-proxy-grpc-proxy
+      virtual_path: docs/user-guide/proxy/grpc-proxy/index.md
+    - title: Http Proxy
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/proxy/http-proxy/
+      anchor: user-guide-proxy-http-proxy
+      virtual_path: docs/user-guide/proxy/http-proxy/index.md
+    - title: McpTool Service Integration
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/proxy/mcp-tool-proxy/
+      anchor: user-guide-proxy-mcp-tool-proxy
+      virtual_path: docs/user-guide/proxy/mcp-tool-proxy/index.md
+    - title: Motan Proxy
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/proxy/motan-proxy/
+      anchor: user-guide-proxy-motan-proxy
+      virtual_path: docs/user-guide/proxy/motan-proxy/index.md
+    - title: Sofa Proxy
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/proxy/sofa-rpc-proxy/
+      anchor: user-guide-proxy-sofa-rpc-proxy
+      virtual_path: docs/user-guide/proxy/sofa-rpc-proxy/index.md
+    - title: Spring Cloud Proxy
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/proxy/spring-cloud-proxy/
+      anchor: user-guide-proxy-spring-cloud-proxy
+      virtual_path: docs/user-guide/proxy/spring-cloud-proxy/index.md
+    - title: Tars Proxy
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/proxy/tars-proxy/
+      anchor: user-guide-proxy-tars-proxy
+      virtual_path: docs/user-guide/proxy/tars-proxy/index.md
+    - title: Websocket Proxy
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/proxy/websocket-proxy/
+      anchor: user-guide-proxy-websocket-proxy
+      virtual_path: docs/user-guide/proxy/websocket-proxy/index.md
+  - title: Kubernetes Controller
+    kind: link
+    source_url: https://shenyu.apache.org/docs/user-guide/kubernetes-controller/build-deploy/
+    anchor: user-guide-kubernetes-controller-build-deploy
+    virtual_path: docs/user-guide/kubernetes-controller/build-deploy/index.md
+    children:
+    - title: Build And Deploy Kubernetes Controller
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/kubernetes-controller/build-deploy/
+      anchor: user-guide-kubernetes-controller-build-deploy
+      virtual_path: docs/user-guide/kubernetes-controller/build-deploy/index.md
+    - title: Kubernetes Controller Config
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/kubernetes-controller/config/
+      anchor: user-guide-kubernetes-controller-config
+      virtual_path: docs/user-guide/kubernetes-controller/config/index.md
+  - title: API Document Aggregation
+    kind: link
+    source_url: https://shenyu.apache.org/docs/user-guide/api-doc/shenyu-annotation-apidoc/
+    anchor: user-guide-api-doc-shenyu-annotation-apidoc
+    virtual_path: docs/user-guide/api-doc/shenyu-annotation-apidoc/index.md
+    children:
+    - title: The client registers the API documentation
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/api-doc/shenyu-annotation-apidoc/
+      anchor: user-guide-api-doc-shenyu-annotation-apidoc
+      virtual_path: docs/user-guide/api-doc/shenyu-annotation-apidoc/index.md
+    - title: Pull the swagger registration API document
+      kind: link
+      source_url: https://shenyu.apache.org/docs/user-guide/api-doc/swagger-apidoc/
+      anchor: user-guide-api-doc-swagger-apidoc
+      virtual_path: docs/user-guide/api-doc/swagger-apidoc/index.md
+- title: Plugin Center
+  kind: link
+  source_url: https://shenyu.apache.org/docs/plugin-center/http-process/contextpath-plugin/
+  anchor: plugin-center-http-process-contextpath-plugin
+  virtual_path: docs/plugin-center/http-process/contextpath-plugin/index.md
+  children:
+  - title: Http Process
+    kind: link
+    source_url: https://shenyu.apache.org/docs/plugin-center/http-process/contextpath-plugin/
+    anchor: plugin-center-http-process-contextpath-plugin
+    virtual_path: docs/plugin-center/http-process/contextpath-plugin/index.md
+    children:
+    - title: ContextPath Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/http-process/contextpath-plugin/
+      anchor: plugin-center-http-process-contextpath-plugin
+      virtual_path: docs/plugin-center/http-process/contextpath-plugin/index.md
+    - title: ModifyResponse Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/http-process/modifyresponse-plugin/
+      anchor: plugin-center-http-process-modifyresponse-plugin
+      virtual_path: docs/plugin-center/http-process/modifyresponse-plugin/index.md
+    - title: ParamMapping Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/http-process/parammapping-plugin/
+      anchor: plugin-center-http-process-parammapping-plugin
+      virtual_path: docs/plugin-center/http-process/parammapping-plugin/index.md
+    - title: Redirect Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/http-process/redirect-plugin/
+      anchor: plugin-center-http-process-redirect-plugin
+      virtual_path: docs/plugin-center/http-process/redirect-plugin/index.md
+    - title: Request Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/http-process/request-plugin/
+      anchor: plugin-center-http-process-request-plugin
+      virtual_path: docs/plugin-center/http-process/request-plugin/index.md
+    - title: Rewrite Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/http-process/rewrite-plugin/
+      anchor: plugin-center-http-process-rewrite-plugin
+      virtual_path: docs/plugin-center/http-process/rewrite-plugin/index.md
+  - title: Proxy
+    kind: category
+    source_url: https://shenyu.apache.org/docs/plugin-center/proxy/divide-plugin/
+    anchor: plugin-center-proxy-divide-plugin
+    virtual_path: docs/plugin-center/proxy/divide-plugin/index.md
+    children:
+    - title: Divide Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/proxy/divide-plugin/
+      anchor: plugin-center-proxy-divide-plugin
+      virtual_path: docs/plugin-center/proxy/divide-plugin/index.md
+    - title: Dubbo Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/proxy/dubbo-plugin/
+      anchor: plugin-center-proxy-dubbo-plugin
+      virtual_path: docs/plugin-center/proxy/dubbo-plugin/index.md
+    - title: gRPC Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/proxy/grpc-plugin/
+      anchor: plugin-center-proxy-grpc-plugin
+      virtual_path: docs/plugin-center/proxy/grpc-plugin/index.md
+    - title: Motan Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/proxy/motan-plugin/
+      anchor: plugin-center-proxy-motan-plugin
+      virtual_path: docs/plugin-center/proxy/motan-plugin/index.md
+    - title: Mqtt Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/proxy/mqtt-plugin/
+      anchor: plugin-center-proxy-mqtt-plugin
+      virtual_path: docs/plugin-center/proxy/mqtt-plugin/index.md
+    - title: Sofa Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/proxy/sofa-plugin/
+      anchor: plugin-center-proxy-sofa-plugin
+      virtual_path: docs/plugin-center/proxy/sofa-plugin/index.md
+    - title: Spring Cloud Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/proxy/spring-cloud-plugin/
+      anchor: plugin-center-proxy-spring-cloud-plugin
+      virtual_path: docs/plugin-center/proxy/spring-cloud-plugin/index.md
+    - title: Tars Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/proxy/tars-plugin/
+      anchor: plugin-center-proxy-tars-plugin
+      virtual_path: docs/plugin-center/proxy/tars-plugin/index.md
+    - title: Tcp Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/proxy/tcp-plugin/
+      anchor: plugin-center-proxy-tcp-plugin
+      virtual_path: docs/plugin-center/proxy/tcp-plugin/index.md
+    - title: Websocket Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/proxy/websocket-plugin/
+      anchor: plugin-center-proxy-websocket-plugin
+      virtual_path: docs/plugin-center/proxy/websocket-plugin/index.md
+  - title: Fault Tolerance
+    kind: link
+    source_url: https://shenyu.apache.org/docs/plugin-center/fault-tolerance/hystrix-plugin/
+    anchor: plugin-center-fault-tolerance-hystrix-plugin
+    virtual_path: docs/plugin-center/fault-tolerance/hystrix-plugin/index.md
+    children:
+    - title: Hystrix Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/fault-tolerance/hystrix-plugin/
+      anchor: plugin-center-fault-tolerance-hystrix-plugin
+      virtual_path: docs/plugin-center/fault-tolerance/hystrix-plugin/index.md
+    - title: RateLimiter Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/fault-tolerance/rate-limiter-plugin/
+      anchor: plugin-center-fault-tolerance-rate-limiter-plugin
+      virtual_path: docs/plugin-center/fault-tolerance/rate-limiter-plugin/index.md
+    - title: Resilience4j Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/fault-tolerance/resilience4j-plugin/
+      anchor: plugin-center-fault-tolerance-resilience4j-plugin
+      virtual_path: docs/plugin-center/fault-tolerance/resilience4j-plugin/index.md
+    - title: Sentinel Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/fault-tolerance/sentinel-plugin/
+      anchor: plugin-center-fault-tolerance-sentinel-plugin
+      virtual_path: docs/plugin-center/fault-tolerance/sentinel-plugin/index.md
+  - title: Security
+    kind: link
+    source_url: https://shenyu.apache.org/docs/plugin-center/security/casdoor/
+    anchor: plugin-center-security-casdoor
+    virtual_path: docs/plugin-center/security/casdoor/index.md
+    children:
+    - title: Casdoor Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/security/casdoor/
+      anchor: plugin-center-security-casdoor
+      virtual_path: docs/plugin-center/security/casdoor/index.md
+    - title: CryptorRequest plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/security/cryptor-request-plugin/
+      anchor: plugin-center-security-cryptor-request-plugin
+      virtual_path: docs/plugin-center/security/cryptor-request-plugin/index.md
+    - title: CryptorResponse plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/security/cryptor-response-plugin/
+      anchor: plugin-center-security-cryptor-response-plugin
+      virtual_path: docs/plugin-center/security/cryptor-response-plugin/index.md
+    - title: JWT plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/security/jwt-plugin/
+      anchor: plugin-center-security-jwt-plugin
+      virtual_path: docs/plugin-center/security/jwt-plugin/index.md
+    - title: OAuth2 Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/security/oauth2-plugin/
+      anchor: plugin-center-security-oauth2-plugin
+      virtual_path: docs/plugin-center/security/oauth2-plugin/index.md
+    - title: Sign Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/security/sign-plugin/
+      anchor: plugin-center-security-sign-plugin
+      virtual_path: docs/plugin-center/security/sign-plugin/index.md
+    - title: Waf Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/security/waf-plugin/
+      anchor: plugin-center-security-waf-plugin
+      virtual_path: docs/plugin-center/security/waf-plugin/index.md
+  - title: Observability
+    kind: link
+    source_url: https://shenyu.apache.org/docs/plugin-center/observability/logging-aliyun-sls/
+    anchor: plugin-center-observability-logging-aliyun-sls
+    virtual_path: docs/plugin-center/observability/logging-aliyun-sls/index.md
+    children:
+    - title: Logging-Aliyun-Sls Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/observability/logging-aliyun-sls/
+      anchor: plugin-center-observability-logging-aliyun-sls
+      virtual_path: docs/plugin-center/observability/logging-aliyun-sls/index.md
+    - title: Logging-ElasticSearch Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/observability/logging-elasticsearch/
+      anchor: plugin-center-observability-logging-elasticsearch
+      virtual_path: docs/plugin-center/observability/logging-elasticsearch/index.md
+    - title: Logging-Huawei-Lts Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/observability/logging-huawei-lts/
+      anchor: plugin-center-observability-logging-huawei-lts
+      virtual_path: docs/plugin-center/observability/logging-huawei-lts/index.md
+    - title: Logging-Kafka Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/observability/logging-kafka/
+      anchor: plugin-center-observability-logging-kafka
+      virtual_path: docs/plugin-center/observability/logging-kafka/index.md
+    - title: Logging Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/observability/logging-plugin/
+      anchor: plugin-center-observability-logging-plugin
+      virtual_path: docs/plugin-center/observability/logging-plugin/index.md
+    - title: Logging-Pulsar Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/observability/logging-pulsar/
+      anchor: plugin-center-observability-logging-pulsar
+      virtual_path: docs/plugin-center/observability/logging-pulsar/index.md
+    - title: Logging-RabbitMQ Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/observability/logging-rabbitmq/
+      anchor: plugin-center-observability-logging-rabbitmq
+      virtual_path: docs/plugin-center/observability/logging-rabbitmq/index.md
+    - title: Logging-RocketMQ Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/observability/logging-rocketmq/
+      anchor: plugin-center-observability-logging-rocketmq
+      virtual_path: docs/plugin-center/observability/logging-rocketmq/index.md
+    - title: Logging-Tencent-Cls Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/observability/logging-tencent-cls/
+      anchor: plugin-center-observability-logging-tencent-cls
+      virtual_path: docs/plugin-center/observability/logging-tencent-cls/index.md
+    - title: Metrics Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/observability/metrics-plugin/
+      anchor: plugin-center-observability-metrics-plugin
+      virtual_path: docs/plugin-center/observability/metrics-plugin/index.md
+  - title: Common
+    kind: link
+    source_url: https://shenyu.apache.org/docs/plugin-center/common/general-context-plugin/
+    anchor: plugin-center-common-general-context-plugin
+    virtual_path: docs/plugin-center/common/general-context-plugin/index.md
+    children:
+    - title: GeneralContext Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/common/general-context-plugin/
+      anchor: plugin-center-common-general-context-plugin
+      virtual_path: docs/plugin-center/common/general-context-plugin/index.md
+  - title: Cache
+    kind: link
+    source_url: https://shenyu.apache.org/docs/plugin-center/cache/cache-plugin/
+    anchor: plugin-center-cache-cache-plugin
+    virtual_path: docs/plugin-center/cache/cache-plugin/index.md
+    children:
+    - title: Cache Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/cache/cache-plugin/
+      anchor: plugin-center-cache-cache-plugin
+      virtual_path: docs/plugin-center/cache/cache-plugin/index.md
+  - title: Mock
+    kind: link
+    source_url: https://shenyu.apache.org/docs/plugin-center/mock/mock-plugin/
+    anchor: plugin-center-mock-mock-plugin
+    virtual_path: docs/plugin-center/mock/mock-plugin/index.md
+    children:
+    - title: Mock Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/mock/mock-plugin/
+      anchor: plugin-center-mock-mock-plugin
+      virtual_path: docs/plugin-center/mock/mock-plugin/index.md
+  - title: Ai
+    kind: link
+    source_url: https://shenyu.apache.org/docs/plugin-center/ai/ai-prompt/
+    anchor: plugin-center-ai-ai-prompt
+    virtual_path: docs/plugin-center/ai/ai-prompt/index.md
+    children:
+    - title: AiPrompt Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/ai/ai-prompt/
+      anchor: plugin-center-ai-ai-prompt
+      virtual_path: docs/plugin-center/ai/ai-prompt/index.md
+    - title: AiProxy Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/ai/ai-proxy/
+      anchor: plugin-center-ai-ai-proxy
+      virtual_path: docs/plugin-center/ai/ai-proxy/index.md
+    - title: AiTokenLimiter Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/ai/ai-token-limiter/
+      anchor: plugin-center-ai-ai-token-limiter
+      virtual_path: docs/plugin-center/ai/ai-token-limiter/index.md
+  - title: Mcp
+    kind: link
+    source_url: https://shenyu.apache.org/docs/plugin-center/mcp/mcp-server-plugin/
+    anchor: plugin-center-mcp-mcp-server-plugin
+    virtual_path: docs/plugin-center/mcp/mcp-server-plugin/index.md
+    children:
+    - title: McpServer Plugin
+      kind: link
+      source_url: https://shenyu.apache.org/docs/plugin-center/mcp/mcp-server-plugin/
+      anchor: plugin-center-mcp-mcp-server-plugin
+      virtual_path: docs/plugin-center/mcp/mcp-server-plugin/index.md
+- title: Developer
+  kind: category
+  source_url: https://shenyu.apache.org/docs/developer/spi/custom-load-balance/
+  anchor: developer-spi-custom-load-balance
+  virtual_path: docs/developer/spi/custom-load-balance/index.md
+  children:
+  - title: SPI
+    kind: category
+    source_url: https://shenyu.apache.org/docs/developer/spi/custom-load-balance/
+    anchor: developer-spi-custom-load-balance
+    virtual_path: docs/developer/spi/custom-load-balance/index.md
+    children:
+    - title: Custom Load Balancer
+      kind: link
+      source_url: https://shenyu.apache.org/docs/developer/spi/custom-load-balance/
+      anchor: developer-spi-custom-load-balance
+      virtual_path: docs/developer/spi/custom-load-balance/index.md
+    - title: Custom Match Mode
+      kind: link
+      source_url: https://shenyu.apache.org/docs/developer/spi/custom-match-mode/
+      anchor: developer-spi-custom-match-mode
+      virtual_path: docs/developer/spi/custom-match-mode/index.md
+    - title: Custom Metrics Monitor
+      kind: link
+      source_url: https://shenyu.apache.org/docs/developer/spi/custom-metrics-monitor/
+      anchor: developer-spi-custom-metrics-monitor
+      virtual_path: docs/developer/spi/custom-metrics-monitor/index.md
+    - title: Custom Mock Data Generator
+      kind: link
+      source_url: https://shenyu.apache.org/docs/developer/spi/custom-mock-generator/
+      anchor: developer-spi-custom-mock-generator
+      virtual_path: docs/developer/spi/custom-mock-generator/index.md
+    - title: Custom Parameter Data
+      kind: link
+      source_url: https://shenyu.apache.org/docs/developer/spi/custom-parameter-data/
+      anchor: developer-spi-custom-parameter-data
+      virtual_path: docs/developer/spi/custom-parameter-data/index.md
+    - title: Custom Predicate Judge
+      kind: link
+      source_url: https://shenyu.apache.org/docs/developer/spi/custom-predicate-judge/
+      anchor: developer-spi-custom-predicate-judge
+      virtual_path: docs/developer/spi/custom-predicate-judge/index.md
+    - title: Custom Rate Limiter
+      kind: link
+      source_url: https://shenyu.apache.org/docs/developer/spi/custom-rate-limiter/
+      anchor: developer-spi-custom-rate-limiter
+      virtual_path: docs/developer/spi/custom-rate-limiter/index.md
+  - title: Custom Filter
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/custom-filter/
+    anchor: developer-custom-filter
+    virtual_path: docs/developer/custom-filter/index.md
+  - title: Custom Jwt convert Algorithm
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/custom-jwt-covert-algorithm/
+    anchor: developer-custom-jwt-covert-algorithm
+    virtual_path: docs/developer/custom-jwt-covert-algorithm/index.md
+  - title: Fetching Correct IP Address And Host
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/custom-parsing-ip-and-host/
+    anchor: developer-custom-parsing-ip-and-host
+    virtual_path: docs/developer/custom-parsing-ip-and-host/index.md
+  - title: Custom Plugin
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/custom-plugin/
+    anchor: developer-custom-plugin
+    virtual_path: docs/developer/custom-plugin/index.md
+  - title: Custom Response
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/custom-result/
+    anchor: developer-custom-result
+    virtual_path: docs/developer/custom-result/index.md
+  - title: Custom Sign Algorithm
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/custom-sign-algorithm/
+    anchor: developer-custom-sign-algorithm
+    virtual_path: docs/developer/custom-sign-algorithm/index.md
+  - title: A multilingual HTTP client
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/developer-shenyu-client/
+    anchor: developer-developer-shenyu-client
+    virtual_path: docs/developer/developer-shenyu-client/index.md
+  - title: File Upload And Download
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/file-and-image/
+    anchor: developer-file-and-image
+    virtual_path: docs/developer/file-and-image/index.md
+  - title: Run Integration Test Locally
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/integration-test/
+    anchor: developer-integration-test
+    virtual_path: docs/developer/integration-test/index.md
+  - title: Local Model
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/local-model/
+    anchor: developer-local-model
+    virtual_path: docs/developer/local-model/index.md
+  - title: Alarm Notice
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/notice-alert/
+    anchor: developer-notice-alert
+    virtual_path: docs/developer/notice-alert/index.md
+  - title: ShenYu Optimize
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/shenyu-optimize/
+    anchor: developer-shenyu-optimize
+    virtual_path: docs/developer/shenyu-optimize/index.md
+  - title: Thread Model
+    kind: link
+    source_url: https://shenyu.apache.org/docs/developer/thread-model/
+    anchor: developer-thread-model
+    virtual_path: docs/developer/thread-model/index.md
+- title: Benchmark Test
+  kind: link
+  source_url: https://shenyu.apache.org/docs/benchmark-test/
+  anchor: benchmark-test
+  virtual_path: docs/benchmark-test/index.md

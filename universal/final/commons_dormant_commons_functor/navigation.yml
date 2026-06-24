@@ -1,0 +1,47 @@
+- title: Commons Functor
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-functor/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Examples
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-functor/examples.html
+    anchor: examples
+    virtual_path: docs/examples.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://commons.apache.org/dormant/commons-functor/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-functor/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Project Summary
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-functor/project-summary.html
+      anchor: project-summary
+      virtual_path: docs/project-summary.md
+    - title: Project Modules
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-functor/modules.html
+      anchor: modules
+      virtual_path: docs/modules.md
+    - title: Issue Tracking
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-functor/issue-tracking.html
+      anchor: issue-tracking
+      virtual_path: docs/issue-tracking.md
+    - title: Continuous Integration
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-functor/integration.html
+      anchor: integration
+      virtual_path: docs/integration.md

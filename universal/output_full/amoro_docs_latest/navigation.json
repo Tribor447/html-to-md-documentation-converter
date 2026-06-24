@@ -1,0 +1,275 @@
+[
+  {
+    "title": "Introduction",
+    "kind": "link",
+    "source_url": "https://amoro.apache.org/docs/latest/",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "Concepts",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Catalogs",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/catalogs/",
+        "anchor": "catalogs",
+        "virtual_path": "docs/catalogs/index.md"
+      },
+      {
+        "title": "Self-Optimizing",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/self-optimizing/",
+        "anchor": "self-optimizing",
+        "virtual_path": "docs/self-optimizing/index.md"
+      },
+      {
+        "title": "Table Watermark",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/table-watermark/",
+        "anchor": "table-watermark",
+        "virtual_path": "docs/table-watermark/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Configuration",
+    "kind": "category",
+    "children": [
+      {
+        "title": "AMS Configuration",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/ams-config/",
+        "anchor": "ams-config",
+        "virtual_path": "docs/ams-config/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Admin Guides",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Deployment",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/deployment/",
+        "anchor": "deployment",
+        "virtual_path": "docs/deployment/index.md"
+      },
+      {
+        "title": "Deployment On Kubernetes",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/deployment-on-kubernetes/",
+        "anchor": "deployment-on-kubernetes",
+        "virtual_path": "docs/deployment-on-kubernetes/index.md"
+      },
+      {
+        "title": "Managing Catalogs",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/managing-catalogs/",
+        "anchor": "managing-catalogs",
+        "virtual_path": "docs/managing-catalogs/index.md"
+      },
+      {
+        "title": "Managing Optimizers",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/managing-optimizers/",
+        "anchor": "managing-optimizers",
+        "virtual_path": "docs/managing-optimizers/index.md"
+      },
+      {
+        "title": "Using Customized Encryption Method for Configurations",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/using-customized-encryption-method/",
+        "anchor": "using-customized-encryption-method",
+        "virtual_path": "docs/using-customized-encryption-method/index.md"
+      },
+      {
+        "title": "Using Kyuubi By Terminal",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/using-kyuubi/",
+        "anchor": "using-kyuubi",
+        "virtual_path": "docs/using-kyuubi/index.md"
+      }
+    ]
+  },
+  {
+    "title": "User Guides",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Using Tables",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/using-tables/",
+        "anchor": "using-tables",
+        "virtual_path": "docs/using-tables/index.md"
+      },
+      {
+        "title": "Configurations",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/configurations/",
+        "anchor": "configurations",
+        "virtual_path": "docs/configurations/index.md"
+      },
+      {
+        "title": "CDC Ingestion",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/cdc-ingestion/",
+        "anchor": "cdc-ingestion",
+        "virtual_path": "docs/cdc-ingestion/index.md"
+      },
+      {
+        "title": "Metrics",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/metrics/",
+        "anchor": "metrics",
+        "virtual_path": "docs/metrics/index.md"
+      },
+      {
+        "title": "REST API",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/rest-api/",
+        "anchor": "rest-api",
+        "virtual_path": "docs/rest-api/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Formats",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/formats-overview/",
+        "anchor": "formats-overview",
+        "virtual_path": "docs/formats-overview/index.md"
+      },
+      {
+        "title": "Iceberg",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/iceberg-format/",
+        "anchor": "iceberg-format",
+        "virtual_path": "docs/iceberg-format/index.md"
+      },
+      {
+        "title": "Paimon",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/paimon-format/",
+        "anchor": "paimon-format",
+        "virtual_path": "docs/paimon-format/index.md"
+      },
+      {
+        "title": "Mixed-Iceberg",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/mixed-iceberg-format/",
+        "anchor": "mixed-iceberg-format",
+        "virtual_path": "docs/mixed-iceberg-format/index.md"
+      },
+      {
+        "title": "Mixed-Hive",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/mixed-hive-format/",
+        "anchor": "mixed-hive-format",
+        "virtual_path": "docs/mixed-hive-format/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Flink",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Flink Getting Started",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/flink-getting-started/",
+        "anchor": "flink-getting-started",
+        "virtual_path": "docs/flink-getting-started/index.md"
+      },
+      {
+        "title": "Flink DDL",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/flink-ddl/",
+        "anchor": "flink-ddl",
+        "virtual_path": "docs/flink-ddl/index.md"
+      },
+      {
+        "title": "Flink DML",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/flink-dml/",
+        "anchor": "flink-dml",
+        "virtual_path": "docs/flink-dml/index.md"
+      },
+      {
+        "title": "Flink CDC Ingestion",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/flink-cdc-ingestion/",
+        "anchor": "flink-cdc-ingestion",
+        "virtual_path": "docs/flink-cdc-ingestion/index.md"
+      },
+      {
+        "title": "Flink DataStream",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/flink-datastream/",
+        "anchor": "flink-datastream",
+        "virtual_path": "docs/flink-datastream/index.md"
+      },
+      {
+        "title": "Using Logstore",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/flink-using-logstore/",
+        "anchor": "flink-using-logstore",
+        "virtual_path": "docs/flink-using-logstore/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Spark",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Spark Getting Started",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/spark-getting-started/",
+        "anchor": "spark-getting-started",
+        "virtual_path": "docs/spark-getting-started/index.md"
+      },
+      {
+        "title": "Spark Configuration",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/spark-configuration/",
+        "anchor": "spark-configuration",
+        "virtual_path": "docs/spark-configuration/index.md"
+      },
+      {
+        "title": "Spark DDL",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/spark-ddl/",
+        "anchor": "spark-ddl",
+        "virtual_path": "docs/spark-ddl/index.md"
+      },
+      {
+        "title": "Spark Queries",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/spark-queries/",
+        "anchor": "spark-queries",
+        "virtual_path": "docs/spark-queries/index.md"
+      },
+      {
+        "title": "Spark Writes",
+        "kind": "link",
+        "source_url": "https://amoro.apache.org/docs/latest/spark-writes/",
+        "anchor": "spark-writes",
+        "virtual_path": "docs/spark-writes/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Trino",
+    "kind": "link",
+    "source_url": "https://amoro.apache.org/docs/latest/trino/",
+    "anchor": "trino",
+    "virtual_path": "docs/trino/index.md"
+  }
+]

@@ -1,0 +1,57 @@
+# Summary
+
+- [Getting Started](#index)
+  - [Overview](#guide-overview)
+  - [Installation](#guide-cli-installation)
+  - [Creating an App](#guide-cli)
+- Cordova Projects
+  - [Project Structure](#guide-overview-project-structure)
+  - [CLI Commands](#reference-cordova-cli)
+  - [Platform Support](#guide-support)
+  - [Platform Pinning](#platform_pinning)
+  - [Version Management](#platform_plugin_versioning_ref)
+  - [Hooks](#guide-appdev-hooks)
+- App Development
+  - Platforms
+    - [Android](#guide-platforms-android)
+    - [iOS](#guide-platforms-ios)
+    - [Electron](#guide-platforms-electron)
+  - Customization
+    - [Icons](#config_ref-images)
+    - [Splash Screen](#core-features-splashscreen)
+  - Security & Privacy
+    - [Security](#guide-appdev-security)
+    - [Privacy](#guide-appdev-privacy)
+    - [Allow List](#guide-appdev-allowlist)
+  - [Data Storage](#cordova-storage-storage)
+- Plugin Development
+  - [Create a Plugin](#guide-hybrid-plugins)
+  - Support a Platform
+    - [Android](#guide-platforms-android-plugin)
+    - [iOS](#guide-platforms-ios-plugin)
+  - [Use Plugman](#plugin_ref-plugman)
+- References
+  - [Config.xml API](#config_ref)
+  - [Plugin.xml API](#plugin_ref-spec)
+  - [Cordova JavaScript API](#cordova-events-events)
+- Resources
+  - [Third-party Tools](#third-party)
+  - [App Templates](#guide-cli-template)
+  - [Next Steps](#guide-next)
+- Plugins
+  - [Battery Status](#reference-cordova-plugin-battery-status)
+  - [Camera](#reference-cordova-plugin-camera)
+  - [Device](#reference-cordova-plugin-device)
+  - [Dialogs](#reference-cordova-plugin-dialogs)
+  - [File](#reference-cordova-plugin-file)
+  - [Geolocation](#reference-cordova-plugin-geolocation)
+  - [Inappbrowser](#reference-cordova-plugin-inappbrowser)
+  - [Media](#reference-cordova-plugin-media)
+  - [Media Capture](#reference-cordova-plugin-media-capture)
+  - [Network Information](#reference-cordova-plugin-network-information)
+  - [Screen Orientation](#reference-cordova-plugin-screen-orientation)
+  - [Browser Splashscreen](#reference-cordova-plugin-splashscreen)
+  - [Statusbar](#reference-cordova-plugin-statusbar)
+  - [Vibration](#reference-cordova-plugin-vibration)
+- Advanced Topics
+  - [Embed Cordova in native apps](#guide-hybrid-webviews)

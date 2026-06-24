@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Docs",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Api",
+        "kind": "category",
+        "children": [
+          {
+            "title": "V2",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Data Types",
+                "kind": "link",
+                "source_url": "https://atlas.apache.org/2.4.0/api/v2/data.html",
+                "anchor": "api-v2-data",
+                "virtual_path": "docs/api/v2/data.md"
+              },
+              {
+                "title": "Resources",
+                "kind": "link",
+                "source_url": "https://atlas.apache.org/2.4.0/api/v2/index.html",
+                "anchor": "api-v2",
+                "virtual_path": "docs/api/v2/index.md"
+              },
+              {
+                "title": "Resources",
+                "kind": "link",
+                "source_url": "https://atlas.apache.org/2.4.0/api/v2/resources.html",
+                "anchor": "api-v2-resources",
+                "virtual_path": "docs/api/v2/resources.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://atlas.apache.org/2.4.0/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      }
+    ]
+  }
+]

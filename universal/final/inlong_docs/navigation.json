@@ -1,0 +1,1280 @@
+[
+  {
+    "title": "Introduction",
+    "kind": "link",
+    "source_url": "https://inlong.apache.org/docs/introduction/",
+    "anchor": "introduction",
+    "virtual_path": "docs/introduction/index.md"
+  },
+  {
+    "title": "Design and Concept",
+    "kind": "link",
+    "source_url": "https://inlong.apache.org/docs/design_and_concept/basic_concept/",
+    "anchor": "design_and_concept-basic_concept",
+    "virtual_path": "docs/design_and_concept/basic_concept/index.md",
+    "children": [
+      {
+        "title": "Basic Concept",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/design_and_concept/basic_concept/",
+        "anchor": "design_and_concept-basic_concept",
+        "virtual_path": "docs/design_and_concept/basic_concept/index.md"
+      },
+      {
+        "title": "Format",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/design_and_concept/the_format_in_inlong/",
+        "anchor": "design_and_concept-the_format_in_inlong",
+        "virtual_path": "docs/design_and_concept/the_format_in_inlong/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Quick Start",
+    "kind": "link",
+    "source_url": "https://inlong.apache.org/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example/",
+    "anchor": "quick_start-data_ingestion-file_pulsar_clickhouse_example",
+    "virtual_path": "docs/quick_start/data_ingestion/file_pulsar_clickhouse_example/index.md",
+    "children": [
+      {
+        "title": "Data Ingestion",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example/",
+        "anchor": "quick_start-data_ingestion-file_pulsar_clickhouse_example",
+        "virtual_path": "docs/quick_start/data_ingestion/file_pulsar_clickhouse_example/index.md",
+        "children": [
+          {
+            "title": "Pulsar Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example/",
+            "anchor": "quick_start-data_ingestion-file_pulsar_clickhouse_example",
+            "virtual_path": "docs/quick_start/data_ingestion/file_pulsar_clickhouse_example/index.md"
+          },
+          {
+            "title": "Kafka Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/data_ingestion/mysql_kafka_clickhouse_example/",
+            "anchor": "quick_start-data_ingestion-mysql_kafka_clickhouse_example",
+            "virtual_path": "docs/quick_start/data_ingestion/mysql_kafka_clickhouse_example/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Realtime Data Synchronization",
+        "kind": "category",
+        "source_url": "https://inlong.apache.org/docs/quick_start/realtime_data_sync/mysql_clickhouse_example/",
+        "anchor": "quick_start-realtime_data_sync-mysql_clickhouse_example",
+        "virtual_path": "docs/quick_start/realtime_data_sync/mysql_clickhouse_example/index.md",
+        "children": [
+          {
+            "title": "MySQL to ClickHouse Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/realtime_data_sync/mysql_clickhouse_example/",
+            "anchor": "quick_start-realtime_data_sync-mysql_clickhouse_example",
+            "virtual_path": "docs/quick_start/realtime_data_sync/mysql_clickhouse_example/index.md"
+          },
+          {
+            "title": "MySQL to StarRocks Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/realtime_data_sync/mysql_starrocks_example/",
+            "anchor": "quick_start-realtime_data_sync-mysql_starrocks_example",
+            "virtual_path": "docs/quick_start/realtime_data_sync/mysql_starrocks_example/index.md"
+          },
+          {
+            "title": "MySQL to Iceberg Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/realtime_data_sync/mysql_iceberg_example/",
+            "anchor": "quick_start-realtime_data_sync-mysql_iceberg_example",
+            "virtual_path": "docs/quick_start/realtime_data_sync/mysql_iceberg_example/index.md"
+          },
+          {
+            "title": "Pulsar to ClickHouse Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/realtime_data_sync/pulsar_clickhouse_example/",
+            "anchor": "quick_start-realtime_data_sync-pulsar_clickhouse_example",
+            "virtual_path": "docs/quick_start/realtime_data_sync/pulsar_clickhouse_example/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Offline Data Synchronization",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/quick_start/offline_data_sync/quartz_example/",
+        "anchor": "quick_start-offline_data_sync-quartz_example",
+        "virtual_path": "docs/quick_start/offline_data_sync/quartz_example/index.md",
+        "children": [
+          {
+            "title": "Quartz Scheduling Engine Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/offline_data_sync/quartz_example/",
+            "anchor": "quick_start-offline_data_sync-quartz_example",
+            "virtual_path": "docs/quick_start/offline_data_sync/quartz_example/index.md"
+          },
+          {
+            "title": "DolphinScheduler Scheduling Engine Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/offline_data_sync/dolphinscheduler_example/",
+            "anchor": "quick_start-offline_data_sync-dolphinscheduler_example",
+            "virtual_path": "docs/quick_start/offline_data_sync/dolphinscheduler_example/index.md"
+          },
+          {
+            "title": "Airflow Scheduling Engine Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/offline_data_sync/airflow_example/",
+            "anchor": "quick_start-offline_data_sync-airflow_example",
+            "virtual_path": "docs/quick_start/offline_data_sync/airflow_example/index.md"
+          }
+        ]
+      },
+      {
+        "title": "HTTP Report",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/quick_start/data_http_report/http_report/",
+        "anchor": "quick_start-data_http_report-http_report",
+        "virtual_path": "docs/quick_start/data_http_report/http_report/index.md",
+        "children": [
+          {
+            "title": "HTTP Report Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/data_http_report/http_report/",
+            "anchor": "quick_start-data_http_report-http_report",
+            "virtual_path": "docs/quick_start/data_http_report/http_report/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Transform",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/quick_start/transform/sdk_example/",
+        "anchor": "quick_start-transform-sdk_example",
+        "virtual_path": "docs/quick_start/transform/sdk_example/index.md",
+        "children": [
+          {
+            "title": "SDK Usage Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/transform/sdk_example/",
+            "anchor": "quick_start-transform-sdk_example",
+            "virtual_path": "docs/quick_start/transform/sdk_example/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Data Subscription",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/quick_start/data_subscription/clickhouse_example/",
+        "anchor": "quick_start-data_subscription-clickhouse_example",
+        "virtual_path": "docs/quick_start/data_subscription/clickhouse_example/index.md",
+        "children": [
+          {
+            "title": "Clickhouse",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/quick_start/data_subscription/clickhouse_example/",
+            "anchor": "quick_start-data_subscription-clickhouse_example",
+            "virtual_path": "docs/quick_start/data_subscription/clickhouse_example/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deployment",
+    "kind": "link",
+    "source_url": "https://inlong.apache.org/docs/deployment/standalone/",
+    "anchor": "deployment-standalone",
+    "virtual_path": "docs/deployment/standalone/index.md",
+    "children": [
+      {
+        "title": "Standalone",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/deployment/standalone/",
+        "anchor": "deployment-standalone",
+        "virtual_path": "docs/deployment/standalone/index.md"
+      },
+      {
+        "title": "Docker",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/deployment/docker/",
+        "anchor": "deployment-docker",
+        "virtual_path": "docs/deployment/docker/index.md"
+      },
+      {
+        "title": "Kubernetes",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/deployment/k8s/",
+        "anchor": "deployment-k8s",
+        "virtual_path": "docs/deployment/k8s/index.md"
+      },
+      {
+        "title": "Bare Metal",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/deployment/bare_metal/",
+        "anchor": "deployment-bare_metal",
+        "virtual_path": "docs/deployment/bare_metal/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Components",
+    "kind": "category",
+    "source_url": "https://inlong.apache.org/docs/modules/agent/overview/",
+    "anchor": "modules-agent-overview",
+    "virtual_path": "docs/modules/agent/overview/index.md",
+    "children": [
+      {
+        "title": "Agent",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/modules/agent/overview/",
+        "anchor": "modules-agent-overview",
+        "virtual_path": "docs/modules/agent/overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/agent/overview/",
+            "anchor": "modules-agent-overview",
+            "virtual_path": "docs/modules/agent/overview/index.md"
+          },
+          {
+            "title": "Deployment",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/agent/deployment/",
+            "anchor": "modules-agent-deployment",
+            "virtual_path": "docs/modules/agent/deployment/index.md"
+          },
+          {
+            "title": "Configuration",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/agent/configure/",
+            "anchor": "modules-agent-configure",
+            "virtual_path": "docs/modules/agent/configure/index.md"
+          },
+          {
+            "title": "Monitor Metrics",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/agent/metrics/",
+            "anchor": "modules-agent-metrics",
+            "virtual_path": "docs/modules/agent/metrics/index.md"
+          }
+        ]
+      },
+      {
+        "title": "DataProxy",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/modules/dataproxy/overview/",
+        "anchor": "modules-dataproxy-overview",
+        "virtual_path": "docs/modules/dataproxy/overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/dataproxy/overview/",
+            "anchor": "modules-dataproxy-overview",
+            "virtual_path": "docs/modules/dataproxy/overview/index.md"
+          },
+          {
+            "title": "Deployment",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/dataproxy/deployment/",
+            "anchor": "modules-dataproxy-deployment",
+            "virtual_path": "docs/modules/dataproxy/deployment/index.md"
+          },
+          {
+            "title": "Configuration",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/dataproxy/configuration/",
+            "anchor": "modules-dataproxy-configuration",
+            "virtual_path": "docs/modules/dataproxy/configuration/index.md"
+          }
+        ]
+      },
+      {
+        "title": "TubeMQ",
+        "kind": "category",
+        "source_url": "https://inlong.apache.org/docs/modules/tubemq/overview/",
+        "anchor": "modules-tubemq-overview",
+        "virtual_path": "docs/modules/tubemq/overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/overview/",
+            "anchor": "modules-tubemq-overview",
+            "virtual_path": "docs/modules/tubemq/overview/index.md"
+          },
+          {
+            "title": "Quick Start",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/quick_start/",
+            "anchor": "modules-tubemq-quick_start",
+            "virtual_path": "docs/modules/tubemq/quick_start/index.md"
+          },
+          {
+            "title": "Producer Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/producer_example/",
+            "anchor": "modules-tubemq-producer_example",
+            "virtual_path": "docs/modules/tubemq/producer_example/index.md"
+          },
+          {
+            "title": "Consumer Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/consumer_example/",
+            "anchor": "modules-tubemq-consumer_example",
+            "virtual_path": "docs/modules/tubemq/consumer_example/index.md"
+          },
+          {
+            "title": "tubemq-manager",
+            "kind": "category",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/tubemq-manager/overview/",
+            "anchor": "modules-tubemq-tubemq-manager-overview",
+            "virtual_path": "docs/modules/tubemq/tubemq-manager/overview/index.md",
+            "children": [
+              {
+                "title": "Overview",
+                "kind": "link",
+                "source_url": "https://inlong.apache.org/docs/modules/tubemq/tubemq-manager/overview/",
+                "anchor": "modules-tubemq-tubemq-manager-overview",
+                "virtual_path": "docs/modules/tubemq/tubemq-manager/overview/index.md"
+              },
+              {
+                "title": "Deployment",
+                "kind": "link",
+                "source_url": "https://inlong.apache.org/docs/modules/tubemq/tubemq-manager/deployment/",
+                "anchor": "modules-tubemq-tubemq-manager-deployment",
+                "virtual_path": "docs/modules/tubemq/tubemq-manager/deployment/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Command-line Tools",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/commandline_tools/",
+            "anchor": "modules-tubemq-commandline_tools",
+            "virtual_path": "docs/modules/tubemq/commandline_tools/index.md"
+          },
+          {
+            "title": "client partition assign",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/client_partition_assign_introduction/",
+            "anchor": "modules-tubemq-client_partition_assign_introduction",
+            "virtual_path": "docs/modules/tubemq/client_partition_assign_introduction/index.md"
+          },
+          {
+            "title": "TubeMQ JAVA SDK API",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/clients_java/",
+            "anchor": "modules-tubemq-clients_java",
+            "virtual_path": "docs/modules/tubemq/clients_java/index.md"
+          },
+          {
+            "title": "Configuration",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/configure_introduction/",
+            "anchor": "modules-tubemq-configure_introduction",
+            "virtual_path": "docs/modules/tubemq/configure_introduction/index.md"
+          },
+          {
+            "title": "Console Introduction",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/console_introduction/",
+            "anchor": "modules-tubemq-console_introduction",
+            "virtual_path": "docs/modules/tubemq/console_introduction/index.md"
+          },
+          {
+            "title": "Error Code",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/error_code/",
+            "anchor": "modules-tubemq-error_code",
+            "virtual_path": "docs/modules/tubemq/error_code/index.md"
+          },
+          {
+            "title": "HTTP API",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/http_access_api/",
+            "anchor": "modules-tubemq-http_access_api",
+            "virtual_path": "docs/modules/tubemq/http_access_api/index.md"
+          },
+          {
+            "title": "TubeMQ Metrics",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/tubemq_metrics/",
+            "anchor": "modules-tubemq-tubemq_metrics",
+            "virtual_path": "docs/modules/tubemq/tubemq_metrics/index.md"
+          },
+          {
+            "title": "TubeMQ VS Kafka",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/tubemq/tubemq_perf_test_vs_Kafka/",
+            "anchor": "modules-tubemq-tubemq_perf_test_vs_kafka",
+            "virtual_path": "docs/modules/tubemq/tubemq_perf_test_vs_Kafka/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Sort",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/modules/sort/overview/",
+        "anchor": "modules-sort-overview",
+        "virtual_path": "docs/modules/sort/overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/sort/overview/",
+            "anchor": "modules-sort-overview",
+            "virtual_path": "docs/modules/sort/overview/index.md"
+          },
+          {
+            "title": "Deployment",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/sort/deployment/",
+            "anchor": "modules-sort-deployment",
+            "virtual_path": "docs/modules/sort/deployment/index.md"
+          },
+          {
+            "title": "Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/sort/example/",
+            "anchor": "modules-sort-example",
+            "virtual_path": "docs/modules/sort/example/index.md"
+          },
+          {
+            "title": "Monitor Metrics",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/sort/metrics/",
+            "anchor": "modules-sort-metrics",
+            "virtual_path": "docs/modules/sort/metrics/index.md"
+          },
+          {
+            "title": "Dirty Data Archive",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/sort/dirty_data_archive/",
+            "anchor": "modules-sort-dirty_data_archive",
+            "virtual_path": "docs/modules/sort/dirty_data_archive/index.md"
+          },
+          {
+            "title": "OpenTelemetry Log Report",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/sort/log_report/",
+            "anchor": "modules-sort-log_report",
+            "virtual_path": "docs/modules/sort/log_report/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Manager",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/modules/manager/overview/",
+        "anchor": "modules-manager-overview",
+        "virtual_path": "docs/modules/manager/overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/manager/overview/",
+            "anchor": "modules-manager-overview",
+            "virtual_path": "docs/modules/manager/overview/index.md"
+          },
+          {
+            "title": "Deployment",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/manager/deployment/",
+            "anchor": "modules-manager-deployment",
+            "virtual_path": "docs/modules/manager/deployment/index.md"
+          },
+          {
+            "title": "Configuration",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/manager/configure/",
+            "anchor": "modules-manager-configure",
+            "virtual_path": "docs/modules/manager/configure/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Dashboard",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/modules/dashboard/overview/",
+        "anchor": "modules-dashboard-overview",
+        "virtual_path": "docs/modules/dashboard/overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/dashboard/overview/",
+            "anchor": "modules-dashboard-overview",
+            "virtual_path": "docs/modules/dashboard/overview/index.md"
+          },
+          {
+            "title": "Deployment",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/dashboard/deployment/",
+            "anchor": "modules-dashboard-deployment",
+            "virtual_path": "docs/modules/dashboard/deployment/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Sort Standalone",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/modules/sort-standalone/overview/",
+        "anchor": "modules-sort-standalone-overview",
+        "virtual_path": "docs/modules/sort-standalone/overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/sort-standalone/overview/",
+            "anchor": "modules-sort-standalone-overview",
+            "virtual_path": "docs/modules/sort-standalone/overview/index.md"
+          },
+          {
+            "title": "Deployment",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/sort-standalone/deployment/",
+            "anchor": "modules-sort-standalone-deployment",
+            "virtual_path": "docs/modules/sort-standalone/deployment/index.md"
+          },
+          {
+            "title": "Pulsar To Hive Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/sort-standalone/pulsar2hive/",
+            "anchor": "modules-sort-standalone-pulsar2hive",
+            "virtual_path": "docs/modules/sort-standalone/pulsar2hive/index.md"
+          },
+          {
+            "title": "Pulsar To Elasticsearch Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/sort-standalone/pulsar2es/",
+            "anchor": "modules-sort-standalone-pulsar2es",
+            "virtual_path": "docs/modules/sort-standalone/pulsar2es/index.md"
+          },
+          {
+            "title": "Pulsar To kafka Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/sort-standalone/pulsar2kafka/",
+            "anchor": "modules-sort-standalone-pulsar2kafka",
+            "virtual_path": "docs/modules/sort-standalone/pulsar2kafka/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Audit",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/modules/audit/overview/",
+        "anchor": "modules-audit-overview",
+        "virtual_path": "docs/modules/audit/overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/audit/overview/",
+            "anchor": "modules-audit-overview",
+            "virtual_path": "docs/modules/audit/overview/index.md"
+          },
+          {
+            "title": "Deployment",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/audit/deployment/",
+            "anchor": "modules-audit-deployment",
+            "virtual_path": "docs/modules/audit/deployment/index.md"
+          },
+          {
+            "title": "Configuration",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/audit/configure/",
+            "anchor": "modules-audit-configure",
+            "virtual_path": "docs/modules/audit/configure/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Transform",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/modules/transform/overview/",
+        "anchor": "modules-transform-overview",
+        "virtual_path": "docs/modules/transform/overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/transform/overview/",
+            "anchor": "modules-transform-overview",
+            "virtual_path": "docs/modules/transform/overview/index.md"
+          },
+          {
+            "title": "Configuration Instructions",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/modules/transform/configuration/",
+            "anchor": "modules-transform-configuration",
+            "virtual_path": "docs/modules/transform/configuration/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Nodes",
+    "kind": "link",
+    "source_url": "https://inlong.apache.org/docs/data_node/extract_node/overview/",
+    "anchor": "data_node-extract_node-overview",
+    "virtual_path": "docs/data_node/extract_node/overview/index.md",
+    "children": [
+      {
+        "title": "Extract Nodes",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/data_node/extract_node/overview/",
+        "anchor": "data_node-extract_node-overview",
+        "virtual_path": "docs/data_node/extract_node/overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/overview/",
+            "anchor": "data_node-extract_node-overview",
+            "virtual_path": "docs/data_node/extract_node/overview/index.md"
+          },
+          {
+            "title": "Auto Push",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/auto_push/",
+            "anchor": "data_node-extract_node-auto_push",
+            "virtual_path": "docs/data_node/extract_node/auto_push/index.md"
+          },
+          {
+            "title": "File",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/file/",
+            "anchor": "data_node-extract_node-file",
+            "virtual_path": "docs/data_node/extract_node/file/index.md"
+          },
+          {
+            "title": "Kafka",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/kafka/",
+            "anchor": "data_node-extract_node-kafka",
+            "virtual_path": "docs/data_node/extract_node/kafka/index.md"
+          },
+          {
+            "title": "MongoDB-CDC",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/mongodb-cdc/",
+            "anchor": "data_node-extract_node-mongodb-cdc",
+            "virtual_path": "docs/data_node/extract_node/mongodb-cdc/index.md"
+          },
+          {
+            "title": "MySQL-CDC",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/mysql-cdc/",
+            "anchor": "data_node-extract_node-mysql-cdc",
+            "virtual_path": "docs/data_node/extract_node/mysql-cdc/index.md"
+          },
+          {
+            "title": "Oracle-CDC",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/oracle-cdc/",
+            "anchor": "data_node-extract_node-oracle-cdc",
+            "virtual_path": "docs/data_node/extract_node/oracle-cdc/index.md"
+          },
+          {
+            "title": "PostgreSQL-CDC",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/postgresql-cdc/",
+            "anchor": "data_node-extract_node-postgresql-cdc",
+            "virtual_path": "docs/data_node/extract_node/postgresql-cdc/index.md"
+          },
+          {
+            "title": "Pulsar",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/pulsar/",
+            "anchor": "data_node-extract_node-pulsar",
+            "virtual_path": "docs/data_node/extract_node/pulsar/index.md"
+          },
+          {
+            "title": "SQLServer-CDC",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/sqlserver-cdc/",
+            "anchor": "data_node-extract_node-sqlserver-cdc",
+            "virtual_path": "docs/data_node/extract_node/sqlserver-cdc/index.md"
+          },
+          {
+            "title": "Doris",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/doris/",
+            "anchor": "data_node-extract_node-doris",
+            "virtual_path": "docs/data_node/extract_node/doris/index.md"
+          },
+          {
+            "title": "Hudi",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/hudi/",
+            "anchor": "data_node-extract_node-hudi",
+            "virtual_path": "docs/data_node/extract_node/hudi/index.md"
+          },
+          {
+            "title": "TubeMQ",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/tube/",
+            "anchor": "data_node-extract_node-tube",
+            "virtual_path": "docs/data_node/extract_node/tube/index.md"
+          },
+          {
+            "title": "Iceberg",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/extract_node/iceberg/",
+            "anchor": "data_node-extract_node-iceberg",
+            "virtual_path": "docs/data_node/extract_node/iceberg/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Load Nodes",
+        "kind": "category",
+        "source_url": "https://inlong.apache.org/docs/data_node/load_node/overview/",
+        "anchor": "data_node-load_node-overview",
+        "virtual_path": "docs/data_node/load_node/overview/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/overview/",
+            "anchor": "data_node-load_node-overview",
+            "virtual_path": "docs/data_node/load_node/overview/index.md"
+          },
+          {
+            "title": "Auto Consumption",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/auto_consumption/",
+            "anchor": "data_node-load_node-auto_consumption",
+            "virtual_path": "docs/data_node/load_node/auto_consumption/index.md"
+          },
+          {
+            "title": "ClickHouse",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/clickhouse/",
+            "anchor": "data_node-load_node-clickhouse",
+            "virtual_path": "docs/data_node/load_node/clickhouse/index.md"
+          },
+          {
+            "title": "Elasticsearch",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/elasticsearch/",
+            "anchor": "data_node-load_node-elasticsearch",
+            "virtual_path": "docs/data_node/load_node/elasticsearch/index.md"
+          },
+          {
+            "title": "Greenplum",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/greenplum/",
+            "anchor": "data_node-load_node-greenplum",
+            "virtual_path": "docs/data_node/load_node/greenplum/index.md"
+          },
+          {
+            "title": "HBase",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/hbase/",
+            "anchor": "data_node-load_node-hbase",
+            "virtual_path": "docs/data_node/load_node/hbase/index.md"
+          },
+          {
+            "title": "HDFS",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/hdfs/",
+            "anchor": "data_node-load_node-hdfs",
+            "virtual_path": "docs/data_node/load_node/hdfs/index.md"
+          },
+          {
+            "title": "Hive",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/hive/",
+            "anchor": "data_node-load_node-hive",
+            "virtual_path": "docs/data_node/load_node/hive/index.md"
+          },
+          {
+            "title": "Iceberg",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/iceberg/",
+            "anchor": "data_node-load_node-iceberg",
+            "virtual_path": "docs/data_node/load_node/iceberg/index.md"
+          },
+          {
+            "title": "Kafka",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/kafka/",
+            "anchor": "data_node-load_node-kafka",
+            "virtual_path": "docs/data_node/load_node/kafka/index.md"
+          },
+          {
+            "title": "MySQL",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/mysql/",
+            "anchor": "data_node-load_node-mysql",
+            "virtual_path": "docs/data_node/load_node/mysql/index.md"
+          },
+          {
+            "title": "Oracle",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/oracle/",
+            "anchor": "data_node-load_node-oracle",
+            "virtual_path": "docs/data_node/load_node/oracle/index.md"
+          },
+          {
+            "title": "PostgreSQL",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/postgresql/",
+            "anchor": "data_node-load_node-postgresql",
+            "virtual_path": "docs/data_node/load_node/postgresql/index.md"
+          },
+          {
+            "title": "SQLServer",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/sqlserver/",
+            "anchor": "data_node-load_node-sqlserver",
+            "virtual_path": "docs/data_node/load_node/sqlserver/index.md"
+          },
+          {
+            "title": "TDSQL-PostgreSQL",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/tdsql-postgresql/",
+            "anchor": "data_node-load_node-tdsql-postgresql",
+            "virtual_path": "docs/data_node/load_node/tdsql-postgresql/index.md"
+          },
+          {
+            "title": "Doris",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/doris/",
+            "anchor": "data_node-load_node-doris",
+            "virtual_path": "docs/data_node/load_node/doris/index.md"
+          },
+          {
+            "title": "StarRocks",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/starrocks/",
+            "anchor": "data_node-load_node-starrocks",
+            "virtual_path": "docs/data_node/load_node/starrocks/index.md"
+          },
+          {
+            "title": "Hudi",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/hudi/",
+            "anchor": "data_node-load_node-hudi",
+            "virtual_path": "docs/data_node/load_node/hudi/index.md"
+          },
+          {
+            "title": "Redis",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/redis/",
+            "anchor": "data_node-load_node-redis",
+            "virtual_path": "docs/data_node/load_node/redis/index.md"
+          },
+          {
+            "title": "TubeMQ",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/data_node/load_node/tube/",
+            "anchor": "data_node-load_node-tube",
+            "virtual_path": "docs/data_node/load_node/tube/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SDK",
+    "kind": "link",
+    "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/cpp/",
+    "anchor": "sdk-dataproxy-sdk-cpp",
+    "virtual_path": "docs/sdk/dataproxy-sdk/cpp/index.md",
+    "children": [
+      {
+        "title": "DataProxy SDK",
+        "kind": "category",
+        "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/cpp/",
+        "anchor": "sdk-dataproxy-sdk-cpp",
+        "virtual_path": "docs/sdk/dataproxy-sdk/cpp/index.md",
+        "children": [
+          {
+            "title": "C++ SDK",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/cpp/",
+            "anchor": "sdk-dataproxy-sdk-cpp",
+            "virtual_path": "docs/sdk/dataproxy-sdk/cpp/index.md"
+          },
+          {
+            "title": "Java SDK",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/java/",
+            "anchor": "sdk-dataproxy-sdk-java",
+            "virtual_path": "docs/sdk/dataproxy-sdk/java/index.md"
+          },
+          {
+            "title": "HTTP Report",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/http/",
+            "anchor": "sdk-dataproxy-sdk-http",
+            "virtual_path": "docs/sdk/dataproxy-sdk/http/index.md"
+          },
+          {
+            "title": "Golang SDK",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/go/",
+            "anchor": "sdk-dataproxy-sdk-go",
+            "virtual_path": "docs/sdk/dataproxy-sdk/go/index.md"
+          },
+          {
+            "title": "Python SDK",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/python/",
+            "anchor": "sdk-dataproxy-sdk-python",
+            "virtual_path": "docs/sdk/dataproxy-sdk/python/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Manager SDK",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/sdk/manager-sdk/example/",
+        "anchor": "sdk-manager-sdk-example",
+        "virtual_path": "docs/sdk/manager-sdk/example/index.md",
+        "children": [
+          {
+            "title": "Example",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/sdk/manager-sdk/example/",
+            "anchor": "sdk-manager-sdk-example",
+            "virtual_path": "docs/sdk/manager-sdk/example/index.md"
+          }
+        ]
+      },
+      {
+        "title": "TubeMQ SDK",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/sdk/tubemq-sdk/cpp/",
+        "anchor": "sdk-tubemq-sdk-cpp",
+        "virtual_path": "docs/sdk/tubemq-sdk/cpp/index.md",
+        "children": [
+          {
+            "title": "C++ SDK",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/sdk/tubemq-sdk/cpp/",
+            "anchor": "sdk-tubemq-sdk-cpp",
+            "virtual_path": "docs/sdk/tubemq-sdk/cpp/index.md"
+          },
+          {
+            "title": "Python SDK",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/sdk/tubemq-sdk/python/",
+            "anchor": "sdk-tubemq-sdk-python",
+            "virtual_path": "docs/sdk/tubemq-sdk/python/index.md"
+          },
+          {
+            "title": "Golang SDK",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/sdk/tubemq-sdk/go/",
+            "anchor": "sdk-tubemq-sdk-go",
+            "virtual_path": "docs/sdk/tubemq-sdk/go/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "User Guide",
+    "kind": "link",
+    "source_url": "https://inlong.apache.org/docs/user_guide/dashboard_usage/",
+    "anchor": "user_guide-dashboard_usage",
+    "virtual_path": "docs/user_guide/dashboard_usage/index.md",
+    "children": [
+      {
+        "title": "Dashboard",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/user_guide/dashboard_usage/",
+        "anchor": "user_guide-dashboard_usage",
+        "virtual_path": "docs/user_guide/dashboard_usage/index.md"
+      },
+      {
+        "title": "Command-line Tools",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/user_guide/command_line_tools/",
+        "anchor": "user_guide-command_line_tools",
+        "virtual_path": "docs/user_guide/command_line_tools/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Development",
+    "kind": "link",
+    "source_url": "https://inlong.apache.org/docs/development/how_to_build/",
+    "anchor": "development-how_to_build",
+    "virtual_path": "docs/development/how_to_build/index.md",
+    "children": [
+      {
+        "title": "How to Build",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/development/how_to_build/",
+        "anchor": "development-how_to_build",
+        "virtual_path": "docs/development/how_to_build/index.md"
+      },
+      {
+        "title": "Binary Protocol",
+        "kind": "category",
+        "source_url": "https://inlong.apache.org/docs/development/binary_protocol/inlong_msg/",
+        "anchor": "development-binary_protocol-inlong_msg",
+        "virtual_path": "docs/development/binary_protocol/inlong_msg/index.md",
+        "children": [
+          {
+            "title": "InLongMsg format definition and usage",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/binary_protocol/inlong_msg/",
+            "anchor": "development-binary_protocol-inlong_msg",
+            "virtual_path": "docs/development/binary_protocol/inlong_msg/index.md"
+          },
+          {
+            "title": "Agent binary protocol",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/binary_protocol/agent/",
+            "anchor": "development-binary_protocol-agent",
+            "virtual_path": "docs/development/binary_protocol/agent/index.md"
+          },
+          {
+            "title": "DataProxy binary protocol and usage",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/binary_protocol/dataproxy_binary/",
+            "anchor": "development-binary_protocol-dataproxy_binary",
+            "virtual_path": "docs/development/binary_protocol/dataproxy_binary/index.md"
+          },
+          {
+            "title": "TubeMQ binary protocol",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/binary_protocol/tubemq_binary/",
+            "anchor": "development-binary_protocol-tubemq_binary",
+            "virtual_path": "docs/development/binary_protocol/tubemq_binary/index.md"
+          },
+          {
+            "title": "Audit data format definition and usage",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/binary_protocol/audit_msg/",
+            "anchor": "development-binary_protocol-audit_msg",
+            "virtual_path": "docs/development/binary_protocol/audit_msg/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Agent Plugins Extension",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/development/extension_agent/agent/",
+        "anchor": "development-extension_agent-agent",
+        "virtual_path": "docs/development/extension_agent/agent/index.md",
+        "children": [
+          {
+            "title": "Agent Plugin",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/extension_agent/agent/",
+            "anchor": "development-extension_agent-agent",
+            "virtual_path": "docs/development/extension_agent/agent/index.md"
+          }
+        ]
+      },
+      {
+        "title": "DataProxy Plugins Extension",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/development/extension_dataproxy/how_to_write_plugin_dataproxy/",
+        "anchor": "development-extension_dataproxy-how_to_write_plugin_dataproxy",
+        "virtual_path": "docs/development/extension_dataproxy/how_to_write_plugin_dataproxy/index.md",
+        "children": [
+          {
+            "title": "DataProxy Plugin Extension",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/extension_dataproxy/how_to_write_plugin_dataproxy/",
+            "anchor": "development-extension_dataproxy-how_to_write_plugin_dataproxy",
+            "virtual_path": "docs/development/extension_dataproxy/how_to_write_plugin_dataproxy/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Manager Plugins Extension",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/development/extension_manager/inlong_manager_shiro_plugin/",
+        "anchor": "development-extension_manager-inlong_manager_shiro_plugin",
+        "virtual_path": "docs/development/extension_manager/inlong_manager_shiro_plugin/index.md",
+        "children": [
+          {
+            "title": "Custom Authentication",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/extension_manager/inlong_manager_shiro_plugin/",
+            "anchor": "development-extension_manager-inlong_manager_shiro_plugin",
+            "virtual_path": "docs/development/extension_manager/inlong_manager_shiro_plugin/index.md"
+          },
+          {
+            "title": "Manager Custom Plugin",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/extension_manager/inlong_manager_plugin/",
+            "anchor": "development-extension_manager-inlong_manager_plugin",
+            "virtual_path": "docs/development/extension_manager/inlong_manager_plugin/index.md"
+          },
+          {
+            "title": "Manager Custom Data Node",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/extension_manager/inlong_manger_data_node_extension/",
+            "anchor": "development-extension_manager-inlong_manger_data_node_extension",
+            "virtual_path": "docs/development/extension_manager/inlong_manger_data_node_extension/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Sort Plugins Extension",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/development/extension_sort/extension_connector/",
+        "anchor": "development-extension_sort-extension_connector",
+        "virtual_path": "docs/development/extension_sort/extension_connector/index.md",
+        "children": [
+          {
+            "title": "Sort Extension Connector",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/extension_sort/extension_connector/",
+            "anchor": "development-extension_sort-extension_connector",
+            "virtual_path": "docs/development/extension_sort/extension_connector/index.md"
+          },
+          {
+            "title": "InLong sort format extend",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/extension_sort/inlong_sort_data_organization_and_binary_protocol/",
+            "anchor": "development-extension_sort-inlong_sort_data_organization_and_binary_protocol",
+            "virtual_path": "docs/development/extension_sort/inlong_sort_data_organization_and_binary_protocol/index.md"
+          },
+          {
+            "title": "Offline Sync Connector Extension",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/extension_sort/offline_data_sync/",
+            "anchor": "development-extension_sort-offline_data_sync",
+            "virtual_path": "docs/development/extension_sort/offline_data_sync/index.md"
+          },
+          {
+            "title": "Customize Flink Metrics in Sort",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/extension_sort/custom_flink_metrics/",
+            "anchor": "development-extension_sort-custom_flink_metrics",
+            "virtual_path": "docs/development/extension_sort/custom_flink_metrics/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Transform Plugins Extension",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/development/extension_transform/transform_udf/",
+        "anchor": "development-extension_transform-transform_udf",
+        "virtual_path": "docs/development/extension_transform/transform_udf/index.md",
+        "children": [
+          {
+            "title": "Transform UDF extension",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/extension_transform/transform_udf/",
+            "anchor": "development-extension_transform-transform_udf",
+            "virtual_path": "docs/development/extension_transform/transform_udf/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Dashboard Plugins Extension",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/development/extension_dashboard/how_to_write_plugin_dashboard/",
+        "anchor": "development-extension_dashboard-how_to_write_plugin_dashboard",
+        "virtual_path": "docs/development/extension_dashboard/how_to_write_plugin_dashboard/index.md",
+        "children": [
+          {
+            "title": "Dashboard Plugin Extension",
+            "kind": "link",
+            "source_url": "https://inlong.apache.org/docs/development/extension_dashboard/how_to_write_plugin_dashboard/",
+            "anchor": "development-extension_dashboard-how_to_write_plugin_dashboard",
+            "virtual_path": "docs/development/extension_dashboard/how_to_write_plugin_dashboard/index.md"
+          }
+        ]
+      },
+      {
+        "title": "REST API",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/development/api/",
+        "anchor": "development-api",
+        "virtual_path": "docs/development/api/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Administration",
+    "kind": "link",
+    "source_url": "https://inlong.apache.org/docs/administration/user_management/",
+    "anchor": "administration-user_management",
+    "virtual_path": "docs/administration/user_management/index.md",
+    "children": [
+      {
+        "title": "User Management",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/administration/user_management/",
+        "anchor": "administration-user_management",
+        "virtual_path": "docs/administration/user_management/index.md"
+      },
+      {
+        "title": "Approval Management",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/administration/approval_management/",
+        "anchor": "administration-approval_management",
+        "virtual_path": "docs/administration/approval_management/index.md"
+      },
+      {
+        "title": "Tenant Management",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/administration/multiple_tenant/",
+        "anchor": "administration-multiple_tenant",
+        "virtual_path": "docs/administration/multiple_tenant/index.md"
+      },
+      {
+        "title": "Node Management",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/administration/node_management/",
+        "anchor": "administration-node_management",
+        "virtual_path": "docs/administration/node_management/index.md"
+      },
+      {
+        "title": "Cluster Management",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/administration/cluster_management/",
+        "anchor": "administration-cluster_management",
+        "virtual_path": "docs/administration/cluster_management/index.md"
+      },
+      {
+        "title": "Tag Management",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/administration/tag_management/",
+        "anchor": "administration-tag_management",
+        "virtual_path": "docs/administration/tag_management/index.md"
+      },
+      {
+        "title": "Template Management",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/administration/template_management/",
+        "anchor": "administration-template_management",
+        "virtual_path": "docs/administration/template_management/index.md"
+      },
+      {
+        "title": "Agent management",
+        "kind": "link",
+        "source_url": "https://inlong.apache.org/docs/administration/agent_management/",
+        "anchor": "administration-agent_management",
+        "virtual_path": "docs/administration/agent_management/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Security",
+    "kind": "link",
+    "source_url": "https://inlong.apache.org/docs/security/",
+    "anchor": "security",
+    "virtual_path": "docs/security/index.md"
+  },
+  {
+    "title": "Contact Us",
+    "kind": "link",
+    "source_url": "https://inlong.apache.org/docs/contact/",
+    "anchor": "contact",
+    "virtual_path": "docs/contact/index.md"
+  }
+]

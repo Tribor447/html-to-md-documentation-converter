@@ -1,0 +1,123 @@
+- title: 'ZooKeeper: Because Coordinating Distributed Systems is a Zoo'
+  kind: category
+  source_url: https://zookeeper.apache.org/doc/r3.9.4/index.html
+  anchor: index
+  virtual_path: docs/index.md
+  children:
+  - title: ZooKeeper Overview
+    kind: category
+    children:
+    - title: Overview
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperOver.html
+      anchor: zookeeperover
+      virtual_path: docs/zookeeperOver.md
+    - title: Getting Started
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperStarted.html
+      anchor: zookeeperstarted
+      virtual_path: docs/zookeeperStarted.md
+    - title: Release Notes
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/releasenotes.html
+      anchor: releasenotes
+      virtual_path: docs/releasenotes.md
+  - title: Developers
+    kind: category
+    children:
+    - title: Programmer's Guide
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperProgrammers.html
+      anchor: zookeeperprogrammers
+      virtual_path: docs/zookeeperProgrammers.md
+    - title: ZooKeeper Use Cases
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperUseCases.html
+      anchor: zookeeperusecases
+      virtual_path: docs/zookeeperUseCases.md
+    - title: ZooKeeper Java Example
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/javaExample.html
+      anchor: javaexample
+      virtual_path: docs/javaExample.md
+    - title: Barrier and Queue Tutorial
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperTutorial.html
+      anchor: zookeepertutorial
+      virtual_path: docs/zookeeperTutorial.md
+    - title: ZooKeeper Recipes
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/recipes.html
+      anchor: recipes
+      virtual_path: docs/recipes.md
+  - title: Administrators & Operators
+    kind: category
+    children:
+    - title: Administrator's Guide
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperAdmin.html
+      anchor: zookeeperadmin
+      virtual_path: docs/zookeeperAdmin.md
+    - title: Quota Guide
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperQuotas.html
+      anchor: zookeeperquotas
+      virtual_path: docs/zookeeperQuotas.md
+    - title: Snapshot and Restore Guide
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperSnapshotAndRestore.html
+      anchor: zookeepersnapshotandrestore
+      virtual_path: docs/zookeeperSnapshotAndRestore.md
+    - title: JMX
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperJMX.html
+      anchor: zookeeperjmx
+      virtual_path: docs/zookeeperJMX.md
+    - title: Hierarchical Quorums
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperHierarchicalQuorums.html
+      anchor: zookeeperhierarchicalquorums
+      virtual_path: docs/zookeeperHierarchicalQuorums.md
+    - title: Oracle Quorum
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperOracleQuorums.html
+      anchor: zookeeperoraclequorums
+      virtual_path: docs/zookeeperOracleQuorums.md
+    - title: Observers
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperObservers.html
+      anchor: zookeeperobservers
+      virtual_path: docs/zookeeperObservers.md
+    - title: Dynamic Reconfiguration
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperReconfig.html
+      anchor: zookeeperreconfig
+      virtual_path: docs/zookeeperReconfig.md
+    - title: ZooKeeper CLI
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperCLI.html
+      anchor: zookeepercli
+      virtual_path: docs/zookeeperCLI.md
+    - title: ZooKeeper Tools
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperTools.html
+      anchor: zookeepertools
+      virtual_path: docs/zookeeperTools.md
+    - title: ZooKeeper Monitor
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperMonitor.html
+      anchor: zookeepermonitor
+      virtual_path: docs/zookeeperMonitor.md
+    - title: Audit Logging
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperAuditLogs.html
+      anchor: zookeeperauditlogs
+      virtual_path: docs/zookeeperAuditLogs.md
+  - title: Contributors
+    kind: category
+    children:
+    - title: ZooKeeper Internals
+      kind: link
+      source_url: https://zookeeper.apache.org/doc/r3.9.4/zookeeperInternals.html
+      anchor: zookeeperinternals
+      virtual_path: docs/zookeeperInternals.md

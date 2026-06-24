@@ -1,0 +1,43 @@
+- title: Documentation
+  kind: category
+  children:
+  - title: Home
+    kind: link
+    source_url: https://whirr.apache.org/docs/0.8.2/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Whirr in 5 Minutes
+    kind: link
+    source_url: https://whirr.apache.org/docs/0.8.2/whirr-in-5-minutes.html
+    anchor: whirr-in-5-minutes
+    virtual_path: docs/whirr-in-5-minutes.md
+  - title: Quick Start Guide
+    kind: category
+    source_url: https://whirr.apache.org/docs/0.8.2/quick-start-guide.html
+    anchor: quick-start-guide
+    virtual_path: docs/quick-start-guide.md
+  - title: Configuration Guide
+    kind: link
+    source_url: https://whirr.apache.org/docs/0.8.2/configuration-guide.html
+    anchor: configuration-guide
+    virtual_path: docs/configuration-guide.md
+  - title: API Guide
+    kind: link
+    source_url: https://whirr.apache.org/docs/0.8.2/api-guide.html
+    anchor: api-guide
+    virtual_path: docs/api-guide.md
+  - title: Release Notes
+    kind: link
+    source_url: https://whirr.apache.org/docs/0.8.2/release-notes.html
+    anchor: release-notes
+    virtual_path: docs/release-notes.md
+  - title: Known Limitations
+    kind: link
+    source_url: https://whirr.apache.org/docs/0.8.2/known-limitations.html
+    anchor: known-limitations
+    virtual_path: docs/known-limitations.md
+  - title: Supported Services and Clouds
+    kind: link
+    source_url: https://whirr.apache.org/docs/0.8.2/supported-services-and-clouds.html
+    anchor: supported-services-and-clouds
+    virtual_path: docs/supported-services-and-clouds.md

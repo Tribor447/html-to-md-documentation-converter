@@ -1,0 +1,226 @@
+[
+  {
+    "title": "Overview",
+    "kind": "link",
+    "source_url": "https://bookkeeper.apache.org/docs/overview/",
+    "anchor": "overview",
+    "virtual_path": "docs/overview/index.md"
+  },
+  {
+    "title": "Getting started",
+    "kind": "link",
+    "source_url": "https://bookkeeper.apache.org/docs/getting-started/installation/",
+    "anchor": "getting-started-installation",
+    "virtual_path": "docs/getting-started/installation/index.md",
+    "children": [
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/getting-started/installation/",
+        "anchor": "getting-started-installation",
+        "virtual_path": "docs/getting-started/installation/index.md"
+      },
+      {
+        "title": "Run bookies locally",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/getting-started/run-locally/",
+        "anchor": "getting-started-run-locally",
+        "virtual_path": "docs/getting-started/run-locally/index.md"
+      },
+      {
+        "title": "Concepts and architecture",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/getting-started/concepts/",
+        "anchor": "getting-started-concepts",
+        "virtual_path": "docs/getting-started/concepts/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Deployment",
+    "kind": "link",
+    "source_url": "https://bookkeeper.apache.org/docs/deployment/manual/",
+    "anchor": "deployment-manual",
+    "virtual_path": "docs/deployment/manual/index.md",
+    "children": [
+      {
+        "title": "Manual deployment",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/deployment/manual/",
+        "anchor": "deployment-manual",
+        "virtual_path": "docs/deployment/manual/index.md"
+      },
+      {
+        "title": "BookKeeper on Kubernetes",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/deployment/kubernetes/",
+        "anchor": "deployment-kubernetes",
+        "virtual_path": "docs/deployment/kubernetes/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Administration",
+    "kind": "category",
+    "source_url": "https://bookkeeper.apache.org/docs/admin/bookies/",
+    "anchor": "admin-bookies",
+    "virtual_path": "docs/admin/bookies/index.md",
+    "children": [
+      {
+        "title": "BookKeeper administration",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/admin/bookies/",
+        "anchor": "admin-bookies",
+        "virtual_path": "docs/admin/bookies/index.md"
+      },
+      {
+        "title": "AutoRecovery",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/admin/autorecovery/",
+        "anchor": "admin-autorecovery",
+        "virtual_path": "docs/admin/autorecovery/index.md"
+      },
+      {
+        "title": "Metrics collection",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/admin/metrics/",
+        "anchor": "admin-metrics",
+        "virtual_path": "docs/admin/metrics/index.md"
+      },
+      {
+        "title": "Upgrade",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/admin/upgrade/",
+        "anchor": "admin-upgrade",
+        "virtual_path": "docs/admin/upgrade/index.md"
+      },
+      {
+        "title": "Admin REST API",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/admin/http/",
+        "anchor": "admin-http",
+        "virtual_path": "docs/admin/http/index.md"
+      },
+      {
+        "title": "Decommissioning Bookies",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/admin/decomission/",
+        "anchor": "admin-decomission",
+        "virtual_path": "docs/admin/decomission/index.md"
+      }
+    ]
+  },
+  {
+    "title": "API",
+    "kind": "link",
+    "source_url": "https://bookkeeper.apache.org/docs/api/overview/",
+    "anchor": "api-overview",
+    "virtual_path": "docs/api/overview/index.md",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/api/overview/",
+        "anchor": "api-overview",
+        "virtual_path": "docs/api/overview/index.md"
+      },
+      {
+        "title": "Ledger API",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/api/ledger-api/",
+        "anchor": "api-ledger-api",
+        "virtual_path": "docs/api/ledger-api/index.md"
+      },
+      {
+        "title": "Advanced Ledger API",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/api/ledger-adv-api/",
+        "anchor": "api-ledger-adv-api",
+        "virtual_path": "docs/api/ledger-adv-api/index.md"
+      },
+      {
+        "title": "DistributedLog",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/api/distributedlog-api/",
+        "anchor": "api-distributedlog-api",
+        "virtual_path": "docs/api/distributedlog-api/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Security",
+    "kind": "link",
+    "source_url": "https://bookkeeper.apache.org/docs/security/overview/",
+    "anchor": "security-overview",
+    "virtual_path": "docs/security/overview/index.md",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/security/overview/",
+        "anchor": "security-overview",
+        "virtual_path": "docs/security/overview/index.md"
+      },
+      {
+        "title": "TLS Authentication",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/security/tls/",
+        "anchor": "security-tls",
+        "virtual_path": "docs/security/tls/index.md"
+      },
+      {
+        "title": "SASL Authentication",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/security/sasl/",
+        "anchor": "security-sasl",
+        "virtual_path": "docs/security/sasl/index.md"
+      },
+      {
+        "title": "ZooKeeper Authentication",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/security/zookeeper/",
+        "anchor": "security-zookeeper",
+        "virtual_path": "docs/security/zookeeper/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Development",
+    "kind": "link",
+    "source_url": "https://bookkeeper.apache.org/docs/development/protocol/",
+    "anchor": "development-protocol",
+    "virtual_path": "docs/development/protocol/index.md",
+    "children": [
+      {
+        "title": "BookKeeper protocol",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/development/protocol/",
+        "anchor": "development-protocol",
+        "virtual_path": "docs/development/protocol/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Reference",
+    "kind": "link",
+    "source_url": "https://bookkeeper.apache.org/docs/reference/config/",
+    "anchor": "reference-config",
+    "virtual_path": "docs/reference/config/index.md",
+    "children": [
+      {
+        "title": "Configuration",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/reference/config/",
+        "anchor": "reference-config",
+        "virtual_path": "docs/reference/config/index.md"
+      },
+      {
+        "title": "Command-line tools",
+        "kind": "link",
+        "source_url": "https://bookkeeper.apache.org/docs/reference/cli/",
+        "anchor": "reference-cli",
+        "virtual_path": "docs/reference/cli/index.md"
+      }
+    ]
+  }
+]

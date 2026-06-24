@@ -1,0 +1,1226 @@
+{
+  "entry_url": "https://inlong.apache.org/docs/introduction",
+  "site_prefix": "/docs/",
+  "site_slug": "inlong_docs",
+  "profile": "docusaurus",
+  "combined_markdown": "combined.md",
+  "page_count": 135,
+  "asset_count": 289,
+  "pages": [
+    {
+      "source_url": "https://inlong.apache.org/docs/administration/agent_management/",
+      "title": "Agent management",
+      "anchor": "administration-agent_management",
+      "virtual_path": "docs/administration/agent_management/index.md",
+      "profile": "docusaurus",
+      "score": 10855,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/administration/approval_management/",
+      "title": "Approval Management",
+      "anchor": "administration-approval_management",
+      "virtual_path": "docs/administration/approval_management/index.md",
+      "profile": "docusaurus",
+      "score": 3899,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/administration/cluster_management/",
+      "title": "Cluster Management",
+      "anchor": "administration-cluster_management",
+      "virtual_path": "docs/administration/cluster_management/index.md",
+      "profile": "docusaurus",
+      "score": 4815,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/administration/multiple_tenant/",
+      "title": "Tenant Management",
+      "anchor": "administration-multiple_tenant",
+      "virtual_path": "docs/administration/multiple_tenant/index.md",
+      "profile": "docusaurus",
+      "score": 5352,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/administration/node_management/",
+      "title": "Node Management",
+      "anchor": "administration-node_management",
+      "virtual_path": "docs/administration/node_management/index.md",
+      "profile": "docusaurus",
+      "score": 6649,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/administration/tag_management/",
+      "title": "Tag Management",
+      "anchor": "administration-tag_management",
+      "virtual_path": "docs/administration/tag_management/index.md",
+      "profile": "docusaurus",
+      "score": 5684,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/administration/template_management/",
+      "title": "Template Management",
+      "anchor": "administration-template_management",
+      "virtual_path": "docs/administration/template_management/index.md",
+      "profile": "docusaurus",
+      "score": 5451,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/administration/user_management/",
+      "title": "User Management",
+      "anchor": "administration-user_management",
+      "virtual_path": "docs/administration/user_management/index.md",
+      "profile": "docusaurus",
+      "score": 4833,
+      "depth": 1
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/contact/",
+      "title": "Contact Us",
+      "anchor": "contact",
+      "virtual_path": "docs/contact/index.md",
+      "profile": "docusaurus",
+      "score": 2481,
+      "depth": 1
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/auto_push/",
+      "title": "Auto Push",
+      "anchor": "data_node-extract_node-auto_push",
+      "virtual_path": "docs/data_node/extract_node/auto_push/index.md",
+      "profile": "docusaurus",
+      "score": 2497,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/doris/",
+      "title": "Doris",
+      "anchor": "data_node-extract_node-doris",
+      "virtual_path": "docs/data_node/extract_node/doris/index.md",
+      "profile": "docusaurus",
+      "score": 12055,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/file/",
+      "title": "File",
+      "anchor": "data_node-extract_node-file",
+      "virtual_path": "docs/data_node/extract_node/file/index.md",
+      "profile": "docusaurus",
+      "score": 6024,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/hudi/",
+      "title": "Hudi",
+      "anchor": "data_node-extract_node-hudi",
+      "virtual_path": "docs/data_node/extract_node/hudi/index.md",
+      "profile": "docusaurus",
+      "score": 11626,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/iceberg/",
+      "title": "Iceberg",
+      "anchor": "data_node-extract_node-iceberg",
+      "virtual_path": "docs/data_node/extract_node/iceberg/index.md",
+      "profile": "docusaurus",
+      "score": 9725,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/kafka/",
+      "title": "Kafka",
+      "anchor": "data_node-extract_node-kafka",
+      "virtual_path": "docs/data_node/extract_node/kafka/index.md",
+      "profile": "docusaurus",
+      "score": 16053,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/mongodb-cdc/",
+      "title": "MongoDB-CDC",
+      "anchor": "data_node-extract_node-mongodb-cdc",
+      "virtual_path": "docs/data_node/extract_node/mongodb-cdc/index.md",
+      "profile": "docusaurus",
+      "score": 15443,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/mysql-cdc/",
+      "title": "MySQL-CDC",
+      "anchor": "data_node-extract_node-mysql-cdc",
+      "virtual_path": "docs/data_node/extract_node/mysql-cdc/index.md",
+      "profile": "docusaurus",
+      "score": 29652,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/oracle-cdc/",
+      "title": "Oracle-CDC",
+      "anchor": "data_node-extract_node-oracle-cdc",
+      "virtual_path": "docs/data_node/extract_node/oracle-cdc/index.md",
+      "profile": "docusaurus",
+      "score": 33062,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/overview/",
+      "title": "Overview",
+      "anchor": "data_node-extract_node-overview",
+      "virtual_path": "docs/data_node/extract_node/overview/index.md",
+      "profile": "docusaurus",
+      "score": 5083,
+      "depth": 1
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/postgresql-cdc/",
+      "title": "PostgreSQL-CDC",
+      "anchor": "data_node-extract_node-postgresql-cdc",
+      "virtual_path": "docs/data_node/extract_node/postgresql-cdc/index.md",
+      "profile": "docusaurus",
+      "score": 17067,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/pulsar/",
+      "title": "Pulsar",
+      "anchor": "data_node-extract_node-pulsar",
+      "virtual_path": "docs/data_node/extract_node/pulsar/index.md",
+      "profile": "docusaurus",
+      "score": 12571,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/sqlserver-cdc/",
+      "title": "SQLServer-CDC",
+      "anchor": "data_node-extract_node-sqlserver-cdc",
+      "virtual_path": "docs/data_node/extract_node/sqlserver-cdc/index.md",
+      "profile": "docusaurus",
+      "score": 13416,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/extract_node/tube/",
+      "title": "TubeMQ",
+      "anchor": "data_node-extract_node-tube",
+      "virtual_path": "docs/data_node/extract_node/tube/index.md",
+      "profile": "docusaurus",
+      "score": 8951,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/auto_consumption/",
+      "title": "Auto Consumption",
+      "anchor": "data_node-load_node-auto_consumption",
+      "virtual_path": "docs/data_node/load_node/auto_consumption/index.md",
+      "profile": "docusaurus",
+      "score": 2498,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/clickhouse/",
+      "title": "ClickHouse",
+      "anchor": "data_node-load_node-clickhouse",
+      "virtual_path": "docs/data_node/load_node/clickhouse/index.md",
+      "profile": "docusaurus",
+      "score": 10167,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/doris/",
+      "title": "Doris",
+      "anchor": "data_node-load_node-doris",
+      "virtual_path": "docs/data_node/load_node/doris/index.md",
+      "profile": "docusaurus",
+      "score": 23528,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/elasticsearch/",
+      "title": "Elasticsearch",
+      "anchor": "data_node-load_node-elasticsearch",
+      "virtual_path": "docs/data_node/load_node/elasticsearch/index.md",
+      "profile": "docusaurus",
+      "score": 15482,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/greenplum/",
+      "title": "Greenplum",
+      "anchor": "data_node-load_node-greenplum",
+      "virtual_path": "docs/data_node/load_node/greenplum/index.md",
+      "profile": "docusaurus",
+      "score": 9936,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/hbase/",
+      "title": "HBase",
+      "anchor": "data_node-load_node-hbase",
+      "virtual_path": "docs/data_node/load_node/hbase/index.md",
+      "profile": "docusaurus",
+      "score": 13202,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/hdfs/",
+      "title": "HDFS",
+      "anchor": "data_node-load_node-hdfs",
+      "virtual_path": "docs/data_node/load_node/hdfs/index.md",
+      "profile": "docusaurus",
+      "score": 11444,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/hive/",
+      "title": "Hive",
+      "anchor": "data_node-load_node-hive",
+      "virtual_path": "docs/data_node/load_node/hive/index.md",
+      "profile": "docusaurus",
+      "score": 9431,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/hudi/",
+      "title": "Hudi",
+      "anchor": "data_node-load_node-hudi",
+      "virtual_path": "docs/data_node/load_node/hudi/index.md",
+      "profile": "docusaurus",
+      "score": 11125,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/iceberg/",
+      "title": "Iceberg",
+      "anchor": "data_node-load_node-iceberg",
+      "virtual_path": "docs/data_node/load_node/iceberg/index.md",
+      "profile": "docusaurus",
+      "score": 20998,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/kafka/",
+      "title": "Kafka",
+      "anchor": "data_node-load_node-kafka",
+      "virtual_path": "docs/data_node/load_node/kafka/index.md",
+      "profile": "docusaurus",
+      "score": 20634,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/mysql/",
+      "title": "MySQL",
+      "anchor": "data_node-load_node-mysql",
+      "virtual_path": "docs/data_node/load_node/mysql/index.md",
+      "profile": "docusaurus",
+      "score": 9845,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/oracle/",
+      "title": "Oracle",
+      "anchor": "data_node-load_node-oracle",
+      "virtual_path": "docs/data_node/load_node/oracle/index.md",
+      "profile": "docusaurus",
+      "score": 9903,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/overview/",
+      "title": "Overview",
+      "anchor": "data_node-load_node-overview",
+      "virtual_path": "docs/data_node/load_node/overview/index.md",
+      "profile": "docusaurus",
+      "score": 5717,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/postgresql/",
+      "title": "PostgreSQL",
+      "anchor": "data_node-load_node-postgresql",
+      "virtual_path": "docs/data_node/load_node/postgresql/index.md",
+      "profile": "docusaurus",
+      "score": 9859,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/redis/",
+      "title": "Redis",
+      "anchor": "data_node-load_node-redis",
+      "virtual_path": "docs/data_node/load_node/redis/index.md",
+      "profile": "docusaurus",
+      "score": 14411,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/sqlserver/",
+      "title": "SQLServer",
+      "anchor": "data_node-load_node-sqlserver",
+      "virtual_path": "docs/data_node/load_node/sqlserver/index.md",
+      "profile": "docusaurus",
+      "score": 9762,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/starrocks/",
+      "title": "StarRocks",
+      "anchor": "data_node-load_node-starrocks",
+      "virtual_path": "docs/data_node/load_node/starrocks/index.md",
+      "profile": "docusaurus",
+      "score": 22268,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/tdsql-postgresql/",
+      "title": "TDSQL-PostgreSQL",
+      "anchor": "data_node-load_node-tdsql-postgresql",
+      "virtual_path": "docs/data_node/load_node/tdsql-postgresql/index.md",
+      "profile": "docusaurus",
+      "score": 9875,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/data_node/load_node/tube/",
+      "title": "TubeMQ",
+      "anchor": "data_node-load_node-tube",
+      "virtual_path": "docs/data_node/load_node/tube/index.md",
+      "profile": "docusaurus",
+      "score": 7268,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/deployment/bare_metal/",
+      "title": "Bare Metal",
+      "anchor": "deployment-bare_metal",
+      "virtual_path": "docs/deployment/bare_metal/index.md",
+      "profile": "docusaurus",
+      "score": 6112,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/deployment/docker/",
+      "title": "Docker",
+      "anchor": "deployment-docker",
+      "virtual_path": "docs/deployment/docker/index.md",
+      "profile": "docusaurus",
+      "score": 6959,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/deployment/k8s/",
+      "title": "Kubernetes",
+      "anchor": "deployment-k8s",
+      "virtual_path": "docs/deployment/k8s/index.md",
+      "profile": "docusaurus",
+      "score": 19016,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/deployment/standalone/",
+      "title": "Standalone",
+      "anchor": "deployment-standalone",
+      "virtual_path": "docs/deployment/standalone/index.md",
+      "profile": "docusaurus",
+      "score": 8818,
+      "depth": 1
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/design_and_concept/basic_concept/",
+      "title": "Basic Concept",
+      "anchor": "design_and_concept-basic_concept",
+      "virtual_path": "docs/design_and_concept/basic_concept/index.md",
+      "profile": "docusaurus",
+      "score": 4393,
+      "depth": 1
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/design_and_concept/the_format_in_inlong/",
+      "title": "Format",
+      "anchor": "design_and_concept-the_format_in_inlong",
+      "virtual_path": "docs/design_and_concept/the_format_in_inlong/index.md",
+      "profile": "docusaurus",
+      "score": 10291,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/api/",
+      "title": "REST API",
+      "anchor": "development-api",
+      "virtual_path": "docs/development/api/index.md",
+      "profile": "docusaurus",
+      "score": 695,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/binary_protocol/agent/",
+      "title": "Agent binary protocol",
+      "anchor": "development-binary_protocol-agent",
+      "virtual_path": "docs/development/binary_protocol/agent/index.md",
+      "profile": "docusaurus",
+      "score": 16393,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/binary_protocol/audit_msg/",
+      "title": "Audit data format definition and usage",
+      "anchor": "development-binary_protocol-audit_msg",
+      "virtual_path": "docs/development/binary_protocol/audit_msg/index.md",
+      "profile": "docusaurus",
+      "score": 14551,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/binary_protocol/dataproxy_binary/",
+      "title": "DataProxy binary protocol and usage",
+      "anchor": "development-binary_protocol-dataproxy_binary",
+      "virtual_path": "docs/development/binary_protocol/dataproxy_binary/index.md",
+      "profile": "docusaurus",
+      "score": 14596,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/binary_protocol/inlong_msg/",
+      "title": "InLongMsg format definition and usage",
+      "anchor": "development-binary_protocol-inlong_msg",
+      "virtual_path": "docs/development/binary_protocol/inlong_msg/index.md",
+      "profile": "docusaurus",
+      "score": 17388,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/binary_protocol/tubemq_binary/",
+      "title": "TubeMQ binary protocol",
+      "anchor": "development-binary_protocol-tubemq_binary",
+      "virtual_path": "docs/development/binary_protocol/tubemq_binary/index.md",
+      "profile": "docusaurus",
+      "score": 37876,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/extension_agent/agent/",
+      "title": "Agent Plugin",
+      "anchor": "development-extension_agent-agent",
+      "virtual_path": "docs/development/extension_agent/agent/index.md",
+      "profile": "docusaurus",
+      "score": 15068,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/extension_dashboard/how_to_write_plugin_dashboard/",
+      "title": "Dashboard Plugin Extension",
+      "anchor": "development-extension_dashboard-how_to_write_plugin_dashboard",
+      "virtual_path": "docs/development/extension_dashboard/how_to_write_plugin_dashboard/index.md",
+      "profile": "docusaurus",
+      "score": 9027,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/extension_dataproxy/how_to_write_plugin_dataproxy/",
+      "title": "DataProxy Plugin Extension",
+      "anchor": "development-extension_dataproxy-how_to_write_plugin_dataproxy",
+      "virtual_path": "docs/development/extension_dataproxy/how_to_write_plugin_dataproxy/index.md",
+      "profile": "docusaurus",
+      "score": 8515,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/extension_manager/inlong_manager_plugin/",
+      "title": "Manager Custom Plugin",
+      "anchor": "development-extension_manager-inlong_manager_plugin",
+      "virtual_path": "docs/development/extension_manager/inlong_manager_plugin/index.md",
+      "profile": "docusaurus",
+      "score": 9428,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/extension_manager/inlong_manager_shiro_plugin/",
+      "title": "Custom Authentication",
+      "anchor": "development-extension_manager-inlong_manager_shiro_plugin",
+      "virtual_path": "docs/development/extension_manager/inlong_manager_shiro_plugin/index.md",
+      "profile": "docusaurus",
+      "score": 5298,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/extension_manager/inlong_manger_data_node_extension/",
+      "title": "Manager Custom Data Node",
+      "anchor": "development-extension_manager-inlong_manger_data_node_extension",
+      "virtual_path": "docs/development/extension_manager/inlong_manger_data_node_extension/index.md",
+      "profile": "docusaurus",
+      "score": 4975,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/extension_sort/custom_flink_metrics/",
+      "title": "Customize Flink Metrics in Sort-Connector",
+      "anchor": "development-extension_sort-custom_flink_metrics",
+      "virtual_path": "docs/development/extension_sort/custom_flink_metrics/index.md",
+      "profile": "docusaurus",
+      "score": 14602,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/extension_sort/extension_connector/",
+      "title": "Sort Extension Connector",
+      "anchor": "development-extension_sort-extension_connector",
+      "virtual_path": "docs/development/extension_sort/extension_connector/index.md",
+      "profile": "docusaurus",
+      "score": 21582,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/extension_sort/inlong_sort_data_organization_and_binary_protocol/",
+      "title": "InLong sort format extend",
+      "anchor": "development-extension_sort-inlong_sort_data_organization_and_binary_protocol",
+      "virtual_path": "docs/development/extension_sort/inlong_sort_data_organization_and_binary_protocol/index.md",
+      "profile": "docusaurus",
+      "score": 11095,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/extension_sort/offline_data_sync/",
+      "title": "Offline Sync Connector Extension",
+      "anchor": "development-extension_sort-offline_data_sync",
+      "virtual_path": "docs/development/extension_sort/offline_data_sync/index.md",
+      "profile": "docusaurus",
+      "score": 17993,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/extension_transform/transform_udf/",
+      "title": "Basic Concepts",
+      "anchor": "development-extension_transform-transform_udf",
+      "virtual_path": "docs/development/extension_transform/transform_udf/index.md",
+      "profile": "docusaurus",
+      "score": 25419,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/development/how_to_build/",
+      "title": "How to Build",
+      "anchor": "development-how_to_build",
+      "virtual_path": "docs/development/how_to_build/index.md",
+      "profile": "docusaurus",
+      "score": 4497,
+      "depth": 1
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/introduction/",
+      "title": "Introduction",
+      "anchor": "introduction",
+      "virtual_path": "docs/introduction/index.md",
+      "profile": "docusaurus",
+      "score": 9809,
+      "depth": 0
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/agent/configure/",
+      "title": "Configuration",
+      "anchor": "modules-agent-configure",
+      "virtual_path": "docs/modules/agent/configure/index.md",
+      "profile": "docusaurus",
+      "score": 7753,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/agent/deployment/",
+      "title": "Deployment",
+      "anchor": "modules-agent-deployment",
+      "virtual_path": "docs/modules/agent/deployment/index.md",
+      "profile": "docusaurus",
+      "score": 4130,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/agent/metrics/",
+      "title": "Monitor Metrics",
+      "anchor": "modules-agent-metrics",
+      "virtual_path": "docs/modules/agent/metrics/index.md",
+      "profile": "docusaurus",
+      "score": 7338,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/agent/overview/",
+      "title": "Overview",
+      "anchor": "modules-agent-overview",
+      "virtual_path": "docs/modules/agent/overview/index.md",
+      "profile": "docusaurus",
+      "score": 18174,
+      "depth": 1
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/audit/configure/",
+      "title": "Configuration",
+      "anchor": "modules-audit-configure",
+      "virtual_path": "docs/modules/audit/configure/index.md",
+      "profile": "docusaurus",
+      "score": 8212,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/audit/deployment/",
+      "title": "Deployment",
+      "anchor": "modules-audit-deployment",
+      "virtual_path": "docs/modules/audit/deployment/index.md",
+      "profile": "docusaurus",
+      "score": 11385,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/audit/overview/",
+      "title": "Overview",
+      "anchor": "modules-audit-overview",
+      "virtual_path": "docs/modules/audit/overview/index.md",
+      "profile": "docusaurus",
+      "score": 9440,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/dashboard/deployment/",
+      "title": "Deployment",
+      "anchor": "modules-dashboard-deployment",
+      "virtual_path": "docs/modules/dashboard/deployment/index.md",
+      "profile": "docusaurus",
+      "score": 4499,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/dashboard/overview/",
+      "title": "Overview",
+      "anchor": "modules-dashboard-overview",
+      "virtual_path": "docs/modules/dashboard/overview/index.md",
+      "profile": "docusaurus",
+      "score": 5324,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/dataproxy/configuration/",
+      "title": "Configuration",
+      "anchor": "modules-dataproxy-configuration",
+      "virtual_path": "docs/modules/dataproxy/configuration/index.md",
+      "profile": "docusaurus",
+      "score": 14726,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/dataproxy/deployment/",
+      "title": "Deployment",
+      "anchor": "modules-dataproxy-deployment",
+      "virtual_path": "docs/modules/dataproxy/deployment/index.md",
+      "profile": "docusaurus",
+      "score": 4337,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/dataproxy/overview/",
+      "title": "Overview",
+      "anchor": "modules-dataproxy-overview",
+      "virtual_path": "docs/modules/dataproxy/overview/index.md",
+      "profile": "docusaurus",
+      "score": 8762,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/manager/configure/",
+      "title": "Configuration",
+      "anchor": "modules-manager-configure",
+      "virtual_path": "docs/modules/manager/configure/index.md",
+      "profile": "docusaurus",
+      "score": 9351,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/manager/deployment/",
+      "title": "Deployment",
+      "anchor": "modules-manager-deployment",
+      "virtual_path": "docs/modules/manager/deployment/index.md",
+      "profile": "docusaurus",
+      "score": 12314,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/manager/overview/",
+      "title": "Overview",
+      "anchor": "modules-manager-overview",
+      "virtual_path": "docs/modules/manager/overview/index.md",
+      "profile": "docusaurus",
+      "score": 4973,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/sort-standalone/deployment/",
+      "title": "Deployment",
+      "anchor": "modules-sort-standalone-deployment",
+      "virtual_path": "docs/modules/sort-standalone/deployment/index.md",
+      "profile": "docusaurus",
+      "score": 13981,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/sort-standalone/overview/",
+      "title": "Overview",
+      "anchor": "modules-sort-standalone-overview",
+      "virtual_path": "docs/modules/sort-standalone/overview/index.md",
+      "profile": "docusaurus",
+      "score": 7664,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/sort-standalone/pulsar2es/",
+      "title": "Pulsar To Elasticsearch Example",
+      "anchor": "modules-sort-standalone-pulsar2es",
+      "virtual_path": "docs/modules/sort-standalone/pulsar2es/index.md",
+      "profile": "docusaurus",
+      "score": 16479,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/sort-standalone/pulsar2hive/",
+      "title": "Pulsar To Hive Example",
+      "anchor": "modules-sort-standalone-pulsar2hive",
+      "virtual_path": "docs/modules/sort-standalone/pulsar2hive/index.md",
+      "profile": "docusaurus",
+      "score": 18630,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/sort-standalone/pulsar2kafka/",
+      "title": "Pulsar To kafka Example",
+      "anchor": "modules-sort-standalone-pulsar2kafka",
+      "virtual_path": "docs/modules/sort-standalone/pulsar2kafka/index.md",
+      "profile": "docusaurus",
+      "score": 6837,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/sort/deployment/",
+      "title": "Deployment",
+      "anchor": "modules-sort-deployment",
+      "virtual_path": "docs/modules/sort/deployment/index.md",
+      "profile": "docusaurus",
+      "score": 6132,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/sort/dirty_data_archive/",
+      "title": "Dirty Data Archive",
+      "anchor": "modules-sort-dirty_data_archive",
+      "virtual_path": "docs/modules/sort/dirty_data_archive/index.md",
+      "profile": "docusaurus",
+      "score": 15927,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/sort/example/",
+      "title": "Example",
+      "anchor": "modules-sort-example",
+      "virtual_path": "docs/modules/sort/example/index.md",
+      "profile": "docusaurus",
+      "score": 8223,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/sort/log_report/",
+      "title": "OpenTelemetry Log Report",
+      "anchor": "modules-sort-log_report",
+      "virtual_path": "docs/modules/sort/log_report/index.md",
+      "profile": "docusaurus",
+      "score": 12825,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/sort/metrics/",
+      "title": "Monitor Metrics",
+      "anchor": "modules-sort-metrics",
+      "virtual_path": "docs/modules/sort/metrics/index.md",
+      "profile": "docusaurus",
+      "score": 14929,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/sort/overview/",
+      "title": "Overview",
+      "anchor": "modules-sort-overview",
+      "virtual_path": "docs/modules/sort/overview/index.md",
+      "profile": "docusaurus",
+      "score": 3713,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/transform/configuration/",
+      "title": "Parameter Configuration Description",
+      "anchor": "modules-transform-configuration",
+      "virtual_path": "docs/modules/transform/configuration/index.md",
+      "profile": "docusaurus",
+      "score": 16938,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/transform/overview/",
+      "title": "Introduction",
+      "anchor": "modules-transform-overview",
+      "virtual_path": "docs/modules/transform/overview/index.md",
+      "profile": "docusaurus",
+      "score": 7771,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/client_partition_assign_introduction/",
+      "title": "client partition assign",
+      "anchor": "modules-tubemq-client_partition_assign_introduction",
+      "virtual_path": "docs/modules/tubemq/client_partition_assign_introduction/index.md",
+      "profile": "docusaurus",
+      "score": 14414,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/clients_java/",
+      "title": "TubeMQ JAVA SDK API",
+      "anchor": "modules-tubemq-clients_java",
+      "virtual_path": "docs/modules/tubemq/clients_java/index.md",
+      "profile": "docusaurus",
+      "score": 26876,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/commandline_tools/",
+      "title": "Command-line Tools",
+      "anchor": "modules-tubemq-commandline_tools",
+      "virtual_path": "docs/modules/tubemq/commandline_tools/index.md",
+      "profile": "docusaurus",
+      "score": 17288,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/configure_introduction/",
+      "title": "Configuration",
+      "anchor": "modules-tubemq-configure_introduction",
+      "virtual_path": "docs/modules/tubemq/configure_introduction/index.md",
+      "profile": "docusaurus",
+      "score": 24502,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/console_introduction/",
+      "title": "Console Introduction",
+      "anchor": "modules-tubemq-console_introduction",
+      "virtual_path": "docs/modules/tubemq/console_introduction/index.md",
+      "profile": "docusaurus",
+      "score": 18352,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/consumer_example/",
+      "title": "Consumer Example",
+      "anchor": "modules-tubemq-consumer_example",
+      "virtual_path": "docs/modules/tubemq/consumer_example/index.md",
+      "profile": "docusaurus",
+      "score": 5880,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/error_code/",
+      "title": "Error Code",
+      "anchor": "modules-tubemq-error_code",
+      "virtual_path": "docs/modules/tubemq/error_code/index.md",
+      "profile": "docusaurus",
+      "score": 18212,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/http_access_api/",
+      "title": "HTTP API",
+      "anchor": "modules-tubemq-http_access_api",
+      "virtual_path": "docs/modules/tubemq/http_access_api/index.md",
+      "profile": "docusaurus",
+      "score": 69131,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/overview/",
+      "title": "Overview",
+      "anchor": "modules-tubemq-overview",
+      "virtual_path": "docs/modules/tubemq/overview/index.md",
+      "profile": "docusaurus",
+      "score": 6359,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/producer_example/",
+      "title": "Producer Example",
+      "anchor": "modules-tubemq-producer_example",
+      "virtual_path": "docs/modules/tubemq/producer_example/index.md",
+      "profile": "docusaurus",
+      "score": 10048,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/quick_start/",
+      "title": "Quick Start",
+      "anchor": "modules-tubemq-quick_start",
+      "virtual_path": "docs/modules/tubemq/quick_start/index.md",
+      "profile": "docusaurus",
+      "score": 17426,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/tubemq-manager/deployment/",
+      "title": "Deployment",
+      "anchor": "modules-tubemq-tubemq-manager-deployment",
+      "virtual_path": "docs/modules/tubemq/tubemq-manager/deployment/index.md",
+      "profile": "docusaurus",
+      "score": 7049,
+      "depth": 4
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/tubemq-manager/overview/",
+      "title": "Overview",
+      "anchor": "modules-tubemq-tubemq-manager-overview",
+      "virtual_path": "docs/modules/tubemq/tubemq-manager/overview/index.md",
+      "profile": "docusaurus",
+      "score": 8056,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/tubemq_metrics/",
+      "title": "TubeMQ Metrics",
+      "anchor": "modules-tubemq-tubemq_metrics",
+      "virtual_path": "docs/modules/tubemq/tubemq_metrics/index.md",
+      "profile": "docusaurus",
+      "score": 7178,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/modules/tubemq/tubemq_perf_test_vs_Kafka/",
+      "title": "TubeMQ VS Kafka",
+      "anchor": "modules-tubemq-tubemq_perf_test_vs_kafka",
+      "virtual_path": "docs/modules/tubemq/tubemq_perf_test_vs_Kafka/index.md",
+      "profile": "docusaurus",
+      "score": 31402,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/data_http_report/http_report/",
+      "title": "HTTP Report Example",
+      "anchor": "quick_start-data_http_report-http_report",
+      "virtual_path": "docs/quick_start/data_http_report/http_report/index.md",
+      "profile": "docusaurus",
+      "score": 8063,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example/",
+      "title": "Pulsar Example",
+      "anchor": "quick_start-data_ingestion-file_pulsar_clickhouse_example",
+      "virtual_path": "docs/quick_start/data_ingestion/file_pulsar_clickhouse_example/index.md",
+      "profile": "docusaurus",
+      "score": 12809,
+      "depth": 1
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/data_ingestion/mysql_kafka_clickhouse_example/",
+      "title": "Kafka Example",
+      "anchor": "quick_start-data_ingestion-mysql_kafka_clickhouse_example",
+      "virtual_path": "docs/quick_start/data_ingestion/mysql_kafka_clickhouse_example/index.md",
+      "profile": "docusaurus",
+      "score": 13034,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/data_subscription/clickhouse_example/",
+      "title": "Prerequisites",
+      "anchor": "quick_start-data_subscription-clickhouse_example",
+      "virtual_path": "docs/quick_start/data_subscription/clickhouse_example/index.md",
+      "profile": "docusaurus",
+      "score": 3619,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/offline_data_sync/airflow_example/",
+      "title": "Airflow Scheduling Engine Example",
+      "anchor": "quick_start-offline_data_sync-airflow_example",
+      "virtual_path": "docs/quick_start/offline_data_sync/airflow_example/index.md",
+      "profile": "docusaurus",
+      "score": 14448,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/offline_data_sync/dolphinscheduler_example/",
+      "title": "DolphinScheduler Scheduling Engine Example",
+      "anchor": "quick_start-offline_data_sync-dolphinscheduler_example",
+      "virtual_path": "docs/quick_start/offline_data_sync/dolphinscheduler_example/index.md",
+      "profile": "docusaurus",
+      "score": 14190,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/offline_data_sync/quartz_example/",
+      "title": "Quartz Scheduling Engine Example",
+      "anchor": "quick_start-offline_data_sync-quartz_example",
+      "virtual_path": "docs/quick_start/offline_data_sync/quartz_example/index.md",
+      "profile": "docusaurus",
+      "score": 15166,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/realtime_data_sync/mysql_clickhouse_example/",
+      "title": "MySQL to ClickHouse Example",
+      "anchor": "quick_start-realtime_data_sync-mysql_clickhouse_example",
+      "virtual_path": "docs/quick_start/realtime_data_sync/mysql_clickhouse_example/index.md",
+      "profile": "docusaurus",
+      "score": 11614,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/realtime_data_sync/mysql_iceberg_example/",
+      "title": "MySQL to Iceberg Example",
+      "anchor": "quick_start-realtime_data_sync-mysql_iceberg_example",
+      "virtual_path": "docs/quick_start/realtime_data_sync/mysql_iceberg_example/index.md",
+      "profile": "docusaurus",
+      "score": 10987,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/realtime_data_sync/mysql_starrocks_example/",
+      "title": "MySQL to StarRocks Example",
+      "anchor": "quick_start-realtime_data_sync-mysql_starrocks_example",
+      "virtual_path": "docs/quick_start/realtime_data_sync/mysql_starrocks_example/index.md",
+      "profile": "docusaurus",
+      "score": 10451,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/realtime_data_sync/pulsar_clickhouse_example/",
+      "title": "Pulsar to ClickHouse Example",
+      "anchor": "quick_start-realtime_data_sync-pulsar_clickhouse_example",
+      "virtual_path": "docs/quick_start/realtime_data_sync/pulsar_clickhouse_example/index.md",
+      "profile": "docusaurus",
+      "score": 11574,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/quick_start/transform/sdk_example/",
+      "title": "Prerequisites",
+      "anchor": "quick_start-transform-sdk_example",
+      "virtual_path": "docs/quick_start/transform/sdk_example/index.md",
+      "profile": "docusaurus",
+      "score": 8804,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/cpp/",
+      "title": "C++ SDK",
+      "anchor": "sdk-dataproxy-sdk-cpp",
+      "virtual_path": "docs/sdk/dataproxy-sdk/cpp/index.md",
+      "profile": "docusaurus",
+      "score": 11423,
+      "depth": 1
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/go/",
+      "title": "Golang SDK",
+      "anchor": "sdk-dataproxy-sdk-go",
+      "virtual_path": "docs/sdk/dataproxy-sdk/go/index.md",
+      "profile": "docusaurus",
+      "score": 14862,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/http/",
+      "title": "HTTP Report",
+      "anchor": "sdk-dataproxy-sdk-http",
+      "virtual_path": "docs/sdk/dataproxy-sdk/http/index.md",
+      "profile": "docusaurus",
+      "score": 10266,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/java/",
+      "title": "Java SDK",
+      "anchor": "sdk-dataproxy-sdk-java",
+      "virtual_path": "docs/sdk/dataproxy-sdk/java/index.md",
+      "profile": "docusaurus",
+      "score": 15468,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/sdk/dataproxy-sdk/python/",
+      "title": "Python SDK",
+      "anchor": "sdk-dataproxy-sdk-python",
+      "virtual_path": "docs/sdk/dataproxy-sdk/python/index.md",
+      "profile": "docusaurus",
+      "score": 12532,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/sdk/manager-sdk/example/",
+      "title": "Example",
+      "anchor": "sdk-manager-sdk-example",
+      "virtual_path": "docs/sdk/manager-sdk/example/index.md",
+      "profile": "docusaurus",
+      "score": 6661,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/sdk/tubemq-sdk/cpp/",
+      "title": "C++ SDK",
+      "anchor": "sdk-tubemq-sdk-cpp",
+      "virtual_path": "docs/sdk/tubemq-sdk/cpp/index.md",
+      "profile": "docusaurus",
+      "score": 10871,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/sdk/tubemq-sdk/go/",
+      "title": "Golang SDK",
+      "anchor": "sdk-tubemq-sdk-go",
+      "virtual_path": "docs/sdk/tubemq-sdk/go/index.md",
+      "profile": "docusaurus",
+      "score": 6936,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/sdk/tubemq-sdk/python/",
+      "title": "Python SDK",
+      "anchor": "sdk-tubemq-sdk-python",
+      "virtual_path": "docs/sdk/tubemq-sdk/python/index.md",
+      "profile": "docusaurus",
+      "score": 7668,
+      "depth": 3
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/security/",
+      "title": "Security",
+      "anchor": "security",
+      "virtual_path": "docs/security/index.md",
+      "profile": "docusaurus",
+      "score": 4075,
+      "depth": 1
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/user_guide/command_line_tools/",
+      "title": "Command-line Tools",
+      "anchor": "user_guide-command_line_tools",
+      "virtual_path": "docs/user_guide/command_line_tools/index.md",
+      "profile": "docusaurus",
+      "score": 50728,
+      "depth": 2
+    },
+    {
+      "source_url": "https://inlong.apache.org/docs/user_guide/dashboard_usage/",
+      "title": "Dashboard",
+      "anchor": "user_guide-dashboard_usage",
+      "virtual_path": "docs/user_guide/dashboard_usage/index.md",
+      "profile": "docusaurus",
+      "score": 23687,
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+This is an major version release that contains all the bug fixes and improvement
+in 0.5.4 and 0.6.1. 0.7.0 also make lots of performance and scalability enhancement like
+1) Reduce AM mem usage caused by storing TezEvents
+2) Stabilize and improve the Pipeline shuffle,  make PipelienedSorter as the default sorter,
+3) Remove 2 GB memlimit restriction in MergeManager
+4) Enable local fetch optimization by default
+Please see CHANGES.txt for more details.

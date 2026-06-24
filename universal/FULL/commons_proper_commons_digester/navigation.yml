@@ -1,0 +1,160 @@
+- title: Digester
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-digester/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Issue Tracking
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-digester/issue-tracking.html
+    anchor: issue-tracking
+    virtual_path: docs/issue-tracking.md
+- title: Developers Guide
+  kind: category
+  children:
+  - title: Core APIs
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-digester/guide/core.html
+    anchor: guide-core
+    virtual_path: docs/guide/core.md
+  - title: Rules Binder
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-digester/guide/binder.html
+    anchor: guide-binder
+    virtual_path: docs/guide/binder.md
+  - title: Constructor based rule (new)
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-digester/guide/constructor.html
+    anchor: guide-constructor
+    virtual_path: docs/guide/constructor.md
+  - title: Async parser
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-digester/guide/async.html
+    anchor: guide-async
+    virtual_path: docs/guide/async.md
+  - title: Substitution
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-digester/guide/substitution.html
+    anchor: guide-substitution
+    virtual_path: docs/guide/substitution.md
+  - title: XML Rules
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-digester/guide/xmlrules.html
+    anchor: guide-xmlrules
+    virtual_path: docs/guide/xmlrules.md
+  - title: Annotations
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-digester/guide/annotations.html
+    anchor: guide-annotations
+    virtual_path: docs/guide/annotations.md
+  - title: FAQ
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-digester/guide/faq.html
+    anchor: guide-faq
+    virtual_path: docs/guide/faq.md
+- title: Release 2.1
+  kind: category
+  children:
+  - title: Guide
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-digester/commons-digester-2.1/core.html
+    anchor: commons-digester-2.1-core
+    virtual_path: docs/commons-digester-2.1/core.md
+    children:
+    - title: Core APIs
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/commons-digester-2.1/core.html
+      anchor: commons-digester-2.1-core
+      virtual_path: docs/commons-digester-2.1/core.md
+    - title: Substitution
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/commons-digester-2.1/substitution.html
+      anchor: commons-digester-2.1-substitution
+      virtual_path: docs/commons-digester-2.1/substitution.md
+    - title: XML Rules
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/commons-digester-2.1/xmlrules.html
+      anchor: commons-digester-2.1-xmlrules
+      virtual_path: docs/commons-digester-2.1/xmlrules.md
+    - title: Annotations
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/commons-digester-2.1/annotations.html
+      anchor: commons-digester-2.1-annotations
+      virtual_path: docs/commons-digester-2.1/annotations.md
+    - title: FAQ
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/commons-digester-2.1/faq.html
+      anchor: commons-digester-2.1-faq
+      virtual_path: docs/commons-digester-2.1/faq.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-digester/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: category
+      source_url: https://commons.apache.org/proper/commons-digester/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Project Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/project-summary.html
+      anchor: project-summary
+      virtual_path: docs/project-summary.md
+    - title: Project Modules
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/modules.html
+      anchor: modules
+      virtual_path: docs/modules.md
+    - title: Issue Tracking
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/issue-tracking.html
+      anchor: issue-tracking
+      virtual_path: docs/issue-tracking.md
+    - title: Continuous Integration
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/integration.html
+      anchor: integration
+      virtual_path: docs/integration.md
+  - title: Project Reports
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-digester/project-reports.html
+    anchor: project-reports
+    virtual_path: docs/project-reports.md
+    children:
+    - title: Changes Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/changes-report.html
+      anchor: changes-report
+      virtual_path: docs/changes-report.md
+    - title: JIRA Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/jira-report.html
+      anchor: jira-report
+      virtual_path: docs/jira-report.md
+    - title: Surefire Report
+      kind: category
+      source_url: https://commons.apache.org/proper/commons-digester/surefire-report.html
+      anchor: surefire-report
+      virtual_path: docs/surefire-report.md
+    - title: RAT Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/rat-report.html
+      anchor: rat-report
+      virtual_path: docs/rat-report.md
+    - title: CPD Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/cpd.html
+      anchor: cpd
+      virtual_path: docs/cpd.md
+    - title: PMD Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-digester/pmd.html
+      anchor: pmd
+      virtual_path: docs/pmd.md

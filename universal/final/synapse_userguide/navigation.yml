@@ -1,0 +1,73 @@
+- title: Documentation
+  kind: category
+  children:
+  - title: Installation Guide
+    kind: category
+    source_url: https://synapse.apache.org/userguide/installation.html
+    anchor: installation
+    virtual_path: docs/installation.md
+  - title: Quick Start Guide
+    kind: link
+    source_url: https://synapse.apache.org/userguide/quick_start.html
+    anchor: quick_start
+    virtual_path: docs/quick_start.md
+  - title: Samples Setup Guide
+    kind: link
+    source_url: https://synapse.apache.org/userguide/samples/setup/index.html
+    anchor: samples-setup
+    virtual_path: docs/samples/setup/index.md
+  - title: Samples Catalog
+    kind: link
+    source_url: https://synapse.apache.org/userguide/samples.html
+    anchor: samples
+    virtual_path: docs/samples.md
+  - title: Configuration Language
+    kind: link
+    source_url: https://synapse.apache.org/userguide/config.html
+    anchor: config
+    virtual_path: docs/config.md
+  - title: Mediators Catalog
+    kind: link
+    source_url: https://synapse.apache.org/userguide/mediators.html
+    anchor: mediators
+    virtual_path: docs/mediators.md
+  - title: Transports Catalog
+    kind: link
+    source_url: https://synapse.apache.org/userguide/transports.html
+    anchor: transports
+    virtual_path: docs/transports.md
+  - title: Properties Catalog
+    kind: link
+    source_url: https://synapse.apache.org/userguide/properties.html
+    anchor: properties
+    virtual_path: docs/properties.md
+  - title: XPath functions and Variables
+    kind: link
+    source_url: https://synapse.apache.org/userguide/xpath.html
+    anchor: xpath
+    virtual_path: docs/xpath.md
+  - title: Extending Synapse
+    kind: link
+    source_url: https://synapse.apache.org/userguide/extending.html
+    anchor: extending
+    virtual_path: docs/extending.md
+  - title: Synapse Template Libraries
+    kind: link
+    source_url: https://synapse.apache.org/userguide/template_library.html
+    anchor: template_library
+    virtual_path: docs/template_library.md
+  - title: Upgrading
+    kind: link
+    source_url: https://synapse.apache.org/userguide/upgrading.html
+    anchor: upgrading
+    virtual_path: docs/upgrading.md
+  - title: Deployment
+    kind: link
+    source_url: https://synapse.apache.org/userguide/deployment.html
+    anchor: deployment
+    virtual_path: docs/deployment.md
+  - title: FAQ
+    kind: link
+    source_url: https://synapse.apache.org/userguide/faq.html
+    anchor: faq
+    virtual_path: docs/faq.md

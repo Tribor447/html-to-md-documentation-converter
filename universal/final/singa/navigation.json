@@ -1,0 +1,4106 @@
+[
+  {
+    "title": "Getting Started",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/installation/",
+        "anchor": "docs-2.0.0-installation",
+        "virtual_path": "docs/docs/2.0.0/installation/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/software-stack/",
+        "anchor": "docs-2.0.0-software-stack",
+        "virtual_path": "docs/docs/2.0.0/software-stack/index.md"
+      },
+      {
+        "title": "Benchmark for Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/benchmark-train/",
+        "anchor": "docs-2.0.0-benchmark-train",
+        "virtual_path": "docs/docs/2.0.0/benchmark-train/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/examples/",
+        "anchor": "docs-examples",
+        "virtual_path": "docs/docs/examples/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Guides",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/device/",
+        "anchor": "docs-2.0.0-device",
+        "virtual_path": "docs/docs/2.0.0/device/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/tensor/",
+        "anchor": "docs-2.0.0-tensor",
+        "virtual_path": "docs/docs/2.0.0/tensor/index.md"
+      },
+      {
+        "title": "Autograd in SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/autograd/",
+        "anchor": "docs-2.0.0-autograd",
+        "virtual_path": "docs/docs/2.0.0/autograd/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/autograd/",
+        "anchor": "docs-autograd",
+        "virtual_path": "docs/docs/autograd/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/optimizer/",
+        "anchor": "docs-optimizer",
+        "virtual_path": "docs/docs/optimizer/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/graph/",
+        "anchor": "docs-graph",
+        "virtual_path": "docs/docs/graph/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/onnx/",
+        "anchor": "docs-onnx",
+        "virtual_path": "docs/docs/onnx/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/dist-train/",
+        "anchor": "docs-dist-train",
+        "virtual_path": "docs/docs/dist-train/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/time-profiling/",
+        "anchor": "docs-time-profiling",
+        "virtual_path": "docs/docs/time-profiling/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/half-precision/",
+        "anchor": "docs-half-precision",
+        "virtual_path": "docs/docs/half-precision/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Model Zoo",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Train CNN over Cifar-10",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/model-zoo-cnn-cifar10/",
+        "anchor": "docs-2.0.0-model-zoo-cnn-cifar10",
+        "virtual_path": "docs/docs/2.0.0/model-zoo-cnn-cifar10/index.md"
+      },
+      {
+        "title": "Train Char-RNN over plain text",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/model-zoo-char-rnn/",
+        "anchor": "docs-2.0.0-model-zoo-char-rnn",
+        "virtual_path": "docs/docs/2.0.0/model-zoo-char-rnn/index.md"
+      },
+      {
+        "title": "Train a RBM model against MNIST dataset",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/model-zoo-rbm-mnist/",
+        "anchor": "docs-2.0.0-model-zoo-rbm-mnist",
+        "virtual_path": "docs/docs/2.0.0/model-zoo-rbm-mnist/index.md"
+      },
+      {
+        "title": "Train AlexNet over ImageNet",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/model-zoo-imagenet-alexnet/",
+        "anchor": "docs-2.0.0-model-zoo-imagenet-alexnet",
+        "virtual_path": "docs/docs/2.0.0/model-zoo-imagenet-alexnet/index.md"
+      },
+      {
+        "title": "Image Classification using DenseNet",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/model-zoo-imagenet-densenet/",
+        "anchor": "docs-2.0.0-model-zoo-imagenet-densenet",
+        "virtual_path": "docs/docs/2.0.0/model-zoo-imagenet-densenet/index.md"
+      },
+      {
+        "title": "Image Classification using GoogleNet",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/model-zoo-imagenet-googlenet/",
+        "anchor": "docs-2.0.0-model-zoo-imagenet-googlenet",
+        "virtual_path": "docs/docs/2.0.0/model-zoo-imagenet-googlenet/index.md"
+      },
+      {
+        "title": "Image Classification using Inception V4",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/model-zoo-imagenet-inception/",
+        "anchor": "docs-2.0.0-model-zoo-imagenet-inception",
+        "virtual_path": "docs/docs/2.0.0/model-zoo-imagenet-inception/index.md"
+      },
+      {
+        "title": "Image Classification using Residual Networks",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/model-zoo-imagenet-resnet/",
+        "anchor": "docs-2.0.0-model-zoo-imagenet-resnet",
+        "virtual_path": "docs/docs/2.0.0/model-zoo-imagenet-resnet/index.md"
+      },
+      {
+        "title": "Image Classification using VGG",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/model-zoo-imagenet-vgg/",
+        "anchor": "docs-2.0.0-model-zoo-imagenet-vgg",
+        "virtual_path": "docs/docs/2.0.0/model-zoo-imagenet-vgg/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Development",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/downloads/",
+        "anchor": "docs-2.0.0-downloads",
+        "virtual_path": "docs/docs/2.0.0/downloads/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/build/",
+        "anchor": "docs-2.0.0-build",
+        "virtual_path": "docs/docs/2.0.0/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/contribute-code/",
+        "anchor": "docs-2.0.0-contribute-code",
+        "virtual_path": "docs/docs/2.0.0/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/contribute-docs/",
+        "anchor": "docs-2.0.0-contribute-docs",
+        "virtual_path": "docs/docs/2.0.0/contribute-docs/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/how-to-release/",
+        "anchor": "docs-2.0.0-how-to-release",
+        "virtual_path": "docs/docs/2.0.0/how-to-release/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/git-workflow/",
+        "anchor": "docs-git-workflow",
+        "virtual_path": "docs/docs/git-workflow/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Device",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/device/",
+    "anchor": "docs-device",
+    "virtual_path": "docs/docs/device/index.md"
+  },
+  {
+    "title": "Tensor",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/tensor/",
+    "anchor": "docs-tensor",
+    "virtual_path": "docs/docs/tensor/index.md"
+  },
+  {
+    "title": "Autograd",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/autograd/",
+    "anchor": "docs-5.1.0_chinese-autograd",
+    "virtual_path": "docs/docs/5.1.0_Chinese/autograd/index.md"
+  },
+  {
+    "title": "Optimizer",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/optimizer/",
+    "anchor": "docs-5.1.0_chinese-optimizer",
+    "virtual_path": "docs/docs/5.1.0_Chinese/optimizer/index.md"
+  },
+  {
+    "title": "Model",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/graph/",
+    "anchor": "docs-5.1.0_chinese-graph",
+    "virtual_path": "docs/docs/5.1.0_Chinese/graph/index.md"
+  },
+  {
+    "title": "ONNX",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/onnx/",
+    "anchor": "docs-5.1.0_chinese-onnx",
+    "virtual_path": "docs/docs/5.1.0_Chinese/onnx/index.md"
+  },
+  {
+    "title": "Distributed Training",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/dist-train/",
+    "anchor": "docs-5.1.0_chinese-dist-train",
+    "virtual_path": "docs/docs/5.1.0_Chinese/dist-train/index.md"
+  },
+  {
+    "title": "Time Profiling",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/time-profiling/",
+    "anchor": "docs-5.1.0_chinese-time-profiling",
+    "virtual_path": "docs/docs/5.1.0_Chinese/time-profiling/index.md"
+  },
+  {
+    "title": "Half Precision",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/half-precision/",
+    "anchor": "docs-5.1.0_chinese-half-precision",
+    "virtual_path": "docs/docs/5.1.0_Chinese/half-precision/index.md"
+  },
+  {
+    "title": "Computational Graph",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/3.0.0/graph/",
+    "anchor": "docs-3.0.0-graph",
+    "virtual_path": "docs/docs/3.0.0/graph/index.md"
+  },
+  {
+    "title": "Download SINGA",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/3.0.0.rc1/downloads/",
+    "anchor": "docs-3.0.0.rc1-downloads",
+    "virtual_path": "docs/docs/3.0.0.rc1/downloads/index.md"
+  },
+  {
+    "title": "Build SINGA from Source",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/3.0.0.rc1/build/",
+    "anchor": "docs-3.0.0.rc1-build",
+    "virtual_path": "docs/docs/3.0.0.rc1/build/index.md"
+  },
+  {
+    "title": "How to Contribute Code",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/3.0.0.rc1/contribute-code/",
+    "anchor": "docs-3.0.0.rc1-contribute-code",
+    "virtual_path": "docs/docs/3.0.0.rc1/contribute-code/index.md"
+  },
+  {
+    "title": "How to Contribute to Documentation",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/3.0.0.rc1/contribute-docs/",
+    "anchor": "docs-3.0.0.rc1-contribute-docs",
+    "virtual_path": "docs/docs/3.0.0.rc1/contribute-docs/index.md"
+  },
+  {
+    "title": "How to Prepare a Release",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/3.0.0.rc1/how-to-release/",
+    "anchor": "docs-3.0.0.rc1-how-to-release",
+    "virtual_path": "docs/docs/3.0.0.rc1/how-to-release/index.md"
+  },
+  {
+    "title": "Git Workflow",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/3.0.0.rc1/git-workflow/",
+    "anchor": "docs-3.0.0.rc1-git-workflow",
+    "virtual_path": "docs/docs/3.0.0.rc1/git-workflow/index.md"
+  },
+  {
+    "title": "Source Repository",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Viet/source-repository/",
+    "anchor": "docs-5.1.0_viet-source-repository",
+    "virtual_path": "docs/docs/5.1.0_Viet/source-repository/index.md"
+  },
+  {
+    "title": "Danh sách liên hệ của Dự Án",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Viet/mail-lists/",
+    "anchor": "docs-5.1.0_viet-mail-lists",
+    "virtual_path": "docs/docs/5.1.0_Viet/mail-lists/index.md"
+  },
+  {
+    "title": "Theo Dõi Vấn Đề",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Viet/issue-tracking/",
+    "anchor": "docs-5.1.0_viet-issue-tracking",
+    "virtual_path": "docs/docs/5.1.0_Viet/issue-tracking/index.md"
+  },
+  {
+    "title": "Danh sách nhân sự SINGA",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Viet/team-list/",
+    "anchor": "docs-5.1.0_viet-team-list",
+    "virtual_path": "docs/docs/5.1.0_Viet/team-list/index.md"
+  },
+  {
+    "title": "Lịch Sử Phát Triển SINGA",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/5.1.0_Viet/history-singa/",
+    "anchor": "docs-5.1.0_viet-history-singa",
+    "virtual_path": "docs/docs/5.1.0_Viet/history-singa/index.md"
+  },
+  {
+    "title": "Project Mailing Lists",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/mail-lists/",
+    "anchor": "docs-mail-lists",
+    "virtual_path": "docs/docs/mail-lists/index.md"
+  },
+  {
+    "title": "Issue Tracking",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/issue-tracking/",
+    "anchor": "docs-issue-tracking",
+    "virtual_path": "docs/docs/issue-tracking/index.md"
+  },
+  {
+    "title": "Security",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/security/",
+    "anchor": "docs-security",
+    "virtual_path": "docs/docs/security/index.md"
+  },
+  {
+    "title": "The SINGA Team",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/team-list/",
+    "anchor": "docs-team-list",
+    "virtual_path": "docs/docs/team-list/index.md"
+  },
+  {
+    "title": "History of SINGA",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/history-singa/",
+    "anchor": "docs-history-singa",
+    "virtual_path": "docs/docs/history-singa/index.md"
+  },
+  {
+    "title": "Docs",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/installation/",
+    "anchor": "docs-installation",
+    "virtual_path": "docs/docs/installation/index.md"
+  },
+  {
+    "title": "Community",
+    "kind": "link",
+    "source_url": "https://singa.apache.org/docs/source-repository/",
+    "anchor": "docs-source-repository",
+    "virtual_path": "docs/docs/source-repository/index.md"
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/history-singa/",
+        "anchor": "docs-2.0.0-history-singa",
+        "virtual_path": "docs/docs/2.0.0/history-singa/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/install-win/",
+        "anchor": "docs-2.0.0-install-win",
+        "virtual_path": "docs/docs/2.0.0/install-win/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/issue-tracking/",
+        "anchor": "docs-2.0.0-issue-tracking",
+        "virtual_path": "docs/docs/2.0.0/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/mail-lists/",
+        "anchor": "docs-2.0.0-mail-lists",
+        "virtual_path": "docs/docs/2.0.0/mail-lists/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/optimizer/",
+        "anchor": "docs-2.0.0-optimizer",
+        "virtual_path": "docs/docs/2.0.0/optimizer/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/security/",
+        "anchor": "docs-2.0.0-security",
+        "virtual_path": "docs/docs/2.0.0/security/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/source-repository/",
+        "anchor": "docs-2.0.0-source-repository",
+        "virtual_path": "docs/docs/2.0.0/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/2.0.0/team-list/",
+        "anchor": "docs-2.0.0-team-list",
+        "virtual_path": "docs/docs/2.0.0/team-list/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/autograd/",
+        "anchor": "docs-3.0.0.rc1-autograd",
+        "virtual_path": "docs/docs/3.0.0.rc1/autograd/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/device/",
+        "anchor": "docs-3.0.0.rc1-device",
+        "virtual_path": "docs/docs/3.0.0.rc1/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/dist-train/",
+        "anchor": "docs-3.0.0.rc1-dist-train",
+        "virtual_path": "docs/docs/3.0.0.rc1/dist-train/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/examples/",
+        "anchor": "docs-3.0.0.rc1-examples",
+        "virtual_path": "docs/docs/3.0.0.rc1/examples/index.md"
+      },
+      {
+        "title": "Computational Graph",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/graph/",
+        "anchor": "docs-3.0.0.rc1-graph",
+        "virtual_path": "docs/docs/3.0.0.rc1/graph/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/history-singa/",
+        "anchor": "docs-3.0.0.rc1-history-singa",
+        "virtual_path": "docs/docs/3.0.0.rc1/history-singa/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/install-win/",
+        "anchor": "docs-3.0.0.rc1-install-win",
+        "virtual_path": "docs/docs/3.0.0.rc1/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/installation/",
+        "anchor": "docs-3.0.0.rc1-installation",
+        "virtual_path": "docs/docs/3.0.0.rc1/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/issue-tracking/",
+        "anchor": "docs-3.0.0.rc1-issue-tracking",
+        "virtual_path": "docs/docs/3.0.0.rc1/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/mail-lists/",
+        "anchor": "docs-3.0.0.rc1-mail-lists",
+        "virtual_path": "docs/docs/3.0.0.rc1/mail-lists/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/security/",
+        "anchor": "docs-3.0.0.rc1-security",
+        "virtual_path": "docs/docs/3.0.0.rc1/security/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/software-stack/",
+        "anchor": "docs-3.0.0.rc1-software-stack",
+        "virtual_path": "docs/docs/3.0.0.rc1/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/source-repository/",
+        "anchor": "docs-3.0.0.rc1-source-repository",
+        "virtual_path": "docs/docs/3.0.0.rc1/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/team-list/",
+        "anchor": "docs-3.0.0.rc1-team-list",
+        "virtual_path": "docs/docs/3.0.0.rc1/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0.rc1/tensor/",
+        "anchor": "docs-3.0.0.rc1-tensor",
+        "virtual_path": "docs/docs/3.0.0.rc1/tensor/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/autograd/",
+        "anchor": "docs-3.0.0-autograd",
+        "virtual_path": "docs/docs/3.0.0/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/build/",
+        "anchor": "docs-3.0.0-build",
+        "virtual_path": "docs/docs/3.0.0/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/contribute-code/",
+        "anchor": "docs-3.0.0-contribute-code",
+        "virtual_path": "docs/docs/3.0.0/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/contribute-docs/",
+        "anchor": "docs-3.0.0-contribute-docs",
+        "virtual_path": "docs/docs/3.0.0/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/device/",
+        "anchor": "docs-3.0.0-device",
+        "virtual_path": "docs/docs/3.0.0/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/dist-train/",
+        "anchor": "docs-3.0.0-dist-train",
+        "virtual_path": "docs/docs/3.0.0/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/downloads/",
+        "anchor": "docs-3.0.0-downloads",
+        "virtual_path": "docs/docs/3.0.0/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/examples/",
+        "anchor": "docs-3.0.0-examples",
+        "virtual_path": "docs/docs/3.0.0/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/git-workflow/",
+        "anchor": "docs-3.0.0-git-workflow",
+        "virtual_path": "docs/docs/3.0.0/git-workflow/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/history-singa/",
+        "anchor": "docs-3.0.0-history-singa",
+        "virtual_path": "docs/docs/3.0.0/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/how-to-release/",
+        "anchor": "docs-3.0.0-how-to-release",
+        "virtual_path": "docs/docs/3.0.0/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/install-win/",
+        "anchor": "docs-3.0.0-install-win",
+        "virtual_path": "docs/docs/3.0.0/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/installation/",
+        "anchor": "docs-3.0.0-installation",
+        "virtual_path": "docs/docs/3.0.0/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/issue-tracking/",
+        "anchor": "docs-3.0.0-issue-tracking",
+        "virtual_path": "docs/docs/3.0.0/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/mail-lists/",
+        "anchor": "docs-3.0.0-mail-lists",
+        "virtual_path": "docs/docs/3.0.0/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/onnx/",
+        "anchor": "docs-3.0.0-onnx",
+        "virtual_path": "docs/docs/3.0.0/onnx/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/security/",
+        "anchor": "docs-3.0.0-security",
+        "virtual_path": "docs/docs/3.0.0/security/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/software-stack/",
+        "anchor": "docs-3.0.0-software-stack",
+        "virtual_path": "docs/docs/3.0.0/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/source-repository/",
+        "anchor": "docs-3.0.0-source-repository",
+        "virtual_path": "docs/docs/3.0.0/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/team-list/",
+        "anchor": "docs-3.0.0-team-list",
+        "virtual_path": "docs/docs/3.0.0/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.0.0/tensor/",
+        "anchor": "docs-3.0.0-tensor",
+        "virtual_path": "docs/docs/3.0.0/tensor/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/autograd/",
+        "anchor": "docs-3.1.0-autograd",
+        "virtual_path": "docs/docs/3.1.0/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/build/",
+        "anchor": "docs-3.1.0-build",
+        "virtual_path": "docs/docs/3.1.0/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/contribute-code/",
+        "anchor": "docs-3.1.0-contribute-code",
+        "virtual_path": "docs/docs/3.1.0/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/contribute-docs/",
+        "anchor": "docs-3.1.0-contribute-docs",
+        "virtual_path": "docs/docs/3.1.0/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/device/",
+        "anchor": "docs-3.1.0-device",
+        "virtual_path": "docs/docs/3.1.0/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/dist-train/",
+        "anchor": "docs-3.1.0-dist-train",
+        "virtual_path": "docs/docs/3.1.0/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/downloads/",
+        "anchor": "docs-3.1.0-downloads",
+        "virtual_path": "docs/docs/3.1.0/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/examples/",
+        "anchor": "docs-3.1.0-examples",
+        "virtual_path": "docs/docs/3.1.0/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/git-workflow/",
+        "anchor": "docs-3.1.0-git-workflow",
+        "virtual_path": "docs/docs/3.1.0/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/graph/",
+        "anchor": "docs-3.1.0-graph",
+        "virtual_path": "docs/docs/3.1.0/graph/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/history-singa/",
+        "anchor": "docs-3.1.0-history-singa",
+        "virtual_path": "docs/docs/3.1.0/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/how-to-release/",
+        "anchor": "docs-3.1.0-how-to-release",
+        "virtual_path": "docs/docs/3.1.0/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/install-win/",
+        "anchor": "docs-3.1.0-install-win",
+        "virtual_path": "docs/docs/3.1.0/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/installation/",
+        "anchor": "docs-3.1.0-installation",
+        "virtual_path": "docs/docs/3.1.0/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/issue-tracking/",
+        "anchor": "docs-3.1.0-issue-tracking",
+        "virtual_path": "docs/docs/3.1.0/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/mail-lists/",
+        "anchor": "docs-3.1.0-mail-lists",
+        "virtual_path": "docs/docs/3.1.0/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/onnx/",
+        "anchor": "docs-3.1.0-onnx",
+        "virtual_path": "docs/docs/3.1.0/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/optimizer/",
+        "anchor": "docs-3.1.0-optimizer",
+        "virtual_path": "docs/docs/3.1.0/optimizer/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/software-stack/",
+        "anchor": "docs-3.1.0-software-stack",
+        "virtual_path": "docs/docs/3.1.0/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/source-repository/",
+        "anchor": "docs-3.1.0-source-repository",
+        "virtual_path": "docs/docs/3.1.0/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/team-list/",
+        "anchor": "docs-3.1.0-team-list",
+        "virtual_path": "docs/docs/3.1.0/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/tensor/",
+        "anchor": "docs-3.1.0-tensor",
+        "virtual_path": "docs/docs/3.1.0/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/time-profiling/",
+        "anchor": "docs-3.1.0-time-profiling",
+        "virtual_path": "docs/docs/3.1.0/time-profiling/index.md"
+      },
+      {
+        "title": "CPU only · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/wheel-cpu/",
+        "anchor": "docs-3.1.0-wheel-cpu",
+        "virtual_path": "docs/docs/3.1.0/wheel-cpu/index.md"
+      },
+      {
+        "title": "CUDA enabled (dev version) · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/wheel-gpu-dev/",
+        "anchor": "docs-3.1.0-wheel-gpu-dev",
+        "virtual_path": "docs/docs/3.1.0/wheel-gpu-dev/index.md"
+      },
+      {
+        "title": "CUDA Enabled · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.1.0/wheel-gpu/",
+        "anchor": "docs-3.1.0-wheel-gpu",
+        "virtual_path": "docs/docs/3.1.0/wheel-gpu/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/autograd/",
+        "anchor": "docs-3.2.0.rc1-autograd",
+        "virtual_path": "docs/docs/3.2.0.rc1/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/build/",
+        "anchor": "docs-3.2.0.rc1-build",
+        "virtual_path": "docs/docs/3.2.0.rc1/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/contribute-code/",
+        "anchor": "docs-3.2.0.rc1-contribute-code",
+        "virtual_path": "docs/docs/3.2.0.rc1/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/contribute-docs/",
+        "anchor": "docs-3.2.0.rc1-contribute-docs",
+        "virtual_path": "docs/docs/3.2.0.rc1/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/device/",
+        "anchor": "docs-3.2.0.rc1-device",
+        "virtual_path": "docs/docs/3.2.0.rc1/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/dist-train/",
+        "anchor": "docs-3.2.0.rc1-dist-train",
+        "virtual_path": "docs/docs/3.2.0.rc1/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/downloads/",
+        "anchor": "docs-3.2.0.rc1-downloads",
+        "virtual_path": "docs/docs/3.2.0.rc1/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/examples/",
+        "anchor": "docs-3.2.0.rc1-examples",
+        "virtual_path": "docs/docs/3.2.0.rc1/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/git-workflow/",
+        "anchor": "docs-3.2.0.rc1-git-workflow",
+        "virtual_path": "docs/docs/3.2.0.rc1/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/graph/",
+        "anchor": "docs-3.2.0.rc1-graph",
+        "virtual_path": "docs/docs/3.2.0.rc1/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/half-precision/",
+        "anchor": "docs-3.2.0.rc1-half-precision",
+        "virtual_path": "docs/docs/3.2.0.rc1/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/history-singa/",
+        "anchor": "docs-3.2.0.rc1-history-singa",
+        "virtual_path": "docs/docs/3.2.0.rc1/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/how-to-release/",
+        "anchor": "docs-3.2.0.rc1-how-to-release",
+        "virtual_path": "docs/docs/3.2.0.rc1/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/install-win/",
+        "anchor": "docs-3.2.0.rc1-install-win",
+        "virtual_path": "docs/docs/3.2.0.rc1/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/installation/",
+        "anchor": "docs-3.2.0.rc1-installation",
+        "virtual_path": "docs/docs/3.2.0.rc1/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/issue-tracking/",
+        "anchor": "docs-3.2.0.rc1-issue-tracking",
+        "virtual_path": "docs/docs/3.2.0.rc1/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/mail-lists/",
+        "anchor": "docs-3.2.0.rc1-mail-lists",
+        "virtual_path": "docs/docs/3.2.0.rc1/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/onnx/",
+        "anchor": "docs-3.2.0.rc1-onnx",
+        "virtual_path": "docs/docs/3.2.0.rc1/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/optimizer/",
+        "anchor": "docs-3.2.0.rc1-optimizer",
+        "virtual_path": "docs/docs/3.2.0.rc1/optimizer/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/security/",
+        "anchor": "docs-3.2.0.rc1-security",
+        "virtual_path": "docs/docs/3.2.0.rc1/security/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/software-stack/",
+        "anchor": "docs-3.2.0.rc1-software-stack",
+        "virtual_path": "docs/docs/3.2.0.rc1/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/source-repository/",
+        "anchor": "docs-3.2.0.rc1-source-repository",
+        "virtual_path": "docs/docs/3.2.0.rc1/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/team-list/",
+        "anchor": "docs-3.2.0.rc1-team-list",
+        "virtual_path": "docs/docs/3.2.0.rc1/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/tensor/",
+        "anchor": "docs-3.2.0.rc1-tensor",
+        "virtual_path": "docs/docs/3.2.0.rc1/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0.rc1/time-profiling/",
+        "anchor": "docs-3.2.0.rc1-time-profiling",
+        "virtual_path": "docs/docs/3.2.0.rc1/time-profiling/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/autograd/",
+        "anchor": "docs-3.2.0-autograd",
+        "virtual_path": "docs/docs/3.2.0/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/build/",
+        "anchor": "docs-3.2.0-build",
+        "virtual_path": "docs/docs/3.2.0/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/contribute-code/",
+        "anchor": "docs-3.2.0-contribute-code",
+        "virtual_path": "docs/docs/3.2.0/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/contribute-docs/",
+        "anchor": "docs-3.2.0-contribute-docs",
+        "virtual_path": "docs/docs/3.2.0/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/device/",
+        "anchor": "docs-3.2.0-device",
+        "virtual_path": "docs/docs/3.2.0/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/dist-train/",
+        "anchor": "docs-3.2.0-dist-train",
+        "virtual_path": "docs/docs/3.2.0/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/downloads/",
+        "anchor": "docs-3.2.0-downloads",
+        "virtual_path": "docs/docs/3.2.0/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/examples/",
+        "anchor": "docs-3.2.0-examples",
+        "virtual_path": "docs/docs/3.2.0/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/git-workflow/",
+        "anchor": "docs-3.2.0-git-workflow",
+        "virtual_path": "docs/docs/3.2.0/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/graph/",
+        "anchor": "docs-3.2.0-graph",
+        "virtual_path": "docs/docs/3.2.0/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/half-precision/",
+        "anchor": "docs-3.2.0-half-precision",
+        "virtual_path": "docs/docs/3.2.0/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/history-singa/",
+        "anchor": "docs-3.2.0-history-singa",
+        "virtual_path": "docs/docs/3.2.0/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/how-to-release/",
+        "anchor": "docs-3.2.0-how-to-release",
+        "virtual_path": "docs/docs/3.2.0/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/install-win/",
+        "anchor": "docs-3.2.0-install-win",
+        "virtual_path": "docs/docs/3.2.0/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/installation/",
+        "anchor": "docs-3.2.0-installation",
+        "virtual_path": "docs/docs/3.2.0/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/issue-tracking/",
+        "anchor": "docs-3.2.0-issue-tracking",
+        "virtual_path": "docs/docs/3.2.0/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/mail-lists/",
+        "anchor": "docs-3.2.0-mail-lists",
+        "virtual_path": "docs/docs/3.2.0/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/onnx/",
+        "anchor": "docs-3.2.0-onnx",
+        "virtual_path": "docs/docs/3.2.0/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/optimizer/",
+        "anchor": "docs-3.2.0-optimizer",
+        "virtual_path": "docs/docs/3.2.0/optimizer/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/security/",
+        "anchor": "docs-3.2.0-security",
+        "virtual_path": "docs/docs/3.2.0/security/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/software-stack/",
+        "anchor": "docs-3.2.0-software-stack",
+        "virtual_path": "docs/docs/3.2.0/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/source-repository/",
+        "anchor": "docs-3.2.0-source-repository",
+        "virtual_path": "docs/docs/3.2.0/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/team-list/",
+        "anchor": "docs-3.2.0-team-list",
+        "virtual_path": "docs/docs/3.2.0/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/tensor/",
+        "anchor": "docs-3.2.0-tensor",
+        "virtual_path": "docs/docs/3.2.0/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.2.0/time-profiling/",
+        "anchor": "docs-3.2.0-time-profiling",
+        "virtual_path": "docs/docs/3.2.0/time-profiling/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/autograd/",
+        "anchor": "docs-3.3.0-autograd",
+        "virtual_path": "docs/docs/3.3.0/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/build/",
+        "anchor": "docs-3.3.0-build",
+        "virtual_path": "docs/docs/3.3.0/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/contribute-code/",
+        "anchor": "docs-3.3.0-contribute-code",
+        "virtual_path": "docs/docs/3.3.0/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/contribute-docs/",
+        "anchor": "docs-3.3.0-contribute-docs",
+        "virtual_path": "docs/docs/3.3.0/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/device/",
+        "anchor": "docs-3.3.0-device",
+        "virtual_path": "docs/docs/3.3.0/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/dist-train/",
+        "anchor": "docs-3.3.0-dist-train",
+        "virtual_path": "docs/docs/3.3.0/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/downloads/",
+        "anchor": "docs-3.3.0-downloads",
+        "virtual_path": "docs/docs/3.3.0/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/examples/",
+        "anchor": "docs-3.3.0-examples",
+        "virtual_path": "docs/docs/3.3.0/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/git-workflow/",
+        "anchor": "docs-3.3.0-git-workflow",
+        "virtual_path": "docs/docs/3.3.0/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/graph/",
+        "anchor": "docs-3.3.0-graph",
+        "virtual_path": "docs/docs/3.3.0/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/half-precision/",
+        "anchor": "docs-3.3.0-half-precision",
+        "virtual_path": "docs/docs/3.3.0/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/history-singa/",
+        "anchor": "docs-3.3.0-history-singa",
+        "virtual_path": "docs/docs/3.3.0/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/how-to-release/",
+        "anchor": "docs-3.3.0-how-to-release",
+        "virtual_path": "docs/docs/3.3.0/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/install-win/",
+        "anchor": "docs-3.3.0-install-win",
+        "virtual_path": "docs/docs/3.3.0/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/installation/",
+        "anchor": "docs-3.3.0-installation",
+        "virtual_path": "docs/docs/3.3.0/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/issue-tracking/",
+        "anchor": "docs-3.3.0-issue-tracking",
+        "virtual_path": "docs/docs/3.3.0/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/mail-lists/",
+        "anchor": "docs-3.3.0-mail-lists",
+        "virtual_path": "docs/docs/3.3.0/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/onnx/",
+        "anchor": "docs-3.3.0-onnx",
+        "virtual_path": "docs/docs/3.3.0/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/optimizer/",
+        "anchor": "docs-3.3.0-optimizer",
+        "virtual_path": "docs/docs/3.3.0/optimizer/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/security/",
+        "anchor": "docs-3.3.0-security",
+        "virtual_path": "docs/docs/3.3.0/security/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/software-stack/",
+        "anchor": "docs-3.3.0-software-stack",
+        "virtual_path": "docs/docs/3.3.0/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/source-repository/",
+        "anchor": "docs-3.3.0-source-repository",
+        "virtual_path": "docs/docs/3.3.0/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/team-list/",
+        "anchor": "docs-3.3.0-team-list",
+        "virtual_path": "docs/docs/3.3.0/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/tensor/",
+        "anchor": "docs-3.3.0-tensor",
+        "virtual_path": "docs/docs/3.3.0/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/3.3.0/time-profiling/",
+        "anchor": "docs-3.3.0-time-profiling",
+        "virtual_path": "docs/docs/3.3.0/time-profiling/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/autograd/",
+        "anchor": "docs-4.0.0-autograd",
+        "virtual_path": "docs/docs/4.0.0/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/build/",
+        "anchor": "docs-4.0.0-build",
+        "virtual_path": "docs/docs/4.0.0/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/contribute-code/",
+        "anchor": "docs-4.0.0-contribute-code",
+        "virtual_path": "docs/docs/4.0.0/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/contribute-docs/",
+        "anchor": "docs-4.0.0-contribute-docs",
+        "virtual_path": "docs/docs/4.0.0/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/device/",
+        "anchor": "docs-4.0.0-device",
+        "virtual_path": "docs/docs/4.0.0/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/dist-train/",
+        "anchor": "docs-4.0.0-dist-train",
+        "virtual_path": "docs/docs/4.0.0/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/downloads/",
+        "anchor": "docs-4.0.0-downloads",
+        "virtual_path": "docs/docs/4.0.0/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/examples/",
+        "anchor": "docs-4.0.0-examples",
+        "virtual_path": "docs/docs/4.0.0/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/git-workflow/",
+        "anchor": "docs-4.0.0-git-workflow",
+        "virtual_path": "docs/docs/4.0.0/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/graph/",
+        "anchor": "docs-4.0.0-graph",
+        "virtual_path": "docs/docs/4.0.0/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/half-precision/",
+        "anchor": "docs-4.0.0-half-precision",
+        "virtual_path": "docs/docs/4.0.0/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/history-singa/",
+        "anchor": "docs-4.0.0-history-singa",
+        "virtual_path": "docs/docs/4.0.0/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/how-to-release/",
+        "anchor": "docs-4.0.0-how-to-release",
+        "virtual_path": "docs/docs/4.0.0/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/install-win/",
+        "anchor": "docs-4.0.0-install-win",
+        "virtual_path": "docs/docs/4.0.0/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/installation/",
+        "anchor": "docs-4.0.0-installation",
+        "virtual_path": "docs/docs/4.0.0/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/issue-tracking/",
+        "anchor": "docs-4.0.0-issue-tracking",
+        "virtual_path": "docs/docs/4.0.0/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/mail-lists/",
+        "anchor": "docs-4.0.0-mail-lists",
+        "virtual_path": "docs/docs/4.0.0/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/onnx/",
+        "anchor": "docs-4.0.0-onnx",
+        "virtual_path": "docs/docs/4.0.0/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/optimizer/",
+        "anchor": "docs-4.0.0-optimizer",
+        "virtual_path": "docs/docs/4.0.0/optimizer/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/security/",
+        "anchor": "docs-4.0.0-security",
+        "virtual_path": "docs/docs/4.0.0/security/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/software-stack/",
+        "anchor": "docs-4.0.0-software-stack",
+        "virtual_path": "docs/docs/4.0.0/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/source-repository/",
+        "anchor": "docs-4.0.0-source-repository",
+        "virtual_path": "docs/docs/4.0.0/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/team-list/",
+        "anchor": "docs-4.0.0-team-list",
+        "virtual_path": "docs/docs/4.0.0/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/tensor/",
+        "anchor": "docs-4.0.0-tensor",
+        "virtual_path": "docs/docs/4.0.0/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.0.0/time-profiling/",
+        "anchor": "docs-4.0.0-time-profiling",
+        "virtual_path": "docs/docs/4.0.0/time-profiling/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/autograd/",
+        "anchor": "docs-4.1.0-autograd",
+        "virtual_path": "docs/docs/4.1.0/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/build/",
+        "anchor": "docs-4.1.0-build",
+        "virtual_path": "docs/docs/4.1.0/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/contribute-code/",
+        "anchor": "docs-4.1.0-contribute-code",
+        "virtual_path": "docs/docs/4.1.0/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/contribute-docs/",
+        "anchor": "docs-4.1.0-contribute-docs",
+        "virtual_path": "docs/docs/4.1.0/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/device/",
+        "anchor": "docs-4.1.0-device",
+        "virtual_path": "docs/docs/4.1.0/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/dist-train/",
+        "anchor": "docs-4.1.0-dist-train",
+        "virtual_path": "docs/docs/4.1.0/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/downloads/",
+        "anchor": "docs-4.1.0-downloads",
+        "virtual_path": "docs/docs/4.1.0/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/examples/",
+        "anchor": "docs-4.1.0-examples",
+        "virtual_path": "docs/docs/4.1.0/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/git-workflow/",
+        "anchor": "docs-4.1.0-git-workflow",
+        "virtual_path": "docs/docs/4.1.0/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/graph/",
+        "anchor": "docs-4.1.0-graph",
+        "virtual_path": "docs/docs/4.1.0/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/half-precision/",
+        "anchor": "docs-4.1.0-half-precision",
+        "virtual_path": "docs/docs/4.1.0/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/history-singa/",
+        "anchor": "docs-4.1.0-history-singa",
+        "virtual_path": "docs/docs/4.1.0/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/how-to-release/",
+        "anchor": "docs-4.1.0-how-to-release",
+        "virtual_path": "docs/docs/4.1.0/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/install-win/",
+        "anchor": "docs-4.1.0-install-win",
+        "virtual_path": "docs/docs/4.1.0/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/installation/",
+        "anchor": "docs-4.1.0-installation",
+        "virtual_path": "docs/docs/4.1.0/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/issue-tracking/",
+        "anchor": "docs-4.1.0-issue-tracking",
+        "virtual_path": "docs/docs/4.1.0/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/mail-lists/",
+        "anchor": "docs-4.1.0-mail-lists",
+        "virtual_path": "docs/docs/4.1.0/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/onnx/",
+        "anchor": "docs-4.1.0-onnx",
+        "virtual_path": "docs/docs/4.1.0/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/optimizer/",
+        "anchor": "docs-4.1.0-optimizer",
+        "virtual_path": "docs/docs/4.1.0/optimizer/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/security/",
+        "anchor": "docs-4.1.0-security",
+        "virtual_path": "docs/docs/4.1.0/security/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/software-stack/",
+        "anchor": "docs-4.1.0-software-stack",
+        "virtual_path": "docs/docs/4.1.0/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/source-repository/",
+        "anchor": "docs-4.1.0-source-repository",
+        "virtual_path": "docs/docs/4.1.0/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/team-list/",
+        "anchor": "docs-4.1.0-team-list",
+        "virtual_path": "docs/docs/4.1.0/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/tensor/",
+        "anchor": "docs-4.1.0-tensor",
+        "virtual_path": "docs/docs/4.1.0/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0/time-profiling/",
+        "anchor": "docs-4.1.0-time-profiling",
+        "virtual_path": "docs/docs/4.1.0/time-profiling/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/autograd/",
+        "anchor": "docs-4.1.0_chinese-autograd",
+        "virtual_path": "docs/docs/4.1.0_Chinese/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/build/",
+        "anchor": "docs-4.1.0_chinese-build",
+        "virtual_path": "docs/docs/4.1.0_Chinese/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/contribute-code/",
+        "anchor": "docs-4.1.0_chinese-contribute-code",
+        "virtual_path": "docs/docs/4.1.0_Chinese/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/contribute-docs/",
+        "anchor": "docs-4.1.0_chinese-contribute-docs",
+        "virtual_path": "docs/docs/4.1.0_Chinese/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/device/",
+        "anchor": "docs-4.1.0_chinese-device",
+        "virtual_path": "docs/docs/4.1.0_Chinese/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/dist-train/",
+        "anchor": "docs-4.1.0_chinese-dist-train",
+        "virtual_path": "docs/docs/4.1.0_Chinese/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/downloads/",
+        "anchor": "docs-4.1.0_chinese-downloads",
+        "virtual_path": "docs/docs/4.1.0_Chinese/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/examples/",
+        "anchor": "docs-4.1.0_chinese-examples",
+        "virtual_path": "docs/docs/4.1.0_Chinese/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/git-workflow/",
+        "anchor": "docs-4.1.0_chinese-git-workflow",
+        "virtual_path": "docs/docs/4.1.0_Chinese/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/graph/",
+        "anchor": "docs-4.1.0_chinese-graph",
+        "virtual_path": "docs/docs/4.1.0_Chinese/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/half-precision/",
+        "anchor": "docs-4.1.0_chinese-half-precision",
+        "virtual_path": "docs/docs/4.1.0_Chinese/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/history-singa/",
+        "anchor": "docs-4.1.0_chinese-history-singa",
+        "virtual_path": "docs/docs/4.1.0_Chinese/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/how-to-release/",
+        "anchor": "docs-4.1.0_chinese-how-to-release",
+        "virtual_path": "docs/docs/4.1.0_Chinese/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/install-win/",
+        "anchor": "docs-4.1.0_chinese-install-win",
+        "virtual_path": "docs/docs/4.1.0_Chinese/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/installation/",
+        "anchor": "docs-4.1.0_chinese-installation",
+        "virtual_path": "docs/docs/4.1.0_Chinese/installation/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/mail-lists/",
+        "anchor": "docs-4.1.0_chinese-mail-lists",
+        "virtual_path": "docs/docs/4.1.0_Chinese/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/onnx/",
+        "anchor": "docs-4.1.0_chinese-onnx",
+        "virtual_path": "docs/docs/4.1.0_Chinese/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/optimizer/",
+        "anchor": "docs-4.1.0_chinese-optimizer",
+        "virtual_path": "docs/docs/4.1.0_Chinese/optimizer/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/software-stack/",
+        "anchor": "docs-4.1.0_chinese-software-stack",
+        "virtual_path": "docs/docs/4.1.0_Chinese/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/source-repository/",
+        "anchor": "docs-4.1.0_chinese-source-repository",
+        "virtual_path": "docs/docs/4.1.0_Chinese/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/team-list/",
+        "anchor": "docs-4.1.0_chinese-team-list",
+        "virtual_path": "docs/docs/4.1.0_Chinese/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/tensor/",
+        "anchor": "docs-4.1.0_chinese-tensor",
+        "virtual_path": "docs/docs/4.1.0_Chinese/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/time-profiling/",
+        "anchor": "docs-4.1.0_chinese-time-profiling",
+        "virtual_path": "docs/docs/4.1.0_Chinese/time-profiling/index.md"
+      },
+      {
+        "title": "CPU only · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/wheel-cpu/",
+        "anchor": "docs-4.1.0_chinese-wheel-cpu",
+        "virtual_path": "docs/docs/4.1.0_Chinese/wheel-cpu/index.md"
+      },
+      {
+        "title": "CUDA enabled (dev version) · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/wheel-gpu-dev/",
+        "anchor": "docs-4.1.0_chinese-wheel-gpu-dev",
+        "virtual_path": "docs/docs/4.1.0_Chinese/wheel-gpu-dev/index.md"
+      },
+      {
+        "title": "CUDA enabled · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Chinese/wheel-gpu/",
+        "anchor": "docs-4.1.0_chinese-wheel-gpu",
+        "virtual_path": "docs/docs/4.1.0_Chinese/wheel-gpu/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/autograd/",
+        "anchor": "docs-4.1.0_viet-autograd",
+        "virtual_path": "docs/docs/4.1.0_Viet/autograd/index.md"
+      },
+      {
+        "title": "Cài đặt SINGA từ Nguồn (Source)",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/build/",
+        "anchor": "docs-4.1.0_viet-build",
+        "virtual_path": "docs/docs/4.1.0_Viet/build/index.md"
+      },
+      {
+        "title": "Tham gia viết code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/contribute-code/",
+        "anchor": "docs-4.1.0_viet-contribute-code",
+        "virtual_path": "docs/docs/4.1.0_Viet/contribute-code/index.md"
+      },
+      {
+        "title": "Tham gia chỉnh sửa Hướng Dẫn Sử Dụng",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/contribute-docs/",
+        "anchor": "docs-4.1.0_viet-contribute-docs",
+        "virtual_path": "docs/docs/4.1.0_Viet/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/device/",
+        "anchor": "docs-4.1.0_viet-device",
+        "virtual_path": "docs/docs/4.1.0_Viet/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/dist-train/",
+        "anchor": "docs-4.1.0_viet-dist-train",
+        "virtual_path": "docs/docs/4.1.0_Viet/dist-train/index.md"
+      },
+      {
+        "title": "Tải SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/downloads/",
+        "anchor": "docs-4.1.0_viet-downloads",
+        "virtual_path": "docs/docs/4.1.0_Viet/downloads/index.md"
+      },
+      {
+        "title": "Ví Dụ",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/examples/",
+        "anchor": "docs-4.1.0_viet-examples",
+        "virtual_path": "docs/docs/4.1.0_Viet/examples/index.md"
+      },
+      {
+        "title": "Quy Trình Sử Dụng Git",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/git-workflow/",
+        "anchor": "docs-4.1.0_viet-git-workflow",
+        "virtual_path": "docs/docs/4.1.0_Viet/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/graph/",
+        "anchor": "docs-4.1.0_viet-graph",
+        "virtual_path": "docs/docs/4.1.0_Viet/graph/index.md"
+      },
+      {
+        "title": "Lịch Sử Phát Triển SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/history-singa/",
+        "anchor": "docs-4.1.0_viet-history-singa",
+        "virtual_path": "docs/docs/4.1.0_Viet/history-singa/index.md"
+      },
+      {
+        "title": "Chuẩn bị trước khi phát hành",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/how-to-release/",
+        "anchor": "docs-4.1.0_viet-how-to-release",
+        "virtual_path": "docs/docs/4.1.0_Viet/how-to-release/index.md"
+      },
+      {
+        "title": "Cách cài SINGA trên Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/install-win/",
+        "anchor": "docs-4.1.0_viet-install-win",
+        "virtual_path": "docs/docs/4.1.0_Viet/install-win/index.md"
+      },
+      {
+        "title": "Cài đặt",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/installation/",
+        "anchor": "docs-4.1.0_viet-installation",
+        "virtual_path": "docs/docs/4.1.0_Viet/installation/index.md"
+      },
+      {
+        "title": "Theo Dõi Vấn Đề · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/issue-tracking/",
+        "anchor": "docs-4.1.0_viet-issue-tracking",
+        "virtual_path": "docs/docs/4.1.0_Viet/issue-tracking/index.md"
+      },
+      {
+        "title": "Danh sách liên hệ của Dự Án · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/mail-lists/",
+        "anchor": "docs-4.1.0_viet-mail-lists",
+        "virtual_path": "docs/docs/4.1.0_Viet/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/onnx/",
+        "anchor": "docs-4.1.0_viet-onnx",
+        "virtual_path": "docs/docs/4.1.0_Viet/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/optimizer/",
+        "anchor": "docs-4.1.0_viet-optimizer",
+        "virtual_path": "docs/docs/4.1.0_Viet/optimizer/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/software-stack/",
+        "anchor": "docs-4.1.0_viet-software-stack",
+        "virtual_path": "docs/docs/4.1.0_Viet/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/source-repository/",
+        "anchor": "docs-4.1.0_viet-source-repository",
+        "virtual_path": "docs/docs/4.1.0_Viet/source-repository/index.md"
+      },
+      {
+        "title": "Danh sách nhân sự SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/team-list/",
+        "anchor": "docs-4.1.0_viet-team-list",
+        "virtual_path": "docs/docs/4.1.0_Viet/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/tensor/",
+        "anchor": "docs-4.1.0_viet-tensor",
+        "virtual_path": "docs/docs/4.1.0_Viet/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/time-profiling/",
+        "anchor": "docs-4.1.0_viet-time-profiling",
+        "virtual_path": "docs/docs/4.1.0_Viet/time-profiling/index.md"
+      },
+      {
+        "title": "Dùng cho CPU · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/wheel-cpu/",
+        "anchor": "docs-4.1.0_viet-wheel-cpu",
+        "virtual_path": "docs/docs/4.1.0_Viet/wheel-cpu/index.md"
+      },
+      {
+        "title": "Sử Dụng CUDA (phiên bản dev) · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/wheel-gpu-dev/",
+        "anchor": "docs-4.1.0_viet-wheel-gpu-dev",
+        "virtual_path": "docs/docs/4.1.0_Viet/wheel-gpu-dev/index.md"
+      },
+      {
+        "title": "Sử Dụng CUDA · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.1.0_Viet/wheel-gpu/",
+        "anchor": "docs-4.1.0_viet-wheel-gpu",
+        "virtual_path": "docs/docs/4.1.0_Viet/wheel-gpu/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/autograd/",
+        "anchor": "docs-4.2.0-autograd",
+        "virtual_path": "docs/docs/4.2.0/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/build/",
+        "anchor": "docs-4.2.0-build",
+        "virtual_path": "docs/docs/4.2.0/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/contribute-code/",
+        "anchor": "docs-4.2.0-contribute-code",
+        "virtual_path": "docs/docs/4.2.0/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/contribute-docs/",
+        "anchor": "docs-4.2.0-contribute-docs",
+        "virtual_path": "docs/docs/4.2.0/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/device/",
+        "anchor": "docs-4.2.0-device",
+        "virtual_path": "docs/docs/4.2.0/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/dist-train/",
+        "anchor": "docs-4.2.0-dist-train",
+        "virtual_path": "docs/docs/4.2.0/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/downloads/",
+        "anchor": "docs-4.2.0-downloads",
+        "virtual_path": "docs/docs/4.2.0/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/examples/",
+        "anchor": "docs-4.2.0-examples",
+        "virtual_path": "docs/docs/4.2.0/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/git-workflow/",
+        "anchor": "docs-4.2.0-git-workflow",
+        "virtual_path": "docs/docs/4.2.0/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/graph/",
+        "anchor": "docs-4.2.0-graph",
+        "virtual_path": "docs/docs/4.2.0/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/half-precision/",
+        "anchor": "docs-4.2.0-half-precision",
+        "virtual_path": "docs/docs/4.2.0/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/history-singa/",
+        "anchor": "docs-4.2.0-history-singa",
+        "virtual_path": "docs/docs/4.2.0/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/how-to-release/",
+        "anchor": "docs-4.2.0-how-to-release",
+        "virtual_path": "docs/docs/4.2.0/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/install-win/",
+        "anchor": "docs-4.2.0-install-win",
+        "virtual_path": "docs/docs/4.2.0/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/installation/",
+        "anchor": "docs-4.2.0-installation",
+        "virtual_path": "docs/docs/4.2.0/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/issue-tracking/",
+        "anchor": "docs-4.2.0-issue-tracking",
+        "virtual_path": "docs/docs/4.2.0/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/mail-lists/",
+        "anchor": "docs-4.2.0-mail-lists",
+        "virtual_path": "docs/docs/4.2.0/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/onnx/",
+        "anchor": "docs-4.2.0-onnx",
+        "virtual_path": "docs/docs/4.2.0/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/optimizer/",
+        "anchor": "docs-4.2.0-optimizer",
+        "virtual_path": "docs/docs/4.2.0/optimizer/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/security/",
+        "anchor": "docs-4.2.0-security",
+        "virtual_path": "docs/docs/4.2.0/security/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/software-stack/",
+        "anchor": "docs-4.2.0-software-stack",
+        "virtual_path": "docs/docs/4.2.0/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/source-repository/",
+        "anchor": "docs-4.2.0-source-repository",
+        "virtual_path": "docs/docs/4.2.0/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/team-list/",
+        "anchor": "docs-4.2.0-team-list",
+        "virtual_path": "docs/docs/4.2.0/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/tensor/",
+        "anchor": "docs-4.2.0-tensor",
+        "virtual_path": "docs/docs/4.2.0/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.2.0/time-profiling/",
+        "anchor": "docs-4.2.0-time-profiling",
+        "virtual_path": "docs/docs/4.2.0/time-profiling/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/autograd/",
+        "anchor": "docs-4.3.0-autograd",
+        "virtual_path": "docs/docs/4.3.0/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/build/",
+        "anchor": "docs-4.3.0-build",
+        "virtual_path": "docs/docs/4.3.0/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/contribute-code/",
+        "anchor": "docs-4.3.0-contribute-code",
+        "virtual_path": "docs/docs/4.3.0/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/contribute-docs/",
+        "anchor": "docs-4.3.0-contribute-docs",
+        "virtual_path": "docs/docs/4.3.0/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/device/",
+        "anchor": "docs-4.3.0-device",
+        "virtual_path": "docs/docs/4.3.0/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/dist-train/",
+        "anchor": "docs-4.3.0-dist-train",
+        "virtual_path": "docs/docs/4.3.0/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/downloads/",
+        "anchor": "docs-4.3.0-downloads",
+        "virtual_path": "docs/docs/4.3.0/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/examples/",
+        "anchor": "docs-4.3.0-examples",
+        "virtual_path": "docs/docs/4.3.0/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/git-workflow/",
+        "anchor": "docs-4.3.0-git-workflow",
+        "virtual_path": "docs/docs/4.3.0/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/graph/",
+        "anchor": "docs-4.3.0-graph",
+        "virtual_path": "docs/docs/4.3.0/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/half-precision/",
+        "anchor": "docs-4.3.0-half-precision",
+        "virtual_path": "docs/docs/4.3.0/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/history-singa/",
+        "anchor": "docs-4.3.0-history-singa",
+        "virtual_path": "docs/docs/4.3.0/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/how-to-release/",
+        "anchor": "docs-4.3.0-how-to-release",
+        "virtual_path": "docs/docs/4.3.0/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/install-win/",
+        "anchor": "docs-4.3.0-install-win",
+        "virtual_path": "docs/docs/4.3.0/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/installation/",
+        "anchor": "docs-4.3.0-installation",
+        "virtual_path": "docs/docs/4.3.0/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/issue-tracking/",
+        "anchor": "docs-4.3.0-issue-tracking",
+        "virtual_path": "docs/docs/4.3.0/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/mail-lists/",
+        "anchor": "docs-4.3.0-mail-lists",
+        "virtual_path": "docs/docs/4.3.0/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/onnx/",
+        "anchor": "docs-4.3.0-onnx",
+        "virtual_path": "docs/docs/4.3.0/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/optimizer/",
+        "anchor": "docs-4.3.0-optimizer",
+        "virtual_path": "docs/docs/4.3.0/optimizer/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/security/",
+        "anchor": "docs-4.3.0-security",
+        "virtual_path": "docs/docs/4.3.0/security/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/software-stack/",
+        "anchor": "docs-4.3.0-software-stack",
+        "virtual_path": "docs/docs/4.3.0/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/source-repository/",
+        "anchor": "docs-4.3.0-source-repository",
+        "virtual_path": "docs/docs/4.3.0/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/team-list/",
+        "anchor": "docs-4.3.0-team-list",
+        "virtual_path": "docs/docs/4.3.0/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/tensor/",
+        "anchor": "docs-4.3.0-tensor",
+        "virtual_path": "docs/docs/4.3.0/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0/time-profiling/",
+        "anchor": "docs-4.3.0-time-profiling",
+        "virtual_path": "docs/docs/4.3.0/time-profiling/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/autograd/",
+        "anchor": "docs-4.3.0_chinese-autograd",
+        "virtual_path": "docs/docs/4.3.0_Chinese/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/build/",
+        "anchor": "docs-4.3.0_chinese-build",
+        "virtual_path": "docs/docs/4.3.0_Chinese/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/contribute-code/",
+        "anchor": "docs-4.3.0_chinese-contribute-code",
+        "virtual_path": "docs/docs/4.3.0_Chinese/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/contribute-docs/",
+        "anchor": "docs-4.3.0_chinese-contribute-docs",
+        "virtual_path": "docs/docs/4.3.0_Chinese/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/device/",
+        "anchor": "docs-4.3.0_chinese-device",
+        "virtual_path": "docs/docs/4.3.0_Chinese/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/dist-train/",
+        "anchor": "docs-4.3.0_chinese-dist-train",
+        "virtual_path": "docs/docs/4.3.0_Chinese/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/downloads/",
+        "anchor": "docs-4.3.0_chinese-downloads",
+        "virtual_path": "docs/docs/4.3.0_Chinese/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/examples/",
+        "anchor": "docs-4.3.0_chinese-examples",
+        "virtual_path": "docs/docs/4.3.0_Chinese/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/git-workflow/",
+        "anchor": "docs-4.3.0_chinese-git-workflow",
+        "virtual_path": "docs/docs/4.3.0_Chinese/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/graph/",
+        "anchor": "docs-4.3.0_chinese-graph",
+        "virtual_path": "docs/docs/4.3.0_Chinese/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/half-precision/",
+        "anchor": "docs-4.3.0_chinese-half-precision",
+        "virtual_path": "docs/docs/4.3.0_Chinese/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/history-singa/",
+        "anchor": "docs-4.3.0_chinese-history-singa",
+        "virtual_path": "docs/docs/4.3.0_Chinese/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/how-to-release/",
+        "anchor": "docs-4.3.0_chinese-how-to-release",
+        "virtual_path": "docs/docs/4.3.0_Chinese/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/install-win/",
+        "anchor": "docs-4.3.0_chinese-install-win",
+        "virtual_path": "docs/docs/4.3.0_Chinese/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/installation/",
+        "anchor": "docs-4.3.0_chinese-installation",
+        "virtual_path": "docs/docs/4.3.0_Chinese/installation/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/mail-lists/",
+        "anchor": "docs-4.3.0_chinese-mail-lists",
+        "virtual_path": "docs/docs/4.3.0_Chinese/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/onnx/",
+        "anchor": "docs-4.3.0_chinese-onnx",
+        "virtual_path": "docs/docs/4.3.0_Chinese/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/optimizer/",
+        "anchor": "docs-4.3.0_chinese-optimizer",
+        "virtual_path": "docs/docs/4.3.0_Chinese/optimizer/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/software-stack/",
+        "anchor": "docs-4.3.0_chinese-software-stack",
+        "virtual_path": "docs/docs/4.3.0_Chinese/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/source-repository/",
+        "anchor": "docs-4.3.0_chinese-source-repository",
+        "virtual_path": "docs/docs/4.3.0_Chinese/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/team-list/",
+        "anchor": "docs-4.3.0_chinese-team-list",
+        "virtual_path": "docs/docs/4.3.0_Chinese/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/tensor/",
+        "anchor": "docs-4.3.0_chinese-tensor",
+        "virtual_path": "docs/docs/4.3.0_Chinese/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/time-profiling/",
+        "anchor": "docs-4.3.0_chinese-time-profiling",
+        "virtual_path": "docs/docs/4.3.0_Chinese/time-profiling/index.md"
+      },
+      {
+        "title": "CPU only · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/wheel-cpu/",
+        "anchor": "docs-4.3.0_chinese-wheel-cpu",
+        "virtual_path": "docs/docs/4.3.0_Chinese/wheel-cpu/index.md"
+      },
+      {
+        "title": "CUDA enabled (dev version) · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/wheel-gpu-dev/",
+        "anchor": "docs-4.3.0_chinese-wheel-gpu-dev",
+        "virtual_path": "docs/docs/4.3.0_Chinese/wheel-gpu-dev/index.md"
+      },
+      {
+        "title": "CUDA enabled · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Chinese/wheel-gpu/",
+        "anchor": "docs-4.3.0_chinese-wheel-gpu",
+        "virtual_path": "docs/docs/4.3.0_Chinese/wheel-gpu/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/autograd/",
+        "anchor": "docs-4.3.0_viet-autograd",
+        "virtual_path": "docs/docs/4.3.0_Viet/autograd/index.md"
+      },
+      {
+        "title": "Cài đặt SINGA từ Nguồn (Source)",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/build/",
+        "anchor": "docs-4.3.0_viet-build",
+        "virtual_path": "docs/docs/4.3.0_Viet/build/index.md"
+      },
+      {
+        "title": "Tham gia viết code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/contribute-code/",
+        "anchor": "docs-4.3.0_viet-contribute-code",
+        "virtual_path": "docs/docs/4.3.0_Viet/contribute-code/index.md"
+      },
+      {
+        "title": "Tham gia chỉnh sửa Hướng Dẫn Sử Dụng",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/contribute-docs/",
+        "anchor": "docs-4.3.0_viet-contribute-docs",
+        "virtual_path": "docs/docs/4.3.0_Viet/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/device/",
+        "anchor": "docs-4.3.0_viet-device",
+        "virtual_path": "docs/docs/4.3.0_Viet/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/dist-train/",
+        "anchor": "docs-4.3.0_viet-dist-train",
+        "virtual_path": "docs/docs/4.3.0_Viet/dist-train/index.md"
+      },
+      {
+        "title": "Tải SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/downloads/",
+        "anchor": "docs-4.3.0_viet-downloads",
+        "virtual_path": "docs/docs/4.3.0_Viet/downloads/index.md"
+      },
+      {
+        "title": "Ví Dụ",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/examples/",
+        "anchor": "docs-4.3.0_viet-examples",
+        "virtual_path": "docs/docs/4.3.0_Viet/examples/index.md"
+      },
+      {
+        "title": "Quy Trình Sử Dụng Git",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/git-workflow/",
+        "anchor": "docs-4.3.0_viet-git-workflow",
+        "virtual_path": "docs/docs/4.3.0_Viet/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/graph/",
+        "anchor": "docs-4.3.0_viet-graph",
+        "virtual_path": "docs/docs/4.3.0_Viet/graph/index.md"
+      },
+      {
+        "title": "Lịch Sử Phát Triển SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/history-singa/",
+        "anchor": "docs-4.3.0_viet-history-singa",
+        "virtual_path": "docs/docs/4.3.0_Viet/history-singa/index.md"
+      },
+      {
+        "title": "Chuẩn bị trước khi phát hành",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/how-to-release/",
+        "anchor": "docs-4.3.0_viet-how-to-release",
+        "virtual_path": "docs/docs/4.3.0_Viet/how-to-release/index.md"
+      },
+      {
+        "title": "Cách cài SINGA trên Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/install-win/",
+        "anchor": "docs-4.3.0_viet-install-win",
+        "virtual_path": "docs/docs/4.3.0_Viet/install-win/index.md"
+      },
+      {
+        "title": "Cài đặt",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/installation/",
+        "anchor": "docs-4.3.0_viet-installation",
+        "virtual_path": "docs/docs/4.3.0_Viet/installation/index.md"
+      },
+      {
+        "title": "Theo Dõi Vấn Đề · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/issue-tracking/",
+        "anchor": "docs-4.3.0_viet-issue-tracking",
+        "virtual_path": "docs/docs/4.3.0_Viet/issue-tracking/index.md"
+      },
+      {
+        "title": "Danh sách liên hệ của Dự Án · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/mail-lists/",
+        "anchor": "docs-4.3.0_viet-mail-lists",
+        "virtual_path": "docs/docs/4.3.0_Viet/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/onnx/",
+        "anchor": "docs-4.3.0_viet-onnx",
+        "virtual_path": "docs/docs/4.3.0_Viet/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/optimizer/",
+        "anchor": "docs-4.3.0_viet-optimizer",
+        "virtual_path": "docs/docs/4.3.0_Viet/optimizer/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/software-stack/",
+        "anchor": "docs-4.3.0_viet-software-stack",
+        "virtual_path": "docs/docs/4.3.0_Viet/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/source-repository/",
+        "anchor": "docs-4.3.0_viet-source-repository",
+        "virtual_path": "docs/docs/4.3.0_Viet/source-repository/index.md"
+      },
+      {
+        "title": "Danh sách nhân sự SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/team-list/",
+        "anchor": "docs-4.3.0_viet-team-list",
+        "virtual_path": "docs/docs/4.3.0_Viet/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/tensor/",
+        "anchor": "docs-4.3.0_viet-tensor",
+        "virtual_path": "docs/docs/4.3.0_Viet/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/time-profiling/",
+        "anchor": "docs-4.3.0_viet-time-profiling",
+        "virtual_path": "docs/docs/4.3.0_Viet/time-profiling/index.md"
+      },
+      {
+        "title": "Dùng cho CPU · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/wheel-cpu/",
+        "anchor": "docs-4.3.0_viet-wheel-cpu",
+        "virtual_path": "docs/docs/4.3.0_Viet/wheel-cpu/index.md"
+      },
+      {
+        "title": "Sử Dụng CUDA (phiên bản dev) · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/wheel-gpu-dev/",
+        "anchor": "docs-4.3.0_viet-wheel-gpu-dev",
+        "virtual_path": "docs/docs/4.3.0_Viet/wheel-gpu-dev/index.md"
+      },
+      {
+        "title": "Sử Dụng CUDA · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/4.3.0_Viet/wheel-gpu/",
+        "anchor": "docs-4.3.0_viet-wheel-gpu",
+        "virtual_path": "docs/docs/4.3.0_Viet/wheel-gpu/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/autograd/",
+        "anchor": "docs-5.0.0-autograd",
+        "virtual_path": "docs/docs/5.0.0/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/build/",
+        "anchor": "docs-5.0.0-build",
+        "virtual_path": "docs/docs/5.0.0/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/contribute-code/",
+        "anchor": "docs-5.0.0-contribute-code",
+        "virtual_path": "docs/docs/5.0.0/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/contribute-docs/",
+        "anchor": "docs-5.0.0-contribute-docs",
+        "virtual_path": "docs/docs/5.0.0/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/device/",
+        "anchor": "docs-5.0.0-device",
+        "virtual_path": "docs/docs/5.0.0/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/dist-train/",
+        "anchor": "docs-5.0.0-dist-train",
+        "virtual_path": "docs/docs/5.0.0/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/downloads/",
+        "anchor": "docs-5.0.0-downloads",
+        "virtual_path": "docs/docs/5.0.0/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/examples/",
+        "anchor": "docs-5.0.0-examples",
+        "virtual_path": "docs/docs/5.0.0/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/git-workflow/",
+        "anchor": "docs-5.0.0-git-workflow",
+        "virtual_path": "docs/docs/5.0.0/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/graph/",
+        "anchor": "docs-5.0.0-graph",
+        "virtual_path": "docs/docs/5.0.0/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/half-precision/",
+        "anchor": "docs-5.0.0-half-precision",
+        "virtual_path": "docs/docs/5.0.0/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/history-singa/",
+        "anchor": "docs-5.0.0-history-singa",
+        "virtual_path": "docs/docs/5.0.0/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/how-to-release/",
+        "anchor": "docs-5.0.0-how-to-release",
+        "virtual_path": "docs/docs/5.0.0/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/install-win/",
+        "anchor": "docs-5.0.0-install-win",
+        "virtual_path": "docs/docs/5.0.0/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/installation/",
+        "anchor": "docs-5.0.0-installation",
+        "virtual_path": "docs/docs/5.0.0/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/issue-tracking/",
+        "anchor": "docs-5.0.0-issue-tracking",
+        "virtual_path": "docs/docs/5.0.0/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/mail-lists/",
+        "anchor": "docs-5.0.0-mail-lists",
+        "virtual_path": "docs/docs/5.0.0/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/onnx/",
+        "anchor": "docs-5.0.0-onnx",
+        "virtual_path": "docs/docs/5.0.0/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/optimizer/",
+        "anchor": "docs-5.0.0-optimizer",
+        "virtual_path": "docs/docs/5.0.0/optimizer/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/security/",
+        "anchor": "docs-5.0.0-security",
+        "virtual_path": "docs/docs/5.0.0/security/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/software-stack/",
+        "anchor": "docs-5.0.0-software-stack",
+        "virtual_path": "docs/docs/5.0.0/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/source-repository/",
+        "anchor": "docs-5.0.0-source-repository",
+        "virtual_path": "docs/docs/5.0.0/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/team-list/",
+        "anchor": "docs-5.0.0-team-list",
+        "virtual_path": "docs/docs/5.0.0/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/tensor/",
+        "anchor": "docs-5.0.0-tensor",
+        "virtual_path": "docs/docs/5.0.0/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0/time-profiling/",
+        "anchor": "docs-5.0.0-time-profiling",
+        "virtual_path": "docs/docs/5.0.0/time-profiling/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/autograd/",
+        "anchor": "docs-5.0.0_chinese-autograd",
+        "virtual_path": "docs/docs/5.0.0_Chinese/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/build/",
+        "anchor": "docs-5.0.0_chinese-build",
+        "virtual_path": "docs/docs/5.0.0_Chinese/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/contribute-code/",
+        "anchor": "docs-5.0.0_chinese-contribute-code",
+        "virtual_path": "docs/docs/5.0.0_Chinese/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/contribute-docs/",
+        "anchor": "docs-5.0.0_chinese-contribute-docs",
+        "virtual_path": "docs/docs/5.0.0_Chinese/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/device/",
+        "anchor": "docs-5.0.0_chinese-device",
+        "virtual_path": "docs/docs/5.0.0_Chinese/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/dist-train/",
+        "anchor": "docs-5.0.0_chinese-dist-train",
+        "virtual_path": "docs/docs/5.0.0_Chinese/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/downloads/",
+        "anchor": "docs-5.0.0_chinese-downloads",
+        "virtual_path": "docs/docs/5.0.0_Chinese/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/examples/",
+        "anchor": "docs-5.0.0_chinese-examples",
+        "virtual_path": "docs/docs/5.0.0_Chinese/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/git-workflow/",
+        "anchor": "docs-5.0.0_chinese-git-workflow",
+        "virtual_path": "docs/docs/5.0.0_Chinese/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/graph/",
+        "anchor": "docs-5.0.0_chinese-graph",
+        "virtual_path": "docs/docs/5.0.0_Chinese/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/half-precision/",
+        "anchor": "docs-5.0.0_chinese-half-precision",
+        "virtual_path": "docs/docs/5.0.0_Chinese/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/history-singa/",
+        "anchor": "docs-5.0.0_chinese-history-singa",
+        "virtual_path": "docs/docs/5.0.0_Chinese/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/how-to-release/",
+        "anchor": "docs-5.0.0_chinese-how-to-release",
+        "virtual_path": "docs/docs/5.0.0_Chinese/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/install-win/",
+        "anchor": "docs-5.0.0_chinese-install-win",
+        "virtual_path": "docs/docs/5.0.0_Chinese/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/installation/",
+        "anchor": "docs-5.0.0_chinese-installation",
+        "virtual_path": "docs/docs/5.0.0_Chinese/installation/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/mail-lists/",
+        "anchor": "docs-5.0.0_chinese-mail-lists",
+        "virtual_path": "docs/docs/5.0.0_Chinese/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/onnx/",
+        "anchor": "docs-5.0.0_chinese-onnx",
+        "virtual_path": "docs/docs/5.0.0_Chinese/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/optimizer/",
+        "anchor": "docs-5.0.0_chinese-optimizer",
+        "virtual_path": "docs/docs/5.0.0_Chinese/optimizer/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/software-stack/",
+        "anchor": "docs-5.0.0_chinese-software-stack",
+        "virtual_path": "docs/docs/5.0.0_Chinese/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/source-repository/",
+        "anchor": "docs-5.0.0_chinese-source-repository",
+        "virtual_path": "docs/docs/5.0.0_Chinese/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/team-list/",
+        "anchor": "docs-5.0.0_chinese-team-list",
+        "virtual_path": "docs/docs/5.0.0_Chinese/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/tensor/",
+        "anchor": "docs-5.0.0_chinese-tensor",
+        "virtual_path": "docs/docs/5.0.0_Chinese/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/time-profiling/",
+        "anchor": "docs-5.0.0_chinese-time-profiling",
+        "virtual_path": "docs/docs/5.0.0_Chinese/time-profiling/index.md"
+      },
+      {
+        "title": "CPU only · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/wheel-cpu/",
+        "anchor": "docs-5.0.0_chinese-wheel-cpu",
+        "virtual_path": "docs/docs/5.0.0_Chinese/wheel-cpu/index.md"
+      },
+      {
+        "title": "CUDA enabled (dev version) · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/wheel-gpu-dev/",
+        "anchor": "docs-5.0.0_chinese-wheel-gpu-dev",
+        "virtual_path": "docs/docs/5.0.0_Chinese/wheel-gpu-dev/index.md"
+      },
+      {
+        "title": "CUDA enabled · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Chinese/wheel-gpu/",
+        "anchor": "docs-5.0.0_chinese-wheel-gpu",
+        "virtual_path": "docs/docs/5.0.0_Chinese/wheel-gpu/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/autograd/",
+        "anchor": "docs-5.0.0_viet-autograd",
+        "virtual_path": "docs/docs/5.0.0_Viet/autograd/index.md"
+      },
+      {
+        "title": "Cài đặt SINGA từ Nguồn (Source)",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/build/",
+        "anchor": "docs-5.0.0_viet-build",
+        "virtual_path": "docs/docs/5.0.0_Viet/build/index.md"
+      },
+      {
+        "title": "Tham gia viết code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/contribute-code/",
+        "anchor": "docs-5.0.0_viet-contribute-code",
+        "virtual_path": "docs/docs/5.0.0_Viet/contribute-code/index.md"
+      },
+      {
+        "title": "Tham gia chỉnh sửa Hướng Dẫn Sử Dụng",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/contribute-docs/",
+        "anchor": "docs-5.0.0_viet-contribute-docs",
+        "virtual_path": "docs/docs/5.0.0_Viet/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/device/",
+        "anchor": "docs-5.0.0_viet-device",
+        "virtual_path": "docs/docs/5.0.0_Viet/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/dist-train/",
+        "anchor": "docs-5.0.0_viet-dist-train",
+        "virtual_path": "docs/docs/5.0.0_Viet/dist-train/index.md"
+      },
+      {
+        "title": "Tải SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/downloads/",
+        "anchor": "docs-5.0.0_viet-downloads",
+        "virtual_path": "docs/docs/5.0.0_Viet/downloads/index.md"
+      },
+      {
+        "title": "Ví Dụ",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/examples/",
+        "anchor": "docs-5.0.0_viet-examples",
+        "virtual_path": "docs/docs/5.0.0_Viet/examples/index.md"
+      },
+      {
+        "title": "Quy Trình Sử Dụng Git",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/git-workflow/",
+        "anchor": "docs-5.0.0_viet-git-workflow",
+        "virtual_path": "docs/docs/5.0.0_Viet/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/graph/",
+        "anchor": "docs-5.0.0_viet-graph",
+        "virtual_path": "docs/docs/5.0.0_Viet/graph/index.md"
+      },
+      {
+        "title": "Lịch Sử Phát Triển SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/history-singa/",
+        "anchor": "docs-5.0.0_viet-history-singa",
+        "virtual_path": "docs/docs/5.0.0_Viet/history-singa/index.md"
+      },
+      {
+        "title": "Chuẩn bị trước khi phát hành",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/how-to-release/",
+        "anchor": "docs-5.0.0_viet-how-to-release",
+        "virtual_path": "docs/docs/5.0.0_Viet/how-to-release/index.md"
+      },
+      {
+        "title": "Cách cài SINGA trên Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/install-win/",
+        "anchor": "docs-5.0.0_viet-install-win",
+        "virtual_path": "docs/docs/5.0.0_Viet/install-win/index.md"
+      },
+      {
+        "title": "Cài đặt",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/installation/",
+        "anchor": "docs-5.0.0_viet-installation",
+        "virtual_path": "docs/docs/5.0.0_Viet/installation/index.md"
+      },
+      {
+        "title": "Theo Dõi Vấn Đề · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/issue-tracking/",
+        "anchor": "docs-5.0.0_viet-issue-tracking",
+        "virtual_path": "docs/docs/5.0.0_Viet/issue-tracking/index.md"
+      },
+      {
+        "title": "Danh sách liên hệ của Dự Án · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/mail-lists/",
+        "anchor": "docs-5.0.0_viet-mail-lists",
+        "virtual_path": "docs/docs/5.0.0_Viet/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/onnx/",
+        "anchor": "docs-5.0.0_viet-onnx",
+        "virtual_path": "docs/docs/5.0.0_Viet/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/optimizer/",
+        "anchor": "docs-5.0.0_viet-optimizer",
+        "virtual_path": "docs/docs/5.0.0_Viet/optimizer/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/software-stack/",
+        "anchor": "docs-5.0.0_viet-software-stack",
+        "virtual_path": "docs/docs/5.0.0_Viet/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/source-repository/",
+        "anchor": "docs-5.0.0_viet-source-repository",
+        "virtual_path": "docs/docs/5.0.0_Viet/source-repository/index.md"
+      },
+      {
+        "title": "Danh sách nhân sự SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/team-list/",
+        "anchor": "docs-5.0.0_viet-team-list",
+        "virtual_path": "docs/docs/5.0.0_Viet/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/tensor/",
+        "anchor": "docs-5.0.0_viet-tensor",
+        "virtual_path": "docs/docs/5.0.0_Viet/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/time-profiling/",
+        "anchor": "docs-5.0.0_viet-time-profiling",
+        "virtual_path": "docs/docs/5.0.0_Viet/time-profiling/index.md"
+      },
+      {
+        "title": "Dùng cho CPU · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/wheel-cpu/",
+        "anchor": "docs-5.0.0_viet-wheel-cpu",
+        "virtual_path": "docs/docs/5.0.0_Viet/wheel-cpu/index.md"
+      },
+      {
+        "title": "Sử Dụng CUDA (phiên bản dev) · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/wheel-gpu-dev/",
+        "anchor": "docs-5.0.0_viet-wheel-gpu-dev",
+        "virtual_path": "docs/docs/5.0.0_Viet/wheel-gpu-dev/index.md"
+      },
+      {
+        "title": "Sử Dụng CUDA · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.0.0_Viet/wheel-gpu/",
+        "anchor": "docs-5.0.0_viet-wheel-gpu",
+        "virtual_path": "docs/docs/5.0.0_Viet/wheel-gpu/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/build/",
+        "anchor": "docs-5.1.0_chinese-build",
+        "virtual_path": "docs/docs/5.1.0_Chinese/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/contribute-code/",
+        "anchor": "docs-5.1.0_chinese-contribute-code",
+        "virtual_path": "docs/docs/5.1.0_Chinese/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/contribute-docs/",
+        "anchor": "docs-5.1.0_chinese-contribute-docs",
+        "virtual_path": "docs/docs/5.1.0_Chinese/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/device/",
+        "anchor": "docs-5.1.0_chinese-device",
+        "virtual_path": "docs/docs/5.1.0_Chinese/device/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/downloads/",
+        "anchor": "docs-5.1.0_chinese-downloads",
+        "virtual_path": "docs/docs/5.1.0_Chinese/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/examples/",
+        "anchor": "docs-5.1.0_chinese-examples",
+        "virtual_path": "docs/docs/5.1.0_Chinese/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/git-workflow/",
+        "anchor": "docs-5.1.0_chinese-git-workflow",
+        "virtual_path": "docs/docs/5.1.0_Chinese/git-workflow/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/history-singa/",
+        "anchor": "docs-5.1.0_chinese-history-singa",
+        "virtual_path": "docs/docs/5.1.0_Chinese/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/how-to-release/",
+        "anchor": "docs-5.1.0_chinese-how-to-release",
+        "virtual_path": "docs/docs/5.1.0_Chinese/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/install-win/",
+        "anchor": "docs-5.1.0_chinese-install-win",
+        "virtual_path": "docs/docs/5.1.0_Chinese/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/installation/",
+        "anchor": "docs-5.1.0_chinese-installation",
+        "virtual_path": "docs/docs/5.1.0_Chinese/installation/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/mail-lists/",
+        "anchor": "docs-5.1.0_chinese-mail-lists",
+        "virtual_path": "docs/docs/5.1.0_Chinese/mail-lists/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/software-stack/",
+        "anchor": "docs-5.1.0_chinese-software-stack",
+        "virtual_path": "docs/docs/5.1.0_Chinese/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/source-repository/",
+        "anchor": "docs-5.1.0_chinese-source-repository",
+        "virtual_path": "docs/docs/5.1.0_Chinese/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/team-list/",
+        "anchor": "docs-5.1.0_chinese-team-list",
+        "virtual_path": "docs/docs/5.1.0_Chinese/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/tensor/",
+        "anchor": "docs-5.1.0_chinese-tensor",
+        "virtual_path": "docs/docs/5.1.0_Chinese/tensor/index.md"
+      },
+      {
+        "title": "CPU only · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/wheel-cpu/",
+        "anchor": "docs-5.1.0_chinese-wheel-cpu",
+        "virtual_path": "docs/docs/5.1.0_Chinese/wheel-cpu/index.md"
+      },
+      {
+        "title": "CUDA enabled (dev version) · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/wheel-gpu-dev/",
+        "anchor": "docs-5.1.0_chinese-wheel-gpu-dev",
+        "virtual_path": "docs/docs/5.1.0_Chinese/wheel-gpu-dev/index.md"
+      },
+      {
+        "title": "CUDA enabled · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Chinese/wheel-gpu/",
+        "anchor": "docs-5.1.0_chinese-wheel-gpu",
+        "virtual_path": "docs/docs/5.1.0_Chinese/wheel-gpu/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/autograd/",
+        "anchor": "docs-5.1.0_viet-autograd",
+        "virtual_path": "docs/docs/5.1.0_Viet/autograd/index.md"
+      },
+      {
+        "title": "Cài đặt SINGA từ Nguồn (Source)",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/build/",
+        "anchor": "docs-5.1.0_viet-build",
+        "virtual_path": "docs/docs/5.1.0_Viet/build/index.md"
+      },
+      {
+        "title": "Tham gia viết code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/contribute-code/",
+        "anchor": "docs-5.1.0_viet-contribute-code",
+        "virtual_path": "docs/docs/5.1.0_Viet/contribute-code/index.md"
+      },
+      {
+        "title": "Tham gia chỉnh sửa Hướng Dẫn Sử Dụng",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/contribute-docs/",
+        "anchor": "docs-5.1.0_viet-contribute-docs",
+        "virtual_path": "docs/docs/5.1.0_Viet/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/device/",
+        "anchor": "docs-5.1.0_viet-device",
+        "virtual_path": "docs/docs/5.1.0_Viet/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/dist-train/",
+        "anchor": "docs-5.1.0_viet-dist-train",
+        "virtual_path": "docs/docs/5.1.0_Viet/dist-train/index.md"
+      },
+      {
+        "title": "Tải SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/downloads/",
+        "anchor": "docs-5.1.0_viet-downloads",
+        "virtual_path": "docs/docs/5.1.0_Viet/downloads/index.md"
+      },
+      {
+        "title": "Ví Dụ",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/examples/",
+        "anchor": "docs-5.1.0_viet-examples",
+        "virtual_path": "docs/docs/5.1.0_Viet/examples/index.md"
+      },
+      {
+        "title": "Quy Trình Sử Dụng Git",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/git-workflow/",
+        "anchor": "docs-5.1.0_viet-git-workflow",
+        "virtual_path": "docs/docs/5.1.0_Viet/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/graph/",
+        "anchor": "docs-5.1.0_viet-graph",
+        "virtual_path": "docs/docs/5.1.0_Viet/graph/index.md"
+      },
+      {
+        "title": "Chuẩn bị trước khi phát hành",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/how-to-release/",
+        "anchor": "docs-5.1.0_viet-how-to-release",
+        "virtual_path": "docs/docs/5.1.0_Viet/how-to-release/index.md"
+      },
+      {
+        "title": "Cách cài SINGA trên Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/install-win/",
+        "anchor": "docs-5.1.0_viet-install-win",
+        "virtual_path": "docs/docs/5.1.0_Viet/install-win/index.md"
+      },
+      {
+        "title": "Cài đặt",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/installation/",
+        "anchor": "docs-5.1.0_viet-installation",
+        "virtual_path": "docs/docs/5.1.0_Viet/installation/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/onnx/",
+        "anchor": "docs-5.1.0_viet-onnx",
+        "virtual_path": "docs/docs/5.1.0_Viet/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/optimizer/",
+        "anchor": "docs-5.1.0_viet-optimizer",
+        "virtual_path": "docs/docs/5.1.0_Viet/optimizer/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/software-stack/",
+        "anchor": "docs-5.1.0_viet-software-stack",
+        "virtual_path": "docs/docs/5.1.0_Viet/software-stack/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/tensor/",
+        "anchor": "docs-5.1.0_viet-tensor",
+        "virtual_path": "docs/docs/5.1.0_Viet/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/time-profiling/",
+        "anchor": "docs-5.1.0_viet-time-profiling",
+        "virtual_path": "docs/docs/5.1.0_Viet/time-profiling/index.md"
+      },
+      {
+        "title": "Dùng cho CPU · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/wheel-cpu/",
+        "anchor": "docs-5.1.0_viet-wheel-cpu",
+        "virtual_path": "docs/docs/5.1.0_Viet/wheel-cpu/index.md"
+      },
+      {
+        "title": "Sử Dụng CUDA (phiên bản dev) · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/wheel-gpu-dev/",
+        "anchor": "docs-5.1.0_viet-wheel-gpu-dev",
+        "virtual_path": "docs/docs/5.1.0_Viet/wheel-gpu-dev/index.md"
+      },
+      {
+        "title": "Sử Dụng CUDA · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/5.1.0_Viet/wheel-gpu/",
+        "anchor": "docs-5.1.0_viet-wheel-gpu",
+        "virtual_path": "docs/docs/5.1.0_Viet/wheel-gpu/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/build/",
+        "anchor": "docs-build",
+        "virtual_path": "docs/docs/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/contribute-code/",
+        "anchor": "docs-contribute-code",
+        "virtual_path": "docs/docs/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/contribute-docs/",
+        "anchor": "docs-contribute-docs",
+        "virtual_path": "docs/docs/contribute-docs/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/download-singa",
+        "anchor": "docs-download-singa",
+        "virtual_path": "docs/docs/download-singa.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/downloads/",
+        "anchor": "docs-downloads",
+        "virtual_path": "docs/docs/downloads/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/how-to-release/",
+        "anchor": "docs-how-to-release",
+        "virtual_path": "docs/docs/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/install-win/",
+        "anchor": "docs-install-win",
+        "virtual_path": "docs/docs/install-win/index.md"
+      },
+      {
+        "title": "Autograd",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/autograd/",
+        "anchor": "docs-next-autograd",
+        "virtual_path": "docs/docs/next/autograd/index.md"
+      },
+      {
+        "title": "Build SINGA from Source",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/build/",
+        "anchor": "docs-next-build",
+        "virtual_path": "docs/docs/next/build/index.md"
+      },
+      {
+        "title": "How to Contribute Code",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/contribute-code/",
+        "anchor": "docs-next-contribute-code",
+        "virtual_path": "docs/docs/next/contribute-code/index.md"
+      },
+      {
+        "title": "How to Contribute to Documentation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/contribute-docs/",
+        "anchor": "docs-next-contribute-docs",
+        "virtual_path": "docs/docs/next/contribute-docs/index.md"
+      },
+      {
+        "title": "Device",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/device/",
+        "anchor": "docs-next-device",
+        "virtual_path": "docs/docs/next/device/index.md"
+      },
+      {
+        "title": "Distributed Training",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/dist-train/",
+        "anchor": "docs-next-dist-train",
+        "virtual_path": "docs/docs/next/dist-train/index.md"
+      },
+      {
+        "title": "Download SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/downloads/",
+        "anchor": "docs-next-downloads",
+        "virtual_path": "docs/docs/next/downloads/index.md"
+      },
+      {
+        "title": "Examples",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/examples/",
+        "anchor": "docs-next-examples",
+        "virtual_path": "docs/docs/next/examples/index.md"
+      },
+      {
+        "title": "Git Workflow",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/git-workflow/",
+        "anchor": "docs-next-git-workflow",
+        "virtual_path": "docs/docs/next/git-workflow/index.md"
+      },
+      {
+        "title": "Model",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/graph/",
+        "anchor": "docs-next-graph",
+        "virtual_path": "docs/docs/next/graph/index.md"
+      },
+      {
+        "title": "Half Precision",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/half-precision/",
+        "anchor": "docs-next-half-precision",
+        "virtual_path": "docs/docs/next/half-precision/index.md"
+      },
+      {
+        "title": "History of SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/history-singa/",
+        "anchor": "docs-next-history-singa",
+        "virtual_path": "docs/docs/next/history-singa/index.md"
+      },
+      {
+        "title": "How to Prepare a Release",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/how-to-release/",
+        "anchor": "docs-next-how-to-release",
+        "virtual_path": "docs/docs/next/how-to-release/index.md"
+      },
+      {
+        "title": "Build SINGA on Windows",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/install-win/",
+        "anchor": "docs-next-install-win",
+        "virtual_path": "docs/docs/next/install-win/index.md"
+      },
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/installation/",
+        "anchor": "docs-next-installation",
+        "virtual_path": "docs/docs/next/installation/index.md"
+      },
+      {
+        "title": "Issue Tracking",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/issue-tracking/",
+        "anchor": "docs-next-issue-tracking",
+        "virtual_path": "docs/docs/next/issue-tracking/index.md"
+      },
+      {
+        "title": "Project Mailing Lists · Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/mail-lists/",
+        "anchor": "docs-next-mail-lists",
+        "virtual_path": "docs/docs/next/mail-lists/index.md"
+      },
+      {
+        "title": "ONNX",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/onnx/",
+        "anchor": "docs-next-onnx",
+        "virtual_path": "docs/docs/next/onnx/index.md"
+      },
+      {
+        "title": "Optimizer",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/optimizer/",
+        "anchor": "docs-next-optimizer",
+        "virtual_path": "docs/docs/next/optimizer/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/security/",
+        "anchor": "docs-next-security",
+        "virtual_path": "docs/docs/next/security/index.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/software-stack/",
+        "anchor": "docs-next-software-stack",
+        "virtual_path": "docs/docs/next/software-stack/index.md"
+      },
+      {
+        "title": "Source Repository",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/source-repository/",
+        "anchor": "docs-next-source-repository",
+        "virtual_path": "docs/docs/next/source-repository/index.md"
+      },
+      {
+        "title": "The SINGA Team",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/team-list/",
+        "anchor": "docs-next-team-list",
+        "virtual_path": "docs/docs/next/team-list/index.md"
+      },
+      {
+        "title": "Tensor",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/tensor/",
+        "anchor": "docs-next-tensor",
+        "virtual_path": "docs/docs/next/tensor/index.md"
+      },
+      {
+        "title": "Time Profiling",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/time-profiling/",
+        "anchor": "docs-next-time-profiling",
+        "virtual_path": "docs/docs/next/time-profiling/index.md"
+      },
+      {
+        "title": "CPU only (dev version)",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/wheel-cpu-dev.html",
+        "anchor": "docs-next-wheel-cpu-dev",
+        "virtual_path": "docs/docs/next/wheel-cpu-dev.md"
+      },
+      {
+        "title": "CUDA enabled (dev version)",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/next/wheel-gpu-dev.html",
+        "anchor": "docs-next-wheel-gpu-dev",
+        "virtual_path": "docs/docs/next/wheel-gpu-dev.md"
+      },
+      {
+        "title": "singa-incubating-0.1.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_0.1.0.html",
+        "anchor": "docs-releases-release_notes_0.1.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_0.1.0.md"
+      },
+      {
+        "title": "singa-incubating-0.2.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_0.2.0.html",
+        "anchor": "docs-releases-release_notes_0.2.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_0.2.0.md"
+      },
+      {
+        "title": "singa-incubating-0.3.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_0.3.0.html",
+        "anchor": "docs-releases-release_notes_0.3.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_0.3.0.md"
+      },
+      {
+        "title": "singa-incubating-1.0.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_1.0.0.html",
+        "anchor": "docs-releases-release_notes_1.0.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_1.0.0.md"
+      },
+      {
+        "title": "singa-incubating-1.1.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_1.1.0.html",
+        "anchor": "docs-releases-release_notes_1.1.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_1.1.0.md"
+      },
+      {
+        "title": "singa-incubating-1.2.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_1.2.0.html",
+        "anchor": "docs-releases-release_notes_1.2.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_1.2.0.md"
+      },
+      {
+        "title": "singa-incubating-2.0.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_2.0.0.html",
+        "anchor": "docs-releases-release_notes_2.0.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_2.0.0.md"
+      },
+      {
+        "title": "Apache SINGA-3.0.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_3.0.0.html",
+        "anchor": "docs-releases-release_notes_3.0.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_3.0.0.md"
+      },
+      {
+        "title": "singa-3.0.0.rc1 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_3.0.0.rc1.html",
+        "anchor": "docs-releases-release_notes_3.0.0.rc1",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_3.0.0.rc1.md"
+      },
+      {
+        "title": "Apache SINGA-3.1.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_3.1.0.html",
+        "anchor": "docs-releases-release_notes_3.1.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_3.1.0.md"
+      },
+      {
+        "title": "Apache SINGA-3.2.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_3.2.0.html",
+        "anchor": "docs-releases-release_notes_3.2.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_3.2.0.md"
+      },
+      {
+        "title": "Apache SINGA-3.2.0.rc1 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_3.2.0.rc1.html",
+        "anchor": "docs-releases-release_notes_3.2.0.rc1",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_3.2.0.rc1.md"
+      },
+      {
+        "title": "Apache SINGA-3.3.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_3.3.0.html",
+        "anchor": "docs-releases-release_notes_3.3.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_3.3.0.md"
+      },
+      {
+        "title": "Apache SINGA-4.0.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_4.0.0.html",
+        "anchor": "docs-releases-release_notes_4.0.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_4.0.0.md"
+      },
+      {
+        "title": "Apache SINGA-4.1.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_4.1.0.html",
+        "anchor": "docs-releases-release_notes_4.1.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_4.1.0.md"
+      },
+      {
+        "title": "Apache SINGA-4.2.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_4.2.0.html",
+        "anchor": "docs-releases-release_notes_4.2.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_4.2.0.md"
+      },
+      {
+        "title": "Apache SINGA-4.3.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_4.3.0.html",
+        "anchor": "docs-releases-release_notes_4.3.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_4.3.0.md"
+      },
+      {
+        "title": "Apache SINGA-5.0.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_5.0.0.html",
+        "anchor": "docs-releases-release_notes_5.0.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_5.0.0.md"
+      },
+      {
+        "title": "Apache SINGA-5.1.0 Release Notes",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/releases/RELEASE_NOTES_5.1.0.html",
+        "anchor": "docs-releases-release_notes_5.1.0",
+        "virtual_path": "docs/docs/releases/RELEASE_NOTES_5.1.0.md"
+      },
+      {
+        "title": "Software Stack",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/docs/software-stack/",
+        "anchor": "docs-software-stack",
+        "virtual_path": "docs/docs/software-stack/index.md"
+      },
+      {
+        "title": "A Distributed Deep Learning Library",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/en/index.html",
+        "anchor": "en",
+        "virtual_path": "docs/en/index.md"
+      },
+      {
+        "title": "Users of Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/en/users.html",
+        "anchor": "en-users",
+        "virtual_path": "docs/en/users.md"
+      },
+      {
+        "title": "A Distributed Deep Learning Library",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "Users of Apache SINGA",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/users.html",
+        "anchor": "users",
+        "virtual_path": "docs/users.md"
+      },
+      {
+        "title": "Apache SINGA Versions",
+        "kind": "link",
+        "source_url": "https://singa.apache.org/versions/",
+        "anchor": "versions",
+        "virtual_path": "docs/versions/index.md"
+      }
+    ]
+  }
+]

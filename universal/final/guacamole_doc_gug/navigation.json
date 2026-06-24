@@ -1,0 +1,368 @@
+[
+  {
+    "title": "Apache Guacamole Manual v1.6.0",
+    "kind": "link",
+    "source_url": "https://guacamole.apache.org/doc/gug/",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "Getting Started",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Introduction",
+        "kind": "category",
+        "source_url": "https://guacamole.apache.org/doc/gug/introduction.html",
+        "anchor": "introduction",
+        "virtual_path": "docs/introduction.md"
+      },
+      {
+        "title": "Implementation and architecture",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/guacamole-architecture.html",
+        "anchor": "guacamole-architecture",
+        "virtual_path": "docs/guacamole-architecture.md"
+      },
+      {
+        "title": "Installing Guacamole",
+        "kind": "category",
+        "source_url": "https://guacamole.apache.org/doc/gug/installing-guacamole.html",
+        "anchor": "installing-guacamole",
+        "virtual_path": "docs/installing-guacamole.md",
+        "children": [
+          {
+            "title": "Native installation",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/guacamole-native.html",
+            "anchor": "guacamole-native",
+            "virtual_path": "docs/guacamole-native.md"
+          },
+          {
+            "title": "Containerized (Docker) installation",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/guacamole-docker.html",
+            "anchor": "guacamole-docker",
+            "virtual_path": "docs/guacamole-docker.md"
+          }
+        ]
+      },
+      {
+        "title": "Database setup",
+        "kind": "category",
+        "source_url": "https://guacamole.apache.org/doc/gug/jdbc-auth.html",
+        "anchor": "jdbc-auth",
+        "virtual_path": "docs/jdbc-auth.md",
+        "children": [
+          {
+            "title": "MariaDB / MySQL",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/mysql-auth.html",
+            "anchor": "mysql-auth",
+            "virtual_path": "docs/mysql-auth.md"
+          },
+          {
+            "title": "PostgreSQL",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/postgresql-auth.html",
+            "anchor": "postgresql-auth",
+            "virtual_path": "docs/postgresql-auth.md"
+          },
+          {
+            "title": "SQL Server",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/sqlserver-auth.html",
+            "anchor": "sqlserver-auth",
+            "virtual_path": "docs/sqlserver-auth.md"
+          }
+        ]
+      },
+      {
+        "title": "Securing a Guacamole install",
+        "kind": "category",
+        "source_url": "https://guacamole.apache.org/doc/gug/security.html",
+        "anchor": "security",
+        "virtual_path": "docs/security.md",
+        "children": [
+          {
+            "title": "SSL termination",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/reverse-proxy.html",
+            "anchor": "reverse-proxy",
+            "virtual_path": "docs/reverse-proxy.md"
+          },
+          {
+            "title": "Blocking brute-force attacks",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/auth-ban.html",
+            "anchor": "auth-ban",
+            "virtual_path": "docs/auth-ban.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Using Guacamole",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Configuration",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/configuring-guacamole.html",
+        "anchor": "configuring-guacamole",
+        "virtual_path": "docs/configuring-guacamole.md"
+      },
+      {
+        "title": "General usage",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/using-guacamole.html",
+        "anchor": "using-guacamole",
+        "virtual_path": "docs/using-guacamole.md"
+      },
+      {
+        "title": "Administration",
+        "kind": "category",
+        "source_url": "https://guacamole.apache.org/doc/gug/administration.html",
+        "anchor": "administration",
+        "virtual_path": "docs/administration.md",
+        "children": [
+          {
+            "title": "Importing connections",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/batch-import.html",
+            "anchor": "batch-import",
+            "virtual_path": "docs/batch-import.md"
+          }
+        ]
+      },
+      {
+        "title": "Troubleshooting",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/troubleshooting.html",
+        "anchor": "troubleshooting",
+        "virtual_path": "docs/troubleshooting.md"
+      }
+    ]
+  },
+  {
+    "title": "Extensions",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Active Directory / LDAP",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/ldap-auth.html",
+        "anchor": "ldap-auth",
+        "virtual_path": "docs/ldap-auth.md"
+      },
+      {
+        "title": "Multi-factor authentication",
+        "kind": "category",
+        "source_url": "https://guacamole.apache.org/doc/gug/mfa.html",
+        "anchor": "mfa",
+        "virtual_path": "docs/mfa.md",
+        "children": [
+          {
+            "title": "Duo",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/duo-auth.html",
+            "anchor": "duo-auth",
+            "virtual_path": "docs/duo-auth.md"
+          },
+          {
+            "title": "TOTP",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/totp-auth.html",
+            "anchor": "totp-auth",
+            "virtual_path": "docs/totp-auth.md"
+          }
+        ]
+      },
+      {
+        "title": "Single sign-on",
+        "kind": "category",
+        "source_url": "https://guacamole.apache.org/doc/gug/sso.html",
+        "anchor": "sso",
+        "virtual_path": "docs/sso.md",
+        "children": [
+          {
+            "title": "CAS",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/cas-auth.html",
+            "anchor": "cas-auth",
+            "virtual_path": "docs/cas-auth.md"
+          },
+          {
+            "title": "OpenID Connect",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/openid-auth.html",
+            "anchor": "openid-auth",
+            "virtual_path": "docs/openid-auth.md"
+          },
+          {
+            "title": "SAML",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/saml-auth.html",
+            "anchor": "saml-auth",
+            "virtual_path": "docs/saml-auth.md"
+          },
+          {
+            "title": "Smart cards / Certificates",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/ssl-auth.html",
+            "anchor": "ssl-auth",
+            "virtual_path": "docs/ssl-auth.md"
+          }
+        ]
+      },
+      {
+        "title": "Retrieving secrets from a vault",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/vault.html",
+        "anchor": "vault",
+        "virtual_path": "docs/vault.md"
+      },
+      {
+        "title": "External authentication",
+        "kind": "category",
+        "source_url": "https://guacamole.apache.org/doc/gug/external-auth.html",
+        "anchor": "external-auth",
+        "virtual_path": "docs/external-auth.md",
+        "children": [
+          {
+            "title": "Encrypted, signed JSON",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/json-auth.html",
+            "anchor": "json-auth",
+            "virtual_path": "docs/json-auth.md"
+          },
+          {
+            "title": "HTTP header",
+            "kind": "link",
+            "source_url": "https://guacamole.apache.org/doc/gug/header-auth.html",
+            "anchor": "header-auth",
+            "virtual_path": "docs/header-auth.md"
+          }
+        ]
+      },
+      {
+        "title": "RADIUS",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/radius-auth.html",
+        "anchor": "radius-auth",
+        "virtual_path": "docs/radius-auth.md"
+      },
+      {
+        "title": "Ad-hoc connections",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/adhoc-connections.html",
+        "anchor": "adhoc-connections",
+        "virtual_path": "docs/adhoc-connections.md"
+      },
+      {
+        "title": "Login / Connection restrictions",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/auth-restrict.html",
+        "anchor": "auth-restrict",
+        "virtual_path": "docs/auth-restrict.md"
+      },
+      {
+        "title": "Session recording player",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/recording-playback.html",
+        "anchor": "recording-playback",
+        "virtual_path": "docs/recording-playback.md"
+      }
+    ]
+  },
+  {
+    "title": "Developer's Guide",
+    "kind": "category",
+    "children": [
+      {
+        "title": "The Guacamole protocol",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/guacamole-protocol.html",
+        "anchor": "guacamole-protocol",
+        "virtual_path": "docs/guacamole-protocol.md"
+      },
+      {
+        "title": "libguac",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/libguac.html",
+        "anchor": "libguac",
+        "virtual_path": "docs/libguac.md"
+      },
+      {
+        "title": "guacamole-common",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/guacamole-common.html",
+        "anchor": "guacamole-common",
+        "virtual_path": "docs/guacamole-common.md"
+      },
+      {
+        "title": "guacamole-common-js",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/guacamole-common-js.html",
+        "anchor": "guacamole-common-js",
+        "virtual_path": "docs/guacamole-common-js.md"
+      },
+      {
+        "title": "guacamole-ext",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/guacamole-ext.html",
+        "anchor": "guacamole-ext",
+        "virtual_path": "docs/guacamole-ext.md"
+      },
+      {
+        "title": "Adding new protocols",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/custom-protocols.html",
+        "anchor": "custom-protocols",
+        "virtual_path": "docs/custom-protocols.md"
+      },
+      {
+        "title": "Custom authentication",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/custom-auth.html",
+        "anchor": "custom-auth",
+        "virtual_path": "docs/custom-auth.md"
+      },
+      {
+        "title": "Event listeners",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/event-listeners.html",
+        "anchor": "event-listeners",
+        "virtual_path": "docs/event-listeners.md"
+      },
+      {
+        "title": "Writing your own Guacamole application",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/writing-you-own-guacamole-app.html",
+        "anchor": "writing-you-own-guacamole-app",
+        "virtual_path": "docs/writing-you-own-guacamole-app.md"
+      }
+    ]
+  },
+  {
+    "title": "Appendices",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Guacamole protocol reference",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/protocol-reference.html",
+        "anchor": "protocol-reference",
+        "virtual_path": "docs/protocol-reference.md"
+      },
+      {
+        "title": "Database schema reference",
+        "kind": "link",
+        "source_url": "https://guacamole.apache.org/doc/gug/jdbc-auth-schema.html",
+        "anchor": "jdbc-auth-schema",
+        "virtual_path": "docs/jdbc-auth-schema.md"
+      }
+    ]
+  }
+]

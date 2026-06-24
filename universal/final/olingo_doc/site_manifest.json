@@ -1,0 +1,596 @@
+{
+  "entry_url": "https://olingo.apache.org/doc/odata4/overview.html",
+  "site_prefix": "/doc/",
+  "site_slug": "olingo_doc",
+  "profile": "generic",
+  "combined_markdown": "combined.md",
+  "page_count": 65,
+  "asset_count": 10,
+  "pages": [
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/DataCache.html",
+      "title": "JSDoc: Class: DataCache",
+      "anchor": "javascript-apidoc-datacache",
+      "virtual_path": "docs/javascript/apidoc/DataCache.md",
+      "profile": "generic",
+      "score": 35160,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/DataCacheOperation.html",
+      "title": "JSDoc: Class: DataCacheOperation",
+      "anchor": "javascript-apidoc-datacacheoperation",
+      "virtual_path": "docs/javascript/apidoc/DataCacheOperation.md",
+      "profile": "generic",
+      "score": 9696,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/DjsDeferred.html",
+      "title": "JSDoc: Class: DjsDeferred",
+      "anchor": "javascript-apidoc-djsdeferred",
+      "virtual_path": "docs/javascript/apidoc/DjsDeferred.md",
+      "profile": "generic",
+      "score": 6009,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/ODataCacheSource.html",
+      "title": "JSDoc: Class: ODataCacheSource",
+      "anchor": "javascript-apidoc-odatacachesource",
+      "virtual_path": "docs/javascript/apidoc/ODataCacheSource.md",
+      "profile": "generic",
+      "score": 6058,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/batch.html",
+      "title": "JSDoc: Module: odata/batch",
+      "anchor": "javascript-apidoc-batch",
+      "virtual_path": "docs/javascript/apidoc/batch.md",
+      "profile": "generic",
+      "score": 24364,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/cache.js.html",
+      "title": "JSDoc: Source: cache.js",
+      "anchor": "javascript-apidoc-cache.js",
+      "virtual_path": "docs/javascript/apidoc/cache.js.md",
+      "profile": "generic",
+      "score": 44613,
+      "depth": 4
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/deferred.html",
+      "title": "JSDoc: Module: odatajs/deferred",
+      "anchor": "javascript-apidoc-deferred",
+      "virtual_path": "docs/javascript/apidoc/deferred.md",
+      "profile": "generic",
+      "score": 5542,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/dom-DomStore.html",
+      "title": "JSDoc: Class: DomStore",
+      "anchor": "javascript-apidoc-dom-domstore",
+      "virtual_path": "docs/javascript/apidoc/dom-DomStore.md",
+      "profile": "generic",
+      "score": 14692,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/dom.html",
+      "title": "JSDoc: Module: store/dom",
+      "anchor": "javascript-apidoc-dom",
+      "virtual_path": "docs/javascript/apidoc/dom.md",
+      "profile": "generic",
+      "score": 7667,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/global.html",
+      "title": "JSDoc: Global",
+      "anchor": "javascript-apidoc-global",
+      "virtual_path": "docs/javascript/apidoc/global.md",
+      "profile": "generic",
+      "score": 864,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/handler.html",
+      "title": "JSDoc: Module: odata/handler",
+      "anchor": "javascript-apidoc-handler",
+      "virtual_path": "docs/javascript/apidoc/handler.md",
+      "profile": "generic",
+      "score": 19677,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/index.html",
+      "title": "Index",
+      "anchor": "javascript-apidoc",
+      "virtual_path": "docs/javascript/apidoc/index.md",
+      "profile": "generic",
+      "score": 1615,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/indexeddb-IndexedDBStore.html",
+      "title": "JSDoc: Class: IndexedDBStore",
+      "anchor": "javascript-apidoc-indexeddb-indexeddbstore",
+      "virtual_path": "docs/javascript/apidoc/indexeddb-IndexedDBStore.md",
+      "profile": "generic",
+      "score": 14346,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/indexeddb.html",
+      "title": "JSDoc: Module: store/indexeddb",
+      "anchor": "javascript-apidoc-indexeddb",
+      "virtual_path": "docs/javascript/apidoc/indexeddb.md",
+      "profile": "generic",
+      "score": 5763,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/json.html",
+      "title": "JSDoc: Module: odata/json",
+      "anchor": "javascript-apidoc-json",
+      "virtual_path": "docs/javascript/apidoc/json.md",
+      "profile": "generic",
+      "score": 34609,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/memory-MemoryStore.html",
+      "title": "JSDoc: Class: MemoryStore",
+      "anchor": "javascript-apidoc-memory-memorystore",
+      "virtual_path": "docs/javascript/apidoc/memory-MemoryStore.md",
+      "profile": "generic",
+      "score": 14337,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/memory.html",
+      "title": "Module: store/memory",
+      "anchor": "javascript-apidoc-memory",
+      "virtual_path": "docs/javascript/apidoc/memory.md",
+      "profile": "generic",
+      "score": 721,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/metadata.html",
+      "title": "JSDoc: Module: odata/metadata",
+      "anchor": "javascript-apidoc-metadata",
+      "virtual_path": "docs/javascript/apidoc/metadata.md",
+      "profile": "generic",
+      "score": 10513,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/module-cache.html",
+      "title": "JSDoc: Module: cache",
+      "anchor": "javascript-apidoc-module-cache",
+      "virtual_path": "docs/javascript/apidoc/module-cache.md",
+      "profile": "generic",
+      "score": 15246,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/module-odata.html",
+      "title": "JSDoc: Module: odata",
+      "anchor": "javascript-apidoc-module-odata",
+      "virtual_path": "docs/javascript/apidoc/module-odata.md",
+      "profile": "generic",
+      "score": 7697,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/module-store.html",
+      "title": "JSDoc: Module: store",
+      "anchor": "javascript-apidoc-module-store",
+      "virtual_path": "docs/javascript/apidoc/module-store.md",
+      "profile": "generic",
+      "score": 3215,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/net.html",
+      "title": "Module: odata/net",
+      "anchor": "javascript-apidoc-net",
+      "virtual_path": "docs/javascript/apidoc/net.md",
+      "profile": "generic",
+      "score": 28202,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/source.html",
+      "title": "JSDoc: Module: cache/source",
+      "anchor": "javascript-apidoc-source",
+      "virtual_path": "docs/javascript/apidoc/source.md",
+      "profile": "generic",
+      "score": 10445,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/utils.html",
+      "title": "JSDoc: Module: odata/utils",
+      "anchor": "javascript-apidoc-utils",
+      "virtual_path": "docs/javascript/apidoc/utils.md",
+      "profile": "generic",
+      "score": 70328,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/utils_.html",
+      "title": "JSDoc: Module: odatajs/utils",
+      "anchor": "javascript-apidoc-utils_",
+      "virtual_path": "docs/javascript/apidoc/utils_.md",
+      "profile": "generic",
+      "score": 27675,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/apidoc/xml.html",
+      "title": "JSDoc: Module: odatajs/xml",
+      "anchor": "javascript-apidoc-xml",
+      "virtual_path": "docs/javascript/apidoc/xml.md",
+      "profile": "generic",
+      "score": 57154,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/download.html",
+      "title": "Download Olingo OData Client for JavaScript Library ¶",
+      "anchor": "javascript-download",
+      "virtual_path": "docs/javascript/download.md",
+      "profile": "generic",
+      "score": 3112,
+      "depth": 1
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/index.html",
+      "title": "Apache Olingo Library",
+      "anchor": "javascript",
+      "virtual_path": "docs/javascript/index.md",
+      "profile": "generic",
+      "score": 4386,
+      "depth": 1
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/project-build.html",
+      "title": "Building the Olingo OData Client for JavaScript ¶",
+      "anchor": "javascript-project-build",
+      "virtual_path": "docs/javascript/project-build.md",
+      "profile": "generic",
+      "score": 5027,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/javascript/project-setup.html",
+      "title": "Project setup ¶",
+      "anchor": "javascript-project-setup",
+      "virtual_path": "docs/javascript/project-setup.md",
+      "profile": "generic",
+      "score": 7015,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/download.html",
+      "title": "Download OData 2.0 Java Library ¶",
+      "anchor": "odata2-download",
+      "virtual_path": "docs/odata2/download.md",
+      "profile": "generic",
+      "score": 6293,
+      "depth": 1
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/eclipse.html",
+      "title": "Eclipse IDE Support ¶",
+      "anchor": "odata2-eclipse",
+      "virtual_path": "docs/odata2/eclipse.md",
+      "profile": "generic",
+      "score": 1294,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/index.html",
+      "title": "Documentation OData 2.0 Java Library ¶",
+      "anchor": "odata2",
+      "virtual_path": "docs/odata2/index.md",
+      "profile": "generic",
+      "score": 1170,
+      "depth": 1
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/maven.html",
+      "title": "Building the Olingo Project ¶",
+      "anchor": "odata2-maven",
+      "virtual_path": "docs/odata2/maven.md",
+      "profile": "generic",
+      "score": 3445,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/privacy.html",
+      "title": "Apache Olingo - Privacy ¶",
+      "anchor": "odata2-privacy",
+      "virtual_path": "docs/odata2/privacy.md",
+      "profile": "generic",
+      "score": 1244,
+      "depth": 1
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/project-setup.html",
+      "title": "Project Setup ¶",
+      "anchor": "odata2-project-setup",
+      "virtual_path": "docs/odata2/project-setup.md",
+      "profile": "generic",
+      "score": 1617,
+      "depth": 3
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/release.html",
+      "title": "Apache Olingo Release Documentation ¶",
+      "anchor": "odata2-release",
+      "virtual_path": "docs/odata2/release.md",
+      "profile": "generic",
+      "score": 19456,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/sample-setup.html",
+      "title": "Sample Project Setup ¶",
+      "anchor": "odata2-sample-setup",
+      "virtual_path": "docs/odata2/sample-setup.md",
+      "profile": "generic",
+      "score": 7409,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tomcat.html",
+      "title": "Apache Olingo Library",
+      "anchor": "odata2-tomcat",
+      "virtual_path": "docs/odata2/tomcat.md",
+      "profile": "generic",
+      "score": 1988,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/AnnotationProcessorExtension.html",
+      "title": "Creating a Web Application with the Annotation Processor Extension ¶",
+      "anchor": "odata2-tutorials-annotationprocessorextension",
+      "virtual_path": "docs/odata2/tutorials/AnnotationProcessorExtension.md",
+      "profile": "generic",
+      "score": 20626,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/CreateWebApp.html",
+      "title": "Apache Olingo Library",
+      "anchor": "odata2-tutorials-createwebapp",
+      "virtual_path": "docs/odata2/tutorials/CreateWebApp.md",
+      "profile": "generic",
+      "score": 10363,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/CustomODataJPAProcessor.html",
+      "title": "Apache Olingo Library",
+      "anchor": "odata2-tutorials-customodatajpaprocessor",
+      "virtual_path": "docs/odata2/tutorials/CustomODataJPAProcessor.md",
+      "profile": "generic",
+      "score": 3821,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/DeltaQuerySupport.html",
+      "title": "Apache Olingo Library",
+      "anchor": "odata2-tutorials-deltaquerysupport",
+      "virtual_path": "docs/odata2/tutorials/DeltaQuerySupport.md",
+      "profile": "generic",
+      "score": 7012,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/ExtendingtheEDM.html",
+      "title": "Extending the EDM Generated from the JPA Models ¶",
+      "anchor": "odata2-tutorials-extendingtheedm",
+      "virtual_path": "docs/odata2/tutorials/ExtendingtheEDM.md",
+      "profile": "generic",
+      "score": 4496,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/HandlingClobAndBlob.html",
+      "title": "Apache Olingo Library",
+      "anchor": "odata2-tutorials-handlingclobandblob",
+      "virtual_path": "docs/odata2/tutorials/HandlingClobAndBlob.md",
+      "profile": "generic",
+      "score": 5467,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/OlingoV2BasicClientSample.html",
+      "title": "How to use Apache Olingo as Client Library ¶",
+      "anchor": "odata2-tutorials-olingov2basicclientsample",
+      "virtual_path": "docs/odata2/tutorials/OlingoV2BasicClientSample.md",
+      "profile": "generic",
+      "score": 65817,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/Olingo_Tutorial_AdvancedReadWrite_Batch.html",
+      "title": "Batch ¶",
+      "anchor": "odata2-tutorials-olingo_tutorial_advancedreadwrite_batch",
+      "virtual_path": "docs/odata2/tutorials/Olingo_Tutorial_AdvancedReadWrite_Batch.md",
+      "profile": "generic",
+      "score": 9709,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/Olingo_Tutorial_AdvancedRead_FilterVisitor.html",
+      "title": "Implementation of Filter Visitor (JDBC) ¶",
+      "anchor": "odata2-tutorials-olingo_tutorial_advancedread_filtervisitor",
+      "virtual_path": "docs/odata2/tutorials/Olingo_Tutorial_AdvancedRead_FilterVisitor.md",
+      "profile": "generic",
+      "score": 22762,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/Olingo_Tutorial_Advanced_Service_Resolution.html",
+      "title": "Service Resolution ¶",
+      "anchor": "odata2-tutorials-olingo_tutorial_advanced_service_resolution",
+      "virtual_path": "docs/odata2/tutorials/Olingo_Tutorial_Advanced_Service_Resolution.md",
+      "profile": "generic",
+      "score": 4567,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/Olingo_Tutorial_BasicRead_EDM.html",
+      "title": "How to use EDMX source as EDM Provider within an OData Service ¶",
+      "anchor": "odata2-tutorials-olingo_tutorial_basicread_edm",
+      "virtual_path": "docs/odata2/tutorials/Olingo_Tutorial_BasicRead_EDM.md",
+      "profile": "generic",
+      "score": 2887,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/Olingo_Tutorial_BasicWrite.html",
+      "title": "Write Scenario ¶",
+      "anchor": "odata2-tutorials-olingo_tutorial_basicwrite",
+      "virtual_path": "docs/odata2/tutorials/Olingo_Tutorial_BasicWrite.md",
+      "profile": "generic",
+      "score": 9726,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/basicread.html",
+      "title": "Read Scenario ¶",
+      "anchor": "odata2-tutorials-basicread",
+      "virtual_path": "docs/odata2/tutorials/basicread.md",
+      "profile": "generic",
+      "score": 36033,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/batchClientApi.html",
+      "title": "Apache Olingo Library",
+      "anchor": "odata2-tutorials-batchclientapi",
+      "virtual_path": "docs/odata2/tutorials/batchClientApi.md",
+      "profile": "generic",
+      "score": 4712,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/debug.html",
+      "title": "Debug Support and Error Handling ¶",
+      "anchor": "odata2-tutorials-debug",
+      "virtual_path": "docs/odata2/tutorials/debug.md",
+      "profile": "generic",
+      "score": 14954,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/delta.html",
+      "title": "Delta Responses ¶",
+      "anchor": "odata2-tutorials-delta",
+      "virtual_path": "docs/odata2/tutorials/delta.md",
+      "profile": "generic",
+      "score": 7340,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/deltaClient.html",
+      "title": "Consuming Delta Responses ¶",
+      "anchor": "odata2-tutorials-deltaclient",
+      "virtual_path": "docs/odata2/tutorials/deltaClient.md",
+      "profile": "generic",
+      "score": 5814,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/jpafunctionimport.html",
+      "title": "Adding Function Imports to OData Services with the JPA Processor ¶",
+      "anchor": "odata2-tutorials-jpafunctionimport",
+      "virtual_path": "docs/odata2/tutorials/jpafunctionimport.md",
+      "profile": "generic",
+      "score": 11796,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/jparedefinemetadata.html",
+      "title": "Apache Olingo Library",
+      "anchor": "odata2-tutorials-jparedefinemetadata",
+      "virtual_path": "docs/odata2/tutorials/jparedefinemetadata.md",
+      "profile": "generic",
+      "score": 6280,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/osgi.html",
+      "title": "OSGi Support ¶",
+      "anchor": "odata2-tutorials-osgi",
+      "virtual_path": "docs/odata2/tutorials/osgi.md",
+      "profile": "generic",
+      "score": 5915,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/read_expand.html",
+      "title": "Read Scenario - Read with $expand ¶",
+      "anchor": "odata2-tutorials-read_expand",
+      "virtual_path": "docs/odata2/tutorials/read_expand.md",
+      "profile": "generic",
+      "score": 19713,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/read_media-resource.html",
+      "title": "Media Resources ¶",
+      "anchor": "odata2-tutorials-read_media-resource",
+      "virtual_path": "docs/odata2/tutorials/read_media-resource.md",
+      "profile": "generic",
+      "score": 30397,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata2/tutorials/servlet.html",
+      "title": "Servlet Support ¶",
+      "anchor": "odata2-tutorials-servlet",
+      "virtual_path": "docs/odata2/tutorials/servlet.md",
+      "profile": "generic",
+      "score": 4403,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata4/download.html",
+      "title": "Download OData 4.0 Java Library ¶",
+      "anchor": "odata4-download",
+      "virtual_path": "docs/odata4/download.md",
+      "profile": "generic",
+      "score": 4415,
+      "depth": 1
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata4/maven.html",
+      "title": "Building the Olingo Project ¶",
+      "anchor": "odata4-maven",
+      "virtual_path": "docs/odata4/maven.md",
+      "profile": "generic",
+      "score": 2861,
+      "depth": 2
+    },
+    {
+      "source_url": "https://olingo.apache.org/doc/odata4/overview.html",
+      "title": "Java Library for OData Version 4 ¶",
+      "anchor": "odata4-overview",
+      "virtual_path": "docs/odata4/overview.md",
+      "profile": "generic",
+      "score": 31080,
+      "depth": 0
+    }
+  ]
+}

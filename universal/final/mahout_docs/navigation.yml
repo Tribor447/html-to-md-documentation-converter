@@ -1,0 +1,221 @@
+- title: QuMat Documentation
+  kind: link
+  source_url: https://mahout.apache.org/docs/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Getting Started
+  kind: category
+  source_url: https://mahout.apache.org/docs/qumat/getting-started/
+  anchor: qumat-getting-started
+  virtual_path: docs/qumat/getting-started/index.md
+  children:
+  - title: Getting Started
+    kind: link
+    source_url: https://mahout.apache.org/docs/qumat/getting-started/
+    anchor: qumat-getting-started
+    virtual_path: docs/qumat/getting-started/index.md
+- title: Qumat (Circuits)
+  kind: category
+  source_url: https://mahout.apache.org/docs/qumat/
+  anchor: qumat
+  virtual_path: docs/qumat/index.md
+  children:
+  - title: Basic Gates
+    kind: link
+    source_url: https://mahout.apache.org/docs/qumat/basic-gates/
+    anchor: qumat-basic-gates
+    virtual_path: docs/qumat/basic-gates/index.md
+  - title: Parameterized Circuits
+    kind: link
+    source_url: https://mahout.apache.org/docs/qumat/parameterized-circuits/
+    anchor: qumat-parameterized-circuits
+    virtual_path: docs/qumat/parameterized-circuits/index.md
+  - title: Api
+    kind: link
+    source_url: https://mahout.apache.org/docs/qumat/api/
+    anchor: qumat-api
+    virtual_path: docs/qumat/api/index.md
+  - title: Core Concepts - Qumat
+    kind: link
+    source_url: https://mahout.apache.org/docs/qumat/concepts/
+    anchor: qumat-concepts
+    virtual_path: docs/qumat/concepts/index.md
+  - title: Examples - Qumat
+    kind: link
+    source_url: https://mahout.apache.org/docs/qumat/examples/
+    anchor: qumat-examples
+    virtual_path: docs/qumat/examples/index.md
+- title: QDP (Data Encoding)
+  kind: category
+  source_url: https://mahout.apache.org/docs/qdp/
+  anchor: qdp
+  virtual_path: docs/qdp/index.md
+  children:
+  - title: Getting Started with QDP
+    kind: link
+    source_url: https://mahout.apache.org/docs/qdp/getting-started/
+    anchor: qdp-getting-started
+    virtual_path: docs/qdp/getting-started/index.md
+  - title: Core Concepts - QDP
+    kind: link
+    source_url: https://mahout.apache.org/docs/qdp/concepts/
+    anchor: qdp-concepts
+    virtual_path: docs/qdp/concepts/index.md
+  - title: API Reference - QDP
+    kind: link
+    source_url: https://mahout.apache.org/docs/qdp/api/
+    anchor: qdp-api
+    virtual_path: docs/qdp/api/index.md
+  - title: Examples - QDP
+    kind: link
+    source_url: https://mahout.apache.org/docs/qdp/examples/
+    anchor: qdp-examples
+    virtual_path: docs/qdp/examples/index.md
+  - title: Internals
+    kind: link
+    source_url: https://mahout.apache.org/docs/qdp/readers/
+    anchor: qdp-readers
+    virtual_path: docs/qdp/readers/index.md
+    children:
+    - title: Readers
+      kind: link
+      source_url: https://mahout.apache.org/docs/qdp/readers/
+      anchor: qdp-readers
+      virtual_path: docs/qdp/readers/index.md
+    - title: Observability
+      kind: link
+      source_url: https://mahout.apache.org/docs/qdp/observability/
+      anchor: qdp-observability
+      virtual_path: docs/qdp/observability/index.md
+    - title: Testing
+      kind: link
+      source_url: https://mahout.apache.org/docs/qdp/testing/
+      anchor: qdp-testing
+      virtual_path: docs/qdp/testing/index.md
+- title: Advanced Topics
+  kind: link
+  source_url: https://mahout.apache.org/docs/advanced/pqc/
+  anchor: advanced-pqc
+  virtual_path: docs/advanced/pqc/index.md
+  children:
+  - title: Pqc
+    kind: link
+    source_url: https://mahout.apache.org/docs/advanced/pqc/
+    anchor: advanced-pqc
+    virtual_path: docs/advanced/pqc/index.md
+  - title: Gap Analysis
+    kind: link
+    source_url: https://mahout.apache.org/docs/advanced/gap-analysis/
+    anchor: advanced-gap-analysis
+    virtual_path: docs/advanced/gap-analysis/index.md
+- title: Quantum Computing Primer
+  kind: category
+  source_url: https://mahout.apache.org/docs/learning/quantum-computing-primer/
+  anchor: learning-quantum-computing-primer
+  virtual_path: docs/learning/quantum-computing-primer/index.md
+  children:
+  - title: Introduction to Quantum Computing
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/quantum-computing-primer/introduction/
+    anchor: learning-quantum-computing-primer-introduction
+    virtual_path: docs/learning/quantum-computing-primer/introduction/index.md
+  - title: Quantum Bits (Qubits)
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/quantum-computing-primer/qubits/
+    anchor: learning-quantum-computing-primer-qubits
+    virtual_path: docs/learning/quantum-computing-primer/qubits/index.md
+  - title: Quantum Gates
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/quantum-computing-primer/quantum-gates/
+    anchor: learning-quantum-computing-primer-quantum-gates
+    virtual_path: docs/learning/quantum-computing-primer/quantum-gates/index.md
+  - title: Quantum Circuits
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/quantum-computing-primer/quantum-circuits/
+    anchor: learning-quantum-computing-primer-quantum-circuits
+    virtual_path: docs/learning/quantum-computing-primer/quantum-circuits/index.md
+  - title: Quantum Entanglement
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/quantum-computing-primer/quantum-entanglement/
+    anchor: learning-quantum-computing-primer-quantum-entanglement
+    virtual_path: docs/learning/quantum-computing-primer/quantum-entanglement/index.md
+  - title: Quantum Algorithms
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/quantum-computing-primer/quantum-algorithms/
+    anchor: learning-quantum-computing-primer-quantum-algorithms
+    virtual_path: docs/learning/quantum-computing-primer/quantum-algorithms/index.md
+  - title: Quantum Error Correction
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/quantum-computing-primer/quantum-error-correction/
+    anchor: learning-quantum-computing-primer-quantum-error-correction
+    virtual_path: docs/learning/quantum-computing-primer/quantum-error-correction/index.md
+  - title: Applications of Quantum Computing
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/quantum-computing-primer/applications/
+    anchor: learning-quantum-computing-primer-applications
+    virtual_path: docs/learning/quantum-computing-primer/applications/index.md
+  - title: Advanced Topics
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/quantum-computing-primer/advanced-topics/
+    anchor: learning-quantum-computing-primer-advanced-topics
+    virtual_path: docs/learning/quantum-computing-primer/advanced-topics/index.md
+- title: Research Papers
+  kind: link
+  source_url: https://mahout.apache.org/docs/learning/papers/
+  anchor: learning-papers
+  virtual_path: docs/learning/papers/index.md
+  children:
+  - title: Summary of 'An Efficient Quantum Factoring Algorithm'
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/papers/An-Efficient-Quantum-Factoring-Algorithm/
+    anchor: learning-papers-an-efficient-quantum-factoring-algorithm
+    virtual_path: docs/learning/papers/An-Efficient-Quantum-Factoring-Algorithm/index.md
+  - title: 'Summary of ''Quantum Kernel Estimation With Neutral Atoms For Supervised
+      Classification: A Gate-Based Approach'''
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/papers/Quantum-Kernel-Estimation-With-Neutral-Atoms-For-Supervised-Classification/
+    anchor: learning-papers-quantum-kernel-estimation-with-neutral-atoms-for-supervised-classification
+    virtual_path: docs/learning/papers/Quantum-Kernel-Estimation-With-Neutral-Atoms-For-Supervised-Classification/index.md
+  - title: Summary of 'Quantum machine learning beyond kernel methods'
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/papers/Quantum-machine-learning-beyond-kernel-methods/
+    anchor: learning-papers-quantum-machine-learning-beyond-kernel-methods
+    virtual_path: docs/learning/papers/Quantum-machine-learning-beyond-kernel-methods/index.md
+  - title: 'Summary of ''Unleashing the Potential of LLMs for Quantum Computing: A
+      Study in Quantum Architecture Design'''
+    kind: link
+    source_url: https://mahout.apache.org/docs/learning/papers/Unleashing-the-Potential-of-LLMs-for-Quantum-Computing/
+    anchor: learning-papers-unleashing-the-potential-of-llms-for-quantum-computing
+    virtual_path: docs/learning/papers/Unleashing-the-Potential-of-LLMs-for-Quantum-Computing/index.md
+- title: Community
+  kind: link
+  source_url: https://mahout.apache.org/docs/community/
+  anchor: community
+  virtual_path: docs/community/index.md
+  children:
+  - title: Who Are We?
+    kind: link
+    source_url: https://mahout.apache.org/docs/community/who-we-are/
+    anchor: community-who-we-are
+    virtual_path: docs/community/who-we-are/index.md
+  - title: Mailing Lists, IRC and Archives
+    kind: link
+    source_url: https://mahout.apache.org/docs/community/mailing-lists/
+    anchor: community-mailing-lists
+    virtual_path: docs/community/mailing-lists/index.md
+  - title: Code of Conduct
+    kind: link
+    source_url: https://mahout.apache.org/docs/community/code-of-conduct/
+    anchor: community-code-of-conduct
+    virtual_path: docs/community/code-of-conduct/index.md
+- title: Contributing
+  kind: link
+  source_url: https://mahout.apache.org/docs/about/how-to-contribute/
+  anchor: about-how-to-contribute
+  virtual_path: docs/about/how-to-contribute/index.md
+  children:
+  - title: How To Contribute
+    kind: link
+    source_url: https://mahout.apache.org/docs/about/how-to-contribute/
+    anchor: about-how-to-contribute
+    virtual_path: docs/about/how-to-contribute/index.md

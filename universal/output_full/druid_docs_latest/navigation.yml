@@ -1,0 +1,1083 @@
+- title: Introduction to Apache Druid
+  kind: link
+  source_url: https://druid.apache.org/docs/latest/design/
+  anchor: design
+  virtual_path: docs/design/index.md
+- title: Getting started
+  kind: link
+  source_url: https://druid.apache.org/docs/latest/tutorials/
+  anchor: tutorials
+  virtual_path: docs/tutorials/index.md
+  children:
+  - title: Single server deployment
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/single-server/
+    anchor: operations-single-server
+    virtual_path: docs/operations/single-server/index.md
+  - title: Run with Docker
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/tutorials/docker/
+    anchor: tutorials-docker
+    virtual_path: docs/tutorials/docker/index.md
+  - title: Clustered deployment
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/tutorials/cluster/
+    anchor: tutorials-cluster
+    virtual_path: docs/tutorials/cluster/index.md
+  - title: Ingestion tutorials
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-msq-extern/
+    anchor: tutorials-tutorial-msq-extern
+    virtual_path: docs/tutorials/tutorial-msq-extern/index.md
+    children:
+    - title: Load files using SQL
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-msq-extern/
+      anchor: tutorials-tutorial-msq-extern
+      virtual_path: docs/tutorials/tutorial-msq-extern/index.md
+    - title: Load from Apache Kafka
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-kafka/
+      anchor: tutorials-tutorial-kafka
+      virtual_path: docs/tutorials/tutorial-kafka/index.md
+    - title: Aggregate data with rollup
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-rollup/
+      anchor: tutorials-tutorial-rollup
+      virtual_path: docs/tutorials/tutorial-rollup/index.md
+    - title: Write an ingestion spec
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-ingestion-spec/
+      anchor: tutorials-tutorial-ingestion-spec
+      virtual_path: docs/tutorials/tutorial-ingestion-spec/index.md
+    - title: Transform input data
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-transform/
+      anchor: tutorials-tutorial-transform
+      virtual_path: docs/tutorials/tutorial-transform/index.md
+    - title: Convert ingestion spec to SQL
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-msq-convert-spec/
+      anchor: tutorials-tutorial-msq-convert-spec
+      virtual_path: docs/tutorials/tutorial-msq-convert-spec/index.md
+  - title: Data management tutorials
+    kind: category
+    source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-retention/
+    anchor: tutorials-tutorial-retention
+    virtual_path: docs/tutorials/tutorial-retention/index.md
+    children:
+    - title: Configure data retention
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-retention/
+      anchor: tutorials-tutorial-retention
+      virtual_path: docs/tutorials/tutorial-retention/index.md
+    - title: Append data
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-append-data/
+      anchor: tutorials-tutorial-append-data
+      virtual_path: docs/tutorials/tutorial-append-data/index.md
+    - title: Update data
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-update-data/
+      anchor: tutorials-tutorial-update-data
+      virtual_path: docs/tutorials/tutorial-update-data/index.md
+    - title: Compact segments
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-compaction/
+      anchor: tutorials-tutorial-compaction
+      virtual_path: docs/tutorials/tutorial-compaction/index.md
+    - title: Deleting data
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-delete-data/
+      anchor: tutorials-tutorial-delete-data
+      virtual_path: docs/tutorials/tutorial-delete-data/index.md
+    - title: Query for latest data
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-latest-by/
+      anchor: tutorials-tutorial-latest-by
+      virtual_path: docs/tutorials/tutorial-latest-by/index.md
+  - title: Querying tutorials
+    kind: category
+    source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-query/
+    anchor: tutorials-tutorial-query
+    virtual_path: docs/tutorials/tutorial-query/index.md
+    children:
+    - title: Query data
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-query/
+      anchor: tutorials-tutorial-query
+      virtual_path: docs/tutorials/tutorial-query/index.md
+    - title: Get to know Query view
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-sql-query-view/
+      anchor: tutorials-tutorial-sql-query-view
+      virtual_path: docs/tutorials/tutorial-sql-query-view/index.md
+    - title: Unnesting arrays
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-unnest-arrays/
+      anchor: tutorials-tutorial-unnest-arrays
+      virtual_path: docs/tutorials/tutorial-unnest-arrays/index.md
+    - title: Query from deep storage
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-query-deep-storage/
+      anchor: tutorials-tutorial-query-deep-storage
+      virtual_path: docs/tutorials/tutorial-query-deep-storage/index.md
+    - title: Query for latest data
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-latest-by/
+      anchor: tutorials-tutorial-latest-by
+      virtual_path: docs/tutorials/tutorial-latest-by/index.md
+    - title: Export results
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-extern/
+      anchor: tutorials-tutorial-extern
+      virtual_path: docs/tutorials/tutorial-extern/index.md
+  - title: Theta sketches tutorial
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-sketches-theta/
+    anchor: tutorials-tutorial-sketches-theta
+    virtual_path: docs/tutorials/tutorial-sketches-theta/index.md
+  - title: JDBC connector tutorial
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-jdbc/
+    anchor: tutorials-tutorial-jdbc
+    virtual_path: docs/tutorials/tutorial-jdbc/index.md
+  - title: Hadoop tutorials
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-batch-hadoop/
+    anchor: tutorials-tutorial-batch-hadoop
+    virtual_path: docs/tutorials/tutorial-batch-hadoop/index.md
+    children:
+    - title: Load from Apache Hadoop
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-batch-hadoop/
+      anchor: tutorials-tutorial-batch-hadoop
+      virtual_path: docs/tutorials/tutorial-batch-hadoop/index.md
+    - title: Kerberized HDFS deep storage
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/tutorials/tutorial-kerberos-hadoop/
+      anchor: tutorials-tutorial-kerberos-hadoop
+      virtual_path: docs/tutorials/tutorial-kerberos-hadoop/index.md
+- title: Design
+  kind: link
+  source_url: https://druid.apache.org/docs/latest/design/architecture/
+  anchor: design-architecture
+  virtual_path: docs/design/architecture/index.md
+  children:
+  - title: Architecture
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/design/architecture/
+    anchor: design-architecture
+    virtual_path: docs/design/architecture/index.md
+  - title: Services
+    kind: category
+    source_url: https://druid.apache.org/docs/latest/design/coordinator/
+    anchor: design-coordinator
+    virtual_path: docs/design/coordinator/index.md
+    children:
+    - title: Coordinator
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/design/coordinator/
+      anchor: design-coordinator
+      virtual_path: docs/design/coordinator/index.md
+    - title: Overlord
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/design/overlord/
+      anchor: design-overlord
+      virtual_path: docs/design/overlord/index.md
+    - title: Broker
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/design/broker/
+      anchor: design-broker
+      virtual_path: docs/design/broker/index.md
+    - title: Router
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/design/router/
+      anchor: design-router
+      virtual_path: docs/design/router/index.md
+    - title: Historical
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/design/historical/
+      anchor: design-historical
+      virtual_path: docs/design/historical/index.md
+    - title: Middle Manager
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/design/middlemanager/
+      anchor: design-middlemanager
+      virtual_path: docs/design/middlemanager/index.md
+    - title: Peon
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/design/peons/
+      anchor: design-peons
+      virtual_path: docs/design/peons/index.md
+    - title: Indexer
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/design/indexer/
+      anchor: design-indexer
+      virtual_path: docs/design/indexer/index.md
+  - title: Storage
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/design/storage/
+    anchor: design-storage
+    virtual_path: docs/design/storage/index.md
+  - title: Segments
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/design/segments/
+    anchor: design-segments
+    virtual_path: docs/design/segments/index.md
+  - title: Deep storage
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/design/deep-storage/
+    anchor: design-deep-storage
+    virtual_path: docs/design/deep-storage/index.md
+  - title: Metadata storage
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/design/metadata-storage/
+    anchor: design-metadata-storage
+    virtual_path: docs/design/metadata-storage/index.md
+  - title: ZooKeeper
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/design/zookeeper/
+    anchor: design-zookeeper
+    virtual_path: docs/design/zookeeper/index.md
+- title: Ingestion
+  kind: link
+  source_url: https://druid.apache.org/docs/latest/ingestion/
+  anchor: ingestion
+  virtual_path: docs/ingestion/index.md
+  children:
+  - title: Ingestion concepts
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/ingestion/data-formats/
+    anchor: ingestion-data-formats
+    virtual_path: docs/ingestion/data-formats/index.md
+    children:
+    - title: Source input formats
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/data-formats/
+      anchor: ingestion-data-formats
+      virtual_path: docs/ingestion/data-formats/index.md
+    - title: Input sources
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/input-sources/
+      anchor: ingestion-input-sources
+      virtual_path: docs/ingestion/input-sources/index.md
+    - title: Schema model
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/schema-model/
+      anchor: ingestion-schema-model
+      virtual_path: docs/ingestion/schema-model/index.md
+    - title: Rollup
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/rollup/
+      anchor: ingestion-rollup
+      virtual_path: docs/ingestion/rollup/index.md
+    - title: Partitioning
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/partitioning/
+      anchor: ingestion-partitioning
+      virtual_path: docs/ingestion/partitioning/index.md
+    - title: Task reference
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/tasks/
+      anchor: ingestion-tasks
+      virtual_path: docs/ingestion/tasks/index.md
+  - title: SQL-based batch
+    kind: category
+    source_url: https://druid.apache.org/docs/latest/multi-stage-query/
+    anchor: multi-stage-query
+    virtual_path: docs/multi-stage-query/index.md
+    children:
+    - title: SQL-based ingestion
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/multi-stage-query/
+      anchor: multi-stage-query
+      virtual_path: docs/multi-stage-query/index.md
+    - title: Key concepts
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/multi-stage-query/concepts/
+      anchor: multi-stage-query-concepts
+      virtual_path: docs/multi-stage-query/concepts/index.md
+    - title: Security
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/multi-stage-query/security/
+      anchor: multi-stage-query-security
+      virtual_path: docs/multi-stage-query/security/index.md
+    - title: Examples
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/multi-stage-query/examples/
+      anchor: multi-stage-query-examples
+      virtual_path: docs/multi-stage-query/examples/index.md
+    - title: Reference
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/multi-stage-query/reference/
+      anchor: multi-stage-query-reference
+      virtual_path: docs/multi-stage-query/reference/index.md
+    - title: Known issues
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/multi-stage-query/known-issues/
+      anchor: multi-stage-query-known-issues
+      virtual_path: docs/multi-stage-query/known-issues/index.md
+  - title: Streaming
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/ingestion/streaming/
+    anchor: ingestion-streaming
+    virtual_path: docs/ingestion/streaming/index.md
+    children:
+    - title: Streaming ingestion
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/streaming/
+      anchor: ingestion-streaming
+      virtual_path: docs/ingestion/streaming/index.md
+    - title: Supervisor
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/supervisor/
+      anchor: ingestion-supervisor
+      virtual_path: docs/ingestion/supervisor/index.md
+    - title: Apache Kafka ingestion
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/kafka-ingestion/
+      anchor: ingestion-kafka-ingestion
+      virtual_path: docs/ingestion/kafka-ingestion/index.md
+    - title: Amazon Kinesis ingestion
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/kinesis-ingestion/
+      anchor: ingestion-kinesis-ingestion
+      virtual_path: docs/ingestion/kinesis-ingestion/index.md
+  - title: Classic batch
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/ingestion/native-batch/
+    anchor: ingestion-native-batch
+    virtual_path: docs/ingestion/native-batch/index.md
+    children:
+    - title: JSON-based batch
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/native-batch/
+      anchor: ingestion-native-batch
+      virtual_path: docs/ingestion/native-batch/index.md
+    - title: Hadoop-based
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/ingestion/hadoop/
+      anchor: ingestion-hadoop
+      virtual_path: docs/ingestion/hadoop/index.md
+  - title: Ingestion spec reference
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/ingestion/ingestion-spec/
+    anchor: ingestion-ingestion-spec
+    virtual_path: docs/ingestion/ingestion-spec/index.md
+  - title: Schema design tips
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/ingestion/schema-design/
+    anchor: ingestion-schema-design
+    virtual_path: docs/ingestion/schema-design/index.md
+  - title: Concurrent append and replace
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/ingestion/concurrent-append-replace/
+    anchor: ingestion-concurrent-append-replace
+    virtual_path: docs/ingestion/concurrent-append-replace/index.md
+  - title: Troubleshooting FAQ
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/ingestion/faq/
+    anchor: ingestion-faq
+    virtual_path: docs/ingestion/faq/index.md
+- title: Data management
+  kind: link
+  source_url: https://druid.apache.org/docs/latest/data-management/
+  anchor: data-management
+  virtual_path: docs/data-management/index.md
+  children:
+  - title: Data updates
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/data-management/update/
+    anchor: data-management-update
+    virtual_path: docs/data-management/update/index.md
+  - title: Data deletion
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/data-management/delete/
+    anchor: data-management-delete
+    virtual_path: docs/data-management/delete/index.md
+  - title: Schema changes
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/data-management/schema-changes/
+    anchor: data-management-schema-changes
+    virtual_path: docs/data-management/schema-changes/index.md
+  - title: Compaction
+    kind: category
+    source_url: https://druid.apache.org/docs/latest/data-management/compaction/
+    anchor: data-management-compaction
+    virtual_path: docs/data-management/compaction/index.md
+    children:
+    - title: Automatic compaction
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/data-management/automatic-compaction/
+      anchor: data-management-automatic-compaction
+      virtual_path: docs/data-management/automatic-compaction/index.md
+    - title: Manual compaction
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/data-management/manual-compaction/
+      anchor: data-management-manual-compaction
+      virtual_path: docs/data-management/manual-compaction/index.md
+- title: Querying
+  kind: link
+  source_url: https://druid.apache.org/docs/latest/querying/sql/
+  anchor: querying-sql
+  virtual_path: docs/querying/sql/index.md
+  children:
+  - title: Druid SQL
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/querying/sql/
+    anchor: querying-sql
+    virtual_path: docs/querying/sql/index.md
+    children:
+    - title: Overview and syntax
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql/
+      anchor: querying-sql
+      virtual_path: docs/querying/sql/index.md
+    - title: All functions
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-functions/
+      anchor: querying-sql-functions
+      virtual_path: docs/querying/sql-functions/index.md
+    - title: Tips for writing good queries
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/tips-good-queries/
+      anchor: querying-tips-good-queries
+      virtual_path: docs/querying/tips-good-queries/index.md
+    - title: Query from deep storage
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/query-deep-storage/
+      anchor: querying-query-deep-storage
+      virtual_path: docs/querying/query-deep-storage/index.md
+    - title: SQL data types
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-data-types/
+      anchor: querying-sql-data-types
+      virtual_path: docs/querying/sql-data-types/index.md
+    - title: Operators
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-operators/
+      anchor: querying-sql-operators
+      virtual_path: docs/querying/sql-operators/index.md
+    - title: Scalar functions
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-scalar/
+      anchor: querying-sql-scalar
+      virtual_path: docs/querying/sql-scalar/index.md
+    - title: Aggregation functions
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-aggregations/
+      anchor: querying-sql-aggregations
+      virtual_path: docs/querying/sql-aggregations/index.md
+    - title: Window functions
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-window-functions/
+      anchor: querying-sql-window-functions
+      virtual_path: docs/querying/sql-window-functions/index.md
+    - title: Array functions
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-array-functions/
+      anchor: querying-sql-array-functions
+      virtual_path: docs/querying/sql-array-functions/index.md
+    - title: Multi-value string functions
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-multivalue-string-functions/
+      anchor: querying-sql-multivalue-string-functions
+      virtual_path: docs/querying/sql-multivalue-string-functions/index.md
+    - title: JSON functions
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-json-functions/
+      anchor: querying-sql-json-functions
+      virtual_path: docs/querying/sql-json-functions/index.md
+    - title: SQL query context
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-query-context/
+      anchor: querying-sql-query-context
+      virtual_path: docs/querying/sql-query-context/index.md
+    - title: SQL metadata tables
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-metadata-tables/
+      anchor: querying-sql-metadata-tables
+      virtual_path: docs/querying/sql-metadata-tables/index.md
+    - title: SQL query translation
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sql-translation/
+      anchor: querying-sql-translation
+      virtual_path: docs/querying/sql-translation/index.md
+  - title: Native queries
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/querying/
+    anchor: querying
+    virtual_path: docs/querying/index.md
+  - title: Query processing
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/querying/query-processing/
+    anchor: querying-query-processing
+    virtual_path: docs/querying/query-processing/index.md
+  - title: Projections
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/querying/projections/
+    anchor: querying-projections
+    virtual_path: docs/querying/projections/index.md
+  - title: Query execution
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/querying/query-execution/
+    anchor: querying-query-execution
+    virtual_path: docs/querying/query-execution/index.md
+  - title: Dart engine
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/querying/dart/
+    anchor: querying-dart
+    virtual_path: docs/querying/dart/index.md
+  - title: Troubleshooting
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/querying/troubleshooting/
+    anchor: querying-troubleshooting
+    virtual_path: docs/querying/troubleshooting/index.md
+  - title: Concepts
+    kind: category
+    source_url: https://druid.apache.org/docs/latest/querying/datasource/
+    anchor: querying-datasource
+    virtual_path: docs/querying/datasource/index.md
+    children:
+    - title: Datasources
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/datasource/
+      anchor: querying-datasource
+      virtual_path: docs/querying/datasource/index.md
+    - title: Joins
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/joins/
+      anchor: querying-joins
+      virtual_path: docs/querying/joins/index.md
+    - title: Lookups
+      kind: category
+      source_url: https://druid.apache.org/docs/latest/querying/lookups/
+      anchor: querying-lookups
+      virtual_path: docs/querying/lookups/index.md
+      children:
+      - title: Globally Cached Lookups
+        kind: link
+        source_url: https://druid.apache.org/docs/latest/querying/lookups-cached-global/
+        anchor: querying-lookups-cached-global
+        virtual_path: docs/querying/lookups-cached-global/index.md
+      - title: Apache Kafka Lookups
+        kind: link
+        source_url: https://druid.apache.org/docs/latest/querying/kafka-extraction-namespace/
+        anchor: querying-kafka-extraction-namespace
+        virtual_path: docs/querying/kafka-extraction-namespace/index.md
+    - title: Multi-value dimensions
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/multi-value-dimensions/
+      anchor: querying-multi-value-dimensions
+      virtual_path: docs/querying/multi-value-dimensions/index.md
+    - title: Arrays
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/arrays/
+      anchor: querying-arrays
+      virtual_path: docs/querying/arrays/index.md
+    - title: Nested columns
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/nested-columns/
+      anchor: querying-nested-columns
+      virtual_path: docs/querying/nested-columns/index.md
+    - title: Multitenancy
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/multitenancy/
+      anchor: querying-multitenancy
+      virtual_path: docs/querying/multitenancy/index.md
+    - title: Query caching
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/caching/
+      anchor: querying-caching
+      virtual_path: docs/querying/caching/index.md
+    - title: Using query caching
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/using-caching/
+      anchor: querying-using-caching
+      virtual_path: docs/querying/using-caching/index.md
+    - title: Set query context
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/query-context/
+      anchor: querying-query-context
+      virtual_path: docs/querying/query-context/index.md
+    - title: Query context reference
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/query-context-reference/
+      anchor: querying-query-context-reference
+      virtual_path: docs/querying/query-context-reference/index.md
+  - title: Native query types
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/querying/timeseriesquery/
+    anchor: querying-timeseriesquery
+    virtual_path: docs/querying/timeseriesquery/index.md
+    children:
+    - title: Timeseries
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/timeseriesquery/
+      anchor: querying-timeseriesquery
+      virtual_path: docs/querying/timeseriesquery/index.md
+    - title: TopN
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/topnquery/
+      anchor: querying-topnquery
+      virtual_path: docs/querying/topnquery/index.md
+    - title: GroupBy
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/groupbyquery/
+      anchor: querying-groupbyquery
+      virtual_path: docs/querying/groupbyquery/index.md
+    - title: Scan
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/scan-query/
+      anchor: querying-scan-query
+      virtual_path: docs/querying/scan-query/index.md
+    - title: Search
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/searchquery/
+      anchor: querying-searchquery
+      virtual_path: docs/querying/searchquery/index.md
+    - title: TimeBoundary
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/timeboundaryquery/
+      anchor: querying-timeboundaryquery
+      virtual_path: docs/querying/timeboundaryquery/index.md
+    - title: SegmentMetadata
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/segmentmetadataquery/
+      anchor: querying-segmentmetadataquery
+      virtual_path: docs/querying/segmentmetadataquery/index.md
+    - title: DatasourceMetadata
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/datasourcemetadataquery/
+      anchor: querying-datasourcemetadataquery
+      virtual_path: docs/querying/datasourcemetadataquery/index.md
+  - title: Native query components
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/querying/filters/
+    anchor: querying-filters
+    virtual_path: docs/querying/filters/index.md
+    children:
+    - title: Filters
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/filters/
+      anchor: querying-filters
+      virtual_path: docs/querying/filters/index.md
+    - title: Granularities
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/granularities/
+      anchor: querying-granularities
+      virtual_path: docs/querying/granularities/index.md
+    - title: Dimensions
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/dimensionspecs/
+      anchor: querying-dimensionspecs
+      virtual_path: docs/querying/dimensionspecs/index.md
+    - title: Aggregations
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/aggregations/
+      anchor: querying-aggregations
+      virtual_path: docs/querying/aggregations/index.md
+    - title: Post-aggregations
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/post-aggregations/
+      anchor: querying-post-aggregations
+      virtual_path: docs/querying/post-aggregations/index.md
+    - title: Expressions
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/math-expr/
+      anchor: querying-math-expr
+      virtual_path: docs/querying/math-expr/index.md
+    - title: Having filters (groupBy)
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/having/
+      anchor: querying-having
+      virtual_path: docs/querying/having/index.md
+    - title: Sorting and limiting (groupBy)
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/limitspec/
+      anchor: querying-limitspec
+      virtual_path: docs/querying/limitspec/index.md
+    - title: Sorting (topN)
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/topnmetricspec/
+      anchor: querying-topnmetricspec
+      virtual_path: docs/querying/topnmetricspec/index.md
+    - title: String comparators
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/sorting-orders/
+      anchor: querying-sorting-orders
+      virtual_path: docs/querying/sorting-orders/index.md
+    - title: Virtual columns
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/virtual-columns/
+      anchor: querying-virtual-columns
+      virtual_path: docs/querying/virtual-columns/index.md
+    - title: Spatial filters
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/querying/geo/
+      anchor: querying-geo
+      virtual_path: docs/querying/geo/index.md
+- title: API reference
+  kind: category
+  source_url: https://druid.apache.org/docs/latest/api-reference/
+  anchor: api-reference
+  virtual_path: docs/api-reference/index.md
+  children:
+  - title: HTTP APIs
+    kind: category
+    source_url: https://druid.apache.org/docs/latest/api-reference/sql-api/
+    anchor: api-reference-sql-api
+    virtual_path: docs/api-reference/sql-api/index.md
+    children:
+    - title: Druid SQL
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/sql-api/
+      anchor: api-reference-sql-api
+      virtual_path: docs/api-reference/sql-api/index.md
+    - title: SQL-based ingestion
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/sql-ingestion-api/
+      anchor: api-reference-sql-ingestion-api
+      virtual_path: docs/api-reference/sql-ingestion-api/index.md
+    - title: JSON querying
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/json-querying-api/
+      anchor: api-reference-json-querying-api
+      virtual_path: docs/api-reference/json-querying-api/index.md
+    - title: Tasks
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/tasks-api/
+      anchor: api-reference-tasks-api
+      virtual_path: docs/api-reference/tasks-api/index.md
+    - title: Supervisors
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/supervisor-api/
+      anchor: api-reference-supervisor-api
+      virtual_path: docs/api-reference/supervisor-api/index.md
+    - title: Retention rules
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/retention-rules-api/
+      anchor: api-reference-retention-rules-api
+      virtual_path: docs/api-reference/retention-rules-api/index.md
+    - title: Data management
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/data-management-api/
+      anchor: api-reference-data-management-api
+      virtual_path: docs/api-reference/data-management-api/index.md
+    - title: Automatic compaction
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/automatic-compaction-api/
+      anchor: api-reference-automatic-compaction-api
+      virtual_path: docs/api-reference/automatic-compaction-api/index.md
+    - title: Lookups
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/lookups-api/
+      anchor: api-reference-lookups-api
+      virtual_path: docs/api-reference/lookups-api/index.md
+    - title: Service status
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/service-status-api/
+      anchor: api-reference-service-status-api
+      virtual_path: docs/api-reference/service-status-api/index.md
+    - title: Dynamic configuration
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/dynamic-configuration-api/
+      anchor: api-reference-dynamic-configuration-api
+      virtual_path: docs/api-reference/dynamic-configuration-api/index.md
+    - title: Legacy metadata
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/legacy-metadata-api/
+      anchor: api-reference-legacy-metadata-api
+      virtual_path: docs/api-reference/legacy-metadata-api/index.md
+  - title: Java APIs
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/api-reference/sql-jdbc/
+    anchor: api-reference-sql-jdbc
+    virtual_path: docs/api-reference/sql-jdbc/index.md
+    children:
+    - title: SQL JDBC driver
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/api-reference/sql-jdbc/
+      anchor: api-reference-sql-jdbc
+      virtual_path: docs/api-reference/sql-jdbc/index.md
+- title: Configuration
+  kind: link
+  source_url: https://druid.apache.org/docs/latest/configuration/
+  anchor: configuration
+  virtual_path: docs/configuration/index.md
+  children:
+  - title: Extensions
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/configuration/extensions/
+    anchor: configuration-extensions
+    virtual_path: docs/configuration/extensions/index.md
+  - title: Logging
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/configuration/logging/
+    anchor: configuration-logging
+    virtual_path: docs/configuration/logging/index.md
+- title: Operations
+  kind: category
+  source_url: https://druid.apache.org/docs/latest/api-reference/automatic-compaction-api/
+  anchor: api-reference-automatic-compaction-api
+  virtual_path: docs/api-reference/automatic-compaction-api/index.md
+  children:
+  - title: Automatic compaction
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/api-reference/automatic-compaction-api/
+    anchor: api-reference-automatic-compaction-api
+    virtual_path: docs/api-reference/automatic-compaction-api/index.md
+  - title: Web console
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/web-console/
+    anchor: operations-web-console
+    virtual_path: docs/operations/web-console/index.md
+  - title: Java runtime
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/java/
+    anchor: operations-java
+    virtual_path: docs/operations/java/index.md
+  - title: Durable storage
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/durable-storage/
+    anchor: operations-durable-storage
+    virtual_path: docs/operations/durable-storage/index.md
+  - title: Security
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/security-overview/
+    anchor: operations-security-overview
+    virtual_path: docs/operations/security-overview/index.md
+    children:
+    - title: Security overview
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/security-overview/
+      anchor: operations-security-overview
+      virtual_path: docs/operations/security-overview/index.md
+    - title: User authentication and authorization
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/security-user-auth/
+      anchor: operations-security-user-auth
+      virtual_path: docs/operations/security-user-auth/index.md
+    - title: LDAP auth
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/auth-ldap/
+      anchor: operations-auth-ldap
+      virtual_path: docs/operations/auth-ldap/index.md
+    - title: Password providers
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/password-provider/
+      anchor: operations-password-provider
+      virtual_path: docs/operations/password-provider/index.md
+    - title: Dynamic Config Providers
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/dynamic-config-provider/
+      anchor: operations-dynamic-config-provider
+      virtual_path: docs/operations/dynamic-config-provider/index.md
+    - title: TLS support
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/tls-support/
+      anchor: operations-tls-support
+      virtual_path: docs/operations/tls-support/index.md
+  - title: Performance tuning
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/basic-cluster-tuning/
+    anchor: operations-basic-cluster-tuning
+    virtual_path: docs/operations/basic-cluster-tuning/index.md
+    children:
+    - title: Basic cluster tuning
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/basic-cluster-tuning/
+      anchor: operations-basic-cluster-tuning
+      virtual_path: docs/operations/basic-cluster-tuning/index.md
+    - title: Segment size optimization
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/segment-optimization/
+      anchor: operations-segment-optimization
+      virtual_path: docs/operations/segment-optimization/index.md
+    - title: Mixed workloads
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/mixed-workloads/
+      anchor: operations-mixed-workloads
+      virtual_path: docs/operations/mixed-workloads/index.md
+    - title: HTTP compression
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/http-compression/
+      anchor: operations-http-compression
+      virtual_path: docs/operations/http-compression/index.md
+    - title: Automated metadata cleanup
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/clean-metadata-store/
+      anchor: operations-clean-metadata-store
+      virtual_path: docs/operations/clean-metadata-store/index.md
+  - title: Monitoring
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/request-logging/
+    anchor: operations-request-logging
+    virtual_path: docs/operations/request-logging/index.md
+    children:
+    - title: Request logging
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/request-logging/
+      anchor: operations-request-logging
+      virtual_path: docs/operations/request-logging/index.md
+    - title: Metrics
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/metrics/
+      anchor: operations-metrics
+      virtual_path: docs/operations/metrics/index.md
+    - title: Alerts
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/alerts/
+      anchor: operations-alerts
+      virtual_path: docs/operations/alerts/index.md
+  - title: High availability
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/high-availability/
+    anchor: operations-high-availability
+    virtual_path: docs/operations/high-availability/index.md
+  - title: Rolling updates
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/rolling-updates/
+    anchor: operations-rolling-updates
+    virtual_path: docs/operations/rolling-updates/index.md
+  - title: Using rules to drop and retain data
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/rule-configuration/
+    anchor: operations-rule-configuration
+    virtual_path: docs/operations/rule-configuration/index.md
+  - title: Migrate from firehose
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/migrate-from-firehose/
+    anchor: operations-migrate-from-firehose
+    virtual_path: docs/operations/migrate-from-firehose/index.md
+  - title: Working with different versions of Apache Hadoop
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/other-hadoop/
+    anchor: operations-other-hadoop
+    virtual_path: docs/operations/other-hadoop/index.md
+  - title: Misc
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/operations/dump-segment/
+    anchor: operations-dump-segment
+    virtual_path: docs/operations/dump-segment/index.md
+    children:
+    - title: dump-segment tool
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/dump-segment/
+      anchor: operations-dump-segment
+      virtual_path: docs/operations/dump-segment/index.md
+    - title: reset-cluster tool
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/reset-cluster/
+      anchor: operations-reset-cluster
+      virtual_path: docs/operations/reset-cluster/index.md
+    - title: insert-segment-to-db tool
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/insert-segment-to-db/
+      anchor: operations-insert-segment-to-db
+      virtual_path: docs/operations/insert-segment-to-db/index.md
+    - title: pull-deps tool
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/pull-deps/
+      anchor: operations-pull-deps
+      virtual_path: docs/operations/pull-deps/index.md
+    - title: Deep storage migration
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/deep-storage-migration/
+      anchor: operations-deep-storage-migration
+      virtual_path: docs/operations/deep-storage-migration/index.md
+    - title: Export Metadata Tool
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/export-metadata/
+      anchor: operations-export-metadata
+      virtual_path: docs/operations/export-metadata/index.md
+    - title: Metadata Migration
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/metadata-migration/
+      anchor: operations-metadata-migration
+      virtual_path: docs/operations/metadata-migration/index.md
+    - title: Content for build.sbt
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/operations/use_sbt_to_build_fat_jar/
+      anchor: operations-use_sbt_to_build_fat_jar
+      virtual_path: docs/operations/use_sbt_to_build_fat_jar/index.md
+- title: Development
+  kind: link
+  source_url: https://druid.apache.org/docs/latest/development/overview/
+  anchor: development-overview
+  virtual_path: docs/development/overview/index.md
+  children:
+  - title: Creating extensions
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/development/modules/
+    anchor: development-modules
+    virtual_path: docs/development/modules/index.md
+  - title: JavaScript functionality
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/development/javascript/
+    anchor: development-javascript
+    virtual_path: docs/development/javascript/index.md
+  - title: Build from source
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/development/build/
+    anchor: development-build
+    virtual_path: docs/development/build/index.md
+  - title: Versioning
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/development/versioning/
+    anchor: development-versioning
+    virtual_path: docs/development/versioning/index.md
+  - title: Contribute to Druid docs
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/development/contribute-to-docs/
+    anchor: development-contribute-to-docs
+    virtual_path: docs/development/contribute-to-docs/index.md
+  - title: Experimental features
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/development/experimental/
+    anchor: development-experimental
+    virtual_path: docs/development/experimental/index.md
+- title: Release info
+  kind: link
+  source_url: https://druid.apache.org/docs/latest/release-info/release-notes
+  children:
+  - title: Release notes
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/release-info/release-notes
+  - title: Upgrade notes
+    kind: link
+    source_url: https://druid.apache.org/docs/latest/release-info/upgrade-notes/
+    anchor: release-info-upgrade-notes
+    virtual_path: docs/release-info/upgrade-notes/index.md
+  - title: Migration guides
+    kind: category
+    source_url: https://druid.apache.org/docs/latest/release-info/migration-guide/
+    anchor: release-info-migration-guide
+    virtual_path: docs/release-info/migration-guide/index.md
+    children:
+    - title: MVDs to arrays
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/release-info/migr-mvd-array/
+      anchor: release-info-migr-mvd-array
+      virtual_path: docs/release-info/migr-mvd-array/index.md
+    - title: Front-coded dictionaries
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/release-info/migr-front-coded-dict/
+      anchor: release-info-migr-front-coded-dict
+      virtual_path: docs/release-info/migr-front-coded-dict/index.md
+    - title: Subquery limit
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/release-info/migr-subquery-limit/
+      anchor: release-info-migr-subquery-limit
+      virtual_path: docs/release-info/migr-subquery-limit/index.md
+    - title: SQL compliant mode
+      kind: link
+      source_url: https://druid.apache.org/docs/latest/release-info/migr-ansi-sql-null/
+      anchor: release-info-migr-ansi-sql-null
+      virtual_path: docs/release-info/migr-ansi-sql-null/index.md
+- title: Papers
+  kind: link
+  source_url: https://druid.apache.org/docs/latest/misc/papers-and-talks/
+  anchor: misc-papers-and-talks
+  virtual_path: docs/misc/papers-and-talks/index.md

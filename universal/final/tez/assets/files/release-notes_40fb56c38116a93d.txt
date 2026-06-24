@@ -1,0 +1,10 @@
+0.8.3 is a release on the 0.8 line, which brought in support for external service to Tez (TEZ-2003).
+The APIs for external services continue to be unstable in this release, and can change in future version.
+This release also contains the first iteration of the revised tez-ui (tez-ui2) (TEZ-2980).
+All fixes from previous releases - 0.5.4, 0.6.1, 0.7.0, 0.8.2 are part of this release.
+
+Major changes
+1) Support for co-ordinating and running DAGs for external services.
+2) Addition of tez-ui2
+
+Please see CHANGES.txt for more details.

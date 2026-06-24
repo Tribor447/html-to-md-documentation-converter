@@ -1,0 +1,8 @@
+Tez 0.7.1 is the first maintenance release on the 0.7.x line and contains over a 100 fixes.
+
+There were 3 incompatible changes introduced:
+  TEZ-2679. Admin forms of launch env settings. 
+  TEZ-2949. Allow duplicate dag names within session for Tez.
+  TEZ-2972. Avoid task rescheduling when a node turns unhealthy
+
+Please see CHANGES.txt for more details.

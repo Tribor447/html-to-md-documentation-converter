@@ -1,0 +1,425 @@
+- title: Download
+  kind: category
+  children:
+  - title: Download OData 2.0 Java
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/download.html
+    anchor: odata2-download
+    virtual_path: docs/odata2/download.md
+  - title: Download OData 4.0 Java
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata4/download.html
+    anchor: odata4-download
+    virtual_path: docs/odata4/download.md
+  - title: Download OData 4.0 JavaScript
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/download.html
+    anchor: javascript-download
+    virtual_path: docs/javascript/download.md
+- title: Documentation
+  kind: category
+  children:
+  - title: Documentation OData 2.0 Java
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/index.html
+    anchor: odata2
+    virtual_path: docs/odata2/index.md
+  - title: Documentation OData 4.0 JavaScript
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/index.html
+    anchor: javascript
+    virtual_path: docs/javascript/index.md
+- title: Java Library for OData Version 4
+  kind: category
+  source_url: https://olingo.apache.org/doc/odata4/overview.html
+  anchor: odata4-overview
+  virtual_path: docs/odata4/overview.md
+- title: Documentation OData 2.0 Java Library
+  kind: category
+  source_url: https://olingo.apache.org/doc/odata2/index.html
+  anchor: odata2
+  virtual_path: docs/odata2/index.md
+- title: How to Start
+  kind: category
+  children:
+  - title: Sample Project Setup with Maven Archetypes
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/sample-setup.html
+    anchor: odata2-sample-setup
+    virtual_path: docs/odata2/sample-setup.md
+  - title: Run with Tomcat
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tomcat.html
+    anchor: odata2-tomcat
+    virtual_path: docs/odata2/tomcat.md
+- title: Olingo for Client usage
+  kind: category
+  children:
+  - title: Client Sample Tutorial
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/OlingoV2BasicClientSample.html
+    anchor: odata2-tutorials-olingov2basicclientsample
+    virtual_path: docs/odata2/tutorials/OlingoV2BasicClientSample.md
+  - title: Consuming Delta Responses
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/deltaClient.html
+    anchor: odata2-tutorials-deltaclient
+    virtual_path: docs/odata2/tutorials/deltaClient.md
+  - title: How to use the Batch Client API
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/batchClientApi.html
+    anchor: odata2-tutorials-batchclientapi
+    virtual_path: docs/odata2/tutorials/batchClientApi.md
+- title: Olingo for Server usage
+  kind: category
+  children:
+  - title: Read Scenario
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/basicread.html
+    anchor: odata2-tutorials-basicread
+    virtual_path: docs/odata2/tutorials/basicread.md
+  - title: Write Scenario
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/Olingo_Tutorial_BasicWrite.html
+    anchor: odata2-tutorials-olingo_tutorial_basicwrite
+    virtual_path: docs/odata2/tutorials/Olingo_Tutorial_BasicWrite.md
+  - title: Read Scenario - $expand
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/read_expand.html
+    anchor: odata2-tutorials-read_expand
+    virtual_path: docs/odata2/tutorials/read_expand.md
+  - title: Read Scenario - Media Resources
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/read_media-resource.html
+    anchor: odata2-tutorials-read_media-resource
+    virtual_path: docs/odata2/tutorials/read_media-resource.md
+  - title: Batch Scenario (read/write)
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/Olingo_Tutorial_AdvancedReadWrite_Batch.html
+    anchor: odata2-tutorials-olingo_tutorial_advancedreadwrite_batch
+    virtual_path: docs/odata2/tutorials/Olingo_Tutorial_AdvancedReadWrite_Batch.md
+  - title: Delta Responses
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/delta.html
+    anchor: odata2-tutorials-delta
+    virtual_path: docs/odata2/tutorials/delta.md
+- title: Olingo Library Extensions
+  kind: category
+  children:
+  - title: Java Annotation Processor Extension
+    kind: category
+    children:
+    - title: Creating a Web Application Project with Annotation Processor Extension
+      kind: link
+      source_url: https://olingo.apache.org/doc/odata2/tutorials/AnnotationProcessorExtension.html
+      anchor: odata2-tutorials-annotationprocessorextension
+      virtual_path: docs/odata2/tutorials/AnnotationProcessorExtension.md
+  - title: JPA Processor Extension
+    kind: category
+    children:
+    - title: Creating a Web Application Project for Transforming JPA Models into OData
+        Services
+      kind: link
+      source_url: https://olingo.apache.org/doc/odata2/tutorials/CreateWebApp.html
+      anchor: odata2-tutorials-createwebapp
+      virtual_path: docs/odata2/tutorials/CreateWebApp.md
+    - title: Extending the EDM Generated from the JPA Models
+      kind: link
+      source_url: https://olingo.apache.org/doc/odata2/tutorials/ExtendingtheEDM.html
+      anchor: odata2-tutorials-extendingtheedm
+      virtual_path: docs/odata2/tutorials/ExtendingtheEDM.md
+    - title: Adding Function Imports for JPA Models
+      kind: link
+      source_url: https://olingo.apache.org/doc/odata2/tutorials/jpafunctionimport.html
+      anchor: odata2-tutorials-jpafunctionimport
+      virtual_path: docs/odata2/tutorials/jpafunctionimport.md
+    - title: Redefine Metadata for JPA Models
+      kind: link
+      source_url: https://olingo.apache.org/doc/odata2/tutorials/jparedefinemetadata.html
+      anchor: odata2-tutorials-jparedefinemetadata
+      virtual_path: docs/odata2/tutorials/jparedefinemetadata.md
+    - title: Delta Token Support for JPA
+      kind: link
+      source_url: https://olingo.apache.org/doc/odata2/tutorials/DeltaQuerySupport.html
+      anchor: odata2-tutorials-deltaquerysupport
+      virtual_path: docs/odata2/tutorials/DeltaQuerySupport.md
+    - title: Handling CLOB and BLOB Data Types
+      kind: link
+      source_url: https://olingo.apache.org/doc/odata2/tutorials/HandlingClobAndBlob.html
+      anchor: odata2-tutorials-handlingclobandblob
+      virtual_path: docs/odata2/tutorials/HandlingClobAndBlob.md
+    - title: Custom OData JPA Processor
+      kind: link
+      source_url: https://olingo.apache.org/doc/odata2/tutorials/CustomODataJPAProcessor.html
+      anchor: odata2-tutorials-customodatajpaprocessor
+      virtual_path: docs/odata2/tutorials/CustomODataJPAProcessor.md
+- title: Miscellaneous
+  kind: category
+  children:
+  - title: Non JAX-RS support
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/servlet.html
+    anchor: odata2-tutorials-servlet
+    virtual_path: docs/odata2/tutorials/servlet.md
+  - title: Implementation of Filter Visitor
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/Olingo_Tutorial_AdvancedRead_FilterVisitor.html
+    anchor: odata2-tutorials-olingo_tutorial_advancedread_filtervisitor
+    virtual_path: docs/odata2/tutorials/Olingo_Tutorial_AdvancedRead_FilterVisitor.md
+  - title: Parse Metadata
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/Olingo_Tutorial_BasicRead_EDM.html
+    anchor: odata2-tutorials-olingo_tutorial_basicread_edm
+    virtual_path: docs/odata2/tutorials/Olingo_Tutorial_BasicRead_EDM.md
+  - title: Service Resolution
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/Olingo_Tutorial_Advanced_Service_Resolution.html
+    anchor: odata2-tutorials-olingo_tutorial_advanced_service_resolution
+    virtual_path: docs/odata2/tutorials/Olingo_Tutorial_Advanced_Service_Resolution.md
+  - title: Debug Support and Custom Error Handling
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/debug.html
+    anchor: odata2-tutorials-debug
+    virtual_path: docs/odata2/tutorials/debug.md
+  - title: OSGi Support
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tutorials/osgi.html
+    anchor: odata2-tutorials-osgi
+    virtual_path: docs/odata2/tutorials/osgi.md
+- title: Olingo Project Setup (Contributors)
+  kind: category
+  children:
+  - title: Git and Maven Support
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/maven.html
+    anchor: odata2-maven
+    virtual_path: docs/odata2/maven.md
+  - title: Eclipse IDE Support
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/eclipse.html
+    anchor: odata2-eclipse
+    virtual_path: docs/odata2/eclipse.md
+  - title: Release Documentation
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/release.html
+    anchor: odata2-release
+    virtual_path: docs/odata2/release.md
+- title: Index
+  kind: category
+  source_url: https://olingo.apache.org/doc/javascript/apidoc/index.html
+  anchor: javascript-apidoc
+  virtual_path: docs/javascript/apidoc/index.md
+- title: Modules
+  kind: category
+  children:
+  - title: cache
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/module-cache.html
+    anchor: javascript-apidoc-module-cache
+    virtual_path: docs/javascript/apidoc/module-cache.md
+  - title: cache/source
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/source.html
+    anchor: javascript-apidoc-source
+    virtual_path: docs/javascript/apidoc/source.md
+  - title: odata
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/module-odata.html
+    anchor: javascript-apidoc-module-odata
+    virtual_path: docs/javascript/apidoc/module-odata.md
+  - title: odata/batch
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/batch.html
+    anchor: javascript-apidoc-batch
+    virtual_path: docs/javascript/apidoc/batch.md
+  - title: odata/handler
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/handler.html
+    anchor: javascript-apidoc-handler
+    virtual_path: docs/javascript/apidoc/handler.md
+  - title: odata/json
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/json.html
+    anchor: javascript-apidoc-json
+    virtual_path: docs/javascript/apidoc/json.md
+  - title: odata/metadata
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/metadata.html
+    anchor: javascript-apidoc-metadata
+    virtual_path: docs/javascript/apidoc/metadata.md
+  - title: odata/net
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/net.html
+    anchor: javascript-apidoc-net
+    virtual_path: docs/javascript/apidoc/net.md
+  - title: odata/utils
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/utils.html
+    anchor: javascript-apidoc-utils
+    virtual_path: docs/javascript/apidoc/utils.md
+  - title: odatajs/deferred
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/deferred.html
+    anchor: javascript-apidoc-deferred
+    virtual_path: docs/javascript/apidoc/deferred.md
+  - title: odatajs/utils
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/utils_.html
+    anchor: javascript-apidoc-utils_
+    virtual_path: docs/javascript/apidoc/utils_.md
+  - title: odatajs/xml
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/xml.html
+    anchor: javascript-apidoc-xml
+    virtual_path: docs/javascript/apidoc/xml.md
+  - title: store
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/module-store.html
+    anchor: javascript-apidoc-module-store
+    virtual_path: docs/javascript/apidoc/module-store.md
+  - title: store/dom
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/dom.html
+    anchor: javascript-apidoc-dom
+    virtual_path: docs/javascript/apidoc/dom.md
+  - title: store/indexeddb
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/indexeddb.html
+    anchor: javascript-apidoc-indexeddb
+    virtual_path: docs/javascript/apidoc/indexeddb.md
+  - title: store/memory
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/memory.html
+    anchor: javascript-apidoc-memory
+    virtual_path: docs/javascript/apidoc/memory.md
+- title: Classes
+  kind: category
+  children:
+  - title: DataCache
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/DataCache.html
+    anchor: javascript-apidoc-datacache
+    virtual_path: docs/javascript/apidoc/DataCache.md
+  - title: DataCacheOperation
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/DataCacheOperation.html
+    anchor: javascript-apidoc-datacacheoperation
+    virtual_path: docs/javascript/apidoc/DataCacheOperation.md
+  - title: DjsDeferred
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/DjsDeferred.html
+    anchor: javascript-apidoc-djsdeferred
+    virtual_path: docs/javascript/apidoc/DjsDeferred.md
+  - title: DomStore
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/dom-DomStore.html
+    anchor: javascript-apidoc-dom-domstore
+    virtual_path: docs/javascript/apidoc/dom-DomStore.md
+  - title: IndexedDBStore
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/indexeddb-IndexedDBStore.html
+    anchor: javascript-apidoc-indexeddb-indexeddbstore
+    virtual_path: docs/javascript/apidoc/indexeddb-IndexedDBStore.md
+  - title: MemoryStore
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/memory-MemoryStore.html
+    anchor: javascript-apidoc-memory-memorystore
+    virtual_path: docs/javascript/apidoc/memory-MemoryStore.md
+  - title: ODataCacheSource
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/ODataCacheSource.html
+    anchor: javascript-apidoc-odatacachesource
+    virtual_path: docs/javascript/apidoc/ODataCacheSource.md
+- title: Global
+  kind: category
+  source_url: https://olingo.apache.org/doc/javascript/apidoc/global.html
+  anchor: javascript-apidoc-global
+  virtual_path: docs/javascript/apidoc/global.md
+- title: How to use Apache Olingo as Client Library
+  kind: category
+  source_url: https://olingo.apache.org/doc/odata2/tutorials/OlingoV2BasicClientSample.html
+  anchor: odata2-tutorials-olingov2basicclientsample
+  virtual_path: docs/odata2/tutorials/OlingoV2BasicClientSample.md
+- title: Project Setup
+  kind: category
+  source_url: https://olingo.apache.org/doc/odata2/project-setup.html
+  anchor: odata2-project-setup
+  virtual_path: docs/odata2/project-setup.md
+- title: Build Environment
+  kind: category
+  children:
+  - title: Maven
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/maven.html
+    anchor: odata2-maven
+    virtual_path: docs/odata2/maven.md
+- title: Development Environment
+  kind: category
+  children:
+  - title: Eclipse IDE
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/eclipse.html
+    anchor: odata2-eclipse
+    virtual_path: docs/odata2/eclipse.md
+- title: Run Environment
+  kind: category
+  children:
+  - title: Run with Tomcat
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/tomcat.html
+    anchor: odata2-tomcat
+    virtual_path: docs/odata2/tomcat.md
+- title: Required steps
+  kind: category
+  children:
+  - title: Build of OData Application
+    kind: category
+    children:
+    - title: If you don't have a project the follow our sample project setup
+      kind: link
+      source_url: https://olingo.apache.org/doc/odata2/sample-setup.html
+      anchor: odata2-sample-setup
+      virtual_path: docs/odata2/sample-setup.md
+- title: Download OData 2.0 Java Library
+  kind: category
+  source_url: https://olingo.apache.org/doc/odata2/download.html
+  anchor: odata2-download
+  virtual_path: docs/odata2/download.md
+- title: Download OData 4.0 Java Library
+  kind: category
+  source_url: https://olingo.apache.org/doc/odata4/download.html
+  anchor: odata4-download
+  virtual_path: docs/odata4/download.md
+- title: Download Olingo OData Client for JavaScript Library
+  kind: category
+  source_url: https://olingo.apache.org/doc/javascript/download.html
+  anchor: javascript-download
+  virtual_path: docs/javascript/download.md
+- title: Other pages
+  kind: category
+  children:
+  - title: 'JSDoc: Source: cache.js'
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/apidoc/cache.js.html
+    anchor: javascript-apidoc-cache.js
+    virtual_path: docs/javascript/apidoc/cache.js.md
+  - title: Building the Olingo OData Client for JavaScript ¶
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/project-build.html
+    anchor: javascript-project-build
+    virtual_path: docs/javascript/project-build.md
+  - title: Project setup ¶
+    kind: link
+    source_url: https://olingo.apache.org/doc/javascript/project-setup.html
+    anchor: javascript-project-setup
+    virtual_path: docs/javascript/project-setup.md
+  - title: Apache Olingo - Privacy ¶
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata2/privacy.html
+    anchor: odata2-privacy
+    virtual_path: docs/odata2/privacy.md
+  - title: Building the Olingo Project ¶
+    kind: link
+    source_url: https://olingo.apache.org/doc/odata4/maven.html
+    anchor: odata4-maven
+    virtual_path: docs/odata4/maven.md

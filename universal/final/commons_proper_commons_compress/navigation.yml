@@ -1,0 +1,90 @@
+- title: Commons Compress
+  kind: category
+  children:
+  - title: About
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Sources
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/scm.html
+    anchor: scm
+    virtual_path: docs/scm.md
+  - title: Security
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/security.html
+    anchor: security
+    virtual_path: docs/security.md
+  - title: User Guide
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/examples.html
+    anchor: examples
+    virtual_path: docs/examples.md
+  - title: Known Limitations
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/limitations.html
+    anchor: limitations
+    virtual_path: docs/limitations.md
+  - title: Conventions
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/conventions.html
+    anchor: conventions
+    virtual_path: docs/conventions.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-compress/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/summary.html
+      anchor: summary
+      virtual_path: docs/summary.md
+    - title: Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: CI Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-compress/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+- title: General Information
+  kind: category
+  source_url: https://commons.apache.org/proper/commons-compress/security.html
+  anchor: security
+  virtual_path: docs/security.md
+- title: Other pages
+  kind: category
+  children:
+  - title: The Pack200 package
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/pack200.html
+    anchor: pack200
+    virtual_path: docs/pack200.md
+  - title: The TAR package
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/tar.html
+    anchor: tar
+    virtual_path: docs/tar.md
+  - title: The ZIP package
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-compress/zip.html
+    anchor: zip
+    virtual_path: docs/zip.md

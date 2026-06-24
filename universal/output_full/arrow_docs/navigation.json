@@ -1,0 +1,516 @@
+[
+  {
+    "title": "Section Navigation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Bug reports and feature requests",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/developers/bug_reports.html",
+        "anchor": "developers-bug_reports",
+        "virtual_path": "docs/developers/bug_reports.md"
+      },
+      {
+        "title": "New Contributor’s Guide",
+        "kind": "category",
+        "source_url": "https://arrow.apache.org/docs/developers/guide/index.html",
+        "anchor": "developers-guide",
+        "virtual_path": "docs/developers/guide/index.md",
+        "children": [
+          {
+            "title": "Architectural Overview",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/guide/architectural_overview.html",
+            "anchor": "developers-guide-architectural_overview",
+            "virtual_path": "docs/developers/guide/architectural_overview.md"
+          },
+          {
+            "title": "Communication",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/guide/communication.html",
+            "anchor": "developers-guide-communication",
+            "virtual_path": "docs/developers/guide/communication.md"
+          },
+          {
+            "title": "Steps in making your first PR",
+            "kind": "category",
+            "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/index.html",
+            "anchor": "developers-guide-step_by_step",
+            "virtual_path": "docs/developers/guide/step_by_step/index.md",
+            "children": [
+              {
+                "title": "Set up",
+                "kind": "link",
+                "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/set_up.html",
+                "anchor": "developers-guide-step_by_step-set_up",
+                "virtual_path": "docs/developers/guide/step_by_step/set_up.md"
+              },
+              {
+                "title": "Building the Arrow libraries 🏋🏿♀️",
+                "kind": "link",
+                "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/building.html",
+                "anchor": "developers-guide-step_by_step-building",
+                "virtual_path": "docs/developers/guide/step_by_step/building.md"
+              },
+              {
+                "title": "Finding good first issues 🔎",
+                "kind": "link",
+                "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/finding_issues.html",
+                "anchor": "developers-guide-step_by_step-finding_issues",
+                "virtual_path": "docs/developers/guide/step_by_step/finding_issues.md"
+              },
+              {
+                "title": "Working on the Arrow codebase 🧐",
+                "kind": "link",
+                "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/arrow_codebase.html",
+                "anchor": "developers-guide-step_by_step-arrow_codebase",
+                "virtual_path": "docs/developers/guide/step_by_step/arrow_codebase.md"
+              },
+              {
+                "title": "Testing 🧪",
+                "kind": "link",
+                "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/testing.html",
+                "anchor": "developers-guide-step_by_step-testing",
+                "virtual_path": "docs/developers/guide/step_by_step/testing.md"
+              },
+              {
+                "title": "Styling 😎",
+                "kind": "link",
+                "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/styling.html",
+                "anchor": "developers-guide-step_by_step-styling",
+                "virtual_path": "docs/developers/guide/step_by_step/styling.md"
+              },
+              {
+                "title": "Lifecycle of a pull request",
+                "kind": "link",
+                "source_url": "https://arrow.apache.org/docs/developers/guide/step_by_step/pr_lifecycle.html",
+                "anchor": "developers-guide-step_by_step-pr_lifecycle",
+                "virtual_path": "docs/developers/guide/step_by_step/pr_lifecycle.md"
+              }
+            ]
+          },
+          {
+            "title": "Helping with documentation",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/guide/documentation.html",
+            "anchor": "developers-guide-documentation",
+            "virtual_path": "docs/developers/guide/documentation.md"
+          },
+          {
+            "title": "Tutorials",
+            "kind": "category",
+            "source_url": "https://arrow.apache.org/docs/developers/guide/tutorials/index.html",
+            "anchor": "developers-guide-tutorials",
+            "virtual_path": "docs/developers/guide/tutorials/index.md",
+            "children": [
+              {
+                "title": "Python tutorial",
+                "kind": "link",
+                "source_url": "https://arrow.apache.org/docs/developers/guide/tutorials/python_tutorial.html",
+                "anchor": "developers-guide-tutorials-python_tutorial",
+                "virtual_path": "docs/developers/guide/tutorials/python_tutorial.md"
+              },
+              {
+                "title": "R tutorials",
+                "kind": "link",
+                "source_url": "https://arrow.apache.org/docs/developers/guide/tutorials/r_tutorial.html",
+                "anchor": "developers-guide-tutorials-r_tutorial",
+                "virtual_path": "docs/developers/guide/tutorials/r_tutorial.md"
+              }
+            ]
+          },
+          {
+            "title": "Additional information and resources",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/guide/resources.html",
+            "anchor": "developers-guide-resources",
+            "virtual_path": "docs/developers/guide/resources.md"
+          }
+        ]
+      },
+      {
+        "title": "Contributing Overview",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/developers/overview.html",
+        "anchor": "developers-overview",
+        "virtual_path": "docs/developers/overview.md"
+      },
+      {
+        "title": "Reviewing contributions",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/developers/reviewing.html",
+        "anchor": "developers-reviewing",
+        "virtual_path": "docs/developers/reviewing.md"
+      },
+      {
+        "title": "C++ Development",
+        "kind": "category",
+        "source_url": "https://arrow.apache.org/docs/developers/cpp/index.html",
+        "anchor": "developers-cpp",
+        "virtual_path": "docs/developers/cpp/index.md",
+        "children": [
+          {
+            "title": "Building Arrow C++",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/cpp/building.html",
+            "anchor": "developers-cpp-building",
+            "virtual_path": "docs/developers/cpp/building.md"
+          },
+          {
+            "title": "Development Guidelines",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/cpp/development.html",
+            "anchor": "developers-cpp-development",
+            "virtual_path": "docs/developers/cpp/development.md"
+          },
+          {
+            "title": "Developing on Windows",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/cpp/windows.html",
+            "anchor": "developers-cpp-windows",
+            "virtual_path": "docs/developers/cpp/windows.md"
+          },
+          {
+            "title": "Cross compiling for WebAssembly with Emscripten",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/cpp/emscripten.html",
+            "anchor": "developers-cpp-emscripten",
+            "virtual_path": "docs/developers/cpp/emscripten.md"
+          },
+          {
+            "title": "Conventions",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/cpp/conventions.html",
+            "anchor": "developers-cpp-conventions",
+            "virtual_path": "docs/developers/cpp/conventions.md"
+          },
+          {
+            "title": "Fuzzing Arrow C++",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/cpp/fuzzing.html",
+            "anchor": "developers-cpp-fuzzing",
+            "virtual_path": "docs/developers/cpp/fuzzing.md"
+          },
+          {
+            "title": "Developing Arrow C++ Compute",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/cpp/compute.html",
+            "anchor": "developers-cpp-compute",
+            "virtual_path": "docs/developers/cpp/compute.md"
+          },
+          {
+            "title": "Developing Acero",
+            "kind": "category",
+            "source_url": "https://arrow.apache.org/docs/developers/cpp/acero.html",
+            "anchor": "developers-cpp-acero",
+            "virtual_path": "docs/developers/cpp/acero.md",
+            "children": [
+              {
+                "title": "Swiss Table",
+                "kind": "link",
+                "source_url": "https://arrow.apache.org/docs/developers/cpp/acero/swiss_table.html",
+                "anchor": "developers-cpp-acero-swiss_table",
+                "virtual_path": "docs/developers/cpp/acero/swiss_table.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Java Development",
+        "kind": "category",
+        "source_url": "https://arrow.apache.org/docs/developers/java/index.html",
+        "anchor": "developers-java",
+        "virtual_path": "docs/developers/java/index.md",
+        "children": [
+          {
+            "title": "Building Arrow Java",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/java/building.html",
+            "anchor": "developers-java-building",
+            "virtual_path": "docs/developers/java/building.md"
+          },
+          {
+            "title": "Development Guidelines",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/java/development.html",
+            "anchor": "developers-java-development",
+            "virtual_path": "docs/developers/java/development.md"
+          }
+        ]
+      },
+      {
+        "title": "Python Development",
+        "kind": "category",
+        "source_url": "https://arrow.apache.org/docs/developers/python/index.html",
+        "anchor": "developers-python",
+        "virtual_path": "docs/developers/python/index.md",
+        "children": [
+          {
+            "title": "Building PyArrow",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/python/building.html",
+            "anchor": "developers-python-building",
+            "virtual_path": "docs/developers/python/building.md"
+          },
+          {
+            "title": "Developing PyArrow",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/python/development.html",
+            "anchor": "developers-python-development",
+            "virtual_path": "docs/developers/python/development.md"
+          }
+        ]
+      },
+      {
+        "title": "Continuous Integration",
+        "kind": "category",
+        "source_url": "https://arrow.apache.org/docs/developers/continuous_integration/index.html",
+        "anchor": "developers-continuous_integration",
+        "virtual_path": "docs/developers/continuous_integration/index.md",
+        "children": [
+          {
+            "title": "Continuous Integration",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/continuous_integration/overview.html",
+            "anchor": "developers-continuous_integration-overview",
+            "virtual_path": "docs/developers/continuous_integration/overview.md"
+          },
+          {
+            "title": "Running Docker Builds",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/continuous_integration/docker.html",
+            "anchor": "developers-continuous_integration-docker",
+            "virtual_path": "docs/developers/continuous_integration/docker.md"
+          },
+          {
+            "title": "Daily Development using Archery",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/continuous_integration/archery.html",
+            "anchor": "developers-continuous_integration-archery",
+            "virtual_path": "docs/developers/continuous_integration/archery.md"
+          },
+          {
+            "title": "Packaging and Testing with Crossbow",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/developers/continuous_integration/crossbow.html",
+            "anchor": "developers-continuous_integration-crossbow",
+            "virtual_path": "docs/developers/continuous_integration/crossbow.md"
+          }
+        ]
+      },
+      {
+        "title": "Benchmarks",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/developers/benchmarks.html",
+        "anchor": "developers-benchmarks",
+        "virtual_path": "docs/developers/benchmarks.md"
+      },
+      {
+        "title": "Building the Documentation",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/developers/documentation.html",
+        "anchor": "developers-documentation",
+        "virtual_path": "docs/developers/documentation.md"
+      },
+      {
+        "title": "Release Management Guide",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/developers/release.html"
+      },
+      {
+        "title": "Release Verification Process",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/developers/release_verification.html",
+        "anchor": "developers-release_verification",
+        "virtual_path": "docs/developers/release_verification.md"
+      },
+      {
+        "title": "Introduction",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/Intro.html",
+        "anchor": "format-intro",
+        "virtual_path": "docs/format/Intro.md"
+      },
+      {
+        "title": "Arrow Columnar Format",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/Columnar.html",
+        "anchor": "format-columnar",
+        "virtual_path": "docs/format/Columnar.md"
+      },
+      {
+        "title": "Format Versioning and Stability",
+        "kind": "category",
+        "source_url": "https://arrow.apache.org/docs/format/Versioning.html",
+        "anchor": "format-versioning",
+        "virtual_path": "docs/format/Versioning.md"
+      },
+      {
+        "title": "Changing the Apache Arrow Format Specification",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/Changing.html",
+        "anchor": "format-changing",
+        "virtual_path": "docs/format/Changing.md"
+      },
+      {
+        "title": "Canonical Extension Types",
+        "kind": "category",
+        "source_url": "https://arrow.apache.org/docs/format/CanonicalExtensions.html",
+        "anchor": "format-canonicalextensions",
+        "virtual_path": "docs/format/CanonicalExtensions.md",
+        "children": [
+          {
+            "title": "Canonical Extension Examples",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/format/CanonicalExtensions/Examples.html",
+            "anchor": "format-canonicalextensions-examples",
+            "virtual_path": "docs/format/CanonicalExtensions/Examples.md"
+          }
+        ]
+      },
+      {
+        "title": "Other Data Structures",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/Other.html",
+        "anchor": "format-other",
+        "virtual_path": "docs/format/Other.md"
+      },
+      {
+        "title": "The Arrow C data interface",
+        "kind": "category",
+        "source_url": "https://arrow.apache.org/docs/format/CDataInterface.html",
+        "anchor": "format-cdatainterface",
+        "virtual_path": "docs/format/CDataInterface.md",
+        "children": [
+          {
+            "title": "The Arrow PyCapsule Interface",
+            "kind": "link",
+            "source_url": "https://arrow.apache.org/docs/format/CDataInterface/PyCapsuleInterface.html",
+            "anchor": "format-cdatainterface-pycapsuleinterface",
+            "virtual_path": "docs/format/CDataInterface/PyCapsuleInterface.md"
+          }
+        ]
+      },
+      {
+        "title": "The Arrow C stream interface",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/CStreamInterface.html",
+        "anchor": "format-cstreaminterface",
+        "virtual_path": "docs/format/CStreamInterface.md"
+      },
+      {
+        "title": "The Arrow C Device data interface",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/CDeviceDataInterface.html",
+        "anchor": "format-cdevicedatainterface",
+        "virtual_path": "docs/format/CDeviceDataInterface.md"
+      },
+      {
+        "title": "Statistics schema",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/StatisticsSchema.html",
+        "anchor": "format-statisticsschema",
+        "virtual_path": "docs/format/StatisticsSchema.md"
+      },
+      {
+        "title": "Dissociated IPC Protocol",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/DissociatedIPC.html",
+        "anchor": "format-dissociatedipc",
+        "virtual_path": "docs/format/DissociatedIPC.md"
+      },
+      {
+        "title": "Arrow Flight RPC",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/Flight.html",
+        "anchor": "format-flight",
+        "virtual_path": "docs/format/Flight.md"
+      },
+      {
+        "title": "Arrow Flight SQL",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/FlightSql.html",
+        "anchor": "format-flightsql",
+        "virtual_path": "docs/format/FlightSql.md"
+      },
+      {
+        "title": "ADBC: Arrow Database Connectivity",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/ADBC.html",
+        "anchor": "format-adbc",
+        "virtual_path": "docs/format/ADBC.md"
+      },
+      {
+        "title": "Security Considerations",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/Security.html",
+        "anchor": "format-security",
+        "virtual_path": "docs/format/Security.md"
+      },
+      {
+        "title": "Integration Testing",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/Integration.html",
+        "anchor": "format-integration",
+        "virtual_path": "docs/format/Integration.md"
+      },
+      {
+        "title": "Glossary",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/format/Glossary.html",
+        "anchor": "format-glossary",
+        "virtual_path": "docs/format/Glossary.md"
+      }
+    ]
+  },
+  {
+    "title": "Specifications",
+    "kind": "link",
+    "source_url": "https://arrow.apache.org/docs/format/index.html",
+    "anchor": "format",
+    "virtual_path": "docs/format/index.md"
+  },
+  {
+    "title": "Development",
+    "kind": "link",
+    "source_url": "https://arrow.apache.org/docs/developers/index.html",
+    "anchor": "developers",
+    "virtual_path": "docs/developers/index.md"
+  },
+  {
+    "title": "Implementations",
+    "kind": "link",
+    "source_url": "https://arrow.apache.org/docs/implementations.html",
+    "anchor": "implementations",
+    "virtual_path": "docs/implementations.md"
+  },
+  {
+    "title": "GitHub",
+    "kind": "link",
+    "source_url": "https://github.com/apache/arrow"
+  },
+  {
+    "title": "LinkedIn",
+    "kind": "link",
+    "source_url": "https://www.linkedin.com/company/apache-arrow/"
+  },
+  {
+    "title": "BlueSky",
+    "kind": "link",
+    "source_url": "https://bsky.app/profile/arrow.apache.org"
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Apache Arrow #",
+        "kind": "link",
+        "source_url": "https://arrow.apache.org/docs/",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      }
+    ]
+  }
+]

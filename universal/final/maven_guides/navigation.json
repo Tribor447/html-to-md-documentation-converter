@@ -1,0 +1,697 @@
+[
+  {
+    "title": "Maven Build Fundamentals",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Maven in 5 Minutes",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html",
+        "anchor": "getting-started-maven-in-five-minutes",
+        "virtual_path": "docs/getting-started/maven-in-five-minutes.md"
+      }
+    ]
+  },
+  {
+    "title": "Maven Build Config Fundamentals",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Plugins Validation",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/plugins/validation/index.html",
+        "anchor": "plugins-validation",
+        "virtual_path": "docs/plugins/validation/index.md"
+      },
+      {
+        "title": "Creating a site",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-site.html",
+        "anchor": "mini-guide-site",
+        "virtual_path": "docs/mini/guide-site.md",
+        "children": [
+          {
+            "title": "Snippet Macro",
+            "kind": "link",
+            "source_url": "https://maven.apache.org/guides/mini/guide-snippet-macro.html",
+            "anchor": "mini-guide-snippet-macro",
+            "virtual_path": "docs/mini/guide-snippet-macro.md"
+          }
+        ]
+      },
+      {
+        "title": "Archetypes",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/introduction/introduction-to-archetypes.html",
+        "anchor": "introduction-introduction-to-archetypes",
+        "virtual_path": "docs/introduction/introduction-to-archetypes.md",
+        "children": [
+          {
+            "title": "Creating Archetypes",
+            "kind": "category",
+            "source_url": "https://maven.apache.org/guides/mini/guide-creating-archetypes.html",
+            "anchor": "mini-guide-creating-archetypes",
+            "virtual_path": "docs/mini/guide-creating-archetypes.md"
+          }
+        ]
+      },
+      {
+        "title": "Repositories",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/introduction/introduction-to-repositories.html",
+        "anchor": "introduction-introduction-to-repositories",
+        "virtual_path": "docs/introduction/introduction-to-repositories.md"
+      },
+      {
+        "title": "Profiles",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/introduction/introduction-to-profiles.html",
+        "anchor": "introduction-introduction-to-profiles",
+        "virtual_path": "docs/introduction/introduction-to-profiles.md"
+      },
+      {
+        "title": "Standard Directory Layout",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html",
+        "anchor": "introduction-introduction-to-the-standard-directory-layout",
+        "virtual_path": "docs/introduction/introduction-to-the-standard-directory-layout.md"
+      },
+      {
+        "title": "Dependency Mechanism",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html",
+        "anchor": "introduction-introduction-to-dependency-mechanism",
+        "virtual_path": "docs/introduction/introduction-to-dependency-mechanism.md",
+        "children": [
+          {
+            "title": "Optional & Exclusion",
+            "kind": "category",
+            "source_url": "https://maven.apache.org/guides/introduction/introduction-to-optional-and-excludes-dependencies.html",
+            "anchor": "introduction-introduction-to-optional-and-excludes-dependencies",
+            "virtual_path": "docs/introduction/introduction-to-optional-and-excludes-dependencies.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Getting Started Guide",
+    "kind": "category",
+    "source_url": "https://maven.apache.org/guides/getting-started/index.html",
+    "anchor": "getting-started",
+    "virtual_path": "docs/getting-started/index.md",
+    "children": [
+      {
+        "title": "Naming Conventions",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-naming-conventions.html",
+        "anchor": "mini-guide-naming-conventions",
+        "virtual_path": "docs/mini/guide-naming-conventions.md"
+      },
+      {
+        "title": "The Build Lifecycle",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html",
+        "anchor": "introduction-introduction-to-the-lifecycle",
+        "virtual_path": "docs/introduction/introduction-to-the-lifecycle.md"
+      },
+      {
+        "title": "The POM",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/introduction/introduction-to-the-pom.html",
+        "anchor": "introduction-introduction-to-the-pom",
+        "virtual_path": "docs/introduction/introduction-to-the-pom.md"
+      },
+      {
+        "title": "Configuring Plugins",
+        "kind": "category",
+        "source_url": "https://maven.apache.org/guides/mini/guide-configuring-plugins.html",
+        "anchor": "mini-guide-configuring-plugins",
+        "virtual_path": "docs/mini/guide-configuring-plugins.md",
+        "children": [
+          {
+            "title": "Plugin Prefix Resolution",
+            "kind": "category",
+            "source_url": "https://maven.apache.org/guides/introduction/introduction-to-plugin-prefix-mapping.html",
+            "anchor": "introduction-introduction-to-plugin-prefix-mapping",
+            "virtual_path": "docs/introduction/introduction-to-plugin-prefix-mapping.md"
+          },
+          {
+            "title": "Configuring Default Mojo Executions",
+            "kind": "link",
+            "source_url": "https://maven.apache.org/guides/mini/guide-default-execution-ids.html",
+            "anchor": "mini-guide-default-execution-ids",
+            "virtual_path": "docs/mini/guide-default-execution-ids.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Maven 4",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Starting with Maven 4",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-migration-to-mvn4.html",
+        "anchor": "mini-guide-migration-to-mvn4",
+        "virtual_path": "docs/mini/guide-migration-to-mvn4.md"
+      },
+      {
+        "title": "Maven Mixins",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-mixins.html",
+        "anchor": "mini-guide-mixins",
+        "virtual_path": "docs/mini/guide-mixins.md"
+      }
+    ]
+  },
+  {
+    "title": "Guides",
+    "kind": "link",
+    "source_url": "https://maven.apache.org/guides/mini/index.html",
+    "anchor": "mini",
+    "virtual_path": "docs/mini/index.md",
+    "children": [
+      {
+        "title": "Configuring for Reproducible Builds",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-reproducible-builds.html",
+        "anchor": "mini-guide-reproducible-builds",
+        "virtual_path": "docs/mini/guide-reproducible-builds.md"
+      },
+      {
+        "title": "Creating Assemblies",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-assemblies.html",
+        "anchor": "mini-guide-assemblies",
+        "virtual_path": "docs/mini/guide-assemblies.md"
+      },
+      {
+        "title": "Configuring Archive Plugins",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-archive-configuration.html",
+        "anchor": "mini-guide-archive-configuration",
+        "virtual_path": "docs/mini/guide-archive-configuration.md"
+      },
+      {
+        "title": "Configuring Maven",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-configuring-maven.html",
+        "anchor": "mini-guide-configuring-maven",
+        "virtual_path": "docs/mini/guide-configuring-maven.md"
+      },
+      {
+        "title": "Generating Sources",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-generating-sources.html",
+        "anchor": "mini-guide-generating-sources",
+        "virtual_path": "docs/mini/guide-generating-sources.md"
+      },
+      {
+        "title": "Working with Manifests",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-manifest.html",
+        "anchor": "mini-guide-manifest",
+        "virtual_path": "docs/mini/guide-manifest.md"
+      },
+      {
+        "title": "Maven Classloading",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-maven-classloading.html",
+        "anchor": "mini-guide-maven-classloading",
+        "virtual_path": "docs/mini/guide-maven-classloading.md"
+      },
+      {
+        "title": "Using Multiple Modules in a Build",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-multiple-modules.html",
+        "anchor": "mini-guide-multiple-modules",
+        "virtual_path": "docs/mini/guide-multiple-modules.md"
+      },
+      {
+        "title": "Using the Release Plugin",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-releasing.html",
+        "anchor": "mini-guide-releasing",
+        "virtual_path": "docs/mini/guide-releasing.md"
+      },
+      {
+        "title": "Using Ant with Maven",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-using-ant.html",
+        "anchor": "mini-guide-using-ant",
+        "virtual_path": "docs/mini/guide-using-ant.md"
+      },
+      {
+        "title": "Using Modello",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-using-modello.html",
+        "anchor": "mini-guide-using-modello",
+        "virtual_path": "docs/mini/guide-using-modello.md"
+      },
+      {
+        "title": "Using Extensions",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-using-extensions.html",
+        "anchor": "mini-guide-using-extensions",
+        "virtual_path": "docs/mini/guide-using-extensions.md"
+      },
+      {
+        "title": "Building For Different Environments",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-building-for-different-environments.html",
+        "anchor": "mini-guide-building-for-different-environments",
+        "virtual_path": "docs/mini/guide-building-for-different-environments.md"
+      },
+      {
+        "title": "Using Toolchains",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/mini/guide-using-toolchains.html",
+        "anchor": "mini-guide-using-toolchains",
+        "virtual_path": "docs/mini/guide-using-toolchains.md"
+      }
+    ]
+  },
+  {
+    "title": "Maven Auto-Completion Using BASH",
+    "kind": "link",
+    "source_url": "https://maven.apache.org/guides/mini/guide-bash-m2-completion.html",
+    "anchor": "mini-guide-bash-m2-completion",
+    "virtual_path": "docs/mini/guide-bash-m2-completion.md"
+  },
+  {
+    "title": "Documentation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Index (category)",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "User Manual",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Maven Build Fundamentals",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Maven in 5 Minutes",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html",
+                "anchor": "getting-started-maven-in-five-minutes",
+                "virtual_path": "docs/getting-started/maven-in-five-minutes.md"
+              }
+            ]
+          },
+          {
+            "title": "Maven Build Config Fundamentals",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Plugins Validation",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/plugins/validation/index.html",
+                "anchor": "plugins-validation",
+                "virtual_path": "docs/plugins/validation/index.md"
+              },
+              {
+                "title": "Creating a site",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-site.html",
+                "anchor": "mini-guide-site",
+                "virtual_path": "docs/mini/guide-site.md"
+              },
+              {
+                "title": "Archetypes",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/introduction/introduction-to-archetypes.html",
+                "anchor": "introduction-introduction-to-archetypes",
+                "virtual_path": "docs/introduction/introduction-to-archetypes.md"
+              },
+              {
+                "title": "Repositories",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/introduction/introduction-to-repositories.html",
+                "anchor": "introduction-introduction-to-repositories",
+                "virtual_path": "docs/introduction/introduction-to-repositories.md",
+                "children": [
+                  {
+                    "title": "Install to Local",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html",
+                    "anchor": "mini-guide-3rd-party-jars-local",
+                    "virtual_path": "docs/mini/guide-3rd-party-jars-local.md"
+                  },
+                  {
+                    "title": "Deploy to Remote",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-3rd-party-jars-remote.html",
+                    "anchor": "mini-guide-3rd-party-jars-remote",
+                    "virtual_path": "docs/mini/guide-3rd-party-jars-remote.md"
+                  },
+                  {
+                    "title": "Using Multiple Repositories",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-multiple-repositories.html",
+                    "anchor": "mini-guide-multiple-repositories",
+                    "virtual_path": "docs/mini/guide-multiple-repositories.md"
+                  },
+                  {
+                    "title": "Large Scale Centralized Deployments",
+                    "kind": "category",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-large-scale-centralized-deployments.html",
+                    "anchor": "mini-guide-large-scale-centralized-deployments",
+                    "virtual_path": "docs/mini/guide-large-scale-centralized-deployments.md"
+                  },
+                  {
+                    "title": "Mirror Settings",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-mirror-settings.html",
+                    "anchor": "mini-guide-mirror-settings",
+                    "virtual_path": "docs/mini/guide-mirror-settings.md"
+                  },
+                  {
+                    "title": "Deployment and Security Settings",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-deployment-security-settings.html",
+                    "anchor": "mini-guide-deployment-security-settings",
+                    "virtual_path": "docs/mini/guide-deployment-security-settings.md"
+                  },
+                  {
+                    "title": "Encrypting Passwords (Maven 3)",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-encryption.html",
+                    "anchor": "mini-guide-encryption",
+                    "virtual_path": "docs/mini/guide-encryption.md"
+                  },
+                  {
+                    "title": "Encrypting Passwords (Maven 4)",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-encryption-4.html",
+                    "anchor": "mini-guide-encryption-4",
+                    "virtual_path": "docs/mini/guide-encryption-4.md"
+                  },
+                  {
+                    "title": "Using Proxies",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-proxies.html",
+                    "anchor": "mini-guide-proxies",
+                    "virtual_path": "docs/mini/guide-proxies.md"
+                  },
+                  {
+                    "title": "Authenticated HTTPS",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-repository-ssl.html",
+                    "anchor": "mini-guide-repository-ssl",
+                    "virtual_path": "docs/mini/guide-repository-ssl.md"
+                  },
+                  {
+                    "title": "Resolver Transport",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-resolver-transport.html",
+                    "anchor": "mini-guide-resolver-transport",
+                    "virtual_path": "docs/mini/guide-resolver-transport.md"
+                  },
+                  {
+                    "title": "Advanced Wagon HTTP Configuration",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-http-settings.html",
+                    "anchor": "mini-guide-http-settings",
+                    "virtual_path": "docs/mini/guide-http-settings.md"
+                  },
+                  {
+                    "title": "Alternative Wagon Providers",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-wagon-providers.html",
+                    "anchor": "mini-guide-wagon-providers",
+                    "virtual_path": "docs/mini/guide-wagon-providers.md"
+                  },
+                  {
+                    "title": "Relocation",
+                    "kind": "link",
+                    "source_url": "https://maven.apache.org/guides/mini/guide-relocation.html",
+                    "anchor": "mini-guide-relocation",
+                    "virtual_path": "docs/mini/guide-relocation.md"
+                  }
+                ]
+              },
+              {
+                "title": "Profiles",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/introduction/introduction-to-profiles.html",
+                "anchor": "introduction-introduction-to-profiles",
+                "virtual_path": "docs/introduction/introduction-to-profiles.md"
+              },
+              {
+                "title": "Standard Directory Layout",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html",
+                "anchor": "introduction-introduction-to-the-standard-directory-layout",
+                "virtual_path": "docs/introduction/introduction-to-the-standard-directory-layout.md"
+              },
+              {
+                "title": "Dependency Mechanism",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html",
+                "anchor": "introduction-introduction-to-dependency-mechanism",
+                "virtual_path": "docs/introduction/introduction-to-dependency-mechanism.md"
+              }
+            ]
+          },
+          {
+            "title": "Getting Started Guide",
+            "kind": "link",
+            "source_url": "https://maven.apache.org/guides/getting-started/index.html",
+            "anchor": "getting-started",
+            "virtual_path": "docs/getting-started/index.md"
+          },
+          {
+            "title": "Maven 4",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Starting with Maven 4",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-migration-to-mvn4.html",
+                "anchor": "mini-guide-migration-to-mvn4",
+                "virtual_path": "docs/mini/guide-migration-to-mvn4.md"
+              },
+              {
+                "title": "Maven Mixins",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-mixins.html",
+                "anchor": "mini-guide-mixins",
+                "virtual_path": "docs/mini/guide-mixins.md"
+              }
+            ]
+          },
+          {
+            "title": "Guides",
+            "kind": "category",
+            "source_url": "https://maven.apache.org/guides/mini/index.html",
+            "anchor": "mini",
+            "virtual_path": "docs/mini/index.md",
+            "children": [
+              {
+                "title": "Configuring for Reproducible Builds",
+                "kind": "category",
+                "source_url": "https://maven.apache.org/guides/mini/guide-reproducible-builds.html",
+                "anchor": "mini-guide-reproducible-builds",
+                "virtual_path": "docs/mini/guide-reproducible-builds.md"
+              },
+              {
+                "title": "Creating Assemblies",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-assemblies.html",
+                "anchor": "mini-guide-assemblies",
+                "virtual_path": "docs/mini/guide-assemblies.md"
+              },
+              {
+                "title": "Configuring Archive Plugins",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-archive-configuration.html",
+                "anchor": "mini-guide-archive-configuration",
+                "virtual_path": "docs/mini/guide-archive-configuration.md"
+              },
+              {
+                "title": "Configuring Maven",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-configuring-maven.html",
+                "anchor": "mini-guide-configuring-maven",
+                "virtual_path": "docs/mini/guide-configuring-maven.md"
+              },
+              {
+                "title": "Generating Sources",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-generating-sources.html",
+                "anchor": "mini-guide-generating-sources",
+                "virtual_path": "docs/mini/guide-generating-sources.md"
+              },
+              {
+                "title": "Working with Manifests",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-manifest.html",
+                "anchor": "mini-guide-manifest",
+                "virtual_path": "docs/mini/guide-manifest.md"
+              },
+              {
+                "title": "Maven Classloading",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-maven-classloading.html",
+                "anchor": "mini-guide-maven-classloading",
+                "virtual_path": "docs/mini/guide-maven-classloading.md"
+              },
+              {
+                "title": "Using Modules (Maven 3)",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-multiple-modules.html",
+                "anchor": "mini-guide-multiple-modules",
+                "virtual_path": "docs/mini/guide-multiple-modules.md"
+              },
+              {
+                "title": "Using Subprojects (Maven 4)",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-multiple-subprojects-4.html",
+                "anchor": "mini-guide-multiple-subprojects-4",
+                "virtual_path": "docs/mini/guide-multiple-subprojects-4.md"
+              },
+              {
+                "title": "Using Release Plugin",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-releasing.html",
+                "anchor": "mini-guide-releasing",
+                "virtual_path": "docs/mini/guide-releasing.md"
+              },
+              {
+                "title": "Using Ant",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-using-ant.html",
+                "anchor": "mini-guide-using-ant",
+                "virtual_path": "docs/mini/guide-using-ant.md"
+              },
+              {
+                "title": "Using Modello",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-using-modello.html",
+                "anchor": "mini-guide-using-modello",
+                "virtual_path": "docs/mini/guide-using-modello.md"
+              },
+              {
+                "title": "Using Extensions",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-using-extensions.html",
+                "anchor": "mini-guide-using-extensions",
+                "virtual_path": "docs/mini/guide-using-extensions.md"
+              },
+              {
+                "title": "Building for Different Environments",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-building-for-different-environments.html",
+                "anchor": "mini-guide-building-for-different-environments",
+                "virtual_path": "docs/mini/guide-building-for-different-environments.md"
+              },
+              {
+                "title": "Using Toolchains",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-using-toolchains.html",
+                "anchor": "mini-guide-using-toolchains",
+                "virtual_path": "docs/mini/guide-using-toolchains.md"
+              },
+              {
+                "title": "Maven CI Friendly Version",
+                "kind": "link",
+                "source_url": "https://maven.apache.org/guides/mini/guide-maven-ci-friendly.html",
+                "anchor": "mini-guide-maven-ci-friendly",
+                "virtual_path": "docs/mini/guide-maven-ci-friendly.md"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Community",
+    "kind": "category",
+    "children": [
+      {
+        "title": "How to Contribute",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/development/guide-helping.html",
+        "anchor": "development-guide-helping",
+        "virtual_path": "docs/development/guide-helping.md"
+      }
+    ]
+  },
+  {
+    "title": "Guide to helping with Maven",
+    "kind": "category",
+    "source_url": "https://maven.apache.org/guides/development/guide-helping.html",
+    "anchor": "development-guide-helping",
+    "virtual_path": "docs/development/guide-helping.md",
+    "children": [
+      {
+        "title": "Build Maven",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/development/guide-building-maven.html",
+        "anchor": "development-guide-building-maven",
+        "virtual_path": "docs/development/guide-building-maven.md"
+      },
+      {
+        "title": "Submit patches",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/development/guide-maven-development.html#Creating_and_submitting_a_patch",
+        "anchor": "development-guide-maven-development--creating_and_submitting_a_patch",
+        "virtual_path": "docs/development/guide-maven-development.md"
+      },
+      {
+        "title": "Test releases",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/development/guide-testing-releases.html",
+        "anchor": "development-guide-testing-releases",
+        "virtual_path": "docs/development/guide-testing-releases.md"
+      },
+      {
+        "title": "Test snapshot plugins",
+        "kind": "link",
+        "source_url": "https://maven.apache.org/guides/development/guide-testing-development-plugins.html",
+        "anchor": "development-guide-testing-development-plugins",
+        "virtual_path": "docs/development/guide-testing-development-plugins.md"
+      }
+    ]
+  },
+  {
+    "title": "Building Maven",
+    "kind": "link",
+    "source_url": "https://maven.apache.org/guides/development/guide-building-maven.html",
+    "anchor": "development-guide-building-maven",
+    "virtual_path": "docs/development/guide-building-maven.md"
+  },
+  {
+    "title": "Testing Development Plugins",
+    "kind": "link",
+    "source_url": "https://maven.apache.org/guides/development/guide-testing-development-plugins.html",
+    "anchor": "development-guide-testing-development-plugins",
+    "virtual_path": "docs/development/guide-testing-development-plugins.md"
+  },
+  {
+    "title": "Testing Staged Releases",
+    "kind": "link",
+    "source_url": "https://maven.apache.org/guides/development/guide-testing-releases.html",
+    "anchor": "development-guide-testing-releases",
+    "virtual_path": "docs/development/guide-testing-releases.md"
+  },
+  {
+    "title": "Becoming Committer",
+    "kind": "link",
+    "source_url": "https://maven.apache.org/guides/development/guide-committer-school.html",
+    "anchor": "development-guide-committer-school",
+    "virtual_path": "docs/development/guide-committer-school.md"
+  }
+]

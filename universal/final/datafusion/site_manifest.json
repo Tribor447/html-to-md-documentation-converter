@@ -1,0 +1,2387 @@
+{
+  "entry_url": "https://datafusion.apache.org/user-guide/introduction.html",
+  "site_prefix": "/",
+  "site_slug": "datafusion",
+  "profile": "sphinx",
+  "combined_markdown": "combined.md",
+  "page_count": 264,
+  "asset_count": 120,
+  "pages": [
+    {
+      "source_url": "https://datafusion.apache.org/ballista/community/communication.html",
+      "title": "Communication ¶",
+      "anchor": "ballista-community-communication",
+      "virtual_path": "docs/ballista/community/communication.md",
+      "profile": "sphinx",
+      "score": 3609,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/contributors-guide/architecture.html",
+      "title": "Ballista Architecture ¶",
+      "anchor": "ballista-contributors-guide-architecture",
+      "virtual_path": "docs/ballista/contributors-guide/architecture.md",
+      "profile": "sphinx",
+      "score": 17593,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/contributors-guide/code-organization.html",
+      "title": "Ballista Code Organization ¶",
+      "anchor": "ballista-contributors-guide-code-organization",
+      "virtual_path": "docs/ballista/contributors-guide/code-organization.md",
+      "profile": "sphinx",
+      "score": 5400,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/contributors-guide/development.html",
+      "title": "Ballista Development ¶",
+      "anchor": "ballista-contributors-guide-development",
+      "virtual_path": "docs/ballista/contributors-guide/development.md",
+      "profile": "sphinx",
+      "score": 13167,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/",
+      "title": "Apache DataFusion Ballista ¶",
+      "anchor": "ballista",
+      "virtual_path": "docs/ballista/index.md",
+      "profile": "sphinx",
+      "score": 3131,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/cli.html",
+      "title": "Ballista Command-line Interface ¶",
+      "anchor": "ballista-user-guide-cli",
+      "virtual_path": "docs/ballista/user-guide/cli.md",
+      "profile": "sphinx",
+      "score": 28491,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/configs.html",
+      "title": "Configuration ¶",
+      "anchor": "ballista-user-guide-configs",
+      "virtual_path": "docs/ballista/user-guide/configs.md",
+      "profile": "sphinx",
+      "score": 14072,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/cargo-install.html",
+      "title": "Deploying a standalone Ballista cluster using cargo install ¶",
+      "anchor": "ballista-user-guide-deployment-cargo-install",
+      "virtual_path": "docs/ballista/user-guide/deployment/cargo-install.md",
+      "profile": "sphinx",
+      "score": 6203,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/docker-compose.html",
+      "title": "Starting a Ballista Cluster using Docker Compose ¶",
+      "anchor": "ballista-user-guide-deployment-docker-compose",
+      "virtual_path": "docs/ballista/user-guide/deployment/docker-compose.md",
+      "profile": "sphinx",
+      "score": 5244,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/docker.html",
+      "title": "Starting a Ballista Cluster using Docker ¶",
+      "anchor": "ballista-user-guide-deployment-docker",
+      "virtual_path": "docs/ballista/user-guide/deployment/docker.md",
+      "profile": "sphinx",
+      "score": 9412,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/index.html",
+      "title": "Start a Ballista Cluster ¶",
+      "anchor": "ballista-user-guide-deployment",
+      "virtual_path": "docs/ballista/user-guide/deployment/index.md",
+      "profile": "sphinx",
+      "score": 2444,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/kubernetes.html",
+      "title": "Deploying Ballista with Kubernetes ¶",
+      "anchor": "ballista-user-guide-deployment-kubernetes",
+      "virtual_path": "docs/ballista/user-guide/deployment/kubernetes.md",
+      "profile": "sphinx",
+      "score": 16606,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/quick-start.html",
+      "title": "Ballista Quickstart ¶",
+      "anchor": "ballista-user-guide-deployment-quick-start",
+      "virtual_path": "docs/ballista/user-guide/deployment/quick-start.md",
+      "profile": "sphinx",
+      "score": 9105,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/extending-components.html",
+      "title": "Extending Ballista Scheduler And Executors ¶",
+      "anchor": "ballista-user-guide-extending-components",
+      "virtual_path": "docs/ballista/user-guide/extending-components.md",
+      "profile": "sphinx",
+      "score": 12710,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/extensions-example.html",
+      "title": "Extensions Example ¶",
+      "anchor": "ballista-user-guide-extensions-example",
+      "virtual_path": "docs/ballista/user-guide/extensions-example.md",
+      "profile": "sphinx",
+      "score": 22064,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/faq.html",
+      "title": "Frequently Asked Questions ¶",
+      "anchor": "ballista-user-guide-faq",
+      "virtual_path": "docs/ballista/user-guide/faq.md",
+      "profile": "sphinx",
+      "score": 2964,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/introduction.html",
+      "title": "Overview ¶",
+      "anchor": "ballista-user-guide-introduction",
+      "virtual_path": "docs/ballista/user-guide/introduction.md",
+      "profile": "sphinx",
+      "score": 4944,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/metrics.html",
+      "title": "Ballista Scheduler Metrics ¶",
+      "anchor": "ballista-user-guide-metrics",
+      "virtual_path": "docs/ballista/user-guide/metrics.md",
+      "profile": "sphinx",
+      "score": 4634,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/python/cloud-storage.html",
+      "title": "Querying S3 Data ¶",
+      "anchor": "ballista-user-guide-python-cloud-storage",
+      "virtual_path": "docs/ballista/user-guide/python/cloud-storage.md",
+      "profile": "sphinx",
+      "score": 15522,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/python/index.html",
+      "title": "Python Client ¶",
+      "anchor": "ballista-user-guide-python",
+      "virtual_path": "docs/ballista/user-guide/python/index.md",
+      "profile": "sphinx",
+      "score": 2337,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/python/jupyter.html",
+      "title": "Jupyter Notebooks ¶",
+      "anchor": "ballista-user-guide-python-jupyter",
+      "virtual_path": "docs/ballista/user-guide/python/jupyter.md",
+      "profile": "sphinx",
+      "score": 6658,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/python/quickstart.html",
+      "title": "Ballista Python Bindings ¶",
+      "anchor": "ballista-user-guide-python-quickstart",
+      "virtual_path": "docs/ballista/user-guide/python/quickstart.md",
+      "profile": "sphinx",
+      "score": 12969,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/rust.html",
+      "title": "Distributing DataFusion with Ballista ¶",
+      "anchor": "ballista-user-guide-rust",
+      "virtual_path": "docs/ballista/user-guide/rust.md",
+      "profile": "sphinx",
+      "score": 6562,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/scheduler.html",
+      "title": "Ballista Scheduler ¶",
+      "anchor": "ballista-user-guide-scheduler",
+      "virtual_path": "docs/ballista/user-guide/scheduler.md",
+      "profile": "sphinx",
+      "score": 5099,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/spark-compatible-functions.html",
+      "title": "Spark-Compatible Functions ¶",
+      "anchor": "ballista-user-guide-spark-compatible-functions",
+      "virtual_path": "docs/ballista/user-guide/spark-compatible-functions.md",
+      "profile": "sphinx",
+      "score": 11713,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/ballista/user-guide/tuning-guide.html",
+      "title": "Tuning Guide ¶",
+      "anchor": "ballista-user-guide-tuning-guide",
+      "virtual_path": "docs/ballista/user-guide/tuning-guide.md",
+      "profile": "sphinx",
+      "score": 24036,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/about/gluten_comparison.html",
+      "title": "Comparison of Comet and Gluten #",
+      "anchor": "comet-about-gluten_comparison",
+      "virtual_path": "docs/comet/about/gluten_comparison.md",
+      "profile": "sphinx",
+      "score": 13681,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/asf/index.html",
+      "title": "ASF Links #",
+      "anchor": "comet-asf",
+      "virtual_path": "docs/comet/asf/index.md",
+      "profile": "sphinx",
+      "score": 2310,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/adding_a_new_expression.html",
+      "title": "Adding a New Expression #",
+      "anchor": "comet-contributor-guide-adding_a_new_expression",
+      "virtual_path": "docs/comet/contributor-guide/adding_a_new_expression.md",
+      "profile": "sphinx",
+      "score": 44215,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/adding_a_new_operator.html",
+      "title": "Adding a New Operator #",
+      "anchor": "comet-contributor-guide-adding_a_new_operator",
+      "virtual_path": "docs/comet/contributor-guide/adding_a_new_operator.md",
+      "profile": "sphinx",
+      "score": 42854,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/adding_a_new_spark_version.html",
+      "title": "Adding Support for a New Spark Version #",
+      "anchor": "comet-contributor-guide-adding_a_new_spark_version",
+      "virtual_path": "docs/comet/contributor-guide/adding_a_new_spark_version.md",
+      "profile": "sphinx",
+      "score": 29432,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmark-results/tpc-ds.html",
+      "title": "Apache DataFusion Comet: Benchmarks Derived From TPC-DS #",
+      "anchor": "comet-contributor-guide-benchmark-results-tpc-ds",
+      "virtual_path": "docs/comet/contributor-guide/benchmark-results/tpc-ds.md",
+      "profile": "sphinx",
+      "score": 5218,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmark-results/tpc-h.html",
+      "title": "Apache DataFusion Comet: Benchmarks Derived From TPC-H #",
+      "anchor": "comet-contributor-guide-benchmark-results-tpc-h",
+      "virtual_path": "docs/comet/contributor-guide/benchmark-results/tpc-h.md",
+      "profile": "sphinx",
+      "score": 5901,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmarking.html",
+      "title": "Comet Benchmarking Guide #",
+      "anchor": "comet-contributor-guide-benchmarking",
+      "virtual_path": "docs/comet/contributor-guide/benchmarking.md",
+      "profile": "sphinx",
+      "score": 3887,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmarking_aws_ec2.html",
+      "title": "Comet Benchmarking in EC2 #",
+      "anchor": "comet-contributor-guide-benchmarking_aws_ec2",
+      "virtual_path": "docs/comet/contributor-guide/benchmarking_aws_ec2.md",
+      "profile": "sphinx",
+      "score": 12824,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmarking_macos.html",
+      "title": "Comet Benchmarking on macOS #",
+      "anchor": "comet-contributor-guide-benchmarking_macos",
+      "virtual_path": "docs/comet/contributor-guide/benchmarking_macos.md",
+      "profile": "sphinx",
+      "score": 11734,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmarking_spark_sql_perf.html",
+      "title": "TPC-DS Benchmarking with spark-sql-perf #",
+      "anchor": "comet-contributor-guide-benchmarking_spark_sql_perf",
+      "virtual_path": "docs/comet/contributor-guide/benchmarking_spark_sql_perf.md",
+      "profile": "sphinx",
+      "score": 20264,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/bug_triage.html",
+      "title": "Bug Triage Guide #",
+      "anchor": "comet-contributor-guide-bug_triage",
+      "virtual_path": "docs/comet/contributor-guide/bug_triage.md",
+      "profile": "sphinx",
+      "score": 19150,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/contributing.html",
+      "title": "Contributing to Apache DataFusion Comet #",
+      "anchor": "comet-contributor-guide-contributing",
+      "virtual_path": "docs/comet/contributor-guide/contributing.md",
+      "profile": "sphinx",
+      "score": 5560,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/debugging.html",
+      "title": "Comet Debugging Guide #",
+      "anchor": "comet-contributor-guide-debugging",
+      "virtual_path": "docs/comet/contributor-guide/debugging.md",
+      "profile": "sphinx",
+      "score": 24102,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/development.html",
+      "title": "Comet Development Guide #",
+      "anchor": "comet-contributor-guide-development",
+      "virtual_path": "docs/comet/contributor-guide/development.md",
+      "profile": "sphinx",
+      "score": 59025,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/ffi.html",
+      "title": "Arrow FFI Usage in Comet #",
+      "anchor": "comet-contributor-guide-ffi",
+      "virtual_path": "docs/comet/contributor-guide/ffi.md",
+      "profile": "sphinx",
+      "score": 23860,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/iceberg-spark-tests.html",
+      "title": "Running Iceberg Spark Tests #",
+      "anchor": "comet-contributor-guide-iceberg-spark-tests",
+      "virtual_path": "docs/comet/contributor-guide/iceberg-spark-tests.md",
+      "profile": "sphinx",
+      "score": 9716,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/index.html",
+      "title": "Comet Contributor Guide #",
+      "anchor": "comet-contributor-guide",
+      "virtual_path": "docs/comet/contributor-guide/index.md",
+      "profile": "sphinx",
+      "score": 3065,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/jvm_shuffle.html",
+      "title": "JVM Shuffle #",
+      "anchor": "comet-contributor-guide-jvm_shuffle",
+      "virtual_path": "docs/comet/contributor-guide/jvm_shuffle.md",
+      "profile": "sphinx",
+      "score": 22516,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/native_shuffle.html",
+      "title": "Native Shuffle #",
+      "anchor": "comet-contributor-guide-native_shuffle",
+      "virtual_path": "docs/comet/contributor-guide/native_shuffle.md",
+      "profile": "sphinx",
+      "score": 28176,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/plugin_overview.html",
+      "title": "Comet Plugin Architecture #",
+      "anchor": "comet-contributor-guide-plugin_overview",
+      "virtual_path": "docs/comet/contributor-guide/plugin_overview.md",
+      "profile": "sphinx",
+      "score": 13075,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/profiling.html",
+      "title": "Profiling #",
+      "anchor": "comet-contributor-guide-profiling",
+      "virtual_path": "docs/comet/contributor-guide/profiling.md",
+      "profile": "sphinx",
+      "score": 27854,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/release_process.html",
+      "title": "Apache DataFusion Comet: Release Process #",
+      "anchor": "comet-contributor-guide-release_process",
+      "virtual_path": "docs/comet/contributor-guide/release_process.md",
+      "profile": "sphinx",
+      "score": 40351,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/roadmap.html",
+      "title": "Comet Roadmap #",
+      "anchor": "comet-contributor-guide-roadmap",
+      "virtual_path": "docs/comet/contributor-guide/roadmap.md",
+      "profile": "sphinx",
+      "score": 9747,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/spark-sql-tests.html",
+      "title": "Running Spark SQL Tests #",
+      "anchor": "comet-contributor-guide-spark-sql-tests",
+      "virtual_path": "docs/comet/contributor-guide/spark-sql-tests.md",
+      "profile": "sphinx",
+      "score": 22510,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/spark_configs_support.html",
+      "title": "Supported Spark Configurations #",
+      "anchor": "comet-contributor-guide-spark_configs_support",
+      "virtual_path": "docs/comet/contributor-guide/spark_configs_support.md",
+      "profile": "sphinx",
+      "score": 10524,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/spark_expressions_support.html",
+      "title": "Supported Spark Expressions #",
+      "anchor": "comet-contributor-guide-spark_expressions_support",
+      "virtual_path": "docs/comet/contributor-guide/spark_expressions_support.md",
+      "profile": "sphinx",
+      "score": 53827,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/sql-file-tests.html",
+      "title": "Comet SQL Tests #",
+      "anchor": "comet-contributor-guide-sql-file-tests",
+      "virtual_path": "docs/comet/contributor-guide/sql-file-tests.md",
+      "profile": "sphinx",
+      "score": 27669,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/sql_error_propagation.html",
+      "title": "ANSI SQL Error Propagation in Comet #",
+      "anchor": "comet-contributor-guide-sql_error_propagation",
+      "virtual_path": "docs/comet/contributor-guide/sql_error_propagation.md",
+      "profile": "sphinx",
+      "score": 33598,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/contributor-guide/tracing.html",
+      "title": "Tracing #",
+      "anchor": "comet-contributor-guide-tracing",
+      "virtual_path": "docs/comet/contributor-guide/tracing.md",
+      "profile": "sphinx",
+      "score": 8627,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/",
+      "title": "Comet Accelerator for Apache Spark and Apache Iceberg #",
+      "anchor": "comet",
+      "virtual_path": "docs/comet/index.md",
+      "profile": "sphinx",
+      "score": 8764,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/compatibility.html",
+      "title": "Compatibility Guide #",
+      "anchor": "comet-user-guide-0.13-compatibility",
+      "virtual_path": "docs/comet/user-guide/0.13/compatibility.md",
+      "profile": "sphinx",
+      "score": 54273,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/configs.html",
+      "title": "Comet Configuration Settings #",
+      "anchor": "comet-user-guide-0.13-configs",
+      "virtual_path": "docs/comet/user-guide/0.13/configs.md",
+      "profile": "sphinx",
+      "score": 95983,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/datasources.html",
+      "title": "Supported Spark Data Sources #",
+      "anchor": "comet-user-guide-0.13-datasources",
+      "virtual_path": "docs/comet/user-guide/0.13/datasources.md",
+      "profile": "sphinx",
+      "score": 19580,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/datatypes.html",
+      "title": "Supported Spark Data Types #",
+      "anchor": "comet-user-guide-0.13-datatypes",
+      "virtual_path": "docs/comet/user-guide/0.13/datatypes.md",
+      "profile": "sphinx",
+      "score": 4078,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/expressions.html",
+      "title": "Supported Spark Expressions #",
+      "anchor": "comet-user-guide-0.13-expressions",
+      "virtual_path": "docs/comet/user-guide/0.13/expressions.md",
+      "profile": "sphinx",
+      "score": 64804,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/iceberg.html",
+      "title": "Accelerating Apache Iceberg Parquet Scans using Comet (Experimental) #",
+      "anchor": "comet-user-guide-0.13-iceberg",
+      "virtual_path": "docs/comet/user-guide/0.13/iceberg.md",
+      "profile": "sphinx",
+      "score": 20124,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/index.html",
+      "title": "Comet 0.13.0 User Guide #",
+      "anchor": "comet-user-guide-0.13",
+      "virtual_path": "docs/comet/user-guide/0.13/index.md",
+      "profile": "sphinx",
+      "score": 1987,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/installation.html",
+      "title": "Installing DataFusion Comet #",
+      "anchor": "comet-user-guide-0.13-installation",
+      "virtual_path": "docs/comet/user-guide/0.13/installation.md",
+      "profile": "sphinx",
+      "score": 15858,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/kubernetes.html",
+      "title": "Comet Kubernetes Support #",
+      "anchor": "comet-user-guide-0.13-kubernetes",
+      "virtual_path": "docs/comet/user-guide/0.13/kubernetes.md",
+      "profile": "sphinx",
+      "score": 8904,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/metrics.html",
+      "title": "Comet Metrics #",
+      "anchor": "comet-user-guide-0.13-metrics",
+      "virtual_path": "docs/comet/user-guide/0.13/metrics.md",
+      "profile": "sphinx",
+      "score": 9003,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/operators.html",
+      "title": "Supported Spark Operators #",
+      "anchor": "comet-user-guide-0.13-operators",
+      "virtual_path": "docs/comet/user-guide/0.13/operators.md",
+      "profile": "sphinx",
+      "score": 8159,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/source.html",
+      "title": "Building Comet From Source #",
+      "anchor": "comet-user-guide-0.13-source",
+      "virtual_path": "docs/comet/user-guide/0.13/source.md",
+      "profile": "sphinx",
+      "score": 5954,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/tuning.html",
+      "title": "Comet Tuning Guide #",
+      "anchor": "comet-user-guide-0.13-tuning",
+      "virtual_path": "docs/comet/user-guide/0.13/tuning.md",
+      "profile": "sphinx",
+      "score": 16856,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/compatibility.html",
+      "title": "Compatibility Guide #",
+      "anchor": "comet-user-guide-0.14-compatibility",
+      "virtual_path": "docs/comet/user-guide/0.14/compatibility.md",
+      "profile": "sphinx",
+      "score": 58237,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/configs.html",
+      "title": "Comet Configuration Settings #",
+      "anchor": "comet-user-guide-0.14-configs",
+      "virtual_path": "docs/comet/user-guide/0.14/configs.md",
+      "profile": "sphinx",
+      "score": 99818,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/datasources.html",
+      "title": "Supported Spark Data Sources #",
+      "anchor": "comet-user-guide-0.14-datasources",
+      "virtual_path": "docs/comet/user-guide/0.14/datasources.md",
+      "profile": "sphinx",
+      "score": 19580,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/datatypes.html",
+      "title": "Supported Spark Data Types #",
+      "anchor": "comet-user-guide-0.14-datatypes",
+      "virtual_path": "docs/comet/user-guide/0.14/datatypes.md",
+      "profile": "sphinx",
+      "score": 4078,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/expressions.html",
+      "title": "Supported Spark Expressions #",
+      "anchor": "comet-user-guide-0.14-expressions",
+      "virtual_path": "docs/comet/user-guide/0.14/expressions.md",
+      "profile": "sphinx",
+      "score": 65544,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/iceberg.html",
+      "title": "Accelerating Apache Iceberg Parquet Scans using Comet (Experimental) #",
+      "anchor": "comet-user-guide-0.14-iceberg",
+      "virtual_path": "docs/comet/user-guide/0.14/iceberg.md",
+      "profile": "sphinx",
+      "score": 20626,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/index.html",
+      "title": "Comet 0.14.0 User Guide #",
+      "anchor": "comet-user-guide-0.14",
+      "virtual_path": "docs/comet/user-guide/0.14/index.md",
+      "profile": "sphinx",
+      "score": 1987,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/installation.html",
+      "title": "Installing DataFusion Comet #",
+      "anchor": "comet-user-guide-0.14-installation",
+      "virtual_path": "docs/comet/user-guide/0.14/installation.md",
+      "profile": "sphinx",
+      "score": 16879,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/kubernetes.html",
+      "title": "Comet Kubernetes Support #",
+      "anchor": "comet-user-guide-0.14-kubernetes",
+      "virtual_path": "docs/comet/user-guide/0.14/kubernetes.md",
+      "profile": "sphinx",
+      "score": 8904,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/metrics.html",
+      "title": "Comet Metrics #",
+      "anchor": "comet-user-guide-0.14-metrics",
+      "virtual_path": "docs/comet/user-guide/0.14/metrics.md",
+      "profile": "sphinx",
+      "score": 9003,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/operators.html",
+      "title": "Supported Spark Operators #",
+      "anchor": "comet-user-guide-0.14-operators",
+      "virtual_path": "docs/comet/user-guide/0.14/operators.md",
+      "profile": "sphinx",
+      "score": 8159,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/source.html",
+      "title": "Building Comet From Source #",
+      "anchor": "comet-user-guide-0.14-source",
+      "virtual_path": "docs/comet/user-guide/0.14/source.md",
+      "profile": "sphinx",
+      "score": 5954,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/tuning.html",
+      "title": "Comet Tuning Guide #",
+      "anchor": "comet-user-guide-0.14-tuning",
+      "virtual_path": "docs/comet/user-guide/0.14/tuning.md",
+      "profile": "sphinx",
+      "score": 17252,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/compatibility.html",
+      "title": "Compatibility Guide #",
+      "anchor": "comet-user-guide-0.15-compatibility",
+      "virtual_path": "docs/comet/user-guide/0.15/compatibility.md",
+      "profile": "sphinx",
+      "score": 56543,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/configs.html",
+      "title": "Comet Configuration Settings #",
+      "anchor": "comet-user-guide-0.15-configs",
+      "virtual_path": "docs/comet/user-guide/0.15/configs.md",
+      "profile": "sphinx",
+      "score": 102522,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/datasources.html",
+      "title": "Supported Spark Data Sources #",
+      "anchor": "comet-user-guide-0.15-datasources",
+      "virtual_path": "docs/comet/user-guide/0.15/datasources.md",
+      "profile": "sphinx",
+      "score": 19580,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/datatypes.html",
+      "title": "Supported Spark Data Types #",
+      "anchor": "comet-user-guide-0.15-datatypes",
+      "virtual_path": "docs/comet/user-guide/0.15/datatypes.md",
+      "profile": "sphinx",
+      "score": 4078,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/expressions.html",
+      "title": "Supported Spark Expressions #",
+      "anchor": "comet-user-guide-0.15-expressions",
+      "virtual_path": "docs/comet/user-guide/0.15/expressions.md",
+      "profile": "sphinx",
+      "score": 66479,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/iceberg.html",
+      "title": "Accelerating Apache Iceberg Parquet Scans using Comet #",
+      "anchor": "comet-user-guide-0.15-iceberg",
+      "virtual_path": "docs/comet/user-guide/0.15/iceberg.md",
+      "profile": "sphinx",
+      "score": 12516,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/index.html",
+      "title": "Comet 0.15.0 User Guide #",
+      "anchor": "comet-user-guide-0.15",
+      "virtual_path": "docs/comet/user-guide/0.15/index.md",
+      "profile": "sphinx",
+      "score": 1987,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/installation.html",
+      "title": "Installing DataFusion Comet #",
+      "anchor": "comet-user-guide-0.15-installation",
+      "virtual_path": "docs/comet/user-guide/0.15/installation.md",
+      "profile": "sphinx",
+      "score": 16879,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/kubernetes.html",
+      "title": "Comet Kubernetes Support #",
+      "anchor": "comet-user-guide-0.15-kubernetes",
+      "virtual_path": "docs/comet/user-guide/0.15/kubernetes.md",
+      "profile": "sphinx",
+      "score": 8892,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/metrics.html",
+      "title": "Comet Metrics #",
+      "anchor": "comet-user-guide-0.15-metrics",
+      "virtual_path": "docs/comet/user-guide/0.15/metrics.md",
+      "profile": "sphinx",
+      "score": 8994,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/operators.html",
+      "title": "Supported Spark Operators #",
+      "anchor": "comet-user-guide-0.15-operators",
+      "virtual_path": "docs/comet/user-guide/0.15/operators.md",
+      "profile": "sphinx",
+      "score": 8159,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/source.html",
+      "title": "Building Comet From Source #",
+      "anchor": "comet-user-guide-0.15-source",
+      "virtual_path": "docs/comet/user-guide/0.15/source.md",
+      "profile": "sphinx",
+      "score": 5954,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/tuning.html",
+      "title": "Comet Tuning Guide #",
+      "anchor": "comet-user-guide-0.15-tuning",
+      "virtual_path": "docs/comet/user-guide/0.15/tuning.md",
+      "profile": "sphinx",
+      "score": 17252,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/expressions/index.html",
+      "title": "Expression Compatibility #",
+      "anchor": "comet-user-guide-0.16-compatibility-expressions",
+      "virtual_path": "docs/comet/user-guide/0.16/compatibility/expressions/index.md",
+      "profile": "sphinx",
+      "score": 2639,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/floating-point.html",
+      "title": "Floating-point Number Comparison #",
+      "anchor": "comet-user-guide-0.16-compatibility-floating-point",
+      "virtual_path": "docs/comet/user-guide/0.16/compatibility/floating-point.md",
+      "profile": "sphinx",
+      "score": 3166,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/index.html",
+      "title": "Compatibility Guide #",
+      "anchor": "comet-user-guide-0.16-compatibility",
+      "virtual_path": "docs/comet/user-guide/0.16/compatibility/index.md",
+      "profile": "sphinx",
+      "score": 3544,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/operators.html",
+      "title": "Operator Compatibility #",
+      "anchor": "comet-user-guide-0.16-compatibility-operators",
+      "virtual_path": "docs/comet/user-guide/0.16/compatibility/operators.md",
+      "profile": "sphinx",
+      "score": 5287,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/regex.html",
+      "title": "Regular Expressions #",
+      "anchor": "comet-user-guide-0.16-compatibility-regex",
+      "virtual_path": "docs/comet/user-guide/0.16/compatibility/regex.md",
+      "profile": "sphinx",
+      "score": 2537,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/scans.html",
+      "title": "Parquet Compatibility #",
+      "anchor": "comet-user-guide-0.16-compatibility-scans",
+      "virtual_path": "docs/comet/user-guide/0.16/compatibility/scans.md",
+      "profile": "sphinx",
+      "score": 11080,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/spark-versions.html",
+      "title": "Spark Version Compatibility #",
+      "anchor": "comet-user-guide-0.16-compatibility-spark-versions",
+      "virtual_path": "docs/comet/user-guide/0.16/compatibility/spark-versions.md",
+      "profile": "sphinx",
+      "score": 8076,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/configs.html",
+      "title": "Comet Configuration Settings #",
+      "anchor": "comet-user-guide-0.16-configs",
+      "virtual_path": "docs/comet/user-guide/0.16/configs.md",
+      "profile": "sphinx",
+      "score": 106715,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/datasources.html",
+      "title": "Supported Spark Data Sources #",
+      "anchor": "comet-user-guide-0.16-datasources",
+      "virtual_path": "docs/comet/user-guide/0.16/datasources.md",
+      "profile": "sphinx",
+      "score": 25936,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/datatypes.html",
+      "title": "Supported Spark Data Types #",
+      "anchor": "comet-user-guide-0.16-datatypes",
+      "virtual_path": "docs/comet/user-guide/0.16/datatypes.md",
+      "profile": "sphinx",
+      "score": 3808,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/expressions.html",
+      "title": "Supported Spark Expressions #",
+      "anchor": "comet-user-guide-0.16-expressions",
+      "virtual_path": "docs/comet/user-guide/0.16/expressions.md",
+      "profile": "sphinx",
+      "score": 35708,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/iceberg.html",
+      "title": "Accelerating Apache Iceberg Parquet Scans using Comet #",
+      "anchor": "comet-user-guide-0.16-iceberg",
+      "virtual_path": "docs/comet/user-guide/0.16/iceberg.md",
+      "profile": "sphinx",
+      "score": 13685,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/index.html",
+      "title": "Comet 0.16.0 User Guide #",
+      "anchor": "comet-user-guide-0.16",
+      "virtual_path": "docs/comet/user-guide/0.16/index.md",
+      "profile": "sphinx",
+      "score": 2903,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/installation.html",
+      "title": "Installing DataFusion Comet #",
+      "anchor": "comet-user-guide-0.16-installation",
+      "virtual_path": "docs/comet/user-guide/0.16/installation.md",
+      "profile": "sphinx",
+      "score": 17666,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/kubernetes.html",
+      "title": "Comet Kubernetes Support #",
+      "anchor": "comet-user-guide-0.16-kubernetes",
+      "virtual_path": "docs/comet/user-guide/0.16/kubernetes.md",
+      "profile": "sphinx",
+      "score": 8667,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/metrics.html",
+      "title": "Comet Metrics #",
+      "anchor": "comet-user-guide-0.16-metrics",
+      "virtual_path": "docs/comet/user-guide/0.16/metrics.md",
+      "profile": "sphinx",
+      "score": 10835,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/operators.html",
+      "title": "Supported Spark Operators #",
+      "anchor": "comet-user-guide-0.16-operators",
+      "virtual_path": "docs/comet/user-guide/0.16/operators.md",
+      "profile": "sphinx",
+      "score": 7924,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/source.html",
+      "title": "Building Comet From Source #",
+      "anchor": "comet-user-guide-0.16-source",
+      "virtual_path": "docs/comet/user-guide/0.16/source.md",
+      "profile": "sphinx",
+      "score": 5723,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/tuning.html",
+      "title": "Comet Tuning Guide #",
+      "anchor": "comet-user-guide-0.16-tuning",
+      "virtual_path": "docs/comet/user-guide/0.16/tuning.md",
+      "profile": "sphinx",
+      "score": 18742,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/understanding-comet-plans.html",
+      "title": "Understanding Comet Plans #",
+      "anchor": "comet-user-guide-0.16-understanding-comet-plans",
+      "virtual_path": "docs/comet/user-guide/0.16/understanding-comet-plans.md",
+      "profile": "sphinx",
+      "score": 25185,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/index.html",
+      "title": "Comet User Guide #",
+      "anchor": "comet-user-guide",
+      "virtual_path": "docs/comet/user-guide/index.md",
+      "profile": "sphinx",
+      "score": 2736,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/expressions/index.html",
+      "title": "Expression Compatibility #",
+      "anchor": "comet-user-guide-latest-compatibility-expressions",
+      "virtual_path": "docs/comet/user-guide/latest/compatibility/expressions/index.md",
+      "profile": "sphinx",
+      "score": 3485,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/floating-point.html",
+      "title": "Floating-point Number Comparison #",
+      "anchor": "comet-user-guide-latest-compatibility-floating-point",
+      "virtual_path": "docs/comet/user-guide/latest/compatibility/floating-point.md",
+      "profile": "sphinx",
+      "score": 3169,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/index.html",
+      "title": "Compatibility Guide #",
+      "anchor": "comet-user-guide-latest-compatibility",
+      "virtual_path": "docs/comet/user-guide/latest/compatibility/index.md",
+      "profile": "sphinx",
+      "score": 3545,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/operators.html",
+      "title": "Operator Compatibility #",
+      "anchor": "comet-user-guide-latest-compatibility-operators",
+      "virtual_path": "docs/comet/user-guide/latest/compatibility/operators.md",
+      "profile": "sphinx",
+      "score": 5291,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/regex.html",
+      "title": "Regular Expressions #",
+      "anchor": "comet-user-guide-latest-compatibility-regex",
+      "virtual_path": "docs/comet/user-guide/latest/compatibility/regex.md",
+      "profile": "sphinx",
+      "score": 2534,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/scans.html",
+      "title": "Parquet Compatibility #",
+      "anchor": "comet-user-guide-latest-compatibility-scans",
+      "virtual_path": "docs/comet/user-guide/latest/compatibility/scans.md",
+      "profile": "sphinx",
+      "score": 11088,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/spark-versions.html",
+      "title": "Spark Version Compatibility #",
+      "anchor": "comet-user-guide-latest-compatibility-spark-versions",
+      "virtual_path": "docs/comet/user-guide/latest/compatibility/spark-versions.md",
+      "profile": "sphinx",
+      "score": 8833,
+      "depth": 5
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/configs.html",
+      "title": "Comet Configuration Settings #",
+      "anchor": "comet-user-guide-latest-configs",
+      "virtual_path": "docs/comet/user-guide/latest/configs.md",
+      "profile": "sphinx",
+      "score": 107611,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/datasources.html",
+      "title": "Supported Spark Data Sources #",
+      "anchor": "comet-user-guide-latest-datasources",
+      "virtual_path": "docs/comet/user-guide/latest/datasources.md",
+      "profile": "sphinx",
+      "score": 25953,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/datatypes.html",
+      "title": "Supported Spark Data Types #",
+      "anchor": "comet-user-guide-latest-datatypes",
+      "virtual_path": "docs/comet/user-guide/latest/datatypes.md",
+      "profile": "sphinx",
+      "score": 3805,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/expressions.html",
+      "title": "Supported Spark Expressions #",
+      "anchor": "comet-user-guide-latest-expressions",
+      "virtual_path": "docs/comet/user-guide/latest/expressions.md",
+      "profile": "sphinx",
+      "score": 39686,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/iceberg.html",
+      "title": "Accelerating Apache Iceberg Parquet Scans using Comet #",
+      "anchor": "comet-user-guide-latest-iceberg",
+      "virtual_path": "docs/comet/user-guide/latest/iceberg.md",
+      "profile": "sphinx",
+      "score": 13719,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/index.html",
+      "title": "Comet 0.17.0-SNAPSHOT User Guide #",
+      "anchor": "comet-user-guide-latest",
+      "virtual_path": "docs/comet/user-guide/latest/index.md",
+      "profile": "sphinx",
+      "score": 2936,
+      "depth": 3
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/installation.html",
+      "title": "Installing DataFusion Comet #",
+      "anchor": "comet-user-guide-latest-installation",
+      "virtual_path": "docs/comet/user-guide/latest/installation.md",
+      "profile": "sphinx",
+      "score": 16317,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/kubernetes.html",
+      "title": "Comet Kubernetes Support #",
+      "anchor": "comet-user-guide-latest-kubernetes",
+      "virtual_path": "docs/comet/user-guide/latest/kubernetes.md",
+      "profile": "sphinx",
+      "score": 8701,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/metrics.html",
+      "title": "Comet Metrics #",
+      "anchor": "comet-user-guide-latest-metrics",
+      "virtual_path": "docs/comet/user-guide/latest/metrics.md",
+      "profile": "sphinx",
+      "score": 10842,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/operators.html",
+      "title": "Supported Spark Operators #",
+      "anchor": "comet-user-guide-latest-operators",
+      "virtual_path": "docs/comet/user-guide/latest/operators.md",
+      "profile": "sphinx",
+      "score": 7928,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/source.html",
+      "title": "Building Comet From Source #",
+      "anchor": "comet-user-guide-latest-source",
+      "virtual_path": "docs/comet/user-guide/latest/source.md",
+      "profile": "sphinx",
+      "score": 5073,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/tuning.html",
+      "title": "Comet Tuning Guide #",
+      "anchor": "comet-user-guide-latest-tuning",
+      "virtual_path": "docs/comet/user-guide/latest/tuning.md",
+      "profile": "sphinx",
+      "score": 18750,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/comet/user-guide/latest/understanding-comet-plans.html",
+      "title": "Understanding Comet Plans #",
+      "anchor": "comet-user-guide-latest-understanding-comet-plans",
+      "virtual_path": "docs/comet/user-guide/latest/understanding-comet-plans.md",
+      "profile": "sphinx",
+      "score": 25193,
+      "depth": 4
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/api-health.html",
+      "title": "API health policy #",
+      "anchor": "contributor-guide-api-health",
+      "virtual_path": "docs/contributor-guide/api-health.md",
+      "profile": "sphinx",
+      "score": 9960,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/architecture.html",
+      "title": "Architecture #",
+      "anchor": "contributor-guide-architecture",
+      "virtual_path": "docs/contributor-guide/architecture.md",
+      "profile": "sphinx",
+      "score": 7298,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/architecture/dependency-graph.html",
+      "title": "Workspace Dependency Graph #",
+      "anchor": "contributor-guide-architecture-dependency-graph",
+      "virtual_path": "docs/contributor-guide/architecture/dependency-graph.md",
+      "profile": "sphinx",
+      "score": 5958,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/communication.html",
+      "title": "Community Communication #",
+      "anchor": "contributor-guide-communication",
+      "virtual_path": "docs/contributor-guide/communication.md",
+      "profile": "sphinx",
+      "score": 9121,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/development_environment.html",
+      "title": "Development Environment #",
+      "anchor": "contributor-guide-development_environment",
+      "virtual_path": "docs/contributor-guide/development_environment.md",
+      "profile": "sphinx",
+      "score": 10192,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/governance.html",
+      "title": "Governance #",
+      "anchor": "contributor-guide-governance",
+      "virtual_path": "docs/contributor-guide/governance.md",
+      "profile": "sphinx",
+      "score": 31077,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/gsoc/gsoc_application_guidelines_2025.html",
+      "title": "GSoC Application Guidelines (2025) #",
+      "anchor": "contributor-guide-gsoc-gsoc_application_guidelines_2025",
+      "virtual_path": "docs/contributor-guide/gsoc/gsoc_application_guidelines_2025.md",
+      "profile": "sphinx",
+      "score": 10120,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/gsoc/gsoc_project_ideas_2025.html",
+      "title": "GSoC Project Ideas (2025) #",
+      "anchor": "contributor-guide-gsoc-gsoc_project_ideas_2025",
+      "virtual_path": "docs/contributor-guide/gsoc/gsoc_project_ideas_2025.md",
+      "profile": "sphinx",
+      "score": 21418,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/gsoc/index.html",
+      "title": "Google Summer of Code (GSOC) #",
+      "anchor": "contributor-guide-gsoc",
+      "virtual_path": "docs/contributor-guide/gsoc/index.md",
+      "profile": "sphinx",
+      "score": 2650,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/howtos.html",
+      "title": "HOWTOs #",
+      "anchor": "contributor-guide-howtos",
+      "virtual_path": "docs/contributor-guide/howtos.md",
+      "profile": "sphinx",
+      "score": 14410,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/index.html",
+      "title": "Introduction #",
+      "anchor": "contributor-guide",
+      "virtual_path": "docs/contributor-guide/index.md",
+      "profile": "sphinx",
+      "score": 26486,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/inviting.html",
+      "title": "Inviting New Committers and PMC Members #",
+      "anchor": "contributor-guide-inviting",
+      "virtual_path": "docs/contributor-guide/inviting.md",
+      "profile": "sphinx",
+      "score": 25957,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/release_management.html",
+      "title": "Release Management #",
+      "anchor": "contributor-guide-release_management",
+      "virtual_path": "docs/contributor-guide/release_management.md",
+      "profile": "sphinx",
+      "score": 10132,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/roadmap.html",
+      "title": "Roadmap and Improvement Proposals #",
+      "anchor": "contributor-guide-roadmap",
+      "virtual_path": "docs/contributor-guide/roadmap.md",
+      "profile": "sphinx",
+      "score": 12770,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/specification/index.html",
+      "title": "Specifications #",
+      "anchor": "contributor-guide-specification",
+      "virtual_path": "docs/contributor-guide/specification/index.md",
+      "profile": "sphinx",
+      "score": 2781,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/specification/invariants.html",
+      "title": "Invariants #",
+      "anchor": "contributor-guide-specification-invariants",
+      "virtual_path": "docs/contributor-guide/specification/invariants.md",
+      "profile": "sphinx",
+      "score": 31636,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/specification/output-field-name-semantic.html",
+      "title": "Output field name semantics #",
+      "anchor": "contributor-guide-specification-output-field-name-semantic",
+      "virtual_path": "docs/contributor-guide/specification/output-field-name-semantic.md",
+      "profile": "sphinx",
+      "score": 21480,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/contributor-guide/testing.html",
+      "title": "Testing #",
+      "anchor": "contributor-guide-testing",
+      "virtual_path": "docs/contributor-guide/testing.md",
+      "profile": "sphinx",
+      "score": 22057,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/download.html",
+      "title": "Download #",
+      "anchor": "download",
+      "virtual_path": "docs/download.md",
+      "profile": "sphinx",
+      "score": 6934,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/building-logical-plans.html",
+      "title": "Building Logical Plans #",
+      "anchor": "library-user-guide-building-logical-plans",
+      "virtual_path": "docs/library-user-guide/building-logical-plans.md",
+      "profile": "sphinx",
+      "score": 13818,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/catalogs.html",
+      "title": "Catalogs, Schemas, and Tables #",
+      "anchor": "library-user-guide-catalogs",
+      "virtual_path": "docs/library-user-guide/catalogs.md",
+      "profile": "sphinx",
+      "score": 15227,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/custom-table-providers.html",
+      "title": "Custom Table Provider #",
+      "anchor": "library-user-guide-custom-table-providers",
+      "virtual_path": "docs/library-user-guide/custom-table-providers.md",
+      "profile": "sphinx",
+      "score": 54674,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/extending-operators.html",
+      "title": "Extending Operators #",
+      "anchor": "library-user-guide-extending-operators",
+      "virtual_path": "docs/library-user-guide/extending-operators.md",
+      "profile": "sphinx",
+      "score": 5584,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/extending-sql.html",
+      "title": "Extending SQL Syntax #",
+      "anchor": "library-user-guide-extending-sql",
+      "virtual_path": "docs/library-user-guide/extending-sql.md",
+      "profile": "sphinx",
+      "score": 24006,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/extensions.html",
+      "title": "Extensions List #",
+      "anchor": "library-user-guide-extensions",
+      "virtual_path": "docs/library-user-guide/extensions.md",
+      "profile": "sphinx",
+      "score": 5803,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/functions/adding-udfs.html",
+      "title": "Adding User Defined Functions: Scalar/Window/Aggregate/Table Functions #",
+      "anchor": "library-user-guide-functions-adding-udfs",
+      "virtual_path": "docs/library-user-guide/functions/adding-udfs.md",
+      "profile": "sphinx",
+      "score": 53897,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/functions/index.html",
+      "title": "Functions #",
+      "anchor": "library-user-guide-functions",
+      "virtual_path": "docs/library-user-guide/functions/index.md",
+      "profile": "sphinx",
+      "score": 1841,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/functions/spark.html",
+      "title": "Spark Compatible Functions #",
+      "anchor": "library-user-guide-functions-spark",
+      "virtual_path": "docs/library-user-guide/functions/spark.md",
+      "profile": "sphinx",
+      "score": 2291,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/index.html",
+      "title": "Introduction #",
+      "anchor": "library-user-guide",
+      "virtual_path": "docs/library-user-guide/index.md",
+      "profile": "sphinx",
+      "score": 3672,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/profiling.html",
+      "title": "Profiling Cookbook #",
+      "anchor": "library-user-guide-profiling",
+      "virtual_path": "docs/library-user-guide/profiling.md",
+      "profile": "sphinx",
+      "score": 11677,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/query-optimizer.html",
+      "title": "Query Optimizer #",
+      "anchor": "library-user-guide-query-optimizer",
+      "virtual_path": "docs/library-user-guide/query-optimizer.md",
+      "profile": "sphinx",
+      "score": 30466,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/table-constraints.html",
+      "title": "Table Constraint Enforcement #",
+      "anchor": "library-user-guide-table-constraints",
+      "virtual_path": "docs/library-user-guide/table-constraints.md",
+      "profile": "sphinx",
+      "score": 3612,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/46.0.0.html",
+      "title": "Upgrade Guides #",
+      "anchor": "library-user-guide-upgrading-46.0.0",
+      "virtual_path": "docs/library-user-guide/upgrading/46.0.0.md",
+      "profile": "sphinx",
+      "score": 16818,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/47.0.0.html",
+      "title": "Upgrade Guides #",
+      "anchor": "library-user-guide-upgrading-47.0.0",
+      "virtual_path": "docs/library-user-guide/upgrading/47.0.0.md",
+      "profile": "sphinx",
+      "score": 8784,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/48.0.0.html",
+      "title": "Upgrade Guides #",
+      "anchor": "library-user-guide-upgrading-48.0.0",
+      "virtual_path": "docs/library-user-guide/upgrading/48.0.0.md",
+      "profile": "sphinx",
+      "score": 15320,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/48.0.1.html",
+      "title": "Upgrade Guides #",
+      "anchor": "library-user-guide-upgrading-48.0.1",
+      "virtual_path": "docs/library-user-guide/upgrading/48.0.1.md",
+      "profile": "sphinx",
+      "score": 3787,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/49.0.0.html",
+      "title": "Upgrade Guides #",
+      "anchor": "library-user-guide-upgrading-49.0.0",
+      "virtual_path": "docs/library-user-guide/upgrading/49.0.0.md",
+      "profile": "sphinx",
+      "score": 15466,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/50.0.0.html",
+      "title": "Upgrade Guides #",
+      "anchor": "library-user-guide-upgrading-50.0.0",
+      "virtual_path": "docs/library-user-guide/upgrading/50.0.0.md",
+      "profile": "sphinx",
+      "score": 23617,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/51.0.0.html",
+      "title": "Upgrade Guides #",
+      "anchor": "library-user-guide-upgrading-51.0.0",
+      "virtual_path": "docs/library-user-guide/upgrading/51.0.0.md",
+      "profile": "sphinx",
+      "score": 21769,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/52.0.0.html",
+      "title": "Upgrade Guides #",
+      "anchor": "library-user-guide-upgrading-52.0.0",
+      "virtual_path": "docs/library-user-guide/upgrading/52.0.0.md",
+      "profile": "sphinx",
+      "score": 44533,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/53.0.0.html",
+      "title": "Upgrade Guides #",
+      "anchor": "library-user-guide-upgrading-53.0.0",
+      "virtual_path": "docs/library-user-guide/upgrading/53.0.0.md",
+      "profile": "sphinx",
+      "score": 35037,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/54.0.0.html",
+      "title": "Upgrade Guides #",
+      "anchor": "library-user-guide-upgrading-54.0.0",
+      "virtual_path": "docs/library-user-guide/upgrading/54.0.0.md",
+      "profile": "sphinx",
+      "score": 47757,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/index.html",
+      "title": "Upgrade Guides #",
+      "anchor": "library-user-guide-upgrading",
+      "virtual_path": "docs/library-user-guide/upgrading/index.md",
+      "profile": "sphinx",
+      "score": 1752,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/using-the-dataframe-api.html",
+      "title": "Using the DataFrame API #",
+      "anchor": "library-user-guide-using-the-dataframe-api",
+      "virtual_path": "docs/library-user-guide/using-the-dataframe-api.md",
+      "profile": "sphinx",
+      "score": 15240,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/using-the-sql-api.html",
+      "title": "Using the SQL API #",
+      "anchor": "library-user-guide-using-the-sql-api",
+      "virtual_path": "docs/library-user-guide/using-the-sql-api.md",
+      "profile": "sphinx",
+      "score": 11795,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/library-user-guide/working-with-exprs.html",
+      "title": "Working with Expr s #",
+      "anchor": "library-user-guide-working-with-exprs",
+      "virtual_path": "docs/library-user-guide/working-with-exprs.md",
+      "profile": "sphinx",
+      "score": 19183,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/catalog/index.html",
+      "title": "datafusion.catalog ¶",
+      "anchor": "python-autoapi-datafusion-catalog",
+      "virtual_path": "docs/python/autoapi/datafusion/catalog/index.md",
+      "profile": "sphinx",
+      "score": 17761,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/context/index.html",
+      "title": "datafusion.context ¶",
+      "anchor": "python-autoapi-datafusion-context",
+      "virtual_path": "docs/python/autoapi/datafusion/context/index.md",
+      "profile": "sphinx",
+      "score": 76523,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/dataframe/index.html",
+      "title": "datafusion.dataframe ¶",
+      "anchor": "python-autoapi-datafusion-dataframe",
+      "virtual_path": "docs/python/autoapi/datafusion/dataframe/index.md",
+      "profile": "sphinx",
+      "score": 84526,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/dataframe_formatter/index.html",
+      "title": "datafusion.dataframe_formatter ¶",
+      "anchor": "python-autoapi-datafusion-dataframe_formatter",
+      "virtual_path": "docs/python/autoapi/datafusion/dataframe_formatter/index.md",
+      "profile": "sphinx",
+      "score": 33476,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/expr/index.html",
+      "title": "datafusion.expr ¶",
+      "anchor": "python-autoapi-datafusion-expr",
+      "virtual_path": "docs/python/autoapi/datafusion/expr/index.md",
+      "profile": "sphinx",
+      "score": 69788,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/functions/index.html",
+      "title": "datafusion.functions ¶",
+      "anchor": "python-autoapi-datafusion-functions",
+      "virtual_path": "docs/python/autoapi/datafusion/functions/index.md",
+      "profile": "sphinx",
+      "score": 374570,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/index.html",
+      "title": "datafusion ¶",
+      "anchor": "python-autoapi-datafusion",
+      "virtual_path": "docs/python/autoapi/datafusion/index.md",
+      "profile": "sphinx",
+      "score": 107881,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/input/base/index.html",
+      "title": "datafusion.input.base ¶",
+      "anchor": "python-autoapi-datafusion-input-base",
+      "virtual_path": "docs/python/autoapi/datafusion/input/base/index.md",
+      "profile": "sphinx",
+      "score": 4729,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/input/index.html",
+      "title": "datafusion.input ¶",
+      "anchor": "python-autoapi-datafusion-input",
+      "virtual_path": "docs/python/autoapi/datafusion/input/index.md",
+      "profile": "sphinx",
+      "score": 4773,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/input/location/index.html",
+      "title": "datafusion.input.location ¶",
+      "anchor": "python-autoapi-datafusion-input-location",
+      "virtual_path": "docs/python/autoapi/datafusion/input/location/index.md",
+      "profile": "sphinx",
+      "score": 4250,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/io/index.html",
+      "title": "datafusion.io ¶",
+      "anchor": "python-autoapi-datafusion-io",
+      "virtual_path": "docs/python/autoapi/datafusion/io/index.md",
+      "profile": "sphinx",
+      "score": 11707,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/object_store/index.html",
+      "title": "datafusion.object_store ¶",
+      "anchor": "python-autoapi-datafusion-object_store",
+      "virtual_path": "docs/python/autoapi/datafusion/object_store/index.md",
+      "profile": "sphinx",
+      "score": 4133,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/options/index.html",
+      "title": "datafusion.options ¶",
+      "anchor": "python-autoapi-datafusion-options",
+      "virtual_path": "docs/python/autoapi/datafusion/options/index.md",
+      "profile": "sphinx",
+      "score": 12664,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/plan/index.html",
+      "title": "datafusion.plan ¶",
+      "anchor": "python-autoapi-datafusion-plan",
+      "virtual_path": "docs/python/autoapi/datafusion/plan/index.md",
+      "profile": "sphinx",
+      "score": 9633,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/record_batch/index.html",
+      "title": "datafusion.record_batch ¶",
+      "anchor": "python-autoapi-datafusion-record_batch",
+      "virtual_path": "docs/python/autoapi/datafusion/record_batch/index.md",
+      "profile": "sphinx",
+      "score": 7101,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/substrait/index.html",
+      "title": "datafusion.substrait ¶",
+      "anchor": "python-autoapi-datafusion-substrait",
+      "virtual_path": "docs/python/autoapi/datafusion/substrait/index.md",
+      "profile": "sphinx",
+      "score": 10686,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/unparser/index.html",
+      "title": "datafusion.unparser ¶",
+      "anchor": "python-autoapi-datafusion-unparser",
+      "virtual_path": "docs/python/autoapi/datafusion/unparser/index.md",
+      "profile": "sphinx",
+      "score": 5747,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/user_defined/index.html",
+      "title": "datafusion.user_defined ¶",
+      "anchor": "python-autoapi-datafusion-user_defined",
+      "virtual_path": "docs/python/autoapi/datafusion/user_defined/index.md",
+      "profile": "sphinx",
+      "score": 49141,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/autoapi/index.html",
+      "title": "API Reference ¶",
+      "anchor": "python-autoapi",
+      "virtual_path": "docs/python/autoapi/index.md",
+      "profile": "sphinx",
+      "score": 2656,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/contributor-guide/ffi.html",
+      "title": "Python Extensions ¶",
+      "anchor": "python-contributor-guide-ffi",
+      "virtual_path": "docs/python/contributor-guide/ffi.md",
+      "profile": "sphinx",
+      "score": 20307,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/contributor-guide/introduction.html",
+      "title": "Introduction ¶",
+      "anchor": "python-contributor-guide-introduction",
+      "virtual_path": "docs/python/contributor-guide/introduction.md",
+      "profile": "sphinx",
+      "score": 12388,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/",
+      "title": "DataFusion in Python ¶",
+      "anchor": "python",
+      "virtual_path": "docs/python/index.md",
+      "profile": "sphinx",
+      "score": 6970,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/basics.html",
+      "title": "Concepts ¶",
+      "anchor": "python-user-guide-basics",
+      "virtual_path": "docs/python/user-guide/basics.md",
+      "profile": "sphinx",
+      "score": 8002,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/aggregations.html",
+      "title": "Aggregation ¶",
+      "anchor": "python-user-guide-common-operations-aggregations",
+      "virtual_path": "docs/python/user-guide/common-operations/aggregations.md",
+      "profile": "sphinx",
+      "score": 36499,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/basic-info.html",
+      "title": "Basic Operations ¶",
+      "anchor": "python-user-guide-common-operations-basic-info",
+      "virtual_path": "docs/python/user-guide/common-operations/basic-info.md",
+      "profile": "sphinx",
+      "score": 5793,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/expressions.html",
+      "title": "Expressions ¶",
+      "anchor": "python-user-guide-common-operations-expressions",
+      "virtual_path": "docs/python/user-guide/common-operations/expressions.md",
+      "profile": "sphinx",
+      "score": 15255,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/functions.html",
+      "title": "Functions ¶",
+      "anchor": "python-user-guide-common-operations-functions",
+      "virtual_path": "docs/python/user-guide/common-operations/functions.md",
+      "profile": "sphinx",
+      "score": 14835,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/index.html",
+      "title": "Common Operations ¶",
+      "anchor": "python-user-guide-common-operations",
+      "virtual_path": "docs/python/user-guide/common-operations/index.md",
+      "profile": "sphinx",
+      "score": 2906,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/joins.html",
+      "title": "Joins ¶",
+      "anchor": "python-user-guide-common-operations-joins",
+      "virtual_path": "docs/python/user-guide/common-operations/joins.md",
+      "profile": "sphinx",
+      "score": 13315,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/select-and-filter.html",
+      "title": "Column Selections ¶",
+      "anchor": "python-user-guide-common-operations-select-and-filter",
+      "virtual_path": "docs/python/user-guide/common-operations/select-and-filter.md",
+      "profile": "sphinx",
+      "score": 5840,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/udf-and-udfa.html",
+      "title": "User-Defined Functions ¶",
+      "anchor": "python-user-guide-common-operations-udf-and-udfa",
+      "virtual_path": "docs/python/user-guide/common-operations/udf-and-udfa.md",
+      "profile": "sphinx",
+      "score": 19100,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/views.html",
+      "title": "Registering Views ¶",
+      "anchor": "python-user-guide-common-operations-views",
+      "virtual_path": "docs/python/user-guide/common-operations/views.md",
+      "profile": "sphinx",
+      "score": 3710,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/windows.html",
+      "title": "Window Functions ¶",
+      "anchor": "python-user-guide-common-operations-windows",
+      "virtual_path": "docs/python/user-guide/common-operations/windows.md",
+      "profile": "sphinx",
+      "score": 17605,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/configuration.html",
+      "title": "Configuration ¶",
+      "anchor": "python-user-guide-configuration",
+      "virtual_path": "docs/python/user-guide/configuration.md",
+      "profile": "sphinx",
+      "score": 13836,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/data-sources.html",
+      "title": "Data Sources ¶",
+      "anchor": "python-user-guide-data-sources",
+      "virtual_path": "docs/python/user-guide/data-sources.md",
+      "profile": "sphinx",
+      "score": 20099,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/dataframe/index.html",
+      "title": "DataFrames ¶",
+      "anchor": "python-user-guide-dataframe",
+      "virtual_path": "docs/python/user-guide/dataframe/index.md",
+      "profile": "sphinx",
+      "score": 22157,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/dataframe/rendering.html",
+      "title": "DataFrame Rendering ¶",
+      "anchor": "python-user-guide-dataframe-rendering",
+      "virtual_path": "docs/python/user-guide/dataframe/rendering.md",
+      "profile": "sphinx",
+      "score": 16242,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/introduction.html",
+      "title": "Introduction ¶",
+      "anchor": "python-user-guide-introduction",
+      "virtual_path": "docs/python/user-guide/introduction.md",
+      "profile": "sphinx",
+      "score": 7651,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/io/arrow.html",
+      "title": "Arrow ¶",
+      "anchor": "python-user-guide-io-arrow",
+      "virtual_path": "docs/python/user-guide/io/arrow.md",
+      "profile": "sphinx",
+      "score": 5882,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/io/avro.html",
+      "title": "Avro ¶",
+      "anchor": "python-user-guide-io-avro",
+      "virtual_path": "docs/python/user-guide/io/avro.md",
+      "profile": "sphinx",
+      "score": 2526,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/io/csv.html",
+      "title": "CSV ¶",
+      "anchor": "python-user-guide-io-csv",
+      "virtual_path": "docs/python/user-guide/io/csv.md",
+      "profile": "sphinx",
+      "score": 4125,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/io/index.html",
+      "title": "IO ¶",
+      "anchor": "python-user-guide-io",
+      "virtual_path": "docs/python/user-guide/io/index.md",
+      "profile": "sphinx",
+      "score": 2121,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/io/json.html",
+      "title": "JSON ¶",
+      "anchor": "python-user-guide-io-json",
+      "virtual_path": "docs/python/user-guide/io/json.md",
+      "profile": "sphinx",
+      "score": 2588,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/io/parquet.html",
+      "title": "Parquet ¶",
+      "anchor": "python-user-guide-io-parquet",
+      "virtual_path": "docs/python/user-guide/io/parquet.md",
+      "profile": "sphinx",
+      "score": 2901,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/io/table_provider.html",
+      "title": "Custom Table Provider ¶",
+      "anchor": "python-user-guide-io-table_provider",
+      "virtual_path": "docs/python/user-guide/io/table_provider.md",
+      "profile": "sphinx",
+      "score": 3858,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/sql.html",
+      "title": "SQL ¶",
+      "anchor": "python-user-guide-sql",
+      "virtual_path": "docs/python/user-guide/sql.md",
+      "profile": "sphinx",
+      "score": 8912,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/python/user-guide/upgrade-guides.html",
+      "title": "Upgrade Guides ¶",
+      "anchor": "python-user-guide-upgrade-guides",
+      "virtual_path": "docs/python/user-guide/upgrade-guides.md",
+      "profile": "sphinx",
+      "score": 7623,
+      "depth": 2
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/arrow-introduction.html",
+      "title": "Gentle Arrow Introduction #",
+      "anchor": "user-guide-arrow-introduction",
+      "virtual_path": "docs/user-guide/arrow-introduction.md",
+      "profile": "sphinx",
+      "score": 18108,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/cli/datasources.html",
+      "title": "Local Files / Directories #",
+      "anchor": "user-guide-cli-datasources",
+      "virtual_path": "docs/user-guide/cli/datasources.md",
+      "profile": "sphinx",
+      "score": 30328,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/cli/functions.html",
+      "title": "CLI Specific Functions #",
+      "anchor": "user-guide-cli-functions",
+      "virtual_path": "docs/user-guide/cli/functions.md",
+      "profile": "sphinx",
+      "score": 29241,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/cli/index.html",
+      "title": "DataFusion CLI #",
+      "anchor": "user-guide-cli",
+      "virtual_path": "docs/user-guide/cli/index.md",
+      "profile": "sphinx",
+      "score": 2179,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/cli/installation.html",
+      "title": "Installation #",
+      "anchor": "user-guide-cli-installation",
+      "virtual_path": "docs/user-guide/cli/installation.md",
+      "profile": "sphinx",
+      "score": 5209,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/cli/overview.html",
+      "title": "Overview #",
+      "anchor": "user-guide-cli-overview",
+      "virtual_path": "docs/user-guide/cli/overview.md",
+      "profile": "sphinx",
+      "score": 3490,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/cli/usage.html",
+      "title": "Usage #",
+      "anchor": "user-guide-cli-usage",
+      "virtual_path": "docs/user-guide/cli/usage.md",
+      "profile": "sphinx",
+      "score": 15575,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/concepts-readings-events.html",
+      "title": "Concepts, Readings, Events #",
+      "anchor": "user-guide-concepts-readings-events",
+      "virtual_path": "docs/user-guide/concepts-readings-events.md",
+      "profile": "sphinx",
+      "score": 20361,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/configs.html",
+      "title": "Configuration Settings #",
+      "anchor": "user-guide-configs",
+      "virtual_path": "docs/user-guide/configs.md",
+      "profile": "sphinx",
+      "score": 86870,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/crate-configuration.html",
+      "title": "Crate Configuration #",
+      "anchor": "user-guide-crate-configuration",
+      "virtual_path": "docs/user-guide/crate-configuration.md",
+      "profile": "sphinx",
+      "score": 17057,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/dataframe.html",
+      "title": "DataFrame API #",
+      "anchor": "user-guide-dataframe",
+      "virtual_path": "docs/user-guide/dataframe.md",
+      "profile": "sphinx",
+      "score": 6940,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/example-usage.html",
+      "title": "Example Usage #",
+      "anchor": "user-guide-example-usage",
+      "virtual_path": "docs/user-guide/example-usage.md",
+      "profile": "sphinx",
+      "score": 12006,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/explain-usage.html",
+      "title": "Reading Explain Plans #",
+      "anchor": "user-guide-explain-usage",
+      "virtual_path": "docs/user-guide/explain-usage.md",
+      "profile": "sphinx",
+      "score": 36072,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/expressions.html",
+      "title": "Expression API #",
+      "anchor": "user-guide-expressions",
+      "virtual_path": "docs/user-guide/expressions.md",
+      "profile": "sphinx",
+      "score": 56394,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/faq.html",
+      "title": "Frequently Asked Questions #",
+      "anchor": "user-guide-faq",
+      "virtual_path": "docs/user-guide/faq.md",
+      "profile": "sphinx",
+      "score": 6079,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/features.html",
+      "title": "Features #",
+      "anchor": "user-guide-features",
+      "virtual_path": "docs/user-guide/features.md",
+      "profile": "sphinx",
+      "score": 11307,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/introduction.html",
+      "title": "Introduction #",
+      "anchor": "user-guide-introduction",
+      "virtual_path": "docs/user-guide/introduction.md",
+      "profile": "sphinx",
+      "score": 19793,
+      "depth": 0
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/metrics.html",
+      "title": "Metrics #",
+      "anchor": "user-guide-metrics",
+      "virtual_path": "docs/user-guide/metrics.md",
+      "profile": "sphinx",
+      "score": 6090,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/aggregate_functions.html",
+      "title": "Aggregate Functions #",
+      "anchor": "user-guide-sql-aggregate_functions",
+      "virtual_path": "docs/user-guide/sql/aggregate_functions.md",
+      "profile": "sphinx",
+      "score": 99506,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/data_types.html",
+      "title": "Data Types #",
+      "anchor": "user-guide-sql-data_types",
+      "virtual_path": "docs/user-guide/sql/data_types.md",
+      "profile": "sphinx",
+      "score": 14579,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/ddl.html",
+      "title": "DDL #",
+      "anchor": "user-guide-sql-ddl",
+      "virtual_path": "docs/user-guide/sql/ddl.md",
+      "profile": "sphinx",
+      "score": 27634,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/dml.html",
+      "title": "DML #",
+      "anchor": "user-guide-sql-dml",
+      "virtual_path": "docs/user-guide/sql/dml.md",
+      "profile": "sphinx",
+      "score": 8590,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/explain.html",
+      "title": "EXPLAIN #",
+      "anchor": "user-guide-sql-explain",
+      "virtual_path": "docs/user-guide/sql/explain.md",
+      "profile": "sphinx",
+      "score": 14969,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/format_options.html",
+      "title": "Format Options #",
+      "anchor": "user-guide-sql-format_options",
+      "virtual_path": "docs/user-guide/sql/format_options.md",
+      "profile": "sphinx",
+      "score": 32042,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/index.html",
+      "title": "SQL Reference #",
+      "anchor": "user-guide-sql",
+      "virtual_path": "docs/user-guide/sql/index.md",
+      "profile": "sphinx",
+      "score": 3771,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/information_schema.html",
+      "title": "Information Schema #",
+      "anchor": "user-guide-sql-information_schema",
+      "virtual_path": "docs/user-guide/sql/information_schema.md",
+      "profile": "sphinx",
+      "score": 12521,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/operators.html",
+      "title": "Operators and Literals #",
+      "anchor": "user-guide-sql-operators",
+      "virtual_path": "docs/user-guide/sql/operators.md",
+      "profile": "sphinx",
+      "score": 35713,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/prepared_statements.html",
+      "title": "Prepared Statements #",
+      "anchor": "user-guide-sql-prepared_statements",
+      "virtual_path": "docs/user-guide/sql/prepared_statements.md",
+      "profile": "sphinx",
+      "score": 8136,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/scalar_functions.html",
+      "title": "Scalar Functions #",
+      "anchor": "user-guide-sql-scalar_functions",
+      "virtual_path": "docs/user-guide/sql/scalar_functions.md",
+      "profile": "sphinx",
+      "score": 491374,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/select.html",
+      "title": "SELECT syntax #",
+      "anchor": "user-guide-sql-select",
+      "virtual_path": "docs/user-guide/sql/select.md",
+      "profile": "sphinx",
+      "score": 39201,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/special_functions.html",
+      "title": "Special Functions #",
+      "anchor": "user-guide-sql-special_functions",
+      "virtual_path": "docs/user-guide/sql/special_functions.md",
+      "profile": "sphinx",
+      "score": 7207,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/struct_coercion.html",
+      "title": "Struct Type Coercion and Field Mapping #",
+      "anchor": "user-guide-sql-struct_coercion",
+      "virtual_path": "docs/user-guide/sql/struct_coercion.md",
+      "profile": "sphinx",
+      "score": 29520,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/subqueries.html",
+      "title": "Subqueries #",
+      "anchor": "user-guide-sql-subqueries",
+      "virtual_path": "docs/user-guide/sql/subqueries.md",
+      "profile": "sphinx",
+      "score": 23196,
+      "depth": 1
+    },
+    {
+      "source_url": "https://datafusion.apache.org/user-guide/sql/window_functions.html",
+      "title": "Window Functions #",
+      "anchor": "user-guide-sql-window_functions",
+      "virtual_path": "docs/user-guide/sql/window_functions.md",
+      "profile": "sphinx",
+      "score": 35329,
+      "depth": 1
+    }
+  ]
+}

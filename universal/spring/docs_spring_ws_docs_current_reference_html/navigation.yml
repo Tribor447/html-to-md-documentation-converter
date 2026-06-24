@@ -1,0 +1,807 @@
+- title: Preface
+  kind: heading
+  source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#overview
+  anchor: index--overview
+  virtual_path: docs/index.md
+- title: I. Introduction
+  kind: heading
+  source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_i_introduction
+  anchor: index--_i_introduction
+  virtual_path: docs/index.md
+  children:
+  - title: 1. What is Spring Web Services?
+    kind: heading
+    source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#what-is-spring-ws
+    anchor: index--what-is-spring-ws
+    virtual_path: docs/index.md
+    children:
+    - title: 1.1. Introduction
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_introduction
+      anchor: index--_introduction
+      virtual_path: docs/index.md
+      children:
+      - title: 1.1.1. Powerful mappings
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#features-powerful-mappings
+        anchor: index--features-powerful-mappings
+        virtual_path: docs/index.md
+      - title: 1.1.2. XML API support
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#features-xml-api-support
+        anchor: index--features-xml-api-support
+        virtual_path: docs/index.md
+      - title: 1.1.3. Flexible XML Marshalling
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#features-flexible-xml-marshalling
+        anchor: index--features-flexible-xml-marshalling
+        virtual_path: docs/index.md
+      - title: 1.1.4. Reusing Your Spring expertise
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#features-reusing-your-spring-expertise
+        anchor: index--features-reusing-your-spring-expertise
+        virtual_path: docs/index.md
+      - title: 1.1.5. Support for WS-Security
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#features-support-for-ws-security
+        anchor: index--features-support-for-ws-security
+        virtual_path: docs/index.md
+      - title: 1.1.6. Integration with Spring Security
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#features-integration-with-spring-security
+        anchor: index--features-integration-with-spring-security
+        virtual_path: docs/index.md
+      - title: 1.1.7. Apache license
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#features-apache-license
+        anchor: index--features-apache-license
+        virtual_path: docs/index.md
+    - title: 1.2. Runtime environment
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_runtime_environment
+      anchor: index--_runtime_environment
+      virtual_path: docs/index.md
+    - title: 1.3. Supported standards
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_supported_standards
+      anchor: index--_supported_standards
+      virtual_path: docs/index.md
+  - title: 2. Why Contract First?
+    kind: heading
+    source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#why-contract-first
+    anchor: index--why-contract-first
+    virtual_path: docs/index.md
+    children:
+    - title: 2.1. Object/XML Impedance Mismatch
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_objectxml_impedance_mismatch
+      anchor: index--_objectxml_impedance_mismatch
+      virtual_path: docs/index.md
+      children:
+      - title: 2.1.1. XSD Extensions
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_xsd_extensions
+        anchor: index--_xsd_extensions
+        virtual_path: docs/index.md
+      - title: 2.1.2. Unportable Types
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_unportable_types
+        anchor: index--_unportable_types
+        virtual_path: docs/index.md
+      - title: 2.1.3. Cyclic Graphs
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_cyclic_graphs
+        anchor: index--_cyclic_graphs
+        virtual_path: docs/index.md
+    - title: 2.2. Contract-first Versus Contract-last
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_contract_first_versus_contract_last
+      anchor: index--_contract_first_versus_contract_last
+      virtual_path: docs/index.md
+      children:
+      - title: 2.2.1. Fragility
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#contract-first-fragility
+        anchor: index--contract-first-fragility
+        virtual_path: docs/index.md
+      - title: 2.2.2. Performance
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#contract-first-performance
+        anchor: index--contract-first-performance
+        virtual_path: docs/index.md
+      - title: 2.2.3. Reusability
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#contract-first-reusability
+        anchor: index--contract-first-reusability
+        virtual_path: docs/index.md
+      - title: 2.2.4. Versioning
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#contract-first-versioning
+        anchor: index--contract-first-versioning
+        virtual_path: docs/index.md
+  - title: 3. Writing Contract-First Web Services
+    kind: heading
+    source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#tutorial
+    anchor: index--tutorial
+    virtual_path: docs/index.md
+    children:
+    - title: 3.1. Messages
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_messages
+      anchor: index--_messages
+      virtual_path: docs/index.md
+      children:
+      - title: 3.1.1. Holiday
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_holiday
+        anchor: index--_holiday
+        virtual_path: docs/index.md
+      - title: 3.1.2. Employee
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_employee
+        anchor: index--_employee
+        virtual_path: docs/index.md
+      - title: 3.1.3. HolidayRequest
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_holidayrequest
+        anchor: index--_holidayrequest
+        virtual_path: docs/index.md
+    - title: 3.2. Data Contract
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#tutorial.xsd
+      anchor: index--tutorial.xsd
+      virtual_path: docs/index.md
+    - title: 3.3. Service Contract
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#tutorial-service-contract
+      anchor: index--tutorial-service-contract
+      virtual_path: docs/index.md
+    - title: 3.4. Creating the project
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#tutorial-creating-project
+      anchor: index--tutorial-creating-project
+      virtual_path: docs/index.md
+    - title: 3.5. Implementing the Endpoint
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#tutorial-implementing-endpoint
+      anchor: index--tutorial-implementing-endpoint
+      virtual_path: docs/index.md
+      children:
+      - title: 3.5.1. Handling the XML Message
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_handling_the_xml_message
+        anchor: index--_handling_the_xml_message
+        virtual_path: docs/index.md
+      - title: 3.5.2. Routing the Message to the Endpoint
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_routing_the_message_to_the_endpoint
+        anchor: index--_routing_the_message_to_the_endpoint
+        virtual_path: docs/index.md
+      - title: 3.5.3. Providing the Service and Stub implementation
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_providing_the_service_and_stub_implementation
+        anchor: index--_providing_the_service_and_stub_implementation
+        virtual_path: docs/index.md
+    - title: 3.6. Publishing the WSDL
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#tutorial-publishing-wsdl
+      anchor: index--tutorial-publishing-wsdl
+      virtual_path: docs/index.md
+- title: II. Reference
+  kind: heading
+  source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_ii_reference
+  anchor: index--_ii_reference
+  virtual_path: docs/index.md
+  children:
+  - title: 4. Shared components
+    kind: heading
+    source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#common
+    anchor: index--common
+    virtual_path: docs/index.md
+    children:
+    - title: 4.1. Web Service Messages
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#web-service-messages
+      anchor: index--web-service-messages
+      virtual_path: docs/index.md
+      children:
+      - title: 4.1.1. WebServiceMessage
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#web-service-message
+        anchor: index--web-service-message
+        virtual_path: docs/index.md
+      - title: 4.1.2. SoapMessage
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#soap-message
+        anchor: index--soap-message
+        virtual_path: docs/index.md
+      - title: 4.1.3. Message Factories
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#message-factories
+        anchor: index--message-factories
+        virtual_path: docs/index.md
+        children:
+        - title: SaajSoapMessageFactory
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_saajsoapmessagefactory
+          anchor: index--_saajsoapmessagefactory
+          virtual_path: docs/index.md
+        - title: AxiomSoapMessageFactory
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_axiomsoapmessagefactory
+          anchor: index--_axiomsoapmessagefactory
+          virtual_path: docs/index.md
+        - title: SOAP 1.1 or 1.2
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#soap_11_or_12
+          anchor: index--soap_11_or_12
+          virtual_path: docs/index.md
+      - title: 4.1.4. MessageContext
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#message-context
+        anchor: index--message-context
+        virtual_path: docs/index.md
+    - title: 4.2. TransportContext
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#transport-context
+      anchor: index--transport-context
+      virtual_path: docs/index.md
+    - title: 4.3. Handling XML With XPath
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#xpath
+      anchor: index--xpath
+      virtual_path: docs/index.md
+      children:
+      - title: 4.3.1. XPathExpression
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#xpath-expression
+        anchor: index--xpath-expression
+        virtual_path: docs/index.md
+      - title: 4.3.2. XPathTemplate
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#xpath-template
+        anchor: index--xpath-template
+        virtual_path: docs/index.md
+    - title: 4.4. Message Logging and Tracing
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#logging
+      anchor: index--logging
+      virtual_path: docs/index.md
+  - title: 5. Creating a Web service with Spring-WS
+    kind: heading
+    source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#server
+    anchor: index--server
+    virtual_path: docs/index.md
+    children:
+    - title: 5.1. The MessageDispatcher
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_the_messagedispatcher
+      anchor: index--_the_messagedispatcher
+      virtual_path: docs/index.md
+    - title: 5.2. Transports
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_transports
+      anchor: index--_transports
+      virtual_path: docs/index.md
+      children:
+      - title: 5.2.1. MessageDispatcherServlet
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#message-dispatcher-servlet
+        anchor: index--message-dispatcher-servlet
+        virtual_path: docs/index.md
+        children:
+        - title: Automatic WSDL exposure
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#server-automatic-wsdl-exposure
+          anchor: index--server-automatic-wsdl-exposure
+          virtual_path: docs/index.md
+      - title: 5.2.2. Wiring up Spring-WS in a DispatcherServlet
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_wiring_up_spring_ws_in_a_dispatcherservlet
+        anchor: index--_wiring_up_spring_ws_in_a_dispatcherservlet
+        virtual_path: docs/index.md
+      - title: 5.2.3. JMS transport
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_jms_transport
+        anchor: index--_jms_transport
+        virtual_path: docs/index.md
+      - title: 5.2.4. Email Transport
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_email_transport
+        anchor: index--_email_transport
+        virtual_path: docs/index.md
+      - title: 5.2.5. Embedded HTTP Server transport
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_embedded_http_server_transport
+        anchor: index--_embedded_http_server_transport
+        virtual_path: docs/index.md
+      - title: 5.2.6. XMPP transport
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_xmpp_transport
+        anchor: index--_xmpp_transport
+        virtual_path: docs/index.md
+      - title: 5.2.7. MTOM
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_mtom
+        anchor: index--_mtom
+        virtual_path: docs/index.md
+    - title: 5.3. Endpoints
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#server-endpoints
+      anchor: index--server-endpoints
+      virtual_path: docs/index.md
+      children:
+      - title: 5.3.1. @Endpoint handling methods
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#server-atendpoint-methods
+        anchor: index--server-atendpoint-methods
+        virtual_path: docs/index.md
+        children:
+        - title: Handling Method Parameters
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_handling_method_parameters
+          anchor: index--_handling_method_parameters
+          virtual_path: docs/index.md
+          children:
+          - title: '@XPathParam'
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#server-xpath-param
+            anchor: index--server-xpath-param
+            virtual_path: docs/index.md
+        - title: Handling method return types
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_handling_method_return_types
+          anchor: index--_handling_method_return_types
+          virtual_path: docs/index.md
+    - title: 5.4. Endpoint mappings
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#server-endpoint-mapping
+      anchor: index--server-endpoint-mapping
+      virtual_path: docs/index.md
+      children:
+      - title: 5.4.1. WS-Addressing
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#server-ws-addressing
+        anchor: index--server-ws-addressing
+        virtual_path: docs/index.md
+        children:
+        - title: Using AnnotationActionEndpointMapping
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_annotationactionendpointmapping
+          anchor: index--_using_annotationactionendpointmapping
+          virtual_path: docs/index.md
+      - title: 5.4.2. Intercepting Requests — the EndpointInterceptor Interface
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#server-endpoint-interceptor
+        anchor: index--server-endpoint-interceptor
+        virtual_path: docs/index.md
+        children:
+        - title: PayloadLoggingInterceptor and SoapEnvelopeLoggingInterceptor
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_payloadlogginginterceptor_and_soapenvelopelogginginterceptor
+          anchor: index--_payloadlogginginterceptor_and_soapenvelopelogginginterceptor
+          virtual_path: docs/index.md
+        - title: PayloadValidatingInterceptor
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_payloadvalidatinginterceptor
+          anchor: index--_payloadvalidatinginterceptor
+          virtual_path: docs/index.md
+        - title: Using PayloadTransformingInterceptor
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_payloadtransforminginterceptor
+          anchor: index--_using_payloadtransforminginterceptor
+          virtual_path: docs/index.md
+    - title: 5.5. Handling Exceptions
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#server-endpoint-exception-resolver
+      anchor: index--server-endpoint-exception-resolver
+      virtual_path: docs/index.md
+      children:
+      - title: 5.5.1. SoapFaultMappingExceptionResolver
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_soapfaultmappingexceptionresolver
+        anchor: index--_soapfaultmappingexceptionresolver
+        virtual_path: docs/index.md
+      - title: 5.5.2. Using SoapFaultAnnotationExceptionResolver
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_soapfaultannotationexceptionresolver
+        anchor: index--_using_soapfaultannotationexceptionresolver
+        virtual_path: docs/index.md
+    - title: 5.6. Server-side Testing
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_server_side_testing
+      anchor: index--_server_side_testing
+      virtual_path: docs/index.md
+      children:
+      - title: 5.6.1. Writing server-side integration tests
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_writing_server_side_integration_tests
+        anchor: index--_writing_server_side_integration_tests
+        virtual_path: docs/index.md
+      - title: 5.6.2. Using RequestCreator and RequestCreators
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#server-test-request-creator
+        anchor: index--server-test-request-creator
+        virtual_path: docs/index.md
+      - title: 5.6.3. Using ResponseMatcher and ResponseMatchers
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#server-test-response-matcher
+        anchor: index--server-test-response-matcher
+        virtual_path: docs/index.md
+  - title: 6. Using Spring Web Services on the Client
+    kind: heading
+    source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#client
+    anchor: index--client
+    virtual_path: docs/index.md
+    children:
+    - title: 6.1. Using the Client-side API
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_the_client_side_api
+      anchor: index--_using_the_client_side_api
+      virtual_path: docs/index.md
+      children:
+      - title: 6.1.1. WebServiceTemplate
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#client-web-service-template
+        anchor: index--client-web-service-template
+        virtual_path: docs/index.md
+        children:
+        - title: URIs and Transports
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#client-transports
+          anchor: index--client-transports
+          virtual_path: docs/index.md
+          children:
+          - title: HTTP transports
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_http_transports
+            anchor: index--_http_transports
+            virtual_path: docs/index.md
+          - title: JMS transport
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_jms_transport_2
+            anchor: index--_jms_transport_2
+            virtual_path: docs/index.md
+          - title: Email Transport
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_email_transport_2
+            anchor: index--_email_transport_2
+            virtual_path: docs/index.md
+          - title: XMPP Transport
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_xmpp_transport_2
+            anchor: index--_xmpp_transport_2
+            virtual_path: docs/index.md
+        - title: Message factories
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_message_factories
+          anchor: index--_message_factories
+          virtual_path: docs/index.md
+      - title: 6.1.2. Sending and Receiving a WebServiceMessage
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_sending_and_receiving_a_webservicemessage
+        anchor: index--_sending_and_receiving_a_webservicemessage
+        virtual_path: docs/index.md
+      - title: 6.1.3. Sending and Receiving POJOs — Marshalling and Unmarshalling
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_sending_and_receiving_pojosmarshalling_and_unmarshalling
+        anchor: index--_sending_and_receiving_pojosmarshalling_and_unmarshalling
+        virtual_path: docs/index.md
+      - title: 6.1.4. Using WebServiceMessageCallback
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_webservicemessagecallback
+        anchor: index--_using_webservicemessagecallback
+        virtual_path: docs/index.md
+        children:
+        - title: WS-Addressing
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_ws_addressing
+          anchor: index--_ws_addressing
+          virtual_path: docs/index.md
+      - title: 6.1.5. Using WebServiceMessageExtractor
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_webservicemessageextractor
+        anchor: index--_using_webservicemessageextractor
+        virtual_path: docs/index.md
+    - title: 6.2. Client-side Testing
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_client_side_testing
+      anchor: index--_client_side_testing
+      virtual_path: docs/index.md
+      children:
+      - title: 6.2.1. Writing Client-side Integration Tests
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_writing_client_side_integration_tests
+        anchor: index--_writing_client_side_integration_tests
+        virtual_path: docs/index.md
+      - title: 6.2.2. Using RequestMatcher and RequestMatchers
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#client-test-request-matcher
+        anchor: index--client-test-request-matcher
+        virtual_path: docs/index.md
+      - title: 6.2.3. Using ResponseCreator and ResponseCreators
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#client-test-response-creator
+        anchor: index--client-test-response-creator
+        virtual_path: docs/index.md
+  - title: 7. Securing Your Web services with Spring-WS
+    kind: heading
+    source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#security
+    anchor: index--security
+    virtual_path: docs/index.md
+    children:
+    - title: 7.1. XwsSecurityInterceptor
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#security-xws-security-interceptor
+      anchor: index--security-xws-security-interceptor
+      virtual_path: docs/index.md
+      children:
+      - title: 7.1.1. Keystores
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#keystore
+        anchor: index--keystore
+        virtual_path: docs/index.md
+        children:
+        - title: Using keytool
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_keytool
+          anchor: index--_using_keytool
+          virtual_path: docs/index.md
+        - title: Using KeyStoreFactoryBean
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_keystorefactorybean
+          anchor: index--_using_keystorefactorybean
+          virtual_path: docs/index.md
+        - title: KeyStoreCallbackHandler
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#security-key-store-callback-handler
+          anchor: index--security-key-store-callback-handler
+          virtual_path: docs/index.md
+      - title: 7.1.2. Authentication
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_authentication
+        anchor: index--_authentication
+        virtual_path: docs/index.md
+        children:
+        - title: Plain Text Username Authentication
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_plain_text_username_authentication
+          anchor: index--_plain_text_username_authentication
+          virtual_path: docs/index.md
+          children:
+          - title: Using SimplePasswordValidationCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#security-simple-password-validation-callback-handler
+            anchor: index--security-simple-password-validation-callback-handler
+            virtual_path: docs/index.md
+          - title: Using SpringPlainTextPasswordValidationCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#using-springplaintextpasswordvalidationcallbackhandler
+            anchor: index--using-springplaintextpasswordvalidationcallbackhandler
+            virtual_path: docs/index.md
+          - title: Using JaasPlainTextPasswordValidationCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#using-jaasplaintextpasswordvalidationcallbackhandler
+            anchor: index--using-jaasplaintextpasswordvalidationcallbackhandler
+            virtual_path: docs/index.md
+        - title: Digest Username Authentication
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_digest_username_authentication
+          anchor: index--_digest_username_authentication
+          virtual_path: docs/index.md
+          children:
+          - title: Using SimplePasswordValidationCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_simplepasswordvalidationcallbackhandler
+            anchor: index--_using_simplepasswordvalidationcallbackhandler
+            virtual_path: docs/index.md
+          - title: Using SpringDigestPasswordValidationCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_springdigestpasswordvalidationcallbackhandler
+            anchor: index--_using_springdigestpasswordvalidationcallbackhandler
+            virtual_path: docs/index.md
+        - title: Certificate Authentication
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#security-certificate-authentication
+          anchor: index--security-certificate-authentication
+          virtual_path: docs/index.md
+          children:
+          - title: Using KeyStoreCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#using-keystorecallbackhandler
+            anchor: index--using-keystorecallbackhandler
+            virtual_path: docs/index.md
+          - title: Using SpringCertificateValidationCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#using-springcertificatevalidationcallbackhandler
+            anchor: index--using-springcertificatevalidationcallbackhandler
+            virtual_path: docs/index.md
+          - title: Using JaasCertificateValidationCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#using-jaascertificatevalidationcallbackhandler
+            anchor: index--using-jaascertificatevalidationcallbackhandler
+            virtual_path: docs/index.md
+      - title: 7.1.3. Digital Signatures
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_digital_signatures
+        anchor: index--_digital_signatures
+        virtual_path: docs/index.md
+        children:
+        - title: Verifying Signatures
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#security-verifying-signatures
+          anchor: index--security-verifying-signatures
+          virtual_path: docs/index.md
+          children:
+          - title: Using KeyStoreCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_keystorecallbackhandler
+            anchor: index--_using_keystorecallbackhandler
+            virtual_path: docs/index.md
+        - title: Signing Messages
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_signing_messages
+          anchor: index--_signing_messages
+          virtual_path: docs/index.md
+          children:
+          - title: Using KeyStoreCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_keystorecallbackhandler_2
+            anchor: index--_using_keystorecallbackhandler_2
+            virtual_path: docs/index.md
+      - title: 7.1.4. Decryption and Encryption
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_decryption_and_encryption
+        anchor: index--_decryption_and_encryption
+        virtual_path: docs/index.md
+        children:
+        - title: Decryption
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_decryption
+          anchor: index--_decryption
+          virtual_path: docs/index.md
+          children:
+          - title: Using KeyStoreCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_keystorecallbackhandler_3
+            anchor: index--_using_keystorecallbackhandler_3
+            virtual_path: docs/index.md
+        - title: Encryption
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_encryption
+          anchor: index--_encryption
+          virtual_path: docs/index.md
+          children:
+          - title: Using KeyStoreCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_keystorecallbackhandler_4
+            anchor: index--_using_keystorecallbackhandler_4
+            virtual_path: docs/index.md
+      - title: 7.1.5. Security Exception Handling
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#security-xws-exception-handling
+        anchor: index--security-xws-exception-handling
+        virtual_path: docs/index.md
+    - title: 7.2. Using Wss4jSecurityInterceptor
+      kind: heading
+      source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#security-wss4j-security-interceptor
+      anchor: index--security-wss4j-security-interceptor
+      virtual_path: docs/index.md
+      children:
+      - title: 7.2.1. Configuring Wss4jSecurityInterceptor
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_configuring_wss4jsecurityinterceptor
+        anchor: index--_configuring_wss4jsecurityinterceptor
+        virtual_path: docs/index.md
+      - title: 7.2.2. Handling Digital Certificates
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_handling_digital_certificates
+        anchor: index--_handling_digital_certificates
+        virtual_path: docs/index.md
+        children:
+        - title: CryptoFactoryBean
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_cryptofactorybean
+          anchor: index--_cryptofactorybean
+          virtual_path: docs/index.md
+      - title: 7.2.3. Authentication
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_authentication_2
+        anchor: index--_authentication_2
+        virtual_path: docs/index.md
+        children:
+        - title: Validating Username Token
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_validating_username_token
+          anchor: index--_validating_username_token
+          virtual_path: docs/index.md
+          children:
+          - title: Using SimplePasswordValidationCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_simplepasswordvalidationcallbackhandler_2
+            anchor: index--_using_simplepasswordvalidationcallbackhandler_2
+            virtual_path: docs/index.md
+          - title: Using SpringSecurityPasswordValidationCallbackHandler
+            kind: heading
+            source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_using_springsecuritypasswordvalidationcallbackhandler
+            anchor: index--_using_springsecuritypasswordvalidationcallbackhandler
+            virtual_path: docs/index.md
+        - title: Adding Username Token
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_adding_username_token
+          anchor: index--_adding_username_token
+          virtual_path: docs/index.md
+        - title: Certificate Authentication
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_certificate_authentication
+          anchor: index--_certificate_authentication
+          virtual_path: docs/index.md
+      - title: 7.2.4. Security Timestamps
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_security_timestamps
+        anchor: index--_security_timestamps
+        virtual_path: docs/index.md
+        children:
+        - title: Validating Timestamps
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_validating_timestamps
+          anchor: index--_validating_timestamps
+          virtual_path: docs/index.md
+        - title: Adding Timestamps
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_adding_timestamps
+          anchor: index--_adding_timestamps
+          virtual_path: docs/index.md
+      - title: 7.2.5. Digital Signatures
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#security-wss4j-digital-signatures
+        anchor: index--security-wss4j-digital-signatures
+        virtual_path: docs/index.md
+        children:
+        - title: Verifying Signatures
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_verifying_signatures
+          anchor: index--_verifying_signatures
+          virtual_path: docs/index.md
+        - title: Signing Messages
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_signing_messages_2
+          anchor: index--_signing_messages_2
+          virtual_path: docs/index.md
+        - title: Signature Confirmation
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_signature_confirmation
+          anchor: index--_signature_confirmation
+          virtual_path: docs/index.md
+      - title: 7.2.6. Decryption and Encryption
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_decryption_and_encryption_2
+        anchor: index--_decryption_and_encryption_2
+        virtual_path: docs/index.md
+        children:
+        - title: Decryption
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_decryption_2
+          anchor: index--_decryption_2
+          virtual_path: docs/index.md
+        - title: Encryption
+          kind: heading
+          source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_encryption_2
+          anchor: index--_encryption_2
+          virtual_path: docs/index.md
+      - title: 7.2.7. Security Exception Handling
+        kind: heading
+        source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_security_exception_handling
+        anchor: index--_security_exception_handling
+        virtual_path: docs/index.md
+- title: III. Other Resources
+  kind: heading
+  source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#resources
+  anchor: index--resources
+  virtual_path: docs/index.md
+  children:
+  - title: Bibliography
+    kind: heading
+    source_url: https://docs.spring.io/spring-ws/docs/current/reference/html/#_bibliography
+    anchor: index--_bibliography
+    virtual_path: docs/index.md

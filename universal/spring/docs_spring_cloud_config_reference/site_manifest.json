@@ -1,0 +1,371 @@
+{
+  "entry_url": "https://docs.spring.io/spring-cloud-config/reference/index.html",
+  "site_prefix": "/spring-cloud-config/reference/",
+  "site_slug": "docs_spring_cloud_config_reference",
+  "profile": "antora",
+  "combined_markdown": "combined.md",
+  "page_count": 40,
+  "asset_count": 0,
+  "pages": [
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/client.html",
+      "title": "Spring Cloud Config Client",
+      "anchor": "client",
+      "virtual_path": "docs/client.md",
+      "profile": "antora",
+      "score": 42299,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/index.html",
+      "title": "Spring Cloud Config",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "antora",
+      "score": 3137,
+      "depth": 0
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server.html",
+      "title": "Spring Cloud Config Server",
+      "anchor": "server",
+      "virtual_path": "docs/server.md",
+      "profile": "antora",
+      "score": 5117,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/actuator-and-security.html",
+      "title": "Actuator and Security",
+      "anchor": "server-actuator-and-security",
+      "virtual_path": "docs/server/actuator-and-security.md",
+      "profile": "antora",
+      "score": 2514,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/aot-and-native-image-support.html",
+      "title": "AOT and Native Image Support",
+      "anchor": "server-aot-and-native-image-support",
+      "virtual_path": "docs/server/aot-and-native-image-support.md",
+      "profile": "antora",
+      "score": 4102,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/creating-a-key-store-for-testing.html",
+      "title": "Creating a Key Store for Testing",
+      "anchor": "server-creating-a-key-store-for-testing",
+      "virtual_path": "docs/server/creating-a-key-store-for-testing.md",
+      "profile": "antora",
+      "score": 3464,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/embedding.html",
+      "title": "Embedding the Config Server",
+      "anchor": "server-embedding",
+      "virtual_path": "docs/server/embedding.md",
+      "profile": "antora",
+      "score": 4187,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/encryption-and-decryption.html",
+      "title": "Encryption and Decryption",
+      "anchor": "server-encryption-and-decryption",
+      "virtual_path": "docs/server/encryption-and-decryption.md",
+      "profile": "antora",
+      "score": 11874,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository.html",
+      "title": "Environment Repository",
+      "anchor": "server-environment-repository",
+      "virtual_path": "docs/server/environment-repository.md",
+      "profile": "antora",
+      "score": 5224,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/accessing-backends-through-a-proxy.html",
+      "title": "Accessing Backends Through a Proxy",
+      "anchor": "server-environment-repository-accessing-backends-through-a-proxy",
+      "virtual_path": "docs/server/environment-repository/accessing-backends-through-a-proxy.md",
+      "profile": "antora",
+      "score": 5196,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/aws-parameter-store-backend.html",
+      "title": "AWS Parameter Store Backend",
+      "anchor": "server-environment-repository-aws-parameter-store-backend",
+      "virtual_path": "docs/server/environment-repository/aws-parameter-store-backend.md",
+      "profile": "antora",
+      "score": 7626,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/aws-parameter-store.html",
+      "title": "AWS Parameter Store",
+      "anchor": "server-environment-repository-aws-parameter-store",
+      "virtual_path": "docs/server/environment-repository/aws-parameter-store.md",
+      "profile": "antora",
+      "score": 2576,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/aws-s3-backend.html",
+      "title": "AWS S3 Backend",
+      "anchor": "server-environment-repository-aws-s3-backend",
+      "virtual_path": "docs/server/environment-repository/aws-s3-backend.md",
+      "profile": "antora",
+      "score": 5566,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/aws-secrets-manager-backend.html",
+      "title": "AWS Secrets Manager Backend",
+      "anchor": "server-environment-repository-aws-secrets-manager-backend",
+      "virtual_path": "docs/server/environment-repository/aws-secrets-manager-backend.md",
+      "profile": "antora",
+      "score": 3662,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/aws-secrets-manager.html",
+      "title": "AWS Secrets Manager",
+      "anchor": "server-environment-repository-aws-secrets-manager",
+      "virtual_path": "docs/server/environment-repository/aws-secrets-manager.md",
+      "profile": "antora",
+      "score": 6973,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/composite-repositories.html",
+      "title": "Composite Environment Repositories",
+      "anchor": "server-environment-repository-composite-repositories",
+      "virtual_path": "docs/server/environment-repository/composite-repositories.md",
+      "profile": "antora",
+      "score": 6776,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/credhub-backend.html",
+      "title": "CredHub Backend",
+      "anchor": "server-environment-repository-credhub-backend",
+      "virtual_path": "docs/server/environment-repository/credhub-backend.md",
+      "profile": "antora",
+      "score": 7572,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/custom-enviroment-repository.html",
+      "title": "Custom Environment Repositories",
+      "anchor": "server-environment-repository-custom-enviroment-repository",
+      "virtual_path": "docs/server/environment-repository/custom-enviroment-repository.md",
+      "profile": "antora",
+      "score": 5161,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/file-system-backend.html",
+      "title": "File System Backend",
+      "anchor": "server-environment-repository-file-system-backend",
+      "virtual_path": "docs/server/environment-repository/file-system-backend.md",
+      "profile": "antora",
+      "score": 4619,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/gcp-secret-manager-backend.html",
+      "title": "Google Secret Manager Backend",
+      "anchor": "server-environment-repository-gcp-secret-manager-backend",
+      "virtual_path": "docs/server/environment-repository/gcp-secret-manager-backend.md",
+      "profile": "antora",
+      "score": 17672,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/git-backend.html",
+      "title": "Git Backend",
+      "anchor": "server-environment-repository-git-backend",
+      "virtual_path": "docs/server/environment-repository/git-backend.md",
+      "profile": "antora",
+      "score": 35907,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/jdbc-backend.html",
+      "title": "JDBC Backend",
+      "anchor": "server-environment-repository-jdbc-backend",
+      "virtual_path": "docs/server/environment-repository/jdbc-backend.md",
+      "profile": "antora",
+      "score": 3590,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/mongo-backend.html",
+      "title": "MongoDB Backend",
+      "anchor": "server-environment-repository-mongo-backend",
+      "virtual_path": "docs/server/environment-repository/mongo-backend.md",
+      "profile": "antora",
+      "score": 4747,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/overriding-properties-using-placeholders.html",
+      "title": "Overriding Properties Using Placeholders",
+      "anchor": "server-environment-repository-overriding-properties-using-placeholders",
+      "virtual_path": "docs/server/environment-repository/overriding-properties-using-placeholders.md",
+      "profile": "antora",
+      "score": 2966,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/overriding-properties-using-profiles.html",
+      "title": "Overriding Properties Using Profiles",
+      "anchor": "server-environment-repository-overriding-properties-using-profiles",
+      "virtual_path": "docs/server/environment-repository/overriding-properties-using-profiles.md",
+      "profile": "antora",
+      "score": 3146,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/property-overrides.html",
+      "title": "Property Overrides",
+      "anchor": "server-environment-repository-property-overrides",
+      "virtual_path": "docs/server/environment-repository/property-overrides.md",
+      "profile": "antora",
+      "score": 4179,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/redis-backend.html",
+      "title": "Redis Backend",
+      "anchor": "server-environment-repository-redis-backend",
+      "virtual_path": "docs/server/environment-repository/redis-backend.md",
+      "profile": "antora",
+      "score": 4155,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/sharing-configuration-with-all-applications.html",
+      "title": "Sharing Configuration With All Applications",
+      "anchor": "server-environment-repository-sharing-configuration-with-all-applications",
+      "virtual_path": "docs/server/environment-repository/sharing-configuration-with-all-applications.md",
+      "profile": "antora",
+      "score": 7673,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/using-bootstrap-to-override-properties.html",
+      "title": "Using Bootstrap To Override Properties",
+      "anchor": "server-environment-repository-using-bootstrap-to-override-properties",
+      "virtual_path": "docs/server/environment-repository/using-bootstrap-to-override-properties.md",
+      "profile": "antora",
+      "score": 2799,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/vault-backend.html",
+      "title": "Vault Backend",
+      "anchor": "server-environment-repository-vault-backend",
+      "virtual_path": "docs/server/environment-repository/vault-backend.md",
+      "profile": "antora",
+      "score": 19351,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/environment-repository/version-control-backend-filesystem-use.html",
+      "title": "Version Control Backend Filesystem Use",
+      "anchor": "server-environment-repository-version-control-backend-filesystem-use",
+      "virtual_path": "docs/server/environment-repository/version-control-backend-filesystem-use.md",
+      "profile": "antora",
+      "score": 3712,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/health-indicator.html",
+      "title": "Health Indicator",
+      "anchor": "server-health-indicator",
+      "virtual_path": "docs/server/health-indicator.md",
+      "profile": "antora",
+      "score": 3623,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/key-management.html",
+      "title": "Key Management",
+      "anchor": "server-key-management",
+      "virtual_path": "docs/server/key-management.md",
+      "profile": "antora",
+      "score": 4893,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/push-notifications-and-bus.html",
+      "title": "Push Notifications and Spring Cloud Bus",
+      "anchor": "server-push-notifications-and-bus",
+      "virtual_path": "docs/server/push-notifications-and-bus.md",
+      "profile": "antora",
+      "score": 4411,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/security.html",
+      "title": "Security",
+      "anchor": "server-security",
+      "virtual_path": "docs/server/security.md",
+      "profile": "antora",
+      "score": 2705,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/serving-alternative-formats.html",
+      "title": "Serving Alternative Formats",
+      "anchor": "server-serving-alternative-formats",
+      "virtual_path": "docs/server/serving-alternative-formats.md",
+      "profile": "antora",
+      "score": 3866,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/serving-binary-files.html",
+      "title": "Serving Binary Files",
+      "anchor": "server-serving-binary-files",
+      "virtual_path": "docs/server/serving-binary-files.md",
+      "profile": "antora",
+      "score": 6235,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/serving-encrypted-properties.html",
+      "title": "Serving Encrypted Properties",
+      "anchor": "server-serving-encrypted-properties",
+      "virtual_path": "docs/server/serving-encrypted-properties.md",
+      "profile": "antora",
+      "score": 2511,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/serving-plain-text.html",
+      "title": "Serving Plain Text",
+      "anchor": "server-serving-plain-text",
+      "virtual_path": "docs/server/serving-plain-text.md",
+      "profile": "antora",
+      "score": 4375,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-config/reference/server/using-multiple-keys-and-key-rotation.html",
+      "title": "Using Multiple Keys and Key Rotation",
+      "anchor": "server-using-multiple-keys-and-key-rotation",
+      "virtual_path": "docs/server/using-multiple-keys-and-key-rotation.md",
+      "profile": "antora",
+      "score": 4178,
+      "depth": 1
+    }
+  ]
+}

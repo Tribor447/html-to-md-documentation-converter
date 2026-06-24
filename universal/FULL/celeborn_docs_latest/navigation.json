@@ -1,0 +1,265 @@
+[
+  {
+    "title": "QuickStart",
+    "kind": "link",
+    "source_url": "https://celeborn.apache.org/docs/latest/",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "Overview",
+    "kind": "category",
+    "source_url": "https://celeborn.apache.org/docs/latest/developers/client/",
+    "anchor": "developers-client",
+    "virtual_path": "docs/developers/client/index.md",
+    "children": [
+      {
+        "title": "Overview",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/deploy/",
+        "anchor": "deploy",
+        "virtual_path": "docs/deploy/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://celeborn.apache.org/docs/latest/monitoring/",
+            "anchor": "monitoring",
+            "virtual_path": "docs/monitoring/index.md"
+          },
+          {
+            "title": "Rest API",
+            "kind": "link",
+            "source_url": "https://celeborn.apache.org/docs/latest/restapi/",
+            "anchor": "restapi",
+            "virtual_path": "docs/restapi/index.md",
+            "children": [
+              {
+                "title": "REST API",
+                "kind": "category",
+                "source_url": "https://celeborn.apache.org/docs/latest/restapi/",
+                "anchor": "restapi",
+                "virtual_path": "docs/restapi/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Ratis Shell",
+            "kind": "category",
+            "source_url": "https://celeborn.apache.org/docs/latest/celeborn_ratis_shell/",
+            "anchor": "celeborn_ratis_shell",
+            "virtual_path": "docs/celeborn_ratis_shell/index.md"
+          },
+          {
+            "title": "Slots Allocation",
+            "kind": "link",
+            "source_url": "https://celeborn.apache.org/docs/latest/developers/slotsallocation/",
+            "anchor": "developers-slotsallocation",
+            "virtual_path": "docs/developers/slotsallocation/index.md"
+          },
+          {
+            "title": "Storage",
+            "kind": "link",
+            "source_url": "https://celeborn.apache.org/docs/latest/developers/storage/",
+            "anchor": "developers-storage",
+            "virtual_path": "docs/developers/storage/index.md"
+          },
+          {
+            "title": "Traffic Control",
+            "kind": "link",
+            "source_url": "https://celeborn.apache.org/docs/latest/developers/trafficcontrol/",
+            "anchor": "developers-trafficcontrol",
+            "virtual_path": "docs/developers/trafficcontrol/index.md"
+          },
+          {
+            "title": "JVM Profiler",
+            "kind": "link",
+            "source_url": "https://celeborn.apache.org/docs/latest/developers/jvmprofiler/",
+            "anchor": "developers-jvmprofiler",
+            "virtual_path": "docs/developers/jvmprofiler/index.md"
+          },
+          {
+            "title": "LifecycleManager",
+            "kind": "link",
+            "source_url": "https://celeborn.apache.org/docs/latest/developers/lifecyclemanager/",
+            "anchor": "developers-lifecyclemanager",
+            "virtual_path": "docs/developers/lifecyclemanager/index.md"
+          },
+          {
+            "title": "ShuffleClient",
+            "kind": "link",
+            "source_url": "https://celeborn.apache.org/docs/latest/developers/shuffleclient/",
+            "anchor": "developers-shuffleclient",
+            "virtual_path": "docs/developers/shuffleclient/index.md"
+          },
+          {
+            "title": "JavaColumnarShuffle",
+            "kind": "link",
+            "source_url": "https://celeborn.apache.org/docs/latest/developers/java-columnar-shuffle/",
+            "anchor": "developers-java-columnar-shuffle",
+            "virtual_path": "docs/developers/java-columnar-shuffle/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Kubernetes",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/deploy_on_k8s/",
+        "anchor": "deploy_on_k8s",
+        "virtual_path": "docs/deploy_on_k8s/index.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/security/",
+        "anchor": "security",
+        "virtual_path": "docs/security/index.md"
+      },
+      {
+        "title": "Quota Management",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/quota_management/",
+        "anchor": "quota_management",
+        "virtual_path": "docs/quota_management/index.md"
+      },
+      {
+        "title": "Upgrading",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/upgrading/",
+        "anchor": "upgrading",
+        "virtual_path": "docs/upgrading/index.md"
+      },
+      {
+        "title": "Decommissioning",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/decommissioning/",
+        "anchor": "decommissioning",
+        "virtual_path": "docs/decommissioning/index.md"
+      },
+      {
+        "title": "Cluster Planning",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/cluster_planning/",
+        "anchor": "cluster_planning",
+        "virtual_path": "docs/cluster_planning/index.md"
+      },
+      {
+        "title": "Worker Tags",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/worker_tags/",
+        "anchor": "worker_tags",
+        "virtual_path": "docs/worker_tags/index.md"
+      },
+      {
+        "title": "Configuration",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/developers/configuration/",
+        "anchor": "developers-configuration",
+        "virtual_path": "docs/developers/configuration/index.md"
+      },
+      {
+        "title": "Fault Tolerant",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/developers/faulttolerant/",
+        "anchor": "developers-faulttolerant",
+        "virtual_path": "docs/developers/faulttolerant/index.md"
+      },
+      {
+        "title": "Worker Exclusion",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/developers/workerexclusion/",
+        "anchor": "developers-workerexclusion",
+        "virtual_path": "docs/developers/workerexclusion/index.md"
+      },
+      {
+        "title": "Integrating Celeborn",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/developers/integrate/",
+        "anchor": "developers-integrate",
+        "virtual_path": "docs/developers/integrate/index.md"
+      },
+      {
+        "title": "SBT Build",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/developers/sbt/",
+        "anchor": "developers-sbt",
+        "virtual_path": "docs/developers/sbt/index.md"
+      },
+      {
+        "title": "Auron",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Auron",
+            "kind": "link",
+            "source_url": "https://celeborn.apache.org/docs/latest/developers/auronsupport/",
+            "anchor": "developers-auronsupport",
+            "virtual_path": "docs/developers/auronsupport/index.md"
+          },
+          {
+            "title": "Gluten",
+            "kind": "link",
+            "source_url": "https://celeborn.apache.org/docs/latest/developers/glutensupport/",
+            "anchor": "developers-glutensupport",
+            "virtual_path": "docs/developers/glutensupport/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Helm Charts",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/developers/helm-charts/",
+        "anchor": "developers-helm-charts",
+        "virtual_path": "docs/developers/helm-charts/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Configuration",
+    "kind": "link",
+    "source_url": "https://celeborn.apache.org/docs/latest/configuration/",
+    "anchor": "configuration",
+    "virtual_path": "docs/configuration/index.md"
+  },
+  {
+    "title": "Migration Guide",
+    "kind": "link",
+    "source_url": "https://celeborn.apache.org/docs/latest/migration/",
+    "anchor": "migration",
+    "virtual_path": "docs/migration/index.md"
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Celeborn CLI",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/celeborn_cli/",
+        "anchor": "celeborn_cli",
+        "virtual_path": "docs/celeborn_cli/index.md"
+      },
+      {
+        "title": "Master",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/developers/master/",
+        "anchor": "developers-master",
+        "virtual_path": "docs/developers/master/index.md"
+      },
+      {
+        "title": "Celeborn Architecture",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/developers/overview/",
+        "anchor": "developers-overview",
+        "virtual_path": "docs/developers/overview/index.md"
+      },
+      {
+        "title": "Worker",
+        "kind": "link",
+        "source_url": "https://celeborn.apache.org/docs/latest/developers/worker/",
+        "anchor": "developers-worker",
+        "virtual_path": "docs/developers/worker/index.md"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+# Summary
+
+- Parent Project
+  - [Apache Avro Java](#index)
+- [Getting Started (Java)](#getting-started-java)
+- [Getting Started (Python)](#getting-started-python)
+- [Specification](#specification)
+- [Java API](#api-java)
+- [C API](#api-c)
+- [C++ API](#api-cpp-html)
+- [MapReduce guide](#mapreduce-guide)
+- [IDL Language](#idl-language)
+- [SASL profile](#sasl-profile)
+- Other pages
+  - [Apache Avro™ 1.12.0 Documentation](#_print)
+  - [Getting Started (Java)](#getting-started-java-_print)
+  - [Getting Started (Python)](#getting-started-python-_print)
+  - [IDL Language](#idl-language-_print)
+  - [MapReduce guide](#mapreduce-guide-_print)
+  - [SASL profile](#sasl-profile-_print)
+  - [Specification](#specification-_print)
+  - [Apache Avro](#trevni)

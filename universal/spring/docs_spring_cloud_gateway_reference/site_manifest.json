@@ -1,0 +1,965 @@
+{
+  "entry_url": "https://docs.spring.io/spring-cloud-gateway/reference/index.html",
+  "site_prefix": "/spring-cloud-gateway/reference/",
+  "site_slug": "docs_spring_cloud_gateway_reference",
+  "profile": "antora",
+  "combined_markdown": "combined.md",
+  "page_count": 106,
+  "asset_count": 2,
+  "pages": [
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/appendix.html",
+      "title": "Common application properties",
+      "anchor": "appendix",
+      "virtual_path": "docs/appendix.md",
+      "profile": "antora",
+      "score": 71492,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/index.html",
+      "title": "Spring Cloud Gateway",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "antora",
+      "score": 3035,
+      "depth": 0
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-proxy-exchange.html",
+      "title": "Proxy Exchange Gateway with Spring Web MVC or WebFlux",
+      "anchor": "spring-cloud-gateway-proxy-exchange",
+      "virtual_path": "docs/spring-cloud-gateway-proxy-exchange.md",
+      "profile": "antora",
+      "score": 7637,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux.html",
+      "title": "Spring Cloud Gateway Server WebFlux",
+      "anchor": "spring-cloud-gateway-server-webflux",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux.md",
+      "profile": "antora",
+      "score": 1543,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/actuator-api.html",
+      "title": "Actuator API",
+      "anchor": "spring-cloud-gateway-server-webflux-actuator-api",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/actuator-api.md",
+      "profile": "antora",
+      "score": 21237,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/aot-and-native-image-support.html",
+      "title": "AOT and Native Image Support",
+      "anchor": "spring-cloud-gateway-server-webflux-aot-and-native-image-support",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/aot-and-native-image-support.md",
+      "profile": "antora",
+      "score": 2392,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/configuration-properties.html",
+      "title": "Configuration properties",
+      "anchor": "spring-cloud-gateway-server-webflux-configuration-properties",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/configuration-properties.md",
+      "profile": "antora",
+      "score": 1764,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/configuration.html",
+      "title": "Configuration",
+      "anchor": "spring-cloud-gateway-server-webflux-configuration",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/configuration.md",
+      "profile": "antora",
+      "score": 4620,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/configuring-route-predicate-factories-and-filter-factories.html",
+      "title": "Configuring Route Predicate Factories and Gateway Filter Factories",
+      "anchor": "spring-cloud-gateway-server-webflux-configuring-route-predicate-factories-and-filter-factories",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/configuring-route-predicate-factories-and-filter-factories.md",
+      "profile": "antora",
+      "score": 4760,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/cors-configuration.html",
+      "title": "CORS Configuration",
+      "anchor": "spring-cloud-gateway-server-webflux-cors-configuration",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/cors-configuration.md",
+      "profile": "antora",
+      "score": 4794,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/developer-guide.html",
+      "title": "Developer Guide",
+      "anchor": "spring-cloud-gateway-server-webflux-developer-guide",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/developer-guide.md",
+      "profile": "antora",
+      "score": 8708,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/fluent-java-routes-api.html",
+      "title": "Fluent Java Routes API",
+      "anchor": "spring-cloud-gateway-server-webflux-fluent-java-routes-api",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/fluent-java-routes-api.md",
+      "profile": "antora",
+      "score": 3476,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories.html",
+      "title": "GatewayFilter Factories",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories.md",
+      "profile": "antora",
+      "score": 2318,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestheader-factory.html",
+      "title": "AddRequestHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-addrequestheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestheader-factory.md",
+      "profile": "antora",
+      "score": 3430,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestheadersifnotpresent-factory.html",
+      "title": "AddRequestHeadersIfNotPresent GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-addrequestheadersifnotpresent-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestheadersifnotpresent-factory.md",
+      "profile": "antora",
+      "score": 4104,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestparameter-factory.html",
+      "title": "AddRequestParameter GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-addrequestparameter-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestparameter-factory.md",
+      "profile": "antora",
+      "score": 3434,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addresponseheader-factory.html",
+      "title": "AddResponseHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-addresponseheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addresponseheader-factory.md",
+      "profile": "antora",
+      "score": 3742,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/cacherequestbody-factory.html",
+      "title": "CacheRequestBody GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-cacherequestbody-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/cacherequestbody-factory.md",
+      "profile": "antora",
+      "score": 3895,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/circuitbreaker-filter-factory.html",
+      "title": "CircuitBreaker GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-circuitbreaker-filter-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/circuitbreaker-filter-factory.md",
+      "profile": "antora",
+      "score": 11830,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/deduperesponseheader-factory.html",
+      "title": "DedupeResponseHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-deduperesponseheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/deduperesponseheader-factory.md",
+      "profile": "antora",
+      "score": 3200,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/default-filters.html",
+      "title": "Default Filters",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-default-filters",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/default-filters.md",
+      "profile": "antora",
+      "score": 2411,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/fallback-headers.html",
+      "title": "FallbackHeaders GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-fallback-headers",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/fallback-headers.md",
+      "profile": "antora",
+      "score": 4311,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/jsontogrpc-factory.html",
+      "title": "JsonToGrpc GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-jsontogrpc-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/jsontogrpc-factory.md",
+      "profile": "antora",
+      "score": 5237,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/local-cache-response-filter.html",
+      "title": "LocalResponseCache GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-local-cache-response-filter",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/local-cache-response-filter.md",
+      "profile": "antora",
+      "score": 5600,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/maprequestheader-factory.html",
+      "title": "MapRequestHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-maprequestheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/maprequestheader-factory.md",
+      "profile": "antora",
+      "score": 3052,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/modifyrequestbody-factory.html",
+      "title": "ModifyRequestBody GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-modifyrequestbody-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/modifyrequestbody-factory.md",
+      "profile": "antora",
+      "score": 3512,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/modifyresponsebody-factory.html",
+      "title": "ModifyResponseBody GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-modifyresponsebody-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/modifyresponsebody-factory.md",
+      "profile": "antora",
+      "score": 3197,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/prefixpath-factory.html",
+      "title": "PrefixPath GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-prefixpath-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/prefixpath-factory.md",
+      "profile": "antora",
+      "score": 2571,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/preservehostheader-factory.html",
+      "title": "PreserveHostHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-preservehostheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/preservehostheader-factory.md",
+      "profile": "antora",
+      "score": 2627,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/redirectto-factory.html",
+      "title": "RedirectTo GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-redirectto-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/redirectto-factory.md",
+      "profile": "antora",
+      "score": 3934,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removejsonattributesresponsebody-factory.html",
+      "title": "RemoveJsonAttributesResponseBody GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-removejsonattributesresponsebody-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removejsonattributesresponsebody-factory.md",
+      "profile": "antora",
+      "score": 3987,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removerequestheader-factory.html",
+      "title": "RemoveRequestHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-removerequestheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removerequestheader-factory.md",
+      "profile": "antora",
+      "score": 2640,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removerequestparameter-factory.html",
+      "title": "RemoveRequestParameter GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-removerequestparameter-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removerequestparameter-factory.md",
+      "profile": "antora",
+      "score": 2654,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removeresponseheader-factory.html",
+      "title": "RemoveResponseHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-removeresponseheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removeresponseheader-factory.md",
+      "profile": "antora",
+      "score": 3094,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestheadersize-factory.html",
+      "title": "RequestHeaderSize GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-requestheadersize-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestheadersize-factory.md",
+      "profile": "antora",
+      "score": 2920,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestratelimiter-factory.html",
+      "title": "RequestRateLimiter GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-requestratelimiter-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestratelimiter-factory.md",
+      "profile": "antora",
+      "score": 14416,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestsize-factory.html",
+      "title": "RequestSize GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-requestsize-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestsize-factory.md",
+      "profile": "antora",
+      "score": 3761,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/retry-factory.html",
+      "title": "Retry GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-retry-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/retry-factory.md",
+      "profile": "antora",
+      "score": 7520,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewritelocationresponseheader-factory.html",
+      "title": "RewriteLocationResponseHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-rewritelocationresponseheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewritelocationresponseheader-factory.md",
+      "profile": "antora",
+      "score": 4288,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewritepath-factory.html",
+      "title": "RewritePath GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-rewritepath-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewritepath-factory.md",
+      "profile": "antora",
+      "score": 2898,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewriterequestparameter-factory.html",
+      "title": "RewriteRequestParameter GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-rewriterequestparameter-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewriterequestparameter-factory.md",
+      "profile": "antora",
+      "score": 3041,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewriteresponseheader-factory.html",
+      "title": "RewriteResponseHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-rewriteresponseheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewriteresponseheader-factory.md",
+      "profile": "antora",
+      "score": 2982,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/savesession-factory.html",
+      "title": "SaveSession GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-savesession-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/savesession-factory.md",
+      "profile": "antora",
+      "score": 2923,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/secureheaders-factory.html",
+      "title": "SecureHeaders GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-secureheaders-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/secureheaders-factory.md",
+      "profile": "antora",
+      "score": 9014,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setpath-factory.html",
+      "title": "SetPath GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-setpath-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setpath-factory.md",
+      "profile": "antora",
+      "score": 2846,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setrequestheader-factory.html",
+      "title": "SetRequestHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-setrequestheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setrequestheader-factory.md",
+      "profile": "antora",
+      "score": 3570,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setrequesthostheader-factory.html",
+      "title": "SetRequestHostHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-setrequesthostheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setrequesthostheader-factory.md",
+      "profile": "antora",
+      "score": 2928,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setresponseheader-factory.html",
+      "title": "SetResponseHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-setresponseheader-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setresponseheader-factory.md",
+      "profile": "antora",
+      "score": 3585,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setstatus-factory.html",
+      "title": "SetStatus GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-setstatus-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setstatus-factory.md",
+      "profile": "antora",
+      "score": 3446,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/stripprefix-factory.html",
+      "title": "StripPrefix GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-stripprefix-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/stripprefix-factory.md",
+      "profile": "antora",
+      "score": 2755,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/tokenrelay-factory.html",
+      "title": "TokenRelay GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webflux-gatewayfilter-factories-tokenrelay-factory",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/tokenrelay-factory.md",
+      "profile": "antora",
+      "score": 6707,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/global-filters.html",
+      "title": "Global Filters",
+      "anchor": "spring-cloud-gateway-server-webflux-global-filters",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/global-filters.md",
+      "profile": "antora",
+      "score": 19176,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/glossary.html",
+      "title": "Glossary",
+      "anchor": "spring-cloud-gateway-server-webflux-glossary",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/glossary.md",
+      "profile": "antora",
+      "score": 2658,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/how-it-works.html",
+      "title": "How It Works",
+      "anchor": "spring-cloud-gateway-server-webflux-how-it-works",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/how-it-works.md",
+      "profile": "antora",
+      "score": 3055,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/http-client.html",
+      "title": "The HttpClientCustomizer",
+      "anchor": "spring-cloud-gateway-server-webflux-http-client",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/http-client.md",
+      "profile": "antora",
+      "score": 4691,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/http-timeouts-configuration.html",
+      "title": "Http timeouts configuration",
+      "anchor": "spring-cloud-gateway-server-webflux-http-timeouts-configuration",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/http-timeouts-configuration.md",
+      "profile": "antora",
+      "score": 5250,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/httpheadersfilters.html",
+      "title": "HttpHeadersFilters",
+      "anchor": "spring-cloud-gateway-server-webflux-httpheadersfilters",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/httpheadersfilters.md",
+      "profile": "antora",
+      "score": 7377,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/reactor-netty-access-logs.html",
+      "title": "Reactor Netty Access Logs",
+      "anchor": "spring-cloud-gateway-server-webflux-reactor-netty-access-logs",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/reactor-netty-access-logs.md",
+      "profile": "antora",
+      "score": 3065,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/request-predicates-factories.html",
+      "title": "Route Predicate Factories",
+      "anchor": "spring-cloud-gateway-server-webflux-request-predicates-factories",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/request-predicates-factories.md",
+      "profile": "antora",
+      "score": 23597,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/route-metadata-configuration.html",
+      "title": "Route Metadata Configuration",
+      "anchor": "spring-cloud-gateway-server-webflux-route-metadata-configuration",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/route-metadata-configuration.md",
+      "profile": "antora",
+      "score": 2934,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/sharing-routes.html",
+      "title": "Sharing Routes between multiple Gateway instances",
+      "anchor": "spring-cloud-gateway-server-webflux-sharing-routes",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/sharing-routes.md",
+      "profile": "antora",
+      "score": 2813,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/starter.html",
+      "title": "How to Include Spring Cloud Gateway",
+      "anchor": "spring-cloud-gateway-server-webflux-starter",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/starter.md",
+      "profile": "antora",
+      "score": 3333,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/the-discoveryclient-route-definition-locator.html",
+      "title": "DiscoveryClient Route Definition Locator",
+      "anchor": "spring-cloud-gateway-server-webflux-the-discoveryclient-route-definition-locator",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/the-discoveryclient-route-definition-locator.md",
+      "profile": "antora",
+      "score": 5955,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/tls-and-ssl.html",
+      "title": "TLS and SSL",
+      "anchor": "spring-cloud-gateway-server-webflux-tls-and-ssl",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/tls-and-ssl.md",
+      "profile": "antora",
+      "score": 4927,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/troubleshooting.html",
+      "title": "Troubleshooting",
+      "anchor": "spring-cloud-gateway-server-webflux-troubleshooting",
+      "virtual_path": "docs/spring-cloud-gateway-server-webflux/troubleshooting.md",
+      "profile": "antora",
+      "score": 4030,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc.html",
+      "title": "Spring Cloud Gateway Server Web MVC",
+      "anchor": "spring-cloud-gateway-server-webmvc",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc.md",
+      "profile": "antora",
+      "score": 1446,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/addrequestheader.html",
+      "title": "AddRequestHeader Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-addrequestheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/addrequestheader.md",
+      "profile": "antora",
+      "score": 4928,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/addrequestheadersifnotpresent.html",
+      "title": "AddRequestHeadersIfNotPresent Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-addrequestheadersifnotpresent",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/addrequestheadersifnotpresent.md",
+      "profile": "antora",
+      "score": 6013,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/addrequestparameter.html",
+      "title": "AddRequestParameter Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-addrequestparameter",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/addrequestparameter.md",
+      "profile": "antora",
+      "score": 5153,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/addresponseheader.html",
+      "title": "AddResponseHeader Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-addresponseheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/addresponseheader.md",
+      "profile": "antora",
+      "score": 5060,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/circuitbreaker-filter.html",
+      "title": "CircuitBreaker Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-circuitbreaker-filter",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/circuitbreaker-filter.md",
+      "profile": "antora",
+      "score": 15120,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/deduperesponseheader.html",
+      "title": "DedupeResponseHeader Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-deduperesponseheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/deduperesponseheader.md",
+      "profile": "antora",
+      "score": 4315,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/fallback-headers.html",
+      "title": "FallbackHeaders Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-fallback-headers",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/fallback-headers.md",
+      "profile": "antora",
+      "score": 5624,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/loadbalancer.html",
+      "title": "LoadBalancer Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-loadbalancer",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/loadbalancer.md",
+      "profile": "antora",
+      "score": 5427,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/maprequestheader.html",
+      "title": "MapRequestHeader Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-maprequestheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/maprequestheader.md",
+      "profile": "antora",
+      "score": 4020,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/modifyrequestbody.html",
+      "title": "ModifyRequestBody Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-modifyrequestbody",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/modifyrequestbody.md",
+      "profile": "antora",
+      "score": 3915,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/modifyresponsebody.html",
+      "title": "ModifyResponseBody Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-modifyresponsebody",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/modifyresponsebody.md",
+      "profile": "antora",
+      "score": 4842,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/prefixpath.html",
+      "title": "PrefixPath Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-prefixpath",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/prefixpath.md",
+      "profile": "antora",
+      "score": 3902,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/preservehostheader.html",
+      "title": "PreserveHostHeader Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-preservehostheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/preservehostheader.md",
+      "profile": "antora",
+      "score": 3612,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/ratelimiter.html",
+      "title": "RateLimiter Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-ratelimiter",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/ratelimiter.md",
+      "profile": "antora",
+      "score": 7213,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/redirectto.html",
+      "title": "RedirectTo Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-redirectto",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/redirectto.md",
+      "profile": "antora",
+      "score": 3861,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/removerequestheader.html",
+      "title": "RemoveRequestHeader GatewayFilter Factory",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-removerequestheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/removerequestheader.md",
+      "profile": "antora",
+      "score": 3688,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/removerequestparameter.html",
+      "title": "RemoveRequestParameter Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-removerequestparameter",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/removerequestparameter.md",
+      "profile": "antora",
+      "score": 3690,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/removeresponseheader.html",
+      "title": "RemoveResponseHeader Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-removeresponseheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/removeresponseheader.md",
+      "profile": "antora",
+      "score": 4117,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/requestheadersize.html",
+      "title": "RequestHeaderSize Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-requestheadersize",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/requestheadersize.md",
+      "profile": "antora",
+      "score": 3874,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/requestsize.html",
+      "title": "RequestSize Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-requestsize",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/requestsize.md",
+      "profile": "antora",
+      "score": 4598,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/retry.html",
+      "title": "Retry Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-retry",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/retry.md",
+      "profile": "antora",
+      "score": 10205,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/rewritelocationresponseheader.html",
+      "title": "RewriteLocationResponseHeader Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-rewritelocationresponseheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/rewritelocationresponseheader.md",
+      "profile": "antora",
+      "score": 5520,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/rewritepath.html",
+      "title": "RewritePath Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-rewritepath",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/rewritepath.md",
+      "profile": "antora",
+      "score": 4196,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/rewriteresponseheader.html",
+      "title": "RewriteResponseHeader Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-rewriteresponseheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/rewriteresponseheader.md",
+      "profile": "antora",
+      "score": 4002,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/setpath.html",
+      "title": "SetPath Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-setpath",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/setpath.md",
+      "profile": "antora",
+      "score": 4089,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/setrequestheader.html",
+      "title": "SetRequestHeader Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-setrequestheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/setrequestheader.md",
+      "profile": "antora",
+      "score": 5556,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/setrequesthostheader.html",
+      "title": "SetRequestHostHeader Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-setrequesthostheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/setrequesthostheader.md",
+      "profile": "antora",
+      "score": 3862,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/setresponseheader.html",
+      "title": "SetResponseHeader Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-setresponseheader",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/setresponseheader.md",
+      "profile": "antora",
+      "score": 5592,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/setstatus.html",
+      "title": "SetStatus Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-setstatus",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/setstatus.md",
+      "profile": "antora",
+      "score": 3971,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/stripprefix.html",
+      "title": "StripPrefix Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-stripprefix",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/stripprefix.md",
+      "profile": "antora",
+      "score": 4017,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/tokenrelay.html",
+      "title": "TokenRelay Filter",
+      "anchor": "spring-cloud-gateway-server-webmvc-filters-tokenrelay",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/filters/tokenrelay.md",
+      "profile": "antora",
+      "score": 6586,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/gateway-handler-filter-functions.html",
+      "title": "Gateway Handler Filter Functions",
+      "anchor": "spring-cloud-gateway-server-webmvc-gateway-handler-filter-functions",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/gateway-handler-filter-functions.md",
+      "profile": "antora",
+      "score": 4920,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/gateway-request-predicates.html",
+      "title": "Gateway Request Predicates",
+      "anchor": "spring-cloud-gateway-server-webmvc-gateway-request-predicates",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/gateway-request-predicates.md",
+      "profile": "antora",
+      "score": 28773,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/glossary.html",
+      "title": "Glossary",
+      "anchor": "spring-cloud-gateway-server-webmvc-glossary",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/glossary.md",
+      "profile": "antora",
+      "score": 2972,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/how-it-works.html",
+      "title": "How It Works",
+      "anchor": "spring-cloud-gateway-server-webmvc-how-it-works",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/how-it-works.md",
+      "profile": "antora",
+      "score": 3403,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/httpheadersfilters.html",
+      "title": "HttpHeadersFilters",
+      "anchor": "spring-cloud-gateway-server-webmvc-httpheadersfilters",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/httpheadersfilters.md",
+      "profile": "antora",
+      "score": 8436,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/java-routes-api.html",
+      "title": "Java Routes API",
+      "anchor": "spring-cloud-gateway-server-webmvc-java-routes-api",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/java-routes-api.md",
+      "profile": "antora",
+      "score": 10421,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/starter.html",
+      "title": "How to Include Spring Cloud Gateway Server Web MVC",
+      "anchor": "spring-cloud-gateway-server-webmvc-starter",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/starter.md",
+      "profile": "antora",
+      "score": 3030,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/working-with-servlets-and-filters.html",
+      "title": "Working with Servlets and Servlet Filters",
+      "anchor": "spring-cloud-gateway-server-webmvc-working-with-servlets-and-filters",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/working-with-servlets-and-filters.md",
+      "profile": "antora",
+      "score": 3629,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/writing-custom-predicates-and-filters.html",
+      "title": "Writing Custom Predicates and Filters",
+      "anchor": "spring-cloud-gateway-server-webmvc-writing-custom-predicates-and-filters",
+      "virtual_path": "docs/spring-cloud-gateway-server-webmvc/writing-custom-predicates-and-filters.md",
+      "profile": "antora",
+      "score": 23887,
+      "depth": 1
+    }
+  ]
+}

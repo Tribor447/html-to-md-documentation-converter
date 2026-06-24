@@ -1,0 +1,857 @@
+[
+  {
+    "title": "User manual",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Getting started",
+        "kind": "category",
+        "source_url": "https://camel.apache.org/manual/getting-started.html",
+        "anchor": "getting-started",
+        "virtual_path": "docs/getting-started.md",
+        "children": [
+          {
+            "title": "Getting started",
+            "kind": "category",
+            "source_url": "https://camel.apache.org/manual/getting-started.html",
+            "anchor": "getting-started",
+            "virtual_path": "docs/getting-started.md",
+            "children": [
+              {
+                "title": "Getting Started with Apache Camel",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/book-getting-started.html",
+                "anchor": "book-getting-started",
+                "virtual_path": "docs/book-getting-started.md"
+              },
+              {
+                "title": "What are the dependencies?",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/what-are-the-dependencies.html",
+                "anchor": "what-are-the-dependencies",
+                "virtual_path": "docs/what-are-the-dependencies.md"
+              }
+            ]
+          },
+          {
+            "title": "Resources & Guides",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Building",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/building.html",
+                "anchor": "building",
+                "virtual_path": "docs/building.md"
+              },
+              {
+                "title": "Camel Developer Console",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/camel-console.html",
+                "anchor": "camel-console",
+                "virtual_path": "docs/camel-console.md"
+              },
+              {
+                "title": "Camel JBang",
+                "kind": "category",
+                "source_url": "https://camel.apache.org/manual/camel-jbang.html",
+                "anchor": "camel-jbang",
+                "virtual_path": "docs/camel-jbang.md",
+                "children": [
+                  {
+                    "title": "Camel JBang Command Reference",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/jbang-commands/camel-jbang-commands.html",
+                    "anchor": "jbang-commands-camel-jbang-commands",
+                    "virtual_path": "docs/jbang-commands/camel-jbang-commands.md"
+                  },
+                  {
+                    "title": "Camel JBang Launcher",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/camel-jbang-launcher.html",
+                    "anchor": "camel-jbang-launcher",
+                    "virtual_path": "docs/camel-jbang-launcher.md"
+                  },
+                  {
+                    "title": "Camel JBang Kubernetes Plugin",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/camel-jbang-kubernetes.html",
+                    "anchor": "camel-jbang-kubernetes",
+                    "virtual_path": "docs/camel-jbang-kubernetes.md"
+                  },
+                  {
+                    "title": "Camel JBang Testing Plugin",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/camel-jbang-test.html",
+                    "anchor": "camel-jbang-test",
+                    "virtual_path": "docs/camel-jbang-test.md"
+                  },
+                  {
+                    "title": "Camel MCP Server",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/camel-jbang-mcp.html",
+                    "anchor": "camel-jbang-mcp",
+                    "virtual_path": "docs/camel-jbang-mcp.md"
+                  }
+                ]
+              },
+              {
+                "title": "Camel Maven Plugin",
+                "kind": "category",
+                "source_url": "https://camel.apache.org/manual/camel-maven-plugin.html",
+                "anchor": "camel-maven-plugin",
+                "virtual_path": "docs/camel-maven-plugin.md",
+                "children": [
+                  {
+                    "title": "Camel Component Maven Plugin",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/camel-component-maven-plugin.html",
+                    "anchor": "camel-component-maven-plugin",
+                    "virtual_path": "docs/camel-component-maven-plugin.md"
+                  },
+                  {
+                    "title": "Camel Maven Report Plugin",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/camel-report-maven-plugin.html",
+                    "anchor": "camel-report-maven-plugin",
+                    "virtual_path": "docs/camel-report-maven-plugin.md"
+                  },
+                  {
+                    "title": "Camel Maven YAML DSL Validator Plugin",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/camel-yaml-dsl-validator-maven-plugin.html",
+                    "anchor": "camel-yaml-dsl-validator-maven-plugin",
+                    "virtual_path": "docs/camel-yaml-dsl-validator-maven-plugin.md"
+                  },
+                  {
+                    "title": "Camel Maven Archetypes",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/camel-maven-archetypes.html",
+                    "anchor": "camel-maven-archetypes",
+                    "virtual_path": "docs/camel-maven-archetypes.md"
+                  }
+                ]
+              },
+              {
+                "title": "Configuring route startup ordering and autostartup",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/configuring-route-startup-ordering-and-autostartup.html",
+                "anchor": "configuring-route-startup-ordering-and-autostartup",
+                "virtual_path": "docs/configuring-route-startup-ordering-and-autostartup.md"
+              },
+              {
+                "title": "Component DSL",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/component-dsl.html",
+                "anchor": "component-dsl",
+                "virtual_path": "docs/component-dsl.md"
+              },
+              {
+                "title": "Endpoint DSL",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/Endpoint-dsl.html",
+                "anchor": "endpoint-dsl",
+                "virtual_path": "docs/Endpoint-dsl.md"
+              },
+              {
+                "title": "DataFormat DSL",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/dataformat-dsl.html",
+                "anchor": "dataformat-dsl",
+                "virtual_path": "docs/dataformat-dsl.md"
+              },
+              {
+                "title": "Examples",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/examples.html",
+                "anchor": "examples",
+                "virtual_path": "docs/examples.md"
+              },
+              {
+                "title": "Graceful Shutdown",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/graceful-shutdown.html",
+                "anchor": "graceful-shutdown",
+                "virtual_path": "docs/graceful-shutdown.md"
+              },
+              {
+                "title": "Error handler",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/error-handler.html",
+                "anchor": "error-handler",
+                "virtual_path": "docs/error-handler.md"
+              },
+              {
+                "title": "Error Registry",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/error-registry.html",
+                "anchor": "error-registry",
+                "virtual_path": "docs/error-registry.md"
+              },
+              {
+                "title": "How to use Camel property placeholders",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/using-propertyplaceholder.html",
+                "anchor": "using-propertyplaceholder",
+                "virtual_path": "docs/using-propertyplaceholder.md"
+              },
+              {
+                "title": "How to use Variables",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/variables.html",
+                "anchor": "variables",
+                "virtual_path": "docs/variables.md"
+              },
+              {
+                "title": "Testing",
+                "kind": "category",
+                "source_url": "https://camel.apache.org/manual/testing.html",
+                "anchor": "testing",
+                "virtual_path": "docs/testing.md",
+                "children": [
+                  {
+                    "title": "Test Infra",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/test-infra.html",
+                    "anchor": "test-infra",
+                    "virtual_path": "docs/test-infra.md"
+                  },
+                  {
+                    "title": "NotifyBuilder",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/notify-builder.html",
+                    "anchor": "notify-builder",
+                    "virtual_path": "docs/notify-builder.md"
+                  },
+                  {
+                    "title": "AdviceWith",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/advice-with.html",
+                    "anchor": "advice-with",
+                    "virtual_path": "docs/advice-with.md"
+                  },
+                  {
+                    "title": "Integration Test",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/integration-test.html",
+                    "anchor": "integration-test",
+                    "virtual_path": "docs/integration-test.md"
+                  }
+                ]
+              },
+              {
+                "title": "Working with REST and Rest DSL",
+                "kind": "category",
+                "source_url": "https://camel.apache.org/manual/rest-dsl.html",
+                "anchor": "rest-dsl",
+                "virtual_path": "docs/rest-dsl.md",
+                "children": [
+                  {
+                    "title": "Rest DSL contract first",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/rest-dsl-openapi.html",
+                    "anchor": "rest-dsl-openapi",
+                    "virtual_path": "docs/rest-dsl-openapi.md"
+                  }
+                ]
+              },
+              {
+                "title": "Writing Components",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/writing-components.html",
+                "anchor": "writing-components",
+                "virtual_path": "docs/writing-components.md"
+              },
+              {
+                "title": "Release guide",
+                "kind": "category",
+                "source_url": "https://camel.apache.org/manual/release-guide.html",
+                "anchor": "release-guide",
+                "virtual_path": "docs/release-guide.md",
+                "children": [
+                  {
+                    "title": "Adding doc versions to the website",
+                    "kind": "link",
+                    "source_url": "https://camel.apache.org/manual/release-guide-website.html",
+                    "anchor": "release-guide-website",
+                    "virtual_path": "docs/release-guide-website.md"
+                  }
+                ]
+              },
+              {
+                "title": "Improving the Documentation",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/improving-the-documentation.html",
+                "anchor": "improving-the-documentation",
+                "virtual_path": "docs/improving-the-documentation.md"
+              }
+            ]
+          },
+          {
+            "title": "Migration and Upgrade",
+            "kind": "category",
+            "source_url": "https://camel.apache.org/manual/migration-and-upgrade.html",
+            "anchor": "migration-and-upgrade",
+            "virtual_path": "docs/migration-and-upgrade.md",
+            "children": [
+              {
+                "title": "Camel 2.x to 3.0 Migration Guide",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/camel-3-migration-guide.html",
+                "anchor": "camel-3-migration-guide",
+                "virtual_path": "docs/camel-3-migration-guide.md"
+              },
+              {
+                "title": "Camel 3.x Upgrade Guide",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/camel-3x-upgrade-guide.html",
+                "anchor": "camel-3x-upgrade-guide",
+                "virtual_path": "docs/camel-3x-upgrade-guide.md"
+              },
+              {
+                "title": "Camel 3.x to 4.0 Migration Guide",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/camel-4-migration-guide.html",
+                "anchor": "camel-4-migration-guide",
+                "virtual_path": "docs/camel-4-migration-guide.md"
+              },
+              {
+                "title": "Camel 4.x Upgrade Guide",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/camel-4x-upgrade-guide.html",
+                "anchor": "camel-4x-upgrade-guide",
+                "virtual_path": "docs/camel-4x-upgrade-guide.md"
+              }
+            ]
+          },
+          {
+            "title": "Architecture",
+            "kind": "category",
+            "source_url": "https://camel.apache.org/manual/architecture.html",
+            "anchor": "architecture",
+            "virtual_path": "docs/architecture.md",
+            "children": [
+              {
+                "title": "Backlog debugger",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/backlog-debugger.html",
+                "anchor": "backlog-debugger",
+                "virtual_path": "docs/backlog-debugger.md"
+              },
+              {
+                "title": "Backlog Tracer",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/backlog-tracer.html",
+                "anchor": "backlog-tracer",
+                "virtual_path": "docs/backlog-tracer.md"
+              },
+              {
+                "title": "Batch Consumer",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/batch-consumer.html",
+                "anchor": "batch-consumer",
+                "virtual_path": "docs/batch-consumer.md"
+              },
+              {
+                "title": "Bean Binding",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/bean-binding.html",
+                "anchor": "bean-binding",
+                "virtual_path": "docs/bean-binding.md"
+              },
+              {
+                "title": "Bean Integration",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/bean-integration.html",
+                "anchor": "bean-integration",
+                "virtual_path": "docs/bean-integration.md"
+              },
+              {
+                "title": "BrowsableEndpoint",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/browsable-endpoint.html",
+                "anchor": "browsable-endpoint",
+                "virtual_path": "docs/browsable-endpoint.md"
+              },
+              {
+                "title": "CamelContext",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/camelcontext.html",
+                "anchor": "camelcontext",
+                "virtual_path": "docs/camelcontext.md"
+              },
+              {
+                "title": "CamelContext Auto Configuration",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/camelcontext-autoconfigure.html",
+                "anchor": "camelcontext-autoconfigure",
+                "virtual_path": "docs/camelcontext-autoconfigure.md"
+              },
+              {
+                "title": "Clustering and Load Balancing",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/clustering.html",
+                "anchor": "clustering",
+                "virtual_path": "docs/clustering.md"
+              },
+              {
+                "title": "Component",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/component.html",
+                "anchor": "component",
+                "virtual_path": "docs/component.md"
+              },
+              {
+                "title": "Data Format",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/data-format.html",
+                "anchor": "data-format",
+                "virtual_path": "docs/data-format.md"
+              },
+              {
+                "title": "Debugger",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/debugger.html",
+                "anchor": "debugger",
+                "virtual_path": "docs/debugger.md"
+              },
+              {
+                "title": "Delayer",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/delay-interceptor.html",
+                "anchor": "delay-interceptor",
+                "virtual_path": "docs/delay-interceptor.md"
+              },
+              {
+                "title": "Endpoints",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/endpoint.html",
+                "anchor": "endpoint",
+                "virtual_path": "docs/endpoint.md"
+              },
+              {
+                "title": "Endpoint Annotations",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/endpoint-annotations.html",
+                "anchor": "endpoint-annotations",
+                "virtual_path": "docs/endpoint-annotations.md"
+              },
+              {
+                "title": "Exception Clause",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/exception-clause.html",
+                "anchor": "exception-clause",
+                "virtual_path": "docs/exception-clause.md"
+              },
+              {
+                "title": "Exchange Pooling",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/exchange-pooling.html",
+                "anchor": "exchange-pooling",
+                "virtual_path": "docs/exchange-pooling.md"
+              },
+              {
+                "title": "HTTP-Session Handling",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/http-session-handling.html",
+                "anchor": "http-session-handling",
+                "virtual_path": "docs/http-session-handling.md"
+              },
+              {
+                "title": "Parameter Binding Annotations",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/parameter-binding-annotations.html",
+                "anchor": "parameter-binding-annotations",
+                "virtual_path": "docs/parameter-binding-annotations.md"
+              },
+              {
+                "title": "POJO Producing",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/pojo-producing.html",
+                "anchor": "pojo-producing",
+                "virtual_path": "docs/pojo-producing.md"
+              },
+              {
+                "title": "POJO Consuming",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/pojo-consuming.html",
+                "anchor": "pojo-consuming",
+                "virtual_path": "docs/pojo-consuming.md"
+              },
+              {
+                "title": "ProducerTemplate",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/producertemplate.html",
+                "anchor": "producertemplate",
+                "virtual_path": "docs/producertemplate.md"
+              },
+              {
+                "title": "ConsumerTemplate",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/consumertemplate.html",
+                "anchor": "consumertemplate",
+                "virtual_path": "docs/consumertemplate.md"
+              },
+              {
+                "title": "Error Handler",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/error-handler.html",
+                "anchor": "error-handler",
+                "virtual_path": "docs/error-handler.md"
+              },
+              {
+                "title": "Message Exchange",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/exchange.html",
+                "anchor": "exchange",
+                "virtual_path": "docs/exchange.md"
+              },
+              {
+                "title": "Exchange Pattern",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/exchange-pattern.html",
+                "anchor": "exchange-pattern",
+                "virtual_path": "docs/exchange-pattern.md"
+              },
+              {
+                "title": "Using Exchange pattern annotations",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/using-exchange-pattern-annotations.html",
+                "anchor": "using-exchange-pattern-annotations",
+                "virtual_path": "docs/using-exchange-pattern-annotations.md"
+              },
+              {
+                "title": "Expressions",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/expression.html",
+                "anchor": "expression",
+                "virtual_path": "docs/expression.md"
+              },
+              {
+                "title": "Injector",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/injector.html",
+                "anchor": "injector",
+                "virtual_path": "docs/injector.md"
+              },
+              {
+                "title": "JMX",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/jmx.html",
+                "anchor": "jmx",
+                "virtual_path": "docs/jmx.md"
+              },
+              {
+                "title": "Camel Lifecycle",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/lifecycle.html",
+                "anchor": "lifecycle",
+                "virtual_path": "docs/lifecycle.md"
+              },
+              {
+                "title": "OnCompletion",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/oncompletion.html",
+                "anchor": "oncompletion",
+                "virtual_path": "docs/oncompletion.md"
+              },
+              {
+                "title": "Pluggable Class Resolvers",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/pluggable-class-resolvers.html",
+                "anchor": "pluggable-class-resolvers",
+                "virtual_path": "docs/pluggable-class-resolvers.md"
+              },
+              {
+                "title": "Predicates",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/predicate.html",
+                "anchor": "predicate",
+                "virtual_path": "docs/predicate.md"
+              },
+              {
+                "title": "Processor",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/processor.html",
+                "anchor": "processor",
+                "virtual_path": "docs/processor.md"
+              },
+              {
+                "title": "Registry",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/registry.html",
+                "anchor": "registry",
+                "virtual_path": "docs/registry.md"
+              },
+              {
+                "title": "RouteBuilder",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/route-builder.html",
+                "anchor": "route-builder",
+                "virtual_path": "docs/route-builder.md"
+              },
+              {
+                "title": "LambdaRouteBuilder",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/lambda-route-builder.html",
+                "anchor": "lambda-route-builder",
+                "virtual_path": "docs/lambda-route-builder.md"
+              },
+              {
+                "title": "RouteController",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/route-controller.html",
+                "anchor": "route-controller",
+                "virtual_path": "docs/route-controller.md"
+              },
+              {
+                "title": "RoutePolicy",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/route-policy.html",
+                "anchor": "route-policy",
+                "virtual_path": "docs/route-policy.md"
+              },
+              {
+                "title": "RouteConfiguration",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/route-configuration.html",
+                "anchor": "route-configuration",
+                "virtual_path": "docs/route-configuration.md"
+              },
+              {
+                "title": "RouteGroup",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/route-group.html",
+                "anchor": "route-group",
+                "virtual_path": "docs/route-group.md"
+              },
+              {
+                "title": "ContextReload",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/context-reload.html",
+                "anchor": "context-reload",
+                "virtual_path": "docs/context-reload.md"
+              },
+              {
+                "title": "RouteReload",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/route-reload.html",
+                "anchor": "route-reload",
+                "virtual_path": "docs/route-reload.md"
+              },
+              {
+                "title": "RouteTemplate",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/route-template.html",
+                "anchor": "route-template",
+                "virtual_path": "docs/route-template.md"
+              },
+              {
+                "title": "Routes",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/routes.html",
+                "anchor": "routes",
+                "virtual_path": "docs/routes.md"
+              },
+              {
+                "title": "Startup Condition",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/startup-condition.html",
+                "anchor": "startup-condition",
+                "virtual_path": "docs/startup-condition.md"
+              },
+              {
+                "title": "Stream caching",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/stream-caching.html",
+                "anchor": "stream-caching",
+                "virtual_path": "docs/stream-caching.md"
+              },
+              {
+                "title": "Template Engines",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/template-engines.html",
+                "anchor": "template-engines",
+                "virtual_path": "docs/template-engines.md"
+              },
+              {
+                "title": "Transformer",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/transformer.html",
+                "anchor": "transformer",
+                "virtual_path": "docs/transformer.md"
+              },
+              {
+                "title": "Threading Model",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/threading-model.html",
+                "anchor": "threading-model",
+                "virtual_path": "docs/threading-model.md"
+              },
+              {
+                "title": "Virtual Threads",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/virtual-threads.html",
+                "anchor": "virtual-threads",
+                "virtual_path": "docs/virtual-threads.md"
+              },
+              {
+                "title": "Tracer",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/tracer.html",
+                "anchor": "tracer",
+                "virtual_path": "docs/tracer.md"
+              },
+              {
+                "title": "Type Converter",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/type-converter.html",
+                "anchor": "type-converter",
+                "virtual_path": "docs/type-converter.md"
+              },
+              {
+                "title": "URIs",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/uris.html",
+                "anchor": "uris",
+                "virtual_path": "docs/uris.md"
+              },
+              {
+                "title": "UuidGenerator",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/uuidgenerator.html",
+                "anchor": "uuidgenerator",
+                "virtual_path": "docs/uuidgenerator.md"
+              },
+              {
+                "title": "Validator",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/validator.html",
+                "anchor": "validator",
+                "virtual_path": "docs/validator.md"
+              },
+              {
+                "title": "Health Checks",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/health-check.html",
+                "anchor": "health-check",
+                "virtual_path": "docs/health-check.md"
+              }
+            ]
+          },
+          {
+            "title": "Domain Specific Languages",
+            "kind": "category",
+            "children": [
+              {
+                "title": "Camel Domain Specific Language",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/dsl.html",
+                "anchor": "dsl",
+                "virtual_path": "docs/dsl.md"
+              },
+              {
+                "title": "Languages",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/languages.html",
+                "anchor": "languages",
+                "virtual_path": "docs/languages.md"
+              },
+              {
+                "title": "Java DSL",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/java-dsl.html",
+                "anchor": "java-dsl",
+                "virtual_path": "docs/java-dsl.md"
+              },
+              {
+                "title": "Spring support",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/spring.html",
+                "anchor": "spring",
+                "virtual_path": "docs/spring.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "kind": "category",
+        "children": [
+          {
+            "title": "FAQ",
+            "kind": "category",
+            "source_url": "https://camel.apache.org/manual/faq/index.html",
+            "anchor": "faq",
+            "virtual_path": "docs/faq/index.md",
+            "children": [
+              {
+                "title": "What is Camel?",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/faq/what-is-camel.html",
+                "anchor": "faq-what-is-camel",
+                "virtual_path": "docs/faq/what-is-camel.md"
+              },
+              {
+                "title": "Can I get commercial support?",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/faq/can-i-get-commercial-support.html",
+                "anchor": "faq-can-i-get-commercial-support",
+                "virtual_path": "docs/faq/can-i-get-commercial-support.md"
+              },
+              {
+                "title": "How can I get the source code?",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/faq/how-can-i-get-the-source-code.html",
+                "anchor": "faq-how-can-i-get-the-source-code",
+                "virtual_path": "docs/faq/how-can-i-get-the-source-code.md"
+              },
+              {
+                "title": "How do I edit the documentation?",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/faq/how-do-i-edit-the-website.html",
+                "anchor": "faq-how-do-i-edit-the-website",
+                "virtual_path": "docs/faq/how-do-i-edit-the-website.md"
+              },
+              {
+                "title": "How do I become a committer?",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/faq/how-do-i-become-a-committer.html",
+                "anchor": "faq-how-do-i-become-a-committer",
+                "virtual_path": "docs/faq/how-do-i-become-a-committer.md"
+              },
+              {
+                "title": "Why the name Camel?",
+                "kind": "link",
+                "source_url": "https://camel.apache.org/manual/faq/why-the-name-camel.html",
+                "anchor": "faq-why-the-name-camel",
+                "virtual_path": "docs/faq/why-the-name-camel.md"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Reference Documentation",
+        "kind": "link",
+        "source_url": "https://camel.apache.org/camel-core/reference/index.html",
+        "anchor": "camel-core-reference",
+        "virtual_path": "docs/camel-core/reference/index.md"
+      },
+      {
+        "title": "Apache Camel user manual",
+        "kind": "link",
+        "source_url": "https://camel.apache.org/manual/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      }
+    ]
+  }
+]

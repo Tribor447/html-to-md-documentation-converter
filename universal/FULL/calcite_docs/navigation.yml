@@ -1,0 +1,77 @@
+- title: Overview
+  kind: category
+  children:
+  - title: Background
+    kind: link
+    source_url: https://calcite.apache.org/docs/
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Tutorial
+    kind: link
+    source_url: https://calcite.apache.org/docs/tutorial.html
+    anchor: tutorial
+    virtual_path: docs/tutorial.md
+  - title: Algebra
+    kind: link
+    source_url: https://calcite.apache.org/docs/algebra.html
+    anchor: algebra
+    virtual_path: docs/algebra.md
+- title: Advanced
+  kind: category
+  children:
+  - title: Adapters
+    kind: link
+    source_url: https://calcite.apache.org/docs/adapter.html
+    anchor: adapter
+    virtual_path: docs/adapter.md
+  - title: Spatial
+    kind: link
+    source_url: https://calcite.apache.org/docs/spatial.html
+    anchor: spatial
+    virtual_path: docs/spatial.md
+  - title: Streaming
+    kind: link
+    source_url: https://calcite.apache.org/docs/stream.html
+    anchor: stream
+    virtual_path: docs/stream.md
+  - title: Materialized Views
+    kind: link
+    source_url: https://calcite.apache.org/docs/materialized_views.html
+    anchor: materialized_views
+    virtual_path: docs/materialized_views.md
+  - title: Lattices
+    kind: link
+    source_url: https://calcite.apache.org/docs/lattice.html
+    anchor: lattice
+    virtual_path: docs/lattice.md
+- title: Reference
+  kind: category
+  children:
+  - title: SQL language
+    kind: link
+    source_url: https://calcite.apache.org/docs/reference.html
+    anchor: reference
+    virtual_path: docs/reference.md
+  - title: JSON/YAML models
+    kind: link
+    source_url: https://calcite.apache.org/docs/model.html
+    anchor: model
+    virtual_path: docs/model.md
+  - title: HOWTO
+    kind: link
+    source_url: https://calcite.apache.org/docs/howto.html
+    anchor: howto
+    virtual_path: docs/howto.md
+- title: Meta
+  kind: category
+  children:
+  - title: History
+    kind: link
+    source_url: https://calcite.apache.org/docs/history.html
+    anchor: history
+    virtual_path: docs/history.md
+  - title: Powered by Calcite
+    kind: link
+    source_url: https://calcite.apache.org/docs/powered_by.html
+    anchor: powered_by
+    virtual_path: docs/powered_by.md

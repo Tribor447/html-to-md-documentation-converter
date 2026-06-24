@@ -1,0 +1,346 @@
+- title: Get Started
+  kind: link
+  source_url: https://shiro.apache.org/get-started.html
+  anchor: get-started
+  virtual_path: docs/get-started.md
+- title: Docs
+  kind: link
+  source_url: https://shiro.apache.org/documentation.html
+  anchor: documentation
+  virtual_path: docs/documentation.md
+- title: Web Apps
+  kind: category
+  children:
+  - title: General
+    kind: link
+    source_url: https://shiro.apache.org/web.html
+    anchor: web
+    virtual_path: docs/web.md
+  - title: JAX-RS
+    kind: link
+    source_url: https://shiro.apache.org/jaxrs.html
+    anchor: jaxrs
+    virtual_path: docs/jaxrs.md
+  - title: Jakarta EE
+    kind: link
+    source_url: https://shiro.apache.org/jakarta-ee.html
+    anchor: jakarta-ee
+    virtual_path: docs/jakarta-ee.md
+  - title: Jakarta EE with Dependency Chains
+    kind: link
+    source_url: https://shiro.apache.org/dependency-chain.html
+    anchor: dependency-chain
+    virtual_path: docs/dependency-chain.md
+  - title: Features
+    kind: link
+    source_url: https://shiro.apache.org/web-features.html
+    anchor: web-features
+    virtual_path: docs/web-features.md
+- title: Features
+  kind: link
+  source_url: https://shiro.apache.org/features.html
+  anchor: features
+  virtual_path: docs/features.md
+- title: Integrations
+  kind: category
+  source_url: https://shiro.apache.org/integration.html
+  anchor: integration
+  virtual_path: docs/integration.md
+  children:
+  - title: Spring
+    kind: link
+    source_url: https://shiro.apache.org/spring-boot.html
+    anchor: spring-boot
+    virtual_path: docs/spring-boot.md
+  - title: Guice
+    kind: link
+    source_url: https://shiro.apache.org/guice.html
+    anchor: guice
+    virtual_path: docs/guice.md
+  - title: Third-Party Integrations
+    kind: link
+    source_url: https://shiro.apache.org/integration.html
+    anchor: integration
+    virtual_path: docs/integration.md
+- title: Community
+  kind: category
+  children:
+  - title: Community Forums
+    kind: link
+    source_url: https://shiro.apache.org/forums.html
+    anchor: forums
+    virtual_path: docs/forums.md
+  - title: Mailing Lists
+    kind: link
+    source_url: https://shiro.apache.org/mailing-lists.html
+    anchor: mailing-lists
+    virtual_path: docs/mailing-lists.md
+  - title: Articles
+    kind: link
+    source_url: https://shiro.apache.org/articles.html
+    anchor: articles
+    virtual_path: docs/articles.md
+  - title: Events
+    kind: link
+    source_url: https://shiro.apache.org/events.html
+    anchor: events
+    virtual_path: docs/events.md
+  - title: Troubleshooting & FAQ
+    kind: link
+    source_url: https://shiro.apache.org/troubleshooting.html
+    anchor: troubleshooting
+    virtual_path: docs/troubleshooting.md
+  - title: Community Support
+    kind: link
+    source_url: https://shiro.apache.org/support.html
+    anchor: support
+    virtual_path: docs/support.md
+  - title: Commercial Support
+    kind: link
+    source_url: https://shiro.apache.org/commercial-support.html
+    anchor: commercial-support
+    virtual_path: docs/commercial-support.md
+  - title: More
+    kind: link
+    source_url: https://shiro.apache.org/community.html
+    anchor: community
+    virtual_path: docs/community.md
+- title: About
+  kind: category
+  children:
+  - title: About
+    kind: link
+    source_url: https://shiro.apache.org/about.html
+    anchor: about
+    virtual_path: docs/about.md
+  - title: Privacy Policy
+    kind: link
+    source_url: https://shiro.apache.org/privacy-policy.html
+    anchor: privacy-policy
+    virtual_path: docs/privacy-policy.md
+  - title: Security Model
+    kind: link
+    source_url: https://shiro.apache.org/security-model.html
+    anchor: security-model
+    virtual_path: docs/security-model.md
+  - title: Vulnerability Reports
+    kind: link
+    source_url: https://shiro.apache.org/security-reports.html
+    anchor: security-reports
+    virtual_path: docs/security-reports.md
+- title: Apache Shiro Reference Documentation
+  kind: category
+  source_url: https://shiro.apache.org/reference.html
+  anchor: reference
+  virtual_path: docs/reference.md
+- title: Overview
+  kind: category
+  children:
+  - title: Introduction
+    kind: link
+    source_url: https://shiro.apache.org/introduction.html
+    anchor: introduction
+    virtual_path: docs/introduction.md
+  - title: Tutorial
+    kind: link
+    source_url: https://shiro.apache.org/tutorial.html
+    anchor: tutorial
+    virtual_path: docs/tutorial.md
+  - title: Architecture
+    kind: link
+    source_url: https://shiro.apache.org/architecture.html
+    anchor: architecture
+    virtual_path: docs/architecture.md
+  - title: Configuration
+    kind: link
+    source_url: https://shiro.apache.org/configuration.html
+    anchor: configuration
+    virtual_path: docs/configuration.md
+- title: Core
+  kind: category
+  children:
+  - title: Authentication
+    kind: link
+    source_url: https://shiro.apache.org/authentication.html
+    anchor: authentication
+    virtual_path: docs/authentication.md
+  - title: Authorization
+    kind: category
+    source_url: https://shiro.apache.org/authorization.html
+    anchor: authorization
+    virtual_path: docs/authorization.md
+    children:
+    - title: Permissions
+      kind: link
+      source_url: https://shiro.apache.org/permissions.html
+      anchor: permissions
+      virtual_path: docs/permissions.md
+  - title: Realms
+    kind: link
+    source_url: https://shiro.apache.org/realm.html
+    anchor: realm
+    virtual_path: docs/realm.md
+  - title: Session Management
+    kind: link
+    source_url: https://shiro.apache.org/session-management.html
+    anchor: session-management
+    virtual_path: docs/session-management.md
+  - title: Cryptography
+    kind: link
+    source_url: https://shiro.apache.org/cryptography.html
+    anchor: cryptography
+    virtual_path: docs/cryptography.md
+- title: Web Applications
+  kind: category
+  children:
+  - title: Web
+    kind: category
+    source_url: https://shiro.apache.org/web.html
+    anchor: web
+    virtual_path: docs/web.md
+    children:
+    - title: Configuration
+      kind: link
+      source_url: https://shiro.apache.org/web.html#configuration
+      anchor: web--configuration
+      virtual_path: docs/web.md
+    - title: urls
+      kind: link
+      source_url: https://shiro.apache.org/web.html#web_ini
+      anchor: web--web_ini
+      virtual_path: docs/web.md
+    - title: Default Filters
+      kind: link
+      source_url: https://shiro.apache.org/web.html#default_filters
+      anchor: web--default_filters
+      virtual_path: docs/web.md
+    - title: Session Management
+      kind: link
+      source_url: https://shiro.apache.org/web.html#session_management
+      anchor: web--session_management
+      virtual_path: docs/web.md
+    - title: JSP Tag Library
+      kind: link
+      source_url: https://shiro.apache.org/web.html#tag_library
+      anchor: web--tag_library
+      virtual_path: docs/web.md
+- title: Auxiliary Support
+  kind: category
+  children:
+  - title: Caching
+    kind: link
+    source_url: https://shiro.apache.org/caching.html
+    anchor: caching
+    virtual_path: docs/caching.md
+  - title: Concurrency & Multithreading
+    kind: link
+    source_url: https://shiro.apache.org/concurrency.html
+    anchor: concurrency
+    virtual_path: docs/concurrency.md
+  - title: Testing
+    kind: link
+    source_url: https://shiro.apache.org/testing.html
+    anchor: testing
+    virtual_path: docs/testing.md
+  - title: Custom Subjects
+    kind: link
+    source_url: https://shiro.apache.org/subject.html
+    anchor: subject
+    virtual_path: docs/subject.md
+- title: Integration
+  kind: category
+  children:
+  - title: Spring Framework
+    kind: link
+    source_url: https://shiro.apache.org/spring-framework.html
+    anchor: spring-framework
+    virtual_path: docs/spring-framework.md
+  - title: Guice
+    kind: link
+    source_url: https://shiro.apache.org/guice.html
+    anchor: guice
+    virtual_path: docs/guice.md
+  - title: CAS
+    kind: link
+    source_url: https://shiro.apache.org/cas.html
+    anchor: cas
+    virtual_path: docs/cas.md
+- title: Tools
+  kind: category
+  children:
+  - title: Command Line Hasher
+    kind: link
+    source_url: https://shiro.apache.org/command-line-hasher.html
+    anchor: command-line-hasher
+    virtual_path: docs/command-line-hasher.md
+- title: Index
+  kind: category
+  children:
+  - title: Terminology
+    kind: link
+    source_url: https://shiro.apache.org/terminology.html
+    anchor: terminology
+    virtual_path: docs/terminology.md
+- title: Other pages
+  kind: category
+  children:
+  - title: 10 Minute Tutorial on Apache Shiro
+    kind: link
+    source_url: https://shiro.apache.org/10-minute-tutorial.html
+    anchor: 10-minute-tutorial
+    virtual_path: docs/10-minute-tutorial.md
+  - title: Apache Shiro Authentication Features
+    kind: link
+    source_url: https://shiro.apache.org/authentication-features.html
+    anchor: authentication-features
+    virtual_path: docs/authentication-features.md
+  - title: Authorization Features
+    kind: link
+    source_url: https://shiro.apache.org/authorization-features.html
+    anchor: authorization-features
+    virtual_path: docs/authorization-features.md
+  - title: Apache Shiro Cryptography Features
+    kind: link
+    source_url: https://shiro.apache.org/cryptography-features.html
+    anchor: cryptography-features
+    virtual_path: docs/cryptography-features.md
+  - title: Apache Shiro Developer Resources
+    kind: link
+    source_url: https://shiro.apache.org/developer-resources.html
+    anchor: developer-resources
+    virtual_path: docs/developer-resources.md
+  - title: Contributing to Apache Shiro
+    kind: link
+    source_url: https://shiro.apache.org/how-to-contribute.html
+    anchor: how-to-contribute
+    virtual_path: docs/how-to-contribute.md
+  - title: Getting Started
+    kind: link
+    source_url: https://shiro.apache.org/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Java Authentication Guide with Apache Shiro
+    kind: link
+    source_url: https://shiro.apache.org/java-authentication-guide.html
+    anchor: java-authentication-guide
+    virtual_path: docs/java-authentication-guide.md
+  - title: Java Authorization Guide with Apache Shiro
+    kind: link
+    source_url: https://shiro.apache.org/java-authorization-guide.html
+    anchor: java-authorization-guide
+    virtual_path: docs/java-authorization-guide.md
+  - title: Apache Shiro Migration Guide
+    kind: link
+    source_url: https://shiro.apache.org/migration-guide.html
+    anchor: migration-guide
+    virtual_path: docs/migration-guide.md
+  - title: Apache Shiro Session Management Features
+    kind: link
+    source_url: https://shiro.apache.org/session-management-features.html
+    anchor: session-management-features
+    virtual_path: docs/session-management-features.md
+  - title: Securing Web Applications with Apache Shiro
+    kind: link
+    source_url: https://shiro.apache.org/webapp-tutorial.html
+    anchor: webapp-tutorial
+    virtual_path: docs/webapp-tutorial.md

@@ -1,0 +1,1983 @@
+[
+  {
+    "title": "Links",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Download",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/download.html",
+        "anchor": "download",
+        "virtual_path": "docs/download.md"
+      }
+    ]
+  },
+  {
+    "title": "User Guide",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Introduction",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/user-guide/introduction.html",
+        "anchor": "user-guide-introduction",
+        "virtual_path": "docs/user-guide/introduction.md"
+      },
+      {
+        "title": "Example Usage",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/user-guide/example-usage.html",
+        "anchor": "user-guide-example-usage",
+        "virtual_path": "docs/user-guide/example-usage.md"
+      },
+      {
+        "title": "Features",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/user-guide/features.html",
+        "anchor": "user-guide-features",
+        "virtual_path": "docs/user-guide/features.md"
+      },
+      {
+        "title": "Concepts, Readings, Events",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/user-guide/concepts-readings-events.html",
+        "anchor": "user-guide-concepts-readings-events",
+        "virtual_path": "docs/user-guide/concepts-readings-events.md"
+      },
+      {
+        "title": "Crate Configuration",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/user-guide/crate-configuration.html",
+        "anchor": "user-guide-crate-configuration",
+        "virtual_path": "docs/user-guide/crate-configuration.md"
+      },
+      {
+        "title": "DataFusion CLI",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/user-guide/cli/index.html",
+        "anchor": "user-guide-cli",
+        "virtual_path": "docs/user-guide/cli/index.md",
+        "children": [
+          {
+            "title": "Overview",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/cli/overview.html",
+            "anchor": "user-guide-cli-overview",
+            "virtual_path": "docs/user-guide/cli/overview.md"
+          },
+          {
+            "title": "Installation",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/cli/installation.html",
+            "anchor": "user-guide-cli-installation",
+            "virtual_path": "docs/user-guide/cli/installation.md"
+          },
+          {
+            "title": "Usage",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/cli/usage.html",
+            "anchor": "user-guide-cli-usage",
+            "virtual_path": "docs/user-guide/cli/usage.md"
+          },
+          {
+            "title": "Local Files / Directories",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/cli/datasources.html",
+            "anchor": "user-guide-cli-datasources",
+            "virtual_path": "docs/user-guide/cli/datasources.md"
+          },
+          {
+            "title": "CLI Specific Functions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/cli/functions.html",
+            "anchor": "user-guide-cli-functions",
+            "virtual_path": "docs/user-guide/cli/functions.md"
+          }
+        ]
+      },
+      {
+        "title": "DataFrame API",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/user-guide/dataframe.html",
+        "anchor": "user-guide-dataframe",
+        "virtual_path": "docs/user-guide/dataframe.md"
+      },
+      {
+        "title": "Gentle Arrow Introduction",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/user-guide/arrow-introduction.html",
+        "anchor": "user-guide-arrow-introduction",
+        "virtual_path": "docs/user-guide/arrow-introduction.md"
+      },
+      {
+        "title": "Expression API",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/user-guide/expressions.html",
+        "anchor": "user-guide-expressions",
+        "virtual_path": "docs/user-guide/expressions.md"
+      },
+      {
+        "title": "SQL Reference",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/user-guide/sql/index.html",
+        "anchor": "user-guide-sql",
+        "virtual_path": "docs/user-guide/sql/index.md",
+        "children": [
+          {
+            "title": "Data Types",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/data_types.html",
+            "anchor": "user-guide-sql-data_types",
+            "virtual_path": "docs/user-guide/sql/data_types.md"
+          },
+          {
+            "title": "Struct Type Coercion and Field Mapping",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/struct_coercion.html",
+            "anchor": "user-guide-sql-struct_coercion",
+            "virtual_path": "docs/user-guide/sql/struct_coercion.md"
+          },
+          {
+            "title": "SELECT syntax",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/select.html",
+            "anchor": "user-guide-sql-select",
+            "virtual_path": "docs/user-guide/sql/select.md"
+          },
+          {
+            "title": "Subqueries",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/subqueries.html",
+            "anchor": "user-guide-sql-subqueries",
+            "virtual_path": "docs/user-guide/sql/subqueries.md"
+          },
+          {
+            "title": "DDL",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/ddl.html",
+            "anchor": "user-guide-sql-ddl",
+            "virtual_path": "docs/user-guide/sql/ddl.md"
+          },
+          {
+            "title": "DML",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/dml.html",
+            "anchor": "user-guide-sql-dml",
+            "virtual_path": "docs/user-guide/sql/dml.md"
+          },
+          {
+            "title": "EXPLAIN",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/explain.html",
+            "anchor": "user-guide-sql-explain",
+            "virtual_path": "docs/user-guide/sql/explain.md"
+          },
+          {
+            "title": "Information Schema",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/information_schema.html",
+            "anchor": "user-guide-sql-information_schema",
+            "virtual_path": "docs/user-guide/sql/information_schema.md"
+          },
+          {
+            "title": "Operators and Literals",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/operators.html",
+            "anchor": "user-guide-sql-operators",
+            "virtual_path": "docs/user-guide/sql/operators.md"
+          },
+          {
+            "title": "Aggregate Functions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/aggregate_functions.html",
+            "anchor": "user-guide-sql-aggregate_functions",
+            "virtual_path": "docs/user-guide/sql/aggregate_functions.md"
+          },
+          {
+            "title": "Window Functions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/window_functions.html",
+            "anchor": "user-guide-sql-window_functions",
+            "virtual_path": "docs/user-guide/sql/window_functions.md"
+          },
+          {
+            "title": "Scalar Functions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/scalar_functions.html",
+            "anchor": "user-guide-sql-scalar_functions",
+            "virtual_path": "docs/user-guide/sql/scalar_functions.md"
+          },
+          {
+            "title": "Special Functions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/special_functions.html",
+            "anchor": "user-guide-sql-special_functions",
+            "virtual_path": "docs/user-guide/sql/special_functions.md"
+          },
+          {
+            "title": "Format Options",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/format_options.html",
+            "anchor": "user-guide-sql-format_options",
+            "virtual_path": "docs/user-guide/sql/format_options.md"
+          },
+          {
+            "title": "Prepared Statements",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/user-guide/sql/prepared_statements.html",
+            "anchor": "user-guide-sql-prepared_statements",
+            "virtual_path": "docs/user-guide/sql/prepared_statements.md"
+          }
+        ]
+      },
+      {
+        "title": "Configuration Settings",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/user-guide/configs.html",
+        "anchor": "user-guide-configs",
+        "virtual_path": "docs/user-guide/configs.md"
+      },
+      {
+        "title": "Reading Explain Plans",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/user-guide/explain-usage.html",
+        "anchor": "user-guide-explain-usage",
+        "virtual_path": "docs/user-guide/explain-usage.md"
+      },
+      {
+        "title": "Metrics",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/user-guide/metrics.html",
+        "anchor": "user-guide-metrics",
+        "virtual_path": "docs/user-guide/metrics.md"
+      },
+      {
+        "title": "Frequently Asked Questions",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/user-guide/faq.html",
+        "anchor": "user-guide-faq",
+        "virtual_path": "docs/user-guide/faq.md"
+      },
+      {
+        "title": "Concepts",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/python/user-guide/basics.html",
+        "anchor": "python-user-guide-basics",
+        "virtual_path": "docs/python/user-guide/basics.md"
+      },
+      {
+        "title": "Data Sources",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/python/user-guide/data-sources.html",
+        "anchor": "python-user-guide-data-sources",
+        "virtual_path": "docs/python/user-guide/data-sources.md"
+      },
+      {
+        "title": "DataFrames",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/python/user-guide/dataframe/index.html",
+        "anchor": "python-user-guide-dataframe",
+        "virtual_path": "docs/python/user-guide/dataframe/index.md",
+        "children": [
+          {
+            "title": "DataFrame Rendering",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/dataframe/rendering.html",
+            "anchor": "python-user-guide-dataframe-rendering",
+            "virtual_path": "docs/python/user-guide/dataframe/rendering.md"
+          }
+        ]
+      },
+      {
+        "title": "Common Operations",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/index.html",
+        "anchor": "python-user-guide-common-operations",
+        "virtual_path": "docs/python/user-guide/common-operations/index.md",
+        "children": [
+          {
+            "title": "Registering Views",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/views.html",
+            "anchor": "python-user-guide-common-operations-views",
+            "virtual_path": "docs/python/user-guide/common-operations/views.md"
+          },
+          {
+            "title": "Basic Operations",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/basic-info.html",
+            "anchor": "python-user-guide-common-operations-basic-info",
+            "virtual_path": "docs/python/user-guide/common-operations/basic-info.md"
+          },
+          {
+            "title": "Column Selections",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/select-and-filter.html",
+            "anchor": "python-user-guide-common-operations-select-and-filter",
+            "virtual_path": "docs/python/user-guide/common-operations/select-and-filter.md"
+          },
+          {
+            "title": "Expressions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/expressions.html",
+            "anchor": "python-user-guide-common-operations-expressions",
+            "virtual_path": "docs/python/user-guide/common-operations/expressions.md"
+          },
+          {
+            "title": "Joins",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/joins.html",
+            "anchor": "python-user-guide-common-operations-joins",
+            "virtual_path": "docs/python/user-guide/common-operations/joins.md"
+          },
+          {
+            "title": "Functions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/functions.html",
+            "anchor": "python-user-guide-common-operations-functions",
+            "virtual_path": "docs/python/user-guide/common-operations/functions.md"
+          },
+          {
+            "title": "Aggregation",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/aggregations.html",
+            "anchor": "python-user-guide-common-operations-aggregations",
+            "virtual_path": "docs/python/user-guide/common-operations/aggregations.md"
+          },
+          {
+            "title": "Window Functions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/windows.html",
+            "anchor": "python-user-guide-common-operations-windows",
+            "virtual_path": "docs/python/user-guide/common-operations/windows.md"
+          },
+          {
+            "title": "User-Defined Functions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/common-operations/udf-and-udfa.html",
+            "anchor": "python-user-guide-common-operations-udf-and-udfa",
+            "virtual_path": "docs/python/user-guide/common-operations/udf-and-udfa.md"
+          }
+        ]
+      },
+      {
+        "title": "IO",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/python/user-guide/io/index.html",
+        "anchor": "python-user-guide-io",
+        "virtual_path": "docs/python/user-guide/io/index.md",
+        "children": [
+          {
+            "title": "Arrow",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/io/arrow.html",
+            "anchor": "python-user-guide-io-arrow",
+            "virtual_path": "docs/python/user-guide/io/arrow.md"
+          },
+          {
+            "title": "Avro",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/io/avro.html",
+            "anchor": "python-user-guide-io-avro",
+            "virtual_path": "docs/python/user-guide/io/avro.md"
+          },
+          {
+            "title": "CSV",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/io/csv.html",
+            "anchor": "python-user-guide-io-csv",
+            "virtual_path": "docs/python/user-guide/io/csv.md"
+          },
+          {
+            "title": "JSON",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/io/json.html",
+            "anchor": "python-user-guide-io-json",
+            "virtual_path": "docs/python/user-guide/io/json.md"
+          },
+          {
+            "title": "Parquet",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/io/parquet.html",
+            "anchor": "python-user-guide-io-parquet",
+            "virtual_path": "docs/python/user-guide/io/parquet.md"
+          },
+          {
+            "title": "Custom Table Provider",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/python/user-guide/io/table_provider.html",
+            "anchor": "python-user-guide-io-table_provider",
+            "virtual_path": "docs/python/user-guide/io/table_provider.md"
+          }
+        ]
+      },
+      {
+        "title": "Configuration",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/python/user-guide/configuration.html",
+        "anchor": "python-user-guide-configuration",
+        "virtual_path": "docs/python/user-guide/configuration.md"
+      },
+      {
+        "title": "SQL",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/python/user-guide/sql.html",
+        "anchor": "python-user-guide-sql",
+        "virtual_path": "docs/python/user-guide/sql.md"
+      },
+      {
+        "title": "Upgrade Guides",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/python/user-guide/upgrade-guides.html",
+        "anchor": "python-user-guide-upgrade-guides",
+        "virtual_path": "docs/python/user-guide/upgrade-guides.md"
+      }
+    ]
+  },
+  {
+    "title": "Library User Guide",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Introduction",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/index.html",
+        "anchor": "library-user-guide",
+        "virtual_path": "docs/library-user-guide/index.md"
+      },
+      {
+        "title": "Upgrade Guides",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/index.html",
+        "anchor": "library-user-guide-upgrading",
+        "virtual_path": "docs/library-user-guide/upgrading/index.md",
+        "children": [
+          {
+            "title": "DataFusion 54.0.0",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/54.0.0.html",
+            "anchor": "library-user-guide-upgrading-54.0.0",
+            "virtual_path": "docs/library-user-guide/upgrading/54.0.0.md"
+          },
+          {
+            "title": "DataFusion 53.0.0",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/53.0.0.html",
+            "anchor": "library-user-guide-upgrading-53.0.0",
+            "virtual_path": "docs/library-user-guide/upgrading/53.0.0.md"
+          },
+          {
+            "title": "DataFusion 52.0.0",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/52.0.0.html",
+            "anchor": "library-user-guide-upgrading-52.0.0",
+            "virtual_path": "docs/library-user-guide/upgrading/52.0.0.md"
+          },
+          {
+            "title": "DataFusion 51.0.0",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/51.0.0.html",
+            "anchor": "library-user-guide-upgrading-51.0.0",
+            "virtual_path": "docs/library-user-guide/upgrading/51.0.0.md"
+          },
+          {
+            "title": "DataFusion 50.0.0",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/50.0.0.html",
+            "anchor": "library-user-guide-upgrading-50.0.0",
+            "virtual_path": "docs/library-user-guide/upgrading/50.0.0.md"
+          },
+          {
+            "title": "DataFusion 49.0.0",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/49.0.0.html",
+            "anchor": "library-user-guide-upgrading-49.0.0",
+            "virtual_path": "docs/library-user-guide/upgrading/49.0.0.md"
+          },
+          {
+            "title": "DataFusion 48.0.1",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/48.0.1.html",
+            "anchor": "library-user-guide-upgrading-48.0.1",
+            "virtual_path": "docs/library-user-guide/upgrading/48.0.1.md"
+          },
+          {
+            "title": "DataFusion 48.0.0",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/48.0.0.html",
+            "anchor": "library-user-guide-upgrading-48.0.0",
+            "virtual_path": "docs/library-user-guide/upgrading/48.0.0.md"
+          },
+          {
+            "title": "DataFusion 47.0.0",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/47.0.0.html",
+            "anchor": "library-user-guide-upgrading-47.0.0",
+            "virtual_path": "docs/library-user-guide/upgrading/47.0.0.md"
+          },
+          {
+            "title": "DataFusion 46.0.0",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/upgrading/46.0.0.html",
+            "anchor": "library-user-guide-upgrading-46.0.0",
+            "virtual_path": "docs/library-user-guide/upgrading/46.0.0.md"
+          }
+        ]
+      },
+      {
+        "title": "Extensions List",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/extensions.html",
+        "anchor": "library-user-guide-extensions",
+        "virtual_path": "docs/library-user-guide/extensions.md"
+      },
+      {
+        "title": "Using the SQL API",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/using-the-sql-api.html",
+        "anchor": "library-user-guide-using-the-sql-api",
+        "virtual_path": "docs/library-user-guide/using-the-sql-api.md"
+      },
+      {
+        "title": "Extending SQL Syntax",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/extending-sql.html",
+        "anchor": "library-user-guide-extending-sql",
+        "virtual_path": "docs/library-user-guide/extending-sql.md"
+      },
+      {
+        "title": "Working with Expr s",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/working-with-exprs.html",
+        "anchor": "library-user-guide-working-with-exprs",
+        "virtual_path": "docs/library-user-guide/working-with-exprs.md"
+      },
+      {
+        "title": "Using the DataFrame API",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/using-the-dataframe-api.html",
+        "anchor": "library-user-guide-using-the-dataframe-api",
+        "virtual_path": "docs/library-user-guide/using-the-dataframe-api.md"
+      },
+      {
+        "title": "Building Logical Plans",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/building-logical-plans.html",
+        "anchor": "library-user-guide-building-logical-plans",
+        "virtual_path": "docs/library-user-guide/building-logical-plans.md"
+      },
+      {
+        "title": "Catalogs, Schemas, and Tables",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/catalogs.html",
+        "anchor": "library-user-guide-catalogs",
+        "virtual_path": "docs/library-user-guide/catalogs.md"
+      },
+      {
+        "title": "Functions",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/library-user-guide/functions/index.html",
+        "anchor": "library-user-guide-functions",
+        "virtual_path": "docs/library-user-guide/functions/index.md",
+        "children": [
+          {
+            "title": "Adding User Defined Functions: Scalar/Window/Aggregate/Table Functions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/functions/adding-udfs.html",
+            "anchor": "library-user-guide-functions-adding-udfs",
+            "virtual_path": "docs/library-user-guide/functions/adding-udfs.md"
+          },
+          {
+            "title": "Spark Compatible Functions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/library-user-guide/functions/spark.html",
+            "anchor": "library-user-guide-functions-spark",
+            "virtual_path": "docs/library-user-guide/functions/spark.md"
+          }
+        ]
+      },
+      {
+        "title": "Custom Table Provider",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/custom-table-providers.html",
+        "anchor": "library-user-guide-custom-table-providers",
+        "virtual_path": "docs/library-user-guide/custom-table-providers.md"
+      },
+      {
+        "title": "Table Constraint Enforcement",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/table-constraints.html",
+        "anchor": "library-user-guide-table-constraints",
+        "virtual_path": "docs/library-user-guide/table-constraints.md"
+      },
+      {
+        "title": "Extending Operators",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/extending-operators.html",
+        "anchor": "library-user-guide-extending-operators",
+        "virtual_path": "docs/library-user-guide/extending-operators.md"
+      },
+      {
+        "title": "Profiling Cookbook",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/profiling.html",
+        "anchor": "library-user-guide-profiling",
+        "virtual_path": "docs/library-user-guide/profiling.md"
+      },
+      {
+        "title": "Query Optimizer",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/library-user-guide/query-optimizer.html",
+        "anchor": "library-user-guide-query-optimizer",
+        "virtual_path": "docs/library-user-guide/query-optimizer.md"
+      }
+    ]
+  },
+  {
+    "title": "Contributor Guide",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Introduction",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/index.html",
+        "anchor": "contributor-guide",
+        "virtual_path": "docs/contributor-guide/index.md"
+      },
+      {
+        "title": "Community Communication",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/communication.html",
+        "anchor": "contributor-guide-communication",
+        "virtual_path": "docs/contributor-guide/communication.md"
+      },
+      {
+        "title": "Development Environment",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/development_environment.html",
+        "anchor": "contributor-guide-development_environment",
+        "virtual_path": "docs/contributor-guide/development_environment.md"
+      },
+      {
+        "title": "Architecture",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/architecture.html",
+        "anchor": "contributor-guide-architecture",
+        "virtual_path": "docs/contributor-guide/architecture.md"
+      },
+      {
+        "title": "Workspace Dependency Graph",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/architecture/dependency-graph.html",
+        "anchor": "contributor-guide-architecture-dependency-graph",
+        "virtual_path": "docs/contributor-guide/architecture/dependency-graph.md"
+      },
+      {
+        "title": "Testing",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/testing.html",
+        "anchor": "contributor-guide-testing",
+        "virtual_path": "docs/contributor-guide/testing.md"
+      },
+      {
+        "title": "API health policy",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/api-health.html",
+        "anchor": "contributor-guide-api-health",
+        "virtual_path": "docs/contributor-guide/api-health.md"
+      },
+      {
+        "title": "HOWTOs",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/howtos.html",
+        "anchor": "contributor-guide-howtos",
+        "virtual_path": "docs/contributor-guide/howtos.md"
+      },
+      {
+        "title": "Release Management",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/release_management.html",
+        "anchor": "contributor-guide-release_management",
+        "virtual_path": "docs/contributor-guide/release_management.md"
+      },
+      {
+        "title": "Roadmap and Improvement Proposals",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/roadmap.html",
+        "anchor": "contributor-guide-roadmap",
+        "virtual_path": "docs/contributor-guide/roadmap.md"
+      },
+      {
+        "title": "Governance",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/governance.html",
+        "anchor": "contributor-guide-governance",
+        "virtual_path": "docs/contributor-guide/governance.md"
+      },
+      {
+        "title": "Inviting New Committers and PMC Members",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/contributor-guide/inviting.html",
+        "anchor": "contributor-guide-inviting",
+        "virtual_path": "docs/contributor-guide/inviting.md"
+      },
+      {
+        "title": "Specifications",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/contributor-guide/specification/index.html",
+        "anchor": "contributor-guide-specification",
+        "virtual_path": "docs/contributor-guide/specification/index.md",
+        "children": [
+          {
+            "title": "Invariants",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/contributor-guide/specification/invariants.html",
+            "anchor": "contributor-guide-specification-invariants",
+            "virtual_path": "docs/contributor-guide/specification/invariants.md"
+          },
+          {
+            "title": "Output field name semantics",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/contributor-guide/specification/output-field-name-semantic.html",
+            "anchor": "contributor-guide-specification-output-field-name-semantic",
+            "virtual_path": "docs/contributor-guide/specification/output-field-name-semantic.md"
+          }
+        ]
+      },
+      {
+        "title": "Google Summer of Code (GSOC)",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/contributor-guide/gsoc/index.html",
+        "anchor": "contributor-guide-gsoc",
+        "virtual_path": "docs/contributor-guide/gsoc/index.md",
+        "children": [
+          {
+            "title": "GSoC Application Guidelines (2025)",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/contributor-guide/gsoc/gsoc_application_guidelines_2025.html",
+            "anchor": "contributor-guide-gsoc-gsoc_application_guidelines_2025",
+            "virtual_path": "docs/contributor-guide/gsoc/gsoc_application_guidelines_2025.md"
+          },
+          {
+            "title": "GSoC Project Ideas (2025)",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/contributor-guide/gsoc/gsoc_project_ideas_2025.html",
+            "anchor": "contributor-guide-gsoc-gsoc_project_ideas_2025",
+            "virtual_path": "docs/contributor-guide/gsoc/gsoc_project_ideas_2025.md"
+          }
+        ]
+      },
+      {
+        "title": "Python Extensions",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/python/contributor-guide/ffi.html",
+        "anchor": "python-contributor-guide-ffi",
+        "virtual_path": "docs/python/contributor-guide/ffi.md"
+      }
+    ]
+  },
+  {
+    "title": "DataFusion Subprojects",
+    "kind": "category",
+    "children": [
+      {
+        "title": "DataFusion Ballista",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/",
+        "anchor": "ballista",
+        "virtual_path": "docs/ballista/index.md"
+      },
+      {
+        "title": "DataFusion Comet",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/comet/",
+        "anchor": "comet",
+        "virtual_path": "docs/comet/index.md"
+      },
+      {
+        "title": "DataFusion Python",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/python/",
+        "anchor": "python",
+        "virtual_path": "docs/python/index.md"
+      }
+    ]
+  },
+  {
+    "title": "API",
+    "kind": "category",
+    "children": [
+      {
+        "title": "API Reference",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/python/autoapi/index.html",
+        "anchor": "python-autoapi",
+        "virtual_path": "docs/python/autoapi/index.md",
+        "children": [
+          {
+            "title": "datafusion",
+            "kind": "category",
+            "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/index.html",
+            "anchor": "python-autoapi-datafusion",
+            "virtual_path": "docs/python/autoapi/datafusion/index.md",
+            "children": [
+              {
+                "title": "datafusion.catalog",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/catalog/index.html",
+                "anchor": "python-autoapi-datafusion-catalog",
+                "virtual_path": "docs/python/autoapi/datafusion/catalog/index.md"
+              },
+              {
+                "title": "datafusion.context",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/context/index.html",
+                "anchor": "python-autoapi-datafusion-context",
+                "virtual_path": "docs/python/autoapi/datafusion/context/index.md"
+              },
+              {
+                "title": "datafusion.dataframe",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/dataframe/index.html",
+                "anchor": "python-autoapi-datafusion-dataframe",
+                "virtual_path": "docs/python/autoapi/datafusion/dataframe/index.md"
+              },
+              {
+                "title": "datafusion.dataframe formatter",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/dataframe_formatter/index.html",
+                "anchor": "python-autoapi-datafusion-dataframe_formatter",
+                "virtual_path": "docs/python/autoapi/datafusion/dataframe_formatter/index.md"
+              },
+              {
+                "title": "datafusion.expr",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/expr/index.html",
+                "anchor": "python-autoapi-datafusion-expr",
+                "virtual_path": "docs/python/autoapi/datafusion/expr/index.md"
+              },
+              {
+                "title": "datafusion.functions",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/functions/index.html",
+                "anchor": "python-autoapi-datafusion-functions",
+                "virtual_path": "docs/python/autoapi/datafusion/functions/index.md"
+              },
+              {
+                "title": "datafusion.input",
+                "kind": "category",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/input/index.html",
+                "anchor": "python-autoapi-datafusion-input",
+                "virtual_path": "docs/python/autoapi/datafusion/input/index.md",
+                "children": [
+                  {
+                    "title": "datafusion.input.base",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/input/base/index.html",
+                    "anchor": "python-autoapi-datafusion-input-base",
+                    "virtual_path": "docs/python/autoapi/datafusion/input/base/index.md"
+                  },
+                  {
+                    "title": "datafusion.input.location",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/input/location/index.html",
+                    "anchor": "python-autoapi-datafusion-input-location",
+                    "virtual_path": "docs/python/autoapi/datafusion/input/location/index.md"
+                  }
+                ]
+              },
+              {
+                "title": "datafusion.io",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/io/index.html",
+                "anchor": "python-autoapi-datafusion-io",
+                "virtual_path": "docs/python/autoapi/datafusion/io/index.md"
+              },
+              {
+                "title": "datafusion.object store",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/object_store/index.html",
+                "anchor": "python-autoapi-datafusion-object_store",
+                "virtual_path": "docs/python/autoapi/datafusion/object_store/index.md"
+              },
+              {
+                "title": "datafusion.options",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/options/index.html",
+                "anchor": "python-autoapi-datafusion-options",
+                "virtual_path": "docs/python/autoapi/datafusion/options/index.md"
+              },
+              {
+                "title": "datafusion.plan",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/plan/index.html",
+                "anchor": "python-autoapi-datafusion-plan",
+                "virtual_path": "docs/python/autoapi/datafusion/plan/index.md"
+              },
+              {
+                "title": "datafusion.record batch",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/record_batch/index.html",
+                "anchor": "python-autoapi-datafusion-record_batch",
+                "virtual_path": "docs/python/autoapi/datafusion/record_batch/index.md"
+              },
+              {
+                "title": "datafusion.substrait",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/substrait/index.html",
+                "anchor": "python-autoapi-datafusion-substrait",
+                "virtual_path": "docs/python/autoapi/datafusion/substrait/index.md"
+              },
+              {
+                "title": "datafusion.unparser",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/unparser/index.html",
+                "anchor": "python-autoapi-datafusion-unparser",
+                "virtual_path": "docs/python/autoapi/datafusion/unparser/index.md"
+              },
+              {
+                "title": "datafusion.user defined",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/python/autoapi/datafusion/user_defined/index.html",
+                "anchor": "python-autoapi-datafusion-user_defined",
+                "virtual_path": "docs/python/autoapi/datafusion/user_defined/index.md"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Index",
+    "kind": "category",
+    "children": [
+      {
+        "title": "User Guide",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/comet/user-guide/index.html",
+        "anchor": "comet-user-guide",
+        "virtual_path": "docs/comet/user-guide/index.md",
+        "children": [
+          {
+            "title": "0.17.0-SNAPSHOT",
+            "kind": "category",
+            "source_url": "https://datafusion.apache.org/comet/user-guide/latest/index.html",
+            "anchor": "comet-user-guide-latest",
+            "virtual_path": "docs/comet/user-guide/latest/index.md",
+            "children": [
+              {
+                "title": "Installing Comet",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/installation.html",
+                "anchor": "comet-user-guide-latest-installation",
+                "virtual_path": "docs/comet/user-guide/latest/installation.md"
+              },
+              {
+                "title": "Building From Source",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/source.html",
+                "anchor": "comet-user-guide-latest-source",
+                "virtual_path": "docs/comet/user-guide/latest/source.md"
+              },
+              {
+                "title": "Supported Data Sources",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/datasources.html",
+                "anchor": "comet-user-guide-latest-datasources",
+                "virtual_path": "docs/comet/user-guide/latest/datasources.md"
+              },
+              {
+                "title": "Supported Data Types",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/datatypes.html",
+                "anchor": "comet-user-guide-latest-datatypes",
+                "virtual_path": "docs/comet/user-guide/latest/datatypes.md"
+              },
+              {
+                "title": "Supported Operators",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/operators.html",
+                "anchor": "comet-user-guide-latest-operators",
+                "virtual_path": "docs/comet/user-guide/latest/operators.md"
+              },
+              {
+                "title": "Supported Expressions",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/expressions.html",
+                "anchor": "comet-user-guide-latest-expressions",
+                "virtual_path": "docs/comet/user-guide/latest/expressions.md"
+              },
+              {
+                "title": "Configuration Settings",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/configs.html",
+                "anchor": "comet-user-guide-latest-configs",
+                "virtual_path": "docs/comet/user-guide/latest/configs.md"
+              },
+              {
+                "title": "Compatibility Guide",
+                "kind": "category",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/index.html",
+                "anchor": "comet-user-guide-latest-compatibility",
+                "virtual_path": "docs/comet/user-guide/latest/compatibility/index.md",
+                "children": [
+                  {
+                    "title": "Parquet Compatibility",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/scans.html",
+                    "anchor": "comet-user-guide-latest-compatibility-scans",
+                    "virtual_path": "docs/comet/user-guide/latest/compatibility/scans.md"
+                  },
+                  {
+                    "title": "Floating-point Number Comparison",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/floating-point.html",
+                    "anchor": "comet-user-guide-latest-compatibility-floating-point",
+                    "virtual_path": "docs/comet/user-guide/latest/compatibility/floating-point.md"
+                  },
+                  {
+                    "title": "Regular Expressions",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/regex.html",
+                    "anchor": "comet-user-guide-latest-compatibility-regex",
+                    "virtual_path": "docs/comet/user-guide/latest/compatibility/regex.md"
+                  },
+                  {
+                    "title": "Operator Compatibility",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/operators.html",
+                    "anchor": "comet-user-guide-latest-compatibility-operators",
+                    "virtual_path": "docs/comet/user-guide/latest/compatibility/operators.md"
+                  },
+                  {
+                    "title": "Expression Compatibility",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/expressions/index.html",
+                    "anchor": "comet-user-guide-latest-compatibility-expressions",
+                    "virtual_path": "docs/comet/user-guide/latest/compatibility/expressions/index.md"
+                  },
+                  {
+                    "title": "Spark Version Compatibility",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/latest/compatibility/spark-versions.html",
+                    "anchor": "comet-user-guide-latest-compatibility-spark-versions",
+                    "virtual_path": "docs/comet/user-guide/latest/compatibility/spark-versions.md"
+                  }
+                ]
+              },
+              {
+                "title": "Understanding Comet Plans",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/understanding-comet-plans.html",
+                "anchor": "comet-user-guide-latest-understanding-comet-plans",
+                "virtual_path": "docs/comet/user-guide/latest/understanding-comet-plans.md"
+              },
+              {
+                "title": "Tuning Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/tuning.html",
+                "anchor": "comet-user-guide-latest-tuning",
+                "virtual_path": "docs/comet/user-guide/latest/tuning.md"
+              },
+              {
+                "title": "Metrics Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/metrics.html",
+                "anchor": "comet-user-guide-latest-metrics",
+                "virtual_path": "docs/comet/user-guide/latest/metrics.md"
+              },
+              {
+                "title": "Iceberg Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/iceberg.html",
+                "anchor": "comet-user-guide-latest-iceberg",
+                "virtual_path": "docs/comet/user-guide/latest/iceberg.md"
+              },
+              {
+                "title": "Kubernetes Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/latest/kubernetes.html",
+                "anchor": "comet-user-guide-latest-kubernetes",
+                "virtual_path": "docs/comet/user-guide/latest/kubernetes.md"
+              }
+            ]
+          },
+          {
+            "title": "0.16.x",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/index.html",
+            "anchor": "comet-user-guide-0.16",
+            "virtual_path": "docs/comet/user-guide/0.16/index.md",
+            "children": [
+              {
+                "title": "Installing Comet",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/installation.html",
+                "anchor": "comet-user-guide-0.16-installation",
+                "virtual_path": "docs/comet/user-guide/0.16/installation.md"
+              },
+              {
+                "title": "Building From Source",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/source.html",
+                "anchor": "comet-user-guide-0.16-source",
+                "virtual_path": "docs/comet/user-guide/0.16/source.md"
+              },
+              {
+                "title": "Supported Data Sources",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/datasources.html",
+                "anchor": "comet-user-guide-0.16-datasources",
+                "virtual_path": "docs/comet/user-guide/0.16/datasources.md"
+              },
+              {
+                "title": "Supported Data Types",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/datatypes.html",
+                "anchor": "comet-user-guide-0.16-datatypes",
+                "virtual_path": "docs/comet/user-guide/0.16/datatypes.md"
+              },
+              {
+                "title": "Supported Operators",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/operators.html",
+                "anchor": "comet-user-guide-0.16-operators",
+                "virtual_path": "docs/comet/user-guide/0.16/operators.md"
+              },
+              {
+                "title": "Supported Expressions",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/expressions.html",
+                "anchor": "comet-user-guide-0.16-expressions",
+                "virtual_path": "docs/comet/user-guide/0.16/expressions.md"
+              },
+              {
+                "title": "Configuration Settings",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/configs.html",
+                "anchor": "comet-user-guide-0.16-configs",
+                "virtual_path": "docs/comet/user-guide/0.16/configs.md"
+              },
+              {
+                "title": "Compatibility Guide",
+                "kind": "category",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/index.html",
+                "anchor": "comet-user-guide-0.16-compatibility",
+                "virtual_path": "docs/comet/user-guide/0.16/compatibility/index.md",
+                "children": [
+                  {
+                    "title": "Parquet Compatibility",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/scans.html",
+                    "anchor": "comet-user-guide-0.16-compatibility-scans",
+                    "virtual_path": "docs/comet/user-guide/0.16/compatibility/scans.md"
+                  },
+                  {
+                    "title": "Floating-point Number Comparison",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/floating-point.html",
+                    "anchor": "comet-user-guide-0.16-compatibility-floating-point",
+                    "virtual_path": "docs/comet/user-guide/0.16/compatibility/floating-point.md"
+                  },
+                  {
+                    "title": "Regular Expressions",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/regex.html",
+                    "anchor": "comet-user-guide-0.16-compatibility-regex",
+                    "virtual_path": "docs/comet/user-guide/0.16/compatibility/regex.md"
+                  },
+                  {
+                    "title": "Operator Compatibility",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/operators.html",
+                    "anchor": "comet-user-guide-0.16-compatibility-operators",
+                    "virtual_path": "docs/comet/user-guide/0.16/compatibility/operators.md"
+                  },
+                  {
+                    "title": "Expression Compatibility",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/expressions/index.html",
+                    "anchor": "comet-user-guide-0.16-compatibility-expressions",
+                    "virtual_path": "docs/comet/user-guide/0.16/compatibility/expressions/index.md"
+                  },
+                  {
+                    "title": "Spark Version Compatibility",
+                    "kind": "link",
+                    "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/compatibility/spark-versions.html",
+                    "anchor": "comet-user-guide-0.16-compatibility-spark-versions",
+                    "virtual_path": "docs/comet/user-guide/0.16/compatibility/spark-versions.md"
+                  }
+                ]
+              },
+              {
+                "title": "Understanding Comet Plans",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/understanding-comet-plans.html",
+                "anchor": "comet-user-guide-0.16-understanding-comet-plans",
+                "virtual_path": "docs/comet/user-guide/0.16/understanding-comet-plans.md"
+              },
+              {
+                "title": "Tuning Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/tuning.html",
+                "anchor": "comet-user-guide-0.16-tuning",
+                "virtual_path": "docs/comet/user-guide/0.16/tuning.md"
+              },
+              {
+                "title": "Metrics Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/metrics.html",
+                "anchor": "comet-user-guide-0.16-metrics",
+                "virtual_path": "docs/comet/user-guide/0.16/metrics.md"
+              },
+              {
+                "title": "Iceberg Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/iceberg.html",
+                "anchor": "comet-user-guide-0.16-iceberg",
+                "virtual_path": "docs/comet/user-guide/0.16/iceberg.md"
+              },
+              {
+                "title": "Kubernetes Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.16/kubernetes.html",
+                "anchor": "comet-user-guide-0.16-kubernetes",
+                "virtual_path": "docs/comet/user-guide/0.16/kubernetes.md"
+              }
+            ]
+          },
+          {
+            "title": "0.15.x",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/index.html",
+            "anchor": "comet-user-guide-0.15",
+            "virtual_path": "docs/comet/user-guide/0.15/index.md",
+            "children": [
+              {
+                "title": "Installing Comet",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/installation.html",
+                "anchor": "comet-user-guide-0.15-installation",
+                "virtual_path": "docs/comet/user-guide/0.15/installation.md"
+              },
+              {
+                "title": "Building From Source",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/source.html",
+                "anchor": "comet-user-guide-0.15-source",
+                "virtual_path": "docs/comet/user-guide/0.15/source.md"
+              },
+              {
+                "title": "Supported Data Sources",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/datasources.html",
+                "anchor": "comet-user-guide-0.15-datasources",
+                "virtual_path": "docs/comet/user-guide/0.15/datasources.md"
+              },
+              {
+                "title": "Supported Data Types",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/datatypes.html",
+                "anchor": "comet-user-guide-0.15-datatypes",
+                "virtual_path": "docs/comet/user-guide/0.15/datatypes.md"
+              },
+              {
+                "title": "Supported Operators",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/operators.html",
+                "anchor": "comet-user-guide-0.15-operators",
+                "virtual_path": "docs/comet/user-guide/0.15/operators.md"
+              },
+              {
+                "title": "Supported Expressions",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/expressions.html",
+                "anchor": "comet-user-guide-0.15-expressions",
+                "virtual_path": "docs/comet/user-guide/0.15/expressions.md"
+              },
+              {
+                "title": "Configuration Settings",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/configs.html",
+                "anchor": "comet-user-guide-0.15-configs",
+                "virtual_path": "docs/comet/user-guide/0.15/configs.md"
+              },
+              {
+                "title": "Compatibility Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/compatibility.html",
+                "anchor": "comet-user-guide-0.15-compatibility",
+                "virtual_path": "docs/comet/user-guide/0.15/compatibility.md"
+              },
+              {
+                "title": "Tuning Guide",
+                "kind": "category",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/tuning.html",
+                "anchor": "comet-user-guide-0.15-tuning",
+                "virtual_path": "docs/comet/user-guide/0.15/tuning.md"
+              },
+              {
+                "title": "Metrics Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/metrics.html",
+                "anchor": "comet-user-guide-0.15-metrics",
+                "virtual_path": "docs/comet/user-guide/0.15/metrics.md"
+              },
+              {
+                "title": "Iceberg Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/iceberg.html",
+                "anchor": "comet-user-guide-0.15-iceberg",
+                "virtual_path": "docs/comet/user-guide/0.15/iceberg.md"
+              },
+              {
+                "title": "Kubernetes Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.15/kubernetes.html",
+                "anchor": "comet-user-guide-0.15-kubernetes",
+                "virtual_path": "docs/comet/user-guide/0.15/kubernetes.md"
+              }
+            ]
+          },
+          {
+            "title": "0.14.x",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/index.html",
+            "anchor": "comet-user-guide-0.14",
+            "virtual_path": "docs/comet/user-guide/0.14/index.md",
+            "children": [
+              {
+                "title": "Installing Comet",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/installation.html",
+                "anchor": "comet-user-guide-0.14-installation",
+                "virtual_path": "docs/comet/user-guide/0.14/installation.md"
+              },
+              {
+                "title": "Building From Source",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/source.html",
+                "anchor": "comet-user-guide-0.14-source",
+                "virtual_path": "docs/comet/user-guide/0.14/source.md"
+              },
+              {
+                "title": "Supported Data Sources",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/datasources.html",
+                "anchor": "comet-user-guide-0.14-datasources",
+                "virtual_path": "docs/comet/user-guide/0.14/datasources.md"
+              },
+              {
+                "title": "Supported Data Types",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/datatypes.html",
+                "anchor": "comet-user-guide-0.14-datatypes",
+                "virtual_path": "docs/comet/user-guide/0.14/datatypes.md"
+              },
+              {
+                "title": "Supported Operators",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/operators.html",
+                "anchor": "comet-user-guide-0.14-operators",
+                "virtual_path": "docs/comet/user-guide/0.14/operators.md"
+              },
+              {
+                "title": "Supported Expressions",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/expressions.html",
+                "anchor": "comet-user-guide-0.14-expressions",
+                "virtual_path": "docs/comet/user-guide/0.14/expressions.md"
+              },
+              {
+                "title": "Configuration Settings",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/configs.html",
+                "anchor": "comet-user-guide-0.14-configs",
+                "virtual_path": "docs/comet/user-guide/0.14/configs.md"
+              },
+              {
+                "title": "Compatibility Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/compatibility.html",
+                "anchor": "comet-user-guide-0.14-compatibility",
+                "virtual_path": "docs/comet/user-guide/0.14/compatibility.md"
+              },
+              {
+                "title": "Tuning Guide",
+                "kind": "category",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/tuning.html",
+                "anchor": "comet-user-guide-0.14-tuning",
+                "virtual_path": "docs/comet/user-guide/0.14/tuning.md"
+              },
+              {
+                "title": "Metrics Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/metrics.html",
+                "anchor": "comet-user-guide-0.14-metrics",
+                "virtual_path": "docs/comet/user-guide/0.14/metrics.md"
+              },
+              {
+                "title": "Iceberg Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/iceberg.html",
+                "anchor": "comet-user-guide-0.14-iceberg",
+                "virtual_path": "docs/comet/user-guide/0.14/iceberg.md"
+              },
+              {
+                "title": "Kubernetes Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.14/kubernetes.html",
+                "anchor": "comet-user-guide-0.14-kubernetes",
+                "virtual_path": "docs/comet/user-guide/0.14/kubernetes.md"
+              }
+            ]
+          },
+          {
+            "title": "0.13.x",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/index.html",
+            "anchor": "comet-user-guide-0.13",
+            "virtual_path": "docs/comet/user-guide/0.13/index.md",
+            "children": [
+              {
+                "title": "Installing Comet",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/installation.html",
+                "anchor": "comet-user-guide-0.13-installation",
+                "virtual_path": "docs/comet/user-guide/0.13/installation.md"
+              },
+              {
+                "title": "Building From Source",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/source.html",
+                "anchor": "comet-user-guide-0.13-source",
+                "virtual_path": "docs/comet/user-guide/0.13/source.md"
+              },
+              {
+                "title": "Supported Data Sources",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/datasources.html",
+                "anchor": "comet-user-guide-0.13-datasources",
+                "virtual_path": "docs/comet/user-guide/0.13/datasources.md"
+              },
+              {
+                "title": "Supported Data Types",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/datatypes.html",
+                "anchor": "comet-user-guide-0.13-datatypes",
+                "virtual_path": "docs/comet/user-guide/0.13/datatypes.md"
+              },
+              {
+                "title": "Supported Operators",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/operators.html",
+                "anchor": "comet-user-guide-0.13-operators",
+                "virtual_path": "docs/comet/user-guide/0.13/operators.md"
+              },
+              {
+                "title": "Supported Expressions",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/expressions.html",
+                "anchor": "comet-user-guide-0.13-expressions",
+                "virtual_path": "docs/comet/user-guide/0.13/expressions.md"
+              },
+              {
+                "title": "Configuration Settings",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/configs.html",
+                "anchor": "comet-user-guide-0.13-configs",
+                "virtual_path": "docs/comet/user-guide/0.13/configs.md"
+              },
+              {
+                "title": "Compatibility Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/compatibility.html",
+                "anchor": "comet-user-guide-0.13-compatibility",
+                "virtual_path": "docs/comet/user-guide/0.13/compatibility.md"
+              },
+              {
+                "title": "Tuning Guide",
+                "kind": "category",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/tuning.html",
+                "anchor": "comet-user-guide-0.13-tuning",
+                "virtual_path": "docs/comet/user-guide/0.13/tuning.md"
+              },
+              {
+                "title": "Metrics Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/metrics.html",
+                "anchor": "comet-user-guide-0.13-metrics",
+                "virtual_path": "docs/comet/user-guide/0.13/metrics.md"
+              },
+              {
+                "title": "Iceberg Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/iceberg.html",
+                "anchor": "comet-user-guide-0.13-iceberg",
+                "virtual_path": "docs/comet/user-guide/0.13/iceberg.md"
+              },
+              {
+                "title": "Kubernetes Guide",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/user-guide/0.13/kubernetes.html",
+                "anchor": "comet-user-guide-0.13-kubernetes",
+                "virtual_path": "docs/comet/user-guide/0.13/kubernetes.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Contributor Guide",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/comet/contributor-guide/index.html",
+        "anchor": "comet-contributor-guide",
+        "virtual_path": "docs/comet/contributor-guide/index.md",
+        "children": [
+          {
+            "title": "Getting Started",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/contributing.html",
+            "anchor": "comet-contributor-guide-contributing",
+            "virtual_path": "docs/comet/contributor-guide/contributing.md"
+          },
+          {
+            "title": "Comet Plugin Architecture",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/plugin_overview.html",
+            "anchor": "comet-contributor-guide-plugin_overview",
+            "virtual_path": "docs/comet/contributor-guide/plugin_overview.md"
+          },
+          {
+            "title": "Plugin Components",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/plugin_overview.html#plugin-components",
+            "anchor": "comet-contributor-guide-plugin_overview--plugin-components",
+            "virtual_path": "docs/comet/contributor-guide/plugin_overview.md"
+          },
+          {
+            "title": "Arrow FFI",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/ffi.html",
+            "anchor": "comet-contributor-guide-ffi",
+            "virtual_path": "docs/comet/contributor-guide/ffi.md"
+          },
+          {
+            "title": "JVM Shuffle",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/jvm_shuffle.html",
+            "anchor": "comet-contributor-guide-jvm_shuffle",
+            "virtual_path": "docs/comet/contributor-guide/jvm_shuffle.md"
+          },
+          {
+            "title": "Native Shuffle",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/native_shuffle.html",
+            "anchor": "comet-contributor-guide-native_shuffle",
+            "virtual_path": "docs/comet/contributor-guide/native_shuffle.md"
+          },
+          {
+            "title": "Development Guide",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/development.html",
+            "anchor": "comet-contributor-guide-development",
+            "virtual_path": "docs/comet/contributor-guide/development.md"
+          },
+          {
+            "title": "Debugging Guide",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/debugging.html",
+            "anchor": "comet-contributor-guide-debugging",
+            "virtual_path": "docs/comet/contributor-guide/debugging.md"
+          },
+          {
+            "title": "ANSI Error Propagation",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/sql_error_propagation.html",
+            "anchor": "comet-contributor-guide-sql_error_propagation",
+            "virtual_path": "docs/comet/contributor-guide/sql_error_propagation.md"
+          },
+          {
+            "title": "Benchmarking Guide",
+            "kind": "category",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmarking.html",
+            "anchor": "comet-contributor-guide-benchmarking",
+            "virtual_path": "docs/comet/contributor-guide/benchmarking.md",
+            "children": [
+              {
+                "title": "Apache DataFusion Comet: Benchmarks Derived From TPC-H",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmark-results/tpc-h.html",
+                "anchor": "comet-contributor-guide-benchmark-results-tpc-h",
+                "virtual_path": "docs/comet/contributor-guide/benchmark-results/tpc-h.md"
+              },
+              {
+                "title": "Apache DataFusion Comet: Benchmarks Derived From TPC-DS",
+                "kind": "category",
+                "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmark-results/tpc-ds.html",
+                "anchor": "comet-contributor-guide-benchmark-results-tpc-ds",
+                "virtual_path": "docs/comet/contributor-guide/benchmark-results/tpc-ds.md"
+              },
+              {
+                "title": "Comet Benchmarking on macOS",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmarking_macos.html",
+                "anchor": "comet-contributor-guide-benchmarking_macos",
+                "virtual_path": "docs/comet/contributor-guide/benchmarking_macos.md"
+              },
+              {
+                "title": "Comet Benchmarking in EC2",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmarking_aws_ec2.html",
+                "anchor": "comet-contributor-guide-benchmarking_aws_ec2",
+                "virtual_path": "docs/comet/contributor-guide/benchmarking_aws_ec2.md"
+              },
+              {
+                "title": "TPC-DS Benchmarking with spark-sql-perf",
+                "kind": "link",
+                "source_url": "https://datafusion.apache.org/comet/contributor-guide/benchmarking_spark_sql_perf.html",
+                "anchor": "comet-contributor-guide-benchmarking_spark_sql_perf",
+                "virtual_path": "docs/comet/contributor-guide/benchmarking_spark_sql_perf.md"
+              }
+            ]
+          },
+          {
+            "title": "Adding a New Operator",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/adding_a_new_operator.html",
+            "anchor": "comet-contributor-guide-adding_a_new_operator",
+            "virtual_path": "docs/comet/contributor-guide/adding_a_new_operator.md"
+          },
+          {
+            "title": "Adding a New Expression",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/adding_a_new_expression.html",
+            "anchor": "comet-contributor-guide-adding_a_new_expression",
+            "virtual_path": "docs/comet/contributor-guide/adding_a_new_expression.md"
+          },
+          {
+            "title": "Adding a New Spark Version",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/adding_a_new_spark_version.html",
+            "anchor": "comet-contributor-guide-adding_a_new_spark_version",
+            "virtual_path": "docs/comet/contributor-guide/adding_a_new_spark_version.md"
+          },
+          {
+            "title": "Supported Spark Expressions",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/spark_expressions_support.html",
+            "anchor": "comet-contributor-guide-spark_expressions_support",
+            "virtual_path": "docs/comet/contributor-guide/spark_expressions_support.md"
+          },
+          {
+            "title": "Supported Spark Configurations",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/spark_configs_support.html",
+            "anchor": "comet-contributor-guide-spark_configs_support",
+            "virtual_path": "docs/comet/contributor-guide/spark_configs_support.md"
+          },
+          {
+            "title": "Tracing",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/tracing.html",
+            "anchor": "comet-contributor-guide-tracing",
+            "virtual_path": "docs/comet/contributor-guide/tracing.md"
+          },
+          {
+            "title": "Profiling",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/profiling.html",
+            "anchor": "comet-contributor-guide-profiling",
+            "virtual_path": "docs/comet/contributor-guide/profiling.md"
+          },
+          {
+            "title": "Comet SQL Tests",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/sql-file-tests.html",
+            "anchor": "comet-contributor-guide-sql-file-tests",
+            "virtual_path": "docs/comet/contributor-guide/sql-file-tests.md"
+          },
+          {
+            "title": "Spark SQL Tests",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/spark-sql-tests.html",
+            "anchor": "comet-contributor-guide-spark-sql-tests",
+            "virtual_path": "docs/comet/contributor-guide/spark-sql-tests.md"
+          },
+          {
+            "title": "Iceberg Spark Tests",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/iceberg-spark-tests.html",
+            "anchor": "comet-contributor-guide-iceberg-spark-tests",
+            "virtual_path": "docs/comet/contributor-guide/iceberg-spark-tests.md"
+          },
+          {
+            "title": "Bug Triage",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/bug_triage.html",
+            "anchor": "comet-contributor-guide-bug_triage",
+            "virtual_path": "docs/comet/contributor-guide/bug_triage.md"
+          },
+          {
+            "title": "Roadmap",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/roadmap.html",
+            "anchor": "comet-contributor-guide-roadmap",
+            "virtual_path": "docs/comet/contributor-guide/roadmap.md"
+          },
+          {
+            "title": "Release Process",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/comet/contributor-guide/release_process.html",
+            "anchor": "comet-contributor-guide-release_process",
+            "virtual_path": "docs/comet/contributor-guide/release_process.md"
+          }
+        ]
+      },
+      {
+        "title": "Comparison with Gluten",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/comet/about/gluten_comparison.html",
+        "anchor": "comet-about-gluten_comparison",
+        "virtual_path": "docs/comet/about/gluten_comparison.md"
+      },
+      {
+        "title": "ASF Links",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/comet/asf/index.html",
+        "anchor": "comet-asf",
+        "virtual_path": "docs/comet/asf/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Cluster Deployment",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Deployment",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/index.html",
+        "anchor": "ballista-user-guide-deployment",
+        "virtual_path": "docs/ballista/user-guide/deployment/index.md",
+        "children": [
+          {
+            "title": "Quick Start",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/quick-start.html",
+            "anchor": "ballista-user-guide-deployment-quick-start",
+            "virtual_path": "docs/ballista/user-guide/deployment/quick-start.md"
+          },
+          {
+            "title": "Cargo Install",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/cargo-install.html",
+            "anchor": "ballista-user-guide-deployment-cargo-install",
+            "virtual_path": "docs/ballista/user-guide/deployment/cargo-install.md"
+          },
+          {
+            "title": "Docker",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/docker.html",
+            "anchor": "ballista-user-guide-deployment-docker",
+            "virtual_path": "docs/ballista/user-guide/deployment/docker.md"
+          },
+          {
+            "title": "Docker Compose",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/docker-compose.html",
+            "anchor": "ballista-user-guide-deployment-docker-compose",
+            "virtual_path": "docs/ballista/user-guide/deployment/docker-compose.md"
+          },
+          {
+            "title": "Kubernetes",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/ballista/user-guide/deployment/kubernetes.html",
+            "anchor": "ballista-user-guide-deployment-kubernetes",
+            "virtual_path": "docs/ballista/user-guide/deployment/kubernetes.md"
+          }
+        ]
+      },
+      {
+        "title": "Scheduler",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/scheduler.html",
+        "anchor": "ballista-user-guide-scheduler",
+        "virtual_path": "docs/ballista/user-guide/scheduler.md"
+      }
+    ]
+  },
+  {
+    "title": "Clients",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Python",
+        "kind": "category",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/python/index.html",
+        "anchor": "ballista-user-guide-python",
+        "virtual_path": "docs/ballista/user-guide/python/index.md",
+        "children": [
+          {
+            "title": "Quick Start",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/ballista/user-guide/python/quickstart.html",
+            "anchor": "ballista-user-guide-python-quickstart",
+            "virtual_path": "docs/ballista/user-guide/python/quickstart.md"
+          },
+          {
+            "title": "Querying S3 Data",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/ballista/user-guide/python/cloud-storage.html",
+            "anchor": "ballista-user-guide-python-cloud-storage",
+            "virtual_path": "docs/ballista/user-guide/python/cloud-storage.md"
+          },
+          {
+            "title": "Jupyter Notebooks",
+            "kind": "link",
+            "source_url": "https://datafusion.apache.org/ballista/user-guide/python/jupyter.html",
+            "anchor": "ballista-user-guide-python-jupyter",
+            "virtual_path": "docs/ballista/user-guide/python/jupyter.md"
+          }
+        ]
+      },
+      {
+        "title": "Rust",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/rust.html",
+        "anchor": "ballista-user-guide-rust",
+        "virtual_path": "docs/ballista/user-guide/rust.md"
+      },
+      {
+        "title": "SQL CLI",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/cli.html",
+        "anchor": "ballista-user-guide-cli",
+        "virtual_path": "docs/ballista/user-guide/cli.md"
+      }
+    ]
+  },
+  {
+    "title": "Reference",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Configuration",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/configs.html",
+        "anchor": "ballista-user-guide-configs",
+        "virtual_path": "docs/ballista/user-guide/configs.md"
+      },
+      {
+        "title": "Tuning Guide",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/tuning-guide.html",
+        "anchor": "ballista-user-guide-tuning-guide",
+        "virtual_path": "docs/ballista/user-guide/tuning-guide.md"
+      },
+      {
+        "title": "Ballista Scheduler Metrics",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/metrics.html",
+        "anchor": "ballista-user-guide-metrics",
+        "virtual_path": "docs/ballista/user-guide/metrics.md"
+      },
+      {
+        "title": "Frequently Asked Questions",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/faq.html",
+        "anchor": "ballista-user-guide-faq",
+        "virtual_path": "docs/ballista/user-guide/faq.md"
+      },
+      {
+        "title": "Extending Ballista Scheduler And Executors",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/extending-components.html",
+        "anchor": "ballista-user-guide-extending-components",
+        "virtual_path": "docs/ballista/user-guide/extending-components.md"
+      },
+      {
+        "title": "Spark-Compatible Functions",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/spark-compatible-functions.html",
+        "anchor": "ballista-user-guide-spark-compatible-functions",
+        "virtual_path": "docs/ballista/user-guide/spark-compatible-functions.md"
+      },
+      {
+        "title": "Extensions Example",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/extensions-example.html",
+        "anchor": "ballista-user-guide-extensions-example",
+        "virtual_path": "docs/ballista/user-guide/extensions-example.md"
+      }
+    ]
+  },
+  {
+    "title": "Contributors Guide",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Ballista Architecture",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/contributors-guide/architecture.html",
+        "anchor": "ballista-contributors-guide-architecture",
+        "virtual_path": "docs/ballista/contributors-guide/architecture.md"
+      },
+      {
+        "title": "Ballista Code Organization",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/contributors-guide/code-organization.html",
+        "anchor": "ballista-contributors-guide-code-organization",
+        "virtual_path": "docs/ballista/contributors-guide/code-organization.md"
+      },
+      {
+        "title": "Ballista Development",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/contributors-guide/development.html",
+        "anchor": "ballista-contributors-guide-development",
+        "virtual_path": "docs/ballista/contributors-guide/development.md"
+      }
+    ]
+  },
+  {
+    "title": "Community",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Communication",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/community/communication.html",
+        "anchor": "ballista-community-communication",
+        "virtual_path": "docs/ballista/community/communication.md"
+      }
+    ]
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Overview ¶",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/ballista/user-guide/introduction.html",
+        "anchor": "ballista-user-guide-introduction",
+        "virtual_path": "docs/ballista/user-guide/introduction.md"
+      },
+      {
+        "title": "Introduction ¶",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/python/contributor-guide/introduction.html",
+        "anchor": "python-contributor-guide-introduction",
+        "virtual_path": "docs/python/contributor-guide/introduction.md"
+      },
+      {
+        "title": "Introduction ¶",
+        "kind": "link",
+        "source_url": "https://datafusion.apache.org/python/user-guide/introduction.html",
+        "anchor": "python-user-guide-introduction",
+        "virtual_path": "docs/python/user-guide/introduction.md"
+      }
+    ]
+  }
+]

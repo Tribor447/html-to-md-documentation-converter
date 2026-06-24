@@ -1,0 +1,740 @@
+- title: Introduction
+  kind: link
+  source_url: https://brooklyn.apache.org/v/latest/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Getting Started
+  kind: category
+  source_url: https://brooklyn.apache.org/v/latest/start/
+  anchor: start
+  virtual_path: docs/start/index.md
+  children:
+  - title: Running Apache Brooklyn
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/start/running.html
+    anchor: start-running
+    virtual_path: docs/start/running.md
+  - title: Deploying Blueprints
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/start/blueprints.html
+    anchor: start-blueprints
+    virtual_path: docs/start/blueprints.md
+  - title: Monitoring and Managing Applications
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/start/managing.html
+    anchor: start-managing
+    virtual_path: docs/start/managing.md
+  - title: Policies
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/start/policies.html
+    anchor: start-policies
+    virtual_path: docs/start/policies.md
+  - title: Concepts
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/start/concept-quickstart.html
+    anchor: start-concept-quickstart
+    virtual_path: docs/start/concept-quickstart.md
+- title: Downloads
+  kind: link
+  source_url: https://brooklyn.apache.org/v/latest/misc/download.html
+  anchor: misc-download
+  virtual_path: docs/misc/download.md
+- title: Brooklyn Concepts
+  kind: category
+  source_url: https://brooklyn.apache.org/v/latest/concepts/
+  anchor: concepts
+  virtual_path: docs/concepts/index.md
+  children:
+  - title: Entities
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/concepts/entities.html
+    anchor: concepts-entities
+    virtual_path: docs/concepts/entities.md
+  - title: Application, Parent and Membership
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/concepts/application-parent-membership.html
+    anchor: concepts-application-parent-membership
+    virtual_path: docs/concepts/application-parent-membership.md
+  - title: Configuration, Sensors and Effectors
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/concepts/configuration-sensor-effectors.html
+    anchor: concepts-configuration-sensor-effectors
+    virtual_path: docs/concepts/configuration-sensor-effectors.md
+  - title: Lifecycle and ManagementContext
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/concepts/lifecycle-managementcontext.html
+    anchor: concepts-lifecycle-managementcontext
+    virtual_path: docs/concepts/lifecycle-managementcontext.md
+  - title: Dependent Configuration
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/concepts/dependent-configuration.html
+    anchor: concepts-dependent-configuration
+    virtual_path: docs/concepts/dependent-configuration.md
+  - title: Location
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/concepts/location.html
+    anchor: concepts-location
+    virtual_path: docs/concepts/location.md
+  - title: Policies
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/concepts/policies.html
+    anchor: concepts-policies
+    virtual_path: docs/concepts/policies.md
+  - title: Execution
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/concepts/execution.html
+    anchor: concepts-execution
+    virtual_path: docs/concepts/execution.md
+  - title: Stop/start/restart behaviour
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/concepts/stop-start-restart-behaviour.html
+    anchor: concepts-stop-start-restart-behaviour
+    virtual_path: docs/concepts/stop-start-restart-behaviour.md
+- title: Writing Blueprints
+  kind: category
+  source_url: https://brooklyn.apache.org/v/latest/blueprints/
+  anchor: blueprints
+  virtual_path: docs/blueprints/index.md
+  children:
+  - title: Creating YAML Blueprint
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/creating-yaml.html
+    anchor: blueprints-creating-yaml
+    virtual_path: docs/blueprints/creating-yaml.md
+  - title: Entity Configuration
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/entity-configuration.html
+    anchor: blueprints-entity-configuration
+    virtual_path: docs/blueprints/entity-configuration.md
+  - title: Setting Locations
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/setting-locations.html
+    anchor: blueprints-setting-locations
+    virtual_path: docs/blueprints/setting-locations.md
+  - title: Configuring VMs
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/configuring-vms.html
+    anchor: blueprints-configuring-vms
+    virtual_path: docs/blueprints/configuring-vms.md
+  - title: Uploading Files
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/config-files.html
+    anchor: blueprints-config-files
+    virtual_path: docs/blueprints/config-files.md
+  - title: Multiple Services and Dependency Injection
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/multiple-services.html
+    anchor: blueprints-multiple-services
+    virtual_path: docs/blueprints/multiple-services.md
+  - title: Custom Entities
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/custom-entities.html
+    anchor: blueprints-custom-entities
+    virtual_path: docs/blueprints/custom-entities.md
+  - title: Catalog
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/catalog/
+    anchor: blueprints-catalog
+    virtual_path: docs/blueprints/catalog/index.md
+    children:
+    - title: Catalog Items YAML Syntax
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/catalog/schema.html
+      anchor: blueprints-catalog-schema
+      virtual_path: docs/blueprints/catalog/schema.md
+    - title: Templates and Quick Launch
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/catalog/templates.html
+      anchor: blueprints-catalog-templates
+      virtual_path: docs/blueprints/catalog/templates.md
+    - title: Versioning
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/catalog/versioning.html
+      anchor: blueprints-catalog-versioning
+      virtual_path: docs/blueprints/catalog/versioning.md
+    - title: Catalog Management
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/catalog/management.html
+      anchor: blueprints-catalog-management
+      virtual_path: docs/blueprints/catalog/management.md
+    - title: Bundling
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/catalog/bundle.html
+      anchor: blueprints-catalog-bundle
+      virtual_path: docs/blueprints/catalog/bundle.md
+    - title: Brooklyn Server Command Line Arguments
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/catalog/cli.html
+      anchor: blueprints-catalog-cli
+      virtual_path: docs/blueprints/catalog/cli.md
+  - title: Clusters, Specs, and Composition
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/clusters.html
+    anchor: blueprints-clusters
+    virtual_path: docs/blueprints/clusters.md
+  - title: Enrichers
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/enrichers.html
+    anchor: blueprints-enrichers
+    virtual_path: docs/blueprints/enrichers.md
+  - title: Policies
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/policies/
+    anchor: blueprints-policies
+    virtual_path: docs/blueprints/policies/index.md
+    children:
+    - title: Off-the-Shelf Policies
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/policies/available_policies.html
+      anchor: blueprints-policies-available_policies
+      virtual_path: docs/blueprints/policies/available_policies.md
+    - title: Writing a Policy
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/policies/writing_policies.html
+      anchor: blueprints-policies-writing_policies
+      virtual_path: docs/blueprints/policies/writing_policies.md
+  - title: Effectors
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/effectors.html
+    anchor: blueprints-effectors
+    virtual_path: docs/blueprints/effectors.md
+  - title: Clusters and Policies
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/clusters-and-policies.html
+    anchor: blueprints-clusters-and-policies
+    virtual_path: docs/blueprints/clusters-and-policies.md
+  - title: Java Entities
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/java/
+    anchor: blueprints-java
+    virtual_path: docs/blueprints/java/index.md
+    children:
+    - title: Creating from a Maven Archetype
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/java/archetype.html
+      anchor: blueprints-java-archetype
+      virtual_path: docs/blueprints/java/archetype.md
+    - title: Defining and Deploying
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/java/defining-and-deploying.html
+      anchor: blueprints-java-defining-and-deploying
+      virtual_path: docs/blueprints/java/defining-and-deploying.md
+    - title: Handling Bundle Dependencies
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/java/bundle-dependencies.html
+      anchor: blueprints-java-bundle-dependencies
+      virtual_path: docs/blueprints/java/bundle-dependencies.md
+    - title: Topology, Dependencies, and Management Policies
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/java/topology-dependencies.html
+      anchor: blueprints-java-topology-dependencies
+      virtual_path: docs/blueprints/java/topology-dependencies.md
+    - title: Common Classes and Entities
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/java/common-usage.html
+      anchor: blueprints-java-common-usage
+      virtual_path: docs/blueprints/java/common-usage.md
+    - title: Feeds
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/java/feeds.html
+      anchor: blueprints-java-feeds
+      virtual_path: docs/blueprints/java/feeds.md
+    - title: Writing an Entity
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/java/entity.html
+      anchor: blueprints-java-entity
+      virtual_path: docs/blueprints/java/entity.md
+    - title: Custom Entity Development
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/java/entities.html
+      anchor: blueprints-java-entities
+      virtual_path: docs/blueprints/java/entities.md
+    - title: Service State
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/java/service-state.html
+      anchor: blueprints-java-service-state
+      virtual_path: docs/blueprints/java/service-state.md
+    - title: Entitlements
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/java/entitlements.html
+      anchor: blueprints-java-entitlements
+      virtual_path: docs/blueprints/java/entitlements.md
+  - title: Windows Blueprints
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/winrm/
+    anchor: blueprints-winrm
+    virtual_path: docs/blueprints/winrm/index.md
+    children:
+    - title: Winrm4j Client
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/winrm/client.html
+      anchor: blueprints-winrm-client
+      virtual_path: docs/blueprints/winrm/client.md
+    - title: Winrm4j Limitations
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/winrm/limitations.html
+      anchor: blueprints-winrm-limitations
+      virtual_path: docs/blueprints/winrm/limitations.md
+    - title: Winrm4j Tips
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/winrm/tips.html
+      anchor: blueprints-winrm-tips
+      virtual_path: docs/blueprints/winrm/tips.md
+    - title: Winrm4j Troubleshooting
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/winrm/troubleshoot.html
+      anchor: blueprints-winrm-troubleshoot
+      virtual_path: docs/blueprints/winrm/troubleshoot.md
+  - title: Testing YAML Blueprints
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/test/
+    anchor: blueprints-test
+    virtual_path: docs/blueprints/test/index.md
+    children:
+    - title: Test Entities
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/test/test-entities.html
+      anchor: blueprints-test-test-entities
+      virtual_path: docs/blueprints/test/test-entities.md
+    - title: Example Tests
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/test/usage-examples.html
+      anchor: blueprints-test-usage-examples
+      virtual_path: docs/blueprints/test/usage-examples.md
+  - title: Ansible in YAML Blueprints
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/ansible/
+    anchor: blueprints-ansible
+    virtual_path: docs/blueprints/ansible/index.md
+    children:
+    - title: About Ansible
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/ansible/about-ansible.html
+      anchor: blueprints-ansible-about-ansible
+      virtual_path: docs/blueprints/ansible/about-ansible.md
+    - title: Creating Blueprints with Ansible
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/ansible/creating-ansible-blueprints.html
+      anchor: blueprints-ansible-creating-ansible-blueprints
+      virtual_path: docs/blueprints/ansible/creating-ansible-blueprints.md
+  - title: Chef in YAML Blueprints
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/chef/
+    anchor: blueprints-chef
+    virtual_path: docs/blueprints/chef/index.md
+    children:
+    - title: About Chef
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/chef/about-chef.html
+      anchor: blueprints-chef-about-chef
+      virtual_path: docs/blueprints/chef/about-chef.md
+    - title: Creating Blueprints from Chef
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/chef/creating-blueprints.html
+      anchor: blueprints-chef-creating-blueprints
+      virtual_path: docs/blueprints/chef/creating-blueprints.md
+    - title: Writing Chef for Blueprints
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/chef/writing-chef.html
+      anchor: blueprints-chef-writing-chef
+      virtual_path: docs/blueprints/chef/writing-chef.md
+    - title: Advanced Chef Integration
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/chef/advanced-chef-integration.html
+      anchor: blueprints-chef-advanced-chef-integration
+      virtual_path: docs/blueprints/chef/advanced-chef-integration.md
+  - title: Salt in YAML Blueprints
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/salt/
+    anchor: blueprints-salt
+    virtual_path: docs/blueprints/salt/index.md
+    children:
+    - title: About Salt
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/salt/about-salt.html
+      anchor: blueprints-salt-about-salt
+      virtual_path: docs/blueprints/salt/about-salt.md
+    - title: Creating Blueprints with Salt
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/blueprints/salt/creating-salt-blueprints.html
+      anchor: blueprints-salt-creating-salt-blueprints
+      virtual_path: docs/blueprints/salt/creating-salt-blueprints.md
+  - title: YAML Blueprint Advanced Example
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/advanced-example.html
+    anchor: blueprints-advanced-example
+    virtual_path: docs/blueprints/advanced-example.md
+  - title: Blueprinting Tips
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/blueprinting-tips.html
+    anchor: blueprints-blueprinting-tips
+    virtual_path: docs/blueprints/blueprinting-tips.md
+  - title: YAML Blueprint Reference
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/blueprints/yaml-reference.html
+    anchor: blueprints-yaml-reference
+    virtual_path: docs/blueprints/yaml-reference.md
+- title: Deploying Blueprints
+  kind: category
+  source_url: https://brooklyn.apache.org/v/latest/locations/
+  anchor: locations
+  virtual_path: docs/locations/index.md
+  children:
+  - title: Clouds
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#clouds
+    anchor: locations--clouds
+    virtual_path: docs/locations/index.md
+  - title: Amazon Web Services
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#amazon-web-services-aws
+    anchor: locations--amazon-web-services-aws
+    virtual_path: docs/locations/index.md
+  - title: Azure Compute ARM
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#azure-compute-arm
+    anchor: locations--azure-compute-arm
+    virtual_path: docs/locations/index.md
+  - title: Azure Compute Classic
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#azure-compute-classic
+    anchor: locations--azure-compute-classic
+    virtual_path: docs/locations/index.md
+  - title: Apache CloudStack
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#apache-cloudstack
+    anchor: locations--apache-cloudstack
+    virtual_path: docs/locations/index.md
+  - title: Google Compute Engine
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#google-compute-engine-gce
+    anchor: locations--google-compute-engine-gce
+    virtual_path: docs/locations/index.md
+  - title: IBM Softlayer
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#ibm-softlayer
+    anchor: locations--ibm-softlayer
+    virtual_path: docs/locations/index.md
+  - title: OpenStack
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#openstack
+    anchor: locations--openstack
+    virtual_path: docs/locations/index.md
+  - title: Named Locations
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#named-locations
+    anchor: locations--named-locations
+    virtual_path: docs/locations/index.md
+  - title: Provisioned Machine Requirements
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/provisioned-machine-requirements.html
+    anchor: locations-provisioned-machine-requirements
+    virtual_path: docs/locations/provisioned-machine-requirements.md
+  - title: BYON
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#byon
+    anchor: locations--byon
+    virtual_path: docs/locations/index.md
+  - title: SSH Keys
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#ssh-keys
+    anchor: locations--ssh-keys
+    virtual_path: docs/locations/index.md
+  - title: Localhost
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#localhost
+    anchor: locations--localhost
+    virtual_path: docs/locations/index.md
+  - title: Location Customizers
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#location-customizers
+    anchor: locations--location-customizers
+    virtual_path: docs/locations/index.md
+  - title: Customizing Cloud Security Groups
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#customizing-cloud-security-groups
+    anchor: locations--customizing-cloud-security-groups
+    virtual_path: docs/locations/index.md
+  - title: Specialized Locations
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/locations/#specialized-locations
+    anchor: locations--specialized-locations
+    virtual_path: docs/locations/index.md
+- title: Reference Guide
+  kind: category
+  source_url: https://brooklyn.apache.org/v/latest/ops/
+  anchor: ops
+  virtual_path: docs/ops/index.md
+  children:
+  - title: Production Installation
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/ops/production-installation.html
+    anchor: ops-production-installation
+    virtual_path: docs/ops/production-installation.md
+  - title: Starting, Stopping and Monitoring
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/ops/starting-stopping-monitoring.html
+    anchor: ops-starting-stopping-monitoring
+    virtual_path: docs/ops/starting-stopping-monitoring.md
+  - title: Server CLI Reference
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/ops/server-cli-reference.html
+    anchor: ops-server-cli-reference
+    virtual_path: docs/ops/server-cli-reference.md
+  - title: Client CLI Reference
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/ops/cli/
+    anchor: ops-cli
+    virtual_path: docs/ops/cli/index.md
+    children:
+    - title: CLI Reference Guide
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/cli/cli-ref-guide.html
+      anchor: ops-cli-cli-ref-guide
+      virtual_path: docs/ops/cli/cli-ref-guide.md
+    - title: CLI Usage Guide
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/cli/cli-usage-guide.html
+      anchor: ops-cli-cli-usage-guide
+      virtual_path: docs/ops/cli/cli-usage-guide.md
+  - title: GUI Guide
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/ops/gui/
+    anchor: ops-gui
+    virtual_path: docs/ops/gui/index.md
+    children:
+    - title: Launching
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/gui/running.html
+      anchor: ops-gui-running
+      virtual_path: docs/ops/gui/running.md
+    - title: Deploying Blueprints
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/gui/blueprints.html
+      anchor: ops-gui-blueprints
+      virtual_path: docs/ops/gui/blueprints.md
+    - title: Monitoring and Managing Applications
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/gui/managing.html
+      anchor: ops-gui-managing
+      virtual_path: docs/ops/gui/managing.md
+    - title: Using Policies
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/gui/policies.html
+      anchor: ops-gui-policies
+      virtual_path: docs/ops/gui/policies.md
+  - title: REST API
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/ops/rest.html
+    anchor: ops-rest
+    virtual_path: docs/ops/rest.md
+  - title: Configuring Brooklyn
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/ops/configuration/
+    anchor: ops-configuration
+    virtual_path: docs/ops/configuration/index.md
+    children:
+    - title: Memory Usage
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/configuration/#memory-usage
+      anchor: ops-configuration--memory-usage
+      virtual_path: docs/ops/configuration/index.md
+    - title: Authentication
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/configuration/#authentication-and-security
+      anchor: ops-configuration--authentication-and-security
+      virtual_path: docs/ops/configuration/index.md
+    - title: brooklyn.cfg
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/configuration/brooklyn_cfg.html
+      anchor: ops-configuration-brooklyn_cfg
+      virtual_path: docs/ops/configuration/brooklyn_cfg.md
+    - title: HTTPS Configuration
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/configuration/https.html
+      anchor: ops-configuration-https
+      virtual_path: docs/ops/configuration/https.md
+    - title: CORS Configuration
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/configuration/cors.html
+      anchor: ops-configuration-cors
+      virtual_path: docs/ops/configuration/cors.md
+  - title: Persistence
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/ops/persistence/
+    anchor: ops-persistence
+    virtual_path: docs/ops/persistence/index.md
+  - title: High Availability
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/ops/high-availability/
+    anchor: ops-high-availability
+    virtual_path: docs/ops/high-availability/index.md
+    children:
+    - title: Configuring HA - an example
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/high-availability/high-availability-supplemental.html
+      anchor: ops-high-availability-high-availability-supplemental
+      virtual_path: docs/ops/high-availability/high-availability-supplemental.md
+  - title: Logging
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/ops/logging.html
+    anchor: ops-logging
+    virtual_path: docs/ops/logging.md
+  - title: Externalized Configuration
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/ops/externalized-configuration.html
+    anchor: ops-externalized-configuration
+    virtual_path: docs/ops/externalized-configuration.md
+  - title: Requirements
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/ops/requirements.html
+    anchor: ops-requirements
+    virtual_path: docs/ops/requirements.md
+  - title: Upgrades
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/ops/upgrades/
+    anchor: ops-upgrades
+    virtual_path: docs/ops/upgrades/index.md
+    children:
+    - title: Upgrading Brooklyn
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/upgrades/#upgrading-brooklyn
+      anchor: ops-upgrades--upgrading-brooklyn
+      virtual_path: docs/ops/upgrades/index.md
+    - title: Upgrading Blueprints
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/upgrades/#upgrading-blueprints-and-bundles
+      anchor: ops-upgrades--upgrading-blueprints-and-bundles
+      virtual_path: docs/ops/upgrades/index.md
+    - title: Upgrading Systems under Management
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/upgrades/#upgrading-systems-under-management
+      anchor: ops-upgrades--upgrading-systems-under-management
+      virtual_path: docs/ops/upgrades/index.md
+  - title: Security Guidelines
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/ops/security-guidelines.html
+    anchor: ops-security-guidelines
+    virtual_path: docs/ops/security-guidelines.md
+  - title: Troubleshooting
+    kind: category
+    source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/
+    anchor: ops-troubleshooting
+    virtual_path: docs/ops/troubleshooting/index.md
+    children:
+    - title: Overview
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/overview.html
+      anchor: ops-troubleshooting-overview
+      virtual_path: docs/ops/troubleshooting/overview.md
+    - title: Web Console Issues
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/web-console-issues.html
+      anchor: ops-troubleshooting-web-console-issues
+      virtual_path: docs/ops/troubleshooting/web-console-issues.md
+    - title: Deployment
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/deployment.html
+      anchor: ops-troubleshooting-deployment
+      virtual_path: docs/ops/troubleshooting/deployment.md
+    - title: Server Connectivity
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/connectivity.html
+      anchor: ops-troubleshooting-connectivity
+      virtual_path: docs/ops/troubleshooting/connectivity.md
+    - title: Brooklyn Slow or Unresponsive
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/slow-unresponsive.html
+      anchor: ops-troubleshooting-slow-unresponsive
+      virtual_path: docs/ops/troubleshooting/slow-unresponsive.md
+    - title: Increase Entropy
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/increase-entropy.html
+      anchor: ops-troubleshooting-increase-entropy
+      virtual_path: docs/ops/troubleshooting/increase-entropy.md
+    - title: Increase System Resource Limits
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/increase-system-resource-limits.html
+      anchor: ops-troubleshooting-increase-system-resource-limits
+      virtual_path: docs/ops/troubleshooting/increase-system-resource-limits.md
+    - title: Detailed Support Report
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/detailed-support-report.html
+      anchor: ops-troubleshooting-detailed-support-report
+      virtual_path: docs/ops/troubleshooting/detailed-support-report.md
+    - title: SoftwareProcess Entities
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/softwareprocess.html
+      anchor: ops-troubleshooting-softwareprocess
+      virtual_path: docs/ops/troubleshooting/softwareprocess.md
+    - title: Going Deep in Java and Logs
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/going-deep-in-java-and-logs.html
+      anchor: ops-troubleshooting-going-deep-in-java-and-logs
+      virtual_path: docs/ops/troubleshooting/going-deep-in-java-and-logs.md
+    - title: Monitoring Memory Usage
+      kind: link
+      source_url: https://brooklyn.apache.org/v/latest/ops/troubleshooting/memory-usage.html
+      anchor: ops-troubleshooting-memory-usage
+      virtual_path: docs/ops/troubleshooting/memory-usage.md
+  - title: Paths breakdown
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/ops/paths.html
+    anchor: ops-paths
+    virtual_path: docs/ops/paths.md
+- title: Known issues
+  kind: link
+  source_url: https://brooklyn.apache.org/v/latest/misc/known-issues.html
+  anchor: misc-known-issues
+  virtual_path: docs/misc/known-issues.md
+- title: Other 0.12.0 Resources
+  kind: category
+  source_url: https://brooklyn.apache.org/v/latest/misc/
+  anchor: misc
+  virtual_path: docs/misc/index.md
+  children:
+  - title: Glossary
+    kind: link
+    source_url: https://brooklyn.apache.org/v/latest/GLOSSARY.html
+    anchor: glossary
+    virtual_path: docs/GLOSSARY.md
+- title: Maven Build
+  kind: link
+  source_url: https://brooklyn.apache.org/v/latest/dev/env/maven-build.html
+  anchor: dev-env-maven-build
+  virtual_path: docs/dev/env/maven-build.md
+- title: IDE Setup
+  kind: link
+  source_url: https://brooklyn.apache.org/v/latest/dev/env/ide/
+  anchor: dev-env-ide
+  virtual_path: docs/dev/env/ide/index.md
+- title: Code Structure
+  kind: link
+  source_url: https://brooklyn.apache.org/v/latest/dev/code/structure.html
+  anchor: dev-code-structure
+  virtual_path: docs/dev/code/structure.md
+- title: Tests
+  kind: link
+  source_url: https://brooklyn.apache.org/v/latest/dev/code/tests.html
+  anchor: dev-code-tests
+  virtual_path: docs/dev/code/tests.md
+- title: License Considerations
+  kind: link
+  source_url: https://brooklyn.apache.org/v/latest/dev/code/licensing.html
+  anchor: dev-code-licensing
+  virtual_path: docs/dev/code/licensing.md
+- title: Miscellaneous Tips and Tricks
+  kind: link
+  source_url: https://brooklyn.apache.org/v/latest/dev/tips/
+  anchor: dev-tips
+  virtual_path: docs/dev/tips/index.md
+- title: Logging
+  kind: link
+  source_url: https://brooklyn.apache.org/v/latest/dev/tips/logging.html
+  anchor: dev-tips-logging
+  virtual_path: docs/dev/tips/logging.md
+- title: Brooklyn Remote Debugging
+  kind: link
+  source_url: https://brooklyn.apache.org/v/latest/dev/tips/debugging-remote-brooklyn.html
+  anchor: dev-tips-debugging-remote-brooklyn
+  virtual_path: docs/dev/tips/debugging-remote-brooklyn.md

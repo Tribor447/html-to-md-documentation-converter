@@ -1,0 +1,195 @@
+- title: BSF
+  kind: category
+  children:
+  - title: About
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-bsf/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: News
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-bsf/bsfnews.html
+    anchor: bsfnews
+    virtual_path: docs/bsfnews.md
+  - title: Download
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-bsf/download_bsf.cgi
+  - title: Documentation
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-bsf/manual.html
+    anchor: manual
+    virtual_path: docs/manual.md
+  - title: FAQ
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-bsf/faq.html
+    anchor: faq
+    virtual_path: docs/faq.md
+  - title: Related projects
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-bsf/projects.html
+    anchor: projects
+    virtual_path: docs/projects.md
+  - title: Resources
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-bsf/resources.html
+    anchor: resources
+    virtual_path: docs/resources.md
+  - title: Having a problem?
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-bsf/problems.html
+    anchor: problems
+    virtual_path: docs/problems.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-bsf/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: category
+      source_url: https://commons.apache.org/proper/commons-bsf/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Continuous Integration
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/integration.html
+      anchor: integration
+      virtual_path: docs/integration.md
+    - title: Dependencies
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/dependencies.html
+      anchor: dependencies
+      virtual_path: docs/dependencies.md
+    - title: Distribution Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/distribution-management.html
+      anchor: distribution-management
+      virtual_path: docs/distribution-management.md
+    - title: Issue Tracking
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/issue-tracking.html
+      anchor: issue-tracking
+      virtual_path: docs/issue-tracking.md
+    - title: Mailing Lists
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/mail-lists.html
+    - title: Plugin Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/plugin-management.html
+      anchor: plugin-management
+      virtual_path: docs/plugin-management.md
+    - title: Project License
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/license.html
+      anchor: license
+      virtual_path: docs/license.md
+    - title: Project Plugins
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/plugins.html
+      anchor: plugins
+      virtual_path: docs/plugins.md
+    - title: Project Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/project-summary.html
+      anchor: project-summary
+      virtual_path: docs/project-summary.md
+    - title: Project Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/team-list.html
+      anchor: team-list
+      virtual_path: docs/team-list.md
+    - title: Source Repository
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/source-repository.html
+      anchor: source-repository
+      virtual_path: docs/source-repository.md
+  - title: Project Reports
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-bsf/project-reports.html
+    anchor: project-reports
+    virtual_path: docs/project-reports.md
+    children:
+    - title: JavaDocs
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/apidocs/index.html
+    - title: JDepend
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/jdepend-report.html
+      anchor: jdepend-report
+      virtual_path: docs/jdepend-report.md
+    - title: RAT Report
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/rat-report.html
+      anchor: rat-report
+      virtual_path: docs/rat-report.md
+    - title: Source Xref
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/xref/index.html
+    - title: Surefire Report
+      kind: category
+      source_url: https://commons.apache.org/proper/commons-bsf/surefire-report.html
+      anchor: surefire-report
+      virtual_path: docs/surefire-report.md
+    - title: Test JavaDocs
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/testapidocs/index.html
+    - title: Test Source Xref
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-bsf/xref-test/index.html
+- title: Commons
+  kind: category
+  children:
+  - title: Home
+    kind: link
+    source_url: https://commons.apache.org/proper/
+  - title: License
+    kind: link
+    source_url: http://www.apache.org/licenses/
+  - title: Components
+    kind: link
+    source_url: https://commons.apache.org/proper/components.html
+  - title: Sandbox
+    kind: link
+    source_url: https://commons.apache.org/proper/sandbox/index.html
+  - title: Dormant
+    kind: link
+    source_url: https://commons.apache.org/proper/dormant/index.html
+- title: General Information
+  kind: category
+  children:
+  - title: Volunteering
+    kind: link
+    source_url: https://commons.apache.org/proper/volunteering.html
+  - title: Contributing Patches
+    kind: link
+    source_url: https://commons.apache.org/proper/patches.html
+  - title: Building Components
+    kind: link
+    source_url: https://commons.apache.org/proper/building.html
+  - title: Releasing Components
+    kind: link
+    source_url: https://commons.apache.org/proper/releases/index.html
+  - title: Wiki
+    kind: link
+    source_url: http://wiki.apache.org/commons/FrontPage
+- title: ASF
+  kind: category
+  children:
+  - title: How the ASF works
+    kind: link
+    source_url: http://www.apache.org/foundation/how-it-works.html
+  - title: Get Involved
+    kind: link
+    source_url: http://www.apache.org/foundation/getinvolved.html
+  - title: Developer Resources
+    kind: link
+    source_url: http://www.apache.org/dev/
+  - title: Sponsorship
+    kind: link
+    source_url: http://www.apache.org/foundation/sponsorship.html
+  - title: Thanks
+    kind: link
+    source_url: http://www.apache.org/foundation/thanks.html

@@ -1,0 +1,67 @@
+- title: Content
+  kind: category
+  children:
+  - title: Installation of airflowctl
+    kind: link
+    source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/index.html
+    anchor: installation
+    virtual_path: docs/installation/index.md
+    children:
+    - title: Prerequisites
+      kind: category
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/prerequisites.html
+      anchor: installation-prerequisites
+      virtual_path: docs/installation/prerequisites.md
+    - title: Python Version Compatibility
+      kind: category
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/prerequisites.html#python-version-compatibility
+      anchor: installation-prerequisites--python-version-compatibility
+      virtual_path: docs/installation/prerequisites.md
+    - title: Installing from sources
+      kind: link
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/installing-from-sources.html
+      anchor: installation-installing-from-sources
+      virtual_path: docs/installation/installing-from-sources.md
+    - title: Installing from PyPI
+      kind: link
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/installing-from-pypi.html
+      anchor: installation-installing-from-pypi
+      virtual_path: docs/installation/installing-from-pypi.md
+    - title: Using released sources
+      kind: link
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/index.html#using-released-sources
+      anchor: installation--using-released-sources
+      virtual_path: docs/installation/index.md
+    - title: Using PyPI
+      kind: link
+      source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/installation/index.html#using-pypi
+      anchor: installation--using-pypi
+      virtual_path: docs/installation/index.md
+  - title: How-to Guides
+    kind: link
+    source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/howto/index.html
+    anchor: howto
+    virtual_path: docs/howto/index.md
+  - title: Security
+    kind: link
+    source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/security.html
+    anchor: security
+    virtual_path: docs/security.md
+- title: Usage
+  kind: category
+  children:
+  - title: Quick Start
+    kind: link
+    source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/start.html
+    anchor: start
+    virtual_path: docs/start.md
+  - title: References
+    kind: category
+    source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/cli-and-env-variables-ref.html
+    anchor: cli-and-env-variables-ref
+    virtual_path: docs/cli-and-env-variables-ref.md
+- title: Home
+  kind: link
+  source_url: https://airflow.apache.org/docs/apache-airflow-ctl/stable/index.html
+  anchor: index
+  virtual_path: docs/index.md

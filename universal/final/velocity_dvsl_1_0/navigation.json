@@ -1,0 +1,42 @@
+[
+  {
+    "title": "DVSL",
+    "kind": "category",
+    "children": [
+      {
+        "title": "General",
+        "kind": "link",
+        "source_url": "https://velocity.apache.org/dvsl/1.0/",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Documentation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "User Guide",
+        "kind": "category",
+        "source_url": "https://velocity.apache.org/dvsl/1.0/users-guide.html",
+        "anchor": "users-guide",
+        "virtual_path": "docs/users-guide.md"
+      },
+      {
+        "title": "Ant Task Reference",
+        "kind": "link",
+        "source_url": "https://velocity.apache.org/dvsl/1.0/ant_task_reference.html",
+        "anchor": "ant_task_reference",
+        "virtual_path": "docs/ant_task_reference.md"
+      },
+      {
+        "title": "More Resources",
+        "kind": "link",
+        "source_url": "https://velocity.apache.org/dvsl/1.0/more-resources.html",
+        "anchor": "more-resources",
+        "virtual_path": "docs/more-resources.md"
+      }
+    ]
+  }
+]

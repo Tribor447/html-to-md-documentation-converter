@@ -1,0 +1,896 @@
+- title: 4.1.x
+  kind: link
+  source_url: https://pulsar.apache.org/docs/4.1.x/
+  anchor: index
+  virtual_path: docs/index.md
+- title: About
+  kind: link
+  source_url: https://pulsar.apache.org/docs/4.1.x/
+  anchor: index
+  virtual_path: docs/index.md
+  children:
+  - title: Run Pulsar locally
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/getting-started-standalone/
+    anchor: getting-started-standalone
+    virtual_path: docs/getting-started-standalone/index.md
+- title: Get Started
+  kind: link
+  source_url: https://pulsar.apache.org/docs/4.1.x/getting-started-home/
+  anchor: getting-started-home
+  virtual_path: docs/getting-started-home/index.md
+- title: Deployment
+  kind: link
+  source_url: https://pulsar.apache.org/docs/4.1.x/install-deploy-upgrade-landing/
+  anchor: install-deploy-upgrade-landing
+  virtual_path: docs/install-deploy-upgrade-landing/index.md
+- title: Tutorials
+  kind: link
+  source_url: https://pulsar.apache.org/docs/4.1.x/how-to-landing/
+  anchor: how-to-landing
+  virtual_path: docs/how-to-landing/index.md
+- title: Development
+  kind: link
+  source_url: https://pulsar.apache.org/docs/4.1.x/developers-landing/
+  anchor: developers-landing
+  virtual_path: docs/developers-landing/index.md
+- title: Reference
+  kind: category
+  source_url: https://pulsar.apache.org/docs/4.1.x/reference-landing/
+  anchor: reference-landing
+  virtual_path: docs/reference-landing/index.md
+  children:
+  - title: Pulsar APIs
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/pulsar-api-overview/
+    anchor: pulsar-api-overview
+    virtual_path: docs/pulsar-api-overview/index.md
+  - title: Terminology
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/reference-terminology/
+    anchor: reference-terminology
+    virtual_path: docs/reference-terminology/index.md
+  - title: Pulsar CLI tools
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/reference-cli-tools/
+    anchor: reference-cli-tools
+    virtual_path: docs/reference-cli-tools/index.md
+  - title: Pulsar Configuration
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/reference-configuration/
+    anchor: reference-configuration
+    virtual_path: docs/reference-configuration/index.md
+- title: Overview
+  kind: category
+  source_url: https://pulsar.apache.org/docs/4.1.x/security-overview/
+  anchor: security-overview
+  virtual_path: docs/security-overview/index.md
+  children:
+  - title: End-to-End Encryption
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-encryption/
+    anchor: security-encryption
+    virtual_path: docs/security-encryption/index.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Pulsar adaptor for Apache Kafka
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/adaptors-kafka/
+    anchor: adaptors-kafka
+    virtual_path: docs/adaptors-kafka/index.md
+  - title: Pulsar adaptor for Apache Spark
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/adaptors-spark/
+    anchor: adaptors-spark
+    virtual_path: docs/adaptors-spark/index.md
+  - title: Pulsar adaptor for Apache Storm
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/adaptors-storm/
+    anchor: adaptors-storm
+    virtual_path: docs/adaptors-storm/index.md
+  - title: Managing Brokers
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-brokers/
+    anchor: admin-api-brokers
+    virtual_path: docs/admin-api-brokers/index.md
+  - title: Managing Clusters
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-clusters/
+    anchor: admin-api-clusters
+    virtual_path: docs/admin-api-clusters/index.md
+  - title: Pulsar admin interfaces - Features
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-features/
+    anchor: admin-api-features
+    virtual_path: docs/admin-api-features/index.md
+  - title: Manage Functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-functions/
+    anchor: admin-api-functions
+    virtual_path: docs/admin-api-functions/index.md
+  - title: Get started
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-get-started/
+    anchor: admin-api-get-started
+    virtual_path: docs/admin-api-get-started/index.md
+  - title: Managing Namespaces
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-namespaces/
+    anchor: admin-api-namespaces
+    virtual_path: docs/admin-api-namespaces/index.md
+  - title: Pulsar admin interfaces
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-overview/
+    anchor: admin-api-overview
+    virtual_path: docs/admin-api-overview/index.md
+  - title: Manage packages
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-packages/
+    anchor: admin-api-packages
+    virtual_path: docs/admin-api-packages/index.md
+  - title: Managing permissions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-permissions/
+    anchor: admin-api-permissions
+    virtual_path: docs/admin-api-permissions/index.md
+  - title: Manage Schemas
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-schemas/
+    anchor: admin-api-schemas
+    virtual_path: docs/admin-api-schemas/index.md
+  - title: Managing Tenants
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-tenants/
+    anchor: admin-api-tenants
+    virtual_path: docs/admin-api-tenants/index.md
+  - title: Pulsar admin interfaces - Tools
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-tools/
+    anchor: admin-api-tools
+    virtual_path: docs/admin-api-tools/index.md
+  - title: Manage topics
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-topics/
+    anchor: admin-api-topics
+    virtual_path: docs/admin-api-topics/index.md
+  - title: Manage transactions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-transactions/
+    anchor: admin-api-transactions
+    virtual_path: docs/admin-api-transactions/index.md
+  - title: Tutorial
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-tutorial/
+    anchor: admin-api-tutorial
+    virtual_path: docs/admin-api-tutorial/index.md
+  - title: Pulsar admin interfaces - Use cases
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/admin-api-use-cases/
+    anchor: admin-api-use-cases
+    virtual_path: docs/admin-api-use-cases/index.md
+  - title: Anti-affinity namespaces
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-anti-affinity-namespaces/
+    anchor: administration-anti-affinity-namespaces
+    virtual_path: docs/administration-anti-affinity-namespaces/index.md
+  - title: Pulsar geo-replication
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-geo/
+    anchor: administration-geo
+    virtual_path: docs/administration-geo/index.md
+  - title: Isolate bookies
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-isolation-bookie/
+    anchor: administration-isolation-bookie
+    virtual_path: docs/administration-isolation-bookie/index.md
+  - title: Isolate brokers
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-isolation-broker/
+    anchor: administration-isolation-broker
+    virtual_path: docs/administration-isolation-broker/index.md
+  - title: Pulsar isolation
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-isolation/
+    anchor: administration-isolation
+    virtual_path: docs/administration-isolation/index.md
+  - title: Configure metadata store
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-metadata-store/
+    anchor: administration-metadata-store
+    virtual_path: docs/administration-metadata-store/index.md
+  - title: Pulsar proxy
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-proxy/
+    anchor: administration-proxy
+    virtual_path: docs/administration-proxy/index.md
+  - title: Pulsar Manager
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-pulsar-manager/
+    anchor: administration-pulsar-manager
+    virtual_path: docs/administration-pulsar-manager/index.md
+  - title: Pulsar Shell
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-pulsar-shell/
+    anchor: administration-pulsar-shell
+    virtual_path: docs/administration-pulsar-shell/index.md
+  - title: Pulsar stats
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-stats/
+    anchor: administration-stats
+    virtual_path: docs/administration-stats/index.md
+  - title: Upgrade Guide
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-upgrade/
+    anchor: administration-upgrade
+    virtual_path: docs/administration-upgrade/index.md
+  - title: ZooKeeper and BookKeeper administration
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/administration-zk-bk/
+    anchor: administration-zk-bk
+    virtual_path: docs/administration-zk-bk/index.md
+  - title: Architecture Overview
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-architecture-overview/
+    anchor: concepts-architecture-overview
+    virtual_path: docs/concepts-architecture-overview/index.md
+  - title: Authentication and Authorization
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-authentication/
+    anchor: concepts-authentication
+    virtual_path: docs/concepts-authentication/index.md
+  - title: Benefits
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-broker-load-balancing-benefits/
+    anchor: concepts-broker-load-balancing-benefits
+    virtual_path: docs/concepts-broker-load-balancing-benefits/index.md
+  - title: Concepts
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-broker-load-balancing-concepts/
+    anchor: concepts-broker-load-balancing-concepts
+    virtual_path: docs/concepts-broker-load-balancing-concepts/index.md
+  - title: Features
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-broker-load-balancing-features/
+    anchor: concepts-broker-load-balancing-features
+    virtual_path: docs/concepts-broker-load-balancing-features/index.md
+  - title: Migration
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-broker-load-balancing-migration/
+    anchor: concepts-broker-load-balancing-migration
+    virtual_path: docs/concepts-broker-load-balancing-migration/index.md
+  - title: Overview
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-broker-load-balancing-overview/
+    anchor: concepts-broker-load-balancing-overview
+    virtual_path: docs/concepts-broker-load-balancing-overview/index.md
+  - title: Quick start
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-broker-load-balancing-quick-start/
+    anchor: concepts-broker-load-balancing-quick-start
+    virtual_path: docs/concepts-broker-load-balancing-quick-start/index.md
+  - title: Types
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-broker-load-balancing-types/
+    anchor: concepts-broker-load-balancing-types
+    virtual_path: docs/concepts-broker-load-balancing-types/index.md
+  - title: Use cases
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-broker-load-balancing-use-cases/
+    anchor: concepts-broker-load-balancing-use-cases
+    virtual_path: docs/concepts-broker-load-balancing-use-cases/index.md
+  - title: Pulsar Clients
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-clients/
+    anchor: concepts-clients
+    virtual_path: docs/concepts-clients/index.md
+  - title: Cluster-level failover
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-cluster-level-failover/
+    anchor: concepts-cluster-level-failover
+    virtual_path: docs/concepts-cluster-level-failover/index.md
+  - title: Messaging
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-messaging/
+    anchor: concepts-messaging
+    virtual_path: docs/concepts-messaging/index.md
+  - title: Multi Tenancy
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-multi-tenancy/
+    anchor: concepts-multi-tenancy
+    virtual_path: docs/concepts-multi-tenancy/index.md
+  - title: Multiple advertised listeners
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-multiple-advertised-listeners/
+    anchor: concepts-multiple-advertised-listeners
+    virtual_path: docs/concepts-multiple-advertised-listeners/index.md
+  - title: Pulsar Overview
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-overview/
+    anchor: concepts-overview
+    virtual_path: docs/concepts-overview/index.md
+  - title: Proxy support with SNI routing
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-proxy-sni-routing/
+    anchor: concepts-proxy-sni-routing
+    virtual_path: docs/concepts-proxy-sni-routing/index.md
+  - title: Geo Replication
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-replication/
+    anchor: concepts-replication
+    virtual_path: docs/concepts-replication/index.md
+  - title: Message dispatch throttling
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-throttling/
+    anchor: concepts-throttling
+    virtual_path: docs/concepts-throttling/index.md
+  - title: Topic Compaction
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/concepts-topic-compaction/
+    anchor: concepts-topic-compaction
+    virtual_path: docs/concepts-topic-compaction/index.md
+  - title: BookKeeper Ledger Metadata
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/cookbooks-bookkeepermetadata/
+    anchor: cookbooks-bookkeepermetadata
+    virtual_path: docs/cookbooks-bookkeepermetadata/index.md
+  - title: Topic compaction
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/cookbooks-compaction/
+    anchor: cookbooks-compaction
+    virtual_path: docs/cookbooks-compaction/index.md
+  - title: Message deduplication
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/cookbooks-deduplication/
+    anchor: cookbooks-deduplication
+    virtual_path: docs/cookbooks-deduplication/index.md
+  - title: Use Pulsar as a message queue
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/cookbooks-message-queue/
+    anchor: cookbooks-message-queue
+    virtual_path: docs/cookbooks-message-queue/index.md
+  - title: Non-persistent messaging
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/cookbooks-non-persistent/
+    anchor: cookbooks-non-persistent
+    virtual_path: docs/cookbooks-non-persistent/index.md
+  - title: Message retention and expiry
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/cookbooks-retention-expiry/
+    anchor: cookbooks-retention-expiry
+    virtual_path: docs/cookbooks-retention-expiry/index.md
+  - title: Deploy a Pulsar cluster on AWS using Terraform and Ansible
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/deploy-aws/
+    anchor: deploy-aws
+    virtual_path: docs/deploy-aws/index.md
+  - title: Deploying a multi-cluster on bare metal
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/deploy-bare-metal-multi-cluster/
+    anchor: deploy-bare-metal-multi-cluster
+    virtual_path: docs/deploy-bare-metal-multi-cluster/index.md
+  - title: Deploy a cluster on bare metal
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/deploy-bare-metal/
+    anchor: deploy-bare-metal
+    virtual_path: docs/deploy-bare-metal/index.md
+  - title: Deploy a cluster on Docker
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/deploy-docker/
+    anchor: deploy-docker
+    virtual_path: docs/deploy-docker/index.md
+  - title: Apache Pulsar Installation on IBM Kubernetes Cluster through Helm chart
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/deploy-ibm/
+    anchor: deploy-ibm
+    virtual_path: docs/deploy-ibm/index.md
+  - title: Overview
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/deploy-kubernetes/
+    anchor: deploy-kubernetes
+    virtual_path: docs/deploy-kubernetes/index.md
+  - title: Monitor
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/deploy-monitoring/
+    anchor: deploy-monitoring
+    virtual_path: docs/deploy-monitoring/index.md
+  - title: Broker load balancer
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/develop-load-manager/
+    anchor: develop-load-manager
+    virtual_path: docs/develop-load-manager/index.md
+  - title: Pulsar plugin development
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/develop-plugin/
+    anchor: develop-plugin
+    virtual_path: docs/develop-plugin/index.md
+  - title: Simulation tools
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/develop-tools/
+    anchor: develop-tools
+    virtual_path: docs/develop-tools/index.md
+  - title: Pulsar binary protocol specification
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/developing-binary-protocol/
+    anchor: developing-binary-protocol
+    virtual_path: docs/developing-binary-protocol/index.md
+  - title: Pulsar Functions CLI and YAML configs
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-cli/
+    anchor: functions-cli
+    virtual_path: docs/functions-cli/index.md
+  - title: Pulsar Functions concepts
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-concepts/
+    anchor: functions-concepts
+    virtual_path: docs/functions-concepts/index.md
+  - title: Debug with Functions CLI
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-debug-cli/
+    anchor: functions-debug-cli
+    virtual_path: docs/functions-debug-cli/index.md
+  - title: Debug with localrun mode
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-debug-localrun/
+    anchor: functions-debug-localrun
+    virtual_path: docs/functions-debug-localrun/index.md
+  - title: Debug with log topic
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-debug-log-topic/
+    anchor: functions-debug-log-topic
+    virtual_path: docs/functions-debug-log-topic/index.md
+  - title: Debug with captured stderr
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-debug-stderr/
+    anchor: functions-debug-stderr
+    virtual_path: docs/functions-debug-stderr/index.md
+  - title: Debug with unit test
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-debug-unit-test/
+    anchor: functions-debug-unit-test
+    virtual_path: docs/functions-debug-unit-test/index.md
+  - title: Debug Pulsar Functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-debug/
+    anchor: functions-debug
+    virtual_path: docs/functions-debug/index.md
+  - title: Default arguments of CLI
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-deploy-arguments/
+    anchor: functions-deploy-arguments
+    virtual_path: docs/functions-deploy-arguments/index.md
+  - title: Use built-in functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-deploy-cluster-builtin/
+    anchor: functions-deploy-cluster-builtin
+    virtual_path: docs/functions-deploy-cluster-builtin/index.md
+  - title: Enable end-to-end-encryption
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-deploy-cluster-encryption/
+    anchor: functions-deploy-cluster-encryption
+    virtual_path: docs/functions-deploy-cluster-encryption/index.md
+  - title: Enable package management service
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-deploy-cluster-package/
+    anchor: functions-deploy-cluster-package
+    virtual_path: docs/functions-deploy-cluster-package/index.md
+  - title: Enable parallel processing
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-deploy-cluster-parallelism/
+    anchor: functions-deploy-cluster-parallelism
+    virtual_path: docs/functions-deploy-cluster-parallelism/index.md
+  - title: Allocate resources to function instance
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-deploy-cluster-resource/
+    anchor: functions-deploy-cluster-resource
+    virtual_path: docs/functions-deploy-cluster-resource/index.md
+  - title: Deploy a function in cluster mode
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-deploy-cluster/
+    anchor: functions-deploy-cluster
+    virtual_path: docs/functions-deploy-cluster/index.md
+  - title: Deploy a function in localrun mode
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-deploy-localrun/
+    anchor: functions-deploy-localrun
+    virtual_path: docs/functions-deploy-localrun/index.md
+  - title: Trigger a function
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-deploy-trigger/
+    anchor: functions-deploy-trigger
+    virtual_path: docs/functions-deploy-trigger/index.md
+  - title: Deploy Pulsar Functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-deploy/
+    anchor: functions-deploy
+    virtual_path: docs/functions-deploy/index.md
+  - title: Call Pulsar admin APIs
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-develop-admin-api/
+    anchor: functions-develop-admin-api
+    virtual_path: docs/functions-develop-admin-api/index.md
+  - title: Use APIs
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-develop-api/
+    anchor: functions-develop-api
+    virtual_path: docs/functions-develop-api/index.md
+  - title: Produce function logs
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-develop-log/
+    anchor: functions-develop-log
+    virtual_path: docs/functions-develop-log/index.md
+  - title: Use metrics to monitor functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-develop-metrics/
+    anchor: functions-develop-metrics
+    virtual_path: docs/functions-develop-metrics/index.md
+  - title: Use schema registry
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-develop-schema-registry/
+    anchor: functions-develop-schema-registry
+    virtual_path: docs/functions-develop-schema-registry/index.md
+  - title: Enable security on functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-develop-security/
+    anchor: functions-develop-security
+    virtual_path: docs/functions-develop-security/index.md
+  - title: Use SerDe
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-develop-serde/
+    anchor: functions-develop-serde
+    virtual_path: docs/functions-develop-serde/index.md
+  - title: Configure state storage
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-develop-state/
+    anchor: functions-develop-state
+    virtual_path: docs/functions-develop-state/index.md
+  - title: Tutorials
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-develop-tutorial/
+    anchor: functions-develop-tutorial
+    virtual_path: docs/functions-develop-tutorial/index.md
+  - title: Pass user-defined configurations
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-develop-user-defined-configs/
+    anchor: functions-develop-user-defined-configs
+    virtual_path: docs/functions-develop-user-defined-configs/index.md
+  - title: Develop Pulsar Functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-develop/
+    anchor: functions-develop
+    virtual_path: docs/functions-develop/index.md
+  - title: Pulsar Functions overview
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-overview/
+    anchor: functions-overview
+    virtual_path: docs/functions-overview/index.md
+  - title: Package Go Functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-package-go/
+    anchor: functions-package-go
+    virtual_path: docs/functions-package-go/index.md
+  - title: Package Java Functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-package-java/
+    anchor: functions-package-java
+    virtual_path: docs/functions-package-java/index.md
+  - title: Package Python Functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-package-python/
+    anchor: functions-package-python
+    virtual_path: docs/functions-package-python/index.md
+  - title: Package Pulsar Functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-package/
+    anchor: functions-package
+    virtual_path: docs/functions-package/index.md
+  - title: Getting started with Pulsar Functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-quickstart/
+    anchor: functions-quickstart
+    virtual_path: docs/functions-quickstart/index.md
+  - title: Customize Java runtime options
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-runtime-java-options/
+    anchor: functions-runtime-java-options
+    virtual_path: docs/functions-runtime-java-options/index.md
+  - title: Configure Kubernetes runtime
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-runtime-kubernetes/
+    anchor: functions-runtime-kubernetes
+    virtual_path: docs/functions-runtime-kubernetes/index.md
+  - title: Configure process runtime
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-runtime-process/
+    anchor: functions-runtime-process
+    virtual_path: docs/functions-runtime-process/index.md
+  - title: Configure thread runtime
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-runtime-thread/
+    anchor: functions-runtime-thread
+    virtual_path: docs/functions-runtime-thread/index.md
+  - title: Configure function runtime
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-runtime/
+    anchor: functions-runtime
+    virtual_path: docs/functions-runtime/index.md
+  - title: Run function workers with brokers
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-worker-corun/
+    anchor: functions-worker-corun
+    virtual_path: docs/functions-worker-corun/index.md
+  - title: Configure function workers for geo-replicated clusters
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-worker-for-geo-replication/
+    anchor: functions-worker-for-geo-replication
+    virtual_path: docs/functions-worker-for-geo-replication/index.md
+  - title: Run function workers separately
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-worker-run-separately/
+    anchor: functions-worker-run-separately
+    virtual_path: docs/functions-worker-run-separately/index.md
+  - title: Enable stateful functions
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-worker-stateful/
+    anchor: functions-worker-stateful
+    virtual_path: docs/functions-worker-stateful/index.md
+  - title: Configure temporary file path
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-worker-temp-file-path/
+    anchor: functions-worker-temp-file-path
+    virtual_path: docs/functions-worker-temp-file-path/index.md
+  - title: Troubleshooting
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-worker-troubleshooting/
+    anchor: functions-worker-troubleshooting
+    virtual_path: docs/functions-worker-troubleshooting/index.md
+  - title: Set up function workers
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/functions-worker/
+    anchor: functions-worker
+    virtual_path: docs/functions-worker/index.md
+  - title: Run a Pulsar cluster locally with Docker Compose
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/getting-started-docker-compose/
+    anchor: getting-started-docker-compose
+    virtual_path: docs/getting-started-docker-compose/index.md
+  - title: Run a standalone Pulsar cluster in Docker
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/getting-started-docker/
+    anchor: getting-started-docker
+    virtual_path: docs/getting-started-docker/index.md
+  - title: Run a standalone Pulsar cluster in Kubernetes
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/getting-started-helm/
+    anchor: getting-started-helm
+    virtual_path: docs/getting-started-helm/index.md
+  - title: Deploy a Pulsar cluster on Kubernetes
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/helm-deploy/
+    anchor: helm-deploy
+    virtual_path: docs/helm-deploy/index.md
+  - title: Prepare Kubernetes resources
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/helm-prepare/
+    anchor: helm-prepare
+    virtual_path: docs/helm-prepare/index.md
+  - title: Upgrade Pulsar Helm release
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/helm-upgrade/
+    anchor: helm-upgrade
+    virtual_path: docs/helm-upgrade/index.md
+  - title: CDC connector
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/io-cdc/
+    anchor: io-cdc
+    virtual_path: docs/io-cdc/index.md
+  - title: Built-in connector
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/io-connectors/
+    anchor: io-connectors
+    virtual_path: docs/io-connectors/index.md
+  - title: How to debug Pulsar connectors
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/io-debug/
+    anchor: io-debug
+    virtual_path: docs/io-debug/index.md
+  - title: How to develop Pulsar connectors
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/io-develop/
+    anchor: io-develop
+    virtual_path: docs/io-develop/index.md
+  - title: Pulsar connector overview
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/io-overview/
+    anchor: io-overview
+    virtual_path: docs/io-overview/index.md
+  - title: How to connect Pulsar to database
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/io-quickstart/
+    anchor: io-quickstart
+    virtual_path: docs/io-quickstart/index.md
+  - title: How to use Pulsar connectors
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/io-use/
+    anchor: io-use
+    virtual_path: docs/io-use/index.md
+  - title: Pulsar Perf
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/performance-pulsar-perf/
+    anchor: performance-pulsar-perf
+    virtual_path: docs/performance-pulsar-perf/index.md
+  - title: Pulsar OpenTelemetry Metrics
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/reference-metrics-opentelemetry/
+    anchor: reference-metrics-opentelemetry
+    virtual_path: docs/reference-metrics-opentelemetry/index.md
+  - title: Pulsar metrics
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/reference-metrics/
+    anchor: reference-metrics
+    virtual_path: docs/reference-metrics/index.md
+  - title: Pulsar REST APIs
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/reference-rest-api-overview/
+    anchor: reference-rest-api-overview
+    virtual_path: docs/reference-rest-api-overview/index.md
+  - title: Get started
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/schema-get-started/
+    anchor: schema-get-started
+    virtual_path: docs/schema-get-started/index.md
+  - title: Overview
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/schema-overview/
+    anchor: schema-overview
+    virtual_path: docs/schema-overview/index.md
+  - title: Understand schema
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/schema-understand/
+    anchor: schema-understand
+    virtual_path: docs/schema-understand/index.md
+  - title: Authentication using Athenz
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-athenz/
+    anchor: security-athenz
+    virtual_path: docs/security-athenz/index.md
+  - title: Authentication and authorization in Pulsar
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-authorization/
+    anchor: security-authorization
+    virtual_path: docs/security-authorization/index.md
+  - title: Authentication using HTTP basic
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-basic-auth/
+    anchor: security-basic-auth
+    virtual_path: docs/security-basic-auth/index.md
+  - title: Bouncy Castle Providers
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-bouncy-castle/
+    anchor: security-bouncy-castle
+    virtual_path: docs/security-bouncy-castle/index.md
+  - title: Extend Authentication and Authorization in Pulsar
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-extending/
+    anchor: security-extending
+    virtual_path: docs/security-extending/index.md
+  - title: Authentication using tokens based on JSON Web Tokens
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-jwt/
+    anchor: security-jwt
+    virtual_path: docs/security-jwt/index.md
+  - title: Authentication using Kerberos
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-kerberos/
+    anchor: security-kerberos
+    virtual_path: docs/security-kerberos/index.md
+  - title: Authentication using OAuth 2.0 access tokens
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-oauth2/
+    anchor: security-oauth2
+    virtual_path: docs/security-oauth2/index.md
+  - title: Authentication using OpenID Connect
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-openid-connect/
+    anchor: security-openid-connect
+    virtual_path: docs/security-openid-connect/index.md
+  - title: Authentication using mTLS
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-tls-authentication/
+    anchor: security-tls-authentication
+    virtual_path: docs/security-tls-authentication/index.md
+  - title: TLS Encryption
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/security-tls-transport/
+    anchor: security-tls-transport
+    virtual_path: docs/security-tls-transport/index.md
+  - title: Use Aliyun OSS offloader with Pulsar
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/tiered-storage-aliyun/
+    anchor: tiered-storage-aliyun
+    virtual_path: docs/tiered-storage-aliyun/index.md
+  - title: Use AWS S3 offloader with Pulsar
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/tiered-storage-aws/
+    anchor: tiered-storage-aws
+    virtual_path: docs/tiered-storage-aws/index.md
+  - title: Use Azure BlobStore offloader with Pulsar
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/tiered-storage-azure/
+    anchor: tiered-storage-azure
+    virtual_path: docs/tiered-storage-azure/index.md
+  - title: Use filesystem offloader with Pulsar
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/tiered-storage-filesystem/
+    anchor: tiered-storage-filesystem
+    virtual_path: docs/tiered-storage-filesystem/index.md
+  - title: Use GCS offloader with Pulsar
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/tiered-storage-gcs/
+    anchor: tiered-storage-gcs
+    virtual_path: docs/tiered-storage-gcs/index.md
+  - title: Overview of tiered storage
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/tiered-storage-overview/
+    anchor: tiered-storage-overview
+    virtual_path: docs/tiered-storage-overview/index.md
+  - title: Use S3 offloader with Pulsar
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/tiered-storage-s3/
+    anchor: tiered-storage-s3
+    virtual_path: docs/tiered-storage-s3/index.md
+  - title: Create a namespace
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/tutorials-namespace/
+    anchor: tutorials-namespace
+    virtual_path: docs/tutorials-namespace/index.md
+  - title: Produce and consume messages
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/tutorials-produce-consume/
+    anchor: tutorials-produce-consume
+    virtual_path: docs/tutorials-produce-consume/index.md
+  - title: How to set up a tenant
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/tutorials-tenant/
+    anchor: tutorials-tenant
+    virtual_path: docs/tutorials-tenant/index.md
+  - title: How to create a topic
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/tutorials-topic/
+    anchor: tutorials-topic
+    virtual_path: docs/tutorials-topic/index.md
+  - title: Advanced features
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/txn-advanced-features/
+    anchor: txn-advanced-features
+    virtual_path: docs/txn-advanced-features/index.md
+  - title: How transactions work?
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/txn-how/
+    anchor: txn-how
+    virtual_path: docs/txn-how/index.md
+  - title: How to monitor transactions?
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/txn-monitor/
+    anchor: txn-monitor
+    virtual_path: docs/txn-monitor/index.md
+  - title: Get started
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/txn-use/
+    anchor: txn-use
+    virtual_path: docs/txn-use/index.md
+  - title: What are transactions?
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/txn-what/
+    anchor: txn-what
+    virtual_path: docs/txn-what/index.md
+  - title: Why transactions?
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/txn-why/
+    anchor: txn-why
+    virtual_path: docs/txn-why/index.md
+  - title: Window Functions Context
+    kind: link
+    source_url: https://pulsar.apache.org/docs/4.1.x/window-functions-context/
+    anchor: window-functions-context
+    virtual_path: docs/window-functions-context/index.md

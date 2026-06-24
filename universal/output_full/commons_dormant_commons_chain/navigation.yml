@@ -1,0 +1,205 @@
+- title: Chain
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Download
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/download_chain.cgi
+  - title: Release Notes
+    kind: category
+    source_url: https://commons.apache.org/dormant/commons-chain/changes-report.html
+    anchor: changes-report
+    virtual_path: docs/changes-report.md
+  - title: Cookbook
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/cookbook.html
+    anchor: cookbook
+    virtual_path: docs/cookbook.md
+  - title: Javadoc (latest release)
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/apidocs/index.html
+  - title: Wiki
+    kind: link
+    source_url: http://wiki.apache.org/commons/Chain
+- title: Development
+  kind: category
+  children:
+  - title: Mailing Lists
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/mail-lists.html
+  - title: Issue Tracking
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/issue-tracking.html
+    anchor: issue-tracking
+    virtual_path: docs/issue-tracking.md
+  - title: Source Repository
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/source-repository.html
+    anchor: source-repository
+    virtual_path: docs/source-repository.md
+  - title: Javadoc (latest)
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/apidocs/index.html
+  - title: Building
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/building.html
+    anchor: building
+    virtual_path: docs/building.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: link
+    source_url: https://commons.apache.org/dormant/commons-chain/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: category
+      source_url: https://commons.apache.org/dormant/commons-chain/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Continuous Integration
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/integration.html
+      anchor: integration
+      virtual_path: docs/integration.md
+    - title: Dependencies
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/dependencies.html
+      anchor: dependencies
+      virtual_path: docs/dependencies.md
+    - title: Issue Tracking
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/issue-tracking.html
+      anchor: issue-tracking
+      virtual_path: docs/issue-tracking.md
+    - title: Mailing Lists
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/mail-lists.html
+    - title: Plugin Management
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/plugin-management.html
+      anchor: plugin-management
+      virtual_path: docs/plugin-management.md
+    - title: Project License
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/license.html
+      anchor: license
+      virtual_path: docs/license.md
+    - title: Project Plugins
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/plugins.html
+      anchor: plugins
+      virtual_path: docs/plugins.md
+    - title: Project Summary
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/project-summary.html
+      anchor: project-summary
+      virtual_path: docs/project-summary.md
+    - title: Project Team
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/team-list.html
+      anchor: team-list
+      virtual_path: docs/team-list.md
+    - title: Source Repository
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/source-repository.html
+      anchor: source-repository
+      virtual_path: docs/source-repository.md
+  - title: Project Reports
+    kind: category
+    source_url: https://commons.apache.org/dormant/commons-chain/project-reports.html
+    anchor: project-reports
+    virtual_path: docs/project-reports.md
+    children:
+    - title: Changes Report
+      kind: category
+      source_url: https://commons.apache.org/dormant/commons-chain/changes-report.html
+      anchor: changes-report
+      virtual_path: docs/changes-report.md
+    - title: Checkstyle
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/checkstyle.html
+      anchor: checkstyle
+      virtual_path: docs/checkstyle.md
+    - title: Clirr
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/clirr-report.html
+      anchor: clirr-report
+      virtual_path: docs/clirr-report.md
+    - title: FindBugs Report
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/findbugs.html
+      anchor: findbugs
+      virtual_path: docs/findbugs.md
+    - title: JavaDocs
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/apidocs/index.html
+    - title: JDepend
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/jdepend-report.html
+      anchor: jdepend-report
+      virtual_path: docs/jdepend-report.md
+    - title: RAT Report
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/rat-report.html
+      anchor: rat-report
+      virtual_path: docs/rat-report.md
+    - title: Source Xref
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/xref/index.html
+    - title: Surefire Report
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/surefire-report.html
+      anchor: surefire-report
+      virtual_path: docs/surefire-report.md
+    - title: Test JavaDocs
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/testapidocs/index.html
+    - title: Test Source Xref
+      kind: link
+      source_url: https://commons.apache.org/dormant/commons-chain/xref-test/index.html
+- title: Commons
+  kind: category
+  children:
+  - title: Home
+    kind: link
+    source_url: https://commons.apache.org/dormant/
+  - title: Components
+    kind: link
+    source_url: https://commons.apache.org/dormant/components.html
+  - title: Sandbox
+    kind: link
+    source_url: https://commons.apache.org/dormant/sandbox/index.html
+  - title: Dormant
+    kind: link
+    source_url: https://commons.apache.org/dormant/dormant/index.html
+  - title: Volunteering
+    kind: link
+    source_url: https://commons.apache.org/dormant/volunteering.html
+  - title: Contributing Patches
+    kind: link
+    source_url: https://commons.apache.org/dormant/patches.html
+  - title: Building Components
+    kind: link
+    source_url: https://commons.apache.org/dormant/building.html
+  - title: Releasing Components
+    kind: link
+    source_url: https://commons.apache.org/dormant/releases/index.html
+  - title: Wiki
+    kind: link
+    source_url: http://wiki.apache.org/commons/FrontPage
+- title: ASF
+  kind: category
+  children:
+  - title: Sponsorship
+    kind: link
+    source_url: http://www.apache.org/foundation/sponsorship.html
+  - title: Thanks
+    kind: link
+    source_url: http://www.apache.org/foundation/thanks.html

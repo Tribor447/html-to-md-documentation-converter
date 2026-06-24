@@ -1,0 +1,650 @@
+{
+  "entry_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/",
+  "site_prefix": "/docs/3.0.0/",
+  "site_slug": "ambari_docs_3_0_0",
+  "profile": "docusaurus",
+  "combined_markdown": "combined.md",
+  "page_count": 71,
+  "asset_count": 38,
+  "pages": [
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-alerts/",
+      "title": "Ambari Alerts",
+      "anchor": "ambari-alerts",
+      "virtual_path": "docs/ambari-alerts/index.md",
+      "profile": "docusaurus",
+      "score": 3083,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/alerts/",
+      "title": "Alerts",
+      "anchor": "ambari-design-alerts",
+      "virtual_path": "docs/ambari-design/alerts/index.md",
+      "profile": "docusaurus",
+      "score": 14204,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/blueprints/blueprint-ha/",
+      "title": "Blueprint Support for HA Clusters",
+      "anchor": "ambari-design-blueprints-blueprint-ha",
+      "virtual_path": "docs/ambari-design/blueprints/blueprint-ha/index.md",
+      "profile": "docusaurus",
+      "score": 35868,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/blueprints/blueprint-ranger/",
+      "title": "Blueprint support for Ranger",
+      "anchor": "ambari-design-blueprints-blueprint-ranger",
+      "virtual_path": "docs/ambari-design/blueprints/blueprint-ranger/index.md",
+      "profile": "docusaurus",
+      "score": 17854,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/enhanced-configs/",
+      "title": "Enhanced Configs",
+      "anchor": "ambari-design-enhanced-configs",
+      "virtual_path": "docs/ambari-design/enhanced-configs/index.md",
+      "profile": "docusaurus",
+      "score": 20692,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/",
+      "title": "Ambari Design",
+      "anchor": "ambari-design",
+      "virtual_path": "docs/ambari-design/index.md",
+      "profile": "docusaurus",
+      "score": 7174,
+      "depth": 0
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/kerberos/enabling_kerberos/",
+      "title": "Enabling Kerberos",
+      "anchor": "ambari-design-kerberos-enabling_kerberos",
+      "virtual_path": "docs/ambari-design/kerberos/enabling_kerberos/index.md",
+      "profile": "docusaurus",
+      "score": 25547,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/kerberos/kerberos_descriptor/",
+      "title": "The Kerberos Descriptor",
+      "anchor": "ambari-design-kerberos-kerberos_descriptor",
+      "virtual_path": "docs/ambari-design/kerberos/kerberos_descriptor/index.md",
+      "profile": "docusaurus",
+      "score": 42753,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/kerberos/kerberos_service/",
+      "title": "The Kerberos Service",
+      "anchor": "ambari-design-kerberos-kerberos_service",
+      "virtual_path": "docs/ambari-design/kerberos/kerberos_service/index.md",
+      "profile": "docusaurus",
+      "score": 25446,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/ambari-metrics-whitelisting/",
+      "title": "Ambari Metrics - Whitelisting",
+      "anchor": "ambari-design-metrics-ambari-metrics-whitelisting",
+      "virtual_path": "docs/ambari-design/metrics/ambari-metrics-whitelisting/index.md",
+      "profile": "docusaurus",
+      "score": 7367,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/ambari-server-metrics/",
+      "title": "Ambari Server Metrics",
+      "anchor": "ambari-design-metrics-ambari-server-metrics",
+      "virtual_path": "docs/ambari-design/metrics/ambari-server-metrics/index.md",
+      "profile": "docusaurus",
+      "score": 13091,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/configuration/",
+      "title": "Configuration",
+      "anchor": "ambari-design-metrics-configuration",
+      "virtual_path": "docs/ambari-design/metrics/configuration/index.md",
+      "profile": "docusaurus",
+      "score": 19857,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/",
+      "title": "Metrics",
+      "anchor": "ambari-design-metrics",
+      "virtual_path": "docs/ambari-design/metrics/index.md",
+      "profile": "docusaurus",
+      "score": 4516,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/metrics-api-specification/",
+      "title": "Ambari Metrics API specification",
+      "anchor": "ambari-design-metrics-metrics-api-specification",
+      "virtual_path": "docs/ambari-design/metrics/metrics-api-specification/index.md",
+      "profile": "docusaurus",
+      "score": 8324,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/metrics-collector-api-specification/",
+      "title": "Metrics Collector API Specification",
+      "anchor": "ambari-design-metrics-metrics-collector-api-specification",
+      "virtual_path": "docs/ambari-design/metrics/metrics-collector-api-specification/index.md",
+      "profile": "docusaurus",
+      "score": 17852,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/operations/",
+      "title": "Operations",
+      "anchor": "ambari-design-metrics-operations",
+      "virtual_path": "docs/ambari-design/metrics/operations/index.md",
+      "profile": "docusaurus",
+      "score": 14247,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/stack-defined-metrics/",
+      "title": "Stack Defined Metrics",
+      "anchor": "ambari-design-metrics-stack-defined-metrics",
+      "virtual_path": "docs/ambari-design/metrics/stack-defined-metrics/index.md",
+      "profile": "docusaurus",
+      "score": 6251,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/troubleshooting/",
+      "title": "Troubleshooting",
+      "anchor": "ambari-design-metrics-troubleshooting",
+      "virtual_path": "docs/ambari-design/metrics/troubleshooting/index.md",
+      "profile": "docusaurus",
+      "score": 13607,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/upgrading-ambari-metrics-system/",
+      "title": "Upgrading Ambari Metrics System",
+      "anchor": "ambari-design-metrics-upgrading-ambari-metrics-system",
+      "virtual_path": "docs/ambari-design/metrics/upgrading-ambari-metrics-system/index.md",
+      "profile": "docusaurus",
+      "score": 3396,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/quick-links/",
+      "title": "Quick Links",
+      "anchor": "ambari-design-quick-links",
+      "virtual_path": "docs/ambari-design/quick-links/index.md",
+      "profile": "docusaurus",
+      "score": 11896,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/service-dashboard/",
+      "title": "Enhanced Service Dashboard",
+      "anchor": "ambari-design-service-dashboard",
+      "virtual_path": "docs/ambari-design/service-dashboard/index.md",
+      "profile": "docusaurus",
+      "score": 16589,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/custom-services/",
+      "title": "Custom Services",
+      "anchor": "ambari-design-stack-and-services-custom-services",
+      "virtual_path": "docs/ambari-design/stack-and-services/custom-services/index.md",
+      "profile": "docusaurus",
+      "score": 60995,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/defining-a-custom-stack-and-services/",
+      "title": "Defining a Custom Stack and Services",
+      "anchor": "ambari-design-stack-and-services-defining-a-custom-stack-and-services",
+      "virtual_path": "docs/ambari-design/stack-and-services/defining-a-custom-stack-and-services/index.md",
+      "profile": "docusaurus",
+      "score": 37659,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/extensions/",
+      "title": "Extensions",
+      "anchor": "ambari-design-stack-and-services-extensions",
+      "virtual_path": "docs/ambari-design/stack-and-services/extensions/index.md",
+      "profile": "docusaurus",
+      "score": 16327,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/faq/",
+      "title": "FAQ",
+      "anchor": "ambari-design-stack-and-services-faq",
+      "virtual_path": "docs/ambari-design/stack-and-services/faq/index.md",
+      "profile": "docusaurus",
+      "score": 4700,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/hooks/",
+      "title": "Hooks",
+      "anchor": "ambari-design-stack-and-services-hooks",
+      "virtual_path": "docs/ambari-design/stack-and-services/hooks/index.md",
+      "profile": "docusaurus",
+      "score": 4470,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/how-to-define-stacks-and-services/",
+      "title": "How-To Define Stacks and Services",
+      "anchor": "ambari-design-stack-and-services-how-to-define-stacks-and-services",
+      "virtual_path": "docs/ambari-design/stack-and-services/how-to-define-stacks-and-services/index.md",
+      "profile": "docusaurus",
+      "score": 80520,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/",
+      "title": "Stacks and Services",
+      "anchor": "ambari-design-stack-and-services",
+      "virtual_path": "docs/ambari-design/stack-and-services/index.md",
+      "profile": "docusaurus",
+      "score": 3524,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/management-packs/",
+      "title": "Management Packs",
+      "anchor": "ambari-design-stack-and-services-management-packs",
+      "virtual_path": "docs/ambari-design/stack-and-services/management-packs/index.md",
+      "profile": "docusaurus",
+      "score": 16265,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/overview/",
+      "title": "Overview",
+      "anchor": "ambari-design-stack-and-services-overview",
+      "virtual_path": "docs/ambari-design/stack-and-services/overview/index.md",
+      "profile": "docusaurus",
+      "score": 32963,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/stack-inheritance/",
+      "title": "Stack Inheritance",
+      "anchor": "ambari-design-stack-and-services-stack-inheritance",
+      "virtual_path": "docs/ambari-design/stack-and-services/stack-inheritance/index.md",
+      "profile": "docusaurus",
+      "score": 6525,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/stack-properties/",
+      "title": "Stack Properties",
+      "anchor": "ambari-design-stack-and-services-stack-properties",
+      "virtual_path": "docs/ambari-design/stack-and-services/stack-properties/index.md",
+      "profile": "docusaurus",
+      "score": 8902,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/version-functions-conf-select-and-stack-select/",
+      "title": "Version functions: conf-select and stack-select",
+      "anchor": "ambari-design-stack-and-services-version-functions-conf-select-and-stack-select",
+      "virtual_path": "docs/ambari-design/stack-and-services/version-functions-conf-select-and-stack-select/index.md",
+      "profile": "docusaurus",
+      "score": 6289,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/writing-metainfo/",
+      "title": "Writing metainfo.xml",
+      "anchor": "ambari-design-stack-and-services-writing-metainfo",
+      "virtual_path": "docs/ambari-design/stack-and-services/writing-metainfo/index.md",
+      "profile": "docusaurus",
+      "score": 13447,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/technology-stack/",
+      "title": "Technology Stack",
+      "anchor": "ambari-design-technology-stack",
+      "virtual_path": "docs/ambari-design/technology-stack/index.md",
+      "profile": "docusaurus",
+      "score": 3247,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/views/framework-services/",
+      "title": "Framework Services",
+      "anchor": "ambari-design-views-framework-services",
+      "virtual_path": "docs/ambari-design/views/framework-services/index.md",
+      "profile": "docusaurus",
+      "score": 9961,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/views/",
+      "title": "Views",
+      "anchor": "ambari-design-views",
+      "virtual_path": "docs/ambari-design/views/index.md",
+      "profile": "docusaurus",
+      "score": 10296,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/views/view-api/",
+      "title": "View API",
+      "anchor": "ambari-design-views-view-api",
+      "virtual_path": "docs/ambari-design/views/view-api/index.md",
+      "profile": "docusaurus",
+      "score": 9832,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-design/views/view-definition/",
+      "title": "View Definition",
+      "anchor": "ambari-design-views-view-definition",
+      "virtual_path": "docs/ambari-design/views/view-definition/index.md",
+      "profile": "docusaurus",
+      "score": 16954,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/admin-view-ambari-admin-development/",
+      "title": "Admin View (ambari-admin) Development",
+      "anchor": "ambari-dev-admin-view-ambari-admin-development",
+      "virtual_path": "docs/ambari-dev/admin-view-ambari-admin-development/index.md",
+      "profile": "docusaurus",
+      "score": 5600,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/ambari-code-layout/",
+      "title": "Ambari Code Layout",
+      "anchor": "ambari-dev-ambari-code-layout",
+      "virtual_path": "docs/ambari-dev/ambari-code-layout/index.md",
+      "profile": "docusaurus",
+      "score": 9996,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/apache-ambari-jira/",
+      "title": "Apache Ambari JIRA",
+      "anchor": "ambari-dev-apache-ambari-jira",
+      "virtual_path": "docs/ambari-dev/apache-ambari-jira/index.md",
+      "profile": "docusaurus",
+      "score": 4748,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/bigtop-guide/",
+      "title": "Compiling Components for Ambari Bigtop Stack",
+      "anchor": "ambari-dev-bigtop-guide",
+      "virtual_path": "docs/ambari-dev/bigtop-guide/index.md",
+      "profile": "docusaurus",
+      "score": 14946,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/building-from-source/",
+      "title": "Building Apache Ambari from Source",
+      "anchor": "ambari-dev-building-from-source",
+      "virtual_path": "docs/ambari-dev/building-from-source/index.md",
+      "profile": "docusaurus",
+      "score": 12837,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/code-review-guidelines/",
+      "title": "Code Review Guidelines",
+      "anchor": "ambari-dev-code-review-guidelines",
+      "virtual_path": "docs/ambari-dev/code-review-guidelines/index.md",
+      "profile": "docusaurus",
+      "score": 3770,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/coding-guidelines-for-ambari/",
+      "title": "Coding Guidelines for Ambari",
+      "anchor": "ambari-dev-coding-guidelines-for-ambari",
+      "virtual_path": "docs/ambari-dev/coding-guidelines-for-ambari/index.md",
+      "profile": "docusaurus",
+      "score": 19165,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/developer-tools/",
+      "title": "Developer Tools",
+      "anchor": "ambari-dev-developer-tools",
+      "virtual_path": "docs/ambari-dev/developer-tools/index.md",
+      "profile": "docusaurus",
+      "score": 6923,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/development-in-docker/",
+      "title": "Development in Docker",
+      "anchor": "ambari-dev-development-in-docker",
+      "virtual_path": "docs/ambari-dev/development-in-docker/index.md",
+      "profile": "docusaurus",
+      "score": 9500,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/development-process-for-new-major-features/",
+      "title": "Development Process for New Major Features",
+      "anchor": "ambari-dev-development-process-for-new-major-features",
+      "virtual_path": "docs/ambari-dev/development-process-for-new-major-features/index.md",
+      "profile": "docusaurus",
+      "score": 16074,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/feature-flags/",
+      "title": "Feature Flags",
+      "anchor": "ambari-dev-feature-flags",
+      "virtual_path": "docs/ambari-dev/feature-flags/index.md",
+      "profile": "docusaurus",
+      "score": 3530,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/how-to-commit/",
+      "title": "How to Commit",
+      "anchor": "ambari-dev-how-to-commit",
+      "virtual_path": "docs/ambari-dev/how-to-commit/index.md",
+      "profile": "docusaurus",
+      "score": 3922,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/how-to-contribute/",
+      "title": "How to Contribute",
+      "anchor": "ambari-dev-how-to-contribute",
+      "virtual_path": "docs/ambari-dev/how-to-contribute/index.md",
+      "profile": "docusaurus",
+      "score": 16221,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/",
+      "title": "Ambari Development",
+      "anchor": "ambari-dev",
+      "virtual_path": "docs/ambari-dev/index.md",
+      "profile": "docusaurus",
+      "score": 22399,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/releasing-ambari/",
+      "title": "Releasing Ambari",
+      "anchor": "ambari-dev-releasing-ambari",
+      "virtual_path": "docs/ambari-dev/releasing-ambari/index.md",
+      "profile": "docusaurus",
+      "score": 25240,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/running-tests/",
+      "title": "Running Tests in Apache Ambari",
+      "anchor": "ambari-dev-running-tests",
+      "virtual_path": "docs/ambari-dev/running-tests/index.md",
+      "profile": "docusaurus",
+      "score": 10707,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/unit-test-reports/",
+      "title": "Unit Test Reports",
+      "anchor": "ambari-dev-unit-test-reports",
+      "virtual_path": "docs/ambari-dev/unit-test-reports/index.md",
+      "profile": "docusaurus",
+      "score": 1734,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-dev/verifying-release-candidate/",
+      "title": "Verifying Release Candidate",
+      "anchor": "ambari-dev-verifying-release-candidate",
+      "virtual_path": "docs/ambari-dev/verifying-release-candidate/index.md",
+      "profile": "docusaurus",
+      "score": 9313,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-plugin-contribution/",
+      "title": "Ambari Plugin Contributions",
+      "anchor": "ambari-plugin-contribution",
+      "virtual_path": "docs/ambari-plugin-contribution/index.md",
+      "profile": "docusaurus",
+      "score": 2585,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-plugin-contribution/scom/",
+      "title": "Ambari SCOM Management Pack",
+      "anchor": "ambari-plugin-contribution-scom",
+      "virtual_path": "docs/ambari-plugin-contribution/scom/index.md",
+      "profile": "docusaurus",
+      "score": 7662,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-plugin-contribution/scom/installation/",
+      "title": "Installation",
+      "anchor": "ambari-plugin-contribution-scom-installation",
+      "virtual_path": "docs/ambari-plugin-contribution/scom/installation/index.md",
+      "profile": "docusaurus",
+      "score": 29988,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/ambari-plugin-contribution/step-by-step/",
+      "title": "Step-by-step guide on adding a dashboard widget for a host.",
+      "anchor": "ambari-plugin-contribution-step-by-step",
+      "virtual_path": "docs/ambari-plugin-contribution/step-by-step/index.md",
+      "profile": "docusaurus",
+      "score": 5629,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/blueprints/",
+      "title": "Blueprints",
+      "anchor": "blueprints",
+      "virtual_path": "docs/blueprints/index.md",
+      "profile": "docusaurus",
+      "score": 55247,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/faq/",
+      "title": "Frequently Asked Questions (FAQ)",
+      "anchor": "faq",
+      "virtual_path": "docs/faq/index.md",
+      "profile": "docusaurus",
+      "score": 15663,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/introduction/",
+      "title": "Introduction",
+      "anchor": "introduction",
+      "virtual_path": "docs/introduction/index.md",
+      "profile": "docusaurus",
+      "score": 9171,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/kerberos/",
+      "title": "Ambari Kerberos Automation",
+      "anchor": "kerberos",
+      "virtual_path": "docs/kerberos/index.md",
+      "profile": "docusaurus",
+      "score": 9195,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/quick-start/download/",
+      "title": "Download",
+      "anchor": "quick-start-download",
+      "virtual_path": "docs/quick-start/download/index.md",
+      "profile": "docusaurus",
+      "score": 13331,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/quick-start/environment-setup/bare-metal-kvm-setup/",
+      "title": "Bare Metal and KVM Environment Setup for Apache Ambari",
+      "anchor": "quick-start-environment-setup-bare-metal-kvm-setup",
+      "virtual_path": "docs/quick-start/environment-setup/bare-metal-kvm-setup/index.md",
+      "profile": "docusaurus",
+      "score": 21644,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/quick-start/environment-setup/docker-environment-setup/",
+      "title": "Docker Environment Setup for Apache Ambari",
+      "anchor": "quick-start-environment-setup-docker-environment-setup",
+      "virtual_path": "docs/quick-start/environment-setup/docker-environment-setup/index.md",
+      "profile": "docusaurus",
+      "score": 24812,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/quick-start/environment-setup/vagrant-environment-setup/",
+      "title": "Vagrant Environment Setup for Apache Ambari",
+      "anchor": "quick-start-environment-setup-vagrant-environment-setup",
+      "virtual_path": "docs/quick-start/environment-setup/vagrant-environment-setup/index.md",
+      "profile": "docusaurus",
+      "score": 25833,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/quick-start/installation-guide/",
+      "title": "Ambari Installation Guide",
+      "anchor": "quick-start-installation-guide",
+      "virtual_path": "docs/quick-start/installation-guide/index.md",
+      "profile": "docusaurus",
+      "score": 18309,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ambari.apache.org/docs/3.0.0/quick-start/quick-start-guide/",
+      "title": "Quick Start Guide",
+      "anchor": "quick-start-quick-start-guide",
+      "virtual_path": "docs/quick-start/quick-start-guide/index.md",
+      "profile": "docusaurus",
+      "score": 10774,
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,1302 @@
+[
+  {
+    "title": "Hamilton",
+    "kind": "link",
+    "source_url": "https://hamilton.incubator.apache.org/",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "USER GUIDE",
+    "kind": "category",
+    "source_url": "https://hamilton.incubator.apache.org/how-tos/",
+    "anchor": "how-tos",
+    "virtual_path": "docs/how-tos/index.md",
+    "children": [
+      {
+        "title": "Get Started",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/get-started/",
+        "anchor": "get-started",
+        "virtual_path": "docs/get-started/index.md",
+        "children": [
+          {
+            "title": "Why use Apache Hamilton?",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/get-started/why-hamilton/",
+            "anchor": "get-started-why-hamilton",
+            "virtual_path": "docs/get-started/why-hamilton/index.md"
+          },
+          {
+            "title": "Install",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/get-started/install/",
+            "anchor": "get-started-install",
+            "virtual_path": "docs/get-started/install/index.md"
+          },
+          {
+            "title": "Your First Dataflow",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/get-started/your-first-dataflow/",
+            "anchor": "get-started-your-first-dataflow",
+            "virtual_path": "docs/get-started/your-first-dataflow/index.md"
+          },
+          {
+            "title": "Learning Resources",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/get-started/learning-resources/",
+            "anchor": "get-started-learning-resources",
+            "virtual_path": "docs/get-started/learning-resources/index.md"
+          },
+          {
+            "title": "Contributing",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/get-started/contributing/",
+            "anchor": "get-started-contributing",
+            "virtual_path": "docs/get-started/contributing/index.md"
+          },
+          {
+            "title": "License",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/get-started/license/",
+            "anchor": "get-started-license",
+            "virtual_path": "docs/get-started/license/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Concepts",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/concepts/",
+        "anchor": "concepts",
+        "virtual_path": "docs/concepts/index.md",
+        "children": [
+          {
+            "title": "Glossary",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/glossary/",
+            "anchor": "concepts-glossary",
+            "virtual_path": "docs/concepts/glossary/index.md"
+          },
+          {
+            "title": "Functions, nodes & dataflow",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/node/",
+            "anchor": "concepts-node",
+            "virtual_path": "docs/concepts/node/index.md"
+          },
+          {
+            "title": "Driver",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/driver/",
+            "anchor": "concepts-driver",
+            "virtual_path": "docs/concepts/driver/index.md"
+          },
+          {
+            "title": "Visualization",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/visualization/",
+            "anchor": "concepts-visualization",
+            "virtual_path": "docs/concepts/visualization/index.md"
+          },
+          {
+            "title": "Materialization",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/materialization/",
+            "anchor": "concepts-materialization",
+            "virtual_path": "docs/concepts/materialization/index.md"
+          },
+          {
+            "title": "Function modifiers",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/function-modifiers/",
+            "anchor": "concepts-function-modifiers",
+            "virtual_path": "docs/concepts/function-modifiers/index.md"
+          },
+          {
+            "title": "Builder",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/builder/",
+            "anchor": "concepts-builder",
+            "virtual_path": "docs/concepts/builder/index.md"
+          },
+          {
+            "title": "Caching",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/caching/",
+            "anchor": "concepts-caching",
+            "virtual_path": "docs/concepts/caching/index.md"
+          },
+          {
+            "title": "Function modifiers (Advanced)",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/function-modifiers-advanced/",
+            "anchor": "concepts-function-modifiers-advanced",
+            "virtual_path": "docs/concepts/function-modifiers-advanced/index.md"
+          },
+          {
+            "title": "Dynamic DAGs/Parallel Execution",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/parallel-task/",
+            "anchor": "concepts-parallel-task",
+            "virtual_path": "docs/concepts/parallel-task/index.md"
+          },
+          {
+            "title": "UI Overview",
+            "kind": "category",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/ui/",
+            "anchor": "concepts-ui",
+            "virtual_path": "docs/concepts/ui/index.md"
+          },
+          {
+            "title": "Local Mode",
+            "kind": "category",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/ui/#local-mode",
+            "anchor": "concepts-ui--local-mode",
+            "virtual_path": "docs/concepts/ui/index.md"
+          },
+          {
+            "title": "Docker/Deployed Mode",
+            "kind": "category",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/ui/#docker-deployed-mode",
+            "anchor": "concepts-ui--docker-deployed-mode",
+            "virtual_path": "docs/concepts/ui/index.md"
+          },
+          {
+            "title": "Get started",
+            "kind": "category",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/ui/#get-started",
+            "anchor": "concepts-ui--get-started",
+            "virtual_path": "docs/concepts/ui/index.md"
+          },
+          {
+            "title": "Features",
+            "kind": "category",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/ui/#features",
+            "anchor": "concepts-ui--features",
+            "virtual_path": "docs/concepts/ui/index.md"
+          },
+          {
+            "title": "SDK Configuration",
+            "kind": "category",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/ui/#sdk-configuration",
+            "anchor": "concepts-ui--sdk-configuration",
+            "virtual_path": "docs/concepts/ui/index.md"
+          },
+          {
+            "title": "Best Practices",
+            "kind": "category",
+            "source_url": "https://hamilton.incubator.apache.org/concepts/best-practices/",
+            "anchor": "concepts-best-practices",
+            "virtual_path": "docs/concepts/best-practices/index.md",
+            "children": [
+              {
+                "title": "Function Naming",
+                "kind": "link",
+                "source_url": "https://hamilton.incubator.apache.org/concepts/best-practices/function-naming/",
+                "anchor": "concepts-best-practices-function-naming",
+                "virtual_path": "docs/concepts/best-practices/function-naming/index.md"
+              },
+              {
+                "title": "Migrating to Apache Hamilton",
+                "kind": "link",
+                "source_url": "https://hamilton.incubator.apache.org/concepts/best-practices/migrating-to-hamilton/",
+                "anchor": "concepts-best-practices-migrating-to-hamilton",
+                "virtual_path": "docs/concepts/best-practices/migrating-to-hamilton/index.md"
+              },
+              {
+                "title": "Code Organization",
+                "kind": "link",
+                "source_url": "https://hamilton.incubator.apache.org/concepts/best-practices/code-organization/",
+                "anchor": "concepts-best-practices-code-organization",
+                "virtual_path": "docs/concepts/best-practices/code-organization/index.md"
+              },
+              {
+                "title": "Common Indices",
+                "kind": "link",
+                "source_url": "https://hamilton.incubator.apache.org/concepts/best-practices/common-indices/",
+                "anchor": "concepts-best-practices-common-indices",
+                "virtual_path": "docs/concepts/best-practices/common-indices/index.md"
+              },
+              {
+                "title": "Output Immutability",
+                "kind": "link",
+                "source_url": "https://hamilton.incubator.apache.org/concepts/best-practices/output-immutability/",
+                "anchor": "concepts-best-practices-output-immutability",
+                "virtual_path": "docs/concepts/best-practices/output-immutability/index.md"
+              },
+              {
+                "title": "Using within your ETL System",
+                "kind": "link",
+                "source_url": "https://hamilton.incubator.apache.org/concepts/best-practices/using-within-your-etl-system/",
+                "anchor": "concepts-best-practices-using-within-your-etl-system",
+                "virtual_path": "docs/concepts/best-practices/using-within-your-etl-system/index.md"
+              },
+              {
+                "title": "Loading Data",
+                "kind": "link",
+                "source_url": "https://hamilton.incubator.apache.org/concepts/best-practices/loading-data/",
+                "anchor": "concepts-best-practices-loading-data",
+                "virtual_path": "docs/concepts/best-practices/loading-data/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "User Guide",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/how-tos/",
+        "anchor": "how-tos",
+        "virtual_path": "docs/how-tos/index.md",
+        "children": [
+          {
+            "title": "Jupyter notebooks",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/use-in-jupyter-notebook/",
+            "anchor": "how-tos-use-in-jupyter-notebook",
+            "virtual_path": "docs/how-tos/use-in-jupyter-notebook/index.md"
+          },
+          {
+            "title": "Loading data",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/load-data/",
+            "anchor": "how-tos-load-data",
+            "virtual_path": "docs/how-tos/load-data/index.md"
+          },
+          {
+            "title": "Caching",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/caching-tutorial/",
+            "anchor": "how-tos-caching-tutorial",
+            "virtual_path": "docs/how-tos/caching-tutorial/index.md"
+          },
+          {
+            "title": "Feature engineering",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/use-for-feature-engineering/",
+            "anchor": "how-tos-use-for-feature-engineering",
+            "virtual_path": "docs/how-tos/use-for-feature-engineering/index.md"
+          },
+          {
+            "title": "Reusing functions and nodes",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/reuse-nodes/",
+            "anchor": "how-tos-reuse-nodes",
+            "virtual_path": "docs/how-tos/reuse-nodes/index.md"
+          },
+          {
+            "title": "Model training",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/ml-training/",
+            "anchor": "how-tos-ml-training",
+            "virtual_path": "docs/how-tos/ml-training/index.md"
+          },
+          {
+            "title": "LLM workflows",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/llm-workflows/",
+            "anchor": "how-tos-llm-workflows",
+            "virtual_path": "docs/how-tos/llm-workflows/index.md"
+          },
+          {
+            "title": "Data quality",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/run-data-quality-checks/",
+            "anchor": "how-tos-run-data-quality-checks",
+            "virtual_path": "docs/how-tos/run-data-quality-checks/index.md"
+          },
+          {
+            "title": "Testing Apache Hamilton code",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/test-hamilton-code/",
+            "anchor": "how-tos-test-hamilton-code",
+            "virtual_path": "docs/how-tos/test-hamilton-code/index.md"
+          },
+          {
+            "title": "Lineage + Apache Hamilton",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/use-hamilton-for-lineage/",
+            "anchor": "how-tos-use-hamilton-for-lineage",
+            "virtual_path": "docs/how-tos/use-hamilton-for-lineage/index.md"
+          },
+          {
+            "title": "Scaling computation",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/scale-up/",
+            "anchor": "how-tos-scale-up",
+            "virtual_path": "docs/how-tos/scale-up/index.md"
+          },
+          {
+            "title": "Microservice",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/microservice/",
+            "anchor": "how-tos-microservice",
+            "virtual_path": "docs/how-tos/microservice/index.md"
+          },
+          {
+            "title": "Extension autoloading",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/extensions-autoloading/",
+            "anchor": "how-tos-extensions-autoloading",
+            "virtual_path": "docs/how-tos/extensions-autoloading/index.md"
+          },
+          {
+            "title": "Wrapping the Driver",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/wrapping-driver/",
+            "anchor": "how-tos-wrapping-driver",
+            "virtual_path": "docs/how-tos/wrapping-driver/index.md"
+          },
+          {
+            "title": "Command line interface",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/cli-reference/",
+            "anchor": "how-tos-cli-reference",
+            "virtual_path": "docs/how-tos/cli-reference/index.md"
+          },
+          {
+            "title": "pre-commit hooks",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/how-tos/pre-commit-hooks/",
+            "anchor": "how-tos-pre-commit-hooks",
+            "virtual_path": "docs/how-tos/pre-commit-hooks/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Apache Hamilton UI",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/hamilton-ui/",
+        "anchor": "hamilton-ui",
+        "virtual_path": "docs/hamilton-ui/index.md",
+        "children": [
+          {
+            "title": "UI Overview",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/hamilton-ui/ui/",
+            "anchor": "hamilton-ui-ui",
+            "virtual_path": "docs/hamilton-ui/ui/index.md"
+          },
+          {
+            "title": "Local Mode",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/hamilton-ui/ui/#local-mode",
+            "anchor": "hamilton-ui-ui--local-mode",
+            "virtual_path": "docs/hamilton-ui/ui/index.md"
+          },
+          {
+            "title": "Docker/Deployed Mode",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/hamilton-ui/ui/#docker-deployed-mode",
+            "anchor": "hamilton-ui-ui--docker-deployed-mode",
+            "virtual_path": "docs/hamilton-ui/ui/index.md"
+          },
+          {
+            "title": "Get started",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/hamilton-ui/ui/#get-started",
+            "anchor": "hamilton-ui-ui--get-started",
+            "virtual_path": "docs/hamilton-ui/ui/index.md"
+          },
+          {
+            "title": "Features",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/hamilton-ui/ui/#features",
+            "anchor": "hamilton-ui-ui--features",
+            "virtual_path": "docs/hamilton-ui/ui/index.md"
+          },
+          {
+            "title": "SDK Configuration",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/hamilton-ui/ui/#sdk-configuration",
+            "anchor": "hamilton-ui-ui--sdk-configuration",
+            "virtual_path": "docs/hamilton-ui/ui/index.md"
+          }
+        ]
+      },
+      {
+        "title": "IDE extension",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/hamilton-vscode/",
+        "anchor": "hamilton-vscode",
+        "virtual_path": "docs/hamilton-vscode/index.md",
+        "children": [
+          {
+            "title": "Apache Hamilton VSCode",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/hamilton-vscode/vscode_extension/",
+            "anchor": "hamilton-vscode-vscode_extension",
+            "virtual_path": "docs/hamilton-vscode/vscode_extension/index.md"
+          },
+          {
+            "title": "Language Server",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/hamilton-vscode/language_server/",
+            "anchor": "hamilton-vscode-language_server",
+            "virtual_path": "docs/hamilton-vscode/language_server/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Integrations",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/integrations/",
+        "anchor": "integrations",
+        "virtual_path": "docs/integrations/index.md",
+        "children": [
+          {
+            "title": "dlt",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/integrations/dlt/",
+            "anchor": "integrations-dlt",
+            "virtual_path": "docs/integrations/dlt/index.md"
+          },
+          {
+            "title": "FastAPI",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/integrations/fastapi/",
+            "anchor": "integrations-fastapi",
+            "virtual_path": "docs/integrations/fastapi/index.md"
+          },
+          {
+            "title": "Ibis",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/integrations/ibis/",
+            "anchor": "integrations-ibis",
+            "virtual_path": "docs/integrations/ibis/index.md"
+          },
+          {
+            "title": "Streamlit",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/integrations/streamlit/",
+            "anchor": "integrations-streamlit",
+            "virtual_path": "docs/integrations/streamlit/index.md"
+          },
+          {
+            "title": "dbt",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/integrations/dbt/",
+            "anchor": "integrations-dbt",
+            "virtual_path": "docs/integrations/dbt/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Code Comparisons",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/code-comparisons/",
+        "anchor": "code-comparisons",
+        "virtual_path": "docs/code-comparisons/index.md",
+        "children": [
+          {
+            "title": "Kedro",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/code-comparisons/kedro/",
+            "anchor": "code-comparisons-kedro",
+            "virtual_path": "docs/code-comparisons/kedro/index.md"
+          },
+          {
+            "title": "Dagster",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/code-comparisons/dagster/",
+            "anchor": "code-comparisons-dagster",
+            "virtual_path": "docs/code-comparisons/dagster/index.md"
+          },
+          {
+            "title": "LangChain",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/code-comparisons/langchain/",
+            "anchor": "code-comparisons-langchain",
+            "virtual_path": "docs/code-comparisons/langchain/index.md"
+          },
+          {
+            "title": "Airflow",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/code-comparisons/airflow/",
+            "anchor": "code-comparisons-airflow",
+            "virtual_path": "docs/code-comparisons/airflow/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "DOWNLOADS",
+    "kind": "category",
+    "source_url": "https://hamilton.incubator.apache.org/asf/downloads/",
+    "anchor": "asf-downloads",
+    "virtual_path": "docs/asf/downloads/index.md",
+    "children": [
+      {
+        "title": "Downloads",
+        "kind": "link",
+        "source_url": "https://hamilton.incubator.apache.org/asf/downloads/",
+        "anchor": "asf-downloads",
+        "virtual_path": "docs/asf/downloads/index.md"
+      }
+    ]
+  },
+  {
+    "title": "COMMUNITY",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Meet-ups",
+        "kind": "link",
+        "source_url": "https://hamilton.incubator.apache.org/community/",
+        "anchor": "community",
+        "virtual_path": "docs/community/index.md"
+      },
+      {
+        "title": "Ecosystem",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/ecosystem/",
+        "anchor": "ecosystem",
+        "virtual_path": "docs/ecosystem/index.md",
+        "children": [
+          {
+            "title": "Claude Code Plugin for Hamilton",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/ecosystem/claude-code-plugin/",
+            "anchor": "ecosystem-claude-code-plugin",
+            "virtual_path": "docs/ecosystem/claude-code-plugin/index.md"
+          },
+          {
+            "title": "MCP Server",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/ecosystem/mcp-server/",
+            "anchor": "ecosystem-mcp-server",
+            "virtual_path": "docs/ecosystem/mcp-server/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "REFERENCE",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Decorators",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/reference/decorators/",
+        "anchor": "reference-decorators",
+        "virtual_path": "docs/reference/decorators/index.md",
+        "children": [
+          {
+            "title": "check output*",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/check_output/",
+            "anchor": "reference-decorators-check_output",
+            "virtual_path": "docs/reference/decorators/check_output/index.md"
+          },
+          {
+            "title": "config.when*",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/config_when/",
+            "anchor": "reference-decorators-config_when",
+            "virtual_path": "docs/reference/decorators/config_when/index.md"
+          },
+          {
+            "title": "dataloader",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/dataloader/",
+            "anchor": "reference-decorators-dataloader",
+            "virtual_path": "docs/reference/decorators/dataloader/index.md"
+          },
+          {
+            "title": "datasaver",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/datasaver/",
+            "anchor": "reference-decorators-datasaver",
+            "virtual_path": "docs/reference/decorators/datasaver/index.md"
+          },
+          {
+            "title": "does",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/does/",
+            "anchor": "reference-decorators-does",
+            "virtual_path": "docs/reference/decorators/does/index.md"
+          },
+          {
+            "title": "unpack fields",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/unpack_fields/",
+            "anchor": "reference-decorators-unpack_fields",
+            "virtual_path": "docs/reference/decorators/unpack_fields/index.md"
+          },
+          {
+            "title": "extract columns",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/extract_columns/",
+            "anchor": "reference-decorators-extract_columns",
+            "virtual_path": "docs/reference/decorators/extract_columns/index.md"
+          },
+          {
+            "title": "extract fields",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/extract_fields/",
+            "anchor": "reference-decorators-extract_fields",
+            "virtual_path": "docs/reference/decorators/extract_fields/index.md"
+          },
+          {
+            "title": "inject",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/inject/",
+            "anchor": "reference-decorators-inject",
+            "virtual_path": "docs/reference/decorators/inject/index.md"
+          },
+          {
+            "title": "load from",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/load_from/",
+            "anchor": "reference-decorators-load_from",
+            "virtual_path": "docs/reference/decorators/load_from/index.md"
+          },
+          {
+            "title": "parameterize",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/parameterize/",
+            "anchor": "reference-decorators-parameterize",
+            "virtual_path": "docs/reference/decorators/parameterize/index.md"
+          },
+          {
+            "title": "parameterize extract columns",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/parameterize_extract_columns/",
+            "anchor": "reference-decorators-parameterize_extract_columns",
+            "virtual_path": "docs/reference/decorators/parameterize_extract_columns/index.md"
+          },
+          {
+            "title": "parameterize frame",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/parameterize_frame/",
+            "anchor": "reference-decorators-parameterize_frame",
+            "virtual_path": "docs/reference/decorators/parameterize_frame/index.md"
+          },
+          {
+            "title": "parameterize sources",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/parameterize_sources/",
+            "anchor": "reference-decorators-parameterize_sources",
+            "virtual_path": "docs/reference/decorators/parameterize_sources/index.md"
+          },
+          {
+            "title": "parameterized subdag",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/parameterize_subdag/",
+            "anchor": "reference-decorators-parameterize_subdag",
+            "virtual_path": "docs/reference/decorators/parameterize_subdag/index.md"
+          },
+          {
+            "title": "parameterize values",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/parameterize_values/",
+            "anchor": "reference-decorators-parameterize_values",
+            "virtual_path": "docs/reference/decorators/parameterize_values/index.md"
+          },
+          {
+            "title": "pipe family",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/pipe/",
+            "anchor": "reference-decorators-pipe",
+            "virtual_path": "docs/reference/decorators/pipe/index.md"
+          },
+          {
+            "title": "resolve",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/resolve/",
+            "anchor": "reference-decorators-resolve",
+            "virtual_path": "docs/reference/decorators/resolve/index.md"
+          },
+          {
+            "title": "save to",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/save_to/",
+            "anchor": "reference-decorators-save_to",
+            "virtual_path": "docs/reference/decorators/save_to/index.md"
+          },
+          {
+            "title": "subdag",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/subdag/",
+            "anchor": "reference-decorators-subdag",
+            "virtual_path": "docs/reference/decorators/subdag/index.md"
+          },
+          {
+            "title": "schema",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/schema/",
+            "anchor": "reference-decorators-schema",
+            "virtual_path": "docs/reference/decorators/schema/index.md"
+          },
+          {
+            "title": "with columns",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/decorators/with_columns/",
+            "anchor": "reference-decorators-with_columns",
+            "virtual_path": "docs/reference/decorators/with_columns/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Drivers",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/reference/drivers/",
+        "anchor": "reference-drivers",
+        "virtual_path": "docs/reference/drivers/index.md",
+        "children": [
+          {
+            "title": "Builder",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/drivers/Driver/",
+            "anchor": "reference-drivers-driver",
+            "virtual_path": "docs/reference/drivers/Driver/index.md"
+          },
+          {
+            "title": "Driver",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/drivers/Driver/#driver",
+            "anchor": "reference-drivers-driver--driver",
+            "virtual_path": "docs/reference/drivers/Driver/index.md"
+          },
+          {
+            "title": "DefaultGraphExecutor",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/drivers/Driver/#defaultgraphexecutor",
+            "anchor": "reference-drivers-driver--defaultgraphexecutor",
+            "virtual_path": "docs/reference/drivers/Driver/index.md"
+          },
+          {
+            "title": "TaskBasedGraphExecutor",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/drivers/Driver/#taskbasedgraphexecutor",
+            "anchor": "reference-drivers-driver--taskbasedgraphexecutor",
+            "virtual_path": "docs/reference/drivers/Driver/index.md"
+          },
+          {
+            "title": "AsyncDriver",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/drivers/AsyncDriver/",
+            "anchor": "reference-drivers-asyncdriver",
+            "virtual_path": "docs/reference/drivers/AsyncDriver/index.md"
+          },
+          {
+            "title": "Custom Driver",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/drivers/Custom/",
+            "anchor": "reference-drivers-custom",
+            "virtual_path": "docs/reference/drivers/Custom/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Caching",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/reference/caching/",
+        "anchor": "reference-caching",
+        "virtual_path": "docs/reference/caching/index.md",
+        "children": [
+          {
+            "title": "Caching logic",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/caching/caching-logic/",
+            "anchor": "reference-caching-caching-logic",
+            "virtual_path": "docs/reference/caching/caching-logic/index.md"
+          },
+          {
+            "title": "Data versioning",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/caching/data-versioning/",
+            "anchor": "reference-caching-data-versioning",
+            "virtual_path": "docs/reference/caching/data-versioning/index.md"
+          },
+          {
+            "title": "Stores",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/caching/stores/",
+            "anchor": "reference-caching-stores",
+            "virtual_path": "docs/reference/caching/stores/index.md"
+          }
+        ]
+      },
+      {
+        "title": "GraphAdapters",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/reference/graph-adapters/",
+        "anchor": "reference-graph-adapters",
+        "virtual_path": "docs/reference/graph-adapters/index.md",
+        "children": [
+          {
+            "title": "SimplePythonDataFrameGraphAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/graph-adapters/SimplePythonDataFrameGraphAdapter/",
+            "anchor": "reference-graph-adapters-simplepythondataframegraphadapter",
+            "virtual_path": "docs/reference/graph-adapters/SimplePythonDataFrameGraphAdapter/index.md"
+          },
+          {
+            "title": "SimplePythonGraphAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/graph-adapters/SimplePythonGraphAdapter/",
+            "anchor": "reference-graph-adapters-simplepythongraphadapter",
+            "virtual_path": "docs/reference/graph-adapters/SimplePythonGraphAdapter/index.md"
+          },
+          {
+            "title": "HamiltonGraphAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/graph-adapters/HamiltonGraphAdapter/",
+            "anchor": "reference-graph-adapters-hamiltongraphadapter",
+            "virtual_path": "docs/reference/graph-adapters/HamiltonGraphAdapter/index.md"
+          },
+          {
+            "title": "h async.AsyncGraphAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/graph-adapters/AsyncGraphAdapter/",
+            "anchor": "reference-graph-adapters-asyncgraphadapter",
+            "virtual_path": "docs/reference/graph-adapters/AsyncGraphAdapter/index.md"
+          },
+          {
+            "title": "h threadpool.FutureAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/graph-adapters/ThreadPoolFutureAdapter/",
+            "anchor": "reference-graph-adapters-threadpoolfutureadapter",
+            "virtual_path": "docs/reference/graph-adapters/ThreadPoolFutureAdapter/index.md"
+          },
+          {
+            "title": "CachingGraphAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/graph-adapters/CachingGraphAdapter/",
+            "anchor": "reference-graph-adapters-cachinggraphadapter",
+            "virtual_path": "docs/reference/graph-adapters/CachingGraphAdapter/index.md"
+          },
+          {
+            "title": "h dask.DaskGraphAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/graph-adapters/DaskGraphAdapter/",
+            "anchor": "reference-graph-adapters-daskgraphadapter",
+            "virtual_path": "docs/reference/graph-adapters/DaskGraphAdapter/index.md"
+          },
+          {
+            "title": "h spark.PySparkUDFGraphAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/graph-adapters/PySparkUDFGraphAdapter/",
+            "anchor": "reference-graph-adapters-pysparkudfgraphadapter",
+            "virtual_path": "docs/reference/graph-adapters/PySparkUDFGraphAdapter/index.md"
+          },
+          {
+            "title": "h ray.RayGraphAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/graph-adapters/RayGraphAdapter/",
+            "anchor": "reference-graph-adapters-raygraphadapter",
+            "virtual_path": "docs/reference/graph-adapters/RayGraphAdapter/index.md"
+          },
+          {
+            "title": "h spark.SparkKoalasGraphAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/graph-adapters/SparkKoalasGraphAdapter/",
+            "anchor": "reference-graph-adapters-sparkkoalasgraphadapter",
+            "virtual_path": "docs/reference/graph-adapters/SparkKoalasGraphAdapter/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Lifecycle Adapters",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/",
+        "anchor": "reference-lifecycle-hooks",
+        "virtual_path": "docs/reference/lifecycle-hooks/index.md",
+        "children": [
+          {
+            "title": "lifecycle.ResultBuilder",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/ResultBuilder/",
+            "anchor": "reference-lifecycle-hooks-resultbuilder",
+            "virtual_path": "docs/reference/lifecycle-hooks/ResultBuilder/index.md"
+          },
+          {
+            "title": "lifecycle.LegacyResultMixin",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/LegacyResultMixin/",
+            "anchor": "reference-lifecycle-hooks-legacyresultmixin",
+            "virtual_path": "docs/reference/lifecycle-hooks/LegacyResultMixin/index.md"
+          },
+          {
+            "title": "lifecycle.api.GraphAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/GraphAdapter/",
+            "anchor": "reference-lifecycle-hooks-graphadapter",
+            "virtual_path": "docs/reference/lifecycle-hooks/GraphAdapter/index.md"
+          },
+          {
+            "title": "lifecycle.NodeExecutionHook",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/NodeExecutionHook/",
+            "anchor": "reference-lifecycle-hooks-nodeexecutionhook",
+            "virtual_path": "docs/reference/lifecycle-hooks/NodeExecutionHook/index.md"
+          },
+          {
+            "title": "lifecycle.api.GraphExecutionHook",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/GraphExecutionHook/",
+            "anchor": "reference-lifecycle-hooks-graphexecutionhook",
+            "virtual_path": "docs/reference/lifecycle-hooks/GraphExecutionHook/index.md"
+          },
+          {
+            "title": "lifecycle.api.EdgeConnectionHook",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/EdgeConnectionHook/",
+            "anchor": "reference-lifecycle-hooks-edgeconnectionhook",
+            "virtual_path": "docs/reference/lifecycle-hooks/EdgeConnectionHook/index.md"
+          },
+          {
+            "title": "lifecycle.api.NodeExecutionMethod",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/NodeExecutionMethod/",
+            "anchor": "reference-lifecycle-hooks-nodeexecutionmethod",
+            "virtual_path": "docs/reference/lifecycle-hooks/NodeExecutionMethod/index.md"
+          },
+          {
+            "title": "lifecycle.api.StaticValidator",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/StaticValidator/",
+            "anchor": "reference-lifecycle-hooks-staticvalidator",
+            "virtual_path": "docs/reference/lifecycle-hooks/StaticValidator/index.md"
+          },
+          {
+            "title": "lifecycle.api.GraphConstructionHook",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/GraphConstructionHook/",
+            "anchor": "reference-lifecycle-hooks-graphconstructionhook",
+            "virtual_path": "docs/reference/lifecycle-hooks/GraphConstructionHook/index.md"
+          },
+          {
+            "title": "lifecycle.api.TaskSubmissionHook",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/TaskSubmissionHook/",
+            "anchor": "reference-lifecycle-hooks-tasksubmissionhook",
+            "virtual_path": "docs/reference/lifecycle-hooks/TaskSubmissionHook/index.md"
+          },
+          {
+            "title": "lifecycle.api.TaskReturnHook",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/TaskReturnHook/",
+            "anchor": "reference-lifecycle-hooks-taskreturnhook",
+            "virtual_path": "docs/reference/lifecycle-hooks/TaskReturnHook/index.md"
+          },
+          {
+            "title": "lifecycle.api.TaskExecutionHook",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/TaskExecutionHook/",
+            "anchor": "reference-lifecycle-hooks-taskexecutionhook",
+            "virtual_path": "docs/reference/lifecycle-hooks/TaskExecutionHook/index.md"
+          },
+          {
+            "title": "lifecycle.api.TaskGroupingHook",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/TaskGroupingHook/",
+            "anchor": "reference-lifecycle-hooks-taskgroupinghook",
+            "virtual_path": "docs/reference/lifecycle-hooks/TaskGroupingHook/index.md"
+          },
+          {
+            "title": "lifecycle.PDBDebugger",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/PDBDebugger/",
+            "anchor": "reference-lifecycle-hooks-pdbdebugger",
+            "virtual_path": "docs/reference/lifecycle-hooks/PDBDebugger/index.md"
+          },
+          {
+            "title": "lifecycle.PrintLn",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/PrintLn/",
+            "anchor": "reference-lifecycle-hooks-println",
+            "virtual_path": "docs/reference/lifecycle-hooks/PrintLn/index.md"
+          },
+          {
+            "title": "plugins.h tqdm.ProgressBar",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/ProgressBar/",
+            "anchor": "reference-lifecycle-hooks-progressbar",
+            "virtual_path": "docs/reference/lifecycle-hooks/ProgressBar/index.md"
+          },
+          {
+            "title": "plugins.h rich.RichProgressBar",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/RichProgressBar/",
+            "anchor": "reference-lifecycle-hooks-richprogressbar",
+            "virtual_path": "docs/reference/lifecycle-hooks/RichProgressBar/index.md"
+          },
+          {
+            "title": "plugins.h ddog.DDOGTracer",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/DDOGTracer/",
+            "anchor": "reference-lifecycle-hooks-ddogtracer",
+            "virtual_path": "docs/reference/lifecycle-hooks/DDOGTracer/index.md"
+          },
+          {
+            "title": "lifecycle.FunctionInputOutputTypeChecker",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/FunctionInputOutputTypeChecker/",
+            "anchor": "reference-lifecycle-hooks-functioninputoutputtypechecker",
+            "virtual_path": "docs/reference/lifecycle-hooks/FunctionInputOutputTypeChecker/index.md"
+          },
+          {
+            "title": "plugins.h slack.SlackNotifier",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/SlackNotifierHook/",
+            "anchor": "reference-lifecycle-hooks-slacknotifierhook",
+            "virtual_path": "docs/reference/lifecycle-hooks/SlackNotifierHook/index.md"
+          },
+          {
+            "title": "lifecycle.GracefulErrorAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/GracefulErrorAdapter/",
+            "anchor": "reference-lifecycle-hooks-gracefulerroradapter",
+            "virtual_path": "docs/reference/lifecycle-hooks/GracefulErrorAdapter/index.md"
+          },
+          {
+            "title": "plugins.h spark.SparkInputValidator",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/SparkInputValidator/",
+            "anchor": "reference-lifecycle-hooks-sparkinputvalidator",
+            "virtual_path": "docs/reference/lifecycle-hooks/SparkInputValidator/index.md"
+          },
+          {
+            "title": "plugins.h narhwals.NarwhalsAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/Narwhals/",
+            "anchor": "reference-lifecycle-hooks-narwhals",
+            "virtual_path": "docs/reference/lifecycle-hooks/Narwhals/index.md"
+          },
+          {
+            "title": "plugins.h narhwals.NarwhalsDataFrameResultBuilder",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/Narwhals/#plugins-h-narhwals-narwhalsdataframeresultbuilder",
+            "anchor": "reference-lifecycle-hooks-narwhals--plugins-h-narhwals-narwhalsdataframeresultbuilder",
+            "virtual_path": "docs/reference/lifecycle-hooks/Narwhals/index.md"
+          },
+          {
+            "title": "plugins.h mlflow.MLFlowTracker",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/MLFlowTracker/",
+            "anchor": "reference-lifecycle-hooks-mlflowtracker",
+            "virtual_path": "docs/reference/lifecycle-hooks/MLFlowTracker/index.md"
+          },
+          {
+            "title": "lifecycle.NoEdgeAndInputTypeChecking",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/NoEdgeAndInputTypeChecking/",
+            "anchor": "reference-lifecycle-hooks-noedgeandinputtypechecking",
+            "virtual_path": "docs/reference/lifecycle-hooks/NoEdgeAndInputTypeChecking/index.md"
+          },
+          {
+            "title": "plugins.h openlineage.OpenLineageAdapter",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/lifecycle-hooks/OpenLineageAdapter/",
+            "anchor": "reference-lifecycle-hooks-openlineageadapter",
+            "virtual_path": "docs/reference/lifecycle-hooks/OpenLineageAdapter/index.md"
+          }
+        ]
+      },
+      {
+        "title": "ResultBuilders",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/reference/result-builders/",
+        "anchor": "reference-result-builders",
+        "virtual_path": "docs/reference/result-builders/index.md",
+        "children": [
+          {
+            "title": "Generic",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/result-builders/Generic/",
+            "anchor": "reference-result-builders-generic",
+            "virtual_path": "docs/reference/result-builders/Generic/index.md"
+          },
+          {
+            "title": "Numpy",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/result-builders/Numpy/",
+            "anchor": "reference-result-builders-numpy",
+            "virtual_path": "docs/reference/result-builders/Numpy/index.md"
+          },
+          {
+            "title": "Pandas",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/result-builders/Pandas/",
+            "anchor": "reference-result-builders-pandas",
+            "virtual_path": "docs/reference/result-builders/Pandas/index.md"
+          },
+          {
+            "title": "Polars",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/result-builders/Polars/",
+            "anchor": "reference-result-builders-polars",
+            "virtual_path": "docs/reference/result-builders/Polars/index.md"
+          },
+          {
+            "title": "Dask",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/result-builders/Dask/",
+            "anchor": "reference-result-builders-dask",
+            "virtual_path": "docs/reference/result-builders/Dask/index.md"
+          },
+          {
+            "title": "plugins.h pyarrow.PyarrowTableResult",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/result-builders/PyArrow/",
+            "anchor": "reference-result-builders-pyarrow",
+            "virtual_path": "docs/reference/result-builders/PyArrow/index.md"
+          },
+          {
+            "title": "Custom ResultBuilder",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/result-builders/Custom/",
+            "anchor": "reference-result-builders-custom",
+            "virtual_path": "docs/reference/result-builders/Custom/index.md"
+          }
+        ]
+      },
+      {
+        "title": "I/O",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/reference/io/",
+        "anchor": "reference-io",
+        "virtual_path": "docs/reference/io/index.md",
+        "children": [
+          {
+            "title": "Using Data Adapters",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/io/available-data-adapters/",
+            "anchor": "reference-io-available-data-adapters",
+            "virtual_path": "docs/reference/io/available-data-adapters/index.md"
+          },
+          {
+            "title": "Data Loaders",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/io/available-data-adapters/#data-loaders",
+            "anchor": "reference-io-available-data-adapters--data-loaders",
+            "virtual_path": "docs/reference/io/available-data-adapters/index.md"
+          },
+          {
+            "title": "Data Savers",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/io/available-data-adapters/#data-savers",
+            "anchor": "reference-io-available-data-adapters--data-savers",
+            "virtual_path": "docs/reference/io/available-data-adapters/index.md"
+          },
+          {
+            "title": "Data Adapters",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/io/adapter-documentation/",
+            "anchor": "reference-io-adapter-documentation",
+            "virtual_path": "docs/reference/io/adapter-documentation/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Dataflows",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/reference/dataflows/",
+        "anchor": "reference-dataflows",
+        "virtual_path": "docs/reference/dataflows/index.md",
+        "children": [
+          {
+            "title": "clear storage()",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/dataflows/clear_storage/",
+            "anchor": "reference-dataflows-clear_storage",
+            "virtual_path": "docs/reference/dataflows/clear_storage/index.md"
+          },
+          {
+            "title": "copy()",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/dataflows/copy/",
+            "anchor": "reference-dataflows-copy",
+            "virtual_path": "docs/reference/dataflows/copy/index.md"
+          },
+          {
+            "title": "find()",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/dataflows/find/",
+            "anchor": "reference-dataflows-find",
+            "virtual_path": "docs/reference/dataflows/find/index.md"
+          },
+          {
+            "title": "import module()",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/dataflows/import_module/",
+            "anchor": "reference-dataflows-import_module",
+            "virtual_path": "docs/reference/dataflows/import_module/index.md"
+          },
+          {
+            "title": "inspect()",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/dataflows/inspect/",
+            "anchor": "reference-dataflows-inspect",
+            "virtual_path": "docs/reference/dataflows/inspect/index.md"
+          },
+          {
+            "title": "inspect module()",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/dataflows/inspect_module/",
+            "anchor": "reference-dataflows-inspect_module",
+            "virtual_path": "docs/reference/dataflows/inspect_module/index.md"
+          },
+          {
+            "title": "install dependencies string()",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/dataflows/install_dependencies_string/",
+            "anchor": "reference-dataflows-install_dependencies_string",
+            "virtual_path": "docs/reference/dataflows/install_dependencies_string/index.md"
+          },
+          {
+            "title": "latest commit()",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/dataflows/latest_commit/",
+            "anchor": "reference-dataflows-latest_commit",
+            "virtual_path": "docs/reference/dataflows/latest_commit/index.md"
+          },
+          {
+            "title": "list()",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/dataflows/list/",
+            "anchor": "reference-dataflows-list",
+            "virtual_path": "docs/reference/dataflows/list/index.md"
+          },
+          {
+            "title": "pull module()",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/reference/dataflows/pull_module/",
+            "anchor": "reference-dataflows-pull_module",
+            "virtual_path": "docs/reference/dataflows/pull_module/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "ASF",
+    "kind": "category",
+    "source_url": "https://hamilton.incubator.apache.org/asf/",
+    "anchor": "asf",
+    "virtual_path": "docs/asf/index.md",
+    "children": [
+      {
+        "title": "ASF",
+        "kind": "category",
+        "source_url": "https://hamilton.incubator.apache.org/asf/",
+        "anchor": "asf",
+        "virtual_path": "docs/asf/index.md",
+        "children": [
+          {
+            "title": "Downloads",
+            "kind": "link",
+            "source_url": "https://hamilton.incubator.apache.org/asf/downloads/",
+            "anchor": "asf-downloads",
+            "virtual_path": "docs/asf/downloads/index.md"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,3049 @@
+- title: Overview
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/functions
+  anchor: functions-functions
+  virtual_path: docs/functions/functions.md
+- title: Transformations
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/transformations
+  anchor: functions-transformations
+  virtual_path: docs/functions/transformations.md
+- title: Function Index
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/function-index
+  anchor: functions-function-index
+  virtual_path: docs/functions/function-index.md
+- title: Aggregation Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/aggregation
+  anchor: functions-aggregation
+  virtual_path: docs/functions/aggregation.md
+- title: Array Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/array
+  anchor: functions-array
+  virtual_path: docs/functions/array.md
+- title: Binary Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/binary
+  anchor: functions-binary
+  virtual_path: docs/functions/binary.md
+- title: CLP Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/clp
+  anchor: functions-clp
+  virtual_path: docs/functions/clp.md
+- title: DateTime Functions
+  kind: category
+  source_url: https://docs.pinot.apache.org/functions/datetime
+  anchor: functions-datetime
+  virtual_path: docs/functions/datetime.md
+  children:
+  - title: ago
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/ago
+    anchor: functions-datetime-ago
+    virtual_path: docs/functions/datetime/ago.md
+  - title: DATETIMECONVERT
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/datetimeconvert
+    anchor: functions-datetime-datetimeconvert
+    virtual_path: docs/functions/datetime/datetimeconvert.md
+  - title: DATETRUNC
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/datetrunc
+    anchor: functions-datetime-datetrunc
+    virtual_path: docs/functions/datetime/datetrunc.md
+  - title: day
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/day
+    anchor: functions-datetime-day
+    virtual_path: docs/functions/datetime/day.md
+  - title: dayOfWeek
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/dayofweek
+    anchor: functions-datetime-dayofweek
+    virtual_path: docs/functions/datetime/dayofweek.md
+  - title: dayOfYear
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/dayofyear
+    anchor: functions-datetime-dayofyear
+    virtual_path: docs/functions/datetime/dayofyear.md
+  - title: Extract
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/extract
+    anchor: functions-datetime-extract
+    virtual_path: docs/functions/datetime/extract.md
+  - title: FromDateTime
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/fromdatetime
+    anchor: functions-datetime-fromdatetime
+    virtual_path: docs/functions/datetime/fromdatetime.md
+  - title: FromEpoch
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/fromepoch
+    anchor: functions-datetime-fromepoch
+    virtual_path: docs/functions/datetime/fromepoch.md
+  - title: FromEpochBucket
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/fromepochbucket
+    anchor: functions-datetime-fromepochbucket
+    virtual_path: docs/functions/datetime/fromepochbucket.md
+  - title: hour
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/hour
+    anchor: functions-datetime-hour
+    virtual_path: docs/functions/datetime/hour.md
+  - title: millisecond
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/millisecond
+    anchor: functions-datetime-millisecond
+    virtual_path: docs/functions/datetime/millisecond.md
+  - title: minute
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/minute
+    anchor: functions-datetime-minute
+    virtual_path: docs/functions/datetime/minute.md
+  - title: month
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/month
+    anchor: functions-datetime-month
+    virtual_path: docs/functions/datetime/month.md
+  - title: now
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/now
+    anchor: functions-datetime-now
+    virtual_path: docs/functions/datetime/now.md
+  - title: quarter
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/quarter
+    anchor: functions-datetime-quarter
+    virtual_path: docs/functions/datetime/quarter.md
+  - title: second
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/second
+    anchor: functions-datetime-second
+    virtual_path: docs/functions/datetime/second.md
+  - title: TIMECONVERT
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/timeconvert
+    anchor: functions-datetime-timeconvert
+    virtual_path: docs/functions/datetime/timeconvert.md
+  - title: timezoneHour
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/timezonehour
+    anchor: functions-datetime-timezonehour
+    virtual_path: docs/functions/datetime/timezonehour.md
+  - title: timezoneMinute
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/timezoneminute
+    anchor: functions-datetime-timezoneminute
+    virtual_path: docs/functions/datetime/timezoneminute.md
+  - title: ToDateTime
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/todatetime
+    anchor: functions-datetime-todatetime
+    virtual_path: docs/functions/datetime/todatetime.md
+  - title: ToEpoch
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/toepoch
+    anchor: functions-datetime-toepoch
+    virtual_path: docs/functions/datetime/toepoch.md
+  - title: ToEpochBucket
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/toepochbucket
+    anchor: functions-datetime-toepochbucket
+    virtual_path: docs/functions/datetime/toepochbucket.md
+  - title: ToEpochRounded
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/toepochrounded
+    anchor: functions-datetime-toepochrounded
+    virtual_path: docs/functions/datetime/toepochrounded.md
+  - title: week
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/week
+    anchor: functions-datetime-week
+    virtual_path: docs/functions/datetime/week.md
+  - title: year
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/year
+    anchor: functions-datetime-year
+    virtual_path: docs/functions/datetime/year.md
+  - title: yearOfWeek
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/datetime/yearofweek
+    anchor: functions-datetime-yearofweek
+    virtual_path: docs/functions/datetime/yearofweek.md
+- title: Funnel Analysis Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/funnel
+  anchor: functions-funnel
+  virtual_path: docs/functions/funnel.md
+- title: GeoSpatial Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/geospatial
+  anchor: functions-geospatial
+  virtual_path: docs/functions/geospatial.md
+- title: Hash Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/hash
+  anchor: functions-hash
+  virtual_path: docs/functions/hash.md
+- title: IP Address Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/ip-address
+  anchor: functions-ip-address
+  virtual_path: docs/functions/ip-address.md
+- title: JSON Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/json
+  anchor: functions-json
+  virtual_path: docs/functions/json.md
+- title: Math Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/math
+  anchor: functions-math
+  virtual_path: docs/functions/math.md
+- title: Miscellaneous Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/misc
+  anchor: functions-misc
+  virtual_path: docs/functions/misc.md
+- title: Null Handling Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/null-handling
+  anchor: functions-null-handling
+  virtual_path: docs/functions/null-handling.md
+- title: Sketch Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/sketch
+  anchor: functions-sketch
+  virtual_path: docs/functions/sketch.md
+- title: Statistical Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/statistical
+  anchor: functions-statistical
+  virtual_path: docs/functions/statistical.md
+- title: String Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/string
+  anchor: functions-string
+  virtual_path: docs/functions/string.md
+- title: Trigonometric Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/trigonometric
+  anchor: functions-trigonometric
+  virtual_path: docs/functions/trigonometric.md
+- title: Type Conversion Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/type-conversion
+  anchor: functions-type-conversion
+  virtual_path: docs/functions/type-conversion.md
+- title: URL Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/url
+  anchor: functions-url
+  virtual_path: docs/functions/url.md
+- title: User-Defined Functions (UDFs)
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/udf
+  anchor: functions-udf
+  virtual_path: docs/functions/udf.md
+- title: Unique Count and Cardinality Estimation Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/unique-counting
+  anchor: functions-unique-counting
+  virtual_path: docs/functions/unique-counting.md
+- title: Vector / Similarity Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/vector
+  anchor: functions-vector
+  virtual_path: docs/functions/vector.md
+- title: Window Functions
+  kind: link
+  source_url: https://docs.pinot.apache.org/functions/window
+  anchor: functions-window
+  virtual_path: docs/functions/window.md
+- title: Introduction
+  kind: link
+  source_url: https://docs.pinot.apache.org/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Start Here
+  kind: category
+  source_url: https://docs.pinot.apache.org/start-here/getting-started
+  anchor: start-here-getting-started
+  virtual_path: docs/start-here/getting-started.md
+- title: Functions
+  kind: category
+  source_url: https://docs.pinot.apache.org/functions/binary
+  anchor: functions-binary
+  virtual_path: docs/functions/binary.md
+- title: Reference
+  kind: category
+  source_url: https://docs.pinot.apache.org/start-here/pinot-versions
+  anchor: start-here-pinot-versions
+  virtual_path: docs/start-here/pinot-versions.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Components
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components
+    anchor: architecture-and-concepts-components
+    virtual_path: docs/architecture-and-concepts/components.md
+  - title: Cluster
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/cluster
+    anchor: architecture-and-concepts-components-cluster
+    virtual_path: docs/architecture-and-concepts/components/cluster.md
+  - title: Broker
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/cluster/broker
+    anchor: architecture-and-concepts-components-cluster-broker
+    virtual_path: docs/architecture-and-concepts/components/cluster/broker.md
+  - title: Controller
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/cluster/controller
+    anchor: architecture-and-concepts-components-cluster-controller
+    virtual_path: docs/architecture-and-concepts/components/cluster/controller.md
+  - title: Minion
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/cluster/minion
+    anchor: architecture-and-concepts-components-cluster-minion
+    virtual_path: docs/architecture-and-concepts/components/cluster/minion.md
+  - title: Server
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/cluster/server
+    anchor: architecture-and-concepts-components-cluster-server
+    virtual_path: docs/architecture-and-concepts/components/cluster/server.md
+  - title: Tenant
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/cluster/tenant
+    anchor: architecture-and-concepts-components-cluster-tenant
+    virtual_path: docs/architecture-and-concepts/components/cluster/tenant.md
+  - title: Pinot Data Explorer
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/exploring-pinot
+    anchor: architecture-and-concepts-components-exploring-pinot
+    virtual_path: docs/architecture-and-concepts/components/exploring-pinot.md
+  - title: Table
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/table
+    anchor: architecture-and-concepts-components-table
+    virtual_path: docs/architecture-and-concepts/components/table.md
+  - title: Logical Table
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/table/logical-table
+    anchor: architecture-and-concepts-components-table-logical-table
+    virtual_path: docs/architecture-and-concepts/components/table/logical-table.md
+  - title: Schema
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/table/schema
+    anchor: architecture-and-concepts-components-table-schema
+    virtual_path: docs/architecture-and-concepts/components/table/schema.md
+  - title: Segment
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/table/segment
+    anchor: architecture-and-concepts-components-table-segment
+    virtual_path: docs/architecture-and-concepts/components/table/segment.md
+  - title: Deep Store
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/table/segment/deep-store
+    anchor: architecture-and-concepts-components-table-segment-deep-store
+    virtual_path: docs/architecture-and-concepts/components/table/segment/deep-store.md
+  - title: Segment Retention
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/table/segment/segment-retention
+    anchor: architecture-and-concepts-components-table-segment-segment-retention
+    virtual_path: docs/architecture-and-concepts/components/table/segment/segment-retention.md
+  - title: Segment Threshold
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/table/segment/segment-threshold
+    anchor: architecture-and-concepts-components-table-segment-segment-threshold
+    virtual_path: docs/architecture-and-concepts/components/table/segment/segment-threshold.md
+  - title: Time Boundary
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/components/table/time-boundary
+    anchor: architecture-and-concepts-components-table-time-boundary
+    virtual_path: docs/architecture-and-concepts/components/table/time-boundary.md
+  - title: Concepts
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/concepts
+    anchor: architecture-and-concepts-concepts
+    virtual_path: docs/architecture-and-concepts/concepts.md
+  - title: Architecture
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/concepts/architecture
+    anchor: architecture-and-concepts-concepts-architecture
+    virtual_path: docs/architecture-and-concepts/concepts/architecture.md
+  - title: Pinot Storage Model
+    kind: link
+    source_url: https://docs.pinot.apache.org/architecture-and-concepts/concepts/pinot-storage-model
+    anchor: architecture-and-concepts-concepts-pinot-storage-model
+    virtual_path: docs/architecture-and-concepts/concepts/pinot-storage-model.md
+  - title: Overview
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/build-with-pinot
+    anchor: build-with-pinot-build-with-pinot
+    virtual_path: docs/build-with-pinot/build-with-pinot.md
+  - title: Connectors, clients & APIs
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis
+    anchor: build-with-pinot-connectors-clients-apis
+    virtual_path: docs/build-with-pinot/connectors-clients-apis.md
+  - title: BI tools
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/bi-tools
+    anchor: build-with-pinot-connectors-clients-apis-bi-tools
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/bi-tools.md
+  - title: Metabase
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/bi-tools/metabase
+    anchor: build-with-pinot-connectors-clients-apis-bi-tools-metabase
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/bi-tools/metabase.md
+  - title: Superset
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/bi-tools/superset
+    anchor: build-with-pinot-connectors-clients-apis-bi-tools-superset
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/bi-tools/superset.md
+  - title: Tableau
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/bi-tools/tableau
+    anchor: build-with-pinot-connectors-clients-apis-bi-tools-tableau
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/bi-tools/tableau.md
+  - title: Client libraries
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/client-libraries
+    anchor: build-with-pinot-connectors-clients-apis-client-libraries
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/client-libraries.md
+  - title: Golang
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/client-libraries/golang
+    anchor: build-with-pinot-connectors-clients-apis-client-libraries-golang
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/client-libraries/golang.md
+  - title: Java admin client
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/client-libraries/java-admin-client
+    anchor: build-with-pinot-connectors-clients-apis-client-libraries-java-admin-client
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/client-libraries/java-admin-client.md
+  - title: Java
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/client-libraries/java
+    anchor: build-with-pinot-connectors-clients-apis-client-libraries-java
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/client-libraries/java.md
+  - title: JDBC
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/client-libraries/jdbc
+    anchor: build-with-pinot-connectors-clients-apis-client-libraries-jdbc
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/client-libraries/jdbc.md
+  - title: Python
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/client-libraries/python
+    anchor: build-with-pinot-connectors-clients-apis-client-libraries-python
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/client-libraries/python.md
+  - title: Processing connectors
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/processing-connectors
+    anchor: build-with-pinot-connectors-clients-apis-processing-connectors
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/processing-connectors.md
+  - title: Flink Connector
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/processing-connectors/flink-connector
+    anchor: build-with-pinot-connectors-clients-apis-processing-connectors-flink-connector
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/processing-connectors/flink-connector.md
+  - title: Spark-Pinot Connector
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/processing-connectors/spark-pinot-connector
+    anchor: build-with-pinot-connectors-clients-apis-processing-connectors-spark-pinot-connector
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/processing-connectors/spark-pinot-connector.md
+  - title: Spark Pinot Connector Read Model
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/processing-connectors/spark-pinot-connector/spark-pinot-connector-read-model
+    anchor: build-with-pinot-connectors-clients-apis-processing-connectors-spark-pinot-connector-spark-pinot-connector-read-model
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/processing-connectors/spark-pinot-connector/spark-pinot-connector-read-model.md
+  - title: Spark Pinot Connector Write Model
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/processing-connectors/spark-pinot-connector/spark-pinot-connector-write-model
+    anchor: build-with-pinot-connectors-clients-apis-processing-connectors-spark-pinot-connector-spark-pinot-connector-write-model
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/processing-connectors/spark-pinot-connector/spark-pinot-connector-write-model.md
+  - title: Query engines
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/query-engines
+    anchor: build-with-pinot-connectors-clients-apis-query-engines
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/query-engines.md
+  - title: Query Engines on Kubernetes
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/query-engines/query-engines-kubernetes
+    anchor: build-with-pinot-connectors-clients-apis-query-engines-query-engines-kubernetes
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/query-engines/query-engines-kubernetes.md
+  - title: Trino
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/query-engines/trino
+    anchor: build-with-pinot-connectors-clients-apis-query-engines-trino
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/query-engines/trino.md
+  - title: REST / gRPC APIs
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/connectors-clients-apis/rest-grpc-apis
+    anchor: build-with-pinot-connectors-clients-apis-rest-grpc-apis
+    virtual_path: docs/build-with-pinot/connectors-clients-apis/rest-grpc-apis.md
+  - title: Data modeling
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/data-modeling
+    anchor: build-with-pinot-data-modeling
+    virtual_path: docs/build-with-pinot/data-modeling.md
+  - title: Logical Tables
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/data-modeling/logical-tables
+    anchor: build-with-pinot-data-modeling-logical-tables
+    virtual_path: docs/build-with-pinot/data-modeling/logical-tables.md
+  - title: Schema Evolution
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/data-modeling/schema-evolution
+    anchor: build-with-pinot-data-modeling-schema-evolution
+    virtual_path: docs/build-with-pinot/data-modeling/schema-evolution.md
+  - title: Schema and Table Shape
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/data-modeling/schema
+    anchor: build-with-pinot-data-modeling-schema
+    virtual_path: docs/build-with-pinot/data-modeling/schema.md
+  - title: Indexing
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing
+    anchor: build-with-pinot-indexing
+    virtual_path: docs/build-with-pinot/indexing.md
+  - title: Bloom Filter
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/bloom-filter
+    anchor: build-with-pinot-indexing-bloom-filter
+    virtual_path: docs/build-with-pinot/indexing/bloom-filter.md
+  - title: Choosing Indexes
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/choosing-indexes
+    anchor: build-with-pinot-indexing-choosing-indexes
+    virtual_path: docs/build-with-pinot/indexing/choosing-indexes.md
+  - title: Dictionary Index
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/dictionary-index
+    anchor: build-with-pinot-indexing-dictionary-index
+    virtual_path: docs/build-with-pinot/indexing/dictionary-index.md
+  - title: Forward Index
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/forward-index
+    anchor: build-with-pinot-indexing-forward-index
+    virtual_path: docs/build-with-pinot/indexing/forward-index.md
+  - title: FST Index
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/fst-index
+    anchor: build-with-pinot-indexing-fst-index
+    virtual_path: docs/build-with-pinot/indexing/fst-index.md
+  - title: Geospatial
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/geospatial-support
+    anchor: build-with-pinot-indexing-geospatial-support
+    virtual_path: docs/build-with-pinot/indexing/geospatial-support.md
+  - title: Inverted Index
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/inverted-index
+    anchor: build-with-pinot-indexing-inverted-index
+    virtual_path: docs/build-with-pinot/indexing/inverted-index.md
+  - title: JSON Index
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/json-index
+    anchor: build-with-pinot-indexing-json-index
+    virtual_path: docs/build-with-pinot/indexing/json-index.md
+  - title: Native Text Index
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/native-text-index
+    anchor: build-with-pinot-indexing-native-text-index
+    virtual_path: docs/build-with-pinot/indexing/native-text-index.md
+  - title: Range Index
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/range-index
+    anchor: build-with-pinot-indexing-range-index
+    virtual_path: docs/build-with-pinot/indexing/range-index.md
+  - title: Star-Tree Index
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/star-tree-index
+    anchor: build-with-pinot-indexing-star-tree-index
+    virtual_path: docs/build-with-pinot/indexing/star-tree-index.md
+  - title: Text Search Support
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/text-search-support
+    anchor: build-with-pinot-indexing-text-search-support
+    virtual_path: docs/build-with-pinot/indexing/text-search-support.md
+  - title: Timestamp Index
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/timestamp-index
+    anchor: build-with-pinot-indexing-timestamp-index
+    virtual_path: docs/build-with-pinot/indexing/timestamp-index.md
+  - title: Vector Index
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/indexing/vector-index
+    anchor: build-with-pinot-indexing-vector-index
+    virtual_path: docs/build-with-pinot/indexing/vector-index.md
+  - title: Ingestion
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion
+    anchor: build-with-pinot-ingestion
+    virtual_path: docs/build-with-pinot/ingestion.md
+  - title: Batch Ingestion
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/batch-ingestion
+    anchor: build-with-pinot-ingestion-batch-ingestion
+    virtual_path: docs/build-with-pinot/ingestion/batch-ingestion.md
+  - title: Backfill Data
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/batch-ingestion/backfill-data
+    anchor: build-with-pinot-ingestion-batch-ingestion-backfill-data
+    virtual_path: docs/build-with-pinot/ingestion/batch-ingestion/backfill-data.md
+  - title: Batch Ingestion Guide
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/batch-ingestion/batch-ingestion
+    anchor: build-with-pinot-ingestion-batch-ingestion-batch-ingestion
+    virtual_path: docs/build-with-pinot/ingestion/batch-ingestion/batch-ingestion.md
+  - title: Dimension Table
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/batch-ingestion/dim-table
+    anchor: build-with-pinot-ingestion-batch-ingestion-dim-table
+    virtual_path: docs/build-with-pinot/ingestion/batch-ingestion/dim-table.md
+  - title: Flink
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/batch-ingestion/flink
+    anchor: build-with-pinot-ingestion-batch-ingestion-flink
+    virtual_path: docs/build-with-pinot/ingestion/batch-ingestion/flink.md
+  - title: SQL Insert Into From Files
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/batch-ingestion/from-query-console
+    anchor: build-with-pinot-ingestion-batch-ingestion-from-query-console
+    virtual_path: docs/build-with-pinot/ingestion/batch-ingestion/from-query-console.md
+  - title: Hadoop
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/batch-ingestion/hadoop
+    anchor: build-with-pinot-ingestion-batch-ingestion-hadoop
+    virtual_path: docs/build-with-pinot/ingestion/batch-ingestion/hadoop.md
+  - title: Upload Pinot Segment Using CLI
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/batch-ingestion/segment-upload
+    anchor: build-with-pinot-ingestion-batch-ingestion-segment-upload
+    virtual_path: docs/build-with-pinot/ingestion/batch-ingestion/segment-upload.md
+  - title: Spark
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/batch-ingestion/spark
+    anchor: build-with-pinot-ingestion-batch-ingestion-spark
+    virtual_path: docs/build-with-pinot/ingestion/batch-ingestion/spark.md
+  - title: Formats and Filesystems
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/formats-filesystems
+    anchor: build-with-pinot-ingestion-formats-filesystems
+    virtual_path: docs/build-with-pinot/ingestion/formats-filesystems.md
+  - title: Complex Type (Array, Map) Handling
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/formats-filesystems/complex-type
+    anchor: build-with-pinot-ingestion-formats-filesystems-complex-type
+    virtual_path: docs/build-with-pinot/ingestion/formats-filesystems/complex-type.md
+  - title: Complex Type Examples (Unnest)
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/formats-filesystems/complex-type/complex-type-examples
+    anchor: build-with-pinot-ingestion-formats-filesystems-complex-type-complex-type-examples
+    virtual_path: docs/build-with-pinot/ingestion/formats-filesystems/complex-type/complex-type-examples.md
+  - title: File Systems
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/formats-filesystems/file-systems
+    anchor: build-with-pinot-ingestion-formats-filesystems-file-systems
+    virtual_path: docs/build-with-pinot/ingestion/formats-filesystems/file-systems.md
+  - title: Amazon S3
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/formats-filesystems/file-systems/amazon-s3
+    anchor: build-with-pinot-ingestion-formats-filesystems-file-systems-amazon-s3
+    virtual_path: docs/build-with-pinot/ingestion/formats-filesystems/file-systems/amazon-s3.md
+  - title: Azure Data Lake Storage
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/formats-filesystems/file-systems/import-from-adls-azure
+    anchor: build-with-pinot-ingestion-formats-filesystems-file-systems-import-from-adls-azure
+    virtual_path: docs/build-with-pinot/ingestion/formats-filesystems/file-systems/import-from-adls-azure.md
+  - title: Google Cloud Storage
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/formats-filesystems/file-systems/import-from-gcp
+    anchor: build-with-pinot-ingestion-formats-filesystems-file-systems-import-from-gcp
+    virtual_path: docs/build-with-pinot/ingestion/formats-filesystems/file-systems/import-from-gcp.md
+  - title: HDFS
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/formats-filesystems/file-systems/import-from-hdfs
+    anchor: build-with-pinot-ingestion-formats-filesystems-file-systems-import-from-hdfs
+    virtual_path: docs/build-with-pinot/ingestion/formats-filesystems/file-systems/import-from-hdfs.md
+  - title: Supported Data Formats
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/formats-filesystems/pinot-input-formats
+    anchor: build-with-pinot-ingestion-formats-filesystems-pinot-input-formats
+    virtual_path: docs/build-with-pinot/ingestion/formats-filesystems/pinot-input-formats.md
+  - title: Ingest Records with Dynamic Schemas
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/formats-filesystems/schema-conforming-transformer
+    anchor: build-with-pinot-ingestion-formats-filesystems-schema-conforming-transformer
+    virtual_path: docs/build-with-pinot/ingestion/formats-filesystems/schema-conforming-transformer.md
+  - title: Stream Ingestion
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/stream-ingestion
+    anchor: build-with-pinot-ingestion-stream-ingestion
+    virtual_path: docs/build-with-pinot/ingestion/stream-ingestion.md
+  - title: Ingest from Amazon Kinesis
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/stream-ingestion/amazon-kinesis
+    anchor: build-with-pinot-ingestion-stream-ingestion-amazon-kinesis
+    virtual_path: docs/build-with-pinot/ingestion/stream-ingestion/amazon-kinesis.md
+  - title: Ingest from Apache Pulsar
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/stream-ingestion/apache-pulsar
+    anchor: build-with-pinot-ingestion-stream-ingestion-apache-pulsar
+    virtual_path: docs/build-with-pinot/ingestion/stream-ingestion/apache-pulsar.md
+  - title: Stream Ingestion with CLP
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/stream-ingestion/clp
+    anchor: build-with-pinot-ingestion-stream-ingestion-clp
+    virtual_path: docs/build-with-pinot/ingestion/stream-ingestion/clp.md
+  - title: Configure Indexes
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/stream-ingestion/configure-indexes
+    anchor: build-with-pinot-ingestion-stream-ingestion-configure-indexes
+    virtual_path: docs/build-with-pinot/ingestion/stream-ingestion/configure-indexes.md
+  - title: Confluent Schema Registry Decoders
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/stream-ingestion/confluent-schema-registry-decoders
+    anchor: build-with-pinot-ingestion-stream-ingestion-confluent-schema-registry-decoders
+    virtual_path: docs/build-with-pinot/ingestion/stream-ingestion/confluent-schema-registry-decoders.md
+  - title: Ingest from Apache Kafka
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/stream-ingestion/import-from-apache-kafka
+    anchor: build-with-pinot-ingestion-stream-ingestion-import-from-apache-kafka
+    virtual_path: docs/build-with-pinot/ingestion/stream-ingestion/import-from-apache-kafka.md
+  - title: Kafka Connector Versions
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/stream-ingestion/kafka-connector-versions
+    anchor: build-with-pinot-ingestion-stream-ingestion-kafka-connector-versions
+    virtual_path: docs/build-with-pinot/ingestion/stream-ingestion/kafka-connector-versions.md
+  - title: Stream Ingestion Guide
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/stream-ingestion/stream-ingestion
+    anchor: build-with-pinot-ingestion-stream-ingestion-stream-ingestion
+    virtual_path: docs/build-with-pinot/ingestion/stream-ingestion/stream-ingestion.md
+  - title: Transformations and Aggregations
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/transformations-and-aggregations
+    anchor: build-with-pinot-ingestion-transformations-and-aggregations
+    virtual_path: docs/build-with-pinot/ingestion/transformations-and-aggregations.md
+  - title: Ingestion Aggregations
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/transformations-and-aggregations/ingestion-level-aggregations
+    anchor: build-with-pinot-ingestion-transformations-and-aggregations-ingestion-level-aggregations
+    virtual_path: docs/build-with-pinot/ingestion/transformations-and-aggregations/ingestion-level-aggregations.md
+  - title: Ingestion Transformations
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/transformations-and-aggregations/ingestion-level-transformations
+    anchor: build-with-pinot-ingestion-transformations-and-aggregations-ingestion-level-transformations
+    virtual_path: docs/build-with-pinot/ingestion/transformations-and-aggregations/ingestion-level-transformations.md
+  - title: Upsert and Dedup
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/upsert-dedup
+    anchor: build-with-pinot-ingestion-upsert-dedup
+    virtual_path: docs/build-with-pinot/ingestion/upsert-dedup.md
+  - title: Stream Ingestion with Dedup
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/upsert-dedup/dedup
+    anchor: build-with-pinot-ingestion-upsert-dedup-dedup
+    virtual_path: docs/build-with-pinot/ingestion/upsert-dedup/dedup.md
+  - title: Offline Table Upsert
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/upsert-dedup/offline-table-upsert
+    anchor: build-with-pinot-ingestion-upsert-dedup-offline-table-upsert
+    virtual_path: docs/build-with-pinot/ingestion/upsert-dedup/offline-table-upsert.md
+  - title: Segment Compaction on Upserts
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/upsert-dedup/segment-compaction-on-upserts
+    anchor: build-with-pinot-ingestion-upsert-dedup-segment-compaction-on-upserts
+    virtual_path: docs/build-with-pinot/ingestion/upsert-dedup/segment-compaction-on-upserts.md
+  - title: Stream Ingestion with Upsert
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/ingestion/upsert-dedup/upsert
+    anchor: build-with-pinot-ingestion-upsert-dedup-upsert
+    virtual_path: docs/build-with-pinot/ingestion/upsert-dedup/upsert.md
+  - title: Querying & SQL
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql
+    anchor: build-with-pinot-querying-and-sql
+    virtual_path: docs/build-with-pinot/querying-and-sql.md
+  - title: Materialized Views
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/materialized-views
+    anchor: build-with-pinot-querying-and-sql-materialized-views
+    virtual_path: docs/build-with-pinot/querying-and-sql/materialized-views.md
+  - title: Multi-Cluster Querying
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-cluster-querying
+    anchor: build-with-pinot-querying-and-sql-multi-cluster-querying
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-cluster-querying.md
+  - title: Multi-Stage Query
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query.md
+  - title: Explain Plan
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/explain-plan-1
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-explain-plan-1
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/explain-plan-1.md
+  - title: Hints
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/hints
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-hints
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/hints.md
+  - title: Join Strategies
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/join-strategies
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-join-strategies
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/join-strategies.md
+  - title: Colocated Join Strategy
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/join-strategies/colocated-join-strategy
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-join-strategies-colocated-join-strategy
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/join-strategies/colocated-join-strategy.md
+  - title: Lookup Join Strategy
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/join-strategies/lookup-join-strategy
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-join-strategies-lookup-join-strategy
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/join-strategies/lookup-join-strategy.md
+  - title: Query Time Partition Join Strategy
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/join-strategies/query-time-partition-join-strategy
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-join-strategies-query-time-partition-join-strategy
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/join-strategies/query-time-partition-join-strategy.md
+  - title: Random + Broadcast Join Strategy
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/join-strategies/random-+-broadcast-join-strategy
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-join-strategies-random-broadcast-join-strategy
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/join-strategies/random-+-broadcast-join-strategy.md
+  - title: Multistage Lite Mode
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/multistage-lite-mode
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-multistage-lite-mode
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/multistage-lite-mode.md
+  - title: Operator Types
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types.md
+  - title: Aggregate
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/aggregate
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-aggregate
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/aggregate.md
+  - title: Filter
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/filter
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-filter
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/filter.md
+  - title: Join
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/hash_join
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-hash_join
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/hash_join.md
+  - title: Intersect
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/intersect
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-intersect
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/intersect.md
+  - title: Leaf
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/leaf
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-leaf
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/leaf.md
+  - title: Literal
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/literal
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-literal
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/literal.md
+  - title: Mailbox Receive
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/mailbox-receive
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-mailbox-receive
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/mailbox-receive.md
+  - title: Mailbox Send
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/mailbox-send
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-mailbox-send
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/mailbox-send.md
+  - title: Minus
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/minus
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-minus
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/minus.md
+  - title: Sort or Limit
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/sortorlimit
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-sortorlimit
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/sortorlimit.md
+  - title: Transform
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/transform
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-transform
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/transform.md
+  - title: Union
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/union
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-union
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/union.md
+  - title: Unnest
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/unnest
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-unnest
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/unnest.md
+  - title: Window
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/window
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-operator-types-window
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/operator-types/window.md
+  - title: Optimizing Joins
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/optimizing-joins
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-optimizing-joins
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/optimizing-joins.md
+  - title: Physical Optimizer
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/physical-optimizer
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-physical-optimizer
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/physical-optimizer.md
+  - title: Stage-Level Spooling
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/stage-level-spooling
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-stage-level-spooling
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/stage-level-spooling.md
+  - title: Stats
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/understanding-stage-stats
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-understanding-stage-stats
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/understanding-stage-stats.md
+  - title: Understanding Stages
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/multi-stage-query/understanding-stages
+    anchor: build-with-pinot-querying-and-sql-multi-stage-query-understanding-stages
+    virtual_path: docs/build-with-pinot/querying-and-sql/multi-stage-query/understanding-stages.md
+  - title: Query options, quotas, cancellation & cursors
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/query-execution-controls
+    anchor: build-with-pinot-querying-and-sql-query-execution-controls
+    virtual_path: docs/build-with-pinot/querying-and-sql/query-execution-controls.md
+  - title: Default Disabled Rules
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/query-execution-controls/default-disabled-rules
+    anchor: build-with-pinot-querying-and-sql-query-execution-controls-default-disabled-rules
+    virtual_path: docs/build-with-pinot/querying-and-sql/query-execution-controls/default-disabled-rules.md
+  - title: Explain Plan (Multi-Stage)
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/query-execution-controls/explain-plan-multi-stage
+    anchor: build-with-pinot-querying-and-sql-query-execution-controls-explain-plan-multi-stage
+    virtual_path: docs/build-with-pinot/querying-and-sql/query-execution-controls/explain-plan-multi-stage.md
+  - title: Explain Plan (Single-Stage)
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/query-execution-controls/explain-plan
+    anchor: build-with-pinot-querying-and-sql-query-execution-controls-explain-plan
+    virtual_path: docs/build-with-pinot/querying-and-sql/query-execution-controls/explain-plan.md
+  - title: Query Cancellation
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/query-execution-controls/query-cancellation
+    anchor: build-with-pinot-querying-and-sql-query-execution-controls-query-cancellation
+    virtual_path: docs/build-with-pinot/querying-and-sql/query-execution-controls/query-cancellation.md
+  - title: Query Correlation ID
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/query-execution-controls/query-correlation-id
+    anchor: build-with-pinot-querying-and-sql-query-execution-controls-query-correlation-id
+    virtual_path: docs/build-with-pinot/querying-and-sql/query-execution-controls/query-correlation-id.md
+  - title: Query Options
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/query-execution-controls/query-options
+    anchor: build-with-pinot-querying-and-sql-query-execution-controls-query-options
+    virtual_path: docs/build-with-pinot/querying-and-sql/query-execution-controls/query-options.md
+  - title: Query Quotas
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/query-execution-controls/query-quotas
+    anchor: build-with-pinot-querying-and-sql-query-execution-controls-query-quotas
+    virtual_path: docs/build-with-pinot/querying-and-sql/query-execution-controls/query-quotas.md
+  - title: Query Using Cursors
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/query-execution-controls/query-using-cursors
+    anchor: build-with-pinot-querying-and-sql-query-execution-controls-query-using-cursors
+    virtual_path: docs/build-with-pinot/querying-and-sql/query-execution-controls/query-using-cursors.md
+  - title: Querying Pinot
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/querying-pinot
+    anchor: build-with-pinot-querying-and-sql-querying-pinot
+    virtual_path: docs/build-with-pinot/querying-and-sql/querying-pinot.md
+  - title: SQL syntax
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax
+    anchor: build-with-pinot-querying-and-sql-sql-syntax
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax.md
+  - title: Filtering with IdSet
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax/filtering-with-idset
+    anchor: build-with-pinot-querying-and-sql-sql-syntax-filtering-with-idset
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax/filtering-with-idset.md
+  - title: GapFill Function for Time-Series Dataset
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax/gap-fill-functions
+    anchor: build-with-pinot-querying-and-sql-sql-syntax-gap-fill-functions
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax/gap-fill-functions.md
+  - title: Grouping Algorithm
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax/grouping-algorithm
+    anchor: build-with-pinot-querying-and-sql-sql-syntax-grouping-algorithm
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax/grouping-algorithm.md
+  - title: JOINs
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax/joins
+    anchor: build-with-pinot-querying-and-sql-sql-syntax-joins
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax/joins.md
+  - title: Lookup UDF Join
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax/lookup-udf-join
+    anchor: build-with-pinot-querying-and-sql-sql-syntax-lookup-udf-join
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax/lookup-udf-join.md
+  - title: Null Value Support
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax/null-value-support
+    anchor: build-with-pinot-querying-and-sql-sql-syntax-null-value-support
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax/null-value-support.md
+  - title: Query Syntax Overview
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax/query-syntax-overview
+    anchor: build-with-pinot-querying-and-sql-sql-syntax-query-syntax-overview
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax/query-syntax-overview.md
+  - title: Row Expression Comparison
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax/row-expression-comparison
+    anchor: build-with-pinot-querying-and-sql-sql-syntax-row-expression-comparison
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax/row-expression-comparison.md
+  - title: SQL DDL
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax/sql-ddl
+    anchor: build-with-pinot-querying-and-sql-sql-syntax-sql-ddl
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax/sql-ddl.md
+  - title: SQL Reference
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax/sql-reference
+    anchor: build-with-pinot-querying-and-sql-sql-syntax-sql-reference
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax/sql-reference.md
+  - title: Vector Query Execution Semantics
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sql-syntax/vector-query-execution
+    anchor: build-with-pinot-querying-and-sql-sql-syntax-vector-query-execution
+    virtual_path: docs/build-with-pinot/querying-and-sql/sql-syntax/vector-query-execution.md
+  - title: Query Engines (SSE vs MSE)
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/sse-vs-mse
+    anchor: build-with-pinot-querying-and-sql-sse-vs-mse
+    virtual_path: docs/build-with-pinot/querying-and-sql/sse-vs-mse.md
+  - title: Time Series Queries
+    kind: link
+    source_url: https://docs.pinot.apache.org/build-with-pinot/querying-and-sql/time-series-queries
+    anchor: build-with-pinot-querying-and-sql-time-series-queries
+    virtual_path: docs/build-with-pinot/querying-and-sql/time-series-queries.md
+  - title: Codebase Basics
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/codebase-basics
+    anchor: develop-and-contribute-codebase-basics
+    virtual_path: docs/develop-and-contribute/codebase-basics.md
+  - title: Build Docker Images
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/codebase-basics/build-docker-images
+    anchor: develop-and-contribute-codebase-basics-build-docker-images
+    virtual_path: docs/develop-and-contribute/codebase-basics/build-docker-images.md
+  - title: Code Modules and Organization
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/codebase-basics/code-modules-and-organization
+    anchor: develop-and-contribute-codebase-basics-code-modules-and-organization
+    virtual_path: docs/develop-and-contribute/codebase-basics/code-modules-and-organization.md
+  - title: Code Setup
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/codebase-basics/code-setup
+    anchor: develop-and-contribute-codebase-basics-code-setup
+    virtual_path: docs/develop-and-contribute/codebase-basics/code-setup.md
+  - title: Dependency Management
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/codebase-basics/dependency-management
+    anchor: develop-and-contribute-codebase-basics-dependency-management
+    virtual_path: docs/develop-and-contribute/codebase-basics/dependency-management.md
+  - title: Contributing
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/contributing
+    anchor: develop-and-contribute-contributing
+    virtual_path: docs/develop-and-contribute/contributing.md
+  - title: Contribute Pinot Documentation
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/contributing/contributing
+    anchor: develop-and-contribute-contributing-contributing
+    virtual_path: docs/develop-and-contribute/contributing/contributing.md
+  - title: Contribution Guidelines
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/contributing/contribution-guidelines
+    anchor: develop-and-contribute-contributing-contribution-guidelines
+    virtual_path: docs/develop-and-contribute/contributing/contribution-guidelines.md
+  - title: Style Guide
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/contributing/style-guide
+    anchor: develop-and-contribute-contributing-style-guide
+    virtual_path: docs/develop-and-contribute/contributing/style-guide.md
+  - title: Update Documentation
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/contributing/update-document
+    anchor: develop-and-contribute-contributing-update-document
+    virtual_path: docs/develop-and-contribute/contributing/update-document.md
+  - title: Design Documents
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/design-documents
+    anchor: develop-and-contribute-design-documents
+    virtual_path: docs/develop-and-contribute/design-documents.md
+  - title: Segment Writer API
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/design-documents/segment-writer-api
+    anchor: develop-and-contribute-design-documents-segment-writer-api
+    virtual_path: docs/develop-and-contribute/design-documents/segment-writer-api.md
+  - title: Extending Pinot
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/extending-pinot
+    anchor: develop-and-contribute-extending-pinot
+    virtual_path: docs/develop-and-contribute/extending-pinot.md
+  - title: Writing Custom Aggregation Function
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/extending-pinot/custom-aggregation-function
+    anchor: develop-and-contribute-extending-pinot-custom-aggregation-function
+    virtual_path: docs/develop-and-contribute/extending-pinot/custom-aggregation-function.md
+  - title: Segment Fetchers
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/extending-pinot/segment-fetchers
+    anchor: develop-and-contribute-extending-pinot-segment-fetchers
+    virtual_path: docs/develop-and-contribute/extending-pinot/segment-fetchers.md
+  - title: Plugins
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture
+    anchor: develop-and-contribute-plugin-architecture
+    virtual_path: docs/develop-and-contribute/plugin-architecture.md
+  - title: Write Custom Plugins
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins.md
+  - title: Config Validator SPI
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins/config-validator-spi
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins-config-validator-spi
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins/config-validator-spi.md
+  - title: Metrics Plugin
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins/metrics-plugin
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins-metrics-plugin
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins/metrics-plugin.md
+  - title: Minion Task Plugin
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins/minion-task-plugin
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins-minion-task-plugin
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins/minion-task-plugin.md
+  - title: Opchain Converter Plugin
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins/opchain-converter-plugin
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins-opchain-converter-plugin
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins/opchain-converter-plugin.md
+  - title: Filesystem Plugin
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins/pluggable-storage
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins-pluggable-storage
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins/pluggable-storage.md
+  - title: Input Format Plugin
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins/record-reader
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins-record-reader
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins/record-reader.md
+  - title: Segment Uploader Plugin
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins/segment-uploader-plugin
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins-segment-uploader-plugin
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins/segment-uploader-plugin.md
+  - title: Segment Writer Plugin
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins/segment-writer-plugin
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins-segment-writer-plugin
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins/segment-writer-plugin.md
+  - title: Time Series Language Plugin
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins/time-series-language-plugin
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins-time-series-language-plugin
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins/time-series-language-plugin.md
+  - title: Batch Segment Fetcher Plugin
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins/write-your-batch
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins-write-your-batch
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins/write-your-batch.md
+  - title: Stream Ingestion Plugin
+    kind: link
+    source_url: https://docs.pinot.apache.org/develop-and-contribute/plugin-architecture/write-custom-plugins/write-your-stream
+    anchor: develop-and-contribute-plugin-architecture-write-custom-plugins-write-your-stream
+    virtual_path: docs/develop-and-contribute/plugin-architecture/write-custom-plugins/write-your-stream.md
+  - title: ANYVALUE
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/anyvalue
+    anchor: functions-aggregation-anyvalue
+    virtual_path: docs/functions/aggregation/anyvalue.md
+  - title: EXPR_MIN / EXPR_MAX
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/arg_min-arg_max
+    anchor: functions-aggregation-arg_min-arg_max
+    virtual_path: docs/functions/aggregation/arg_min-arg_max.md
+  - title: ARRAYAGG
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/arrayagg
+    anchor: functions-aggregation-arrayagg
+    virtual_path: docs/functions/aggregation/arrayagg.md
+  - title: AVG
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/avg
+    anchor: functions-aggregation-avg
+    virtual_path: docs/functions/aggregation/avg.md
+  - title: AVGMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/avgmv
+    anchor: functions-aggregation-avgmv
+    virtual_path: docs/functions/aggregation/avgmv.md
+  - title: BOOLAND
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/booland
+    anchor: functions-aggregation-booland
+    virtual_path: docs/functions/aggregation/booland.md
+  - title: BOOLOR
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/boolor
+    anchor: functions-aggregation-boolor
+    virtual_path: docs/functions/aggregation/boolor.md
+  - title: count
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/count
+    anchor: functions-aggregation-count
+    virtual_path: docs/functions/aggregation/count.md
+  - title: COUNTMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/countmv
+    anchor: functions-aggregation-countmv
+    virtual_path: docs/functions/aggregation/countmv.md
+  - title: DISTINCT
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinct
+    anchor: functions-aggregation-distinct
+    virtual_path: docs/functions/aggregation/distinct.md
+  - title: DISTINCT_COUNT_OFF_HEAP
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinct_count_off_heap
+    anchor: functions-aggregation-distinct_count_off_heap
+    virtual_path: docs/functions/aggregation/distinct_count_off_heap.md
+  - title: DISTINCTAVG
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctavg
+    anchor: functions-aggregation-distinctavg
+    virtual_path: docs/functions/aggregation/distinctavg.md
+  - title: DISTINCTAVGMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctavgmv
+    anchor: functions-aggregation-distinctavgmv
+    virtual_path: docs/functions/aggregation/distinctavgmv.md
+  - title: DISTINCTCOUNT
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcount
+    anchor: functions-aggregation-distinctcount
+    virtual_path: docs/functions/aggregation/distinctcount.md
+  - title: DISTINCTCOUNTBITMAP
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcountbitmap
+    anchor: functions-aggregation-distinctcountbitmap
+    virtual_path: docs/functions/aggregation/distinctcountbitmap.md
+  - title: DISTINCTCOUNTBITMAPMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcountbitmapmv
+    anchor: functions-aggregation-distinctcountbitmapmv
+    virtual_path: docs/functions/aggregation/distinctcountbitmapmv.md
+  - title: DISTINCTCOUNTHLLPLUS
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcounthll-1
+    anchor: functions-aggregation-distinctcounthll-1
+    virtual_path: docs/functions/aggregation/distinctcounthll-1.md
+  - title: DISTINCTCOUNTHLL
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcounthll
+    anchor: functions-aggregation-distinctcounthll
+    virtual_path: docs/functions/aggregation/distinctcounthll.md
+  - title: DISTINCTCOUNTHLLMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcounthllmv
+    anchor: functions-aggregation-distinctcounthllmv
+    virtual_path: docs/functions/aggregation/distinctcounthllmv.md
+  - title: DISTINCTCOUNTMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcountmv
+    anchor: functions-aggregation-distinctcountmv
+    virtual_path: docs/functions/aggregation/distinctcountmv.md
+  - title: DISTINCTCOUNTRAWHLL
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcountrawhll
+    anchor: functions-aggregation-distinctcountrawhll
+    virtual_path: docs/functions/aggregation/distinctcountrawhll.md
+  - title: DISTINCTCOUNTRAWHLLMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcountrawhllmv
+    anchor: functions-aggregation-distinctcountrawhllmv
+    virtual_path: docs/functions/aggregation/distinctcountrawhllmv.md
+  - title: DISTINCTCOUNTRAWTHETASKETCH
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcountrawthetasketch
+    anchor: functions-aggregation-distinctcountrawthetasketch
+    virtual_path: docs/functions/aggregation/distinctcountrawthetasketch.md
+  - title: DISTINCTCOUNTSMARTHLL
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcountsmarthll
+    anchor: functions-aggregation-distinctcountsmarthll
+    virtual_path: docs/functions/aggregation/distinctcountsmarthll.md
+  - title: DISTINCTCOUNTTHETASKETCH
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcountthetasketch
+    anchor: functions-aggregation-distinctcountthetasketch
+    virtual_path: docs/functions/aggregation/distinctcountthetasketch.md
+  - title: DISTINCTCOUNTULL
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctcountull
+    anchor: functions-aggregation-distinctcountull
+    virtual_path: docs/functions/aggregation/distinctcountull.md
+  - title: DISTINCTSUM
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctsum
+    anchor: functions-aggregation-distinctsum
+    virtual_path: docs/functions/aggregation/distinctsum.md
+  - title: DISTINCTSUMMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/distinctsummv
+    anchor: functions-aggregation-distinctsummv
+    virtual_path: docs/functions/aggregation/distinctsummv.md
+  - title: EXPRMAX
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/exprmax
+    anchor: functions-aggregation-exprmax
+    virtual_path: docs/functions/aggregation/exprmax.md
+  - title: EXPRMIN
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/exprmin
+    anchor: functions-aggregation-exprmin
+    virtual_path: docs/functions/aggregation/exprmin.md
+  - title: FIRST_VALUE
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/first_value
+    anchor: functions-aggregation-first_value
+    virtual_path: docs/functions/aggregation/first_value.md
+  - title: FIRSTWITHTIME
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/firstwithtime
+    anchor: functions-aggregation-firstwithtime
+    virtual_path: docs/functions/aggregation/firstwithtime.md
+  - title: FUNNELEVENTSFUNCTIONEVAL
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/funneleventsfunctioneval
+    anchor: functions-aggregation-funneleventsfunctioneval
+    virtual_path: docs/functions/aggregation/funneleventsfunctioneval.md
+  - title: FUNNELSTEPDURATIONSTATS
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/funnelstepdurationstats
+    anchor: functions-aggregation-funnelstepdurationstats
+    virtual_path: docs/functions/aggregation/funnelstepdurationstats.md
+  - title: Histogram
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/histogram
+    anchor: functions-aggregation-histogram
+    virtual_path: docs/functions/aggregation/histogram.md
+  - title: IDSET
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/idset
+    anchor: functions-aggregation-idset
+    virtual_path: docs/functions/aggregation/idset.md
+  - title: KURTOSIS
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/kurtosis
+    anchor: functions-aggregation-kurtosis
+    virtual_path: docs/functions/aggregation/kurtosis.md
+  - title: LAG
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/lag
+    anchor: functions-aggregation-lag
+    virtual_path: docs/functions/aggregation/lag.md
+  - title: LAST_VALUE
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/last_value
+    anchor: functions-aggregation-last_value
+    virtual_path: docs/functions/aggregation/last_value.md
+  - title: LASTWITHTIME
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/lastwithtime
+    anchor: functions-aggregation-lastwithtime
+    virtual_path: docs/functions/aggregation/lastwithtime.md
+  - title: LEAD
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/lead
+    anchor: functions-aggregation-lead
+    virtual_path: docs/functions/aggregation/lead.md
+  - title: LISTAGG
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/listagg
+    anchor: functions-aggregation-listagg
+    virtual_path: docs/functions/aggregation/listagg.md
+  - title: max
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/max
+    anchor: functions-aggregation-max
+    virtual_path: docs/functions/aggregation/max.md
+  - title: MAXMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/maxmv
+    anchor: functions-aggregation-maxmv
+    virtual_path: docs/functions/aggregation/maxmv.md
+  - title: maxString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/maxstring
+    anchor: functions-aggregation-maxstring
+    virtual_path: docs/functions/aggregation/maxstring.md
+  - title: min
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/min
+    anchor: functions-aggregation-min
+    virtual_path: docs/functions/aggregation/min.md
+  - title: minmaxrange
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/minmaxrange
+    anchor: functions-aggregation-minmaxrange
+    virtual_path: docs/functions/aggregation/minmaxrange.md
+  - title: MINMAXRANGEMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/minmaxrangemv
+    anchor: functions-aggregation-minmaxrangemv
+    virtual_path: docs/functions/aggregation/minmaxrangemv.md
+  - title: MINMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/minmv
+    anchor: functions-aggregation-minmv
+    virtual_path: docs/functions/aggregation/minmv.md
+  - title: minString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/minstring
+    anchor: functions-aggregation-minstring
+    virtual_path: docs/functions/aggregation/minstring.md
+  - title: mode
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/mode
+    anchor: functions-aggregation-mode
+    virtual_path: docs/functions/aggregation/mode.md
+  - title: percentile
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/percentile
+    anchor: functions-aggregation-percentile
+    virtual_path: docs/functions/aggregation/percentile.md
+  - title: percentileest
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/percentileest
+    anchor: functions-aggregation-percentileest
+    virtual_path: docs/functions/aggregation/percentileest.md
+  - title: percentileestmv
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/percentileestmv
+    anchor: functions-aggregation-percentileestmv
+    virtual_path: docs/functions/aggregation/percentileestmv.md
+  - title: percentilekll
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/percentilekll
+    anchor: functions-aggregation-percentilekll
+    virtual_path: docs/functions/aggregation/percentilekll.md
+  - title: percentilekllmv
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/percentilekllmv
+    anchor: functions-aggregation-percentilekllmv
+    virtual_path: docs/functions/aggregation/percentilekllmv.md
+  - title: percentilemv
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/percentilemv
+    anchor: functions-aggregation-percentilemv
+    virtual_path: docs/functions/aggregation/percentilemv.md
+  - title: percentilerawkll
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/percentilerawkll
+    anchor: functions-aggregation-percentilerawkll
+    virtual_path: docs/functions/aggregation/percentilerawkll.md
+  - title: percentilerawkllmv
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/percentilerawkllmv
+    anchor: functions-aggregation-percentilerawkllmv
+    virtual_path: docs/functions/aggregation/percentilerawkllmv.md
+  - title: percentiletdigest
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/percentiletdigest
+    anchor: functions-aggregation-percentiletdigest
+    virtual_path: docs/functions/aggregation/percentiletdigest.md
+  - title: percentiletdigestmv
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/percentiletdigestmv
+    anchor: functions-aggregation-percentiletdigestmv
+    virtual_path: docs/functions/aggregation/percentiletdigestmv.md
+  - title: SEGMENTPARTITIONEDDISTINCTCOUNT
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/segmentpartitioneddistinctcount
+    anchor: functions-aggregation-segmentpartitioneddistinctcount
+    virtual_path: docs/functions/aggregation/segmentpartitioneddistinctcount.md
+  - title: SKEWNESS
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/skewness
+    anchor: functions-aggregation-skewness
+    virtual_path: docs/functions/aggregation/skewness.md
+  - title: sum
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/sum
+    anchor: functions-aggregation-sum
+    virtual_path: docs/functions/aggregation/sum.md
+  - title: SUMARRAYDOUBLE
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/sumarraydouble
+    anchor: functions-aggregation-sumarraydouble
+    virtual_path: docs/functions/aggregation/sumarraydouble.md
+  - title: SUMARRAYLONG
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/sumarraylong
+    anchor: functions-aggregation-sumarraylong
+    virtual_path: docs/functions/aggregation/sumarraylong.md
+  - title: summv
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/summv
+    anchor: functions-aggregation-summv
+    virtual_path: docs/functions/aggregation/summv.md
+  - title: SUMPRECISION
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/sumprecision
+    anchor: functions-aggregation-sumprecision
+    virtual_path: docs/functions/aggregation/sumprecision.md
+  - title: VALUEIN
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/aggregation/valuein
+    anchor: functions-aggregation-valuein
+    virtual_path: docs/functions/aggregation/valuein.md
+  - title: ARRAY_AGG
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/array_agg
+    anchor: functions-array-array_agg
+    virtual_path: docs/functions/array/array_agg.md
+  - title: arrayConcatDouble
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayconcatdouble
+    anchor: functions-array-arrayconcatdouble
+    virtual_path: docs/functions/array/arrayconcatdouble.md
+  - title: arrayConcatFloat
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayconcatfloat
+    anchor: functions-array-arrayconcatfloat
+    virtual_path: docs/functions/array/arrayconcatfloat.md
+  - title: arrayConcatInt
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayconcatint
+    anchor: functions-array-arrayconcatint
+    virtual_path: docs/functions/array/arrayconcatint.md
+  - title: arrayConcatLong
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayconcatlong
+    anchor: functions-array-arrayconcatlong
+    virtual_path: docs/functions/array/arrayconcatlong.md
+  - title: arrayConcatString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayconcatstring
+    anchor: functions-array-arrayconcatstring
+    virtual_path: docs/functions/array/arrayconcatstring.md
+  - title: arrayContainsInt
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraycontainsint
+    anchor: functions-array-arraycontainsint
+    virtual_path: docs/functions/array/arraycontainsint.md
+  - title: arrayContainsString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraycontainsstring
+    anchor: functions-array-arraycontainsstring
+    virtual_path: docs/functions/array/arraycontainsstring.md
+  - title: arrayDistinctInt
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraydistinctint
+    anchor: functions-array-arraydistinctint
+    virtual_path: docs/functions/array/arraydistinctint.md
+  - title: arrayDistinctString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraydistinctstring
+    anchor: functions-array-arraydistinctstring
+    virtual_path: docs/functions/array/arraydistinctstring.md
+  - title: arrayIndexOfInt
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayindexofint
+    anchor: functions-array-arrayindexofint
+    virtual_path: docs/functions/array/arrayindexofint.md
+  - title: arrayIndexOfString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayindexofstring
+    anchor: functions-array-arrayindexofstring
+    virtual_path: docs/functions/array/arrayindexofstring.md
+  - title: ARRAYLENGTH
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraylength
+    anchor: functions-array-arraylength
+    virtual_path: docs/functions/array/arraylength.md
+  - title: arrayPushBack
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraypushback
+    anchor: functions-array-arraypushback
+    virtual_path: docs/functions/array/arraypushback.md
+  - title: arrayPushFront
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraypushfront
+    anchor: functions-array-arraypushfront
+    virtual_path: docs/functions/array/arraypushfront.md
+  - title: arrayRemoveInt
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayremoveint
+    anchor: functions-array-arrayremoveint
+    virtual_path: docs/functions/array/arrayremoveint.md
+  - title: arrayRemoveString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayremovestring
+    anchor: functions-array-arrayremovestring
+    virtual_path: docs/functions/array/arrayremovestring.md
+  - title: arrayReverseInt
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayreverseint
+    anchor: functions-array-arrayreverseint
+    virtual_path: docs/functions/array/arrayreverseint.md
+  - title: arrayReverseString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayreversestring
+    anchor: functions-array-arrayreversestring
+    virtual_path: docs/functions/array/arrayreversestring.md
+  - title: arraySliceInt
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraysliceint
+    anchor: functions-array-arraysliceint
+    virtual_path: docs/functions/array/arraysliceint.md
+  - title: arraySliceLong
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayslicelong
+    anchor: functions-array-arrayslicelong
+    virtual_path: docs/functions/array/arrayslicelong.md
+  - title: arraySliceString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayslicestring
+    anchor: functions-array-arrayslicestring
+    virtual_path: docs/functions/array/arrayslicestring.md
+  - title: arraySortInt
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraysortint
+    anchor: functions-array-arraysortint
+    virtual_path: docs/functions/array/arraysortint.md
+  - title: arraySortString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraysortstring
+    anchor: functions-array-arraysortstring
+    virtual_path: docs/functions/array/arraysortstring.md
+  - title: arraysOverlap
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraysoverlap
+    anchor: functions-array-arraysoverlap
+    virtual_path: docs/functions/array/arraysoverlap.md
+  - title: arrayToString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arraytostring
+    anchor: functions-array-arraytostring
+    virtual_path: docs/functions/array/arraytostring.md
+  - title: arrayUnionInt
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayunionint
+    anchor: functions-array-arrayunionint
+    virtual_path: docs/functions/array/arrayunionint.md
+  - title: arrayUnionString
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/arrayunionstring
+    anchor: functions-array-arrayunionstring
+    virtual_path: docs/functions/array/arrayunionstring.md
+  - title: filterMv
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/filtermv
+    anchor: functions-array-filtermv
+    virtual_path: docs/functions/array/filtermv.md
+  - title: isEqualSet
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/array/isequalset
+    anchor: functions-array-isequalset
+    virtual_path: docs/functions/array/isequalset.md
+  - title: Base64
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/binary/base64
+    anchor: functions-binary-base64
+    virtual_path: docs/functions/binary/base64.md
+  - title: MD5
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/binary/md5
+    anchor: functions-binary-md5
+    virtual_path: docs/functions/binary/md5.md
+  - title: sha
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/binary/sha
+    anchor: functions-binary-sha
+    virtual_path: docs/functions/binary/sha.md
+  - title: sha256
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/binary/sha256
+    anchor: functions-binary-sha256
+    virtual_path: docs/functions/binary/sha256.md
+  - title: sha512
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/binary/sha512
+    anchor: functions-binary-sha512
+    virtual_path: docs/functions/binary/sha512.md
+  - title: UTF8
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/binary/utf8
+    anchor: functions-binary-utf8
+    virtual_path: docs/functions/binary/utf8.md
+  - title: CLPDECODE
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/clp/clpdecode
+    anchor: functions-clp-clpdecode
+    virtual_path: docs/functions/clp/clpdecode.md
+  - title: FUNNELCOMPLETECOUNT
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/funnel/funnelcompletecount
+    anchor: functions-funnel-funnelcompletecount
+    virtual_path: docs/functions/funnel/funnelcompletecount.md
+  - title: FUNNELCOUNT
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/funnel/funnelcount
+    anchor: functions-funnel-funnelcount
+    virtual_path: docs/functions/funnel/funnelcount.md
+  - title: FunnelMaxStep
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/funnel/funnelmaxstep-1
+    anchor: functions-funnel-funnelmaxstep-1
+    virtual_path: docs/functions/funnel/funnelmaxstep-1.md
+  - title: FunnelMatchStep
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/funnel/funnelmaxstep-2
+    anchor: functions-funnel-funnelmaxstep-2
+    virtual_path: docs/functions/funnel/funnelmaxstep-2.md
+  - title: FunnelCompleteCount
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/funnel/funnelmaxstep
+    anchor: functions-funnel-funnelmaxstep
+    virtual_path: docs/functions/funnel/funnelmaxstep.md
+  - title: GridDisk
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/griddisk
+    anchor: functions-geospatial-griddisk
+    virtual_path: docs/functions/geospatial/griddisk.md
+  - title: GridDistance
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/griddistance
+    anchor: functions-geospatial-griddistance
+    virtual_path: docs/functions/geospatial/griddistance.md
+  - title: ST_AsGeoJSON
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/st_asgeojson
+    anchor: functions-geospatial-st_asgeojson
+    virtual_path: docs/functions/geospatial/st_asgeojson.md
+  - title: ST_GeogFromGeoJSON
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/st_geogfromgeojson
+    anchor: functions-geospatial-st_geogfromgeojson
+    virtual_path: docs/functions/geospatial/st_geogfromgeojson.md
+  - title: ST_GeomFromGeoJSON
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/st_geomfromgeojson
+    anchor: functions-geospatial-st_geomfromgeojson
+    virtual_path: docs/functions/geospatial/st_geomfromgeojson.md
+  - title: ST_AsBinary
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stasbinary
+    anchor: functions-geospatial-stasbinary
+    virtual_path: docs/functions/geospatial/stasbinary.md
+  - title: ST_AsText
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stastext
+    anchor: functions-geospatial-stastext
+    virtual_path: docs/functions/geospatial/stastext.md
+  - title: ST_Contains
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stcontains
+    anchor: functions-geospatial-stcontains
+    virtual_path: docs/functions/geospatial/stcontains.md
+  - title: ST_Distance
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stdistance
+    anchor: functions-geospatial-stdistance
+    virtual_path: docs/functions/geospatial/stdistance.md
+  - title: ST_GeogFromText
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stgeogfromtext
+    anchor: functions-geospatial-stgeogfromtext
+    virtual_path: docs/functions/geospatial/stgeogfromtext.md
+  - title: ST_GeogFromWKB
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stgeogfromwkb
+    anchor: functions-geospatial-stgeogfromwkb
+    virtual_path: docs/functions/geospatial/stgeogfromwkb.md
+  - title: ST_GeometryType
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stgeometrytype
+    anchor: functions-geospatial-stgeometrytype
+    virtual_path: docs/functions/geospatial/stgeometrytype.md
+  - title: ST_GeomFromText
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stgeomfromtext
+    anchor: functions-geospatial-stgeomfromtext
+    virtual_path: docs/functions/geospatial/stgeomfromtext.md
+  - title: ST_GeomFromWKB
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stgeomfromwkb
+    anchor: functions-geospatial-stgeomfromwkb
+    virtual_path: docs/functions/geospatial/stgeomfromwkb.md
+  - title: STPOINT
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stpoint
+    anchor: functions-geospatial-stpoint
+    virtual_path: docs/functions/geospatial/stpoint.md
+  - title: ST_Polygon
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stpolygon
+    anchor: functions-geospatial-stpolygon
+    virtual_path: docs/functions/geospatial/stpolygon.md
+  - title: ST_Union
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/stunion
+    anchor: functions-geospatial-stunion
+    virtual_path: docs/functions/geospatial/stunion.md
+  - title: toGeometry
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/togeometry
+    anchor: functions-geospatial-togeometry
+    virtual_path: docs/functions/geospatial/togeometry.md
+  - title: toSphericalGeography
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/geospatial/tosphericalgeography
+    anchor: functions-geospatial-tosphericalgeography
+    virtual_path: docs/functions/geospatial/tosphericalgeography.md
+  - title: jsonextractindex
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonextractindex
+    anchor: functions-json-jsonextractindex
+    virtual_path: docs/functions/json/jsonextractindex.md
+  - title: jsonextractkey
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonextractkey
+    anchor: functions-json-jsonextractkey
+    virtual_path: docs/functions/json/jsonextractkey.md
+  - title: JSONEXTRACTOBJECT
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonextractobject
+    anchor: functions-json-jsonextractobject
+    virtual_path: docs/functions/json/jsonextractobject.md
+  - title: jsonextractscalar
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonextractscalar
+    anchor: functions-json-jsonextractscalar
+    virtual_path: docs/functions/json/jsonextractscalar.md
+  - title: JSONFORMAT
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonformat
+    anchor: functions-json-jsonformat
+    virtual_path: docs/functions/json/jsonformat.md
+  - title: JSONKEYVALUEARRAYTOMAP
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonkeyvaluearraytomap
+    anchor: functions-json-jsonkeyvaluearraytomap
+    virtual_path: docs/functions/json/jsonkeyvaluearraytomap.md
+  - title: JSONPATH
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonpath
+    anchor: functions-json-jsonpath
+    virtual_path: docs/functions/json/jsonpath.md
+  - title: JSONPATHARRAY
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonpatharray
+    anchor: functions-json-jsonpatharray
+    virtual_path: docs/functions/json/jsonpatharray.md
+  - title: JSONPATHARRAYDEFAULTEMPTY
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonpatharraydefaultempty
+    anchor: functions-json-jsonpatharraydefaultempty
+    virtual_path: docs/functions/json/jsonpatharraydefaultempty.md
+  - title: JSONPATHDOUBLE
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonpathdouble
+    anchor: functions-json-jsonpathdouble
+    virtual_path: docs/functions/json/jsonpathdouble.md
+  - title: JSONPATHEXISTS
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonpathexists
+    anchor: functions-json-jsonpathexists
+    virtual_path: docs/functions/json/jsonpathexists.md
+  - title: JSONPATHLONG
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonpathlong
+    anchor: functions-json-jsonpathlong
+    virtual_path: docs/functions/json/jsonpathlong.md
+  - title: JSONPATHSTRING
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/jsonpathstring
+    anchor: functions-json-jsonpathstring
+    virtual_path: docs/functions/json/jsonpathstring.md
+  - title: TOJSONMAPSTR
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/json/tojsonmapstr
+    anchor: functions-json-tojsonmapstr
+    virtual_path: docs/functions/json/tojsonmapstr.md
+  - title: ABS
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/abs
+    anchor: functions-math-abs
+    virtual_path: docs/functions/math/abs.md
+  - title: ADD
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/add
+    anchor: functions-math-add
+    virtual_path: docs/functions/math/add.md
+  - title: Bitwise Functions
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/bitwise
+    anchor: functions-math-bitwise
+    virtual_path: docs/functions/math/bitwise.md
+  - title: byteswapInt
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/byteswapint
+    anchor: functions-math-byteswapint
+    virtual_path: docs/functions/math/byteswapint.md
+  - title: byteswapLong
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/byteswaplong
+    anchor: functions-math-byteswaplong
+    virtual_path: docs/functions/math/byteswaplong.md
+  - title: ceil
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/ceil
+    anchor: functions-math-ceil
+    virtual_path: docs/functions/math/ceil.md
+  - title: DIV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/div
+    anchor: functions-math-div
+    virtual_path: docs/functions/math/div.md
+  - title: exp
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/exp
+    anchor: functions-math-exp
+    virtual_path: docs/functions/math/exp.md
+  - title: FLOOR
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/floor
+    anchor: functions-math-floor
+    virtual_path: docs/functions/math/floor.md
+  - title: gcd
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/gcd
+    anchor: functions-math-gcd
+    virtual_path: docs/functions/math/gcd.md
+  - title: greatest
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/greatest
+    anchor: functions-math-greatest
+    virtual_path: docs/functions/math/greatest.md
+  - title: hypot
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/hypot
+    anchor: functions-math-hypot
+    virtual_path: docs/functions/math/hypot.md
+  - title: ifNotFinite
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/ifnotfinite
+    anchor: functions-math-ifnotfinite
+    virtual_path: docs/functions/math/ifnotfinite.md
+  - title: intDiv
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/intdiv
+    anchor: functions-math-intdiv
+    virtual_path: docs/functions/math/intdiv.md
+  - title: intDivOrZero
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/intdivorzero
+    anchor: functions-math-intdivorzero
+    virtual_path: docs/functions/math/intdivorzero.md
+  - title: isFinite
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/isfinite
+    anchor: functions-math-isfinite
+    virtual_path: docs/functions/math/isfinite.md
+  - title: isInfinite
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/isinfinite
+    anchor: functions-math-isinfinite
+    virtual_path: docs/functions/math/isinfinite.md
+  - title: isNaN
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/isnan
+    anchor: functions-math-isnan
+    virtual_path: docs/functions/math/isnan.md
+  - title: lcm
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/lcm
+    anchor: functions-math-lcm
+    virtual_path: docs/functions/math/lcm.md
+  - title: least
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/least
+    anchor: functions-math-least
+    virtual_path: docs/functions/math/least.md
+  - title: ln
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/ln
+    anchor: functions-math-ln
+    virtual_path: docs/functions/math/ln.md
+  - title: MOD
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/mod
+    anchor: functions-math-mod
+    virtual_path: docs/functions/math/mod.md
+  - title: moduloOrZero
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/moduloorzero
+    anchor: functions-math-moduloorzero
+    virtual_path: docs/functions/math/moduloorzero.md
+  - title: mult
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/mult
+    anchor: functions-math-mult
+    virtual_path: docs/functions/math/mult.md
+  - title: negate
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/negate
+    anchor: functions-math-negate
+    virtual_path: docs/functions/math/negate.md
+  - title: positiveModulo
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/positivemodulo
+    anchor: functions-math-positivemodulo
+    virtual_path: docs/functions/math/positivemodulo.md
+  - title: roundDecimal
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/round-1
+    anchor: functions-math-round-1
+    virtual_path: docs/functions/math/round-1.md
+  - title: round
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/round
+    anchor: functions-math-round
+    virtual_path: docs/functions/math/round.md
+  - title: sqrt
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/sqrt
+    anchor: functions-math-sqrt
+    virtual_path: docs/functions/math/sqrt.md
+  - title: SUB
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/math/sub
+    anchor: functions-math-sub
+    virtual_path: docs/functions/math/sub.md
+  - title: caseWhen
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/misc/casewhen
+    anchor: functions-misc-casewhen
+    virtual_path: docs/functions/misc/casewhen.md
+  - title: isSubnetOf
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/misc/issubnetof
+    anchor: functions-misc-issubnetof
+    virtual_path: docs/functions/misc/issubnetof.md
+  - title: AVGVALUEINTEGERSUMTUPLESKETCH
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/avgvalueintegersumtuplesketch
+    anchor: functions-sketch-avgvalueintegersumtuplesketch
+    virtual_path: docs/functions/sketch/avgvalueintegersumtuplesketch.md
+  - title: DISTINCTCOUNTCPCSKETCH
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/distinctcountcpcsketch
+    anchor: functions-sketch-distinctcountcpcsketch
+    virtual_path: docs/functions/sketch/distinctcountcpcsketch.md
+  - title: DISTINCTCOUNTHLLPLUS
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/distinctcounthllplus
+    anchor: functions-sketch-distinctcounthllplus
+    virtual_path: docs/functions/sketch/distinctcounthllplus.md
+  - title: DISTINCTCOUNTHLLPLUSMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/distinctcounthllplusmv
+    anchor: functions-sketch-distinctcounthllplusmv
+    virtual_path: docs/functions/sketch/distinctcounthllplusmv.md
+  - title: DISTINCTCOUNTRAWCPCSKETCH
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/distinctcountrawcpcsketch
+    anchor: functions-sketch-distinctcountrawcpcsketch
+    virtual_path: docs/functions/sketch/distinctcountrawcpcsketch.md
+  - title: DISTINCTCOUNTRAWHLLPLUS
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/distinctcountrawhllplus
+    anchor: functions-sketch-distinctcountrawhllplus
+    virtual_path: docs/functions/sketch/distinctcountrawhllplus.md
+  - title: DISTINCTCOUNTRAWHLLPLUSMV
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/distinctcountrawhllplusmv
+    anchor: functions-sketch-distinctcountrawhllplusmv
+    virtual_path: docs/functions/sketch/distinctcountrawhllplusmv.md
+  - title: DISTINCTCOUNTRAWINTEGERSUMTUPLESKETCH
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/distinctcountrawintegersumtuplesketch
+    anchor: functions-sketch-distinctcountrawintegersumtuplesketch
+    virtual_path: docs/functions/sketch/distinctcountrawintegersumtuplesketch.md
+  - title: DISTINCTCOUNTRAWULL
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/distinctcountrawull
+    anchor: functions-sketch-distinctcountrawull
+    virtual_path: docs/functions/sketch/distinctcountrawull.md
+  - title: DISTINCTCOUNTTUPLESKETCH
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/distinctcounttuplesketch
+    anchor: functions-sketch-distinctcounttuplesketch
+    virtual_path: docs/functions/sketch/distinctcounttuplesketch.md
+  - title: DISTINCTCOUNTULL
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/distinctcountull
+    anchor: functions-sketch-distinctcountull
+    virtual_path: docs/functions/sketch/distinctcountull.md
+  - title: FrequentLongsSketch
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/frequentlongssketch
+    anchor: functions-sketch-frequentlongssketch
+    virtual_path: docs/functions/sketch/frequentlongssketch.md
+  - title: FrequentStringsSketch
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/frequentstringssketch
+    anchor: functions-sketch-frequentstringssketch
+    virtual_path: docs/functions/sketch/frequentstringssketch.md
+  - title: SUMVALUESINTEGERSUMTUPLESKETCH
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/sketch/sumvaluesintegersumtuplesketch
+    anchor: functions-sketch-sumvaluesintegersumtuplesketch
+    virtual_path: docs/functions/sketch/sumvaluesintegersumtuplesketch.md
+  - title: COVAR_POP
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/statistical/covar_pop
+    anchor: functions-statistical-covar_pop
+    virtual_path: docs/functions/statistical/covar_pop.md
+  - title: COVAR_SAMP
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/statistical/covar_samp
+    anchor: functions-statistical-covar_samp
+    virtual_path: docs/functions/statistical/covar_samp.md
+  - title: STDDEVPOP
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/statistical/stddevpop
+    anchor: functions-statistical-stddevpop
+    virtual_path: docs/functions/statistical/stddevpop.md
+  - title: STDDEVSAMP
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/statistical/stddevsamp
+    anchor: functions-statistical-stddevsamp
+    virtual_path: docs/functions/statistical/stddevsamp.md
+  - title: VARPOP
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/statistical/varpop
+    anchor: functions-statistical-varpop
+    virtual_path: docs/functions/statistical/varpop.md
+  - title: VARSAMP
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/statistical/varsamp
+    anchor: functions-statistical-varsamp
+    virtual_path: docs/functions/statistical/varsamp.md
+  - title: Add Prefix, Suffix & Ngram UDFs
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/add-prefix-suffix-ngram-udfs
+    anchor: functions-string-add-prefix-suffix-ngram-udfs
+    virtual_path: docs/functions/string/add-prefix-suffix-ngram-udfs.md
+  - title: CHR
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/chr
+    anchor: functions-string-chr
+    virtual_path: docs/functions/string/chr.md
+  - title: codepoint
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/codepoint
+    anchor: functions-string-codepoint
+    virtual_path: docs/functions/string/codepoint.md
+  - title: concat
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/concat
+    anchor: functions-string-concat
+    virtual_path: docs/functions/string/concat.md
+  - title: difference
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/difference
+    anchor: functions-string-difference
+    virtual_path: docs/functions/string/difference.md
+  - title: initcap
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/initcap
+    anchor: functions-string-initcap
+    virtual_path: docs/functions/string/initcap.md
+  - title: length
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/length
+    anchor: functions-string-length
+    virtual_path: docs/functions/string/length.md
+  - title: levenshtein_distance
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/levenshtein_distance
+    anchor: functions-string-levenshtein_distance
+    virtual_path: docs/functions/string/levenshtein_distance.md
+  - title: lower
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/lower
+    anchor: functions-string-lower
+    virtual_path: docs/functions/string/lower.md
+  - title: lpad
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/lpad
+    anchor: functions-string-lpad
+    virtual_path: docs/functions/string/lpad.md
+  - title: ltrim
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/ltrim
+    anchor: functions-string-ltrim
+    virtual_path: docs/functions/string/ltrim.md
+  - title: regexpExtract
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/regexpextract
+    anchor: functions-string-regexpextract
+    virtual_path: docs/functions/string/regexpextract.md
+  - title: regexpReplace
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/regexpreplace
+    anchor: functions-string-regexpreplace
+    virtual_path: docs/functions/string/regexpreplace.md
+  - title: remove
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/remove
+    anchor: functions-string-remove
+    virtual_path: docs/functions/string/remove.md
+  - title: replace
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/replace
+    anchor: functions-string-replace
+    virtual_path: docs/functions/string/replace.md
+  - title: reverse
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/reverse
+    anchor: functions-string-reverse
+    virtual_path: docs/functions/string/reverse.md
+  - title: rpad
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/rpad
+    anchor: functions-string-rpad
+    virtual_path: docs/functions/string/rpad.md
+  - title: rtrim
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/rtrim
+    anchor: functions-string-rtrim
+    virtual_path: docs/functions/string/rtrim.md
+  - title: soundex
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/soundex
+    anchor: functions-string-soundex
+    virtual_path: docs/functions/string/soundex.md
+  - title: splitPart
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/splitpart
+    anchor: functions-string-splitpart
+    virtual_path: docs/functions/string/splitpart.md
+  - title: startswith
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/startswith
+    anchor: functions-string-startswith
+    virtual_path: docs/functions/string/startswith.md
+  - title: strpos
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/strpos
+    anchor: functions-string-strpos
+    virtual_path: docs/functions/string/strpos.md
+  - title: substr
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/substr
+    anchor: functions-string-substr
+    virtual_path: docs/functions/string/substr.md
+  - title: trim
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/trim
+    anchor: functions-string-trim
+    virtual_path: docs/functions/string/trim.md
+  - title: upper
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/upper
+    anchor: functions-string-upper
+    virtual_path: docs/functions/string/upper.md
+  - title: Url
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/string/url
+    anchor: functions-string-url
+    virtual_path: docs/functions/string/url.md
+  - title: DENSE_RANK
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/window/dense_rank
+    anchor: functions-window-dense_rank
+    virtual_path: docs/functions/window/dense_rank.md
+  - title: RANK
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/window/rank
+    anchor: functions-window-rank
+    virtual_path: docs/functions/window/rank.md
+  - title: ROW_NUMBER
+    kind: link
+    source_url: https://docs.pinot.apache.org/functions/window/row_number
+    anchor: functions-window-row_number
+    virtual_path: docs/functions/window/row_number.md
+  - title: Deployment
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/deployment
+    anchor: operate-pinot-deployment
+    virtual_path: docs/operate-pinot/deployment.md
+  - title: Advanced Pinot Setup
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/deployment/advanced-pinot-setup
+    anchor: operate-pinot-deployment-advanced-pinot-setup
+    virtual_path: docs/operate-pinot/deployment/advanced-pinot-setup.md
+  - title: Command-Line Interface (CLI)
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/deployment/cli
+    anchor: operate-pinot-deployment-cli
+    virtual_path: docs/operate-pinot/deployment/cli.md
+  - title: Configuration Recommendation Engine
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/deployment/configuration-recommendation-engine
+    anchor: operate-pinot-deployment-configuration-recommendation-engine
+    virtual_path: docs/operate-pinot/deployment/configuration-recommendation-engine.md
+  - title: Decoupling Controller from the Data Path
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/deployment/decoupling-controller-from-the-data-path
+    anchor: operate-pinot-deployment-decoupling-controller-from-the-data-path
+    virtual_path: docs/operate-pinot/deployment/decoupling-controller-from-the-data-path.md
+  - title: Server Startup Status Checkers
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/deployment/server-startup-status-checkers
+    anchor: operate-pinot-deployment-server-startup-status-checkers
+    virtual_path: docs/operate-pinot/deployment/server-startup-status-checkers.md
+  - title: Set Up Cluster
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/deployment/setup-cluster
+    anchor: operate-pinot-deployment-setup-cluster
+    virtual_path: docs/operate-pinot/deployment/setup-cluster.md
+  - title: Set Up Ingestion
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/deployment/setup-ingestion
+    anchor: operate-pinot-deployment-setup-ingestion
+    virtual_path: docs/operate-pinot/deployment/setup-ingestion.md
+  - title: Set Up Table
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/deployment/setup-table
+    anchor: operate-pinot-deployment-setup-table
+    virtual_path: docs/operate-pinot/deployment/setup-table.md
+  - title: Kubernetes Production
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/kubernetes-production
+    anchor: operate-pinot-kubernetes-production
+    virtual_path: docs/operate-pinot/kubernetes-production.md
+  - title: Kubernetes Deployment
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/kubernetes-production/deployment-pinot-on-kubernetes
+    anchor: operate-pinot-kubernetes-production-deployment-pinot-on-kubernetes
+    virtual_path: docs/operate-pinot/kubernetes-production/deployment-pinot-on-kubernetes.md
+  - title: Helm Chart Values Reference
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/kubernetes-production/helm-chart-reference
+    anchor: operate-pinot-kubernetes-production-helm-chart-reference
+    virtual_path: docs/operate-pinot/kubernetes-production/helm-chart-reference.md
+  - title: Amazon MSK (Kafka)
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/kubernetes-production/how-to-connect-pinot-with-amazon-managed-streaming-for-apache-kafka-amazon-msk
+    anchor: operate-pinot-kubernetes-production-how-to-connect-pinot-with-amazon-managed-streaming-for-apache-kafka-amazon-msk
+    virtual_path: docs/operate-pinot/kubernetes-production/how-to-connect-pinot-with-amazon-managed-streaming-for-apache-kafka-amazon-msk.md
+  - title: Amazon EKS (Kafka)
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/kubernetes-production/non-eks-to-eks
+    anchor: operate-pinot-kubernetes-production-non-eks-to-eks
+    virtual_path: docs/operate-pinot/kubernetes-production/non-eks-to-eks.md
+  - title: Monitoring
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/monitoring
+    anchor: operate-pinot-monitoring
+    virtual_path: docs/operate-pinot/monitoring.md
+  - title: Continuous Java Flight Recorder (JFR)
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/monitoring/continuous-jfr
+    anchor: operate-pinot-monitoring-continuous-jfr
+    virtual_path: docs/operate-pinot/monitoring/continuous-jfr.md
+  - title: Managing Logs
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/monitoring/managing-logs
+    anchor: operate-pinot-monitoring-managing-logs
+    virtual_path: docs/operate-pinot/monitoring/managing-logs.md
+  - title: Metrics and Monitoring
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/monitoring/metrics-and-monitoring
+    anchor: operate-pinot-monitoring-metrics-and-monitoring
+    virtual_path: docs/operate-pinot/monitoring/metrics-and-monitoring.md
+  - title: Monitor Pinot Using Prometheus and Grafana
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/monitoring/monitor-pinot-using-prometheus-and-grafana
+    anchor: operate-pinot-monitoring-monitor-pinot-using-prometheus-and-grafana
+    virtual_path: docs/operate-pinot/monitoring/monitor-pinot-using-prometheus-and-grafana.md
+  - title: Production Guides
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/production-guides
+    anchor: operate-pinot-production-guides
+    virtual_path: docs/operate-pinot/production-guides.md
+  - title: Run MSE in Production
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/production-guides/run-multi-stage-engine-in-production
+    anchor: operate-pinot-production-guides-run-multi-stage-engine-in-production
+    virtual_path: docs/operate-pinot/production-guides/run-multi-stage-engine-in-production.md
+  - title: Running Pinot in Production
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/production-guides/running-pinot-in-production
+    anchor: operate-pinot-production-guides-running-pinot-in-production
+    virtual_path: docs/operate-pinot/production-guides/running-pinot-in-production.md
+  - title: Security
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/security
+    anchor: operate-pinot-security
+    virtual_path: docs/operate-pinot/security.md
+  - title: Access Control
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/security/access-control
+    anchor: operate-pinot-security-access-control
+    virtual_path: docs/operate-pinot/security/access-control.md
+  - title: Audit Logging
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/security/audit-logging
+    anchor: operate-pinot-security-audit-logging
+    virtual_path: docs/operate-pinot/security/audit-logging.md
+  - title: Authentication
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/security/authentication
+    anchor: operate-pinot-security-authentication
+    virtual_path: docs/operate-pinot/security/authentication.md
+  - title: Basic Auth Access Control
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/security/authentication/basic-auth-access-control
+    anchor: operate-pinot-security-authentication-basic-auth-access-control
+    virtual_path: docs/operate-pinot/security/authentication/basic-auth-access-control.md
+  - title: ZkBasicAuthAccessControl
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/security/authentication/zkbasicauthaccesscontrol
+    anchor: operate-pinot-security-authentication-zkbasicauthaccesscontrol
+    virtual_path: docs/operate-pinot/security/authentication/zkbasicauthaccesscontrol.md
+  - title: Configuring TLS/SSL
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/security/configuring-tls-ssl
+    anchor: operate-pinot-security-configuring-tls-ssl
+    virtual_path: docs/operate-pinot/security/configuring-tls-ssl.md
+  - title: Security Hardening Guide
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/security/security-hardening
+    anchor: operate-pinot-security-security-hardening
+    virtual_path: docs/operate-pinot/security/security-hardening.md
+  - title: Segment Management
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management
+    anchor: operate-pinot-segment-management
+    virtual_path: docs/operate-pinot/segment-management.md
+  - title: Consistent Push and Rollback
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/consistent-push-and-rollback
+    anchor: operate-pinot-segment-management-consistent-push-and-rollback
+    virtual_path: docs/operate-pinot/segment-management/consistent-push-and-rollback.md
+  - title: Instance Assignment
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/instance-assignment
+    anchor: operate-pinot-segment-management-instance-assignment
+    virtual_path: docs/operate-pinot/segment-management/instance-assignment.md
+  - title: Minion Merge Rollup Task
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/minion-merge-rollup-task
+    anchor: operate-pinot-segment-management-minion-merge-rollup-task
+    virtual_path: docs/operate-pinot/segment-management/minion-merge-rollup-task.md
+  - title: Pinot Managed Offline Flows
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/pinot-managed-offline-flows
+    anchor: operate-pinot-segment-management-pinot-managed-offline-flows
+    virtual_path: docs/operate-pinot/segment-management/pinot-managed-offline-flows.md
+  - title: PurgeTask
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/purge-task
+    anchor: operate-pinot-segment-management-purge-task
+    virtual_path: docs/operate-pinot/segment-management/purge-task.md
+  - title: Rebalance
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/rebalance
+    anchor: operate-pinot-segment-management-rebalance
+    virtual_path: docs/operate-pinot/segment-management/rebalance.md
+  - title: Rebalance Brokers
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/rebalance/rebalance-brokers
+    anchor: operate-pinot-segment-management-rebalance-rebalance-brokers
+    virtual_path: docs/operate-pinot/segment-management/rebalance/rebalance-brokers.md
+  - title: Rebalance Servers
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/rebalance/rebalance-servers
+    anchor: operate-pinot-segment-management-rebalance-rebalance-servers
+    virtual_path: docs/operate-pinot/segment-management/rebalance/rebalance-servers.md
+  - title: Examples and Scenarios
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/rebalance/rebalance-servers/examples-and-scenarios
+    anchor: operate-pinot-segment-management-rebalance-rebalance-servers-examples-and-scenarios
+    virtual_path: docs/operate-pinot/segment-management/rebalance/rebalance-servers/examples-and-scenarios.md
+  - title: Rebalance Tenant
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/rebalance/rebalance-tenant
+    anchor: operate-pinot-segment-management-rebalance-rebalance-tenant
+    virtual_path: docs/operate-pinot/segment-management/rebalance/rebalance-tenant.md
+  - title: RefreshSegmentTask
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/refresh-segment-task
+    anchor: operate-pinot-segment-management-refresh-segment-task
+    virtual_path: docs/operate-pinot/segment-management/refresh-segment-task.md
+  - title: Segment Assignment
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/segment-assignment
+    anchor: operate-pinot-segment-management-segment-assignment
+    virtual_path: docs/operate-pinot/segment-management/segment-assignment.md
+  - title: SegmentGenerationAndPushTask
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/segment-generation-and-push-task
+    anchor: operate-pinot-segment-management-segment-generation-and-push-task
+    virtual_path: docs/operate-pinot/segment-management/segment-generation-and-push-task.md
+  - title: Segment Lifecycle and Repair
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/segment-lifecycle-and-repair
+    anchor: operate-pinot-segment-management-segment-lifecycle-and-repair
+    virtual_path: docs/operate-pinot/segment-management/segment-lifecycle-and-repair.md
+  - title: Reload a Table Segment
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/segment-reload
+    anchor: operate-pinot-segment-management-segment-reload
+    virtual_path: docs/operate-pinot/segment-management/segment-reload.md
+  - title: Separating Data Storage by Age
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/separating-data-storage-by-age
+    anchor: operate-pinot-segment-management-separating-data-storage-by-age
+    virtual_path: docs/operate-pinot/segment-management/separating-data-storage-by-age.md
+  - title: Using Multiple Tenants
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/separating-data-storage-by-age/moving-segments-across-tenants
+    anchor: operate-pinot-segment-management-separating-data-storage-by-age-moving-segments-across-tenants
+    virtual_path: docs/operate-pinot/segment-management/separating-data-storage-by-age/moving-segments-across-tenants.md
+  - title: Using Multiple Directories
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/separating-data-storage-by-age/using-multiple-directories
+    anchor: operate-pinot-segment-management-separating-data-storage-by-age-using-multiple-directories
+    virtual_path: docs/operate-pinot/segment-management/separating-data-storage-by-age/using-multiple-directories.md
+  - title: Upsert Compact Merge Task
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/upsert-compact-merge-task
+    anchor: operate-pinot-segment-management-upsert-compact-merge-task
+    virtual_path: docs/operate-pinot/segment-management/upsert-compact-merge-task.md
+  - title: Upsert Compaction Task
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/upsert-compaction-task
+    anchor: operate-pinot-segment-management-upsert-compaction-task
+    virtual_path: docs/operate-pinot/segment-management/upsert-compaction-task.md
+  - title: Upsert Merge Compact Task
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/segment-management/upsert-merge-compact-task
+    anchor: operate-pinot-segment-management-upsert-merge-compact-task
+    virtual_path: docs/operate-pinot/segment-management/upsert-merge-compact-task.md
+  - title: Troubleshooting
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/troubleshooting
+    anchor: operate-pinot-troubleshooting
+    virtual_path: docs/operate-pinot/troubleshooting.md
+  - title: Ingestion FAQ
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/troubleshooting/ingestion-faq
+    anchor: operate-pinot-troubleshooting-ingestion-faq
+    virtual_path: docs/operate-pinot/troubleshooting/ingestion-faq.md
+  - title: Realtime Ingestion Stopped
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/troubleshooting/ingestion-faq/realtime-ingestion-stopped
+    anchor: operate-pinot-troubleshooting-ingestion-faq-realtime-ingestion-stopped
+    virtual_path: docs/operate-pinot/troubleshooting/ingestion-faq/realtime-ingestion-stopped.md
+  - title: Operations FAQ
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/troubleshooting/operations-faq
+    anchor: operate-pinot-troubleshooting-operations-faq
+    virtual_path: docs/operate-pinot/troubleshooting/operations-faq.md
+  - title: Pinot on Kubernetes FAQ
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/troubleshooting/pinot-on-kubernetes-faq
+    anchor: operate-pinot-troubleshooting-pinot-on-kubernetes-faq
+    virtual_path: docs/operate-pinot/troubleshooting/pinot-on-kubernetes-faq.md
+  - title: Query FAQ
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/troubleshooting/query-faq
+    anchor: operate-pinot-troubleshooting-query-faq
+    virtual_path: docs/operate-pinot/troubleshooting/query-faq.md
+  - title: Troubleshoot Multi-Stage Engine (MSE)
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/troubleshooting/query-faq/troubleshoot-multi-stage-query-engine
+    anchor: operate-pinot-troubleshooting-query-faq-troubleshoot-multi-stage-query-engine
+    virtual_path: docs/operate-pinot/troubleshooting/query-faq/troubleshoot-multi-stage-query-engine.md
+  - title: Troubleshoot ZooKeeper Znodes
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/troubleshooting/troubleshoot-zookeeper
+    anchor: operate-pinot-troubleshooting-troubleshoot-zookeeper
+    virtual_path: docs/operate-pinot/troubleshooting/troubleshoot-zookeeper.md
+  - title: Debugging Pinot
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/troubleshooting/troubleshooting-pinot
+    anchor: operate-pinot-troubleshooting-troubleshooting-pinot
+    virtual_path: docs/operate-pinot/troubleshooting/troubleshooting-pinot.md
+  - title: General FAQ
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/troubleshooting/troubleshooting-pinot/general-faq
+    anchor: operate-pinot-troubleshooting-troubleshooting-pinot-general-faq
+    virtual_path: docs/operate-pinot/troubleshooting/troubleshooting-pinot/general-faq.md
+  - title: Performance Tuning
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning
+    anchor: operate-pinot-tuning
+    virtual_path: docs/operate-pinot/tuning.md
+  - title: OOM Protection Using Automatic Query Killing
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning/oom-protection-using-automatic-query-killing
+    anchor: operate-pinot-tuning-oom-protection-using-automatic-query-killing
+    virtual_path: docs/operate-pinot/tuning/oom-protection-using-automatic-query-killing.md
+  - title: Pause Ingestion Based on Resource Utilization
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning/pause-ingestion-based-on-resource-utilization
+    anchor: operate-pinot-tuning-pause-ingestion-based-on-resource-utilization
+    virtual_path: docs/operate-pinot/tuning/pause-ingestion-based-on-resource-utilization.md
+  - title: Pauseless Consumption
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning/pauseless-consumption
+    anchor: operate-pinot-tuning-pauseless-consumption
+    virtual_path: docs/operate-pinot/tuning/pauseless-consumption.md
+  - title: Performance Optimization Configurations
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning/performance-optimization-configurations
+    anchor: operate-pinot-tuning-performance-optimization-configurations
+    virtual_path: docs/operate-pinot/tuning/performance-optimization-configurations.md
+  - title: Query Routing Using Adaptive Server Selection
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning/query-routing-using-adaptive-server-selection
+    anchor: operate-pinot-tuning-query-routing-using-adaptive-server-selection
+    virtual_path: docs/operate-pinot/tuning/query-routing-using-adaptive-server-selection.md
+  - title: Query Scheduling
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning/query-scheduling
+    anchor: operate-pinot-tuning-query-scheduling
+    virtual_path: docs/operate-pinot/tuning/query-scheduling.md
+  - title: Real-Time
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning/realtime
+    anchor: operate-pinot-tuning-realtime
+    virtual_path: docs/operate-pinot/tuning/realtime.md
+  - title: Routing
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning/routing
+    anchor: operate-pinot-tuning-routing
+    virtual_path: docs/operate-pinot/tuning/routing.md
+  - title: Segment Operations Throttling
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning/segment-operations-throttling
+    anchor: operate-pinot-tuning-segment-operations-throttling
+    virtual_path: docs/operate-pinot/tuning/segment-operations-throttling.md
+  - title: Segment Pruning
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning/segment-pruning
+    anchor: operate-pinot-tuning-segment-pruning
+    virtual_path: docs/operate-pinot/tuning/segment-pruning.md
+  - title: Workload-Based Query Resource Isolation
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/tuning/workload-query-isolation
+    anchor: operate-pinot-tuning-workload-query-isolation
+    virtual_path: docs/operate-pinot/tuning/workload-query-isolation.md
+  - title: Upgrades
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/upgrades
+    anchor: operate-pinot-upgrades
+    virtual_path: docs/operate-pinot/upgrades.md
+  - title: Upgrade Notes
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/upgrades/upgrade-notes
+    anchor: operate-pinot-upgrades-upgrade-notes
+    virtual_path: docs/operate-pinot/upgrades/upgrade-notes.md
+  - title: Upgrading Pinot
+    kind: link
+    source_url: https://docs.pinot.apache.org/operate-pinot/upgrades/upgrading-pinot-cluster
+    anchor: operate-pinot-upgrades-upgrading-pinot-cluster
+    virtual_path: docs/operate-pinot/upgrades/upgrading-pinot-cluster.md
+  - title: API reference
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/api-reference
+    anchor: reference-api-reference
+    virtual_path: docs/reference/api-reference.md
+  - title: Broker gRPC API
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/api-reference/broker-grpc-api
+    anchor: reference-api-reference-broker-grpc-api
+    virtual_path: docs/reference/api-reference/broker-grpc-api.md
+  - title: Controller Admin API
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/api-reference/controller-admin-api
+    anchor: reference-api-reference-controller-admin-api
+    virtual_path: docs/reference/api-reference/controller-admin-api.md
+  - title: Controller API Examples
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/api-reference/controller-api
+    anchor: reference-api-reference-controller-api
+    virtual_path: docs/reference/api-reference/controller-api.md
+  - title: Broker Query API
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/api-reference/query-api
+    anchor: reference-api-reference-query-api
+    virtual_path: docs/reference/api-reference/query-api.md
+  - title: Query Response Format
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/api-reference/query-response-format
+    anchor: reference-api-reference-query-response-format
+    virtual_path: docs/reference/api-reference/query-response-format.md
+  - title: Configuration reference
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference
+    anchor: reference-configuration-reference
+    virtual_path: docs/reference/configuration-reference.md
+  - title: Broker
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/broker
+    anchor: reference-configuration-reference-broker
+    virtual_path: docs/reference/configuration-reference/broker.md
+  - title: Cluster Configuration
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/cluster
+    anchor: reference-configuration-reference-cluster
+    virtual_path: docs/reference/configuration-reference/cluster.md
+  - title: Controller
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/controller
+    anchor: reference-configuration-reference-controller
+    virtual_path: docs/reference/configuration-reference/controller.md
+  - title: Database
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/database
+    anchor: reference-configuration-reference-database
+    virtual_path: docs/reference/configuration-reference/database.md
+  - title: Dynamic Environment
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/dynamic-environment
+    anchor: reference-configuration-reference-dynamic-environment
+    virtual_path: docs/reference/configuration-reference/dynamic-environment.md
+  - title: Ingestion Configuration
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/ingestion
+    anchor: reference-configuration-reference-ingestion
+    virtual_path: docs/reference/configuration-reference/ingestion.md
+  - title: Ingestion Job Specification
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/job-specification
+    anchor: reference-configuration-reference-job-specification
+    virtual_path: docs/reference/configuration-reference/job-specification.md
+  - title: Monitoring Metrics
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/monitoring-metrics
+    anchor: reference-configuration-reference-monitoring-metrics
+    virtual_path: docs/reference/configuration-reference/monitoring-metrics.md
+  - title: Plugin Configuration Reference
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/plugin-reference
+    anchor: reference-configuration-reference-plugin-reference
+    virtual_path: docs/reference/configuration-reference/plugin-reference.md
+  - title: Schema Configuration
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/schema
+    anchor: reference-configuration-reference-schema
+    virtual_path: docs/reference/configuration-reference/schema.md
+  - title: Server
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/server
+    anchor: reference-configuration-reference-server
+    virtual_path: docs/reference/configuration-reference/server.md
+  - title: Table Configuration
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/table
+    anchor: reference-configuration-reference-table
+    virtual_path: docs/reference/configuration-reference/table.md
+  - title: Zookeeper
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/configuration-reference/zookeeper
+    anchor: reference-configuration-reference-zookeeper
+    virtual_path: docs/reference/configuration-reference/zookeeper.md
+  - title: Plugin reference
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/plugin-reference
+    anchor: reference-plugin-reference
+    virtual_path: docs/reference/plugin-reference.md
+  - title: Environment Provider
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/plugin-reference/environment-provider
+    anchor: reference-plugin-reference-environment-provider
+    virtual_path: docs/reference/plugin-reference/environment-provider.md
+  - title: Metrics Plugins
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/plugin-reference/metrics-plugins
+    anchor: reference-plugin-reference-metrics-plugins
+    virtual_path: docs/reference/plugin-reference/metrics-plugins.md
+  - title: Stream Connector Version Matrix
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/plugin-reference/stream-connector-matrix
+    anchor: reference-plugin-reference-stream-connector-matrix
+    virtual_path: docs/reference/plugin-reference/stream-connector-matrix.md
+  - title: Stream Ingestion Connectors
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/plugin-reference/stream-ingestion-connectors
+    anchor: reference-plugin-reference-stream-ingestion-connectors
+    virtual_path: docs/reference/plugin-reference/stream-ingestion-connectors.md
+  - title: Overview
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/reference
+    anchor: reference-reference
+    virtual_path: docs/reference/reference.md
+  - title: Release notes
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/release-notes
+    anchor: reference-release-notes
+    virtual_path: docs/reference/release-notes.md
+  - title: All Releases
+    kind: link
+    source_url: https://docs.pinot.apache.org/reference/release-notes/releases
+    anchor: reference-release-notes-releases
+    virtual_path: docs/reference/release-notes/releases.md
+  - title: Presentations
+    kind: link
+    source_url: https://docs.pinot.apache.org/resources/blogs-and-presentations
+    anchor: resources-blogs-and-presentations
+    virtual_path: docs/resources/blogs-and-presentations.md
+  - title: Blogs
+    kind: link
+    source_url: https://docs.pinot.apache.org/resources/blogs
+    anchor: resources-blogs
+    virtual_path: docs/resources/blogs.md
+  - title: Community
+    kind: link
+    source_url: https://docs.pinot.apache.org/resources/community
+    anchor: resources-community
+    virtual_path: docs/resources/community.md
+  - title: Team
+    kind: link
+    source_url: https://docs.pinot.apache.org/resources/team
+    anchor: resources-team
+    virtual_path: docs/resources/team.md
+  - title: Videos
+    kind: link
+    source_url: https://docs.pinot.apache.org/resources/videos
+    anchor: resources-videos
+    virtual_path: docs/resources/videos.md
+  - title: First Batch Ingest
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/first-batch-ingest
+    anchor: start-here-first-batch-ingest
+    virtual_path: docs/start-here/first-batch-ingest.md
+  - title: First Query
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/first-query
+    anchor: start-here-first-query
+    virtual_path: docs/start-here/first-query.md
+  - title: First Stream Ingest
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/first-stream-ingest
+    anchor: start-here-first-stream-ingest
+    virtual_path: docs/start-here/first-stream-ingest.md
+  - title: First Table + Schema
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/first-table-and-schema
+    anchor: start-here-first-table-and-schema
+    virtual_path: docs/start-here/first-table-and-schema.md
+  - title: Install / Deploy
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/install
+    anchor: start-here-install
+    virtual_path: docs/start-here/install.md
+  - title: Docker
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/install/docker
+    anchor: start-here-install-docker
+    virtual_path: docs/start-here/install/docker.md
+  - title: Kubernetes
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/install/kubernetes
+    anchor: start-here-install-kubernetes
+    virtual_path: docs/start-here/install/kubernetes.md
+  - title: Local
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/install/local
+    anchor: start-here-install-local
+    virtual_path: docs/start-here/install/local.md
+  - title: Managed Kubernetes
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/install/managed-kubernetes
+    anchor: start-here-install-managed-kubernetes
+    virtual_path: docs/start-here/install/managed-kubernetes.md
+  - title: AWS
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/install/managed-kubernetes/aws
+    anchor: start-here-install-managed-kubernetes-aws
+    virtual_path: docs/start-here/install/managed-kubernetes/aws.md
+  - title: Azure
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/install/managed-kubernetes/azure
+    anchor: start-here-install-managed-kubernetes-azure
+    virtual_path: docs/start-here/install/managed-kubernetes/azure.md
+  - title: GCP
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/install/managed-kubernetes/gcp
+    anchor: start-here-install-managed-kubernetes-gcp
+    virtual_path: docs/start-here/install/managed-kubernetes/gcp.md
+  - title: Stream Ingestion on Kubernetes
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/install/stream-ingestion
+    anchor: start-here-install-stream-ingestion
+    virtual_path: docs/start-here/install/stream-ingestion.md
+  - title: Quick Start Examples
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/quick-start
+    anchor: start-here-quick-start
+    virtual_path: docs/start-here/quick-start.md
+  - title: 10-Minute Quickstart
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/ten-minute-quickstart
+    anchor: start-here-ten-minute-quickstart
+    virtual_path: docs/start-here/ten-minute-quickstart.md
+  - title: What is Pinot?
+    kind: link
+    source_url: https://docs.pinot.apache.org/start-here/what-is-pinot
+    anchor: start-here-what-is-pinot
+    virtual_path: docs/start-here/what-is-pinot.md
+  - title: Data Ingestion
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/data-ingestion
+    anchor: tutorials-data-ingestion
+    virtual_path: docs/tutorials/data-ingestion.md
+  - title: Batch Data Ingestion in Practice
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/data-ingestion/batch-data-ingestion-in-practice
+    anchor: tutorials-data-ingestion-batch-data-ingestion-in-practice
+    virtual_path: docs/tutorials/data-ingestion/batch-data-ingestion-in-practice.md
+  - title: Creating Pinot Segments
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/data-ingestion/create-pinot-segments
+    anchor: tutorials-data-ingestion-create-pinot-segments
+    virtual_path: docs/tutorials/data-ingestion/create-pinot-segments.md
+  - title: Ingest Parquet Files from S3 Using Spark
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/data-ingestion/ingest-parquet-files-from-s3-using-spark
+    anchor: tutorials-data-ingestion-ingest-parquet-files-from-s3-using-spark
+    virtual_path: docs/tutorials/data-ingestion/ingest-parquet-files-from-s3-using-spark.md
+  - title: Schema Evolution
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/data-ingestion/schema-evolution
+    anchor: tutorials-data-ingestion-schema-evolution
+    virtual_path: docs/tutorials/data-ingestion/schema-evolution.md
+  - title: Deep Storage
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/deep-storage
+    anchor: tutorials-deep-storage
+    virtual_path: docs/tutorials/deep-storage.md
+  - title: Use OSS as Deep Storage for Pinot
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/deep-storage/use-oss-as-deep-storage-for-pinot
+    anchor: tutorials-deep-storage-use-oss-as-deep-storage-for-pinot
+    virtual_path: docs/tutorials/deep-storage/use-oss-as-deep-storage-for-pinot.md
+  - title: Use S3 and Pinot in Docker
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/deep-storage/use-s3-and-pinot-in-docker
+    anchor: tutorials-deep-storage-use-s3-and-pinot-in-docker
+    virtual_path: docs/tutorials/deep-storage/use-s3-and-pinot-in-docker.md
+  - title: Use S3 as Deep Storage for Pinot
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/deep-storage/use-s3-as-deep-store-for-pinot
+    anchor: tutorials-deep-storage-use-s3-as-deep-store-for-pinot
+    virtual_path: docs/tutorials/deep-storage/use-s3-as-deep-store-for-pinot.md
+  - title: Getting Started Recipes
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/getting-started
+    anchor: tutorials-getting-started
+    virtual_path: docs/tutorials/getting-started.md
+  - title: Connect to Dash
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/getting-started/dash
+    anchor: tutorials-getting-started-dash
+    virtual_path: docs/tutorials/getting-started/dash.md
+  - title: GitHub Events Stream
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/getting-started/github-events-stream
+    anchor: tutorials-getting-started-github-events-stream
+    virtual_path: docs/tutorials/getting-started/github-events-stream.md
+  - title: Visualize Data with Redash
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/getting-started/redash
+    anchor: tutorials-getting-started-redash
+    virtual_path: docs/tutorials/getting-started/redash.md
+  - title: Connect to Streamlit
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/getting-started/streamlit
+    anchor: tutorials-getting-started-streamlit
+    virtual_path: docs/tutorials/getting-started/streamlit.md
+  - title: Overview
+    kind: link
+    source_url: https://docs.pinot.apache.org/tutorials/tutorials
+    anchor: tutorials-tutorials
+    virtual_path: docs/tutorials/tutorials.md
+  - title: CDC / Upsert Pipeline
+    kind: link
+    source_url: https://docs.pinot.apache.org/workload-playbooks/cdc-upsert-pipeline
+    anchor: workload-playbooks-cdc-upsert-pipeline
+    virtual_path: docs/workload-playbooks/cdc-upsert-pipeline.md
+  - title: Hybrid Real-Time + Offline
+    kind: link
+    source_url: https://docs.pinot.apache.org/workload-playbooks/hybrid-offline-realtime
+    anchor: workload-playbooks-hybrid-offline-realtime
+    virtual_path: docs/workload-playbooks/hybrid-offline-realtime.md
+  - title: Multi-Tenant Analytics
+    kind: link
+    source_url: https://docs.pinot.apache.org/workload-playbooks/multi-tenant-analytics
+    anchor: workload-playbooks-multi-tenant-analytics
+    virtual_path: docs/workload-playbooks/multi-tenant-analytics.md
+  - title: Overview
+    kind: link
+    source_url: https://docs.pinot.apache.org/workload-playbooks/playbooks
+    anchor: workload-playbooks-playbooks
+    virtual_path: docs/workload-playbooks/playbooks.md
+  - title: Real-Time Product Analytics
+    kind: link
+    source_url: https://docs.pinot.apache.org/workload-playbooks/real-time-product-analytics
+    anchor: workload-playbooks-real-time-product-analytics
+    virtual_path: docs/workload-playbooks/real-time-product-analytics.md
+  - title: Text Search Analytics
+    kind: link
+    source_url: https://docs.pinot.apache.org/workload-playbooks/text-search-analytics
+    anchor: workload-playbooks-text-search-analytics
+    virtual_path: docs/workload-playbooks/text-search-analytics.md

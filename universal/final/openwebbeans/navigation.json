@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Home",
+    "kind": "link",
+    "source_url": "https://openwebbeans.apache.org/index.html",
+    "anchor": "index",
+    "virtual_path": "docs/index.md"
+  },
+  {
+    "title": "Documentation",
+    "kind": "link",
+    "source_url": "https://openwebbeans.apache.org/documentation.html",
+    "anchor": "documentation",
+    "virtual_path": "docs/documentation.md"
+  },
+  {
+    "title": "Source",
+    "kind": "link",
+    "source_url": "https://openwebbeans.apache.org/source.html",
+    "anchor": "source",
+    "virtual_path": "docs/source.md"
+  },
+  {
+    "title": "Download",
+    "kind": "link",
+    "source_url": "https://openwebbeans.apache.org/download.html",
+    "anchor": "download",
+    "virtual_path": "docs/download.md"
+  },
+  {
+    "title": "Community",
+    "kind": "link",
+    "source_url": "https://openwebbeans.apache.org/community.html",
+    "anchor": "community",
+    "virtual_path": "docs/community.md"
+  },
+  {
+    "title": "Misc",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Contact",
+        "kind": "link",
+        "source_url": "https://openwebbeans.apache.org/misc/contact.html",
+        "anchor": "misc-contact",
+        "virtual_path": "docs/misc/contact.md"
+      },
+      {
+        "title": "Legal",
+        "kind": "link",
+        "source_url": "https://openwebbeans.apache.org/misc/legal.html",
+        "anchor": "misc-legal",
+        "virtual_path": "docs/misc/legal.md"
+      }
+    ]
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "OpenWebBeans FAQ ¶",
+        "kind": "link",
+        "source_url": "https://openwebbeans.apache.org/faq.html",
+        "anchor": "faq",
+        "virtual_path": "docs/faq.md"
+      },
+      {
+        "title": "OpenWebBeans Configuration ¶",
+        "kind": "link",
+        "source_url": "https://openwebbeans.apache.org/owbconfig.html",
+        "anchor": "owbconfig",
+        "virtual_path": "docs/owbconfig.md"
+      }
+    ]
+  }
+]

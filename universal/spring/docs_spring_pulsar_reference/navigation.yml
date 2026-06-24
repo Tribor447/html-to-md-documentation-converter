@@ -1,0 +1,147 @@
+- title: Overview
+  kind: category
+  source_url: https://docs.spring.io/spring-pulsar/reference/index.html
+  anchor: index
+  virtual_path: docs/index.md
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://docs.spring.io/spring-pulsar/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: What’s new?
+    kind: link
+    source_url: https://docs.spring.io/spring-pulsar/reference/whats-new.html
+    anchor: whats-new
+    virtual_path: docs/whats-new.md
+  - title: Introduction
+    kind: category
+    source_url: https://docs.spring.io/spring-pulsar/reference/intro.html
+    anchor: intro
+    virtual_path: docs/intro.md
+    children:
+    - title: System Requirements
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/intro/system-requirements.html
+      anchor: intro-system-requirements
+      virtual_path: docs/intro/system-requirements.md
+    - title: Building the Project
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/intro/building.html
+      anchor: intro-building
+      virtual_path: docs/intro/building.md
+    - title: Getting Help
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/intro/getting-help.html
+      anchor: intro-getting-help
+      virtual_path: docs/intro/getting-help.md
+  - title: Reference
+    kind: category
+    source_url: https://docs.spring.io/spring-pulsar/reference/reference/reference.html
+    anchor: reference-reference
+    virtual_path: docs/reference/reference.md
+    children:
+    - title: Using Spring for Apache Pulsar
+      kind: category
+      source_url: https://docs.spring.io/spring-pulsar/reference/reference/pulsar.html
+      anchor: reference-pulsar
+      virtual_path: docs/reference/pulsar.md
+      children:
+      - title: Quick Tour
+        kind: link
+        source_url: https://docs.spring.io/spring-pulsar/reference/reference/pulsar/quick-tour.html
+        anchor: reference-pulsar-quick-tour
+        virtual_path: docs/reference/pulsar/quick-tour.md
+      - title: Pulsar Client
+        kind: link
+        source_url: https://docs.spring.io/spring-pulsar/reference/reference/pulsar/pulsar-client.html
+        anchor: reference-pulsar-pulsar-client
+        virtual_path: docs/reference/pulsar/pulsar-client.md
+      - title: Message Production
+        kind: link
+        source_url: https://docs.spring.io/spring-pulsar/reference/reference/pulsar/message-production.html
+        anchor: reference-pulsar-message-production
+        virtual_path: docs/reference/pulsar/message-production.md
+      - title: Message Consumption
+        kind: link
+        source_url: https://docs.spring.io/spring-pulsar/reference/reference/pulsar/message-consumption.html
+        anchor: reference-pulsar-message-consumption
+        virtual_path: docs/reference/pulsar/message-consumption.md
+      - title: Publishing and Consuming Partitioned Topics
+        kind: link
+        source_url: https://docs.spring.io/spring-pulsar/reference/reference/pulsar/publishing-consuming-partitioned-topics.html
+        anchor: reference-pulsar-publishing-consuming-partitioned-topics
+        virtual_path: docs/reference/pulsar/publishing-consuming-partitioned-topics.md
+      - title: Transactions
+        kind: link
+        source_url: https://docs.spring.io/spring-pulsar/reference/reference/pulsar/transactions.html
+        anchor: reference-pulsar-transactions
+        virtual_path: docs/reference/pulsar/transactions.md
+      - title: Null Payloads and Log Compaction of 'Tombstone' Records
+        kind: link
+        source_url: https://docs.spring.io/spring-pulsar/reference/reference/tombstones.html
+        anchor: reference-tombstones
+        virtual_path: docs/reference/tombstones.md
+    - title: Topic Resolution
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/reference/topic-resolution.html
+      anchor: reference-topic-resolution
+      virtual_path: docs/reference/topic-resolution.md
+    - title: Default Tenant / Namespace
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/reference/default-tenant-namespace.html
+      anchor: reference-default-tenant-namespace
+      virtual_path: docs/reference/default-tenant-namespace.md
+    - title: Custom Object Mapper
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/reference/custom-object-mapper.html
+      anchor: reference-custom-object-mapper
+      virtual_path: docs/reference/custom-object-mapper.md
+    - title: Pulsar Administration
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/reference/pulsar-admin.html
+      anchor: reference-pulsar-admin
+      virtual_path: docs/reference/pulsar-admin.md
+    - title: Pulsar Functions
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/reference/pulsar-function.html
+      anchor: reference-pulsar-function
+      virtual_path: docs/reference/pulsar-function.md
+    - title: Observability
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/reference/observability.html
+      anchor: reference-observability
+      virtual_path: docs/reference/observability.md
+  - title: Other Resources
+    kind: link
+    source_url: https://docs.spring.io/spring-pulsar/reference/other-resources.html
+    anchor: other-resources
+    virtual_path: docs/other-resources.md
+  - title: Appendices
+    kind: category
+    children:
+    - title: Pulsar Clients and Spring Boot Compatibility
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/appendix/version-compatibility.html
+      anchor: appendix-version-compatibility
+      virtual_path: docs/appendix/version-compatibility.md
+    - title: Override Spring Boot Dependencies
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/appendix/override-boot-dependencies.html
+      anchor: appendix-override-boot-dependencies
+      virtual_path: docs/appendix/override-boot-dependencies.md
+    - title: Getting Dependencies without Spring Boot
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/appendix/getting-dependencies-without-boot.html
+      anchor: appendix-getting-dependencies-without-boot
+      virtual_path: docs/appendix/getting-dependencies-without-boot.md
+    - title: Non-GA Versions
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/appendix/non-ga-versions.html
+      anchor: appendix-non-ga-versions
+      virtual_path: docs/appendix/non-ga-versions.md
+    - title: GraalVM Native Image Support
+      kind: link
+      source_url: https://docs.spring.io/spring-pulsar/reference/appendix/native-image.html
+      anchor: appendix-native-image
+      virtual_path: docs/appendix/native-image.md

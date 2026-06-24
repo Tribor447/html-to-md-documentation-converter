@@ -1,0 +1,4178 @@
+{
+  "entry_url": "https://docs.spring.io/spring-framework/reference/index.html",
+  "site_prefix": "/spring-framework/reference/",
+  "site_slug": "docs_spring_framework_reference",
+  "profile": "antora",
+  "combined_markdown": "combined.md",
+  "page_count": 463,
+  "asset_count": 14,
+  "pages": [
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/appendix.html",
+      "title": "Appendix",
+      "anchor": "appendix",
+      "virtual_path": "docs/appendix.md",
+      "profile": "antora",
+      "score": 11478,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core.html",
+      "title": "Core Technologies",
+      "anchor": "core",
+      "virtual_path": "docs/core.md",
+      "profile": "antora",
+      "score": 3141,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop-api.html",
+      "title": "Spring AOP APIs",
+      "anchor": "core-aop-api",
+      "virtual_path": "docs/core/aop-api.md",
+      "profile": "antora",
+      "score": 2611,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop-api/advice.html",
+      "title": "Advice API in Spring",
+      "anchor": "core-aop-api-advice",
+      "virtual_path": "docs/core/aop-api/advice.md",
+      "profile": "antora",
+      "score": 28905,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop-api/advised.html",
+      "title": "Manipulating Advised Objects",
+      "anchor": "core-aop-api-advised",
+      "virtual_path": "docs/core/aop-api/advised.md",
+      "profile": "antora",
+      "score": 8428,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop-api/advisor.html",
+      "title": "The Advisor API in Spring",
+      "anchor": "core-aop-api-advisor",
+      "virtual_path": "docs/core/aop-api/advisor.md",
+      "profile": "antora",
+      "score": 2803,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop-api/autoproxy.html",
+      "title": "Using the \"auto-proxy\" facility",
+      "anchor": "core-aop-api-autoproxy",
+      "virtual_path": "docs/core/aop-api/autoproxy.md",
+      "profile": "antora",
+      "score": 10401,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop-api/concise-proxy.html",
+      "title": "Concise Proxy Definitions",
+      "anchor": "core-aop-api-concise-proxy",
+      "virtual_path": "docs/core/aop-api/concise-proxy.md",
+      "profile": "antora",
+      "score": 5305,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop-api/extensibility.html",
+      "title": "Defining New Advice Types",
+      "anchor": "core-aop-api-extensibility",
+      "virtual_path": "docs/core/aop-api/extensibility.md",
+      "profile": "antora",
+      "score": 2752,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop-api/pfb.html",
+      "title": "Using the ProxyFactoryBean to Create AOP Proxies",
+      "anchor": "core-aop-api-pfb",
+      "virtual_path": "docs/core/aop-api/pfb.md",
+      "profile": "antora",
+      "score": 22978,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop-api/pointcuts.html",
+      "title": "Pointcut API in Spring",
+      "anchor": "core-aop-api-pointcuts",
+      "virtual_path": "docs/core/aop-api/pointcuts.md",
+      "profile": "antora",
+      "score": 19082,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop-api/prog.html",
+      "title": "Creating AOP Proxies Programmatically with the ProxyFactory",
+      "anchor": "core-aop-api-prog",
+      "virtual_path": "docs/core/aop-api/prog.md",
+      "profile": "antora",
+      "score": 4683,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop-api/targetsource.html",
+      "title": "Using TargetSource Implementations",
+      "anchor": "core-aop-api-targetsource",
+      "virtual_path": "docs/core/aop-api/targetsource.md",
+      "profile": "antora",
+      "score": 15445,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop.html",
+      "title": "Aspect Oriented Programming with Spring",
+      "anchor": "core-aop",
+      "virtual_path": "docs/core/aop.md",
+      "profile": "antora",
+      "score": 4182,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/aspectj-programmatic.html",
+      "title": "Programmatic Creation of @AspectJ Proxies",
+      "anchor": "core-aop-aspectj-programmatic",
+      "virtual_path": "docs/core/aop/aspectj-programmatic.md",
+      "profile": "antora",
+      "score": 4511,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/ataspectj.html",
+      "title": "@AspectJ support",
+      "anchor": "core-aop-ataspectj",
+      "virtual_path": "docs/core/aop/ataspectj.md",
+      "profile": "antora",
+      "score": 2988,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/advice.html",
+      "title": "Declaring Advice",
+      "anchor": "core-aop-ataspectj-advice",
+      "virtual_path": "docs/core/aop/ataspectj/advice.md",
+      "profile": "antora",
+      "score": 46964,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/aspectj-support.html",
+      "title": "Enabling @AspectJ Support",
+      "anchor": "core-aop-ataspectj-aspectj-support",
+      "virtual_path": "docs/core/aop/ataspectj/aspectj-support.md",
+      "profile": "antora",
+      "score": 4229,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/at-aspectj.html",
+      "title": "Declaring an Aspect",
+      "anchor": "core-aop-ataspectj-at-aspectj",
+      "virtual_path": "docs/core/aop/ataspectj/at-aspectj.md",
+      "profile": "antora",
+      "score": 5981,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/example.html",
+      "title": "An AOP Example",
+      "anchor": "core-aop-ataspectj-example",
+      "virtual_path": "docs/core/aop/ataspectj/example.md",
+      "profile": "antora",
+      "score": 10190,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/instantiation-models.html",
+      "title": "Aspect Instantiation Models",
+      "anchor": "core-aop-ataspectj-instantiation-models",
+      "virtual_path": "docs/core/aop/ataspectj/instantiation-models.md",
+      "profile": "antora",
+      "score": 4859,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/introductions.html",
+      "title": "Introductions",
+      "anchor": "core-aop-ataspectj-introductions",
+      "virtual_path": "docs/core/aop/ataspectj/introductions.md",
+      "profile": "antora",
+      "score": 5223,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/pointcuts.html",
+      "title": "Declaring a Pointcut",
+      "anchor": "core-aop-ataspectj-pointcuts",
+      "virtual_path": "docs/core/aop/ataspectj/pointcuts.md",
+      "profile": "antora",
+      "score": 33392,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/choosing.html",
+      "title": "Choosing which AOP Declaration Style to Use",
+      "anchor": "core-aop-choosing",
+      "virtual_path": "docs/core/aop/choosing.md",
+      "profile": "antora",
+      "score": 8612,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/introduction-defn.html",
+      "title": "AOP Concepts",
+      "anchor": "core-aop-introduction-defn",
+      "virtual_path": "docs/core/aop/introduction-defn.md",
+      "profile": "antora",
+      "score": 8196,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/introduction-proxies.html",
+      "title": "AOP Proxies",
+      "anchor": "core-aop-introduction-proxies",
+      "virtual_path": "docs/core/aop/introduction-proxies.md",
+      "profile": "antora",
+      "score": 3008,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/introduction-spring-defn.html",
+      "title": "Spring AOP Capabilities and Goals",
+      "anchor": "core-aop-introduction-spring-defn",
+      "virtual_path": "docs/core/aop/introduction-spring-defn.md",
+      "profile": "antora",
+      "score": 6248,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/mixing-styles.html",
+      "title": "Mixing Aspect Types",
+      "anchor": "core-aop-mixing-styles",
+      "virtual_path": "docs/core/aop/mixing-styles.md",
+      "profile": "antora",
+      "score": 2280,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/proxying.html",
+      "title": "Proxying Mechanisms",
+      "anchor": "core-aop-proxying",
+      "virtual_path": "docs/core/aop/proxying.md",
+      "profile": "antora",
+      "score": 16466,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/resources.html",
+      "title": "Further Resources",
+      "anchor": "core-aop-resources",
+      "virtual_path": "docs/core/aop/resources.md",
+      "profile": "antora",
+      "score": 2467,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/schema.html",
+      "title": "Schema-based AOP Support",
+      "anchor": "core-aop-schema",
+      "virtual_path": "docs/core/aop/schema.md",
+      "profile": "antora",
+      "score": 45141,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aop/using-aspectj.html",
+      "title": "Using AspectJ with Spring Applications",
+      "anchor": "core-aop-using-aspectj",
+      "virtual_path": "docs/core/aop/using-aspectj.md",
+      "profile": "antora",
+      "score": 54883,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/aot.html",
+      "title": "Ahead of Time Optimizations",
+      "anchor": "core-aot",
+      "virtual_path": "docs/core/aot.md",
+      "profile": "antora",
+      "score": 58291,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/appendix.html",
+      "title": "Appendix",
+      "anchor": "core-appendix",
+      "virtual_path": "docs/core/appendix.md",
+      "profile": "antora",
+      "score": 1742,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/appendix/application-startup-steps.html",
+      "title": "Application Startup Steps",
+      "anchor": "core-appendix-application-startup-steps",
+      "virtual_path": "docs/core/appendix/application-startup-steps.md",
+      "profile": "antora",
+      "score": 5905,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/appendix/xml-custom.html",
+      "title": "XML Schema Authoring",
+      "anchor": "core-appendix-xml-custom",
+      "virtual_path": "docs/core/appendix/xml-custom.md",
+      "profile": "antora",
+      "score": 45574,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/appendix/xsd-schemas.html",
+      "title": "XML Schemas",
+      "anchor": "core-appendix-xsd-schemas",
+      "virtual_path": "docs/core/appendix/xsd-schemas.md",
+      "profile": "antora",
+      "score": 37360,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans.html",
+      "title": "The IoC Container",
+      "anchor": "core-beans",
+      "virtual_path": "docs/core/beans.md",
+      "profile": "antora",
+      "score": 2325,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/annotation-config.html",
+      "title": "Annotation-based Container Configuration",
+      "anchor": "core-beans-annotation-config",
+      "virtual_path": "docs/core/beans/annotation-config.md",
+      "profile": "antora",
+      "score": 5774,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/autowired-primary.html",
+      "title": "Fine-tuning Annotation-based Autowiring with @Primary or @Fallback",
+      "anchor": "core-beans-annotation-config-autowired-primary",
+      "virtual_path": "docs/core/beans/annotation-config/autowired-primary.md",
+      "profile": "antora",
+      "score": 6878,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/autowired-qualifiers.html",
+      "title": "Fine-tuning Annotation-based Autowiring with Qualifiers",
+      "anchor": "core-beans-annotation-config-autowired-qualifiers",
+      "virtual_path": "docs/core/beans/annotation-config/autowired-qualifiers.md",
+      "profile": "antora",
+      "score": 24082,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/autowired.html",
+      "title": "Using @Autowired",
+      "anchor": "core-beans-annotation-config-autowired",
+      "virtual_path": "docs/core/beans/annotation-config/autowired.md",
+      "profile": "antora",
+      "score": 23107,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/custom-autowire-configurer.html",
+      "title": "Using CustomAutowireConfigurer",
+      "anchor": "core-beans-annotation-config-custom-autowire-configurer",
+      "virtual_path": "docs/core/beans/annotation-config/custom-autowire-configurer.md",
+      "profile": "antora",
+      "score": 3703,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/generics-as-qualifiers.html",
+      "title": "Using Generics as Autowiring Qualifiers",
+      "anchor": "core-beans-annotation-config-generics-as-qualifiers",
+      "virtual_path": "docs/core/beans/annotation-config/generics-as-qualifiers.md",
+      "profile": "antora",
+      "score": 5496,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/postconstruct-and-predestroy-annotations.html",
+      "title": "Using @PostConstruct and @PreDestroy",
+      "anchor": "core-beans-annotation-config-postconstruct-and-predestroy-annotations",
+      "virtual_path": "docs/core/beans/annotation-config/postconstruct-and-predestroy-annotations.md",
+      "profile": "antora",
+      "score": 4720,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/resource.html",
+      "title": "Injection with @Resource",
+      "anchor": "core-beans-annotation-config-resource",
+      "virtual_path": "docs/core/beans/annotation-config/resource.md",
+      "profile": "antora",
+      "score": 7426,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/value-annotations.html",
+      "title": "Using @Value",
+      "anchor": "core-beans-annotation-config-value-annotations",
+      "virtual_path": "docs/core/beans/annotation-config/value-annotations.md",
+      "profile": "antora",
+      "score": 11409,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/basics.html",
+      "title": "Container Overview",
+      "anchor": "core-beans-basics",
+      "virtual_path": "docs/core/beans/basics.md",
+      "profile": "antora",
+      "score": 21956,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/beanfactory.html",
+      "title": "The BeanFactory API",
+      "anchor": "core-beans-beanfactory",
+      "virtual_path": "docs/core/beans/beanfactory.md",
+      "profile": "antora",
+      "score": 11703,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/child-bean-definitions.html",
+      "title": "Bean Definition Inheritance",
+      "anchor": "core-beans-child-bean-definitions",
+      "virtual_path": "docs/core/beans/child-bean-definitions.md",
+      "profile": "antora",
+      "score": 6940,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/classpath-scanning.html",
+      "title": "Classpath Scanning and Managed Components",
+      "anchor": "core-beans-classpath-scanning",
+      "virtual_path": "docs/core/beans/classpath-scanning.md",
+      "profile": "antora",
+      "score": 51857,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/context-introduction.html",
+      "title": "Additional Capabilities of the ApplicationContext",
+      "anchor": "core-beans-context-introduction",
+      "virtual_path": "docs/core/beans/context-introduction.md",
+      "profile": "antora",
+      "score": 57850,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/context-load-time-weaver.html",
+      "title": "Registering a LoadTimeWeaver",
+      "anchor": "core-beans-context-load-time-weaver",
+      "virtual_path": "docs/core/beans/context-load-time-weaver.md",
+      "profile": "antora",
+      "score": 3960,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/definition.html",
+      "title": "Bean Overview",
+      "anchor": "core-beans-definition",
+      "virtual_path": "docs/core/beans/definition.md",
+      "profile": "antora",
+      "score": 30396,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/dependencies.html",
+      "title": "Dependencies",
+      "anchor": "core-beans-dependencies",
+      "virtual_path": "docs/core/beans/dependencies.md",
+      "profile": "antora",
+      "score": 2713,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-autowire.html",
+      "title": "Autowiring Collaborators",
+      "anchor": "core-beans-dependencies-factory-autowire",
+      "virtual_path": "docs/core/beans/dependencies/factory-autowire.md",
+      "profile": "antora",
+      "score": 12006,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html",
+      "title": "Dependency Injection",
+      "anchor": "core-beans-dependencies-factory-collaborators",
+      "virtual_path": "docs/core/beans/dependencies/factory-collaborators.md",
+      "profile": "antora",
+      "score": 31458,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-dependson.html",
+      "title": "Using depends-on",
+      "anchor": "core-beans-dependencies-factory-dependson",
+      "virtual_path": "docs/core/beans/dependencies/factory-dependson.md",
+      "profile": "antora",
+      "score": 4177,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-lazy-init.html",
+      "title": "Lazy-initialized Beans",
+      "anchor": "core-beans-dependencies-factory-lazy-init",
+      "virtual_path": "docs/core/beans/dependencies/factory-lazy-init.md",
+      "profile": "antora",
+      "score": 6180,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-method-injection.html",
+      "title": "Method Injection",
+      "anchor": "core-beans-dependencies-factory-method-injection",
+      "virtual_path": "docs/core/beans/dependencies/factory-method-injection.md",
+      "profile": "antora",
+      "score": 19074,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-properties-detailed.html",
+      "title": "Dependencies and Configuration in Detail",
+      "anchor": "core-beans-dependencies-factory-properties-detailed",
+      "virtual_path": "docs/core/beans/dependencies/factory-properties-detailed.md",
+      "profile": "antora",
+      "score": 34731,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/environment.html",
+      "title": "Environment Abstraction",
+      "anchor": "core-beans-environment",
+      "virtual_path": "docs/core/beans/environment.md",
+      "profile": "antora",
+      "score": 39185,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/factory-extension.html",
+      "title": "Container Extension Points",
+      "anchor": "core-beans-factory-extension",
+      "virtual_path": "docs/core/beans/factory-extension.md",
+      "profile": "antora",
+      "score": 35674,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/factory-nature.html",
+      "title": "Customizing the Nature of a Bean",
+      "anchor": "core-beans-factory-nature",
+      "virtual_path": "docs/core/beans/factory-nature.md",
+      "profile": "antora",
+      "score": 44187,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/factory-scopes.html",
+      "title": "Bean Scopes",
+      "anchor": "core-beans-factory-scopes",
+      "virtual_path": "docs/core/beans/factory-scopes.md",
+      "profile": "antora",
+      "score": 44685,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/introduction.html",
+      "title": "Introduction to the Spring IoC Container and Beans",
+      "anchor": "core-beans-introduction",
+      "virtual_path": "docs/core/beans/introduction.md",
+      "profile": "antora",
+      "score": 4774,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/java.html",
+      "title": "Java-based Container Configuration",
+      "anchor": "core-beans-java",
+      "virtual_path": "docs/core/beans/java.md",
+      "profile": "antora",
+      "score": 2280,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/java/basic-concepts.html",
+      "title": "Basic Concepts: @Bean and @Configuration",
+      "anchor": "core-beans-java-basic-concepts",
+      "virtual_path": "docs/core/beans/java/basic-concepts.md",
+      "profile": "antora",
+      "score": 6588,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/java/bean-annotation.html",
+      "title": "Using the @Bean Annotation",
+      "anchor": "core-beans-java-bean-annotation",
+      "virtual_path": "docs/core/beans/java/bean-annotation.md",
+      "profile": "antora",
+      "score": 25412,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/java/composing-configuration-classes.html",
+      "title": "Composing Java-based Configurations",
+      "anchor": "core-beans-java-composing-configuration-classes",
+      "virtual_path": "docs/core/beans/java/composing-configuration-classes.md",
+      "profile": "antora",
+      "score": 38641,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/java/configuration-annotation.html",
+      "title": "Using the @Configuration annotation",
+      "anchor": "core-beans-java-configuration-annotation",
+      "virtual_path": "docs/core/beans/java/configuration-annotation.md",
+      "profile": "antora",
+      "score": 12204,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/java/instantiating-container.html",
+      "title": "Instantiating the Spring Container by Using AnnotationConfigApplicationContext",
+      "anchor": "core-beans-java-instantiating-container",
+      "virtual_path": "docs/core/beans/java/instantiating-container.md",
+      "profile": "antora",
+      "score": 15147,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/java/programmatic-bean-registration.html",
+      "title": "Programmatic Bean Registration",
+      "anchor": "core-beans-java-programmatic-bean-registration",
+      "virtual_path": "docs/core/beans/java/programmatic-bean-registration.md",
+      "profile": "antora",
+      "score": 5755,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/beans/standard-annotations.html",
+      "title": "Using JSR-330 Standard Annotations",
+      "anchor": "core-beans-standard-annotations",
+      "virtual_path": "docs/core/beans/standard-annotations.md",
+      "profile": "antora",
+      "score": 18418,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/databuffer-codec.html",
+      "title": "Data Buffers and Codecs",
+      "anchor": "core-databuffer-codec",
+      "virtual_path": "docs/core/databuffer-codec.md",
+      "profile": "antora",
+      "score": 13847,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions.html",
+      "title": "Spring Expression Language (SpEL)",
+      "anchor": "core-expressions",
+      "virtual_path": "docs/core/expressions.md",
+      "profile": "antora",
+      "score": 6287,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/beandef.html",
+      "title": "Expressions in Bean Definitions",
+      "anchor": "core-expressions-beandef",
+      "virtual_path": "docs/core/expressions/beandef.md",
+      "profile": "antora",
+      "score": 10068,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/evaluation.html",
+      "title": "Evaluation",
+      "anchor": "core-expressions-evaluation",
+      "virtual_path": "docs/core/expressions/evaluation.md",
+      "profile": "antora",
+      "score": 31921,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/example-classes.html",
+      "title": "Classes Used in the Examples",
+      "anchor": "core-expressions-example-classes",
+      "virtual_path": "docs/core/expressions/example-classes.md",
+      "profile": "antora",
+      "score": 7835,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref.html",
+      "title": "Language Reference",
+      "anchor": "core-expressions-language-ref",
+      "virtual_path": "docs/core/expressions/language-ref.md",
+      "profile": "antora",
+      "score": 3159,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/array-construction.html",
+      "title": "Array Construction",
+      "anchor": "core-expressions-language-ref-array-construction",
+      "virtual_path": "docs/core/expressions/language-ref/array-construction.md",
+      "profile": "antora",
+      "score": 3976,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/bean-references.html",
+      "title": "Bean References",
+      "anchor": "core-expressions-language-ref-bean-references",
+      "virtual_path": "docs/core/expressions/language-ref/bean-references.md",
+      "profile": "antora",
+      "score": 5193,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/collection-projection.html",
+      "title": "Collection Projection",
+      "anchor": "core-expressions-language-ref-collection-projection",
+      "virtual_path": "docs/core/expressions/language-ref/collection-projection.md",
+      "profile": "antora",
+      "score": 4144,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/collection-selection.html",
+      "title": "Collection Selection",
+      "anchor": "core-expressions-language-ref-collection-selection",
+      "virtual_path": "docs/core/expressions/language-ref/collection-selection.md",
+      "profile": "antora",
+      "score": 5559,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/constructors.html",
+      "title": "Constructors",
+      "anchor": "core-expressions-language-ref-constructors",
+      "virtual_path": "docs/core/expressions/language-ref/constructors.md",
+      "profile": "antora",
+      "score": 3684,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/functions.html",
+      "title": "Functions",
+      "anchor": "core-expressions-language-ref-functions",
+      "virtual_path": "docs/core/expressions/language-ref/functions.md",
+      "profile": "antora",
+      "score": 11088,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/inline-lists.html",
+      "title": "Inline Lists",
+      "anchor": "core-expressions-language-ref-inline-lists",
+      "virtual_path": "docs/core/expressions/language-ref/inline-lists.md",
+      "profile": "antora",
+      "score": 3402,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/inline-maps.html",
+      "title": "Inline Maps",
+      "anchor": "core-expressions-language-ref-inline-maps",
+      "virtual_path": "docs/core/expressions/language-ref/inline-maps.md",
+      "profile": "antora",
+      "score": 3807,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/literal.html",
+      "title": "Literal Expressions",
+      "anchor": "core-expressions-language-ref-literal",
+      "virtual_path": "docs/core/expressions/language-ref/literal.md",
+      "profile": "antora",
+      "score": 7260,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/methods.html",
+      "title": "Methods",
+      "anchor": "core-expressions-language-ref-methods",
+      "virtual_path": "docs/core/expressions/language-ref/methods.md",
+      "profile": "antora",
+      "score": 3367,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/operator-elvis.html",
+      "title": "The Elvis Operator",
+      "anchor": "core-expressions-language-ref-operator-elvis",
+      "virtual_path": "docs/core/expressions/language-ref/operator-elvis.md",
+      "profile": "antora",
+      "score": 7219,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/operator-safe-navigation.html",
+      "title": "Safe Navigation Operator",
+      "anchor": "core-expressions-language-ref-operator-safe-navigation",
+      "virtual_path": "docs/core/expressions/language-ref/operator-safe-navigation.md",
+      "profile": "antora",
+      "score": 25144,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/operator-ternary.html",
+      "title": "Ternary Operator (If-Then-Else)",
+      "anchor": "core-expressions-language-ref-operator-ternary",
+      "virtual_path": "docs/core/expressions/language-ref/operator-ternary.md",
+      "profile": "antora",
+      "score": 4830,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/operators.html",
+      "title": "Operators",
+      "anchor": "core-expressions-language-ref-operators",
+      "virtual_path": "docs/core/expressions/language-ref/operators.md",
+      "profile": "antora",
+      "score": 28864,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/properties-arrays.html",
+      "title": "Properties, Arrays, Lists, Maps, and Indexers",
+      "anchor": "core-expressions-language-ref-properties-arrays",
+      "virtual_path": "docs/core/expressions/language-ref/properties-arrays.md",
+      "profile": "antora",
+      "score": 18660,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/templating.html",
+      "title": "Expression Templating",
+      "anchor": "core-expressions-language-ref-templating",
+      "virtual_path": "docs/core/expressions/language-ref/templating.md",
+      "profile": "antora",
+      "score": 4056,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/types.html",
+      "title": "Types",
+      "anchor": "core-expressions-language-ref-types",
+      "virtual_path": "docs/core/expressions/language-ref/types.md",
+      "profile": "antora",
+      "score": 4400,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/varargs.html",
+      "title": "Varargs Invocations",
+      "anchor": "core-expressions-language-ref-varargs",
+      "virtual_path": "docs/core/expressions/language-ref/varargs.md",
+      "profile": "antora",
+      "score": 9087,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/expressions/language-ref/variables.html",
+      "title": "Variables",
+      "anchor": "core-expressions-language-ref-variables",
+      "virtual_path": "docs/core/expressions/language-ref/variables.md",
+      "profile": "antora",
+      "score": 10549,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/null-safety.html",
+      "title": "Null-safety",
+      "anchor": "core-null-safety",
+      "virtual_path": "docs/core/null-safety.md",
+      "profile": "antora",
+      "score": 20350,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/resilience.html",
+      "title": "Resilience Features",
+      "anchor": "core-resilience",
+      "virtual_path": "docs/core/resilience.md",
+      "profile": "antora",
+      "score": 20437,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/resources.html",
+      "title": "Resources",
+      "anchor": "core-resources",
+      "virtual_path": "docs/core/resources.md",
+      "profile": "antora",
+      "score": 62074,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/validation.html",
+      "title": "Validation, Data Binding, and Type Conversion",
+      "anchor": "core-validation",
+      "virtual_path": "docs/core/validation.md",
+      "profile": "antora",
+      "score": 4679,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/validation/beanvalidation.html",
+      "title": "Java Bean Validation",
+      "anchor": "core-validation-beanvalidation",
+      "virtual_path": "docs/core/validation/beanvalidation.md",
+      "profile": "antora",
+      "score": 27292,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/validation/convert.html",
+      "title": "Spring Type Conversion",
+      "anchor": "core-validation-convert",
+      "virtual_path": "docs/core/validation/convert.md",
+      "profile": "antora",
+      "score": 20406,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/validation/data-binding.html",
+      "title": "Data Binding",
+      "anchor": "core-validation-data-binding",
+      "virtual_path": "docs/core/validation/data-binding.md",
+      "profile": "antora",
+      "score": 36097,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/validation/error-code-resolution.html",
+      "title": "Resolving Error Codes to Error Messages",
+      "anchor": "core-validation-error-code-resolution",
+      "virtual_path": "docs/core/validation/error-code-resolution.md",
+      "profile": "antora",
+      "score": 3652,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/validation/format-configuring-formatting-globaldatetimeformat.html",
+      "title": "Configuring a Global Date and Time Format",
+      "anchor": "core-validation-format-configuring-formatting-globaldatetimeformat",
+      "virtual_path": "docs/core/validation/format-configuring-formatting-globaldatetimeformat.md",
+      "profile": "antora",
+      "score": 6516,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/validation/format.html",
+      "title": "Spring Field Formatting",
+      "anchor": "core-validation-format",
+      "virtual_path": "docs/core/validation/format.md",
+      "profile": "antora",
+      "score": 21261,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/core/validation/validator.html",
+      "title": "Validation Using Spring’s Validator Interface",
+      "anchor": "core-validation-validator",
+      "virtual_path": "docs/core/validation/validator.md",
+      "profile": "antora",
+      "score": 10381,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access.html",
+      "title": "Data Access",
+      "anchor": "data-access",
+      "virtual_path": "docs/data-access.md",
+      "profile": "antora",
+      "score": 2723,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/appendix.html",
+      "title": "Appendix",
+      "anchor": "data-access-appendix",
+      "virtual_path": "docs/data-access/appendix.md",
+      "profile": "antora",
+      "score": 7340,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/dao.html",
+      "title": "DAO Support",
+      "anchor": "data-access-dao",
+      "virtual_path": "docs/data-access/dao.md",
+      "profile": "antora",
+      "score": 10580,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/jdbc.html",
+      "title": "Data Access with JDBC",
+      "anchor": "data-access-jdbc",
+      "virtual_path": "docs/data-access/jdbc.md",
+      "profile": "antora",
+      "score": 4363,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/jdbc/advanced.html",
+      "title": "JDBC Batch Operations",
+      "anchor": "data-access-jdbc-advanced",
+      "virtual_path": "docs/data-access/jdbc/advanced.md",
+      "profile": "antora",
+      "score": 16317,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/jdbc/choose-style.html",
+      "title": "Choosing an Approach for JDBC Database Access",
+      "anchor": "data-access-jdbc-choose-style",
+      "virtual_path": "docs/data-access/jdbc/choose-style.md",
+      "profile": "antora",
+      "score": 4087,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/jdbc/connections.html",
+      "title": "Controlling Database Connections",
+      "anchor": "data-access-jdbc-connections",
+      "virtual_path": "docs/data-access/jdbc/connections.md",
+      "profile": "antora",
+      "score": 22095,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/jdbc/core.html",
+      "title": "Using the JDBC Core Classes to Control Basic JDBC Processing and Error Handling",
+      "anchor": "data-access-jdbc-core",
+      "virtual_path": "docs/data-access/jdbc/core.md",
+      "profile": "antora",
+      "score": 60098,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/jdbc/embedded-database-support.html",
+      "title": "Embedded Database Support",
+      "anchor": "data-access-jdbc-embedded-database-support",
+      "virtual_path": "docs/data-access/jdbc/embedded-database-support.md",
+      "profile": "antora",
+      "score": 16675,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/jdbc/initializing-datasource.html",
+      "title": "Initializing a DataSource",
+      "anchor": "data-access-jdbc-initializing-datasource",
+      "virtual_path": "docs/data-access/jdbc/initializing-datasource.md",
+      "profile": "antora",
+      "score": 12191,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/jdbc/object.html",
+      "title": "Modeling JDBC Operations as Java Objects",
+      "anchor": "data-access-jdbc-object",
+      "virtual_path": "docs/data-access/jdbc/object.md",
+      "profile": "antora",
+      "score": 26336,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/jdbc/packages.html",
+      "title": "Package Hierarchy",
+      "anchor": "data-access-jdbc-packages",
+      "virtual_path": "docs/data-access/jdbc/packages.md",
+      "profile": "antora",
+      "score": 4614,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/jdbc/parameter-handling.html",
+      "title": "Common Problems with Parameter and Data Value Handling",
+      "anchor": "data-access-jdbc-parameter-handling",
+      "virtual_path": "docs/data-access/jdbc/parameter-handling.md",
+      "profile": "antora",
+      "score": 21207,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/jdbc/simple.html",
+      "title": "Simplifying JDBC Operations with the SimpleJdbc Classes",
+      "anchor": "data-access-jdbc-simple",
+      "virtual_path": "docs/data-access/jdbc/simple.md",
+      "profile": "antora",
+      "score": 36405,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/orm.html",
+      "title": "Object Relational Mapping (ORM) Data Access",
+      "anchor": "data-access-orm",
+      "virtual_path": "docs/data-access/orm.md",
+      "profile": "antora",
+      "score": 2172,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/orm/general.html",
+      "title": "General ORM Integration Considerations",
+      "anchor": "data-access-orm-general",
+      "virtual_path": "docs/data-access/orm/general.md",
+      "profile": "antora",
+      "score": 8733,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/orm/hibernate.html",
+      "title": "Hibernate",
+      "anchor": "data-access-orm-hibernate",
+      "virtual_path": "docs/data-access/orm/hibernate.md",
+      "profile": "antora",
+      "score": 31433,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/orm/introduction.html",
+      "title": "Introduction to ORM with Spring",
+      "anchor": "data-access-orm-introduction",
+      "virtual_path": "docs/data-access/orm/introduction.md",
+      "profile": "antora",
+      "score": 7118,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/orm/jpa.html",
+      "title": "JPA",
+      "anchor": "data-access-orm-jpa",
+      "virtual_path": "docs/data-access/orm/jpa.md",
+      "profile": "antora",
+      "score": 40705,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/oxm.html",
+      "title": "Marshalling XML by Using Object-XML Mappers",
+      "anchor": "data-access-oxm",
+      "virtual_path": "docs/data-access/oxm.md",
+      "profile": "antora",
+      "score": 32939,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/r2dbc.html",
+      "title": "Data Access with R2DBC",
+      "anchor": "data-access-r2dbc",
+      "virtual_path": "docs/data-access/r2dbc.md",
+      "profile": "antora",
+      "score": 46323,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction.html",
+      "title": "Transaction Management",
+      "anchor": "data-access-transaction",
+      "virtual_path": "docs/data-access/transaction.md",
+      "profile": "antora",
+      "score": 4518,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/application-server-integration.html",
+      "title": "Application server-specific integration",
+      "anchor": "data-access-transaction-application-server-integration",
+      "virtual_path": "docs/data-access/transaction/application-server-integration.md",
+      "profile": "antora",
+      "score": 2943,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative.html",
+      "title": "Declarative Transaction Management",
+      "anchor": "data-access-transaction-declarative",
+      "virtual_path": "docs/data-access/transaction/declarative.md",
+      "profile": "antora",
+      "score": 6087,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/annotations.html",
+      "title": "Using @Transactional",
+      "anchor": "data-access-transaction-declarative-annotations",
+      "virtual_path": "docs/data-access/transaction/declarative/annotations.md",
+      "profile": "antora",
+      "score": 35996,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/applying-more-than-just-tx-advice.html",
+      "title": "Advising Transactional Operations",
+      "anchor": "data-access-transaction-declarative-applying-more-than-just-tx-advice",
+      "virtual_path": "docs/data-access/transaction/declarative/applying-more-than-just-tx-advice.md",
+      "profile": "antora",
+      "score": 10501,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/aspectj.html",
+      "title": "Using @Transactional with AspectJ",
+      "anchor": "data-access-transaction-declarative-aspectj",
+      "virtual_path": "docs/data-access/transaction/declarative/aspectj.md",
+      "profile": "antora",
+      "score": 5735,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/diff-tx.html",
+      "title": "Configuring Different Transactional Semantics for Different Beans",
+      "anchor": "data-access-transaction-declarative-diff-tx",
+      "virtual_path": "docs/data-access/transaction/declarative/diff-tx.md",
+      "profile": "antora",
+      "score": 6548,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/first-example.html",
+      "title": "Example of Declarative Transaction Implementation",
+      "anchor": "data-access-transaction-declarative-first-example",
+      "virtual_path": "docs/data-access/transaction/declarative/first-example.md",
+      "profile": "antora",
+      "score": 19298,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/rolling-back.html",
+      "title": "Rolling Back a Declarative Transaction",
+      "anchor": "data-access-transaction-declarative-rolling-back",
+      "virtual_path": "docs/data-access/transaction/declarative/rolling-back.md",
+      "profile": "antora",
+      "score": 13249,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/tx-decl-explained.html",
+      "title": "Understanding the Spring Framework’s Declarative Transaction Implementation",
+      "anchor": "data-access-transaction-declarative-tx-decl-explained",
+      "virtual_path": "docs/data-access/transaction/declarative/tx-decl-explained.md",
+      "profile": "antora",
+      "score": 5481,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/tx-propagation.html",
+      "title": "Transaction Propagation",
+      "anchor": "data-access-transaction-declarative-tx-propagation",
+      "virtual_path": "docs/data-access/transaction/declarative/tx-propagation.md",
+      "profile": "antora",
+      "score": 8212,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/txadvice-settings.html",
+      "title": "<tx:advice/> Settings",
+      "anchor": "data-access-transaction-declarative-txadvice-settings",
+      "virtual_path": "docs/data-access/transaction/declarative/txadvice-settings.md",
+      "profile": "antora",
+      "score": 6078,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/event.html",
+      "title": "Transaction-bound Events",
+      "anchor": "data-access-transaction-event",
+      "virtual_path": "docs/data-access/transaction/event.md",
+      "profile": "antora",
+      "score": 5365,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/motivation.html",
+      "title": "Advantages of the Spring Framework’s Transaction Support Model",
+      "anchor": "data-access-transaction-motivation",
+      "virtual_path": "docs/data-access/transaction/motivation.md",
+      "profile": "antora",
+      "score": 8655,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/programmatic.html",
+      "title": "Programmatic Transaction Management",
+      "anchor": "data-access-transaction-programmatic",
+      "virtual_path": "docs/data-access/transaction/programmatic.md",
+      "profile": "antora",
+      "score": 25205,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/resources.html",
+      "title": "Further Resources",
+      "anchor": "data-access-transaction-resources",
+      "virtual_path": "docs/data-access/transaction/resources.md",
+      "profile": "antora",
+      "score": 2619,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/solutions-to-common-problems.html",
+      "title": "Solutions to Common Problems",
+      "anchor": "data-access-transaction-solutions-to-common-problems",
+      "virtual_path": "docs/data-access/transaction/solutions-to-common-problems.md",
+      "profile": "antora",
+      "score": 3166,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/strategies.html",
+      "title": "Understanding the Spring Framework Transaction Abstraction",
+      "anchor": "data-access-transaction-strategies",
+      "virtual_path": "docs/data-access/transaction/strategies.md",
+      "profile": "antora",
+      "score": 17390,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/tx-decl-vs-prog.html",
+      "title": "Choosing Between Programmatic and Declarative Transaction Management",
+      "anchor": "data-access-transaction-tx-decl-vs-prog",
+      "virtual_path": "docs/data-access/transaction/tx-decl-vs-prog.md",
+      "profile": "antora",
+      "score": 3100,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/data-access/transaction/tx-resource-synchronization.html",
+      "title": "Synchronizing Resources with Transactions",
+      "anchor": "data-access-transaction-tx-resource-synchronization",
+      "virtual_path": "docs/data-access/transaction/tx-resource-synchronization.md",
+      "profile": "antora",
+      "score": 8067,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/index.html",
+      "title": "Spring Framework Documentation",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "antora",
+      "score": 4371,
+      "depth": 0
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration.html",
+      "title": "Integration",
+      "anchor": "integration",
+      "virtual_path": "docs/integration.md",
+      "profile": "antora",
+      "score": 2185,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/aot-cache.html",
+      "title": "JVM AOT Cache",
+      "anchor": "integration-aot-cache",
+      "virtual_path": "docs/integration/aot-cache.md",
+      "profile": "antora",
+      "score": 9446,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/appendix.html",
+      "title": "Appendix",
+      "anchor": "integration-appendix",
+      "virtual_path": "docs/integration/appendix.md",
+      "profile": "antora",
+      "score": 19326,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/cache.html",
+      "title": "Cache Abstraction",
+      "anchor": "integration-cache",
+      "virtual_path": "docs/integration/cache.md",
+      "profile": "antora",
+      "score": 2810,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/cache/annotations.html",
+      "title": "Declarative Annotation-based Caching",
+      "anchor": "integration-cache-annotations",
+      "virtual_path": "docs/integration/cache/annotations.md",
+      "profile": "antora",
+      "score": 50802,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/cache/declarative-xml.html",
+      "title": "Declarative XML-based Caching",
+      "anchor": "integration-cache-declarative-xml",
+      "virtual_path": "docs/integration/cache/declarative-xml.md",
+      "profile": "antora",
+      "score": 5059,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/cache/jsr-107.html",
+      "title": "JCache (JSR-107) Annotations",
+      "anchor": "integration-cache-jsr-107",
+      "virtual_path": "docs/integration/cache/jsr-107.md",
+      "profile": "antora",
+      "score": 10008,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/cache/plug.html",
+      "title": "Plugging-in Different Back-end Caches",
+      "anchor": "integration-cache-plug",
+      "virtual_path": "docs/integration/cache/plug.md",
+      "profile": "antora",
+      "score": 2634,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/cache/specific-config.html",
+      "title": "How can I Set the TTL/TTI/Eviction policy/XXX feature?",
+      "anchor": "integration-cache-specific-config",
+      "virtual_path": "docs/integration/cache/specific-config.md",
+      "profile": "antora",
+      "score": 2516,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/cache/store-configuration.html",
+      "title": "Configuring the Cache Storage",
+      "anchor": "integration-cache-store-configuration",
+      "virtual_path": "docs/integration/cache/store-configuration.md",
+      "profile": "antora",
+      "score": 15839,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/cache/strategies.html",
+      "title": "Understanding the Cache Abstraction",
+      "anchor": "integration-cache-strategies",
+      "virtual_path": "docs/integration/cache/strategies.md",
+      "profile": "antora",
+      "score": 7292,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/checkpoint-restore.html",
+      "title": "JVM Checkpoint Restore",
+      "anchor": "integration-checkpoint-restore",
+      "virtual_path": "docs/integration/checkpoint-restore.md",
+      "profile": "antora",
+      "score": 7965,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/email.html",
+      "title": "Email",
+      "anchor": "integration-email",
+      "virtual_path": "docs/integration/email.md",
+      "profile": "antora",
+      "score": 20385,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jms.html",
+      "title": "JMS (Java Message Service)",
+      "anchor": "integration-jms",
+      "virtual_path": "docs/integration/jms.md",
+      "profile": "antora",
+      "score": 5414,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jms/annotated.html",
+      "title": "Annotation-driven Listener Endpoints",
+      "anchor": "integration-jms-annotated",
+      "virtual_path": "docs/integration/jms/annotated.md",
+      "profile": "antora",
+      "score": 17049,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jms/jca-message-endpoint-manager.html",
+      "title": "Support for JCA Message Endpoints",
+      "anchor": "integration-jms-jca-message-endpoint-manager",
+      "virtual_path": "docs/integration/jms/jca-message-endpoint-manager.md",
+      "profile": "antora",
+      "score": 8172,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jms/namespace.html",
+      "title": "JMS Namespace Support",
+      "anchor": "integration-jms-namespace",
+      "virtual_path": "docs/integration/jms/namespace.md",
+      "profile": "antora",
+      "score": 21076,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jms/receiving.html",
+      "title": "Receiving a Message",
+      "anchor": "integration-jms-receiving",
+      "virtual_path": "docs/integration/jms/receiving.md",
+      "profile": "antora",
+      "score": 30814,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jms/sending.html",
+      "title": "Sending a Message",
+      "anchor": "integration-jms-sending",
+      "virtual_path": "docs/integration/jms/sending.md",
+      "profile": "antora",
+      "score": 12691,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jms/using.html",
+      "title": "Using Spring JMS",
+      "anchor": "integration-jms-using",
+      "virtual_path": "docs/integration/jms/using.md",
+      "profile": "antora",
+      "score": 26496,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jmx.html",
+      "title": "JMX",
+      "anchor": "integration-jmx",
+      "virtual_path": "docs/integration/jmx.md",
+      "profile": "antora",
+      "score": 3500,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jmx/exporting.html",
+      "title": "Exporting Your Beans to JMX",
+      "anchor": "integration-jmx-exporting",
+      "virtual_path": "docs/integration/jmx/exporting.md",
+      "profile": "antora",
+      "score": 18247,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jmx/interface.html",
+      "title": "Controlling the Management Interface of Your Beans",
+      "anchor": "integration-jmx-interface",
+      "virtual_path": "docs/integration/jmx/interface.md",
+      "profile": "antora",
+      "score": 25067,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jmx/jsr160.html",
+      "title": "Using JSR-160 Connectors",
+      "anchor": "integration-jmx-jsr160",
+      "virtual_path": "docs/integration/jmx/jsr160.md",
+      "profile": "antora",
+      "score": 7921,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jmx/naming.html",
+      "title": "Controlling ObjectName Instances for Your Beans",
+      "anchor": "integration-jmx-naming",
+      "virtual_path": "docs/integration/jmx/naming.md",
+      "profile": "antora",
+      "score": 12324,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jmx/notifications.html",
+      "title": "Notifications",
+      "anchor": "integration-jmx-notifications",
+      "virtual_path": "docs/integration/jmx/notifications.md",
+      "profile": "antora",
+      "score": 15016,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jmx/proxy.html",
+      "title": "Accessing MBeans through Proxies",
+      "anchor": "integration-jmx-proxy",
+      "virtual_path": "docs/integration/jmx/proxy.md",
+      "profile": "antora",
+      "score": 4765,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/jmx/resources.html",
+      "title": "Further Resources",
+      "anchor": "integration-jmx-resources",
+      "virtual_path": "docs/integration/jmx/resources.md",
+      "profile": "antora",
+      "score": 2288,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/observability.html",
+      "title": "Observability Support",
+      "anchor": "integration-observability",
+      "virtual_path": "docs/integration/observability.md",
+      "profile": "antora",
+      "score": 54675,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/rest-clients.html",
+      "title": "REST Clients",
+      "anchor": "integration-rest-clients",
+      "virtual_path": "docs/integration/rest-clients.md",
+      "profile": "antora",
+      "score": 77068,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/integration/scheduling.html",
+      "title": "Task Execution and Scheduling",
+      "anchor": "integration-scheduling",
+      "virtual_path": "docs/integration/scheduling.md",
+      "profile": "antora",
+      "score": 73769,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages.html",
+      "title": "Language Support",
+      "anchor": "languages",
+      "virtual_path": "docs/languages.md",
+      "profile": "antora",
+      "score": 1784,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/groovy.html",
+      "title": "Apache Groovy",
+      "anchor": "languages-groovy",
+      "virtual_path": "docs/languages/groovy.md",
+      "profile": "antora",
+      "score": 3764,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin.html",
+      "title": "Kotlin",
+      "anchor": "languages-kotlin",
+      "virtual_path": "docs/languages/kotlin.md",
+      "profile": "antora",
+      "score": 3411,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin/annotations.html",
+      "title": "Annotations",
+      "anchor": "languages-kotlin-annotations",
+      "virtual_path": "docs/languages/kotlin/annotations.md",
+      "profile": "antora",
+      "score": 3605,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin/bean-registration-dsl.html",
+      "title": "Bean Registration DSL",
+      "anchor": "languages-kotlin-bean-registration-dsl",
+      "virtual_path": "docs/languages/kotlin/bean-registration-dsl.md",
+      "profile": "antora",
+      "score": 1494,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin/classes-interfaces.html",
+      "title": "Classes and Interfaces",
+      "anchor": "languages-kotlin-classes-interfaces",
+      "virtual_path": "docs/languages/kotlin/classes-interfaces.md",
+      "profile": "antora",
+      "score": 2966,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin/coroutines.html",
+      "title": "Coroutines",
+      "anchor": "languages-kotlin-coroutines",
+      "virtual_path": "docs/languages/kotlin/coroutines.md",
+      "profile": "antora",
+      "score": 15587,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin/extensions.html",
+      "title": "Extensions",
+      "anchor": "languages-kotlin-extensions",
+      "virtual_path": "docs/languages/kotlin/extensions.md",
+      "profile": "antora",
+      "score": 4520,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin/getting-started.html",
+      "title": "Getting Started",
+      "anchor": "languages-kotlin-getting-started",
+      "virtual_path": "docs/languages/kotlin/getting-started.md",
+      "profile": "antora",
+      "score": 3441,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin/null-safety.html",
+      "title": "Null-safety",
+      "anchor": "languages-kotlin-null-safety",
+      "virtual_path": "docs/languages/kotlin/null-safety.md",
+      "profile": "antora",
+      "score": 2814,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin/requirements.html",
+      "title": "Requirements",
+      "anchor": "languages-kotlin-requirements",
+      "virtual_path": "docs/languages/kotlin/requirements.md",
+      "profile": "antora",
+      "score": 2478,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin/resources.html",
+      "title": "Resources",
+      "anchor": "languages-kotlin-resources",
+      "virtual_path": "docs/languages/kotlin/resources.md",
+      "profile": "antora",
+      "score": 3942,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin/spring-projects-in.html",
+      "title": "Spring Projects in Kotlin",
+      "anchor": "languages-kotlin-spring-projects-in",
+      "virtual_path": "docs/languages/kotlin/spring-projects-in.md",
+      "profile": "antora",
+      "score": 26091,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/languages/kotlin/web.html",
+      "title": "Web",
+      "anchor": "languages-kotlin-web",
+      "virtual_path": "docs/languages/kotlin/web.md",
+      "profile": "antora",
+      "score": 6075,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/overview.html",
+      "title": "Spring Framework Overview",
+      "anchor": "overview",
+      "virtual_path": "docs/overview.md",
+      "profile": "antora",
+      "score": 13365,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/rsocket.html",
+      "title": "RSocket",
+      "anchor": "rsocket",
+      "virtual_path": "docs/rsocket.md",
+      "profile": "antora",
+      "score": 60348,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing.html",
+      "title": "Testing",
+      "anchor": "testing",
+      "virtual_path": "docs/testing.md",
+      "profile": "antora",
+      "score": 2839,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations.html",
+      "title": "Annotations",
+      "anchor": "testing-annotations",
+      "virtual_path": "docs/testing/annotations.md",
+      "profile": "antora",
+      "score": 2121,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-junit-jupiter.html",
+      "title": "Spring JUnit Jupiter Testing Annotations",
+      "anchor": "testing-annotations-integration-junit-jupiter",
+      "virtual_path": "docs/testing/annotations/integration-junit-jupiter.md",
+      "profile": "antora",
+      "score": 26728,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-junit4.html",
+      "title": "Spring JUnit 4 Testing Annotations",
+      "anchor": "testing-annotations-integration-junit4",
+      "virtual_path": "docs/testing/annotations/integration-junit4.md",
+      "profile": "antora",
+      "score": 13306,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-meta.html",
+      "title": "Meta-Annotation Support for Testing",
+      "anchor": "testing-annotations-integration-meta",
+      "virtual_path": "docs/testing/annotations/integration-meta.md",
+      "profile": "antora",
+      "score": 11702,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring.html",
+      "title": "Spring Testing Annotations",
+      "anchor": "testing-annotations-integration-spring",
+      "virtual_path": "docs/testing/annotations/integration-spring.md",
+      "profile": "antora",
+      "score": 4075,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-activeprofiles.html",
+      "title": "@ActiveProfiles",
+      "anchor": "testing-annotations-integration-spring-annotation-activeprofiles",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-activeprofiles.md",
+      "profile": "antora",
+      "score": 5843,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-aftertransaction.html",
+      "title": "@AfterTransaction",
+      "anchor": "testing-annotations-integration-spring-annotation-aftertransaction",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-aftertransaction.md",
+      "profile": "antora",
+      "score": 3328,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-beforetransaction.html",
+      "title": "@BeforeTransaction",
+      "anchor": "testing-annotations-integration-spring-annotation-beforetransaction",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-beforetransaction.md",
+      "profile": "antora",
+      "score": 3506,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-bootstrapwith.html",
+      "title": "@BootstrapWith",
+      "anchor": "testing-annotations-integration-spring-annotation-bootstrapwith",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-bootstrapwith.md",
+      "profile": "antora",
+      "score": 2126,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-commit.html",
+      "title": "@Commit",
+      "anchor": "testing-annotations-integration-spring-annotation-commit",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-commit.md",
+      "profile": "antora",
+      "score": 3420,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-contextconfiguration.html",
+      "title": "@ContextConfiguration",
+      "anchor": "testing-annotations-integration-spring-annotation-contextconfiguration",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-contextconfiguration.md",
+      "profile": "antora",
+      "score": 8576,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-contextcustomizerfactories.html",
+      "title": "@ContextCustomizerFactories",
+      "anchor": "testing-annotations-integration-spring-annotation-contextcustomizerfactories",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-contextcustomizerfactories.md",
+      "profile": "antora",
+      "score": 4095,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-contexthierarchy.html",
+      "title": "@ContextHierarchy",
+      "anchor": "testing-annotations-integration-spring-annotation-contexthierarchy",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-contexthierarchy.md",
+      "profile": "antora",
+      "score": 4766,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-dirtiescontext.html",
+      "title": "@DirtiesContext",
+      "anchor": "testing-annotations-integration-spring-annotation-dirtiescontext",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-dirtiescontext.md",
+      "profile": "antora",
+      "score": 13630,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-disabledinaotmode.html",
+      "title": "@DisabledInAotMode",
+      "anchor": "testing-annotations-integration-spring-annotation-disabledinaotmode",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-disabledinaotmode.md",
+      "profile": "antora",
+      "score": 3261,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-dynamicpropertysource.html",
+      "title": "@DynamicPropertySource",
+      "anchor": "testing-annotations-integration-spring-annotation-dynamicpropertysource",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-dynamicpropertysource.md",
+      "profile": "antora",
+      "score": 4482,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-mockitobean.html",
+      "title": "@MockitoBean and @MockitoSpyBean",
+      "anchor": "testing-annotations-integration-spring-annotation-mockitobean",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-mockitobean.md",
+      "profile": "antora",
+      "score": 23359,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-recordapplicationevents.html",
+      "title": "@RecordApplicationEvents",
+      "anchor": "testing-annotations-integration-spring-annotation-recordapplicationevents",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-recordapplicationevents.md",
+      "profile": "antora",
+      "score": 2454,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-rollback.html",
+      "title": "@Rollback",
+      "anchor": "testing-annotations-integration-spring-annotation-rollback",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-rollback.md",
+      "profile": "antora",
+      "score": 3934,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-sql.html",
+      "title": "@Sql",
+      "anchor": "testing-annotations-integration-spring-annotation-sql",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-sql.md",
+      "profile": "antora",
+      "score": 3317,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-sqlconfig.html",
+      "title": "@SqlConfig",
+      "anchor": "testing-annotations-integration-spring-annotation-sqlconfig",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-sqlconfig.md",
+      "profile": "antora",
+      "score": 3334,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-sqlgroup.html",
+      "title": "@SqlGroup",
+      "anchor": "testing-annotations-integration-spring-annotation-sqlgroup",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-sqlgroup.md",
+      "profile": "antora",
+      "score": 3629,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-sqlmergemode.html",
+      "title": "@SqlMergeMode",
+      "anchor": "testing-annotations-integration-spring-annotation-sqlmergemode",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-sqlmergemode.md",
+      "profile": "antora",
+      "score": 5520,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-testbean.html",
+      "title": "@TestBean",
+      "anchor": "testing-annotations-integration-spring-annotation-testbean",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-testbean.md",
+      "profile": "antora",
+      "score": 10528,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-testexecutionlisteners.html",
+      "title": "@TestExecutionListeners",
+      "anchor": "testing-annotations-integration-spring-annotation-testexecutionlisteners",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-testexecutionlisteners.md",
+      "profile": "antora",
+      "score": 4116,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-testpropertysource.html",
+      "title": "@TestPropertySource",
+      "anchor": "testing-annotations-integration-spring-annotation-testpropertysource",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-testpropertysource.md",
+      "profile": "antora",
+      "score": 4937,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-webappconfiguration.html",
+      "title": "@WebAppConfiguration",
+      "anchor": "testing-annotations-integration-spring-annotation-webappconfiguration",
+      "virtual_path": "docs/testing/annotations/integration-spring/annotation-webappconfiguration.md",
+      "profile": "antora",
+      "score": 5514,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/annotations/integration-standard.html",
+      "title": "Standard Annotation Support",
+      "anchor": "testing-annotations-integration-standard",
+      "virtual_path": "docs/testing/annotations/integration-standard.md",
+      "profile": "antora",
+      "score": 4414,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/appendix.html",
+      "title": "Appendix",
+      "anchor": "testing-appendix",
+      "virtual_path": "docs/testing/appendix.md",
+      "profile": "antora",
+      "score": 1735,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/integration.html",
+      "title": "Integration Testing",
+      "anchor": "testing-integration",
+      "virtual_path": "docs/testing/integration.md",
+      "profile": "antora",
+      "score": 13894,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/introduction.html",
+      "title": "Introduction to Spring Testing",
+      "anchor": "testing-introduction",
+      "virtual_path": "docs/testing/introduction.md",
+      "profile": "antora",
+      "score": 2204,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc.html",
+      "title": "MockMvc",
+      "anchor": "testing-mockmvc",
+      "virtual_path": "docs/testing/mockmvc.md",
+      "profile": "antora",
+      "score": 3116,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/assertj.html",
+      "title": "AssertJ Integration",
+      "anchor": "testing-mockmvc-assertj",
+      "virtual_path": "docs/testing/mockmvc/assertj.md",
+      "profile": "antora",
+      "score": 3354,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/assertj/assertions.html",
+      "title": "Defining Expectations",
+      "anchor": "testing-mockmvc-assertj-assertions",
+      "virtual_path": "docs/testing/mockmvc/assertj/assertions.md",
+      "profile": "antora",
+      "score": 9691,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/assertj/integration.html",
+      "title": "MockMvc integration",
+      "anchor": "testing-mockmvc-assertj-integration",
+      "virtual_path": "docs/testing/mockmvc/assertj/integration.md",
+      "profile": "antora",
+      "score": 3658,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/assertj/requests.html",
+      "title": "Performing Requests",
+      "anchor": "testing-mockmvc-assertj-requests",
+      "virtual_path": "docs/testing/mockmvc/assertj/requests.md",
+      "profile": "antora",
+      "score": 13127,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/assertj/setup.html",
+      "title": "Configuring MockMvcTester",
+      "anchor": "testing-mockmvc-assertj-setup",
+      "virtual_path": "docs/testing/mockmvc/assertj/setup.md",
+      "profile": "antora",
+      "score": 6578,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest.html",
+      "title": "Hamcrest Integration",
+      "anchor": "testing-mockmvc-hamcrest",
+      "virtual_path": "docs/testing/mockmvc/hamcrest.md",
+      "profile": "antora",
+      "score": 2440,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/async-requests.html",
+      "title": "Async Requests",
+      "anchor": "testing-mockmvc-hamcrest-async-requests",
+      "virtual_path": "docs/testing/mockmvc/hamcrest/async-requests.md",
+      "profile": "antora",
+      "score": 4978,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/expectations.html",
+      "title": "Defining Expectations",
+      "anchor": "testing-mockmvc-hamcrest-expectations",
+      "virtual_path": "docs/testing/mockmvc/hamcrest/expectations.md",
+      "profile": "antora",
+      "score": 12758,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/filters.html",
+      "title": "Filter Registrations",
+      "anchor": "testing-mockmvc-hamcrest-filters",
+      "virtual_path": "docs/testing/mockmvc/hamcrest/filters.md",
+      "profile": "antora",
+      "score": 3067,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/requests.html",
+      "title": "Performing Requests",
+      "anchor": "testing-mockmvc-hamcrest-requests",
+      "virtual_path": "docs/testing/mockmvc/hamcrest/requests.md",
+      "profile": "antora",
+      "score": 9195,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/setup-steps.html",
+      "title": "Setup Features",
+      "anchor": "testing-mockmvc-hamcrest-setup-steps",
+      "virtual_path": "docs/testing/mockmvc/hamcrest/setup-steps.md",
+      "profile": "antora",
+      "score": 5078,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/setup.html",
+      "title": "Configuring MockMvc",
+      "anchor": "testing-mockmvc-hamcrest-setup",
+      "virtual_path": "docs/testing/mockmvc/hamcrest/setup.md",
+      "profile": "antora",
+      "score": 4989,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/static-imports.html",
+      "title": "Static Imports",
+      "anchor": "testing-mockmvc-hamcrest-static-imports",
+      "virtual_path": "docs/testing/mockmvc/hamcrest/static-imports.md",
+      "profile": "antora",
+      "score": 2868,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/hamcrest/vs-streaming-response.html",
+      "title": "Streaming Responses",
+      "anchor": "testing-mockmvc-hamcrest-vs-streaming-response",
+      "virtual_path": "docs/testing/mockmvc/hamcrest/vs-streaming-response.md",
+      "profile": "antora",
+      "score": 2570,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/htmlunit.html",
+      "title": "HtmlUnit Integration",
+      "anchor": "testing-mockmvc-htmlunit",
+      "virtual_path": "docs/testing/mockmvc/htmlunit.md",
+      "profile": "antora",
+      "score": 3423,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/htmlunit/geb.html",
+      "title": "MockMvc and Geb",
+      "anchor": "testing-mockmvc-htmlunit-geb",
+      "virtual_path": "docs/testing/mockmvc/htmlunit/geb.md",
+      "profile": "antora",
+      "score": 8555,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/htmlunit/mah.html",
+      "title": "MockMvc and HtmlUnit",
+      "anchor": "testing-mockmvc-htmlunit-mah",
+      "virtual_path": "docs/testing/mockmvc/htmlunit/mah.md",
+      "profile": "antora",
+      "score": 14866,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/htmlunit/webdriver.html",
+      "title": "MockMvc and WebDriver",
+      "anchor": "testing-mockmvc-htmlunit-webdriver",
+      "virtual_path": "docs/testing/mockmvc/htmlunit/webdriver.md",
+      "profile": "antora",
+      "score": 25629,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/htmlunit/why.html",
+      "title": "Why HtmlUnit Integration?",
+      "anchor": "testing-mockmvc-htmlunit-why",
+      "virtual_path": "docs/testing/mockmvc/htmlunit/why.md",
+      "profile": "antora",
+      "score": 12936,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/overview.html",
+      "title": "Overview",
+      "anchor": "testing-mockmvc-overview",
+      "virtual_path": "docs/testing/mockmvc/overview.md",
+      "profile": "antora",
+      "score": 3233,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/resources.html",
+      "title": "Further Examples",
+      "anchor": "testing-mockmvc-resources",
+      "virtual_path": "docs/testing/mockmvc/resources.md",
+      "profile": "antora",
+      "score": 1905,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/setup-options.html",
+      "title": "Setup Options",
+      "anchor": "testing-mockmvc-setup-options",
+      "virtual_path": "docs/testing/mockmvc/setup-options.md",
+      "profile": "antora",
+      "score": 4167,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/mockmvc/vs-end-to-end-integration-tests.html",
+      "title": "MockMvc vs End-to-End Tests",
+      "anchor": "testing-mockmvc-vs-end-to-end-integration-tests",
+      "virtual_path": "docs/testing/mockmvc/vs-end-to-end-integration-tests.md",
+      "profile": "antora",
+      "score": 5334,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/resources.html",
+      "title": "Further Resources",
+      "anchor": "testing-resources",
+      "virtual_path": "docs/testing/resources.md",
+      "profile": "antora",
+      "score": 4152,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/resttestclient.html",
+      "title": "RestTestClient",
+      "anchor": "testing-resttestclient",
+      "virtual_path": "docs/testing/resttestclient.md",
+      "profile": "antora",
+      "score": 24205,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/spring-mvc-test-client.html",
+      "title": "Testing Client Applications",
+      "anchor": "testing-spring-mvc-test-client",
+      "virtual_path": "docs/testing/spring-mvc-test-client.md",
+      "profile": "antora",
+      "score": 14143,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/support-jdbc.html",
+      "title": "JDBC Testing Support",
+      "anchor": "testing-support-jdbc",
+      "virtual_path": "docs/testing/support-jdbc.md",
+      "profile": "antora",
+      "score": 4286,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework.html",
+      "title": "Spring TestContext Framework",
+      "anchor": "testing-testcontext-framework",
+      "virtual_path": "docs/testing/testcontext-framework.md",
+      "profile": "antora",
+      "score": 4046,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/aot.html",
+      "title": "Ahead of Time Support for Tests",
+      "anchor": "testing-testcontext-framework-aot",
+      "virtual_path": "docs/testing/testcontext-framework/aot.md",
+      "profile": "antora",
+      "score": 7775,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/application-events.html",
+      "title": "Application Events",
+      "anchor": "testing-testcontext-framework-application-events",
+      "virtual_path": "docs/testing/testcontext-framework/application-events.md",
+      "profile": "antora",
+      "score": 6623,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/bean-overriding.html",
+      "title": "Bean Overriding in Tests",
+      "anchor": "testing-testcontext-framework-bean-overriding",
+      "virtual_path": "docs/testing/testcontext-framework/bean-overriding.md",
+      "profile": "antora",
+      "score": 8316,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/bootstrapping.html",
+      "title": "Bootstrapping the TestContext Framework",
+      "anchor": "testing-testcontext-framework-bootstrapping",
+      "virtual_path": "docs/testing/testcontext-framework/bootstrapping.md",
+      "profile": "antora",
+      "score": 3698,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management.html",
+      "title": "Context Management",
+      "anchor": "testing-testcontext-framework-ctx-management",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management.md",
+      "profile": "antora",
+      "score": 8380,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/caching.html",
+      "title": "Context Caching",
+      "anchor": "testing-testcontext-framework-ctx-management-caching",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/caching.md",
+      "profile": "antora",
+      "score": 11545,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/context-customizers.html",
+      "title": "Context Configuration with Context Customizers",
+      "anchor": "testing-testcontext-framework-ctx-management-context-customizers",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/context-customizers.md",
+      "profile": "antora",
+      "score": 7033,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/context-pausing.html",
+      "title": "Context Pausing",
+      "anchor": "testing-testcontext-framework-ctx-management-context-pausing",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/context-pausing.md",
+      "profile": "antora",
+      "score": 5197,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/default-config.html",
+      "title": "Default Context Configuration",
+      "anchor": "testing-testcontext-framework-ctx-management-default-config",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/default-config.md",
+      "profile": "antora",
+      "score": 5840,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/dynamic-property-sources.html",
+      "title": "Context Configuration with Dynamic Property Sources",
+      "anchor": "testing-testcontext-framework-ctx-management-dynamic-property-sources",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/dynamic-property-sources.md",
+      "profile": "antora",
+      "score": 10976,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/env-profiles.html",
+      "title": "Context Configuration with Environment Profiles",
+      "anchor": "testing-testcontext-framework-ctx-management-env-profiles",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/env-profiles.md",
+      "profile": "antora",
+      "score": 24366,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/failure-threshold.html",
+      "title": "Context Failure Threshold",
+      "anchor": "testing-testcontext-framework-ctx-management-failure-threshold",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/failure-threshold.md",
+      "profile": "antora",
+      "score": 3625,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/groovy.html",
+      "title": "Context Configuration with Groovy Scripts",
+      "anchor": "testing-testcontext-framework-ctx-management-groovy",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/groovy.md",
+      "profile": "antora",
+      "score": 7808,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/hierarchies.html",
+      "title": "Context Hierarchies",
+      "anchor": "testing-testcontext-framework-ctx-management-hierarchies",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/hierarchies.md",
+      "profile": "antora",
+      "score": 17841,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/inheritance.html",
+      "title": "Context Configuration Inheritance",
+      "anchor": "testing-testcontext-framework-ctx-management-inheritance",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/inheritance.md",
+      "profile": "antora",
+      "score": 10097,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/initializers.html",
+      "title": "Context Configuration with Context Initializers",
+      "anchor": "testing-testcontext-framework-ctx-management-initializers",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/initializers.md",
+      "profile": "antora",
+      "score": 6350,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/javaconfig.html",
+      "title": "Context Configuration with Component Classes",
+      "anchor": "testing-testcontext-framework-ctx-management-javaconfig",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/javaconfig.md",
+      "profile": "antora",
+      "score": 7652,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/mixed-config.html",
+      "title": "Mixing Component Classes, XML, and Groovy Scripts",
+      "anchor": "testing-testcontext-framework-ctx-management-mixed-config",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/mixed-config.md",
+      "profile": "antora",
+      "score": 4609,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/property-sources.html",
+      "title": "Context Configuration with Test Property Sources",
+      "anchor": "testing-testcontext-framework-ctx-management-property-sources",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/property-sources.md",
+      "profile": "antora",
+      "score": 19771,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/web-mocks.html",
+      "title": "Working with Web Mocks",
+      "anchor": "testing-testcontext-framework-ctx-management-web-mocks",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/web-mocks.md",
+      "profile": "antora",
+      "score": 4613,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/web.html",
+      "title": "Loading a WebApplicationContext",
+      "anchor": "testing-testcontext-framework-ctx-management-web",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/web.md",
+      "profile": "antora",
+      "score": 8690,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/xml.html",
+      "title": "Context Configuration with XML Resources",
+      "anchor": "testing-testcontext-framework-ctx-management-xml",
+      "virtual_path": "docs/testing/testcontext-framework/ctx-management/xml.md",
+      "profile": "antora",
+      "score": 7520,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/executing-sql.html",
+      "title": "Executing SQL Scripts",
+      "anchor": "testing-testcontext-framework-executing-sql",
+      "virtual_path": "docs/testing/testcontext-framework/executing-sql.md",
+      "profile": "antora",
+      "score": 27403,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/fixture-di.html",
+      "title": "Dependency Injection of Test Fixtures",
+      "anchor": "testing-testcontext-framework-fixture-di",
+      "virtual_path": "docs/testing/testcontext-framework/fixture-di.md",
+      "profile": "antora",
+      "score": 11970,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/key-abstractions.html",
+      "title": "Key Abstractions",
+      "anchor": "testing-testcontext-framework-key-abstractions",
+      "virtual_path": "docs/testing/testcontext-framework/key-abstractions.md",
+      "profile": "antora",
+      "score": 9364,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/parallel-test-execution.html",
+      "title": "Parallel Test Execution",
+      "anchor": "testing-testcontext-framework-parallel-test-execution",
+      "virtual_path": "docs/testing/testcontext-framework/parallel-test-execution.md",
+      "profile": "antora",
+      "score": 5390,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/support-classes.html",
+      "title": "TestContext Framework Support Classes",
+      "anchor": "testing-testcontext-framework-support-classes",
+      "virtual_path": "docs/testing/testcontext-framework/support-classes.md",
+      "profile": "antora",
+      "score": 36398,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/tel-config.html",
+      "title": "TestExecutionListener Configuration",
+      "anchor": "testing-testcontext-framework-tel-config",
+      "virtual_path": "docs/testing/testcontext-framework/tel-config.md",
+      "profile": "antora",
+      "score": 13845,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/test-execution-events.html",
+      "title": "Test Execution Events",
+      "anchor": "testing-testcontext-framework-test-execution-events",
+      "virtual_path": "docs/testing/testcontext-framework/test-execution-events.md",
+      "profile": "antora",
+      "score": 8437,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/tx.html",
+      "title": "Transaction Management",
+      "anchor": "testing-testcontext-framework-tx",
+      "virtual_path": "docs/testing/testcontext-framework/tx.md",
+      "profile": "antora",
+      "score": 30377,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/web-scoped-beans.html",
+      "title": "Testing Request- and Session-scoped Beans",
+      "anchor": "testing-testcontext-framework-web-scoped-beans",
+      "virtual_path": "docs/testing/testcontext-framework/web-scoped-beans.md",
+      "profile": "antora",
+      "score": 8679,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/unit.html",
+      "title": "Unit Testing",
+      "anchor": "testing-unit",
+      "virtual_path": "docs/testing/unit.md",
+      "profile": "antora",
+      "score": 12623,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/testing/webtestclient.html",
+      "title": "WebTestClient",
+      "anchor": "testing-webtestclient",
+      "virtual_path": "docs/testing/webtestclient.md",
+      "profile": "antora",
+      "score": 34310,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web-reactive.html",
+      "title": "Web on Reactive Stack",
+      "anchor": "web-reactive",
+      "virtual_path": "docs/web-reactive.md",
+      "profile": "antora",
+      "score": 2251,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web.html",
+      "title": "Web on Servlet Stack",
+      "anchor": "web",
+      "virtual_path": "docs/web.md",
+      "profile": "antora",
+      "score": 2502,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-cors.html",
+      "title": "CORS",
+      "anchor": "web-webflux-cors",
+      "virtual_path": "docs/web/webflux-cors.md",
+      "profile": "antora",
+      "score": 20390,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-functional.html",
+      "title": "Functional Endpoints",
+      "anchor": "web-webflux-functional",
+      "virtual_path": "docs/web/webflux-functional.md",
+      "profile": "antora",
+      "score": 53952,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-http-service-client.html",
+      "title": "HTTP Service Client",
+      "anchor": "web-webflux-http-service-client",
+      "virtual_path": "docs/web/webflux-http-service-client.md",
+      "profile": "antora",
+      "score": 2346,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-reactive-libraries.html",
+      "title": "Reactive Libraries",
+      "anchor": "web-webflux-reactive-libraries",
+      "virtual_path": "docs/web/webflux-reactive-libraries.md",
+      "profile": "antora",
+      "score": 3265,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-test.html",
+      "title": "Testing",
+      "anchor": "web-webflux-test",
+      "virtual_path": "docs/web/webflux-test.md",
+      "profile": "antora",
+      "score": 2345,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-versioning.html",
+      "title": "API Versioning",
+      "anchor": "web-webflux-versioning",
+      "virtual_path": "docs/web/webflux-versioning.md",
+      "profile": "antora",
+      "score": 8703,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-view.html",
+      "title": "View Technologies",
+      "anchor": "web-webflux-view",
+      "virtual_path": "docs/web/webflux-view.md",
+      "profile": "antora",
+      "score": 22776,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-webclient.html",
+      "title": "WebClient",
+      "anchor": "web-webflux-webclient",
+      "virtual_path": "docs/web/webflux-webclient.md",
+      "profile": "antora",
+      "score": 3370,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-attributes.html",
+      "title": "Attributes",
+      "anchor": "web-webflux-webclient-client-attributes",
+      "virtual_path": "docs/web/webflux-webclient/client-attributes.md",
+      "profile": "antora",
+      "score": 3582,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-body.html",
+      "title": "Request Body",
+      "anchor": "web-webflux-webclient-client-body",
+      "virtual_path": "docs/web/webflux-webclient/client-body.md",
+      "profile": "antora",
+      "score": 15171,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-builder.html",
+      "title": "Configuration",
+      "anchor": "web-webflux-webclient-client-builder",
+      "virtual_path": "docs/web/webflux-webclient/client-builder.md",
+      "profile": "antora",
+      "score": 24674,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-context.html",
+      "title": "Context",
+      "anchor": "web-webflux-webclient-client-context",
+      "virtual_path": "docs/web/webflux-webclient/client-context.md",
+      "profile": "antora",
+      "score": 3202,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-exchange.html",
+      "title": "Exchange",
+      "anchor": "web-webflux-webclient-client-exchange",
+      "virtual_path": "docs/web/webflux-webclient/client-exchange.md",
+      "profile": "antora",
+      "score": 3730,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-filter.html",
+      "title": "Filters",
+      "anchor": "web-webflux-webclient-client-filter",
+      "virtual_path": "docs/web/webflux-webclient/client-filter.md",
+      "profile": "antora",
+      "score": 10134,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-retrieve.html",
+      "title": "retrieve()",
+      "anchor": "web-webflux-webclient-client-retrieve",
+      "virtual_path": "docs/web/webflux-webclient/client-retrieve.md",
+      "profile": "antora",
+      "score": 6282,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-synchronous.html",
+      "title": "Synchronous Use",
+      "anchor": "web-webflux-webclient-client-synchronous",
+      "virtual_path": "docs/web/webflux-webclient/client-synchronous.md",
+      "profile": "antora",
+      "score": 5442,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-testing.html",
+      "title": "Testing",
+      "anchor": "web-webflux-webclient-client-testing",
+      "virtual_path": "docs/web/webflux-webclient/client-testing.md",
+      "profile": "antora",
+      "score": 2753,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux-websocket.html",
+      "title": "WebSockets",
+      "anchor": "web-webflux-websocket",
+      "virtual_path": "docs/web/webflux-websocket.md",
+      "profile": "antora",
+      "score": 29231,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux.html",
+      "title": "Spring WebFlux",
+      "anchor": "web-webflux",
+      "virtual_path": "docs/web/webflux.md",
+      "profile": "antora",
+      "score": 3119,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/ann-rest-exceptions.html",
+      "title": "Error Responses",
+      "anchor": "web-webflux-ann-rest-exceptions",
+      "virtual_path": "docs/web/webflux/ann-rest-exceptions.md",
+      "profile": "antora",
+      "score": 13865,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/caching.html",
+      "title": "HTTP Caching",
+      "anchor": "web-webflux-caching",
+      "virtual_path": "docs/web/webflux/caching.md",
+      "profile": "antora",
+      "score": 10418,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/config.html",
+      "title": "WebFlux Config",
+      "anchor": "web-webflux-config",
+      "virtual_path": "docs/web/webflux/config.md",
+      "profile": "antora",
+      "score": 41025,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller.html",
+      "title": "Annotated Controllers",
+      "anchor": "web-webflux-controller",
+      "virtual_path": "docs/web/webflux/controller.md",
+      "profile": "antora",
+      "score": 3463,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-advice.html",
+      "title": "Controller Advice",
+      "anchor": "web-webflux-controller-ann-advice",
+      "virtual_path": "docs/web/webflux/controller/ann-advice.md",
+      "profile": "antora",
+      "score": 5453,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-exceptions.html",
+      "title": "Exceptions",
+      "anchor": "web-webflux-controller-ann-exceptions",
+      "virtual_path": "docs/web/webflux/controller/ann-exceptions.md",
+      "profile": "antora",
+      "score": 8967,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-initbinder.html",
+      "title": "DataBinder",
+      "anchor": "web-webflux-controller-ann-initbinder",
+      "virtual_path": "docs/web/webflux/controller/ann-initbinder.md",
+      "profile": "antora",
+      "score": 6330,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods.html",
+      "title": "Handler Methods",
+      "anchor": "web-webflux-controller-ann-methods",
+      "virtual_path": "docs/web/webflux/controller/ann-methods.md",
+      "profile": "antora",
+      "score": 2435,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/arguments.html",
+      "title": "Method Arguments",
+      "anchor": "web-webflux-controller-ann-methods-arguments",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/arguments.md",
+      "profile": "antora",
+      "score": 10081,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/cookievalue.html",
+      "title": "@CookieValue",
+      "anchor": "web-webflux-controller-ann-methods-cookievalue",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/cookievalue.md",
+      "profile": "antora",
+      "score": 3809,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/httpentity.html",
+      "title": "HttpEntity",
+      "anchor": "web-webflux-controller-ann-methods-httpentity",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/httpentity.md",
+      "profile": "antora",
+      "score": 2845,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/jackson.html",
+      "title": "Jackson JSON",
+      "anchor": "web-webflux-controller-ann-methods-jackson",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/jackson.md",
+      "profile": "antora",
+      "score": 4751,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/matrix-variables.html",
+      "title": "Matrix Variables",
+      "anchor": "web-webflux-controller-ann-methods-matrix-variables",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/matrix-variables.md",
+      "profile": "antora",
+      "score": 7762,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/modelattrib-method-args.html",
+      "title": "@ModelAttribute",
+      "anchor": "web-webflux-controller-ann-methods-modelattrib-method-args",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/modelattrib-method-args.md",
+      "profile": "antora",
+      "score": 12071,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/multipart-forms.html",
+      "title": "Multipart Content",
+      "anchor": "web-webflux-controller-ann-methods-multipart-forms",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/multipart-forms.md",
+      "profile": "antora",
+      "score": 14025,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/requestattrib.html",
+      "title": "@RequestAttribute",
+      "anchor": "web-webflux-controller-ann-methods-requestattrib",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/requestattrib.md",
+      "profile": "antora",
+      "score": 3180,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/requestbody.html",
+      "title": "@RequestBody",
+      "anchor": "web-webflux-controller-ann-methods-requestbody",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/requestbody.md",
+      "profile": "antora",
+      "score": 6738,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/requestheader.html",
+      "title": "@RequestHeader",
+      "anchor": "web-webflux-controller-ann-methods-requestheader",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/requestheader.md",
+      "profile": "antora",
+      "score": 4970,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/requestparam.html",
+      "title": "@RequestParam",
+      "anchor": "web-webflux-controller-ann-methods-requestparam",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/requestparam.md",
+      "profile": "antora",
+      "score": 5162,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/responsebody.html",
+      "title": "@ResponseBody",
+      "anchor": "web-webflux-controller-ann-methods-responsebody",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/responsebody.md",
+      "profile": "antora",
+      "score": 3908,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/responseentity.html",
+      "title": "ResponseEntity",
+      "anchor": "web-webflux-controller-ann-methods-responseentity",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/responseentity.md",
+      "profile": "antora",
+      "score": 4369,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/return-types.html",
+      "title": "Return Values",
+      "anchor": "web-webflux-controller-ann-methods-return-types",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/return-types.md",
+      "profile": "antora",
+      "score": 8286,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/sessionattribute.html",
+      "title": "@SessionAttribute",
+      "anchor": "web-webflux-controller-ann-methods-sessionattribute",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/sessionattribute.md",
+      "profile": "antora",
+      "score": 3750,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/sessionattributes.html",
+      "title": "@SessionAttributes",
+      "anchor": "web-webflux-controller-ann-methods-sessionattributes",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/sessionattributes.md",
+      "profile": "antora",
+      "score": 5343,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/typeconversion.html",
+      "title": "Type Conversion",
+      "anchor": "web-webflux-controller-ann-methods-typeconversion",
+      "virtual_path": "docs/web/webflux/controller/ann-methods/typeconversion.md",
+      "profile": "antora",
+      "score": 3268,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-modelattrib-methods.html",
+      "title": "Model",
+      "anchor": "web-webflux-controller-ann-modelattrib-methods",
+      "virtual_path": "docs/web/webflux/controller/ann-modelattrib-methods.md",
+      "profile": "antora",
+      "score": 8976,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-requestmapping.html",
+      "title": "Mapping Requests",
+      "anchor": "web-webflux-controller-ann-requestmapping",
+      "virtual_path": "docs/web/webflux/controller/ann-requestmapping.md",
+      "profile": "antora",
+      "score": 38848,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-validation.html",
+      "title": "Validation",
+      "anchor": "web-webflux-controller-ann-validation",
+      "virtual_path": "docs/web/webflux/controller/ann-validation.md",
+      "profile": "antora",
+      "score": 7893,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann.html",
+      "title": "@Controller",
+      "anchor": "web-webflux-controller-ann",
+      "virtual_path": "docs/web/webflux/controller/ann.md",
+      "profile": "antora",
+      "score": 5752,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/data-binding.html",
+      "title": "Data Binding",
+      "anchor": "web-webflux-data-binding",
+      "virtual_path": "docs/web/webflux/data-binding.md",
+      "profile": "antora",
+      "score": 6887,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/dispatcher-handler.html",
+      "title": "DispatcherHandler",
+      "anchor": "web-webflux-dispatcher-handler",
+      "virtual_path": "docs/web/webflux/dispatcher-handler.md",
+      "profile": "antora",
+      "score": 19485,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/http2.html",
+      "title": "HTTP/2",
+      "anchor": "web-webflux-http2",
+      "virtual_path": "docs/web/webflux/http2.md",
+      "profile": "antora",
+      "score": 1973,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/new-framework.html",
+      "title": "Overview",
+      "anchor": "web-webflux-new-framework",
+      "virtual_path": "docs/web/webflux/new-framework.md",
+      "profile": "antora",
+      "score": 22639,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/range.html",
+      "title": "Range Requests",
+      "anchor": "web-webflux-range",
+      "virtual_path": "docs/web/webflux/range.md",
+      "profile": "antora",
+      "score": 3031,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/reactive-spring.html",
+      "title": "Reactive Core",
+      "anchor": "web-webflux-reactive-spring",
+      "virtual_path": "docs/web/webflux/reactive-spring.md",
+      "profile": "antora",
+      "score": 60504,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/security.html",
+      "title": "Web Security",
+      "anchor": "web-webflux-security",
+      "virtual_path": "docs/web/webflux/security.md",
+      "profile": "antora",
+      "score": 2279,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webflux/uri-building.html",
+      "title": "URI Links",
+      "anchor": "web-webflux-uri-building",
+      "virtual_path": "docs/web/webflux/uri-building.md",
+      "profile": "antora",
+      "score": 22378,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-client.html",
+      "title": "REST Clients",
+      "anchor": "web-webmvc-client",
+      "virtual_path": "docs/web/webmvc-client.md",
+      "profile": "antora",
+      "score": 4672,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-cors.html",
+      "title": "CORS",
+      "anchor": "web-webmvc-cors",
+      "virtual_path": "docs/web/webmvc-cors.md",
+      "profile": "antora",
+      "score": 20827,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-functional.html",
+      "title": "Functional Endpoints",
+      "anchor": "web-webmvc-functional",
+      "virtual_path": "docs/web/webmvc-functional.md",
+      "profile": "antora",
+      "score": 50518,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-test.html",
+      "title": "Testing",
+      "anchor": "web-webmvc-test",
+      "virtual_path": "docs/web/webmvc-test.md",
+      "profile": "antora",
+      "score": 3707,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-versioning.html",
+      "title": "API Versioning",
+      "anchor": "web-webmvc-versioning",
+      "virtual_path": "docs/web/webmvc-versioning.md",
+      "profile": "antora",
+      "score": 8806,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view.html",
+      "title": "View Technologies",
+      "anchor": "web-webmvc-view",
+      "virtual_path": "docs/web/webmvc-view.md",
+      "profile": "antora",
+      "score": 3300,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-document.html",
+      "title": "PDF and Excel",
+      "anchor": "web-webmvc-view-mvc-document",
+      "virtual_path": "docs/web/webmvc-view/mvc-document.md",
+      "profile": "antora",
+      "score": 7006,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-feeds.html",
+      "title": "RSS and Atom",
+      "anchor": "web-webmvc-view-mvc-feeds",
+      "virtual_path": "docs/web/webmvc-view/mvc-feeds.md",
+      "profile": "antora",
+      "score": 6256,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-fragments.html",
+      "title": "HTML Fragments",
+      "anchor": "web-webmvc-view-mvc-fragments",
+      "virtual_path": "docs/web/webmvc-view/mvc-fragments.md",
+      "profile": "antora",
+      "score": 6394,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-freemarker.html",
+      "title": "FreeMarker",
+      "anchor": "web-webmvc-view-mvc-freemarker",
+      "virtual_path": "docs/web/webmvc-view/mvc-freemarker.md",
+      "profile": "antora",
+      "score": 29445,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-groovymarkup.html",
+      "title": "Groovy Markup",
+      "anchor": "web-webmvc-view-mvc-groovymarkup",
+      "virtual_path": "docs/web/webmvc-view/mvc-groovymarkup.md",
+      "profile": "antora",
+      "score": 5986,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-jackson.html",
+      "title": "Jackson",
+      "anchor": "web-webmvc-view-mvc-jackson",
+      "virtual_path": "docs/web/webmvc-view/mvc-jackson.md",
+      "profile": "antora",
+      "score": 4778,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-jsp.html",
+      "title": "JSP and JSTL",
+      "anchor": "web-webmvc-view-mvc-jsp",
+      "virtual_path": "docs/web/webmvc-view/mvc-jsp.md",
+      "profile": "antora",
+      "score": 42619,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-script.html",
+      "title": "Script Views",
+      "anchor": "web-webmvc-view-mvc-script",
+      "virtual_path": "docs/web/webmvc-view/mvc-script.md",
+      "profile": "antora",
+      "score": 8662,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-thymeleaf.html",
+      "title": "Thymeleaf",
+      "anchor": "web-webmvc-view-mvc-thymeleaf",
+      "virtual_path": "docs/web/webmvc-view/mvc-thymeleaf.md",
+      "profile": "antora",
+      "score": 2936,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-xml-marshalling.html",
+      "title": "XML Marshalling",
+      "anchor": "web-webmvc-view-mvc-xml-marshalling",
+      "virtual_path": "docs/web/webmvc-view/mvc-xml-marshalling.md",
+      "profile": "antora",
+      "score": 2424,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc-view/mvc-xslt.html",
+      "title": "XSLT Views",
+      "anchor": "web-webmvc-view-mvc-xslt",
+      "virtual_path": "docs/web/webmvc-view/mvc-xslt.md",
+      "profile": "antora",
+      "score": 9386,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc.html",
+      "title": "Spring Web MVC",
+      "anchor": "web-webmvc",
+      "virtual_path": "docs/web/webmvc.md",
+      "profile": "antora",
+      "score": 3239,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/filters.html",
+      "title": "Filters",
+      "anchor": "web-webmvc-filters",
+      "virtual_path": "docs/web/webmvc/filters.md",
+      "profile": "antora",
+      "score": 23636,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/message-converters.html",
+      "title": "HTTP Message Conversion",
+      "anchor": "web-webmvc-message-converters",
+      "virtual_path": "docs/web/webmvc/message-converters.md",
+      "profile": "antora",
+      "score": 9547,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-ann-async.html",
+      "title": "Asynchronous Requests",
+      "anchor": "web-webmvc-mvc-ann-async",
+      "virtual_path": "docs/web/webmvc/mvc-ann-async.md",
+      "profile": "antora",
+      "score": 33097,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-ann-rest-exceptions.html",
+      "title": "Error Responses",
+      "anchor": "web-webmvc-mvc-ann-rest-exceptions",
+      "virtual_path": "docs/web/webmvc/mvc-ann-rest-exceptions.md",
+      "profile": "antora",
+      "score": 16507,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-caching.html",
+      "title": "HTTP Caching",
+      "anchor": "web-webmvc-mvc-caching",
+      "virtual_path": "docs/web/webmvc/mvc-caching.md",
+      "profile": "antora",
+      "score": 11810,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config.html",
+      "title": "MVC Config",
+      "anchor": "web-webmvc-mvc-config",
+      "virtual_path": "docs/web/webmvc/mvc-config.md",
+      "profile": "antora",
+      "score": 3007,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/advanced-java.html",
+      "title": "Advanced Java Config",
+      "anchor": "web-webmvc-mvc-config-advanced-java",
+      "virtual_path": "docs/web/webmvc/mvc-config/advanced-java.md",
+      "profile": "antora",
+      "score": 3748,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/advanced-xml.html",
+      "title": "Advanced XML Config",
+      "anchor": "web-webmvc-mvc-config-advanced-xml",
+      "virtual_path": "docs/web/webmvc/mvc-config/advanced-xml.md",
+      "profile": "antora",
+      "score": 3389,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/api-version.html",
+      "title": "API Version",
+      "anchor": "web-webmvc-mvc-config-api-version",
+      "virtual_path": "docs/web/webmvc/mvc-config/api-version.md",
+      "profile": "antora",
+      "score": 5336,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/content-negotiation.html",
+      "title": "Content Types",
+      "anchor": "web-webmvc-mvc-config-content-negotiation",
+      "virtual_path": "docs/web/webmvc/mvc-config/content-negotiation.md",
+      "profile": "antora",
+      "score": 4479,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/conversion.html",
+      "title": "Type Conversion",
+      "anchor": "web-webmvc-mvc-config-conversion",
+      "virtual_path": "docs/web/webmvc/mvc-config/conversion.md",
+      "profile": "antora",
+      "score": 5848,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/customize.html",
+      "title": "MVC Config API",
+      "anchor": "web-webmvc-mvc-config-customize",
+      "virtual_path": "docs/web/webmvc/mvc-config/customize.md",
+      "profile": "antora",
+      "score": 3196,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/default-servlet-handler.html",
+      "title": "Default Servlet",
+      "anchor": "web-webmvc-mvc-config-default-servlet-handler",
+      "virtual_path": "docs/web/webmvc/mvc-config/default-servlet-handler.md",
+      "profile": "antora",
+      "score": 6345,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/enable.html",
+      "title": "Enable MVC Configuration",
+      "anchor": "web-webmvc-mvc-config-enable",
+      "virtual_path": "docs/web/webmvc/mvc-config/enable.md",
+      "profile": "antora",
+      "score": 4588,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/interceptors.html",
+      "title": "Interceptors",
+      "anchor": "web-webmvc-mvc-config-interceptors",
+      "virtual_path": "docs/web/webmvc/mvc-config/interceptors.md",
+      "profile": "antora",
+      "score": 5002,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/message-converters.html",
+      "title": "Message Converters",
+      "anchor": "web-webmvc-mvc-config-message-converters",
+      "virtual_path": "docs/web/webmvc/mvc-config/message-converters.md",
+      "profile": "antora",
+      "score": 4131,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/path-matching.html",
+      "title": "Path Matching",
+      "anchor": "web-webmvc-mvc-config-path-matching",
+      "virtual_path": "docs/web/webmvc/mvc-config/path-matching.md",
+      "profile": "antora",
+      "score": 4202,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/static-resources.html",
+      "title": "Static Resources",
+      "anchor": "web-webmvc-mvc-config-static-resources",
+      "virtual_path": "docs/web/webmvc/mvc-config/static-resources.md",
+      "profile": "antora",
+      "score": 9164,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/validation.html",
+      "title": "Validation",
+      "anchor": "web-webmvc-mvc-config-validation",
+      "virtual_path": "docs/web/webmvc/mvc-config/validation.md",
+      "profile": "antora",
+      "score": 5029,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/view-controller.html",
+      "title": "View Controllers",
+      "anchor": "web-webmvc-mvc-config-view-controller",
+      "virtual_path": "docs/web/webmvc/mvc-config/view-controller.md",
+      "profile": "antora",
+      "score": 4267,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/view-resolvers.html",
+      "title": "View Resolvers",
+      "anchor": "web-webmvc-mvc-config-view-resolvers",
+      "virtual_path": "docs/web/webmvc/mvc-config/view-resolvers.md",
+      "profile": "antora",
+      "score": 6104,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller.html",
+      "title": "Annotated Controllers",
+      "anchor": "web-webmvc-mvc-controller",
+      "virtual_path": "docs/web/webmvc/mvc-controller.md",
+      "profile": "antora",
+      "score": 3847,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-advice.html",
+      "title": "Controller Advice",
+      "anchor": "web-webmvc-mvc-controller-ann-advice",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-advice.md",
+      "profile": "antora",
+      "score": 5477,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-exceptionhandler.html",
+      "title": "Exceptions",
+      "anchor": "web-webmvc-mvc-controller-ann-exceptionhandler",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-exceptionhandler.md",
+      "profile": "antora",
+      "score": 21825,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-initbinder.html",
+      "title": "@InitBinder",
+      "anchor": "web-webmvc-mvc-controller-ann-initbinder",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-initbinder.md",
+      "profile": "antora",
+      "score": 6657,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods.html",
+      "title": "Handler Methods",
+      "anchor": "web-webmvc-mvc-controller-ann-methods",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods.md",
+      "profile": "antora",
+      "score": 2454,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/arguments.html",
+      "title": "Method Arguments",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-arguments",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/arguments.md",
+      "profile": "antora",
+      "score": 12001,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/cookievalue.html",
+      "title": "@CookieValue",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-cookievalue",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/cookievalue.md",
+      "profile": "antora",
+      "score": 3833,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/flash-attributes.html",
+      "title": "Flash Attributes",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-flash-attributes",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/flash-attributes.md",
+      "profile": "antora",
+      "score": 5022,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/httpentity.html",
+      "title": "HttpEntity",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-httpentity",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/httpentity.md",
+      "profile": "antora",
+      "score": 2834,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/jackson.html",
+      "title": "Jackson JSON",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-jackson",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/jackson.md",
+      "profile": "antora",
+      "score": 7380,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/matrix-variables.html",
+      "title": "Matrix Variables",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-matrix-variables",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/matrix-variables.md",
+      "profile": "antora",
+      "score": 7907,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/modelattrib-method-args.html",
+      "title": "@ModelAttribute",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-modelattrib-method-args",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/modelattrib-method-args.md",
+      "profile": "antora",
+      "score": 14163,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/multipart-forms.html",
+      "title": "Multipart",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-multipart-forms",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/multipart-forms.md",
+      "profile": "antora",
+      "score": 9487,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/redirecting-passing-data.html",
+      "title": "Redirect Attributes",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-redirecting-passing-data",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/redirecting-passing-data.md",
+      "profile": "antora",
+      "score": 5107,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/requestattrib.html",
+      "title": "@RequestAttribute",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-requestattrib",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/requestattrib.md",
+      "profile": "antora",
+      "score": 3211,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/requestbody.html",
+      "title": "@RequestBody",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-requestbody",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/requestbody.md",
+      "profile": "antora",
+      "score": 5056,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/requestheader.html",
+      "title": "@RequestHeader",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-requestheader",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/requestheader.md",
+      "profile": "antora",
+      "score": 4963,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/requestparam.html",
+      "title": "@RequestParam",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-requestparam",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/requestparam.md",
+      "profile": "antora",
+      "score": 6293,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/responsebody.html",
+      "title": "@ResponseBody",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-responsebody",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/responsebody.md",
+      "profile": "antora",
+      "score": 4398,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/responseentity.html",
+      "title": "ResponseEntity",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-responseentity",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/responseentity.md",
+      "profile": "antora",
+      "score": 5051,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/return-types.html",
+      "title": "Return Values",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-return-types",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/return-types.md",
+      "profile": "antora",
+      "score": 8988,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/sessionattribute.html",
+      "title": "@SessionAttribute",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-sessionattribute",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/sessionattribute.md",
+      "profile": "antora",
+      "score": 3883,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/sessionattributes.html",
+      "title": "@SessionAttributes",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-sessionattributes",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/sessionattributes.md",
+      "profile": "antora",
+      "score": 5441,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/typeconversion.html",
+      "title": "Type Conversion",
+      "anchor": "web-webmvc-mvc-controller-ann-methods-typeconversion",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-methods/typeconversion.md",
+      "profile": "antora",
+      "score": 4192,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-modelattrib-methods.html",
+      "title": "Model",
+      "anchor": "web-webmvc-mvc-controller-ann-modelattrib-methods",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-modelattrib-methods.md",
+      "profile": "antora",
+      "score": 7105,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-requestmapping.html",
+      "title": "Mapping Requests",
+      "anchor": "web-webmvc-mvc-controller-ann-requestmapping",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-requestmapping.md",
+      "profile": "antora",
+      "score": 41859,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-validation.html",
+      "title": "Validation",
+      "anchor": "web-webmvc-mvc-controller-ann-validation",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann-validation.md",
+      "profile": "antora",
+      "score": 7915,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann.html",
+      "title": "Declaration",
+      "anchor": "web-webmvc-mvc-controller-ann",
+      "virtual_path": "docs/web/webmvc/mvc-controller/ann.md",
+      "profile": "antora",
+      "score": 6286,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-data-binding.html",
+      "title": "Data Binding",
+      "anchor": "web-webmvc-mvc-data-binding",
+      "virtual_path": "docs/web/webmvc/mvc-data-binding.md",
+      "profile": "antora",
+      "score": 6888,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-http2.html",
+      "title": "HTTP/2",
+      "anchor": "web-webmvc-mvc-http2",
+      "virtual_path": "docs/web/webmvc/mvc-http2.md",
+      "profile": "antora",
+      "score": 2230,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-range.html",
+      "title": "Range Requests",
+      "anchor": "web-webmvc-mvc-range",
+      "virtual_path": "docs/web/webmvc/mvc-range.md",
+      "profile": "antora",
+      "score": 3012,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-security.html",
+      "title": "Web Security",
+      "anchor": "web-webmvc-mvc-security",
+      "virtual_path": "docs/web/webmvc/mvc-security.md",
+      "profile": "antora",
+      "score": 2489,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet.html",
+      "title": "DispatcherServlet",
+      "anchor": "web-webmvc-mvc-servlet",
+      "virtual_path": "docs/web/webmvc/mvc-servlet.md",
+      "profile": "antora",
+      "score": 6728,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/config.html",
+      "title": "Web MVC Config",
+      "anchor": "web-webmvc-mvc-servlet-config",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/config.md",
+      "profile": "antora",
+      "score": 2790,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/container-config.html",
+      "title": "Servlet Config",
+      "anchor": "web-webmvc-mvc-servlet-container-config",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/container-config.md",
+      "profile": "antora",
+      "score": 9676,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/context-hierarchy.html",
+      "title": "Context Hierarchy",
+      "anchor": "web-webmvc-mvc-servlet-context-hierarchy",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/context-hierarchy.md",
+      "profile": "antora",
+      "score": 6385,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/exceptionhandlers.html",
+      "title": "Exceptions",
+      "anchor": "web-webmvc-mvc-servlet-exceptionhandlers",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/exceptionhandlers.md",
+      "profile": "antora",
+      "score": 8626,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/handlermapping-interceptor.html",
+      "title": "Interception",
+      "anchor": "web-webmvc-mvc-servlet-handlermapping-interceptor",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/handlermapping-interceptor.md",
+      "profile": "antora",
+      "score": 3957,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/handlermapping-path.html",
+      "title": "Path Matching",
+      "anchor": "web-webmvc-mvc-servlet-handlermapping-path",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/handlermapping-path.md",
+      "profile": "antora",
+      "score": 5495,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/localeresolver.html",
+      "title": "Locale",
+      "anchor": "web-webmvc-mvc-servlet-localeresolver",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/localeresolver.md",
+      "profile": "antora",
+      "score": 11854,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/logging.html",
+      "title": "Logging",
+      "anchor": "web-webmvc-mvc-servlet-logging",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/logging.md",
+      "profile": "antora",
+      "score": 5210,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/multipart.html",
+      "title": "Multipart Resolver",
+      "anchor": "web-webmvc-mvc-servlet-multipart",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/multipart.md",
+      "profile": "antora",
+      "score": 6315,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/sequence.html",
+      "title": "Processing",
+      "anchor": "web-webmvc-mvc-servlet-sequence",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/sequence.md",
+      "profile": "antora",
+      "score": 6837,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/special-bean-types.html",
+      "title": "Special Bean Types",
+      "anchor": "web-webmvc-mvc-servlet-special-bean-types",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/special-bean-types.md",
+      "profile": "antora",
+      "score": 5367,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/viewresolver.html",
+      "title": "View Resolution",
+      "anchor": "web-webmvc-mvc-servlet-viewresolver",
+      "virtual_path": "docs/web/webmvc/mvc-servlet/viewresolver.md",
+      "profile": "antora",
+      "score": 10763,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-uri-building.html",
+      "title": "URI Links",
+      "anchor": "web-webmvc-mvc-uri-building",
+      "virtual_path": "docs/web/webmvc/mvc-uri-building.md",
+      "profile": "antora",
+      "score": 36581,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket.html",
+      "title": "WebSockets",
+      "anchor": "web-websocket",
+      "virtual_path": "docs/web/websocket.md",
+      "profile": "antora",
+      "score": 9551,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/fallback.html",
+      "title": "SockJS Fallback",
+      "anchor": "web-websocket-fallback",
+      "virtual_path": "docs/web/websocket/fallback.md",
+      "profile": "antora",
+      "score": 27191,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/server.html",
+      "title": "WebSocket API",
+      "anchor": "web-websocket-server",
+      "virtual_path": "docs/web/websocket/server.md",
+      "profile": "antora",
+      "score": 23472,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp.html",
+      "title": "STOMP",
+      "anchor": "web-websocket-stomp",
+      "virtual_path": "docs/web/websocket/stomp.md",
+      "profile": "antora",
+      "score": 2935,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/application-context-events.html",
+      "title": "Events",
+      "anchor": "web-websocket-stomp-application-context-events",
+      "virtual_path": "docs/web/websocket/stomp/application-context-events.md",
+      "profile": "antora",
+      "score": 5077,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/authentication-token-based.html",
+      "title": "Token Authentication",
+      "anchor": "web-websocket-stomp-authentication-token-based",
+      "virtual_path": "docs/web/websocket/stomp/authentication-token-based.md",
+      "profile": "antora",
+      "score": 7012,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/authentication.html",
+      "title": "Authentication",
+      "anchor": "web-websocket-stomp-authentication",
+      "virtual_path": "docs/web/websocket/stomp/authentication.md",
+      "profile": "antora",
+      "score": 4236,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/authorization.html",
+      "title": "Authorization",
+      "anchor": "web-websocket-stomp-authorization",
+      "virtual_path": "docs/web/websocket/stomp/authorization.md",
+      "profile": "antora",
+      "score": 2086,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/benefits.html",
+      "title": "Benefits",
+      "anchor": "web-websocket-stomp-benefits",
+      "virtual_path": "docs/web/websocket/stomp/benefits.md",
+      "profile": "antora",
+      "score": 3325,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/client.html",
+      "title": "STOMP Client",
+      "anchor": "web-websocket-stomp-client",
+      "virtual_path": "docs/web/websocket/stomp/client.md",
+      "profile": "antora",
+      "score": 8821,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/configuration-performance.html",
+      "title": "Performance",
+      "anchor": "web-websocket-stomp-configuration-performance",
+      "virtual_path": "docs/web/websocket/stomp/configuration-performance.md",
+      "profile": "antora",
+      "score": 11553,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/destination-separator.html",
+      "title": "Dots as Separators",
+      "anchor": "web-websocket-stomp-destination-separator",
+      "virtual_path": "docs/web/websocket/stomp/destination-separator.md",
+      "profile": "antora",
+      "score": 6695,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/enable.html",
+      "title": "Enable STOMP",
+      "anchor": "web-websocket-stomp-enable",
+      "virtual_path": "docs/web/websocket/stomp/enable.md",
+      "profile": "antora",
+      "score": 7436,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/handle-annotations.html",
+      "title": "Annotated Controllers",
+      "anchor": "web-websocket-stomp-handle-annotations",
+      "virtual_path": "docs/web/websocket/stomp/handle-annotations.md",
+      "profile": "antora",
+      "score": 13585,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/handle-broker-relay-configure.html",
+      "title": "Connecting to a Broker",
+      "anchor": "web-websocket-stomp-handle-broker-relay-configure",
+      "virtual_path": "docs/web/websocket/stomp/handle-broker-relay-configure.md",
+      "profile": "antora",
+      "score": 6702,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/handle-broker-relay.html",
+      "title": "External Broker",
+      "anchor": "web-websocket-stomp-handle-broker-relay",
+      "virtual_path": "docs/web/websocket/stomp/handle-broker-relay.md",
+      "profile": "antora",
+      "score": 6402,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/handle-send.html",
+      "title": "Sending Messages",
+      "anchor": "web-websocket-stomp-handle-send",
+      "virtual_path": "docs/web/websocket/stomp/handle-send.md",
+      "profile": "antora",
+      "score": 3110,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/handle-simple-broker.html",
+      "title": "Simple Broker",
+      "anchor": "web-websocket-stomp-handle-simple-broker",
+      "virtual_path": "docs/web/websocket/stomp/handle-simple-broker.md",
+      "profile": "antora",
+      "score": 4719,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/interceptors.html",
+      "title": "Interception",
+      "anchor": "web-websocket-stomp-interceptors",
+      "virtual_path": "docs/web/websocket/stomp/interceptors.md",
+      "profile": "antora",
+      "score": 5610,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/message-flow.html",
+      "title": "Flow of Messages",
+      "anchor": "web-websocket-stomp-message-flow",
+      "virtual_path": "docs/web/websocket/stomp/message-flow.md",
+      "profile": "antora",
+      "score": 10422,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/ordered-messages.html",
+      "title": "Order of Messages",
+      "anchor": "web-websocket-stomp-ordered-messages",
+      "virtual_path": "docs/web/websocket/stomp/ordered-messages.md",
+      "profile": "antora",
+      "score": 6368,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/overview.html",
+      "title": "Overview",
+      "anchor": "web-websocket-stomp-overview",
+      "virtual_path": "docs/web/websocket/stomp/overview.md",
+      "profile": "antora",
+      "score": 6951,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/scope.html",
+      "title": "WebSocket Scope",
+      "anchor": "web-websocket-stomp-scope",
+      "virtual_path": "docs/web/websocket/stomp/scope.md",
+      "profile": "antora",
+      "score": 4174,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/server-config.html",
+      "title": "WebSocket Transport",
+      "anchor": "web-websocket-stomp-server-config",
+      "virtual_path": "docs/web/websocket/stomp/server-config.md",
+      "profile": "antora",
+      "score": 5563,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/stats.html",
+      "title": "Monitoring",
+      "anchor": "web-websocket-stomp-stats",
+      "virtual_path": "docs/web/websocket/stomp/stats.md",
+      "profile": "antora",
+      "score": 6481,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/testing.html",
+      "title": "Testing",
+      "anchor": "web-websocket-stomp-testing",
+      "virtual_path": "docs/web/websocket/stomp/testing.md",
+      "profile": "antora",
+      "score": 4773,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-framework/reference/web/websocket/stomp/user-destination.html",
+      "title": "User Destinations",
+      "anchor": "web-websocket-stomp-user-destination",
+      "virtual_path": "docs/web/websocket/stomp/user-destination.md",
+      "profile": "antora",
+      "score": 7861,
+      "depth": 1
+    }
+  ]
+}

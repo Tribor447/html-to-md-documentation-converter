@@ -1,0 +1,135 @@
+- title: Documentation
+  kind: link
+  source_url: https://graphar.incubator.apache.org/docs/
+  anchor: index
+  virtual_path: docs/index.md
+- title: Overview
+  kind: link
+  source_url: https://graphar.incubator.apache.org/docs/overview/
+  anchor: overview
+  virtual_path: docs/overview/index.md
+  children:
+  - title: Motivation
+    kind: link
+    source_url: https://graphar.incubator.apache.org/docs/overview/motivation/
+    anchor: overview-motivation
+    virtual_path: docs/overview/motivation/index.md
+  - title: Concepts
+    kind: link
+    source_url: https://graphar.incubator.apache.org/docs/overview/concepts/
+    anchor: overview-concepts
+    virtual_path: docs/overview/concepts/index.md
+- title: Specification
+  kind: category
+  source_url: https://graphar.incubator.apache.org/docs/category/specification/
+  anchor: category-specification
+  virtual_path: docs/category/specification/index.md
+  children:
+  - title: Format Specification
+    kind: link
+    source_url: https://graphar.incubator.apache.org/docs/specification/format/
+    anchor: specification-format
+    virtual_path: docs/specification/format/index.md
+  - title: Implementation Status
+    kind: link
+    source_url: https://graphar.incubator.apache.org/docs/specification/implementation-status/
+    anchor: specification-implementation-status
+    virtual_path: docs/specification/implementation-status/index.md
+- title: Libraries
+  kind: category
+  source_url: https://graphar.incubator.apache.org/docs/category/libraries/
+  anchor: category-libraries
+  virtual_path: docs/category/libraries/index.md
+  children:
+  - title: C++ Library
+    kind: category
+    source_url: https://graphar.incubator.apache.org/docs/category/c-library/
+    anchor: category-c-library
+    virtual_path: docs/category/c-library/index.md
+    children:
+    - title: Getting Started
+      kind: link
+      source_url: https://graphar.incubator.apache.org/docs/libraries/cpp/getting-started/
+      anchor: libraries-cpp-getting-started
+      virtual_path: docs/libraries/cpp/getting-started/index.md
+    - title: Examples
+      kind: category
+      source_url: https://graphar.incubator.apache.org/docs/category/examples/
+      anchor: category-examples
+      virtual_path: docs/category/examples/index.md
+      children:
+      - title: Co-Work with BGL
+        kind: link
+        source_url: https://graphar.incubator.apache.org/docs/libraries/cpp/examples/bgl/
+        anchor: libraries-cpp-examples-bgl
+        virtual_path: docs/libraries/cpp/examples/bgl/index.md
+      - title: Integrate into GraphScope
+        kind: link
+        source_url: https://graphar.incubator.apache.org/docs/libraries/cpp/examples/graphscope/
+        anchor: libraries-cpp-examples-graphscope
+        virtual_path: docs/libraries/cpp/examples/graphscope/index.md
+      - title: Out-of-core Graph Algorithms
+        kind: link
+        source_url: https://graphar.incubator.apache.org/docs/libraries/cpp/examples/out-of-core/
+        anchor: libraries-cpp-examples-out-of-core
+        virtual_path: docs/libraries/cpp/examples/out-of-core/index.md
+      - title: Convert SNAP Datasets to GraphAr Format
+        kind: link
+        source_url: https://graphar.incubator.apache.org/docs/libraries/cpp/examples/snap-to-graphar/
+        anchor: libraries-cpp-examples-snap-to-graphar
+        virtual_path: docs/libraries/cpp/examples/snap-to-graphar/index.md
+  - title: Java Library
+    kind: category
+    source_url: https://graphar.incubator.apache.org/docs/libraries/java/
+    anchor: libraries-java
+    virtual_path: docs/libraries/java/index.md
+    children:
+    - title: info
+      kind: link
+      source_url: https://graphar.incubator.apache.org/docs/libraries/java/info/getting-started/
+      anchor: libraries-java-info-getting-started
+      virtual_path: docs/libraries/java/info/getting-started/index.md
+      children:
+      - title: Getting Started with Info Module
+        kind: link
+        source_url: https://graphar.incubator.apache.org/docs/libraries/java/info/getting-started/
+        anchor: libraries-java-info-getting-started
+        virtual_path: docs/libraries/java/info/getting-started/index.md
+    - title: java-FFI
+      kind: category
+      source_url: https://graphar.incubator.apache.org/docs/libraries/java/java-FFI/getting-started/
+      anchor: libraries-java-java-ffi-getting-started
+      virtual_path: docs/libraries/java/java-FFI/getting-started/index.md
+      children:
+      - title: Getting Started with java FFI Module
+        kind: link
+        source_url: https://graphar.incubator.apache.org/docs/libraries/java/java-FFI/getting-started/
+        anchor: libraries-java-java-ffi-getting-started
+        virtual_path: docs/libraries/java/java-FFI/getting-started/index.md
+      - title: How to Develop Java FFI Library
+        kind: link
+        source_url: https://graphar.incubator.apache.org/docs/libraries/java/java-FFI/how_to_develop_java_ffi/
+        anchor: libraries-java-java-ffi-how_to_develop_java_ffi
+        virtual_path: docs/libraries/java/java-FFI/how_to_develop_java_ffi/index.md
+  - title: Spark Library
+    kind: link
+    source_url: https://graphar.incubator.apache.org/docs/libraries/spark/
+    anchor: libraries-spark
+    virtual_path: docs/libraries/spark/index.md
+    children:
+    - title: Examples
+      kind: link
+      source_url: https://graphar.incubator.apache.org/docs/libraries/spark/examples/
+      anchor: libraries-spark-examples
+      virtual_path: docs/libraries/spark/examples/index.md
+  - title: PySpark Library
+    kind: link
+    source_url: https://graphar.incubator.apache.org/docs/libraries/pyspark/
+    anchor: libraries-pyspark
+    virtual_path: docs/libraries/pyspark/index.md
+    children:
+    - title: How to use GraphAr PySpark package
+      kind: link
+      source_url: https://graphar.incubator.apache.org/docs/libraries/pyspark/how-to/
+      anchor: libraries-pyspark-how-to
+      virtual_path: docs/libraries/pyspark/how-to/index.md

@@ -1,0 +1,366 @@
+- title: Overview
+  kind: category
+  source_url: https://docs.spring.io/spring-kafka/reference/index.html
+  anchor: index
+  virtual_path: docs/index.md
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://docs.spring.io/spring-kafka/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: What’s new?
+    kind: link
+    source_url: https://docs.spring.io/spring-kafka/reference/whats-new.html
+    anchor: whats-new
+    virtual_path: docs/whats-new.md
+  - title: Introduction
+    kind: category
+    source_url: https://docs.spring.io/spring-kafka/reference/introduction.html
+    anchor: introduction
+    virtual_path: docs/introduction.md
+    children:
+    - title: Quick Tour
+      kind: link
+      source_url: https://docs.spring.io/spring-kafka/reference/quick-tour.html
+      anchor: quick-tour
+      virtual_path: docs/quick-tour.md
+  - title: Reference
+    kind: category
+    source_url: https://docs.spring.io/spring-kafka/reference/reference.html
+    anchor: reference
+    virtual_path: docs/reference.md
+    children:
+    - title: Using Spring for Apache Kafka
+      kind: category
+      source_url: https://docs.spring.io/spring-kafka/reference/kafka.html
+      anchor: kafka
+      virtual_path: docs/kafka.md
+      children:
+      - title: Connecting to Kafka
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/connecting.html
+        anchor: kafka-connecting
+        virtual_path: docs/kafka/connecting.md
+      - title: Configuring Topics
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/configuring-topics.html
+        anchor: kafka-configuring-topics
+        virtual_path: docs/kafka/configuring-topics.md
+      - title: Sending Messages
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/sending-messages.html
+        anchor: kafka-sending-messages
+        virtual_path: docs/kafka/sending-messages.md
+      - title: Receiving Messages
+        kind: category
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages.html
+        anchor: kafka-receiving-messages
+        virtual_path: docs/kafka/receiving-messages.md
+        children:
+        - title: Message Listeners
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/message-listeners.html
+          anchor: kafka-receiving-messages-message-listeners
+          virtual_path: docs/kafka/receiving-messages/message-listeners.md
+        - title: Message Listener Containers
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/message-listener-container.html
+          anchor: kafka-receiving-messages-message-listener-container
+          virtual_path: docs/kafka/receiving-messages/message-listener-container.md
+        - title: Manually Committing Offsets
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/ooo-commits.html
+          anchor: kafka-receiving-messages-ooo-commits
+          virtual_path: docs/kafka/receiving-messages/ooo-commits.md
+        - title: Asynchronous @KafkaListener Return Types
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/async-returns.html
+          anchor: kafka-receiving-messages-async-returns
+          virtual_path: docs/kafka/receiving-messages/async-returns.md
+        - title: '@KafkaListener Annotation'
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/listener-annotation.html
+          anchor: kafka-receiving-messages-listener-annotation
+          virtual_path: docs/kafka/receiving-messages/listener-annotation.md
+        - title: Obtaining the Consumer group.id
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/listener-group-id.html
+          anchor: kafka-receiving-messages-listener-group-id
+          virtual_path: docs/kafka/receiving-messages/listener-group-id.md
+        - title: Container Thread Naming
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/container-thread-naming.html
+          anchor: kafka-receiving-messages-container-thread-naming
+          virtual_path: docs/kafka/receiving-messages/container-thread-naming.md
+        - title: '@KafkaListener as a Meta Annotation'
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/listener-meta.html
+          anchor: kafka-receiving-messages-listener-meta
+          virtual_path: docs/kafka/receiving-messages/listener-meta.md
+        - title: '@KafkaListener on a Class'
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/class-level-kafkalistener.html
+          anchor: kafka-receiving-messages-class-level-kafkalistener
+          virtual_path: docs/kafka/receiving-messages/class-level-kafkalistener.md
+        - title: '@KafkaListener Attribute Modification'
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/kafkalistener-attrs.html
+          anchor: kafka-receiving-messages-kafkalistener-attrs
+          virtual_path: docs/kafka/receiving-messages/kafkalistener-attrs.md
+        - title: '@KafkaListener Lifecycle Management'
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/kafkalistener-lifecycle.html
+          anchor: kafka-receiving-messages-kafkalistener-lifecycle
+          virtual_path: docs/kafka/receiving-messages/kafkalistener-lifecycle.md
+        - title: '@KafkaListener @Payload Validation'
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/validation.html
+          anchor: kafka-receiving-messages-validation
+          virtual_path: docs/kafka/receiving-messages/validation.md
+        - title: Rebalancing Listeners
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/rebalance-listeners.html
+          anchor: kafka-receiving-messages-rebalance-listeners
+          virtual_path: docs/kafka/receiving-messages/rebalance-listeners.md
+        - title: Enforcing Consumer Rebalance
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/enforced-rebalance.html
+          anchor: kafka-receiving-messages-enforced-rebalance
+          virtual_path: docs/kafka/receiving-messages/enforced-rebalance.md
+        - title: Forwarding Listener Results using @SendTo
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/annotation-send-to.html
+          anchor: kafka-receiving-messages-annotation-send-to
+          virtual_path: docs/kafka/receiving-messages/annotation-send-to.md
+        - title: Filtering Messages
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/filtering.html
+          anchor: kafka-receiving-messages-filtering
+          virtual_path: docs/kafka/receiving-messages/filtering.md
+        - title: Retrying Deliveries
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/retrying-deliveries.html
+          anchor: kafka-receiving-messages-retrying-deliveries
+          virtual_path: docs/kafka/receiving-messages/retrying-deliveries.md
+        - title: Starting @KafkaListener s in Sequence
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/sequencing.html
+          anchor: kafka-receiving-messages-sequencing
+          virtual_path: docs/kafka/receiving-messages/sequencing.md
+        - title: Using KafkaTemplate to Receive
+          kind: link
+          source_url: https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/template-receive.html
+          anchor: kafka-receiving-messages-template-receive
+          virtual_path: docs/kafka/receiving-messages/template-receive.md
+      - title: Listener Container Properties
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/container-props.html
+        anchor: kafka-container-props
+        virtual_path: docs/kafka/container-props.md
+      - title: Dynamically Creating Containers
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/dynamic-containers.html
+        anchor: kafka-dynamic-containers
+        virtual_path: docs/kafka/dynamic-containers.md
+      - title: Application Events
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/events.html
+        anchor: kafka-events
+        virtual_path: docs/kafka/events.md
+      - title: Topic/Partition Initial Offset
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/topic/partition-initial-offset.html
+        anchor: kafka-topic-partition-initial-offset
+        virtual_path: docs/kafka/topic/partition-initial-offset.md
+      - title: Seeking to a Specific Offset
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/seek.html
+        anchor: kafka-seek
+        virtual_path: docs/kafka/seek.md
+      - title: Container factory
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/container-factory.html
+        anchor: kafka-container-factory
+        virtual_path: docs/kafka/container-factory.md
+      - title: Thread Safety
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/thread-safety.html
+        anchor: kafka-thread-safety
+        virtual_path: docs/kafka/thread-safety.md
+      - title: Monitoring
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/micrometer.html
+        anchor: kafka-micrometer
+        virtual_path: docs/kafka/micrometer.md
+      - title: Transactions
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/transactions.html
+        anchor: kafka-transactions
+        virtual_path: docs/kafka/transactions.md
+      - title: Exactly Once Semantics
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/exactly-once.html
+        anchor: kafka-exactly-once
+        virtual_path: docs/kafka/exactly-once.md
+      - title: Wiring Spring Beans into Producer/Consumer Interceptors
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/interceptors.html
+        anchor: kafka-interceptors
+        virtual_path: docs/kafka/interceptors.md
+      - title: Producer Interceptor Managed in Spring
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/producer-interceptor-managed-in-spring.html
+        anchor: kafka-producer-interceptor-managed-in-spring
+        virtual_path: docs/kafka/producer-interceptor-managed-in-spring.md
+      - title: Pausing and Resuming Listener Containers
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/pause-resume.html
+        anchor: kafka-pause-resume
+        virtual_path: docs/kafka/pause-resume.md
+      - title: Pausing and Resuming Partitions on Listener Containers
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/pause-resume-partitions.html
+        anchor: kafka-pause-resume-partitions
+        virtual_path: docs/kafka/pause-resume-partitions.md
+      - title: Serialization, Deserialization, and Message Conversion
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/serdes.html
+        anchor: kafka-serdes
+        virtual_path: docs/kafka/serdes.md
+      - title: Message Headers
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/headers.html
+        anchor: kafka-headers
+        virtual_path: docs/kafka/headers.md
+      - title: Null Payloads and Log Compaction of 'Tombstone' Records
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/tombstones.html
+        anchor: kafka-tombstones
+        virtual_path: docs/kafka/tombstones.md
+      - title: Handling Exceptions
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/annotation-error-handling.html
+        anchor: kafka-annotation-error-handling
+        virtual_path: docs/kafka/annotation-error-handling.md
+      - title: JAAS and Kerberos
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/kerberos.html
+        anchor: kafka-kerberos
+        virtual_path: docs/kafka/kerberos.md
+      - title: Kafka Queues (Share Consumer)
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/kafka/kafka-queues.html
+        anchor: kafka-kafka-queues
+        virtual_path: docs/kafka/kafka-queues.md
+    - title: Non-Blocking Retries
+      kind: category
+      source_url: https://docs.spring.io/spring-kafka/reference/retrytopic.html
+      anchor: retrytopic
+      virtual_path: docs/retrytopic.md
+      children:
+      - title: How the Pattern Works
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/how-the-pattern-works.html
+        anchor: retrytopic-how-the-pattern-works
+        virtual_path: docs/retrytopic/how-the-pattern-works.md
+      - title: Back Off Delay Precision
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/back-off-delay-precision.html
+        anchor: retrytopic-back-off-delay-precision
+        virtual_path: docs/retrytopic/back-off-delay-precision.md
+      - title: Configuration
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/retry-config.html
+        anchor: retrytopic-retry-config
+        virtual_path: docs/retrytopic/retry-config.md
+      - title: Programmatic Construction
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/programmatic-construction.html
+        anchor: retrytopic-programmatic-construction
+        virtual_path: docs/retrytopic/programmatic-construction.md
+      - title: Features
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/features.html
+        anchor: retrytopic-features
+        virtual_path: docs/retrytopic/features.md
+      - title: Combining Blocking and Non-Blocking Retries
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/retry-topic-combine-blocking.html
+        anchor: retrytopic-retry-topic-combine-blocking
+        virtual_path: docs/retrytopic/retry-topic-combine-blocking.md
+      - title: Accessing Delivery Attempts
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/accessing-delivery-attempts.html
+        anchor: retrytopic-accessing-delivery-attempts
+        virtual_path: docs/retrytopic/accessing-delivery-attempts.md
+      - title: Topic Naming
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/topic-naming.html
+        anchor: retrytopic-topic-naming
+        virtual_path: docs/retrytopic/topic-naming.md
+      - title: Multiple Listeners, Same Topic(s)
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/multi-retry.html
+        anchor: retrytopic-multi-retry
+        virtual_path: docs/retrytopic/multi-retry.md
+      - title: DLT Strategies
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/dlt-strategies.html
+        anchor: retrytopic-dlt-strategies
+        virtual_path: docs/retrytopic/dlt-strategies.md
+      - title: Specifying a ListenerContainerFactory
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/retry-topic-lcf.html
+        anchor: retrytopic-retry-topic-lcf
+        virtual_path: docs/retrytopic/retry-topic-lcf.md
+      - title: Accessing Topics' Information at Runtime
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/access-topic-info-runtime.html
+        anchor: retrytopic-access-topic-info-runtime
+        virtual_path: docs/retrytopic/access-topic-info-runtime.md
+      - title: Changing KafkaBackOffException Logging Level
+        kind: link
+        source_url: https://docs.spring.io/spring-kafka/reference/retrytopic/change-kboe-logging-level.html
+        anchor: retrytopic-change-kboe-logging-level
+        virtual_path: docs/retrytopic/change-kboe-logging-level.md
+    - title: Apache Kafka Streams Support
+      kind: link
+      source_url: https://docs.spring.io/spring-kafka/reference/streams.html
+      anchor: streams
+      virtual_path: docs/streams.md
+    - title: Testing Applications
+      kind: link
+      source_url: https://docs.spring.io/spring-kafka/reference/testing.html
+      anchor: testing
+      virtual_path: docs/testing.md
+  - title: Tips, Tricks and Examples
+    kind: link
+    source_url: https://docs.spring.io/spring-kafka/reference/tips.html
+    anchor: tips
+    virtual_path: docs/tips.md
+  - title: Other Resources
+    kind: link
+    source_url: https://docs.spring.io/spring-kafka/reference/other-resources.html
+    anchor: other-resources
+    virtual_path: docs/other-resources.md
+  - title: Override Spring Boot Dependencies
+    kind: link
+    source_url: https://docs.spring.io/spring-kafka/reference/appendix/override-boot-dependencies.html
+    anchor: appendix-override-boot-dependencies
+    virtual_path: docs/appendix/override-boot-dependencies.md
+  - title: Micrometer Observation Documentation
+    kind: link
+    source_url: https://docs.spring.io/spring-kafka/reference/appendix/micrometer.html
+    anchor: appendix-micrometer
+    virtual_path: docs/appendix/micrometer.md
+  - title: Native Images
+    kind: link
+    source_url: https://docs.spring.io/spring-kafka/reference/appendix/native-images.html
+    anchor: appendix-native-images
+    virtual_path: docs/appendix/native-images.md
+  - title: Change History
+    kind: link
+    source_url: https://docs.spring.io/spring-kafka/reference/appendix/change-history.html
+    anchor: appendix-change-history
+    virtual_path: docs/appendix/change-history.md

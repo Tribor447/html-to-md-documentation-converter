@@ -1,0 +1,526 @@
+[
+  {
+    "title": "Spring AMQP",
+    "kind": "category",
+    "source_url": "https://docs.spring.io/spring-amqp/reference/index.html",
+    "anchor": "index",
+    "virtual_path": "docs/index.md",
+    "children": [
+      {
+        "title": "Spring AMQP",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-amqp/reference/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "What’s New",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-amqp/reference/whats-new.html",
+        "anchor": "whats-new",
+        "virtual_path": "docs/whats-new.md"
+      },
+      {
+        "title": "Introduction",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-amqp/reference/introduction/index.html",
+        "anchor": "introduction",
+        "virtual_path": "docs/introduction/index.md",
+        "children": [
+          {
+            "title": "Quick Tour for the impatient",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-amqp/reference/introduction/quick-tour.html",
+            "anchor": "introduction-quick-tour",
+            "virtual_path": "docs/introduction/quick-tour.md"
+          }
+        ]
+      },
+      {
+        "title": "Reference",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-amqp/reference/reference.html",
+        "anchor": "reference",
+        "virtual_path": "docs/reference.md",
+        "children": [
+          {
+            "title": "Using Spring AMQP",
+            "kind": "category",
+            "source_url": "https://docs.spring.io/spring-amqp/reference/amqp.html",
+            "anchor": "amqp",
+            "virtual_path": "docs/amqp.md",
+            "children": [
+              {
+                "title": "AMQP Abstractions",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/abstractions.html",
+                "anchor": "amqp-abstractions",
+                "virtual_path": "docs/amqp/abstractions.md"
+              },
+              {
+                "title": "Connection and Resource Management",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/connections.html",
+                "anchor": "amqp-connections",
+                "virtual_path": "docs/amqp/connections.md"
+              },
+              {
+                "title": "Adding Custom Client Connection Properties",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/custom-client-props.html",
+                "anchor": "amqp-custom-client-props",
+                "virtual_path": "docs/amqp/custom-client-props.md"
+              },
+              {
+                "title": "AmqpTemplate",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/template.html",
+                "anchor": "amqp-template",
+                "virtual_path": "docs/amqp/template.md"
+              },
+              {
+                "title": "Sending Messages",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/sending-messages.html",
+                "anchor": "amqp-sending-messages",
+                "virtual_path": "docs/amqp/sending-messages.md"
+              },
+              {
+                "title": "Receiving Messages",
+                "kind": "category",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages.html",
+                "anchor": "amqp-receiving-messages",
+                "virtual_path": "docs/amqp/receiving-messages.md",
+                "children": [
+                  {
+                    "title": "Polling Consumer",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/polling-consumer.html",
+                    "anchor": "amqp-receiving-messages-polling-consumer",
+                    "virtual_path": "docs/amqp/receiving-messages/polling-consumer.md"
+                  },
+                  {
+                    "title": "Asynchronous Consumer",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-consumer.html",
+                    "anchor": "amqp-receiving-messages-async-consumer",
+                    "virtual_path": "docs/amqp/receiving-messages/async-consumer.md"
+                  },
+                  {
+                    "title": "Batched Messages",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/de-batching.html",
+                    "anchor": "amqp-receiving-messages-de-batching",
+                    "virtual_path": "docs/amqp/receiving-messages/de-batching.md"
+                  },
+                  {
+                    "title": "Consumer Events",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/consumer-events.html",
+                    "anchor": "amqp-receiving-messages-consumer-events",
+                    "virtual_path": "docs/amqp/receiving-messages/consumer-events.md"
+                  },
+                  {
+                    "title": "Consumer Tags",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/consumerTags.html",
+                    "anchor": "amqp-receiving-messages-consumertags",
+                    "virtual_path": "docs/amqp/receiving-messages/consumerTags.md"
+                  },
+                  {
+                    "title": "Annotation-driven Listener Endpoints",
+                    "kind": "category",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven.html",
+                    "anchor": "amqp-receiving-messages-async-annotation-driven",
+                    "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven.md",
+                    "children": [
+                      {
+                        "title": "Meta-annotations",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/meta.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-meta",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/meta.md"
+                      },
+                      {
+                        "title": "Enable Listener Endpoint Annotations",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/enable.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-enable",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/enable.md"
+                      },
+                      {
+                        "title": "Message Conversion for Annotated Methods",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/conversion.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-conversion",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/conversion.md"
+                      },
+                      {
+                        "title": "Adding a Custom HandlerMethodArgumentResolver to @RabbitListener",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/custom-argument-resolver.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-custom-argument-resolver",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/custom-argument-resolver.md"
+                      },
+                      {
+                        "title": "Programmatic Endpoint Registration",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/registration.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-registration",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/registration.md"
+                      },
+                      {
+                        "title": "Annotated Endpoint Method Signature",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/enable-signature.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-enable-signature",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/enable-signature.md"
+                      },
+                      {
+                        "title": "@RabbitListener @Payload Validation",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/rabbit-validation.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-rabbit-validation",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/rabbit-validation.md"
+                      },
+                      {
+                        "title": "Listening to Multiple Queues",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/multiple-queues.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-multiple-queues",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/multiple-queues.md"
+                      },
+                      {
+                        "title": "Reply Management",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/reply.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-reply",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/reply.md"
+                      },
+                      {
+                        "title": "Reply ContentType",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/reply-content-type.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-reply-content-type",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/reply-content-type.md"
+                      },
+                      {
+                        "title": "Multi-method Listeners",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/method-selection.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-method-selection",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/method-selection.md"
+                      },
+                      {
+                        "title": "@Repeatable @RabbitListener",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/repeatable-rabbit-listener.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-repeatable-rabbit-listener",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/repeatable-rabbit-listener.md"
+                      },
+                      {
+                        "title": "Proxy @RabbitListener and Generics",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/proxy-rabbitlistener-and-generics.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-proxy-rabbitlistener-and-generics",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/proxy-rabbitlistener-and-generics.md"
+                      },
+                      {
+                        "title": "Handling Exceptions",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/error-handling.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-error-handling",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/error-handling.md"
+                      },
+                      {
+                        "title": "Container Management",
+                        "kind": "link",
+                        "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/container-management.html",
+                        "anchor": "amqp-receiving-messages-async-annotation-driven-container-management",
+                        "virtual_path": "docs/amqp/receiving-messages/async-annotation-driven/container-management.md"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "@RabbitListener with Batching",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/batch.html",
+                    "anchor": "amqp-receiving-messages-batch",
+                    "virtual_path": "docs/amqp/receiving-messages/batch.md"
+                  },
+                  {
+                    "title": "Using Container Factories",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/using-container-factories.html",
+                    "anchor": "amqp-receiving-messages-using-container-factories",
+                    "virtual_path": "docs/amqp/receiving-messages/using-container-factories.md"
+                  },
+                  {
+                    "title": "Asynchronous @RabbitListener Return Types",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-returns.html",
+                    "anchor": "amqp-receiving-messages-async-returns",
+                    "virtual_path": "docs/amqp/receiving-messages/async-returns.md"
+                  },
+                  {
+                    "title": "Threading and Asynchronous Consumers",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/threading.html",
+                    "anchor": "amqp-receiving-messages-threading",
+                    "virtual_path": "docs/amqp/receiving-messages/threading.md"
+                  },
+                  {
+                    "title": "Choosing a Container",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/choose-container.html",
+                    "anchor": "amqp-receiving-messages-choose-container",
+                    "virtual_path": "docs/amqp/receiving-messages/choose-container.md"
+                  },
+                  {
+                    "title": "Detecting Idle Asynchronous Consumers",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/idle-containers.html",
+                    "anchor": "amqp-receiving-messages-idle-containers",
+                    "virtual_path": "docs/amqp/receiving-messages/idle-containers.md"
+                  },
+                  {
+                    "title": "Micrometer Integration",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/micrometer.html",
+                    "anchor": "amqp-receiving-messages-micrometer",
+                    "virtual_path": "docs/amqp/receiving-messages/micrometer.md"
+                  },
+                  {
+                    "title": "Micrometer Observation",
+                    "kind": "link",
+                    "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/micrometer-observation.html",
+                    "anchor": "amqp-receiving-messages-micrometer-observation",
+                    "virtual_path": "docs/amqp/receiving-messages/micrometer-observation.md"
+                  }
+                ]
+              },
+              {
+                "title": "Containers and Broker-Named queues",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/containers-and-broker-named-queues.html",
+                "anchor": "amqp-containers-and-broker-named-queues",
+                "virtual_path": "docs/amqp/containers-and-broker-named-queues.md"
+              },
+              {
+                "title": "Message Converters",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/message-converters.html",
+                "anchor": "amqp-message-converters",
+                "virtual_path": "docs/amqp/message-converters.md"
+              },
+              {
+                "title": "Modifying Messages - Compression and More",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/post-processing.html",
+                "anchor": "amqp-post-processing",
+                "virtual_path": "docs/amqp/post-processing.md"
+              },
+              {
+                "title": "Request/Reply Messaging",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/request-reply.html",
+                "anchor": "amqp-request-reply",
+                "virtual_path": "docs/amqp/request-reply.md"
+              },
+              {
+                "title": "Configuring the Broker",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/broker-configuration.html",
+                "anchor": "amqp-broker-configuration",
+                "virtual_path": "docs/amqp/broker-configuration.md"
+              },
+              {
+                "title": "Broker Event Listener",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/broker-events.html",
+                "anchor": "amqp-broker-events",
+                "virtual_path": "docs/amqp/broker-events.md"
+              },
+              {
+                "title": "Delayed Message Exchange",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/delayed-message-exchange.html",
+                "anchor": "amqp-delayed-message-exchange",
+                "virtual_path": "docs/amqp/delayed-message-exchange.md"
+              },
+              {
+                "title": "RabbitMQ REST API",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/management-rest-api.html",
+                "anchor": "amqp-management-rest-api",
+                "virtual_path": "docs/amqp/management-rest-api.md"
+              },
+              {
+                "title": "Exception Handling",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/exception-handling.html",
+                "anchor": "amqp-exception-handling",
+                "virtual_path": "docs/amqp/exception-handling.md"
+              },
+              {
+                "title": "Transactions",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/transactions.html",
+                "anchor": "amqp-transactions",
+                "virtual_path": "docs/amqp/transactions.md"
+              },
+              {
+                "title": "Message Listener Container Configuration",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/containerAttributes.html",
+                "anchor": "amqp-containerattributes",
+                "virtual_path": "docs/amqp/containerAttributes.md"
+              },
+              {
+                "title": "Listener Concurrency",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/listener-concurrency.html",
+                "anchor": "amqp-listener-concurrency",
+                "virtual_path": "docs/amqp/listener-concurrency.md"
+              },
+              {
+                "title": "Exclusive Consumer",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/exclusive-consumer.html",
+                "anchor": "amqp-exclusive-consumer",
+                "virtual_path": "docs/amqp/exclusive-consumer.md"
+              },
+              {
+                "title": "Listener Container Queues",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/listener-queues.html",
+                "anchor": "amqp-listener-queues",
+                "virtual_path": "docs/amqp/listener-queues.md"
+              },
+              {
+                "title": "Resilience: Recovering from Errors and Broker Failures",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/resilience-recovering-from-errors-and-broker-failures.html",
+                "anchor": "amqp-resilience-recovering-from-errors-and-broker-failures",
+                "virtual_path": "docs/amqp/resilience-recovering-from-errors-and-broker-failures.md"
+              },
+              {
+                "title": "Multiple Broker (or Cluster) Support",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/multi-rabbit.html",
+                "anchor": "amqp-multi-rabbit",
+                "virtual_path": "docs/amqp/multi-rabbit.md"
+              },
+              {
+                "title": "Debugging",
+                "kind": "link",
+                "source_url": "https://docs.spring.io/spring-amqp/reference/amqp/debugging.html",
+                "anchor": "amqp-debugging",
+                "virtual_path": "docs/amqp/debugging.md"
+              }
+            ]
+          },
+          {
+            "title": "Generic AMQP 1.0 Support",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-amqp/reference/amqp10-client.html",
+            "anchor": "amqp10-client",
+            "virtual_path": "docs/amqp10-client.md"
+          },
+          {
+            "title": "Using the RabbitMQ Stream Plugin",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-amqp/reference/stream.html",
+            "anchor": "stream",
+            "virtual_path": "docs/stream.md"
+          },
+          {
+            "title": "RabbitMQ AMQP 1.0 Support",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-amqp/reference/rabbitmq-amqp-client.html",
+            "anchor": "rabbitmq-amqp-client",
+            "virtual_path": "docs/rabbitmq-amqp-client.md"
+          },
+          {
+            "title": "Logging Subsystem AMQP Appenders",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-amqp/reference/logging.html",
+            "anchor": "logging",
+            "virtual_path": "docs/logging.md"
+          },
+          {
+            "title": "Sample Applications",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-amqp/reference/sample-apps.html",
+            "anchor": "sample-apps",
+            "virtual_path": "docs/sample-apps.md"
+          },
+          {
+            "title": "Testing Support",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-amqp/reference/testing.html",
+            "anchor": "testing",
+            "virtual_path": "docs/testing.md"
+          }
+        ]
+      },
+      {
+        "title": "Spring Integration - Reference",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-amqp/reference/integration-reference.html",
+        "anchor": "integration-reference",
+        "virtual_path": "docs/integration-reference.md"
+      },
+      {
+        "title": "Other Resources",
+        "kind": "category",
+        "source_url": "https://docs.spring.io/spring-amqp/reference/resources.html",
+        "anchor": "resources",
+        "virtual_path": "docs/resources.md",
+        "children": [
+          {
+            "title": "Further Reading",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-amqp/reference/further-reading.html",
+            "anchor": "further-reading",
+            "virtual_path": "docs/further-reading.md"
+          }
+        ]
+      },
+      {
+        "title": "Micrometer Observation Documentation",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-amqp/reference/appendix/micrometer.html",
+        "anchor": "appendix-micrometer",
+        "virtual_path": "docs/appendix/micrometer.md"
+      },
+      {
+        "title": "Native Images",
+        "kind": "link",
+        "source_url": "https://docs.spring.io/spring-amqp/reference/appendix/native.html",
+        "anchor": "appendix-native",
+        "virtual_path": "docs/appendix/native.md"
+      },
+      {
+        "title": "Change History",
+        "kind": "category",
+        "children": [
+          {
+            "title": "Current Release",
+            "kind": "link",
+            "source_url": "https://docs.spring.io/spring-amqp/reference/appendix/current-release.html",
+            "anchor": "appendix-current-release",
+            "virtual_path": "docs/appendix/current-release.md"
+          },
+          {
+            "title": "Previous Releases",
+            "kind": "category",
+            "source_url": "https://docs.spring.io/spring-amqp/reference/appendix/previous-whats-new.html",
+            "anchor": "appendix-previous-whats-new",
+            "virtual_path": "docs/appendix/previous-whats-new.md"
+          }
+        ]
+      }
+    ]
+  }
+]

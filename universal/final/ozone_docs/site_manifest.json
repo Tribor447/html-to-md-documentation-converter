@@ -1,0 +1,2675 @@
+{
+  "entry_url": "https://ozone.apache.org/docs",
+  "site_prefix": "/docs/",
+  "site_slug": "ozone_docs",
+  "profile": "docusaurus",
+  "combined_markdown": "combined.md",
+  "page_count": 296,
+  "asset_count": 31,
+  "pages": [
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/appendix/",
+      "title": "Configuration Key Appendix",
+      "anchor": "administrator-guide-configuration-appendix",
+      "virtual_path": "docs/administrator-guide/configuration/appendix/index.md",
+      "profile": "docusaurus",
+      "score": 1877,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/configuration-files/",
+      "title": "Configuration Files",
+      "anchor": "administrator-guide-configuration-basic-configuration-files",
+      "virtual_path": "docs/administrator-guide/configuration/basic/configuration-files/index.md",
+      "profile": "docusaurus",
+      "score": 6260,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/directories/datanode/",
+      "title": "Directory Configurations for Datanodes",
+      "anchor": "administrator-guide-configuration-basic-directories-datanode",
+      "virtual_path": "docs/administrator-guide/configuration/basic/directories/datanode/index.md",
+      "profile": "docusaurus",
+      "score": 1881,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/directories/",
+      "title": "Directory Related Configurations",
+      "anchor": "administrator-guide-configuration-basic-directories",
+      "virtual_path": "docs/administrator-guide/configuration/basic/directories/index.md",
+      "profile": "docusaurus",
+      "score": 3428,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/directories/ozone-manager/",
+      "title": "Directory Configurations for Ozone Manager",
+      "anchor": "administrator-guide-configuration-basic-directories-ozone-manager",
+      "virtual_path": "docs/administrator-guide/configuration/basic/directories/ozone-manager/index.md",
+      "profile": "docusaurus",
+      "score": 3321,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/directories/recon/",
+      "title": "Directory Configurations for Recon",
+      "anchor": "administrator-guide-configuration-basic-directories-recon",
+      "virtual_path": "docs/administrator-guide/configuration/basic/directories/recon/index.md",
+      "profile": "docusaurus",
+      "score": 1860,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/directories/storage-container-manager/",
+      "title": "Directory Configurations for Storage Container Manager",
+      "anchor": "administrator-guide-configuration-basic-directories-storage-container-manager",
+      "virtual_path": "docs/administrator-guide/configuration/basic/directories/storage-container-manager/index.md",
+      "profile": "docusaurus",
+      "score": 1956,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/environment-variables/",
+      "title": "Environment Variables",
+      "anchor": "administrator-guide-configuration-basic-environment-variables",
+      "virtual_path": "docs/administrator-guide/configuration/basic/environment-variables/index.md",
+      "profile": "docusaurus",
+      "score": 8688,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/",
+      "title": "Basic Ozone Configuration",
+      "anchor": "administrator-guide-configuration-basic",
+      "virtual_path": "docs/administrator-guide/configuration/basic/index.md",
+      "profile": "docusaurus",
+      "score": 3414,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/datanode/",
+      "title": "Network Configuration for Datanodes",
+      "anchor": "administrator-guide-configuration-basic-network-datanode",
+      "virtual_path": "docs/administrator-guide/configuration/basic/network/datanode/index.md",
+      "profile": "docusaurus",
+      "score": 1881,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/default-ports/",
+      "title": "Default Ports Used by Ozone",
+      "anchor": "administrator-guide-configuration-basic-network-default-ports",
+      "virtual_path": "docs/administrator-guide/configuration/basic/network/default-ports/index.md",
+      "profile": "docusaurus",
+      "score": 9599,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/",
+      "title": "Network Related Configurations",
+      "anchor": "administrator-guide-configuration-basic-network",
+      "virtual_path": "docs/administrator-guide/configuration/basic/network/index.md",
+      "profile": "docusaurus",
+      "score": 4251,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/ozone-manager/",
+      "title": "Network Configuration for Ozone Manager",
+      "anchor": "administrator-guide-configuration-basic-network-ozone-manager",
+      "virtual_path": "docs/administrator-guide/configuration/basic/network/ozone-manager/index.md",
+      "profile": "docusaurus",
+      "score": 1901,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/recon/",
+      "title": "Network Configuration for Recon",
+      "anchor": "administrator-guide-configuration-basic-network-recon",
+      "virtual_path": "docs/administrator-guide/configuration/basic/network/recon/index.md",
+      "profile": "docusaurus",
+      "score": 1860,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/s3-gateway/",
+      "title": "Network Configuration for S3 Gateways",
+      "anchor": "administrator-guide-configuration-basic-network-s3-gateway",
+      "virtual_path": "docs/administrator-guide/configuration/basic/network/s3-gateway/index.md",
+      "profile": "docusaurus",
+      "score": 1891,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/basic/network/storage-container-manager/",
+      "title": "Network Configuration for Storage Container Manager",
+      "anchor": "administrator-guide-configuration-basic-network-storage-container-manager",
+      "virtual_path": "docs/administrator-guide/configuration/basic/network/storage-container-manager/index.md",
+      "profile": "docusaurus",
+      "score": 1957,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/high-availability/client-failover/",
+      "title": "HA Client Failover",
+      "anchor": "administrator-guide-configuration-high-availability-client-failover",
+      "virtual_path": "docs/administrator-guide/configuration/high-availability/client-failover/index.md",
+      "profile": "docusaurus",
+      "score": 9106,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/high-availability/",
+      "title": "High Availability",
+      "anchor": "administrator-guide-configuration-high-availability",
+      "virtual_path": "docs/administrator-guide/configuration/high-availability/index.md",
+      "profile": "docusaurus",
+      "score": 2993,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/high-availability/om-ha/",
+      "title": "Ozone Manager High Availability",
+      "anchor": "administrator-guide-configuration-high-availability-om-ha",
+      "virtual_path": "docs/administrator-guide/configuration/high-availability/om-ha/index.md",
+      "profile": "docusaurus",
+      "score": 13767,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/high-availability/scm-ha/",
+      "title": "SCM High Availability Configuration",
+      "anchor": "administrator-guide-configuration-high-availability-scm-ha",
+      "virtual_path": "docs/administrator-guide/configuration/high-availability/scm-ha/index.md",
+      "profile": "docusaurus",
+      "score": 17184,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/",
+      "title": "Configuring Ozone For Production",
+      "anchor": "administrator-guide-configuration",
+      "virtual_path": "docs/administrator-guide/configuration/index.md",
+      "profile": "docusaurus",
+      "score": 4036,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/logging/application-logs/",
+      "title": "Configuring Application Logs",
+      "anchor": "administrator-guide-configuration-logging-application-logs",
+      "virtual_path": "docs/administrator-guide/configuration/logging/application-logs/index.md",
+      "profile": "docusaurus",
+      "score": 8591,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/logging/audit-logs/",
+      "title": "Configuring Audit Logs",
+      "anchor": "administrator-guide-configuration-logging-audit-logs",
+      "virtual_path": "docs/administrator-guide/configuration/logging/audit-logs/index.md",
+      "profile": "docusaurus",
+      "score": 5054,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/logging/",
+      "title": "Logging Configuration",
+      "anchor": "administrator-guide-configuration-logging",
+      "virtual_path": "docs/administrator-guide/configuration/logging/index.md",
+      "profile": "docusaurus",
+      "score": 2511,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/calculating-ec-pipeline-limits/",
+      "title": "Calculating EC Pipeline Limits",
+      "anchor": "administrator-guide-configuration-performance-calculating-ec-pipeline-limits",
+      "virtual_path": "docs/administrator-guide/configuration/performance/calculating-ec-pipeline-limits/index.md",
+      "profile": "docusaurus",
+      "score": 5305,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/calculating-ratis-pipeline-limits/",
+      "title": "Calculating Ratis Pipeline Limits",
+      "anchor": "administrator-guide-configuration-performance-calculating-ratis-pipeline-limits",
+      "virtual_path": "docs/administrator-guide/configuration/performance/calculating-ratis-pipeline-limits/index.md",
+      "profile": "docusaurus",
+      "score": 6288,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/fair-call-queue/",
+      "title": "Fairness",
+      "anchor": "administrator-guide-configuration-performance-fair-call-queue",
+      "virtual_path": "docs/administrator-guide/configuration/performance/fair-call-queue/index.md",
+      "profile": "docusaurus",
+      "score": 10382,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/",
+      "title": "Performance Related Configurations",
+      "anchor": "administrator-guide-configuration-performance",
+      "virtual_path": "docs/administrator-guide/configuration/performance/index.md",
+      "profile": "docusaurus",
+      "score": 6036,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/multi-raft/",
+      "title": "Multi-Raft",
+      "anchor": "administrator-guide-configuration-performance-multi-raft",
+      "virtual_path": "docs/administrator-guide/configuration/performance/multi-raft/index.md",
+      "profile": "docusaurus",
+      "score": 10262,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/placeholder/",
+      "title": "Production Deployment",
+      "anchor": "administrator-guide-configuration-performance-placeholder",
+      "virtual_path": "docs/administrator-guide/configuration/performance/placeholder/index.md",
+      "profile": "docusaurus",
+      "score": 9951,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/rocksdb/",
+      "title": "RocksDB in Apache Ozone",
+      "anchor": "administrator-guide-configuration-performance-rocksdb",
+      "virtual_path": "docs/administrator-guide/configuration/performance/rocksdb/index.md",
+      "profile": "docusaurus",
+      "score": 21151,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/s3-gateway-load-balancing/",
+      "title": "Using Multiple S3 Gateways for Load Balancing",
+      "anchor": "administrator-guide-configuration-performance-s3-gateway-load-balancing",
+      "virtual_path": "docs/administrator-guide/configuration/performance/s3-gateway-load-balancing/index.md",
+      "profile": "docusaurus",
+      "score": 3460,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/streaming-write-pipeline/",
+      "title": "Streaming Write Pipeline",
+      "anchor": "administrator-guide-configuration-performance-streaming-write-pipeline",
+      "virtual_path": "docs/administrator-guide/configuration/performance/streaming-write-pipeline/index.md",
+      "profile": "docusaurus",
+      "score": 12432,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/performance/topology/",
+      "title": "Configuring Network Topology",
+      "anchor": "administrator-guide-configuration-performance-topology",
+      "virtual_path": "docs/administrator-guide/configuration/performance/topology/index.md",
+      "profile": "docusaurus",
+      "score": 21162,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/administrators/",
+      "title": "Configuring Ozone Administrators",
+      "anchor": "administrator-guide-configuration-security-administrators",
+      "virtual_path": "docs/administrator-guide/configuration/security/administrators/index.md",
+      "profile": "docusaurus",
+      "score": 7015,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/",
+      "title": "Encryption Configuration",
+      "anchor": "administrator-guide-configuration-security-encryption",
+      "virtual_path": "docs/administrator-guide/configuration/security/encryption/index.md",
+      "profile": "docusaurus",
+      "score": 2691,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/network-encryption/grpc/",
+      "title": "Configuring gRPC With TLS",
+      "anchor": "administrator-guide-configuration-security-encryption-network-encryption-grpc",
+      "virtual_path": "docs/administrator-guide/configuration/security/encryption/network-encryption/grpc/index.md",
+      "profile": "docusaurus",
+      "score": 5351,
+      "depth": 6
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/network-encryption/hadoop-rpc/",
+      "title": "Configuring Hadoop RPC With SASL",
+      "anchor": "administrator-guide-configuration-security-encryption-network-encryption-hadoop-rpc",
+      "virtual_path": "docs/administrator-guide/configuration/security/encryption/network-encryption/hadoop-rpc/index.md",
+      "profile": "docusaurus",
+      "score": 3973,
+      "depth": 6
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/network-encryption/",
+      "title": "Network Encryption Configuration",
+      "anchor": "administrator-guide-configuration-security-encryption-network-encryption",
+      "virtual_path": "docs/administrator-guide/configuration/security/encryption/network-encryption/index.md",
+      "profile": "docusaurus",
+      "score": 3366,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/network-encryption/web-ui-https/",
+      "title": "Configuring HTTPS for Web UI",
+      "anchor": "administrator-guide-configuration-security-encryption-network-encryption-web-ui-https",
+      "virtual_path": "docs/administrator-guide/configuration/security/encryption/network-encryption/web-ui-https/index.md",
+      "profile": "docusaurus",
+      "score": 17837,
+      "depth": 6
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/encryption/transparent-data-encryption/",
+      "title": "Transparent Data Encryption (TDE)",
+      "anchor": "administrator-guide-configuration-security-encryption-transparent-data-encryption",
+      "virtual_path": "docs/administrator-guide/configuration/security/encryption/transparent-data-encryption/index.md",
+      "profile": "docusaurus",
+      "score": 19666,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/https/",
+      "title": "Configuring HTTP authentication using Kerberos SPNEGO",
+      "anchor": "administrator-guide-configuration-security-https",
+      "virtual_path": "docs/administrator-guide/configuration/security/https/index.md",
+      "profile": "docusaurus",
+      "score": 11527,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/",
+      "title": "Security Configuration",
+      "anchor": "administrator-guide-configuration-security",
+      "virtual_path": "docs/administrator-guide/configuration/security/index.md",
+      "profile": "docusaurus",
+      "score": 5142,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/kerberos/",
+      "title": "Configuring Kerberos",
+      "anchor": "administrator-guide-configuration-security-kerberos",
+      "virtual_path": "docs/administrator-guide/configuration/security/kerberos/index.md",
+      "profile": "docusaurus",
+      "score": 10525,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/knox/",
+      "title": "Configuring Apache Knox",
+      "anchor": "administrator-guide-configuration-security-knox",
+      "virtual_path": "docs/administrator-guide/configuration/security/knox/index.md",
+      "profile": "docusaurus",
+      "score": 1860,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/ranger/",
+      "title": "Configuring Apache Ranger",
+      "anchor": "administrator-guide-configuration-security-ranger",
+      "virtual_path": "docs/administrator-guide/configuration/security/ranger/index.md",
+      "profile": "docusaurus",
+      "score": 5577,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/configuration/security/securing-s3-secrets/",
+      "title": "External S3 Secret Storage with HashiCorp Vault",
+      "anchor": "administrator-guide-configuration-security-securing-s3-secrets",
+      "virtual_path": "docs/administrator-guide/configuration/security/securing-s3-secrets/index.md",
+      "profile": "docusaurus",
+      "score": 8475,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/",
+      "title": "Administrator Guide",
+      "anchor": "administrator-guide",
+      "virtual_path": "docs/administrator-guide/index.md",
+      "profile": "docusaurus",
+      "score": 3048,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/deployment-architecture/",
+      "title": "Deployment Architecture",
+      "anchor": "administrator-guide-installation-deployment-architecture",
+      "virtual_path": "docs/administrator-guide/installation/deployment-architecture/index.md",
+      "profile": "docusaurus",
+      "score": 1910,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/hardware-and-sizing/",
+      "title": "Hardware and Sizing",
+      "anchor": "administrator-guide-installation-hardware-and-sizing",
+      "virtual_path": "docs/administrator-guide/installation/hardware-and-sizing/index.md",
+      "profile": "docusaurus",
+      "score": 14307,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/",
+      "title": "Installing Ozone In Production",
+      "anchor": "administrator-guide-installation",
+      "virtual_path": "docs/administrator-guide/installation/index.md",
+      "profile": "docusaurus",
+      "score": 4141,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/initializing-cluster/",
+      "title": "Initializing Cluster",
+      "anchor": "administrator-guide-installation-initializing-cluster",
+      "virtual_path": "docs/administrator-guide/installation/initializing-cluster/index.md",
+      "profile": "docusaurus",
+      "score": 10774,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/installing-binaries/",
+      "title": "Installing the Ozone Binaries",
+      "anchor": "administrator-guide-installation-installing-binaries",
+      "virtual_path": "docs/administrator-guide/installation/installing-binaries/index.md",
+      "profile": "docusaurus",
+      "score": 5734,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/installation/reference-architecture/",
+      "title": "Reference Architecture",
+      "anchor": "administrator-guide-installation-reference-architecture",
+      "virtual_path": "docs/administrator-guide/installation/reference-architecture/index.md",
+      "profile": "docusaurus",
+      "score": 2653,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/certificate-rotation/",
+      "title": "Certificate Rotation",
+      "anchor": "administrator-guide-operations-certificate-rotation",
+      "virtual_path": "docs/administrator-guide/operations/certificate-rotation/index.md",
+      "profile": "docusaurus",
+      "score": 2298,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/container-replication-report/",
+      "title": "Container Replication Report",
+      "anchor": "administrator-guide-operations-container-replication-report",
+      "virtual_path": "docs/administrator-guide/operations/container-replication-report/index.md",
+      "profile": "docusaurus",
+      "score": 6099,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/data-balancing/container-balancer/",
+      "title": "Container Balancer",
+      "anchor": "administrator-guide-operations-data-balancing-container-balancer",
+      "virtual_path": "docs/administrator-guide/operations/data-balancing/container-balancer/index.md",
+      "profile": "docusaurus",
+      "score": 10655,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/data-balancing/",
+      "title": "README",
+      "anchor": "administrator-guide-operations-data-balancing",
+      "virtual_path": "docs/administrator-guide/operations/data-balancing/index.md",
+      "profile": "docusaurus",
+      "score": 2258,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/disk-replacement/datanodes/",
+      "title": "Replacing Datanode Disks",
+      "anchor": "administrator-guide-operations-disk-replacement-datanodes",
+      "virtual_path": "docs/administrator-guide/operations/disk-replacement/datanodes/index.md",
+      "profile": "docusaurus",
+      "score": 19425,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/disk-replacement/",
+      "title": "Disk Replacement",
+      "anchor": "administrator-guide-operations-disk-replacement",
+      "virtual_path": "docs/administrator-guide/operations/disk-replacement/index.md",
+      "profile": "docusaurus",
+      "score": 3241,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/disk-replacement/ozone-manager/",
+      "title": "Replacing Ozone Manager Disks",
+      "anchor": "administrator-guide-operations-disk-replacement-ozone-manager",
+      "virtual_path": "docs/administrator-guide/operations/disk-replacement/ozone-manager/index.md",
+      "profile": "docusaurus",
+      "score": 13723,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/disk-replacement/recon/",
+      "title": "Replacing Recon Disks",
+      "anchor": "administrator-guide-operations-disk-replacement-recon",
+      "virtual_path": "docs/administrator-guide/operations/disk-replacement/recon/index.md",
+      "profile": "docusaurus",
+      "score": 15408,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/disk-replacement/storage-container-manager/",
+      "title": "Replacing Storage Container Manager Disks",
+      "anchor": "administrator-guide-operations-disk-replacement-storage-container-manager",
+      "virtual_path": "docs/administrator-guide/operations/disk-replacement/storage-container-manager/index.md",
+      "profile": "docusaurus",
+      "score": 17198,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/dynamic-property-reload/",
+      "title": "Dynamic Property Reload",
+      "anchor": "administrator-guide-operations-dynamic-property-reload",
+      "virtual_path": "docs/administrator-guide/operations/dynamic-property-reload/index.md",
+      "profile": "docusaurus",
+      "score": 17031,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/",
+      "title": "Administrator Operations",
+      "anchor": "administrator-guide-operations",
+      "virtual_path": "docs/administrator-guide/operations/index.md",
+      "profile": "docusaurus",
+      "score": 8354,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/leader-transfer/",
+      "title": "Leader Transfer",
+      "anchor": "administrator-guide-operations-leader-transfer",
+      "virtual_path": "docs/administrator-guide/operations/leader-transfer/index.md",
+      "profile": "docusaurus",
+      "score": 2715,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/leader-transfer/ozone-manager/",
+      "title": "Ozone Manager Leader Transfer",
+      "anchor": "administrator-guide-operations-leader-transfer-ozone-manager",
+      "virtual_path": "docs/administrator-guide/operations/leader-transfer/ozone-manager/index.md",
+      "profile": "docusaurus",
+      "score": 4122,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/leader-transfer/storage-container-manager/",
+      "title": "Storage Container Manager Leader Transfer",
+      "anchor": "administrator-guide-operations-leader-transfer-storage-container-manager",
+      "virtual_path": "docs/administrator-guide/operations/leader-transfer/storage-container-manager/index.md",
+      "profile": "docusaurus",
+      "score": 4502,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/datanode-decommission/",
+      "title": "Datanode Decommission",
+      "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance-datanodes-datanode-decommission",
+      "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/datanode-decommission/index.md",
+      "profile": "docusaurus",
+      "score": 15331,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/datanode-maintenance/",
+      "title": "Datanode Maintenance Mode",
+      "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance-datanodes-datanode-maintenance",
+      "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/datanode-maintenance/index.md",
+      "profile": "docusaurus",
+      "score": 9761,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/",
+      "title": "Datanode Decommissioning and Maintenance",
+      "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance-datanodes",
+      "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/datanodes/index.md",
+      "profile": "docusaurus",
+      "score": 5071,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/",
+      "title": "Node Decommissioning and Maintenance",
+      "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance",
+      "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/index.md",
+      "profile": "docusaurus",
+      "score": 3059,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/ozone-manager/",
+      "title": "Decommissioning an Ozone Manager",
+      "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance-ozone-manager",
+      "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/ozone-manager/index.md",
+      "profile": "docusaurus",
+      "score": 3342,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/node-decommissioning-and-maintenance/storage-container-manager/",
+      "title": "Decommissioning a Storage Container Manager",
+      "anchor": "administrator-guide-operations-node-decommissioning-and-maintenance-storage-container-manager",
+      "virtual_path": "docs/administrator-guide/operations/node-decommissioning-and-maintenance/storage-container-manager/index.md",
+      "profile": "docusaurus",
+      "score": 5134,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/cli/",
+      "title": "CLI",
+      "anchor": "administrator-guide-operations-observability-cli",
+      "virtual_path": "docs/administrator-guide/operations/observability/cli/index.md",
+      "profile": "docusaurus",
+      "score": 8675,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/distributed-tracing/",
+      "title": "Distributed tracing",
+      "anchor": "administrator-guide-operations-observability-distributed-tracing",
+      "virtual_path": "docs/administrator-guide/operations/observability/distributed-tracing/index.md",
+      "profile": "docusaurus",
+      "score": 3503,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/grafana/",
+      "title": "Dashboarding With Grafana",
+      "anchor": "administrator-guide-operations-observability-grafana",
+      "virtual_path": "docs/administrator-guide/operations/observability/grafana/index.md",
+      "profile": "docusaurus",
+      "score": 5288,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/",
+      "title": "Observability",
+      "anchor": "administrator-guide-operations-observability",
+      "virtual_path": "docs/administrator-guide/operations/observability/index.md",
+      "profile": "docusaurus",
+      "score": 4258,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/prometheus/",
+      "title": "Tracking Metrics With Prometheus",
+      "anchor": "administrator-guide-operations-observability-prometheus",
+      "virtual_path": "docs/administrator-guide/operations/observability/prometheus/index.md",
+      "profile": "docusaurus",
+      "score": 3547,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/recon/",
+      "title": "Recon",
+      "anchor": "administrator-guide-operations-observability-recon",
+      "virtual_path": "docs/administrator-guide/operations/observability/recon/index.md",
+      "profile": "docusaurus",
+      "score": 2649,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/recon/recon-rest-api/",
+      "title": "Recon REST API",
+      "anchor": "administrator-guide-operations-observability-recon-recon-rest-api",
+      "virtual_path": "docs/administrator-guide/operations/observability/recon/recon-rest-api/index.md",
+      "profile": "docusaurus",
+      "score": 2252,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/recon/recon-web-ui/",
+      "title": "Recon Web UI",
+      "anchor": "administrator-guide-operations-observability-recon-recon-web-ui",
+      "virtual_path": "docs/administrator-guide/operations/observability/recon/recon-web-ui/index.md",
+      "profile": "docusaurus",
+      "score": 1820,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/observability/web-uis/",
+      "title": "Web UIs",
+      "anchor": "administrator-guide-operations-observability-web-uis",
+      "virtual_path": "docs/administrator-guide/operations/observability/web-uis/index.md",
+      "profile": "docusaurus",
+      "score": 5513,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/quota/",
+      "title": "Quota in Ozone",
+      "anchor": "administrator-guide-operations-quota",
+      "virtual_path": "docs/administrator-guide/operations/quota/index.md",
+      "profile": "docusaurus",
+      "score": 11454,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/s3-multi-tenancy/access-control/",
+      "title": "Access Control with Ranger",
+      "anchor": "administrator-guide-operations-s3-multi-tenancy-access-control",
+      "virtual_path": "docs/administrator-guide/operations/s3-multi-tenancy/access-control/index.md",
+      "profile": "docusaurus",
+      "score": 10483,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/s3-multi-tenancy/",
+      "title": "S3 Multi-Tenancy",
+      "anchor": "administrator-guide-operations-s3-multi-tenancy",
+      "virtual_path": "docs/administrator-guide/operations/s3-multi-tenancy/index.md",
+      "profile": "docusaurus",
+      "score": 3373,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/s3-multi-tenancy/overview/",
+      "title": "S3 Multi-Tenancy Overview",
+      "anchor": "administrator-guide-operations-s3-multi-tenancy-overview",
+      "virtual_path": "docs/administrator-guide/operations/s3-multi-tenancy/overview/index.md",
+      "profile": "docusaurus",
+      "score": 6818,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/s3-multi-tenancy/setup/",
+      "title": "Multi-Tenancy Setup",
+      "anchor": "administrator-guide-operations-s3-multi-tenancy-setup",
+      "virtual_path": "docs/administrator-guide/operations/s3-multi-tenancy/setup/index.md",
+      "profile": "docusaurus",
+      "score": 7077,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/s3-multi-tenancy/tenant-commands/",
+      "title": "Tenant Commands",
+      "anchor": "administrator-guide-operations-s3-multi-tenancy-tenant-commands",
+      "virtual_path": "docs/administrator-guide/operations/s3-multi-tenancy/tenant-commands/index.md",
+      "profile": "docusaurus",
+      "score": 30516,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/snapshots/configuration-properties/",
+      "title": "Snapshot Configuration Properties",
+      "anchor": "administrator-guide-operations-snapshots-configuration-properties",
+      "virtual_path": "docs/administrator-guide/operations/snapshots/configuration-properties/index.md",
+      "profile": "docusaurus",
+      "score": 9453,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/snapshots/",
+      "title": "Snapshots",
+      "anchor": "administrator-guide-operations-snapshots",
+      "virtual_path": "docs/administrator-guide/operations/snapshots/index.md",
+      "profile": "docusaurus",
+      "score": 2466,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/snapshots/overview/",
+      "title": "Snapshots Overview",
+      "anchor": "administrator-guide-operations-snapshots-overview",
+      "virtual_path": "docs/administrator-guide/operations/snapshots/overview/index.md",
+      "profile": "docusaurus",
+      "score": 25985,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/start-and-stop/",
+      "title": "Starting and Stopping the Ozone Cluster",
+      "anchor": "administrator-guide-operations-start-and-stop",
+      "virtual_path": "docs/administrator-guide/operations/start-and-stop/index.md",
+      "profile": "docusaurus",
+      "score": 7537,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/",
+      "title": "Tools",
+      "anchor": "administrator-guide-operations-tools",
+      "virtual_path": "docs/administrator-guide/operations/tools/index.md",
+      "profile": "docusaurus",
+      "score": 5632,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-admin/",
+      "title": "Ozone Admin",
+      "anchor": "administrator-guide-operations-tools-ozone-admin",
+      "virtual_path": "docs/administrator-guide/operations/tools/ozone-admin/index.md",
+      "profile": "docusaurus",
+      "score": 4817,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/audit-parser-exact/",
+      "title": "Audit Parser",
+      "anchor": "administrator-guide-operations-tools-ozone-debug-audit-parser-exact",
+      "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/audit-parser-exact/index.md",
+      "profile": "docusaurus",
+      "score": 5198,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/container-replica-debugger-tool/",
+      "title": "Container Replica Debugger Tool",
+      "anchor": "administrator-guide-operations-tools-ozone-debug-container-replica-debugger-tool",
+      "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/container-replica-debugger-tool/index.md",
+      "profile": "docusaurus",
+      "score": 20160,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/debug-datanode/",
+      "title": "Debug Datanode",
+      "anchor": "administrator-guide-operations-tools-ozone-debug-debug-datanode",
+      "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/debug-datanode/index.md",
+      "profile": "docusaurus",
+      "score": 3047,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/debug-om/",
+      "title": "Debug OM",
+      "anchor": "administrator-guide-operations-tools-ozone-debug-debug-om",
+      "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/debug-om/index.md",
+      "profile": "docusaurus",
+      "score": 4459,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/debug-replicas/",
+      "title": "Debug Replicas",
+      "anchor": "administrator-guide-operations-tools-ozone-debug-debug-replicas",
+      "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/debug-replicas/index.md",
+      "profile": "docusaurus",
+      "score": 7281,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/",
+      "title": "Debug Tools",
+      "anchor": "administrator-guide-operations-tools-ozone-debug",
+      "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/index.md",
+      "profile": "docusaurus",
+      "score": 5868,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/ldb-tool/",
+      "title": "LDB Tool",
+      "anchor": "administrator-guide-operations-tools-ozone-debug-ldb-tool",
+      "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/ldb-tool/index.md",
+      "profile": "docusaurus",
+      "score": 19227,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-debug/ratis-log-parser/",
+      "title": "Ratis Log Parser",
+      "anchor": "administrator-guide-operations-tools-ozone-debug-ratis-log-parser",
+      "virtual_path": "docs/administrator-guide/operations/tools/ozone-debug/ratis-log-parser/index.md",
+      "profile": "docusaurus",
+      "score": 2955,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/tools/ozone-repair/",
+      "title": "Ozone Repair",
+      "anchor": "administrator-guide-operations-tools-ozone-repair",
+      "virtual_path": "docs/administrator-guide/operations/tools/ozone-repair/index.md",
+      "profile": "docusaurus",
+      "score": 20250,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/trash/",
+      "title": "Trash",
+      "anchor": "administrator-guide-operations-trash",
+      "virtual_path": "docs/administrator-guide/operations/trash/index.md",
+      "profile": "docusaurus",
+      "score": 6668,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/administrator-guide/operations/upgrade-and-downgrade/",
+      "title": "Upgrade and Downgrade",
+      "anchor": "administrator-guide-operations-upgrade-and-downgrade",
+      "virtual_path": "docs/administrator-guide/operations/upgrade-and-downgrade/index.md",
+      "profile": "docusaurus",
+      "score": 9646,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/datanodes/",
+      "title": "Datanodes",
+      "anchor": "core-concepts-architecture-datanodes",
+      "virtual_path": "docs/core-concepts/architecture/datanodes/index.md",
+      "profile": "docusaurus",
+      "score": 11725,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/",
+      "title": "Architecture",
+      "anchor": "core-concepts-architecture",
+      "virtual_path": "docs/core-concepts/architecture/index.md",
+      "profile": "docusaurus",
+      "score": 4401,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/overview/",
+      "title": "Overview",
+      "anchor": "core-concepts-architecture-overview",
+      "virtual_path": "docs/core-concepts/architecture/overview/index.md",
+      "profile": "docusaurus",
+      "score": 6279,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/ozone-manager/",
+      "title": "Ozone Manager",
+      "anchor": "core-concepts-architecture-ozone-manager",
+      "virtual_path": "docs/core-concepts/architecture/ozone-manager/index.md",
+      "profile": "docusaurus",
+      "score": 10590,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/recon/",
+      "title": "Recon",
+      "anchor": "core-concepts-architecture-recon",
+      "virtual_path": "docs/core-concepts/architecture/recon/index.md",
+      "profile": "docusaurus",
+      "score": 13452,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/s3-gateway/",
+      "title": "Ozone S3 Gateway",
+      "anchor": "core-concepts-architecture-s3-gateway",
+      "virtual_path": "docs/core-concepts/architecture/s3-gateway/index.md",
+      "profile": "docusaurus",
+      "score": 10744,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/architecture/storage-container-manager/",
+      "title": "Storage Container Manager",
+      "anchor": "core-concepts-architecture-storage-container-manager",
+      "virtual_path": "docs/core-concepts/architecture/storage-container-manager/index.md",
+      "profile": "docusaurus",
+      "score": 10542,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/comparison/",
+      "title": "Comparison with Other Storage Technologies",
+      "anchor": "core-concepts-comparison",
+      "virtual_path": "docs/core-concepts/comparison/index.md",
+      "profile": "docusaurus",
+      "score": 7926,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/high-availability/",
+      "title": "High Availability",
+      "anchor": "core-concepts-high-availability",
+      "virtual_path": "docs/core-concepts/high-availability/index.md",
+      "profile": "docusaurus",
+      "score": 2818,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/high-availability/om-ha/",
+      "title": "Ozone Manager High Availability",
+      "anchor": "core-concepts-high-availability-om-ha",
+      "virtual_path": "docs/core-concepts/high-availability/om-ha/index.md",
+      "profile": "docusaurus",
+      "score": 4602,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/high-availability/scm-ha/",
+      "title": "SCM High Availability",
+      "anchor": "core-concepts-high-availability-scm-ha",
+      "virtual_path": "docs/core-concepts/high-availability/scm-ha/index.md",
+      "profile": "docusaurus",
+      "score": 3661,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/",
+      "title": "Core Concepts",
+      "anchor": "core-concepts",
+      "virtual_path": "docs/core-concepts/index.md",
+      "profile": "docusaurus",
+      "score": 4213,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/encryption/",
+      "title": "Bucket Level Encryption",
+      "anchor": "core-concepts-namespace-buckets-encryption",
+      "virtual_path": "docs/core-concepts/namespace/buckets/encryption/index.md",
+      "profile": "docusaurus",
+      "score": 2598,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/",
+      "title": "Buckets",
+      "anchor": "core-concepts-namespace-buckets",
+      "virtual_path": "docs/core-concepts/namespace/buckets/index.md",
+      "profile": "docusaurus",
+      "score": 5066,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/layouts/file-system-optimized/",
+      "title": "File System Optimized Buckets (FSO)",
+      "anchor": "core-concepts-namespace-buckets-layouts-file-system-optimized",
+      "virtual_path": "docs/core-concepts/namespace/buckets/layouts/file-system-optimized/index.md",
+      "profile": "docusaurus",
+      "score": 8171,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/layouts/",
+      "title": "Bucket Layouts",
+      "anchor": "core-concepts-namespace-buckets-layouts",
+      "virtual_path": "docs/core-concepts/namespace/buckets/layouts/index.md",
+      "profile": "docusaurus",
+      "score": 2571,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/layouts/object-store/",
+      "title": "Object Store Buckets (OBS)",
+      "anchor": "core-concepts-namespace-buckets-layouts-object-store",
+      "virtual_path": "docs/core-concepts/namespace/buckets/layouts/object-store/index.md",
+      "profile": "docusaurus",
+      "score": 14119,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/links/",
+      "title": "Bucket Links",
+      "anchor": "core-concepts-namespace-buckets-links",
+      "virtual_path": "docs/core-concepts/namespace/buckets/links/index.md",
+      "profile": "docusaurus",
+      "score": 6989,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/overview/",
+      "title": "Buckets Overview",
+      "anchor": "core-concepts-namespace-buckets-overview",
+      "virtual_path": "docs/core-concepts/namespace/buckets/overview/index.md",
+      "profile": "docusaurus",
+      "score": 9743,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/owners/",
+      "title": "Bucket Owners",
+      "anchor": "core-concepts-namespace-buckets-owners",
+      "virtual_path": "docs/core-concepts/namespace/buckets/owners/index.md",
+      "profile": "docusaurus",
+      "score": 9797,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/quotas/",
+      "title": "Bucket Quotas",
+      "anchor": "core-concepts-namespace-buckets-quotas",
+      "virtual_path": "docs/core-concepts/namespace/buckets/quotas/index.md",
+      "profile": "docusaurus",
+      "score": 2399,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/replication/",
+      "title": "Bucket Level Default Replication Type",
+      "anchor": "core-concepts-namespace-buckets-replication",
+      "virtual_path": "docs/core-concepts/namespace/buckets/replication/index.md",
+      "profile": "docusaurus",
+      "score": 1953,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/buckets/snapshots/",
+      "title": "Bucket Snapshots",
+      "anchor": "core-concepts-namespace-buckets-snapshots",
+      "virtual_path": "docs/core-concepts/namespace/buckets/snapshots/index.md",
+      "profile": "docusaurus",
+      "score": 3048,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/",
+      "title": "Namespace Layout",
+      "anchor": "core-concepts-namespace",
+      "virtual_path": "docs/core-concepts/namespace/index.md",
+      "profile": "docusaurus",
+      "score": 3234,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/keys/",
+      "title": "Keys",
+      "anchor": "core-concepts-namespace-keys",
+      "virtual_path": "docs/core-concepts/namespace/keys/index.md",
+      "profile": "docusaurus",
+      "score": 2325,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/keys/overview/",
+      "title": "Keys",
+      "anchor": "core-concepts-namespace-keys-overview",
+      "virtual_path": "docs/core-concepts/namespace/keys/overview/index.md",
+      "profile": "docusaurus",
+      "score": 7708,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/overview/",
+      "title": "Overview of Ozone's Namespace",
+      "anchor": "core-concepts-namespace-overview",
+      "virtual_path": "docs/core-concepts/namespace/overview/index.md",
+      "profile": "docusaurus",
+      "score": 3327,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/volumes/",
+      "title": "Volumes",
+      "anchor": "core-concepts-namespace-volumes",
+      "virtual_path": "docs/core-concepts/namespace/volumes/index.md",
+      "profile": "docusaurus",
+      "score": 2974,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/volumes/overview/",
+      "title": "Volumes Overview",
+      "anchor": "core-concepts-namespace-volumes-overview",
+      "virtual_path": "docs/core-concepts/namespace/volumes/overview/index.md",
+      "profile": "docusaurus",
+      "score": 10792,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/volumes/owners/",
+      "title": "Volume Owners",
+      "anchor": "core-concepts-namespace-volumes-owners",
+      "virtual_path": "docs/core-concepts/namespace/volumes/owners/index.md",
+      "profile": "docusaurus",
+      "score": 12559,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/namespace/volumes/quotas/",
+      "title": "Volume Quotas",
+      "anchor": "core-concepts-namespace-volumes-quotas",
+      "virtual_path": "docs/core-concepts/namespace/volumes/quotas/index.md",
+      "profile": "docusaurus",
+      "score": 6408,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/replication/erasure-coding/",
+      "title": "Erasure Coding",
+      "anchor": "core-concepts-replication-erasure-coding",
+      "virtual_path": "docs/core-concepts/replication/erasure-coding/index.md",
+      "profile": "docusaurus",
+      "score": 12191,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/replication/",
+      "title": "Data and Metadata Replication",
+      "anchor": "core-concepts-replication",
+      "virtual_path": "docs/core-concepts/replication/index.md",
+      "profile": "docusaurus",
+      "score": 3576,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/replication/ratis/",
+      "title": "Ratis",
+      "anchor": "core-concepts-replication-ratis",
+      "virtual_path": "docs/core-concepts/replication/ratis/index.md",
+      "profile": "docusaurus",
+      "score": 3020,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/replication/storage-containers/",
+      "title": "Storage Containers",
+      "anchor": "core-concepts-replication-storage-containers",
+      "virtual_path": "docs/core-concepts/replication/storage-containers/index.md",
+      "profile": "docusaurus",
+      "score": 4072,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/replication/write-pipelines/",
+      "title": "Write Pipelines",
+      "anchor": "core-concepts-replication-write-pipelines",
+      "virtual_path": "docs/core-concepts/replication/write-pipelines/index.md",
+      "profile": "docusaurus",
+      "score": 24296,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/security/acls/",
+      "title": "Authorization With ACLs",
+      "anchor": "core-concepts-security-acls",
+      "virtual_path": "docs/core-concepts/security/acls/index.md",
+      "profile": "docusaurus",
+      "score": 2882,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/security/acls/native-acls/",
+      "title": "Native ACLs",
+      "anchor": "core-concepts-security-acls-native-acls",
+      "virtual_path": "docs/core-concepts/security/acls/native-acls/index.md",
+      "profile": "docusaurus",
+      "score": 17255,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/security/acls/ranger-acls/",
+      "title": "Ranger authorization policies",
+      "anchor": "core-concepts-security-acls-ranger-acls",
+      "virtual_path": "docs/core-concepts/security/acls/ranger-acls/index.md",
+      "profile": "docusaurus",
+      "score": 5708,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/security/",
+      "title": "Using a Secure Ozone Cluster",
+      "anchor": "core-concepts-security",
+      "virtual_path": "docs/core-concepts/security/index.md",
+      "profile": "docusaurus",
+      "score": 2835,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/core-concepts/security/kerberos/",
+      "title": "Authentication with Kerberos",
+      "anchor": "core-concepts-security-kerberos",
+      "virtual_path": "docs/core-concepts/security/kerberos/index.md",
+      "profile": "docusaurus",
+      "score": 2350,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/build/docker-images/",
+      "title": "Building Ozone Docker Images",
+      "anchor": "developer-guide-build-docker-images",
+      "virtual_path": "docs/developer-guide/build/docker-images/index.md",
+      "profile": "docusaurus",
+      "score": 11020,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/build/",
+      "title": "Building Ozone",
+      "anchor": "developer-guide-build",
+      "virtual_path": "docs/developer-guide/build/index.md",
+      "profile": "docusaurus",
+      "score": 2963,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/build/intellij/",
+      "title": "Ozone Development With Intellij",
+      "anchor": "developer-guide-build-intellij",
+      "virtual_path": "docs/developer-guide/build/intellij/index.md",
+      "profile": "docusaurus",
+      "score": 2166,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/build/maven/",
+      "title": "Building Ozone With Maven",
+      "anchor": "developer-guide-build-maven",
+      "virtual_path": "docs/developer-guide/build/maven/index.md",
+      "profile": "docusaurus",
+      "score": 13291,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/",
+      "title": "Developer Guide",
+      "anchor": "developer-guide",
+      "virtual_path": "docs/developer-guide/index.md",
+      "profile": "docusaurus",
+      "score": 3373,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/project/branches-and-tags/",
+      "title": "Git Branches and Tags",
+      "anchor": "developer-guide-project-branches-and-tags",
+      "virtual_path": "docs/developer-guide/project/branches-and-tags/index.md",
+      "profile": "docusaurus",
+      "score": 2806,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/project/",
+      "title": "Project Guide",
+      "anchor": "developer-guide-project",
+      "virtual_path": "docs/developer-guide/project/index.md",
+      "profile": "docusaurus",
+      "score": 2921,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/project/javadoc/",
+      "title": "Ozone JavaDoc API",
+      "anchor": "developer-guide-project-javadoc",
+      "virtual_path": "docs/developer-guide/project/javadoc/index.md",
+      "profile": "docusaurus",
+      "score": 2131,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/project/release-guide/",
+      "title": "Apache Release Manager Guide",
+      "anchor": "developer-guide-project-release-guide",
+      "virtual_path": "docs/developer-guide/project/release-guide/index.md",
+      "profile": "docusaurus",
+      "score": 51744,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/run/docker-compose/",
+      "title": "Running Ozone From Docker Compose",
+      "anchor": "developer-guide-run-docker-compose",
+      "virtual_path": "docs/developer-guide/run/docker-compose/index.md",
+      "profile": "docusaurus",
+      "score": 11659,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/run/",
+      "title": "Running a Custom Ozone Build",
+      "anchor": "developer-guide-run",
+      "virtual_path": "docs/developer-guide/run/index.md",
+      "profile": "docusaurus",
+      "score": 3021,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/run/intellij/",
+      "title": "Running Ozone From Intellij",
+      "anchor": "developer-guide-run-intellij",
+      "virtual_path": "docs/developer-guide/run/intellij/index.md",
+      "profile": "docusaurus",
+      "score": 1920,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/run/kubernetes/",
+      "title": "Ozone on Kubernetes",
+      "anchor": "developer-guide-run-kubernetes",
+      "virtual_path": "docs/developer-guide/run/kubernetes/index.md",
+      "profile": "docusaurus",
+      "score": 7383,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/test/acceptance-tests/",
+      "title": "Acceptance Tests",
+      "anchor": "developer-guide-test-acceptance-tests",
+      "virtual_path": "docs/developer-guide/test/acceptance-tests/index.md",
+      "profile": "docusaurus",
+      "score": 11454,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/test/continuous-integration/",
+      "title": "Continuous Integration With GitHub Actions",
+      "anchor": "developer-guide-test-continuous-integration",
+      "virtual_path": "docs/developer-guide/test/continuous-integration/index.md",
+      "profile": "docusaurus",
+      "score": 2080,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/test/",
+      "title": "Testing Ozone",
+      "anchor": "developer-guide-test",
+      "virtual_path": "docs/developer-guide/test/index.md",
+      "profile": "docusaurus",
+      "score": 3930,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/test/integration-tests/",
+      "title": "Integration Tests",
+      "anchor": "developer-guide-test-integration-tests",
+      "virtual_path": "docs/developer-guide/test/integration-tests/index.md",
+      "profile": "docusaurus",
+      "score": 2248,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/test/static-analysis/",
+      "title": "Static Code Analysis",
+      "anchor": "developer-guide-test-static-analysis",
+      "virtual_path": "docs/developer-guide/test/static-analysis/index.md",
+      "profile": "docusaurus",
+      "score": 14719,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/developer-guide/test/unit-tests/",
+      "title": "Unit Tests",
+      "anchor": "developer-guide-test-unit-tests",
+      "virtual_path": "docs/developer-guide/test/unit-tests/index.md",
+      "profile": "docusaurus",
+      "score": 2096,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/",
+      "title": "Overview",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "docusaurus",
+      "score": 12058,
+      "depth": 0
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/quick-start/",
+      "title": "Quick Start",
+      "anchor": "quick-start",
+      "virtual_path": "docs/quick-start/index.md",
+      "profile": "docusaurus",
+      "score": 2621,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/quick-start/installation/bare-metal/",
+      "title": "Try Ozone on Bare Metal",
+      "anchor": "quick-start-installation-bare-metal",
+      "virtual_path": "docs/quick-start/installation/bare-metal/index.md",
+      "profile": "docusaurus",
+      "score": 16215,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/quick-start/installation/docker/",
+      "title": "Try Ozone With Docker",
+      "anchor": "quick-start-installation-docker",
+      "virtual_path": "docs/quick-start/installation/docker/index.md",
+      "profile": "docusaurus",
+      "score": 9458,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/quick-start/installation/",
+      "title": "Ozone Installation Quick Start",
+      "anchor": "quick-start-installation",
+      "virtual_path": "docs/quick-start/installation/index.md",
+      "profile": "docusaurus",
+      "score": 3400,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/quick-start/installation/kubernetes/",
+      "title": "Try Ozone With Kubernetes",
+      "anchor": "quick-start-installation-kubernetes",
+      "virtual_path": "docs/quick-start/installation/kubernetes/index.md",
+      "profile": "docusaurus",
+      "score": 11778,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/quick-start/reading-writing-data/",
+      "title": "Reading and Writing Data in Ozone",
+      "anchor": "quick-start-reading-writing-data",
+      "virtual_path": "docs/quick-start/reading-writing-data/index.md",
+      "profile": "docusaurus",
+      "score": 23208,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/client/in-memory-storage/",
+      "title": "Ozone Client In-Memory Storage",
+      "anchor": "system-internals-components-client-in-memory-storage",
+      "virtual_path": "docs/system-internals/components/client/in-memory-storage/index.md",
+      "profile": "docusaurus",
+      "score": 2122,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/client/",
+      "title": "Ozone Client Internals",
+      "anchor": "system-internals-components-client",
+      "virtual_path": "docs/system-internals/components/client/index.md",
+      "profile": "docusaurus",
+      "score": 2886,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/client/jars/",
+      "title": "Client Jars",
+      "anchor": "system-internals-components-client-jars",
+      "virtual_path": "docs/system-internals/components/client/jars/index.md",
+      "profile": "docusaurus",
+      "score": 2223,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/client/startup-sequence/",
+      "title": "Client Startup Sequence",
+      "anchor": "system-internals-components-client-startup-sequence",
+      "virtual_path": "docs/system-internals/components/client/startup-sequence/index.md",
+      "profile": "docusaurus",
+      "score": 2111,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/disk-layout/",
+      "title": "Datanode Disk Layout",
+      "anchor": "system-internals-components-datanode-disk-layout",
+      "virtual_path": "docs/system-internals/components/datanode/disk-layout/index.md",
+      "profile": "docusaurus",
+      "score": 1866,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/in-memory-storage/",
+      "title": "Datanode In-Memory Storage",
+      "anchor": "system-internals-components-datanode-in-memory-storage",
+      "virtual_path": "docs/system-internals/components/datanode/in-memory-storage/index.md",
+      "profile": "docusaurus",
+      "score": 1898,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/",
+      "title": "Datanode Internals",
+      "anchor": "system-internals-components-datanode",
+      "virtual_path": "docs/system-internals/components/datanode/index.md",
+      "profile": "docusaurus",
+      "score": 4314,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/read-request-flow/",
+      "title": "Datanode Read Request Flow",
+      "anchor": "system-internals-components-datanode-read-request-flow",
+      "virtual_path": "docs/system-internals/components/datanode/read-request-flow/index.md",
+      "profile": "docusaurus",
+      "score": 1898,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/rocksdb-schema/",
+      "title": "Datanode Container Schema v3",
+      "anchor": "system-internals-components-datanode-rocksdb-schema",
+      "virtual_path": "docs/system-internals/components/datanode/rocksdb-schema/index.md",
+      "profile": "docusaurus",
+      "score": 6118,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/startup-sequence/",
+      "title": "Datanode Startup Sequence",
+      "anchor": "system-internals-components-datanode-startup-sequence",
+      "virtual_path": "docs/system-internals/components/datanode/startup-sequence/index.md",
+      "profile": "docusaurus",
+      "score": 1893,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/datanode/write-request-flow/",
+      "title": "Datanode Write Request Flow",
+      "anchor": "system-internals-components-datanode-write-request-flow",
+      "virtual_path": "docs/system-internals/components/datanode/write-request-flow/index.md",
+      "profile": "docusaurus",
+      "score": 1903,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/httpfs-gateway/",
+      "title": "HttpFS Gateway Internals",
+      "anchor": "system-internals-components-httpfs-gateway",
+      "virtual_path": "docs/system-internals/components/httpfs-gateway/index.md",
+      "profile": "docusaurus",
+      "score": 2252,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/httpfs-gateway/overview/",
+      "title": "HttpFS Gateway Overview",
+      "anchor": "system-internals-components-httpfs-gateway-overview",
+      "virtual_path": "docs/system-internals/components/httpfs-gateway/overview/index.md",
+      "profile": "docusaurus",
+      "score": 3432,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/",
+      "title": "Ozone Components",
+      "anchor": "system-internals-components",
+      "virtual_path": "docs/system-internals/components/index.md",
+      "profile": "docusaurus",
+      "score": 4369,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/disk-layout/",
+      "title": "Ozone Manager Disk Layout",
+      "anchor": "system-internals-components-ozone-manager-disk-layout",
+      "virtual_path": "docs/system-internals/components/ozone-manager/disk-layout/index.md",
+      "profile": "docusaurus",
+      "score": 1868,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/high-availability/",
+      "title": "Ozone Manager High Availability",
+      "anchor": "system-internals-components-ozone-manager-high-availability",
+      "virtual_path": "docs/system-internals/components/ozone-manager/high-availability/index.md",
+      "profile": "docusaurus",
+      "score": 8600,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/in-memory-storage/",
+      "title": "Ozone Manager In-Memory Storage",
+      "anchor": "system-internals-components-ozone-manager-in-memory-storage",
+      "virtual_path": "docs/system-internals/components/ozone-manager/in-memory-storage/index.md",
+      "profile": "docusaurus",
+      "score": 2055,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/",
+      "title": "Ozone Manager Internals",
+      "anchor": "system-internals-components-ozone-manager",
+      "virtual_path": "docs/system-internals/components/ozone-manager/index.md",
+      "profile": "docusaurus",
+      "score": 5232,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/read-request-flow/",
+      "title": "Ozone Manager Read Request Flow",
+      "anchor": "system-internals-components-ozone-manager-read-request-flow",
+      "virtual_path": "docs/system-internals/components/ozone-manager/read-request-flow/index.md",
+      "profile": "docusaurus",
+      "score": 1899,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/rocksdb-schema/",
+      "title": "Ozone Manager RocksDB Schema",
+      "anchor": "system-internals-components-ozone-manager-rocksdb-schema",
+      "virtual_path": "docs/system-internals/components/ozone-manager/rocksdb-schema/index.md",
+      "profile": "docusaurus",
+      "score": 1884,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/roles/",
+      "title": "Ozone Manager Roles",
+      "anchor": "system-internals-components-ozone-manager-roles",
+      "virtual_path": "docs/system-internals/components/ozone-manager/roles/index.md",
+      "profile": "docusaurus",
+      "score": 1834,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/startup-sequence/",
+      "title": "Ozone Manager Startup Sequence",
+      "anchor": "system-internals-components-ozone-manager-startup-sequence",
+      "virtual_path": "docs/system-internals/components/ozone-manager/startup-sequence/index.md",
+      "profile": "docusaurus",
+      "score": 1894,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/ozone-manager/write-request-flow/",
+      "title": "Ozone Manager Write Request Flow",
+      "anchor": "system-internals-components-ozone-manager-write-request-flow",
+      "virtual_path": "docs/system-internals/components/ozone-manager/write-request-flow/index.md",
+      "profile": "docusaurus",
+      "score": 1904,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/disk-layout/",
+      "title": "Recon Disk Layout",
+      "anchor": "system-internals-components-recon-disk-layout",
+      "virtual_path": "docs/system-internals/components/recon/disk-layout/index.md",
+      "profile": "docusaurus",
+      "score": 1866,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/in-memory-storage/",
+      "title": "Recon In-Memory Storage",
+      "anchor": "system-internals-components-recon-in-memory-storage",
+      "virtual_path": "docs/system-internals/components/recon/in-memory-storage/index.md",
+      "profile": "docusaurus",
+      "score": 1898,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/",
+      "title": "Recon Internals",
+      "anchor": "system-internals-components-recon",
+      "virtual_path": "docs/system-internals/components/recon/index.md",
+      "profile": "docusaurus",
+      "score": 5067,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/rocksdb-schema/",
+      "title": "RocksDB Layout",
+      "anchor": "system-internals-components-recon-rocksdb-schema",
+      "virtual_path": "docs/system-internals/components/recon/rocksdb-schema/index.md",
+      "profile": "docusaurus",
+      "score": 1866,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/sql-schema/",
+      "title": "SQL Schema",
+      "anchor": "system-internals-components-recon-sql-schema",
+      "virtual_path": "docs/system-internals/components/recon/sql-schema/index.md",
+      "profile": "docusaurus",
+      "score": 1843,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/startup-sequence/",
+      "title": "Recon Startup Sequence",
+      "anchor": "system-internals-components-recon-startup-sequence",
+      "virtual_path": "docs/system-internals/components/recon/startup-sequence/index.md",
+      "profile": "docusaurus",
+      "score": 1893,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/syncing-data-from-datanodes/",
+      "title": "How Recon Syncs Data From Datanodes",
+      "anchor": "system-internals-components-recon-syncing-data-from-datanodes",
+      "virtual_path": "docs/system-internals/components/recon/syncing-data-from-datanodes/index.md",
+      "profile": "docusaurus",
+      "score": 1950,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/syncing-data-from-om/",
+      "title": "How Recon Syncs Data From Ozone Manager",
+      "anchor": "system-internals-components-recon-syncing-data-from-om",
+      "virtual_path": "docs/system-internals/components/recon/syncing-data-from-om/index.md",
+      "profile": "docusaurus",
+      "score": 1968,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/recon/syncing-data-from-scm/",
+      "title": "How Recon Syncs Data From Storage Container Manager",
+      "anchor": "system-internals-components-recon-syncing-data-from-scm",
+      "virtual_path": "docs/system-internals/components/recon/syncing-data-from-scm/index.md",
+      "profile": "docusaurus",
+      "score": 2016,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/s3-gateway/",
+      "title": "S3 Gateway Internals",
+      "anchor": "system-internals-components-s3-gateway",
+      "virtual_path": "docs/system-internals/components/s3-gateway/index.md",
+      "profile": "docusaurus",
+      "score": 2479,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/s3-gateway/overview/",
+      "title": "S3 Gateway Overview",
+      "anchor": "system-internals-components-s3-gateway-overview",
+      "virtual_path": "docs/system-internals/components/s3-gateway/overview/index.md",
+      "profile": "docusaurus",
+      "score": 2114,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/s3-gateway/request-flow/",
+      "title": "S3 Gateway Request flow",
+      "anchor": "system-internals-components-s3-gateway-request-flow",
+      "virtual_path": "docs/system-internals/components/s3-gateway/request-flow/index.md",
+      "profile": "docusaurus",
+      "score": 1872,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/admin-read-request-flow/",
+      "title": "Storage Container Manager Admin Read Request Flow",
+      "anchor": "system-internals-components-storage-container-manager-admin-read-request-flow",
+      "virtual_path": "docs/system-internals/components/storage-container-manager/admin-read-request-flow/index.md",
+      "profile": "docusaurus",
+      "score": 1934,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/admin-write-request-flow/",
+      "title": "Storage Container Manager Admin Write Request flow",
+      "anchor": "system-internals-components-storage-container-manager-admin-write-request-flow",
+      "virtual_path": "docs/system-internals/components/storage-container-manager/admin-write-request-flow/index.md",
+      "profile": "docusaurus",
+      "score": 1938,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/disk-layout/",
+      "title": "Storage Container Manager Disk Layout",
+      "anchor": "system-internals-components-storage-container-manager-disk-layout",
+      "virtual_path": "docs/system-internals/components/storage-container-manager/disk-layout/index.md",
+      "profile": "docusaurus",
+      "score": 1876,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/in-memory-storage/",
+      "title": "Storage Container Manager In-Memory Storage",
+      "anchor": "system-internals-components-storage-container-manager-in-memory-storage",
+      "virtual_path": "docs/system-internals/components/storage-container-manager/in-memory-storage/index.md",
+      "profile": "docusaurus",
+      "score": 1906,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/",
+      "title": "Storage Container Manager Internals",
+      "anchor": "system-internals-components-storage-container-manager",
+      "virtual_path": "docs/system-internals/components/storage-container-manager/index.md",
+      "profile": "docusaurus",
+      "score": 4702,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/rocksdb-schema/",
+      "title": "Storage Container Manager RocksDB Schema",
+      "anchor": "system-internals-components-storage-container-manager-rocksdb-schema",
+      "virtual_path": "docs/system-internals/components/storage-container-manager/rocksdb-schema/index.md",
+      "profile": "docusaurus",
+      "score": 1891,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/roles/",
+      "title": "Storage Container Manager Roles",
+      "anchor": "system-internals-components-storage-container-manager-roles",
+      "virtual_path": "docs/system-internals/components/storage-container-manager/roles/index.md",
+      "profile": "docusaurus",
+      "score": 2046,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/components/storage-container-manager/startup-sequence/",
+      "title": "Storage Container Manager Startup Sequence",
+      "anchor": "system-internals-components-storage-container-manager-startup-sequence",
+      "virtual_path": "docs/system-internals/components/storage-container-manager/startup-sequence/index.md",
+      "profile": "docusaurus",
+      "score": 1901,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/data-integrity/checksums/",
+      "title": "Checksum System Internals",
+      "anchor": "system-internals-data-integrity-checksums",
+      "virtual_path": "docs/system-internals/data-integrity/checksums/index.md",
+      "profile": "docusaurus",
+      "score": 2140,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/data-integrity/container-scanner/",
+      "title": "Datanode Container Scanner",
+      "anchor": "system-internals-data-integrity-container-scanner",
+      "virtual_path": "docs/system-internals/data-integrity/container-scanner/index.md",
+      "profile": "docusaurus",
+      "score": 1927,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/data-integrity/",
+      "title": "Implementation of Data Integrity Checks",
+      "anchor": "system-internals-data-integrity",
+      "virtual_path": "docs/system-internals/data-integrity/index.md",
+      "profile": "docusaurus",
+      "score": 2960,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/data-integrity/volume-scanner/",
+      "title": "Datanode Volume Scanner",
+      "anchor": "system-internals-data-integrity-volume-scanner",
+      "virtual_path": "docs/system-internals/data-integrity/volume-scanner/index.md",
+      "profile": "docusaurus",
+      "score": 1913,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/data-operations/delete/",
+      "title": "Implementation of Delete Operations",
+      "anchor": "system-internals-data-operations-delete",
+      "virtual_path": "docs/system-internals/data-operations/delete/index.md",
+      "profile": "docusaurus",
+      "score": 3512,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/data-operations/",
+      "title": "Implementation of Data Operations",
+      "anchor": "system-internals-data-operations",
+      "virtual_path": "docs/system-internals/data-operations/index.md",
+      "profile": "docusaurus",
+      "score": 2973,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/data-operations/read/",
+      "title": "Implementation of Read Operations",
+      "anchor": "system-internals-data-operations-read",
+      "virtual_path": "docs/system-internals/data-operations/read/index.md",
+      "profile": "docusaurus",
+      "score": 3621,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/data-operations/write/",
+      "title": "Implementation of Write Operations",
+      "anchor": "system-internals-data-operations-write",
+      "virtual_path": "docs/system-internals/data-operations/write/index.md",
+      "profile": "docusaurus",
+      "score": 4054,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/features/bucket-snapshot-deletion-lifecycle/",
+      "title": "Snapshot Deletion Lifecycle",
+      "anchor": "system-internals-features-bucket-snapshot-deletion-lifecycle",
+      "virtual_path": "docs/system-internals/features/bucket-snapshot-deletion-lifecycle/index.md",
+      "profile": "docusaurus",
+      "score": 6816,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/features/bucket-snapshots/",
+      "title": "Bucket Snapshot System Internals",
+      "anchor": "system-internals-features-bucket-snapshots",
+      "virtual_path": "docs/system-internals/features/bucket-snapshots/index.md",
+      "profile": "docusaurus",
+      "score": 2324,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/features/erasure-coding/",
+      "title": "Erasure Coding System Internals",
+      "anchor": "system-internals-features-erasure-coding",
+      "virtual_path": "docs/system-internals/features/erasure-coding/index.md",
+      "profile": "docusaurus",
+      "score": 1926,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/features/filesystem-optimization/",
+      "title": "File System Optimization (FSO) System Internals",
+      "anchor": "system-internals-features-filesystem-optimization",
+      "virtual_path": "docs/system-internals/features/filesystem-optimization/index.md",
+      "profile": "docusaurus",
+      "score": 6632,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/features/",
+      "title": "Implementation of Ozone Features",
+      "anchor": "system-internals-features",
+      "virtual_path": "docs/system-internals/features/index.md",
+      "profile": "docusaurus",
+      "score": 4741,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/features/om-bootstrapping-with-snapshots/",
+      "title": "OM Bootstrapping with Snapshots",
+      "anchor": "system-internals-features-om-bootstrapping-with-snapshots",
+      "virtual_path": "docs/system-internals/features/om-bootstrapping-with-snapshots/index.md",
+      "profile": "docusaurus",
+      "score": 20561,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/features/snapshot-defragmentation/",
+      "title": "Snapshot Defragmentation",
+      "anchor": "system-internals-features-snapshot-defragmentation",
+      "virtual_path": "docs/system-internals/features/snapshot-defragmentation/index.md",
+      "profile": "docusaurus",
+      "score": 33024,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/features/upgrade-downgrade/",
+      "title": "Upgrade and Downgrade System Internals",
+      "anchor": "system-internals-features-upgrade-downgrade",
+      "virtual_path": "docs/system-internals/features/upgrade-downgrade/index.md",
+      "profile": "docusaurus",
+      "score": 1958,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/",
+      "title": "System Internals",
+      "anchor": "system-internals",
+      "virtual_path": "docs/system-internals/index.md",
+      "profile": "docusaurus",
+      "score": 4582,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/network-protocols/client/",
+      "title": "Network Protocols Used By Ozone Clients",
+      "anchor": "system-internals-network-protocols-client",
+      "virtual_path": "docs/system-internals/network-protocols/client/index.md",
+      "profile": "docusaurus",
+      "score": 3210,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/network-protocols/",
+      "title": "Network Protocols Within Ozone",
+      "anchor": "system-internals-network-protocols",
+      "virtual_path": "docs/system-internals/network-protocols/index.md",
+      "profile": "docusaurus",
+      "score": 2924,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/network-protocols/overview/",
+      "title": "Overview of Network Protocols Used Within Ozone",
+      "anchor": "system-internals-network-protocols-overview",
+      "virtual_path": "docs/system-internals/network-protocols/overview/index.md",
+      "profile": "docusaurus",
+      "score": 2386,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/network-protocols/server/",
+      "title": "Network Protocols Used Among Ozone Servers",
+      "anchor": "system-internals-network-protocols-server",
+      "virtual_path": "docs/system-internals/network-protocols/server/index.md",
+      "profile": "docusaurus",
+      "score": 2837,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/container-balancer/",
+      "title": "SCM Container Balancer",
+      "anchor": "system-internals-replication-data-container-balancer",
+      "virtual_path": "docs/system-internals/replication/data/container-balancer/index.md",
+      "profile": "docusaurus",
+      "score": 1908,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/creation/",
+      "title": "Container Creation",
+      "anchor": "system-internals-replication-data-containers-creation",
+      "virtual_path": "docs/system-internals/replication/data/containers/creation/index.md",
+      "profile": "docusaurus",
+      "score": 1838,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/destruction/",
+      "title": "Container Deletion",
+      "anchor": "system-internals-replication-data-containers-destruction",
+      "virtual_path": "docs/system-internals/replication/data/containers/destruction/index.md",
+      "profile": "docusaurus",
+      "score": 1838,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/",
+      "title": "Storage Container Implementation",
+      "anchor": "system-internals-replication-data-containers",
+      "virtual_path": "docs/system-internals/replication/data/containers/index.md",
+      "profile": "docusaurus",
+      "score": 5500,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/offline-reconstruction/",
+      "title": "Container Reconstruction",
+      "anchor": "system-internals-replication-data-containers-offline-reconstruction",
+      "virtual_path": "docs/system-internals/replication/data/containers/offline-reconstruction/index.md",
+      "profile": "docusaurus",
+      "score": 2045,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/overview/",
+      "title": "Containers Overview",
+      "anchor": "system-internals-replication-data-containers-overview",
+      "virtual_path": "docs/system-internals/replication/data/containers/overview/index.md",
+      "profile": "docusaurus",
+      "score": 1841,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/persistence/",
+      "title": "Container Persistence",
+      "anchor": "system-internals-replication-data-containers-persistence",
+      "virtual_path": "docs/system-internals/replication/data/containers/persistence/index.md",
+      "profile": "docusaurus",
+      "score": 2120,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/replication/",
+      "title": "Container Replication",
+      "anchor": "system-internals-replication-data-containers-replication",
+      "virtual_path": "docs/system-internals/replication/data/containers/replication/index.md",
+      "profile": "docusaurus",
+      "score": 15795,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/reports/",
+      "title": "Container Reports",
+      "anchor": "system-internals-replication-data-containers-reports",
+      "virtual_path": "docs/system-internals/replication/data/containers/reports/index.md",
+      "profile": "docusaurus",
+      "score": 1833,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/states/",
+      "title": "Container States",
+      "anchor": "system-internals-replication-data-containers-states",
+      "virtual_path": "docs/system-internals/replication/data/containers/states/index.md",
+      "profile": "docusaurus",
+      "score": 2017,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/containers/types/",
+      "title": "Types of Containers",
+      "anchor": "system-internals-replication-data-containers-types",
+      "virtual_path": "docs/system-internals/replication/data/containers/types/index.md",
+      "profile": "docusaurus",
+      "score": 2089,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/",
+      "title": "Implementation of Data Replication",
+      "anchor": "system-internals-replication-data",
+      "virtual_path": "docs/system-internals/replication/data/index.md",
+      "profile": "docusaurus",
+      "score": 3546,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/replication-manager/",
+      "title": "SCM Replication Manager",
+      "anchor": "system-internals-replication-data-replication-manager",
+      "virtual_path": "docs/system-internals/replication/data/replication-manager/index.md",
+      "profile": "docusaurus",
+      "score": 50413,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/creation/",
+      "title": "Write Pipeline Creation",
+      "anchor": "system-internals-replication-data-write-pipelines-creation",
+      "virtual_path": "docs/system-internals/replication/data/write-pipelines/creation/index.md",
+      "profile": "docusaurus",
+      "score": 1842,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/destruction/",
+      "title": "Write Pipeline Destruction",
+      "anchor": "system-internals-replication-data-write-pipelines-destruction",
+      "virtual_path": "docs/system-internals/replication/data/write-pipelines/destruction/index.md",
+      "profile": "docusaurus",
+      "score": 2158,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/",
+      "title": "Write Pipeline Implementation",
+      "anchor": "system-internals-replication-data-write-pipelines",
+      "virtual_path": "docs/system-internals/replication/data/write-pipelines/index.md",
+      "profile": "docusaurus",
+      "score": 4689,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/overview/",
+      "title": "Write Pipeline Overview",
+      "anchor": "system-internals-replication-data-write-pipelines-overview",
+      "virtual_path": "docs/system-internals/replication/data/write-pipelines/overview/index.md",
+      "profile": "docusaurus",
+      "score": 1842,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/persistence/",
+      "title": "Write Pipeline Persistence",
+      "anchor": "system-internals-replication-data-write-pipelines-persistence",
+      "virtual_path": "docs/system-internals/replication/data/write-pipelines/persistence/index.md",
+      "profile": "docusaurus",
+      "score": 2120,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/reports/",
+      "title": "Write Pipeline Reports",
+      "anchor": "system-internals-replication-data-write-pipelines-reports",
+      "virtual_path": "docs/system-internals/replication/data/write-pipelines/reports/index.md",
+      "profile": "docusaurus",
+      "score": 1836,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/states/",
+      "title": "Write Pipeline States",
+      "anchor": "system-internals-replication-data-write-pipelines-states",
+      "virtual_path": "docs/system-internals/replication/data/write-pipelines/states/index.md",
+      "profile": "docusaurus",
+      "score": 1830,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/data/write-pipelines/types/",
+      "title": "Types of Write Pipelines",
+      "anchor": "system-internals-replication-data-write-pipelines-types",
+      "virtual_path": "docs/system-internals/replication/data/write-pipelines/types/index.md",
+      "profile": "docusaurus",
+      "score": 2065,
+      "depth": 5
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/",
+      "title": "Implementation of Metadata and Data Replication",
+      "anchor": "system-internals-replication",
+      "virtual_path": "docs/system-internals/replication/index.md",
+      "profile": "docusaurus",
+      "score": 2609,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/replication/metadata/",
+      "title": "Implementation of Metadata Replication",
+      "anchor": "system-internals-replication-metadata",
+      "virtual_path": "docs/system-internals/replication/metadata/index.md",
+      "profile": "docusaurus",
+      "score": 2251,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/security/certificates/",
+      "title": "Certificates Within Ozone",
+      "anchor": "system-internals-security-certificates",
+      "virtual_path": "docs/system-internals/security/certificates/index.md",
+      "profile": "docusaurus",
+      "score": 2190,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/security/",
+      "title": "Security Within Ozone",
+      "anchor": "system-internals-security",
+      "virtual_path": "docs/system-internals/security/index.md",
+      "profile": "docusaurus",
+      "score": 4891,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/security/kerberos/",
+      "title": "How Ozone Uses Kerberos",
+      "anchor": "system-internals-security-kerberos",
+      "virtual_path": "docs/system-internals/security/kerberos/index.md",
+      "profile": "docusaurus",
+      "score": 14869,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/security/s3-credentials/",
+      "title": "S3 Credentials Within Ozone",
+      "anchor": "system-internals-security-s3-credentials",
+      "virtual_path": "docs/system-internals/security/s3-credentials/index.md",
+      "profile": "docusaurus",
+      "score": 2150,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/security/sasl/",
+      "title": "SASL Within Ozone",
+      "anchor": "system-internals-security-sasl",
+      "virtual_path": "docs/system-internals/security/sasl/index.md",
+      "profile": "docusaurus",
+      "score": 1863,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/security/symmetric-encryption/",
+      "title": "Symmetric Encryption Within Ozone",
+      "anchor": "system-internals-security-symmetric-encryption",
+      "virtual_path": "docs/system-internals/security/symmetric-encryption/index.md",
+      "profile": "docusaurus",
+      "score": 17716,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/security/tls/",
+      "title": "TLS Within Ozone",
+      "anchor": "system-internals-security-tls",
+      "virtual_path": "docs/system-internals/security/tls/index.md",
+      "profile": "docusaurus",
+      "score": 2086,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/system-internals/security/tokens/",
+      "title": "Token Based Authentication Within Ozone",
+      "anchor": "system-internals-security-tokens",
+      "virtual_path": "docs/system-internals/security/tokens/index.md",
+      "profile": "docusaurus",
+      "score": 10619,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/csi-protocol/",
+      "title": "CSI Protocol",
+      "anchor": "user-guide-client-interfaces-csi-protocol",
+      "virtual_path": "docs/user-guide/client-interfaces/csi-protocol/index.md",
+      "profile": "docusaurus",
+      "score": 7269,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/httpfs/",
+      "title": "HttpFS Gateway",
+      "anchor": "user-guide-client-interfaces-httpfs",
+      "virtual_path": "docs/user-guide/client-interfaces/httpfs/index.md",
+      "profile": "docusaurus",
+      "score": 16869,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/",
+      "title": "Client Interfaces",
+      "anchor": "user-guide-client-interfaces",
+      "virtual_path": "docs/user-guide/client-interfaces/index.md",
+      "profile": "docusaurus",
+      "score": 5965,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/java-client-api/",
+      "title": "Java Client API",
+      "anchor": "user-guide-client-interfaces-java-client-api",
+      "virtual_path": "docs/user-guide/client-interfaces/java-client-api/index.md",
+      "profile": "docusaurus",
+      "score": 9798,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/native-cpp/",
+      "title": "Native C/C++ Client Access to Ozone",
+      "anchor": "user-guide-client-interfaces-native-cpp",
+      "virtual_path": "docs/user-guide/client-interfaces/native-cpp/index.md",
+      "profile": "docusaurus",
+      "score": 11201,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/o3/",
+      "title": "Ozone Shell ( ozone sh )",
+      "anchor": "user-guide-client-interfaces-o3",
+      "virtual_path": "docs/user-guide/client-interfaces/o3/index.md",
+      "profile": "docusaurus",
+      "score": 16555,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/ofs/",
+      "title": "ofs: Hadoop Compatible Interface",
+      "anchor": "user-guide-client-interfaces-ofs",
+      "virtual_path": "docs/user-guide/client-interfaces/ofs/index.md",
+      "profile": "docusaurus",
+      "score": 33990,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/python/",
+      "title": "Accessing Apache Ozone from Python",
+      "anchor": "user-guide-client-interfaces-python",
+      "virtual_path": "docs/user-guide/client-interfaces/python/index.md",
+      "profile": "docusaurus",
+      "score": 14630,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/s3/",
+      "title": "S3 API",
+      "anchor": "user-guide-client-interfaces-s3",
+      "virtual_path": "docs/user-guide/client-interfaces/s3/index.md",
+      "profile": "docusaurus",
+      "score": 2416,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/s3/s3-api/",
+      "title": "Overview",
+      "anchor": "user-guide-client-interfaces-s3-s3-api",
+      "virtual_path": "docs/user-guide/client-interfaces/s3/s3-api/index.md",
+      "profile": "docusaurus",
+      "score": 18183,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/s3/securing-s3/",
+      "title": "Securing S3",
+      "anchor": "user-guide-client-interfaces-s3-securing-s3",
+      "virtual_path": "docs/user-guide/client-interfaces/s3/securing-s3/index.md",
+      "profile": "docusaurus",
+      "score": 10939,
+      "depth": 4
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/client-interfaces/s3a/",
+      "title": "s3a and Ozone",
+      "anchor": "user-guide-client-interfaces-s3a",
+      "virtual_path": "docs/user-guide/client-interfaces/s3a/index.md",
+      "profile": "docusaurus",
+      "score": 15900,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/clients/hdfs/",
+      "title": "Using an HDFS Client With Ozone",
+      "anchor": "user-guide-clients-hdfs",
+      "virtual_path": "docs/user-guide/clients/hdfs/index.md",
+      "profile": "docusaurus",
+      "score": 2304,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/clients/",
+      "title": "Ozone Clients",
+      "anchor": "user-guide-clients",
+      "virtual_path": "docs/user-guide/clients/index.md",
+      "profile": "docusaurus",
+      "score": 3016,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/clients/ozone/",
+      "title": "The Ozone Client",
+      "anchor": "user-guide-clients-ozone",
+      "virtual_path": "docs/user-guide/clients/ozone/index.md",
+      "profile": "docusaurus",
+      "score": 2437,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/clients/s3/",
+      "title": "Using an S3 Client With Ozone",
+      "anchor": "user-guide-clients-s3",
+      "virtual_path": "docs/user-guide/clients/s3/index.md",
+      "profile": "docusaurus",
+      "score": 2477,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/",
+      "title": "User Guide",
+      "anchor": "user-guide",
+      "virtual_path": "docs/user-guide/index.md",
+      "profile": "docusaurus",
+      "score": 2994,
+      "depth": 1
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/integrations/flink/",
+      "title": "Apache Flink",
+      "anchor": "user-guide-integrations-flink",
+      "virtual_path": "docs/user-guide/integrations/flink/index.md",
+      "profile": "docusaurus",
+      "score": 12959,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/integrations/hadoop-distcp/",
+      "title": "Hadoop DistCp",
+      "anchor": "user-guide-integrations-hadoop-distcp",
+      "virtual_path": "docs/user-guide/integrations/hadoop-distcp/index.md",
+      "profile": "docusaurus",
+      "score": 16131,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/integrations/hbase/",
+      "title": "HBase",
+      "anchor": "user-guide-integrations-hbase",
+      "virtual_path": "docs/user-guide/integrations/hbase/index.md",
+      "profile": "docusaurus",
+      "score": 7273,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/integrations/hive/",
+      "title": "Hive",
+      "anchor": "user-guide-integrations-hive",
+      "virtual_path": "docs/user-guide/integrations/hive/index.md",
+      "profile": "docusaurus",
+      "score": 12768,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/integrations/hue/",
+      "title": "Hue",
+      "anchor": "user-guide-integrations-hue",
+      "virtual_path": "docs/user-guide/integrations/hue/index.md",
+      "profile": "docusaurus",
+      "score": 1824,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/integrations/iceberg/",
+      "title": "Apache Iceberg",
+      "anchor": "user-guide-integrations-iceberg",
+      "virtual_path": "docs/user-guide/integrations/iceberg/index.md",
+      "profile": "docusaurus",
+      "score": 14500,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/integrations/impala/",
+      "title": "Impala",
+      "anchor": "user-guide-integrations-impala",
+      "virtual_path": "docs/user-guide/integrations/impala/index.md",
+      "profile": "docusaurus",
+      "score": 7788,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/integrations/",
+      "title": "Integrating Ozone Storage With Other Systems",
+      "anchor": "user-guide-integrations",
+      "virtual_path": "docs/user-guide/integrations/index.md",
+      "profile": "docusaurus",
+      "score": 6884,
+      "depth": 2
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/integrations/oozie/",
+      "title": "Oozie",
+      "anchor": "user-guide-integrations-oozie",
+      "virtual_path": "docs/user-guide/integrations/oozie/index.md",
+      "profile": "docusaurus",
+      "score": 1837,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/integrations/spark/",
+      "title": "Using Apache Spark with Ozone",
+      "anchor": "user-guide-integrations-spark",
+      "virtual_path": "docs/user-guide/integrations/spark/index.md",
+      "profile": "docusaurus",
+      "score": 16015,
+      "depth": 3
+    },
+    {
+      "source_url": "https://ozone.apache.org/docs/user-guide/integrations/trino/",
+      "title": "Trino",
+      "anchor": "user-guide-integrations-trino",
+      "virtual_path": "docs/user-guide/integrations/trino/index.md",
+      "profile": "docusaurus",
+      "score": 1837,
+      "depth": 3
+    }
+  ]
+}

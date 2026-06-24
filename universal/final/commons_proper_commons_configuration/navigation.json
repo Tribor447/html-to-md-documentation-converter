@@ -1,0 +1,204 @@
+[
+  {
+    "title": "Commons Configuration",
+    "kind": "category",
+    "children": [
+      {
+        "title": "About",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "Sources",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/scm.html",
+        "anchor": "scm",
+        "virtual_path": "docs/scm.md"
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/security.html",
+        "anchor": "security",
+        "virtual_path": "docs/security.md"
+      },
+      {
+        "title": "Javadoc",
+        "kind": "category",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/index.html",
+        "anchor": "index",
+        "virtual_path": "docs/index.md"
+      },
+      {
+        "title": "Building",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/building.html",
+        "anchor": "building",
+        "virtual_path": "docs/building.md"
+      },
+      {
+        "title": "User's Guide",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/user_guide.html",
+        "anchor": "userguide-user_guide",
+        "virtual_path": "docs/userguide/user_guide.md"
+      },
+      {
+        "title": "Upgrade Guide: 1.x to 2.0",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/upgradeto2_0.html",
+        "anchor": "userguide-upgradeto2_0",
+        "virtual_path": "docs/userguide/upgradeto2_0.md"
+      },
+      {
+        "title": "Upgrade Guide: 2.x",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/upgradeto2_x.html",
+        "anchor": "userguide-upgradeto2_x",
+        "virtual_path": "docs/userguide/upgradeto2_x.md"
+      }
+    ]
+  },
+  {
+    "title": "Project Documentation",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Project Information",
+        "kind": "category",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/project-info.html",
+        "anchor": "project-info",
+        "virtual_path": "docs/project-info.md",
+        "children": [
+          {
+            "title": "About",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-configuration/index.html",
+            "anchor": "index",
+            "virtual_path": "docs/index.md"
+          },
+          {
+            "title": "Summary",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-configuration/summary.html",
+            "anchor": "summary",
+            "virtual_path": "docs/summary.md"
+          },
+          {
+            "title": "Team",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-configuration/team.html",
+            "anchor": "team",
+            "virtual_path": "docs/team.md"
+          },
+          {
+            "title": "Source Code Management",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-configuration/scm.html",
+            "anchor": "scm",
+            "virtual_path": "docs/scm.md"
+          },
+          {
+            "title": "CI Management",
+            "kind": "link",
+            "source_url": "https://commons.apache.org/proper/commons-configuration/ci-management.html",
+            "anchor": "ci-management",
+            "virtual_path": "docs/ci-management.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Other pages",
+    "kind": "category",
+    "children": [
+      {
+        "title": "Basic features and AbstractConfiguration",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/howto_basicfeatures.html",
+        "anchor": "userguide-howto_basicfeatures",
+        "virtual_path": "docs/userguide/howto_basicfeatures.md"
+      },
+      {
+        "title": "Declaring and Creating Beans",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/howto_beans.html",
+        "anchor": "userguide-howto_beans",
+        "virtual_path": "docs/userguide/howto_beans.md"
+      },
+      {
+        "title": "Creating Configurations",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/howto_builders.html",
+        "anchor": "userguide-howto_builders",
+        "virtual_path": "docs/userguide/howto_builders.md"
+      },
+      {
+        "title": "Combining Configuration Sources",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/howto_combinedbuilder.html",
+        "anchor": "userguide-howto_combinedbuilder",
+        "virtual_path": "docs/userguide/howto_combinedbuilder.md"
+      },
+      {
+        "title": "Combined Configuration",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/howto_combinedconfiguration.html",
+        "anchor": "userguide-howto_combinedconfiguration",
+        "virtual_path": "docs/userguide/howto_combinedconfiguration.md"
+      },
+      {
+        "title": "Configurations and Concurrent Access",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/howto_concurrency.html",
+        "anchor": "userguide-howto_concurrency",
+        "virtual_path": "docs/userguide/howto_concurrency.md"
+      },
+      {
+        "title": "File-based Configurations",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/howto_filebased.html",
+        "anchor": "userguide-howto_filebased",
+        "virtual_path": "docs/userguide/howto_filebased.md"
+      },
+      {
+        "title": "Hierarchical Configurations",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/howto_hierarchical.html",
+        "anchor": "userguide-howto_hierarchical",
+        "virtual_path": "docs/userguide/howto_hierarchical.md"
+      },
+      {
+        "title": "Multi-tenant Configurations",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/howto_multitenant.html",
+        "anchor": "userguide-howto_multitenant",
+        "virtual_path": "docs/userguide/howto_multitenant.md"
+      },
+      {
+        "title": "Properties files",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/howto_properties.html",
+        "anchor": "userguide-howto_properties",
+        "virtual_path": "docs/userguide/howto_properties.md"
+      },
+      {
+        "title": "Automatic Reloading of Configuration Sources",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/howto_reloading.html",
+        "anchor": "userguide-howto_reloading",
+        "virtual_path": "docs/userguide/howto_reloading.md"
+      },
+      {
+        "title": "Using Configuration",
+        "kind": "link",
+        "source_url": "https://commons.apache.org/proper/commons-configuration/userguide/overview.html",
+        "anchor": "userguide-overview",
+        "virtual_path": "docs/userguide/overview.md"
+      }
+    ]
+  }
+]

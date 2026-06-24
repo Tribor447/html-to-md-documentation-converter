@@ -1,0 +1,416 @@
+- title: RNG
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/index.html
+    anchor: index
+    virtual_path: docs/index.md
+  - title: Issue Tracking
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/issue-tracking.html
+    anchor: issue-tracking
+    virtual_path: docs/issue-tracking.md
+  - title: Developers Guide
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/developers.html
+    anchor: developers
+    virtual_path: docs/developers.md
+  - title: Release History
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/release-history.html
+    anchor: release-history
+    virtual_path: docs/release-history.md
+- title: User Guide
+  kind: category
+  children:
+  - title: Contents
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/userguide/rng.html#Table_of_contents
+    anchor: userguide-rng--table_of_contents
+    virtual_path: docs/userguide/rng.md
+  - title: Usage
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/userguide/rng.html#a2._Usage_overview
+    anchor: userguide-rng--a2._usage_overview
+    virtual_path: docs/userguide/rng.md
+  - title: Performance
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/userguide/rng.html#a4._Performance
+    anchor: userguide-rng--a4._performance
+    virtual_path: docs/userguide/rng.md
+  - title: Quality
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/userguide/rng.html#a5._Quality
+    anchor: userguide-rng--a5._quality
+    virtual_path: docs/userguide/rng.md
+- title: Project Documentation
+  kind: category
+  children:
+  - title: Project Information
+    kind: category
+    source_url: https://commons.apache.org/proper/commons-rng/project-info.html
+    anchor: project-info
+    virtual_path: docs/project-info.md
+    children:
+    - title: About
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-rng/index.html
+      anchor: index
+      virtual_path: docs/index.md
+    - title: Summary
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-rng/summary.html
+      anchor: summary
+      virtual_path: docs/summary.md
+    - title: Project Modules
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-rng/modules.html
+      anchor: modules
+      virtual_path: docs/modules.md
+    - title: Team
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-rng/team.html
+      anchor: team
+      virtual_path: docs/team.md
+    - title: Source Code Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-rng/scm.html
+      anchor: scm
+      virtual_path: docs/scm.md
+    - title: CI Management
+      kind: link
+      source_url: https://commons.apache.org/proper/commons-rng/ci-management.html
+      anchor: ci-management
+      virtual_path: docs/ci-management.md
+- title: RNG Documentation
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-docs/index.html
+    anchor: commons-rng-docs
+    virtual_path: docs/commons-rng-docs/index.md
+- title: RNG Bill of Materials
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-bom/index.html
+    anchor: commons-rng-bom
+    virtual_path: docs/commons-rng-bom/index.md
+- title: RNG Simple
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-simple/index.html
+    anchor: commons-rng-simple
+    virtual_path: docs/commons-rng-simple/index.md
+- title: RNG Client API
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-client-api/index.html
+    anchor: commons-rng-client-api
+    virtual_path: docs/commons-rng-client-api/index.md
+- title: RNG Sampling
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-sampling/index.html
+    anchor: commons-rng-sampling
+    virtual_path: docs/commons-rng-sampling/index.md
+- title: RNG Core
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-core/index.html
+    anchor: commons-rng-core
+    virtual_path: docs/commons-rng-core/index.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-bom/ci-management.html
+    anchor: commons-rng-bom-ci-management
+    virtual_path: docs/commons-rng-bom/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-bom/scm.html
+    anchor: commons-rng-bom-scm
+    virtual_path: docs/commons-rng-bom/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-bom/summary.html
+    anchor: commons-rng-bom-summary
+    virtual_path: docs/commons-rng-bom/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-bom/team.html
+    anchor: commons-rng-bom-team
+    virtual_path: docs/commons-rng-bom/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-client-api/ci-management.html
+    anchor: commons-rng-client-api-ci-management
+    virtual_path: docs/commons-rng-client-api/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-client-api/scm.html
+    anchor: commons-rng-client-api-scm
+    virtual_path: docs/commons-rng-client-api/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-client-api/summary.html
+    anchor: commons-rng-client-api-summary
+    virtual_path: docs/commons-rng-client-api/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-client-api/team.html
+    anchor: commons-rng-client-api-team
+    virtual_path: docs/commons-rng-client-api/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-core/ci-management.html
+    anchor: commons-rng-core-ci-management
+    virtual_path: docs/commons-rng-core/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-core/scm.html
+    anchor: commons-rng-core-scm
+    virtual_path: docs/commons-rng-core/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-core/summary.html
+    anchor: commons-rng-core-summary
+    virtual_path: docs/commons-rng-core/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-core/team.html
+    anchor: commons-rng-core-team
+    virtual_path: docs/commons-rng-core/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-docs/ci-management.html
+    anchor: commons-rng-docs-ci-management
+    virtual_path: docs/commons-rng-docs/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-docs/scm.html
+    anchor: commons-rng-docs-scm
+    virtual_path: docs/commons-rng-docs/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-docs/summary.html
+    anchor: commons-rng-docs-summary
+    virtual_path: docs/commons-rng-docs/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-docs/team.html
+    anchor: commons-rng-docs-team
+    virtual_path: docs/commons-rng-docs/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/ci-management.html
+    anchor: commons-rng-examples-ci-management
+    virtual_path: docs/commons-rng-examples/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-jmh/ci-management.html
+    anchor: commons-rng-examples-commons-rng-examples-jmh-ci-management
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-jmh/ci-management.md
+  - title: About Apache Commons RNG JMH Benchmark
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-jmh/index.html
+    anchor: commons-rng-examples-commons-rng-examples-jmh
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-jmh/index.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-jmh/scm.html
+    anchor: commons-rng-examples-commons-rng-examples-jmh-scm
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-jmh/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-jmh/summary.html
+    anchor: commons-rng-examples-commons-rng-examples-jmh-summary
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-jmh/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-jmh/team.html
+    anchor: commons-rng-examples-commons-rng-examples-jmh-team
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-jmh/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-jpms/ci-management.html
+    anchor: commons-rng-examples-commons-rng-examples-jpms-ci-management
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-jpms/ci-management.md
+  - title: About Apache Commons RNG JPMS Integration Test
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-jpms/index.html
+    anchor: commons-rng-examples-commons-rng-examples-jpms
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-jpms/index.md
+  - title: Project Modules
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-jpms/modules.html
+    anchor: commons-rng-examples-commons-rng-examples-jpms-modules
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-jpms/modules.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-jpms/scm.html
+    anchor: commons-rng-examples-commons-rng-examples-jpms-scm
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-jpms/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-jpms/summary.html
+    anchor: commons-rng-examples-commons-rng-examples-jpms-summary
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-jpms/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-jpms/team.html
+    anchor: commons-rng-examples-commons-rng-examples-jpms-team
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-jpms/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-quadrature/ci-management.html
+    anchor: commons-rng-examples-commons-rng-examples-quadrature-ci-management
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-quadrature/ci-management.md
+  - title: About Apache Commons RNG Quadrature Example
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-quadrature/index.html
+    anchor: commons-rng-examples-commons-rng-examples-quadrature
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-quadrature/index.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-quadrature/scm.html
+    anchor: commons-rng-examples-commons-rng-examples-quadrature-scm
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-quadrature/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-quadrature/summary.html
+    anchor: commons-rng-examples-commons-rng-examples-quadrature-summary
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-quadrature/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-quadrature/team.html
+    anchor: commons-rng-examples-commons-rng-examples-quadrature-team
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-quadrature/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-sampling/ci-management.html
+    anchor: commons-rng-examples-commons-rng-examples-sampling-ci-management
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-sampling/ci-management.md
+  - title: About Apache Commons RNG Examples Sampling Utilities
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-sampling/index.html
+    anchor: commons-rng-examples-commons-rng-examples-sampling
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-sampling/index.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-sampling/scm.html
+    anchor: commons-rng-examples-commons-rng-examples-sampling-scm
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-sampling/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-sampling/summary.html
+    anchor: commons-rng-examples-commons-rng-examples-sampling-summary
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-sampling/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-sampling/team.html
+    anchor: commons-rng-examples-commons-rng-examples-sampling-team
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-sampling/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-stress/ci-management.html
+    anchor: commons-rng-examples-commons-rng-examples-stress-ci-management
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-stress/ci-management.md
+  - title: About Apache Commons RNG Examples Stress Utilities
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-stress/index.html
+    anchor: commons-rng-examples-commons-rng-examples-stress
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-stress/index.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-stress/scm.html
+    anchor: commons-rng-examples-commons-rng-examples-stress-scm
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-stress/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-stress/summary.html
+    anchor: commons-rng-examples-commons-rng-examples-stress-summary
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-stress/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/commons-rng-examples-stress/team.html
+    anchor: commons-rng-examples-commons-rng-examples-stress-team
+    virtual_path: docs/commons-rng-examples/commons-rng-examples-stress/team.md
+  - title: About Apache Commons RNG Examples
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/index.html
+    anchor: commons-rng-examples
+    virtual_path: docs/commons-rng-examples/index.md
+  - title: Project Modules
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/modules.html
+    anchor: commons-rng-examples-modules
+    virtual_path: docs/commons-rng-examples/modules.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/scm.html
+    anchor: commons-rng-examples-scm
+    virtual_path: docs/commons-rng-examples/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/summary.html
+    anchor: commons-rng-examples-summary
+    virtual_path: docs/commons-rng-examples/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-examples/team.html
+    anchor: commons-rng-examples-team
+    virtual_path: docs/commons-rng-examples/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-sampling/ci-management.html
+    anchor: commons-rng-sampling-ci-management
+    virtual_path: docs/commons-rng-sampling/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-sampling/scm.html
+    anchor: commons-rng-sampling-scm
+    virtual_path: docs/commons-rng-sampling/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-sampling/summary.html
+    anchor: commons-rng-sampling-summary
+    virtual_path: docs/commons-rng-sampling/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-sampling/team.html
+    anchor: commons-rng-sampling-team
+    virtual_path: docs/commons-rng-sampling/team.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-simple/ci-management.html
+    anchor: commons-rng-simple-ci-management
+    virtual_path: docs/commons-rng-simple/ci-management.md
+  - title: Overview
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-simple/scm.html
+    anchor: commons-rng-simple-scm
+    virtual_path: docs/commons-rng-simple/scm.md
+  - title: Project Summary
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-simple/summary.html
+    anchor: commons-rng-simple-summary
+    virtual_path: docs/commons-rng-simple/summary.md
+  - title: Project Team
+    kind: link
+    source_url: https://commons.apache.org/proper/commons-rng/commons-rng-simple/team.html
+    anchor: commons-rng-simple-team
+    virtual_path: docs/commons-rng-simple/team.md

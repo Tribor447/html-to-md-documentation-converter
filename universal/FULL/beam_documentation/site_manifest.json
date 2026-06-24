@@ -1,0 +1,1289 @@
+{
+  "entry_url": "https://beam.apache.org/documentation/",
+  "site_prefix": "/documentation/",
+  "site_slug": "beam_documentation",
+  "profile": "generic",
+  "combined_markdown": "combined.md",
+  "page_count": 142,
+  "asset_count": 51,
+  "pages": [
+    {
+      "source_url": "https://beam.apache.org/documentation/basics/",
+      "title": "Basics of the Beam model",
+      "anchor": "basics",
+      "virtual_path": "docs/basics/index.md",
+      "profile": "generic",
+      "score": 37698,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/glossary/",
+      "title": "Apache Beam glossary",
+      "anchor": "glossary",
+      "virtual_path": "docs/glossary/index.md",
+      "profile": "generic",
+      "score": 48869,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/",
+      "title": "Apache Beam Documentation",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "generic",
+      "score": 12184,
+      "depth": 0
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/built-in/cdap/",
+      "title": "Cdap IO",
+      "anchor": "io-built-in-cdap",
+      "virtual_path": "docs/io/built-in/cdap/index.md",
+      "profile": "generic",
+      "score": 24479,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/built-in/google-bigquery/",
+      "title": "Google BigQuery I/O connector",
+      "anchor": "io-built-in-google-bigquery",
+      "virtual_path": "docs/io/built-in/google-bigquery/index.md",
+      "profile": "generic",
+      "score": 90719,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/built-in/hadoop/",
+      "title": "Hadoop Input/Output Format IO",
+      "anchor": "io-built-in-hadoop",
+      "virtual_path": "docs/io/built-in/hadoop/index.md",
+      "profile": "generic",
+      "score": 30216,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/built-in/hcatalog/",
+      "title": "HCatalog IO",
+      "anchor": "io-built-in-hcatalog",
+      "virtual_path": "docs/io/built-in/hcatalog/index.md",
+      "profile": "generic",
+      "score": 13575,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/built-in/iceberg/",
+      "title": "Apache Iceberg I/O connector",
+      "anchor": "io-built-in-iceberg",
+      "virtual_path": "docs/io/built-in/iceberg/index.md",
+      "profile": "generic",
+      "score": 30095,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/built-in/parquet/",
+      "title": "Apache Parquet I/O connector",
+      "anchor": "io-built-in-parquet",
+      "virtual_path": "docs/io/built-in/parquet/index.md",
+      "profile": "generic",
+      "score": 11803,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/built-in/singlestore/",
+      "title": "SingleStoreDB I/O",
+      "anchor": "io-built-in-singlestore",
+      "virtual_path": "docs/io/built-in/singlestore/index.md",
+      "profile": "generic",
+      "score": 19301,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/built-in/snowflake/",
+      "title": "Snowflake I/O",
+      "anchor": "io-built-in-snowflake",
+      "virtual_path": "docs/io/built-in/snowflake/index.md",
+      "profile": "generic",
+      "score": 68792,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/built-in/sparkreceiver/",
+      "title": "SparkReceiver IO",
+      "anchor": "io-built-in-sparkreceiver",
+      "virtual_path": "docs/io/built-in/sparkreceiver/index.md",
+      "profile": "generic",
+      "score": 12708,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/built-in/webapis/",
+      "title": "Web APIs I/O connector",
+      "anchor": "io-built-in-webapis",
+      "virtual_path": "docs/io/built-in/webapis/index.md",
+      "profile": "generic",
+      "score": 56522,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/connectors/",
+      "title": "I/O Connectors",
+      "anchor": "io-connectors",
+      "virtual_path": "docs/io/connectors/index.md",
+      "profile": "generic",
+      "score": 15204,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/developing-io-java/",
+      "title": "Developing I/O connectors for Java",
+      "anchor": "io-developing-io-java",
+      "virtual_path": "docs/io/developing-io-java/index.md",
+      "profile": "generic",
+      "score": 23978,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/developing-io-overview/",
+      "title": "Overview: Developing a new I/O connector",
+      "anchor": "io-developing-io-overview",
+      "virtual_path": "docs/io/developing-io-overview/index.md",
+      "profile": "generic",
+      "score": 17935,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/developing-io-python/",
+      "title": "Developing I/O connectors for Python",
+      "anchor": "io-developing-io-python",
+      "virtual_path": "docs/io/developing-io-python/index.md",
+      "profile": "generic",
+      "score": 25275,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/io-standards/",
+      "title": "I/O Standards",
+      "anchor": "io-io-standards",
+      "virtual_path": "docs/io/io-standards/index.md",
+      "profile": "generic",
+      "score": 77893,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/managed-io/",
+      "title": "Managed I/O Connectors",
+      "anchor": "io-managed-io",
+      "virtual_path": "docs/io/managed-io/index.md",
+      "profile": "generic",
+      "score": 24265,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/io/testing/",
+      "title": "Testing I/O Transforms",
+      "anchor": "io-testing",
+      "virtual_path": "docs/io/testing/index.md",
+      "profile": "generic",
+      "score": 28837,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/about-ml/",
+      "title": "About Beam ML",
+      "anchor": "ml-about-ml",
+      "virtual_path": "docs/ml/about-ml/index.md",
+      "profile": "generic",
+      "score": 39573,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/anomaly-detection/",
+      "title": "Anomaly Detection Example",
+      "anchor": "ml-anomaly-detection",
+      "virtual_path": "docs/ml/anomaly-detection/index.md",
+      "profile": "generic",
+      "score": 19365,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/data-processing/",
+      "title": "Data exploration",
+      "anchor": "ml-data-processing",
+      "virtual_path": "docs/ml/data-processing/index.md",
+      "profile": "generic",
+      "score": 13302,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/inference-overview/",
+      "title": "Prediction and inference",
+      "anchor": "ml-inference-overview",
+      "virtual_path": "docs/ml/inference-overview/index.md",
+      "profile": "generic",
+      "score": 9490,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/large-language-modeling/",
+      "title": "Large Language Model Inference in Beam",
+      "anchor": "ml-large-language-modeling",
+      "virtual_path": "docs/ml/large-language-modeling/index.md",
+      "profile": "generic",
+      "score": 21541,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/ml-dependency-extras/",
+      "title": "ML Dependency Extras",
+      "anchor": "ml-ml-dependency-extras",
+      "virtual_path": "docs/ml/ml-dependency-extras/index.md",
+      "profile": "generic",
+      "score": 7647,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/model-evaluation/",
+      "title": "ML Model Evaluation",
+      "anchor": "ml-model-evaluation",
+      "virtual_path": "docs/ml/model-evaluation/index.md",
+      "profile": "generic",
+      "score": 10839,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/multi-language-inference/",
+      "title": "Using RunInference from Java SDK",
+      "anchor": "ml-multi-language-inference",
+      "virtual_path": "docs/ml/multi-language-inference/index.md",
+      "profile": "generic",
+      "score": 19002,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/multi-model-pipelines/",
+      "title": "Multi-model pipelines",
+      "anchor": "ml-multi-model-pipelines",
+      "virtual_path": "docs/ml/multi-model-pipelines/index.md",
+      "profile": "generic",
+      "score": 16780,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/online-clustering/",
+      "title": "Online Clustering Example",
+      "anchor": "ml-online-clustering",
+      "virtual_path": "docs/ml/online-clustering/index.md",
+      "profile": "generic",
+      "score": 17524,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/orchestration/",
+      "title": "Workflow orchestration",
+      "anchor": "ml-orchestration",
+      "virtual_path": "docs/ml/orchestration/index.md",
+      "profile": "generic",
+      "score": 33420,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/overview/",
+      "title": "Get started with AI/ML pipelines",
+      "anchor": "ml-overview",
+      "virtual_path": "docs/ml/overview/index.md",
+      "profile": "generic",
+      "score": 15158,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/per-entity-training/",
+      "title": "Per Entity Training",
+      "anchor": "ml-per-entity-training",
+      "virtual_path": "docs/ml/per-entity-training/index.md",
+      "profile": "generic",
+      "score": 11997,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/preprocess-data/",
+      "title": "Preprocess data with MLTransform",
+      "anchor": "ml-preprocess-data",
+      "virtual_path": "docs/ml/preprocess-data/index.md",
+      "profile": "generic",
+      "score": 19461,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/runinference-metrics/",
+      "title": "RunInference Metrics",
+      "anchor": "ml-runinference-metrics",
+      "virtual_path": "docs/ml/runinference-metrics/index.md",
+      "profile": "generic",
+      "score": 13212,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/side-input-updates/",
+      "title": "Use WatchFilePattern to auto-update ML models in RunInference",
+      "anchor": "ml-side-input-updates",
+      "virtual_path": "docs/ml/side-input-updates/index.md",
+      "profile": "generic",
+      "score": 16404,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/ml/tensorrt-runinference/",
+      "title": "Use TensorRT with RunInference",
+      "anchor": "ml-tensorrt-runinference",
+      "virtual_path": "docs/ml/tensorrt-runinference/index.md",
+      "profile": "generic",
+      "score": 16826,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/ai-platform/",
+      "title": "AI Platform integration patterns",
+      "anchor": "patterns-ai-platform",
+      "virtual_path": "docs/patterns/ai-platform/index.md",
+      "profile": "generic",
+      "score": 17263,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/bigqueryio/",
+      "title": "Google BigQuery patterns",
+      "anchor": "patterns-bigqueryio",
+      "virtual_path": "docs/patterns/bigqueryio/index.md",
+      "profile": "generic",
+      "score": 11144,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/bqml/",
+      "title": "BigQuery ML integration",
+      "anchor": "patterns-bqml",
+      "virtual_path": "docs/patterns/bqml/index.md",
+      "profile": "generic",
+      "score": 13450,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/custom-io/",
+      "title": "Custom I/O patterns",
+      "anchor": "patterns-custom-io",
+      "virtual_path": "docs/patterns/custom-io/index.md",
+      "profile": "generic",
+      "score": 8000,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/custom-windows/",
+      "title": "Custom window patterns",
+      "anchor": "patterns-custom-windows",
+      "virtual_path": "docs/patterns/custom-windows/index.md",
+      "profile": "generic",
+      "score": 16384,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/file-processing/",
+      "title": "File processing patterns",
+      "anchor": "patterns-file-processing",
+      "virtual_path": "docs/patterns/file-processing/index.md",
+      "profile": "generic",
+      "score": 14281,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/grouping-elements-for-efficient-external-service-calls/",
+      "title": "Grouping elements for efficient external service calls using the GroupIntoBatches -transform",
+      "anchor": "patterns-grouping-elements-for-efficient-external-service-calls",
+      "virtual_path": "docs/patterns/grouping-elements-for-efficient-external-service-calls/index.md",
+      "profile": "generic",
+      "score": 9532,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/overview/",
+      "title": "Common pipeline patterns",
+      "anchor": "patterns-overview",
+      "virtual_path": "docs/patterns/overview/index.md",
+      "profile": "generic",
+      "score": 10360,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/pipeline-options/",
+      "title": "Pipeline option patterns",
+      "anchor": "patterns-pipeline-options",
+      "virtual_path": "docs/patterns/pipeline-options/index.md",
+      "profile": "generic",
+      "score": 10651,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/rate-limiting/",
+      "title": "Rate limiting patterns",
+      "anchor": "patterns-rate-limiting",
+      "virtual_path": "docs/patterns/rate-limiting/index.md",
+      "profile": "generic",
+      "score": 15897,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/schema/",
+      "title": "Schema Patterns",
+      "anchor": "patterns-schema",
+      "virtual_path": "docs/patterns/schema/index.md",
+      "profile": "generic",
+      "score": 12712,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/shared-class/",
+      "title": "Cache data using a shared object",
+      "anchor": "patterns-shared-class",
+      "virtual_path": "docs/patterns/shared-class/index.md",
+      "profile": "generic",
+      "score": 11925,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/patterns/side-inputs/",
+      "title": "Side input patterns",
+      "anchor": "patterns-side-inputs",
+      "virtual_path": "docs/patterns/side-inputs/index.md",
+      "profile": "generic",
+      "score": 16878,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/pipelines/create-your-pipeline/",
+      "title": "Create Your Pipeline",
+      "anchor": "pipelines-create-your-pipeline",
+      "virtual_path": "docs/pipelines/create-your-pipeline/index.md",
+      "profile": "generic",
+      "score": 15338,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/pipelines/design-your-pipeline/",
+      "title": "Design Your Pipeline",
+      "anchor": "pipelines-design-your-pipeline",
+      "virtual_path": "docs/pipelines/design-your-pipeline/index.md",
+      "profile": "generic",
+      "score": 22835,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/pipelines/test-your-pipeline/",
+      "title": "Test Your Pipeline",
+      "anchor": "pipelines-test-your-pipeline",
+      "virtual_path": "docs/pipelines/test-your-pipeline/index.md",
+      "profile": "generic",
+      "score": 18563,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/programming-guide/",
+      "title": "Apache Beam Programming Guide",
+      "anchor": "programming-guide",
+      "virtual_path": "docs/programming-guide/index.md",
+      "profile": "generic",
+      "score": 582523,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/runtime/environments/",
+      "title": "Container environments",
+      "anchor": "runtime-environments",
+      "virtual_path": "docs/runtime/environments/index.md",
+      "profile": "generic",
+      "score": 22408,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/runtime/model/",
+      "title": "Execution model",
+      "anchor": "runtime-model",
+      "virtual_path": "docs/runtime/model/index.md",
+      "profile": "generic",
+      "score": 15663,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/runtime/resource-hints/",
+      "title": "Resource hints",
+      "anchor": "runtime-resource-hints",
+      "virtual_path": "docs/runtime/resource-hints/index.md",
+      "profile": "generic",
+      "score": 12574,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/runtime/sdk-harness-config/",
+      "title": "SDK Harness Configuration",
+      "anchor": "runtime-sdk-harness-config",
+      "virtual_path": "docs/runtime/sdk-harness-config/index.md",
+      "profile": "generic",
+      "score": 9179,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/approximatequantiles/",
+      "title": "ApproximateQuantiles",
+      "anchor": "transforms-java-aggregation-approximatequantiles",
+      "virtual_path": "docs/transforms/java/aggregation/approximatequantiles/index.md",
+      "profile": "generic",
+      "score": 7807,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/approximateunique/",
+      "title": "ApproximateUnique",
+      "anchor": "transforms-java-aggregation-approximateunique",
+      "virtual_path": "docs/transforms/java/aggregation/approximateunique/index.md",
+      "profile": "generic",
+      "score": 7597,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/cogroupbykey/",
+      "title": "CoGroupByKey",
+      "anchor": "transforms-java-aggregation-cogroupbykey",
+      "virtual_path": "docs/transforms/java/aggregation/cogroupbykey/index.md",
+      "profile": "generic",
+      "score": 9525,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/combine/",
+      "title": "Combine",
+      "anchor": "transforms-java-aggregation-combine",
+      "virtual_path": "docs/transforms/java/aggregation/combine/index.md",
+      "profile": "generic",
+      "score": 10693,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/combinewithcontext/",
+      "title": "CombineWithContext",
+      "anchor": "transforms-java-aggregation-combinewithcontext",
+      "virtual_path": "docs/transforms/java/aggregation/combinewithcontext/index.md",
+      "profile": "generic",
+      "score": 7436,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/count/",
+      "title": "Count",
+      "anchor": "transforms-java-aggregation-count",
+      "virtual_path": "docs/transforms/java/aggregation/count/index.md",
+      "profile": "generic",
+      "score": 8164,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/distinct/",
+      "title": "Distinct",
+      "anchor": "transforms-java-aggregation-distinct",
+      "virtual_path": "docs/transforms/java/aggregation/distinct/index.md",
+      "profile": "generic",
+      "score": 8455,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/groupbykey/",
+      "title": "GroupByKey",
+      "anchor": "transforms-java-aggregation-groupbykey",
+      "virtual_path": "docs/transforms/java/aggregation/groupbykey/index.md",
+      "profile": "generic",
+      "score": 7825,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/groupintobatches/",
+      "title": "GroupIntoBatches",
+      "anchor": "transforms-java-aggregation-groupintobatches",
+      "virtual_path": "docs/transforms/java/aggregation/groupintobatches/index.md",
+      "profile": "generic",
+      "score": 7663,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/hllcount/",
+      "title": "Latest",
+      "anchor": "transforms-java-aggregation-hllcount",
+      "virtual_path": "docs/transforms/java/aggregation/hllcount/index.md",
+      "profile": "generic",
+      "score": 10494,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/latest/",
+      "title": "Latest",
+      "anchor": "transforms-java-aggregation-latest",
+      "virtual_path": "docs/transforms/java/aggregation/latest/index.md",
+      "profile": "generic",
+      "score": 8469,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/max/",
+      "title": "Max",
+      "anchor": "transforms-java-aggregation-max",
+      "virtual_path": "docs/transforms/java/aggregation/max/index.md",
+      "profile": "generic",
+      "score": 8580,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/mean/",
+      "title": "Mean",
+      "anchor": "transforms-java-aggregation-mean",
+      "virtual_path": "docs/transforms/java/aggregation/mean/index.md",
+      "profile": "generic",
+      "score": 8267,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/min/",
+      "title": "Min",
+      "anchor": "transforms-java-aggregation-min",
+      "virtual_path": "docs/transforms/java/aggregation/min/index.md",
+      "profile": "generic",
+      "score": 7768,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/sample/",
+      "title": "Sample",
+      "anchor": "transforms-java-aggregation-sample",
+      "virtual_path": "docs/transforms/java/aggregation/sample/index.md",
+      "profile": "generic",
+      "score": 7324,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/sum/",
+      "title": "Sum",
+      "anchor": "transforms-java-aggregation-sum",
+      "virtual_path": "docs/transforms/java/aggregation/sum/index.md",
+      "profile": "generic",
+      "score": 7637,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/aggregation/top/",
+      "title": "Top",
+      "anchor": "transforms-java-aggregation-top",
+      "virtual_path": "docs/transforms/java/aggregation/top/index.md",
+      "profile": "generic",
+      "score": 7269,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/filter/",
+      "title": "Filter",
+      "anchor": "transforms-java-elementwise-filter",
+      "virtual_path": "docs/transforms/java/elementwise/filter/index.md",
+      "profile": "generic",
+      "score": 9146,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/flatmapelements/",
+      "title": "FlatMapElements",
+      "anchor": "transforms-java-elementwise-flatmapelements",
+      "virtual_path": "docs/transforms/java/elementwise/flatmapelements/index.md",
+      "profile": "generic",
+      "score": 7449,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/keys/",
+      "title": "Keys",
+      "anchor": "transforms-java-elementwise-keys",
+      "virtual_path": "docs/transforms/java/elementwise/keys/index.md",
+      "profile": "generic",
+      "score": 7249,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/kvswap/",
+      "title": "KvSwap",
+      "anchor": "transforms-java-elementwise-kvswap",
+      "virtual_path": "docs/transforms/java/elementwise/kvswap/index.md",
+      "profile": "generic",
+      "score": 7313,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/mapelements/",
+      "title": "MapElements",
+      "anchor": "transforms-java-elementwise-mapelements",
+      "virtual_path": "docs/transforms/java/elementwise/mapelements/index.md",
+      "profile": "generic",
+      "score": 8414,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/pardo/",
+      "title": "ParDo",
+      "anchor": "transforms-java-elementwise-pardo",
+      "virtual_path": "docs/transforms/java/elementwise/pardo/index.md",
+      "profile": "generic",
+      "score": 13113,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/partition/",
+      "title": "Partition",
+      "anchor": "transforms-java-elementwise-partition",
+      "virtual_path": "docs/transforms/java/elementwise/partition/index.md",
+      "profile": "generic",
+      "score": 8128,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/regex/",
+      "title": "Regex",
+      "anchor": "transforms-java-elementwise-regex",
+      "virtual_path": "docs/transforms/java/elementwise/regex/index.md",
+      "profile": "generic",
+      "score": 7110,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/reify/",
+      "title": "Reify",
+      "anchor": "transforms-java-elementwise-reify",
+      "virtual_path": "docs/transforms/java/elementwise/reify/index.md",
+      "profile": "generic",
+      "score": 7435,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/tostring/",
+      "title": "ToString",
+      "anchor": "transforms-java-elementwise-tostring",
+      "virtual_path": "docs/transforms/java/elementwise/tostring/index.md",
+      "profile": "generic",
+      "score": 7161,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/values/",
+      "title": "Values",
+      "anchor": "transforms-java-elementwise-values",
+      "virtual_path": "docs/transforms/java/elementwise/values/index.md",
+      "profile": "generic",
+      "score": 7275,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/withkeys/",
+      "title": "WithKeys",
+      "anchor": "transforms-java-elementwise-withkeys",
+      "virtual_path": "docs/transforms/java/elementwise/withkeys/index.md",
+      "profile": "generic",
+      "score": 7722,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/elementwise/withtimestamps/",
+      "title": "WithTimestamps",
+      "anchor": "transforms-java-elementwise-withtimestamps",
+      "virtual_path": "docs/transforms/java/elementwise/withtimestamps/index.md",
+      "profile": "generic",
+      "score": 7103,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/other/create/",
+      "title": "Create",
+      "anchor": "transforms-java-other-create",
+      "virtual_path": "docs/transforms/java/other/create/index.md",
+      "profile": "generic",
+      "score": 7404,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/other/flatten/",
+      "title": "Flatten",
+      "anchor": "transforms-java-other-flatten",
+      "virtual_path": "docs/transforms/java/other/flatten/index.md",
+      "profile": "generic",
+      "score": 8757,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/other/passert/",
+      "title": "PAssert",
+      "anchor": "transforms-java-other-passert",
+      "virtual_path": "docs/transforms/java/other/passert/index.md",
+      "profile": "generic",
+      "score": 8516,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/other/view/",
+      "title": "View",
+      "anchor": "transforms-java-other-view",
+      "virtual_path": "docs/transforms/java/other/view/index.md",
+      "profile": "generic",
+      "score": 7150,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/other/wait/",
+      "title": "Wait.On",
+      "anchor": "transforms-java-other-wait",
+      "virtual_path": "docs/transforms/java/other/wait/index.md",
+      "profile": "generic",
+      "score": 11730,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/other/window/",
+      "title": "Window",
+      "anchor": "transforms-java-other-window",
+      "virtual_path": "docs/transforms/java/other/window/index.md",
+      "profile": "generic",
+      "score": 7336,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/java/overview/",
+      "title": "Java transform catalog overview",
+      "anchor": "transforms-java-overview",
+      "virtual_path": "docs/transforms/java/overview/index.md",
+      "profile": "generic",
+      "score": 11445,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/approximatequantiles/",
+      "title": "ApproximateQuantiles",
+      "anchor": "transforms-python-aggregation-approximatequantiles",
+      "virtual_path": "docs/transforms/python/aggregation/approximatequantiles/index.md",
+      "profile": "generic",
+      "score": 7303,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/approximateunique/",
+      "title": "ApproximateUnique",
+      "anchor": "transforms-python-aggregation-approximateunique",
+      "virtual_path": "docs/transforms/python/aggregation/approximateunique/index.md",
+      "profile": "generic",
+      "score": 7299,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/batchelements/",
+      "title": "BatchElements",
+      "anchor": "transforms-python-aggregation-batchelements",
+      "virtual_path": "docs/transforms/python/aggregation/batchelements/index.md",
+      "profile": "generic",
+      "score": 7289,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/cogroupbykey/",
+      "title": "CoGroupByKey",
+      "anchor": "transforms-python-aggregation-cogroupbykey",
+      "virtual_path": "docs/transforms/python/aggregation/cogroupbykey/index.md",
+      "profile": "generic",
+      "score": 8683,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/combineglobally/",
+      "title": "CombineGlobally",
+      "anchor": "transforms-python-aggregation-combineglobally",
+      "virtual_path": "docs/transforms/python/aggregation/combineglobally/index.md",
+      "profile": "generic",
+      "score": 11602,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/combineperkey/",
+      "title": "CombinePerKey",
+      "anchor": "transforms-python-aggregation-combineperkey",
+      "virtual_path": "docs/transforms/python/aggregation/combineperkey/index.md",
+      "profile": "generic",
+      "score": 12279,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/combinevalues/",
+      "title": "CombineValues",
+      "anchor": "transforms-python-aggregation-combinevalues",
+      "virtual_path": "docs/transforms/python/aggregation/combinevalues/index.md",
+      "profile": "generic",
+      "score": 12451,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/count/",
+      "title": "Count",
+      "anchor": "transforms-python-aggregation-count",
+      "virtual_path": "docs/transforms/python/aggregation/count/index.md",
+      "profile": "generic",
+      "score": 9398,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/distinct/",
+      "title": "Distinct",
+      "anchor": "transforms-python-aggregation-distinct",
+      "virtual_path": "docs/transforms/python/aggregation/distinct/index.md",
+      "profile": "generic",
+      "score": 7823,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/groupby/",
+      "title": "GroupBy",
+      "anchor": "transforms-python-aggregation-groupby",
+      "virtual_path": "docs/transforms/python/aggregation/groupby/index.md",
+      "profile": "generic",
+      "score": 10099,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/groupbykey/",
+      "title": "GroupByKey",
+      "anchor": "transforms-python-aggregation-groupbykey",
+      "virtual_path": "docs/transforms/python/aggregation/groupbykey/index.md",
+      "profile": "generic",
+      "score": 8223,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/groupintobatches/",
+      "title": "GroupIntoBatches",
+      "anchor": "transforms-python-aggregation-groupintobatches",
+      "virtual_path": "docs/transforms/python/aggregation/groupintobatches/index.md",
+      "profile": "generic",
+      "score": 7874,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/latest/",
+      "title": "Latest",
+      "anchor": "transforms-python-aggregation-latest",
+      "virtual_path": "docs/transforms/python/aggregation/latest/index.md",
+      "profile": "generic",
+      "score": 8963,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/max/",
+      "title": "Max",
+      "anchor": "transforms-python-aggregation-max",
+      "virtual_path": "docs/transforms/python/aggregation/max/index.md",
+      "profile": "generic",
+      "score": 8801,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/mean/",
+      "title": "Mean",
+      "anchor": "transforms-python-aggregation-mean",
+      "virtual_path": "docs/transforms/python/aggregation/mean/index.md",
+      "profile": "generic",
+      "score": 8926,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/min/",
+      "title": "Min",
+      "anchor": "transforms-python-aggregation-min",
+      "virtual_path": "docs/transforms/python/aggregation/min/index.md",
+      "profile": "generic",
+      "score": 8801,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/sample/",
+      "title": "Sample",
+      "anchor": "transforms-python-aggregation-sample",
+      "virtual_path": "docs/transforms/python/aggregation/sample/index.md",
+      "profile": "generic",
+      "score": 8947,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/sum/",
+      "title": "Sum",
+      "anchor": "transforms-python-aggregation-sum",
+      "virtual_path": "docs/transforms/python/aggregation/sum/index.md",
+      "profile": "generic",
+      "score": 8822,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/tolist/",
+      "title": "ToList",
+      "anchor": "transforms-python-aggregation-tolist",
+      "virtual_path": "docs/transforms/python/aggregation/tolist/index.md",
+      "profile": "generic",
+      "score": 7286,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/aggregation/top/",
+      "title": "Top",
+      "anchor": "transforms-python-aggregation-top",
+      "virtual_path": "docs/transforms/python/aggregation/top/index.md",
+      "profile": "generic",
+      "score": 11723,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-bigtable/",
+      "title": "Use Bigtable to enrich data",
+      "anchor": "transforms-python-elementwise-enrichment-bigtable",
+      "virtual_path": "docs/transforms/python/elementwise/enrichment-bigtable/index.md",
+      "profile": "generic",
+      "score": 9738,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-cloudsql/",
+      "title": "Use CloudSQL to enrich data",
+      "anchor": "transforms-python-elementwise-enrichment-cloudsql",
+      "virtual_path": "docs/transforms/python/elementwise/enrichment-cloudsql/index.md",
+      "profile": "generic",
+      "score": 19970,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-milvus/",
+      "title": "Use Milvus to enrich data",
+      "anchor": "transforms-python-elementwise-enrichment-milvus",
+      "virtual_path": "docs/transforms/python/elementwise/enrichment-milvus/index.md",
+      "profile": "generic",
+      "score": 11968,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/enrichment-vertexai/",
+      "title": "Enrichment with Google Cloud Vertex AI Feature Store",
+      "anchor": "transforms-python-elementwise-enrichment-vertexai",
+      "virtual_path": "docs/transforms/python/elementwise/enrichment-vertexai/index.md",
+      "profile": "generic",
+      "score": 12865,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/enrichment/",
+      "title": "Enrichment transform",
+      "anchor": "transforms-python-elementwise-enrichment",
+      "virtual_path": "docs/transforms/python/elementwise/enrichment/index.md",
+      "profile": "generic",
+      "score": 13344,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/filter/",
+      "title": "Filter",
+      "anchor": "transforms-python-elementwise-filter",
+      "virtual_path": "docs/transforms/python/elementwise/filter/index.md",
+      "profile": "generic",
+      "score": 12761,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/flatmap/",
+      "title": "FlatMap",
+      "anchor": "transforms-python-elementwise-flatmap",
+      "virtual_path": "docs/transforms/python/elementwise/flatmap/index.md",
+      "profile": "generic",
+      "score": 15723,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/keys/",
+      "title": "Keys",
+      "anchor": "transforms-python-elementwise-keys",
+      "virtual_path": "docs/transforms/python/elementwise/keys/index.md",
+      "profile": "generic",
+      "score": 7742,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/kvswap/",
+      "title": "Kvswap",
+      "anchor": "transforms-python-elementwise-kvswap",
+      "virtual_path": "docs/transforms/python/elementwise/kvswap/index.md",
+      "profile": "generic",
+      "score": 7782,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/map/",
+      "title": "Map",
+      "anchor": "transforms-python-elementwise-map",
+      "virtual_path": "docs/transforms/python/elementwise/map/index.md",
+      "profile": "generic",
+      "score": 14490,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/mltransform/",
+      "title": "MLTransform for data processing",
+      "anchor": "transforms-python-elementwise-mltransform",
+      "virtual_path": "docs/transforms/python/elementwise/mltransform/index.md",
+      "profile": "generic",
+      "score": 15487,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/pardo/",
+      "title": "ParDo",
+      "anchor": "transforms-python-elementwise-pardo",
+      "virtual_path": "docs/transforms/python/elementwise/pardo/index.md",
+      "profile": "generic",
+      "score": 13437,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/partition/",
+      "title": "Partition",
+      "anchor": "transforms-python-elementwise-partition",
+      "virtual_path": "docs/transforms/python/elementwise/partition/index.md",
+      "profile": "generic",
+      "score": 12768,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/regex/",
+      "title": "Regex",
+      "anchor": "transforms-python-elementwise-regex",
+      "virtual_path": "docs/transforms/python/elementwise/regex/index.md",
+      "profile": "generic",
+      "score": 18222,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/reify/",
+      "title": "Reify",
+      "anchor": "transforms-python-elementwise-reify",
+      "virtual_path": "docs/transforms/python/elementwise/reify/index.md",
+      "profile": "generic",
+      "score": 7253,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/runinference-pytorch/",
+      "title": "Use RunInference with PyTorch",
+      "anchor": "transforms-python-elementwise-runinference-pytorch",
+      "virtual_path": "docs/transforms/python/elementwise/runinference-pytorch/index.md",
+      "profile": "generic",
+      "score": 12217,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/runinference-sklearn/",
+      "title": "Use RunInference with Sklearn",
+      "anchor": "transforms-python-elementwise-runinference-sklearn",
+      "virtual_path": "docs/transforms/python/elementwise/runinference-sklearn/index.md",
+      "profile": "generic",
+      "score": 12068,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/runinference/",
+      "title": "RunInference",
+      "anchor": "transforms-python-elementwise-runinference",
+      "virtual_path": "docs/transforms/python/elementwise/runinference/index.md",
+      "profile": "generic",
+      "score": 8453,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/tostring/",
+      "title": "ToString",
+      "anchor": "transforms-python-elementwise-tostring",
+      "virtual_path": "docs/transforms/python/elementwise/tostring/index.md",
+      "profile": "generic",
+      "score": 9670,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/values/",
+      "title": "Values",
+      "anchor": "transforms-python-elementwise-values",
+      "virtual_path": "docs/transforms/python/elementwise/values/index.md",
+      "profile": "generic",
+      "score": 7748,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/elementwise/withtimestamps/",
+      "title": "WithTimestamps",
+      "anchor": "transforms-python-elementwise-withtimestamps",
+      "virtual_path": "docs/transforms/python/elementwise/withtimestamps/index.md",
+      "profile": "generic",
+      "score": 10879,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/other/create/",
+      "title": "Create",
+      "anchor": "transforms-python-other-create",
+      "virtual_path": "docs/transforms/python/other/create/index.md",
+      "profile": "generic",
+      "score": 7271,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/other/flatten/",
+      "title": "Flatten",
+      "anchor": "transforms-python-other-flatten",
+      "virtual_path": "docs/transforms/python/other/flatten/index.md",
+      "profile": "generic",
+      "score": 7520,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/other/reshuffle/",
+      "title": "Reshuffle",
+      "anchor": "transforms-python-other-reshuffle",
+      "virtual_path": "docs/transforms/python/other/reshuffle/index.md",
+      "profile": "generic",
+      "score": 7574,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/other/waiton/",
+      "title": "WaitOn",
+      "anchor": "transforms-python-other-waiton",
+      "virtual_path": "docs/transforms/python/other/waiton/index.md",
+      "profile": "generic",
+      "score": 9865,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/other/windowinto/",
+      "title": "WindowInto",
+      "anchor": "transforms-python-other-windowinto",
+      "virtual_path": "docs/transforms/python/other/windowinto/index.md",
+      "profile": "generic",
+      "score": 7374,
+      "depth": 1
+    },
+    {
+      "source_url": "https://beam.apache.org/documentation/transforms/python/overview/",
+      "title": "Python transform catalog overview",
+      "anchor": "transforms-python-overview",
+      "virtual_path": "docs/transforms/python/overview/index.md",
+      "profile": "generic",
+      "score": 11376,
+      "depth": 1
+    }
+  ]
+}

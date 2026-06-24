@@ -1,0 +1,555 @@
+- title: Introduction
+  kind: category
+  children:
+  - title: Introduction
+    kind: link
+    source_url: https://docs.spring.io/spring-cloud-gateway/reference/index.html
+    anchor: index
+    virtual_path: docs/index.md
+- title: Spring Cloud Gateway Server WebFlux
+  kind: category
+  source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux.html
+  anchor: spring-cloud-gateway-server-webflux
+  virtual_path: docs/spring-cloud-gateway-server-webflux.md
+  children:
+  - title: Spring Cloud Gateway Server WebFlux
+    kind: category
+    source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux.html
+    anchor: spring-cloud-gateway-server-webflux
+    virtual_path: docs/spring-cloud-gateway-server-webflux.md
+    children:
+    - title: How to Include Spring Cloud Gateway
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/starter.html
+      anchor: spring-cloud-gateway-server-webflux-starter
+      virtual_path: docs/spring-cloud-gateway-server-webflux/starter.md
+    - title: Glossary
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/glossary.html
+      anchor: spring-cloud-gateway-server-webflux-glossary
+      virtual_path: docs/spring-cloud-gateway-server-webflux/glossary.md
+    - title: How It Works
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/how-it-works.html
+      anchor: spring-cloud-gateway-server-webflux-how-it-works
+      virtual_path: docs/spring-cloud-gateway-server-webflux/how-it-works.md
+    - title: Configuring Route Predicate Factories and Gateway Filter Factories
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/configuring-route-predicate-factories-and-filter-factories.html
+      anchor: spring-cloud-gateway-server-webflux-configuring-route-predicate-factories-and-filter-factories
+      virtual_path: docs/spring-cloud-gateway-server-webflux/configuring-route-predicate-factories-and-filter-factories.md
+    - title: Route Predicate Factories
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/request-predicates-factories.html
+      anchor: spring-cloud-gateway-server-webflux-request-predicates-factories
+      virtual_path: docs/spring-cloud-gateway-server-webflux/request-predicates-factories.md
+    - title: GatewayFilter Factories
+      kind: category
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories.html
+      anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories
+      virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories.md
+      children:
+      - title: AddRequestHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-addrequestheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestheader-factory.md
+      - title: AddRequestHeadersIfNotPresent GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestheadersifnotpresent-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-addrequestheadersifnotpresent-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestheadersifnotpresent-factory.md
+      - title: AddRequestParameter GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestparameter-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-addrequestparameter-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addrequestparameter-factory.md
+      - title: AddResponseHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addresponseheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-addresponseheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/addresponseheader-factory.md
+      - title: CircuitBreaker GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/circuitbreaker-filter-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-circuitbreaker-filter-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/circuitbreaker-filter-factory.md
+      - title: CacheRequestBody GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/cacherequestbody-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-cacherequestbody-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/cacherequestbody-factory.md
+      - title: DedupeResponseHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/deduperesponseheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-deduperesponseheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/deduperesponseheader-factory.md
+      - title: FallbackHeaders GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/fallback-headers.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-fallback-headers
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/fallback-headers.md
+      - title: JsonToGrpc GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/jsontogrpc-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-jsontogrpc-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/jsontogrpc-factory.md
+      - title: LocalResponseCache GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/local-cache-response-filter.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-local-cache-response-filter
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/local-cache-response-filter.md
+      - title: MapRequestHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/maprequestheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-maprequestheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/maprequestheader-factory.md
+      - title: ModifyRequestBody GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/modifyrequestbody-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-modifyrequestbody-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/modifyrequestbody-factory.md
+      - title: ModifyResponseBody GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/modifyresponsebody-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-modifyresponsebody-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/modifyresponsebody-factory.md
+      - title: PrefixPath GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/prefixpath-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-prefixpath-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/prefixpath-factory.md
+      - title: PreserveHostHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/preservehostheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-preservehostheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/preservehostheader-factory.md
+      - title: RedirectTo GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/redirectto-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-redirectto-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/redirectto-factory.md
+      - title: RemoveJsonAttributesResponseBody GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removejsonattributesresponsebody-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-removejsonattributesresponsebody-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removejsonattributesresponsebody-factory.md
+      - title: RemoveRequestHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removerequestheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-removerequestheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removerequestheader-factory.md
+      - title: RemoveRequestParameter GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removerequestparameter-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-removerequestparameter-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removerequestparameter-factory.md
+      - title: RemoveResponseHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removeresponseheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-removeresponseheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/removeresponseheader-factory.md
+      - title: RequestHeaderSize GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestheadersize-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-requestheadersize-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestheadersize-factory.md
+      - title: RequestRateLimiter GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestratelimiter-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-requestratelimiter-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestratelimiter-factory.md
+      - title: RewriteLocationResponseHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewritelocationresponseheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-rewritelocationresponseheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewritelocationresponseheader-factory.md
+      - title: RewritePath GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewritepath-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-rewritepath-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewritepath-factory.md
+      - title: RewriteRequestParameter GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewriterequestparameter-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-rewriterequestparameter-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewriterequestparameter-factory.md
+      - title: RewriteResponseHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewriteresponseheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-rewriteresponseheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/rewriteresponseheader-factory.md
+      - title: SaveSession GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/savesession-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-savesession-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/savesession-factory.md
+      - title: SecureHeaders GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/secureheaders-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-secureheaders-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/secureheaders-factory.md
+      - title: SetPath GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setpath-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-setpath-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setpath-factory.md
+      - title: SetRequestHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setrequestheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-setrequestheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setrequestheader-factory.md
+      - title: SetResponseHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setresponseheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-setresponseheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setresponseheader-factory.md
+      - title: SetStatus GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setstatus-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-setstatus-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setstatus-factory.md
+      - title: StripPrefix GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/stripprefix-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-stripprefix-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/stripprefix-factory.md
+      - title: Retry GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/retry-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-retry-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/retry-factory.md
+      - title: RequestSize GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestsize-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-requestsize-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/requestsize-factory.md
+      - title: SetRequestHostHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setrequesthostheader-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-setrequesthostheader-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/setrequesthostheader-factory.md
+      - title: TokenRelay GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/tokenrelay-factory.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-tokenrelay-factory
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/tokenrelay-factory.md
+      - title: Default Filters
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/gatewayfilter-factories/default-filters.html
+        anchor: spring-cloud-gateway-server-webflux-gatewayfilter-factories-default-filters
+        virtual_path: docs/spring-cloud-gateway-server-webflux/gatewayfilter-factories/default-filters.md
+    - title: Global Filters
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/global-filters.html
+      anchor: spring-cloud-gateway-server-webflux-global-filters
+      virtual_path: docs/spring-cloud-gateway-server-webflux/global-filters.md
+    - title: HttpHeadersFilters
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/httpheadersfilters.html
+      anchor: spring-cloud-gateway-server-webflux-httpheadersfilters
+      virtual_path: docs/spring-cloud-gateway-server-webflux/httpheadersfilters.md
+    - title: TLS and SSL
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/tls-and-ssl.html
+      anchor: spring-cloud-gateway-server-webflux-tls-and-ssl
+      virtual_path: docs/spring-cloud-gateway-server-webflux/tls-and-ssl.md
+    - title: The HttpClientCustomizer
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/http-client.html
+      anchor: spring-cloud-gateway-server-webflux-http-client
+      virtual_path: docs/spring-cloud-gateway-server-webflux/http-client.md
+    - title: Configuration
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/configuration.html
+      anchor: spring-cloud-gateway-server-webflux-configuration
+      virtual_path: docs/spring-cloud-gateway-server-webflux/configuration.md
+    - title: Route Metadata Configuration
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/route-metadata-configuration.html
+      anchor: spring-cloud-gateway-server-webflux-route-metadata-configuration
+      virtual_path: docs/spring-cloud-gateway-server-webflux/route-metadata-configuration.md
+    - title: Http timeouts configuration
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/http-timeouts-configuration.html
+      anchor: spring-cloud-gateway-server-webflux-http-timeouts-configuration
+      virtual_path: docs/spring-cloud-gateway-server-webflux/http-timeouts-configuration.md
+    - title: Fluent Java Routes API
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/fluent-java-routes-api.html
+      anchor: spring-cloud-gateway-server-webflux-fluent-java-routes-api
+      virtual_path: docs/spring-cloud-gateway-server-webflux/fluent-java-routes-api.md
+    - title: DiscoveryClient Route Definition Locator
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/the-discoveryclient-route-definition-locator.html
+      anchor: spring-cloud-gateway-server-webflux-the-discoveryclient-route-definition-locator
+      virtual_path: docs/spring-cloud-gateway-server-webflux/the-discoveryclient-route-definition-locator.md
+    - title: Reactor Netty Access Logs
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/reactor-netty-access-logs.html
+      anchor: spring-cloud-gateway-server-webflux-reactor-netty-access-logs
+      virtual_path: docs/spring-cloud-gateway-server-webflux/reactor-netty-access-logs.md
+    - title: CORS Configuration
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/cors-configuration.html
+      anchor: spring-cloud-gateway-server-webflux-cors-configuration
+      virtual_path: docs/spring-cloud-gateway-server-webflux/cors-configuration.md
+    - title: Actuator API
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/actuator-api.html
+      anchor: spring-cloud-gateway-server-webflux-actuator-api
+      virtual_path: docs/spring-cloud-gateway-server-webflux/actuator-api.md
+    - title: Sharing Routes between multiple Gateway instances
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/sharing-routes.html
+      anchor: spring-cloud-gateway-server-webflux-sharing-routes
+      virtual_path: docs/spring-cloud-gateway-server-webflux/sharing-routes.md
+    - title: Troubleshooting
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/troubleshooting.html
+      anchor: spring-cloud-gateway-server-webflux-troubleshooting
+      virtual_path: docs/spring-cloud-gateway-server-webflux/troubleshooting.md
+    - title: Developer Guide
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/developer-guide.html
+      anchor: spring-cloud-gateway-server-webflux-developer-guide
+      virtual_path: docs/spring-cloud-gateway-server-webflux/developer-guide.md
+    - title: AOT and Native Image Support
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/aot-and-native-image-support.html
+      anchor: spring-cloud-gateway-server-webflux-aot-and-native-image-support
+      virtual_path: docs/spring-cloud-gateway-server-webflux/aot-and-native-image-support.md
+    - title: Configuration properties
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webflux/configuration-properties.html
+      anchor: spring-cloud-gateway-server-webflux-configuration-properties
+      virtual_path: docs/spring-cloud-gateway-server-webflux/configuration-properties.md
+- title: Spring Cloud Gateway Server Web MVC
+  kind: category
+  source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc.html
+  anchor: spring-cloud-gateway-server-webmvc
+  virtual_path: docs/spring-cloud-gateway-server-webmvc.md
+  children:
+  - title: Spring Cloud Gateway Server Web MVC
+    kind: category
+    source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc.html
+    anchor: spring-cloud-gateway-server-webmvc
+    virtual_path: docs/spring-cloud-gateway-server-webmvc.md
+    children:
+    - title: How to Include Spring Cloud Gateway Server Web MVC
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/starter.html
+      anchor: spring-cloud-gateway-server-webmvc-starter
+      virtual_path: docs/spring-cloud-gateway-server-webmvc/starter.md
+    - title: Glossary
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/glossary.html
+      anchor: spring-cloud-gateway-server-webmvc-glossary
+      virtual_path: docs/spring-cloud-gateway-server-webmvc/glossary.md
+    - title: How It Works
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/how-it-works.html
+      anchor: spring-cloud-gateway-server-webmvc-how-it-works
+      virtual_path: docs/spring-cloud-gateway-server-webmvc/how-it-works.md
+    - title: Java Routes API
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/java-routes-api.html
+      anchor: spring-cloud-gateway-server-webmvc-java-routes-api
+      virtual_path: docs/spring-cloud-gateway-server-webmvc/java-routes-api.md
+    - title: Gateway Request Predicates
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/gateway-request-predicates.html
+      anchor: spring-cloud-gateway-server-webmvc-gateway-request-predicates
+      virtual_path: docs/spring-cloud-gateway-server-webmvc/gateway-request-predicates.md
+    - title: Gateway Handler Filter Functions
+      kind: category
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/gateway-handler-filter-functions.html
+      anchor: spring-cloud-gateway-server-webmvc-gateway-handler-filter-functions
+      virtual_path: docs/spring-cloud-gateway-server-webmvc/gateway-handler-filter-functions.md
+      children:
+      - title: AddRequestHeader Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/addrequestheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-addrequestheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/addrequestheader.md
+      - title: AddRequestHeadersIfNotPresent Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/addrequestheadersifnotpresent.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-addrequestheadersifnotpresent
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/addrequestheadersifnotpresent.md
+      - title: AddRequestParameter Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/addrequestparameter.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-addrequestparameter
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/addrequestparameter.md
+      - title: AddResponseHeader Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/addresponseheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-addresponseheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/addresponseheader.md
+      - title: CircuitBreaker Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/circuitbreaker-filter.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-circuitbreaker-filter
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/circuitbreaker-filter.md
+      - title: DedupeResponseHeader Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/deduperesponseheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-deduperesponseheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/deduperesponseheader.md
+      - title: FallbackHeaders Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/fallback-headers.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-fallback-headers
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/fallback-headers.md
+      - title: LoadBalancer Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/loadbalancer.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-loadbalancer
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/loadbalancer.md
+      - title: MapRequestHeader Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/maprequestheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-maprequestheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/maprequestheader.md
+      - title: ModifyRequestBody Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/modifyrequestbody.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-modifyrequestbody
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/modifyrequestbody.md
+      - title: ModifyResponseBody Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/modifyresponsebody.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-modifyresponsebody
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/modifyresponsebody.md
+      - title: PrefixPath Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/prefixpath.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-prefixpath
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/prefixpath.md
+      - title: PreserveHostHeader Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/preservehostheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-preservehostheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/preservehostheader.md
+      - title: RedirectTo Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/redirectto.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-redirectto
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/redirectto.md
+      - title: RemoveRequestHeader GatewayFilter Factory
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/removerequestheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-removerequestheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/removerequestheader.md
+      - title: RemoveRequestParameter Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/removerequestparameter.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-removerequestparameter
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/removerequestparameter.md
+      - title: RemoveResponseHeader Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/removeresponseheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-removeresponseheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/removeresponseheader.md
+      - title: RequestHeaderSize Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/requestheadersize.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-requestheadersize
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/requestheadersize.md
+      - title: RateLimiter Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/ratelimiter.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-ratelimiter
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/ratelimiter.md
+      - title: RewriteLocationResponseHeader Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/rewritelocationresponseheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-rewritelocationresponseheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/rewritelocationresponseheader.md
+      - title: RewritePath Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/rewritepath.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-rewritepath
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/rewritepath.md
+      - title: RewriteResponseHeader Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/rewriteresponseheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-rewriteresponseheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/rewriteresponseheader.md
+      - title: SetPath Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/setpath.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-setpath
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/setpath.md
+      - title: SetRequestHeader Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/setrequestheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-setrequestheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/setrequestheader.md
+      - title: SetResponseHeader Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/setresponseheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-setresponseheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/setresponseheader.md
+      - title: SetStatus Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/setstatus.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-setstatus
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/setstatus.md
+      - title: StripPrefix Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/stripprefix.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-stripprefix
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/stripprefix.md
+      - title: Retry Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/retry.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-retry
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/retry.md
+      - title: RequestSize Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/requestsize.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-requestsize
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/requestsize.md
+      - title: SetRequestHostHeader Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/setrequesthostheader.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-setrequesthostheader
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/setrequesthostheader.md
+      - title: TokenRelay Filter
+        kind: link
+        source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/filters/tokenrelay.html
+        anchor: spring-cloud-gateway-server-webmvc-filters-tokenrelay
+        virtual_path: docs/spring-cloud-gateway-server-webmvc/filters/tokenrelay.md
+    - title: HttpHeadersFilters
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/httpheadersfilters.html
+      anchor: spring-cloud-gateway-server-webmvc-httpheadersfilters
+      virtual_path: docs/spring-cloud-gateway-server-webmvc/httpheadersfilters.md
+    - title: Writing Custom Predicates and Filters
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/writing-custom-predicates-and-filters.html
+      anchor: spring-cloud-gateway-server-webmvc-writing-custom-predicates-and-filters
+      virtual_path: docs/spring-cloud-gateway-server-webmvc/writing-custom-predicates-and-filters.md
+    - title: Working with Servlets and Servlet Filters
+      kind: link
+      source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-server-webmvc/working-with-servlets-and-filters.html
+      anchor: spring-cloud-gateway-server-webmvc-working-with-servlets-and-filters
+      virtual_path: docs/spring-cloud-gateway-server-webmvc/working-with-servlets-and-filters.md
+- title: Proxy Exchange Gateway with Spring Web MVC or WebFlux
+  kind: category
+  source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-proxy-exchange.html
+  anchor: spring-cloud-gateway-proxy-exchange
+  virtual_path: docs/spring-cloud-gateway-proxy-exchange.md
+  children:
+  - title: Proxy Exchange Gateway with Spring Web MVC or WebFlux
+    kind: link
+    source_url: https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway-proxy-exchange.html
+    anchor: spring-cloud-gateway-proxy-exchange
+    virtual_path: docs/spring-cloud-gateway-proxy-exchange.md
+  - title: Common application properties
+    kind: link
+    source_url: https://docs.spring.io/spring-cloud-gateway/reference/appendix.html
+    anchor: appendix
+    virtual_path: docs/appendix.md

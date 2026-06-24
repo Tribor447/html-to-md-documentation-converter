@@ -1,0 +1,257 @@
+# Summary
+
+- [Docs](#index)
+- [Trunk](#trunk)
+- [Components](#trunk-components)
+- [Enhancer](#trunk-components-enhancer)
+- [Engines](#trunk-components-enhancer-engines)
+- Preprocessing
+  - [Tika Engine](#trunk-components-enhancer-engines-tikaengine)
+  - [Metaxa Engine](#trunk-components-enhancer-engines-metaxaengine)
+- Language Detection
+  - [Language Identification Engine](#trunk-components-enhancer-engines-langidengine)
+  - [Language Detection Engine](#trunk-components-enhancer-engines-langdetectengine)
+  - [RESTful Language Identification Engine](#trunk-components-enhancer-engines-restfullangident)
+    - [Client for the](#trunk-components-enhancer-nlp-restfullangidentservice)
+- Sentence Detection
+  - [OpenNLP Sentence Detection Engine](#trunk-components-enhancer-engines-opennlpsentence)
+  - Smartcn Sentence Detection Engine
+    - [Part of the](#trunk-components-enhancer-nlp-smartcn)
+- Tokenizer Engines
+  - [OpenNLP Tokenizer Detection Engine](#trunk-components-enhancer-engines-opennlptokenizer)
+  - Smartcn Tokenizer Engine
+    - [Part of the](#trunk-components-enhancer-nlp-smartcn)
+  - Paoding Tokenizer Engine
+    - [Part of the](#trunk-components-enhancer-nlp-paoding)
+- Part of Speech (POS) Tagging
+  - [OpenNLP POS Tagging Engine](#trunk-components-enhancer-engines-opennlppos)
+- Chunk/Phrase detection
+  - [OpenNLP Chunker Engine](#trunk-components-enhancer-engines-opennlpchunker)
+- Named Entity Recognition (NER) Engines
+  - [OpenNLP NER Engine](#trunk-components-enhancer-engines-opennlpner)
+    - [supports](#trunk-components-enhancer-nlp-nlpannotations--name-entity-ner-annotations)
+  - [OpenNLP Custom NER Model Engine](#trunk-components-enhancer-engines-opennlpcustomner)
+  - [OpenCalais Enhancement Engine](#trunk-components-enhancer-engines-opencalaisengine)
+- General NLP processing Engines
+  - [RESTfull NLP Analysis Engine](#trunk-components-enhancer-engines-restfulnlpanalysis)
+    - [client for the](#trunk-components-enhancer-nlp-restfulnlpanalysisservice)
+  - [Kuromoji NLP Engine](#trunk-components-enhancer-engines-kuromojinlp)
+- Linking / Suggestions
+  - [Named Entity Linking Engine](#trunk-components-enhancer-engines-namedentitytaggingengine)
+  - [Entityhub Linking Engine](#trunk-components-enhancer-engines-entityhublinking)
+    - [EntityLinkingEngine](#trunk-components-enhancer-engines-entitylinking)
+    - [consumes NLP processing results form the](#trunk-components-enhancer-nlp-analyzedtext)
+  - [FST Linking Engine](#trunk-components-enhancer-engines-lucenefstlinking)
+    - [Provides better linking performance as the](#trunk-components-enhancer-engines-entityhublinking)
+  - [Entity Co-Mention Engine](#trunk-components-enhancer-engines-comention)
+  - [Geonames Enhancement Engine](#trunk-components-enhancer-engines-geonamesengine)
+  - [OpenCalais Enhancement Engine](#trunk-components-enhancer-engines-opencalaisengine)
+  - [Zemanta Enhancement Engine](#trunk-components-enhancer-engines-zemantaengine)
+- Sentiment Analyses
+  - [AnalyzedText](#trunk-components-enhancer-nlp-analyzedtext)
+- Dereference Entities
+  - [Entityhub Dereference Engine](#trunk-components-enhancer-engines-entityhubdereference)
+- Refactor Engines
+  - [TextAnnotation new Model Converter Engine](#trunk-components-enhancer-engines-textannotationnewmodel)
+  - [Refactor Engine](#trunk-components-enhancer-engines-refactorengine)
+- Others
+  - [NIF 2.0 Transformation Engine](#trunk-components-enhancer-engines-nif20)
+    - [This engines allows to retrieve detailed information about NLP results typically only available by the Java API of the](#trunk-components-enhancer-nlp-analyzedtext)
+- Deprecated
+  - [KeywordLinkingEngine](#trunk-components-enhancer-engines-keywordlinkingengine)
+  - STANBOL-741
+    - [replaced by the](#trunk-components-enhancer-engines-nif20)
+    - [converts NLP processing results stored in the](#trunk-components-enhancer-nlp-analyzedtext)
+- EntityLinkingEngine
+  - [EntitySearcher](#trunk-components-enhancer-engines-entityhublinking)
+- Entity Linker Configuration
+  - [Type Field](#trunk-components-enhancer-enhancementstructure--fiseentityannotation)
+  - [Type Mappings](#trunk-components-enhancer-enhancementstructure--fisetextannotation)
+- [Min Search Token Length](#trunk-components-enhancer-nlp-analyzedtext)
+- [Nlp](#trunk-components-enhancer-nlp)
+- Overview:
+  - The
+    - [how to implement an](#trunk-components-enhancer-nlp-nlpengine)
+    - [how to integrate third party NLP frameworks as a](#trunk-components-enhancer-nlp-restfulnlpanalysisservice)
+- NLP processing API
+  - [Analysed Text](#trunk-components-enhancer-nlp-analyzedtext)
+  - [NLP Annotations](#trunk-components-enhancer-nlp-nlpannotations)
+- [Utilities for](#trunk-components-enhancer-nlp-nlpengine)
+- [JSON serialization and parsing support for analysed text including NLP annotations. Together with the](#trunk-components-enhancer-engines-restfulnlpanalysis)
+- [RESTful service definition for a](#trunk-components-enhancer-nlp-restfullangidentservice)
+- Integrated NLP frameworks
+  - [OpenNLP](#trunk-components-enhancer-nlp-opennlp)
+  - [Smartcn](#trunk-components-enhancer-nlp-smartcn)
+  - [Paoding](#trunk-components-enhancer-nlp-paoding)
+  - [CELI / linguagrid.org](#trunk-components-enhancer-nlp-celi)
+- Supported Languages
+  - Chinese
+    - [Smartcn](#trunk-components-enhancer-nlp-smartcn)
+    - [Paoding](#trunk-components-enhancer-nlp-paoding)
+  - Danish
+    - [OpenNLP](#trunk-components-enhancer-nlp-opennlp)
+    - [CELI](#trunk-components-enhancer-nlp-celi)
+  - English
+    - [OpenNLP](#trunk-components-enhancer-nlp-opennlp)
+    - [OpenCalais](#trunk-components-enhancer-engines-opencalaisengine)
+  - French
+    - [CELI](#trunk-components-enhancer-nlp-celi)
+    - [OpenCalais](#trunk-components-enhancer-engines-opencalaisengine)
+  - German
+    - [OpenNLP](#trunk-components-enhancer-nlp-opennlp)
+    - [CELI](#trunk-components-enhancer-nlp-celi)
+  - Italien
+    - [CELI](#trunk-components-enhancer-nlp-celi)
+  - Japanese
+    - [Kuromoji](#trunk-components-enhancer-engines-kuromojinlp)
+  - Portuguese
+    - [OpenNLP](#trunk-components-enhancer-nlp-opennlp)
+  - Romanian
+    - [CELI](#trunk-components-enhancer-nlp-celi)
+  - Russian
+    - [CELI](#trunk-components-enhancer-nlp-celi)
+  - Spanish
+    - [OpenNLP](#trunk-components-enhancer-nlp-opennlp)
+    - [OpenCalais](#trunk-components-enhancer-engines-opencalaisengine)
+  - Swedish
+    - [OpenNLP](#trunk-components-enhancer-nlp-opennlp)
+    - [CELI](#trunk-components-enhancer-nlp-celi)
+- Managing Custom Vocabularies with the Stanbol Entityhub
+  - [Managed Sites](#trunk-components-entityhub-managedsite)
+- Using a Entityhub Managed Site
+  - [the](#trunk-components-entityhub-managedsite--configuration-of-a-solryard)
+- ["langdetect" -](#trunk-components-enhancer-engines-langdetectengine)
+- ["{name}Linking - the](#trunk-components-enhancer-engines-namedentitytaggingengine)
+- Configuring Entity Linking
+  - The configuration of the field used for linking
+    - [in case of the FST Linking engine you need to provide the](#trunk-components-enhancer-engines-lucenefstlinking--fst-tagging-configuration)
+  - [The "Type Mappings" might be interesting for you if your vocabulary contains custom types as those mappings can be used to map 'rdf:type's of entities in your vocabulary to 'dc:typ](#trunk-components-enhancer-engines-entitylinking--type-mappings-syntax)
+- [opennlp-sentence -](#trunk-components-enhancer-engines-opennlpsentence)
+- [opennlp-token -](#trunk-components-enhancer-engines-opennlptokenizer)
+- [opennlp-pos -](#trunk-components-enhancer-engines-opennlppos)
+- [opennlp-chunker - The](#trunk-components-enhancer-engines-opennlpchunker)
+- ["{name}Extraction - the](#trunk-components-enhancer-engines-entityhublinking)
+- Working with Multiple Languages
+  - [Keyword Linking](#trunk-components-enhancer-engines-keywordlinkingengine)
+- [English](#trunk-components-enhancer-engines-namedentitytaggingengine)
+- [Spansh](#trunk-components-enhancer-engines-namedentitytaggingengine)
+- [Dutch](#trunk-components-enhancer-engines-namedentitytaggingengine)
+- [French](#trunk-components-enhancer-engines-opencalaisengine)
+- Configuration steps
+  - Configure the Named Entity Linking / Keyword Linking chain(s)
+    - [ensure language detection support (e.g by using the](#trunk-components-enhancer-engines-langidengine)
+    - [configure the required Enhancement Engines and one or more](#trunk-components-enhancer-chains)
+- Configure Named Entity Linking
+  - NER Engine: possibilities include
+    - [NamedEntityTaggingEngine](#trunk-components-enhancer-engines-namedentitytaggingengine)
+    - [OpenCalais](#trunk-components-enhancer-engines-opencalaisengine)
+- Configure KeywordLinking
+  - [Name](#trunk-components-enhancer-chains)
+- ["youVocKeyqord - custom configuration of the](#trunk-components-enhancer-engines-keywordlinkingengine)
+- Configuration
+  - [Fallback Mode](#trunk-components-enhancer-chains-weightedchain)
+- Configuration Parameter
+  - [Name](#trunk-components-enhancer-engines)
+  - [Label Field](#trunk-customvocabulary)
+  - [Type Field](#trunk-components-enhancer-enhancementstructure--fiseentityannotation)
+  - [Type Mappings](#trunk-components-enhancer-enhancementstructure--fisetextannotation)
+- Engine Name and Service Ranking
+  - [Name](#trunk-components-enhancer-engines)
+- Configuration of the Solr Index
+  - [ReferencedSolrServer](#trunk-utils-commons-solr--referencedsolrserver)
+  - [ManagedSolrServer](#trunk-utils-commons-solr--managedsolrserver)
+- Linking Mode
+  - [: This mode will only consider detected Named Entities for linking. This mode is similar to using the](#trunk-components-enhancer-engines-namedentitytaggingengine)
+- FST storage location
+  - [: the name of the](#trunk-utils-commons-solr--referencedsolrserver)
+- RESTful NLP Analysis Service
+  - [NLP Frameworks under licenses with strong copy left such as GPL and AGLP: Integrating a NLP framework as](#trunk-components-enhancer-nlp-nlpengine)
+- Integration of NLP frameworks with the Stanbol NLP processing Module
+  - [create an](#trunk-components-enhancer-nlp-analyzedtext)
+- Design
+  - [EnhancementEngine](#trunk-components-enhancer-engines)
+    - [supports](#trunk-components-enhancer-enhancementproperties)
+- [Ontologymanager](#trunk-components-ontologymanager)
+- [Ontonet](#trunk-components-ontologymanager-ontonet)
+- Main Interfaces and Utility Classes
+  - [ContentItem](#trunk-components-enhancer-contentitem)
+  - [EnhancementEngine](#trunk-components-enhancer-engines)
+  - [EnhancementChain](#trunk-components-enhancer-chains)
+  - [EnhancementJobManager](#trunk-components-enhancer-enhancementjobmanager)
+  - [ChainManager](#trunk-components-enhancer-chains-chainmanager)
+  - [EnhancementEngineManager](#trunk-components-enhancer-engines-enhancementenginemanager)
+- Enhancement Structure
+  - [TextAnnotaitons](#trunk-components-enhancer-enhancementstructure--fisetextannotation)
+  - [EntityAnnotaitons](#trunk-components-enhancer-enhancementstructure--fiseentityannotation)
+  - [TopicAnnotaitons](#trunk-components-enhancer-enhancementstructure--fisetopicannotation)
+- Configuring and Using Enhancement Chains
+  - [the self sorting](#trunk-components-enhancer-chains-weightedchain)
+  - [the](#trunk-components-enhancer-chains-listchain)
+- [tika](#trunk-components-enhancer-engines-tikaengine)
+- [langid](#trunk-components-enhancer-engines-langidengine)
+- [dbpediaLinking](#trunk-components-enhancer-engines-namedentitytaggingengine)
+- [myCustomVocExtraction](#trunk-components-enhancer-engines-keywordlinkingengine)
+- [zemanta](#trunk-components-enhancer-engines-zemantaengine)
+- [As one needs to use the names of active](#trunk-components-enhancer-engines)
+- [Utils](#trunk-utils)
+- [Chains](#trunk-components-enhancer-chains)
+- Chain implementations
+  - [DefaultChain](#trunk-components-enhancer-chains-defaultchain)
+  - [ListChain](#trunk-components-enhancer-chains-listchain)
+  - [WeightedChain](#trunk-components-enhancer-chains-weightedchain)
+  - [GraphChain](#trunk-components-enhancer-chains-graphchain)
+  - [SingleEngineChain](#trunk-components-enhancer-enhancementjobmanager)
+- [Apache Stanbol Ontology Manager](#trunk-components-ontologymanager)
+- Features
+  - [SWRL](#trunk-components-reasoner)
+  - [Jena Rules](#trunk-components-reasoner)
+  - [SPARQL](#trunk-components-rules-refactor)
+- Sub-Components
+  - [OntoNet](#trunk-components-ontologymanager-ontonet)
+  - [Registry](#trunk-components-ontologymanager-registry)
+  - [Rule language](#trunk-components-rules-language)
+  - [Rule Store](#trunk-components-rules-store)
+  - [Refactor](#trunk-components-rules-refactor)
+- [Rules](#trunk-components-rules)
+- [Entityhub](#trunk-components-entityhub)
+- [Apache Entityhub](#trunk-components-entityhub)
+  - [Entityhub](#trunk-components-entityhub-managedsite)
+  - Sites
+    - [ReferencedSite](#trunk-customvocabulary)
+    - [ManagedSite](#trunk-components-entityhub-managedsite)
+- [Reasoner](#trunk-components-reasoner)
+- Apache Stanbol Tools and Utilities
+  - [Enhancer Stress Test Tool](#trunk-utils-enhancerstresstest)
+  - [Commons Solr](#trunk-utils-commons-solr)
+  - [Marmotta KiWi Repository Service](#trunk-utils-marmotta-kiwi-repository-service)
+  - [Data File Provider](#trunk-utils-datafileprovider)
+- [Cmsadapter](#trunk-components-cmsadapter)
+- [CMS Adapter](#trunk-components-cmsadapter)
+- [Getting Started](#trunk-tutorial)
+- [Documentation](#trunk)
+  - [Usage Scenarios](#trunk-scenarios)
+  - [Components](#trunk-components)
+  - [Production Mode](#trunk-production-mode)
+- [Downloads](#trunk-components-enhancer-enhancementstructure)
+- [Factstore](#trunk-components-factstore)
+- [Contenthub](#trunk-components-contenthub)
+- [Apache Stanbol Contenthub](#trunk-components-contenthub)
+- Other pages
+  - [Downloads](#trunk-components-cmsadapter-cmsadapter5min)
+  - [Downloads](#trunk-components-contenthub-contenthub5min)
+  - [Execution Plan](#trunk-components-enhancer-chains-executionplan)
+  - [Downloads](#trunk-components-enhancer-contentitemfactory)
+  - [Downloads](#trunk-components-enhancer-engines-dereference)
+  - [Downloads](#trunk-components-enhancer-engines-list)
+  - [Downloads](#trunk-components-enhancer-enhancerrest)
+  - [Downloads](#trunk-components-enhancer-executionmetadata)
+  - [In-Memory AnalyzedText and Annotation implementation](#trunk-components-enhancer-nlp-inmemoryanalyzedtextimpl)
+  - [FactStore Implementation Concept](#trunk-components-factstore-implementation)
+  - [Downloads](#trunk-components-factstore-specification)
+  - [Ontology Registry Language](#trunk-components-ontologymanager-registry-language)
+  - [Downloads](#trunk-contentenhancement)
+  - [Downloads](#trunk-enhancementusage)
+  - [Downloads](#trunk-multilingual)
+  - [File based bundle configuration](#trunk-production-mode-file-bundle-configuration)
+  - [Hot partial Stanbol update](#trunk-production-mode-partial-updates)
+  - [Build your launcher](#trunk-production-mode-your-launcher)

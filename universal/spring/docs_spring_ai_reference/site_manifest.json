@@ -1,0 +1,1046 @@
+{
+  "entry_url": "https://docs.spring.io/spring-ai/reference/index.html",
+  "site_prefix": "/spring-ai/reference/",
+  "site_slug": "docs_spring_ai_reference",
+  "profile": "antora",
+  "combined_markdown": "combined.md",
+  "page_count": 115,
+  "asset_count": 51,
+  "pages": [
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/advisors-recursive.html",
+      "title": "Recursive Advisors",
+      "anchor": "api-advisors-recursive",
+      "virtual_path": "docs/api/advisors-recursive.md",
+      "profile": "antora",
+      "score": 13209,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/advisors.html",
+      "title": "Advisors API",
+      "anchor": "api-advisors",
+      "virtual_path": "docs/api/advisors.md",
+      "profile": "antora",
+      "score": 30954,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/audio/speech.html",
+      "title": "Text-To-Speech (TTS) API",
+      "anchor": "api-audio-speech",
+      "virtual_path": "docs/api/audio/speech.md",
+      "profile": "antora",
+      "score": 19367,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/audio/speech/elevenlabs-speech.html",
+      "title": "ElevenLabs Text-to-Speech (TTS)",
+      "anchor": "api-audio-speech-elevenlabs-speech",
+      "virtual_path": "docs/api/audio/speech/elevenlabs-speech.md",
+      "profile": "antora",
+      "score": 25673,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/audio/speech/openai-speech.html",
+      "title": "OpenAI Text-to-Speech (TTS)",
+      "anchor": "api-audio-speech-openai-speech",
+      "virtual_path": "docs/api/audio/speech/openai-speech.md",
+      "profile": "antora",
+      "score": 40582,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/audio/transcriptions.html",
+      "title": "Transcription API",
+      "anchor": "api-audio-transcriptions",
+      "virtual_path": "docs/api/audio/transcriptions.md",
+      "profile": "antora",
+      "score": 9510,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/audio/transcriptions/azure-openai-transcriptions.html",
+      "title": "Azure OpenAI Transcriptions",
+      "anchor": "api-audio-transcriptions-azure-openai-transcriptions",
+      "virtual_path": "docs/api/audio/transcriptions/azure-openai-transcriptions.md",
+      "profile": "antora",
+      "score": 13576,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/audio/transcriptions/openai-transcriptions.html",
+      "title": "Untitled :: Spring AI Reference",
+      "anchor": "api-audio-transcriptions-openai-transcriptions",
+      "virtual_path": "docs/api/audio/transcriptions/openai-transcriptions.md",
+      "profile": "antora",
+      "score": 17976,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/bedrock.html",
+      "title": "Amazon Bedrock",
+      "anchor": "api-bedrock",
+      "virtual_path": "docs/api/bedrock.md",
+      "profile": "antora",
+      "score": 12244,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat-memory.html",
+      "title": "Chat Memory",
+      "anchor": "api-chat-memory",
+      "virtual_path": "docs/api/chat-memory.md",
+      "profile": "antora",
+      "score": 54532,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/anthropic-chat.html",
+      "title": "Anthropic Chat",
+      "anchor": "api-chat-anthropic-chat",
+      "virtual_path": "docs/api/chat/anthropic-chat.md",
+      "profile": "antora",
+      "score": 151338,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/azure-openai-chat.html",
+      "title": "Azure OpenAI Chat",
+      "anchor": "api-chat-azure-openai-chat",
+      "virtual_path": "docs/api/chat/azure-openai-chat.md",
+      "profile": "antora",
+      "score": 41875,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/bedrock-converse.html",
+      "title": "Bedrock Converse API",
+      "anchor": "api-chat-bedrock-converse",
+      "virtual_path": "docs/api/chat/bedrock-converse.md",
+      "profile": "antora",
+      "score": 60591,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/comparison.html",
+      "title": "Chat Models Comparison",
+      "anchor": "api-chat-comparison",
+      "virtual_path": "docs/api/chat/comparison.md",
+      "profile": "antora",
+      "score": 6548,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/deepseek-chat.html",
+      "title": "DeepSeek Chat",
+      "anchor": "api-chat-deepseek-chat",
+      "virtual_path": "docs/api/chat/deepseek-chat.md",
+      "profile": "antora",
+      "score": 34269,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/dmr-chat.html",
+      "title": "Docker Model Runner Chat",
+      "anchor": "api-chat-dmr-chat",
+      "virtual_path": "docs/api/chat/dmr-chat.md",
+      "profile": "antora",
+      "score": 28337,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/google-genai-chat.html",
+      "title": "Google GenAI Chat",
+      "anchor": "api-chat-google-genai-chat",
+      "virtual_path": "docs/api/chat/google-genai-chat.md",
+      "profile": "antora",
+      "score": 67246,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/google-vertexai.html",
+      "title": "Google VertexAI API",
+      "anchor": "api-chat-google-vertexai",
+      "virtual_path": "docs/api/chat/google-vertexai.md",
+      "profile": "antora",
+      "score": 2220,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/groq-chat.html",
+      "title": "Groq Chat",
+      "anchor": "api-chat-groq-chat",
+      "virtual_path": "docs/api/chat/groq-chat.md",
+      "profile": "antora",
+      "score": 33537,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/huggingface.html",
+      "title": "Hugging Face Chat",
+      "anchor": "api-chat-huggingface",
+      "virtual_path": "docs/api/chat/huggingface.md",
+      "profile": "antora",
+      "score": 15564,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/minimax-chat.html",
+      "title": "MiniMax Chat",
+      "anchor": "api-chat-minimax-chat",
+      "virtual_path": "docs/api/chat/minimax-chat.md",
+      "profile": "antora",
+      "score": 30481,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/mistralai-chat.html",
+      "title": "Mistral AI Chat",
+      "anchor": "api-chat-mistralai-chat",
+      "virtual_path": "docs/api/chat/mistralai-chat.md",
+      "profile": "antora",
+      "score": 45451,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/moonshot-chat.html",
+      "title": "Moonshot AI Chat",
+      "anchor": "api-chat-moonshot-chat",
+      "virtual_path": "docs/api/chat/moonshot-chat.md",
+      "profile": "antora",
+      "score": 1952,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/nvidia-chat.html",
+      "title": "NVIDIA Chat",
+      "anchor": "api-chat-nvidia-chat",
+      "virtual_path": "docs/api/chat/nvidia-chat.md",
+      "profile": "antora",
+      "score": 27970,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/oci-genai/cohere-chat.html",
+      "title": "OCI GenAI Cohere Chat",
+      "anchor": "api-chat-oci-genai-cohere-chat",
+      "virtual_path": "docs/api/chat/oci-genai/cohere-chat.md",
+      "profile": "antora",
+      "score": 21731,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html",
+      "title": "Ollama Chat",
+      "anchor": "api-chat-ollama-chat",
+      "virtual_path": "docs/api/chat/ollama-chat.md",
+      "profile": "antora",
+      "score": 64919,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html",
+      "title": "OpenAI Chat",
+      "anchor": "api-chat-openai-chat",
+      "virtual_path": "docs/api/chat/openai-chat.md",
+      "profile": "antora",
+      "score": 83467,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/openai-sdk-chat.html",
+      "title": "OpenAI SDK Chat (Official)",
+      "anchor": "api-chat-openai-sdk-chat",
+      "virtual_path": "docs/api/chat/openai-sdk-chat.md",
+      "profile": "antora",
+      "score": 57014,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/perplexity-chat.html",
+      "title": "Perplexity Chat",
+      "anchor": "api-chat-perplexity-chat",
+      "virtual_path": "docs/api/chat/perplexity-chat.md",
+      "profile": "antora",
+      "score": 25737,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/prompt-engineering-patterns.html",
+      "title": "Prompt Engineering Patterns",
+      "anchor": "api-chat-prompt-engineering-patterns",
+      "virtual_path": "docs/api/chat/prompt-engineering-patterns.md",
+      "profile": "antora",
+      "score": 50353,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/qianfan-chat.html",
+      "title": "QianFan Chat",
+      "anchor": "api-chat-qianfan-chat",
+      "virtual_path": "docs/api/chat/qianfan-chat.md",
+      "profile": "antora",
+      "score": 1948,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/vertexai-gemini-chat.html",
+      "title": "VertexAI Gemini Chat",
+      "anchor": "api-chat-vertexai-gemini-chat",
+      "virtual_path": "docs/api/chat/vertexai-gemini-chat.md",
+      "profile": "antora",
+      "score": 33489,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chat/zhipuai-chat.html",
+      "title": "ZhiPu AI Chat",
+      "anchor": "api-chat-zhipuai-chat",
+      "virtual_path": "docs/api/chat/zhipuai-chat.md",
+      "profile": "antora",
+      "score": 29389,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chatclient.html",
+      "title": "Chat Client API",
+      "anchor": "api-chatclient",
+      "virtual_path": "docs/api/chatclient.md",
+      "profile": "antora",
+      "score": 55562,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/chatmodel.html",
+      "title": "Chat Model API",
+      "anchor": "api-chatmodel",
+      "virtual_path": "docs/api/chatmodel.md",
+      "profile": "antora",
+      "score": 18826,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/cloud-bindings.html",
+      "title": "Cloud Bindings",
+      "anchor": "api-cloud-bindings",
+      "virtual_path": "docs/api/cloud-bindings.md",
+      "profile": "antora",
+      "score": 7466,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/docker-compose.html",
+      "title": "Docker Compose",
+      "anchor": "api-docker-compose",
+      "virtual_path": "docs/api/docker-compose.md",
+      "profile": "antora",
+      "score": 6064,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/effective-agents.html",
+      "title": "Building Effective Agents",
+      "anchor": "api-effective-agents",
+      "virtual_path": "docs/api/effective-agents.md",
+      "profile": "antora",
+      "score": 18776,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings.html",
+      "title": "Embeddings Model API",
+      "anchor": "api-embeddings",
+      "virtual_path": "docs/api/embeddings.md",
+      "profile": "antora",
+      "score": 14551,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/azure-openai-embeddings.html",
+      "title": "Azure OpenAI Embeddings",
+      "anchor": "api-embeddings-azure-openai-embeddings",
+      "virtual_path": "docs/api/embeddings/azure-openai-embeddings.md",
+      "profile": "antora",
+      "score": 22036,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/bedrock-cohere-embedding.html",
+      "title": "Cohere Embeddings",
+      "anchor": "api-embeddings-bedrock-cohere-embedding",
+      "virtual_path": "docs/api/embeddings/bedrock-cohere-embedding.md",
+      "profile": "antora",
+      "score": 20643,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/bedrock-titan-embedding.html",
+      "title": "Titan Embeddings",
+      "anchor": "api-embeddings-bedrock-titan-embedding",
+      "virtual_path": "docs/api/embeddings/bedrock-titan-embedding.md",
+      "profile": "antora",
+      "score": 19992,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/google-genai-embeddings-text.html",
+      "title": "Google GenAI Text Embeddings",
+      "anchor": "api-embeddings-google-genai-embeddings-text",
+      "virtual_path": "docs/api/embeddings/google-genai-embeddings-text.md",
+      "profile": "antora",
+      "score": 27626,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/minimax-embeddings.html",
+      "title": "MiniMax Chat",
+      "anchor": "api-embeddings-minimax-embeddings",
+      "virtual_path": "docs/api/embeddings/minimax-embeddings.md",
+      "profile": "antora",
+      "score": 21055,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/mistralai-embeddings.html",
+      "title": "Mistral AI Embeddings",
+      "anchor": "api-embeddings-mistralai-embeddings",
+      "virtual_path": "docs/api/embeddings/mistralai-embeddings.md",
+      "profile": "antora",
+      "score": 24323,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/oci-genai-embeddings.html",
+      "title": "Oracle Cloud Infrastructure (OCI) GenAI Embeddings",
+      "anchor": "api-embeddings-oci-genai-embeddings",
+      "virtual_path": "docs/api/embeddings/oci-genai-embeddings.md",
+      "profile": "antora",
+      "score": 17871,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/ollama-embeddings.html",
+      "title": "Ollama Embeddings",
+      "anchor": "api-embeddings-ollama-embeddings",
+      "virtual_path": "docs/api/embeddings/ollama-embeddings.md",
+      "profile": "antora",
+      "score": 37198,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/onnx.html",
+      "title": "Transformers (ONNX) Embeddings",
+      "anchor": "api-embeddings-onnx",
+      "virtual_path": "docs/api/embeddings/onnx.md",
+      "profile": "antora",
+      "score": 19971,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/openai-embeddings.html",
+      "title": "OpenAI Embeddings",
+      "anchor": "api-embeddings-openai-embeddings",
+      "virtual_path": "docs/api/embeddings/openai-embeddings.md",
+      "profile": "antora",
+      "score": 24667,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/openai-sdk-embeddings.html",
+      "title": "OpenAI SDK Embeddings (Official)",
+      "anchor": "api-embeddings-openai-sdk-embeddings",
+      "virtual_path": "docs/api/embeddings/openai-sdk-embeddings.md",
+      "profile": "antora",
+      "score": 30995,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/postgresml-embeddings.html",
+      "title": "PostgresML Embeddings",
+      "anchor": "api-embeddings-postgresml-embeddings",
+      "virtual_path": "docs/api/embeddings/postgresml-embeddings.md",
+      "profile": "antora",
+      "score": 16254,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/qianfan-embeddings.html",
+      "title": "QianFan Embeddings",
+      "anchor": "api-embeddings-qianfan-embeddings",
+      "virtual_path": "docs/api/embeddings/qianfan-embeddings.md",
+      "profile": "antora",
+      "score": 1943,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/vertexai-embeddings-multimodal.html",
+      "title": "Google VertexAI Multimodal Embeddings",
+      "anchor": "api-embeddings-vertexai-embeddings-multimodal",
+      "virtual_path": "docs/api/embeddings/vertexai-embeddings-multimodal.md",
+      "profile": "antora",
+      "score": 15788,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/vertexai-embeddings-text.html",
+      "title": "Google VertexAI Text Embeddings",
+      "anchor": "api-embeddings-vertexai-embeddings-text",
+      "virtual_path": "docs/api/embeddings/vertexai-embeddings-text.md",
+      "profile": "antora",
+      "score": 17285,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/embeddings/zhipuai-embeddings.html",
+      "title": "ZhiPuAI Embeddings",
+      "anchor": "api-embeddings-zhipuai-embeddings",
+      "virtual_path": "docs/api/embeddings/zhipuai-embeddings.md",
+      "profile": "antora",
+      "score": 21598,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/etl-pipeline.html",
+      "title": "ETL Pipeline",
+      "anchor": "api-etl-pipeline",
+      "virtual_path": "docs/api/etl-pipeline.md",
+      "profile": "antora",
+      "score": 85347,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/image/azure-openai-image.html",
+      "title": "Azure OpenAI Image Generation",
+      "anchor": "api-image-azure-openai-image",
+      "virtual_path": "docs/api/image/azure-openai-image.md",
+      "profile": "antora",
+      "score": 17872,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/image/openai-image.html",
+      "title": "OpenAI Image Generation",
+      "anchor": "api-image-openai-image",
+      "virtual_path": "docs/api/image/openai-image.md",
+      "profile": "antora",
+      "score": 21182,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/image/openai-sdk-image.html",
+      "title": "OpenAI SDK Image Generation (Official)",
+      "anchor": "api-image-openai-sdk-image",
+      "virtual_path": "docs/api/image/openai-sdk-image.md",
+      "profile": "antora",
+      "score": 32996,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/image/qianfan-image.html",
+      "title": "QianFan Image",
+      "anchor": "api-image-qianfan-image",
+      "virtual_path": "docs/api/image/qianfan-image.md",
+      "profile": "antora",
+      "score": 1935,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/image/stabilityai-image.html",
+      "title": "Stability AI Image Generation",
+      "anchor": "api-image-stabilityai-image",
+      "virtual_path": "docs/api/image/stabilityai-image.md",
+      "profile": "antora",
+      "score": 15519,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/image/zhipuai-image.html",
+      "title": "ZhiPuAI Image Generation",
+      "anchor": "api-image-zhipuai-image",
+      "virtual_path": "docs/api/image/zhipuai-image.md",
+      "profile": "antora",
+      "score": 16965,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/imageclient.html",
+      "title": "Image Model API",
+      "anchor": "api-imageclient",
+      "virtual_path": "docs/api/imageclient.md",
+      "profile": "antora",
+      "score": 12349,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/index.html",
+      "title": "Spring AI API",
+      "anchor": "api",
+      "virtual_path": "docs/api/index.md",
+      "profile": "antora",
+      "score": 6122,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-annotations-client.html",
+      "title": "MCP Client Annotations",
+      "anchor": "api-mcp-mcp-annotations-client",
+      "virtual_path": "docs/api/mcp/mcp-annotations-client.md",
+      "profile": "antora",
+      "score": 26683,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-annotations-examples.html",
+      "title": "MCP Annotations Examples",
+      "anchor": "api-mcp-mcp-annotations-examples",
+      "virtual_path": "docs/api/mcp/mcp-annotations-examples.md",
+      "profile": "antora",
+      "score": 35051,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-annotations-overview.html",
+      "title": "MCP Annotations",
+      "anchor": "api-mcp-mcp-annotations-overview",
+      "virtual_path": "docs/api/mcp/mcp-annotations-overview.md",
+      "profile": "antora",
+      "score": 15313,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-annotations-server.html",
+      "title": "MCP Server Annotations",
+      "anchor": "api-mcp-mcp-annotations-server",
+      "virtual_path": "docs/api/mcp/mcp-annotations-server.md",
+      "profile": "antora",
+      "score": 39206,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-annotations-special-params.html",
+      "title": "MCP Annotations Special Parameters",
+      "anchor": "api-mcp-mcp-annotations-special-params",
+      "virtual_path": "docs/api/mcp/mcp-annotations-special-params.md",
+      "profile": "antora",
+      "score": 31373,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-client-boot-starter-docs.html",
+      "title": "MCP Client Boot Starter",
+      "anchor": "api-mcp-mcp-client-boot-starter-docs",
+      "virtual_path": "docs/api/mcp/mcp-client-boot-starter-docs.md",
+      "profile": "antora",
+      "score": 60938,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-overview.html",
+      "title": "Model Context Protocol (MCP)",
+      "anchor": "api-mcp-mcp-overview",
+      "virtual_path": "docs/api/mcp/mcp-overview.md",
+      "profile": "antora",
+      "score": 19531,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-security.html",
+      "title": "MCP Security",
+      "anchor": "api-mcp-mcp-security",
+      "virtual_path": "docs/api/mcp/mcp-security.md",
+      "profile": "antora",
+      "score": 37057,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-server-boot-starter-docs.html",
+      "title": "MCP Server Boot Starter",
+      "anchor": "api-mcp-mcp-server-boot-starter-docs",
+      "virtual_path": "docs/api/mcp/mcp-server-boot-starter-docs.md",
+      "profile": "antora",
+      "score": 22193,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-stateless-server-boot-starter-docs.html",
+      "title": "Untitled :: Spring AI Reference",
+      "anchor": "api-mcp-mcp-stateless-server-boot-starter-docs",
+      "virtual_path": "docs/api/mcp/mcp-stateless-server-boot-starter-docs.md",
+      "profile": "antora",
+      "score": 23236,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-stdio-sse-server-boot-starter-docs.html",
+      "title": "Untitled :: Spring AI Reference",
+      "anchor": "api-mcp-mcp-stdio-sse-server-boot-starter-docs",
+      "virtual_path": "docs/api/mcp/mcp-stdio-sse-server-boot-starter-docs.md",
+      "profile": "antora",
+      "score": 35917,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/mcp/mcp-streamable-http-server-boot-starter-docs.html",
+      "title": "Untitled :: Spring AI Reference",
+      "anchor": "api-mcp-mcp-streamable-http-server-boot-starter-docs",
+      "virtual_path": "docs/api/mcp/mcp-streamable-http-server-boot-starter-docs.md",
+      "profile": "antora",
+      "score": 32161,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/moderation/mistral-ai-moderation.html",
+      "title": "Moderation",
+      "anchor": "api-moderation-mistral-ai-moderation",
+      "virtual_path": "docs/api/moderation/mistral-ai-moderation.md",
+      "profile": "antora",
+      "score": 16644,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/moderation/openai-moderation.html",
+      "title": "Moderation",
+      "anchor": "api-moderation-openai-moderation",
+      "virtual_path": "docs/api/moderation/openai-moderation.md",
+      "profile": "antora",
+      "score": 17919,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/multimodality.html",
+      "title": "Multimodality API",
+      "anchor": "api-multimodality",
+      "virtual_path": "docs/api/multimodality.md",
+      "profile": "antora",
+      "score": 8071,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/prompt.html",
+      "title": "Prompts",
+      "anchor": "api-prompt",
+      "virtual_path": "docs/api/prompt.md",
+      "profile": "antora",
+      "score": 34696,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/retrieval-augmented-generation.html",
+      "title": "Retrieval Augmented Generation",
+      "anchor": "api-retrieval-augmented-generation",
+      "virtual_path": "docs/api/retrieval-augmented-generation.md",
+      "profile": "antora",
+      "score": 34439,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/structured-output-converter.html",
+      "title": "Structured Output Converter",
+      "anchor": "api-structured-output-converter",
+      "virtual_path": "docs/api/structured-output-converter.md",
+      "profile": "antora",
+      "score": 25932,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/testcontainers.html",
+      "title": "Testcontainers",
+      "anchor": "api-testcontainers",
+      "virtual_path": "docs/api/testcontainers.md",
+      "profile": "antora",
+      "score": 6095,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/testing.html",
+      "title": "Evaluation Testing",
+      "anchor": "api-testing",
+      "virtual_path": "docs/api/testing.md",
+      "profile": "antora",
+      "score": 13204,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/tools-migration.html",
+      "title": "Migrating from FunctionCallback to ToolCallback API",
+      "anchor": "api-tools-migration",
+      "virtual_path": "docs/api/tools-migration.md",
+      "profile": "antora",
+      "score": 18765,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/tools.html",
+      "title": "Tool Calling",
+      "anchor": "api-tools",
+      "virtual_path": "docs/api/tools.md",
+      "profile": "antora",
+      "score": 118938,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs.html",
+      "title": "Vector Databases",
+      "anchor": "api-vectordbs",
+      "virtual_path": "docs/api/vectordbs.md",
+      "profile": "antora",
+      "score": 58707,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/apache-cassandra.html",
+      "title": "Apache Cassandra Vector Store",
+      "anchor": "api-vectordbs-apache-cassandra",
+      "virtual_path": "docs/api/vectordbs/apache-cassandra.md",
+      "profile": "antora",
+      "score": 24279,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/azure-cosmos-db.html",
+      "title": "Azure Cosmos DB",
+      "anchor": "api-vectordbs-azure-cosmos-db",
+      "virtual_path": "docs/api/vectordbs/azure-cosmos-db.md",
+      "profile": "antora",
+      "score": 18107,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/azure.html",
+      "title": "Azure AI Service",
+      "anchor": "api-vectordbs-azure",
+      "virtual_path": "docs/api/vectordbs/azure.md",
+      "profile": "antora",
+      "score": 28004,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/chroma.html",
+      "title": "Chroma",
+      "anchor": "api-vectordbs-chroma",
+      "virtual_path": "docs/api/vectordbs/chroma.md",
+      "profile": "antora",
+      "score": 23559,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/couchbase.html",
+      "title": "Couchbase",
+      "anchor": "api-vectordbs-couchbase",
+      "virtual_path": "docs/api/vectordbs/couchbase.md",
+      "profile": "antora",
+      "score": 25095,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/elasticsearch.html",
+      "title": "Elasticsearch",
+      "anchor": "api-vectordbs-elasticsearch",
+      "virtual_path": "docs/api/vectordbs/elasticsearch.md",
+      "profile": "antora",
+      "score": 22421,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/gemfire.html",
+      "title": "GemFire Vector Store",
+      "anchor": "api-vectordbs-gemfire",
+      "virtual_path": "docs/api/vectordbs/gemfire.md",
+      "profile": "antora",
+      "score": 17767,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/hana.html",
+      "title": "SAP HANA Cloud",
+      "anchor": "api-vectordbs-hana",
+      "virtual_path": "docs/api/vectordbs/hana.md",
+      "profile": "antora",
+      "score": 18824,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/mariadb.html",
+      "title": "MariaDB Vector Store",
+      "anchor": "api-vectordbs-mariadb",
+      "virtual_path": "docs/api/vectordbs/mariadb.md",
+      "profile": "antora",
+      "score": 22605,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/milvus.html",
+      "title": "Milvus",
+      "anchor": "api-vectordbs-milvus",
+      "virtual_path": "docs/api/vectordbs/milvus.md",
+      "profile": "antora",
+      "score": 28253,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/mongodb.html",
+      "title": "MongoDB Atlas",
+      "anchor": "api-vectordbs-mongodb",
+      "virtual_path": "docs/api/vectordbs/mongodb.md",
+      "profile": "antora",
+      "score": 18801,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/neo4j.html",
+      "title": "Neo4j",
+      "anchor": "api-vectordbs-neo4j",
+      "virtual_path": "docs/api/vectordbs/neo4j.md",
+      "profile": "antora",
+      "score": 19866,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/opensearch.html",
+      "title": "OpenSearch",
+      "anchor": "api-vectordbs-opensearch",
+      "virtual_path": "docs/api/vectordbs/opensearch.md",
+      "profile": "antora",
+      "score": 23754,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/oracle.html",
+      "title": "Oracle Database 23ai - AI Vector Search",
+      "anchor": "api-vectordbs-oracle",
+      "virtual_path": "docs/api/vectordbs/oracle.md",
+      "profile": "antora",
+      "score": 17866,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/pgvector.html",
+      "title": "PGvector",
+      "anchor": "api-vectordbs-pgvector",
+      "virtual_path": "docs/api/vectordbs/pgvector.md",
+      "profile": "antora",
+      "score": 21211,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/pinecone.html",
+      "title": "Pinecone",
+      "anchor": "api-vectordbs-pinecone",
+      "virtual_path": "docs/api/vectordbs/pinecone.md",
+      "profile": "antora",
+      "score": 18068,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/qdrant.html",
+      "title": "Qdrant",
+      "anchor": "api-vectordbs-qdrant",
+      "virtual_path": "docs/api/vectordbs/qdrant.md",
+      "profile": "antora",
+      "score": 16227,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/redis.html",
+      "title": "Redis",
+      "anchor": "api-vectordbs-redis",
+      "virtual_path": "docs/api/vectordbs/redis.md",
+      "profile": "antora",
+      "score": 17225,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/typesense.html",
+      "title": "Typesense",
+      "anchor": "api-vectordbs-typesense",
+      "virtual_path": "docs/api/vectordbs/typesense.md",
+      "profile": "antora",
+      "score": 17352,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/api/vectordbs/weaviate.html",
+      "title": "Weaviate",
+      "anchor": "api-vectordbs-weaviate",
+      "virtual_path": "docs/api/vectordbs/weaviate.md",
+      "profile": "antora",
+      "score": 20806,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/concepts.html",
+      "title": "AI Concepts",
+      "anchor": "concepts",
+      "virtual_path": "docs/concepts.md",
+      "profile": "antora",
+      "score": 23521,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/getting-started.html",
+      "title": "Getting Started",
+      "anchor": "getting-started",
+      "virtual_path": "docs/getting-started.md",
+      "profile": "antora",
+      "score": 11916,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/guides/dynamic-tool-search.html",
+      "title": "Dynamic Tool Discovery with Tool Search Tool",
+      "anchor": "guides-dynamic-tool-search",
+      "virtual_path": "docs/guides/dynamic-tool-search.md",
+      "profile": "antora",
+      "score": 16824,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/guides/getting-started-mcp.html",
+      "title": "Getting Started with Model Context Protocol (MCP)",
+      "anchor": "guides-getting-started-mcp",
+      "virtual_path": "docs/guides/getting-started-mcp.md",
+      "profile": "antora",
+      "score": 12562,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/guides/llm-as-judge.html",
+      "title": "LLM Response Evaluation with LLM-as-a-Judge",
+      "anchor": "guides-llm-as-judge",
+      "virtual_path": "docs/guides/llm-as-judge.md",
+      "profile": "antora",
+      "score": 24533,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/index.html",
+      "title": "Introduction",
+      "anchor": "index",
+      "virtual_path": "docs/index.md",
+      "profile": "antora",
+      "score": 6883,
+      "depth": 0
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/observability/index.html",
+      "title": "Observability",
+      "anchor": "observability",
+      "virtual_path": "docs/observability/index.md",
+      "profile": "antora",
+      "score": 54303,
+      "depth": 1
+    },
+    {
+      "source_url": "https://docs.spring.io/spring-ai/reference/upgrade-notes.html",
+      "title": "Upgrade Notes",
+      "anchor": "upgrade-notes",
+      "virtual_path": "docs/upgrade-notes.md",
+      "profile": "antora",
+      "score": 116941,
+      "depth": 1
+    }
+  ]
+}

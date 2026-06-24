@@ -1,0 +1,231 @@
+# Summary
+
+- Content
+  - [Installation of airflowctl](#installation)
+    - [Prerequisites](#installation-prerequisites)
+      - Keyring Backend [Recommended]
+        - Third-Party Backends
+    - [Python Version Compatibility](#installation-prerequisites)
+    - [Installing from sources](#installation-installing-from-sources)
+      - Released packages
+      - Release integrity
+      - Verifying PyPI releases
+    - [Installing from PyPI](#installation-installing-from-pypi)
+      - Installation tools
+    - [Using released sources](#installation)
+    - [Using PyPI](#installation)
+  - [How-to Guides](#howto)
+    - How to use airflowctl
+      - Important Note
+      - Datetime Usage
+      - Login
+        - What is authentication for airflowctl ?
+        - Parameter Details for airflowctl auth login
+      - More Usage and Help Pictures
+    - All Available Group Command References
+      - Assets
+      - Auth
+      - Backfill
+      - Config
+      - Connections
+      - Dags
+      - Dag Runs
+      - Jobs
+      - Pools
+      - Providers
+      - Variables
+      - Version
+  - [Security](#security)
+  - [Release Notes](https://airflow.apache.org/docs/apache-airflow-ctl/stable/release_notes.html)
+- Usage
+  - [Quick Start](#start)
+  - [References](#cli-and-env-variables-ref)
+    - CLI
+      - Positional Arguments
+      - Sub-commands
+        - assets
+          - Positional Arguments
+          - Sub-commands
+            - create-event
+              - Named Arguments
+            - delete-dag-queued-events
+              - Named Arguments
+            - delete-queued-event
+              - Named Arguments
+            - delete-queued-events
+              - Named Arguments
+            - get
+              - Named Arguments
+            - get-by-alias
+              - Named Arguments
+            - get-dag-queued-event
+              - Named Arguments
+            - get-dag-queued-events
+              - Named Arguments
+            - get-queued-events
+              - Named Arguments
+            - list
+              - Named Arguments
+            - list-by-alias
+              - Named Arguments
+            - materialize
+              - Named Arguments
+        - auth
+          - Positional Arguments
+          - Sub-commands
+            - list-envs
+              - Named Arguments
+            - login
+              - Named Arguments
+            - token
+              - Named Arguments
+        - backfill
+          - Positional Arguments
+          - Sub-commands
+            - cancel
+              - Named Arguments
+            - create
+              - Named Arguments
+            - create-dry-run
+              - Named Arguments
+            - get
+              - Named Arguments
+            - list
+              - Named Arguments
+            - pause
+              - Named Arguments
+            - unpause
+              - Named Arguments
+        - config
+          - Positional Arguments
+          - Sub-commands
+            - get
+              - Named Arguments
+            - lint
+              - Named Arguments
+            - list
+              - Named Arguments
+        - connections
+          - Positional Arguments
+          - Sub-commands
+            - create
+              - Named Arguments
+            - create-defaults
+              - Named Arguments
+            - delete
+              - Named Arguments
+            - get
+              - Named Arguments
+            - import
+              - Positional Arguments
+              - Named Arguments
+            - list
+              - Named Arguments
+            - test
+              - Named Arguments
+            - update
+              - Named Arguments
+        - dagrun
+          - Positional Arguments
+          - Sub-commands
+            - get
+              - Named Arguments
+            - list
+              - Named Arguments
+        - dags
+          - Positional Arguments
+          - Sub-commands
+            - delete
+              - Named Arguments
+            - get
+              - Named Arguments
+            - get-details
+              - Named Arguments
+            - get-import-error
+              - Named Arguments
+            - get-stats
+              - Named Arguments
+            - get-tags
+              - Named Arguments
+            - get-version
+              - Named Arguments
+            - list
+              - Named Arguments
+            - list-import-errors
+              - Named Arguments
+            - list-version
+              - Named Arguments
+            - list-warning
+              - Named Arguments
+            - pause
+              - Positional Arguments
+              - Named Arguments
+            - trigger
+              - Named Arguments
+            - unpause
+              - Positional Arguments
+              - Named Arguments
+            - update
+              - Named Arguments
+        - jobs
+          - Positional Arguments
+          - Sub-commands
+            - list
+              - Named Arguments
+        - pools
+          - Positional Arguments
+          - Sub-commands
+            - create
+              - Named Arguments
+            - delete
+              - Named Arguments
+            - export
+              - Positional Arguments
+              - Named Arguments
+            - get
+              - Named Arguments
+            - import
+              - Positional Arguments
+              - Named Arguments
+            - list
+              - Named Arguments
+            - update
+              - Named Arguments
+        - providers
+          - Positional Arguments
+          - Sub-commands
+            - list
+              - Named Arguments
+        - variables
+          - Positional Arguments
+          - Sub-commands
+            - create
+              - Named Arguments
+            - delete
+              - Named Arguments
+            - get
+              - Named Arguments
+            - import
+              - Positional Arguments
+              - Named Arguments
+            - list
+              - Named Arguments
+            - update
+              - Named Arguments
+        - version
+          - Named Arguments
+        - xcom
+          - Positional Arguments
+          - Sub-commands
+            - add
+              - Named Arguments
+            - delete
+              - Named Arguments
+            - edit
+              - Named Arguments
+            - get
+              - Named Arguments
+            - list
+              - Named Arguments
+    - Environment Variables
+- [Home](#index)
