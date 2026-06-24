@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docs2md-crawler"
+version = "1.0.0"
+description = "Crawl HTML documentation sites and convert them into Markdown bundles"
+requires-python = ">=3.9"
+dependencies = [
+  "beautifulsoup4",
+  "markdownify",
+  "PyYAML",
+  "requests",
+  "urllib3",
+]
+
+[project.optional-dependencies]
+browser = ["playwright"]
+
+[project.scripts]
+docs2md = "docs2md.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["docs2md*"]
+
