@@ -1,0 +1,1161 @@
+[
+  {
+    "title": "Apache Ignite 3 Documentation",
+    "kind": "link",
+    "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0",
+    "anchor": "docs-ignite3-3.1",
+    "virtual_path": "docs/docs/ignite3/3.1.md"
+  },
+  {
+    "title": "Getting Started",
+    "kind": "link",
+    "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/getting-started",
+    "anchor": "getting-started",
+    "virtual_path": "docs/getting-started.md",
+    "children": [
+      {
+        "title": "Introduction",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/getting-started/intro",
+        "anchor": "getting-started-intro",
+        "virtual_path": "docs/getting-started/intro.md"
+      },
+      {
+        "title": "Getting Started",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/getting-started/quick-start",
+        "anchor": "getting-started-quick-start",
+        "virtual_path": "docs/getting-started/quick-start.md"
+      },
+      {
+        "title": "Start a Cluster in Docker",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/getting-started/start-cluster",
+        "anchor": "getting-started-start-cluster",
+        "virtual_path": "docs/getting-started/start-cluster.md"
+      },
+      {
+        "title": "Working with SQL",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/getting-started/work-with-sql",
+        "anchor": "getting-started-work-with-sql",
+        "virtual_path": "docs/getting-started/work-with-sql.md"
+      },
+      {
+        "title": "Using Java API",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/getting-started/key-value-api",
+        "anchor": "getting-started-key-value-api",
+        "virtual_path": "docs/getting-started/key-value-api.md"
+      },
+      {
+        "title": "Embedded Mode",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/getting-started/embedded-mode",
+        "anchor": "getting-started-embedded-mode",
+        "virtual_path": "docs/getting-started/embedded-mode.md"
+      },
+      {
+        "title": "Configuration Tips",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/getting-started/best-practices",
+        "anchor": "getting-started-best-practices",
+        "virtual_path": "docs/getting-started/best-practices.md"
+      },
+      {
+        "title": "Migrating from Ignite 2",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/getting-started/migrate-from-ignite-2",
+        "anchor": "getting-started-migrate-from-ignite-2",
+        "virtual_path": "docs/getting-started/migrate-from-ignite-2.md"
+      },
+      {
+        "title": "Migrate from 3.0 to 3.1",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/getting-started/migrate-from-3-0-to-3-1",
+        "anchor": "getting-started-migrate-from-3-0-to-3-1",
+        "virtual_path": "docs/getting-started/migrate-from-3-0-to-3-1.md"
+      }
+    ]
+  },
+  {
+    "title": "Develop and Build",
+    "kind": "link",
+    "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop",
+    "anchor": "develop",
+    "virtual_path": "docs/develop.md",
+    "children": [
+      {
+        "title": "Ignite Clients",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/ignite-clients",
+        "anchor": "develop-ignite-clients",
+        "virtual_path": "docs/develop/ignite-clients.md",
+        "children": [
+          {
+            "title": "Java Client",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/ignite-clients/java-client",
+            "anchor": "develop-ignite-clients-java-client",
+            "virtual_path": "docs/develop/ignite-clients/java-client.md"
+          },
+          {
+            "title": ".NET Client",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/ignite-clients/dotnet-client",
+            "anchor": "develop-ignite-clients-dotnet-client",
+            "virtual_path": "docs/develop/ignite-clients/dotnet-client.md"
+          },
+          {
+            "title": "C++ Client",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/ignite-clients/cpp-client",
+            "anchor": "develop-ignite-clients-cpp-client",
+            "virtual_path": "docs/develop/ignite-clients/cpp-client.md"
+          }
+        ]
+      },
+      {
+        "title": "Connect to Ignite",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/connect-to-ignite",
+        "anchor": "develop-connect-to-ignite",
+        "virtual_path": "docs/develop/connect-to-ignite.md",
+        "children": [
+          {
+            "title": "JDBC Driver",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/connect-to-ignite/jdbc",
+            "anchor": "develop-connect-to-ignite-jdbc",
+            "virtual_path": "docs/develop/connect-to-ignite/jdbc.md"
+          },
+          {
+            "title": "ODBC Driver",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/connect-to-ignite/odbc",
+            "anchor": "develop-connect-to-ignite-odbc",
+            "virtual_path": "docs/develop/connect-to-ignite/odbc.md",
+            "children": [
+              {
+                "title": "ODBC Connection String",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/connect-to-ignite/odbc-connection-string",
+                "anchor": "develop-connect-to-ignite-odbc-connection-string",
+                "virtual_path": "docs/develop/connect-to-ignite/odbc-connection-string.md"
+              },
+              {
+                "title": "Querying and Modifying Data with ODBC",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/connect-to-ignite/odbc-querying-data",
+                "anchor": "develop-connect-to-ignite-odbc-querying-data",
+                "virtual_path": "docs/develop/connect-to-ignite/odbc-querying-data.md"
+              }
+            ]
+          },
+          {
+            "title": "Python Database API Driver",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/connect-to-ignite/python",
+            "anchor": "develop-connect-to-ignite-python",
+            "virtual_path": "docs/develop/connect-to-ignite/python.md"
+          }
+        ]
+      },
+      {
+        "title": "Work with Data",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/work-with-data",
+        "anchor": "develop-work-with-data",
+        "virtual_path": "docs/develop/work-with-data.md",
+        "children": [
+          {
+            "title": "Table API",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/work-with-data/table-api",
+            "anchor": "develop-work-with-data-table-api",
+            "virtual_path": "docs/develop/work-with-data/table-api.md"
+          },
+          {
+            "title": "Performing Transactions",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/work-with-data/transactions",
+            "anchor": "develop-work-with-data-transactions",
+            "virtual_path": "docs/develop/work-with-data/transactions.md"
+          },
+          {
+            "title": "Streaming Data",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/work-with-data/streaming",
+            "anchor": "develop-work-with-data-streaming",
+            "virtual_path": "docs/develop/work-with-data/streaming.md"
+          },
+          {
+            "title": "Distributed Computing",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/work-with-data/compute",
+            "anchor": "develop-work-with-data-compute",
+            "virtual_path": "docs/develop/work-with-data/compute.md"
+          },
+          {
+            "title": "Object Serialization",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/work-with-data/serialization",
+            "anchor": "develop-work-with-data-serialization",
+            "virtual_path": "docs/develop/work-with-data/serialization.md"
+          },
+          {
+            "title": "Code Deployment",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/work-with-data/code-deployment",
+            "anchor": "develop-work-with-data-code-deployment",
+            "virtual_path": "docs/develop/work-with-data/code-deployment.md"
+          },
+          {
+            "title": "Working with Events",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/work-with-data/events",
+            "anchor": "develop-work-with-data-events",
+            "virtual_path": "docs/develop/work-with-data/events.md"
+          },
+          {
+            "title": "Available Events",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/work-with-data/events-list",
+            "anchor": "develop-work-with-data-events-list",
+            "virtual_path": "docs/develop/work-with-data/events-list.md"
+          },
+          {
+            "title": "Creating Tables from Java Classes",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/work-with-data/java-to-tables",
+            "anchor": "develop-work-with-data-java-to-tables",
+            "virtual_path": "docs/develop/work-with-data/java-to-tables.md"
+          },
+          {
+            "title": "Java Client Logging",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/work-with-data/java-client-logging",
+            "anchor": "develop-work-with-data-java-client-logging",
+            "virtual_path": "docs/develop/work-with-data/java-client-logging.md"
+          }
+        ]
+      },
+      {
+        "title": "Integrate",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/integrate",
+        "anchor": "develop-integrate",
+        "virtual_path": "docs/develop/integrate.md",
+        "children": [
+          {
+            "title": "Spring Boot Integration",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/integrate/spring-boot",
+            "anchor": "develop-integrate-spring-boot",
+            "virtual_path": "docs/develop/integrate/spring-boot.md"
+          },
+          {
+            "title": "Spring Data Integration",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/develop/integrate/spring-data",
+            "anchor": "develop-integrate-spring-data",
+            "virtual_path": "docs/develop/integrate/spring-data.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Work with SQL",
+    "kind": "link",
+    "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql",
+    "anchor": "sql",
+    "virtual_path": "docs/sql.md",
+    "children": [
+      {
+        "title": "SQL Fundamentals",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/fundamentals",
+        "anchor": "sql-fundamentals",
+        "virtual_path": "docs/sql/fundamentals.md",
+        "children": [
+          {
+            "title": "Engine Architecture",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/fundamentals/engine-architecture",
+            "anchor": "sql-fundamentals-engine-architecture",
+            "virtual_path": "docs/sql/fundamentals/engine-architecture.md"
+          }
+        ]
+      },
+      {
+        "title": "SQL Operations",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/working-with-sql",
+        "anchor": "sql-working-with-sql",
+        "virtual_path": "docs/sql/working-with-sql.md",
+        "children": [
+          {
+            "title": "Execute Queries",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/working-with-sql/execute-queries",
+            "anchor": "sql-working-with-sql-execute-queries",
+            "virtual_path": "docs/sql/working-with-sql/execute-queries.md"
+          },
+          {
+            "title": "System Views",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/working-with-sql/system-views",
+            "anchor": "sql-working-with-sql-system-views",
+            "virtual_path": "docs/sql/working-with-sql/system-views.md"
+          }
+        ]
+      },
+      {
+        "title": "SQL Reference",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference",
+        "anchor": "sql-reference",
+        "virtual_path": "docs/sql/reference.md",
+        "children": [
+          {
+            "title": "Language Definition",
+            "kind": "category",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/language-definition",
+            "anchor": "sql-reference-language-definition",
+            "virtual_path": "docs/sql/reference/language-definition.md",
+            "children": [
+              {
+                "title": "Data Definition Language (DDL)",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/language-definition/ddl",
+                "anchor": "sql-reference-language-definition-ddl",
+                "virtual_path": "docs/sql/reference/language-definition/ddl.md"
+              },
+              {
+                "title": "Data Manipulation Language (DML)",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/language-definition/dml",
+                "anchor": "sql-reference-language-definition-dml",
+                "virtual_path": "docs/sql/reference/language-definition/dml.md"
+              },
+              {
+                "title": "Distribution Zones",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/language-definition/distribution-zones",
+                "anchor": "sql-reference-language-definition-distribution-zones",
+                "virtual_path": "docs/sql/reference/language-definition/distribution-zones.md"
+              },
+              {
+                "title": "Transactions",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/language-definition/transactions",
+                "anchor": "sql-reference-language-definition-transactions",
+                "virtual_path": "docs/sql/reference/language-definition/transactions.md"
+              },
+              {
+                "title": "Grammar Reference",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/language-definition/grammar-reference",
+                "anchor": "sql-reference-language-definition-grammar-reference",
+                "virtual_path": "docs/sql/reference/language-definition/grammar-reference.md"
+              }
+            ]
+          },
+          {
+            "title": "Data Types and Functions",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/data-types-and-functions",
+            "anchor": "sql-reference-data-types-and-functions",
+            "virtual_path": "docs/sql/reference/data-types-and-functions.md",
+            "children": [
+              {
+                "title": "Data Types",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/data-types-and-functions/data-types",
+                "anchor": "sql-reference-data-types-and-functions-data-types",
+                "virtual_path": "docs/sql/reference/data-types-and-functions/data-types.md"
+              },
+              {
+                "title": "Operators and Functions",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/data-types-and-functions/operators-and-functions",
+                "anchor": "sql-reference-data-types-and-functions-operators-and-functions",
+                "virtual_path": "docs/sql/reference/data-types-and-functions/operators-and-functions.md"
+              },
+              {
+                "title": "Operational Commands",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/data-types-and-functions/operational-commands",
+                "anchor": "sql-reference-data-types-and-functions-operational-commands",
+                "virtual_path": "docs/sql/reference/data-types-and-functions/operational-commands.md"
+              }
+            ]
+          },
+          {
+            "title": "SQL Conformance",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/sql-conformance",
+            "anchor": "sql-reference-sql-conformance",
+            "virtual_path": "docs/sql/reference/sql-conformance.md",
+            "children": [
+              {
+                "title": "SQL Conformance",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/sql-conformance/overview",
+                "anchor": "sql-reference-sql-conformance-overview",
+                "virtual_path": "docs/sql/reference/sql-conformance/overview.md"
+              },
+              {
+                "title": "Keywords",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/reference/sql-conformance/keywords",
+                "anchor": "sql-reference-sql-conformance-keywords",
+                "virtual_path": "docs/sql/reference/sql-conformance/keywords.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Advanced SQL",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/advanced",
+        "anchor": "sql-advanced",
+        "virtual_path": "docs/sql/advanced.md",
+        "children": [
+          {
+            "title": "EXPLAIN Statement",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/advanced/explain-statement",
+            "anchor": "sql-advanced-explain-statement",
+            "virtual_path": "docs/sql/advanced/explain-statement.md"
+          },
+          {
+            "title": "Performance Tuning",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/sql/advanced/performance-tuning",
+            "anchor": "sql-advanced-performance-tuning",
+            "virtual_path": "docs/sql/advanced/performance-tuning.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Configure and Operate",
+    "kind": "link",
+    "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate",
+    "anchor": "configure-and-operate",
+    "virtual_path": "docs/configure-and-operate.md",
+    "children": [
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/installation",
+        "anchor": "configure-and-operate-installation",
+        "virtual_path": "docs/configure-and-operate/installation.md",
+        "children": [
+          {
+            "title": "ZIP Archive",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/installation/install-zip",
+            "anchor": "configure-and-operate-installation-install-zip",
+            "virtual_path": "docs/configure-and-operate/installation/install-zip.md"
+          },
+          {
+            "title": "DEB/RPM Package",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/installation/install-deb-rpm",
+            "anchor": "configure-and-operate-installation-install-deb-rpm",
+            "virtual_path": "docs/configure-and-operate/installation/install-deb-rpm.md"
+          },
+          {
+            "title": "Docker",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/installation/install-docker",
+            "anchor": "configure-and-operate-installation-install-docker",
+            "virtual_path": "docs/configure-and-operate/installation/install-docker.md"
+          },
+          {
+            "title": "Kubernetes",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/installation/install-kubernetes",
+            "anchor": "configure-and-operate-installation-install-kubernetes",
+            "virtual_path": "docs/configure-and-operate/installation/install-kubernetes.md"
+          }
+        ]
+      },
+      {
+        "title": "Configuration",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/configuration",
+        "anchor": "configure-and-operate-configuration",
+        "virtual_path": "docs/configure-and-operate/configuration.md",
+        "children": [
+          {
+            "title": "Cluster and Nodes",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/configuration/config-cluster-and-nodes",
+            "anchor": "configure-and-operate-configuration-config-cluster-and-nodes",
+            "virtual_path": "docs/configure-and-operate/configuration/config-cluster-and-nodes.md"
+          },
+          {
+            "title": "Storage Configuration",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/configuration/config-storage-overview",
+            "anchor": "configure-and-operate-configuration-config-storage-overview",
+            "virtual_path": "docs/configure-and-operate/configuration/config-storage-overview.md",
+            "children": [
+              {
+                "title": "Storage Profiles",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/configuration/config-storage",
+                "anchor": "configure-and-operate-configuration-config-storage",
+                "virtual_path": "docs/configure-and-operate/configuration/config-storage.md"
+              },
+              {
+                "title": "Volatile Storage",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/configuration/config-storage-volatile",
+                "anchor": "configure-and-operate-configuration-config-storage-volatile",
+                "virtual_path": "docs/configure-and-operate/configuration/config-storage-volatile.md"
+              },
+              {
+                "title": "Persistent Storage",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/configuration/config-storage-persistent",
+                "anchor": "configure-and-operate-configuration-config-storage-persistent",
+                "virtual_path": "docs/configure-and-operate/configuration/config-storage-persistent.md"
+              },
+              {
+                "title": "RocksDB Storage",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/configuration/config-storage-rocksdb",
+                "anchor": "configure-and-operate-configuration-config-storage-rocksdb",
+                "virtual_path": "docs/configure-and-operate/configuration/config-storage-rocksdb.md"
+              }
+            ]
+          },
+          {
+            "title": "Authentication",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/configuration/config-authentication",
+            "anchor": "configure-and-operate-configuration-config-authentication",
+            "virtual_path": "docs/configure-and-operate/configuration/config-authentication.md"
+          },
+          {
+            "title": "SSL/TLS",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/configuration/config-ssl-tls",
+            "anchor": "configure-and-operate-configuration-config-ssl-tls",
+            "virtual_path": "docs/configure-and-operate/configuration/config-ssl-tls.md"
+          },
+          {
+            "title": "Metrics",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/configuration/metrics-configuration",
+            "anchor": "configure-and-operate-configuration-metrics-configuration",
+            "virtual_path": "docs/configure-and-operate/configuration/metrics-configuration.md"
+          },
+          {
+            "title": "Cluster Security",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/configuration/config-cluster-security",
+            "anchor": "configure-and-operate-configuration-config-cluster-security",
+            "virtual_path": "docs/configure-and-operate/configuration/config-cluster-security.md"
+          }
+        ]
+      },
+      {
+        "title": "Operations",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/operations",
+        "anchor": "configure-and-operate-operations",
+        "virtual_path": "docs/configure-and-operate/operations.md",
+        "children": [
+          {
+            "title": "Lifecycle",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/operations/lifecycle",
+            "anchor": "configure-and-operate-operations-lifecycle",
+            "virtual_path": "docs/configure-and-operate/operations/lifecycle.md"
+          },
+          {
+            "title": "Disaster Recovery",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/operations/disaster-recovery",
+            "anchor": "configure-and-operate-operations-disaster-recovery",
+            "virtual_path": "docs/configure-and-operate/operations/disaster-recovery.md",
+            "children": [
+              {
+                "title": "Data Partitions Recovery",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/operations/disaster-recovery-partitions",
+                "anchor": "configure-and-operate-operations-disaster-recovery-partitions",
+                "virtual_path": "docs/configure-and-operate/operations/disaster-recovery-partitions.md"
+              },
+              {
+                "title": "System Groups Recovery",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/operations/disaster-recovery-system-groups",
+                "anchor": "configure-and-operate-operations-disaster-recovery-system-groups",
+                "virtual_path": "docs/configure-and-operate/operations/disaster-recovery-system-groups.md"
+              }
+            ]
+          },
+          {
+            "title": "Handle Exceptions",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/operations/handle-exceptions",
+            "anchor": "configure-and-operate-operations-handle-exceptions",
+            "virtual_path": "docs/configure-and-operate/operations/handle-exceptions.md"
+          },
+          {
+            "title": "Colocation",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/operations/colocation",
+            "anchor": "configure-and-operate-operations-colocation",
+            "virtual_path": "docs/configure-and-operate/operations/colocation.md"
+          }
+        ]
+      },
+      {
+        "title": "Monitoring",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/monitoring",
+        "anchor": "configure-and-operate-monitoring",
+        "virtual_path": "docs/configure-and-operate/monitoring.md",
+        "children": [
+          {
+            "title": "Metrics",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/monitoring/metrics",
+            "anchor": "configure-and-operate-monitoring-metrics",
+            "virtual_path": "docs/configure-and-operate/monitoring/metrics.md",
+            "children": [
+              {
+                "title": "Metrics",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/monitoring/config-metrics",
+                "anchor": "configure-and-operate-monitoring-config-metrics",
+                "virtual_path": "docs/configure-and-operate/monitoring/config-metrics.md"
+              },
+              {
+                "title": "Available Metrics",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/monitoring/available-metrics",
+                "anchor": "configure-and-operate-monitoring-available-metrics",
+                "virtual_path": "docs/configure-and-operate/monitoring/available-metrics.md"
+              },
+              {
+                "title": "System Views",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/monitoring/metrics-system-views",
+                "anchor": "configure-and-operate-monitoring-metrics-system-views",
+                "virtual_path": "docs/configure-and-operate/monitoring/metrics-system-views.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Configuration Reference",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/reference",
+        "anchor": "configure-and-operate-reference",
+        "virtual_path": "docs/configure-and-operate/reference.md",
+        "children": [
+          {
+            "title": "Node Configuration",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/reference/node-configuration",
+            "anchor": "configure-and-operate-reference-node-configuration",
+            "virtual_path": "docs/configure-and-operate/reference/node-configuration.md"
+          },
+          {
+            "title": "Cluster Configuration",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/reference/cluster-configuration",
+            "anchor": "configure-and-operate-reference-cluster-configuration",
+            "virtual_path": "docs/configure-and-operate/reference/cluster-configuration.md"
+          },
+          {
+            "title": "CLI Configuration",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/reference/cli-configuration",
+            "anchor": "configure-and-operate-reference-cli-configuration",
+            "virtual_path": "docs/configure-and-operate/reference/cli-configuration.md"
+          },
+          {
+            "title": "Storage Profiles",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/configure-and-operate/reference/storage-profiles",
+            "anchor": "configure-and-operate-reference-storage-profiles",
+            "virtual_path": "docs/configure-and-operate/reference/storage-profiles.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Concepts and Architecture",
+    "kind": "link",
+    "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand",
+    "anchor": "understand",
+    "virtual_path": "docs/understand.md",
+    "children": [
+      {
+        "title": "Core Concepts",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/core-concepts",
+        "anchor": "understand-core-concepts",
+        "virtual_path": "docs/understand/core-concepts.md",
+        "children": [
+          {
+            "title": "What is Apache Ignite 3?",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/core-concepts/what-is-ignite",
+            "anchor": "understand-core-concepts-what-is-ignite",
+            "virtual_path": "docs/understand/core-concepts/what-is-ignite.md"
+          },
+          {
+            "title": "Tables and Schemas",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/core-concepts/tables-and-schemas",
+            "anchor": "understand-core-concepts-tables-and-schemas",
+            "virtual_path": "docs/understand/core-concepts/tables-and-schemas.md"
+          },
+          {
+            "title": "Transactions and MVCC",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/core-concepts/transactions-and-mvcc",
+            "anchor": "understand-core-concepts-transactions-and-mvcc",
+            "virtual_path": "docs/understand/core-concepts/transactions-and-mvcc.md"
+          },
+          {
+            "title": "Distribution and Colocation",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/core-concepts/distribution-and-colocation",
+            "anchor": "understand-core-concepts-distribution-and-colocation",
+            "virtual_path": "docs/understand/core-concepts/distribution-and-colocation.md"
+          },
+          {
+            "title": "Data Partitioning",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/core-concepts/data-partitioning",
+            "anchor": "understand-core-concepts-data-partitioning",
+            "virtual_path": "docs/understand/core-concepts/data-partitioning.md"
+          },
+          {
+            "title": "Compute and Events",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/core-concepts/compute-and-events",
+            "anchor": "understand-core-concepts-compute-and-events",
+            "virtual_path": "docs/understand/core-concepts/compute-and-events.md"
+          }
+        ]
+      },
+      {
+        "title": "Architecture",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/architecture",
+        "anchor": "understand-architecture",
+        "virtual_path": "docs/understand/architecture.md",
+        "children": [
+          {
+            "title": "Architecture Overview",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/architecture/architecture-overview",
+            "anchor": "understand-architecture-architecture-overview",
+            "virtual_path": "docs/understand/architecture/architecture-overview.md"
+          },
+          {
+            "title": "Storage Architecture",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/architecture/storage-architecture",
+            "anchor": "understand-architecture-storage-architecture",
+            "virtual_path": "docs/understand/architecture/storage-architecture.md"
+          },
+          {
+            "title": "Storage Engines",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/architecture/storage-engines",
+            "anchor": "understand-architecture-storage-engines",
+            "virtual_path": "docs/understand/architecture/storage-engines.md",
+            "children": [
+              {
+                "title": "AIMemory Storage Engine",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/architecture/storage-engines/aimem",
+                "anchor": "understand-architecture-storage-engines-aimem",
+                "virtual_path": "docs/understand/architecture/storage-engines/aimem.md"
+              },
+              {
+                "title": "AIPersist Storage Engine",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/architecture/storage-engines/aipersist",
+                "anchor": "understand-architecture-storage-engines-aipersist",
+                "virtual_path": "docs/understand/architecture/storage-engines/aipersist.md"
+              },
+              {
+                "title": "RocksDB Storage Engine",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/architecture/storage-engines/rocksdb",
+                "anchor": "understand-architecture-storage-engines-rocksdb",
+                "virtual_path": "docs/understand/architecture/storage-engines/rocksdb.md"
+              }
+            ]
+          },
+          {
+            "title": "Security Architecture",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/architecture/security",
+            "anchor": "understand-architecture-security",
+            "virtual_path": "docs/understand/architecture/security.md"
+          }
+        ]
+      },
+      {
+        "title": "Performance",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/performance",
+        "anchor": "understand-performance",
+        "virtual_path": "docs/understand/performance.md",
+        "children": [
+          {
+            "title": "Using EXPLAIN Command",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/performance/using-explain",
+            "anchor": "understand-performance-using-explain",
+            "virtual_path": "docs/understand/performance/using-explain.md"
+          },
+          {
+            "title": "EXPLAIN Operators Reference",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/understand/performance/explain-operators",
+            "anchor": "understand-performance-explain-operators",
+            "virtual_path": "docs/understand/performance/explain-operators.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Client and API Reference",
+    "kind": "link",
+    "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference",
+    "anchor": "api-reference",
+    "virtual_path": "docs/api-reference.md",
+    "children": [
+      {
+        "title": "Native Client APIs",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients",
+        "anchor": "api-reference-native-clients",
+        "virtual_path": "docs/api-reference/native-clients.md",
+        "children": [
+          {
+            "title": "Java API (PRIMARY)",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java",
+            "anchor": "api-reference-native-clients-java",
+            "virtual_path": "docs/api-reference/native-clients/java.md",
+            "children": [
+              {
+                "title": "Client API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java/client-api",
+                "anchor": "api-reference-native-clients-java-client-api",
+                "virtual_path": "docs/api-reference/native-clients/java/client-api.md"
+              },
+              {
+                "title": "Server API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java/server-api",
+                "anchor": "api-reference-native-clients-java-server-api",
+                "virtual_path": "docs/api-reference/native-clients/java/server-api.md"
+              },
+              {
+                "title": "Tables API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java/tables-api",
+                "anchor": "api-reference-native-clients-java-tables-api",
+                "virtual_path": "docs/api-reference/native-clients/java/tables-api.md"
+              },
+              {
+                "title": "Data Streamer API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java/data-streamer-api",
+                "anchor": "api-reference-native-clients-java-data-streamer-api",
+                "virtual_path": "docs/api-reference/native-clients/java/data-streamer-api.md"
+              },
+              {
+                "title": "SQL API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java/sql-api",
+                "anchor": "api-reference-native-clients-java-sql-api",
+                "virtual_path": "docs/api-reference/native-clients/java/sql-api.md"
+              },
+              {
+                "title": "Transactions API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java/transactions-api",
+                "anchor": "api-reference-native-clients-java-transactions-api",
+                "virtual_path": "docs/api-reference/native-clients/java/transactions-api.md"
+              },
+              {
+                "title": "Compute API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java/compute-api",
+                "anchor": "api-reference-native-clients-java-compute-api",
+                "virtual_path": "docs/api-reference/native-clients/java/compute-api.md"
+              },
+              {
+                "title": "Catalog API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java/catalog-api",
+                "anchor": "api-reference-native-clients-java-catalog-api",
+                "virtual_path": "docs/api-reference/native-clients/java/catalog-api.md"
+              },
+              {
+                "title": "Criteria API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java/criteria-api",
+                "anchor": "api-reference-native-clients-java-criteria-api",
+                "virtual_path": "docs/api-reference/native-clients/java/criteria-api.md"
+              },
+              {
+                "title": "Network API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java/network-api",
+                "anchor": "api-reference-native-clients-java-network-api",
+                "virtual_path": "docs/api-reference/native-clients/java/network-api.md"
+              },
+              {
+                "title": "Security API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/java/security-api",
+                "anchor": "api-reference-native-clients-java-security-api",
+                "virtual_path": "docs/api-reference/native-clients/java/security-api.md"
+              }
+            ]
+          },
+          {
+            "title": ".NET API",
+            "kind": "category",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/dotnet",
+            "anchor": "api-reference-native-clients-dotnet",
+            "virtual_path": "docs/api-reference/native-clients/dotnet.md",
+            "children": [
+              {
+                "title": "Client API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/dotnet/client-api",
+                "anchor": "api-reference-native-clients-dotnet-client-api",
+                "virtual_path": "docs/api-reference/native-clients/dotnet/client-api.md"
+              },
+              {
+                "title": "Tables API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/dotnet/tables-api",
+                "anchor": "api-reference-native-clients-dotnet-tables-api",
+                "virtual_path": "docs/api-reference/native-clients/dotnet/tables-api.md"
+              },
+              {
+                "title": "LINQ API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/dotnet/linq-api",
+                "anchor": "api-reference-native-clients-dotnet-linq-api",
+                "virtual_path": "docs/api-reference/native-clients/dotnet/linq-api.md"
+              },
+              {
+                "title": "Data Streamer API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/dotnet/data-streamer-api",
+                "anchor": "api-reference-native-clients-dotnet-data-streamer-api",
+                "virtual_path": "docs/api-reference/native-clients/dotnet/data-streamer-api.md"
+              },
+              {
+                "title": "SQL API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/dotnet/sql-api",
+                "anchor": "api-reference-native-clients-dotnet-sql-api",
+                "virtual_path": "docs/api-reference/native-clients/dotnet/sql-api.md"
+              },
+              {
+                "title": "ADO.NET API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/dotnet/ado-net-api",
+                "anchor": "api-reference-native-clients-dotnet-ado-net-api",
+                "virtual_path": "docs/api-reference/native-clients/dotnet/ado-net-api.md"
+              },
+              {
+                "title": "Transactions API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/dotnet/transactions-api",
+                "anchor": "api-reference-native-clients-dotnet-transactions-api",
+                "virtual_path": "docs/api-reference/native-clients/dotnet/transactions-api.md"
+              },
+              {
+                "title": "Compute API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/dotnet/compute-api",
+                "anchor": "api-reference-native-clients-dotnet-compute-api",
+                "virtual_path": "docs/api-reference/native-clients/dotnet/compute-api.md"
+              },
+              {
+                "title": "Network API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/dotnet/network-api",
+                "anchor": "api-reference-native-clients-dotnet-network-api",
+                "virtual_path": "docs/api-reference/native-clients/dotnet/network-api.md"
+              }
+            ]
+          },
+          {
+            "title": "C++ API",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/cpp",
+            "anchor": "api-reference-native-clients-cpp",
+            "virtual_path": "docs/api-reference/native-clients/cpp.md",
+            "children": [
+              {
+                "title": "Client API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/cpp/client-api",
+                "anchor": "api-reference-native-clients-cpp-client-api",
+                "virtual_path": "docs/api-reference/native-clients/cpp/client-api.md"
+              },
+              {
+                "title": "Tables API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/cpp/tables-api",
+                "anchor": "api-reference-native-clients-cpp-tables-api",
+                "virtual_path": "docs/api-reference/native-clients/cpp/tables-api.md"
+              },
+              {
+                "title": "SQL API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/cpp/sql-api",
+                "anchor": "api-reference-native-clients-cpp-sql-api",
+                "virtual_path": "docs/api-reference/native-clients/cpp/sql-api.md"
+              },
+              {
+                "title": "Transactions API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/cpp/transactions-api",
+                "anchor": "api-reference-native-clients-cpp-transactions-api",
+                "virtual_path": "docs/api-reference/native-clients/cpp/transactions-api.md"
+              },
+              {
+                "title": "Compute API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/cpp/compute-api",
+                "anchor": "api-reference-native-clients-cpp-compute-api",
+                "virtual_path": "docs/api-reference/native-clients/cpp/compute-api.md"
+              },
+              {
+                "title": "Network API",
+                "kind": "link",
+                "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/native-clients/cpp/network-api",
+                "anchor": "api-reference-native-clients-cpp-network-api",
+                "virtual_path": "docs/api-reference/native-clients/cpp/network-api.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "SQL-Only APIs",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/sql-only-apis",
+        "anchor": "api-reference-sql-only-apis",
+        "virtual_path": "docs/api-reference/sql-only-apis.md",
+        "children": [
+          {
+            "title": "JDBC Driver",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/sql-only-apis/jdbc",
+            "anchor": "api-reference-sql-only-apis-jdbc",
+            "virtual_path": "docs/api-reference/sql-only-apis/jdbc.md"
+          },
+          {
+            "title": "ODBC Driver",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/sql-only-apis/odbc",
+            "anchor": "api-reference-sql-only-apis-odbc",
+            "virtual_path": "docs/api-reference/sql-only-apis/odbc.md"
+          },
+          {
+            "title": "Python DB-API",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/sql-only-apis/python",
+            "anchor": "api-reference-sql-only-apis-python",
+            "virtual_path": "docs/api-reference/sql-only-apis/python.md"
+          }
+        ]
+      },
+      {
+        "title": "API Documentation",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/api",
+        "anchor": "api-reference-api",
+        "virtual_path": "docs/api-reference/api.md",
+        "children": [
+          {
+            "title": "Java API Reference",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/api/java-api-reference",
+            "anchor": "api-reference-api-java-api-reference",
+            "virtual_path": "docs/api-reference/api/java-api-reference.md"
+          },
+          {
+            "title": ".NET API Reference",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/api/dotnet-api-reference",
+            "anchor": "api-reference-api-dotnet-api-reference",
+            "virtual_path": "docs/api-reference/api/dotnet-api-reference.md"
+          },
+          {
+            "title": "C++ API Reference",
+            "kind": "link",
+            "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/api-reference/api/cpp-api-reference",
+            "anchor": "api-reference-api-cpp-api-reference",
+            "virtual_path": "docs/api-reference/api/cpp-api-reference.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Tools",
+    "kind": "link",
+    "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/tools",
+    "anchor": "tools",
+    "virtual_path": "docs/tools.md",
+    "children": [
+      {
+        "title": "CLI Commands Reference",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/tools/cli-commands",
+        "anchor": "tools-cli-commands",
+        "virtual_path": "docs/tools/cli-commands.md"
+      },
+      {
+        "title": "REST API",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/tools/rest-api",
+        "anchor": "tools-rest-api",
+        "virtual_path": "docs/tools/rest-api.md"
+      },
+      {
+        "title": "Glossary",
+        "kind": "link",
+        "source_url": "https://ignite.apache.org/docs/ignite3/3.1.0/tools/glossary",
+        "anchor": "tools-glossary",
+        "virtual_path": "docs/tools/glossary.md"
+      }
+    ]
+  }
+]

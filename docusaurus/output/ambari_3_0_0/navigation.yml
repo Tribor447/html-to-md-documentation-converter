@@ -1,0 +1,389 @@
+- title: Introduction
+  kind: link
+  source_url: https://ambari.apache.org/docs/3.0.0/introduction
+  anchor: introduction
+  virtual_path: docs/introduction/index.md
+- title: Apache Ambari 3.0.0 Release Notes
+  kind: link
+  source_url: https://ambari.apache.org/docs/3.0.0/release-notes
+  anchor: release-notes
+  virtual_path: docs/release-notes/index.md
+- title: Frequently Asked Questions (FAQ)
+  kind: link
+  source_url: https://ambari.apache.org/docs/3.0.0/faq
+  anchor: faq
+  virtual_path: docs/faq/index.md
+- title: Quick Start
+  kind: category
+  source_url: https://ambari.apache.org/docs/3.0.0/quick-start/quick-start-guide
+  anchor: quick-start-quick-start-guide
+  virtual_path: docs/quick-start/quick-start-guide/index.md
+  children:
+  - title: Quick Start Guide
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/quick-start/quick-start-guide
+    anchor: quick-start-quick-start-guide
+    virtual_path: docs/quick-start/quick-start-guide/index.md
+  - title: Download
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/quick-start/download
+    anchor: quick-start-download
+    virtual_path: docs/quick-start/download/index.md
+  - title: Environment Setup
+    kind: category
+    source_url: https://ambari.apache.org/docs/3.0.0/quick-start/environment-setup/vagrant-environment-setup
+    anchor: quick-start-environment-setup-vagrant-environment-setup
+    virtual_path: docs/quick-start/environment-setup/vagrant-environment-setup/index.md
+    children:
+    - title: Vagrant Environment Setup for Apache Ambari
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/quick-start/environment-setup/vagrant-environment-setup
+      anchor: quick-start-environment-setup-vagrant-environment-setup
+      virtual_path: docs/quick-start/environment-setup/vagrant-environment-setup/index.md
+    - title: Docker Environment Setup for Apache Ambari
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/quick-start/environment-setup/docker-environment-setup
+      anchor: quick-start-environment-setup-docker-environment-setup
+      virtual_path: docs/quick-start/environment-setup/docker-environment-setup/index.md
+    - title: Bare Metal and KVM Environment Setup for Apache Ambari
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/quick-start/environment-setup/bare-metal-kvm-setup
+      anchor: quick-start-environment-setup-bare-metal-kvm-setup
+      virtual_path: docs/quick-start/environment-setup/bare-metal-kvm-setup/index.md
+  - title: Ambari Installation Guide
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/quick-start/installation-guide
+    anchor: quick-start-installation-guide
+    virtual_path: docs/quick-start/installation-guide/index.md
+- title: Ambari Design
+  kind: category
+  source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/
+  anchor: ambari-design
+  virtual_path: docs/ambari-design/index.md
+  children:
+  - title: Alerts
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/alerts
+    anchor: ambari-design-alerts
+    virtual_path: docs/ambari-design/alerts/index.md
+  - title: Automated Kerberizaton
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/kerberos
+    anchor: kerberos
+    virtual_path: docs/kerberos/index.md
+    children:
+    - title: The Kerberos Descriptor
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/kerberos/kerberos_descriptor
+      anchor: ambari-design-kerberos-kerberos_descriptor
+      virtual_path: docs/ambari-design/kerberos/kerberos_descriptor/index.md
+    - title: The Kerberos Service
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/kerberos/kerberos_service
+      anchor: ambari-design-kerberos-kerberos_service
+      virtual_path: docs/ambari-design/kerberos/kerberos_service/index.md
+    - title: Enabling Kerberos
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/kerberos/enabling_kerberos
+      anchor: ambari-design-kerberos-enabling_kerberos
+      virtual_path: docs/ambari-design/kerberos/enabling_kerberos/index.md
+  - title: Blueprints
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/blueprints
+    anchor: blueprints
+    virtual_path: docs/blueprints/index.md
+    children:
+    - title: Blueprint Support for HA Clusters
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/blueprints/blueprint-ha
+      anchor: ambari-design-blueprints-blueprint-ha
+      virtual_path: docs/ambari-design/blueprints/blueprint-ha/index.md
+    - title: Blueprint support for Ranger
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/blueprints/blueprint-ranger
+      anchor: ambari-design-blueprints-blueprint-ranger
+      virtual_path: docs/ambari-design/blueprints/blueprint-ranger/index.md
+  - title: Enhanced Configs
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/enhanced-configs/
+    anchor: ambari-design-enhanced-configs
+    virtual_path: docs/ambari-design/enhanced-configs/index.md
+  - title: Enhanced Service Dashboard
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/service-dashboard/
+    anchor: ambari-design-service-dashboard
+    virtual_path: docs/ambari-design/service-dashboard/index.md
+  - title: Metrics
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/
+    anchor: ambari-design-metrics
+    virtual_path: docs/ambari-design/metrics/index.md
+    children:
+    - title: Metrics Collector API Specification
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/metrics-collector-api-specification
+      anchor: ambari-design-metrics-metrics-collector-api-specification
+      virtual_path: docs/ambari-design/metrics/metrics-collector-api-specification/index.md
+    - title: Configuration
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/configuration
+      anchor: ambari-design-metrics-configuration
+      virtual_path: docs/ambari-design/metrics/configuration/index.md
+    - title: Operations
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/operations
+      anchor: ambari-design-metrics-operations
+      virtual_path: docs/ambari-design/metrics/operations/index.md
+    - title: Troubleshooting
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/troubleshooting
+      anchor: ambari-design-metrics-troubleshooting
+      virtual_path: docs/ambari-design/metrics/troubleshooting/index.md
+    - title: Ambari Metrics API specification
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/metrics-api-specification
+      anchor: ambari-design-metrics-metrics-api-specification
+      virtual_path: docs/ambari-design/metrics/metrics-api-specification/index.md
+    - title: Stack Defined Metrics
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/stack-defined-metrics
+      anchor: ambari-design-metrics-stack-defined-metrics
+      virtual_path: docs/ambari-design/metrics/stack-defined-metrics/index.md
+    - title: Upgrading Ambari Metrics System
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/upgrading-ambari-metrics-system
+      anchor: ambari-design-metrics-upgrading-ambari-metrics-system
+      virtual_path: docs/ambari-design/metrics/upgrading-ambari-metrics-system/index.md
+    - title: Ambari Server Metrics
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/ambari-server-metrics
+      anchor: ambari-design-metrics-ambari-server-metrics
+      virtual_path: docs/ambari-design/metrics/ambari-server-metrics/index.md
+    - title: Ambari Metrics - Whitelisting
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/metrics/ambari-metrics-whitelisting
+      anchor: ambari-design-metrics-ambari-metrics-whitelisting
+      virtual_path: docs/ambari-design/metrics/ambari-metrics-whitelisting/index.md
+  - title: Quick Links
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/quick-links
+    anchor: ambari-design-quick-links
+    virtual_path: docs/ambari-design/quick-links/index.md
+  - title: Stacks and Services
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/
+    anchor: ambari-design-stack-and-services
+    virtual_path: docs/ambari-design/stack-and-services/index.md
+    children:
+    - title: Overview
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/overview
+      anchor: ambari-design-stack-and-services-overview
+      virtual_path: docs/ambari-design/stack-and-services/overview/index.md
+    - title: Custom Services
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/custom-services
+      anchor: ambari-design-stack-and-services-custom-services
+      virtual_path: docs/ambari-design/stack-and-services/custom-services/index.md
+    - title: Defining a Custom Stack and Services
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/defining-a-custom-stack-and-services
+      anchor: ambari-design-stack-and-services-defining-a-custom-stack-and-services
+      virtual_path: docs/ambari-design/stack-and-services/defining-a-custom-stack-and-services/index.md
+    - title: Extensions
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/extensions
+      anchor: ambari-design-stack-and-services-extensions
+      virtual_path: docs/ambari-design/stack-and-services/extensions/index.md
+    - title: How-To Define Stacks and Services
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/how-to-define-stacks-and-services
+      anchor: ambari-design-stack-and-services-how-to-define-stacks-and-services
+      virtual_path: docs/ambari-design/stack-and-services/how-to-define-stacks-and-services/index.md
+    - title: Management Packs
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/management-packs
+      anchor: ambari-design-stack-and-services-management-packs
+      virtual_path: docs/ambari-design/stack-and-services/management-packs/index.md
+    - title: Stack Inheritance
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/stack-inheritance
+      anchor: ambari-design-stack-and-services-stack-inheritance
+      virtual_path: docs/ambari-design/stack-and-services/stack-inheritance/index.md
+    - title: Stack Properties
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/stack-properties
+      anchor: ambari-design-stack-and-services-stack-properties
+      virtual_path: docs/ambari-design/stack-and-services/stack-properties/index.md
+    - title: Writing metainfo.xml
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/writing-metainfo
+      anchor: ambari-design-stack-and-services-writing-metainfo
+      virtual_path: docs/ambari-design/stack-and-services/writing-metainfo/index.md
+    - title: FAQ
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/faq
+      anchor: ambari-design-stack-and-services-faq
+      virtual_path: docs/ambari-design/stack-and-services/faq/index.md
+    - title: Hooks
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/hooks
+      anchor: ambari-design-stack-and-services-hooks
+      virtual_path: docs/ambari-design/stack-and-services/hooks/index.md
+    - title: 'Version functions: conf-select and stack-select'
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/stack-and-services/version-functions-conf-select-and-stack-select
+      anchor: ambari-design-stack-and-services-version-functions-conf-select-and-stack-select
+      virtual_path: docs/ambari-design/stack-and-services/version-functions-conf-select-and-stack-select/index.md
+  - title: Technology Stack
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/technology-stack
+    anchor: ambari-design-technology-stack
+    virtual_path: docs/ambari-design/technology-stack/index.md
+  - title: Views
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/views/
+    anchor: ambari-design-views
+    virtual_path: docs/ambari-design/views/index.md
+    children:
+    - title: Framework Services
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/views/framework-services
+      anchor: ambari-design-views-framework-services
+      virtual_path: docs/ambari-design/views/framework-services/index.md
+    - title: View API
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/views/view-api
+      anchor: ambari-design-views-view-api
+      virtual_path: docs/ambari-design/views/view-api/index.md
+    - title: View Definition
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-design/views/view-definition
+      anchor: ambari-design-views-view-definition
+      virtual_path: docs/ambari-design/views/view-definition/index.md
+- title: Ambari Development
+  kind: category
+  source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/
+  anchor: ambari-dev
+  virtual_path: docs/ambari-dev/index.md
+  children:
+  - title: Building from Source
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/building-from-source
+    anchor: ambari-dev-building-from-source
+    virtual_path: docs/ambari-dev/building-from-source/index.md
+  - title: Running Tests
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/running-tests
+    anchor: ambari-dev-running-tests
+    virtual_path: docs/ambari-dev/running-tests/index.md
+  - title: Development Process for New Major Features
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/development-process-for-new-major-features
+    anchor: ambari-dev-development-process-for-new-major-features
+    virtual_path: docs/ambari-dev/development-process-for-new-major-features/index.md
+  - title: Ambari Code Layout
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/ambari-code-layout
+    anchor: ambari-dev-ambari-code-layout
+    virtual_path: docs/ambari-dev/ambari-code-layout/index.md
+  - title: Apache Ambari JIRA
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/apache-ambari-jira
+    anchor: ambari-dev-apache-ambari-jira
+    virtual_path: docs/ambari-dev/apache-ambari-jira/index.md
+  - title: Coding Guidelines for Ambari
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/coding-guidelines-for-ambari
+    anchor: ambari-dev-coding-guidelines-for-ambari
+    virtual_path: docs/ambari-dev/coding-guidelines-for-ambari/index.md
+  - title: How to Commit
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/how-to-commit
+    anchor: ambari-dev-how-to-commit
+    virtual_path: docs/ambari-dev/how-to-commit/index.md
+  - title: How to Contribute
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/how-to-contribute
+    anchor: ambari-dev-how-to-contribute
+    virtual_path: docs/ambari-dev/how-to-contribute/index.md
+  - title: Compiling Components for Ambari Bigtop Stack
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/bigtop-guide
+    anchor: ambari-dev-bigtop-guide
+    virtual_path: docs/ambari-dev/bigtop-guide/index.md
+  - title: Code Review Guidelines
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/code-review-guidelines
+    anchor: ambari-dev-code-review-guidelines
+    virtual_path: docs/ambari-dev/code-review-guidelines/index.md
+  - title: Releasing Ambari
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/releasing-ambari
+    anchor: ambari-dev-releasing-ambari
+    virtual_path: docs/ambari-dev/releasing-ambari/index.md
+  - title: Admin View (ambari-admin) Development
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/admin-view-ambari-admin-development
+    anchor: ambari-dev-admin-view-ambari-admin-development
+    virtual_path: docs/ambari-dev/admin-view-ambari-admin-development/index.md
+  - title: Unit Test Reports
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/unit-test-reports
+    anchor: ambari-dev-unit-test-reports
+    virtual_path: docs/ambari-dev/unit-test-reports/index.md
+  - title: Development in Docker
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/development-in-docker
+    anchor: ambari-dev-development-in-docker
+    virtual_path: docs/ambari-dev/development-in-docker/index.md
+  - title: Developer Tools
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/developer-tools
+    anchor: ambari-dev-developer-tools
+    virtual_path: docs/ambari-dev/developer-tools/index.md
+  - title: Feature Flags
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/feature-flags
+    anchor: ambari-dev-feature-flags
+    virtual_path: docs/ambari-dev/feature-flags/index.md
+  - title: Verifying Release Candidate
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-dev/verifying-release-candidate
+    anchor: ambari-dev-verifying-release-candidate
+    virtual_path: docs/ambari-dev/verifying-release-candidate/index.md
+- title: Ambari Plugin Contributions
+  kind: link
+  source_url: https://ambari.apache.org/docs/3.0.0/ambari-plugin-contribution/
+  anchor: ambari-plugin-contribution
+  virtual_path: docs/ambari-plugin-contribution/index.md
+  children:
+  - title: Ambari SCOM Management Pack
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-plugin-contribution/scom/
+    anchor: ambari-plugin-contribution-scom
+    virtual_path: docs/ambari-plugin-contribution/scom/index.md
+    children:
+    - title: Installation
+      kind: link
+      source_url: https://ambari.apache.org/docs/3.0.0/ambari-plugin-contribution/scom/installation
+      anchor: ambari-plugin-contribution-scom-installation
+      virtual_path: docs/ambari-plugin-contribution/scom/installation/index.md
+  - title: Step-by-step guide on adding a dashboard widget for a host.
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/ambari-plugin-contribution/step-by-step
+    anchor: ambari-plugin-contribution-step-by-step
+    virtual_path: docs/ambari-plugin-contribution/step-by-step/index.md
+- title: Ambari Alerts
+  kind: link
+  source_url: https://ambari.apache.org/docs/3.0.0/ambari-alerts
+  anchor: ambari-alerts
+  virtual_path: docs/ambari-alerts/index.md
+- title: Other pages
+  kind: category
+  children:
+  - title: Ambari Mailing Lists
+    kind: link
+    source_url: https://ambari.apache.org/docs/3.0.0/quick-start/mailing-list/
+    anchor: quick-start-mailing-list
+    virtual_path: docs/quick-start/mailing-list/index.md

@@ -1,0 +1,329 @@
+[
+  {
+    "title": "Introduction to EventMesh",
+    "kind": "link",
+    "source_url": "https://eventmesh.apache.org/docs/introduction"
+  },
+  {
+    "title": "Development Roadmap",
+    "kind": "link",
+    "source_url": "https://eventmesh.apache.org/docs/roadmap",
+    "anchor": "roadmap",
+    "virtual_path": "docs/roadmap/index.md"
+  },
+  {
+    "title": "Installation and Deployment",
+    "kind": "category",
+    "source_url": "https://eventmesh.apache.org/docs/instruction/store",
+    "anchor": "instruction-store",
+    "virtual_path": "docs/instruction/store/index.md",
+    "children": [
+      {
+        "title": "Event Store",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/instruction/store",
+        "anchor": "instruction-store",
+        "virtual_path": "docs/instruction/store/index.md"
+      },
+      {
+        "title": "Event Store with Docker",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/instruction/store-with-docker",
+        "anchor": "instruction-store-with-docker",
+        "virtual_path": "docs/instruction/store-with-docker/index.md"
+      },
+      {
+        "title": "EventMesh Runtime Quick Start",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/instruction/runtime",
+        "anchor": "instruction-runtime",
+        "virtual_path": "docs/instruction/runtime/index.md"
+      },
+      {
+        "title": "EventMesh Runtime with Docker",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/instruction/runtime-with-docker",
+        "anchor": "instruction-runtime-with-docker",
+        "virtual_path": "docs/instruction/runtime-with-docker/index.md"
+      },
+      {
+        "title": "Run Java SDK Demo",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/instruction/demo",
+        "anchor": "instruction-demo",
+        "virtual_path": "docs/instruction/demo/index.md"
+      },
+      {
+        "title": "Integrate EventMesh with K8S",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/instruction/operator",
+        "anchor": "instruction-operator",
+        "virtual_path": "docs/instruction/operator/index.md"
+      },
+      {
+        "title": "Frequently Asked Questions",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/instruction/faq",
+        "anchor": "instruction-faq",
+        "virtual_path": "docs/instruction/faq/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Design Document",
+    "kind": "category",
+    "source_url": "https://eventmesh.apache.org/docs/design-document/event-handling-and-integration/runtime-protocol",
+    "anchor": "design-document-event-handling-and-integration-runtime-protocol",
+    "virtual_path": "docs/design-document/event-handling-and-integration/runtime-protocol/index.md",
+    "children": [
+      {
+        "title": "Event Handling and Integration",
+        "kind": "category",
+        "source_url": "https://eventmesh.apache.org/docs/design-document/event-handling-and-integration/runtime-protocol",
+        "anchor": "design-document-event-handling-and-integration-runtime-protocol",
+        "virtual_path": "docs/design-document/event-handling-and-integration/runtime-protocol/index.md",
+        "children": [
+          {
+            "title": "EventMesh Runtime Protocol",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/event-handling-and-integration/runtime-protocol",
+            "anchor": "design-document-event-handling-and-integration-runtime-protocol",
+            "virtual_path": "docs/design-document/event-handling-and-integration/runtime-protocol/index.md"
+          },
+          {
+            "title": "HTTPS",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/event-handling-and-integration/https",
+            "anchor": "design-document-event-handling-and-integration-https",
+            "virtual_path": "docs/design-document/event-handling-and-integration/https/index.md"
+          },
+          {
+            "title": "CloudEvents Integration",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/event-handling-and-integration/cloudevents",
+            "anchor": "design-document-event-handling-and-integration-cloudevents",
+            "virtual_path": "docs/design-document/event-handling-and-integration/cloudevents/index.md"
+          },
+          {
+            "title": "Event Bridge",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/event-handling-and-integration/event-bridge",
+            "anchor": "design-document-event-handling-and-integration-event-bridge",
+            "virtual_path": "docs/design-document/event-handling-and-integration/event-bridge/index.md"
+          },
+          {
+            "title": "Use Webhook to subscribe events",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/event-handling-and-integration/webhook",
+            "anchor": "design-document-event-handling-and-integration-webhook",
+            "virtual_path": "docs/design-document/event-handling-and-integration/webhook/index.md"
+          },
+          {
+            "title": "EventMesh Workflow",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/event-handling-and-integration/workflow",
+            "anchor": "design-document-event-handling-and-integration-workflow",
+            "virtual_path": "docs/design-document/event-handling-and-integration/workflow/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Observability",
+        "kind": "category",
+        "source_url": "https://eventmesh.apache.org/docs/design-document/observability/metrics-export",
+        "anchor": "design-document-observability-metrics-export",
+        "virtual_path": "docs/design-document/observability/metrics-export/index.md",
+        "children": [
+          {
+            "title": "EventMesh Metrics (OpenTelemetry and Prometheus)",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/observability/metrics-export",
+            "anchor": "design-document-observability-metrics-export",
+            "virtual_path": "docs/design-document/observability/metrics-export/index.md"
+          },
+          {
+            "title": "Distributed Tracing",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/observability/tracing",
+            "anchor": "design-document-observability-tracing",
+            "virtual_path": "docs/design-document/observability/tracing/index.md"
+          },
+          {
+            "title": "Observe Metrics with Prometheus",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/observability/prometheus",
+            "anchor": "design-document-observability-prometheus",
+            "virtual_path": "docs/design-document/observability/prometheus/index.md"
+          },
+          {
+            "title": "Collect Trace with Zipkin",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/observability/zipkin",
+            "anchor": "design-document-observability-zipkin",
+            "virtual_path": "docs/design-document/observability/zipkin/index.md"
+          },
+          {
+            "title": "Collect Trace with Jaeger",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/observability/jaeger",
+            "anchor": "design-document-observability-jaeger",
+            "virtual_path": "docs/design-document/observability/jaeger/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Connect",
+        "kind": "category",
+        "source_url": "https://eventmesh.apache.org/docs/design-document/connect/connectors",
+        "anchor": "design-document-connect-connectors",
+        "virtual_path": "docs/design-document/connect/connectors/index.md",
+        "children": [
+          {
+            "title": "Connectors",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/connect/connectors",
+            "anchor": "design-document-connect-connectors",
+            "virtual_path": "docs/design-document/connect/connectors/index.md"
+          },
+          {
+            "title": "RabbitMQ",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/connect/rabbitmq-connector",
+            "anchor": "design-document-connect-rabbitmq-connector",
+            "virtual_path": "docs/design-document/connect/rabbitmq-connector/index.md"
+          },
+          {
+            "title": "HTTP",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/connect/http-connector",
+            "anchor": "design-document-connect-http-connector",
+            "virtual_path": "docs/design-document/connect/http-connector/index.md"
+          },
+          {
+            "title": "Redis",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/connect/redis-connector",
+            "anchor": "design-document-connect-redis-connector",
+            "virtual_path": "docs/design-document/connect/redis-connector/index.md"
+          },
+          {
+            "title": "MongoDB",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/connect/mongodb-connector",
+            "anchor": "design-document-connect-mongodb-connector",
+            "virtual_path": "docs/design-document/connect/mongodb-connector/index.md"
+          },
+          {
+            "title": "Knative",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/connect/knative-connector",
+            "anchor": "design-document-connect-knative-connector",
+            "virtual_path": "docs/design-document/connect/knative-connector/index.md"
+          },
+          {
+            "title": "Feishu/Lark",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/connect/lark-connector",
+            "anchor": "design-document-connect-lark-connector",
+            "virtual_path": "docs/design-document/connect/lark-connector/index.md"
+          },
+          {
+            "title": "DingTalk",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/connect/dingtalk-connector",
+            "anchor": "design-document-connect-dingtalk-connector",
+            "virtual_path": "docs/design-document/connect/dingtalk-connector/index.md"
+          },
+          {
+            "title": "WeCom",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/connect/wecom-connector",
+            "anchor": "design-document-connect-wecom-connector",
+            "virtual_path": "docs/design-document/connect/wecom-connector/index.md"
+          },
+          {
+            "title": "Slack",
+            "kind": "link",
+            "source_url": "https://eventmesh.apache.org/docs/design-document/connect/slack-connector",
+            "anchor": "design-document-connect-slack-connector",
+            "virtual_path": "docs/design-document/connect/slack-connector/index.md"
+          }
+        ]
+      },
+      {
+        "title": "EventMesh Schema Registry (OpenSchema)",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/design-document/schema-registry",
+        "anchor": "design-document-schema-registry",
+        "virtual_path": "docs/design-document/schema-registry/index.md"
+      },
+      {
+        "title": "Service Provider Interface",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/design-document/spi",
+        "anchor": "design-document-spi",
+        "virtual_path": "docs/design-document/spi/index.md"
+      },
+      {
+        "title": "EventMesh Stream",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/design-document/stream",
+        "anchor": "design-document-stream",
+        "virtual_path": "docs/design-document/stream/index.md"
+      }
+    ]
+  },
+  {
+    "title": "EventMesh SDK for Java",
+    "kind": "category",
+    "source_url": "https://eventmesh.apache.org/docs/sdk-java/intro",
+    "anchor": "sdk-java-intro",
+    "virtual_path": "docs/sdk-java/intro/index.md",
+    "children": [
+      {
+        "title": "Installation",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/sdk-java/intro",
+        "anchor": "sdk-java-intro",
+        "virtual_path": "docs/sdk-java/intro/index.md"
+      },
+      {
+        "title": "HTTP Protocol",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/sdk-java/http",
+        "anchor": "sdk-java-http",
+        "virtual_path": "docs/sdk-java/http/index.md"
+      },
+      {
+        "title": "TCP Protocol",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/sdk-java/tcp",
+        "anchor": "sdk-java-tcp",
+        "virtual_path": "docs/sdk-java/tcp/index.md"
+      },
+      {
+        "title": "gRPC Protocol",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/sdk-java/grpc",
+        "anchor": "sdk-java-grpc",
+        "virtual_path": "docs/sdk-java/grpc/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Upgrade Guide",
+    "kind": "category",
+    "source_url": "https://eventmesh.apache.org/docs/upgrade-guide/upgrade-guide",
+    "anchor": "upgrade-guide-upgrade-guide",
+    "virtual_path": "docs/upgrade-guide/upgrade-guide/index.md",
+    "children": [
+      {
+        "title": "EventMesh Upgrade Guide",
+        "kind": "link",
+        "source_url": "https://eventmesh.apache.org/docs/upgrade-guide/upgrade-guide",
+        "anchor": "upgrade-guide-upgrade-guide",
+        "virtual_path": "docs/upgrade-guide/upgrade-guide/index.md"
+      }
+    ]
+  }
+]

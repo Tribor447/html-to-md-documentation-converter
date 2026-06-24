@@ -1,0 +1,433 @@
+[
+  {
+    "title": "Get Started",
+    "kind": "category",
+    "source_url": "https://bifromq.incubator.apache.org/docs/get_started/intro/",
+    "anchor": "get_started-intro",
+    "virtual_path": "docs/get_started/intro/index.md",
+    "children": [
+      {
+        "title": "Quick Install & Verify",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/get_started/quick_install/",
+        "anchor": "get_started-quick_install",
+        "virtual_path": "docs/get_started/quick_install/index.md"
+      },
+      {
+        "title": "Frequently Asked Questions",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/get_started/faq/",
+        "anchor": "get_started-faq",
+        "virtual_path": "docs/get_started/faq/index.md"
+      },
+      {
+        "title": "Road Map",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/get_started/roadmap/",
+        "anchor": "get_started-roadmap",
+        "virtual_path": "docs/get_started/roadmap/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Installation",
+    "kind": "link",
+    "source_url": "https://bifromq.incubator.apache.org/docs/installation/intro/",
+    "anchor": "installation-intro",
+    "virtual_path": "docs/installation/intro/index.md",
+    "children": [
+      {
+        "title": "Docker",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/installation/docker/",
+        "anchor": "installation-docker",
+        "virtual_path": "docs/installation/docker/index.md"
+      },
+      {
+        "title": "Linux",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/installation/linux/",
+        "anchor": "installation-linux",
+        "virtual_path": "docs/installation/linux/index.md"
+      },
+      {
+        "title": "Windows",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/installation/windows/",
+        "anchor": "installation-windows",
+        "virtual_path": "docs/installation/windows/index.md"
+      },
+      {
+        "title": "Install from Source",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/installation/install_from_source/",
+        "anchor": "installation-install_from_source",
+        "virtual_path": "docs/installation/install_from_source/index.md"
+      },
+      {
+        "title": "Configuration Convention & Migration",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/installation/config_migration_between_versions/",
+        "anchor": "installation-config_migration_between_versions",
+        "virtual_path": "docs/installation/config_migration_between_versions/index.md"
+      },
+      {
+        "title": "Notes on Kubernetes Deployment",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/installation/nodes_on_k8s/",
+        "anchor": "installation-nodes_on_k8s",
+        "virtual_path": "docs/installation/nodes_on_k8s/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Cluster",
+    "kind": "link",
+    "source_url": "https://bifromq.incubator.apache.org/docs/cluster/intro/",
+    "anchor": "cluster-intro",
+    "virtual_path": "docs/cluster/intro/index.md",
+    "children": [
+      {
+        "title": "Clustering",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/cluster/clustering/",
+        "anchor": "cluster-clustering",
+        "virtual_path": "docs/cluster/clustering/index.md"
+      },
+      {
+        "title": "Load Balancing",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/cluster/loadbalance/intro/",
+        "anchor": "cluster-loadbalance-intro",
+        "virtual_path": "docs/cluster/loadbalance/intro/index.md",
+        "children": [
+          {
+            "title": "MQTT Server",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/cluster/loadbalance/mqttserver/",
+            "anchor": "cluster-loadbalance-mqttserver",
+            "virtual_path": "docs/cluster/loadbalance/mqttserver/index.md"
+          },
+          {
+            "title": "API Server",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/cluster/loadbalance/apiserver/",
+            "anchor": "cluster-loadbalance-apiserver",
+            "virtual_path": "docs/cluster/loadbalance/apiserver/index.md"
+          },
+          {
+            "title": "Internal RPC Server",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/cluster/loadbalance/rpcserver/",
+            "anchor": "cluster-loadbalance-rpcserver",
+            "virtual_path": "docs/cluster/loadbalance/rpcserver/index.md"
+          },
+          {
+            "title": "Stateful Server",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/cluster/loadbalance/stateful/intro/",
+            "anchor": "cluster-loadbalance-stateful-intro",
+            "virtual_path": "docs/cluster/loadbalance/stateful/intro/index.md",
+            "children": [
+              {
+                "title": "Dist Worker",
+                "kind": "link",
+                "source_url": "https://bifromq.incubator.apache.org/docs/cluster/loadbalance/stateful/distworker/",
+                "anchor": "cluster-loadbalance-stateful-distworker",
+                "virtual_path": "docs/cluster/loadbalance/stateful/distworker/index.md"
+              },
+              {
+                "title": "Inbox Store",
+                "kind": "link",
+                "source_url": "https://bifromq.incubator.apache.org/docs/cluster/loadbalance/stateful/inboxstore/",
+                "anchor": "cluster-loadbalance-stateful-inboxstore",
+                "virtual_path": "docs/cluster/loadbalance/stateful/inboxstore/index.md"
+              },
+              {
+                "title": "Retain Store",
+                "kind": "link",
+                "source_url": "https://bifromq.incubator.apache.org/docs/cluster/loadbalance/stateful/retainstore/",
+                "anchor": "cluster-loadbalance-stateful-retainstore",
+                "virtual_path": "docs/cluster/loadbalance/stateful/retainstore/index.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Upgrade",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/cluster/upgrade/",
+        "anchor": "cluster-upgrade",
+        "virtual_path": "docs/cluster/upgrade/index.md"
+      }
+    ]
+  },
+  {
+    "title": "User Guide",
+    "kind": "link",
+    "source_url": "https://bifromq.incubator.apache.org/docs/user_guide/intro/",
+    "anchor": "user_guide-intro",
+    "virtual_path": "docs/user_guide/intro/index.md",
+    "children": [
+      {
+        "title": "Basic MQTT Features",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/user_guide/basic/intro/",
+        "anchor": "user_guide-basic-intro",
+        "virtual_path": "docs/user_guide/basic/intro/index.md",
+        "children": [
+          {
+            "title": "Connect to BifroMQ",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/user_guide/basic/connect/",
+            "anchor": "user_guide-basic-connect",
+            "virtual_path": "docs/user_guide/basic/connect/index.md"
+          },
+          {
+            "title": "Pub/Sub",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/user_guide/basic/pubsub/",
+            "anchor": "user_guide-basic-pubsub",
+            "virtual_path": "docs/user_guide/basic/pubsub/index.md"
+          },
+          {
+            "title": "Shared Subscriptions",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/user_guide/basic/shared_sub/",
+            "anchor": "user_guide-basic-shared_sub",
+            "virtual_path": "docs/user_guide/basic/shared_sub/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Data Integration",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/user_guide/integration/intro/",
+        "anchor": "user_guide-integration-intro",
+        "virtual_path": "docs/user_guide/integration/intro/index.md"
+      },
+      {
+        "title": "API Usage",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/user_guide/api/intro/",
+        "anchor": "user_guide-api-intro",
+        "virtual_path": "docs/user_guide/api/intro/index.md",
+        "children": [
+          {
+            "title": "OpenAPI Reference",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/user_guide/api/openapi/",
+            "anchor": "user_guide-api-openapi",
+            "virtual_path": "docs/user_guide/api/openapi/index.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Plugin",
+    "kind": "link",
+    "source_url": "https://bifromq.incubator.apache.org/docs/plugin/intro/",
+    "anchor": "plugin-intro",
+    "virtual_path": "docs/plugin/intro/index.md",
+    "children": [
+      {
+        "title": "Auth Provider",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/plugin/auth_provider/",
+        "anchor": "plugin-auth_provider",
+        "virtual_path": "docs/plugin/auth_provider/index.md"
+      },
+      {
+        "title": "Client Balancer",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/plugin/client_balancer/",
+        "anchor": "plugin-client_balancer",
+        "virtual_path": "docs/plugin/client_balancer/index.md"
+      },
+      {
+        "title": "Event Collector",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/plugin/event_collector/",
+        "anchor": "plugin-event_collector",
+        "virtual_path": "docs/plugin/event_collector/index.md"
+      },
+      {
+        "title": "Resource Throttler",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/plugin/resource_throttler/",
+        "anchor": "plugin-resource_throttler",
+        "virtual_path": "docs/plugin/resource_throttler/index.md"
+      },
+      {
+        "title": "Setting Provider",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/plugin/setting_provider/intro/",
+        "anchor": "plugin-setting_provider-intro",
+        "virtual_path": "docs/plugin/setting_provider/intro/index.md",
+        "children": [
+          {
+            "title": "Tenant-level Settings",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/plugin/setting_provider/tenantsetting/",
+            "anchor": "plugin-setting_provider-tenantsetting",
+            "virtual_path": "docs/plugin/setting_provider/tenantsetting/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Plugin Practice and Notice",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/plugin/plugin_practice/",
+        "anchor": "plugin-plugin_practice",
+        "virtual_path": "docs/plugin/plugin_practice/index.md"
+      }
+    ]
+  },
+  {
+    "title": "SPI",
+    "kind": "link",
+    "source_url": "https://bifromq.incubator.apache.org/docs/spi/intro/",
+    "anchor": "spi-intro",
+    "virtual_path": "docs/spi/intro/index.md"
+  },
+  {
+    "title": "Administration",
+    "kind": "link",
+    "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/overview/",
+    "anchor": "admin_guide-overview",
+    "virtual_path": "docs/admin_guide/overview/index.md",
+    "children": [
+      {
+        "title": "Configuration",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/configuration/intro/",
+        "anchor": "admin_guide-configuration-intro",
+        "virtual_path": "docs/admin_guide/configuration/intro/index.md",
+        "children": [
+          {
+            "title": "Config File Manual",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/configuration/config_file_manual/",
+            "anchor": "admin_guide-configuration-config_file_manual",
+            "virtual_path": "docs/admin_guide/configuration/config_file_manual/index.md"
+          },
+          {
+            "title": "System Properties",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/configuration/bifromq_sys_props/",
+            "anchor": "admin_guide-configuration-bifromq_sys_props",
+            "virtual_path": "docs/admin_guide/configuration/bifromq_sys_props/index.md"
+          },
+          {
+            "title": "Configuration Printing",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/configuration/configs_print/",
+            "anchor": "admin_guide-configuration-configs_print",
+            "virtual_path": "docs/admin_guide/configuration/configs_print/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Tuning",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/tuning/intro/",
+        "anchor": "admin_guide-tuning-intro",
+        "virtual_path": "docs/admin_guide/tuning/intro/index.md",
+        "children": [
+          {
+            "title": "Linux Kernel Tuning",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/tuning/os_tuning_linux/",
+            "anchor": "admin_guide-tuning-os_tuning_linux",
+            "virtual_path": "docs/admin_guide/tuning/os_tuning_linux/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Observability",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/observability/intro/",
+        "anchor": "admin_guide-observability-intro",
+        "virtual_path": "docs/admin_guide/observability/intro/index.md",
+        "children": [
+          {
+            "title": "Logging",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/observability/logging/",
+            "anchor": "admin_guide-observability-logging",
+            "virtual_path": "docs/admin_guide/observability/logging/index.md"
+          },
+          {
+            "title": "Metrics",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/observability/metrics/intro/",
+            "anchor": "admin_guide-observability-metrics-intro",
+            "virtual_path": "docs/admin_guide/observability/metrics/intro/index.md",
+            "children": [
+              {
+                "title": "Tenant-level Metrics",
+                "kind": "link",
+                "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/observability/metrics/tenantmetrics/",
+                "anchor": "admin_guide-observability-metrics-tenantmetrics",
+                "virtual_path": "docs/admin_guide/observability/metrics/tenantmetrics/index.md"
+              }
+            ]
+          },
+          {
+            "title": "Events",
+            "kind": "link",
+            "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/observability/events/",
+            "anchor": "admin_guide-observability-events",
+            "virtual_path": "docs/admin_guide/observability/events/index.md"
+          }
+        ]
+      },
+      {
+        "title": "Security",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/admin_guide/security/intro/",
+        "anchor": "admin_guide-security-intro",
+        "virtual_path": "docs/admin_guide/security/intro/index.md"
+      }
+    ]
+  },
+  {
+    "title": "Benchmark",
+    "kind": "link",
+    "source_url": "https://bifromq.incubator.apache.org/docs/benchmark/overview/",
+    "anchor": "benchmark-overview",
+    "virtual_path": "docs/benchmark/overview/index.md"
+  },
+  {
+    "title": "Contribution Guide",
+    "kind": "link",
+    "source_url": "https://bifromq.incubator.apache.org/docs/contribution_guide/intro/",
+    "anchor": "contribution_guide-intro",
+    "virtual_path": "docs/contribution_guide/intro/index.md",
+    "children": [
+      {
+        "title": "Code Contribution",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/contribution_guide/code_contribution/",
+        "anchor": "contribution_guide-code_contribution",
+        "virtual_path": "docs/contribution_guide/code_contribution/index.md"
+      },
+      {
+        "title": "Code Review",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/contribution_guide/code_review/",
+        "anchor": "contribution_guide-code_review",
+        "virtual_path": "docs/contribution_guide/code_review/index.md"
+      },
+      {
+        "title": "Documentation Contribution",
+        "kind": "link",
+        "source_url": "https://bifromq.incubator.apache.org/docs/contribution_guide/documentation_contribution/",
+        "anchor": "contribution_guide-documentation_contribution",
+        "virtual_path": "docs/contribution_guide/documentation_contribution/index.md"
+      }
+    ]
+  }
+]
