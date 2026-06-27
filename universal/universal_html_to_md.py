@@ -2,7 +2,7 @@
 """Convert HTML documentation sites into a Markdown bundle."""
 
 
-
+"""
 from __future__ import annotations
 
 import argparse
@@ -2371,6 +2371,7 @@ def nav_internal_doc_link_count(
             continue
         if not url_path_in_prefix(abs_url, site_prefix):
             continue
+
         if Path(parts.path).suffix.lower() not in DOC_PAGE_EXTENSIONS:
             continue
         if query_looks_search_like(abs_url):
@@ -2464,6 +2465,7 @@ def is_doc_link_hub(
     text_len = len(clean_text(node.get_text(" ", strip=True)))
     if headings == 0 and lists == 0:
         return False
+
     if docish >= 2:
         return True
     return paragraphs <= 3 and text_len <= 12000
@@ -3199,6 +3201,7 @@ def _collect_nav_href_keys(nodes: List[NavNode], out: Set[str]) -> None:
 
 
 
+
 def _collect_nav_href_title_keys(nodes: List[NavNode], out: Set[Tuple[str, str]]) -> None:
     for node in nodes:
         href_key = normalize_nav_href_key(node.href)
@@ -3261,6 +3264,7 @@ def merge_nav_lists(dst: List[NavNode], src: List[NavNode]) -> None:
             if dst_node.title and src_node.title:
                 dst_sluggy = "_" in dst_node.title or "-" in dst_node.title
                 src_cleaner = "_" not in src_node.title and len(src_node.title) >= len(dst_node.title.replace("_", " "))
+
                 if dst_sluggy and src_cleaner:
                     dst_node.title = src_node.title
             if src_node.children:
@@ -3577,6 +3581,7 @@ def has_block_descendants(parent: Tag) -> bool:
     return False
 
 
+
 def replace_inline_breaks(root: Tag) -> None:
     for br in list(root.find_all("br")):
         parent = br.parent
@@ -3763,6 +3768,7 @@ def normalize_shell_fragments(parts: List[str]) -> str:
     prompt = parts[0]
     rest = [frag.strip() for frag in parts[1:] if frag.strip()]
     if not rest:
+
         return prompt
     merged = prompt.rstrip()
     for frag in rest:
@@ -3857,6 +3863,7 @@ def table_has_layout_attrs(table: Tag) -> bool:
     cellspacing = str(table.get("cellspacing") or "").strip()
     width = str(table.get("width") or "").strip()
     if border in {"0", "", "none"} and (width in {"100%", "100", ""} or cellpadding or cellspacing):
+
         return True
     return False
 
@@ -3943,6 +3950,7 @@ def looks_like_layout_table(node: Tag) -> bool:
 
     # Nested tables are almost always old-school page layout or a table wrapper.
     # The inner data table should be preserved, the outer wrapper should not.
+
     if table_has_nested_tables(node):
         return True
 
@@ -4167,6 +4175,7 @@ def render_complex_block(node: Tag) -> str:
         if looks_like_data_table(node):
             return render_html_table(node)
         return flatten_layout_table_to_markdown(node)
+
     clone = clone_tag(node)
     sanitize_raw_html_tree(clone)
     return "\n" + str(clone) + "\n"
@@ -4249,6 +4258,7 @@ def render_code_block(pre: Tag) -> str:
     while fence in text:
         fence += "`"
     return f"\n{fence}{language}\n{text}\n{fence}\n"
+
 
 
 def render_admonition_block(node: Tag) -> str:
@@ -4447,6 +4457,7 @@ def postprocess_markdown(text: str) -> str:
     protected = collapse_accidental_hardbreaks(protected)
     protected = re.sub(r"(\]\([^\)]+\))(?=\[)", r"\1\n", protected)
     protected = re.sub(r"\n{3,}", "\n\n", protected)
+
     protected = re.sub(r"[ \t]+\n", "\n", protected)
     protected = re.sub(r"\n([*-] )\n", r"\n\1", protected)
     text = restore_placeholders(protected, placeholders)
@@ -4509,6 +4520,7 @@ def extract_heading_nav_tree(
         try:
             level = int(heading.name[1])
         except Exception:
+
             level = 2
         fragment = heading_fragment_id(heading)
         if not fragment:
@@ -5056,6 +5068,7 @@ def parse_docusaurus_sidebar_item(item: object, entry_url: str, site_prefix: str
     if isinstance(item, str):
         href = docusaurus_doc_id_to_url(item, entry_url, site_prefix)
         return NavNode(title=title_from_doc_id(item), href=href, kind="link")
+
 
     if not isinstance(item, dict):
         return None
@@ -5952,6 +5965,7 @@ class UniversalDocsConverter:
             if canon in self.pages and canon in self.url_to_anchor:
                 target_anchor = self.url_to_anchor[canon]
                 if frag:
+
                     target_anchor = compose_heading_anchor(target_anchor, frag)
                 a["href"] = "#" + target_anchor
                 continue
@@ -6427,3 +6441,5 @@ def main(argv: Optional[List[str]] = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+"""
